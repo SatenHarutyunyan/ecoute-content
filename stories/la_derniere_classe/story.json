@@ -1,0 +1,7030 @@
+{
+ "id": "la_derniere_classe",
+ "lang": "fr",
+ "title": "La Dernière Classe",
+ "author": "Alphonse Daudet",
+ "level": "B2",
+ "series": "",
+ "episode": "",
+ "note": "Alsace, 1871: France has lost the war against Prussia, and Alsace now belongs to Germany, so German becomes compulsory in its schools. A young boy, Franz, tells the story of his teacher's very last French lesson. The story often uses the passé simple, a literary past tense: when you hear \"je vis\" or \"il dit\", just think \"I saw\", \"he said\".",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 31782,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Ce matin-là, j'étais très en retard pour aller à l'école,",
+   "en": "That morning, I was very late going to school,",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7338,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     61782,
+     5058
+    ],
+    "frs": [
+     66840,
+     7338
+    ],
+    "en": [
+     74178,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "et j'avais grand-peur d'être grondé,",
+   "en": "and I was very afraid of being scolded,",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "grondé",
+     "en": "scolded"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2730,
+    "gl": 5786
+   },
+   "bank": {
+    "fr": [
+     77244,
+     3306
+    ],
+    "frs": [
+     80550,
+     4722
+    ],
+    "en": [
+     85272,
+     2730
+    ],
+    "gl": [
+     88002,
+     5786
+    ]
+   }
+  },
+  {
+   "fr": "d'autant que Monsieur Hamel nous avait dit",
+   "en": "especially as Monsieur Hamel had told us",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     93788,
+     3738
+    ],
+    "frs": [
+     97526,
+     5346
+    ],
+    "en": [
+     102872,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "qu'il nous interrogerait sur les participes,",
+   "en": "that he would question us on participles,",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     106178,
+     3690
+    ],
+    "frs": [
+     109868,
+     5274
+    ],
+    "en": [
+     115142,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "et je n'en savais pas le premier mot.",
+   "en": "and I didn't know the first word of them.",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     117848,
+     3210
+    ],
+    "frs": [
+     121058,
+     4554
+    ],
+    "en": [
+     125612,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Un moment l'idée me vint de manquer la classe",
+   "en": "For a moment the idea came to me to skip class",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3"
+   },
+   "ms": {
+    "fr": 3954,
+    "frs": 5682,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     127934,
+     3954
+    ],
+    "frs": [
+     131888,
+     5682
+    ],
+    "en": [
+     137570,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "et de prendre ma course à travers champs.",
+   "en": "and to run off across the fields.",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     140996,
+     3522
+    ],
+    "frs": [
+     144518,
+     5010
+    ],
+    "en": [
+     149528,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "Le temps était si chaud, si clair !",
+   "en": "The weather was so warm, so bright!",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     152114,
+     3810
+    ],
+    "frs": [
+     155924,
+     5442
+    ],
+    "en": [
+     161366,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "On entendait les merles siffler à la lisière du bois,",
+   "en": "You could hear the blackbirds whistling at the edge of the wood,",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "merles",
+     "en": "blackbirds"
+    },
+    {
+     "fr": "lisière",
+     "en": "edge (of a wood)"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 3690,
+    "gl": 11122
+   },
+   "bank": {
+    "fr": [
+     164408,
+     4146
+    ],
+    "frs": [
+     168554,
+     5970
+    ],
+    "en": [
+     174524,
+     3690
+    ],
+    "gl": [
+     178214,
+     11122
+    ]
+   }
+  },
+  {
+   "fr": "et dans le pré Rippert, derrière la scierie,",
+   "en": "and in the Rippert meadow, behind the sawmill,",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "scierie",
+     "en": "sawmill"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 3210,
+    "gl": 5594
+   },
+   "bank": {
+    "fr": [
+     189336,
+     3906
+    ],
+    "frs": [
+     193242,
+     5610
+    ],
+    "en": [
+     198852,
+     3210
+    ],
+    "gl": [
+     202062,
+     5594
+    ]
+   }
+  },
+  {
+   "fr": "les Prussiens qui faisaient l'exercice.",
+   "en": "the Prussians doing their drill.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     207656,
+     3570
+    ],
+    "frs": [
+     211226,
+     5106
+    ],
+    "en": [
+     216332,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "Tout cela me tentait bien plus que la règle des participes ;",
+   "en": "All that tempted me much more than the rule of participles;",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 4170
+   },
+   "bank": {
+    "fr": [
+     218582,
+     4530
+    ],
+    "frs": [
+     223112,
+     6546
+    ],
+    "en": [
+     229658,
+     4170
+    ]
+   }
+  },
+  {
+   "fr": "mais j'eus la force de résister,",
+   "en": "but I had the strength to resist,",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     233828,
+     3234
+    ],
+    "frs": [
+     237062,
+     4602
+    ],
+    "en": [
+     241664,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "et je courus bien vite vers l'école.",
+   "en": "and I ran very fast towards the school.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     244226,
+     3618
+    ],
+    "frs": [
+     247844,
+     5154
+    ],
+    "en": [
+     252998,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "En passant devant la mairie,",
+   "en": "As I passed the town hall,",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 2058
+   },
+   "bank": {
+    "fr": [
+     255848,
+     2922
+    ],
+    "frs": [
+     258770,
+     4146
+    ],
+    "en": [
+     262916,
+     2058
+    ]
+   }
+  },
+  {
+   "fr": "je vis qu'il y avait du monde arrêté",
+   "en": "I saw that there were people standing",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     264974,
+     3498
+    ],
+    "frs": [
+     268472,
+     4986
+    ],
+    "en": [
+     273458,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "près du petit grillage aux affiches.",
+   "en": "near the little wire-mesh notice board.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "grillage aux affiches",
+     "en": "wire-mesh notice board"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2778,
+    "gl": 6770
+   },
+   "bank": {
+    "fr": [
+     275876,
+     3498
+    ],
+    "frs": [
+     279374,
+     4986
+    ],
+    "en": [
+     284360,
+     2778
+    ],
+    "gl": [
+     287138,
+     6770
+    ]
+   }
+  },
+  {
+   "fr": "Depuis deux ans, c'est de là que nous sont venues toutes les mauvaises nouvelles,",
+   "en": "For two years, it was from there that all the bad news had come to us,",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 5346,
+    "frs": 7794,
+    "en": 4410
+   },
+   "bank": {
+    "fr": [
+     293908,
+     5346
+    ],
+    "frs": [
+     299254,
+     7794
+    ],
+    "en": [
+     307048,
+     4410
+    ]
+   }
+  },
+  {
+   "fr": "les batailles perdues, les réquisitions,",
+   "en": "the lost battles, the requisitions,",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "réquisitions",
+     "en": "requisitions, goods seized by the army"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "gl": "audio/s019_gl.mp3"
+   },
+   "ms": {
+    "fr": 3954,
+    "frs": 5682,
+    "en": 3066,
+    "gl": 7418
+   },
+   "bank": {
+    "fr": [
+     311458,
+     3954
+    ],
+    "frs": [
+     315412,
+     5682
+    ],
+    "en": [
+     321094,
+     3066
+    ],
+    "gl": [
+     324160,
+     7418
+    ]
+   }
+  },
+  {
+   "fr": "les ordres de la commandature ;",
+   "en": "the orders from the German headquarters;",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "commandature",
+     "en": "German military headquarters"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2658,
+    "gl": 6338
+   },
+   "bank": {
+    "fr": [
+     331578,
+     3378
+    ],
+    "frs": [
+     334956,
+     4818
+    ],
+    "en": [
+     339774,
+     2658
+    ],
+    "gl": [
+     342432,
+     6338
+    ]
+   }
+  },
+  {
+   "fr": "et je pensai sans m'arrêter :",
+   "en": "and I thought without stopping:",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     348770,
+     3114
+    ],
+    "frs": [
+     351884,
+     4434
+    ],
+    "en": [
+     356318,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Qu'est-ce qu'il y a encore ? »",
+   "en": "\"What is it now?\"",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     358640,
+     2730
+    ],
+    "frs": [
+     361370,
+     3834
+    ],
+    "en": [
+     365204,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Alors, comme je traversais la place en courant,",
+   "en": "Then, as I was running across the square,",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 3138
+   },
+   "bank": {
+    "fr": [
+     367526,
+     4410
+    ],
+    "frs": [
+     371936,
+     6354
+    ],
+    "en": [
+     378290,
+     3138
+    ]
+   }
+  },
+  {
+   "fr": "le forgeron Wachter, qui était là avec son apprenti",
+   "en": "Wachter the blacksmith, who was there with his apprentice",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "forgeron",
+     "en": "blacksmith"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "gl": "audio/s024_gl.mp3"
+   },
+   "ms": {
+    "fr": 5106,
+    "frs": 7410,
+    "en": 3594,
+    "gl": 5954
+   },
+   "bank": {
+    "fr": [
+     381428,
+     5106
+    ],
+    "frs": [
+     386534,
+     7410
+    ],
+    "en": [
+     393944,
+     3594
+    ],
+    "gl": [
+     397538,
+     5954
+    ]
+   }
+  },
+  {
+   "fr": "en train de lire l'affiche, me cria :",
+   "en": "reading the notice, shouted to me:",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     403492,
+     3834
+    ],
+    "frs": [
+     407326,
+     5490
+    ],
+    "en": [
+     412816,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "« Ne te dépêche pas tant, petit ;",
+   "en": "\"Don't hurry so much, little one;",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     415330,
+     3546
+    ],
+    "frs": [
+     418876,
+     5058
+    ],
+    "en": [
+     423934,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "tu y arriveras toujours assez tôt à ton école ! »",
+   "en": "you'll get to your school soon enough anyway!\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5874,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     426592,
+     4074
+    ],
+    "frs": [
+     430666,
+     5874
+    ],
+    "en": [
+     436540,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "Je crus qu'il se moquait de moi,",
+   "en": "I thought he was making fun of me,",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     439174,
+     3258
+    ],
+    "frs": [
+     442432,
+     4626
+    ],
+    "en": [
+     447058,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et j'entrai tout essoufflé dans la petite cour de Monsieur Hamel.",
+   "en": "and I came, all out of breath, into Monsieur Hamel's little yard.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "essoufflé",
+     "en": "out of breath"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7098,
+    "en": 4818,
+    "gl": 5066
+   },
+   "bank": {
+    "fr": [
+     449380,
+     4890
+    ],
+    "frs": [
+     454270,
+     7098
+    ],
+    "en": [
+     461368,
+     4818
+    ],
+    "gl": [
+     466186,
+     5066
+    ]
+   }
+  },
+  {
+   "fr": "D'ordinaire, au commencement de la classe,",
+   "en": "Usually, at the beginning of class,",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5730,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     471252,
+     3978
+    ],
+    "frs": [
+     475230,
+     5730
+    ],
+    "en": [
+     480960,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "il se faisait un grand tapage qu'on entendait jusque dans la rue :",
+   "en": "there was a great racket that you could hear all the way out in the street:",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "tapage",
+     "en": "racket, loud noise"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "gl": "audio/s031_gl.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 4242,
+    "gl": 5906
+   },
+   "bank": {
+    "fr": [
+     483786,
+     4794
+    ],
+    "frs": [
+     488580,
+     6930
+    ],
+    "en": [
+     495510,
+     4242
+    ],
+    "gl": [
+     499752,
+     5906
+    ]
+   }
+  },
+  {
+   "fr": "les pupitres ouverts, fermés,",
+   "en": "desks opened, closed,",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "pupitres",
+     "en": "school desks"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "gl": "audio/s032_gl.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2274,
+    "gl": 5810
+   },
+   "bank": {
+    "fr": [
+     505658,
+     3666
+    ],
+    "frs": [
+     509324,
+     5250
+    ],
+    "en": [
+     514574,
+     2274
+    ],
+    "gl": [
+     516848,
+     5810
+    ]
+   }
+  },
+  {
+   "fr": "les leçons qu'on répétait très haut, tous ensemble,",
+   "en": "lessons repeated very loudly, all together,",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6378,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     522658,
+     4410
+    ],
+    "frs": [
+     527068,
+     6378
+    ],
+    "en": [
+     533446,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "en se bouchant les oreilles pour mieux apprendre,",
+   "en": "with our hands over our ears to learn better,",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5634,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     537184,
+     3930
+    ],
+    "frs": [
+     541114,
+     5634
+    ],
+    "en": [
+     546748,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "et la grosse règle du maître qui tapait sur les tables :",
+   "en": "and the teacher's big ruler banging on the tables:",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6234,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     550150,
+     4338
+    ],
+    "frs": [
+     554488,
+     6234
+    ],
+    "en": [
+     560722,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "« Un peu de silence ! »",
+   "en": "\"A little quiet!\"",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3738,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     564268,
+     2658
+    ],
+    "frs": [
+     566926,
+     3738
+    ],
+    "en": [
+     570664,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Je comptais sur tout ce train pour gagner mon banc sans être vu ;",
+   "en": "I was counting on all that noise to reach my bench without being seen;",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6810,
+    "en": 4650
+   },
+   "bank": {
+    "fr": [
+     572986,
+     4698
+    ],
+    "frs": [
+     577684,
+     6810
+    ],
+    "en": [
+     584494,
+     4650
+    ]
+   }
+  },
+  {
+   "fr": "mais, justement, ce jour-là, tout était tranquille,",
+   "en": "but, as it happened, that day, everything was quiet,",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     589144,
+     5154
+    ],
+    "frs": [
+     594298,
+     7482
+    ],
+    "en": [
+     601780,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "comme un matin de dimanche.",
+   "en": "like a Sunday morning.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     606070,
+     2994
+    ],
+    "frs": [
+     609064,
+     4218
+    ],
+    "en": [
+     613282,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Par la fenêtre ouverte,",
+   "en": "Through the open window,",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4194,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     615604,
+     2970
+    ],
+    "frs": [
+     618574,
+     4194
+    ],
+    "en": [
+     622768,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "je voyais mes camarades déjà rangés à leurs places,",
+   "en": "I could see my classmates already lined up in their places,",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     625090,
+     4458
+    ],
+    "frs": [
+     629548,
+     6450
+    ],
+    "en": [
+     635998,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "et Monsieur Hamel, qui passait et repassait",
+   "en": "and Monsieur Hamel, walking up and down",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     639760,
+     4170
+    ],
+    "frs": [
+     643930,
+     5994
+    ],
+    "en": [
+     649924,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "avec la terrible règle en fer sous le bras.",
+   "en": "with the terrible iron ruler under his arm.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     652918,
+     3810
+    ],
+    "frs": [
+     656728,
+     5442
+    ],
+    "en": [
+     662170,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "Il fallut ouvrir la porte et entrer au milieu de ce grand calme.",
+   "en": "I had to open the door and walk in, in the middle of that great calm.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 4962,
+    "frs": 7170,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     665404,
+     4962
+    ],
+    "frs": [
+     670366,
+     7170
+    ],
+    "en": [
+     677536,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "Vous pensez, si j'étais rouge et si j'avais peur !",
+   "en": "You can imagine how red I was and how scared!",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6282,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     681994,
+     4362
+    ],
+    "frs": [
+     686356,
+     6282
+    ],
+    "en": [
+     692638,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "Eh bien, non !",
+   "en": "Well, no!",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     696232,
+     2730
+    ],
+    "frs": [
+     698962,
+     3834
+    ],
+    "en": [
+     702796,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Hamel me regarda sans colère et me dit très doucement :",
+   "en": "Monsieur Hamel looked at me without anger and said to me very gently:",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 4698
+   },
+   "bank": {
+    "fr": [
+     705118,
+     4722
+    ],
+    "frs": [
+     709840,
+     6834
+    ],
+    "en": [
+     716674,
+     4698
+    ]
+   }
+  },
+  {
+   "fr": "« Va vite à ta place, mon petit Franz ;",
+   "en": "\"Go quickly to your seat, my little Franz;",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 4218,
+    "frs": 6066,
+    "en": 3210
+   },
+   "bank": {
+    "fr": [
+     721372,
+     4218
+    ],
+    "frs": [
+     725590,
+     6066
+    ],
+    "en": [
+     731656,
+     3210
+    ]
+   }
+  },
+  {
+   "fr": "nous allions commencer sans toi. »",
+   "en": "we were about to start without you.\"",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     734866,
+     3258
+    ],
+    "frs": [
+     738124,
+     4626
+    ],
+    "en": [
+     742750,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "J'enjambai le banc et je m'assis tout de suite à mon pupitre.",
+   "en": "I stepped over the bench and sat down at once at my desk.",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "enjambai",
+     "en": "stepped over"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3",
+    "gl": "audio/s050_gl.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3834,
+    "gl": 5834
+   },
+   "bank": {
+    "fr": [
+     745192,
+     4746
+    ],
+    "frs": [
+     749938,
+     6858
+    ],
+    "en": [
+     756796,
+     3834
+    ],
+    "gl": [
+     760630,
+     5834
+    ]
+   }
+  },
+  {
+   "fr": "Alors seulement, un peu remis de ma frayeur,",
+   "en": "Only then, a little recovered from my fright,",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "frayeur",
+     "en": "fright"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3",
+    "gl": "audio/s051_gl.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3354,
+    "gl": 4778
+   },
+   "bank": {
+    "fr": [
+     766464,
+     4242
+    ],
+    "frs": [
+     770706,
+     6090
+    ],
+    "en": [
+     776796,
+     3354
+    ],
+    "gl": [
+     780150,
+     4778
+    ]
+   }
+  },
+  {
+   "fr": "je remarquai que notre maître avait sa belle redingote verte,",
+   "en": "did I notice that our teacher had on his fine green frock coat,",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "redingote",
+     "en": "frock coat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3",
+    "gl": "audio/s052_gl.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 4026,
+    "gl": 5282
+   },
+   "bank": {
+    "fr": [
+     784928,
+     4818
+    ],
+    "frs": [
+     789746,
+     6978
+    ],
+    "en": [
+     796724,
+     4026
+    ],
+    "gl": [
+     800750,
+     5282
+    ]
+   }
+  },
+  {
+   "fr": "son jabot plissé fin",
+   "en": "his finely pleated shirt frill",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "jabot",
+     "en": "ruffled shirt front"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3",
+    "gl": "audio/s053_gl.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4194,
+    "en": 2538,
+    "gl": 5258
+   },
+   "bank": {
+    "fr": [
+     806032,
+     2970
+    ],
+    "frs": [
+     809002,
+     4194
+    ],
+    "en": [
+     813196,
+     2538
+    ],
+    "gl": [
+     815734,
+     5258
+    ]
+   }
+  },
+  {
+   "fr": "et la calotte de soie noire brodée",
+   "en": "and the embroidered black silk skullcap",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "calotte",
+     "en": "skullcap"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3",
+    "gl": "audio/s054_gl.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5202,
+    "en": 3042,
+    "gl": 5738
+   },
+   "bank": {
+    "fr": [
+     820992,
+     3642
+    ],
+    "frs": [
+     824634,
+     5202
+    ],
+    "en": [
+     829836,
+     3042
+    ],
+    "gl": [
+     832878,
+     5738
+    ]
+   }
+  },
+  {
+   "fr": "qu'il ne mettait que les jours d'inspection ou de distribution de prix.",
+   "en": "that he wore only on inspection days or prize-giving days.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7386,
+    "en": 4026
+   },
+   "bank": {
+    "fr": [
+     838616,
+     5082
+    ],
+    "frs": [
+     843698,
+     7386
+    ],
+    "en": [
+     851084,
+     4026
+    ]
+   }
+  },
+  {
+   "fr": "Du reste, toute la classe avait quelque chose d'extraordinaire et de solennel.",
+   "en": "Besides, the whole class had something extraordinary and solemn about it.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 6138,
+    "frs": 8970,
+    "en": 4938
+   },
+   "bank": {
+    "fr": [
+     855110,
+     6138
+    ],
+    "frs": [
+     861248,
+     8970
+    ],
+    "en": [
+     870218,
+     4938
+    ]
+   }
+  },
+  {
+   "fr": "Mais ce qui me surprit le plus,",
+   "en": "But what surprised me most",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4650,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     875156,
+     3282
+    ],
+    "frs": [
+     878438,
+     4650
+    ],
+    "en": [
+     883088,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "ce fut de voir au fond de la salle,",
+   "en": "was to see, at the back of the room,",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     885410,
+     3474
+    ],
+    "frs": [
+     888884,
+     4962
+    ],
+    "en": [
+     893846,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "sur les bancs qui restaient vides d'habitude,",
+   "en": "on the benches that usually stayed empty,",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     896600,
+     3666
+    ],
+    "frs": [
+     900266,
+     5250
+    ],
+    "en": [
+     905516,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "des gens du village assis et silencieux comme nous :",
+   "en": "people from the village sitting there, silent like us:",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     908270,
+     4026
+    ],
+    "frs": [
+     912296,
+     5778
+    ],
+    "en": [
+     918074,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "le vieux Hauser avec son tricorne,",
+   "en": "old Hauser with his three-cornered hat,",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "tricorne",
+     "en": "three-cornered hat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3",
+    "gl": "audio/s061_gl.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5178,
+    "en": 2826,
+    "gl": 5906
+   },
+   "bank": {
+    "fr": [
+     921716,
+     3618
+    ],
+    "frs": [
+     925334,
+     5178
+    ],
+    "en": [
+     930512,
+     2826
+    ],
+    "gl": [
+     933338,
+     5906
+    ]
+   }
+  },
+  {
+   "fr": "l'ancien maire, l'ancien facteur,",
+   "en": "the former mayor, the former postman,",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     939244,
+     3930
+    ],
+    "frs": [
+     943174,
+     5658
+    ],
+    "en": [
+     948832,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "et puis d'autres personnes encore.",
+   "en": "and some other people too.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     951706,
+     3306
+    ],
+    "frs": [
+     955012,
+     4698
+    ],
+    "en": [
+     959710,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Tout ce monde-là paraissait triste ;",
+   "en": "All those people looked sad;",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4794,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     962032,
+     3378
+    ],
+    "frs": [
+     965410,
+     4794
+    ],
+    "en": [
+     970204,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "et Hauser avait apporté un vieil abécédaire mangé aux bords,",
+   "en": "and Hauser had brought an old ABC book, worn at the edges,",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "abécédaire",
+     "en": "ABC book, primer"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3",
+    "gl": "audio/s065_gl.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 4698,
+    "gl": 6194
+   },
+   "bank": {
+    "fr": [
+     972574,
+     4818
+    ],
+    "frs": [
+     977392,
+     6978
+    ],
+    "en": [
+     984370,
+     4698
+    ],
+    "gl": [
+     989068,
+     6194
+    ]
+   }
+  },
+  {
+   "fr": "qu'il tenait grand ouvert sur ses genoux,",
+   "en": "which he held wide open on his knees,",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4914,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     995262,
+     3450
+    ],
+    "frs": [
+     998712,
+     4914
+    ],
+    "en": [
+     1003626,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "avec ses grosses lunettes posées en travers des pages.",
+   "en": "with his big glasses lying across the pages.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     1006596,
+     4434
+    ],
+    "frs": [
+     1011030,
+     6378
+    ],
+    "en": [
+     1017408,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "Pendant que je m'étonnais de tout cela,",
+   "en": "While I was wondering at all this,",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1020738,
+     3402
+    ],
+    "frs": [
+     1024140,
+     4866
+    ],
+    "en": [
+     1029006,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Hamel était monté dans sa chaire,",
+   "en": "Monsieur Hamel had climbed up to his desk,",
+   "para": 15,
+   "glosses": [
+    {
+     "fr": "chaire",
+     "en": "teacher's raised desk"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3",
+    "gl": "audio/s069_gl.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2994,
+    "gl": 5570
+   },
+   "bank": {
+    "fr": [
+     1031328,
+     3786
+    ],
+    "frs": [
+     1035114,
+     5418
+    ],
+    "en": [
+     1040532,
+     2994
+    ],
+    "gl": [
+     1043526,
+     5570
+    ]
+   }
+  },
+  {
+   "fr": "et de la même voix douce et grave dont il m'avait reçu,",
+   "en": "and in the same gentle and serious voice with which he had greeted me,",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 4434
+   },
+   "bank": {
+    "fr": [
+     1049096,
+     4194
+    ],
+    "frs": [
+     1053290,
+     6042
+    ],
+    "en": [
+     1059332,
+     4434
+    ]
+   }
+  },
+  {
+   "fr": "il nous dit :",
+   "en": "he said to us:",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3162,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1063766,
+     2322
+    ],
+    "frs": [
+     1066088,
+     3162
+    ],
+    "en": [
+     1069250,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Mes enfants, c'est la dernière fois que je vous fais la classe.",
+   "en": "\"My children, this is the last time I will teach you.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7170,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     1071572,
+     4938
+    ],
+    "frs": [
+     1076510,
+     7170
+    ],
+    "en": [
+     1083680,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "L'ordre est venu de Berlin",
+   "en": "The order has come from Berlin",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1087274,
+     3018
+    ],
+    "frs": [
+     1090292,
+     4266
+    ],
+    "en": [
+     1094558,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "de ne plus enseigner que l'allemand",
+   "en": "to teach nothing but German",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     1096880,
+     3282
+    ],
+    "frs": [
+     1100162,
+     4674
+    ],
+    "en": [
+     1104836,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "dans les écoles de l'Alsace et de la Lorraine…",
+   "en": "in the schools of Alsace and Lorraine…",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     1107206,
+     4002
+    ],
+    "frs": [
+     1111208,
+     5754
+    ],
+    "en": [
+     1116962,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "Le nouveau maître arrive demain.",
+   "en": "The new teacher arrives tomorrow.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4482,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1119788,
+     3138
+    ],
+    "frs": [
+     1122926,
+     4482
+    ],
+    "en": [
+     1127408,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "Aujourd'hui, c'est votre dernière leçon de français.",
+   "en": "Today is your last French lesson.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     1129946,
+     4458
+    ],
+    "frs": [
+     1134404,
+     6450
+    ],
+    "en": [
+     1140854,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Je vous prie d'être bien attentifs. »",
+   "en": "I beg you to pay close attention.\"",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     1143416,
+     3474
+    ],
+    "frs": [
+     1146890,
+     4962
+    ],
+    "en": [
+     1151852,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Ces quelques paroles me bouleversèrent.",
+   "en": "Those few words overwhelmed me.",
+   "para": 17,
+   "glosses": [
+    {
+     "fr": "bouleversèrent",
+     "en": "deeply shook, overwhelmed"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3",
+    "gl": "audio/s079_gl.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5178,
+    "en": 2562,
+    "gl": 6362
+   },
+   "bank": {
+    "fr": [
+     1154318,
+     3618
+    ],
+    "frs": [
+     1157936,
+     5178
+    ],
+    "en": [
+     1163114,
+     2562
+    ],
+    "gl": [
+     1165676,
+     6362
+    ]
+   }
+  },
+  {
+   "fr": "Ah ! les misérables,",
+   "en": "Ah! the wretches,",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3"
+   },
+   "ms": {
+    "fr": 3954,
+    "frs": 5682,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     1172038,
+     3954
+    ],
+    "frs": [
+     1175992,
+     5682
+    ],
+    "en": [
+     1181674,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "voilà ce qu'ils avaient affiché à la mairie.",
+   "en": "so that's what they had posted at the town hall.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     1183828,
+     3858
+    ],
+    "frs": [
+     1187686,
+     5538
+    ],
+    "en": [
+     1193224,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "Ma dernière leçon de français !…",
+   "en": "My last French lesson!…",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2058
+   },
+   "bank": {
+    "fr": [
+     1195930,
+     3210
+    ],
+    "frs": [
+     1199140,
+     4554
+    ],
+    "en": [
+     1203694,
+     2058
+    ]
+   }
+  },
+  {
+   "fr": "Et moi qui savais à peine écrire !",
+   "en": "And I could hardly write!",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4914,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1205752,
+     3450
+    ],
+    "frs": [
+     1209202,
+     4914
+    ],
+    "en": [
+     1214116,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Je n'apprendrais donc jamais !",
+   "en": "So I would never learn!",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3"
+   },
+   "ms": {
+    "fr": 3162,
+    "frs": 4482,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1216438,
+     3162
+    ],
+    "frs": [
+     1219600,
+     4482
+    ],
+    "en": [
+     1224082,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il faudrait donc en rester là !",
+   "en": "So I would have to stop there!",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1226404,
+     3186
+    ],
+    "frs": [
+     1229590,
+     4506
+    ],
+    "en": [
+     1234096,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Comme je m'en voulais maintenant du temps perdu,",
+   "en": "How I blamed myself now for the time I'd wasted,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     1236418,
+     3690
+    ],
+    "frs": [
+     1240108,
+     5274
+    ],
+    "en": [
+     1245382,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "des classes manquées à courir les nids",
+   "en": "for the classes I'd skipped to go looking for birds' nests",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     1248808,
+     3570
+    ],
+    "frs": [
+     1252378,
+     5106
+    ],
+    "en": [
+     1257484,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "ou à faire des glissades sur la Saar !",
+   "en": "or to slide on the ice on the Saar river!",
+   "para": 19,
+   "glosses": [
+    {
+     "fr": "glissades",
+     "en": "slides on the ice"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3",
+    "gl": "audio/s088_gl.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 2946,
+    "gl": 5906
+   },
+   "bank": {
+    "fr": [
+     1261102,
+     3738
+    ],
+    "frs": [
+     1264840,
+     5346
+    ],
+    "en": [
+     1270186,
+     2946
+    ],
+    "gl": [
+     1273132,
+     5906
+    ]
+   }
+  },
+  {
+   "fr": "Mes livres que tout à l'heure encore",
+   "en": "My books, which only a moment ago",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     1279038,
+     3498
+    ],
+    "frs": [
+     1282536,
+     4986
+    ],
+    "en": [
+     1287522,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "je trouvais si ennuyeux, si lourds à porter,",
+   "en": "I found so boring, so heavy to carry,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     1290324,
+     4242
+    ],
+    "frs": [
+     1294566,
+     6090
+    ],
+    "en": [
+     1300656,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "ma grammaire, mon histoire sainte,",
+   "en": "my grammar book, my Bible history,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1303938,
+     3978
+    ],
+    "frs": [
+     1307916,
+     5706
+    ],
+    "en": [
+     1313622,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "me semblaient à présent de vieux amis",
+   "en": "now seemed to me like old friends",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5202,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     1316496,
+     3642
+    ],
+    "frs": [
+     1320138,
+     5202
+    ],
+    "en": [
+     1325340,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "qui me feraient beaucoup de peine à quitter.",
+   "en": "whom it would hurt me very much to leave.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     1328094,
+     3522
+    ],
+    "frs": [
+     1331616,
+     5034
+    ],
+    "en": [
+     1336650,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "C'est comme Monsieur Hamel.",
+   "en": "It was the same with Monsieur Hamel.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4170,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1339332,
+     2946
+    ],
+    "frs": [
+     1342278,
+     4170
+    ],
+    "en": [
+     1346448,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "L'idée qu'il allait partir, que je ne le verrais plus,",
+   "en": "The idea that he was going away, that I would never see him again,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6498,
+    "en": 4650
+   },
+   "bank": {
+    "fr": [
+     1348962,
+     4506
+    ],
+    "frs": [
+     1353468,
+     6498
+    ],
+    "en": [
+     1359966,
+     4650
+    ]
+   }
+  },
+  {
+   "fr": "me faisait oublier les punitions, les coups de règle.",
+   "en": "made me forget the punishments, the raps with the ruler.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     1364616,
+     4674
+    ],
+    "frs": [
+     1369290,
+     6738
+    ],
+    "en": [
+     1376028,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "Pauvre homme !",
+   "en": "Poor man!",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3210,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1379814,
+     2322
+    ],
+    "frs": [
+     1382136,
+     3210
+    ],
+    "en": [
+     1385346,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "C'est en l'honneur de cette dernière classe",
+   "en": "It was in honour of this last class",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     1387668,
+     3786
+    ],
+    "frs": [
+     1391454,
+     5418
+    ],
+    "en": [
+     1396872,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "qu'il avait mis ses beaux habits du dimanche,",
+   "en": "that he had put on his fine Sunday clothes,",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5202,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1399602,
+     3642
+    ],
+    "frs": [
+     1403244,
+     5202
+    ],
+    "en": [
+     1408446,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "et, maintenant, je comprenais",
+   "en": "and now I understood",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5274,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1411320,
+     3666
+    ],
+    "frs": [
+     1414986,
+     5274
+    ],
+    "en": [
+     1420260,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "pourquoi ces vieux du village étaient venus s'asseoir au bout de la salle.",
+   "en": "why those old village people had come to sit at the end of the room.",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     1422582,
+     5154
+    ],
+    "frs": [
+     1427736,
+     7482
+    ],
+    "en": [
+     1435218,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "Cela semblait dire qu'ils regrettaient",
+   "en": "It seemed to say that they were sorry",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1438860,
+     3474
+    ],
+    "frs": [
+     1442334,
+     4962
+    ],
+    "en": [
+     1447296,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "de ne pas y être venus plus souvent, à cette école.",
+   "en": "they had not come more often to this school.",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6594,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     1449834,
+     4578
+    ],
+    "frs": [
+     1454412,
+     6594
+    ],
+    "en": [
+     1461006,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "C'était aussi comme une façon de remercier notre maître",
+   "en": "It was also a way of thanking our teacher",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6426,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     1463640,
+     4458
+    ],
+    "frs": [
+     1468098,
+     6426
+    ],
+    "en": [
+     1474524,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "de ses quarante ans de bons services,",
+   "en": "for his forty years of good service,",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     1477230,
+     3426
+    ],
+    "frs": [
+     1480656,
+     4890
+    ],
+    "en": [
+     1485546,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "et de rendre leurs devoirs à la patrie qui s'en allait…",
+   "en": "and of paying their respects to the homeland that was slipping away…",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     1488324,
+     4026
+    ],
+    "frs": [
+     1492350,
+     5778
+    ],
+    "en": [
+     1498128,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "J'en étais là de mes réflexions,",
+   "en": "I had got that far in my thoughts",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     1502322,
+     3306
+    ],
+    "frs": [
+     1505628,
+     4698
+    ],
+    "en": [
+     1510326,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "quand j'entendis appeler mon nom.",
+   "en": "when I heard my name called.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1512768,
+     3114
+    ],
+    "frs": [
+     1515882,
+     4434
+    ],
+    "en": [
+     1520316,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "C'était mon tour de réciter.",
+   "en": "It was my turn to recite.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1522638,
+     3234
+    ],
+    "frs": [
+     1525872,
+     4602
+    ],
+    "en": [
+     1530474,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Que n'aurais-je pas donné pour pouvoir dire tout au long",
+   "en": "What wouldn't I have given to be able to say all the way through",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     1532796,
+     4242
+    ],
+    "frs": [
+     1537038,
+     6090
+    ],
+    "en": [
+     1543128,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "cette fameuse règle des participes,",
+   "en": "that famous rule of participles,",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     1546914,
+     3618
+    ],
+    "frs": [
+     1550532,
+     5154
+    ],
+    "en": [
+     1555686,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "bien haut, bien clair, sans une faute !",
+   "en": "nice and loud, nice and clear, without a single mistake!",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 4218,
+    "frs": 6066,
+    "en": 4626
+   },
+   "bank": {
+    "fr": [
+     1558272,
+     4218
+    ],
+    "frs": [
+     1562490,
+     6066
+    ],
+    "en": [
+     1568556,
+     4626
+    ]
+   }
+  },
+  {
+   "fr": "mais je m'embrouillai aux premiers mots,",
+   "en": "but I got mixed up at the first words,",
+   "para": 22,
+   "glosses": [
+    {
+     "fr": "m'embrouillai",
+     "en": "got mixed up"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3",
+    "gl": "audio/s113_gl.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4650,
+    "en": 2562,
+    "gl": 6050
+   },
+   "bank": {
+    "fr": [
+     1573182,
+     3282
+    ],
+    "frs": [
+     1576464,
+     4650
+    ],
+    "en": [
+     1581114,
+     2562
+    ],
+    "gl": [
+     1583676,
+     6050
+    ]
+   }
+  },
+  {
+   "fr": "et je restai debout à me balancer dans mon banc,",
+   "en": "and I stayed standing, swaying at my bench,",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5730,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     1589726,
+     3978
+    ],
+    "frs": [
+     1593704,
+     5730
+    ],
+    "en": [
+     1599434,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "le cœur gros, sans oser lever la tête.",
+   "en": "with a heavy heart, not daring to raise my head.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     1602668,
+     4242
+    ],
+    "frs": [
+     1606910,
+     6090
+    ],
+    "en": [
+     1613000,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "J'entendais Monsieur Hamel qui me parlait :",
+   "en": "I heard Monsieur Hamel speaking to me:",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1616594,
+     3738
+    ],
+    "frs": [
+     1620332,
+     5370
+    ],
+    "en": [
+     1625702,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "« Je ne te gronderai pas, mon petit Franz,",
+   "en": "\"I won't scold you, my little Franz,",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1628360,
+     4098
+    ],
+    "frs": [
+     1632458,
+     5898
+    ],
+    "en": [
+     1638356,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "tu dois être assez puni…",
+   "en": "you must be punished enough…",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2202
+   },
+   "bank": {
+    "fr": [
+     1641014,
+     2946
+    ],
+    "frs": [
+     1643960,
+     4146
+    ],
+    "en": [
+     1648106,
+     2202
+    ]
+   }
+  },
+  {
+   "fr": "Voilà ce que c'est.",
+   "en": "That's how it is.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1650308,
+     2634
+    ],
+    "frs": [
+     1652942,
+     3690
+    ],
+    "en": [
+     1656632,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Tous les jours on se dit :",
+   "en": "Every day we tell ourselves:",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     1658954,
+     2826
+    ],
+    "frs": [
+     1661780,
+     3978
+    ],
+    "en": [
+     1665758,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "Bah ! j'ai bien le temps. J'apprendrai demain.",
+   "en": "Bah! I have plenty of time. I'll learn tomorrow.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 6042,
+    "frs": 8802,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     1668344,
+     6042
+    ],
+    "frs": [
+     1674386,
+     8802
+    ],
+    "en": [
+     1683188,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "Et puis tu vois ce qui arrive…",
+   "en": "And then you see what happens…",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4482,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     1686926,
+     3138
+    ],
+    "frs": [
+     1690064,
+     4482
+    ],
+    "en": [
+     1694546,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Ah ! ç'a été le grand malheur de notre Alsace",
+   "en": "Ah! it has been the great misfortune of our Alsace",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7626,
+    "en": 4122
+   },
+   "bank": {
+    "fr": [
+     1696700,
+     5250
+    ],
+    "frs": [
+     1701950,
+     7626
+    ],
+    "en": [
+     1709576,
+     4122
+    ]
+   }
+  },
+  {
+   "fr": "de toujours remettre son instruction à demain.",
+   "en": "to always put off its education until tomorrow.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     1713698,
+     4050
+    ],
+    "frs": [
+     1717748,
+     5802
+    ],
+    "en": [
+     1723550,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Maintenant ces gens-là sont en droit de nous dire :",
+   "en": "Now those people have the right to say to us:",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     1727000,
+     4074
+    ],
+    "frs": [
+     1731074,
+     5850
+    ],
+    "en": [
+     1736924,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Comment ! Vous prétendiez être Français,",
+   "en": "What! You claimed to be French,",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6810,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     1739870,
+     4698
+    ],
+    "frs": [
+     1744568,
+     6810
+    ],
+    "en": [
+     1751378,
+     2610
+    ]
+   }
+  },
+  {
+   "fr": "et vous ne savez ni parler ni écrire votre langue !…",
+   "en": "and you can neither speak nor write your own language!…",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "frs": "audio/s127_frs.mp3",
+    "en": "audio/s127_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1753988,
+     4242
+    ],
+    "frs": [
+     1758230,
+     6090
+    ],
+    "en": [
+     1764320,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Dans tout ça, mon pauvre Franz,",
+   "en": "In all this, my poor Franz,",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "frs": "audio/s128_frs.mp3",
+    "en": "audio/s128_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     1767890,
+     3714
+    ],
+    "frs": [
+     1771604,
+     5322
+    ],
+    "en": [
+     1776926,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "ce n'est pas encore toi le plus coupable.",
+   "en": "you are still not the most to blame.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "frs": "audio/s129_frs.mp3",
+    "en": "audio/s129_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     1779368,
+     3714
+    ],
+    "frs": [
+     1783082,
+     5298
+    ],
+    "en": [
+     1788380,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Nous avons tous notre bonne part de reproches à nous faire.",
+   "en": "We all have our fair share of blame to take.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "frs": "audio/s130_frs.mp3",
+    "en": "audio/s130_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     1790750,
+     4674
+    ],
+    "frs": [
+     1795424,
+     6738
+    ],
+    "en": [
+     1802162,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "« Vos parents n'ont pas assez tenu à vous voir instruits.",
+   "en": "\"Your parents did not care enough about seeing you educated.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "frs": "audio/s131_frs.mp3",
+    "en": "audio/s131_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1805060,
+     4242
+    ],
+    "frs": [
+     1809302,
+     6114
+    ],
+    "en": [
+     1815416,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Ils aimaient mieux vous envoyer travailler à la terre ou aux filatures",
+   "en": "They preferred to send you to work on the land or in the spinning mills",
+   "para": 24,
+   "glosses": [
+    {
+     "fr": "filatures",
+     "en": "spinning mills"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "frs": "audio/s132_frs.mp3",
+    "en": "audio/s132_en.mp3",
+    "gl": "audio/s132_gl.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7266,
+    "en": 4410,
+    "gl": 5954
+   },
+   "bank": {
+    "fr": [
+     1818986,
+     5010
+    ],
+    "frs": [
+     1823996,
+     7266
+    ],
+    "en": [
+     1831262,
+     4410
+    ],
+    "gl": [
+     1835672,
+     5954
+    ]
+   }
+  },
+  {
+   "fr": "pour avoir quelques sous de plus.",
+   "en": "to have a few more pennies.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "frs": "audio/s133_frs.mp3",
+    "en": "audio/s133_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1841626,
+     3306
+    ],
+    "frs": [
+     1844932,
+     4698
+    ],
+    "en": [
+     1849630,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Moi-même, n'ai-je rien à me reprocher ?",
+   "en": "And I myself, have I nothing to reproach myself for?",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "frs": "audio/s134_frs.mp3",
+    "en": "audio/s134_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     1851952,
+     4050
+    ],
+    "frs": [
+     1856002,
+     5802
+    ],
+    "en": [
+     1861804,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "Est-ce que je ne vous ai pas souvent fait arroser mon jardin",
+   "en": "Didn't I often have you water my garden",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "frs": "audio/s135_frs.mp3",
+    "en": "audio/s135_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     1865710,
+     4386
+    ],
+    "frs": [
+     1870096,
+     6330
+    ],
+    "en": [
+     1876426,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "au lieu de travailler ?",
+   "en": "instead of working?",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "frs": "audio/s136_frs.mp3",
+    "en": "audio/s136_en.mp3"
+   },
+   "ms": {
+    "fr": 2802,
+    "frs": 3954,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1879252,
+     2802
+    ],
+    "frs": [
+     1882054,
+     3954
+    ],
+    "en": [
+     1886008,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et quand je voulais aller pêcher des truites,",
+   "en": "And when I wanted to go trout fishing,",
+   "para": 24,
+   "glosses": [
+    {
+     "fr": "truites",
+     "en": "trout"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "frs": "audio/s137_frs.mp3",
+    "en": "audio/s137_en.mp3",
+    "gl": "audio/s137_gl.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5178,
+    "en": 2442,
+    "gl": 4538
+   },
+   "bank": {
+    "fr": [
+     1888330,
+     3618
+    ],
+    "frs": [
+     1891948,
+     5178
+    ],
+    "en": [
+     1897126,
+     2442
+    ],
+    "gl": [
+     1899568,
+     4538
+    ]
+   }
+  },
+  {
+   "fr": "est-ce que je me gênais pour vous donner congé ?… »",
+   "en": "did I hesitate to give you a day off?…\"",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "frs": "audio/s138_frs.mp3",
+    "en": "audio/s138_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     1904106,
+     3714
+    ],
+    "frs": [
+     1907820,
+     5322
+    ],
+    "en": [
+     1913142,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Alors, d'une chose à l'autre,",
+   "en": "Then, from one thing to another,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "frs": "audio/s139_frs.mp3",
+    "en": "audio/s139_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     1915608,
+     3402
+    ],
+    "frs": [
+     1919010,
+     4866
+    ],
+    "en": [
+     1923876,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Hamel se mit à nous parler de la langue française,",
+   "en": "Monsieur Hamel began to talk to us about the French language,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "frs": "audio/s140_frs.mp3",
+    "en": "audio/s140_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3858
+   },
+   "bank": {
+    "fr": [
+     1926510,
+     4506
+    ],
+    "frs": [
+     1931016,
+     6522
+    ],
+    "en": [
+     1937538,
+     3858
+    ]
+   }
+  },
+  {
+   "fr": "disant que c'était la plus belle langue du monde,",
+   "en": "saying that it was the most beautiful language in the world,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "frs": "audio/s141_frs.mp3",
+    "en": "audio/s141_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     1941396,
+     3906
+    ],
+    "frs": [
+     1945302,
+     5586
+    ],
+    "en": [
+     1950888,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "la plus claire, la plus solide :",
+   "en": "the clearest, the most solid:",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "frs": "audio/s142_frs.mp3",
+    "en": "audio/s142_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     1954506,
+     3786
+    ],
+    "frs": [
+     1958292,
+     5418
+    ],
+    "en": [
+     1963710,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "qu'il fallait la garder entre nous et ne jamais l'oublier,",
+   "en": "that we must keep it among ourselves and never forget it,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "frs": "audio/s143_frs.mp3",
+    "en": "audio/s143_en.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     1966272,
+     4314
+    ],
+    "frs": [
+     1970586,
+     6210
+    ],
+    "en": [
+     1976796,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "parce que, quand un peuple tombe esclave,",
+   "en": "because when a people falls into slavery,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "frs": "audio/s144_frs.mp3",
+    "en": "audio/s144_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     1980582,
+     4002
+    ],
+    "frs": [
+     1984584,
+     5730
+    ],
+    "en": [
+     1990314,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "tant qu'il tient bien sa langue,",
+   "en": "as long as it holds on tight to its language,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "frs": "audio/s145_frs.mp3",
+    "en": "audio/s145_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 3186
+   },
+   "bank": {
+    "fr": [
+     1993284,
+     3210
+    ],
+    "frs": [
+     1996494,
+     4578
+    ],
+    "en": [
+     2001072,
+     3186
+    ]
+   }
+  },
+  {
+   "fr": "c'est comme s'il tenait la clef de sa prison…",
+   "en": "it is as if it held the key to its prison…",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "frs": "audio/s146_frs.mp3",
+    "en": "audio/s146_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     2004258,
+     3834
+    ],
+    "frs": [
+     2008092,
+     5490
+    ],
+    "en": [
+     2013582,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Puis il prit une grammaire et nous lut notre leçon.",
+   "en": "Then he took a grammar book and read us our lesson.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "frs": "audio/s147_frs.mp3",
+    "en": "audio/s147_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5730,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     2016576,
+     3978
+    ],
+    "frs": [
+     2020554,
+     5730
+    ],
+    "en": [
+     2026284,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "J'étais étonné de voir comme je comprenais.",
+   "en": "I was amazed to see how well I understood.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "frs": "audio/s148_frs.mp3",
+    "en": "audio/s148_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     2029350,
+     3978
+    ],
+    "frs": [
+     2033328,
+     5706
+    ],
+    "en": [
+     2039034,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Tout ce qu'il disait me semblait facile, facile.",
+   "en": "Everything he said seemed easy to me, so easy.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "frs": "audio/s149_frs.mp3",
+    "en": "audio/s149_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     2041956,
+     4530
+    ],
+    "frs": [
+     2046486,
+     6546
+    ],
+    "en": [
+     2053032,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "Je crois aussi que je n'avais jamais si bien écouté,",
+   "en": "I also think that I had never listened so well,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "frs": "audio/s150_frs.mp3",
+    "en": "audio/s150_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 3138
+   },
+   "bank": {
+    "fr": [
+     2056626,
+     4410
+    ],
+    "frs": [
+     2061036,
+     6354
+    ],
+    "en": [
+     2067390,
+     3138
+    ]
+   }
+  },
+  {
+   "fr": "et que lui, non plus,",
+   "en": "and that he, too,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "frs": "audio/s151_frs.mp3",
+    "en": "audio/s151_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4242,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2070528,
+     2994
+    ],
+    "frs": [
+     2073522,
+     4242
+    ],
+    "en": [
+     2077764,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "n'avait jamais mis autant de patience à ses explications.",
+   "en": "had never put so much patience into his explanations.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "frs": "audio/s152_frs.mp3",
+    "en": "audio/s152_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     2080086,
+     4698
+    ],
+    "frs": [
+     2084784,
+     6786
+    ],
+    "en": [
+     2091570,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "On aurait dit qu'avant de s'en aller",
+   "en": "It was as if, before going away,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "frs": "audio/s153_frs.mp3",
+    "en": "audio/s153_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     2095332,
+     3330
+    ],
+    "frs": [
+     2098662,
+     4746
+    ],
+    "en": [
+     2103408,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "le pauvre homme voulait nous donner tout son savoir,",
+   "en": "the poor man wanted to give us all his knowledge,",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "frs": "audio/s154_frs.mp3",
+    "en": "audio/s154_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     2106234,
+     4074
+    ],
+    "frs": [
+     2110308,
+     5850
+    ],
+    "en": [
+     2116158,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "nous le faire entrer dans la tête d'un seul coup.",
+   "en": "to put it into our heads all at once.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "frs": "audio/s155_frs.mp3",
+    "en": "audio/s155_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     2119632,
+     3882
+    ],
+    "frs": [
+     2123514,
+     5562
+    ],
+    "en": [
+     2129076,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "La leçon finie, on passa à l'écriture.",
+   "en": "When the lesson was over, we moved on to writing.",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "frs": "audio/s156_frs.mp3",
+    "en": "audio/s156_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     2132142,
+     4170
+    ],
+    "frs": [
+     2136312,
+     6018
+    ],
+    "en": [
+     2142330,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Pour ce jour-là, Monsieur Hamel nous avait préparé des exemples tout neufs,",
+   "en": "For that day, Monsieur Hamel had prepared brand-new copy models for us,",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "frs": "audio/s157_frs.mp3",
+    "en": "audio/s157_en.mp3"
+   },
+   "ms": {
+    "fr": 5610,
+    "frs": 8178,
+    "en": 4890
+   },
+   "bank": {
+    "fr": [
+     2145780,
+     5610
+    ],
+    "frs": [
+     2151390,
+     8178
+    ],
+    "en": [
+     2159568,
+     4890
+    ]
+   }
+  },
+  {
+   "fr": "sur lesquels était écrit en belle ronde :",
+   "en": "on which was written in fine round handwriting:",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "belle ronde",
+     "en": "fine round handwriting"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "frs": "audio/s158_frs.mp3",
+    "en": "audio/s158_en.mp3",
+    "gl": "audio/s158_gl.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 3066,
+    "gl": 6026
+   },
+   "bank": {
+    "fr": [
+     2164458,
+     3714
+    ],
+    "frs": [
+     2168172,
+     5298
+    ],
+    "en": [
+     2173470,
+     3066
+    ],
+    "gl": [
+     2176536,
+     6026
+    ]
+   }
+  },
+  {
+   "fr": "France, Alsace, France, Alsace.",
+   "en": "France, Alsace, France, Alsace.",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "frs": "audio/s159_frs.mp3",
+    "en": "audio/s159_en.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     2182562,
+     4626
+    ],
+    "frs": [
+     2187188,
+     6690
+    ],
+    "en": [
+     2193878,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "Cela faisait comme des petits drapeaux",
+   "en": "They looked like little flags",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "frs": "audio/s160_frs.mp3",
+    "en": "audio/s160_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2197256,
+     3522
+    ],
+    "frs": [
+     2200778,
+     5010
+    ],
+    "en": [
+     2205788,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "qui flottaient tout autour de la classe,",
+   "en": "floating all around the classroom,",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "frs": "audio/s161_frs.mp3",
+    "en": "audio/s161_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     2208110,
+     3522
+    ],
+    "frs": [
+     2211632,
+     5034
+    ],
+    "en": [
+     2216666,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "pendus à la tringle de nos pupitres.",
+   "en": "hanging from the rods of our desks.",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "tringle",
+     "en": "rod"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "frs": "audio/s162_frs.mp3",
+    "en": "audio/s162_en.mp3",
+    "gl": "audio/s162_gl.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2682,
+    "gl": 4658
+   },
+   "bank": {
+    "fr": [
+     2219180,
+     3546
+    ],
+    "frs": [
+     2222726,
+     5082
+    ],
+    "en": [
+     2227808,
+     2682
+    ],
+    "gl": [
+     2230490,
+     4658
+    ]
+   }
+  },
+  {
+   "fr": "Il fallait voir comme chacun s'appliquait,",
+   "en": "You should have seen how hard everyone worked,",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "frs": "audio/s163_frs.mp3",
+    "en": "audio/s163_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5274,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2235148,
+     3666
+    ],
+    "frs": [
+     2238814,
+     5274
+    ],
+    "en": [
+     2244088,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "et quel silence !",
+   "en": "and what silence!",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "frs": "audio/s164_frs.mp3",
+    "en": "audio/s164_en.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2247178,
+     2610
+    ],
+    "frs": [
+     2249788,
+     3666
+    ],
+    "en": [
+     2253454,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "On n'entendait rien que le grincement des plumes sur le papier.",
+   "en": "You could hear nothing but the scratching of pens on paper.",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "grincement",
+     "en": "scratching, squeaking"
+    },
+    {
+     "fr": "plumes",
+     "en": "pen nibs, pens"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s165_fr.mp3",
+    "frs": "audio/s165_frs.mp3",
+    "en": "audio/s165_en.mp3",
+    "gl": "audio/s165_gl.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6642,
+    "en": 3474,
+    "gl": 10666
+   },
+   "bank": {
+    "fr": [
+     2255776,
+     4602
+    ],
+    "frs": [
+     2260378,
+     6642
+    ],
+    "en": [
+     2267020,
+     3474
+    ],
+    "gl": [
+     2270494,
+     10666
+    ]
+   }
+  },
+  {
+   "fr": "Un moment des hannetons entrèrent ;",
+   "en": "At one point some June bugs flew in;",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "hannetons",
+     "en": "cockchafers, June bugs"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s166_fr.mp3",
+    "frs": "audio/s166_frs.mp3",
+    "en": "audio/s166_en.mp3",
+    "gl": "audio/s166_gl.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2826,
+    "gl": 5906
+   },
+   "bank": {
+    "fr": [
+     2281160,
+     3258
+    ],
+    "frs": [
+     2284418,
+     4626
+    ],
+    "en": [
+     2289044,
+     2826
+    ],
+    "gl": [
+     2291870,
+     5906
+    ]
+   }
+  },
+  {
+   "fr": "mais personne n'y fit attention,",
+   "en": "but nobody paid any attention to them,",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s167_fr.mp3",
+    "frs": "audio/s167_frs.mp3",
+    "en": "audio/s167_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2297776,
+     3258
+    ],
+    "frs": [
+     2301034,
+     4626
+    ],
+    "en": [
+     2305660,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "pas même les tout petits qui s'appliquaient à tracer leurs bâtons,",
+   "en": "not even the very little ones, who were carefully drawing their pen strokes,",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "bâtons",
+     "en": "pen strokes (first writing exercises)"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s168_fr.mp3",
+    "frs": "audio/s168_frs.mp3",
+    "en": "audio/s168_en.mp3",
+    "gl": "audio/s168_gl.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6426,
+    "en": 4914,
+    "gl": 6674
+   },
+   "bank": {
+    "fr": [
+     2308342,
+     4458
+    ],
+    "frs": [
+     2312800,
+     6426
+    ],
+    "en": [
+     2319226,
+     4914
+    ],
+    "gl": [
+     2324140,
+     6674
+    ]
+   }
+  },
+  {
+   "fr": "avec un cœur, une conscience,",
+   "en": "with such heart, such care,",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s169_fr.mp3",
+    "frs": "audio/s169_frs.mp3",
+    "en": "audio/s169_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     2330814,
+     3666
+    ],
+    "frs": [
+     2334480,
+     5250
+    ],
+    "en": [
+     2339730,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "comme si cela encore était du français…",
+   "en": "as if that too were French…",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s170_fr.mp3",
+    "frs": "audio/s170_frs.mp3",
+    "en": "audio/s170_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     2342316,
+     3666
+    ],
+    "frs": [
+     2345982,
+     5250
+    ],
+    "en": [
+     2351232,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "Sur la toiture de l'école, des pigeons roucoulaient tout bas,",
+   "en": "On the school roof, pigeons were cooing softly,",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "roucoulaient",
+     "en": "were cooing"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s171_fr.mp3",
+    "frs": "audio/s171_frs.mp3",
+    "en": "audio/s171_en.mp3",
+    "gl": "audio/s171_gl.mp3"
+   },
+   "ms": {
+    "fr": 4842,
+    "frs": 7002,
+    "en": 3498,
+    "gl": 5858
+   },
+   "bank": {
+    "fr": [
+     2353482,
+     4842
+    ],
+    "frs": [
+     2358324,
+     7002
+    ],
+    "en": [
+     2365326,
+     3498
+    ],
+    "gl": [
+     2368824,
+     5858
+    ]
+   }
+  },
+  {
+   "fr": "et je me disais en les écoutant :",
+   "en": "and I said to myself as I listened to them:",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s172_fr.mp3",
+    "frs": "audio/s172_frs.mp3",
+    "en": "audio/s172_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2374682,
+     3258
+    ],
+    "frs": [
+     2377940,
+     4626
+    ],
+    "en": [
+     2382566,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "« Est-ce qu'on ne va pas les obliger à chanter en allemand, eux aussi ? »",
+   "en": "\"Won't they make them sing in German too?\"",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s173_fr.mp3",
+    "frs": "audio/s173_frs.mp3",
+    "en": "audio/s173_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2385320,
+     4794
+    ],
+    "frs": [
+     2390114,
+     6930
+    ],
+    "en": [
+     2397044,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "De temps en temps,",
+   "en": "From time to time,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s174_fr.mp3",
+    "frs": "audio/s174_frs.mp3",
+    "en": "audio/s174_en.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2399726,
+     2466
+    ],
+    "frs": [
+     2402192,
+     3426
+    ],
+    "en": [
+     2405618,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "quand je levais les yeux de dessus ma page,",
+   "en": "when I raised my eyes from my page,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s175_fr.mp3",
+    "frs": "audio/s175_frs.mp3",
+    "en": "audio/s175_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     2407940,
+     3714
+    ],
+    "frs": [
+     2411654,
+     5298
+    ],
+    "en": [
+     2416952,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "je voyais Monsieur Hamel immobile dans sa chaire",
+   "en": "I saw Monsieur Hamel motionless at his desk",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s176_fr.mp3",
+    "frs": "audio/s176_frs.mp3",
+    "en": "audio/s176_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     2419658,
+     4266
+    ],
+    "frs": [
+     2423924,
+     6138
+    ],
+    "en": [
+     2430062,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "et fixant les objets autour de lui,",
+   "en": "staring at the things around him,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s177_fr.mp3",
+    "frs": "audio/s177_frs.mp3",
+    "en": "audio/s177_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2433344,
+     3546
+    ],
+    "frs": [
+     2436890,
+     5082
+    ],
+    "en": [
+     2441972,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "comme s'il avait voulu emporter dans son regard",
+   "en": "as if he had wanted to carry away in his gaze",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s178_fr.mp3",
+    "frs": "audio/s178_frs.mp3",
+    "en": "audio/s178_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6066,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     2444294,
+     4194
+    ],
+    "frs": [
+     2448488,
+     6066
+    ],
+    "en": [
+     2454554,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "toute sa petite maison d'école…",
+   "en": "his whole little schoolhouse…",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s179_fr.mp3",
+    "frs": "audio/s179_frs.mp3",
+    "en": "audio/s179_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 2178
+   },
+   "bank": {
+    "fr": [
+     2457812,
+     3354
+    ],
+    "frs": [
+     2461166,
+     4770
+    ],
+    "en": [
+     2465936,
+     2178
+    ]
+   }
+  },
+  {
+   "fr": "Pensez ! depuis quarante ans, il était là, à la même place,",
+   "en": "Just think! For forty years he had been there, in the same place,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s180_fr.mp3",
+    "frs": "audio/s180_frs.mp3",
+    "en": "audio/s180_en.mp3"
+   },
+   "ms": {
+    "fr": 6354,
+    "frs": 9258,
+    "en": 4434
+   },
+   "bank": {
+    "fr": [
+     2468114,
+     6354
+    ],
+    "frs": [
+     2474468,
+     9258
+    ],
+    "en": [
+     2483726,
+     4434
+    ]
+   }
+  },
+  {
+   "fr": "avec sa cour en face de lui et sa classe toute pareille.",
+   "en": "with his yard in front of him and his classroom just the same.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s181_fr.mp3",
+    "frs": "audio/s181_frs.mp3",
+    "en": "audio/s181_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6498,
+    "en": 3978
+   },
+   "bank": {
+    "fr": [
+     2488160,
+     4506
+    ],
+    "frs": [
+     2492666,
+     6498
+    ],
+    "en": [
+     2499164,
+     3978
+    ]
+   }
+  },
+  {
+   "fr": "Seulement les bancs, les pupitres s'étaient polis,",
+   "en": "Only the benches and the desks had become polished,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s182_fr.mp3",
+    "frs": "audio/s182_frs.mp3",
+    "en": "audio/s182_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     2503142,
+     4290
+    ],
+    "frs": [
+     2507432,
+     6186
+    ],
+    "en": [
+     2513618,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "frottés par l'usage ;",
+   "en": "rubbed smooth with use;",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s183_fr.mp3",
+    "frs": "audio/s183_frs.mp3",
+    "en": "audio/s183_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2516996,
+     2850
+    ],
+    "frs": [
+     2519846,
+     4002
+    ],
+    "en": [
+     2523848,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "les noyers de la cour avaient grandi,",
+   "en": "the walnut trees in the yard had grown tall,",
+   "para": 28,
+   "glosses": [
+    {
+     "fr": "noyers",
+     "en": "walnut trees"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s184_fr.mp3",
+    "frs": "audio/s184_frs.mp3",
+    "en": "audio/s184_en.mp3",
+    "gl": "audio/s184_gl.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3282,
+    "gl": 5834
+   },
+   "bank": {
+    "fr": [
+     2526170,
+     3570
+    ],
+    "frs": [
+     2529740,
+     5106
+    ],
+    "en": [
+     2534846,
+     3282
+    ],
+    "gl": [
+     2538128,
+     5834
+    ]
+   }
+  },
+  {
+   "fr": "et le houblon qu'il avait planté lui-même",
+   "en": "and the hops he had planted himself",
+   "para": 28,
+   "glosses": [
+    {
+     "fr": "houblon",
+     "en": "hops (climbing plant)"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s185_fr.mp3",
+    "frs": "audio/s185_frs.mp3",
+    "en": "audio/s185_en.mp3",
+    "gl": "audio/s185_gl.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2586,
+    "gl": 5402
+   },
+   "bank": {
+    "fr": [
+     2543962,
+     3738
+    ],
+    "frs": [
+     2547700,
+     5370
+    ],
+    "en": [
+     2553070,
+     2586
+    ],
+    "gl": [
+     2555656,
+     5402
+    ]
+   }
+  },
+  {
+   "fr": "enguirlandait maintenant les fenêtres jusqu'au toit.",
+   "en": "now wreathed the windows up to the roof.",
+   "para": 28,
+   "glosses": [
+    {
+     "fr": "enguirlandait",
+     "en": "wreathed, garlanded"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s186_fr.mp3",
+    "frs": "audio/s186_frs.mp3",
+    "en": "audio/s186_en.mp3",
+    "gl": "audio/s186_gl.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5946,
+    "en": 2778,
+    "gl": 6026
+   },
+   "bank": {
+    "fr": [
+     2561058,
+     4146
+    ],
+    "frs": [
+     2565204,
+     5946
+    ],
+    "en": [
+     2571150,
+     2778
+    ],
+    "gl": [
+     2573928,
+     6026
+    ]
+   }
+  },
+  {
+   "fr": "Quel crève-cœur ça devait être pour ce pauvre homme",
+   "en": "What a heartbreak it must have been for that poor man",
+   "para": 28,
+   "glosses": [
+    {
+     "fr": "crève-cœur",
+     "en": "heartbreak"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s187_fr.mp3",
+    "frs": "audio/s187_frs.mp3",
+    "en": "audio/s187_en.mp3",
+    "gl": "audio/s187_gl.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 3306,
+    "gl": 6002
+   },
+   "bank": {
+    "fr": [
+     2579954,
+     4194
+    ],
+    "frs": [
+     2584148,
+     6042
+    ],
+    "en": [
+     2590190,
+     3306
+    ],
+    "gl": [
+     2593496,
+     6002
+    ]
+   }
+  },
+  {
+   "fr": "de quitter toutes ces choses,",
+   "en": "to leave all these things,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s188_fr.mp3",
+    "frs": "audio/s188_frs.mp3",
+    "en": "audio/s188_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2599498,
+     2994
+    ],
+    "frs": [
+     2602492,
+     4218
+    ],
+    "en": [
+     2606710,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et d'entendre sa sœur qui allait, venait, dans la chambre au-dessus,",
+   "en": "and to hear his sister coming and going in the room above,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s189_fr.mp3",
+    "frs": "audio/s189_frs.mp3",
+    "en": "audio/s189_en.mp3"
+   },
+   "ms": {
+    "fr": 5514,
+    "frs": 8010,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     2609032,
+     5514
+    ],
+    "frs": [
+     2614546,
+     8010
+    ],
+    "en": [
+     2622556,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "en train de fermer leurs malles !",
+   "en": "closing up their trunks!",
+   "para": 28,
+   "glosses": [
+    {
+     "fr": "malles",
+     "en": "trunks"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s190_fr.mp3",
+    "frs": "audio/s190_frs.mp3",
+    "en": "audio/s190_en.mp3",
+    "gl": "audio/s190_gl.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2322,
+    "gl": 5570
+   },
+   "bank": {
+    "fr": [
+     2626318,
+     3114
+    ],
+    "frs": [
+     2629432,
+     4434
+    ],
+    "en": [
+     2633866,
+     2322
+    ],
+    "gl": [
+     2636188,
+     5570
+    ]
+   }
+  },
+  {
+   "fr": "car ils devaient partir le lendemain,",
+   "en": "for they were to leave the next day,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s191_fr.mp3",
+    "frs": "audio/s191_frs.mp3",
+    "en": "audio/s191_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2641758,
+     3402
+    ],
+    "frs": [
+     2645160,
+     4866
+    ],
+    "en": [
+     2650026,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "s'en aller du pays pour toujours.",
+   "en": "to leave the region forever.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s192_fr.mp3",
+    "frs": "audio/s192_frs.mp3",
+    "en": "audio/s192_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     2652348,
+     3474
+    ],
+    "frs": [
+     2655822,
+     4962
+    ],
+    "en": [
+     2660784,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Tout de même, il eut le courage de nous faire la classe jusqu'au bout.",
+   "en": "All the same, he had the courage to teach us right to the end.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s193_fr.mp3",
+    "frs": "audio/s193_frs.mp3",
+    "en": "audio/s193_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7338,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     2663154,
+     5058
+    ],
+    "frs": [
+     2668212,
+     7338
+    ],
+    "en": [
+     2675550,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "Après l'écriture, nous eûmes la leçon d'histoire ;",
+   "en": "After writing, we had the history lesson;",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s194_fr.mp3",
+    "frs": "audio/s194_frs.mp3",
+    "en": "audio/s194_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6642,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     2679744,
+     4602
+    ],
+    "frs": [
+     2684346,
+     6642
+    ],
+    "en": [
+     2690988,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "ensuite les petits chantèrent tous ensemble le ba be bi bo bu.",
+   "en": "then the little ones all sang together \"ba, be, bi, bo, bu\".",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s195_fr.mp3",
+    "frs": "audio/s195_frs.mp3",
+    "en": "audio/s195_en.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7026,
+    "en": 6018
+   },
+   "bank": {
+    "fr": [
+     2693958,
+     4866
+    ],
+    "frs": [
+     2698824,
+     7026
+    ],
+    "en": [
+     2705850,
+     6018
+    ]
+   }
+  },
+  {
+   "fr": "Là-bas, au fond de la salle,",
+   "en": "Over there, at the back of the room,",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s196_fr.mp3",
+    "frs": "audio/s196_frs.mp3",
+    "en": "audio/s196_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     2711868,
+     3546
+    ],
+    "frs": [
+     2715414,
+     5058
+    ],
+    "en": [
+     2720472,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "le vieux Hauser avait mis ses lunettes,",
+   "en": "old Hauser had put on his glasses,",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s197_fr.mp3",
+    "frs": "audio/s197_frs.mp3",
+    "en": "audio/s197_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     2723058,
+     3690
+    ],
+    "frs": [
+     2726748,
+     5274
+    ],
+    "en": [
+     2732022,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "et, tenant son abécédaire à deux mains,",
+   "en": "and, holding his ABC book in both hands,",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s198_fr.mp3",
+    "frs": "audio/s198_frs.mp3",
+    "en": "audio/s198_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     2734728,
+     3834
+    ],
+    "frs": [
+     2738562,
+     5490
+    ],
+    "en": [
+     2744052,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "il épelait les lettres avec eux.",
+   "en": "he was spelling out the letters with them.",
+   "para": 29,
+   "glosses": [
+    {
+     "fr": "épelait",
+     "en": "was spelling"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s199_fr.mp3",
+    "frs": "audio/s199_frs.mp3",
+    "en": "audio/s199_en.mp3",
+    "gl": "audio/s199_gl.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2394,
+    "gl": 5474
+   },
+   "bank": {
+    "fr": [
+     2747814,
+     3018
+    ],
+    "frs": [
+     2750832,
+     4266
+    ],
+    "en": [
+     2755098,
+     2394
+    ],
+    "gl": [
+     2757492,
+     5474
+    ]
+   }
+  },
+  {
+   "fr": "On voyait qu'il s'appliquait, lui aussi ;",
+   "en": "You could see that he was trying hard too;",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s200_fr.mp3",
+    "frs": "audio/s200_frs.mp3",
+    "en": "audio/s200_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     2762966,
+     4002
+    ],
+    "frs": [
+     2766968,
+     5730
+    ],
+    "en": [
+     2772698,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "sa voix tremblait d'émotion,",
+   "en": "his voice trembled with emotion,",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s201_fr.mp3",
+    "frs": "audio/s201_frs.mp3",
+    "en": "audio/s201_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     2775428,
+     3090
+    ],
+    "frs": [
+     2778518,
+     4386
+    ],
+    "en": [
+     2782904,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "et c'était si drôle de l'entendre,",
+   "en": "and it was so funny to hear him",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s202_fr.mp3",
+    "frs": "audio/s202_frs.mp3",
+    "en": "audio/s202_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2226
+   },
+   "bank": {
+    "fr": [
+     2785706,
+     3330
+    ],
+    "frs": [
+     2789036,
+     4746
+    ],
+    "en": [
+     2793782,
+     2226
+    ]
+   }
+  },
+  {
+   "fr": "que nous avions tous envie de rire et de pleurer.",
+   "en": "that we all wanted to laugh and to cry.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s203_fr.mp3",
+    "frs": "audio/s203_frs.mp3",
+    "en": "audio/s203_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     2796008,
+     3978
+    ],
+    "frs": [
+     2799986,
+     5706
+    ],
+    "en": [
+     2805692,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Ah ! je m'en souviendrai de cette dernière classe…",
+   "en": "Ah! I will remember that last class…",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s204_fr.mp3",
+    "frs": "audio/s204_frs.mp3",
+    "en": "audio/s204_en.mp3"
+   },
+   "ms": {
+    "fr": 5226,
+    "frs": 7578,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2808614,
+     5226
+    ],
+    "frs": [
+     2813840,
+     7578
+    ],
+    "en": [
+     2821418,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Tout à coup l'horloge de l'église sonna midi, puis l'Angelus.",
+   "en": "Suddenly the church clock struck noon, then the Angelus.",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s205_fr.mp3",
+    "frs": "audio/s205_frs.mp3",
+    "en": "audio/s205_en.mp3"
+   },
+   "ms": {
+    "fr": 5178,
+    "frs": 7506,
+    "en": 4242
+   },
+   "bank": {
+    "fr": [
+     2824508,
+     5178
+    ],
+    "frs": [
+     2829686,
+     7506
+    ],
+    "en": [
+     2837192,
+     4242
+    ]
+   }
+  },
+  {
+   "fr": "Au même moment, les trompettes des Prussiens",
+   "en": "At the same moment, the trumpets of the Prussians",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s206_fr.mp3",
+    "frs": "audio/s206_frs.mp3",
+    "en": "audio/s206_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     2841434,
+     4194
+    ],
+    "frs": [
+     2845628,
+     6042
+    ],
+    "en": [
+     2851670,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "qui revenaient de l'exercice éclatèrent sous nos fenêtres…",
+   "en": "coming back from drill blared out under our windows…",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s207_fr.mp3",
+    "frs": "audio/s207_frs.mp3",
+    "en": "audio/s207_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     2855072,
+     4530
+    ],
+    "frs": [
+     2859602,
+     6546
+    ],
+    "en": [
+     2866148,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Hamel se leva tout pâle, dans sa chaire.",
+   "en": "Monsieur Hamel stood up at his desk, very pale.",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s208_fr.mp3",
+    "frs": "audio/s208_frs.mp3",
+    "en": "audio/s208_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     2869622,
+     4530
+    ],
+    "frs": [
+     2874152,
+     6546
+    ],
+    "en": [
+     2880698,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Jamais il ne m'avait paru si grand.",
+   "en": "Never had he seemed so tall to me.",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s209_fr.mp3",
+    "frs": "audio/s209_frs.mp3",
+    "en": "audio/s209_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     2884148,
+     3402
+    ],
+    "frs": [
+     2887550,
+     4866
+    ],
+    "en": [
+     2892416,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "« Mes amis, dit-il, mes amis, je… je… »",
+   "en": "\"My friends,\" he said, \"my friends, I… I…\"",
+   "para": 31,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s210_fr.mp3",
+    "frs": "audio/s210_frs.mp3",
+    "en": "audio/s210_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7314,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     2894954,
+     5034
+    ],
+    "frs": [
+     2899988,
+     7314
+    ],
+    "en": [
+     2907302,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "Mais quelque chose l'étouffait.",
+   "en": "But something was choking him.",
+   "para": 32,
+   "glosses": [
+    {
+     "fr": "étouffait",
+     "en": "was choking"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s211_fr.mp3",
+    "frs": "audio/s211_frs.mp3",
+    "en": "audio/s211_en.mp3",
+    "gl": "audio/s211_gl.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 1962,
+    "gl": 5714
+   },
+   "bank": {
+    "fr": [
+     2911184,
+     3090
+    ],
+    "frs": [
+     2914274,
+     4362
+    ],
+    "en": [
+     2918636,
+     1962
+    ],
+    "gl": [
+     2920598,
+     5714
+    ]
+   }
+  },
+  {
+   "fr": "Il ne pouvait pas achever sa phrase.",
+   "en": "He could not finish his sentence.",
+   "para": 32,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s212_fr.mp3",
+    "frs": "audio/s212_frs.mp3",
+    "en": "audio/s212_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2226
+   },
+   "bank": {
+    "fr": [
+     2926312,
+     3426
+    ],
+    "frs": [
+     2929738,
+     4890
+    ],
+    "en": [
+     2934628,
+     2226
+    ]
+   }
+  },
+  {
+   "fr": "Alors il se tourna vers le tableau,",
+   "en": "Then he turned to the blackboard,",
+   "para": 33,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s213_fr.mp3",
+    "frs": "audio/s213_frs.mp3",
+    "en": "audio/s213_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2936854,
+     3474
+    ],
+    "frs": [
+     2940328,
+     4962
+    ],
+    "en": [
+     2945290,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "prit un morceau de craie",
+   "en": "took a piece of chalk",
+   "para": 33,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s214_fr.mp3",
+    "frs": "audio/s214_frs.mp3",
+    "en": "audio/s214_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4002,
+    "en": 1962
+   },
+   "bank": {
+    "fr": [
+     2947612,
+     2850
+    ],
+    "frs": [
+     2950462,
+     4002
+    ],
+    "en": [
+     2954464,
+     1962
+    ]
+   }
+  },
+  {
+   "fr": "et, en appuyant de toutes ses forces,",
+   "en": "and, pressing with all his strength,",
+   "para": 33,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s215_fr.mp3",
+    "frs": "audio/s215_frs.mp3",
+    "en": "audio/s215_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     2956426,
+     3594
+    ],
+    "frs": [
+     2960020,
+     5130
+    ],
+    "en": [
+     2965150,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "il écrivit aussi gros qu'il put :",
+   "en": "he wrote as large as he could:",
+   "para": 33,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s216_fr.mp3",
+    "frs": "audio/s216_frs.mp3",
+    "en": "audio/s216_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2968096,
+     3354
+    ],
+    "frs": [
+     2971450,
+     4770
+    ],
+    "en": [
+     2976220,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« VIVE LA FRANCE ! »",
+   "en": "\"LONG LIVE FRANCE!\"",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s217_fr.mp3",
+    "frs": "audio/s217_frs.mp3",
+    "en": "audio/s217_en.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2082
+   },
+   "bank": {
+    "fr": [
+     2978542,
+     2610
+    ],
+    "frs": [
+     2981152,
+     3666
+    ],
+    "en": [
+     2984818,
+     2082
+    ]
+   }
+  },
+  {
+   "fr": "Puis il resta là, la tête appuyée au mur,",
+   "en": "Then he stayed there, his head leaning against the wall,",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s218_fr.mp3",
+    "frs": "audio/s218_frs.mp3",
+    "en": "audio/s218_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     2986900,
+     4266
+    ],
+    "frs": [
+     2991166,
+     6138
+    ],
+    "en": [
+     2997304,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "et, sans parler, avec sa main, il nous faisait signe :",
+   "en": "and, without speaking, he signalled to us with his hand:",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s219_fr.mp3",
+    "frs": "audio/s219_frs.mp3",
+    "en": "audio/s219_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7434,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     3000946,
+     5130
+    ],
+    "frs": [
+     3006076,
+     7434
+    ],
+    "en": [
+     3013510,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "« C'est fini… allez-vous-en. »",
+   "en": "\"It's over… go away.\"",
+   "para": 36,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s220_fr.mp3",
+    "frs": "audio/s220_frs.mp3",
+    "en": "audio/s220_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     3017800,
+     3114
+    ],
+    "frs": [
+     3020914,
+     4434
+    ],
+    "en": [
+     3025348,
+     1890
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   0,
+   31782
+  ],
+  "silence": [
+   31782,
+   30000
+  ]
+ }
+}

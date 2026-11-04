@@ -1,0 +1,5543 @@
+{
+ "id": "ai_comedy",
+ "lang": "fr",
+ "title": "Le Stylo vert",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "An accountant who never dares to complain finally writes one anonymous note to the neighbor upstairs. By the next evening, the whole building is hunting for the culprit, and guess who gets put in charge of the investigation.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 19950,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Hugo Martin avait trente-huit ans,",
+   "en": "Hugo Martin was thirty-eight years old,",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     49950,
+     3258
+    ],
+    "frs": [
+     53208,
+     4626
+    ],
+    "en": [
+     57834,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "un travail de comptable et un grand défaut :",
+   "en": "a job as an accountant, and one big flaw:",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     60756,
+     3786
+    ],
+    "frs": [
+     64542,
+     5418
+    ],
+    "en": [
+     69960,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "il n'osait jamais rien dire à personne.",
+   "en": "he never dared to say anything to anyone.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "osait",
+     "en": "dared"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5274,
+    "en": 3066,
+    "gl": 4346
+   },
+   "bank": {
+    "fr": [
+     73122,
+     3666
+    ],
+    "frs": [
+     76788,
+     5274
+    ],
+    "en": [
+     82062,
+     3066
+    ],
+    "gl": [
+     85128,
+     4346
+    ]
+   }
+  },
+  {
+   "fr": "Au restaurant, quand son steak arrivait froid,",
+   "en": "At the restaurant, when his steak arrived cold,",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     89474,
+     4146
+    ],
+    "frs": [
+     93620,
+     5970
+    ],
+    "en": [
+     99590,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "il disait : « Parfait, merci. »",
+   "en": "he said: \"Perfect, thank you.\"",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     103040,
+     3978
+    ],
+    "frs": [
+     107018,
+     5706
+    ],
+    "en": [
+     112724,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Chez le coiffeur, quand on lui coupait trop de cheveux,",
+   "en": "At the hairdresser's, when they cut off too much hair,",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     115670,
+     4602
+    ],
+    "frs": [
+     120272,
+     6666
+    ],
+    "en": [
+     126938,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "il disait : « C'est exactement ce que je voulais. »",
+   "en": "he said: \"That's exactly what I wanted.\"",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     130532,
+     4314
+    ],
+    "frs": [
+     134846,
+     6210
+    ],
+    "en": [
+     141056,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Le seul endroit où Hugo était courageux,",
+   "en": "The only place where Hugo was brave",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     144314,
+     3906
+    ],
+    "frs": [
+     148220,
+     5586
+    ],
+    "en": [
+     153806,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "c'était sous la douche.",
+   "en": "was in the shower.",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     156728,
+     2826
+    ],
+    "frs": [
+     159554,
+     3978
+    ],
+    "en": [
+     163532,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Là, tous les matins à six heures, il chantait.",
+   "en": "There, every morning at six o'clock, he sang.",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 4482,
+    "frs": 6474,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     165854,
+     4482
+    ],
+    "frs": [
+     170336,
+     6474
+    ],
+    "en": [
+     176810,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "Très fort, et très faux.",
+   "en": "Very loudly, and badly off-key.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "très faux",
+     "en": "badly off-key"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 3042,
+    "gl": 5738
+   },
+   "bank": {
+    "fr": [
+     180452,
+     3258
+    ],
+    "frs": [
+     183710,
+     4626
+    ],
+    "en": [
+     188336,
+     3042
+    ],
+    "gl": [
+     191378,
+     5738
+    ]
+   }
+  },
+  {
+   "fr": "Hugo habitait au troisième étage d'un vieil immeuble de Saint-Étienne,",
+   "en": "Hugo lived on the third floor of an old building in Saint-Étienne,",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 5202,
+    "frs": 7554,
+    "en": 4602
+   },
+   "bank": {
+    "fr": [
+     197116,
+     5202
+    ],
+    "frs": [
+     202318,
+     7554
+    ],
+    "en": [
+     209872,
+     4602
+    ]
+   }
+  },
+  {
+   "fr": "juste à côté de la ligne du tram.",
+   "en": "right next to the tram line.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3"
+   },
+   "ms": {
+    "fr": 3762,
+    "frs": 5394,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     214474,
+     3762
+    ],
+    "frs": [
+     218236,
+     5394
+    ],
+    "en": [
+     223630,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le bruit du tram ne le dérangeait pas.",
+   "en": "The noise of the tram didn't bother him.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     225952,
+     3570
+    ],
+    "frs": [
+     229522,
+     5106
+    ],
+    "en": [
+     234628,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "Ce qui le dérangeait, c'était le saxophone.",
+   "en": "What bothered him was the saxophone.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     237406,
+     4458
+    ],
+    "frs": [
+     241864,
+     6450
+    ],
+    "en": [
+     248314,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "Tous les soirs, à minuit pile,",
+   "en": "Every night, at midnight on the dot,",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "pile",
+     "en": "exactly, on the dot"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2826,
+    "gl": 5402
+   },
+   "bank": {
+    "fr": [
+     251044,
+     3546
+    ],
+    "frs": [
+     254590,
+     5082
+    ],
+    "en": [
+     259672,
+     2826
+    ],
+    "gl": [
+     262498,
+     5402
+    ]
+   }
+  },
+  {
+   "fr": "quelqu'un jouait du saxophone au quatrième étage.",
+   "en": "someone played the saxophone on the fourth floor.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     267900,
+     4386
+    ],
+    "frs": [
+     272286,
+     6330
+    ],
+    "en": [
+     278616,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "C'était Madame Grimaud, une veuve de soixante-dix-huit ans,",
+   "en": "It was Madame Grimaud, a seventy-eight-year-old widow,",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "veuve",
+     "en": "widow"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3690,
+    "gl": 4490
+   },
+   "bank": {
+    "fr": [
+     281874,
+     4674
+    ],
+    "frs": [
+     286548,
+     6738
+    ],
+    "en": [
+     293286,
+     3690
+    ],
+    "gl": [
+     296976,
+     4490
+    ]
+   }
+  },
+  {
+   "fr": "toute petite, avec des lunettes rouges.",
+   "en": "very small, with red glasses.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     301466,
+     3930
+    ],
+    "frs": [
+     305396,
+     5658
+    ],
+    "en": [
+     311054,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "Elle jouait toujours la même chanson,",
+   "en": "She always played the same song,",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2346
+   },
+   "bank": {
+    "fr": [
+     313880,
+     3354
+    ],
+    "frs": [
+     317234,
+     4794
+    ],
+    "en": [
+     322028,
+     2346
+    ]
+   }
+  },
+  {
+   "fr": "une vieille mélodie que Hugo connaissait, sans savoir d'où.",
+   "en": "an old melody that Hugo knew, without knowing where from.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     324374,
+     4746
+    ],
+    "frs": [
+     329120,
+     6858
+    ],
+    "en": [
+     335978,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "Et pendant une heure, Hugo regardait le plafond.",
+   "en": "And for an hour, Hugo stared at the ceiling.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "plafond",
+     "en": "ceiling"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3258,
+    "gl": 5714
+   },
+   "bank": {
+    "fr": [
+     340052,
+     4242
+    ],
+    "frs": [
+     344294,
+     6114
+    ],
+    "en": [
+     350408,
+     3258
+    ],
+    "gl": [
+     353666,
+     5714
+    ]
+   }
+  },
+  {
+   "fr": "Pendant trois mois, il n'a rien dit.",
+   "en": "For three months, he said nothing.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     359380,
+     3786
+    ],
+    "frs": [
+     363166,
+     5418
+    ],
+    "en": [
+     368584,
+     2610
+    ]
+   }
+  },
+  {
+   "fr": "Il a acheté des bouchons d'oreilles.",
+   "en": "He bought earplugs.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "bouchons d'oreilles",
+     "en": "earplugs"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "gl": "audio/s024_gl.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2322,
+    "gl": 6362
+   },
+   "bank": {
+    "fr": [
+     371194,
+     3378
+    ],
+    "frs": [
+     374572,
+     4818
+    ],
+    "en": [
+     379390,
+     2322
+    ],
+    "gl": [
+     381712,
+     6362
+    ]
+   }
+  },
+  {
+   "fr": "Il a dormi avec un oreiller sur la tête.",
+   "en": "He slept with a pillow over his head.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     388074,
+     4002
+    ],
+    "frs": [
+     392076,
+     5754
+    ],
+    "en": [
+     397830,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Il a même pensé à déménager.",
+   "en": "He even thought about moving house.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "déménager",
+     "en": "to move house"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2490,
+    "gl": 6002
+   },
+   "bank": {
+    "fr": [
+     400392,
+     3426
+    ],
+    "frs": [
+     403818,
+     4890
+    ],
+    "en": [
+     408708,
+     2490
+    ],
+    "gl": [
+     411198,
+     6002
+    ]
+   }
+  },
+  {
+   "fr": "Déménager, c'était plus facile",
+   "en": "Moving house was easier",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5586,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     417200,
+     3882
+    ],
+    "frs": [
+     421082,
+     5586
+    ],
+    "en": [
+     426668,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "que de monter un étage et de frapper à une porte.",
+   "en": "than going up one floor and knocking on a door.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     428822,
+     4242
+    ],
+    "frs": [
+     433064,
+     6090
+    ],
+    "en": [
+     439154,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Une nuit, à une heure du matin, il a craqué.",
+   "en": "One night, at one in the morning, he snapped.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "il a craqué",
+     "en": "he snapped, he cracked"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 3282,
+    "gl": 6170
+   },
+   "bank": {
+    "fr": [
+     442412,
+     4602
+    ],
+    "frs": [
+     447014,
+     6666
+    ],
+    "en": [
+     453680,
+     3282
+    ],
+    "gl": [
+     456962,
+     6170
+    ]
+   }
+  },
+  {
+   "fr": "Il a pris une feuille de son carnet",
+   "en": "He took a sheet from his notebook",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "carnet",
+     "en": "notebook"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2370,
+    "gl": 5570
+   },
+   "bank": {
+    "fr": [
+     463132,
+     3306
+    ],
+    "frs": [
+     466438,
+     4722
+    ],
+    "en": [
+     471160,
+     2370
+    ],
+    "gl": [
+     473530,
+     5570
+    ]
+   }
+  },
+  {
+   "fr": "et son stylo vert,",
+   "en": "and his green pen,",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3882,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     479100,
+     2754
+    ],
+    "frs": [
+     481854,
+     3882
+    ],
+    "en": [
+     485736,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "le stylo qu'il utilisait au bureau pour corriger les erreurs,",
+   "en": "the pen he used at the office to correct mistakes,",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6954,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     488058,
+     4794
+    ],
+    "frs": [
+     492852,
+     6954
+    ],
+    "en": [
+     499806,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "et qu'il gardait toujours dans sa poche, même le dimanche.",
+   "en": "and that he always kept in his pocket, even on Sundays.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 7002,
+    "en": 3858
+   },
+   "bank": {
+    "fr": [
+     503232,
+     4818
+    ],
+    "frs": [
+     508050,
+     7002
+    ],
+    "en": [
+     515052,
+     3858
+    ]
+   }
+  },
+  {
+   "fr": "Il a écrit :",
+   "en": "He wrote:",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 2346,
+    "frs": 3282,
+    "en": 1314
+   },
+   "bank": {
+    "fr": [
+     518910,
+     2346
+    ],
+    "frs": [
+     521256,
+     3282
+    ],
+    "en": [
+     524538,
+     1314
+    ]
+   }
+  },
+  {
+   "fr": "« Madame, le saxophone à minuit, c'est non.",
+   "en": "\"Madame, saxophone at midnight: no.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6618,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     525852,
+     4578
+    ],
+    "frs": [
+     530430,
+     6618
+    ],
+    "en": [
+     537048,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Certains travaillent le matin. Un voisin. »",
+   "en": "Some people work in the morning. A neighbor.\"",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     540402,
+     4794
+    ],
+    "frs": [
+     545196,
+     6930
+    ],
+    "en": [
+     552126,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Puis il est descendu en chaussettes",
+   "en": "Then he went downstairs in his socks",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4938,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     555120,
+     3474
+    ],
+    "frs": [
+     558594,
+     4938
+    ],
+    "en": [
+     563532,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "et il a glissé le papier dans la boîte aux lettres de Madame Grimaud.",
+   "en": "and slipped the paper into Madame Grimaud's mailbox.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 4842,
+    "frs": 7002,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     566238,
+     4842
+    ],
+    "frs": [
+     571080,
+     7002
+    ],
+    "en": [
+     578082,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "Cette nuit-là, il a dormi comme un bébé.",
+   "en": "That night, he slept like a baby.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     581772,
+     4098
+    ],
+    "frs": [
+     585870,
+     5898
+    ],
+    "en": [
+     591768,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain soir, en rentrant du travail,",
+   "en": "The next evening, coming home from work,",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     594402,
+     4338
+    ],
+    "frs": [
+     598740,
+     6258
+    ],
+    "en": [
+     604998,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "il a trouvé tous les voisins réunis dans le hall.",
+   "en": "he found all the neighbors gathered in the entrance hall.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 3522
+   },
+   "bank": {
+    "fr": [
+     607824,
+     4074
+    ],
+    "frs": [
+     611898,
+     5850
+    ],
+    "en": [
+     617748,
+     3522
+    ]
+   }
+  },
+  {
+   "fr": "Son petit mot était là, scotché sur le mur,",
+   "en": "His little note was there, taped on the wall,",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "scotché",
+     "en": "taped"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3090,
+    "gl": 4706
+   },
+   "bank": {
+    "fr": [
+     621270,
+     4266
+    ],
+    "frs": [
+     625536,
+     6138
+    ],
+    "en": [
+     631674,
+     3090
+    ],
+    "gl": [
+     634764,
+     4706
+    ]
+   }
+  },
+  {
+   "fr": "à côté des boîtes aux lettres.",
+   "en": "next to the mailboxes.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2106
+   },
+   "bank": {
+    "fr": [
+     639470,
+     3114
+    ],
+    "frs": [
+     642584,
+     4434
+    ],
+    "en": [
+     647018,
+     2106
+    ]
+   }
+  },
+  {
+   "fr": "En dessous, quelqu'un avait écrit en grosses lettres rouges :",
+   "en": "Underneath, someone had written in big red letters:",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6954,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     649124,
+     4794
+    ],
+    "frs": [
+     653918,
+     6954
+    ],
+    "en": [
+     660872,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "« LE LÂCHE QUI A ÉCRIT ÇA DOIT SE PRÉSENTER. »",
+   "en": "\"THE COWARD WHO WROTE THIS MUST COME FORWARD.\"",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "lâche",
+     "en": "coward"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3",
+    "gl": "audio/s045_gl.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 3234,
+    "gl": 4586
+   },
+   "bank": {
+    "fr": [
+     664634,
+     4002
+    ],
+    "frs": [
+     668636,
+     5754
+    ],
+    "en": [
+     674390,
+     3234
+    ],
+    "gl": [
+     677624,
+     4586
+    ]
+   }
+  },
+  {
+   "fr": "C'était l'écriture de Madame Da Silva, la gardienne.",
+   "en": "It was the handwriting of Madame Da Silva, the building caretaker.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "gardienne",
+     "en": "building caretaker"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3",
+    "gl": "audio/s046_gl.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 4530,
+    "gl": 5450
+   },
+   "bank": {
+    "fr": [
+     682210,
+     4890
+    ],
+    "frs": [
+     687100,
+     7074
+    ],
+    "en": [
+     694174,
+     4530
+    ],
+    "gl": [
+     698704,
+     5450
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva avait une voix de sergent",
+   "en": "Madame Da Silva had a sergeant's voice",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     704154,
+     3858
+    ],
+    "frs": [
+     708012,
+     5538
+    ],
+    "en": [
+     713550,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "et un poster de l'équipe de foot de la ville dans sa loge.",
+   "en": "and a poster of the town's football team in her lodge.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     716520,
+     4698
+    ],
+    "frs": [
+     721218,
+     6786
+    ],
+    "en": [
+     728004,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "« Une dame de soixante-dix-huit ans ! criait-elle.",
+   "en": "\"A lady of seventy-eight!\" she shouted.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7266,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     731502,
+     5010
+    ],
+    "frs": [
+     736512,
+     7266
+    ],
+    "en": [
+     743778,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Une veuve ! Qui joue de la musique pour oublier son chagrin ! »",
+   "en": "\"A widow! Who plays music to forget her grief!\"",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3"
+   },
+   "ms": {
+    "fr": 5754,
+    "frs": 8394,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     746772,
+     5754
+    ],
+    "frs": [
+     752526,
+     8394
+    ],
+    "en": [
+     760920,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "« C'est honteux », a dit Monsieur Kessler, du deuxième,",
+   "en": "\"It's shameful,\" said Monsieur Kessler, from the second floor,",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 4122
+   },
+   "bank": {
+    "fr": [
+     764610,
+     4794
+    ],
+    "frs": [
+     769404,
+     6930
+    ],
+    "en": [
+     776334,
+     4122
+    ]
+   }
+  },
+  {
+   "fr": "un homme qui ne souriait jamais",
+   "en": "a man who never smiled",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3"
+   },
+   "ms": {
+    "fr": 3162,
+    "frs": 4482,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     780456,
+     3162
+    ],
+    "frs": [
+     783618,
+     4482
+    ],
+    "en": [
+     788100,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et qui portait toujours une écharpe verte.",
+   "en": "and who always wore a green scarf.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     790422,
+     3810
+    ],
+    "frs": [
+     794232,
+     5466
+    ],
+    "en": [
+     799698,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "« Honteux », a répété le petit Noé, du premier.",
+   "en": "\"Shameful,\" repeated little Noé, from the first floor.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6882,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     802188,
+     4770
+    ],
+    "frs": [
+     806958,
+     6882
+    ],
+    "en": [
+     813840,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "Il avait huit ans, il ne comprenait pas tout,",
+   "en": "He was eight, he didn't understand everything,",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5586,
+    "en": 3186
+   },
+   "bank": {
+    "fr": [
+     817890,
+     3882
+    ],
+    "frs": [
+     821772,
+     5586
+    ],
+    "en": [
+     827358,
+     3186
+    ]
+   }
+  },
+  {
+   "fr": "mais il adorait les scandales.",
+   "en": "but he loved scandals.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 3162,
+    "frs": 4482,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     830544,
+     3162
+    ],
+    "frs": [
+     833706,
+     4482
+    ],
+    "en": [
+     838188,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Tout le monde s'est tourné vers Hugo.",
+   "en": "Everyone turned toward Hugo.",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4938,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     840510,
+     3474
+    ],
+    "frs": [
+     843984,
+     4938
+    ],
+    "en": [
+     848922,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "Hugo a ouvert la bouche.",
+   "en": "Hugo opened his mouth.",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     851340,
+     3090
+    ],
+    "frs": [
+     854430,
+     4386
+    ],
+    "en": [
+     858816,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il voulait dire : « C'est moi. Je suis désolé. »",
+   "en": "He wanted to say: \"It's me. I'm sorry.\"",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "frs": 7986,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     861138,
+     5490
+    ],
+    "frs": [
+     866628,
+     7986
+    ],
+    "en": [
+     874614,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Il a dit : « C'est scandaleux. »",
+   "en": "He said: \"It's outrageous.\"",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     877968,
+     3354
+    ],
+    "frs": [
+     881322,
+     4794
+    ],
+    "en": [
+     886116,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "Cette nuit-là, à minuit, il n'y a pas eu de saxophone.",
+   "en": "That night, at midnight, there was no saxophone.",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3"
+   },
+   "ms": {
+    "fr": 5226,
+    "frs": 7578,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     888918,
+     5226
+    ],
+    "frs": [
+     894144,
+     7578
+    ],
+    "en": [
+     901722,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "Il y a eu un silence total, parfait, absolu.",
+   "en": "There was a total, perfect, absolute silence.",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     905508,
+     4794
+    ],
+    "frs": [
+     910302,
+     6930
+    ],
+    "en": [
+     917232,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "Hugo n'a pas fermé l'œil de la nuit.",
+   "en": "Hugo didn't sleep a wink all night.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "n'a pas fermé l'œil",
+     "en": "didn't sleep a wink"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3",
+    "gl": "audio/s063_gl.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4914,
+    "en": 2658,
+    "gl": 6674
+   },
+   "bank": {
+    "fr": [
+     921114,
+     3450
+    ],
+    "frs": [
+     924564,
+     4914
+    ],
+    "en": [
+     929478,
+     2658
+    ],
+    "gl": [
+     932136,
+     6674
+    ]
+   }
+  },
+  {
+   "fr": "Le samedi matin, Madame Da Silva a organisé une réunion dans le hall.",
+   "en": "On Saturday morning, Madame Da Silva organized a meeting in the hall.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3"
+   },
+   "ms": {
+    "fr": 6138,
+    "frs": 8946,
+    "en": 4746
+   },
+   "bank": {
+    "fr": [
+     938810,
+     6138
+    ],
+    "frs": [
+     944948,
+     8946
+    ],
+    "en": [
+     953894,
+     4746
+    ]
+   }
+  },
+  {
+   "fr": "« Il faut trouver le coupable, a-t-elle dit.",
+   "en": "\"We have to find the culprit,\" she said.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     958640,
+     4026
+    ],
+    "frs": [
+     962666,
+     5778
+    ],
+    "en": [
+     968444,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "Et pour mener l'enquête, il nous faut quelqu'un de sérieux.",
+   "en": "\"And to lead the investigation, we need someone serious.",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "mener l'enquête",
+     "en": "to lead the investigation"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3",
+    "gl": "audio/s066_gl.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3882,
+    "gl": 6362
+   },
+   "bank": {
+    "fr": [
+     971174,
+     4458
+    ],
+    "frs": [
+     975632,
+     6450
+    ],
+    "en": [
+     982082,
+     3882
+    ],
+    "gl": [
+     985964,
+     6362
+    ]
+   }
+  },
+  {
+   "fr": "Quelqu'un de méthodique. »",
+   "en": "Someone methodical.\"",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4122,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     992326,
+     2922
+    ],
+    "frs": [
+     995248,
+     4122
+    ],
+    "en": [
+     999370,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Elle a regardé Hugo.",
+   "en": "She looked at Hugo.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1001692,
+     2826
+    ],
+    "frs": [
+     1004518,
+     4002
+    ],
+    "en": [
+     1008520,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Vous êtes comptable, Monsieur Martin.",
+   "en": "\"You're an accountant, Monsieur Martin.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1010842,
+     3834
+    ],
+    "frs": [
+     1014676,
+     5490
+    ],
+    "en": [
+     1020166,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "Les détails, ça vous connaît. »",
+   "en": "Details, you know all about that.\"",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "ça vous connaît",
+     "en": "you know all about that"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3",
+    "gl": "audio/s070_gl.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2706,
+    "gl": 6074
+   },
+   "bank": {
+    "fr": [
+     1022704,
+     3522
+    ],
+    "frs": [
+     1026226,
+     5010
+    ],
+    "en": [
+     1031236,
+     2706
+    ],
+    "gl": [
+     1033942,
+     6074
+    ]
+   }
+  },
+  {
+   "fr": "Hugo voulait dire non.",
+   "en": "Hugo wanted to say no.",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 1938
+   },
+   "bank": {
+    "fr": [
+     1040016,
+     2754
+    ],
+    "frs": [
+     1042770,
+     3858
+    ],
+    "en": [
+     1046628,
+     1938
+    ]
+   }
+  },
+  {
+   "fr": "Il s'est entendu répondre : « Parfait, merci. »",
+   "en": "He heard himself answer: \"Perfect, thank you.\"",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6810,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     1048566,
+     4698
+    ],
+    "frs": [
+     1053264,
+     6810
+    ],
+    "en": [
+     1060074,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "Devant tout le monde, il a examiné le papier, très sérieusement.",
+   "en": "In front of everyone, he examined the paper, very seriously.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 5538,
+    "frs": 8058,
+    "en": 4386
+   },
+   "bank": {
+    "fr": [
+     1063764,
+     5538
+    ],
+    "frs": [
+     1069302,
+     8058
+    ],
+    "en": [
+     1077360,
+     4386
+    ]
+   }
+  },
+  {
+   "fr": "« Hum. Le coupable a utilisé de l'encre verte. »",
+   "en": "\"Hmm. The culprit used green ink.\"",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "encre",
+     "en": "ink"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3",
+    "gl": "audio/s074_gl.mp3"
+   },
+   "ms": {
+    "fr": 5418,
+    "frs": 7890,
+    "en": 3042,
+    "gl": 4466
+   },
+   "bank": {
+    "fr": [
+     1081746,
+     5418
+    ],
+    "frs": [
+     1087164,
+     7890
+    ],
+    "en": [
+     1095054,
+     3042
+    ],
+    "gl": [
+     1098096,
+     4466
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Kessler a haussé les épaules.",
+   "en": "Monsieur Kessler shrugged.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1102562,
+     3570
+    ],
+    "frs": [
+     1106132,
+     5106
+    ],
+    "en": [
+     1111238,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« On est à Saint-Étienne. Tout le monde a un stylo vert. »",
+   "en": "\"We're in Saint-Étienne. Everybody has a green pen.\"",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 5682,
+    "frs": 8274,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     1113560,
+     5682
+    ],
+    "frs": [
+     1119242,
+     8274
+    ],
+    "en": [
+     1127516,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "C'était vrai. Hugo a respiré un peu.",
+   "en": "It was true. Hugo breathed a little.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7026,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     1131278,
+     4866
+    ],
+    "frs": [
+     1136144,
+     7026
+    ],
+    "en": [
+     1143170,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Mais le petit Noé avait apporté une loupe.",
+   "en": "But little Noé had brought a magnifying glass.",
+   "para": 13,
+   "glosses": [
+    {
+     "fr": "loupe",
+     "en": "magnifying glass"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3",
+    "gl": "audio/s078_gl.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 3258,
+    "gl": 5474
+   },
+   "bank": {
+    "fr": [
+     1146092,
+     3834
+    ],
+    "frs": [
+     1149926,
+     5490
+    ],
+    "en": [
+     1155416,
+     3258
+    ],
+    "gl": [
+     1158674,
+     5474
+    ]
+   }
+  },
+  {
+   "fr": "Il a regardé le papier de très près.",
+   "en": "He looked at the paper very closely.",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1164148,
+     3618
+    ],
+    "frs": [
+     1167766,
+     5154
+    ],
+    "en": [
+     1172920,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "« Il y a des petits carreaux, a-t-il dit. Et des colonnes.",
+   "en": "\"There are little squares,\" he said. \"And columns.",
+   "para": 13,
+   "glosses": [
+    {
+     "fr": "carreaux",
+     "en": "squares (on grid paper)"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3",
+    "gl": "audio/s080_gl.mp3"
+   },
+   "ms": {
+    "fr": 5658,
+    "frs": 8250,
+    "en": 3714,
+    "gl": 5738
+   },
+   "bank": {
+    "fr": [
+     1175434,
+     5658
+    ],
+    "frs": [
+     1181092,
+     8250
+    ],
+    "en": [
+     1189342,
+     3714
+    ],
+    "gl": [
+     1193056,
+     5738
+    ]
+   }
+  },
+  {
+   "fr": "C'est du papier de comptable. »",
+   "en": "It's accountant's paper.\"",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1198794,
+     3234
+    ],
+    "frs": [
+     1202028,
+     4602
+    ],
+    "en": [
+     1206630,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Silence dans le hall.",
+   "en": "Silence in the hall.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1208952,
+     2874
+    ],
+    "frs": [
+     1211826,
+     4074
+    ],
+    "en": [
+     1215900,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Tous les yeux se sont posés sur Hugo.",
+   "en": "All eyes landed on Hugo.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1218222,
+     3450
+    ],
+    "frs": [
+     1221672,
+     4938
+    ],
+    "en": [
+     1226610,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il a senti une goutte de sueur couler dans son dos.",
+   "en": "He felt a drop of sweat run down his back.",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "sueur",
+     "en": "sweat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3",
+    "gl": "audio/s084_gl.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3186,
+    "gl": 4778
+   },
+   "bank": {
+    "fr": [
+     1228932,
+     4098
+    ],
+    "frs": [
+     1233030,
+     5898
+    ],
+    "en": [
+     1238928,
+     3186
+    ],
+    "gl": [
+     1242114,
+     4778
+    ]
+   }
+  },
+  {
+   "fr": "Et soudain, il a entendu sa propre voix dire une chose incroyable :",
+   "en": "And suddenly, he heard his own voice say something unbelievable:",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 5370,
+    "frs": 7794,
+    "en": 4842
+   },
+   "bank": {
+    "fr": [
+     1246892,
+     5370
+    ],
+    "frs": [
+     1252262,
+     7794
+    ],
+    "en": [
+     1260056,
+     4842
+    ]
+   }
+  },
+  {
+   "fr": "« Exactement. Quelqu'un veut me faire accuser. »",
+   "en": "\"Exactly. Someone wants to frame me.\"",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7266,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     1264898,
+     5010
+    ],
+    "frs": [
+     1269908,
+     7266
+    ],
+    "en": [
+     1277174,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva a mis une main sur son cœur.",
+   "en": "Madame Da Silva put a hand on her heart.",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     1280264,
+     4194
+    ],
+    "frs": [
+     1284458,
+     6042
+    ],
+    "en": [
+     1290500,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "« Mon Dieu. Le pauvre ! »",
+   "en": "\"My God. The poor man!\"",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5586,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1293494,
+     3882
+    ],
+    "frs": [
+     1297376,
+     5586
+    ],
+    "en": [
+     1302962,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "En trente secondes, Hugo est devenu la deuxième victime de l'immeuble.",
+   "en": "In thirty seconds, Hugo became the building's second victim.",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 5514,
+    "frs": 8034,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     1305476,
+     5514
+    ],
+    "frs": [
+     1310990,
+     8034
+    ],
+    "en": [
+     1319024,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva lui a même apporté une part de tarte aux pommes.",
+   "en": "Madame Da Silva even brought him a slice of apple tart.",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7314,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     1323314,
+     5034
+    ],
+    "frs": [
+     1328348,
+     7314
+    ],
+    "en": [
+     1335662,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "« Maintenant, il nous faut un piège, a-t-elle annoncé.",
+   "en": "\"Now we need a trap,\" she announced.",
+   "para": 16,
+   "glosses": [
+    {
+     "fr": "piège",
+     "en": "trap"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3",
+    "gl": "audio/s091_gl.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7170,
+    "en": 2730,
+    "gl": 4562
+   },
+   "bank": {
+    "fr": [
+     1339376,
+     4938
+    ],
+    "frs": [
+     1344314,
+     7170
+    ],
+    "en": [
+     1351484,
+     2730
+    ],
+    "gl": [
+     1354214,
+     4562
+    ]
+   }
+  },
+  {
+   "fr": "Ce soir, Madame Grimaud va rejouer à minuit.",
+   "en": "\"Tonight, Madame Grimaud will play again at midnight.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6762,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     1358776,
+     4674
+    ],
+    "frs": [
+     1363450,
+     6762
+    ],
+    "en": [
+     1370212,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "Le coupable ne pourra pas résister, il va écrire un nouveau mot.",
+   "en": "The culprit won't be able to resist, he'll write a new note.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3"
+   },
+   "ms": {
+    "fr": 5394,
+    "frs": 7842,
+    "en": 4146
+   },
+   "bank": {
+    "fr": [
+     1373902,
+     5394
+    ],
+    "frs": [
+     1379296,
+     7842
+    ],
+    "en": [
+     1387138,
+     4146
+    ]
+   }
+  },
+  {
+   "fr": "Et nous, on sera là, cachés dans l'escalier. »",
+   "en": "And we'll be there, hidden on the stairs.\"",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6498,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     1391284,
+     4506
+    ],
+    "frs": [
+     1395790,
+     6498
+    ],
+    "en": [
+     1402288,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Hugo voulait dire qu'il était fatigué, malade, mourant.",
+   "en": "Hugo wanted to say he was tired, sick, dying.",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 5106,
+    "frs": 7410,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     1405282,
+     5106
+    ],
+    "frs": [
+     1410388,
+     7410
+    ],
+    "en": [
+     1417798,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "Il a dit : « Excellente idée. »",
+   "en": "He said: \"Excellent idea.\"",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1421584,
+     3354
+    ],
+    "frs": [
+     1424938,
+     4794
+    ],
+    "en": [
+     1429732,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "À minuit moins cinq, tout l'immeuble était assis dans l'escalier,",
+   "en": "At five to midnight, the whole building was sitting on the stairs,",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 5178,
+    "frs": 7506,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     1432270,
+     5178
+    ],
+    "frs": [
+     1437448,
+     7506
+    ],
+    "en": [
+     1444954,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "dans le noir, en pyjama.",
+   "en": "in the dark, in pajamas.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4794,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     1449148,
+     3378
+    ],
+    "frs": [
+     1452526,
+     4794
+    ],
+    "en": [
+     1457320,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva avec une lampe de poche.",
+   "en": "Madame Da Silva with a flashlight.",
+   "para": 17,
+   "glosses": [
+    {
+     "fr": "lampe de poche",
+     "en": "flashlight"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3",
+    "gl": "audio/s099_gl.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 2562,
+    "gl": 6314
+   },
+   "bank": {
+    "fr": [
+     1459738,
+     4074
+    ],
+    "frs": [
+     1463812,
+     5850
+    ],
+    "en": [
+     1469662,
+     2562
+    ],
+    "gl": [
+     1472224,
+     6314
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Kessler avec son écharpe verte par-dessus son pyjama.",
+   "en": "Monsieur Kessler with his green scarf over his pajamas.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7626,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     1478538,
+     5250
+    ],
+    "frs": [
+     1483788,
+     7626
+    ],
+    "en": [
+     1491414,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "Noé avec sa loupe.",
+   "en": "Noé with his magnifying glass.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     1495248,
+     2826
+    ],
+    "frs": [
+     1498074,
+     3978
+    ],
+    "en": [
+     1502052,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "Et Hugo, au milieu, qui transpirait.",
+   "en": "And Hugo, in the middle, sweating.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5874,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1504638,
+     4074
+    ],
+    "frs": [
+     1508712,
+     5874
+    ],
+    "en": [
+     1514586,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "À minuit pile, le saxophone a commencé.",
+   "en": "At midnight on the dot, the saxophone began.",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     1517628,
+     4458
+    ],
+    "frs": [
+     1522086,
+     6450
+    ],
+    "en": [
+     1528536,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "La même vieille chanson.",
+   "en": "The same old song.",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 2898,
+    "frs": 4098,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1532082,
+     2898
+    ],
+    "frs": [
+     1534980,
+     4098
+    ],
+    "en": [
+     1539078,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Personne ne bougeait. Personne ne respirait.",
+   "en": "Nobody moved. Nobody breathed.",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7266,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     1541400,
+     5010
+    ],
+    "frs": [
+     1546410,
+     7266
+    ],
+    "en": [
+     1553676,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "Et c'est à ce moment-là",
+   "en": "And it was at that moment",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3786,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1556502,
+     2682
+    ],
+    "frs": [
+     1559184,
+     3786
+    ],
+    "en": [
+     1562970,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "que le stylo vert est tombé de la poche du pyjama d'Hugo.",
+   "en": "that the green pen fell out of Hugo's pajama pocket.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "frs": 6714,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     1565292,
+     4650
+    ],
+    "frs": [
+     1569942,
+     6714
+    ],
+    "en": [
+     1576656,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "Il a roulé sur la première marche. Toc.",
+   "en": "It rolled onto the first step. Tock.",
+   "para": 19,
+   "glosses": [
+    {
+     "fr": "marche",
+     "en": "step (of a staircase)"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3",
+    "gl": "audio/s108_gl.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 3042,
+    "gl": 5642
+   },
+   "bank": {
+    "fr": [
+     1580154,
+     4890
+    ],
+    "frs": [
+     1585044,
+     7074
+    ],
+    "en": [
+     1592118,
+     3042
+    ],
+    "gl": [
+     1595160,
+     5642
+    ]
+   }
+  },
+  {
+   "fr": "Puis sur la deuxième. Toc.",
+   "en": "Then onto the second. Tock.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1600802,
+     4170
+    ],
+    "frs": [
+     1604972,
+     6018
+    ],
+    "en": [
+     1610990,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "Puis toc, toc, toc, toc, toc,",
+   "en": "Then tock, tock, tock, tock, tock,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     1613528,
+     4554
+    ],
+    "frs": [
+     1618082,
+     6594
+    ],
+    "en": [
+     1624676,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "jusqu'en bas de l'escalier,",
+   "en": "all the way to the bottom of the stairs,",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 3162,
+    "frs": 4482,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1628030,
+     3162
+    ],
+    "frs": [
+     1631192,
+     4482
+    ],
+    "en": [
+     1635674,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "où il s'est arrêté devant les pieds de Noé.",
+   "en": "where it stopped in front of Noé's feet.",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     1638332,
+     3690
+    ],
+    "frs": [
+     1642022,
+     5274
+    ],
+    "en": [
+     1647296,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva a allumé sa lampe.",
+   "en": "Madame Da Silva switched on her flashlight.",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     1650242,
+     3906
+    ],
+    "frs": [
+     1654148,
+     5586
+    ],
+    "en": [
+     1659734,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "Noé a ramassé le stylo et l'a examiné à la loupe.",
+   "en": "Noé picked up the pen and examined it with his magnifying glass.",
+   "para": 20,
+   "glosses": [
+    {
+     "fr": "a ramassé",
+     "en": "picked up"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3",
+    "gl": "audio/s114_gl.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 4314,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     1662704,
+     4674
+    ],
+    "frs": [
+     1667378,
+     6738
+    ],
+    "en": [
+     1674116,
+     4314
+    ],
+    "gl": [
+     1678430,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "« Un stylo vert », a-t-il dit.",
+   "en": "\"A green pen,\" he said.",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     1683424,
+     3594
+    ],
+    "frs": [
+     1687018,
+     5130
+    ],
+    "en": [
+     1692148,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "Hugo a toussé. « Tout le monde a un stylo vert. »",
+   "en": "Hugo coughed. \"Everybody has a green pen.\"",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3"
+   },
+   "ms": {
+    "fr": 5418,
+    "frs": 7890,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     1694542,
+     5418
+    ],
+    "frs": [
+     1699960,
+     7890
+    ],
+    "en": [
+     1707850,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Kessler l'a regardé longtemps.",
+   "en": "Monsieur Kessler looked at him for a long time.",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5178,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     1711204,
+     3618
+    ],
+    "frs": [
+     1714822,
+     5178
+    ],
+    "en": [
+     1720000,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "« Pas en pyjama. »",
+   "en": "\"Not in their pajamas.\"",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 2514,
+    "frs": 3522,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1722994,
+     2514
+    ],
+    "frs": [
+     1725508,
+     3522
+    ],
+    "en": [
+     1729030,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Là-haut, le saxophone s'est arrêté.",
+   "en": "Upstairs, the saxophone stopped.",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 4122,
+    "frs": 5922,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     1731352,
+     4122
+    ],
+    "frs": [
+     1735474,
+     5922
+    ],
+    "en": [
+     1741396,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "Une porte s'est ouverte.",
+   "en": "A door opened.",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1744294,
+     3090
+    ],
+    "frs": [
+     1747384,
+     4362
+    ],
+    "en": [
+     1751746,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Madame Grimaud est apparue en haut de l'escalier,",
+   "en": "Madame Grimaud appeared at the top of the stairs,",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     1754068,
+     4242
+    ],
+    "frs": [
+     1758310,
+     6090
+    ],
+    "en": [
+     1764400,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "son saxophone à la main.",
+   "en": "her saxophone in her hand.",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2298
+   },
+   "bank": {
+    "fr": [
+     1767730,
+     3018
+    ],
+    "frs": [
+     1770748,
+     4266
+    ],
+    "en": [
+     1775014,
+     2298
+    ]
+   }
+  },
+  {
+   "fr": "Hugo s'est levé.",
+   "en": "Hugo stood up.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3"
+   },
+   "ms": {
+    "fr": 2538,
+    "frs": 3522,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1777312,
+     2538
+    ],
+    "frs": [
+     1779850,
+     3522
+    ],
+    "en": [
+     1783372,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Pour la première fois de sa vie,",
+   "en": "For the first time in his life,",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1785694,
+     3114
+    ],
+    "frs": [
+     1788808,
+     4434
+    ],
+    "en": [
+     1793242,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "il allait dire la vérité ailleurs que sous la douche.",
+   "en": "he was going to tell the truth somewhere other than in the shower.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6234,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     1795564,
+     4338
+    ],
+    "frs": [
+     1799902,
+     6234
+    ],
+    "en": [
+     1806136,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "« C'est moi, Madame Grimaud. C'est moi qui ai écrit le mot.",
+   "en": "\"It's me, Madame Grimaud. I'm the one who wrote the note.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3"
+   },
+   "ms": {
+    "fr": 5850,
+    "frs": 8514,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     1809586,
+     5850
+    ],
+    "frs": [
+     1815436,
+     8514
+    ],
+    "en": [
+     1823950,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "Je suis désolé. Je suis un lâche. »",
+   "en": "I'm sorry. I'm a coward.\"",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "frs": "audio/s127_frs.mp3",
+    "en": "audio/s127_en.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     1827592,
+     4890
+    ],
+    "frs": [
+     1832482,
+     7074
+    ],
+    "en": [
+     1839556,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva a poussé un cri.",
+   "en": "Madame Da Silva let out a cry.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "frs": "audio/s128_frs.mp3",
+    "en": "audio/s128_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     1842022,
+     3714
+    ],
+    "frs": [
+     1845736,
+     5322
+    ],
+    "en": [
+     1851058,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Noé a noté quelque chose dans son carnet.",
+   "en": "Noé wrote something down in his notebook.",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "frs": "audio/s129_frs.mp3",
+    "en": "audio/s129_en.mp3"
+   },
+   "ms": {
+    "fr": 3954,
+    "frs": 5682,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     1853428,
+     3954
+    ],
+    "frs": [
+     1857382,
+     5682
+    ],
+    "en": [
+     1863064,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Madame Grimaud a souri.",
+   "en": "Madame Grimaud smiled.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "frs": "audio/s130_frs.mp3",
+    "en": "audio/s130_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4290,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1865818,
+     3018
+    ],
+    "frs": [
+     1868836,
+     4290
+    ],
+    "en": [
+     1873126,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Je sais, Monsieur Martin. Je le sais depuis le premier jour. »",
+   "en": "\"I know, Monsieur Martin. I've known since the first day.\"",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "frs": "audio/s131_frs.mp3",
+    "en": "audio/s131_en.mp3"
+   },
+   "ms": {
+    "fr": 6114,
+    "frs": 8922,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     1875448,
+     6114
+    ],
+    "frs": [
+     1881562,
+     8922
+    ],
+    "en": [
+     1890484,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "« Mais… comment ? »",
+   "en": "\"But… how?\"",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "frs": "audio/s132_frs.mp3",
+    "en": "audio/s132_en.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3762,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1894174,
+     2682
+    ],
+    "frs": [
+     1896856,
+     3762
+    ],
+    "en": [
+     1900618,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Vous chantez sous la douche. Tous les matins, à six heures.",
+   "en": "\"You sing in the shower. Every morning, at six o'clock.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "frs": "audio/s133_frs.mp3",
+    "en": "audio/s133_en.mp3"
+   },
+   "ms": {
+    "fr": 5898,
+    "frs": 8586,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     1902940,
+     5898
+    ],
+    "frs": [
+     1908838,
+     8586
+    ],
+    "en": [
+     1917424,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "Depuis deux ans.",
+   "en": "For two years.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "frs": "audio/s134_frs.mp3",
+    "en": "audio/s134_en.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1921354,
+     2466
+    ],
+    "frs": [
+     1923820,
+     3426
+    ],
+    "en": [
+     1927246,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Les murs sont très fins, vous savez. »",
+   "en": "The walls are very thin, you know.\"",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "frs": "audio/s135_frs.mp3",
+    "en": "audio/s135_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1929568,
+     3690
+    ],
+    "frs": [
+     1933258,
+     5274
+    ],
+    "en": [
+     1938532,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "Hugo est devenu tout rouge.",
+   "en": "Hugo turned bright red.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "frs": "audio/s136_frs.mp3",
+    "en": "audio/s136_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4482,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1941022,
+     3138
+    ],
+    "frs": [
+     1944160,
+     4482
+    ],
+    "en": [
+     1948642,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Toujours la même chanson, a-t-elle continué.",
+   "en": "\"Always the same song,\" she went on.",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "frs": "audio/s137_frs.mp3",
+    "en": "audio/s137_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1950964,
+     4290
+    ],
+    "frs": [
+     1955254,
+     6186
+    ],
+    "en": [
+     1961440,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "L'Été indien, de Joe Dassin. Et toujours faux. »",
+   "en": "\"L'Été indien, by Joe Dassin. And always off-key.\"",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "frs": "audio/s138_frs.mp3",
+    "en": "audio/s138_en.mp3"
+   },
+   "ms": {
+    "fr": 5658,
+    "frs": 8250,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     1964482,
+     5658
+    ],
+    "frs": [
+     1970140,
+     8250
+    ],
+    "en": [
+     1978390,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "Elle a levé son saxophone et elle a joué quelques notes.",
+   "en": "She raised her saxophone and played a few notes.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "frs": "audio/s139_frs.mp3",
+    "en": "audio/s139_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6402,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     1982680,
+     4434
+    ],
+    "frs": [
+     1987114,
+     6402
+    ],
+    "en": [
+     1993516,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "La vieille mélodie de minuit.",
+   "en": "The old midnight melody.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "frs": "audio/s140_frs.mp3",
+    "en": "audio/s140_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1996846,
+     3282
+    ],
+    "frs": [
+     2000128,
+     4674
+    ],
+    "en": [
+     2004802,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et d'un coup, Hugo a compris.",
+   "en": "And all at once, Hugo understood.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "frs": "audio/s141_frs.mp3",
+    "en": "audio/s141_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2007124,
+     3426
+    ],
+    "frs": [
+     2010550,
+     4890
+    ],
+    "en": [
+     2015440,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "C'était sa chanson. Elle jouait sa chanson.",
+   "en": "It was his song. She was playing his song.",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "frs": "audio/s142_frs.mp3",
+    "en": "audio/s142_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7314,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     2018194,
+     5058
+    ],
+    "frs": [
+     2023252,
+     7314
+    ],
+    "en": [
+     2030566,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "« Pendant deux ans, vous m'avez réveillée le matin, a dit Madame Grimaud.",
+   "en": "\"For two years, you woke me up in the morning,\" said Madame Grimaud.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "frs": "audio/s143_frs.mp3",
+    "en": "audio/s143_en.mp3"
+   },
+   "ms": {
+    "fr": 5682,
+    "frs": 8274,
+    "en": 4554
+   },
+   "bank": {
+    "fr": [
+     2033680,
+     5682
+    ],
+    "frs": [
+     2039362,
+     8274
+    ],
+    "en": [
+     2047636,
+     4554
+    ]
+   }
+  },
+  {
+   "fr": "Alors il y a trois mois, j'ai pris des cours de saxophone.",
+   "en": "\"So three months ago, I took saxophone lessons.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "frs": "audio/s144_frs.mp3",
+    "en": "audio/s144_en.mp3"
+   },
+   "ms": {
+    "fr": 4962,
+    "frs": 7194,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     2052190,
+     4962
+    ],
+    "frs": [
+     2057152,
+     7194
+    ],
+    "en": [
+     2064346,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "Exprès. Pour apprendre une seule chanson : la vôtre.",
+   "en": "On purpose. To learn just one song: yours.",
+   "para": 25,
+   "glosses": [
+    {
+     "fr": "exprès",
+     "en": "on purpose, specially"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "frs": "audio/s145_frs.mp3",
+    "en": "audio/s145_en.mp3",
+    "gl": "audio/s145_gl.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "frs": 8322,
+    "en": 3978,
+    "gl": 5642
+   },
+   "bank": {
+    "fr": [
+     2067988,
+     5730
+    ],
+    "frs": [
+     2073718,
+     8322
+    ],
+    "en": [
+     2082040,
+     3978
+    ],
+    "gl": [
+     2086018,
+     5642
+    ]
+   }
+  },
+  {
+   "fr": "Vous chantiez le matin, je vous répondais le soir.",
+   "en": "You sang in the morning, I answered you at night.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "frs": "audio/s146_frs.mp3",
+    "en": "audio/s146_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     2091660,
+     4530
+    ],
+    "frs": [
+     2096190,
+     6546
+    ],
+    "en": [
+     2102736,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "J'attendais que vous montiez frapper à ma porte.",
+   "en": "I was waiting for you to come up and knock on my door.",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "frs": "audio/s147_frs.mp3",
+    "en": "audio/s147_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     2106090,
+     4002
+    ],
+    "frs": [
+     2110092,
+     5754
+    ],
+    "en": [
+     2115846,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Et vous, vous m'avez écrit un petit mot. »",
+   "en": "And you, you wrote me a little note.\"",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "frs": "audio/s148_frs.mp3",
+    "en": "audio/s148_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     2118960,
+     3738
+    ],
+    "frs": [
+     2122698,
+     5370
+    ],
+    "en": [
+     2128068,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "« Et le piège ? a demandé Madame Da Silva.",
+   "en": "\"And the trap?\" asked Madame Da Silva.",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "frs": "audio/s149_frs.mp3",
+    "en": "audio/s149_en.mp3"
+   },
+   "ms": {
+    "fr": 5178,
+    "frs": 7506,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     2130918,
+     5178
+    ],
+    "frs": [
+     2136096,
+     7506
+    ],
+    "en": [
+     2143602,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "— C'était mon idée.",
+   "en": "\"That was my idea.",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "frs": "audio/s150_frs.mp3",
+    "en": "audio/s150_en.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2146476,
+     2610
+    ],
+    "frs": [
+     2149086,
+     3690
+    ],
+    "en": [
+     2152776,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Je voulais voir combien de temps il allait tenir. »",
+   "en": "I wanted to see how long he would hold out.\"",
+   "para": 26,
+   "glosses": [
+    {
+     "fr": "tenir",
+     "en": "to hold out"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "frs": "audio/s151_frs.mp3",
+    "en": "audio/s151_en.mp3",
+    "gl": "audio/s151_gl.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5874,
+    "en": 2802,
+    "gl": 5714
+   },
+   "bank": {
+    "fr": [
+     2155098,
+     4074
+    ],
+    "frs": [
+     2159172,
+     5874
+    ],
+    "en": [
+     2165046,
+     2802
+    ],
+    "gl": [
+     2167848,
+     5714
+    ]
+   }
+  },
+  {
+   "fr": "Puis elle a sorti un papier de la poche de sa robe de chambre.",
+   "en": "Then she took a piece of paper out of the pocket of her dressing gown.",
+   "para": 27,
+   "glosses": [
+    {
+     "fr": "robe de chambre",
+     "en": "bathrobe, dressing gown"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "frs": "audio/s152_frs.mp3",
+    "en": "audio/s152_en.mp3",
+    "gl": "audio/s152_gl.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3954,
+    "gl": 6314
+   },
+   "bank": {
+    "fr": [
+     2173562,
+     4698
+    ],
+    "frs": [
+     2178260,
+     6786
+    ],
+    "en": [
+     2185046,
+     3954
+    ],
+    "gl": [
+     2189000,
+     6314
+    ]
+   }
+  },
+  {
+   "fr": "« Tenez. Je l'ai écrit il y a deux ans.",
+   "en": "\"Here. I wrote it two years ago.",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "frs": "audio/s153_frs.mp3",
+    "en": "audio/s153_en.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2195314,
+     4626
+    ],
+    "frs": [
+     2199940,
+     6690
+    ],
+    "en": [
+     2206630,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Je n'ai jamais osé le mettre dans votre boîte aux lettres. »",
+   "en": "I never dared to put it in your mailbox.\"",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "frs": "audio/s154_frs.mp3",
+    "en": "audio/s154_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     2209384,
+     4434
+    ],
+    "frs": [
+     2213818,
+     6378
+    ],
+    "en": [
+     2220196,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "Hugo a déplié le papier. C'était écrit à l'encre verte :",
+   "en": "Hugo unfolded the paper. It was written in green ink:",
+   "para": 27,
+   "glosses": [
+    {
+     "fr": "a déplié",
+     "en": "unfolded"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "frs": "audio/s155_frs.mp3",
+    "en": "audio/s155_en.mp3",
+    "gl": "audio/s155_gl.mp3"
+   },
+   "ms": {
+    "fr": 6090,
+    "frs": 8874,
+    "en": 4146,
+    "gl": 5906
+   },
+   "bank": {
+    "fr": [
+     2222902,
+     6090
+    ],
+    "frs": [
+     2228992,
+     8874
+    ],
+    "en": [
+     2237866,
+     4146
+    ],
+    "gl": [
+     2242012,
+     5906
+    ]
+   }
+  },
+  {
+   "fr": "« Monsieur, la chanson à six heures, c'est non.",
+   "en": "\"Monsieur, singing at six o'clock: no.",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "frs": "audio/s156_frs.mp3",
+    "en": "audio/s156_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     2247918,
+     4530
+    ],
+    "frs": [
+     2252448,
+     6546
+    ],
+    "en": [
+     2258994,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "Certains dorment le matin. Une voisine. »",
+   "en": "Some people sleep in the morning. A neighbor.\"",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "frs": "audio/s157_frs.mp3",
+    "en": "audio/s157_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     2262420,
+     4818
+    ],
+    "frs": [
+     2267238,
+     6978
+    ],
+    "en": [
+     2274216,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "« Vous voyez, a dit Madame Grimaud.",
+   "en": "\"You see,\" said Madame Grimaud.",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "frs": "audio/s158_frs.mp3",
+    "en": "audio/s158_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     2277258,
+     3738
+    ],
+    "frs": [
+     2280996,
+     5346
+    ],
+    "en": [
+     2286342,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Moi non plus, je ne suis pas très courageuse. »",
+   "en": "\"I'm not very brave either.\"",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "frs": "audio/s159_frs.mp3",
+    "en": "audio/s159_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2288904,
+     4242
+    ],
+    "frs": [
+     2293146,
+     6114
+    ],
+    "en": [
+     2299260,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Depuis ce jour-là, l'immeuble a un nouveau règlement.",
+   "en": "Since that day, the building has a new rule.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "frs": "audio/s160_frs.mp3",
+    "en": "audio/s160_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6402,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     2301582,
+     4434
+    ],
+    "frs": [
+     2306016,
+     6402
+    ],
+    "en": [
+     2312418,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "Pas de chanson sous la douche à six heures du matin.",
+   "en": "No singing in the shower at six in the morning.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "frs": "audio/s161_frs.mp3",
+    "en": "audio/s161_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     2315652,
+     4098
+    ],
+    "frs": [
+     2319750,
+     5898
+    ],
+    "en": [
+     2325648,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "Pas de saxophone à minuit.",
+   "en": "No saxophone at midnight.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "frs": "audio/s162_frs.mp3",
+    "en": "audio/s162_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2328666,
+     3210
+    ],
+    "frs": [
+     2331876,
+     4578
+    ],
+    "en": [
+     2336454,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Mais tous les samedis, à six heures du soir, dans le hall,",
+   "en": "But every Saturday, at six in the evening, in the hall,",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "frs": "audio/s163_frs.mp3",
+    "en": "audio/s163_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     2338776,
+     5154
+    ],
+    "frs": [
+     2343930,
+     7482
+    ],
+    "en": [
+     2351412,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "Madame Grimaud joue du saxophone, et Hugo chante.",
+   "en": "Madame Grimaud plays the saxophone, and Hugo sings.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "frs": "audio/s164_frs.mp3",
+    "en": "audio/s164_en.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7098,
+    "en": 4002
+   },
+   "bank": {
+    "fr": [
+     2355318,
+     4890
+    ],
+    "frs": [
+     2360208,
+     7098
+    ],
+    "en": [
+     2367306,
+     4002
+    ]
+   }
+  },
+  {
+   "fr": "Toujours la même chanson. Toujours faux.",
+   "en": "Always the same song. Always off-key.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s165_fr.mp3",
+    "frs": "audio/s165_frs.mp3",
+    "en": "audio/s165_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2371308,
+     4746
+    ],
+    "frs": [
+     2376054,
+     6858
+    ],
+    "en": [
+     2382912,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Madame Da Silva apporte une tarte.",
+   "en": "Madame Da Silva brings a tart.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s166_fr.mp3",
+    "frs": "audio/s166_frs.mp3",
+    "en": "audio/s166_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     2386002,
+     3834
+    ],
+    "frs": [
+     2389836,
+     5490
+    ],
+    "en": [
+     2395326,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "Noé vend des billets à cinquante centimes.",
+   "en": "Noé sells tickets for fifty cents.",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s167_fr.mp3",
+    "frs": "audio/s167_frs.mp3",
+    "en": "audio/s167_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2397768,
+     3906
+    ],
+    "frs": [
+     2401674,
+     5610
+    ],
+    "en": [
+     2407284,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "Le premier samedi, après la chanson,",
+   "en": "The first Saturday, after the song,",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s168_fr.mp3",
+    "frs": "audio/s168_frs.mp3",
+    "en": "audio/s168_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2409966,
+     3978
+    ],
+    "frs": [
+     2413944,
+     5706
+    ],
+    "en": [
+     2419650,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Hugo s'est tourné vers Monsieur Kessler.",
+   "en": "Hugo turned toward Monsieur Kessler.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s169_fr.mp3",
+    "frs": "audio/s169_frs.mp3",
+    "en": "audio/s169_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2422404,
+     3690
+    ],
+    "frs": [
+     2426094,
+     5274
+    ],
+    "en": [
+     2431368,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "« Alors, Monsieur Kessler, c'était comment ? »",
+   "en": "\"So, Monsieur Kessler, how was it?\"",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s170_fr.mp3",
+    "frs": "audio/s170_frs.mp3",
+    "en": "audio/s170_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     2434050,
+     4386
+    ],
+    "frs": [
+     2438436,
+     6330
+    ],
+    "en": [
+     2444766,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Kessler a réfléchi longtemps.",
+   "en": "Monsieur Kessler thought for a long time.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s171_fr.mp3",
+    "frs": "audio/s171_frs.mp3",
+    "en": "audio/s171_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2447328,
+     3618
+    ],
+    "frs": [
+     2450946,
+     5154
+    ],
+    "en": [
+     2456100,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "Puis il a dit : « Parfait, merci. »",
+   "en": "Then he said: \"Perfect, thank you.\"",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s172_fr.mp3",
+    "frs": "audio/s172_frs.mp3",
+    "en": "audio/s172_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 3138
+   },
+   "bank": {
+    "fr": [
+     2458782,
+     4074
+    ],
+    "frs": [
+     2462856,
+     5850
+    ],
+    "en": [
+     2468706,
+     3138
+    ]
+   }
+  },
+  {
+   "fr": "Hugo a souri.",
+   "en": "Hugo smiled.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s173_fr.mp3",
+    "frs": "audio/s173_frs.mp3",
+    "en": "audio/s173_en.mp3"
+   },
+   "ms": {
+    "fr": 2562,
+    "frs": 3594,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2471844,
+     2562
+    ],
+    "frs": [
+     2474406,
+     3594
+    ],
+    "en": [
+     2478000,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il savait très bien ce que ça voulait dire.",
+   "en": "He knew perfectly well what that meant.",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s174_fr.mp3",
+    "frs": "audio/s174_frs.mp3",
+    "en": "audio/s174_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     2480322,
+     3738
+    ],
+    "frs": [
+     2484060,
+     5370
+    ],
+    "en": [
+     2489430,
+     2610
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   0,
+   19950
+  ],
+  "silence": [
+   19950,
+   30000
+  ]
+ }
+}

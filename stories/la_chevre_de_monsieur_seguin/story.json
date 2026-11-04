@@ -1,0 +1,8100 @@
+{
+ "id": "la_chevre_de_monsieur_seguin",
+ "lang": "fr",
+ "title": "La Chèvre de monsieur Seguin",
+ "author": "Alphonse Daudet",
+ "level": "B2",
+ "series": "",
+ "episode": "",
+ "note": "This is a fable told in a letter to Gringoire, a poor poet in Paris who refuses a steady newspaper job. The story is set in the mountains of Provence and told in the passé simple, a literary past tense: when you hear \"il acheta\" or \"elle tomba\", just think \"he bought\", \"she fell\". You will also hear a few Provençal words at the end.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 28854,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "À monsieur Pierre Gringoire, poète lyrique à Paris.",
+   "en": "To Monsieur Pierre Gringoire, lyric poet, in Paris.",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "frs": 6714,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     58854,
+     4650
+    ],
+    "frs": [
+     63504,
+     6714
+    ],
+    "en": [
+     70218,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "Tu seras bien toujours le même, mon pauvre Gringoire !",
+   "en": "You will always be the same, my poor Gringoire!",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6906,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     74676,
+     4770
+    ],
+    "frs": [
+     79446,
+     6906
+    ],
+    "en": [
+     86352,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "Comment ! on t'offre une place de chroniqueur dans un bon journal de Paris,",
+   "en": "What! You are offered a job as a columnist on a good Paris newspaper,",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "chroniqueur",
+     "en": "newspaper columnist"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3"
+   },
+   "ms": {
+    "fr": 6426,
+    "frs": 9402,
+    "en": 4554,
+    "gl": 6026
+   },
+   "bank": {
+    "fr": [
+     90042,
+     6426
+    ],
+    "frs": [
+     96468,
+     9402
+    ],
+    "en": [
+     105870,
+     4554
+    ],
+    "gl": [
+     110424,
+     6026
+    ]
+   }
+  },
+  {
+   "fr": "et tu as l'aplomb de refuser…",
+   "en": "and you have the nerve to refuse…",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "aplomb",
+     "en": "nerve, cheek"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2658,
+    "gl": 5498
+   },
+   "bank": {
+    "fr": [
+     116450,
+     3114
+    ],
+    "frs": [
+     119564,
+     4434
+    ],
+    "en": [
+     123998,
+     2658
+    ],
+    "gl": [
+     126656,
+     5498
+    ]
+   }
+  },
+  {
+   "fr": "Mais regarde-toi, malheureux garçon !",
+   "en": "But look at yourself, you wretched boy!",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     132154,
+     3906
+    ],
+    "frs": [
+     136060,
+     5610
+    ],
+    "en": [
+     141670,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "Regarde ce pourpoint troué, ces chausses en déroute,",
+   "en": "Look at this doublet full of holes, these breeches falling apart,",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "pourpoint",
+     "en": "doublet, old-style jacket"
+    },
+    {
+     "fr": "chausses",
+     "en": "breeches, old-style trousers"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7026,
+    "en": 4602,
+    "gl": 11602
+   },
+   "bank": {
+    "fr": [
+     144352,
+     4866
+    ],
+    "frs": [
+     149218,
+     7026
+    ],
+    "en": [
+     156244,
+     4602
+    ],
+    "gl": [
+     160846,
+     11602
+    ]
+   }
+  },
+  {
+   "fr": "cette face maigre qui crie la faim.",
+   "en": "this thin face that cries out with hunger.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     172448,
+     3450
+    ],
+    "frs": [
+     175898,
+     4938
+    ],
+    "en": [
+     180836,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "Voilà pourtant où t'a conduit la passion des belles rimes !",
+   "en": "And yet that is where your passion for fine rhymes has led you!",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     183902,
+     4290
+    ],
+    "frs": [
+     188192,
+     6186
+    ],
+    "en": [
+     194378,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "Voilà ce que t'ont valu",
+   "en": "That is what you have earned from",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     198092,
+     2922
+    ],
+    "frs": [
+     201014,
+     4146
+    ],
+    "en": [
+     205160,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "dix ans de loyaux services dans les pages du sire Apollo…",
+   "en": "ten years of loyal service as a page of Lord Apollo…",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 4482,
+    "frs": 6474,
+    "en": 4146
+   },
+   "bank": {
+    "fr": [
+     207482,
+     4482
+    ],
+    "frs": [
+     211964,
+     6474
+    ],
+    "en": [
+     218438,
+     4146
+    ]
+   }
+  },
+  {
+   "fr": "Est-ce que tu n'as pas honte, à la fin ?",
+   "en": "Aren't you ashamed, after all this?",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 3762,
+    "frs": 5394,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     222584,
+     3762
+    ],
+    "frs": [
+     226346,
+     5394
+    ],
+    "en": [
+     231740,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "Fais-toi donc chroniqueur, imbécile ! fais-toi chroniqueur !",
+   "en": "So become a columnist, you fool! Become a columnist!",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 6450,
+    "frs": 9402,
+    "en": 3978
+   },
+   "bank": {
+    "fr": [
+     234278,
+     6450
+    ],
+    "frs": [
+     240728,
+     9402
+    ],
+    "en": [
+     250130,
+     3978
+    ]
+   }
+  },
+  {
+   "fr": "Tu gagneras de beaux écus à la rose,",
+   "en": "You will earn fine gold coins stamped with the rose,",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "écus",
+     "en": "old gold coins"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3570,
+    "gl": 5498
+   },
+   "bank": {
+    "fr": [
+     254108,
+     3570
+    ],
+    "frs": [
+     257678,
+     5106
+    ],
+    "en": [
+     262784,
+     3570
+    ],
+    "gl": [
+     266354,
+     5498
+    ]
+   }
+  },
+  {
+   "fr": "tu auras ton couvert chez Brébant,",
+   "en": "you will have your place at the table at Brébant's,",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     271852,
+     3282
+    ],
+    "frs": [
+     275134,
+     4674
+    ],
+    "en": [
+     279808,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "et tu pourras te montrer les jours de première",
+   "en": "and you will be able to show yourself on opening nights",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5586,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     282754,
+     3882
+    ],
+    "frs": [
+     286636,
+     5586
+    ],
+    "en": [
+     292222,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "avec une plume neuve à ta barrette…",
+   "en": "with a new feather in your cap…",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "barrette",
+     "en": "cap"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2250,
+    "gl": 4682
+   },
+   "bank": {
+    "fr": [
+     295528,
+     3522
+    ],
+    "frs": [
+     299050,
+     5034
+    ],
+    "en": [
+     304084,
+     2250
+    ],
+    "gl": [
+     306334,
+     4682
+    ]
+   }
+  },
+  {
+   "fr": "Non ? Tu ne veux pas ?…",
+   "en": "No? You don't want to?…",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 2130
+   },
+   "bank": {
+    "fr": [
+     311016,
+     3690
+    ],
+    "frs": [
+     314706,
+     5274
+    ],
+    "en": [
+     319980,
+     2130
+    ]
+   }
+  },
+  {
+   "fr": "Tu prétends rester libre à ta guise jusqu'au bout…",
+   "en": "You insist on staying free, as you please, to the very end…",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5874,
+    "en": 4818
+   },
+   "bank": {
+    "fr": [
+     322110,
+     4074
+    ],
+    "frs": [
+     326184,
+     5874
+    ],
+    "en": [
+     332058,
+     4818
+    ]
+   }
+  },
+  {
+   "fr": "Eh bien, écoute un peu l'histoire de la chèvre de monsieur Seguin.",
+   "en": "Well then, just listen to the story of Monsieur Seguin's goat.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 4338
+   },
+   "bank": {
+    "fr": [
+     336876,
+     5130
+    ],
+    "frs": [
+     342006,
+     7458
+    ],
+    "en": [
+     349464,
+     4338
+    ]
+   }
+  },
+  {
+   "fr": "Tu verras ce que l'on gagne à vouloir vivre libre.",
+   "en": "You will see what one gains by wanting to live free.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     353802,
+     4170
+    ],
+    "frs": [
+     357972,
+     6018
+    ],
+    "en": [
+     363990,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Seguin n'avait jamais eu de bonheur avec ses chèvres.",
+   "en": "Monsieur Seguin had never had any luck with his goats.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     367392,
+     4746
+    ],
+    "frs": [
+     372138,
+     6858
+    ],
+    "en": [
+     378996,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "Il les perdait toutes de la même façon :",
+   "en": "He lost them all in the same way:",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     382878,
+     3570
+    ],
+    "frs": [
+     386448,
+     5106
+    ],
+    "en": [
+     391554,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "un beau matin, elles cassaient leur corde,",
+   "en": "one fine morning, they would break their rope,",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     394188,
+     3882
+    ],
+    "frs": [
+     398070,
+     5562
+    ],
+    "en": [
+     403632,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "s'en allaient dans la montagne,",
+   "en": "go off into the mountain,",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2106
+   },
+   "bank": {
+    "fr": [
+     406722,
+     3114
+    ],
+    "frs": [
+     409836,
+     4410
+    ],
+    "en": [
+     414246,
+     2106
+    ]
+   }
+  },
+  {
+   "fr": "et là-haut le loup les mangeait.",
+   "en": "and up there the wolf would eat them.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 2178
+   },
+   "bank": {
+    "fr": [
+     416352,
+     2850
+    ],
+    "frs": [
+     419202,
+     4026
+    ],
+    "en": [
+     423228,
+     2178
+    ]
+   }
+  },
+  {
+   "fr": "Ni les caresses de leur maître, ni la peur du loup,",
+   "en": "Neither their master's caresses, nor the fear of the wolf,",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 4170
+   },
+   "bank": {
+    "fr": [
+     425406,
+     4242
+    ],
+    "frs": [
+     429648,
+     6114
+    ],
+    "en": [
+     435762,
+     4170
+    ]
+   }
+  },
+  {
+   "fr": "rien ne les retenait.",
+   "en": "nothing held them back.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     439932,
+     2634
+    ],
+    "frs": [
+     442566,
+     3690
+    ],
+    "en": [
+     446256,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "C'était, paraît-il, des chèvres indépendantes,",
+   "en": "They were, it seems, independent goats,",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7146,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     448578,
+     4938
+    ],
+    "frs": [
+     453516,
+     7146
+    ],
+    "en": [
+     460662,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "voulant à tout prix le grand air et la liberté.",
+   "en": "wanting the open air and freedom at any price.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     464112,
+     4194
+    ],
+    "frs": [
+     468306,
+     6042
+    ],
+    "en": [
+     474348,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Le brave monsieur Seguin,",
+   "en": "Good Monsieur Seguin,",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4194,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     477918,
+     2970
+    ],
+    "frs": [
+     480888,
+     4194
+    ],
+    "en": [
+     485082,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "qui ne comprenait rien au caractère de ses bêtes, était consterné.",
+   "en": "who understood nothing about the character of his animals, was dismayed.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 4554
+   },
+   "bank": {
+    "fr": [
+     487404,
+     5274
+    ],
+    "frs": [
+     492678,
+     7650
+    ],
+    "en": [
+     500328,
+     4554
+    ]
+   }
+  },
+  {
+   "fr": "Il disait :",
+   "en": "He would say:",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3162,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     504882,
+     2322
+    ],
+    "frs": [
+     507204,
+     3162
+    ],
+    "en": [
+     510366,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— C'est fini ; les chèvres s'ennuient chez moi,",
+   "en": "\"That's it; goats get bored at my place,",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 3186
+   },
+   "bank": {
+    "fr": [
+     512688,
+     4002
+    ],
+    "frs": [
+     516690,
+     5754
+    ],
+    "en": [
+     522444,
+     3186
+    ]
+   }
+  },
+  {
+   "fr": "je n'en garderai pas une.",
+   "en": "I won't keep a single one.\"",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4242,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     525630,
+     2994
+    ],
+    "frs": [
+     528624,
+     4242
+    ],
+    "en": [
+     532866,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Cependant il ne se découragea pas,",
+   "en": "However, he did not lose heart,",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     535188,
+     3450
+    ],
+    "frs": [
+     538638,
+     4938
+    ],
+    "en": [
+     543576,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "et, après avoir perdu six chèvres de la même manière,",
+   "en": "and, after losing six goats in the same way,",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6882,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     546282,
+     4770
+    ],
+    "frs": [
+     551052,
+     6882
+    ],
+    "en": [
+     557934,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "il en acheta une septième ;",
+   "en": "he bought a seventh one;",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     561168,
+     3018
+    ],
+    "frs": [
+     564186,
+     4266
+    ],
+    "en": [
+     568452,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "seulement, cette fois, il eut soin de la prendre toute jeune,",
+   "en": "only, this time, he took care to get her very young,",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 4098
+   },
+   "bank": {
+    "fr": [
+     570774,
+     5130
+    ],
+    "frs": [
+     575904,
+     7458
+    ],
+    "en": [
+     583362,
+     4098
+    ]
+   }
+  },
+  {
+   "fr": "pour qu'elle s'habituât mieux à demeurer chez lui.",
+   "en": "so that she would get used to living with him more easily.",
+   "para": 10,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5826,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     587460,
+     4050
+    ],
+    "frs": [
+     591510,
+     5826
+    ],
+    "en": [
+     597336,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Ah ! Gringoire, qu'elle était jolie la petite chèvre de monsieur Seguin !",
+   "en": "Ah! Gringoire, how pretty she was, Monsieur Seguin's little goat!",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 6570,
+    "frs": 9594,
+    "en": 5130
+   },
+   "bank": {
+    "fr": [
+     600594,
+     6570
+    ],
+    "frs": [
+     607164,
+     9594
+    ],
+    "en": [
+     616758,
+     5130
+    ]
+   }
+  },
+  {
+   "fr": "qu'elle était jolie avec ses yeux doux,",
+   "en": "how pretty she was, with her gentle eyes,",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     621888,
+     3330
+    ],
+    "frs": [
+     625218,
+     4746
+    ],
+    "en": [
+     629964,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "sa barbiche de sous-officier, ses sabots noirs et luisants,",
+   "en": "her sergeant's goatee, her shiny black hooves,",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "barbiche",
+     "en": "little goatee beard"
+    },
+    {
+     "fr": "sabots",
+     "en": "hooves"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3"
+   },
+   "ms": {
+    "fr": 4962,
+    "frs": 7194,
+    "en": 3594,
+    "gl": 11050
+   },
+   "bank": {
+    "fr": [
+     633198,
+     4962
+    ],
+    "frs": [
+     638160,
+     7194
+    ],
+    "en": [
+     645354,
+     3594
+    ],
+    "gl": [
+     648948,
+     11050
+    ]
+   }
+  },
+  {
+   "fr": "ses cornes zébrées",
+   "en": "her striped horns",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3786,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     659998,
+     2682
+    ],
+    "frs": [
+     662680,
+     3786
+    ],
+    "en": [
+     666466,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et ses longs poils blancs qui lui faisaient une houppelande !",
+   "en": "and her long white hair that made her a cloak!",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "houppelande",
+     "en": "long loose cloak"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3",
+    "gl": "audio/s044_gl.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5586,
+    "en": 3042,
+    "gl": 5714
+   },
+   "bank": {
+    "fr": [
+     668788,
+     3882
+    ],
+    "frs": [
+     672670,
+     5586
+    ],
+    "en": [
+     678256,
+     3042
+    ],
+    "gl": [
+     681298,
+     5714
+    ]
+   }
+  },
+  {
+   "fr": "C'était presque aussi charmant que le cabri d'Esméralda,",
+   "en": "She was almost as charming as Esmeralda's little goat,",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "cabri",
+     "en": "kid, young goat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3",
+    "gl": "audio/s045_gl.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6522,
+    "en": 3954,
+    "gl": 5594
+   },
+   "bank": {
+    "fr": [
+     687012,
+     4530
+    ],
+    "frs": [
+     691542,
+     6522
+    ],
+    "en": [
+     698064,
+     3954
+    ],
+    "gl": [
+     702018,
+     5594
+    ]
+   }
+  },
+  {
+   "fr": "tu te rappelles, Gringoire ?",
+   "en": "do you remember, Gringoire?",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2202
+   },
+   "bank": {
+    "fr": [
+     707612,
+     3570
+    ],
+    "frs": [
+     711182,
+     5106
+    ],
+    "en": [
+     716288,
+     2202
+    ]
+   }
+  },
+  {
+   "fr": "— et puis, docile, caressante,",
+   "en": "And then, obedient, affectionate,",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     718490,
+     4050
+    ],
+    "frs": [
+     722540,
+     5802
+    ],
+    "en": [
+     728342,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "se laissant traire sans bouger,",
+   "en": "letting herself be milked without moving,",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "traire",
+     "en": "to milk"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3",
+    "gl": "audio/s048_gl.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 3042,
+    "gl": 5570
+   },
+   "bank": {
+    "fr": [
+     731456,
+     3090
+    ],
+    "frs": [
+     734546,
+     4386
+    ],
+    "en": [
+     738932,
+     3042
+    ],
+    "gl": [
+     741974,
+     5570
+    ]
+   }
+  },
+  {
+   "fr": "sans mettre son pied dans l'écuelle.",
+   "en": "without putting her foot in the bowl.",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "écuelle",
+     "en": "bowl"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3",
+    "gl": "audio/s049_gl.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2274,
+    "gl": 4586
+   },
+   "bank": {
+    "fr": [
+     747544,
+     3474
+    ],
+    "frs": [
+     751018,
+     4962
+    ],
+    "en": [
+     755980,
+     2274
+    ],
+    "gl": [
+     758254,
+     4586
+    ]
+   }
+  },
+  {
+   "fr": "Un amour de petite chèvre…",
+   "en": "A darling of a little goat…",
+   "para": 11,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4530,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     762840,
+     3186
+    ],
+    "frs": [
+     766026,
+     4530
+    ],
+    "en": [
+     770556,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Seguin avait derrière sa maison un clos entouré d'aubépines.",
+   "en": "Behind his house Monsieur Seguin had a field surrounded by hawthorn.",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "clos",
+     "en": "enclosed field"
+    },
+    {
+     "fr": "aubépines",
+     "en": "hawthorn bushes"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3",
+    "gl": "audio/s051_gl.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 4530,
+    "gl": 10858
+   },
+   "bank": {
+    "fr": [
+     772878,
+     5274
+    ],
+    "frs": [
+     778152,
+     7650
+    ],
+    "en": [
+     785802,
+     4530
+    ],
+    "gl": [
+     790332,
+     10858
+    ]
+   }
+  },
+  {
+   "fr": "C'est là qu'il mit sa nouvelle pensionnaire.",
+   "en": "That is where he put his new lodger.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5226,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     801190,
+     3642
+    ],
+    "frs": [
+     804832,
+     5226
+    ],
+    "en": [
+     810058,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "Il l'attacha à un pieu, au plus bel endroit du pré,",
+   "en": "He tied her to a stake, in the nicest spot in the meadow,",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "pieu",
+     "en": "stake, post"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3",
+    "gl": "audio/s053_gl.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 4122,
+    "gl": 5378
+   },
+   "bank": {
+    "fr": [
+     812452,
+     4626
+    ],
+    "frs": [
+     817078,
+     6690
+    ],
+    "en": [
+     823768,
+     4122
+    ],
+    "gl": [
+     827890,
+     5378
+    ]
+   }
+  },
+  {
+   "fr": "en ayant soin de lui laisser beaucoup de corde,",
+   "en": "taking care to leave her plenty of rope,",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5514,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     833268,
+     3834
+    ],
+    "frs": [
+     837102,
+     5514
+    ],
+    "en": [
+     842616,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "et de temps en temps il venait voir si elle était bien.",
+   "en": "and from time to time he came to see if she was all right.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     845418,
+     3978
+    ],
+    "frs": [
+     849396,
+     5706
+    ],
+    "en": [
+     855102,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "La chèvre se trouvait très heureuse",
+   "en": "The goat felt very happy",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     858384,
+     3546
+    ],
+    "frs": [
+     861930,
+     5082
+    ],
+    "en": [
+     867012,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "et broutait l'herbe de si bon cœur",
+   "en": "and grazed on the grass so heartily",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "broutait",
+     "en": "was grazing"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3",
+    "gl": "audio/s057_gl.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2946,
+    "gl": 5666
+   },
+   "bank": {
+    "fr": [
+     869166,
+     3474
+    ],
+    "frs": [
+     872640,
+     4962
+    ],
+    "en": [
+     877602,
+     2946
+    ],
+    "gl": [
+     880548,
+     5666
+    ]
+   }
+  },
+  {
+   "fr": "que monsieur Seguin était ravi.",
+   "en": "that Monsieur Seguin was delighted.",
+   "para": 12,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     886214,
+     3306
+    ],
+    "frs": [
+     889520,
+     4698
+    ],
+    "en": [
+     894218,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "— Enfin, pensait le pauvre homme,",
+   "en": "\"At last,\" thought the poor man,",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5202,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     896948,
+     3642
+    ],
+    "frs": [
+     900590,
+     5202
+    ],
+    "en": [
+     905792,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "en voilà une qui ne s'ennuiera pas chez moi !",
+   "en": "\"here's one who won't get bored at my place!\"",
+   "para": 13,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     908426,
+     3810
+    ],
+    "frs": [
+     912236,
+     5442
+    ],
+    "en": [
+     917678,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Seguin se trompait, sa chèvre s'ennuya.",
+   "en": "Monsieur Seguin was wrong; his goat got bored.",
+   "para": 14,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     920672,
+     4602
+    ],
+    "frs": [
+     925274,
+     6666
+    ],
+    "en": [
+     931940,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Un jour, elle se dit en regardant la montagne :",
+   "en": "One day, she said to herself, looking at the mountain:",
+   "para": 15,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3858
+   },
+   "bank": {
+    "fr": [
+     935510,
+     4338
+    ],
+    "frs": [
+     939848,
+     6258
+    ],
+    "en": [
+     946106,
+     3858
+    ]
+   }
+  },
+  {
+   "fr": "— Comme on doit être bien là-haut !",
+   "en": "\"How nice it must be up there!",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4242,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     949964,
+     2994
+    ],
+    "frs": [
+     952958,
+     4242
+    ],
+    "en": [
+     957200,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Quel plaisir de gambader dans la bruyère,",
+   "en": "What a pleasure to frolic in the heather,",
+   "para": 16,
+   "glosses": [
+    {
+     "fr": "gambader",
+     "en": "to frolic, to leap about"
+    },
+    {
+     "fr": "bruyère",
+     "en": "heather"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3",
+    "gl": "audio/s064_gl.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2634,
+    "gl": 10402
+   },
+   "bank": {
+    "fr": [
+     959522,
+     3906
+    ],
+    "frs": [
+     963428,
+     5610
+    ],
+    "en": [
+     969038,
+     2634
+    ],
+    "gl": [
+     971672,
+     10402
+    ]
+   }
+  },
+  {
+   "fr": "sans cette maudite longe qui vous écorche le cou !…",
+   "en": "without this cursed tether that scrapes your neck!…",
+   "para": 16,
+   "glosses": [
+    {
+     "fr": "longe",
+     "en": "tether, rope"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3",
+    "gl": "audio/s065_gl.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6234,
+    "en": 3210,
+    "gl": 5666
+   },
+   "bank": {
+    "fr": [
+     982074,
+     4338
+    ],
+    "frs": [
+     986412,
+     6234
+    ],
+    "en": [
+     992646,
+     3210
+    ],
+    "gl": [
+     995856,
+     5666
+    ]
+   }
+  },
+  {
+   "fr": "C'est bon pour l'âne ou pour le bœuf de brouter dans un clos !…",
+   "en": "It's fine for the donkey or the ox to graze in a field!…",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3954
+   },
+   "bank": {
+    "fr": [
+     1001522,
+     4290
+    ],
+    "frs": [
+     1005812,
+     6186
+    ],
+    "en": [
+     1011998,
+     3954
+    ]
+   }
+  },
+  {
+   "fr": "Les chèvres, il leur faut du large.",
+   "en": "Goats need room to roam.\"",
+   "para": 16,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2130
+   },
+   "bank": {
+    "fr": [
+     1015952,
+     3714
+    ],
+    "frs": [
+     1019666,
+     5322
+    ],
+    "en": [
+     1024988,
+     2130
+    ]
+   }
+  },
+  {
+   "fr": "À partir de ce moment, l'herbe du clos lui parut fade.",
+   "en": "From that moment on, the grass of the field seemed tasteless to her.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7170,
+    "en": 4530
+   },
+   "bank": {
+    "fr": [
+     1027118,
+     4938
+    ],
+    "frs": [
+     1032056,
+     7170
+    ],
+    "en": [
+     1039226,
+     4530
+    ]
+   }
+  },
+  {
+   "fr": "L'ennui lui vint.",
+   "en": "Boredom came over her.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3714,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1043756,
+     2658
+    ],
+    "frs": [
+     1046414,
+     3714
+    ],
+    "en": [
+     1050128,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Elle maigrit, son lait se fit rare.",
+   "en": "She grew thin, her milk became scarce.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     1052450,
+     3714
+    ],
+    "frs": [
+     1056164,
+     5322
+    ],
+    "en": [
+     1061486,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "C'était pitié de la voir tirer tout le jour sur sa longe,",
+   "en": "It was pitiful to see her pulling all day on her tether,",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6570,
+    "en": 3858
+   },
+   "bank": {
+    "fr": [
+     1065032,
+     4554
+    ],
+    "frs": [
+     1069586,
+     6570
+    ],
+    "en": [
+     1076156,
+     3858
+    ]
+   }
+  },
+  {
+   "fr": "la tête tournée du côté de la montagne, la narine ouverte,",
+   "en": "her head turned towards the mountain, her nostrils flared,",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 5226,
+    "frs": 7602,
+    "en": 4266
+   },
+   "bank": {
+    "fr": [
+     1080014,
+     5226
+    ],
+    "frs": [
+     1085240,
+     7602
+    ],
+    "en": [
+     1092842,
+     4266
+    ]
+   }
+  },
+  {
+   "fr": "en faisant Mê !… tristement.",
+   "en": "going \"Meh!…\" sadly.",
+   "para": 17,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     1097108,
+     4098
+    ],
+    "frs": [
+     1101206,
+     5898
+    ],
+    "en": [
+     1107104,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Seguin s'apercevait bien que sa chèvre avait quelque chose,",
+   "en": "Monsieur Seguin could see that something was wrong with his goat,",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7290,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     1109354,
+     5034
+    ],
+    "frs": [
+     1114388,
+     7290
+    ],
+    "en": [
+     1121678,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "mais il ne savait pas ce que c'était…",
+   "en": "but he didn't know what it was…",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2082
+   },
+   "bank": {
+    "fr": [
+     1125560,
+     3330
+    ],
+    "frs": [
+     1128890,
+     4746
+    ],
+    "en": [
+     1133636,
+     2082
+    ]
+   }
+  },
+  {
+   "fr": "Un matin, comme il achevait de la traire,",
+   "en": "One morning, as he was finishing milking her,",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5730,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     1135718,
+     3978
+    ],
+    "frs": [
+     1139696,
+     5730
+    ],
+    "en": [
+     1145426,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "la chèvre se retourna et lui dit dans son patois :",
+   "en": "the goat turned around and said to him in her dialect:",
+   "para": 18,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6306,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     1148756,
+     4362
+    ],
+    "frs": [
+     1153118,
+     6306
+    ],
+    "en": [
+     1159424,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "— Écoutez, monsieur Seguin, je me languis chez vous,",
+   "en": "\"Listen, Monsieur Seguin, I am pining away at your place,",
+   "para": 19,
+   "glosses": [
+    {
+     "fr": "je me languis",
+     "en": "I am pining, I am wasting away"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3",
+    "gl": "audio/s078_gl.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 4626,
+    "gl": 6794
+   },
+   "bank": {
+    "fr": [
+     1163114,
+     4746
+    ],
+    "frs": [
+     1167860,
+     6858
+    ],
+    "en": [
+     1174718,
+     4626
+    ],
+    "gl": [
+     1179344,
+     6794
+    ]
+   }
+  },
+  {
+   "fr": "laissez-moi aller dans la montagne.",
+   "en": "let me go to the mountain.\"",
+   "para": 19,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1186138,
+     3426
+    ],
+    "frs": [
+     1189564,
+     4890
+    ],
+    "en": [
+     1194454,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Ah ! mon Dieu !… Elle aussi !",
+   "en": "\"Oh, my God!… Her too!\"",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     1196776,
+     5130
+    ],
+    "frs": [
+     1201906,
+     7458
+    ],
+    "en": [
+     1209364,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "cria monsieur Seguin stupéfait,",
+   "en": "cried Monsieur Seguin, stunned,",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     1211758,
+     3402
+    ],
+    "frs": [
+     1215160,
+     4866
+    ],
+    "en": [
+     1220026,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "et du coup il laissa tomber son écuelle ;",
+   "en": "and at that he dropped his bowl;",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1222852,
+     3666
+    ],
+    "frs": [
+     1226518,
+     5250
+    ],
+    "en": [
+     1231768,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "puis, s'asseyant dans l'herbe à côté de sa chèvre :",
+   "en": "then, sitting down in the grass beside his goat:",
+   "para": 20,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     1234090,
+     4674
+    ],
+    "frs": [
+     1238764,
+     6738
+    ],
+    "en": [
+     1245502,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "— Comment Blanquette, tu veux me quitter !",
+   "en": "\"What, Blanquette, you want to leave me!\"",
+   "para": 21,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5514,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     1249144,
+     3834
+    ],
+    "frs": [
+     1252978,
+     5514
+    ],
+    "en": [
+     1258492,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Et Blanquette répondit :",
+   "en": "And Blanquette answered:",
+   "para": 22,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4242,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1261606,
+     2994
+    ],
+    "frs": [
+     1264600,
+     4242
+    ],
+    "en": [
+     1268842,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Oui, monsieur Seguin.",
+   "en": "\"Yes, Monsieur Seguin.\"",
+   "para": 23,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     1271164,
+     3018
+    ],
+    "frs": [
+     1274182,
+     4266
+    ],
+    "en": [
+     1278448,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "— Est-ce que l'herbe te manque ici ?",
+   "en": "\"Is there not enough grass for you here?\"",
+   "para": 24,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4650,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     1280698,
+     3282
+    ],
+    "frs": [
+     1283980,
+     4650
+    ],
+    "en": [
+     1288630,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "— Oh ! non ! monsieur Seguin.",
+   "en": "\"Oh! No! Monsieur Seguin.\"",
+   "para": 25,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7386,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     1291096,
+     5082
+    ],
+    "frs": [
+     1296178,
+     7386
+    ],
+    "en": [
+     1303564,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "— Tu es peut-être attachée de trop court ;",
+   "en": "\"Maybe you're tied too short;",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     1306678,
+     3546
+    ],
+    "frs": [
+     1310224,
+     5082
+    ],
+    "en": [
+     1315306,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "veux-tu que j'allonge la corde !",
+   "en": "do you want me to lengthen the rope!\"",
+   "para": 26,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1317460,
+     3282
+    ],
+    "frs": [
+     1320742,
+     4674
+    ],
+    "en": [
+     1325416,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Ce n'est pas la peine, monsieur Seguin.",
+   "en": "\"There's no need, Monsieur Seguin.\"",
+   "para": 27,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     1327738,
+     3786
+    ],
+    "frs": [
+     1331524,
+     5418
+    ],
+    "en": [
+     1336942,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "— Alors, qu'est-ce qu'il te faut ! qu'est-ce que tu veux ?",
+   "en": "\"Then what do you need! What do you want?\"",
+   "para": 28,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3"
+   },
+   "ms": {
+    "fr": 5298,
+    "frs": 7698,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1339792,
+     5298
+    ],
+    "frs": [
+     1345090,
+     7698
+    ],
+    "en": [
+     1352788,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "— Je veux aller dans la montagne, monsieur Seguin.",
+   "en": "\"I want to go to the mountain, Monsieur Seguin.\"",
+   "para": 29,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     1355446,
+     4314
+    ],
+    "frs": [
+     1359760,
+     6210
+    ],
+    "en": [
+     1365970,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "— Mais, malheureuse, tu ne sais pas qu'il y a le loup dans la montagne…",
+   "en": "\"But, you poor thing, don't you know there's the wolf in the mountain…",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 5514,
+    "frs": 8010,
+    "en": 4386
+   },
+   "bank": {
+    "fr": [
+     1369036,
+     5514
+    ],
+    "frs": [
+     1374550,
+     8010
+    ],
+    "en": [
+     1382560,
+     4386
+    ]
+   }
+  },
+  {
+   "fr": "Que feras-tu quand il viendra ?…",
+   "en": "What will you do when he comes?…\"",
+   "para": 30,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     1386946,
+     3114
+    ],
+    "frs": [
+     1390060,
+     4434
+    ],
+    "en": [
+     1394494,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "— Je lui donnerai des coups de corne, monsieur Seguin.",
+   "en": "\"I'll butt him with my horns, Monsieur Seguin.\"",
+   "para": 31,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     1396864,
+     4410
+    ],
+    "frs": [
+     1401274,
+     6354
+    ],
+    "en": [
+     1407628,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "— Le loup se moque bien de tes cornes.",
+   "en": "\"The wolf couldn't care less about your horns.",
+   "para": 32,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1410910,
+     3426
+    ],
+    "frs": [
+     1414336,
+     4890
+    ],
+    "en": [
+     1419226,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "Il m'a mangé des biques autrement encornées que toi…",
+   "en": "He has eaten goats of mine with far better horns than you…",
+   "para": 32,
+   "glosses": [
+    {
+     "fr": "biques",
+     "en": "nanny goats"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3",
+    "gl": "audio/s098_gl.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3666,
+    "gl": 5402
+   },
+   "bank": {
+    "fr": [
+     1422268,
+     4242
+    ],
+    "frs": [
+     1426510,
+     6114
+    ],
+    "en": [
+     1432624,
+     3666
+    ],
+    "gl": [
+     1436290,
+     5402
+    ]
+   }
+  },
+  {
+   "fr": "Tu sais bien, la pauvre vieille Renaude qui était ici l'an dernier ?",
+   "en": "You remember, poor old Renaude who was here last year?",
+   "para": 32,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3"
+   },
+   "ms": {
+    "fr": 5370,
+    "frs": 7794,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     1441692,
+     5370
+    ],
+    "frs": [
+     1447062,
+     7794
+    ],
+    "en": [
+     1454856,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "une maîtresse chèvre, forte et méchante comme un bouc.",
+   "en": "A champion of a goat, strong and fierce as a billy goat.",
+   "para": 32,
+   "glosses": [
+    {
+     "fr": "bouc",
+     "en": "billy goat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3",
+    "gl": "audio/s100_gl.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 4506,
+    "gl": 5522
+   },
+   "bank": {
+    "fr": [
+     1458282,
+     4794
+    ],
+    "frs": [
+     1463076,
+     6930
+    ],
+    "en": [
+     1470006,
+     4506
+    ],
+    "gl": [
+     1474512,
+     5522
+    ]
+   }
+  },
+  {
+   "fr": "Elle s'est battue avec le loup toute la nuit…",
+   "en": "She fought with the wolf all night long…",
+   "para": 32,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1480034,
+     3714
+    ],
+    "frs": [
+     1483748,
+     5322
+    ],
+    "en": [
+     1489070,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "puis, le matin, le loup l'a mangée.",
+   "en": "then, in the morning, the wolf ate her.\"",
+   "para": 32,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     1491944,
+     4170
+    ],
+    "frs": [
+     1496114,
+     5994
+    ],
+    "en": [
+     1502108,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "— Pécaïre ! Pauvre Renaude !…",
+   "en": "\"Poor thing! Poor Renaude!…",
+   "para": 33,
+   "glosses": [
+    {
+     "fr": "Pécaïre",
+     "en": "Provençal for \"poor thing!\""
+    }
+   ],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3",
+    "gl": "audio/s103_gl.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 2538,
+    "gl": 6026
+   },
+   "bank": {
+    "fr": [
+     1505606,
+     4338
+    ],
+    "frs": [
+     1509944,
+     6258
+    ],
+    "en": [
+     1516202,
+     2538
+    ],
+    "gl": [
+     1518740,
+     6026
+    ]
+   }
+  },
+  {
+   "fr": "Ça ne fait rien, monsieur Seguin, laissez-moi aller dans la montagne.",
+   "en": "It doesn't matter, Monsieur Seguin, let me go to the mountain.\"",
+   "para": 33,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 5658,
+    "frs": 8226,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     1524766,
+     5658
+    ],
+    "frs": [
+     1530424,
+     8226
+    ],
+    "en": [
+     1538650,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "— Bonté divine !… dit monsieur Seguin ;",
+   "en": "\"Good heavens!…\" said Monsieur Seguin;",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     1542844,
+     4626
+    ],
+    "frs": [
+     1547470,
+     6690
+    ],
+    "en": [
+     1554160,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "mais qu'est-ce qu'on leur fait donc à mes chèvres ?",
+   "en": "\"what on earth is being done to my goats?",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     1557130,
+     3714
+    ],
+    "frs": [
+     1560844,
+     5298
+    ],
+    "en": [
+     1566142,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "Encore une que le loup va me manger…",
+   "en": "Another one that the wolf is going to eat on me…",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     1568992,
+     3354
+    ],
+    "frs": [
+     1572346,
+     4770
+    ],
+    "en": [
+     1577116,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "Eh bien, non… je te sauverai malgré toi, coquine !",
+   "en": "Well, no… I'll save you in spite of yourself, you little rascal!",
+   "para": 34,
+   "glosses": [
+    {
+     "fr": "coquine",
+     "en": "little rascal"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3",
+    "gl": "audio/s108_gl.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 4626,
+    "gl": 5786
+   },
+   "bank": {
+    "fr": [
+     1580278,
+     5274
+    ],
+    "frs": [
+     1585552,
+     7650
+    ],
+    "en": [
+     1593202,
+     4626
+    ],
+    "gl": [
+     1597828,
+     5786
+    ]
+   }
+  },
+  {
+   "fr": "et de peur que tu ne rompes ta corde,",
+   "en": "And for fear that you'll break your rope,",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1603614,
+     3378
+    ],
+    "frs": [
+     1606992,
+     4818
+    ],
+    "en": [
+     1611810,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "je vais t'enfermer dans l'étable,",
+   "en": "I'm going to shut you up in the shed,",
+   "para": 34,
+   "glosses": [
+    {
+     "fr": "étable",
+     "en": "cowshed, stable"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3",
+    "gl": "audio/s110_gl.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2418,
+    "gl": 5786
+   },
+   "bank": {
+    "fr": [
+     1614300,
+     3306
+    ],
+    "frs": [
+     1617606,
+     4722
+    ],
+    "en": [
+     1622328,
+     2418
+    ],
+    "gl": [
+     1624746,
+     5786
+    ]
+   }
+  },
+  {
+   "fr": "et tu y resteras toujours.",
+   "en": "and you'll stay there forever.\"",
+   "para": 34,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4290,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     1630532,
+     3018
+    ],
+    "frs": [
+     1633550,
+     4290
+    ],
+    "en": [
+     1637840,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Là-dessus, monsieur Seguin emporta la chèvre dans une étable toute noire,",
+   "en": "With that, Monsieur Seguin carried the goat off to a pitch-dark shed,",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 5922,
+    "frs": 8634,
+    "en": 4818
+   },
+   "bank": {
+    "fr": [
+     1639994,
+     5922
+    ],
+    "frs": [
+     1645916,
+     8634
+    ],
+    "en": [
+     1654550,
+     4818
+    ]
+   }
+  },
+  {
+   "fr": "dont il ferma la porte à double tour.",
+   "en": "and he double-locked its door.",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1659368,
+     3738
+    ],
+    "frs": [
+     1663106,
+     5346
+    ],
+    "en": [
+     1668452,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Malheureusement, il avait oublié la fenêtre,",
+   "en": "Unfortunately, he had forgotten the window,",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1670774,
+     4386
+    ],
+    "frs": [
+     1675160,
+     6330
+    ],
+    "en": [
+     1681490,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "et à peine eut-il le dos tourné, que la petite s'en alla…",
+   "en": "and hardly had he turned his back when the little one was gone…",
+   "para": 35,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     1684532,
+     4554
+    ],
+    "frs": [
+     1689086,
+     6594
+    ],
+    "en": [
+     1695680,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "Tu ris, Gringoire ? Parbleu ! je crois bien ;",
+   "en": "You're laughing, Gringoire? Of course you are!",
+   "para": 36,
+   "glosses": [
+    {
+     "fr": "Parbleu",
+     "en": "why, of course!"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3",
+    "gl": "audio/s116_gl.mp3"
+   },
+   "ms": {
+    "fr": 6594,
+    "frs": 9642,
+    "en": 3186,
+    "gl": 5618
+   },
+   "bank": {
+    "fr": [
+     1699514,
+     6594
+    ],
+    "frs": [
+     1706108,
+     9642
+    ],
+    "en": [
+     1715750,
+     3186
+    ],
+    "gl": [
+     1718936,
+     5618
+    ]
+   }
+  },
+  {
+   "fr": "tu es du parti des chèvres, toi, contre ce bon monsieur Seguin…",
+   "en": "You're on the goats' side, you are, against good Monsieur Seguin…",
+   "para": 36,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 5466,
+    "frs": 7938,
+    "en": 4650
+   },
+   "bank": {
+    "fr": [
+     1724554,
+     5466
+    ],
+    "frs": [
+     1730020,
+     7938
+    ],
+    "en": [
+     1737958,
+     4650
+    ]
+   }
+  },
+  {
+   "fr": "Nous allons voir si tu riras tout à l'heure.",
+   "en": "We'll see if you're still laughing in a little while.",
+   "para": 36,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5634,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     1742608,
+     3930
+    ],
+    "frs": [
+     1746538,
+     5634
+    ],
+    "en": [
+     1752172,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "Quand la chèvre blanche arriva dans la montagne,",
+   "en": "When the white goat arrived in the mountain,",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5826,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     1754974,
+     4050
+    ],
+    "frs": [
+     1759024,
+     5826
+    ],
+    "en": [
+     1764850,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "ce fut un ravissement général.",
+   "en": "everyone was enchanted.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1767916,
+     3522
+    ],
+    "frs": [
+     1771438,
+     5034
+    ],
+    "en": [
+     1776472,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Jamais les vieux sapins n'avaient rien vu d'aussi joli.",
+   "en": "Never had the old fir trees seen anything so pretty.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6306,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     1778794,
+     4362
+    ],
+    "frs": [
+     1783156,
+     6306
+    ],
+    "en": [
+     1789462,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "On la reçut comme une petite reine.",
+   "en": "She was welcomed like a little queen.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1793080,
+     3354
+    ],
+    "frs": [
+     1796434,
+     4794
+    ],
+    "en": [
+     1801228,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "Les châtaigniers se baissaient jusqu'à terre",
+   "en": "The chestnut trees bent down to the ground",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     1803742,
+     3858
+    ],
+    "frs": [
+     1807600,
+     5538
+    ],
+    "en": [
+     1813138,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "pour la caresser du bout de leurs branches.",
+   "en": "to stroke her with the tips of their branches.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     1816444,
+     3666
+    ],
+    "frs": [
+     1820110,
+     5250
+    ],
+    "en": [
+     1825360,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Les genêts d'or s'ouvraient sur son passage,",
+   "en": "The golden broom opened up as she passed,",
+   "para": 37,
+   "glosses": [
+    {
+     "fr": "genêts",
+     "en": "broom, a yellow-flowered shrub"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3",
+    "gl": "audio/s125_gl.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 3186,
+    "gl": 5810
+   },
+   "bank": {
+    "fr": [
+     1828306,
+     3834
+    ],
+    "frs": [
+     1832140,
+     5490
+    ],
+    "en": [
+     1837630,
+     3186
+    ],
+    "gl": [
+     1840816,
+     5810
+    ]
+   }
+  },
+  {
+   "fr": "et sentaient bon tant qu'ils pouvaient.",
+   "en": "and smelled as sweet as they could.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     1846626,
+     3138
+    ],
+    "frs": [
+     1849764,
+     4458
+    ],
+    "en": [
+     1854222,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "Toute la montagne lui fit fête.",
+   "en": "The whole mountain celebrated her.",
+   "para": 37,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "frs": "audio/s127_frs.mp3",
+    "en": "audio/s127_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4938,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     1856640,
+     3474
+    ],
+    "frs": [
+     1860114,
+     4938
+    ],
+    "en": [
+     1865052,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "Tu penses, Gringoire, si notre chèvre était heureuse !",
+   "en": "You can imagine, Gringoire, how happy our goat was!",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "frs": "audio/s128_frs.mp3",
+    "en": "audio/s128_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7434,
+    "en": 4386
+   },
+   "bank": {
+    "fr": [
+     1867494,
+     5130
+    ],
+    "frs": [
+     1872624,
+     7434
+    ],
+    "en": [
+     1880058,
+     4386
+    ]
+   }
+  },
+  {
+   "fr": "Plus de corde, plus de pieu…",
+   "en": "No more rope, no more stake…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "frs": "audio/s129_frs.mp3",
+    "en": "audio/s129_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4794,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     1884444,
+     3378
+    ],
+    "frs": [
+     1887822,
+     4794
+    ],
+    "en": [
+     1892616,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "rien qui l'empêchât de gambader, de brouter à sa guise…",
+   "en": "nothing to stop her frolicking, grazing as she pleased…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "frs": "audio/s130_frs.mp3",
+    "en": "audio/s130_en.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 4002
+   },
+   "bank": {
+    "fr": [
+     1895250,
+     4890
+    ],
+    "frs": [
+     1900140,
+     7074
+    ],
+    "en": [
+     1907214,
+     4002
+    ]
+   }
+  },
+  {
+   "fr": "C'est là qu'il y en avait de l'herbe !",
+   "en": "Now that's where there was grass!",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "frs": "audio/s131_frs.mp3",
+    "en": "audio/s131_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1911216,
+     3138
+    ],
+    "frs": [
+     1914354,
+     4458
+    ],
+    "en": [
+     1918812,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "jusque par-dessus les cornes, mon cher !…",
+   "en": "Right up over her horns, my dear fellow!…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "frs": "audio/s132_frs.mp3",
+    "en": "audio/s132_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     1921134,
+     4170
+    ],
+    "frs": [
+     1925304,
+     5994
+    ],
+    "en": [
+     1931298,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "Et quelle herbe !",
+   "en": "And what grass!",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "frs": "audio/s133_frs.mp3",
+    "en": "audio/s133_en.mp3"
+   },
+   "ms": {
+    "fr": 2394,
+    "frs": 3354,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1934460,
+     2394
+    ],
+    "frs": [
+     1936854,
+     3354
+    ],
+    "en": [
+     1940208,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Savoureuse, fine, dentelée, faite de mille plantes…",
+   "en": "Tasty, delicate, lacy, made of a thousand plants…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "frs": "audio/s134_frs.mp3",
+    "en": "audio/s134_en.mp3"
+   },
+   "ms": {
+    "fr": 5562,
+    "frs": 8106,
+    "en": 4818
+   },
+   "bank": {
+    "fr": [
+     1942530,
+     5562
+    ],
+    "frs": [
+     1948092,
+     8106
+    ],
+    "en": [
+     1956198,
+     4818
+    ]
+   }
+  },
+  {
+   "fr": "C'était bien autre chose que le gazon du clos.",
+   "en": "It was something quite different from the lawn in the field.",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "frs": "audio/s135_frs.mp3",
+    "en": "audio/s135_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     1961016,
+     4002
+    ],
+    "frs": [
+     1965018,
+     5730
+    ],
+    "en": [
+     1970748,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "Et les fleurs donc !…",
+   "en": "And as for the flowers!…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "frs": "audio/s136_frs.mp3",
+    "en": "audio/s136_en.mp3"
+   },
+   "ms": {
+    "fr": 2706,
+    "frs": 3810,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1974246,
+     2706
+    ],
+    "frs": [
+     1976952,
+     3810
+    ],
+    "en": [
+     1980762,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "De grandes campanules bleues,",
+   "en": "Tall blue bellflowers,",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "frs": "audio/s137_frs.mp3",
+    "en": "audio/s137_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4194,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1983084,
+     2970
+    ],
+    "frs": [
+     1986054,
+     4194
+    ],
+    "en": [
+     1990248,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "des digitales de pourpre à longs calices,",
+   "en": "purple foxgloves with long cups,",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "frs": "audio/s138_frs.mp3",
+    "en": "audio/s138_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     1992570,
+     3666
+    ],
+    "frs": [
+     1996236,
+     5250
+    ],
+    "en": [
+     2001486,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "toute une forêt de fleurs sauvages débordant de sucs capiteux !…",
+   "en": "a whole forest of wild flowers overflowing with heady juices!…",
+   "para": 38,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "frs": "audio/s139_frs.mp3",
+    "en": "audio/s139_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 5034
+   },
+   "bank": {
+    "fr": [
+     2004312,
+     4722
+    ],
+    "frs": [
+     2009034,
+     6834
+    ],
+    "en": [
+     2015868,
+     5034
+    ]
+   }
+  },
+  {
+   "fr": "La chèvre blanche, à moitié soûle,",
+   "en": "The white goat, half drunk,",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "frs": "audio/s140_frs.mp3",
+    "en": "audio/s140_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5826,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     2020902,
+     4050
+    ],
+    "frs": [
+     2024952,
+     5826
+    ],
+    "en": [
+     2030778,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "se vautrait là dedans les jambes en l'air",
+   "en": "rolled about in it with her legs in the air",
+   "para": 39,
+   "glosses": [
+    {
+     "fr": "se vautrait",
+     "en": "was rolling about"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "frs": "audio/s141_frs.mp3",
+    "en": "audio/s141_en.mp3",
+    "gl": "audio/s141_gl.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2970,
+    "gl": 5954
+   },
+   "bank": {
+    "fr": [
+     2033364,
+     3666
+    ],
+    "frs": [
+     2037030,
+     5250
+    ],
+    "en": [
+     2042280,
+     2970
+    ],
+    "gl": [
+     2045250,
+     5954
+    ]
+   }
+  },
+  {
+   "fr": "et roulait le long des talus,",
+   "en": "and tumbled down the slopes,",
+   "para": 39,
+   "glosses": [
+    {
+     "fr": "talus",
+     "en": "grassy slopes"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "frs": "audio/s142_frs.mp3",
+    "en": "audio/s142_en.mp3",
+    "gl": "audio/s142_gl.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 2322,
+    "gl": 5450
+   },
+   "bank": {
+    "fr": [
+     2051204,
+     2850
+    ],
+    "frs": [
+     2054054,
+     4026
+    ],
+    "en": [
+     2058080,
+     2322
+    ],
+    "gl": [
+     2060402,
+     5450
+    ]
+   }
+  },
+  {
+   "fr": "pêle-mêle avec les feuilles tombées et les châtaignes…",
+   "en": "all mixed up with the fallen leaves and the chestnuts…",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "frs": "audio/s143_frs.mp3",
+    "en": "audio/s143_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     2065852,
+     4098
+    ],
+    "frs": [
+     2069950,
+     5898
+    ],
+    "en": [
+     2075848,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Puis, tout à coup, elle se redressait d'un bond sur ses pattes.",
+   "en": "Then, all of a sudden, she sprang back up onto her feet.",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "frs": "audio/s144_frs.mp3",
+    "en": "audio/s144_en.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7626,
+    "en": 4362
+   },
+   "bank": {
+    "fr": [
+     2079418,
+     5250
+    ],
+    "frs": [
+     2084668,
+     7626
+    ],
+    "en": [
+     2092294,
+     4362
+    ]
+   }
+  },
+  {
+   "fr": "Hop ! la voilà partie, la tête en avant,",
+   "en": "Hop! Off she went, head first,",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "frs": "audio/s145_frs.mp3",
+    "en": "audio/s145_en.mp3"
+   },
+   "ms": {
+    "fr": 5202,
+    "frs": 7530,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     2096656,
+     5202
+    ],
+    "frs": [
+     2101858,
+     7530
+    ],
+    "en": [
+     2109388,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "à travers les maquis et les buissières,",
+   "en": "through the scrub and the thickets,",
+   "para": 39,
+   "glosses": [
+    {
+     "fr": "maquis",
+     "en": "scrubland"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "frs": "audio/s146_frs.mp3",
+    "en": "audio/s146_en.mp3",
+    "gl": "audio/s146_gl.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2562,
+    "gl": 5690
+   },
+   "bank": {
+    "fr": [
+     2112406,
+     3522
+    ],
+    "frs": [
+     2115928,
+     5034
+    ],
+    "en": [
+     2120962,
+     2562
+    ],
+    "gl": [
+     2123524,
+     5690
+    ]
+   }
+  },
+  {
+   "fr": "tantôt sur un pic, tantôt au fond d'un ravin,",
+   "en": "now on a peak, now at the bottom of a ravine,",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "frs": "audio/s147_frs.mp3",
+    "en": "audio/s147_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     2129214,
+     4338
+    ],
+    "frs": [
+     2133552,
+     6258
+    ],
+    "en": [
+     2139810,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "là-haut, en bas, partout…",
+   "en": "up high, down low, everywhere…",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "frs": "audio/s148_frs.mp3",
+    "en": "audio/s148_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     2143356,
+     3498
+    ],
+    "frs": [
+     2146854,
+     4986
+    ],
+    "en": [
+     2151840,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "On aurait dit qu'il y avait dix chèvres de monsieur Seguin dans la montagne.",
+   "en": "You would have thought there were ten of Monsieur Seguin's goats in the mountain.",
+   "para": 39,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "frs": "audio/s149_frs.mp3",
+    "en": "audio/s149_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7386,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     2154690,
+     5082
+    ],
+    "frs": [
+     2159772,
+     7386
+    ],
+    "en": [
+     2167158,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "C'est qu'elle n'avait peur de rien la Blanquette.",
+   "en": "The thing is, she was afraid of nothing, our Blanquette.",
+   "para": 40,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "frs": "audio/s150_frs.mp3",
+    "en": "audio/s150_en.mp3"
+   },
+   "ms": {
+    "fr": 3954,
+    "frs": 5682,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     2171352,
+     3954
+    ],
+    "frs": [
+     2175306,
+     5682
+    ],
+    "en": [
+     2180988,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "Elle franchissait d'un saut de grands torrents",
+   "en": "She leapt across great torrents in a single bound,",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "frs": "audio/s151_frs.mp3",
+    "en": "audio/s151_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     2184918,
+     3570
+    ],
+    "frs": [
+     2188488,
+     5106
+    ],
+    "en": [
+     2193594,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "qui l'éclaboussaient au passage de poussière humide et d'écume.",
+   "en": "which splashed her as she passed with spray and foam.",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "frs": "audio/s152_frs.mp3",
+    "en": "audio/s152_en.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "frs": 6714,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     2197020,
+     4650
+    ],
+    "frs": [
+     2201670,
+     6714
+    ],
+    "en": [
+     2208384,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Alors, toute ruisselante, elle allait s'étendre sur quelque roche plate",
+   "en": "Then, dripping wet, she would go and stretch out on some flat rock",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "frs": "audio/s153_frs.mp3",
+    "en": "audio/s153_en.mp3"
+   },
+   "ms": {
+    "fr": 6042,
+    "frs": 8802,
+    "en": 4818
+   },
+   "bank": {
+    "fr": [
+     2211834,
+     6042
+    ],
+    "frs": [
+     2217876,
+     8802
+    ],
+    "en": [
+     2226678,
+     4818
+    ]
+   }
+  },
+  {
+   "fr": "et se faisait sécher par le soleil…",
+   "en": "and let the sun dry her…",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "frs": "audio/s154_frs.mp3",
+    "en": "audio/s154_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2231496,
+     3378
+    ],
+    "frs": [
+     2234874,
+     4818
+    ],
+    "en": [
+     2239692,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Une fois, s'avançant au bord d'un plateau,",
+   "en": "Once, stepping forward to the edge of a plateau,",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "frs": "audio/s155_frs.mp3",
+    "en": "audio/s155_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     2242014,
+     4098
+    ],
+    "frs": [
+     2246112,
+     5898
+    ],
+    "en": [
+     2252010,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "une fleur de cytise aux dents,",
+   "en": "a laburnum flower between her teeth,",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "frs": "audio/s156_frs.mp3",
+    "en": "audio/s156_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2255700,
+     3090
+    ],
+    "frs": [
+     2258790,
+     4386
+    ],
+    "en": [
+     2263176,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "elle aperçut en bas, tout en bas dans la plaine,",
+   "en": "she spotted down below, far down in the plain,",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "frs": "audio/s157_frs.mp3",
+    "en": "audio/s157_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     2265930,
+     4266
+    ],
+    "frs": [
+     2270196,
+     6138
+    ],
+    "en": [
+     2276334,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "la maison de monsieur Seguin avec le clos derrière.",
+   "en": "Monsieur Seguin's house with the field behind it.",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "frs": "audio/s158_frs.mp3",
+    "en": "audio/s158_en.mp3"
+   },
+   "ms": {
+    "fr": 4482,
+    "frs": 6474,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     2279928,
+     4482
+    ],
+    "frs": [
+     2284410,
+     6474
+    ],
+    "en": [
+     2290884,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "Cela la fit rire aux larmes.",
+   "en": "That made her laugh till she cried.",
+   "para": 41,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "frs": "audio/s159_frs.mp3",
+    "en": "audio/s159_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     2294166,
+     3090
+    ],
+    "frs": [
+     2297256,
+     4362
+    ],
+    "en": [
+     2301618,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "— Que c'est petit ! dit-elle ;",
+   "en": "\"How small it is!\" she said;",
+   "para": 42,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "frs": "audio/s160_frs.mp3",
+    "en": "audio/s160_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2304348,
+     3210
+    ],
+    "frs": [
+     2307558,
+     4554
+    ],
+    "en": [
+     2312112,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "comment ai-je pu tenir là dedans ?",
+   "en": "\"how could I ever have fit in there?\"",
+   "para": 42,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "frs": "audio/s161_frs.mp3",
+    "en": "audio/s161_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     2314434,
+     3306
+    ],
+    "frs": [
+     2317740,
+     4722
+    ],
+    "en": [
+     2322462,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "Pauvrette ! de se voir si haut perchée,",
+   "en": "Poor little thing! Seeing herself perched so high,",
+   "para": 43,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "frs": "audio/s162_frs.mp3",
+    "en": "audio/s162_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 3666
+   },
+   "bank": {
+    "fr": [
+     2324712,
+     4722
+    ],
+    "frs": [
+     2329434,
+     6834
+    ],
+    "en": [
+     2336268,
+     3666
+    ]
+   }
+  },
+  {
+   "fr": "elle se croyait au moins aussi grande que le monde…",
+   "en": "she believed she was at least as big as the world…",
+   "para": 43,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "frs": "audio/s163_frs.mp3",
+    "en": "audio/s163_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     2339934,
+     4026
+    ],
+    "frs": [
+     2343960,
+     5778
+    ],
+    "en": [
+     2349738,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "En somme, ce fut une bonne journée pour la chèvre de monsieur Seguin.",
+   "en": "All in all, it was a good day for Monsieur Seguin's goat.",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "frs": "audio/s164_frs.mp3",
+    "en": "audio/s164_en.mp3"
+   },
+   "ms": {
+    "fr": 5442,
+    "frs": 7914,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     2353068,
+     5442
+    ],
+    "frs": [
+     2358510,
+     7914
+    ],
+    "en": [
+     2366424,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "Vers le milieu du jour, en courant de droite et de gauche,",
+   "en": "Around midday, running this way and that,",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s165_fr.mp3",
+    "frs": "audio/s165_frs.mp3",
+    "en": "audio/s165_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     2370474,
+     4818
+    ],
+    "frs": [
+     2375292,
+     6978
+    ],
+    "en": [
+     2382270,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "elle tomba dans une troupe de chamois",
+   "en": "she came upon a band of chamois",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s166_fr.mp3",
+    "frs": "audio/s166_frs.mp3",
+    "en": "audio/s166_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     2385216,
+     3570
+    ],
+    "frs": [
+     2388786,
+     5106
+    ],
+    "en": [
+     2393892,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "en train de croquer une lambrusque à belles dents.",
+   "en": "busy munching a wild vine with gusto.",
+   "para": 44,
+   "glosses": [
+    {
+     "fr": "lambrusque",
+     "en": "wild vine"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s167_fr.mp3",
+    "frs": "audio/s167_frs.mp3",
+    "en": "audio/s167_en.mp3",
+    "gl": "audio/s167_gl.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5514,
+    "en": 3114,
+    "gl": 6026
+   },
+   "bank": {
+    "fr": [
+     2396382,
+     3834
+    ],
+    "frs": [
+     2400216,
+     5514
+    ],
+    "en": [
+     2405730,
+     3114
+    ],
+    "gl": [
+     2408844,
+     6026
+    ]
+   }
+  },
+  {
+   "fr": "Notre petite coureuse en robe blanche fit sensation.",
+   "en": "Our little runner in her white dress caused a sensation.",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s168_fr.mp3",
+    "frs": "audio/s168_frs.mp3",
+    "en": "audio/s168_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6570,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     2414870,
+     4554
+    ],
+    "frs": [
+     2419424,
+     6570
+    ],
+    "en": [
+     2425994,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "On lui donna la meilleure place à la lambrusque,",
+   "en": "They gave her the best place at the wild vine,",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s169_fr.mp3",
+    "frs": "audio/s169_frs.mp3",
+    "en": "audio/s169_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     2429732,
+     4002
+    ],
+    "frs": [
+     2433734,
+     5730
+    ],
+    "en": [
+     2439464,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "et tous ces messieurs furent très galants…",
+   "en": "and all those gentlemen were very gallant…",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s170_fr.mp3",
+    "frs": "audio/s170_frs.mp3",
+    "en": "audio/s170_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     2442482,
+     3258
+    ],
+    "frs": [
+     2445740,
+     4626
+    ],
+    "en": [
+     2450366,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "Il paraît même, — ceci doit rester entre nous, Gringoire, —",
+   "en": "It even seems, and this must stay between us, Gringoire,",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s171_fr.mp3",
+    "frs": "audio/s171_frs.mp3",
+    "en": "audio/s171_en.mp3"
+   },
+   "ms": {
+    "fr": 5322,
+    "frs": 7722,
+    "en": 4650
+   },
+   "bank": {
+    "fr": [
+     2453384,
+     5322
+    ],
+    "frs": [
+     2458706,
+     7722
+    ],
+    "en": [
+     2466428,
+     4650
+    ]
+   }
+  },
+  {
+   "fr": "qu'un jeune chamois à pelage noir,",
+   "en": "that a young chamois with a black coat",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s172_fr.mp3",
+    "frs": "audio/s172_frs.mp3",
+    "en": "audio/s172_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     2471078,
+     3546
+    ],
+    "frs": [
+     2474624,
+     5082
+    ],
+    "en": [
+     2479706,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "eut la bonne fortune de plaire à Blanquette.",
+   "en": "had the good fortune to catch Blanquette's fancy.",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s173_fr.mp3",
+    "frs": "audio/s173_frs.mp3",
+    "en": "audio/s173_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5634,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     2482604,
+     3930
+    ],
+    "frs": [
+     2486534,
+     5634
+    ],
+    "en": [
+     2492168,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Les deux amoureux s'égarèrent parmi le bois une heure ou deux,",
+   "en": "The two lovers wandered off in the woods for an hour or two,",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s174_fr.mp3",
+    "frs": "audio/s174_frs.mp3",
+    "en": "audio/s174_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     2495426,
+     4674
+    ],
+    "frs": [
+     2500100,
+     6738
+    ],
+    "en": [
+     2506838,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "et si tu veux savoir ce qu'ils se dirent,",
+   "en": "and if you want to know what they said to each other,",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s175_fr.mp3",
+    "frs": "audio/s175_frs.mp3",
+    "en": "audio/s175_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2510672,
+     3546
+    ],
+    "frs": [
+     2514218,
+     5082
+    ],
+    "en": [
+     2519300,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "va le demander aux sources bavardes",
+   "en": "go and ask the chattering springs",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s176_fr.mp3",
+    "frs": "audio/s176_frs.mp3",
+    "en": "audio/s176_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5274,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     2521982,
+     3666
+    ],
+    "frs": [
+     2525648,
+     5274
+    ],
+    "en": [
+     2530922,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "qui courent invisibles dans la mousse.",
+   "en": "that run unseen through the moss.",
+   "para": 44,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s177_fr.mp3",
+    "frs": "audio/s177_frs.mp3",
+    "en": "audio/s177_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     2533460,
+     3378
+    ],
+    "frs": [
+     2536838,
+     4818
+    ],
+    "en": [
+     2541656,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "Tout à coup le vent fraîchit.",
+   "en": "Suddenly the wind turned cool.",
+   "para": 45,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s178_fr.mp3",
+    "frs": "audio/s178_frs.mp3",
+    "en": "audio/s178_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     2544650,
+     2994
+    ],
+    "frs": [
+     2547644,
+     4218
+    ],
+    "en": [
+     2551862,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "La montagne devint violette ; c'était le soir…",
+   "en": "The mountain turned purple; it was evening…",
+   "para": 45,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s179_fr.mp3",
+    "frs": "audio/s179_frs.mp3",
+    "en": "audio/s179_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     2554520,
+     4554
+    ],
+    "frs": [
+     2559074,
+     6594
+    ],
+    "en": [
+     2565668,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "— Déjà ! dit la petite chèvre ;",
+   "en": "\"Already!\" said the little goat;",
+   "para": 46,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s180_fr.mp3",
+    "frs": "audio/s180_frs.mp3",
+    "en": "audio/s180_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     2568974,
+     3426
+    ],
+    "frs": [
+     2572400,
+     4890
+    ],
+    "en": [
+     2577290,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "et elle s'arrêta fort étonnée.",
+   "en": "and she stopped, very surprised.",
+   "para": 46,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s181_fr.mp3",
+    "frs": "audio/s181_frs.mp3",
+    "en": "audio/s181_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     2579804,
+     3234
+    ],
+    "frs": [
+     2583038,
+     4602
+    ],
+    "en": [
+     2587640,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "En bas, les champs étaient noyés de brume.",
+   "en": "Down below, the fields were drowned in mist.",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s182_fr.mp3",
+    "frs": "audio/s182_frs.mp3",
+    "en": "audio/s182_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     2590394,
+     3978
+    ],
+    "frs": [
+     2594372,
+     5706
+    ],
+    "en": [
+     2600078,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "Le clos de monsieur Seguin disparaissait dans le brouillard,",
+   "en": "Monsieur Seguin's field was disappearing in the fog,",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s183_fr.mp3",
+    "frs": "audio/s183_frs.mp3",
+    "en": "audio/s183_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     2603552,
+     4506
+    ],
+    "frs": [
+     2608058,
+     6522
+    ],
+    "en": [
+     2614580,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "et de la maisonnette on ne voyait plus",
+   "en": "and of the little house all you could see now",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s184_fr.mp3",
+    "frs": "audio/s184_frs.mp3",
+    "en": "audio/s184_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2618294,
+     3402
+    ],
+    "frs": [
+     2621696,
+     4866
+    ],
+    "en": [
+     2626562,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "que le toit avec un peu de fumée.",
+   "en": "was the roof with a little smoke.",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s185_fr.mp3",
+    "frs": "audio/s185_frs.mp3",
+    "en": "audio/s185_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4842,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     2629652,
+     3402
+    ],
+    "frs": [
+     2633054,
+     4842
+    ],
+    "en": [
+     2637896,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "Elle écouta les clochettes d'un troupeau qu'on ramenait,",
+   "en": "She listened to the bells of a flock being brought home,",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s186_fr.mp3",
+    "frs": "audio/s186_frs.mp3",
+    "en": "audio/s186_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     2640290,
+     4170
+    ],
+    "frs": [
+     2644460,
+     5994
+    ],
+    "en": [
+     2650454,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "et se sentit l'âme toute triste…",
+   "en": "and felt very sad at heart…",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s187_fr.mp3",
+    "frs": "audio/s187_frs.mp3",
+    "en": "audio/s187_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4530,
+    "en": 2346
+   },
+   "bank": {
+    "fr": [
+     2653880,
+     3186
+    ],
+    "frs": [
+     2657066,
+     4530
+    ],
+    "en": [
+     2661596,
+     2346
+    ]
+   }
+  },
+  {
+   "fr": "Un gerfaut, qui rentrait, la frôla de ses ailes en passant.",
+   "en": "A falcon, flying home, brushed her with its wings as it passed.",
+   "para": 47,
+   "glosses": [
+    {
+     "fr": "gerfaut",
+     "en": "falcon"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s188_fr.mp3",
+    "frs": "audio/s188_frs.mp3",
+    "en": "audio/s188_en.mp3",
+    "gl": "audio/s188_gl.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7650,
+    "en": 4770,
+    "gl": 4778
+   },
+   "bank": {
+    "fr": [
+     2663942,
+     5250
+    ],
+    "frs": [
+     2669192,
+     7650
+    ],
+    "en": [
+     2676842,
+     4770
+    ],
+    "gl": [
+     2681612,
+     4778
+    ]
+   }
+  },
+  {
+   "fr": "Elle tressaillit…",
+   "en": "She shuddered…",
+   "para": 47,
+   "glosses": [
+    {
+     "fr": "tressaillit",
+     "en": "gave a start, shuddered"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s189_fr.mp3",
+    "frs": "audio/s189_frs.mp3",
+    "en": "audio/s189_en.mp3",
+    "gl": "audio/s189_gl.mp3"
+   },
+   "ms": {
+    "fr": 2586,
+    "frs": 3618,
+    "en": 2322,
+    "gl": 5930
+   },
+   "bank": {
+    "fr": [
+     2686390,
+     2586
+    ],
+    "frs": [
+     2688976,
+     3618
+    ],
+    "en": [
+     2692594,
+     2322
+    ],
+    "gl": [
+     2694916,
+     5930
+    ]
+   }
+  },
+  {
+   "fr": "puis ce fut un hurlement dans la montagne :",
+   "en": "then there was a howl in the mountain:",
+   "para": 47,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s190_fr.mp3",
+    "frs": "audio/s190_frs.mp3",
+    "en": "audio/s190_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     2700846,
+     3738
+    ],
+    "frs": [
+     2704584,
+     5370
+    ],
+    "en": [
+     2709954,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "— Hou ! hou !",
+   "en": "\"Hooo! Hooo!\"",
+   "para": 48,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s191_fr.mp3",
+    "frs": "audio/s191_frs.mp3",
+    "en": "audio/s191_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 1650
+   },
+   "bank": {
+    "fr": [
+     2712372,
+     3114
+    ],
+    "frs": [
+     2715486,
+     4434
+    ],
+    "en": [
+     2719920,
+     1650
+    ]
+   }
+  },
+  {
+   "fr": "Elle pensa au loup ;",
+   "en": "She thought of the wolf;",
+   "para": 49,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s192_fr.mp3",
+    "frs": "audio/s192_frs.mp3",
+    "en": "audio/s192_en.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3786,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2721570,
+     2682
+    ],
+    "frs": [
+     2724252,
+     3786
+    ],
+    "en": [
+     2728038,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "de tout le jour la folle n'y avait pas pensé…",
+   "en": "the whole day long, the silly thing hadn't thought of him…",
+   "para": 49,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s193_fr.mp3",
+    "frs": "audio/s193_frs.mp3",
+    "en": "audio/s193_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 3810
+   },
+   "bank": {
+    "fr": [
+     2730360,
+     3738
+    ],
+    "frs": [
+     2734098,
+     5346
+    ],
+    "en": [
+     2739444,
+     3810
+    ]
+   }
+  },
+  {
+   "fr": "Au même moment une trompe sonna bien loin dans la vallée.",
+   "en": "At that same moment a horn sounded far away in the valley.",
+   "para": 49,
+   "glosses": [
+    {
+     "fr": "trompe",
+     "en": "horn"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s194_fr.mp3",
+    "frs": "audio/s194_frs.mp3",
+    "en": "audio/s194_en.mp3",
+    "gl": "audio/s194_gl.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6306,
+    "en": 4074,
+    "gl": 4418
+   },
+   "bank": {
+    "fr": [
+     2743254,
+     4362
+    ],
+    "frs": [
+     2747616,
+     6306
+    ],
+    "en": [
+     2753922,
+     4074
+    ],
+    "gl": [
+     2757996,
+     4418
+    ]
+   }
+  },
+  {
+   "fr": "C'était ce bon monsieur Seguin qui tentait un dernier effort.",
+   "en": "It was good Monsieur Seguin making one last try.",
+   "para": 49,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s195_fr.mp3",
+    "frs": "audio/s195_frs.mp3",
+    "en": "audio/s195_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     2762414,
+     4698
+    ],
+    "frs": [
+     2767112,
+     6786
+    ],
+    "en": [
+     2773898,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "— Hou ! hou !… faisait le loup.",
+   "en": "\"Hooo! Hooo!…\" went the wolf.",
+   "para": 50,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s196_fr.mp3",
+    "frs": "audio/s196_frs.mp3",
+    "en": "audio/s196_en.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7146,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     2777372,
+     4938
+    ],
+    "frs": [
+     2782310,
+     7146
+    ],
+    "en": [
+     2789456,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "— Reviens ! reviens !… criait la trompe.",
+   "en": "\"Come back! Come back!…\" cried the horn.",
+   "para": 51,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s197_fr.mp3",
+    "frs": "audio/s197_frs.mp3",
+    "en": "audio/s197_en.mp3"
+   },
+   "ms": {
+    "fr": 5826,
+    "frs": 8466,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     2792162,
+     5826
+    ],
+    "frs": [
+     2797988,
+     8466
+    ],
+    "en": [
+     2806454,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "Blanquette eut envie de revenir ;",
+   "en": "Blanquette felt like going back;",
+   "para": 52,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s198_fr.mp3",
+    "frs": "audio/s198_frs.mp3",
+    "en": "audio/s198_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     2809832,
+     3330
+    ],
+    "frs": [
+     2813162,
+     4746
+    ],
+    "en": [
+     2817908,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "mais en se rappelant le pieu, la corde, la haie du clos,",
+   "en": "but remembering the stake, the rope, the hedge around the field,",
+   "para": 52,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s199_fr.mp3",
+    "frs": "audio/s199_frs.mp3",
+    "en": "audio/s199_en.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7026,
+    "en": 4482
+   },
+   "bank": {
+    "fr": [
+     2820422,
+     4866
+    ],
+    "frs": [
+     2825288,
+     7026
+    ],
+    "en": [
+     2832314,
+     4482
+    ]
+   }
+  },
+  {
+   "fr": "elle pensa que maintenant elle ne pouvait plus se faire à cette vie,",
+   "en": "she thought that now she could no longer get used to that life,",
+   "para": 52,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s200_fr.mp3",
+    "frs": "audio/s200_frs.mp3",
+    "en": "audio/s200_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6570,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     2836796,
+     4554
+    ],
+    "frs": [
+     2841350,
+     6570
+    ],
+    "en": [
+     2847920,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "et qu'il valait mieux rester.",
+   "en": "and that it was better to stay.",
+   "para": 52,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s201_fr.mp3",
+    "frs": "audio/s201_frs.mp3",
+    "en": "audio/s201_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4170,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2851634,
+     2946
+    ],
+    "frs": [
+     2854580,
+     4170
+    ],
+    "en": [
+     2858750,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "La trompe ne sonnait plus…",
+   "en": "The horn was silent now…",
+   "para": 53,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s202_fr.mp3",
+    "frs": "audio/s202_frs.mp3",
+    "en": "audio/s202_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2106
+   },
+   "bank": {
+    "fr": [
+     2861072,
+     2946
+    ],
+    "frs": [
+     2864018,
+     4146
+    ],
+    "en": [
+     2868164,
+     2106
+    ]
+   }
+  },
+  {
+   "fr": "La chèvre entendit derrière elle un bruit de feuilles.",
+   "en": "The goat heard a rustle of leaves behind her.",
+   "para": 54,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s203_fr.mp3",
+    "frs": "audio/s203_frs.mp3",
+    "en": "audio/s203_en.mp3"
+   },
+   "ms": {
+    "fr": 4218,
+    "frs": 6066,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     2870270,
+     4218
+    ],
+    "frs": [
+     2874488,
+     6066
+    ],
+    "en": [
+     2880554,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Elle se retourna et vit dans l'ombre",
+   "en": "She turned around and saw in the shadows",
+   "para": 54,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s204_fr.mp3",
+    "frs": "audio/s204_frs.mp3",
+    "en": "audio/s204_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     2883812,
+     3498
+    ],
+    "frs": [
+     2887310,
+     4986
+    ],
+    "en": [
+     2892296,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "deux oreilles courtes, toutes droites,",
+   "en": "two short ears, standing straight up,",
+   "para": 54,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s205_fr.mp3",
+    "frs": "audio/s205_frs.mp3",
+    "en": "audio/s205_en.mp3"
+   },
+   "ms": {
+    "fr": 3762,
+    "frs": 5394,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     2895554,
+     3762
+    ],
+    "frs": [
+     2899316,
+     5394
+    ],
+    "en": [
+     2904710,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "avec deux yeux qui reluisaient…",
+   "en": "with two eyes that gleamed…",
+   "para": 54,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s206_fr.mp3",
+    "frs": "audio/s206_frs.mp3",
+    "en": "audio/s206_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4482,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     2907608,
+     3138
+    ],
+    "frs": [
+     2910746,
+     4482
+    ],
+    "en": [
+     2915228,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "C'était le loup.",
+   "en": "It was the wolf.",
+   "para": 54,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s207_fr.mp3",
+    "frs": "audio/s207_frs.mp3",
+    "en": "audio/s207_en.mp3"
+   },
+   "ms": {
+    "fr": 2394,
+    "frs": 3330,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2917670,
+     2394
+    ],
+    "frs": [
+     2920064,
+     3330
+    ],
+    "en": [
+     2923394,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Énorme, immobile, assis sur son train de derrière,",
+   "en": "Huge, motionless, sitting on his hindquarters,",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s208_fr.mp3",
+    "frs": "audio/s208_frs.mp3",
+    "en": "audio/s208_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     2925716,
+     4818
+    ],
+    "frs": [
+     2930534,
+     6978
+    ],
+    "en": [
+     2937512,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "il était là regardant la petite chèvre blanche",
+   "en": "there he was, watching the little white goat",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s209_fr.mp3",
+    "frs": "audio/s209_frs.mp3",
+    "en": "audio/s209_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     2941346,
+     4170
+    ],
+    "frs": [
+     2945516,
+     5994
+    ],
+    "en": [
+     2951510,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "et la dégustant par avance.",
+   "en": "and savoring her in advance.",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s210_fr.mp3",
+    "frs": "audio/s210_frs.mp3",
+    "en": "audio/s210_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     2954624,
+     3186
+    ],
+    "frs": [
+     2957810,
+     4506
+    ],
+    "en": [
+     2962316,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Comme il savait bien qu'il la mangerait,",
+   "en": "Since he knew very well that he would eat her,",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s211_fr.mp3",
+    "frs": "audio/s211_frs.mp3",
+    "en": "audio/s211_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     2964686,
+     3402
+    ],
+    "frs": [
+     2968088,
+     4866
+    ],
+    "en": [
+     2972954,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "le loup ne se pressait pas ;",
+   "en": "the wolf was in no hurry;",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s212_fr.mp3",
+    "frs": "audio/s212_frs.mp3",
+    "en": "audio/s212_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2976020,
+     2826
+    ],
+    "frs": [
+     2978846,
+     4002
+    ],
+    "en": [
+     2982848,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "seulement, quand elle se retourna, il se mit à rire méchamment.",
+   "en": "only, when she turned around, he began to laugh wickedly.",
+   "para": 55,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s213_fr.mp3",
+    "frs": "audio/s213_frs.mp3",
+    "en": "audio/s213_en.mp3"
+   },
+   "ms": {
+    "fr": 5298,
+    "frs": 7698,
+    "en": 4482
+   },
+   "bank": {
+    "fr": [
+     2985170,
+     5298
+    ],
+    "frs": [
+     2990468,
+     7698
+    ],
+    "en": [
+     2998166,
+     4482
+    ]
+   }
+  },
+  {
+   "fr": "— Ha ! ha ! la petite chèvre de monsieur Seguin !",
+   "en": "\"Ha! Ha! Monsieur Seguin's little goat!\"",
+   "para": 56,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s214_fr.mp3",
+    "frs": "audio/s214_frs.mp3",
+    "en": "audio/s214_en.mp3"
+   },
+   "ms": {
+    "fr": 6138,
+    "frs": 8946,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     3002648,
+     6138
+    ],
+    "frs": [
+     3008786,
+     8946
+    ],
+    "en": [
+     3017732,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "et il passa sa grosse langue rouge sur ses babines d'amadou.",
+   "en": "And he ran his big red tongue over his tawny chops.",
+   "para": 56,
+   "glosses": [
+    {
+     "fr": "babines",
+     "en": "chops, lips of an animal"
+    },
+    {
+     "fr": "amadou",
+     "en": "tinder, reddish-brown"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s215_fr.mp3",
+    "frs": "audio/s215_frs.mp3",
+    "en": "audio/s215_en.mp3",
+    "gl": "audio/s215_gl.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6954,
+    "en": 3810,
+    "gl": 11074
+   },
+   "bank": {
+    "fr": [
+     3021614,
+     4794
+    ],
+    "frs": [
+     3026408,
+     6954
+    ],
+    "en": [
+     3033362,
+     3810
+    ],
+    "gl": [
+     3037172,
+     11074
+    ]
+   }
+  },
+  {
+   "fr": "Blanquette se sentit perdue…",
+   "en": "Blanquette felt she was lost…",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s216_fr.mp3",
+    "frs": "audio/s216_frs.mp3",
+    "en": "audio/s216_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     3048246,
+     3234
+    ],
+    "frs": [
+     3051480,
+     4602
+    ],
+    "en": [
+     3056082,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "Un moment en se rappelant l'histoire de la vieille Renaude,",
+   "en": "For a moment, remembering the story of old Renaude,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s217_fr.mp3",
+    "frs": "audio/s217_frs.mp3",
+    "en": "audio/s217_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     3058500,
+     4386
+    ],
+    "frs": [
+     3062886,
+     6330
+    ],
+    "en": [
+     3069216,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "qui s'était battue toute la nuit pour être mangée le matin,",
+   "en": "who had fought all night only to be eaten in the morning,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s218_fr.mp3",
+    "frs": "audio/s218_frs.mp3",
+    "en": "audio/s218_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6306,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     3073266,
+     4362
+    ],
+    "frs": [
+     3077628,
+     6306
+    ],
+    "en": [
+     3083934,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "elle se dit qu'il vaudrait peut-être mieux se laisser manger tout de suite ;",
+   "en": "she told herself it might be better to let herself be eaten right away;",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s219_fr.mp3",
+    "frs": "audio/s219_frs.mp3",
+    "en": "audio/s219_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7362,
+    "en": 4482
+   },
+   "bank": {
+    "fr": [
+     3087360,
+     5082
+    ],
+    "frs": [
+     3092442,
+     7362
+    ],
+    "en": [
+     3099804,
+     4482
+    ]
+   }
+  },
+  {
+   "fr": "puis, s'étant ravisée, elle tomba en garde,",
+   "en": "then, changing her mind, she took up her guard,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s220_fr.mp3",
+    "frs": "audio/s220_frs.mp3",
+    "en": "audio/s220_en.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     3104286,
+     4626
+    ],
+    "frs": [
+     3108912,
+     6690
+    ],
+    "en": [
+     3115602,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "la tête basse et la corne en avant,",
+   "en": "head low and horns forward,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s221_fr.mp3",
+    "frs": "audio/s221_frs.mp3",
+    "en": "audio/s221_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     3119316,
+     3450
+    ],
+    "frs": [
+     3122766,
+     4938
+    ],
+    "en": [
+     3127704,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "comme une brave chèvre de monsieur Seguin qu'elle était…",
+   "en": "like the brave goat of Monsieur Seguin that she was…",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s222_fr.mp3",
+    "frs": "audio/s222_frs.mp3",
+    "en": "audio/s222_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5874,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     3130122,
+     4074
+    ],
+    "frs": [
+     3134196,
+     5874
+    ],
+    "en": [
+     3140070,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "Non pas qu'elle eût l'espoir de tuer le loup,",
+   "en": "Not that she had any hope of killing the wolf,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s223_fr.mp3",
+    "frs": "audio/s223_frs.mp3",
+    "en": "audio/s223_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     3143784,
+     3570
+    ],
+    "frs": [
+     3147354,
+     5106
+    ],
+    "en": [
+     3152460,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "— les chèvres ne tuent pas le loup, —",
+   "en": "goats don't kill the wolf,",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s224_fr.mp3",
+    "frs": "audio/s224_frs.mp3",
+    "en": "audio/s224_en.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3155574,
+     3042
+    ],
+    "frs": [
+     3158616,
+     4314
+    ],
+    "en": [
+     3162930,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "mais seulement pour voir",
+   "en": "but only to see",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s225_fr.mp3",
+    "frs": "audio/s225_frs.mp3",
+    "en": "audio/s225_en.mp3"
+   },
+   "ms": {
+    "fr": 2898,
+    "frs": 4098,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3165252,
+     2898
+    ],
+    "frs": [
+     3168150,
+     4098
+    ],
+    "en": [
+     3172248,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "si elle pourrait tenir aussi longtemps que la Renaude…",
+   "en": "if she could hold out as long as old Renaude…",
+   "para": 57,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s226_fr.mp3",
+    "frs": "audio/s226_frs.mp3",
+    "en": "audio/s226_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3138
+   },
+   "bank": {
+    "fr": [
+     3174570,
+     4242
+    ],
+    "frs": [
+     3178812,
+     6090
+    ],
+    "en": [
+     3184902,
+     3138
+    ]
+   }
+  },
+  {
+   "fr": "Alors le monstre s'avança,",
+   "en": "Then the monster came forward,",
+   "para": 58,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s227_fr.mp3",
+    "frs": "audio/s227_frs.mp3",
+    "en": "audio/s227_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3188040,
+     3138
+    ],
+    "frs": [
+     3191178,
+     4458
+    ],
+    "en": [
+     3195636,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et les petites cornes entrèrent en danse.",
+   "en": "and the little horns began to dance.",
+   "para": 58,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s228_fr.mp3",
+    "frs": "audio/s228_frs.mp3",
+    "en": "audio/s228_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     3197958,
+     3498
+    ],
+    "frs": [
+     3201456,
+     4986
+    ],
+    "en": [
+     3206442,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Ah ! la brave chevrette, comme elle y allait de bon cœur !",
+   "en": "Ah! The brave little goat, how wholeheartedly she fought!",
+   "para": 59,
+   "glosses": [
+    {
+     "fr": "chevrette",
+     "en": "little goat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s229_fr.mp3",
+    "frs": "audio/s229_frs.mp3",
+    "en": "audio/s229_en.mp3",
+    "gl": "audio/s229_gl.mp3"
+   },
+   "ms": {
+    "fr": 5826,
+    "frs": 8466,
+    "en": 4698,
+    "gl": 5930
+   },
+   "bank": {
+    "fr": [
+     3209196,
+     5826
+    ],
+    "frs": [
+     3215022,
+     8466
+    ],
+    "en": [
+     3223488,
+     4698
+    ],
+    "gl": [
+     3228186,
+     5930
+    ]
+   }
+  },
+  {
+   "fr": "Plus de dix fois, je ne mens pas, Gringoire,",
+   "en": "More than ten times, I'm not lying, Gringoire,",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s230_fr.mp3",
+    "frs": "audio/s230_frs.mp3",
+    "en": "audio/s230_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     3234116,
+     4506
+    ],
+    "frs": [
+     3238622,
+     6522
+    ],
+    "en": [
+     3245144,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "elle força le loup à reculer pour reprendre haleine.",
+   "en": "she forced the wolf to back off to catch his breath.",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s231_fr.mp3",
+    "frs": "audio/s231_frs.mp3",
+    "en": "audio/s231_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     3248858,
+     4434
+    ],
+    "frs": [
+     3253292,
+     6378
+    ],
+    "en": [
+     3259670,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Pendant ces trêves d'une minute,",
+   "en": "During these one-minute truces,",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s232_fr.mp3",
+    "frs": "audio/s232_frs.mp3",
+    "en": "audio/s232_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     3263024,
+     3282
+    ],
+    "frs": [
+     3266306,
+     4674
+    ],
+    "en": [
+     3270980,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "la gourmande cueillait en hâte encore un brin de sa chère herbe ;",
+   "en": "the greedy little thing hastily snatched one more blade of her beloved grass;",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s233_fr.mp3",
+    "frs": "audio/s233_frs.mp3",
+    "en": "audio/s233_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 5514
+   },
+   "bank": {
+    "fr": [
+     3273470,
+     4698
+    ],
+    "frs": [
+     3278168,
+     6786
+    ],
+    "en": [
+     3284954,
+     5514
+    ]
+   }
+  },
+  {
+   "fr": "puis elle retournait au combat, la bouche pleine…",
+   "en": "then she went back to the fight, her mouth full…",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s234_fr.mp3",
+    "frs": "audio/s234_frs.mp3",
+    "en": "audio/s234_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     3290468,
+     4338
+    ],
+    "frs": [
+     3294806,
+     6258
+    ],
+    "en": [
+     3301064,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "Cela dura toute la nuit.",
+   "en": "It went on all night.",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s235_fr.mp3",
+    "frs": "audio/s235_frs.mp3",
+    "en": "audio/s235_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3304538,
+     3090
+    ],
+    "frs": [
+     3307628,
+     4386
+    ],
+    "en": [
+     3312014,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "De temps en temps la chèvre de monsieur Seguin",
+   "en": "From time to time Monsieur Seguin's goat",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s236_fr.mp3",
+    "frs": "audio/s236_frs.mp3",
+    "en": "audio/s236_en.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     3314336,
+     3858
+    ],
+    "frs": [
+     3318194,
+     5538
+    ],
+    "en": [
+     3323732,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "regardait les étoiles danser dans le ciel clair,",
+   "en": "watched the stars dancing in the clear sky,",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s237_fr.mp3",
+    "frs": "audio/s237_frs.mp3",
+    "en": "audio/s237_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     3326582,
+     4290
+    ],
+    "frs": [
+     3330872,
+     6186
+    ],
+    "en": [
+     3337058,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "et elle se disait :",
+   "en": "and she said to herself:",
+   "para": 59,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s238_fr.mp3",
+    "frs": "audio/s238_frs.mp3",
+    "en": "audio/s238_en.mp3"
+   },
+   "ms": {
+    "fr": 2490,
+    "frs": 3498,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3340388,
+     2490
+    ],
+    "frs": [
+     3342878,
+     3498
+    ],
+    "en": [
+     3346376,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Oh ! pourvu que je tienne jusqu'à l'aube…",
+   "en": "\"Oh! If only I can hold out until dawn…\"",
+   "para": 60,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s239_fr.mp3",
+    "frs": "audio/s239_frs.mp3",
+    "en": "audio/s239_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     3348698,
+     4698
+    ],
+    "frs": [
+     3353396,
+     6786
+    ],
+    "en": [
+     3360182,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "L'une après l'autre, les étoiles s'éteignirent.",
+   "en": "One after another, the stars went out.",
+   "para": 61,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s240_fr.mp3",
+    "frs": "audio/s240_frs.mp3",
+    "en": "audio/s240_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     3363632,
+     4242
+    ],
+    "frs": [
+     3367874,
+     6090
+    ],
+    "en": [
+     3373964,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Blanquette redoubla de coups de cornes, le loup de coups de dents…",
+   "en": "Blanquette struck harder with her horns, the wolf with his teeth…",
+   "para": 61,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s241_fr.mp3",
+    "frs": "audio/s241_frs.mp3",
+    "en": "audio/s241_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 7002,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     3376886,
+     4818
+    ],
+    "frs": [
+     3381704,
+     7002
+    ],
+    "en": [
+     3388706,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "Une lueur pâle parut dans l'horizon…",
+   "en": "A pale glow appeared on the horizon…",
+   "para": 61,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s242_fr.mp3",
+    "frs": "audio/s242_frs.mp3",
+    "en": "audio/s242_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     3393164,
+     3306
+    ],
+    "frs": [
+     3396470,
+     4698
+    ],
+    "en": [
+     3401168,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Le chant d'un coq enroué monta d'une métairie.",
+   "en": "The crowing of a hoarse rooster rose from a farm.",
+   "para": 61,
+   "glosses": [
+    {
+     "fr": "métairie",
+     "en": "farm"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s243_fr.mp3",
+    "frs": "audio/s243_frs.mp3",
+    "en": "audio/s243_en.mp3",
+    "gl": "audio/s243_gl.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 3474,
+    "gl": 4754
+   },
+   "bank": {
+    "fr": [
+     3404114,
+     3906
+    ],
+    "frs": [
+     3408020,
+     5610
+    ],
+    "en": [
+     3413630,
+     3474
+    ],
+    "gl": [
+     3417104,
+     4754
+    ]
+   }
+  },
+  {
+   "fr": "— Enfin ! dit la pauvre bête,",
+   "en": "\"At last!\" said the poor creature,",
+   "para": 62,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s244_fr.mp3",
+    "frs": "audio/s244_frs.mp3",
+    "en": "audio/s244_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     3421858,
+     3594
+    ],
+    "frs": [
+     3425452,
+     5130
+    ],
+    "en": [
+     3430582,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "qui n'attendait plus que le jour pour mourir ;",
+   "en": "who was only waiting for daylight to die;",
+   "para": 62,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s245_fr.mp3",
+    "frs": "audio/s245_frs.mp3",
+    "en": "audio/s245_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     3433312,
+     3810
+    ],
+    "frs": [
+     3437122,
+     5466
+    ],
+    "en": [
+     3442588,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "et elle s'allongea par terre",
+   "en": "and she lay down on the ground",
+   "para": 62,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s246_fr.mp3",
+    "frs": "audio/s246_frs.mp3",
+    "en": "audio/s246_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     3445390,
+     3114
+    ],
+    "frs": [
+     3448504,
+     4410
+    ],
+    "en": [
+     3452914,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "dans sa belle fourrure blanche toute tachée de sang…",
+   "en": "in her beautiful white coat, all stained with blood…",
+   "para": 62,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s247_fr.mp3",
+    "frs": "audio/s247_frs.mp3",
+    "en": "audio/s247_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     3455308,
+     4098
+    ],
+    "frs": [
+     3459406,
+     5898
+    ],
+    "en": [
+     3465304,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "Alors le loup se jeta sur la petite chèvre et la mangea.",
+   "en": "Then the wolf threw himself on the little goat and ate her.",
+   "para": 63,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s248_fr.mp3",
+    "frs": "audio/s248_frs.mp3",
+    "en": "audio/s248_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     3469210,
+     4506
+    ],
+    "frs": [
+     3473716,
+     6522
+    ],
+    "en": [
+     3480238,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "Adieu, Gringoire !",
+   "en": "Farewell, Gringoire!",
+   "para": 64,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s249_fr.mp3",
+    "frs": "audio/s249_frs.mp3",
+    "en": "audio/s249_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3484168,
+     3186
+    ],
+    "frs": [
+     3487354,
+     4506
+    ],
+    "en": [
+     3491860,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "L'histoire que tu as entendue n'est pas un conte de mon invention.",
+   "en": "The story you have heard is not a tale I made up.",
+   "para": 65,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s250_fr.mp3",
+    "frs": "audio/s250_frs.mp3",
+    "en": "audio/s250_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7362,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     3494182,
+     5082
+    ],
+    "frs": [
+     3499264,
+     7362
+    ],
+    "en": [
+     3506626,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "Si jamais tu viens en Provence,",
+   "en": "If you ever come to Provence,",
+   "para": 65,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s251_fr.mp3",
+    "frs": "audio/s251_frs.mp3",
+    "en": "audio/s251_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3509860,
+     3282
+    ],
+    "frs": [
+     3513142,
+     4674
+    ],
+    "en": [
+     3517816,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "nos ménagers te parleront souvent de la cabro de moussu Seguin,",
+   "en": "our farmers will often tell you about \"la cabro de moussu Seguin\", Monsieur Seguin's goat,",
+   "para": 65,
+   "glosses": [
+    {
+     "fr": "ménagers",
+     "en": "farmers"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s252_fr.mp3",
+    "frs": "audio/s252_frs.mp3",
+    "en": "audio/s252_en.mp3",
+    "gl": "audio/s252_gl.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7242,
+    "en": 6210,
+    "gl": 5882
+   },
+   "bank": {
+    "fr": [
+     3520138,
+     5010
+    ],
+    "frs": [
+     3525148,
+     7242
+    ],
+    "en": [
+     3532390,
+     6210
+    ],
+    "gl": [
+     3538600,
+     5882
+    ]
+   }
+  },
+  {
+   "fr": "que se battégue touto la neui emé lou loup,",
+   "en": "who fought all night long with the wolf,",
+   "para": 65,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s253_fr.mp3",
+    "frs": "audio/s253_frs.mp3",
+    "en": "audio/s253_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     3544482,
+     3810
+    ],
+    "frs": [
+     3548292,
+     5442
+    ],
+    "en": [
+     3553734,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "e piei lou matin lou loup la mangé.",
+   "en": "and then, in the morning, the wolf ate her.",
+   "para": 65,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s254_fr.mp3",
+    "frs": "audio/s254_frs.mp3",
+    "en": "audio/s254_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     3556464,
+     3522
+    ],
+    "frs": [
+     3559986,
+     5034
+    ],
+    "en": [
+     3565020,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Tu m'entends bien, Gringoire :",
+   "en": "Do you hear me, Gringoire?",
+   "para": 66,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s255_fr.mp3",
+    "frs": "audio/s255_frs.mp3",
+    "en": "audio/s255_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3568470,
+     3546
+    ],
+    "frs": [
+     3572016,
+     5082
+    ],
+    "en": [
+     3577098,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "E piei lou matin lou loup la mangé.",
+   "en": "And then, in the morning, the wolf ate her.",
+   "para": 67,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s256_fr.mp3",
+    "frs": "audio/s256_frs.mp3",
+    "en": "audio/s256_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     3579420,
+     3522
+    ],
+    "frs": [
+     3582942,
+     5034
+    ],
+    "en": [
+     3587976,
+     3450
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   0,
+   28854
+  ],
+  "silence": [
+   28854,
+   30000
+  ]
+ }
+}

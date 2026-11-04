@@ -2,58 +2,73 @@
  "stories": [
   {
    "id": "la_chevre_de_monsieur_seguin",
+   "lang": "fr",
    "title": "La Chèvre de monsieur Seguin",
    "author": "Alphonse Daudet",
    "level": "B2",
+   "series": "",
+   "episode": "",
    "phrases": 256,
    "minutes": 65,
    "size_mb": 22,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/la_chevre_de_monsieur_seguin.zip",
-   "version": "cca916995d9f"
+   "version": "776aa405cb5e"
   },
   {
    "id": "la_derniere_classe",
+   "lang": "fr",
    "title": "La Dernière Classe",
    "author": "Alphonse Daudet",
    "level": "B2",
+   "series": "",
+   "episode": "",
    "phrases": 220,
    "minutes": 54,
    "size_mb": 19,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/la_derniere_classe.zip",
-   "version": "66296fa1ebc1"
+   "version": "451d878b3e19"
   },
   {
    "id": "ai_mystery",
+   "lang": "fr",
    "title": "La Fausse Note",
    "author": "Original story (AI-generated)",
    "level": "B1",
+   "series": "",
+   "episode": "",
    "phrases": 182,
    "minutes": 45,
    "size_mb": 15,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/ai_mystery.zip",
-   "version": "34e0b71cf4d5"
+   "version": "03ad363468e1"
   },
   {
    "id": "la_parure",
+   "lang": "fr",
    "title": "La Parure",
    "author": "Guy de Maupassant",
    "level": "B2",
+   "series": "",
+   "episode": "",
    "phrases": 329,
    "minutes": 90,
    "size_mb": 30,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/la_parure.zip",
-   "version": "b7963bd9436d"
+   "version": "4c1e213de4f6"
   },
   {
    "id": "ai_comedy",
+   "lang": "fr",
    "title": "Le Stylo vert",
    "author": "Original story (AI-generated)",
    "level": "B1",
+   "series": "",
+   "episode": "",
    "phrases": 174,
    "minutes": 45,
    "size_mb": 15,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/ai_comedy.zip",
-   "version": "8750c69600ed"
+   "version": "491adc0a1b55"
   }
  ]
 }
