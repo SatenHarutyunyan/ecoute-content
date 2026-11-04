@@ -1,0 +1,1683 @@
+{
+ "id": "hy_ep1",
+ "lang": "hy",
+ "title": "Որտե՞ղ է խնձորը",
+ "author": "Original story (AI-generated)",
+ "level": "A0",
+ "series": "The Apple Thief of the Courtyard",
+ "episode": "1",
+ "note": "Meet Ani, her very slow tortoise Aram, and her sleepy neighbor, Grandpa Vazgen. Every morning Ani has a big red apple, խնձոր. But today, where is it?",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 18658,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Սա Անին է։",
+   "en": "This is Ani.",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2129,
+    "en": 1578
+   },
+   "bank": {
+    "fr": [
+     48658,
+     1730
+    ],
+    "frs": [
+     50388,
+     2129
+    ],
+    "en": [
+     52517,
+     1578
+    ]
+   }
+  },
+  {
+   "fr": "Անին ապրում է Երևանում։",
+   "en": "Ani lives in Yerevan.",
+   "para": 1,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3092,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     54095,
+     2450
+    ],
+    "frs": [
+     56545,
+     3092
+    ],
+    "en": [
+     59637,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Սա Անիի բակն է։",
+   "en": "This is Ani's courtyard.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "բակ",
+     "en": "courtyard"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 2876,
+    "en": 2322,
+    "gl": 4276
+   },
+   "bank": {
+    "fr": [
+     61791,
+     2290
+    ],
+    "frs": [
+     64081,
+     2876
+    ],
+    "en": [
+     66957,
+     2322
+    ],
+    "gl": [
+     69279,
+     4276
+    ]
+   }
+  },
+  {
+   "fr": "Բակում կա մի ծառ։",
+   "en": "In the courtyard there is a tree.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "ծառ",
+     "en": "tree"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2672,
+    "en": 2298,
+    "gl": 3043
+   },
+   "bank": {
+    "fr": [
+     73555,
+     2130
+    ],
+    "frs": [
+     75685,
+     2672
+    ],
+    "en": [
+     78357,
+     2298
+    ],
+    "gl": [
+     80655,
+     3043
+    ]
+   }
+  },
+  {
+   "fr": "Ծառի տակ կա մի նստարան։",
+   "en": "Under the tree there is a bench.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "նստարան",
+     "en": "bench"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3"
+   },
+   "ms": {
+    "fr": 2690,
+    "frs": 3433,
+    "en": 2442,
+    "gl": 3448
+   },
+   "bank": {
+    "fr": [
+     83698,
+     2690
+    ],
+    "frs": [
+     86388,
+     3433
+    ],
+    "en": [
+     89821,
+     2442
+    ],
+    "gl": [
+     92263,
+     3448
+    ]
+   }
+  },
+  {
+   "fr": "Բակում կա նաև մի սեղան։",
+   "en": "In the courtyard there is also a table.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "սեղան",
+     "en": "table"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3514,
+    "en": 2706,
+    "gl": 3216
+   },
+   "bank": {
+    "fr": [
+     95711,
+     2770
+    ],
+    "frs": [
+     98481,
+     3514
+    ],
+    "en": [
+     101995,
+     2706
+    ],
+    "gl": [
+     104701,
+     3216
+    ]
+   }
+  },
+  {
+   "fr": "Սա Վազգեն պապն է։",
+   "en": "This is Grandpa Vazgen.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "պապ",
+     "en": "grandpa"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2666,
+    "en": 2250,
+    "gl": 2933
+   },
+   "bank": {
+    "fr": [
+     107917,
+     2130
+    ],
+    "frs": [
+     110047,
+     2666
+    ],
+    "en": [
+     112713,
+     2250
+    ],
+    "gl": [
+     114963,
+     2933
+    ]
+   }
+  },
+  {
+   "fr": "Վազգեն պապն Անիի հարևանն է։",
+   "en": "Grandpa Vazgen is Ani's neighbor.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "հարևան",
+     "en": "neighbor"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3"
+   },
+   "ms": {
+    "fr": 3010,
+    "frs": 3862,
+    "en": 3090,
+    "gl": 3357
+   },
+   "bank": {
+    "fr": [
+     117896,
+     3010
+    ],
+    "frs": [
+     120906,
+     3862
+    ],
+    "en": [
+     124768,
+     3090
+    ],
+    "gl": [
+     127858,
+     3357
+    ]
+   }
+  },
+  {
+   "fr": "Նա ունի մեծ գլխարկ։",
+   "en": "He has a big hat.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "գլխարկ",
+     "en": "hat"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 2989,
+    "en": 2322,
+    "gl": 3703
+   },
+   "bank": {
+    "fr": [
+     131215,
+     2370
+    ],
+    "frs": [
+     133585,
+     2989
+    ],
+    "en": [
+     136574,
+     2322
+    ],
+    "gl": [
+     138896,
+     3703
+    ]
+   }
+  },
+  {
+   "fr": "Նա նստում է նստարանին։",
+   "en": "He sits on the bench.",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 2995,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     142599,
+     2370
+    ],
+    "frs": [
+     144969,
+     2995
+    ],
+    "en": [
+     147964,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Գլխարկը նրա կողքին է։",
+   "en": "The hat is next to him.",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2664,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     150286,
+     2130
+    ],
+    "frs": [
+     152416,
+     2664
+    ],
+    "en": [
+     155080,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Նա քնում է։",
+   "en": "He sleeps.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "քնում է",
+     "en": "sleeps"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3"
+   },
+   "ms": {
+    "fr": 1570,
+    "frs": 1915,
+    "en": 2322,
+    "gl": 4378
+   },
+   "bank": {
+    "fr": [
+     157402,
+     1570
+    ],
+    "frs": [
+     158972,
+     1915
+    ],
+    "en": [
+     160887,
+     2322
+    ],
+    "gl": [
+     163209,
+     4378
+    ]
+   }
+  },
+  {
+   "fr": "«Խռռ... խռռ...»",
+   "en": "\"Snore... snore...\"",
+   "para": 2,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2564,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     167587,
+     2050
+    ],
+    "frs": [
+     169637,
+     2564
+    ],
+    "en": [
+     172201,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Սա Արամն է։",
+   "en": "This is Aram.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 1810,
+    "frs": 2239,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     174523,
+     1810
+    ],
+    "frs": [
+     176333,
+     2239
+    ],
+    "en": [
+     178572,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Արամը կրիա է։",
+   "en": "Aram is a tortoise.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "կրիա",
+     "en": "tortoise"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2131,
+    "en": 2322,
+    "gl": 4184
+   },
+   "bank": {
+    "fr": [
+     180894,
+     1730
+    ],
+    "frs": [
+     182624,
+     2131
+    ],
+    "en": [
+     184755,
+     2322
+    ],
+    "gl": [
+     187077,
+     4184
+    ]
+   }
+  },
+  {
+   "fr": "Արամը ծեր է։",
+   "en": "Aram is old.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3"
+   },
+   "ms": {
+    "fr": 1810,
+    "frs": 2251,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     191261,
+     1810
+    ],
+    "frs": [
+     193071,
+     2251
+    ],
+    "en": [
+     195322,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Արամը դանդաղ է։",
+   "en": "Aram is slow.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "դանդաղ",
+     "en": "slow"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3"
+   },
+   "ms": {
+    "fr": 1970,
+    "frs": 2468,
+    "en": 2322,
+    "gl": 3416
+   },
+   "bank": {
+    "fr": [
+     197644,
+     1970
+    ],
+    "frs": [
+     199614,
+     2468
+    ],
+    "en": [
+     202082,
+     2322
+    ],
+    "gl": [
+     204404,
+     3416
+    ]
+   }
+  },
+  {
+   "fr": "Շատ դանդաղ։",
+   "en": "Very slow.",
+   "para": 3,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2136,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     207820,
+     1730
+    ],
+    "frs": [
+     209550,
+     2136
+    ],
+    "en": [
+     211686,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Առավոտ է։",
+   "en": "It is morning.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 1570,
+    "frs": 1936,
+    "en": 1458
+   },
+   "bank": {
+    "fr": [
+     214008,
+     1570
+    ],
+    "frs": [
+     215578,
+     1936
+    ],
+    "en": [
+     217514,
+     1458
+    ]
+   }
+  },
+  {
+   "fr": "Անին ունի մի խնձոր։",
+   "en": "Ani has an apple.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "խնձոր",
+     "en": "apple"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 2998,
+    "en": 2322,
+    "gl": 3109
+   },
+   "bank": {
+    "fr": [
+     218972,
+     2370
+    ],
+    "frs": [
+     221342,
+     2998
+    ],
+    "en": [
+     224340,
+     2322
+    ],
+    "gl": [
+     226662,
+     3109
+    ]
+   }
+  },
+  {
+   "fr": "Մեծ, կարմիր խնձոր։",
+   "en": "A big, red apple.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "կարմիր",
+     "en": "red"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "gl": "audio/s021_gl.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3106,
+    "en": 2154,
+    "gl": 3679
+   },
+   "bank": {
+    "fr": [
+     229771,
+     2450
+    ],
+    "frs": [
+     232221,
+     3106
+    ],
+    "en": [
+     235327,
+     2154
+    ],
+    "gl": [
+     237481,
+     3679
+    ]
+   }
+  },
+  {
+   "fr": "Խնձորը սեղանին է։",
+   "en": "The apple is on the table.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2570,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     241160,
+     2050
+    ],
+    "frs": [
+     243210,
+     2570
+    ],
+    "en": [
+     245780,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Անին գնում է տուն։",
+   "en": "Ani goes home.",
+   "para": 4,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 1970,
+    "frs": 2454,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     247934,
+     1970
+    ],
+    "frs": [
+     249904,
+     2454
+    ],
+    "en": [
+     252358,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Անին նորից բակում է։",
+   "en": "Ani is in the courtyard again.",
+   "para": 5,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3089,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     254680,
+     2450
+    ],
+    "frs": [
+     257130,
+     3089
+    ],
+    "en": [
+     260219,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "Խնձորը չկա՛։",
+   "en": "The apple is not there!",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "չկա",
+     "en": "is not there"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "gl": "audio/s025_gl.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2139,
+    "en": 2322,
+    "gl": 4270
+   },
+   "bank": {
+    "fr": [
+     262613,
+     1730
+    ],
+    "frs": [
+     264343,
+     2139
+    ],
+    "en": [
+     266482,
+     2322
+    ],
+    "gl": [
+     268804,
+     4270
+    ]
+   }
+  },
+  {
+   "fr": "«Որտե՞ղ է իմ խնձորը»։",
+   "en": "\"Where is my apple?\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "որտե՞ղ",
+     "en": "where"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2662,
+    "en": 2322,
+    "gl": 3174
+   },
+   "bank": {
+    "fr": [
+     273074,
+     2130
+    ],
+    "frs": [
+     275204,
+     2662
+    ],
+    "en": [
+     277866,
+     2322
+    ],
+    "gl": [
+     280188,
+     3174
+    ]
+   }
+  },
+  {
+   "fr": "Անին նայում է Արամին։",
+   "en": "Ani looks at Aram.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3090,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     283362,
+     2450
+    ],
+    "frs": [
+     285812,
+     3090
+    ],
+    "en": [
+     288902,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Արա՛մ, դո՞ւ ես»։",
+   "en": "\"Aram, is it you?\"",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 2210,
+    "frs": 2787,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     291224,
+     2210
+    ],
+    "frs": [
+     293434,
+     2787
+    ],
+    "en": [
+     296221,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Արամը ոչինչ չի ասում։",
+   "en": "Aram says nothing.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 2985,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     298543,
+     2370
+    ],
+    "frs": [
+     300913,
+     2985
+    ],
+    "en": [
+     303898,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Կրիաները չեն խոսում։",
+   "en": "Tortoises don't talk.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3"
+   },
+   "ms": {
+    "fr": 2210,
+    "frs": 2777,
+    "en": 1962
+   },
+   "bank": {
+    "fr": [
+     306220,
+     2210
+    ],
+    "frs": [
+     308430,
+     2777
+    ],
+    "en": [
+     311207,
+     1962
+    ]
+   }
+  },
+  {
+   "fr": "Եվ Արամը շատ դանդաղ է։",
+   "en": "And Aram is very slow.",
+   "para": 6,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 2880,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     313169,
+     2290
+    ],
+    "frs": [
+     315459,
+     2880
+    ],
+    "en": [
+     318339,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Անին նայում է Վազգեն պապին։",
+   "en": "Ani looks at Grandpa Vazgen.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3213,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     320661,
+     2530
+    ],
+    "frs": [
+     323191,
+     3213
+    ],
+    "en": [
+     326404,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "«Վազգեն պապի՛, դո՞ւք եք»։",
+   "en": "\"Grandpa Vazgen, is it you?\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 2690,
+    "frs": 3410,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     328870,
+     2690
+    ],
+    "frs": [
+     331560,
+     3410
+    ],
+    "en": [
+     334970,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Խռռ... խռռ...»",
+   "en": "\"Snore... snore...\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2564,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     337292,
+     2050
+    ],
+    "frs": [
+     339342,
+     2564
+    ],
+    "en": [
+     341906,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Վազգեն պապի՛»։",
+   "en": "\"Grandpa Vazgen!\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2146,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     344228,
+     1730
+    ],
+    "frs": [
+     345958,
+     2146
+    ],
+    "en": [
+     348104,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Վազգեն պապն արթնանում է։",
+   "en": "Grandpa Vazgen wakes up.",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 2879,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     350426,
+     2290
+    ],
+    "frs": [
+     352716,
+     2879
+    ],
+    "en": [
+     355595,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "«Ի՞նչ։ Ես չեմ քնո՛ւմ»։",
+   "en": "\"What? I'm not sleeping!\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 2930,
+    "frs": 3747,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     357989,
+     2930
+    ],
+    "frs": [
+     360919,
+     3747
+    ],
+    "en": [
+     364666,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Պապի՛, որտե՞ղ է իմ խնձորը»։",
+   "en": "\"Grandpa, where is my apple?\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3535,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     366988,
+     2770
+    ],
+    "frs": [
+     369758,
+     3535
+    ],
+    "en": [
+     373293,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "«Խնձո՞ր։ Ես չգիտեմ»։",
+   "en": "\"An apple? I don't know.\"",
+   "para": 7,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 4930,
+    "frs": 6399,
+    "en": 2202
+   },
+   "bank": {
+    "fr": [
+     375759,
+     4930
+    ],
+    "frs": [
+     380689,
+     6399
+    ],
+    "en": [
+     387088,
+     2202
+    ]
+   }
+  },
+  {
+   "fr": "Պապը վերցնում է իր գլխարկը։",
+   "en": "Grandpa picks up his hat.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3529,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     389290,
+     2770
+    ],
+    "frs": [
+     392060,
+     3529
+    ],
+    "en": [
+     395589,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Օ՜յ։ Իմ գլխարկը ծանր է այսօր»։",
+   "en": "\"Oh! My hat is heavy today.\"",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "ծանր",
+     "en": "heavy"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "gl": "audio/s041_gl.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5228,
+    "en": 2538,
+    "gl": 3035
+   },
+   "bank": {
+    "fr": [
+     397911,
+     4050
+    ],
+    "frs": [
+     401961,
+     5228
+    ],
+    "en": [
+     407189,
+     2538
+    ],
+    "gl": [
+     409727,
+     3035
+    ]
+   }
+  },
+  {
+   "fr": "«Տարօրինակ է»։",
+   "en": "\"It's strange.\"",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "տարօրինակ",
+     "en": "strange"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3"
+   },
+   "ms": {
+    "fr": 1650,
+    "frs": 2025,
+    "en": 2322,
+    "gl": 4718
+   },
+   "bank": {
+    "fr": [
+     412762,
+     1650
+    ],
+    "frs": [
+     414412,
+     2025
+    ],
+    "en": [
+     416437,
+     2322
+    ],
+    "gl": [
+     418759,
+     4718
+    ]
+   }
+  },
+  {
+   "fr": "Նա գլխարկը դնում է նստարանին",
+   "en": "He puts the hat on the bench",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 3633,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     423477,
+     2850
+    ],
+    "frs": [
+     426327,
+     3633
+    ],
+    "en": [
+     429960,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "ու նորից քնում է։",
+   "en": "and sleeps again.",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 1890,
+    "frs": 2362,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     432282,
+     1890
+    ],
+    "frs": [
+     434172,
+     2362
+    ],
+    "en": [
+     436534,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Խռռ... խռռ...»",
+   "en": "\"Snore... snore...\"",
+   "para": 8,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2564,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     438856,
+     2050
+    ],
+    "frs": [
+     440906,
+     2564
+    ],
+    "en": [
+     443470,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ծառի վրա մի սև թռչուն կա։",
+   "en": "In the tree there is a black bird.",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "թռչուն",
+     "en": "bird"
+    }
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3",
+    "gl": "audio/s046_gl.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3095,
+    "en": 2418,
+    "gl": 3507
+   },
+   "bank": {
+    "fr": [
+     445792,
+     2450
+    ],
+    "frs": [
+     448242,
+     3095
+    ],
+    "en": [
+     451337,
+     2418
+    ],
+    "gl": [
+     453755,
+     3507
+    ]
+   }
+  },
+  {
+   "fr": "«Կռա՛, կռա՛»։",
+   "en": "\"Caw, caw!\"",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3203,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     457262,
+     2530
+    ],
+    "frs": [
+     459792,
+     3203
+    ],
+    "en": [
+     462995,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Անին չի լսում։",
+   "en": "Ani doesn't hear.",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 1890,
+    "frs": 2345,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     465317,
+     1890
+    ],
+    "frs": [
+     467207,
+     2345
+    ],
+    "en": [
+     469552,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Որտե՞ղ է իմ խնձորը»։",
+   "en": "\"Where is my apple?\"",
+   "para": 9,
+   "glosses": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2662,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     471874,
+     2130
+    ],
+    "frs": [
+     474004,
+     2662
+    ],
+    "en": [
+     476666,
+     2322
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   0,
+   18658
+  ],
+  "silence": [
+   18658,
+   30000
+  ]
+ }
+}
