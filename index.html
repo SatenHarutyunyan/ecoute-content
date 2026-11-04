@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Écoute</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Écoute">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="manifest" href="manifest.json">
+<style>
+:root { --bg:#f7f5f0; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --accent:#2b59c3; --line:#e4e1da; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121214; --card:#1d1d21; --ink:#f2f2f4; --muted:#9a9aa2; --accent:#7ea2ff; --line:#2e2e34; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
+main { max-width:640px; margin:0 auto; padding:16px 16px 48px; padding-top:max(16px, env(safe-area-inset-top)); }
+h1 { font-size:28px; margin:4px 0 0; }
+h2 { font-size:15px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:28px 0 8px; }
+.muted { color:var(--muted); font-size:13px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; }
+.langs { display:flex; gap:8px; margin-top:12px; }
+.langs button, .presets button { flex:1; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:10px; font-size:15px; }
+.langs button.on, .presets button.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
+.story { display:block; width:100%; text-align:left; margin-bottom:8px; cursor:pointer; color:var(--ink); font-size:16px; }
+.story b { display:block; }
+.story.playing { border-color:var(--accent); }
+#now .fr { font-size:22px; font-weight:600; margin:6px 0; }
+#now .en { color:var(--muted); }
+.controls { display:flex; gap:10px; margin-top:14px; }
+.controls button { flex:1; font-size:26px; padding:12px 0; border-radius:12px; border:none; background:var(--accent); color:#fff; }
+.controls button.sec { background:var(--line); color:var(--ink); }
+.presets { display:flex; flex-wrap:wrap; gap:8px; }
+.presets button { flex:1 1 45%; font-size:14px; }
+input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:15px; margin-top:8px; }
+label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
+.tip { background:var(--card); border-left:3px solid var(--accent); padding:10px 12px; border-radius:8px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Écoute</h1>
+  <div class="muted">Stories you listen to, phrase by phrase. Eyes free.</div>
+
+  <div class="langs" id="langs"></div>
+
+  <h2>Now playing</h2>
+  <div class="card" id="now">
+    <div class="muted" id="where">Pick a story below.</div>
+    <div class="fr" id="fr"></div>
+    <div class="en" id="en"></div>
+    <div class="controls">
+      <button class="sec" id="back" aria-label="Replay phrase">⟲</button>
+      <button id="play" aria-label="Play or pause">▶</button>
+      <button class="sec" id="next" aria-label="Next phrase">⏭</button>
+    </div>
+  </div>
+
+  <h2>Stories</h2>
+  <div id="stories"><div class="muted">Loading…</div></div>
+
+  <h2>Listening pattern</h2>
+  <div class="presets" id="presets"></div>
+  <input type="text" id="pattern" autocapitalize="characters" spellcheck="false">
+  <div class="muted">Tokens: FR (story language), FR_SLOW, EN, GLOSS (hard words), PAUSE (time to repeat).</div>
+  <label class="opt"><input type="checkbox" id="tapHelp" checked>
+    <span>Tap = “I didn't catch it”<br><span class="muted">Pause and resume within 10 seconds (one tap on your earbuds, twice) and the phrase replays with translation.</span></span></label>
+
+  <h2>How to listen</h2>
+  <div class="tip">Start a story, lock your phone, walk. Earbuds: <b>tap</b> to pause, tap again quickly = replay with help. <b>Double-tap</b> = next phrase, <b>triple-tap</b> = replay. On iPhone, add this page to your Home Screen (Share → Add to Home Screen).</div>
+  <p class="muted" id="ver"></p>
+</main>
+<audio id="audio" preload="auto"></audio>
+<script>
+const VERSION = "web 0.1";
+const PRESETS = {
+  "Standard": "FR GLOSS EN FR PAUSE",
+  "Hard story": "FR GLOSS EN FR EN FR",
+  "Beginner": "FR EN FR_SLOW FR PAUSE",
+  "Slow": "FR_SLOW GLOSS EN FR PAUSE",
+  "No pause": "FR GLOSS EN FR",
+  "French only": "FR",
+};
+const HELP = "FR_SLOW GLOSS EN FR";            // used once after a "didn't catch it" tap
+const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: PRESETS["Beginner"] };
+const LANGS = { fr: "Français", hy: "Հայերեն" };
+const TOKENS = ["FR", "FR_SLOW", "EN", "GLOSS", "PAUSE"];
+const KIND = { FR: "fr", FR_SLOW: "frs", EN: "en", GLOSS: "gl" };
+
+const $ = id => document.getElementById(id);
+const audio = $("audio");
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+
+let catalog = [], lang = store.get("lang", "fr"), story = null;
+let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null;
+
+const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
+const parse = p => p.toUpperCase().split(/[\s,]+/).filter(t => TOKENS.includes(t));
+
+// ---------- playback engine: one audio file, we only seek inside it ----------
+function stepsFor(i, pat) {
+  const s = story.segments[i], b = s.bank, out = [];
+  for (const t of parse(pat)) {
+    if (t === "PAUSE") out.push([story.bank.silence[0], Math.max(1200, b.fr[1])]);
+    else if (b[KIND[t]]) out.push(b[KIND[t]]);
+  }
+  const nxt = story.segments[i + 1];
+  if (nxt && nxt.para !== s.para) out.push([story.bank.silence[0], 700]);
+  return out.length ? out : [b.fr];
+}
+
+function playRange([start, dur]) {
+  audio.currentTime = start / 1000;
+  stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
+  clearTimeout(timer);
+  timer = setTimeout(tick, dur - 300);
+  if (audio.paused) audio.play().catch(() => {});
+}
+
+function tick() {
+  if (audio.paused || !story) return;
+  if (audio.currentTime * 1000 >= stopAt) advance();
+}
+
+function advance() {
+  step++;
+  if (step < steps.length) return playRange(steps[step]);
+  if (seg + 1 < story.segments.length) startSeg(seg + 1);
+  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); }
+}
+
+function startSeg(i, pat) {
+  seg = i;
+  store.set("pos_" + story.id, i);
+  steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
+  step = 0;
+  show();
+  playRange(steps[0]);
+}
+
+function nextPhrase() { if (story && seg + 1 < story.segments.length) startSeg(seg + 1); }
+function replay() {
+  if (!story) return;
+  const atStart = step === 0 && audio.currentTime * 1000 - steps[0][0] < 1500;
+  startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
+}
+function replayWithHelp() { if (story && seg >= 0) startSeg(seg, HELP); }
+
+audio.addEventListener("timeupdate", tick);
+audio.addEventListener("play", () => $("play").textContent = "❚❚");
+audio.addEventListener("pause", () => { $("play").textContent = "▶"; pausedAt = Date.now(); clearTimeout(timer); });
+
+function resume() {
+  if (!story) return;
+  const quick = pausedAt && Date.now() - pausedAt < 10000;
+  if (quick && $("tapHelp").checked && seg >= 0) return replayWithHelp();
+  playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
+}
+function togglePlay() { if (!story) return; audio.paused ? resume() : audio.pause(); }
+
+if ("mediaSession" in navigator) {
+  const ms = navigator.mediaSession;
+  ms.setActionHandler("play", resume);
+  ms.setActionHandler("pause", () => audio.pause());
+  ms.setActionHandler("nexttrack", nextPhrase);
+  ms.setActionHandler("previoustrack", replay);
+  try { ms.setActionHandler("seekforward", null); ms.setActionHandler("seekbackward", null); } catch {}
+}
+
+function show() {
+  const n = story.segments.length;
+  const s = story.segments[seg];
+  $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
+  $("fr").textContent = s ? s.fr : story.title;
+  $("en").textContent = s ? s.en : story.note;
+  document.querySelectorAll(".story").forEach(el => el.classList.toggle("playing", el.dataset.id === story.id));
+  if ("mediaSession" in navigator) navigator.mediaSession.metadata = new MediaMetadata({
+    title: s ? s.fr : story.title, artist: s ? s.en : story.author,
+    album: seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`,
+    artwork: [{ src: "icon.png", sizes: "180x180", type: "image/png" }],
+  });
+}
+
+async function openStory(entry) {
+  const base = `stories/${entry.id}/`;
+  story = await (await fetch(base + "story.json")).json();
+  audio.src = base + story.bank.file;
+  const pos = store.get("pos_" + story.id, -1);
+  startSeg(pos >= 0 && pos < story.segments.length ? pos : -1);
+}
+
+// ---------- UI ----------
+function renderLangs() {
+  $("langs").innerHTML = "";
+  for (const [code, name] of Object.entries(LANGS)) {
+    const b = document.createElement("button");
+    b.textContent = name; b.className = code === lang ? "on" : "";
+    b.onclick = () => { lang = code; store.set("lang", lang); renderAll(); };
+    $("langs").append(b);
+  }
+}
+
+function renderStories() {
+  const list = catalog.filter(s => (s.lang || "fr") === lang);
+  $("stories").innerHTML = list.length ? "" : '<div class="muted">No stories in this language yet.</div>';
+  for (const s of list) {
+    const pos = store.get("pos_" + s.id, -1);
+    const el = document.createElement("button");
+    el.className = "card story"; el.dataset.id = s.id;
+    const ep = s.series ? `${s.series} · episode ${s.episode} · ` : "";
+    el.innerHTML = `<b></b><span class="muted"></span>`;
+    el.querySelector("b").textContent = s.title;
+    el.querySelector("span").textContent = `${ep}${s.author} · ${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
+    el.onclick = () => openStory(s);
+    $("stories").append(el);
+  }
+}
+
+function renderPattern() {
+  const cur = pattern();
+  $("pattern").value = cur;
+  $("presets").innerHTML = "";
+  for (const [name, p] of Object.entries(PRESETS)) {
+    const b = document.createElement("button");
+    b.textContent = name; b.title = p; b.className = p === cur ? "on" : "";
+    b.onclick = () => setPattern(p);
+    $("presets").append(b);
+  }
+}
+
+function setPattern(p) {
+  const clean = parse(p).join(" ") || "FR";
+  store.set("pattern_" + lang, clean);
+  renderPattern();
+  if (story && seg >= 0 && (story.lang || "fr") === lang) {  // takes effect from the next step
+    steps = stepsFor(seg, clean);
+    step = Math.min(step, steps.length - 1);
+  }
+}
+
+function renderAll() { renderLangs(); renderStories(); renderPattern(); }
+
+$("pattern").addEventListener("change", e => setPattern(e.target.value));
+$("play").onclick = togglePlay;
+$("next").onclick = nextPhrase;
+$("back").onclick = replay;
+$("tapHelp").checked = store.get("tapHelp", true);
+$("tapHelp").onchange = e => store.set("tapHelp", e.target.checked);
+$("ver").textContent = VERSION;
+
+fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
+  .catch(() => { $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; renderLangs(); renderPattern(); });
+</script>
+</body>
+</html>
