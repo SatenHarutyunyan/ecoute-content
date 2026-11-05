@@ -41,7 +41,10 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h1>Écoute</h1>
   <div class="muted">Stories you listen to, phrase by phrase. Eyes free.</div>
 
+  <h2 id="learnHead">I'm learning</h2>
   <div class="langs" id="langs"></div>
+
+  <div id="app">
 
   <h2>Now playing</h2>
   <div class="card" id="now">
@@ -61,30 +64,31 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h2>Listening pattern</h2>
   <div class="presets" id="presets"></div>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false">
-  <div class="muted">Tokens: FR (story language), FR_SLOW, EN, GLOSS (hard words), PAUSE (time to repeat).</div>
+  <div class="muted" id="tokens"></div>
   <label class="opt"><input type="checkbox" id="tapHelp" checked>
     <span>Tap = “I didn't catch it”<br><span class="muted">Pause and resume within 10 seconds (one tap on your earbuds, twice) and the phrase replays with translation.</span></span></label>
 
   <h2>How to listen</h2>
   <div class="tip">Start a story, lock your phone, walk. Earbuds: <b>tap</b> to pause, tap again quickly = replay with help. <b>Double-tap</b> = next phrase, <b>triple-tap</b> = replay. On iPhone, add this page to your Home Screen (Share → Add to Home Screen).</div>
+  </div>
   <p class="muted" id="ver"></p>
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.1";
+const VERSION = "web 0.2";
+// Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
-  "Standard": "FR GLOSS EN FR PAUSE",
-  "Hard story": "FR GLOSS EN FR EN FR",
-  "Beginner": "FR EN FR_SLOW FR PAUSE",
-  "Slow": "FR_SLOW GLOSS EN FR PAUSE",
-  "No pause": "FR GLOSS EN FR",
-  "French only": "FR",
+  "Standard": "T GLOSS EN T PAUSE",
+  "Hard story": "T GLOSS EN T EN T",
+  "Beginner": "T EN T_SLOW T PAUSE",
+  "Slow": "T_SLOW GLOSS EN T PAUSE",
+  "No pause": "T GLOSS EN T",
+  "Only": "T",
 };
-const HELP = "FR_SLOW GLOSS EN FR";            // used once after a "didn't catch it" tap
+const HELP = "T_SLOW GLOSS EN T";              // used once after a "didn't catch it" tap
 const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: PRESETS["Beginner"] };
-const LANGS = { fr: "Français", hy: "Հայերեն" };
-const TOKENS = ["FR", "FR_SLOW", "EN", "GLOSS", "PAUSE"];
-const KIND = { FR: "fr", FR_SLOW: "frs", EN: "en", GLOSS: "gl" };
+const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"] };
+const KIND = { T: "fr", T_SLOW: "frs", EN: "en", GLOSS: "gl" };
 
 const $ = id => document.getElementById(id);
 const audio = $("audio");
@@ -93,11 +97,15 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
 
-let catalog = [], lang = store.get("lang", "fr"), story = null;
+let catalog = [], lang = store.get("lang", null), story = null;
 let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null;
 
 const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
-const parse = p => p.toUpperCase().split(/[\s,]+/).filter(t => TOKENS.includes(t));
+const CODE = () => lang.toUpperCase();
+const parse = p => p.toUpperCase().split(/[\s,]+/)
+  .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
+  .filter(t => ["T", "T_SLOW", "EN", "GLOSS", "PAUSE"].includes(t));
+const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 
 // ---------- playback engine: one audio file, we only seek inside it ----------
 function stepsFor(i, pat) {
@@ -194,9 +202,11 @@ async function openStory(entry) {
 // ---------- UI ----------
 function renderLangs() {
   $("langs").innerHTML = "";
-  for (const [code, name] of Object.entries(LANGS)) {
+  for (const [code, [en, native]] of Object.entries(LANGS)) {
     const b = document.createElement("button");
-    b.textContent = name; b.className = code === lang ? "on" : "";
+    b.innerHTML = `<b></b><br><span class="muted"></span>`;
+    b.querySelector("b").textContent = en; b.querySelector("span").textContent = native;
+    b.className = code === lang ? "on" : "";
     b.onclick = () => { lang = code; store.set("lang", lang); renderAll(); };
     $("langs").append(b);
   }
@@ -219,19 +229,21 @@ function renderStories() {
 }
 
 function renderPattern() {
-  const cur = pattern();
-  $("pattern").value = cur;
+  const cur = parse(pattern()).join(" ");
+  $("pattern").value = display(cur);
+  $("tokens").textContent = `Tokens: ${CODE()} (${LANGS[lang][0]}), ${CODE()}_SLOW, EN (English), GLOSS (hard words), PAUSE (time to repeat).`;
   $("presets").innerHTML = "";
   for (const [name, p] of Object.entries(PRESETS)) {
     const b = document.createElement("button");
-    b.textContent = name; b.title = p; b.className = p === cur ? "on" : "";
+    b.textContent = name === "Only" ? LANGS[lang][0] + " only" : name;
+    b.title = display(p); b.className = p === cur ? "on" : "";
     b.onclick = () => setPattern(p);
     $("presets").append(b);
   }
 }
 
 function setPattern(p) {
-  const clean = parse(p).join(" ") || "FR";
+  const clean = parse(p).join(" ") || "T";
   store.set("pattern_" + lang, clean);
   renderPattern();
   if (story && seg >= 0 && (story.lang || "fr") === lang) {  // takes effect from the next step
@@ -240,7 +252,12 @@ function setPattern(p) {
   }
 }
 
-function renderAll() { renderLangs(); renderStories(); renderPattern(); }
+function renderAll() {
+  renderLangs();
+  $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
+  $("app").hidden = !lang;   // first visit: pick a language before anything else
+  if (lang) { renderStories(); renderPattern(); }
+}
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("play").onclick = togglePlay;
@@ -251,7 +268,7 @@ $("tapHelp").onchange = e => store.set("tapHelp", e.target.checked);
 $("ver").textContent = VERSION;
 
 fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
-  .catch(() => { $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; renderLangs(); renderPattern(); });
+  .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
 </script>
 </body>
 </html>
