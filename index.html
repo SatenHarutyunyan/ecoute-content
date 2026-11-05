@@ -75,18 +75,18 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.2";
+const VERSION = "web 0.3";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
   "Hard story": "T GLOSS EN T EN T",
-  "Beginner": "T EN T_SLOW T PAUSE",
+  "Beginner": "T EN T",
   "Slow": "T_SLOW GLOSS EN T PAUSE",
   "No pause": "T GLOSS EN T",
   "Only": "T",
 };
 const HELP = "T_SLOW GLOSS EN T";              // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: PRESETS["Beginner"] };
+const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: "T GLOSS EN T" };
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"] };
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", GLOSS: "gl" };
 
