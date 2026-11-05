@@ -32,6 +32,14 @@ h2 { font-size:15px; text-transform:uppercase; letter-spacing:.05em; color:var(-
 .presets { display:flex; flex-wrap:wrap; gap:8px; }
 .presets button { flex:1 1 45%; font-size:14px; }
 input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:15px; margin-top:8px; }
+.pt h3 { margin:0 0 6px; font-size:19px; }
+.pt .big { width:100%; font-size:22px; padding:14px; border-radius:12px; border:none; background:var(--accent); color:#fff; margin:10px 0; }
+.pt .opts { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.pt .opts button, .pt .col button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:14px 8px; font-size:16px; }
+.pt .col { display:flex; flex-direction:column; gap:8px; margin-top:8px; }
+.pt .opts button.idk { grid-column:1 / -1; color:var(--muted); }
+.pt .reveal { margin-top:10px; font-size:17px; min-height:1.5em; }
+.start-here { color:var(--accent); font-weight:600; }
 label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 .tip { background:var(--card); border-left:3px solid var(--accent); padding:10px 12px; border-radius:8px; font-size:14px; }
 </style>
@@ -45,6 +53,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="langs" id="langs"></div>
 
   <div id="app">
+  <div class="card pt" id="pt" hidden style="margin-top:16px"></div>
 
   <h2>Now playing</h2>
   <div class="card" id="now">
@@ -70,12 +79,13 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 
   <h2>How to listen</h2>
   <div class="tip">Start a story, lock your phone, walk. Earbuds: <b>tap</b> to pause, tap again quickly = replay with help. <b>Double-tap</b> = next phrase, <b>triple-tap</b> = replay. On iPhone, add this page to your Home Screen (Share → Add to Home Screen).</div>
+  <p><button class="sec" id="retest" hidden style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 14px">Retake the level test</button></p>
   </div>
   <p class="muted" id="ver"></p>
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.3";
+const VERSION = "web 0.4";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -223,6 +233,7 @@ function renderStories() {
     el.innerHTML = `<b></b><span class="muted"></span>`;
     el.querySelector("b").textContent = s.title;
     el.querySelector("span").textContent = `${ep}${s.author} · ${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
+    if (store.get("place_" + lang, {}).start === s.id) el.querySelector("b").insertAdjacentHTML("afterbegin", '<span class="start-here">★ Start here · </span>');
     el.onclick = () => openStory(s);
     $("stories").append(el);
   }
@@ -256,8 +267,182 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); }
+  if (lang) { renderStories(); renderPattern(); renderPlacementEntry(); }
 }
+
+// ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
+const PT = { spec: null, audio: new Audio(), stopTimer: null };
+const ptEl = () => $("pt");
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+function ptPlay([start, dur]) {
+  const a = PT.audio;
+  PT.unlocking = false; a.muted = false;
+  clearTimeout(PT.stopTimer);
+  a.currentTime = start / 1000;
+  a.play().catch(() => {});
+  PT.stopTimer = setTimeout(() => a.pause(), dur);
+}
+
+async function renderPlacementEntry() {
+  const has = ["hy"].includes(lang);
+  $("retest").hidden = !has || !store.get("place_" + lang, null);
+  if (!has || store.get("place_" + lang, null) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
+  ptEl().hidden = false;
+  ptEl().innerHTML = `<h3>Find your starting story</h3>
+    <div class="muted">About 3–5 minutes. You'll hear words and short phrases. No reading needed.</div>
+    <div class="col"><b style="margin-top:10px">How much ${LANGS[lang][0]} do you know?</b></div>`;
+  const col = ptEl().querySelector(".col");
+  for (const [label, startStage] of [["None at all", -1], ["A few words", 0], ["I can say simple things", 2], ["More than that", 3]]) {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = () => startStage < 0 ? ptFinish({ none: true }) : ptStart(startStage);
+    col.append(b);
+  }
+}
+
+async function ptStart(stage) {
+  PT.running = true;
+  // iPhone only allows sound started inside a tap: unlock the element now, before any await
+  if (!PT.audio.src.endsWith(`placement/${lang}.m4a`)) PT.audio.src = `placement/${lang}.m4a`;
+  PT.audio.muted = true; PT.unlocking = true;
+  PT.audio.play().then(() => { if (PT.unlocking) PT.audio.pause(); }).catch(() => {})
+    .finally(() => { PT.audio.muted = false; PT.unlocking = false; });
+  ptEl().innerHTML = '<div class="muted">Loading…</div>';
+  if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fetch(`placement/${lang}.json`, { cache: "no-store" })).json();
+  const spec = PT.spec;
+  PT.st = { stage, asked: {}, correct: {}, missed: [], known: [], pools: {}, started: Date.now() };
+  for (const s of spec.stages) {
+    // round-robin over the stage's episodes so every episode gets tested; pop() takes from the end
+    const byEp = {};
+    for (const i of shuffle(spec.items.filter(i => i.stage === s))) (byEp[i.story] ||= []).push(i);
+    const lists = Object.keys(byEp).sort().map(k => byEp[k]), order = [];
+    while (lists.some(l => l.length)) for (const l of lists) if (l.length) order.push(l.shift());
+    PT.st.pools[s] = order.reverse();
+    PT.st.minAsk = { ...PT.st.minAsk, [s]: Math.max(4, lists.length) };
+  }
+  ptNextWord();
+}
+
+function ptNextWord() {
+  const st = PT.st, spec = PT.spec, S = spec.stages, s = S[st.stage];
+  const a = st.asked[s] || 0, c = st.correct[s] || 0;
+  const m = st.minAsk[s];
+  const done = !st.pools[s].length || (a >= 4 && c === 0) ||               // knows none: stop early
+    (m > 4 ? a >= m : a >= 6 || (a === 4 && c !== 2));                     // 2 of 4 = unsure: ask 2 more
+  if (!done) return ptAskWord(st.pools[s].pop());
+  const pass = a === 4 ? c >= 3 : c / a >= 2 / 3;
+  (pass ? (st.passed ||= []) : (st.failed ||= [])).push(st.stage);
+  const next = st.stage + (pass ? 1 : -1);
+  const tested = i => (st.asked[S[i]] || 0) > 0;
+  if (next >= 0 && next < S.length && !tested(next)) { st.stage = next; return ptNextWord(); }
+  ptPhrases();
+}
+
+function ptAskWord(item) {
+  const st = PT.st, s = item.stage;
+  const others = shuffle(PT.spec.items.filter(i => i.en !== item.en && Math.abs(PT.spec.stages.indexOf(i.stage) - st.stage) <= 1));
+  const opts = shuffle([item.en, ...others.slice(0, 3).map(i => i.en)]);
+  const n = Object.values(st.asked).reduce((x, y) => x + y, 0) + 1;
+  ptEl().innerHTML = `<div class="muted">Word ${n} · what does it mean?</div>
+    <button class="big" id="ptHear">▶ Hear again</button><div class="opts"></div>`;
+  $("ptHear").onclick = () => ptPlay(item.bank);
+  const box = ptEl().querySelector(".opts");
+  const answer = ok => {
+    st.asked[s] = (st.asked[s] || 0) + 1;
+    if (ok) { st.correct[s] = (st.correct[s] || 0) + 1; st.known.push(item.hy); } else st.missed.push(item);
+    ptNextWord();
+  };
+  for (const o of opts) {
+    const b = document.createElement("button"); b.textContent = o;
+    b.onclick = () => answer(o === item.en);
+    box.append(b);
+  }
+  const idk = document.createElement("button"); idk.className = "idk"; idk.textContent = "I don't know";
+  idk.onclick = () => answer(false);
+  box.append(idk);
+  ptPlay(item.bank);
+}
+
+function ptBoundary() {
+  // first stage the learner did not pass = where new learning starts
+  const passed = PT.st.passed || [];
+  const top = passed.length ? Math.max(...passed) : -1;
+  return Math.min(top + 1, PT.spec.stages.length - 1);
+}
+
+function ptPhrases() {
+  const st = PT.st, S = PT.spec.stages, b = ptBoundary();
+  st.phraseStages = [b - 1, b].filter(i => i >= 0);
+  st.queue = st.phraseStages.flatMap(i => PT.spec.phrases[S[i]].map(p => ({ ...p, stage: i })));
+  st.ratings = [];
+  ptAskPhrase();
+}
+
+function ptAskPhrase() {
+  const st = PT.st, p = st.queue.shift();
+  if (!p) return ptTaste();
+  ptEl().innerHTML = `<div class="muted">Listen to the sentence. How much did you understand?</div>
+    <button class="big" id="ptHear">▶ Hear again</button><div class="col"></div><div class="reveal"></div>`;
+  $("ptHear").onclick = () => ptPlay(p.bank);
+  const col = ptEl().querySelector(".col");
+  for (const [label, v] of [["All of it", 2], ["Some of it", 1], ["Very little", 0]]) {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = () => {
+      st.ratings.push({ stage: p.stage, v });
+      col.querySelectorAll("button").forEach(x => x.disabled = true);
+      ptEl().querySelector(".reveal").textContent = "“" + p.en + "”";   // a tiny lesson in the test
+      setTimeout(ptAskPhrase, 2200);
+    };
+    col.append(b);
+  }
+  ptPlay(p.bank);
+}
+
+function ptTaste() {
+  ptEl().innerHTML = `<div class="muted">Last one. Which would you most like to listen to?</div><div class="col"></div>`;
+  const col = ptEl().querySelector(".col");
+  for (const [label, key] of [["A mystery with a clever thief", "mystery"], ["A comedy about funny neighbours", "comedy"],
+                              ["A fantasy adventure with magic", "fantasy"], ["Real life: people and places today", "real"]]) {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = () => ptFinish({ taste: key });
+    col.append(b);
+  }
+}
+
+function ptFinish({ none, taste }) {
+  const spec = PT.spec, st = PT.st;
+  let start = "hy_s0_e01", known = [];
+  if (!none) {
+    let b = ptBoundary();
+    const prev = st.ratings.filter(r => r.stage === b - 1);
+    if (prev.length && prev.reduce((x, r) => x + r.v, 0) / prev.length < 1) b = Math.max(0, b - 1);  // heard "very little": step back
+    const S = spec.stages[b];
+    start = spec.stage_story[S];
+    // inside a stage with several episodes: skip an episode only if its words were tested and all known
+    const eps = [...new Set(spec.items.filter(i => i.stage === S && i.story).map(i => i.story))].sort();
+    const knownSet = new Set(st.known);
+    for (const ep of eps) {
+      const tested = spec.items.filter(i => i.story === ep && (knownSet.has(i.hy) || st.missed.includes(i)));
+      if (!tested.length || tested.some(i => !knownSet.has(i.hy))) { start = ep; break; }
+    }
+    known = st.known;
+  }
+  const story = catalog.find(s => s.id === start);
+  store.set("place_" + lang, { start, known, taste: taste || null, at: Date.now(),
+                               secs: st ? Math.round((Date.now() - st.started) / 1000) : 0 });
+  PT.running = false;
+  ptEl().hidden = false;
+  ptEl().innerHTML = `<h3>Start here</h3><div><b></b></div><div class="muted"></div>
+    <button class="big" id="ptGo">▶ Play</button>
+    <div class="muted">${known.length ? `You already know ${known.length} of the words we tested. ` : ""}The story list now marks your starting point with ★.</div>`;
+  ptEl().querySelector("b").textContent = story ? story.title : start;
+  ptEl().querySelector(".muted").textContent = story ? (story.series ? `${story.series} · episode ${story.episode}` : story.author) : "";
+  $("ptGo").onclick = () => { ptEl().hidden = true; if (story) openStory(story); };
+  renderStories();
+  $("retest").hidden = false;
+}
+
+$("retest").onclick = () => { store.set("place_" + lang, null); PT.running = false; renderAll(); window.scrollTo(0, 0); };
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("play").onclick = togglePlay;
