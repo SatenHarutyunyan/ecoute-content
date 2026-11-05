@@ -58,6 +58,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h2>Now playing</h2>
   <div class="card" id="now">
     <div class="muted" id="where">Pick a story below.</div>
+    <div id="fb" hidden><b>How was this episode?</b><div class="presets" style="margin-top:8px"></div></div>
     <div class="fr" id="fr"></div>
     <div class="en" id="en"></div>
     <div class="controls">
@@ -77,6 +78,10 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <label class="opt"><input type="checkbox" id="tapHelp" checked>
     <span>Tap = “I didn't catch it”<br><span class="muted">Pause and resume within 10 seconds (one tap on your earbuds, twice) and the phrase replays with translation.</span></span></label>
 
+  <h2>You</h2>
+  <input type="text" id="name" placeholder="Your name (optional)" autocomplete="nickname">
+  <div class="muted" style="margin-top:6px">To improve the stories, the app sends your test answers and listening progress (which phrases you replay, where you stop), with this name and a random device ID. Nothing else.</div>
+
   <h2>How to listen</h2>
   <div class="tip">Start a story, lock your phone, walk. Earbuds: <b>tap</b> to pause, tap again quickly = replay with help. <b>Double-tap</b> = next phrase, <b>triple-tap</b> = replay. On iPhone, add this page to your Home Screen (Share → Add to Home Screen).</div>
   <p><button class="sec" id="retest" hidden style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 14px">Retake the level test</button></p>
@@ -85,7 +90,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.4";
+const VERSION = "web 0.5";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -101,6 +106,7 @@ const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"] 
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", GLOSS: "gl" };
 
 const $ = id => document.getElementById(id);
+const LOG_URL = "";   // Google Apps Script web app (mvp/logging/apps_script.gs); events wait in the outbox until set
 const audio = $("audio");
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
@@ -108,6 +114,31 @@ const store = {
 };
 
 let catalog = [], lang = store.get("lang", null), story = null;
+
+// ---------- event log: queued in localStorage, sent in batches (survives offline and closing the app) ----------
+const device = store.get("device", null) || (() => {
+  const id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).slice(0, 13);
+  store.set("device", id); return id;
+})();
+function log(type, data = {}, storyId = story && story.id) {
+  const box = store.get("outbox", []);
+  box.push({ t: Date.now(), type, lang, story: storyId || "", data });
+  store.set("outbox", box.slice(-3000));
+}
+let flushing = false;
+function flush(beacon) {
+  const box = store.get("outbox", []);
+  if (!LOG_URL || !box.length || flushing) return;
+  const batch = box.slice(0, 300);
+  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION, events: batch });
+  const done = () => store.set("outbox", store.get("outbox", []).slice(batch.length));
+  if (beacon && navigator.sendBeacon) { if (navigator.sendBeacon(LOG_URL, body)) done(); return; }
+  flushing = true;   // text/plain + no-cors: no preflight; the response is opaque, so a resolved fetch counts as sent
+  fetch(LOG_URL, { method: "POST", mode: "no-cors", body, headers: { "Content-Type": "text/plain" } })
+    .then(done).catch(() => {}).finally(() => flushing = false);
+}
+setInterval(flush, 20000);
+document.addEventListener("visibilitychange", () => document.hidden && flush(true));
 let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null;
 
 const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
@@ -146,11 +177,12 @@ function advance() {
   step++;
   if (step < steps.length) return playRange(steps[step]);
   if (seg + 1 < story.segments.length) startSeg(seg + 1);
-  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); }
+  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); showFeedback(); }
 }
 
 function startSeg(i, pat) {
   seg = i;
+  if (i > 0 && i % 10 === 0 && !pat) log("progress", { seg: i, of: story.segments.length });
   store.set("pos_" + story.id, i);
   steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
   step = 0;
@@ -158,13 +190,14 @@ function startSeg(i, pat) {
   playRange(steps[0]);
 }
 
-function nextPhrase() { if (story && seg + 1 < story.segments.length) startSeg(seg + 1); }
+function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
 function replay() {
   if (!story) return;
   const atStart = step === 0 && audio.currentTime * 1000 - steps[0][0] < 1500;
+  log("replay", { seg });
   startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
 }
-function replayWithHelp() { if (story && seg >= 0) startSeg(seg, HELP); }
+function replayWithHelp() { if (story && seg >= 0) { log("help", { seg, text: story.segments[seg].fr }); startSeg(seg, HELP); } }
 
 audio.addEventListener("timeupdate", tick);
 audio.addEventListener("play", () => $("play").textContent = "❚❚");
@@ -206,7 +239,20 @@ async function openStory(entry) {
   story = await (await fetch(base + "story.json")).json();
   audio.src = base + story.bank.file;
   const pos = store.get("pos_" + story.id, -1);
+  log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
+  $("fb").hidden = true;
   startSeg(pos >= 0 && pos < story.segments.length ? pos : -1);
+}
+
+function showFeedback() {
+  const box = $("fb").querySelector(".presets"), id = story.id;
+  box.innerHTML = "";
+  for (const v of ["Too easy", "Just right", "Too hard", "Boring"]) {
+    const b = document.createElement("button"); b.textContent = v;
+    b.onclick = () => { log("feedback", { rating: v }, id); $("fb").hidden = true; flush(); };
+    box.append(b);
+  }
+  $("fb").hidden = false;
 }
 
 // ---------- UI ----------
@@ -217,7 +263,7 @@ function renderLangs() {
     b.innerHTML = `<b></b><br><span class="muted"></span>`;
     b.querySelector("b").textContent = en; b.querySelector("span").textContent = native;
     b.className = code === lang ? "on" : "";
-    b.onclick = () => { lang = code; store.set("lang", lang); renderAll(); };
+    b.onclick = () => { lang = code; store.set("lang", lang); log("lang", { lang: code }); renderAll(); };
     $("langs").append(b);
   }
 }
@@ -256,6 +302,7 @@ function renderPattern() {
 function setPattern(p) {
   const clean = parse(p).join(" ") || "T";
   store.set("pattern_" + lang, clean);
+  log("pattern", { pattern: clean });
   renderPattern();
   if (story && seg >= 0 && (story.lang || "fr") === lang) {  // takes effect from the next step
     steps = stepsFor(seg, clean);
@@ -295,7 +342,7 @@ async function renderPlacementEntry() {
   const col = ptEl().querySelector(".col");
   for (const [label, startStage] of [["None at all", -1], ["A few words", 0], ["I can say simple things", 2], ["More than that", 3]]) {
     const b = document.createElement("button"); b.textContent = label;
-    b.onclick = () => startStage < 0 ? ptFinish({ none: true }) : ptStart(startStage);
+    b.onclick = () => { log("pt_start", { answer: label }, ""); startStage < 0 ? ptFinish({ none: true }) : ptStart(startStage); };
     col.append(b);
   }
 }
@@ -345,20 +392,22 @@ function ptAskWord(item) {
   const n = Object.values(st.asked).reduce((x, y) => x + y, 0) + 1;
   ptEl().innerHTML = `<div class="muted">Word ${n} · what does it mean?</div>
     <button class="big" id="ptHear">▶ Hear again</button><div class="opts"></div>`;
-  $("ptHear").onclick = () => ptPlay(item.bank);
+  const shown = Date.now(); let replays = 0;
+  $("ptHear").onclick = () => { replays++; ptPlay(item.bank); };
   const box = ptEl().querySelector(".opts");
-  const answer = ok => {
+  const answer = (ok, chosen) => {
+    log("pt_word", { hy: item.hy, en: item.en, stage: item.stage, ep: item.story, chosen, ok, ms: Date.now() - shown, replays }, "");
     st.asked[s] = (st.asked[s] || 0) + 1;
     if (ok) { st.correct[s] = (st.correct[s] || 0) + 1; st.known.push(item.hy); } else st.missed.push(item);
     ptNextWord();
   };
   for (const o of opts) {
     const b = document.createElement("button"); b.textContent = o;
-    b.onclick = () => answer(o === item.en);
+    b.onclick = () => answer(o === item.en, o);
     box.append(b);
   }
   const idk = document.createElement("button"); idk.className = "idk"; idk.textContent = "I don't know";
-  idk.onclick = () => answer(false);
+  idk.onclick = () => answer(false, "idk");
   box.append(idk);
   ptPlay(item.bank);
 }
@@ -389,6 +438,7 @@ function ptAskPhrase() {
     const b = document.createElement("button"); b.textContent = label;
     b.onclick = () => {
       st.ratings.push({ stage: p.stage, v });
+      log("pt_phrase", { hy: p.hy, stage: PT.spec.stages[p.stage], rating: label }, "");
       col.querySelectorAll("button").forEach(x => x.disabled = true);
       ptEl().querySelector(".reveal").textContent = "“" + p.en + "”";   // a tiny lesson in the test
       setTimeout(ptAskPhrase, 2200);
@@ -428,8 +478,10 @@ function ptFinish({ none, taste }) {
     known = st.known;
   }
   const story = catalog.find(s => s.id === start);
-  store.set("place_" + lang, { start, known, taste: taste || null, at: Date.now(),
-                               secs: st ? Math.round((Date.now() - st.started) / 1000) : 0 });
+  const result = { start, known, taste: taste || null, at: Date.now(), secs: st && !none ? Math.round((Date.now() - st.started) / 1000) : 0 };
+  store.set("place_" + lang, result);
+  log("pt_result", { ...result, none: !!none }, "");
+  flush();
   PT.running = false;
   ptEl().hidden = false;
   ptEl().innerHTML = `<h3>Start here</h3><div><b></b></div><div class="muted"></div>
@@ -451,6 +503,9 @@ $("back").onclick = replay;
 $("tapHelp").checked = store.get("tapHelp", true);
 $("tapHelp").onchange = e => store.set("tapHelp", e.target.checked);
 $("ver").textContent = VERSION;
+$("name").value = store.get("name", "");
+$("name").onchange = e => { store.set("name", e.target.value.trim()); log("name", {}); };
+log("open", { standalone: !!navigator.standalone, ua: navigator.userAgent.slice(0, 120) }, "");
 
 fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
   .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
