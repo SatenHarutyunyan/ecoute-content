@@ -56,12 +56,22 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="card pt" id="pt" hidden style="margin-top:16px"></div>
 
   <h2>Now playing</h2>
+  <div class="presets" id="modes" style="margin-bottom:10px">
+    <button data-mode="lesson">Lesson mode</button><button data-mode="story">Story mode</button>
+    <div class="muted" id="modeHint" style="width:100%"></div>
+  </div>
   <div class="card" id="now">
     <div class="muted" id="where">Pick a story below.</div>
     <div id="fb" hidden><b>How was this episode?</b><div class="presets" style="margin-top:8px"></div></div>
     <div class="fr" id="fr"></div>
     <div class="en" id="en"></div>
-    <div class="controls">
+    <div class="muted" id="lessonStep" hidden></div>
+    <div class="controls" id="lessonCtl" hidden>
+      <button class="sec" id="lBack" style="font-size:18px">⟵ Back</button>
+      <button class="sec" id="lRepeat" style="font-size:18px">⟲ Repeat</button>
+      <button id="lNext" style="font-size:18px">Next ⟶</button>
+    </div>
+    <div class="controls" id="storyCtl">
       <button class="sec" id="prev" aria-label="Previous phrase">⏮</button>
       <button class="sec" id="back" aria-label="Replay phrase">⟲</button>
       <button id="play" aria-label="Play or pause">▶</button>
@@ -73,7 +83,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h2>Stories</h2>
   <div id="stories"><div class="muted">Loading…</div></div>
 
-  <h2>Listening pattern</h2>
+  <h2>Story mode pattern</h2>
   <div class="presets" id="presets"></div>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false">
   <div class="muted" id="tokens"></div>
@@ -93,20 +103,22 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.10";
+const VERSION = "web 0.11";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
-  "Standard": "T GLOSS EN T PAUSE",
-  "Hard story": "T GLOSS EN T EN T",
-  "Beginner": "T EN T",
-  "Slow": "T_SLOW GLOSS EN T PAUSE",
-  "No pause": "T GLOSS EN T",
+  "Standard": "T EN T PAUSE",
+  "Word by word": "T EN WORDS T",
+  "Hard story": "T EN T EN T",
+  "No pause": "T EN T",
+  "Slow": "T_SLOW EN T PAUSE",
   "Only": "T",
 };
-const HELP = "T_SLOW GLOSS EN T";              // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: "T GLOSS EN T" };
+const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
+const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: "T EN T" };
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"] };
-const KIND = { T: "fr", T_SLOW: "frs", EN: "en", GLOSS: "gl" };
+const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
+// Lesson mode: the learner moves through each phrase step by step, at their own pace
+const LESSON = ["T", "EN", "WORDS", "EN", "T"];
 
 const $ = id => document.getElementById(id);
 const LOG_URL = "https://script.google.com/macros/s/AKfycbwsq4sHVpv882SokbrIPGwlybMKjedVGldGp25BSqy-J_HuOZ9EsN3FTUTeqlWx31eqgw/exec";   // Google Apps Script web app (mvp/logging/apps_script.gs); events wait in the outbox until set
@@ -142,13 +154,16 @@ function flush(beacon) {
 }
 setInterval(flush, 20000);
 document.addEventListener("visibilitychange", () => document.hidden && flush(true));
-let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null;
+let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null, lessonTok = [], waiting = false;
+// beginners (starting in the first-steps season) start in lesson mode
+const getMode = () => store.get("mode_" + lang, (store.get("place_" + lang, {}) || {}).start?.startsWith(lang + "_s0") ? "lesson" : "story");
+const lessonMode = () => getMode() === "lesson";
 
 const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
   .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
-  .filter(t => ["T", "T_SLOW", "EN", "GLOSS", "PAUSE"].includes(t));
+  .filter(t => ["T", "T_SLOW", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS (removed) drops out of old patterns
 const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 
 // ---------- playback engine: one audio file, we only seek inside it ----------
@@ -177,6 +192,7 @@ function tick() {
 }
 
 function advance() {
+  if (lessonMode()) { waiting = true; audio.pause(); return; }  // the learner decides: back, repeat or next
   step++;
   if (step < steps.length) return playRange(steps[step]);
   if (seg + 1 < story.segments.length) startSeg(seg + 1);
@@ -187,14 +203,33 @@ function startSeg(i, pat) {
   seg = i;
   if (i > 0 && i % 10 === 0 && !pat) log("progress", { seg: i, of: story.segments.length });
   store.set("pos_" + story.id, i);
-  steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
-  step = 0;
+  if (lessonMode() && !pat) {
+    lessonTok = LESSON.filter(t => story.segments[i].bank[KIND[t]]);  // no word pairs: that step is skipped
+    steps = lessonTok.map(t => story.segments[i].bank[KIND[t]]);
+  } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
+  step = 0; waiting = false;
   show();
   playRange(steps[0]);
 }
 
 function prevPhrase() { if (story) { log("back", { seg }); startSeg(Math.max(seg - 1, 0)); } }
 function restartStory() { if (story) { log("restart", { seg }); $("fb").hidden = true; startSeg(0); } }
+function lessonGo(k, act) {
+  if (!story) return;
+  log("lesson", { seg, step, act });
+  if (k < 0) k = 0;
+  if (k >= steps.length) {
+    if (seg + 1 < story.segments.length) return startSeg(seg + 1);
+    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); return showFeedback();
+  }
+  step = k; waiting = false;
+  show();
+  playRange(steps[step]);
+}
+const lessonBack = () => lessonGo(step - 1, "back");
+const lessonRepeat = () => lessonGo(step, "repeat");
+const lessonNext = () => lessonGo(step + 1, "next");
+
 function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
 function replay() {
   if (!story) return;
@@ -210,6 +245,7 @@ audio.addEventListener("pause", () => { $("play").textContent = "▶"; pausedAt 
 
 function resume() {
   if (!story) return;
+  if (lessonMode()) return waiting ? lessonRepeat() : playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
   const quick = pausedAt && Date.now() - pausedAt < 10000;
   if (quick && $("tapHelp").checked && seg >= 0) return replayWithHelp();
   playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
@@ -220,8 +256,8 @@ if ("mediaSession" in navigator) {
   const ms = navigator.mediaSession;
   ms.setActionHandler("play", resume);
   ms.setActionHandler("pause", () => audio.pause());
-  ms.setActionHandler("nexttrack", nextPhrase);
-  ms.setActionHandler("previoustrack", replay);
+  ms.setActionHandler("nexttrack", () => lessonMode() ? lessonNext() : nextPhrase());
+  ms.setActionHandler("previoustrack", () => lessonMode() ? lessonRepeat() : replay());
   try { ms.setActionHandler("seekforward", null); ms.setActionHandler("seekbackward", null); } catch {}
 }
 
@@ -231,6 +267,15 @@ function show() {
   $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
   $("fr").textContent = s ? s.fr : story.title;
   $("en").textContent = s ? s.en : story.note;
+  const lesson = lessonMode();
+  $("storyCtl").hidden = lesson; $("lessonCtl").hidden = !lesson; $("lessonStep").hidden = !lesson;
+  if (lesson && s) {
+    const t = lessonTok[step];
+    $("lessonStep").textContent = `Step ${step + 1} of ${steps.length} · ` + { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
+    if (step === 0) $("en").textContent = "";  // first, just listen
+    if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
+    $("lBack").disabled = step === 0;
+  }
   document.querySelectorAll(".story").forEach(el => el.classList.toggle("playing", el.dataset.id === story.id));
   if ("mediaSession" in navigator) navigator.mediaSession.metadata = new MediaMetadata({
     title: s ? s.fr : story.title, artist: s ? s.en : story.author,
@@ -294,7 +339,7 @@ function renderStories() {
 function renderPattern() {
   const cur = parse(pattern()).join(" ");
   $("pattern").value = display(cur);
-  $("tokens").textContent = `Tokens: ${CODE()} (${LANGS[lang][0]}), ${CODE()}_SLOW, EN (English), GLOSS (hard words), PAUSE (time to repeat).`;
+  $("tokens").textContent = `Tokens: ${CODE()} (${LANGS[lang][0]}), ${CODE()}_SLOW, EN (English), WORDS (word by word), PAUSE (time to repeat).`;
   $("presets").innerHTML = "";
   for (const [name, p] of Object.entries(PRESETS)) {
     const b = document.createElement("button");
@@ -316,11 +361,26 @@ function setPattern(p) {
   }
 }
 
+function renderMode() {
+  const m = getMode();
+  document.querySelectorAll("#modes button").forEach(b => b.className = b.dataset.mode === m ? "on" : "");
+  $("modeHint").textContent = m === "lesson"
+    ? `Step by step: ${LANGS[lang][0]}, English, word by word, English, ${LANGS[lang][0]}. You choose when to move on.`
+    : "Plays on its own, like an audiobook. Change what you hear under Story mode pattern.";
+}
+
+function setMode(m) {
+  store.set("mode_" + lang, m);
+  log("mode", { mode: m });
+  renderMode();
+  if (story && seg >= 0) { audio.pause(); startSeg(seg); }  // restart the phrase in the new mode
+}
+
 function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderPlacementEntry(); }
+  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -539,6 +599,10 @@ $("play").onclick = togglePlay;
 $("next").onclick = nextPhrase;
 $("back").onclick = replay;
 $("prev").onclick = prevPhrase;
+$("lBack").onclick = lessonBack;
+$("lRepeat").onclick = lessonRepeat;
+$("lNext").onclick = lessonNext;
+document.querySelectorAll("#modes button").forEach(b => b.onclick = () => setMode(b.dataset.mode));
 $("restart").onclick = restartStory;
 $("tapHelp").checked = store.get("tapHelp", true);
 $("tapHelp").onchange = e => store.set("tapHelp", e.target.checked);
