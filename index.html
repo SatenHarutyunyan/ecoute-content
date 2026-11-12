@@ -90,7 +90,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.5";
+const VERSION = "web 0.6";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -106,7 +106,7 @@ const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"] 
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", GLOSS: "gl" };
 
 const $ = id => document.getElementById(id);
-const LOG_URL = "";   // Google Apps Script web app (mvp/logging/apps_script.gs); events wait in the outbox until set
+const LOG_URL = "https://script.google.com/macros/s/AKfycbwsq4sHVpv882SokbrIPGwlybMKjedVGldGp25BSqy-J_HuOZ9EsN3FTUTeqlWx31eqgw/exec";   // Google Apps Script web app (mvp/logging/apps_script.gs); events wait in the outbox until set
 const audio = $("audio");
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
