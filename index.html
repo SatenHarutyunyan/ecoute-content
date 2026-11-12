@@ -62,10 +62,12 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
     <div class="fr" id="fr"></div>
     <div class="en" id="en"></div>
     <div class="controls">
+      <button class="sec" id="prev" aria-label="Previous phrase">⏮</button>
       <button class="sec" id="back" aria-label="Replay phrase">⟲</button>
       <button id="play" aria-label="Play or pause">▶</button>
       <button class="sec" id="next" aria-label="Next phrase">⏭</button>
     </div>
+    <div class="controls" style="margin-top:8px"><button class="sec" id="restart" style="font-size:16px">↺ From the beginning</button></div>
   </div>
 
   <h2>Stories</h2>
@@ -91,7 +93,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.7";
+const VERSION = "web 0.8";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -191,6 +193,8 @@ function startSeg(i, pat) {
   playRange(steps[0]);
 }
 
+function prevPhrase() { if (story) { log("back", { seg }); startSeg(Math.max(seg - 1, 0)); } }
+function restartStory() { if (story) { log("restart", { seg }); $("fb").hidden = true; startSeg(0); } }
 function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
 function replay() {
   if (!story) return;
@@ -242,7 +246,7 @@ async function openStory(entry) {
   const pos = store.get("pos_" + story.id, -1);
   log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
   $("fb").hidden = true;
-  startSeg(pos >= 0 && pos < story.segments.length ? pos : -1);
+  startSeg(pos >= 0 && pos < story.segments.length ? pos : 0);
 }
 
 function showFeedback() {
@@ -533,6 +537,8 @@ $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("play").onclick = togglePlay;
 $("next").onclick = nextPhrase;
 $("back").onclick = replay;
+$("prev").onclick = prevPhrase;
+$("restart").onclick = restartStory;
 $("tapHelp").checked = store.get("tapHelp", true);
 $("tapHelp").onchange = e => store.set("tapHelp", e.target.checked);
 $("ver").textContent = VERSION;
