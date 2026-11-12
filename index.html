@@ -103,7 +103,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.11";
+const VERSION = "web 0.12";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T EN T PAUSE",
@@ -178,7 +178,9 @@ function stepsFor(i, pat) {
   return out.length ? out : [b.fr];
 }
 
+let rangeStart = 0;
 function playRange([start, dur]) {
+  rangeStart = start;
   audio.currentTime = start / 1000;
   stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
   clearTimeout(timer);
@@ -188,7 +190,10 @@ function playRange([start, dur]) {
 
 function tick() {
   if (audio.paused || !story) return;
-  if (audio.currentTime * 1000 >= stopAt) advance();
+  const t = audio.currentTime * 1000;
+  // iPhone, resuming after a pause, may play from where it stopped instead of where we seeked: seek again
+  if (t < rangeStart - 300 || t > stopAt + 1500) { audio.currentTime = rangeStart / 1000; return; }
+  if (t >= stopAt) advance();
 }
 
 function advance() {
