@@ -84,13 +84,14 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 
   <h2>How to listen</h2>
   <div class="tip">Start a story, lock your phone, walk. Earbuds: <b>tap</b> to pause, tap again quickly = replay with help. <b>Double-tap</b> = next phrase, <b>triple-tap</b> = replay. On iPhone, add this page to your Home Screen (Share → Add to Home Screen).</div>
-  <p><button class="sec" id="retest" hidden style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 14px">Retake the level test</button></p>
+  <p><button class="sec" id="retest" hidden style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 14px">Retake the level test</button>
+  <button class="sec" id="redoPhrases" hidden style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 14px">Redo just the sentences</button></p>
   </div>
   <p class="muted" id="ver"></p>
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.6";
+const VERSION = "web 0.7";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -334,6 +335,7 @@ function ptPlay([start, dur]) {
 async function renderPlacementEntry() {
   const has = ["hy"].includes(lang);
   $("retest").hidden = !has || !store.get("place_" + lang, null);
+  $("redoPhrases").hidden = $("retest").hidden || !(store.get("place_" + lang, {}).known || []).length;
   if (!has || store.get("place_" + lang, null) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
   ptEl().hidden = false;
   ptEl().innerHTML = `<h3>Find your starting story</h3>
@@ -347,13 +349,17 @@ async function renderPlacementEntry() {
   }
 }
 
-async function ptStart(stage) {
-  PT.running = true;
+function ptUnlock() {
   // iPhone only allows sound started inside a tap: unlock the element now, before any await
   if (!PT.audio.src.endsWith(`placement/${lang}.m4a`)) PT.audio.src = `placement/${lang}.m4a`;
   PT.audio.muted = true; PT.unlocking = true;
   PT.audio.play().then(() => { if (PT.unlocking) PT.audio.pause(); }).catch(() => {})
     .finally(() => { PT.audio.muted = false; PT.unlocking = false; });
+}
+
+async function ptStart(stage) {
+  PT.running = true;
+  ptUnlock();
   ptEl().innerHTML = '<div class="muted">Loading…</div>';
   if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fetch(`placement/${lang}.json`, { cache: "no-store" })).json();
   const spec = PT.spec;
@@ -368,6 +374,28 @@ async function ptStart(stage) {
     PT.st.minAsk = { ...PT.st.minAsk, [s]: Math.max(4, lists.length) };
   }
   ptNextWord();
+}
+
+// redo only the sentence part, keeping the word answers of the last test
+async function ptRedoPhrases() {
+  const old = store.get("place_" + lang, null);
+  PT.running = true;
+  ptUnlock();
+  ptEl().hidden = false;
+  ptEl().innerHTML = '<div class="muted">Loading…</div>';
+  window.scrollTo(0, 0);
+  if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fetch(`placement/${lang}.json`, { cache: "no-store" })).json();
+  const spec = PT.spec, known = old.known || [];
+  let passed = old.passed;
+  if (!passed) {  // results from before web 0.7: everything below the start story's stage was passed
+    const it = spec.items.find(i => i.story === old.start);
+    const idx = it ? spec.stages.indexOf(it.stage) : Object.values(spec.stage_story).indexOf(old.start);
+    passed = [...Array(Math.max(0, idx)).keys()];
+  }
+  const missed = spec.items.filter(i => (old.missed || []).includes(i.hy));
+  PT.st = { known, missed, passed, started: Date.now(), taste: old.taste };
+  log("pt_redo_phrases", { start: old.start }, "");
+  ptPhrases();
 }
 
 function ptNextWord() {
@@ -429,22 +457,25 @@ function ptPhrases() {
 
 function ptAskPhrase() {
   const st = PT.st, p = st.queue.shift();
-  if (!p) return ptTaste();
-  ptEl().innerHTML = `<div class="muted">Listen to the sentence. How much did you understand?</div>
-    <button class="big" id="ptHear">▶ Hear again</button><div class="col"></div><div class="reveal"></div>`;
+  if (!p) return st.taste ? ptFinish({ taste: st.taste }) : ptTaste();
+  ptEl().innerHTML = `<div class="muted">Listen to the sentence. Try to understand it, then check.</div>
+    <button class="big" id="ptHear">▶ Hear again</button><div class="col"><button id="ptShow">Show the meaning</button></div>`;
   $("ptHear").onclick = () => ptPlay(p.bank);
   const col = ptEl().querySelector(".col");
-  for (const [label, v] of [["All of it", 2], ["Some of it", 1], ["Very little", 0]]) {
-    const b = document.createElement("button"); b.textContent = label;
-    b.onclick = () => {
-      st.ratings.push({ stage: p.stage, v });
-      log("pt_phrase", { hy: p.hy, stage: PT.spec.stages[p.stage], rating: label }, "");
-      col.querySelectorAll("button").forEach(x => x.disabled = true);
-      ptEl().querySelector(".reveal").textContent = "“" + p.en + "”";   // a tiny lesson in the test
-      setTimeout(ptAskPhrase, 2200);
-    };
-    col.append(b);
-  }
+  $("ptShow").onclick = () => {
+    // rating after seeing the meaning: "I think I got it" overestimates
+    col.innerHTML = `<div class="reveal"></div><b style="margin-top:10px">Compared with that, how much did you get?</b>`;
+    col.querySelector(".reveal").textContent = "“" + p.en + "”";
+    for (const [label, v] of [["All of it", 2], ["Some of it", 1], ["Very little", 0]]) {
+      const b = document.createElement("button"); b.textContent = label;
+      b.onclick = () => {
+        st.ratings.push({ stage: p.stage, v });
+        log("pt_phrase", { hy: p.hy, stage: PT.spec.stages[p.stage], rating: label, revealed: true }, "");
+        ptAskPhrase();
+      };
+      col.append(b);
+    }
+  };
   ptPlay(p.bank);
 }
 
@@ -478,7 +509,7 @@ function ptFinish({ none, taste }) {
     known = st.known;
   }
   const story = catalog.find(s => s.id === start);
-  const result = { start, known, taste: taste || null, at: Date.now(), secs: st && !none ? Math.round((Date.now() - st.started) / 1000) : 0 };
+  const result = { start, known, passed: st && st.passed || [], missed: st && st.missed ? st.missed.map(i => i.hy) : [], taste: taste || null, at: Date.now(), secs: st && !none ? Math.round((Date.now() - st.started) / 1000) : 0 };
   store.set("place_" + lang, result);
   log("pt_result", { ...result, none: !!none }, "");
   flush();
@@ -492,8 +523,10 @@ function ptFinish({ none, taste }) {
   $("ptGo").onclick = () => { ptEl().hidden = true; if (story) openStory(story); };
   renderStories();
   $("retest").hidden = false;
+  $("redoPhrases").hidden = !known.length;
 }
 
+$("redoPhrases").onclick = () => ptRedoPhrases();
 $("retest").onclick = () => { store.set("place_" + lang, null); PT.running = false; renderAll(); window.scrollTo(0, 0); };
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
