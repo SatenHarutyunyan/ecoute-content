@@ -16,15 +16,39 @@
    "en": "Grandpa Vazgen is sleeping in the courtyard.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Վազգեն",
+     "Vazgen"
+    ],
+    [
+     "պապը",
+     "grandpa"
+    ],
+    [
+     "բակում",
+     "in the courtyard"
+    ],
+    [
+     "քնում",
+     "sleeping"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s001_fr.mp3",
     "frs": "audio/s001_frs.mp3",
-    "en": "audio/s001_en.mp3"
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
    },
    "ms": {
     "fr": 2770,
     "frs": 3516,
-    "en": 3282
+    "en": 3282,
+    "wd": 16340
    },
    "bank": {
     "fr": [
@@ -38,6 +62,10 @@
     "en": [
      57026,
      3282
+    ],
+    "wd": [
+     60708,
+     16340
     ]
    }
   },
@@ -46,28 +74,64 @@
    "en": "Grandpa's hat is big, Aram is small.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Պապի",
+     "grandpa's"
+    ],
+    [
+     "գլխարկը",
+     "the hat"
+    ],
+    [
+     "մեծ",
+     "big"
+    ],
+    [
+     "է",
+     "is"
+    ],
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "փոքր",
+     "small"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s002_fr.mp3",
     "frs": "audio/s002_frs.mp3",
-    "en": "audio/s002_en.mp3"
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
    },
    "ms": {
     "fr": 3490,
     "frs": 4492,
-    "en": 3402
+    "en": 3402,
+    "wd": 22088
    },
    "bank": {
     "fr": [
-     60708,
+     77448,
      3490
     ],
     "frs": [
-     64598,
+     81338,
      4492
     ],
     "en": [
-     69490,
+     86230,
      3402
+    ],
+    "wd": [
+     90032,
+     22088
     ]
    }
   },
@@ -76,28 +140,52 @@
    "en": "Aram is in Grandpa's hat.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "պապի",
+     "grandpa's"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s003_fr.mp3",
     "frs": "audio/s003_frs.mp3",
-    "en": "audio/s003_en.mp3"
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
    },
    "ms": {
     "fr": 2450,
     "frs": 3098,
-    "en": 2490
+    "en": 2490,
+    "wd": 13794
    },
    "bank": {
     "fr": [
-     73292,
+     112520,
      2450
     ],
     "frs": [
-     76142,
+     115370,
      3098
     ],
     "en": [
-     79640,
+     118868,
      2490
+    ],
+    "wd": [
+     121758,
+     13794
     ]
    }
   },
@@ -106,28 +194,52 @@
    "en": "Aram is sleeping in the hat.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ],
+    [
+     "քնում",
+     "sleeping"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s004_fr.mp3",
     "frs": "audio/s004_frs.mp3",
-    "en": "audio/s004_en.mp3"
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
    },
    "ms": {
     "fr": 2450,
     "frs": 3095,
-    "en": 2322
+    "en": 2322,
+    "wd": 12706
    },
    "bank": {
     "fr": [
-     82530,
+     135952,
      2450
     ],
     "frs": [
-     85380,
+     138802,
      3095
     ],
     "en": [
-     88876,
+     142298,
      2322
+    ],
+    "wd": [
+     145020,
+     12706
     ]
    }
   },
@@ -141,34 +253,50 @@
      "en": "come!"
     }
    ],
+   "words": [
+    [
+     "Արամ",
+     "Aram"
+    ],
+    [
+     "արի",
+     "come"
+    ]
+   ],
    "audio": {
     "fr": "audio/s005_fr.mp3",
     "frs": "audio/s005_frs.mp3",
     "en": "audio/s005_en.mp3",
-    "gl": "audio/s005_gl.mp3"
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
    },
    "ms": {
     "fr": 1890,
     "frs": 2348,
     "en": 2322,
-    "gl": 2797
+    "gl": 2797,
+    "wd": 5638
    },
    "bank": {
     "fr": [
-     91598,
+     158126,
      1890
     ],
     "frs": [
-     93888,
+     160416,
      2348
     ],
     "en": [
-     96637,
+     163165,
      2322
     ],
     "gl": [
-     99359,
+     165887,
      2797
+    ],
+    "wd": [
+     169084,
+     5638
     ]
    }
   },
@@ -177,28 +305,48 @@
    "en": "Aram is silent.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "լուռ",
+     "silent"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s006_fr.mp3",
     "frs": "audio/s006_frs.mp3",
-    "en": "audio/s006_en.mp3"
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
    },
    "ms": {
     "fr": 1730,
     "frs": 2134,
-    "en": 2322
+    "en": 2322,
+    "wd": 9672
    },
    "bank": {
     "fr": [
-     102556,
+     175122,
      1730
     ],
     "frs": [
-     104686,
+     177252,
      2134
     ],
     "en": [
-     107220,
+     179786,
      2322
+    ],
+    "wd": [
+     182508,
+     9672
     ]
    }
   },
@@ -207,28 +355,48 @@
    "en": "\"Aram, come, come!\"",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Արամ",
+     "Aram"
+    ],
+    [
+     "արի",
+     "come"
+    ],
+    [
+     "արի",
+     "come"
+    ]
+   ],
    "audio": {
     "fr": "audio/s007_fr.mp3",
     "frs": "audio/s007_frs.mp3",
-    "en": "audio/s007_en.mp3"
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
    },
    "ms": {
     "fr": 2210,
     "frs": 2773,
-    "en": 2106
+    "en": 2106,
+    "wd": 8128
    },
    "bank": {
     "fr": [
-     109942,
+     192580,
      2210
     ],
     "frs": [
-     112552,
+     195190,
      2773
     ],
     "en": [
-     115726,
+     198364,
      2106
+    ],
+    "wd": [
+     200870,
+     8128
     ]
    }
   },
@@ -237,28 +405,48 @@
    "en": "Aram is sleeping.",
    "para": 1,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "քնում",
+     "sleeping"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s008_fr.mp3",
     "frs": "audio/s008_frs.mp3",
-    "en": "audio/s008_en.mp3"
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
    },
    "ms": {
     "fr": 1810,
     "frs": 2238,
-    "en": 2322
+    "en": 2322,
+    "wd": 8664
    },
    "bank": {
     "fr": [
-     118232,
+     209398,
      1810
     ],
     "frs": [
-     120442,
+     211608,
      2238
     ],
     "en": [
-     123080,
+     214246,
      2322
+    ],
+    "wd": [
+     216968,
+     8664
     ]
    }
   },
@@ -267,28 +455,40 @@
    "en": "\"Caw!\"",
    "para": 2,
    "glosses": [],
+   "words": [
+    [
+     "Կռա",
+     "caw"
+    ]
+   ],
    "audio": {
     "fr": "audio/s009_fr.mp3",
     "frs": "audio/s009_frs.mp3",
-    "en": "audio/s009_en.mp3"
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
    },
    "ms": {
     "fr": 1410,
     "frs": 1705,
-    "en": 1194
+    "en": 1194,
+    "wd": 2940
    },
    "bank": {
     "fr": [
-     125802,
+     226032,
      1410
     ],
     "frs": [
-     127612,
+     227842,
      1705
     ],
     "en": [
-     129718,
+     229948,
      1194
+    ],
+    "wd": [
+     231542,
+     2940
     ]
    }
   },
@@ -297,28 +497,52 @@
    "en": "The black crow is in the courtyard.",
    "para": 2,
    "glosses": [],
+   "words": [
+    [
+     "Սև",
+     "black"
+    ],
+    [
+     "ագռավը",
+     "the crow"
+    ],
+    [
+     "բակում",
+     "in the courtyard"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s010_fr.mp3",
     "frs": "audio/s010_frs.mp3",
-    "en": "audio/s010_en.mp3"
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
    },
    "ms": {
     "fr": 2370,
     "frs": 3007,
-    "en": 2730
+    "en": 2730,
+    "wd": 13682
    },
    "bank": {
     "fr": [
-     131312,
+     234882,
      2370
     ],
     "frs": [
-     134082,
+     237652,
      3007
     ],
     "en": [
-     137490,
+     241060,
      2730
+    ],
+    "wd": [
+     244190,
+     13682
     ]
    }
   },
@@ -327,28 +551,56 @@
    "en": "The crow has a big, red apple.",
    "para": 2,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավը",
+     "the crow"
+    ],
+    [
+     "մեծ",
+     "big"
+    ],
+    [
+     "կարմիր",
+     "red"
+    ],
+    [
+     "խնձոր",
+     "apple"
+    ],
+    [
+     "ունի",
+     "has"
+    ]
+   ],
    "audio": {
     "fr": "audio/s011_fr.mp3",
     "frs": "audio/s011_frs.mp3",
-    "en": "audio/s011_en.mp3"
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
    },
    "ms": {
     "fr": 3410,
     "frs": 4371,
-    "en": 2802
+    "en": 2802,
+    "wd": 15460
    },
    "bank": {
     "fr": [
-     140620,
+     258272,
      3410
     ],
     "frs": [
-     144430,
+     262082,
      4371
     ],
     "en": [
-     149201,
+     266853,
      2802
+    ],
+    "wd": [
+     270055,
+     15460
     ]
    }
   },
@@ -362,34 +614,50 @@
      "en": "look!"
     }
    ],
+   "words": [
+    [
+     "Արամ",
+     "Aram"
+    ],
+    [
+     "նայիր",
+     "look"
+    ]
+   ],
    "audio": {
     "fr": "audio/s012_fr.mp3",
     "frs": "audio/s012_frs.mp3",
     "en": "audio/s012_en.mp3",
-    "gl": "audio/s012_gl.mp3"
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
    },
    "ms": {
     "fr": 1730,
     "frs": 2132,
     "en": 1410,
-    "gl": 3243
+    "gl": 3243,
+    "wd": 5798
    },
    "bank": {
     "fr": [
-     152403,
+     285915,
      1730
     ],
     "frs": [
-     154533,
+     288045,
      2132
     ],
     "en": [
-     157066,
+     290578,
      1410
     ],
     "gl": [
-     158876,
+     292388,
      3243
+    ],
+    "wd": [
+     296031,
+     5798
     ]
    }
   },
@@ -398,28 +666,52 @@
    "en": "Look, the crow has an apple!\"",
    "para": 2,
    "glosses": [],
+   "words": [
+    [
+     "Նայիր",
+     "look"
+    ],
+    [
+     "ագռավը",
+     "the crow"
+    ],
+    [
+     "խնձոր",
+     "apple"
+    ],
+    [
+     "ունի",
+     "has"
+    ]
+   ],
    "audio": {
     "fr": "audio/s013_fr.mp3",
     "frs": "audio/s013_frs.mp3",
-    "en": "audio/s013_en.mp3"
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
    },
    "ms": {
     "fr": 3170,
     "frs": 4053,
-    "en": 2514
+    "en": 2514,
+    "wd": 12362
    },
    "bank": {
     "fr": [
-     162519,
+     302229,
      3170
     ],
     "frs": [
-     166089,
+     305799,
      4053
     ],
     "en": [
-     170542,
+     310252,
      2514
+    ],
+    "wd": [
+     313166,
+     12362
     ]
    }
   },
@@ -428,28 +720,48 @@
    "en": "Aram is not sleeping.",
    "para": 2,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "չի",
+     "is not"
+    ],
+    [
+     "քնում",
+     "sleeping"
+    ]
+   ],
    "audio": {
     "fr": "audio/s014_fr.mp3",
     "frs": "audio/s014_frs.mp3",
-    "en": "audio/s014_en.mp3"
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
    },
    "ms": {
     "fr": 1890,
     "frs": 2360,
-    "en": 2322
+    "en": 2322,
+    "wd": 9504
    },
    "bank": {
     "fr": [
-     173456,
+     325928,
      1890
     ],
     "frs": [
-     175746,
+     328218,
      2360
     ],
     "en": [
-     178507,
+     330979,
      2322
+    ],
+    "wd": [
+     333701,
+     9504
     ]
    }
   },
@@ -458,28 +770,56 @@
    "en": "The crow puts the apple in the hat.",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավը",
+     "the crow"
+    ],
+    [
+     "խնձորը",
+     "the apple"
+    ],
+    [
+     "դնում",
+     "putting"
+    ],
+    [
+     "է",
+     "is"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ]
+   ],
    "audio": {
     "fr": "audio/s015_fr.mp3",
     "frs": "audio/s015_frs.mp3",
-    "en": "audio/s015_en.mp3"
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
    },
    "ms": {
     "fr": 3170,
     "frs": 4057,
-    "en": 2538
+    "en": 2538,
+    "wd": 17996
    },
    "bank": {
     "fr": [
-     181229,
+     343605,
      3170
     ],
     "frs": [
-     184799,
+     347175,
      4057
     ],
     "en": [
-     189256,
+     351632,
      2538
+    ],
+    "wd": [
+     354570,
+     17996
     ]
    }
   },
@@ -488,28 +828,56 @@
    "en": "Aram is eating an apple in the hat.",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ],
+    [
+     "խնձոր",
+     "apple"
+    ],
+    [
+     "է",
+     "is"
+    ],
+    [
+     "ուտում",
+     "eating"
+    ]
+   ],
    "audio": {
     "fr": "audio/s016_fr.mp3",
     "frs": "audio/s016_frs.mp3",
-    "en": "audio/s016_en.mp3"
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
    },
    "ms": {
     "fr": 2770,
     "frs": 3521,
-    "en": 2946
+    "en": 2946,
+    "wd": 15332
    },
    "bank": {
     "fr": [
-     192194,
+     372966,
      2770
     ],
     "frs": [
-     195364,
+     376136,
      3521
     ],
     "en": [
-     199286,
+     380058,
      2946
+    ],
+    "wd": [
+     383404,
+     15332
     ]
    }
   },
@@ -518,28 +886,44 @@
    "en": "Slowly, slowly.",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Դանդաղ",
+     "slowly"
+    ],
+    [
+     "դանդաղ",
+     "slowly"
+    ]
+   ],
    "audio": {
     "fr": "audio/s017_fr.mp3",
     "frs": "audio/s017_frs.mp3",
-    "en": "audio/s017_en.mp3"
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
    },
    "ms": {
     "fr": 2290,
     "frs": 2879,
-    "en": 2322
+    "en": 2322,
+    "wd": 8534
    },
    "bank": {
     "fr": [
-     202632,
+     399136,
      2290
     ],
     "frs": [
-     205322,
+     401826,
      2879
     ],
     "en": [
-     208602,
+     405106,
      2322
+    ],
+    "wd": [
+     407828,
+     8534
     ]
    }
   },
@@ -548,28 +932,56 @@
    "en": "\"Aram, what are you eating?\"",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Արամ",
+     "Aram"
+    ],
+    [
+     "դու",
+     "you"
+    ],
+    [
+     "ինչ",
+     "what"
+    ],
+    [
+     "ես",
+     "are"
+    ],
+    [
+     "ուտում",
+     "eating"
+    ]
+   ],
    "audio": {
     "fr": "audio/s018_fr.mp3",
     "frs": "audio/s018_frs.mp3",
-    "en": "audio/s018_en.mp3"
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
    },
    "ms": {
     "fr": 2690,
     "frs": 3414,
-    "en": 2322
+    "en": 2322,
+    "wd": 13476
    },
    "bank": {
     "fr": [
-     211324,
+     416762,
      2690
     ],
     "frs": [
-     214414,
+     419852,
      3414
     ],
     "en": [
-     218229,
+     423667,
      2322
+    ],
+    "wd": [
+     426389,
+     13476
     ]
    }
   },
@@ -578,28 +990,48 @@
    "en": "Aram is silent.",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "լուռ",
+     "silent"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s019_fr.mp3",
     "frs": "audio/s019_frs.mp3",
-    "en": "audio/s019_en.mp3"
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
    },
    "ms": {
     "fr": 1730,
     "frs": 2134,
-    "en": 2322
+    "en": 2322,
+    "wd": 9672
    },
    "bank": {
     "fr": [
-     220951,
+     440265,
      1730
     ],
     "frs": [
-     223081,
+     442395,
      2134
     ],
     "en": [
-     225615,
+     444929,
      2322
+    ],
+    "wd": [
+     447651,
+     9672
     ]
    }
   },
@@ -608,28 +1040,48 @@
    "en": "Aram is eating.",
    "para": 3,
    "glosses": [],
+   "words": [
+    [
+     "Արամն",
+     "Aram"
+    ],
+    [
+     "ուտում",
+     "eating"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s020_fr.mp3",
     "frs": "audio/s020_frs.mp3",
-    "en": "audio/s020_en.mp3"
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
    },
    "ms": {
     "fr": 1810,
     "frs": 2239,
-    "en": 2322
+    "en": 2322,
+    "wd": 8544
    },
    "bank": {
     "fr": [
-     228337,
+     457723,
      1810
     ],
     "frs": [
-     230547,
+     459933,
      2239
     ],
     "en": [
-     233187,
+     462573,
      2322
+    ],
+    "wd": [
+     465295,
+     8544
     ]
    }
   },
@@ -643,34 +1095,54 @@
      "en": "look! (polite)"
     }
    ],
+   "words": [
+    [
+     "Վազգեն",
+     "Vazgen"
+    ],
+    [
+     "պապ",
+     "grandpa"
+    ],
+    [
+     "նայեք",
+     "look"
+    ]
+   ],
    "audio": {
     "fr": "audio/s021_fr.mp3",
     "frs": "audio/s021_frs.mp3",
     "en": "audio/s021_en.mp3",
-    "gl": "audio/s021_gl.mp3"
+    "gl": "audio/s021_gl.mp3",
+    "wd": "audio/s021_wd.mp3"
    },
    "ms": {
     "fr": 2690,
     "frs": 3415,
     "en": 2322,
-    "gl": 5726
+    "gl": 5726,
+    "wd": 9432
    },
    "bank": {
     "fr": [
-     235909,
+     474239,
      2690
     ],
     "frs": [
-     238999,
+     477329,
      3415
     ],
     "en": [
-     242814,
+     481144,
      2322
     ],
     "gl": [
-     245536,
+     483866,
      5726
+    ],
+    "wd": [
+     489993,
+     9432
     ]
    }
   },
@@ -684,34 +1156,58 @@
      "en": "friend"
     }
    ],
+   "words": [
+    [
+     "Ագռավն",
+     "the crow"
+    ],
+    [
+     "Արամի",
+     "Aram's"
+    ],
+    [
+     "ընկերն",
+     "friend"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s022_fr.mp3",
     "frs": "audio/s022_frs.mp3",
     "en": "audio/s022_en.mp3",
-    "gl": "audio/s022_gl.mp3"
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
    },
    "ms": {
     "fr": 2450,
     "frs": 3089,
     "en": 2562,
-    "gl": 3346
+    "gl": 3346,
+    "wd": 13946
    },
    "bank": {
     "fr": [
-     251663,
+     499825,
      2450
     ],
     "frs": [
-     254513,
+     502675,
      3089
     ],
     "en": [
-     258003,
+     506165,
      2562
     ],
     "gl": [
-     260965,
+     509127,
      3346
+    ],
+    "wd": [
+     512873,
+     13946
     ]
    }
   },
@@ -720,28 +1216,52 @@
    "en": "\"What? I am not sleeping.\"",
    "para": 4,
    "glosses": [],
+   "words": [
+    [
+     "Ինչ",
+     "what"
+    ],
+    [
+     "Ես",
+     "I"
+    ],
+    [
+     "չեմ",
+     "am not"
+    ],
+    [
+     "քնում",
+     "sleeping"
+    ]
+   ],
    "audio": {
     "fr": "audio/s023_fr.mp3",
     "frs": "audio/s023_frs.mp3",
-    "en": "audio/s023_en.mp3"
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
    },
    "ms": {
     "fr": 3650,
     "frs": 4698,
-    "en": 2394
+    "en": 2394,
+    "wd": 12026
    },
    "bank": {
     "fr": [
-     264711,
+     527219,
      3650
     ],
     "frs": [
-     268761,
+     531269,
      4698
     ],
     "en": [
-     273860,
+     536368,
      2394
+    ],
+    "wd": [
+     539162,
+     12026
     ]
    }
   },
@@ -750,28 +1270,44 @@
    "en": "\"Grandpa, look!",
    "para": 4,
    "glosses": [],
+   "words": [
+    [
+     "Պապ",
+     "grandpa"
+    ],
+    [
+     "նայեք",
+     "look"
+    ]
+   ],
    "audio": {
     "fr": "audio/s024_fr.mp3",
     "frs": "audio/s024_frs.mp3",
-    "en": "audio/s024_en.mp3"
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
    },
    "ms": {
     "fr": 1890,
     "frs": 2369,
-    "en": 2322
+    "en": 2322,
+    "wd": 5870
    },
    "bank": {
     "fr": [
-     276654,
+     551588,
      1890
     ],
     "frs": [
-     278944,
+     553878,
      2369
     ],
     "en": [
-     281713,
+     556647,
      2322
+    ],
+    "wd": [
+     559369,
+     5870
     ]
    }
   },
@@ -780,28 +1316,52 @@
    "en": "Aram is the crow's friend!\"",
    "para": 4,
    "glosses": [],
+   "words": [
+    [
+     "Արամն",
+     "Aram"
+    ],
+    [
+     "ագռավի",
+     "the crow's"
+    ],
+    [
+     "ընկերն",
+     "friend"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s025_fr.mp3",
     "frs": "audio/s025_frs.mp3",
-    "en": "audio/s025_en.mp3"
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
    },
    "ms": {
     "fr": 2770,
     "frs": 3519,
-    "en": 2466
+    "en": 2466,
+    "wd": 12522
    },
    "bank": {
     "fr": [
-     284435,
+     565639,
      2770
     ],
     "frs": [
-     287605,
+     568809,
      3519
     ],
     "en": [
-     291524,
+     572728,
      2466
+    ],
+    "wd": [
+     575594,
+     12522
     ]
    }
   },
@@ -810,28 +1370,56 @@
    "en": "\"Crow, are you Aram's friend?\"",
    "para": 4,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավ",
+     "crow"
+    ],
+    [
+     "դու",
+     "you"
+    ],
+    [
+     "Արամի",
+     "Aram's"
+    ],
+    [
+     "ընկերն",
+     "friend"
+    ],
+    [
+     "ես",
+     "are"
+    ]
+   ],
    "audio": {
     "fr": "audio/s026_fr.mp3",
     "frs": "audio/s026_frs.mp3",
-    "en": "audio/s026_en.mp3"
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
    },
    "ms": {
     "fr": 2930,
     "frs": 3732,
-    "en": 2226
+    "en": 2226,
+    "wd": 14884
    },
    "bank": {
     "fr": [
-     294390,
+     588516,
      2930
     ],
     "frs": [
-     297720,
+     591846,
      3732
     ],
     "en": [
-     301852,
+     595978,
      2226
+    ],
+    "wd": [
+     598604,
+     14884
     ]
    }
   },
@@ -840,28 +1428,40 @@
    "en": "\"Caw!\"",
    "para": 4,
    "glosses": [],
+   "words": [
+    [
+     "Կռա",
+     "caw"
+    ]
+   ],
    "audio": {
     "fr": "audio/s027_fr.mp3",
     "frs": "audio/s027_frs.mp3",
-    "en": "audio/s027_en.mp3"
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
    },
    "ms": {
     "fr": 1410,
     "frs": 1705,
-    "en": 1194
+    "en": 1194,
+    "wd": 2940
    },
    "bank": {
     "fr": [
-     304478,
+     613888,
      1410
     ],
     "frs": [
-     306288,
+     615698,
      1705
     ],
     "en": [
-     308394,
+     617804,
      1194
+    ],
+    "wd": [
+     619398,
+     2940
     ]
    }
   },
@@ -870,28 +1470,44 @@
    "en": "\"Crow, come!",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավ",
+     "crow"
+    ],
+    [
+     "արի",
+     "come"
+    ]
+   ],
    "audio": {
     "fr": "audio/s028_fr.mp3",
     "frs": "audio/s028_frs.mp3",
-    "en": "audio/s028_en.mp3"
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
    },
    "ms": {
     "fr": 2050,
     "frs": 2560,
-    "en": 2322
+    "en": 2322,
+    "wd": 5718
    },
    "bank": {
     "fr": [
-     309988,
+     622738,
      2050
     ],
     "frs": [
-     312438,
+     625188,
      2560
     ],
     "en": [
-     315398,
+     628148,
      2322
+    ],
+    "wd": [
+     630870,
+     5718
     ]
    }
   },
@@ -900,28 +1516,52 @@
    "en": "This is your apple.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Սա",
+     "this"
+    ],
+    [
+     "քո",
+     "your"
+    ],
+    [
+     "խնձորն",
+     "the apple"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s029_fr.mp3",
     "frs": "audio/s029_frs.mp3",
-    "en": "audio/s029_en.mp3"
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
    },
    "ms": {
     "fr": 1810,
     "frs": 2242,
-    "en": 2322
+    "en": 2322,
+    "wd": 12610
    },
    "bank": {
     "fr": [
-     318120,
+     636988,
      1810
     ],
     "frs": [
-     320330,
+     639198,
      2242
     ],
     "en": [
-     322973,
+     641841,
      2322
+    ],
+    "wd": [
+     644563,
+     12610
     ]
    }
   },
@@ -930,28 +1570,40 @@
    "en": "Take it!\"",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Վերցրու",
+     "take"
+    ]
+   ],
    "audio": {
     "fr": "audio/s030_fr.mp3",
     "frs": "audio/s030_frs.mp3",
-    "en": "audio/s030_en.mp3"
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
    },
    "ms": {
     "fr": 1410,
     "frs": 1711,
-    "en": 1290
+    "en": 1290,
+    "wd": 3284
    },
    "bank": {
     "fr": [
-     325695,
+     657573,
      1410
     ],
     "frs": [
-     327505,
+     659383,
      1711
     ],
     "en": [
-     329616,
+     661494,
      1290
+    ],
+    "wd": [
+     663184,
+     3284
     ]
    }
   },
@@ -960,28 +1612,60 @@
    "en": "The crow takes the big, red apple.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավը",
+     "the crow"
+    ],
+    [
+     "մեծ",
+     "big"
+    ],
+    [
+     "կարմիր",
+     "red"
+    ],
+    [
+     "խնձորը",
+     "the apple"
+    ],
+    [
+     "վերցնում",
+     "taking"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s031_fr.mp3",
     "frs": "audio/s031_frs.mp3",
-    "en": "audio/s031_en.mp3"
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
    },
    "ms": {
     "fr": 3650,
     "frs": 4691,
-    "en": 2898
+    "en": 2898,
+    "wd": 19646
    },
    "bank": {
     "fr": [
-     331306,
+     666868,
      3650
     ],
     "frs": [
-     335356,
+     670918,
      4691
     ],
     "en": [
-     340447,
+     676009,
      2898
+    ],
+    "wd": [
+     679307,
+     19646
     ]
    }
   },
@@ -990,28 +1674,52 @@
    "en": "The crow does not eat the apple.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավը",
+     "the crow"
+    ],
+    [
+     "խնձորը",
+     "the apple"
+    ],
+    [
+     "չի",
+     "does not"
+    ],
+    [
+     "ուտում",
+     "eat"
+    ]
+   ],
    "audio": {
     "fr": "audio/s032_fr.mp3",
     "frs": "audio/s032_frs.mp3",
-    "en": "audio/s032_en.mp3"
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
    },
    "ms": {
     "fr": 2610,
     "frs": 3316,
-    "en": 2274
+    "en": 2274,
+    "wd": 14722
    },
    "bank": {
     "fr": [
-     343745,
+     699353,
      2610
     ],
     "frs": [
-     346755,
+     702363,
      3316
     ],
     "en": [
-     350472,
+     706080,
      2274
+    ],
+    "wd": [
+     708754,
+     14722
     ]
    }
   },
@@ -1020,28 +1728,56 @@
    "en": "The crow puts the apple in the hat.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Ագռավը",
+     "the crow"
+    ],
+    [
+     "խնձորը",
+     "the apple"
+    ],
+    [
+     "դնում",
+     "putting"
+    ],
+    [
+     "է",
+     "is"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ]
+   ],
    "audio": {
     "fr": "audio/s033_fr.mp3",
     "frs": "audio/s033_frs.mp3",
-    "en": "audio/s033_en.mp3"
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
    },
    "ms": {
     "fr": 3170,
     "frs": 4057,
-    "en": 2538
+    "en": 2538,
+    "wd": 17996
    },
    "bank": {
     "fr": [
-     353146,
+     723876,
      3170
     ],
     "frs": [
-     356716,
+     727446,
      4057
     ],
     "en": [
-     361173,
+     731903,
      2538
+    ],
+    "wd": [
+     734841,
+     17996
     ]
    }
   },
@@ -1050,28 +1786,40 @@
    "en": "\"Caw!\"",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Կռա",
+     "caw"
+    ]
+   ],
    "audio": {
     "fr": "audio/s034_fr.mp3",
     "frs": "audio/s034_frs.mp3",
-    "en": "audio/s034_en.mp3"
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
    },
    "ms": {
     "fr": 1410,
     "frs": 1705,
-    "en": 1194
+    "en": 1194,
+    "wd": 2940
    },
    "bank": {
     "fr": [
-     364111,
+     753237,
      1410
     ],
     "frs": [
-     365921,
+     755047,
      1705
     ],
     "en": [
-     368027,
+     757153,
      1194
+    ],
+    "wd": [
+     758747,
+     2940
     ]
    }
   },
@@ -1080,28 +1828,52 @@
    "en": "Grandpa's hat is heavy.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Պապի",
+     "grandpa's"
+    ],
+    [
+     "գլխարկը",
+     "the hat"
+    ],
+    [
+     "ծանր",
+     "heavy"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s035_fr.mp3",
     "frs": "audio/s035_frs.mp3",
-    "en": "audio/s035_en.mp3"
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
    },
    "ms": {
     "fr": 2850,
     "frs": 3624,
-    "en": 2082
+    "en": 2082,
+    "wd": 13018
    },
    "bank": {
     "fr": [
-     369621,
+     762087,
      2850
     ],
     "frs": [
-     372871,
+     765337,
      3624
     ],
     "en": [
-     376895,
+     769361,
      2082
+    ],
+    "wd": [
+     771843,
+     13018
     ]
    }
   },
@@ -1110,28 +1882,52 @@
    "en": "Aram is eating in the hat.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Արամը",
+     "Aram"
+    ],
+    [
+     "գլխարկում",
+     "in the hat"
+    ],
+    [
+     "ուտում",
+     "eating"
+    ],
+    [
+     "է",
+     "is"
+    ]
+   ],
    "audio": {
     "fr": "audio/s036_fr.mp3",
     "frs": "audio/s036_frs.mp3",
-    "en": "audio/s036_en.mp3"
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
    },
    "ms": {
     "fr": 2530,
     "frs": 3214,
-    "en": 2442
+    "en": 2442,
+    "wd": 12666
    },
    "bank": {
     "fr": [
-     379377,
+     785261,
      2530
     ],
     "frs": [
-     382307,
+     788191,
      3214
     ],
     "en": [
-     385922,
+     791806,
      2442
+    ],
+    "wd": [
+     794648,
+     12666
     ]
    }
   },
@@ -1140,28 +1936,40 @@
    "en": "Ani...",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Անին",
+     "Ani"
+    ]
+   ],
    "audio": {
     "fr": "audio/s037_fr.mp3",
     "frs": "audio/s037_frs.mp3",
-    "en": "audio/s037_en.mp3"
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
    },
    "ms": {
     "fr": 1410,
     "frs": 1712,
-    "en": 1242
+    "en": 1242,
+    "wd": 3092
    },
    "bank": {
     "fr": [
-     388764,
+     807714,
      1410
     ],
     "frs": [
-     390574,
+     809524,
      1712
     ],
     "en": [
-     392687,
+     811637,
      1242
+    ],
+    "wd": [
+     813279,
+     3092
     ]
    }
   },
@@ -1170,28 +1978,48 @@
    "en": "Ani has no apple.",
    "para": 5,
    "glosses": [],
+   "words": [
+    [
+     "Անին",
+     "Ani"
+    ],
+    [
+     "խնձոր",
+     "apple"
+    ],
+    [
+     "չունի",
+     "doesn't have"
+    ]
+   ],
    "audio": {
     "fr": "audio/s038_fr.mp3",
     "frs": "audio/s038_frs.mp3",
-    "en": "audio/s038_en.mp3"
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
    },
    "ms": {
     "fr": 1970,
     "frs": 2450,
-    "en": 2322
+    "en": 2322,
+    "wd": 9560
    },
    "bank": {
     "fr": [
-     394329,
+     816771,
      1970
     ],
     "frs": [
-     396699,
+     819141,
      2450
     ],
     "en": [
-     399549,
+     821991,
      2322
+    ],
+    "wd": [
+     824713,
+     9560
     ]
    }
   }
