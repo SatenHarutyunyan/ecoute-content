@@ -93,7 +93,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.9";
+const VERSION = "web 0.10";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -546,6 +546,21 @@ $("ver").textContent = VERSION;
 $("name").value = store.get("name", "");
 $("name").onchange = e => { store.set("name", e.target.value.trim()); log("name", {}); };
 log("open", { standalone: !!navigator.standalone, ua: navigator.userAgent.slice(0, 120) }, "");
+
+// iPhone keeps the page for up to 10 min (GitHub's cache header): look for a newer version on every open
+async function checkUpdate() {
+  if (!audio.paused || PT.running) return;  // never interrupt listening or the level test
+  try {
+    const t = await (await fetch("index.html?check=" + Date.now(), { cache: "no-store" })).text();
+    const v = (t.match(/const VERSION = "([^"]+)"/) || [])[1];
+    if (v && v !== VERSION && !location.search.includes(encodeURIComponent(v))) {  // a new URL skips the cached copy
+      flush(true);
+      location.replace(location.pathname + "?v=" + encodeURIComponent(v));
+    }
+  } catch {}
+}
+checkUpdate();
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
 fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
   .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
