@@ -93,7 +93,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.8";
+const VERSION = "web 0.9";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = {
   "Standard": "T GLOSS EN T PAUSE",
@@ -241,8 +241,9 @@ function show() {
 
 async function openStory(entry) {
   const base = `stories/${entry.id}/`;
-  story = await (await fetch(base + "story.json")).json();
-  audio.src = base + story.bank.file;
+  const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
+  story = await (await fetch(base + "story.json" + v)).json();
+  audio.src = base + story.bank.file + v;
   const pos = store.get("pos_" + story.id, -1);
   log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
   $("fb").hidden = true;
@@ -355,7 +356,7 @@ async function renderPlacementEntry() {
 
 function ptUnlock() {
   // iPhone only allows sound started inside a tap: unlock the element now, before any await
-  if (!PT.audio.src.endsWith(`placement/${lang}.m4a`)) PT.audio.src = `placement/${lang}.m4a`;
+  if (!PT.audio.src.includes(`placement/${lang}.m4a`)) PT.audio.src = `placement/${lang}.m4a?v=${VERSION.replace(/\D/g, "")}`;
   PT.audio.muted = true; PT.unlocking = true;
   PT.audio.play().then(() => { if (PT.unlocking) PT.audio.pause(); }).catch(() => {})
     .finally(() => { PT.audio.muted = false; PT.unlocking = false; });
