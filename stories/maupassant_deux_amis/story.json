@@ -1,0 +1,8954 @@
+{
+ "id": "maupassant_deux_amis",
+ "lang": "fr",
+ "title": "Deux Amis",
+ "author": "Guy de Maupassant",
+ "level": "B2",
+ "series": "",
+ "episode": "",
+ "note": "Paris, January 1871, besieged and starving during the war with Prussia. Two old fishing friends decide to go fishing beyond the French lines. The story uses the passé simple, a literary past tense: when you hear \"il dit\" or \"ils furent\", just think \"he said\", \"they were\".",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 26574,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Paris était bloqué, affamé et râlant.",
+   "en": "Paris was blockaded, starving, and gasping.",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     57774,
+     4098
+    ],
+    "frs": [
+     62272,
+     5898
+    ],
+    "en": [
+     68570,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "Les moineaux se faisaient bien rares sur les toits,",
+   "en": "The sparrows were becoming very rare on the rooftops,",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5514,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     72708,
+     3834
+    ],
+    "frs": [
+     76942,
+     5514
+    ],
+    "en": [
+     82856,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "et les égouts se dépeuplaient.",
+   "en": "and the sewers were emptying of their population.",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     86970,
+     2922
+    ],
+    "frs": [
+     90292,
+     4146
+    ],
+    "en": [
+     94838,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "On mangeait n'importe quoi.",
+   "en": "People ate anything at all.",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4290,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     98616,
+     3018
+    ],
+    "frs": [
+     102034,
+     4290
+    ],
+    "en": [
+     106724,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Comme il se promenait tristement par un clair matin de janvier",
+   "en": "As he was walking sadly one clear January morning",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     109278,
+     4818
+    ],
+    "frs": [
+     114496,
+     6978
+    ],
+    "en": [
+     121874,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "le long du boulevard extérieur,",
+   "en": "along the outer boulevard,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     126060,
+     3306
+    ],
+    "frs": [
+     129765,
+     4722
+    ],
+    "en": [
+     134888,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "les mains dans les poches de sa culotte d'uniforme et le ventre vide,",
+   "en": "his hands in the pockets of his uniform trousers and his stomach empty,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7314,
+    "en": 4794
+   },
+   "bank": {
+    "fr": [
+     137610,
+     5058
+    ],
+    "frs": [
+     143068,
+     7314
+    ],
+    "en": [
+     150782,
+     4794
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Morissot, horloger de son état et pantouflard par occasion,",
+   "en": "Monsieur Morissot, a watchmaker by trade and a homebody when he could be,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 5658,
+    "frs": 8226,
+    "en": 4938
+   },
+   "bank": {
+    "fr": [
+     155976,
+     5658
+    ],
+    "frs": [
+     162034,
+     8226
+    ],
+    "en": [
+     170660,
+     4938
+    ]
+   }
+  },
+  {
+   "fr": "s'arrêta net devant un confrère qu'il reconnut pour un ami.",
+   "en": "stopped short in front of a fellow he recognized as a friend.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7314,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     175998,
+     5058
+    ],
+    "frs": [
+     181456,
+     7314
+    ],
+    "en": [
+     189170,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "C'était Monsieur Sauvage, une connaissance du bord de l'eau.",
+   "en": "It was Monsieur Sauvage, an acquaintance from the riverside.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 4842,
+    "frs": 7002,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     193452,
+     4842
+    ],
+    "frs": [
+     198694,
+     7002
+    ],
+    "en": [
+     206096,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "Chaque dimanche, avant la guerre, Morissot partait dès l'aurore,",
+   "en": "Every Sunday, before the war, Morissot set off at dawn,",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 5418,
+    "frs": 7866,
+    "en": 4386
+   },
+   "bank": {
+    "fr": [
+     210570,
+     5418
+    ],
+    "frs": [
+     216388,
+     7866
+    ],
+    "en": [
+     224654,
+     4386
+    ]
+   }
+  },
+  {
+   "fr": "une canne en bambou d'une main, une boîte en fer-blanc sur le dos.",
+   "en": "a bamboo rod in one hand, a tin box on his back.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 4986,
+    "frs": 7218,
+    "en": 4218
+   },
+   "bank": {
+    "fr": [
+     229440,
+     4986
+    ],
+    "frs": [
+     234826,
+     7218
+    ],
+    "en": [
+     242444,
+     4218
+    ]
+   }
+  },
+  {
+   "fr": "Il prenait le chemin de fer d'Argenteuil, descendait à Colombes,",
+   "en": "He took the Argenteuil railway, got off at Colombes,",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3"
+   },
+   "ms": {
+    "fr": 5298,
+    "frs": 7674,
+    "en": 3954
+   },
+   "bank": {
+    "fr": [
+     247062,
+     5298
+    ],
+    "frs": [
+     252760,
+     7674
+    ],
+    "en": [
+     260834,
+     3954
+    ]
+   }
+  },
+  {
+   "fr": "puis gagnait à pied l'île Marante.",
+   "en": "then walked to the Île Marante.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2274
+   },
+   "bank": {
+    "fr": [
+     265188,
+     3354
+    ],
+    "frs": [
+     268942,
+     4794
+    ],
+    "en": [
+     274136,
+     2274
+    ]
+   }
+  },
+  {
+   "fr": "À peine arrivé en ce lieu de ses rêves, il se mettait à pêcher ;",
+   "en": "Hardly had he arrived at this place of his dreams when he began to fish;",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7338,
+    "en": 4770
+   },
+   "bank": {
+    "fr": [
+     276810,
+     5058
+    ],
+    "frs": [
+     282268,
+     7338
+    ],
+    "en": [
+     290006,
+     4770
+    ]
+   }
+  },
+  {
+   "fr": "il pêchait jusqu'à la nuit.",
+   "en": "he fished until nightfall.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2154
+   },
+   "bank": {
+    "fr": [
+     295176,
+     3138
+    ],
+    "frs": [
+     298714,
+     4458
+    ],
+    "en": [
+     303572,
+     2154
+    ]
+   }
+  },
+  {
+   "fr": "Chaque dimanche, il rencontrait là un petit homme replet et jovial,",
+   "en": "Every Sunday, he met there a short, plump, jovial man,",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3"
+   },
+   "ms": {
+    "fr": 5610,
+    "frs": 8178,
+    "en": 4578
+   },
+   "bank": {
+    "fr": [
+     306126,
+     5610
+    ],
+    "frs": [
+     312136,
+     8178
+    ],
+    "en": [
+     320714,
+     4578
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage, mercier, rue Notre-Dame-de-Lorette,",
+   "en": "Monsieur Sauvage, a haberdasher on the rue Notre-Dame-de-Lorette,",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 4482
+   },
+   "bank": {
+    "fr": [
+     325692,
+     5274
+    ],
+    "frs": [
+     331366,
+     7650
+    ],
+    "en": [
+     339416,
+     4482
+    ]
+   }
+  },
+  {
+   "fr": "autre pêcheur fanatique.",
+   "en": "another fanatical fisherman.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     344298,
+     3042
+    ],
+    "frs": [
+     347740,
+     4314
+    ],
+    "en": [
+     352454,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ils passaient souvent une demi-journée côte à côte,",
+   "en": "They often spent half a day side by side,",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     355176,
+     4146
+    ],
+    "frs": [
+     359722,
+     5970
+    ],
+    "en": [
+     366092,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "la ligne à la main et les pieds ballants au-dessus du courant ;",
+   "en": "line in hand and feet dangling above the current;",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     369534,
+     4458
+    ],
+    "frs": [
+     374392,
+     6450
+    ],
+    "en": [
+     381242,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "et ils s'étaient pris d'amitié l'un pour l'autre.",
+   "en": "and they had become fond of each other.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     385284,
+     3666
+    ],
+    "frs": [
+     389350,
+     5250
+    ],
+    "en": [
+     395000,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "En certains jours, ils ne parlaient pas.",
+   "en": "On some days, they did not talk.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     397914,
+     3738
+    ],
+    "frs": [
+     402052,
+     5370
+    ],
+    "en": [
+     407822,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "Quelquefois ils causaient ;",
+   "en": "Sometimes they chatted;",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     411072,
+     2850
+    ],
+    "frs": [
+     414322,
+     4002
+    ],
+    "en": [
+     418724,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "mais ils s'entendaient admirablement sans rien dire,",
+   "en": "but they understood each other admirably without saying anything,",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     421446,
+     4242
+    ],
+    "frs": [
+     426088,
+     6114
+    ],
+    "en": [
+     432602,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "ayant des goûts semblables et des sensations identiques.",
+   "en": "having similar tastes and identical feelings.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6234,
+    "en": 3282
+   },
+   "bank": {
+    "fr": [
+     436908,
+     4338
+    ],
+    "frs": [
+     441646,
+     6234
+    ],
+    "en": [
+     448280,
+     3282
+    ]
+   }
+  },
+  {
+   "fr": "Au printemps, le matin, vers dix heures,",
+   "en": "In spring, in the morning, around ten o'clock,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6234,
+    "en": 3642
+   },
+   "bank": {
+    "fr": [
+     451962,
+     4338
+    ],
+    "frs": [
+     456700,
+     6234
+    ],
+    "en": [
+     463334,
+     3642
+    ]
+   }
+  },
+  {
+   "fr": "quand le soleil rajeuni faisait flotter sur le fleuve tranquille",
+   "en": "when the rejuvenated sun made float over the calm river",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 4986,
+    "frs": 7242,
+    "en": 4266
+   },
+   "bank": {
+    "fr": [
+     467376,
+     4986
+    ],
+    "frs": [
+     472762,
+     7242
+    ],
+    "en": [
+     480404,
+     4266
+    ]
+   }
+  },
+  {
+   "fr": "cette petite buée qui coule avec l'eau,",
+   "en": "that light mist that flows along with the water,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 3210
+   },
+   "bank": {
+    "fr": [
+     485070,
+     3594
+    ],
+    "frs": [
+     489064,
+     5130
+    ],
+    "en": [
+     494594,
+     3210
+    ]
+   }
+  },
+  {
+   "fr": "et versait dans le dos des deux enragés pêcheurs",
+   "en": "and poured onto the backs of the two passionate fishermen",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     498204,
+     3978
+    ],
+    "frs": [
+     502582,
+     5706
+    ],
+    "en": [
+     508688,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "une bonne chaleur de saison nouvelle,",
+   "en": "a pleasant warmth of the new season,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     512826,
+     3570
+    ],
+    "frs": [
+     516796,
+     5106
+    ],
+    "en": [
+     522302,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "Morissot parfois disait à son voisin : « Hein ! quelle douceur ! »",
+   "en": "Morissot would sometimes say to his neighbor: \"Eh! How lovely!\"",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 6162,
+    "frs": 8970,
+    "en": 4410
+   },
+   "bank": {
+    "fr": [
+     525360,
+     6162
+    ],
+    "frs": [
+     531922,
+     8970
+    ],
+    "en": [
+     541292,
+     4410
+    ]
+   }
+  },
+  {
+   "fr": "et Monsieur Sauvage répondait : « Je ne connais rien de meilleur. »",
+   "en": "and Monsieur Sauvage would answer: \"I know nothing better.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 4026
+   },
+   "bank": {
+    "fr": [
+     546102,
+     5154
+    ],
+    "frs": [
+     551656,
+     7482
+    ],
+    "en": [
+     559538,
+     4026
+    ]
+   }
+  },
+  {
+   "fr": "Et cela leur suffisait pour se comprendre et s'estimer.",
+   "en": "And that was enough for them to understand and respect each other.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6378,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     563964,
+     4410
+    ],
+    "frs": [
+     568774,
+     6378
+    ],
+    "en": [
+     575552,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "À l'automne, vers la fin du jour,",
+   "en": "In autumn, toward the end of the day,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     579690,
+     3906
+    ],
+    "frs": [
+     583996,
+     5586
+    ],
+    "en": [
+     589982,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "quand le ciel, ensanglanté par le soleil couchant,",
+   "en": "when the sky, bloodied by the setting sun,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6570,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     593088,
+     4554
+    ],
+    "frs": [
+     598042,
+     6570
+    ],
+    "en": [
+     605012,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "jetait dans l'eau des figures de nuages écarlates,",
+   "en": "cast shapes of scarlet clouds into the water,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     608838,
+     4170
+    ],
+    "frs": [
+     613408,
+     6018
+    ],
+    "en": [
+     619826,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "empourprait le fleuve entier, enflammait l'horizon,",
+   "en": "turned the whole river crimson, set the horizon ablaze,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6282,
+    "en": 4314
+   },
+   "bank": {
+    "fr": [
+     623700,
+     4362
+    ],
+    "frs": [
+     628462,
+     6282
+    ],
+    "en": [
+     635144,
+     4314
+    ]
+   }
+  },
+  {
+   "fr": "faisait rouges comme du feu les deux amis,",
+   "en": "made the two friends red as fire,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5178,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     639858,
+     3618
+    ],
+    "frs": [
+     643876,
+     5178
+    ],
+    "en": [
+     649454,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "et dorait les arbres roussis déjà,",
+   "en": "and gilded the trees, already turning russet,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 3666
+   },
+   "bank": {
+    "fr": [
+     652608,
+     3210
+    ],
+    "frs": [
+     656218,
+     4578
+    ],
+    "en": [
+     661196,
+     3666
+    ]
+   }
+  },
+  {
+   "fr": "frémissants d'un frisson d'hiver,",
+   "en": "trembling with a wintry shiver,",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     665262,
+     3378
+    ],
+    "frs": [
+     669040,
+     4818
+    ],
+    "en": [
+     674258,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage regardait en souriant Morissot et prononçait :",
+   "en": "Monsieur Sauvage would look at Morissot with a smile and declare:",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7338,
+    "en": 4362
+   },
+   "bank": {
+    "fr": [
+     677124,
+     5058
+    ],
+    "frs": [
+     682582,
+     7338
+    ],
+    "en": [
+     690320,
+     4362
+    ]
+   }
+  },
+  {
+   "fr": "« Quel spectacle ! »",
+   "en": "\"What a sight!\"",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     695082,
+     2634
+    ],
+    "frs": [
+     698116,
+     3690
+    ],
+    "en": [
+     702206,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et Morissot émerveillé répondait, sans quitter des yeux son flotteur :",
+   "en": "And Morissot, filled with wonder, would answer, without taking his eyes off his float:",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 5658,
+    "frs": 8226,
+    "en": 6186
+   },
+   "bank": {
+    "fr": [
+     704928,
+     5658
+    ],
+    "frs": [
+     710986,
+     8226
+    ],
+    "en": [
+     719612,
+     6186
+    ]
+   }
+  },
+  {
+   "fr": "« Cela vaut mieux que le boulevard, hein ? »",
+   "en": "\"That's better than the boulevard, eh?\"",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5274,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     726198,
+     3666
+    ],
+    "frs": [
+     730264,
+     5274
+    ],
+    "en": [
+     735938,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "Dès qu'ils se furent reconnus,",
+   "en": "As soon as they had recognized each other,",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     738828,
+     3042
+    ],
+    "frs": [
+     742270,
+     4314
+    ],
+    "en": [
+     746984,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "ils se serrèrent les mains énergiquement,",
+   "en": "they shook hands vigorously,",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     750138,
+     3498
+    ],
+    "frs": [
+     754036,
+     4986
+    ],
+    "en": [
+     759422,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "tout émus de se retrouver en des circonstances si différentes.",
+   "en": "deeply moved to meet again in such different circumstances.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7050,
+    "en": 4314
+   },
+   "bank": {
+    "fr": [
+     762144,
+     4866
+    ],
+    "frs": [
+     767410,
+     7050
+    ],
+    "en": [
+     774860,
+     4314
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage, poussant un soupir, murmura :",
+   "en": "Monsieur Sauvage, heaving a sigh, murmured:",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7290,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     779574,
+     5034
+    ],
+    "frs": [
+     785008,
+     7290
+    ],
+    "en": [
+     792698,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "« En voilà des événements ! »",
+   "en": "\"What times these are!\"",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     796476,
+     2850
+    ],
+    "frs": [
+     799726,
+     4026
+    ],
+    "en": [
+     804152,
+     1890
+    ]
+   }
+  },
+  {
+   "fr": "Morissot, très morne, gémit : « Et quel temps !",
+   "en": "Morissot, very gloomy, groaned: \"And what weather!",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6882,
+    "en": 4314
+   },
+   "bank": {
+    "fr": [
+     806442,
+     4770
+    ],
+    "frs": [
+     811612,
+     6882
+    ],
+    "en": [
+     818894,
+     4314
+    ]
+   }
+  },
+  {
+   "fr": "C'est aujourd'hui le premier beau jour de l'année. »",
+   "en": "Today is the first fine day of the year.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     823608,
+     3906
+    ],
+    "frs": [
+     827914,
+     5586
+    ],
+    "en": [
+     833900,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "Le ciel était, en effet, tout bleu et plein de lumière.",
+   "en": "The sky was, indeed, all blue and full of light.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3"
+   },
+   "ms": {
+    "fr": 5202,
+    "frs": 7554,
+    "en": 4338
+   },
+   "bank": {
+    "fr": [
+     837150,
+     5202
+    ],
+    "frs": [
+     842752,
+     7554
+    ],
+    "en": [
+     850706,
+     4338
+    ]
+   }
+  },
+  {
+   "fr": "Ils se mirent à marcher côte à côte, rêveurs et tristes.",
+   "en": "They began to walk side by side, dreamy and sad.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     855444,
+     4794
+    ],
+    "frs": [
+     860638,
+     6930
+    ],
+    "en": [
+     867968,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "Morissot reprit : « Et la pêche ? hein ! quel bon souvenir ! »",
+   "en": "Morissot went on: \"And the fishing? Eh! What a good memory!\"",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 7194,
+    "frs": 10530,
+    "en": 4866
+   },
+   "bank": {
+    "fr": [
+     872418,
+     7194
+    ],
+    "frs": [
+     880012,
+     10530
+    ],
+    "en": [
+     890942,
+     4866
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage demanda : « Quand y retournerons-nous ? »",
+   "en": "Monsieur Sauvage asked: \"When will we go back there?\"",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 3522
+   },
+   "bank": {
+    "fr": [
+     896208,
+     4434
+    ],
+    "frs": [
+     901042,
+     6378
+    ],
+    "en": [
+     907820,
+     3522
+    ]
+   }
+  },
+  {
+   "fr": "Ils entrèrent dans un petit café et burent ensemble une absinthe ;",
+   "en": "They went into a little café and drank an absinthe together;",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7386,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     911742,
+     5082
+    ],
+    "frs": [
+     917224,
+     7386
+    ],
+    "en": [
+     925010,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "puis ils se remirent à se promener sur les trottoirs.",
+   "en": "then they went back to strolling along the sidewalks.",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6042,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     929460,
+     4194
+    ],
+    "frs": [
+     934054,
+     6042
+    ],
+    "en": [
+     940496,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "Morissot s'arrêta soudain : « Une seconde verte, hein ? »",
+   "en": "Morissot stopped suddenly: \"A second green one, eh?\"",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 4002
+   },
+   "bank": {
+    "fr": [
+     944058,
+     4890
+    ],
+    "frs": [
+     949348,
+     7074
+    ],
+    "en": [
+     956822,
+     4002
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage y consentit : « À votre disposition. »",
+   "en": "Monsieur Sauvage agreed: \"At your service.\"",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     961224,
+     4818
+    ],
+    "frs": [
+     966442,
+     6978
+    ],
+    "en": [
+     973820,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "Et ils pénétrèrent chez un autre marchand de vins.",
+   "en": "And they went into another wine shop.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 2442
+   },
+   "bank": {
+    "fr": [
+     977718,
+     3930
+    ],
+    "frs": [
+     982048,
+     5658
+    ],
+    "en": [
+     988106,
+     2442
+    ]
+   }
+  },
+  {
+   "fr": "Ils étaient fort étourdis en sortant,",
+   "en": "They were very dizzy when they came out,",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     990948,
+     3522
+    ],
+    "frs": [
+     994870,
+     5010
+    ],
+    "en": [
+     1000280,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "troublés comme des gens à jeun dont le ventre est plein d'alcool.",
+   "en": "muddled like people who have not eaten and whose stomachs are full of alcohol.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 4602
+   },
+   "bank": {
+    "fr": [
+     1003266,
+     4746
+    ],
+    "frs": [
+     1008412,
+     6858
+    ],
+    "en": [
+     1015670,
+     4602
+    ]
+   }
+  },
+  {
+   "fr": "Il faisait doux.",
+   "en": "It was mild.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3306,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1020672,
+     2370
+    ],
+    "frs": [
+     1023442,
+     3306
+    ],
+    "en": [
+     1027147,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Une brise caressante leur chatouillait le visage.",
+   "en": "A caressing breeze tickled their faces.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5946,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     1029869,
+     4146
+    ],
+    "frs": [
+     1034415,
+     5946
+    ],
+    "en": [
+     1040762,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage, que l'air tiède achevait de griser, s'arrêta :",
+   "en": "Monsieur Sauvage, whom the warm air was making completely tipsy, stopped:",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3"
+   },
+   "ms": {
+    "fr": 5442,
+    "frs": 7914,
+    "en": 5418
+   },
+   "bank": {
+    "fr": [
+     1044276,
+     5442
+    ],
+    "frs": [
+     1050118,
+     7914
+    ],
+    "en": [
+     1058432,
+     5418
+    ]
+   }
+  },
+  {
+   "fr": "« Si on y allait ? »",
+   "en": "\"What if we went?\"",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3"
+   },
+   "ms": {
+    "fr": 2346,
+    "frs": 3258,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1064250,
+     2346
+    ],
+    "frs": [
+     1066996,
+     3258
+    ],
+    "en": [
+     1070654,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Où ça ?",
+   "en": "\"Where?\"",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2850,
+    "en": 1266
+   },
+   "bank": {
+    "fr": [
+     1073376,
+     2322
+    ],
+    "frs": [
+     1076098,
+     2850
+    ],
+    "en": [
+     1079348,
+     1266
+    ]
+   }
+  },
+  {
+   "fr": "— À la pêche, donc.",
+   "en": "\"Fishing, of course.\"",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2058
+   },
+   "bank": {
+    "fr": [
+     1081014,
+     3210
+    ],
+    "frs": [
+     1084624,
+     4554
+    ],
+    "en": [
+     1089578,
+     2058
+    ]
+   }
+  },
+  {
+   "fr": "— Mais où ?",
+   "en": "\"But where?\"",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2946,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1092036,
+     2322
+    ],
+    "frs": [
+     1094758,
+     2946
+    ],
+    "en": [
+     1098104,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "— Mais à notre île.",
+   "en": "\"Why, to our island.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3738,
+    "en": 2033
+   },
+   "bank": {
+    "fr": [
+     1100826,
+     2658
+    ],
+    "frs": [
+     1103884,
+     3738
+    ],
+    "en": [
+     1108022,
+     2033
+    ]
+   }
+  },
+  {
+   "fr": "Les avant-postes français sont auprès de Colombes.",
+   "en": "The French outposts are near Colombes.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     1110456,
+     4314
+    ],
+    "frs": [
+     1115170,
+     6210
+    ],
+    "en": [
+     1121780,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "Je connais le colonel Dumoulin ;",
+   "en": "I know Colonel Dumoulin;",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2058
+   },
+   "bank": {
+    "fr": [
+     1124958,
+     3402
+    ],
+    "frs": [
+     1128760,
+     4866
+    ],
+    "en": [
+     1134026,
+     2058
+    ]
+   }
+  },
+  {
+   "fr": "on nous laissera passer facilement. »",
+   "en": "they'll let us through easily.\"",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2082
+   },
+   "bank": {
+    "fr": [
+     1136484,
+     3258
+    ],
+    "frs": [
+     1140142,
+     4626
+    ],
+    "en": [
+     1145168,
+     2082
+    ]
+   }
+  },
+  {
+   "fr": "Morissot frémit de désir : « C'est dit. J'en suis. »",
+   "en": "Morissot quivered with desire: \"Agreed. I'm in.\"",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 5922,
+    "frs": 8610,
+    "en": 4242
+   },
+   "bank": {
+    "fr": [
+     1147650,
+     5922
+    ],
+    "frs": [
+     1153972,
+     8610
+    ],
+    "en": [
+     1162982,
+     4242
+    ]
+   }
+  },
+  {
+   "fr": "Et ils se séparèrent pour prendre leurs instruments.",
+   "en": "And they parted to fetch their gear.",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1167624,
+     4098
+    ],
+    "frs": [
+     1172122,
+     5898
+    ],
+    "en": [
+     1178420,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Une heure après, ils marchaient côte à côte sur la grand'route.",
+   "en": "An hour later, they were walking side by side on the main road.",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7290,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     1181142,
+     5034
+    ],
+    "frs": [
+     1186576,
+     7290
+    ],
+    "en": [
+     1194266,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "Puis ils gagnèrent la villa qu'occupait le colonel.",
+   "en": "Then they reached the villa the colonel occupied.",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6162,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     1198740,
+     4266
+    ],
+    "frs": [
+     1203406,
+     6162
+    ],
+    "en": [
+     1209968,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Il sourit de leur demande et consentit à leur fantaisie.",
+   "en": "He smiled at their request and agreed to their whim.",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6498,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     1213482,
+     4506
+    ],
+    "frs": [
+     1218388,
+     6498
+    ],
+    "en": [
+     1225286,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "Ils se remirent en marche, munis d'un laisser-passer.",
+   "en": "They set off again, provided with a pass.",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     1229184,
+     4554
+    ],
+    "frs": [
+     1234138,
+     6594
+    ],
+    "en": [
+     1241132,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "Bientôt ils franchirent les avant-postes,",
+   "en": "Soon they crossed the outposts,",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1244838,
+     3618
+    ],
+    "frs": [
+     1248856,
+     5154
+    ],
+    "en": [
+     1254410,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "traversèrent Colombes abandonné,",
+   "en": "went through abandoned Colombes,",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1257300,
+     3498
+    ],
+    "frs": [
+     1261198,
+     4986
+    ],
+    "en": [
+     1266584,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et se trouvèrent au bord des petits champs de vigne qui descendent vers la Seine.",
+   "en": "and found themselves at the edge of the little vineyards that slope down toward the Seine.",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3"
+   },
+   "ms": {
+    "fr": 5298,
+    "frs": 7674,
+    "en": 5346
+   },
+   "bank": {
+    "fr": [
+     1269306,
+     5298
+    ],
+    "frs": [
+     1275004,
+     7674
+    ],
+    "en": [
+     1283078,
+     5346
+    ]
+   }
+  },
+  {
+   "fr": "Il était environ onze heures.",
+   "en": "It was about eleven o'clock.",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1288824,
+     3138
+    ],
+    "frs": [
+     1292362,
+     4458
+    ],
+    "en": [
+     1297220,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "En face, le village d'Argenteuil semblait mort.",
+   "en": "Opposite, the village of Argenteuil seemed dead.",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     1299942,
+     4554
+    ],
+    "frs": [
+     1304896,
+     6594
+    ],
+    "en": [
+     1311890,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "Les hauteurs d'Orgemont et de Sannois dominaient tout le pays.",
+   "en": "The heights of Orgemont and Sannois overlooked the whole countryside.",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 4746
+   },
+   "bank": {
+    "fr": [
+     1316364,
+     4722
+    ],
+    "frs": [
+     1321486,
+     6834
+    ],
+    "en": [
+     1328720,
+     4746
+    ]
+   }
+  },
+  {
+   "fr": "La grande plaine qui va jusqu'à Nanterre était vide, toute vide,",
+   "en": "The great plain that stretches to Nanterre was empty, completely empty,",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7626,
+    "en": 4866
+   },
+   "bank": {
+    "fr": [
+     1333866,
+     5250
+    ],
+    "frs": [
+     1339516,
+     7626
+    ],
+    "en": [
+     1347542,
+     4866
+    ]
+   }
+  },
+  {
+   "fr": "avec ses cerisiers nus et ses terres grises.",
+   "en": "with its bare cherry trees and its gray soil.",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1352808,
+     3786
+    ],
+    "frs": [
+     1356994,
+     5418
+    ],
+    "en": [
+     1362812,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage, montrant du doigt les sommets, murmura :",
+   "en": "Monsieur Sauvage, pointing at the summits, murmured:",
+   "para": 24,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 5346,
+    "frs": 7794,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     1366782,
+     5346
+    ],
+    "frs": [
+     1372528,
+     7794
+    ],
+    "en": [
+     1380722,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "« Les Prussiens sont là-haut ! »",
+   "en": "\"The Prussians are up there!\"",
+   "para": 24,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1385028,
+     2754
+    ],
+    "frs": [
+     1388182,
+     3858
+    ],
+    "en": [
+     1392440,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et une inquiétude paralysait les deux amis devant ce pays désert.",
+   "en": "And a sense of unease paralyzed the two friends before this deserted land.",
+   "para": 24,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3"
+   },
+   "ms": {
+    "fr": 5106,
+    "frs": 7410,
+    "en": 5346
+   },
+   "bank": {
+    "fr": [
+     1395162,
+     5106
+    ],
+    "frs": [
+     1400668,
+     7410
+    ],
+    "en": [
+     1408478,
+     5346
+    ]
+   }
+  },
+  {
+   "fr": "« Les Prussiens ! »",
+   "en": "\"The Prussians!\"",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3210,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1414224,
+     2322
+    ],
+    "frs": [
+     1416946,
+     3210
+    ],
+    "en": [
+     1420556,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ils n'en avaient jamais aperçu,",
+   "en": "They had never seen any,",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     1423278,
+     3138
+    ],
+    "frs": [
+     1426816,
+     4458
+    ],
+    "en": [
+     1431674,
+     1890
+    ]
+   }
+  },
+  {
+   "fr": "mais ils les sentaient là depuis des mois, autour de Paris,",
+   "en": "but they had felt them there for months, around Paris,",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     1433964,
+     4386
+    ],
+    "frs": [
+     1438750,
+     6330
+    ],
+    "en": [
+     1445480,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "ruinant la France, pillant, massacrant, affamant,",
+   "en": "ruining France, looting, massacring, starving people,",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7314,
+    "en": 4578
+   },
+   "bank": {
+    "fr": [
+     1449426,
+     5058
+    ],
+    "frs": [
+     1454884,
+     7314
+    ],
+    "en": [
+     1462598,
+     4578
+    ]
+   }
+  },
+  {
+   "fr": "invisibles et tout-puissants.",
+   "en": "invisible and all-powerful.",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4002,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     1467576,
+     2850
+    ],
+    "frs": [
+     1470826,
+     4002
+    ],
+    "en": [
+     1475228,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Et une sorte de terreur superstitieuse s'ajoutait à la haine",
+   "en": "And a kind of superstitious terror was added to the hatred",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7170,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     1478382,
+     4938
+    ],
+    "frs": [
+     1483720,
+     7170
+    ],
+    "en": [
+     1491290,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "qu'ils avaient pour ce peuple inconnu et victorieux.",
+   "en": "they felt for this unknown and victorious people.",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     1495572,
+     4050
+    ],
+    "frs": [
+     1500022,
+     5802
+    ],
+    "en": [
+     1506224,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "Morissot balbutia : « Hein ! si nous allions en rencontrer ? »",
+   "en": "Morissot stammered: \"Eh! What if we were to meet some?\"",
+   "para": 26,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3"
+   },
+   "ms": {
+    "fr": 5946,
+    "frs": 8658,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     1510314,
+     5946
+    ],
+    "frs": [
+     1516660,
+     8658
+    ],
+    "en": [
+     1525718,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage répondit,",
+   "en": "Monsieur Sauvage answered,",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2130
+   },
+   "bank": {
+    "fr": [
+     1529880,
+     3138
+    ],
+    "frs": [
+     1533418,
+     4458
+    ],
+    "en": [
+     1538276,
+     2130
+    ]
+   }
+  },
+  {
+   "fr": "avec cette gouaillerie parisienne reparaissant malgré tout :",
+   "en": "with that Parisian mocking humor that resurfaces despite everything:",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6642,
+    "en": 4770
+   },
+   "bank": {
+    "fr": [
+     1540806,
+     4602
+    ],
+    "frs": [
+     1545808,
+     6642
+    ],
+    "en": [
+     1552850,
+     4770
+    ]
+   }
+  },
+  {
+   "fr": "« Nous leur offririons une friture. »",
+   "en": "\"We'd offer them some fried fish.\"",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1558020,
+     3354
+    ],
+    "frs": [
+     1561774,
+     4794
+    ],
+    "en": [
+     1566968,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "Mais ils hésitaient à s'aventurer dans la campagne,",
+   "en": "But they hesitated to venture into the countryside,",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6090,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     1569882,
+     4242
+    ],
+    "frs": [
+     1574524,
+     6090
+    ],
+    "en": [
+     1581014,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "intimidés par le silence de tout l'horizon.",
+   "en": "intimidated by the silence of the whole horizon.",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 3666
+   },
+   "bank": {
+    "fr": [
+     1584816,
+     3882
+    ],
+    "frs": [
+     1589098,
+     5562
+    ],
+    "en": [
+     1595060,
+     3666
+    ]
+   }
+  },
+  {
+   "fr": "À la fin, Monsieur Sauvage se décida :",
+   "en": "In the end, Monsieur Sauvage made up his mind:",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     1599126,
+     4098
+    ],
+    "frs": [
+     1603624,
+     5898
+    ],
+    "en": [
+     1609922,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "« Allons, en route ! mais avec précaution. »",
+   "en": "\"Come on, let's go! But carefully.\"",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 5226,
+    "frs": 7602,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     1614060,
+     5226
+    ],
+    "frs": [
+     1619686,
+     7602
+    ],
+    "en": [
+     1627688,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "Et ils descendirent dans un champ de vigne,",
+   "en": "And they went down into a vineyard,",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 3474,
+    "frs": 4962,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     1630818,
+     3474
+    ],
+    "frs": [
+     1634692,
+     4962
+    ],
+    "en": [
+     1640054,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "courbés en deux, rampant,",
+   "en": "bent double, crawling,",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1642848,
+     3234
+    ],
+    "frs": [
+     1646482,
+     4602
+    ],
+    "en": [
+     1651484,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "profitant des buissons pour se couvrir,",
+   "en": "using the bushes for cover,",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 2346
+   },
+   "bank": {
+    "fr": [
+     1654206,
+     3738
+    ],
+    "frs": [
+     1658344,
+     5370
+    ],
+    "en": [
+     1664114,
+     2346
+    ]
+   }
+  },
+  {
+   "fr": "l'œil inquiet, l'oreille tendue.",
+   "en": "eyes anxious, ears straining.",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1666860,
+     3618
+    ],
+    "frs": [
+     1670878,
+     5154
+    ],
+    "en": [
+     1676432,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "Une bande de terre nue restait à traverser pour gagner le bord du fleuve.",
+   "en": "A strip of bare ground remained to be crossed to reach the riverbank.",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 5538,
+    "frs": 8058,
+    "en": 4434
+   },
+   "bank": {
+    "fr": [
+     1679346,
+     5538
+    ],
+    "frs": [
+     1685284,
+     8058
+    ],
+    "en": [
+     1693742,
+     4434
+    ]
+   }
+  },
+  {
+   "fr": "Ils se mirent à courir ;",
+   "en": "They began to run;",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1698576,
+     2922
+    ],
+    "frs": [
+     1701898,
+     4146
+    ],
+    "en": [
+     1706444,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et dès qu'ils eurent atteint la berge,",
+   "en": "and as soon as they had reached the bank,",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1709166,
+     3282
+    ],
+    "frs": [
+     1712848,
+     4674
+    ],
+    "en": [
+     1717922,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "ils se blottirent dans les roseaux secs.",
+   "en": "they huddled in the dry reeds.",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1720980,
+     3570
+    ],
+    "frs": [
+     1724950,
+     5106
+    ],
+    "en": [
+     1730456,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "Morissot colla sa joue par terre",
+   "en": "Morissot pressed his cheek to the ground",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1733394,
+     3546
+    ],
+    "frs": [
+     1737340,
+     5058
+    ],
+    "en": [
+     1742798,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "pour écouter si on ne marchait pas dans les environs.",
+   "en": "to listen whether anyone was walking nearby.",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     1746072,
+     4170
+    ],
+    "frs": [
+     1750642,
+     6018
+    ],
+    "en": [
+     1757060,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "Il n'entendit rien.",
+   "en": "He heard nothing.",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 2706,
+    "frs": 3810,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1760478,
+     2706
+    ],
+    "frs": [
+     1763584,
+     3810
+    ],
+    "en": [
+     1767794,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ils étaient bien seuls, tout seuls.",
+   "en": "They were indeed alone, all alone.",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5370,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     1770516,
+     3738
+    ],
+    "frs": [
+     1774654,
+     5370
+    ],
+    "en": [
+     1780424,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "Ils se rassurèrent et se mirent à pêcher.",
+   "en": "They felt reassured and began to fish.",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5250,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     1783890,
+     3690
+    ],
+    "frs": [
+     1787980,
+     5250
+    ],
+    "en": [
+     1793630,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "En face d'eux l'île Marante abandonnée les cachait à l'autre berge.",
+   "en": "Opposite them, the abandoned Île Marante hid them from the other bank.",
+   "para": 34,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6954,
+    "en": 4698
+   },
+   "bank": {
+    "fr": [
+     1797192,
+     4794
+    ],
+    "frs": [
+     1802386,
+     6954
+    ],
+    "en": [
+     1809740,
+     4698
+    ]
+   }
+  },
+  {
+   "fr": "La petite maison du restaurant était close,",
+   "en": "The little restaurant building was shut,",
+   "para": 34,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     1814838,
+     4098
+    ],
+    "frs": [
+     1819336,
+     5898
+    ],
+    "en": [
+     1825634,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "semblait délaissée depuis des années.",
+   "en": "and seemed to have been deserted for years.",
+   "para": 34,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 2754
+   },
+   "bank": {
+    "fr": [
+     1828620,
+     3546
+    ],
+    "frs": [
+     1832566,
+     5082
+    ],
+    "en": [
+     1838048,
+     2754
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage prit le premier goujon,",
+   "en": "Monsieur Sauvage caught the first gudgeon,",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     1841202,
+     3546
+    ],
+    "frs": [
+     1845148,
+     5058
+    ],
+    "en": [
+     1850606,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Morissot attrapa le second,",
+   "en": "Morissot caught the second,",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4650,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1854096,
+     3282
+    ],
+    "frs": [
+     1857778,
+     4650
+    ],
+    "en": [
+     1862828,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et d'instant en instant ils levaient leurs lignes",
+   "en": "and every moment they were lifting their lines",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     1865550,
+     3666
+    ],
+    "frs": [
+     1869616,
+     5250
+    ],
+    "en": [
+     1875266,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "avec une petite bête argentée frétillant au bout du fil :",
+   "en": "with a little silvery creature wriggling at the end of the line:",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6930,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     1878732,
+     4794
+    ],
+    "frs": [
+     1883926,
+     6930
+    ],
+    "en": [
+     1891256,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "Une vraie pêche miraculeuse.",
+   "en": "A true miraculous catch.",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "frs": "audio/s127_frs.mp3",
+    "en": "audio/s127_en.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2226
+   },
+   "bank": {
+    "fr": [
+     1895490,
+     3258
+    ],
+    "frs": [
+     1899148,
+     4626
+    ],
+    "en": [
+     1904174,
+     2226
+    ]
+   }
+  },
+  {
+   "fr": "Ils introduisaient délicatement les poissons",
+   "en": "They carefully slipped the fish",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "frs": "audio/s128_frs.mp3",
+    "en": "audio/s128_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1906800,
+     3930
+    ],
+    "frs": [
+     1911130,
+     5658
+    ],
+    "en": [
+     1917188,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "dans une poche de filet à mailles très serrées,",
+   "en": "into a net bag with a very fine mesh,",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "frs": "audio/s129_frs.mp3",
+    "en": "audio/s129_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     1920126,
+     3786
+    ],
+    "frs": [
+     1924312,
+     5418
+    ],
+    "en": [
+     1930130,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "qui trempait à leurs pieds.",
+   "en": "which was soaking in the water at their feet.",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "frs": "audio/s130_frs.mp3",
+    "en": "audio/s130_en.mp3"
+   },
+   "ms": {
+    "fr": 2802,
+    "frs": 3954,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     1933932,
+     2802
+    ],
+    "frs": [
+     1937134,
+     3954
+    ],
+    "en": [
+     1941488,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "Et une joie délicieuse les pénétrait,",
+   "en": "And a delicious joy filled them,",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "frs": "audio/s131_frs.mp3",
+    "en": "audio/s131_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     1944666,
+     3450
+    ],
+    "frs": [
+     1948516,
+     4938
+    ],
+    "en": [
+     1953854,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "cette joie qui vous saisit quand on retrouve un plaisir aimé",
+   "en": "that joy which seizes you when you rediscover a beloved pleasure",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "frs": "audio/s132_frs.mp3",
+    "en": "audio/s132_en.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6618,
+    "en": 4914
+   },
+   "bank": {
+    "fr": [
+     1956792,
+     4578
+    ],
+    "frs": [
+     1961770,
+     6618
+    ],
+    "en": [
+     1968788,
+     4914
+    ]
+   }
+  },
+  {
+   "fr": "dont on est privé depuis longtemps.",
+   "en": "that you have long been deprived of.",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "frs": "audio/s133_frs.mp3",
+    "en": "audio/s133_en.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2394
+   },
+   "bank": {
+    "fr": [
+     1974102,
+     3330
+    ],
+    "frs": [
+     1977832,
+     4746
+    ],
+    "en": [
+     1982978,
+     2394
+    ]
+   }
+  },
+  {
+   "fr": "Le bon soleil leur coulait sa chaleur entre les épaules ;",
+   "en": "The kindly sun poured its warmth between their shoulders;",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "frs": "audio/s134_frs.mp3",
+    "en": "audio/s134_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6426,
+    "en": 3978
+   },
+   "bank": {
+    "fr": [
+     1985772,
+     4458
+    ],
+    "frs": [
+     1990630,
+     6426
+    ],
+    "en": [
+     1997456,
+     3978
+    ]
+   }
+  },
+  {
+   "fr": "ils n'écoutaient plus rien ; ils ne pensaient plus à rien ;",
+   "en": "they no longer listened to anything; they no longer thought of anything;",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "frs": "audio/s135_frs.mp3",
+    "en": "audio/s135_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     2001834,
+     4458
+    ],
+    "frs": [
+     2006692,
+     6450
+    ],
+    "en": [
+     2013542,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "ils ignoraient le reste du monde ; ils pêchaient.",
+   "en": "they were unaware of the rest of the world; they fished.",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "frs": "audio/s136_frs.mp3",
+    "en": "audio/s136_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5826,
+    "en": 3810
+   },
+   "bank": {
+    "fr": [
+     2018400,
+     4050
+    ],
+    "frs": [
+     2022850,
+     5826
+    ],
+    "en": [
+     2029076,
+     3810
+    ]
+   }
+  },
+  {
+   "fr": "Mais soudain un bruit sourd qui semblait venir de sous terre",
+   "en": "But suddenly a dull rumble that seemed to come from underground",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "frs": "audio/s137_frs.mp3",
+    "en": "audio/s137_en.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 4386
+   },
+   "bank": {
+    "fr": [
+     2033286,
+     4626
+    ],
+    "frs": [
+     2038312,
+     6690
+    ],
+    "en": [
+     2045402,
+     4386
+    ]
+   }
+  },
+  {
+   "fr": "fit trembler le sol.",
+   "en": "made the ground shake.",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "frs": "audio/s138_frs.mp3",
+    "en": "audio/s138_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2050188,
+     2826
+    ],
+    "frs": [
+     2053414,
+     3978
+    ],
+    "en": [
+     2057792,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le canon se remettait à tonner.",
+   "en": "The cannon was starting to thunder again.",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "frs": "audio/s139_frs.mp3",
+    "en": "audio/s139_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     2060514,
+     3498
+    ],
+    "frs": [
+     2064411,
+     4986
+    ],
+    "en": [
+     2069797,
+     2610
+    ]
+   }
+  },
+  {
+   "fr": "Morissot tourna la tête,",
+   "en": "Morissot turned his head,",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "frs": "audio/s140_frs.mp3",
+    "en": "audio/s140_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2072808,
+     3210
+    ],
+    "frs": [
+     2076418,
+     4578
+    ],
+    "en": [
+     2081396,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et par-dessus la berge il aperçut, là-bas, sur la gauche,",
+   "en": "and over the bank he caught sight of, over there, on the left,",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "frs": "audio/s141_frs.mp3",
+    "en": "audio/s141_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     2084118,
+     5154
+    ],
+    "frs": [
+     2089672,
+     7482
+    ],
+    "en": [
+     2097554,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "la grande silhouette du Mont-Valérien,",
+   "en": "the great silhouette of Mont-Valérien,",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "frs": "audio/s142_frs.mp3",
+    "en": "audio/s142_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     2102412,
+     3714
+    ],
+    "frs": [
+     2106526,
+     5322
+    ],
+    "en": [
+     2112248,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "qui portait au front une aigrette blanche,",
+   "en": "which wore a white plume on its brow,",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "frs": "audio/s143_frs.mp3",
+    "en": "audio/s143_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     2115642,
+     3594
+    ],
+    "frs": [
+     2119636,
+     5130
+    ],
+    "en": [
+     2125166,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "une buée de poudre qu'il venait de cracher.",
+   "en": "a cloud of gunpowder smoke it had just spat out.",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "frs": "audio/s144_frs.mp3",
+    "en": "audio/s144_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     2128368,
+     3618
+    ],
+    "frs": [
+     2132386,
+     5154
+    ],
+    "en": [
+     2137940,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Et aussitôt un second jet de fumée partit du sommet de la forteresse ;",
+   "en": "And at once a second puff of smoke shot from the top of the fortress;",
+   "para": 40,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "frs": "audio/s145_frs.mp3",
+    "en": "audio/s145_en.mp3"
+   },
+   "ms": {
+    "fr": 5322,
+    "frs": 7722,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     2141694,
+     5322
+    ],
+    "frs": [
+     2147416,
+     7722
+    ],
+    "en": [
+     2155538,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "et quelques instants après une nouvelle détonation gronda.",
+   "en": "and a few moments later a new detonation rumbled.",
+   "para": 40,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "frs": "audio/s146_frs.mp3",
+    "en": "audio/s146_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 3666
+   },
+   "bank": {
+    "fr": [
+     2160228,
+     4410
+    ],
+    "frs": [
+     2165038,
+     6354
+    ],
+    "en": [
+     2171792,
+     3666
+    ]
+   }
+  },
+  {
+   "fr": "Puis d'autres suivirent,",
+   "en": "Then others followed,",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "frs": "audio/s147_frs.mp3",
+    "en": "audio/s147_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2175858,
+     2826
+    ],
+    "frs": [
+     2179084,
+     4002
+    ],
+    "en": [
+     2183486,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "et de moment en moment, la montagne jetait son haleine de mort,",
+   "en": "and from moment to moment, the mountain breathed out its breath of death,",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "frs": "audio/s148_frs.mp3",
+    "en": "audio/s148_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 4722
+   },
+   "bank": {
+    "fr": [
+     2186208,
+     5154
+    ],
+    "frs": [
+     2191762,
+     7482
+    ],
+    "en": [
+     2199644,
+     4722
+    ]
+   }
+  },
+  {
+   "fr": "soufflait ses vapeurs laiteuses",
+   "en": "blew out its milky vapors",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "frs": "audio/s149_frs.mp3",
+    "en": "audio/s149_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     2204766,
+     3186
+    ],
+    "frs": [
+     2208352,
+     4506
+    ],
+    "en": [
+     2213258,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "qui s'élevaient lentement dans le ciel calme,",
+   "en": "which rose slowly into the calm sky,",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "frs": "audio/s150_frs.mp3",
+    "en": "audio/s150_en.mp3"
+   },
+   "ms": {
+    "fr": 3618,
+    "frs": 5154,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2216148,
+     3618
+    ],
+    "frs": [
+     2220166,
+     5154
+    ],
+    "en": [
+     2225720,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "faisaient un nuage au-dessus d'elle.",
+   "en": "and formed a cloud above it.",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "frs": "audio/s151_frs.mp3",
+    "en": "audio/s151_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2082
+   },
+   "bank": {
+    "fr": [
+     2229210,
+     3402
+    ],
+    "frs": [
+     2233012,
+     4866
+    ],
+    "en": [
+     2238278,
+     2082
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage haussa les épaules :",
+   "en": "Monsieur Sauvage shrugged his shoulders:",
+   "para": 42,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "frs": "audio/s152_frs.mp3",
+    "en": "audio/s152_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2240760,
+     3546
+    ],
+    "frs": [
+     2244706,
+     5058
+    ],
+    "en": [
+     2250164,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "« Voilà qu'ils recommencent, » dit-il.",
+   "en": "\"There they go again,\" he said.",
+   "para": 42,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "frs": "audio/s153_frs.mp3",
+    "en": "audio/s153_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2346
+   },
+   "bank": {
+    "fr": [
+     2253654,
+     3786
+    ],
+    "frs": [
+     2257840,
+     5418
+    ],
+    "en": [
+     2263658,
+     2346
+    ]
+   }
+  },
+  {
+   "fr": "Morissot, qui regardait anxieusement plonger coup sur coup la plume de son flotteur,",
+   "en": "Morissot, who was anxiously watching the feather of his float dip again and again,",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "frs": "audio/s154_frs.mp3",
+    "en": "audio/s154_en.mp3"
+   },
+   "ms": {
+    "fr": 6282,
+    "frs": 9162,
+    "en": 5682
+   },
+   "bank": {
+    "fr": [
+     2266404,
+     6282
+    ],
+    "frs": [
+     2273086,
+     9162
+    ],
+    "en": [
+     2282648,
+     5682
+    ]
+   }
+  },
+  {
+   "fr": "fut pris soudain d'une colère d'homme paisible",
+   "en": "was suddenly seized with the anger of a peaceful man",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "frs": "audio/s155_frs.mp3",
+    "en": "audio/s155_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     2288730,
+     4074
+    ],
+    "frs": [
+     2293204,
+     5850
+    ],
+    "en": [
+     2299454,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "contre ces enragés qui se battaient ainsi,",
+   "en": "against these madmen who fought like that,",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "frs": "audio/s156_frs.mp3",
+    "en": "audio/s156_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     2303736,
+     3810
+    ],
+    "frs": [
+     2307946,
+     5442
+    ],
+    "en": [
+     2313788,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "et il grommela : « Faut-il être stupide pour se tuer comme ça. »",
+   "en": "and he grumbled: \"How stupid can you be, to kill each other like that.\"",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "frs": "audio/s157_frs.mp3",
+    "en": "audio/s157_en.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 5106
+   },
+   "bank": {
+    "fr": [
+     2317158,
+     5154
+    ],
+    "frs": [
+     2322712,
+     7482
+    ],
+    "en": [
+     2330594,
+     5106
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage reprit : « C'est pis que des bêtes. »",
+   "en": "Monsieur Sauvage replied: \"They're worse than animals.\"",
+   "para": 44,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "frs": "audio/s158_frs.mp3",
+    "en": "audio/s158_en.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6618,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     2336100,
+     4578
+    ],
+    "frs": [
+     2341078,
+     6618
+    ],
+    "en": [
+     2348096,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "Et Morissot, qui venait de saisir une ablette, déclara :",
+   "en": "And Morissot, who had just caught a bleak, declared:",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "frs": "audio/s159_frs.mp3",
+    "en": "audio/s159_en.mp3"
+   },
+   "ms": {
+    "fr": 5106,
+    "frs": 7410,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     2352546,
+     5106
+    ],
+    "frs": [
+     2358052,
+     7410
+    ],
+    "en": [
+     2365862,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "« Et dire que ce sera toujours ainsi tant qu'il y aura des gouvernements. »",
+   "en": "\"And to think it will always be like this as long as there are governments.\"",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "frs": "audio/s160_frs.mp3",
+    "en": "audio/s160_en.mp3"
+   },
+   "ms": {
+    "fr": 4866,
+    "frs": 7026,
+    "en": 4338
+   },
+   "bank": {
+    "fr": [
+     2370192,
+     4866
+    ],
+    "frs": [
+     2375458,
+     7026
+    ],
+    "en": [
+     2382884,
+     4338
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage l'arrêta : « La République n'aurait pas déclaré la guerre… »",
+   "en": "Monsieur Sauvage stopped him: \"The Republic would not have declared war…\"",
+   "para": 46,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "frs": "audio/s161_frs.mp3",
+    "en": "audio/s161_en.mp3"
+   },
+   "ms": {
+    "fr": 5850,
+    "frs": 8538,
+    "en": 4938
+   },
+   "bank": {
+    "fr": [
+     2387622,
+     5850
+    ],
+    "frs": [
+     2393872,
+     8538
+    ],
+    "en": [
+     2402810,
+     4938
+    ]
+   }
+  },
+  {
+   "fr": "Morissot l'interrompit :",
+   "en": "Morissot interrupted him:",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "frs": "audio/s162_frs.mp3",
+    "en": "audio/s162_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4170,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2408148,
+     2946
+    ],
+    "frs": [
+     2411494,
+     4170
+    ],
+    "en": [
+     2416064,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Avec les rois on a la guerre au dehors ;",
+   "en": "\"With kings you have war abroad;",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "frs": "audio/s163_frs.mp3",
+    "en": "audio/s163_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     2418786,
+     3714
+    ],
+    "frs": [
+     2422900,
+     5298
+    ],
+    "en": [
+     2428598,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "avec la République on a la guerre au dedans. »",
+   "en": "with the Republic you have war at home.\"",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "frs": "audio/s164_frs.mp3",
+    "en": "audio/s164_en.mp3"
+   },
+   "ms": {
+    "fr": 3834,
+    "frs": 5490,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     2431464,
+     3834
+    ],
+    "frs": [
+     2435698,
+     5490
+    ],
+    "en": [
+     2441588,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "Et tranquillement ils se mirent à discuter,",
+   "en": "And calmly they began to debate,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s165_fr.mp3",
+    "frs": "audio/s165_frs.mp3",
+    "en": "audio/s165_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5226,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     2444814,
+     3642
+    ],
+    "frs": [
+     2448856,
+     5226
+    ],
+    "en": [
+     2454482,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "débrouillant les grands problèmes politiques",
+   "en": "untangling the great political problems",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s166_fr.mp3",
+    "frs": "audio/s166_frs.mp3",
+    "en": "audio/s166_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     2457468,
+     3810
+    ],
+    "frs": [
+     2461678,
+     5466
+    ],
+    "en": [
+     2467544,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "avec une raison saine d'hommes doux et bornés,",
+   "en": "with the sound reasoning of gentle and limited men,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s167_fr.mp3",
+    "frs": "audio/s167_frs.mp3",
+    "en": "audio/s167_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     2471250,
+     3714
+    ],
+    "frs": [
+     2475364,
+     5298
+    ],
+    "en": [
+     2481062,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "tombant d'accord sur ce point, qu'on ne serait jamais libres.",
+   "en": "agreeing on this point, that people would never be free.",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s168_fr.mp3",
+    "frs": "audio/s168_frs.mp3",
+    "en": "audio/s168_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     2485248,
+     4746
+    ],
+    "frs": [
+     2490394,
+     6858
+    ],
+    "en": [
+     2497652,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "Et le Mont-Valérien tonnait sans repos,",
+   "en": "And Mont-Valérien thundered without rest,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s169_fr.mp3",
+    "frs": "audio/s169_frs.mp3",
+    "en": "audio/s169_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5082,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     2501838,
+     3546
+    ],
+    "frs": [
+     2505784,
+     5082
+    ],
+    "en": [
+     2511266,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "démolissant à coups de boulet des maisons françaises,",
+   "en": "demolishing French houses with cannonballs,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s170_fr.mp3",
+    "frs": "audio/s170_frs.mp3",
+    "en": "audio/s170_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     2514828,
+     4242
+    ],
+    "frs": [
+     2519470,
+     6114
+    ],
+    "en": [
+     2525984,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "broyant des vies, écrasant des êtres,",
+   "en": "crushing lives, crushing beings,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s171_fr.mp3",
+    "frs": "audio/s171_frs.mp3",
+    "en": "audio/s171_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     2529690,
+     3882
+    ],
+    "frs": [
+     2533972,
+     5562
+    ],
+    "en": [
+     2539934,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "mettant fin à bien des rêves,",
+   "en": "putting an end to many dreams,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s172_fr.mp3",
+    "frs": "audio/s172_frs.mp3",
+    "en": "audio/s172_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     2543304,
+     3234
+    ],
+    "frs": [
+     2546938,
+     4602
+    ],
+    "en": [
+     2551940,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "à bien des joies attendues, à bien des bonheurs espérés,",
+   "en": "to many awaited joys, to many hoped-for happinesses,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s173_fr.mp3",
+    "frs": "audio/s173_frs.mp3",
+    "en": "audio/s173_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6906,
+    "en": 4314
+   },
+   "bank": {
+    "fr": [
+     2555022,
+     4770
+    ],
+    "frs": [
+     2560192,
+     6906
+    ],
+    "en": [
+     2567498,
+     4314
+    ]
+   }
+  },
+  {
+   "fr": "ouvrant en des cœurs de femmes, en des cœurs de filles,",
+   "en": "opening in the hearts of wives, in the hearts of daughters,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s174_fr.mp3",
+    "frs": "audio/s174_frs.mp3",
+    "en": "audio/s174_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 4242
+   },
+   "bank": {
+    "fr": [
+     2572212,
+     4506
+    ],
+    "frs": [
+     2577118,
+     6522
+    ],
+    "en": [
+     2584040,
+     4242
+    ]
+   }
+  },
+  {
+   "fr": "en des cœurs de mères, là-bas, en d'autres pays,",
+   "en": "in the hearts of mothers, over there, in other lands,",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s175_fr.mp3",
+    "frs": "audio/s175_frs.mp3",
+    "en": "audio/s175_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6810,
+    "en": 4026
+   },
+   "bank": {
+    "fr": [
+     2588682,
+     4698
+    ],
+    "frs": [
+     2593780,
+     6810
+    ],
+    "en": [
+     2600990,
+     4026
+    ]
+   }
+  },
+  {
+   "fr": "des souffrances qui ne finiraient plus.",
+   "en": "sufferings that would never end.",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s176_fr.mp3",
+    "frs": "audio/s176_frs.mp3",
+    "en": "audio/s176_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4842,
+    "en": 2298
+   },
+   "bank": {
+    "fr": [
+     2605416,
+     3402
+    ],
+    "frs": [
+     2609218,
+     4842
+    ],
+    "en": [
+     2614460,
+     2298
+    ]
+   }
+  },
+  {
+   "fr": "« C'est la vie, » déclara Monsieur Sauvage.",
+   "en": "\"That's life,\" declared Monsieur Sauvage.",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s177_fr.mp3",
+    "frs": "audio/s177_frs.mp3",
+    "en": "audio/s177_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     2617158,
+     4098
+    ],
+    "frs": [
+     2621656,
+     5898
+    ],
+    "en": [
+     2627954,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "« Dites plutôt que c'est la mort, » reprit en riant Morissot.",
+   "en": "\"Say rather that it's death,\" replied Morissot, laughing.",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s178_fr.mp3",
+    "frs": "audio/s178_frs.mp3",
+    "en": "audio/s178_en.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 6978,
+    "en": 3978
+   },
+   "bank": {
+    "fr": [
+     2631468,
+     4818
+    ],
+    "frs": [
+     2636686,
+     6978
+    ],
+    "en": [
+     2644064,
+     3978
+    ]
+   }
+  },
+  {
+   "fr": "Mais ils tressaillirent effarés,",
+   "en": "But they started in alarm,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s179_fr.mp3",
+    "frs": "audio/s179_frs.mp3",
+    "en": "audio/s179_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2648442,
+     3306
+    ],
+    "frs": [
+     2652148,
+     4722
+    ],
+    "en": [
+     2657270,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "sentant bien qu'on venait de marcher derrière eux ;",
+   "en": "sensing clearly that someone had just walked up behind them;",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s180_fr.mp3",
+    "frs": "audio/s180_frs.mp3",
+    "en": "audio/s180_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5754,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     2659992,
+     4002
+    ],
+    "frs": [
+     2664394,
+     5754
+    ],
+    "en": [
+     2670548,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "et ayant tourné les yeux,",
+   "en": "and having turned their eyes,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s181_fr.mp3",
+    "frs": "audio/s181_frs.mp3",
+    "en": "audio/s181_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2674686,
+     2826
+    ],
+    "frs": [
+     2677912,
+     4002
+    ],
+    "en": [
+     2682314,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "ils aperçurent, debout contre leurs épaules, quatre hommes,",
+   "en": "they saw, standing right at their shoulders, four men,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s182_fr.mp3",
+    "frs": "audio/s182_frs.mp3",
+    "en": "audio/s182_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7434,
+    "en": 3858
+   },
+   "bank": {
+    "fr": [
+     2685036,
+     5130
+    ],
+    "frs": [
+     2690566,
+     7434
+    ],
+    "en": [
+     2698400,
+     3858
+    ]
+   }
+  },
+  {
+   "fr": "quatre grands hommes armés et barbus,",
+   "en": "four tall, armed, bearded men,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s183_fr.mp3",
+    "frs": "audio/s183_frs.mp3",
+    "en": "audio/s183_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     2702658,
+     3522
+    ],
+    "frs": [
+     2706580,
+     5010
+    ],
+    "en": [
+     2711990,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "vêtus comme des domestiques en livrée",
+   "en": "dressed like servants in livery",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s184_fr.mp3",
+    "frs": "audio/s184_frs.mp3",
+    "en": "audio/s184_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     2715432,
+     3666
+    ],
+    "frs": [
+     2719498,
+     5250
+    ],
+    "en": [
+     2725148,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "et coiffés de casquettes plates,",
+   "en": "and wearing flat caps,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s185_fr.mp3",
+    "frs": "audio/s185_frs.mp3",
+    "en": "audio/s185_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2106
+   },
+   "bank": {
+    "fr": [
+     2728086,
+     3354
+    ],
+    "frs": [
+     2731840,
+     4794
+    ],
+    "en": [
+     2737034,
+     2106
+    ]
+   }
+  },
+  {
+   "fr": "les tenant en joue au bout de leurs fusils.",
+   "en": "aiming their rifles at them.",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s186_fr.mp3",
+    "frs": "audio/s186_frs.mp3",
+    "en": "audio/s186_en.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2739540,
+     3882
+    ],
+    "frs": [
+     2743822,
+     5562
+    ],
+    "en": [
+     2749784,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Les deux lignes s'échappèrent de leurs mains",
+   "en": "The two fishing lines slipped from their hands",
+   "para": 52,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s187_fr.mp3",
+    "frs": "audio/s187_frs.mp3",
+    "en": "audio/s187_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 3186
+   },
+   "bank": {
+    "fr": [
+     2752506,
+     3546
+    ],
+    "frs": [
+     2756452,
+     5058
+    ],
+    "en": [
+     2761910,
+     3186
+    ]
+   }
+  },
+  {
+   "fr": "et se mirent à descendre la rivière.",
+   "en": "and began to drift down the river.",
+   "para": 52,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s188_fr.mp3",
+    "frs": "audio/s188_frs.mp3",
+    "en": "audio/s188_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     2765496,
+     3522
+    ],
+    "frs": [
+     2769418,
+     5010
+    ],
+    "en": [
+     2774828,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "En quelques secondes, ils furent saisis, attachés, emportés,",
+   "en": "In a few seconds, they were seized, tied up, carried off,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s189_fr.mp3",
+    "frs": "audio/s189_frs.mp3",
+    "en": "audio/s189_en.mp3"
+   },
+   "ms": {
+    "fr": 5586,
+    "frs": 8130,
+    "en": 4602
+   },
+   "bank": {
+    "fr": [
+     2777790,
+     5586
+    ],
+    "frs": [
+     2783776,
+     8130
+    ],
+    "en": [
+     2792306,
+     4602
+    ]
+   }
+  },
+  {
+   "fr": "jetés dans une barque et passés dans l'île.",
+   "en": "thrown into a boat and taken across to the island.",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s190_fr.mp3",
+    "frs": "audio/s190_frs.mp3",
+    "en": "audio/s190_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     2797308,
+     3810
+    ],
+    "frs": [
+     2801518,
+     5442
+    ],
+    "en": [
+     2807360,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "Et derrière la maison qu'ils avaient crue abandonnée,",
+   "en": "And behind the house they had believed abandoned,",
+   "para": 54,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s191_fr.mp3",
+    "frs": "audio/s191_frs.mp3",
+    "en": "audio/s191_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     2811522,
+     4098
+    ],
+    "frs": [
+     2816020,
+     5898
+    ],
+    "en": [
+     2822318,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "ils aperçurent une vingtaine de soldats allemands.",
+   "en": "they saw about twenty German soldiers.",
+   "para": 54,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s192_fr.mp3",
+    "frs": "audio/s192_frs.mp3",
+    "en": "audio/s192_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     2825784,
+     3978
+    ],
+    "frs": [
+     2830162,
+     5706
+    ],
+    "en": [
+     2836268,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "Une sorte de géant velu, qui fumait, à cheval sur une chaise,",
+   "en": "A sort of hairy giant, who was smoking, straddling a chair,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s193_fr.mp3",
+    "frs": "audio/s193_frs.mp3",
+    "en": "audio/s193_en.mp3"
+   },
+   "ms": {
+    "fr": 5442,
+    "frs": 7914,
+    "en": 4554
+   },
+   "bank": {
+    "fr": [
+     2839446,
+     5442
+    ],
+    "frs": [
+     2845288,
+     7914
+    ],
+    "en": [
+     2853602,
+     4554
+    ]
+   }
+  },
+  {
+   "fr": "une grande pipe de porcelaine,",
+   "en": "a large porcelain pipe,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s194_fr.mp3",
+    "frs": "audio/s194_frs.mp3",
+    "en": "audio/s194_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2033
+   },
+   "bank": {
+    "fr": [
+     2858556,
+     3234
+    ],
+    "frs": [
+     2862190,
+     4602
+    ],
+    "en": [
+     2867192,
+     2033
+    ]
+   }
+  },
+  {
+   "fr": "leur demanda, en excellent français :",
+   "en": "asked them, in excellent French:",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s195_fr.mp3",
+    "frs": "audio/s195_frs.mp3",
+    "en": "audio/s195_en.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 2538
+   },
+   "bank": {
+    "fr": [
+     2869626,
+     4074
+    ],
+    "frs": [
+     2874100,
+     5850
+    ],
+    "en": [
+     2880350,
+     2538
+    ]
+   }
+  },
+  {
+   "fr": "« Eh bien, messieurs, avez-vous fait bonne pêche ? »",
+   "en": "\"Well, gentlemen, have you had good fishing?\"",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s196_fr.mp3",
+    "frs": "audio/s196_frs.mp3",
+    "en": "audio/s196_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6162,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     2883288,
+     4266
+    ],
+    "frs": [
+     2887954,
+     6162
+    ],
+    "en": [
+     2894516,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Alors un soldat déposa aux pieds de l'officier le filet plein de poissons,",
+   "en": "Then a soldier laid the net full of fish at the officer's feet,",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s197_fr.mp3",
+    "frs": "audio/s197_frs.mp3",
+    "en": "audio/s197_en.mp3"
+   },
+   "ms": {
+    "fr": 5418,
+    "frs": 7866,
+    "en": 4122
+   },
+   "bank": {
+    "fr": [
+     2898270,
+     5418
+    ],
+    "frs": [
+     2904088,
+     7866
+    ],
+    "en": [
+     2912354,
+     4122
+    ]
+   }
+  },
+  {
+   "fr": "qu'il avait eu soin d'emporter.",
+   "en": "which he had taken care to bring along.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s198_fr.mp3",
+    "frs": "audio/s198_frs.mp3",
+    "en": "audio/s198_en.mp3"
+   },
+   "ms": {
+    "fr": 3162,
+    "frs": 4482,
+    "en": 2586
+   },
+   "bank": {
+    "fr": [
+     2916876,
+     3162
+    ],
+    "frs": [
+     2920438,
+     4482
+    ],
+    "en": [
+     2925320,
+     2586
+    ]
+   }
+  },
+  {
+   "fr": "Le Prussien sourit :",
+   "en": "The Prussian smiled:",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s199_fr.mp3",
+    "frs": "audio/s199_frs.mp3",
+    "en": "audio/s199_en.mp3"
+   },
+   "ms": {
+    "fr": 2706,
+    "frs": 3810,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2928306,
+     2706
+    ],
+    "frs": [
+     2931412,
+     3810
+    ],
+    "en": [
+     2935622,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Eh ! eh ! je vois que ça n'allait pas mal.",
+   "en": "\"Well, well! I see it wasn't going badly.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s200_fr.mp3",
+    "frs": "audio/s200_frs.mp3",
+    "en": "audio/s200_en.mp3"
+   },
+   "ms": {
+    "fr": 5754,
+    "frs": 8370,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     2938344,
+     5754
+    ],
+    "frs": [
+     2944498,
+     8370
+    ],
+    "en": [
+     2953268,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Mais il s'agit d'autre chose.",
+   "en": "But this is about something else.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s201_fr.mp3",
+    "frs": "audio/s201_frs.mp3",
+    "en": "audio/s201_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4530,
+    "en": 2226
+   },
+   "bank": {
+    "fr": [
+     2956782,
+     3186
+    ],
+    "frs": [
+     2960368,
+     4530
+    ],
+    "en": [
+     2965298,
+     2226
+    ]
+   }
+  },
+  {
+   "fr": "Écoutez-moi et ne vous troublez pas.",
+   "en": "Listen to me and don't get upset.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s202_fr.mp3",
+    "frs": "audio/s202_frs.mp3",
+    "en": "audio/s202_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     2967924,
+     3306
+    ],
+    "frs": [
+     2971630,
+     4698
+    ],
+    "en": [
+     2976728,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "« Pour moi, vous êtes deux espions envoyés pour me guetter.",
+   "en": "\"As far as I'm concerned, you are two spies sent to watch me.",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s203_fr.mp3",
+    "frs": "audio/s203_frs.mp3",
+    "en": "audio/s203_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     2979786,
+     4722
+    ],
+    "frs": [
+     2984908,
+     6834
+    ],
+    "en": [
+     2992142,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "Je vous prends et je vous fusille.",
+   "en": "I capture you and I shoot you.",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s204_fr.mp3",
+    "frs": "audio/s204_frs.mp3",
+    "en": "audio/s204_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     2996736,
+     3306
+    ],
+    "frs": [
+     3000442,
+     4698
+    ],
+    "en": [
+     3005540,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Vous faisiez semblant de pêcher,",
+   "en": "You were pretending to fish,",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s205_fr.mp3",
+    "frs": "audio/s205_frs.mp3",
+    "en": "audio/s205_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2202
+   },
+   "bank": {
+    "fr": [
+     3008262,
+     3186
+    ],
+    "frs": [
+     3011848,
+     4506
+    ],
+    "en": [
+     3016754,
+     2202
+    ]
+   }
+  },
+  {
+   "fr": "afin de mieux dissimuler vos projets.",
+   "en": "the better to hide your plans.",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s206_fr.mp3",
+    "frs": "audio/s206_frs.mp3",
+    "en": "audio/s206_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2298
+   },
+   "bank": {
+    "fr": [
+     3019356,
+     3546
+    ],
+    "frs": [
+     3023302,
+     5058
+    ],
+    "en": [
+     3028760,
+     2298
+    ]
+   }
+  },
+  {
+   "fr": "Vous êtes tombés entre mes mains, tant pis pour vous ;",
+   "en": "You have fallen into my hands, too bad for you;",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s207_fr.mp3",
+    "frs": "audio/s207_frs.mp3",
+    "en": "audio/s207_en.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     3031458,
+     4146
+    ],
+    "frs": [
+     3036004,
+     5970
+    ],
+    "en": [
+     3042374,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "c'est la guerre.",
+   "en": "this is war.",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s208_fr.mp3",
+    "frs": "audio/s208_frs.mp3",
+    "en": "audio/s208_en.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3046176,
+     2466
+    ],
+    "frs": [
+     3049042,
+     3426
+    ],
+    "en": [
+     3052868,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Mais comme vous êtes sortis par les avant-postes,",
+   "en": "\"But since you came out through the outposts,",
+   "para": 58,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s209_fr.mp3",
+    "frs": "audio/s209_frs.mp3",
+    "en": "audio/s209_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     3055590,
+     3906
+    ],
+    "frs": [
+     3059896,
+     5610
+    ],
+    "en": [
+     3065906,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "vous avez assurément un mot d'ordre pour rentrer.",
+   "en": "you surely have a password to get back in.",
+   "para": 58,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s210_fr.mp3",
+    "frs": "audio/s210_frs.mp3",
+    "en": "audio/s210_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     3069204,
+     4266
+    ],
+    "frs": [
+     3073870,
+     6138
+    ],
+    "en": [
+     3080408,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "Donnez-moi ce mot d'ordre et je vous fais grâce. »",
+   "en": "Give me that password and I will spare you.\"",
+   "para": 58,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s211_fr.mp3",
+    "frs": "audio/s211_frs.mp3",
+    "en": "audio/s211_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     3083538,
+     3978
+    ],
+    "frs": [
+     3087916,
+     5706
+    ],
+    "en": [
+     3094022,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "Les deux amis, livides, côte à côte,",
+   "en": "The two friends, ashen, side by side,",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s212_fr.mp3",
+    "frs": "audio/s212_frs.mp3",
+    "en": "audio/s212_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     3097296,
+     4338
+    ],
+    "frs": [
+     3102034,
+     6258
+    ],
+    "en": [
+     3108692,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "les mains agitées d'un léger tremblement nerveux,",
+   "en": "their hands shaken by a slight nervous trembling,",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s213_fr.mp3",
+    "frs": "audio/s213_frs.mp3",
+    "en": "audio/s213_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     3112590,
+     4050
+    ],
+    "frs": [
+     3117040,
+     5802
+    ],
+    "en": [
+     3123242,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "se taisaient.",
+   "en": "remained silent.",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s214_fr.mp3",
+    "frs": "audio/s214_frs.mp3",
+    "en": "audio/s214_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3186,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3127260,
+     2322
+    ],
+    "frs": [
+     3129982,
+     3186
+    ],
+    "en": [
+     3133568,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "L'officier reprit : « Personne ne le saura jamais,",
+   "en": "The officer went on: \"No one will ever know,",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s215_fr.mp3",
+    "frs": "audio/s215_frs.mp3",
+    "en": "audio/s215_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6402,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     3136290,
+     4434
+    ],
+    "frs": [
+     3141124,
+     6402
+    ],
+    "en": [
+     3147926,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "vous rentrerez paisiblement.",
+   "en": "you will go home peacefully.",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s216_fr.mp3",
+    "frs": "audio/s216_frs.mp3",
+    "en": "audio/s216_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2082
+   },
+   "bank": {
+    "fr": [
+     3152016,
+     3090
+    ],
+    "frs": [
+     3155506,
+     4386
+    ],
+    "en": [
+     3160292,
+     2082
+    ]
+   }
+  },
+  {
+   "fr": "Le secret disparaîtra avec vous.",
+   "en": "The secret will disappear with you.",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s217_fr.mp3",
+    "frs": "audio/s217_frs.mp3",
+    "en": "audio/s217_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4914,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     3162774,
+     3450
+    ],
+    "frs": [
+     3166624,
+     4914
+    ],
+    "en": [
+     3171938,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "Si vous refusez, c'est la mort, et tout de suite.",
+   "en": "If you refuse, it's death, and right away.",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s218_fr.mp3",
+    "frs": "audio/s218_frs.mp3",
+    "en": "audio/s218_en.mp3"
+   },
+   "ms": {
+    "fr": 4794,
+    "frs": 6954,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     3174852,
+     4794
+    ],
+    "frs": [
+     3180046,
+     6954
+    ],
+    "en": [
+     3187400,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "Choisissez. »",
+   "en": "Choose.\"",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s219_fr.mp3",
+    "frs": "audio/s219_frs.mp3",
+    "en": "audio/s219_en.mp3"
+   },
+   "ms": {
+    "fr": 2418,
+    "frs": 3354,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3191202,
+     2418
+    ],
+    "frs": [
+     3194020,
+     3354
+    ],
+    "en": [
+     3197774,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ils demeuraient immobiles sans ouvrir la bouche.",
+   "en": "They remained motionless without opening their mouths.",
+   "para": 61,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s220_fr.mp3",
+    "frs": "audio/s220_frs.mp3",
+    "en": "audio/s220_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     3200496,
+     4098
+    ],
+    "frs": [
+     3204994,
+     5898
+    ],
+    "en": [
+     3211292,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "Le Prussien, toujours calme, reprit en étendant la main vers la rivière :",
+   "en": "The Prussian, still calm, went on, stretching his hand toward the river:",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s221_fr.mp3",
+    "frs": "audio/s221_frs.mp3",
+    "en": "audio/s221_en.mp3"
+   },
+   "ms": {
+    "fr": 6042,
+    "frs": 8826,
+    "en": 5682
+   },
+   "bank": {
+    "fr": [
+     3215070,
+     6042
+    ],
+    "frs": [
+     3221512,
+     8826
+    ],
+    "en": [
+     3230738,
+     5682
+    ]
+   }
+  },
+  {
+   "fr": "« Songez que dans cinq minutes vous serez au fond de cette eau.",
+   "en": "\"Consider that in five minutes you will be at the bottom of this water.",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s222_fr.mp3",
+    "frs": "audio/s222_frs.mp3",
+    "en": "audio/s222_en.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "frs": 6714,
+    "en": 4266
+   },
+   "bank": {
+    "fr": [
+     3236820,
+     4650
+    ],
+    "frs": [
+     3241870,
+     6714
+    ],
+    "en": [
+     3248984,
+     4266
+    ]
+   }
+  },
+  {
+   "fr": "Dans cinq minutes !",
+   "en": "In five minutes!",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s223_fr.mp3",
+    "frs": "audio/s223_frs.mp3",
+    "en": "audio/s223_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3253650,
+     2754
+    ],
+    "frs": [
+     3256804,
+     3858
+    ],
+    "en": [
+     3261062,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Vous devez avoir des parents ? »",
+   "en": "You must have family?\"",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s224_fr.mp3",
+    "frs": "audio/s224_frs.mp3",
+    "en": "audio/s224_en.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3263784,
+     3018
+    ],
+    "frs": [
+     3267202,
+     4266
+    ],
+    "en": [
+     3271868,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le Mont-Valérien tonnait toujours.",
+   "en": "Mont-Valérien was still thundering.",
+   "para": 63,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s225_fr.mp3",
+    "frs": "audio/s225_frs.mp3",
+    "en": "audio/s225_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     3274590,
+     3498
+    ],
+    "frs": [
+     3278488,
+     4986
+    ],
+    "en": [
+     3283874,
+     2610
+    ]
+   }
+  },
+  {
+   "fr": "Les deux pêcheurs restaient debout et silencieux.",
+   "en": "The two fishermen remained standing and silent.",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s226_fr.mp3",
+    "frs": "audio/s226_frs.mp3",
+    "en": "audio/s226_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 3546
+   },
+   "bank": {
+    "fr": [
+     3286884,
+     3930
+    ],
+    "frs": [
+     3291214,
+     5658
+    ],
+    "en": [
+     3297272,
+     3546
+    ]
+   }
+  },
+  {
+   "fr": "L'Allemand donna des ordres dans sa langue.",
+   "en": "The German gave orders in his own language.",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s227_fr.mp3",
+    "frs": "audio/s227_frs.mp3",
+    "en": "audio/s227_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5634,
+    "en": 3186
+   },
+   "bank": {
+    "fr": [
+     3301218,
+     3930
+    ],
+    "frs": [
+     3305548,
+     5634
+    ],
+    "en": [
+     3311582,
+     3186
+    ]
+   }
+  },
+  {
+   "fr": "Puis il changea sa chaise de place",
+   "en": "Then he moved his chair",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s228_fr.mp3",
+    "frs": "audio/s228_frs.mp3",
+    "en": "audio/s228_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 1986
+   },
+   "bank": {
+    "fr": [
+     3315168,
+     3498
+    ],
+    "frs": [
+     3319066,
+     4986
+    ],
+    "en": [
+     3324452,
+     1986
+    ]
+   }
+  },
+  {
+   "fr": "pour ne pas se trouver trop près des prisonniers ;",
+   "en": "so as not to be too close to the prisoners;",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s229_fr.mp3",
+    "frs": "audio/s229_frs.mp3",
+    "en": "audio/s229_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     3326838,
+     3810
+    ],
+    "frs": [
+     3331048,
+     5466
+    ],
+    "en": [
+     3336914,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "et douze hommes vinrent se placer à vingt pas, le fusil au pied.",
+   "en": "and twelve men came and took their places twenty paces away, rifles at their feet.",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s230_fr.mp3",
+    "frs": "audio/s230_frs.mp3",
+    "en": "audio/s230_en.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 7074,
+    "en": 5514
+   },
+   "bank": {
+    "fr": [
+     3340404,
+     4890
+    ],
+    "frs": [
+     3345694,
+     7074
+    ],
+    "en": [
+     3353168,
+     5514
+    ]
+   }
+  },
+  {
+   "fr": "L'officier reprit :",
+   "en": "The officer went on:",
+   "para": 65,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s231_fr.mp3",
+    "frs": "audio/s231_frs.mp3",
+    "en": "audio/s231_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3359082,
+     2754
+    ],
+    "frs": [
+     3362236,
+     3858
+    ],
+    "en": [
+     3366494,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "« Je vous donne une minute, pas deux secondes de plus. »",
+   "en": "\"I give you one minute, not two seconds more.\"",
+   "para": 65,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s232_fr.mp3",
+    "frs": "audio/s232_frs.mp3",
+    "en": "audio/s232_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     3369216,
+     4530
+    ],
+    "frs": [
+     3374146,
+     6546
+    ],
+    "en": [
+     3381092,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "Puis il se leva brusquement, s'approcha des deux Français,",
+   "en": "Then he stood up abruptly, approached the two Frenchmen,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s233_fr.mp3",
+    "frs": "audio/s233_frs.mp3",
+    "en": "audio/s233_en.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     3384918,
+     4722
+    ],
+    "frs": [
+     3390040,
+     6834
+    ],
+    "en": [
+     3397274,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "prit Morissot sous le bras, l'entraîna plus loin,",
+   "en": "took Morissot by the arm, led him further off,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s234_fr.mp3",
+    "frs": "audio/s234_frs.mp3",
+    "en": "audio/s234_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     3401412,
+     4386
+    ],
+    "frs": [
+     3406198,
+     6330
+    ],
+    "en": [
+     3412928,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "lui dit à voix basse : « Vite, ce mot d'ordre ?",
+   "en": "and said to him in a low voice: \"Quick, that password?",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s235_fr.mp3",
+    "frs": "audio/s235_frs.mp3",
+    "en": "audio/s235_en.mp3"
+   },
+   "ms": {
+    "fr": 4554,
+    "frs": 6594,
+    "en": 4194
+   },
+   "bank": {
+    "fr": [
+     3416922,
+     4554
+    ],
+    "frs": [
+     3421876,
+     6594
+    ],
+    "en": [
+     3428870,
+     4194
+    ]
+   }
+  },
+  {
+   "fr": "Votre camarade ne saura rien,",
+   "en": "Your friend will know nothing,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s236_fr.mp3",
+    "frs": "audio/s236_frs.mp3",
+    "en": "audio/s236_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3433464,
+     3522
+    ],
+    "frs": [
+     3437386,
+     5010
+    ],
+    "en": [
+     3442796,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "j'aurai l'air de m'attendrir. »",
+   "en": "I'll make it look as if I've taken pity.\"",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s237_fr.mp3",
+    "frs": "audio/s237_frs.mp3",
+    "en": "audio/s237_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4602,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     3445518,
+     3234
+    ],
+    "frs": [
+     3449152,
+     4602
+    ],
+    "en": [
+     3454154,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "Morissot ne répondit rien.",
+   "en": "Morissot answered nothing.",
+   "para": 67,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s238_fr.mp3",
+    "frs": "audio/s238_frs.mp3",
+    "en": "audio/s238_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3457212,
+     3210
+    ],
+    "frs": [
+     3460822,
+     4578
+    ],
+    "en": [
+     3465800,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le Prussien entraîna alors Monsieur Sauvage",
+   "en": "The Prussian then led Monsieur Sauvage aside",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s239_fr.mp3",
+    "frs": "audio/s239_frs.mp3",
+    "en": "audio/s239_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     3468522,
+     4098
+    ],
+    "frs": [
+     3473020,
+     5898
+    ],
+    "en": [
+     3479318,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "et lui posa la même question.",
+   "en": "and asked him the same question.",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s240_fr.mp3",
+    "frs": "audio/s240_frs.mp3",
+    "en": "audio/s240_en.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2178
+   },
+   "bank": {
+    "fr": [
+     3483408,
+     3186
+    ],
+    "frs": [
+     3486994,
+     4506
+    ],
+    "en": [
+     3491900,
+     2178
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage ne répondit pas.",
+   "en": "Monsieur Sauvage did not answer.",
+   "para": 69,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s241_fr.mp3",
+    "frs": "audio/s241_frs.mp3",
+    "en": "audio/s241_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4794,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     3494478,
+     3378
+    ],
+    "frs": [
+     3498256,
+     4794
+    ],
+    "en": [
+     3503450,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "Ils se retrouvèrent côte à côte.",
+   "en": "They found themselves side by side again.",
+   "para": 70,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s242_fr.mp3",
+    "frs": "audio/s242_frs.mp3",
+    "en": "audio/s242_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2802
+   },
+   "bank": {
+    "fr": [
+     3506484,
+     3378
+    ],
+    "frs": [
+     3510262,
+     4818
+    ],
+    "en": [
+     3515480,
+     2802
+    ]
+   }
+  },
+  {
+   "fr": "Et l'officier se mit à commander.",
+   "en": "And the officer began to give commands.",
+   "para": 71,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s243_fr.mp3",
+    "frs": "audio/s243_frs.mp3",
+    "en": "audio/s243_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     3518682,
+     3354
+    ],
+    "frs": [
+     3522436,
+     4794
+    ],
+    "en": [
+     3527630,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "Les soldats élevèrent leurs armes.",
+   "en": "The soldiers raised their weapons.",
+   "para": 71,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s244_fr.mp3",
+    "frs": "audio/s244_frs.mp3",
+    "en": "audio/s244_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     3530928,
+     3282
+    ],
+    "frs": [
+     3534610,
+     4674
+    ],
+    "en": [
+     3539684,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Alors le regard de Morissot tomba par hasard sur le filet plein de goujons,",
+   "en": "Then Morissot's gaze fell by chance on the net full of gudgeons,",
+   "para": 72,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s245_fr.mp3",
+    "frs": "audio/s245_frs.mp3",
+    "en": "audio/s245_en.mp3"
+   },
+   "ms": {
+    "fr": 5634,
+    "frs": 8202,
+    "en": 4170
+   },
+   "bank": {
+    "fr": [
+     3542550,
+     5634
+    ],
+    "frs": [
+     3548584,
+     8202
+    ],
+    "en": [
+     3557186,
+     4170
+    ]
+   }
+  },
+  {
+   "fr": "resté dans l'herbe, à quelques pas de lui.",
+   "en": "left in the grass, a few steps from him.",
+   "para": 72,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s246_fr.mp3",
+    "frs": "audio/s246_frs.mp3",
+    "en": "audio/s246_en.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 5994,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     3561756,
+     4170
+    ],
+    "frs": [
+     3566326,
+     5994
+    ],
+    "en": [
+     3572720,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Un rayon de soleil faisait briller le tas de poissons",
+   "en": "A ray of sunlight made the heap of fish glitter,",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s247_fr.mp3",
+    "frs": "audio/s247_frs.mp3",
+    "en": "audio/s247_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6330,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     3576042,
+     4386
+    ],
+    "frs": [
+     3580828,
+     6330
+    ],
+    "en": [
+     3587558,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "qui s'agitaient encore.",
+   "en": "still wriggling.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s248_fr.mp3",
+    "frs": "audio/s248_frs.mp3",
+    "en": "audio/s248_en.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4122,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3591312,
+     2922
+    ],
+    "frs": [
+     3594634,
+     4122
+    ],
+    "en": [
+     3599156,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et une défaillance l'envahit.",
+   "en": "And a weakness came over him.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s249_fr.mp3",
+    "frs": "audio/s249_frs.mp3",
+    "en": "audio/s249_en.mp3"
+   },
+   "ms": {
+    "fr": 3066,
+    "frs": 4338,
+    "en": 2202
+   },
+   "bank": {
+    "fr": [
+     3601878,
+     3066
+    ],
+    "frs": [
+     3605344,
+     4338
+    ],
+    "en": [
+     3610082,
+     2202
+    ]
+   }
+  },
+  {
+   "fr": "Malgré ses efforts, ses yeux s'emplirent de larmes.",
+   "en": "Despite his efforts, his eyes filled with tears.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s250_fr.mp3",
+    "frs": "audio/s250_frs.mp3",
+    "en": "audio/s250_en.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6882,
+    "en": 3882
+   },
+   "bank": {
+    "fr": [
+     3612684,
+     4770
+    ],
+    "frs": [
+     3617854,
+     6882
+    ],
+    "en": [
+     3625136,
+     3882
+    ]
+   }
+  },
+  {
+   "fr": "Il balbutia : « Adieu, monsieur Sauvage. »",
+   "en": "He stammered: \"Farewell, Monsieur Sauvage.\"",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s251_fr.mp3",
+    "frs": "audio/s251_frs.mp3",
+    "en": "audio/s251_en.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6522,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     3629418,
+     4530
+    ],
+    "frs": [
+     3634348,
+     6522
+    ],
+    "en": [
+     3641270,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage répondit : « Adieu, monsieur Morissot. »",
+   "en": "Monsieur Sauvage answered: \"Farewell, Monsieur Morissot.\"",
+   "para": 75,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s252_fr.mp3",
+    "frs": "audio/s252_frs.mp3",
+    "en": "audio/s252_en.mp3"
+   },
+   "ms": {
+    "fr": 4986,
+    "frs": 7242,
+    "en": 4410
+   },
+   "bank": {
+    "fr": [
+     3645264,
+     4986
+    ],
+    "frs": [
+     3650650,
+     7242
+    ],
+    "en": [
+     3658292,
+     4410
+    ]
+   }
+  },
+  {
+   "fr": "Ils se serrèrent la main,",
+   "en": "They shook hands,",
+   "para": 76,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s253_fr.mp3",
+    "frs": "audio/s253_frs.mp3",
+    "en": "audio/s253_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4002,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3663102,
+     2850
+    ],
+    "frs": [
+     3666352,
+     4002
+    ],
+    "en": [
+     3670754,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "secoués des pieds à la tête par d'invincibles tremblements.",
+   "en": "shaken from head to toe by uncontrollable trembling.",
+   "para": 76,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s254_fr.mp3",
+    "frs": "audio/s254_frs.mp3",
+    "en": "audio/s254_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6642,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     3673476,
+     4602
+    ],
+    "frs": [
+     3678478,
+     6642
+    ],
+    "en": [
+     3685520,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "L'officier cria : Feu !",
+   "en": "The officer shouted: Fire!",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s255_fr.mp3",
+    "frs": "audio/s255_frs.mp3",
+    "en": "audio/s255_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     3689994,
+     3378
+    ],
+    "frs": [
+     3693772,
+     4818
+    ],
+    "en": [
+     3698990,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "Les douze coups n'en firent qu'un.",
+   "en": "The twelve shots sounded as one.",
+   "para": 78,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s256_fr.mp3",
+    "frs": "audio/s256_frs.mp3",
+    "en": "audio/s256_en.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     3702048,
+     3042
+    ],
+    "frs": [
+     3705490,
+     4314
+    ],
+    "en": [
+     3710204,
+     2466
+    ]
+   }
+  },
+  {
+   "fr": "Monsieur Sauvage tomba d'un bloc sur le nez.",
+   "en": "Monsieur Sauvage fell flat on his face like a block.",
+   "para": 79,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s257_fr.mp3",
+    "frs": "audio/s257_frs.mp3",
+    "en": "audio/s257_en.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 3714
+   },
+   "bank": {
+    "fr": [
+     3713070,
+     4002
+    ],
+    "frs": [
+     3717472,
+     5730
+    ],
+    "en": [
+     3723602,
+     3714
+    ]
+   }
+  },
+  {
+   "fr": "Morissot, plus grand, oscilla, pivota",
+   "en": "Morissot, taller, swayed, turned",
+   "para": 79,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s258_fr.mp3",
+    "frs": "audio/s258_frs.mp3",
+    "en": "audio/s258_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     3727716,
+     4746
+    ],
+    "frs": [
+     3732862,
+     6858
+    ],
+    "en": [
+     3740120,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "et s'abattit en travers sur son camarade, le visage au ciel,",
+   "en": "and collapsed across his friend, face to the sky,",
+   "para": 79,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s259_fr.mp3",
+    "frs": "audio/s259_frs.mp3",
+    "en": "audio/s259_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 3786
+   },
+   "bank": {
+    "fr": [
+     3744114,
+     5130
+    ],
+    "frs": [
+     3749644,
+     7458
+    ],
+    "en": [
+     3757502,
+     3786
+    ]
+   }
+  },
+  {
+   "fr": "tandis que des bouillons de sang",
+   "en": "while spurts of blood",
+   "para": 79,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s260_fr.mp3",
+    "frs": "audio/s260_frs.mp3",
+    "en": "audio/s260_en.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 1866
+   },
+   "bank": {
+    "fr": [
+     3761688,
+     3042
+    ],
+    "frs": [
+     3765130,
+     4314
+    ],
+    "en": [
+     3769844,
+     1866
+    ]
+   }
+  },
+  {
+   "fr": "s'échappaient de sa tunique crevée à la poitrine.",
+   "en": "gushed from his tunic, burst open at the chest.",
+   "para": 79,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s261_fr.mp3",
+    "frs": "audio/s261_frs.mp3",
+    "en": "audio/s261_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3666
+   },
+   "bank": {
+    "fr": [
+     3772110,
+     4242
+    ],
+    "frs": [
+     3776752,
+     6114
+    ],
+    "en": [
+     3783266,
+     3666
+    ]
+   }
+  },
+  {
+   "fr": "L'Allemand donna de nouveaux ordres.",
+   "en": "The German gave new orders.",
+   "para": 80,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s262_fr.mp3",
+    "frs": "audio/s262_frs.mp3",
+    "en": "audio/s262_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     3787332,
+     3426
+    ],
+    "frs": [
+     3791158,
+     4890
+    ],
+    "en": [
+     3796448,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Ses hommes se dispersèrent,",
+   "en": "His men scattered,",
+   "para": 81,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s263_fr.mp3",
+    "frs": "audio/s263_frs.mp3",
+    "en": "audio/s263_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3799218,
+     3114
+    ],
+    "frs": [
+     3802732,
+     4410
+    ],
+    "en": [
+     3807542,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "puis revinrent avec des cordes et des pierres",
+   "en": "then came back with ropes and stones",
+   "para": 81,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s264_fr.mp3",
+    "frs": "audio/s264_frs.mp3",
+    "en": "audio/s264_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     3810264,
+     3786
+    ],
+    "frs": [
+     3814450,
+     5418
+    ],
+    "en": [
+     3820268,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "qu'ils attachèrent aux pieds des deux morts ;",
+   "en": "which they tied to the feet of the two dead men;",
+   "para": 81,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s265_fr.mp3",
+    "frs": "audio/s265_frs.mp3",
+    "en": "audio/s265_en.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     3823374,
+     3522
+    ],
+    "frs": [
+     3827296,
+     5034
+    ],
+    "en": [
+     3832730,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "puis ils les portèrent sur la berge.",
+   "en": "then they carried them to the bank.",
+   "para": 81,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s266_fr.mp3",
+    "frs": "audio/s266_frs.mp3",
+    "en": "audio/s266_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     3836580,
+     3354
+    ],
+    "frs": [
+     3840334,
+     4770
+    ],
+    "en": [
+     3845504,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le Mont-Valérien ne cessait pas de gronder,",
+   "en": "Mont-Valérien did not stop rumbling,",
+   "para": 82,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s267_fr.mp3",
+    "frs": "audio/s267_frs.mp3",
+    "en": "audio/s267_en.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 2898
+   },
+   "bank": {
+    "fr": [
+     3848226,
+     3810
+    ],
+    "frs": [
+     3852436,
+     5466
+    ],
+    "en": [
+     3858302,
+     2898
+    ]
+   }
+  },
+  {
+   "fr": "coiffé maintenant d'une montagne de fumée.",
+   "en": "now capped with a mountain of smoke.",
+   "para": 82,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s268_fr.mp3",
+    "frs": "audio/s268_frs.mp3",
+    "en": "audio/s268_en.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     3861600,
+     3906
+    ],
+    "frs": [
+     3865906,
+     5610
+    ],
+    "en": [
+     3871916,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Deux soldats prirent Morissot par la tête et par les jambes ;",
+   "en": "Two soldiers took Morissot by the head and the legs;",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s269_fr.mp3",
+    "frs": "audio/s269_frs.mp3",
+    "en": "audio/s269_en.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6402,
+    "en": 3690
+   },
+   "bank": {
+    "fr": [
+     3874878,
+     4434
+    ],
+    "frs": [
+     3879712,
+     6402
+    ],
+    "en": [
+     3886514,
+     3690
+    ]
+   }
+  },
+  {
+   "fr": "deux autres saisirent Monsieur Sauvage de la même façon.",
+   "en": "two others seized Monsieur Sauvage in the same way.",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s270_fr.mp3",
+    "frs": "audio/s270_frs.mp3",
+    "en": "audio/s270_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3474
+   },
+   "bank": {
+    "fr": [
+     3890604,
+     4458
+    ],
+    "frs": [
+     3895462,
+     6450
+    ],
+    "en": [
+     3902312,
+     3474
+    ]
+   }
+  },
+  {
+   "fr": "Les corps, un instant balancés avec force,",
+   "en": "The bodies, swung hard for a moment,",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s271_fr.mp3",
+    "frs": "audio/s271_frs.mp3",
+    "en": "audio/s271_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 2970
+   },
+   "bank": {
+    "fr": [
+     3906186,
+     4338
+    ],
+    "frs": [
+     3910924,
+     6258
+    ],
+    "en": [
+     3917582,
+     2970
+    ]
+   }
+  },
+  {
+   "fr": "furent lancés au loin, décrivirent une courbe,",
+   "en": "were thrown far out, traced a curve,",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s272_fr.mp3",
+    "frs": "audio/s272_frs.mp3",
+    "en": "audio/s272_en.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     3920952,
+     4314
+    ],
+    "frs": [
+     3925666,
+     6210
+    ],
+    "en": [
+     3932276,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "puis plongèrent, debout, dans le fleuve,",
+   "en": "then plunged, upright, into the river,",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s273_fr.mp3",
+    "frs": "audio/s273_frs.mp3",
+    "en": "audio/s273_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     3935718,
+     4242
+    ],
+    "frs": [
+     3940360,
+     6114
+    ],
+    "en": [
+     3946874,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "les pierres entraînant les pieds d'abord.",
+   "en": "the stones dragging the feet down first.",
+   "para": 83,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s274_fr.mp3",
+    "frs": "audio/s274_frs.mp3",
+    "en": "audio/s274_en.mp3"
+   },
+   "ms": {
+    "fr": 3498,
+    "frs": 4986,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     3950652,
+     3498
+    ],
+    "frs": [
+     3954550,
+     4986
+    ],
+    "en": [
+     3959936,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "L'eau rejaillit, bouillonna, frissonna, puis se calma,",
+   "en": "The water splashed up, bubbled, quivered, then grew calm,",
+   "para": 84,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s275_fr.mp3",
+    "frs": "audio/s275_frs.mp3",
+    "en": "audio/s275_en.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 4626
+   },
+   "bank": {
+    "fr": [
+     3963402,
+     5274
+    ],
+    "frs": [
+     3969076,
+     7650
+    ],
+    "en": [
+     3977126,
+     4626
+    ]
+   }
+  },
+  {
+   "fr": "tandis que de toutes petites vagues s'en venaient jusqu'aux rives.",
+   "en": "while tiny little waves came rippling to the banks.",
+   "para": 84,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s276_fr.mp3",
+    "frs": "audio/s276_frs.mp3",
+    "en": "audio/s276_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     3982152,
+     4674
+    ],
+    "frs": [
+     3987226,
+     6738
+    ],
+    "en": [
+     3994364,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "Un peu de sang flottait.",
+   "en": "A little blood floated on the surface.",
+   "para": 85,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s277_fr.mp3",
+    "frs": "audio/s277_frs.mp3",
+    "en": "audio/s277_en.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     3998190,
+     2826
+    ],
+    "frs": [
+     4001416,
+     3978
+    ],
+    "en": [
+     4005794,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "L'officier, toujours serein, dit à mi-voix :",
+   "en": "The officer, still serene, said under his breath:",
+   "para": 86,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s278_fr.mp3",
+    "frs": "audio/s278_frs.mp3",
+    "en": "audio/s278_en.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6642,
+    "en": 3978
+   },
+   "bank": {
+    "fr": [
+     4008972,
+     4602
+    ],
+    "frs": [
+     4013974,
+     6642
+    ],
+    "en": [
+     4021016,
+     3978
+    ]
+   }
+  },
+  {
+   "fr": "« C'est le tour des poissons maintenant. »",
+   "en": "\"Now it's the fishes' turn.\"",
+   "para": 86,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s279_fr.mp3",
+    "frs": "audio/s279_frs.mp3",
+    "en": "audio/s279_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     4025394,
+     3282
+    ],
+    "frs": [
+     4029076,
+     4674
+    ],
+    "en": [
+     4034150,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Puis il revint vers la maison.",
+   "en": "Then he went back toward the house.",
+   "para": 87,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s280_fr.mp3",
+    "frs": "audio/s280_frs.mp3",
+    "en": "audio/s280_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     4036872,
+     3138
+    ],
+    "frs": [
+     4040410,
+     4458
+    ],
+    "en": [
+     4045268,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Et soudain il aperçut le filet aux goujons dans l'herbe.",
+   "en": "And suddenly he noticed the net of gudgeons in the grass.",
+   "para": 88,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s281_fr.mp3",
+    "frs": "audio/s281_frs.mp3",
+    "en": "audio/s281_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     4047990,
+     4338
+    ],
+    "frs": [
+     4052728,
+     6258
+    ],
+    "en": [
+     4059386,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "Il le ramassa, l'examina, sourit, cria : « Wilhem ! »",
+   "en": "He picked it up, examined it, smiled, and shouted: \"Wilhem!\"",
+   "para": 88,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s282_fr.mp3",
+    "frs": "audio/s282_frs.mp3",
+    "en": "audio/s282_en.mp3"
+   },
+   "ms": {
+    "fr": 5754,
+    "frs": 8370,
+    "en": 4866
+   },
+   "bank": {
+    "fr": [
+     4063716,
+     5754
+    ],
+    "frs": [
+     4069870,
+     8370
+    ],
+    "en": [
+     4078640,
+     4866
+    ]
+   }
+  },
+  {
+   "fr": "Un soldat accourut, en tablier blanc.",
+   "en": "A soldier came running, in a white apron.",
+   "para": 89,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s283_fr.mp3",
+    "frs": "audio/s283_frs.mp3",
+    "en": "audio/s283_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     4083906,
+     4026
+    ],
+    "frs": [
+     4088332,
+     5778
+    ],
+    "en": [
+     4094510,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Et le Prussien, lui jetant la pêche des deux fusillés, commanda :",
+   "en": "And the Prussian, tossing him the catch of the two executed men, ordered:",
+   "para": 89,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s284_fr.mp3",
+    "frs": "audio/s284_frs.mp3",
+    "en": "audio/s284_en.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "frs": 7962,
+    "en": 5202
+   },
+   "bank": {
+    "fr": [
+     4098024,
+     5490
+    ],
+    "frs": [
+     4103913,
+     7962
+    ],
+    "en": [
+     4112276,
+     5202
+    ]
+   }
+  },
+  {
+   "fr": "« Fais-moi frire tout de suite ces petits animaux-là",
+   "en": "\"Fry me these little creatures right away",
+   "para": 89,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s285_fr.mp3",
+    "frs": "audio/s285_frs.mp3",
+    "en": "audio/s285_en.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     4117877,
+     4098
+    ],
+    "frs": [
+     4122376,
+     5898
+    ],
+    "en": [
+     4128674,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "pendant qu'ils sont encore vivants.",
+   "en": "while they are still alive.",
+   "para": 89,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s286_fr.mp3",
+    "frs": "audio/s286_frs.mp3",
+    "en": "audio/s286_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     4131779,
+     3354
+    ],
+    "frs": [
+     4135533,
+     4770
+    ],
+    "en": [
+     4140703,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ce sera délicieux. »",
+   "en": "It will be delicious.\"",
+   "para": 89,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s287_fr.mp3",
+    "frs": "audio/s287_frs.mp3",
+    "en": "audio/s287_en.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     4143426,
+     2730
+    ],
+    "frs": [
+     4146555,
+     3834
+    ],
+    "en": [
+     4150790,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Puis il se remit à fumer sa pipe.",
+   "en": "Then he went back to smoking his pipe.",
+   "para": 90,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s288_fr.mp3",
+    "frs": "audio/s288_frs.mp3",
+    "en": "audio/s288_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 2466
+   },
+   "bank": {
+    "fr": [
+     4153511,
+     3450
+    ],
+    "frs": [
+     4157362,
+     4938
+    ],
+    "en": [
+     4162700,
+     2466
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   26574
+  ],
+  "silence": [
+   27374,
+   30000
+  ]
+ }
+}
