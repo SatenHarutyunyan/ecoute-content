@@ -1,6 +1,48 @@
 {
  "stories": [
   {
+   "id": "balzac_grande_breteche_1",
+   "lang": "fr",
+   "title": "La Grande Bretèche (1)",
+   "author": "Honoré de Balzac",
+   "level": "C1",
+   "series": "La Grande Bretèche",
+   "episode": "1",
+   "phrases": 452,
+   "minutes": 116,
+   "size_mb": 37,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/balzac_grande_breteche_1.zip",
+   "version": "ee0f7d1b8ebb"
+  },
+  {
+   "id": "balzac_grande_breteche_2",
+   "lang": "fr",
+   "title": "La Grande Bretèche (2)",
+   "author": "Honoré de Balzac",
+   "level": "C1",
+   "series": "La Grande Bretèche",
+   "episode": "2",
+   "phrases": 290,
+   "minutes": 74,
+   "size_mb": 24,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/balzac_grande_breteche_2.zip",
+   "version": "74e1d054f2a1"
+  },
+  {
+   "id": "balzac_grande_breteche_3",
+   "lang": "fr",
+   "title": "La Grande Bretèche (3)",
+   "author": "Honoré de Balzac",
+   "level": "C1",
+   "series": "La Grande Bretèche",
+   "episode": "3",
+   "phrases": 260,
+   "minutes": 67,
+   "size_mb": 21,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/balzac_grande_breteche_3.zip",
+   "version": "3dccb7060673"
+  },
+  {
    "id": "ai_mystery",
    "lang": "fr",
    "title": "La Fausse Note",
