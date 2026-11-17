@@ -8,7 +8,7 @@
  "episode": "",
  "note": "Lucien is a blind piano tuner in Saint-Flour, a small town on a black rock in the mountains of central France. Every November he visits the same old house. This year, someone has left him a message inside the piano.",
  "intro": "audio/intro.mp3",
- "intro_ms": 21318,
+ "intro_ms": 20010,
  "silence": "audio/silence.mp3",
  "segments": [
   {
@@ -21,6 +21,7 @@
      "en": "strings (of a piano)"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s001_fr.mp3",
     "frs": "audio/s001_frs.mp3",
@@ -28,27 +29,27 @@
     "gl": "audio/s001_gl.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 5994,
-    "en": 3354,
-    "gl": 5546
+    "fr": 3260,
+    "frs": 4500,
+    "en": 3190,
+    "gl": 3710
    },
    "bank": {
     "fr": [
-     52518,
-     4170
+     51210,
+     3260
     ],
     "frs": [
-     57088,
-     5994
+     54870,
+     4500
     ],
     "en": [
-     63482,
-     3354
+     59770,
+     3190
     ],
     "gl": [
-     67236,
-     5546
+     63360,
+     3710
     ]
    }
   },
@@ -57,28 +58,29 @@
    "en": "Lucien found it with his fingertips,",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s002_fr.mp3",
     "frs": "audio/s002_frs.mp3",
     "en": "audio/s002_en.mp3"
    },
    "ms": {
-    "fr": 3378,
-    "frs": 4818,
-    "en": 2778
+    "fr": 2470,
+    "frs": 3330,
+    "en": 2610
    },
    "bank": {
     "fr": [
-     73182,
-     3378
+     67470,
+     2470
     ],
     "frs": [
-     76960,
-     4818
+     70340,
+     3330
     ],
     "en": [
-     82178,
-     2778
+     74070,
+     2610
     ]
    }
   },
@@ -87,28 +89,29 @@
    "en": "folded in four, between two low strings.",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s003_fr.mp3",
     "frs": "audio/s003_frs.mp3",
     "en": "audio/s003_en.mp3"
    },
    "ms": {
-    "fr": 4074,
-    "frs": 5850,
-    "en": 3474
+    "fr": 3160,
+    "frs": 4370,
+    "en": 3220
    },
    "bank": {
     "fr": [
-     85356,
-     4074
+     77080,
+     3160
     ],
     "frs": [
-     89830,
-     5850
+     80640,
+     4370
     ],
     "en": [
-     96080,
-     3474
+     85410,
+     3220
     ]
    }
   },
@@ -117,28 +120,29 @@
    "en": "He opened it.",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s004_fr.mp3",
     "frs": "audio/s004_frs.mp3",
     "en": "audio/s004_en.mp3"
    },
    "ms": {
-    "fr": 2586,
-    "frs": 3642,
-    "en": 2322
+    "fr": 1640,
+    "frs": 2110,
+    "en": 1210
    },
    "bank": {
     "fr": [
-     99954,
-     2586
+     89030,
+     1640
     ],
     "frs": [
-     102940,
-     3642
+     91070,
+     2110
     ],
     "en": [
-     106982,
-     2322
+     93580,
+     1210
     ]
    }
   },
@@ -152,6 +156,7 @@
      "en": "raised (you can feel it with your fingers)"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s005_fr.mp3",
     "frs": "audio/s005_frs.mp3",
@@ -159,27 +164,27 @@
     "gl": "audio/s005_gl.mp3"
    },
    "ms": {
-    "fr": 4770,
-    "frs": 6882,
-    "en": 3330,
-    "gl": 6602
+    "fr": 3870,
+    "frs": 5410,
+    "en": 3130,
+    "gl": 4980
    },
    "bank": {
     "fr": [
-     109704,
-     4770
+     95190,
+     3870
     ],
     "frs": [
-     114874,
-     6882
+     99460,
+     5410
     ],
     "en": [
-     122156,
-     3330
+     105270,
+     3130
     ],
     "gl": [
-     125886,
-     6602
+     108800,
+     4980
     ]
    }
   },
@@ -188,28 +193,29 @@
    "en": "Braille.",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s006_fr.mp3",
     "frs": "audio/s006_frs.mp3",
     "en": "audio/s006_en.mp3"
    },
    "ms": {
-    "fr": 2370,
-    "frs": 3306,
-    "en": 1266
+    "fr": 1500,
+    "frs": 1850,
+    "en": 1080
    },
    "bank": {
     "fr": [
-     132888,
-     2370
+     114180,
+     1500
     ],
     "frs": [
-     135658,
-     3306
+     116080,
+     1850
     ],
     "en": [
-     139364,
-     1266
+     118330,
+     1080
     ]
    }
   },
@@ -223,6 +229,7 @@
      "en": "blind person"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s007_fr.mp3",
     "frs": "audio/s007_frs.mp3",
@@ -230,27 +237,27 @@
     "gl": "audio/s007_gl.mp3"
    },
    "ms": {
-    "fr": 5274,
-    "frs": 7650,
-    "en": 3114,
-    "gl": 5714
+    "fr": 4370,
+    "frs": 6160,
+    "en": 2940,
+    "gl": 3360
    },
    "bank": {
     "fr": [
-     141030,
-     5274
+     119810,
+     4370
     ],
     "frs": [
-     146704,
-     7650
+     124580,
+     6160
     ],
     "en": [
-     154754,
-     3114
+     131140,
+     2940
     ],
     "gl": [
-     158268,
-     5714
+     134480,
+     3360
     ]
    }
   },
@@ -259,28 +266,29 @@
    "en": "His fingers read the first line:",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s008_fr.mp3",
     "frs": "audio/s008_frs.mp3",
     "en": "audio/s008_en.mp3"
    },
    "ms": {
-    "fr": 3330,
-    "frs": 4746,
-    "en": 2466
+    "fr": 2480,
+    "frs": 3350,
+    "en": 2270
    },
    "bank": {
     "fr": [
-     164382,
-     3330
+     138240,
+     2480
     ],
     "frs": [
-     168112,
-     4746
+     141120,
+     3350
     ],
     "en": [
-     173258,
-     2466
+     144870,
+     2270
     ]
    }
   },
@@ -289,28 +297,29 @@
    "en": "\"Lucien, don't believe what they're going to tell you.\"",
    "para": 1,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s009_fr.mp3",
     "frs": "audio/s009_frs.mp3",
     "en": "audio/s009_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 6018,
-    "en": 3210
+    "fr": 3260,
+    "frs": 4520,
+    "en": 3040
    },
    "bank": {
     "fr": [
-     176124,
-     4170
+     147540,
+     3260
     ],
     "frs": [
-     180694,
-     6018
+     151200,
+     4520
     ],
     "en": [
-     187112,
-     3210
+     156120,
+     3040
     ]
    }
   },
@@ -319,28 +328,29 @@
    "en": "He heard footsteps in the hallway.",
    "para": 2,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s010_fr.mp3",
     "frs": "audio/s010_frs.mp3",
     "en": "audio/s010_en.mp3"
    },
    "ms": {
-    "fr": 3690,
-    "frs": 5274,
-    "en": 2442
+    "fr": 2750,
+    "frs": 3770,
+    "en": 2290
    },
    "bank": {
     "fr": [
-     190722,
-     3690
+     159560,
+     2750
     ],
     "frs": [
-     194812,
-     5274
+     162710,
+     3770
     ],
     "en": [
-     200486,
-     2442
+     166880,
+     2290
     ]
    }
   },
@@ -349,28 +359,29 @@
    "en": "He put the paper in his pocket.",
    "para": 2,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s011_fr.mp3",
     "frs": "audio/s011_frs.mp3",
     "en": "audio/s011_en.mp3"
    },
    "ms": {
-    "fr": 3402,
-    "frs": 4842,
-    "en": 2322
+    "fr": 2500,
+    "frs": 3360,
+    "en": 2040
    },
    "bank": {
     "fr": [
-     203328,
-     3402
+     169570,
+     2500
     ],
     "frs": [
-     207130,
-     4842
+     172470,
+     3360
     ],
     "en": [
-     212372,
-     2322
+     176230,
+     2040
     ]
    }
   },
@@ -379,28 +390,29 @@
    "en": "An hour earlier, Lucien Fabre was on the bus",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s012_fr.mp3",
     "frs": "audio/s012_frs.mp3",
     "en": "audio/s012_en.mp3"
    },
    "ms": {
-    "fr": 4434,
-    "frs": 6402,
-    "en": 3786
+    "fr": 3600,
+    "frs": 5000,
+    "en": 3600
    },
    "bank": {
     "fr": [
-     215094,
-     4434
+     178670,
+     3600
     ],
     "frs": [
-     219928,
-     6402
+     182670,
+     5000
     ],
     "en": [
-     226730,
-     3786
+     188070,
+     3600
     ]
    }
   },
@@ -409,28 +421,29 @@
    "en": "that goes up to the upper town of Saint-Flour,",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s013_fr.mp3",
     "frs": "audio/s013_frs.mp3",
     "en": "audio/s013_en.mp3"
    },
    "ms": {
-    "fr": 3546,
-    "frs": 5058,
-    "en": 3162
+    "fr": 2670,
+    "frs": 3620,
+    "en": 2980
    },
    "bank": {
     "fr": [
-     230916,
-     3546
+     192070,
+     2670
     ],
     "frs": [
-     234862,
-     5058
+     195140,
+     3620
     ],
     "en": [
-     240320,
-     3162
+     199160,
+     2980
     ]
    }
   },
@@ -439,28 +452,29 @@
    "en": "with Brahms, his dog, lying on his feet.",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s014_fr.mp3",
     "frs": "audio/s014_frs.mp3",
     "en": "audio/s014_en.mp3"
    },
    "ms": {
-    "fr": 4770,
-    "frs": 6882,
-    "en": 3522
+    "fr": 3790,
+    "frs": 5290,
+    "en": 3330
    },
    "bank": {
     "fr": [
-     243882,
-     4770
+     202540,
+     3790
     ],
     "frs": [
-     249052,
-     6882
+     206730,
+     5290
     ],
     "en": [
-     256334,
-     3522
+     212420,
+     3330
     ]
    }
   },
@@ -469,28 +483,29 @@
    "en": "Brahms was a very good dog, but he hated pianos.",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s015_fr.mp3",
     "frs": "audio/s015_frs.mp3",
     "en": "audio/s015_en.mp3"
    },
    "ms": {
-    "fr": 5058,
-    "frs": 7314,
-    "en": 3906
+    "fr": 4180,
+    "frs": 5880,
+    "en": 3700
    },
    "bank": {
     "fr": [
-     260255,
-     5058
+     216150,
+     4180
     ],
     "frs": [
-     265714,
-     7314
+     220730,
+     5880
     ],
     "en": [
-     273428,
-     3906
+     227010,
+     3700
     ]
    }
   },
@@ -499,28 +514,29 @@
    "en": "Outside, the November wind was blowing over the rock.",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s016_fr.mp3",
     "frs": "audio/s016_frs.mp3",
     "en": "audio/s016_en.mp3"
    },
    "ms": {
-    "fr": 4530,
-    "frs": 6522,
-    "en": 4002
+    "fr": 3680,
+    "frs": 5140,
+    "en": 3830
    },
    "bank": {
     "fr": [
-     277734,
-     4530
+     231110,
+     3680
     ],
     "frs": [
-     282664,
-     6522
+     235190,
+     5140
     ],
     "en": [
-     289586,
-     4002
+     240730,
+     3830
     ]
    }
   },
@@ -529,28 +545,29 @@
    "en": "In Saint-Flour, there is always wind.",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s017_fr.mp3",
     "frs": "audio/s017_frs.mp3",
     "en": "audio/s017_en.mp3"
    },
    "ms": {
-    "fr": 3882,
-    "frs": 5562,
-    "en": 3066
+    "fr": 2950,
+    "frs": 4040,
+    "en": 2890
    },
    "bank": {
     "fr": [
-     293988,
-     3882
+     244960,
+     2950
     ],
     "frs": [
-     298270,
-     5562
+     248310,
+     4040
     ],
     "en": [
-     304232,
-     3066
+     252750,
+     2890
     ]
    }
   },
@@ -559,28 +576,29 @@
    "en": "Lucien said it was the only musician in town",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s018_fr.mp3",
     "frs": "audio/s018_frs.mp3",
     "en": "audio/s018_en.mp3"
    },
    "ms": {
-    "fr": 4482,
-    "frs": 6474,
-    "en": 3570
+    "fr": 3570,
+    "frs": 4990,
+    "en": 3410
    },
    "bank": {
     "fr": [
-     307698,
-     4482
+     256040,
+     3570
     ],
     "frs": [
-     312580,
-     6474
+     260010,
+     4990
     ],
     "en": [
-     319454,
-     3570
+     265400,
+     3410
     ]
    }
   },
@@ -589,28 +607,29 @@
    "en": "who never played out of tune.",
    "para": 3,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s019_fr.mp3",
     "frs": "audio/s019_frs.mp3",
     "en": "audio/s019_en.mp3"
    },
    "ms": {
-    "fr": 2874,
-    "frs": 4050,
-    "en": 2322
+    "fr": 1960,
+    "frs": 2550,
+    "en": 1890
    },
    "bank": {
     "fr": [
-     323424,
-     2874
+     269210,
+     1960
     ],
     "frs": [
-     326698,
-     4050
+     271570,
+     2550
     ],
     "en": [
-     331148,
-     2322
+     274520,
+     1890
     ]
    }
   },
@@ -619,28 +638,29 @@
    "en": "Lucien was sixty-seven years old.",
    "para": 4,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s020_fr.mp3",
     "frs": "audio/s020_frs.mp3",
     "en": "audio/s020_en.mp3"
    },
    "ms": {
-    "fr": 3354,
-    "frs": 4770,
-    "en": 2898
+    "fr": 2430,
+    "frs": 3260,
+    "en": 2730
    },
    "bank": {
     "fr": [
-     333870,
-     3354
+     276810,
+     2430
     ],
     "frs": [
-     337624,
-     4770
+     279640,
+     3260
     ],
     "en": [
-     342794,
-     2898
+     283300,
+     2730
     ]
    }
   },
@@ -654,6 +674,7 @@
      "en": "tuned (a piano)"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s021_fr.mp3",
     "frs": "audio/s021_frs.mp3",
@@ -661,27 +682,27 @@
     "gl": "audio/s021_gl.mp3"
    },
    "ms": {
-    "fr": 3858,
-    "frs": 5538,
-    "en": 3042,
-    "gl": 5762
+    "fr": 2960,
+    "frs": 4040,
+    "en": 2860,
+    "gl": 3630
    },
    "bank": {
     "fr": [
-     346092,
-     3858
+     286430,
+     2960
     ],
     "frs": [
-     350350,
-     5538
+     289790,
+     4040
     ],
     "en": [
-     356288,
-     3042
+     294230,
+     2860
     ],
     "gl": [
-     359730,
-     5762
+     297490,
+     3630
     ]
    }
   },
@@ -695,6 +716,7 @@
      "en": "retirement"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s022_fr.mp3",
     "frs": "audio/s022_frs.mp3",
@@ -702,27 +724,27 @@
     "gl": "audio/s022_gl.mp3"
    },
    "ms": {
-    "fr": 5754,
-    "frs": 8370,
-    "en": 3882,
-    "gl": 6242
+    "fr": 4850,
+    "frs": 6900,
+    "en": 3680,
+    "gl": 3660
    },
    "bank": {
     "fr": [
-     365892,
-     5754
+     301520,
+     4850
     ],
     "frs": [
-     372046,
-     8370
+     306770,
+     6900
     ],
     "en": [
-     380816,
-     3882
+     314070,
+     3680
     ],
     "gl": [
-     385098,
-     6242
+     318150,
+     3660
     ]
    }
   },
@@ -731,28 +753,29 @@
    "en": "He had a phrase he repeated to everyone:",
    "para": 4,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s023_fr.mp3",
     "frs": "audio/s023_frs.mp3",
     "en": "audio/s023_en.mp3"
    },
    "ms": {
-    "fr": 4146,
-    "frs": 5946,
-    "en": 2802
+    "fr": 3210,
+    "frs": 4430,
+    "en": 2620
    },
    "bank": {
     "fr": [
-     391740,
-     4146
+     322210,
+     3210
     ],
     "frs": [
-     396286,
-     5946
+     325820,
+     4430
     ],
     "en": [
-     402632,
-     2802
+     330650,
+     2620
     ]
    }
   },
@@ -761,28 +784,29 @@
    "en": "\"People lie. Pianos, never.\"",
    "para": 4,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s024_fr.mp3",
     "frs": "audio/s024_frs.mp3",
     "en": "audio/s024_en.mp3"
    },
    "ms": {
-    "fr": 5034,
-    "frs": 7290,
-    "en": 2778
+    "fr": 4150,
+    "frs": 5830,
+    "en": 2570
    },
    "bank": {
     "fr": [
-     405834,
-     5034
+     333670,
+     4150
     ],
     "frs": [
-     411268,
-     7290
+     338220,
+     5830
     ],
     "en": [
-     418958,
-     2778
+     344450,
+     2570
     ]
    }
   },
@@ -791,28 +815,29 @@
    "en": "Every year, on the first Thursday of November,",
    "para": 5,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s025_fr.mp3",
     "frs": "audio/s025_frs.mp3",
     "en": "audio/s025_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 5994,
-    "en": 3498
+    "fr": 3330,
+    "frs": 4600,
+    "en": 3330
    },
    "bank": {
     "fr": [
-     422136,
-     4170
+     347420,
+     3330
     ],
     "frs": [
-     426706,
-     5994
+     351150,
+     4600
     ],
     "en": [
-     433100,
-     3498
+     356150,
+     3330
     ]
    }
   },
@@ -826,6 +851,7 @@
      "en": "a famous old French piano brand"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s026_fr.mp3",
     "frs": "audio/s026_frs.mp3",
@@ -833,27 +859,27 @@
     "gl": "audio/s026_gl.mp3"
    },
    "ms": {
-    "fr": 4314,
-    "frs": 6210,
-    "en": 3018,
-    "gl": 6482
+    "fr": 3390,
+    "frs": 4710,
+    "en": 2830,
+    "gl": 4780
    },
    "bank": {
     "fr": [
-     436998,
-     4314
+     359880,
+     3390
     ],
     "frs": [
-     441712,
-     6210
+     363670,
+     4710
     ],
     "en": [
-     448322,
-     3018
+     368780,
+     2830
     ],
     "gl": [
-     451740,
-     6482
+     372010,
+     4780
     ]
    }
   },
@@ -867,6 +893,7 @@
      "en": "basalt, a dark volcanic stone"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s027_fr.mp3",
     "frs": "audio/s027_frs.mp3",
@@ -874,27 +901,27 @@
     "gl": "audio/s027_gl.mp3"
    },
    "ms": {
-    "fr": 5442,
-    "frs": 7914,
-    "en": 3810,
-    "gl": 6650
+    "fr": 4540,
+    "frs": 6420,
+    "en": 3650,
+    "gl": 5060
    },
    "bank": {
     "fr": [
-     458622,
-     5442
+     377190,
+     4540
     ],
     "frs": [
-     464464,
-     7914
+     382130,
+     6420
     ],
     "en": [
-     472778,
-     3810
+     388950,
+     3650
     ],
     "gl": [
-     476988,
-     6650
+     393000,
+     5060
     ]
    }
   },
@@ -903,28 +930,29 @@
    "en": "It was his favorite appointment.",
    "para": 5,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s028_fr.mp3",
     "frs": "audio/s028_frs.mp3",
     "en": "audio/s028_en.mp3"
    },
    "ms": {
-    "fr": 3330,
-    "frs": 4746,
-    "en": 2154
+    "fr": 2430,
+    "frs": 3250,
+    "en": 1970
    },
    "bank": {
     "fr": [
-     484038,
-     3330
+     398460,
+     2430
     ],
     "frs": [
-     487768,
-     4746
+     401290,
+     3250
     ],
     "en": [
-     492914,
-     2154
+     404940,
+     1970
     ]
    }
   },
@@ -933,28 +961,29 @@
    "en": "The first time, twenty years ago,",
    "para": 6,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s029_fr.mp3",
     "frs": "audio/s029_frs.mp3",
     "en": "audio/s029_en.mp3"
    },
    "ms": {
-    "fr": 3714,
-    "frs": 5298,
-    "en": 2730
+    "fr": 2800,
+    "frs": 3820,
+    "en": 2570
    },
    "bank": {
     "fr": [
-     495468,
-     3714
+     407310,
+     2800
     ],
     "frs": [
-     499582,
-     5298
+     410510,
+     3820
     ],
     "en": [
-     505280,
-     2730
+     414730,
+     2570
     ]
    }
   },
@@ -963,28 +992,29 @@
    "en": "a woman had opened the kitchen door for him.",
    "para": 6,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s030_fr.mp3",
     "frs": "audio/s030_frs.mp3",
     "en": "audio/s030_en.mp3"
    },
    "ms": {
-    "fr": 4266,
-    "frs": 6138,
-    "en": 2826
+    "fr": 3390,
+    "frs": 4710,
+    "en": 2670
    },
    "bank": {
     "fr": [
-     508410,
-     4266
+     417700,
+     3390
     ],
     "frs": [
-     513076,
-     6138
+     421490,
+     4710
     ],
     "en": [
-     519614,
-     2826
+     426600,
+     2670
     ]
    }
   },
@@ -993,28 +1023,29 @@
    "en": "He had said, \"Hello, Madame Vasseur.\"",
    "para": 6,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s031_fr.mp3",
     "frs": "audio/s031_frs.mp3",
     "en": "audio/s031_en.mp3"
    },
    "ms": {
-    "fr": 4602,
-    "frs": 6642,
-    "en": 3282
+    "fr": 3670,
+    "frs": 5150,
+    "en": 3080
    },
    "bank": {
     "fr": [
-     522840,
-     4602
+     429670,
+     3670
     ],
     "frs": [
-     527842,
-     6642
+     433740,
+     5150
     ],
     "en": [
-     534884,
-     3282
+     439290,
+     3080
     ]
    }
   },
@@ -1023,28 +1054,29 @@
    "en": "She had laughed, and she had answered, \"Come in, the tea is hot.\"",
    "para": 6,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s032_fr.mp3",
     "frs": "audio/s032_frs.mp3",
     "en": "audio/s032_en.mp3"
    },
    "ms": {
-    "fr": 5346,
-    "frs": 7770,
-    "en": 4962
+    "fr": 4450,
+    "frs": 6280,
+    "en": 4740
    },
    "bank": {
     "fr": [
-     538566,
-     5346
+     442770,
+     4450
     ],
     "frs": [
-     544312,
-     7770
+     447620,
+     6280
     ],
     "en": [
-     552482,
-     4962
+     454300,
+     4740
     ]
    }
   },
@@ -1053,28 +1085,29 @@
    "en": "Since then, it was always the same.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s033_fr.mp3",
     "frs": "audio/s033_frs.mp3",
     "en": "audio/s033_en.mp3"
    },
    "ms": {
-    "fr": 3738,
-    "frs": 5346,
-    "en": 2706
+    "fr": 2900,
+    "frs": 3960,
+    "en": 2520
    },
    "bank": {
     "fr": [
-     557844,
-     3738
+     459440,
+     2900
     ],
     "frs": [
-     561982,
-     5346
+     462740,
+     3960
     ],
     "en": [
-     567728,
-     2706
+     467100,
+     2520
     ]
    }
   },
@@ -1083,28 +1116,29 @@
    "en": "She smelled of soap and onion.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s034_fr.mp3",
     "frs": "audio/s034_frs.mp3",
     "en": "audio/s034_en.mp3"
    },
    "ms": {
-    "fr": 3210,
-    "frs": 4578,
-    "en": 2514
+    "fr": 2360,
+    "frs": 3160,
+    "en": 2320
    },
    "bank": {
     "fr": [
-     570834,
-     3210
+     470020,
+     2360
     ],
     "frs": [
-     574444,
-     4578
+     472780,
+     3160
     ],
     "en": [
-     579422,
-     2514
+     476340,
+     2320
     ]
    }
   },
@@ -1113,28 +1147,29 @@
    "en": "She had hard hands, hands that worked.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s035_fr.mp3",
     "frs": "audio/s035_frs.mp3",
     "en": "audio/s035_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 6018,
-    "en": 3042
+    "fr": 3310,
+    "frs": 4570,
+    "en": 2850
    },
    "bank": {
     "fr": [
-     582336,
-     4170
+     479060,
+     3310
     ],
     "frs": [
-     586906,
-     6018
+     482770,
+     4570
     ],
     "en": [
-     593324,
-     3042
+     487740,
+     2850
     ]
    }
   },
@@ -1143,28 +1178,29 @@
    "en": "\"It's the garden,\" she would say.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s036_fr.mp3",
     "frs": "audio/s036_frs.mp3",
     "en": "audio/s036_en.mp3"
    },
    "ms": {
-    "fr": 3546,
-    "frs": 5058,
-    "en": 2346
+    "fr": 2620,
+    "frs": 3560,
+    "en": 2190
    },
    "bank": {
     "fr": [
-     596766,
-     3546
+     490990,
+     2620
     ],
     "frs": [
-     600712,
-     5058
+     494010,
+     3560
     ],
     "en": [
-     606170,
-     2346
+     497970,
+     2190
     ]
    }
   },
@@ -1173,28 +1209,29 @@
    "en": "While he worked, she made him tea,",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s037_fr.mp3",
     "frs": "audio/s037_frs.mp3",
     "en": "audio/s037_en.mp3"
    },
    "ms": {
-    "fr": 4194,
-    "frs": 6066,
-    "en": 2586
+    "fr": 3280,
+    "frs": 4530,
+    "en": 2450
    },
    "bank": {
     "fr": [
-     608916,
-     4194
+     500560,
+     3280
     ],
     "frs": [
-     613510,
-     6066
+     504240,
+     4530
     ],
     "en": [
-     619976,
-     2586
+     509170,
+     2450
     ]
    }
   },
@@ -1203,28 +1240,29 @@
    "en": "and they talked about music.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s038_fr.mp3",
     "frs": "audio/s038_frs.mp3",
     "en": "audio/s038_en.mp3"
    },
    "ms": {
-    "fr": 2898,
-    "frs": 4098,
-    "en": 2322
+    "fr": 2050,
+    "frs": 2690,
+    "en": 1840
    },
    "bank": {
     "fr": [
-     622962,
-     2898
+     512020,
+     2050
     ],
     "frs": [
-     626260,
-     4098
+     514470,
+     2690
     ],
     "en": [
-     630758,
-     2322
+     517559,
+     1840
     ]
    }
   },
@@ -1233,28 +1271,29 @@
    "en": "She knew everything: Chopin, Satie, Barbara.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s039_fr.mp3",
     "frs": "audio/s039_frs.mp3",
     "en": "audio/s039_en.mp3"
    },
    "ms": {
-    "fr": 5154,
-    "frs": 7482,
-    "en": 4362
+    "fr": 4240,
+    "frs": 5970,
+    "en": 4210
    },
    "bank": {
     "fr": [
-     633480,
-     5154
+     519799,
+     4240
     ],
     "frs": [
-     639034,
-     7482
+     524440,
+     5970
     ],
     "en": [
-     646916,
-     4362
+     530810,
+     4210
     ]
    }
   },
@@ -1263,28 +1302,29 @@
    "en": "But she never played.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s040_fr.mp3",
     "frs": "audio/s040_frs.mp3",
     "en": "audio/s040_en.mp3"
    },
    "ms": {
-    "fr": 2850,
-    "frs": 4026,
-    "en": 2322
+    "fr": 1980,
+    "frs": 2580,
+    "en": 1590
    },
    "bank": {
     "fr": [
-     651678,
-     2850
+     535420,
+     1980
     ],
     "frs": [
-     654928,
-     4026
+     537800,
+     2580
     ],
     "en": [
-     659354,
-     2322
+     540780,
+     1590
     ]
    }
   },
@@ -1293,28 +1333,29 @@
    "en": "\"I never learned,\" she would say.",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s041_fr.mp3",
     "frs": "audio/s041_frs.mp3",
     "en": "audio/s041_en.mp3"
    },
    "ms": {
-    "fr": 3834,
-    "frs": 5514,
-    "en": 2442
+    "fr": 2910,
+    "frs": 3980,
+    "en": 2270
    },
    "bank": {
     "fr": [
-     662076,
-     3834
+     542770,
+     2910
     ],
     "frs": [
-     666310,
-     5514
+     546080,
+     3980
     ],
     "en": [
-     672224,
-     2442
+     550460,
+     2270
     ]
    }
   },
@@ -1323,28 +1364,29 @@
    "en": "Last year, she had even asked him",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s042_fr.mp3",
     "frs": "audio/s042_frs.mp3",
     "en": "audio/s042_en.mp3"
    },
    "ms": {
-    "fr": 4314,
-    "frs": 6210,
-    "en": 2658
+    "fr": 3370,
+    "frs": 4670,
+    "en": 2480
    },
    "bank": {
     "fr": [
-     675066,
-     4314
+     553130,
+     3370
     ],
     "frs": [
-     679780,
-     6210
+     556900,
+     4670
     ],
     "en": [
-     686390,
-     2658
+     561970,
+     2480
     ]
    }
   },
@@ -1353,28 +1395,29 @@
    "en": "to teach her the braille alphabet, \"for fun.\"",
    "para": 7,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s043_fr.mp3",
     "frs": "audio/s043_frs.mp3",
     "en": "audio/s043_en.mp3"
    },
    "ms": {
-    "fr": 4602,
-    "frs": 6666,
-    "en": 3234
+    "fr": 3720,
+    "frs": 5180,
+    "en": 3060
    },
    "bank": {
     "fr": [
-     689448,
-     4602
+     564850,
+     3720
     ],
     "frs": [
-     694450,
-     6666
+     568970,
+     5180
     ],
     "en": [
-     701516,
-     3234
+     574550,
+     3060
     ]
    }
   },
@@ -1388,6 +1431,7 @@
      "en": "hoarse, husky"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s044_fr.mp3",
     "frs": "audio/s044_frs.mp3",
@@ -1395,27 +1439,27 @@
     "gl": "audio/s044_gl.mp3"
    },
    "ms": {
-    "fr": 3906,
-    "frs": 5586,
-    "en": 2826,
-    "gl": 5546
+    "fr": 3010,
+    "frs": 4110,
+    "en": 2660,
+    "gl": 3340
    },
    "bank": {
     "fr": [
-     705150,
-     3906
+     578010,
+     3010
     ],
     "frs": [
-     709456,
-     5586
+     581420,
+     4110
     ],
     "en": [
-     715442,
-     2826
+     585930,
+     2660
     ],
     "gl": [
-     718668,
-     5546
+     588990,
+     3340
     ]
    }
   },
@@ -1429,6 +1473,7 @@
      "en": "a musical scale"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s045_fr.mp3",
     "frs": "audio/s045_frs.mp3",
@@ -1436,27 +1481,27 @@
     "gl": "audio/s045_gl.mp3"
    },
    "ms": {
-    "fr": 3426,
-    "frs": 4866,
-    "en": 2538,
-    "gl": 5714
+    "fr": 2580,
+    "frs": 3480,
+    "en": 2370,
+    "gl": 3610
    },
    "bank": {
     "fr": [
-     724614,
-     3426
+     592730,
+     2580
     ],
     "frs": [
-     728440,
-     4866
+     595710,
+     3480
     ],
     "en": [
-     733706,
-     2538
+     599590,
+     2370
     ],
     "gl": [
-     736644,
-     5714
+     602360,
+     3610
     ]
    }
   },
@@ -1465,28 +1510,29 @@
    "en": "Lucien had never told anyone,",
    "para": 8,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s046_fr.mp3",
     "frs": "audio/s046_frs.mp3",
     "en": "audio/s046_en.mp3"
    },
    "ms": {
-    "fr": 3666,
-    "frs": 5274,
-    "en": 2490
+    "fr": 2770,
+    "frs": 3770,
+    "en": 2330
    },
    "bank": {
     "fr": [
-     742758,
-     3666
+     606370,
+     2770
     ],
     "frs": [
-     746824,
-     5274
+     609540,
+     3770
     ],
     "en": [
-     752498,
-     2490
+     613710,
+     2330
     ]
    }
   },
@@ -1495,28 +1541,29 @@
    "en": "but for him, the year began on the first Thursday of November.",
    "para": 8,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s047_fr.mp3",
     "frs": "audio/s047_frs.mp3",
     "en": "audio/s047_en.mp3"
    },
    "ms": {
-    "fr": 5034,
-    "frs": 7314,
-    "en": 4218
+    "fr": 4190,
+    "frs": 5900,
+    "en": 4040
    },
    "bank": {
     "fr": [
-     755388,
-     5034
+     616440,
+     4190
     ],
     "frs": [
-     760822,
-     7314
+     621030,
+     5900
     ],
     "en": [
-     768536,
-     4218
+     627330,
+     4040
     ]
    }
   },
@@ -1525,28 +1572,29 @@
    "en": "This time, it wasn't her who opened the door.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s048_fr.mp3",
     "frs": "audio/s048_frs.mp3",
     "en": "audio/s048_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 5994,
-    "en": 3282
+    "fr": 3260,
+    "frs": 4500,
+    "en": 3090
    },
    "bank": {
     "fr": [
-     773154,
-     4170
+     631770,
+     3260
     ],
     "frs": [
-     777724,
-     5994
+     635430,
+     4500
     ],
     "en": [
-     784118,
-     3282
+     640330,
+     3090
     ]
    }
   },
@@ -1555,28 +1603,29 @@
    "en": "It was a man, and he opened the big front door, not the kitchen one.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s049_fr.mp3",
     "frs": "audio/s049_frs.mp3",
     "en": "audio/s049_en.mp3"
    },
    "ms": {
-    "fr": 5946,
-    "frs": 8658,
-    "en": 4770
+    "fr": 5070,
+    "frs": 7240,
+    "en": 4620
    },
    "bank": {
     "fr": [
-     787800,
-     5946
+     643820,
+     5070
     ],
     "frs": [
-     794146,
-     8658
+     649290,
+     7240
     ],
     "en": [
-     803204,
-     4770
+     656930,
+     4620
     ]
    }
   },
@@ -1585,28 +1634,29 @@
    "en": "The house smelled of fresh paint.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s050_fr.mp3",
     "frs": "audio/s050_frs.mp3",
     "en": "audio/s050_en.mp3"
    },
    "ms": {
-    "fr": 3666,
-    "frs": 5250,
-    "en": 2562
+    "fr": 2780,
+    "frs": 3790,
+    "en": 2400
    },
    "bank": {
     "fr": [
-     808374,
-     3666
+     661950,
+     2780
     ],
     "frs": [
-     812440,
-     5250
+     665130,
+     3790
     ],
     "en": [
-     818090,
-     2562
+     669320,
+     2400
     ]
    }
   },
@@ -1615,28 +1665,29 @@
    "en": "And something was missing.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s051_fr.mp3",
     "frs": "audio/s051_frs.mp3",
     "en": "audio/s051_en.mp3"
    },
    "ms": {
-    "fr": 2826,
-    "frs": 3978,
-    "en": 2322
+    "fr": 1970,
+    "frs": 2580,
+    "en": 1610
    },
    "bank": {
     "fr": [
-     821052,
-     2826
+     672120,
+     1970
     ],
     "frs": [
-     824278,
-     3978
+     674490,
+     2580
     ],
     "en": [
-     828656,
-     2322
+     677470,
+     1610
     ]
    }
   },
@@ -1645,28 +1696,29 @@
    "en": "In the entrance, there had always been an old clock,",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s052_fr.mp3",
     "frs": "audio/s052_frs.mp3",
     "en": "audio/s052_en.mp3"
    },
    "ms": {
-    "fr": 4650,
-    "frs": 6714,
-    "en": 3690
+    "fr": 3750,
+    "frs": 5250,
+    "en": 3500
    },
    "bank": {
     "fr": [
-     831378,
-     4650
+     679480,
+     3750
     ],
     "frs": [
-     836428,
-     6714
+     683630,
+     5250
     ],
     "en": [
-     843542,
-     3690
+     689280,
+     3500
     ]
    }
   },
@@ -1675,28 +1727,29 @@
    "en": "a slow, calm tick-tock, for twenty years.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s053_fr.mp3",
     "frs": "audio/s053_frs.mp3",
     "en": "audio/s053_en.mp3"
    },
    "ms": {
-    "fr": 4554,
-    "frs": 6594,
-    "en": 3570
+    "fr": 3680,
+    "frs": 5140,
+    "en": 3400
    },
    "bank": {
     "fr": [
-     847632,
-     4554
+     693180,
+     3680
     ],
     "frs": [
-     852586,
-     6594
+     697260,
+     5140
     ],
     "en": [
-     859580,
-     3570
+     702800,
+     3400
     ]
    }
   },
@@ -1705,28 +1758,29 @@
    "en": "Today, nothing. Silence.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s054_fr.mp3",
     "frs": "audio/s054_frs.mp3",
     "en": "audio/s054_en.mp3"
    },
    "ms": {
-    "fr": 4866,
-    "frs": 7026,
-    "en": 2490
+    "fr": 3990,
+    "frs": 5580,
+    "en": 2300
    },
    "bank": {
     "fr": [
-     863550,
-     4866
+     706600,
+     3990
     ],
     "frs": [
-     868816,
-     7026
+     710990,
+     5580
     ],
     "en": [
-     876242,
-     2490
+     716970,
+     2300
     ]
    }
   },
@@ -1735,28 +1789,29 @@
    "en": "\"Where is the clock?\" asked Lucien.",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s055_fr.mp3",
     "frs": "audio/s055_frs.mp3",
     "en": "audio/s055_en.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "frs": 5442,
-    "en": 2730
+    "fr": 2900,
+    "frs": 3960,
+    "en": 2500
    },
    "bank": {
     "fr": [
-     879132,
-     3810
+     719670,
+     2900
     ],
     "frs": [
-     883342,
-     5442
+     722970,
+     3960
     ],
     "en": [
-     889184,
-     2730
+     727330,
+     2500
     ]
    }
   },
@@ -1765,28 +1820,29 @@
    "en": "\"Sold yesterday,\" said Gérard. \"A very good price.\"",
    "para": 9,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s056_fr.mp3",
     "frs": "audio/s056_frs.mp3",
     "en": "audio/s056_en.mp3"
    },
    "ms": {
-    "fr": 5730,
-    "frs": 8346,
-    "en": 4146
+    "fr": 4820,
+    "frs": 6840,
+    "en": 3820
    },
    "bank": {
     "fr": [
-     892314,
-     5730
+     730230,
+     4820
     ],
     "frs": [
-     898444,
-     8346
+     735450,
+     6840
     ],
     "en": [
-     907190,
-     4146
+     742690,
+     3820
     ]
    }
   },
@@ -1800,6 +1856,7 @@
      "en": "the nephew"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s057_fr.mp3",
     "frs": "audio/s057_frs.mp3",
@@ -1807,27 +1864,27 @@
     "gl": "audio/s057_gl.mp3"
    },
    "ms": {
-    "fr": 5586,
-    "frs": 8130,
-    "en": 3930,
-    "gl": 5738
+    "fr": 4660,
+    "frs": 6630,
+    "en": 3770,
+    "gl": 3200
    },
    "bank": {
     "fr": [
-     911736,
-     5586
+     746910,
+     4660
     ],
     "frs": [
-     917722,
-     8130
+     751970,
+     6630
     ],
     "en": [
-     926252,
-     3930
+     759000,
+     3770
     ],
     "gl": [
-     930582,
-     5738
+     763170,
+     3200
     ]
    }
   },
@@ -1841,6 +1898,7 @@
      "en": "cardboard boxes"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s058_fr.mp3",
     "frs": "audio/s058_frs.mp3",
@@ -1848,27 +1906,27 @@
     "gl": "audio/s058_gl.mp3"
    },
    "ms": {
-    "fr": 6306,
-    "frs": 9210,
-    "en": 4098,
-    "gl": 5690
+    "fr": 5460,
+    "frs": 7800,
+    "en": 3900,
+    "gl": 3580
    },
    "bank": {
     "fr": [
-     936720,
-     6306
+     766770,
+     5460
     ],
     "frs": [
-     943426,
-     9210
+     772630,
+     7800
     ],
     "en": [
-     953036,
-     4098
+     780830,
+     3900
     ],
     "gl": [
-     957534,
-     5690
+     785130,
+     3580
     ]
    }
   },
@@ -1877,28 +1935,29 @@
    "en": "\"Where is Madame Vasseur?\" asked Lucien.",
    "para": 10,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s059_fr.mp3",
     "frs": "audio/s059_frs.mp3",
     "en": "audio/s059_en.mp3"
    },
    "ms": {
-    "fr": 4218,
-    "frs": 6042,
-    "en": 3282
+    "fr": 3300,
+    "frs": 4570,
+    "en": 3060
    },
    "bank": {
     "fr": [
-     963624,
-     4218
+     789110,
+     3300
     ],
     "frs": [
-     968242,
-     6042
+     792810,
+     4570
     ],
     "en": [
-     974684,
-     3282
+     797780,
+     3060
     ]
    }
   },
@@ -1907,28 +1966,29 @@
    "en": "\"My aunt is upstairs. She's resting.\"",
    "para": 10,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s060_fr.mp3",
     "frs": "audio/s060_frs.mp3",
     "en": "audio/s060_en.mp3"
    },
    "ms": {
-    "fr": 4626,
-    "frs": 6690,
-    "en": 3066
+    "fr": 3770,
+    "frs": 5270,
+    "en": 2860
    },
    "bank": {
     "fr": [
-     978366,
-     4626
+     801240,
+     3770
     ],
     "frs": [
-     983392,
-     6690
+     805410,
+     5270
     ],
     "en": [
-     990482,
-     3066
+     811080,
+     2860
     ]
    }
   },
@@ -1937,28 +1997,29 @@
    "en": "\"And the tea?\"",
    "para": 10,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s061_fr.mp3",
     "frs": "audio/s061_frs.mp3",
     "en": "audio/s061_en.mp3"
    },
    "ms": {
-    "fr": 2322,
-    "frs": 2994,
-    "en": 2322
+    "fr": 1230,
+    "frs": 1470,
+    "en": 1260
    },
    "bank": {
     "fr": [
-     993948,
-     2322
+     814340,
+     1230
     ],
     "frs": [
-     996670,
-     2994
+     815970,
+     1470
     ],
     "en": [
-     1000064,
-     2322
+     817840,
+     1260
     ]
    }
   },
@@ -1967,28 +2028,29 @@
    "en": "Gérard seemed surprised.",
    "para": 10,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s062_fr.mp3",
     "frs": "audio/s062_frs.mp3",
     "en": "audio/s062_en.mp3"
    },
    "ms": {
-    "fr": 3210,
-    "frs": 4578,
-    "en": 2154
+    "fr": 2310,
+    "frs": 3090,
+    "en": 1980
    },
    "bank": {
     "fr": [
-     1002786,
-     3210
+     819500,
+     2310
     ],
     "frs": [
-     1006396,
-     4578
+     822210,
+     3090
     ],
     "en": [
-     1011374,
-     2154
+     825700,
+     1980
     ]
    }
   },
@@ -1997,28 +2059,29 @@
    "en": "\"Tea? I only have coffee. And it's cold.",
    "para": 10,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s063_fr.mp3",
     "frs": "audio/s063_frs.mp3",
     "en": "audio/s063_en.mp3"
    },
    "ms": {
-    "fr": 6234,
-    "frs": 9090,
-    "en": 3378
+    "fr": 5310,
+    "frs": 7580,
+    "en": 3190
    },
    "bank": {
     "fr": [
-     1013928,
-     6234
+     828080,
+     5310
     ],
     "frs": [
-     1020562,
-     9090
+     833790,
+     7580
     ],
     "en": [
-     1030051,
-     3378
+     841770,
+     3190
     ]
    }
   },
@@ -2032,6 +2095,7 @@
      "en": "the maid"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s064_fr.mp3",
     "frs": "audio/s064_frs.mp3",
@@ -2039,27 +2103,27 @@
     "gl": "audio/s064_gl.mp3"
    },
    "ms": {
-    "fr": 3090,
-    "frs": 4362,
-    "en": 2346,
-    "gl": 4730
+    "fr": 2240,
+    "frs": 2980,
+    "en": 2150,
+    "gl": 3180
    },
    "bank": {
     "fr": [
-     1033829,
-     3090
+     845360,
+     2240
     ],
     "frs": [
-     1037319,
-     4362
+     848000,
+     2980
     ],
     "en": [
-     1042082,
-     2346
+     851380,
+     2150
     ],
     "gl": [
-     1044828,
-     4730
+     853930,
+     3180
     ]
    }
   },
@@ -2073,6 +2137,7 @@
      "en": "I fired her"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s065_fr.mp3",
     "frs": "audio/s065_frs.mp3",
@@ -2080,27 +2145,27 @@
     "gl": "audio/s065_gl.mp3"
    },
    "ms": {
-    "fr": 5322,
-    "frs": 7722,
-    "en": 3378,
-    "gl": 6458
+    "fr": 4470,
+    "frs": 6310,
+    "en": 3180,
+    "gl": 4010
    },
    "bank": {
     "fr": [
-     1049958,
-     5322
+     857510,
+     4470
     ],
     "frs": [
-     1055680,
-     7722
+     862380,
+     6310
     ],
     "en": [
-     1063802,
-     3378
+     869090,
+     3180
     ],
     "gl": [
-     1067580,
-     6458
+     872670,
+     4010
     ]
    }
   },
@@ -2109,28 +2174,29 @@
    "en": "Lucien wasn't interested in maids.",
    "para": 11,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s066_fr.mp3",
     "frs": "audio/s066_frs.mp3",
     "en": "audio/s066_en.mp3"
    },
    "ms": {
-    "fr": 3546,
-    "frs": 5082,
-    "en": 2754
+    "fr": 2650,
+    "frs": 3600,
+    "en": 2570
    },
    "bank": {
     "fr": [
-     1074438,
-     3546
+     877080,
+     2650
     ],
     "frs": [
-     1078384,
-     5082
+     880130,
+     3600
     ],
     "en": [
-     1083866,
-     2754
+     884130,
+     2570
     ]
    }
   },
@@ -2139,28 +2205,29 @@
    "en": "He was interested in the piano.",
    "para": 11,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s067_fr.mp3",
     "frs": "audio/s067_frs.mp3",
     "en": "audio/s067_en.mp3"
    },
    "ms": {
-    "fr": 3042,
-    "frs": 4314,
-    "en": 2250
+    "fr": 2180,
+    "frs": 2880,
+    "en": 2080
    },
    "bank": {
     "fr": [
-     1087020,
-     3042
+     887100,
+     2180
     ],
     "frs": [
-     1090462,
-     4314
+     889680,
+     2880
     ],
     "en": [
-     1095176,
-     2250
+     892960,
+     2080
     ]
    }
   },
@@ -2174,6 +2241,7 @@
      "en": "a buyer"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s068_fr.mp3",
     "frs": "audio/s068_frs.mp3",
@@ -2181,27 +2249,27 @@
     "gl": "audio/s068_gl.mp3"
    },
    "ms": {
-    "fr": 6186,
-    "frs": 9042,
-    "en": 4050,
-    "gl": 5978
+    "fr": 5280,
+    "frs": 7550,
+    "en": 3880,
+    "gl": 3450
    },
    "bank": {
     "fr": [
-     1097826,
-     6186
+     895440,
+     5280
     ],
     "frs": [
-     1104412,
-     9042
+     901120,
+     7550
     ],
     "en": [
-     1113854,
-     4050
+     909070,
+     3880
     ],
     "gl": [
-     1118304,
-     5978
+     913350,
+     3450
     ]
    }
   },
@@ -2210,28 +2278,29 @@
    "en": "\"You're selling the piano?\"",
    "para": 11,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s069_fr.mp3",
     "frs": "audio/s069_frs.mp3",
     "en": "audio/s069_en.mp3"
    },
    "ms": {
-    "fr": 2706,
-    "frs": 3810,
-    "en": 2322
+    "fr": 1780,
+    "frs": 2280,
+    "en": 1690
    },
    "bank": {
     "fr": [
-     1124682,
-     2706
+     917200,
+     1780
     ],
     "frs": [
-     1127788,
-     3810
+     919380,
+     2280
     ],
     "en": [
-     1131998,
-     2322
+     922060,
+     1690
     ]
    }
   },
@@ -2240,28 +2309,29 @@
    "en": "\"The piano, the house, everything.\"",
    "para": 11,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s070_fr.mp3",
     "frs": "audio/s070_frs.mp3",
     "en": "audio/s070_en.mp3"
    },
    "ms": {
-    "fr": 3714,
-    "frs": 5322,
-    "en": 3018
+    "fr": 2870,
+    "frs": 3920,
+    "en": 2620
    },
    "bank": {
     "fr": [
-     1134720,
-     3714
+     924150,
+     2870
     ],
     "frs": [
-     1138834,
-     5322
+     927420,
+     3920
     ],
     "en": [
-     1144556,
-     3018
+     931740,
+     2620
     ]
    }
   },
@@ -2270,28 +2340,29 @@
    "en": "Lucien opened the Pleyel and played a few notes.",
    "para": 12,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s071_fr.mp3",
     "frs": "audio/s071_frs.mp3",
     "en": "audio/s071_en.mp3"
    },
    "ms": {
-    "fr": 4578,
-    "frs": 6618,
-    "en": 3498
+    "fr": 3740,
+    "frs": 5230,
+    "en": 3330
    },
    "bank": {
     "fr": [
-     1147974,
-     4578
+     934760,
+     3740
     ],
     "frs": [
-     1152952,
-     6618
+     938900,
+     5230
     ],
     "en": [
-     1159970,
-     3498
+     944530,
+     3330
     ]
    }
   },
@@ -2300,28 +2371,29 @@
    "en": "The low C didn't ring.",
    "para": 12,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s072_fr.mp3",
     "frs": "audio/s072_frs.mp3",
     "en": "audio/s072_en.mp3"
    },
    "ms": {
-    "fr": 3018,
-    "frs": 4290,
-    "en": 2322
+    "fr": 2220,
+    "frs": 2930,
+    "en": 1760
    },
    "bank": {
     "fr": [
-     1163868,
-     3018
+     948260,
+     2220
     ],
     "frs": [
-     1167286,
-     4290
+     950880,
+     2930
     ],
     "en": [
-     1171976,
-     2322
+     954210,
+     1760
     ]
    }
   },
@@ -2335,6 +2407,7 @@
      "en": "muffled"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s073_fr.mp3",
     "frs": "audio/s073_frs.mp3",
@@ -2342,27 +2415,27 @@
     "gl": "audio/s073_gl.mp3"
    },
    "ms": {
-    "fr": 3042,
-    "frs": 4314,
-    "en": 2322,
-    "gl": 5810
+    "fr": 2090,
+    "frs": 2760,
+    "en": 1860,
+    "gl": 3140
    },
    "bank": {
     "fr": [
-     1174698,
-     3042
+     956370,
+     2090
     ],
     "frs": [
-     1178140,
-     4314
+     958860,
+     2760
     ],
     "en": [
-     1182854,
-     2322
+     962020,
+     1860
     ],
     "gl": [
-     1185576,
-     5810
+     964280,
+     3140
     ]
    }
   },
@@ -2376,6 +2449,7 @@
      "en": "a handkerchief"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s074_fr.mp3",
     "frs": "audio/s074_frs.mp3",
@@ -2383,27 +2457,27 @@
     "gl": "audio/s074_gl.mp3"
    },
    "ms": {
-    "fr": 3618,
-    "frs": 5154,
-    "en": 2706,
-    "gl": 6194
+    "fr": 2710,
+    "frs": 3690,
+    "en": 2540,
+    "gl": 3790
    },
    "bank": {
     "fr": [
-     1191786,
-     3618
+     967820,
+     2710
     ],
     "frs": [
-     1195804,
-     5154
+     970930,
+     3690
     ],
     "en": [
-     1201358,
-     2706
+     975020,
+     2540
     ],
     "gl": [
-     1204464,
-     6194
+     977960,
+     3790
     ]
    }
   },
@@ -2412,28 +2486,29 @@
    "en": "Brahms raised his head.",
    "para": 12,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s075_fr.mp3",
     "frs": "audio/s075_frs.mp3",
     "en": "audio/s075_en.mp3"
    },
    "ms": {
-    "fr": 3090,
-    "frs": 4362,
-    "en": 2322
+    "fr": 2180,
+    "frs": 2890,
+    "en": 1800
    },
    "bank": {
     "fr": [
-     1211058,
-     3090
+     982150,
+     2180
     ],
     "frs": [
-     1214548,
-     4362
+     984730,
+     2890
     ],
     "en": [
-     1219310,
-     2322
+     988020,
+     1800
     ]
    }
   },
@@ -2442,28 +2517,29 @@
    "en": "Lucien slid his hand under the strings.",
    "para": 12,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s076_fr.mp3",
     "frs": "audio/s076_frs.mp3",
     "en": "audio/s076_en.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "frs": 5466,
-    "en": 3114
+    "fr": 2910,
+    "frs": 4000,
+    "en": 2930
    },
    "bank": {
     "fr": [
-     1222032,
-     3810
+     990220,
+     2910
     ],
     "frs": [
-     1226242,
-     5466
+     993530,
+     4000
     ],
     "en": [
-     1232108,
-     3114
+     997930,
+     2930
     ]
    }
   },
@@ -2472,28 +2548,29 @@
    "en": "And he found the paper.",
    "para": 12,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s077_fr.mp3",
     "frs": "audio/s077_frs.mp3",
     "en": "audio/s077_en.mp3"
    },
    "ms": {
-    "fr": 2922,
-    "frs": 4146,
-    "en": 2322
+    "fr": 2020,
+    "frs": 2660,
+    "en": 1620
    },
    "bank": {
     "fr": [
-     1235622,
-     2922
+     1001260,
+     2020
     ],
     "frs": [
-     1238944,
-     4146
+     1003680,
+     2660
     ],
     "en": [
-     1243490,
-     2322
+     1006740,
+     1620
     ]
    }
   },
@@ -2502,28 +2579,29 @@
    "en": "The footsteps in the hallway were Gérard's.",
    "para": 13,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s078_fr.mp3",
     "frs": "audio/s078_frs.mp3",
     "en": "audio/s078_en.mp3"
    },
    "ms": {
-    "fr": 4194,
-    "frs": 6042,
-    "en": 3042
+    "fr": 3300,
+    "frs": 4570,
+    "en": 2850
    },
    "bank": {
     "fr": [
-     1246212,
-     4194
+     1008760,
+     3300
     ],
     "frs": [
-     1250806,
-     6042
+     1012460,
+     4570
     ],
     "en": [
-     1257248,
-     3042
+     1017430,
+     2850
     ]
    }
   },
@@ -2532,28 +2610,29 @@
    "en": "\"My aunt wants to say hello. Come.\"",
    "para": 13,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s079_fr.mp3",
     "frs": "audio/s079_frs.mp3",
     "en": "audio/s079_en.mp3"
    },
    "ms": {
-    "fr": 4866,
-    "frs": 7050,
-    "en": 2706
+    "fr": 3910,
+    "frs": 5510,
+    "en": 2520
    },
    "bank": {
     "fr": [
-     1260690,
-     4866
+     1020680,
+     3910
     ],
     "frs": [
-     1265956,
-     7050
+     1024990,
+     5510
     ],
     "en": [
-     1273406,
-     2706
+     1030900,
+     2520
     ]
    }
   },
@@ -2562,28 +2641,29 @@
    "en": "The bedroom, upstairs, smelled of lavender and medicine.",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s080_fr.mp3",
     "frs": "audio/s080_frs.mp3",
     "en": "audio/s080_en.mp3"
    },
    "ms": {
-    "fr": 4962,
-    "frs": 7194,
-    "en": 4530
+    "fr": 4059,
+    "frs": 5710,
+    "en": 4320
    },
    "bank": {
     "fr": [
-     1276512,
-     4962
+     1033819,
+     4059
     ],
     "frs": [
-     1281874,
-     7194
+     1038280,
+     5710
     ],
     "en": [
-     1289468,
-     4530
+     1044390,
+     4320
     ]
    }
   },
@@ -2592,28 +2672,29 @@
    "en": "A very thin, very tired voice said:",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s081_fr.mp3",
     "frs": "audio/s081_frs.mp3",
     "en": "audio/s081_en.mp3"
    },
    "ms": {
-    "fr": 4506,
-    "frs": 6498,
-    "en": 3330
+    "fr": 3580,
+    "frs": 4970,
+    "en": 3160
    },
    "bank": {
     "fr": [
-     1294398,
-     4506
+     1049110,
+     3580
     ],
     "frs": [
-     1299304,
-     6498
+     1053090,
+     4970
     ],
     "en": [
-     1306202,
-     3330
+     1058460,
+     3160
     ]
    }
   },
@@ -2622,28 +2703,29 @@
    "en": "\"Hello, Monsieur. Is it you, for the piano?",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s082_fr.mp3",
     "frs": "audio/s082_frs.mp3",
     "en": "audio/s082_en.mp3"
    },
    "ms": {
-    "fr": 5658,
-    "frs": 8226,
-    "en": 3042
+    "fr": 4790,
+    "frs": 6780,
+    "en": 2870
    },
    "bank": {
     "fr": [
-     1309932,
-     5658
+     1062020,
+     4790
     ],
     "frs": [
-     1315990,
-     8226
+     1067210,
+     6780
     ],
     "en": [
-     1324616,
-     3042
+     1074390,
+     2870
     ]
    }
   },
@@ -2652,28 +2734,29 @@
    "en": "I don't go downstairs anymore, but I can hear it from here.\"",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s083_fr.mp3",
     "frs": "audio/s083_frs.mp3",
     "en": "audio/s083_en.mp3"
    },
    "ms": {
-    "fr": 4266,
-    "frs": 6138,
-    "en": 3858
+    "fr": 3320,
+    "frs": 4610,
+    "en": 3650
    },
    "bank": {
     "fr": [
-     1328058,
-     4266
+     1077660,
+     3320
     ],
     "frs": [
-     1332724,
-     6138
+     1081380,
+     4610
     ],
     "en": [
-     1339262,
-     3858
+     1086390,
+     3650
     ]
    }
   },
@@ -2682,28 +2765,29 @@
    "en": "\"Madame Vasseur?\" said Lucien.",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s084_fr.mp3",
     "frs": "audio/s084_frs.mp3",
     "en": "audio/s084_en.mp3"
    },
    "ms": {
-    "fr": 3786,
-    "frs": 5418,
-    "en": 2730
+    "fr": 2850,
+    "frs": 3880,
+    "en": 2570
    },
    "bank": {
     "fr": [
-     1343520,
-     3786
+     1090440,
+     2850
     ],
     "frs": [
-     1347706,
-     5418
+     1093690,
+     3880
     ],
     "en": [
-     1353524,
-     2730
+     1097970,
+     2570
     ]
    }
   },
@@ -2712,28 +2796,29 @@
    "en": "\"Yes?\"",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s085_fr.mp3",
     "frs": "audio/s085_frs.mp3",
     "en": "audio/s085_en.mp3"
    },
    "ms": {
-    "fr": 2322,
-    "frs": 2634,
-    "en": 2322
+    "fr": 1010,
+    "frs": 1140,
+    "en": 1160
    },
    "bank": {
     "fr": [
-     1356654,
-     2322
+     1100940,
+     1010
     ],
     "frs": [
-     1359376,
-     2634
+     1102350,
+     1140
     ],
     "en": [
-     1362410,
-     2322
+     1103890,
+     1160
     ]
    }
   },
@@ -2742,28 +2827,29 @@
    "en": "\"It's me. Lucien. Thursdays. The tea.\"",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s086_fr.mp3",
     "frs": "audio/s086_frs.mp3",
     "en": "audio/s086_en.mp3"
    },
    "ms": {
-    "fr": 7194,
-    "frs": 10530,
-    "en": 3906
+    "fr": 6290,
+    "frs": 9060,
+    "en": 3730
    },
    "bank": {
     "fr": [
-     1365132,
-     7194
+     1105450,
+     6290
     ],
     "frs": [
-     1372726,
-     10530
+     1112140,
+     9060
     ],
     "en": [
-     1383656,
-     3906
+     1121600,
+     3730
     ]
    }
   },
@@ -2772,28 +2858,29 @@
    "en": "There was a silence.",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s087_fr.mp3",
     "frs": "audio/s087_frs.mp3",
     "en": "audio/s087_en.mp3"
    },
    "ms": {
-    "fr": 2970,
-    "frs": 4194,
-    "en": 2322
+    "fr": 2080,
+    "frs": 2710,
+    "en": 1580
    },
    "bank": {
     "fr": [
-     1387962,
-     2970
+     1125730,
+     2080
     ],
     "frs": [
-     1391332,
-     4194
+     1128210,
+     2710
     ],
     "en": [
-     1395926,
-     2322
+     1131320,
+     1580
     ]
    }
   },
@@ -2802,28 +2889,29 @@
    "en": "\"I'm sorry, Monsieur. I don't know you.\"",
    "para": 14,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s088_fr.mp3",
     "frs": "audio/s088_frs.mp3",
     "en": "audio/s088_en.mp3"
    },
    "ms": {
-    "fr": 5466,
-    "frs": 7962,
-    "en": 2826
+    "fr": 4650,
+    "frs": 6600,
+    "en": 2660
    },
    "bank": {
     "fr": [
-     1398648,
-     5466
+     1133300,
+     4650
     ],
     "frs": [
-     1404514,
-     7962
+     1138350,
+     6600
     ],
     "en": [
-     1412876,
-     2826
+     1145350,
+     2660
     ]
    }
   },
@@ -2832,28 +2920,29 @@
    "en": "It wasn't her voice.",
    "para": 15,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s089_fr.mp3",
     "frs": "audio/s089_frs.mp3",
     "en": "audio/s089_en.mp3"
    },
    "ms": {
-    "fr": 2802,
-    "frs": 3954,
-    "en": 2322
+    "fr": 1930,
+    "frs": 2500,
+    "en": 1720
    },
    "bank": {
     "fr": [
-     1416102,
-     2802
+     1148410,
+     1930
     ],
     "frs": [
-     1419304,
-     3954
+     1150740,
+     2500
     ],
     "en": [
-     1423658,
-     2322
+     1153640,
+     1720
     ]
    }
   },
@@ -2862,28 +2951,29 @@
    "en": "Not low, not husky. No laugh.",
    "para": 15,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s090_fr.mp3",
     "frs": "audio/s090_frs.mp3",
     "en": "audio/s090_en.mp3"
    },
    "ms": {
-    "fr": 5034,
-    "frs": 7314,
-    "en": 3066
+    "fr": 4150,
+    "frs": 5820,
+    "en": 2840
    },
    "bank": {
     "fr": [
-     1426380,
-     5034
+     1155760,
+     4150
     ],
     "frs": [
-     1431814,
-     7314
+     1160310,
+     5820
     ],
     "en": [
-     1439528,
-     3066
+     1166530,
+     2840
     ]
    }
   },
@@ -2892,28 +2982,29 @@
    "en": "It was the voice of a very old woman.",
    "para": 15,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s091_fr.mp3",
     "frs": "audio/s091_frs.mp3",
     "en": "audio/s091_en.mp3"
    },
    "ms": {
-    "fr": 3474,
-    "frs": 4938,
-    "en": 2706
+    "fr": 2610,
+    "frs": 3530,
+    "en": 2540
    },
    "bank": {
     "fr": [
-     1442994,
-     3474
+     1169770,
+     2610
     ],
     "frs": [
-     1446868,
-     4938
+     1172780,
+     3530
     ],
     "en": [
-     1452206,
-     2706
+     1176710,
+     2540
     ]
    }
   },
@@ -2922,28 +3013,29 @@
    "en": "On the stairs, Lucien asked:",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s092_fr.mp3",
     "frs": "audio/s092_frs.mp3",
     "en": "audio/s092_en.mp3"
    },
    "ms": {
-    "fr": 4098,
-    "frs": 5898,
-    "en": 2682
+    "fr": 3140,
+    "frs": 4330,
+    "en": 2500
    },
    "bank": {
     "fr": [
-     1455312,
-     4098
+     1179650,
+     3140
     ],
     "frs": [
-     1459810,
-     5898
+     1183190,
+     4330
     ],
     "en": [
-     1466108,
-     2682
+     1187920,
+     2500
     ]
    }
   },
@@ -2952,28 +3044,29 @@
    "en": "\"How old is your aunt?\"",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s093_fr.mp3",
     "frs": "audio/s093_frs.mp3",
     "en": "audio/s093_en.mp3"
    },
    "ms": {
-    "fr": 2850,
-    "frs": 4026,
-    "en": 2322
+    "fr": 1970,
+    "frs": 2570,
+    "en": 1680
    },
    "bank": {
     "fr": [
-     1469190,
-     2850
+     1190820,
+     1970
     ],
     "frs": [
-     1472440,
-     4026
+     1193190,
+     2570
     ],
     "en": [
-     1476866,
-     2322
+     1196160,
+     1680
     ]
    }
   },
@@ -2982,28 +3075,29 @@
    "en": "\"Ninety-one.\"",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s094_fr.mp3",
     "frs": "audio/s094_frs.mp3",
     "en": "audio/s094_en.mp3"
    },
    "ms": {
-    "fr": 2514,
-    "frs": 3522,
-    "en": 2322
+    "fr": 1630,
+    "frs": 2060,
+    "en": 1390
    },
    "bank": {
     "fr": [
-     1479588,
-     2514
+     1198240,
+     1630
     ],
     "frs": [
-     1482502,
-     3522
+     1200270,
+     2060
     ],
     "en": [
-     1486424,
-     2322
+     1202730,
+     1390
     ]
    }
   },
@@ -3012,28 +3106,29 @@
    "en": "Impossible.",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s095_fr.mp3",
     "frs": "audio/s095_frs.mp3",
     "en": "audio/s095_en.mp3"
    },
    "ms": {
-    "fr": 2418,
-    "frs": 3354,
-    "en": 2322
+    "fr": 1520,
+    "frs": 1900,
+    "en": 1380
    },
    "bank": {
     "fr": [
-     1489146,
-     2418
+     1204520,
+     1520
     ],
     "frs": [
-     1491964,
-     3354
+     1206440,
+     1900
     ],
     "en": [
-     1495718,
-     2322
+     1208740,
+     1380
     ]
    }
   },
@@ -3042,28 +3137,29 @@
    "en": "Madame Vasseur was sixty, maybe less.",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s096_fr.mp3",
     "frs": "audio/s096_frs.mp3",
     "en": "audio/s096_en.mp3"
    },
    "ms": {
-    "fr": 4530,
-    "frs": 6522,
-    "en": 3330
+    "fr": 3620,
+    "frs": 5050,
+    "en": 3130
    },
    "bank": {
     "fr": [
-     1498440,
-     4530
+     1210520,
+     3620
     ],
     "frs": [
-     1503370,
-     6522
+     1214540,
+     5050
     ],
     "en": [
-     1510292,
-     3330
+     1219990,
+     3130
     ]
    }
   },
@@ -3072,28 +3168,29 @@
    "en": "He was sure of it.",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s097_fr.mp3",
     "frs": "audio/s097_frs.mp3",
     "en": "audio/s097_en.mp3"
    },
    "ms": {
-    "fr": 2658,
-    "frs": 3714,
-    "en": 2322
+    "fr": 1750,
+    "frs": 2250,
+    "en": 1350
    },
    "bank": {
     "fr": [
-     1514022,
-     2658
+     1223520,
+     1750
     ],
     "frs": [
-     1517080,
-     3714
+     1225670,
+     2250
     ],
     "en": [
-     1521194,
-     2322
+     1228320,
+     1350
     ]
    }
   },
@@ -3102,28 +3199,29 @@
    "en": "His ears were never wrong.",
    "para": 16,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s098_fr.mp3",
     "frs": "audio/s098_frs.mp3",
     "en": "audio/s098_en.mp3"
    },
    "ms": {
-    "fr": 3282,
-    "frs": 4674,
-    "en": 2322
+    "fr": 2420,
+    "frs": 3230,
+    "en": 1960
    },
    "bank": {
     "fr": [
-     1523916,
-     3282
+     1230070,
+     2420
     ],
     "frs": [
-     1527598,
-     4674
+     1232890,
+     3230
     ],
     "en": [
-     1532672,
-     2322
+     1236520,
+     1960
     ]
    }
   },
@@ -3132,28 +3230,29 @@
    "en": "In his head, everything fell into place,",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s099_fr.mp3",
     "frs": "audio/s099_frs.mp3",
     "en": "audio/s099_en.mp3"
    },
    "ms": {
-    "fr": 3906,
-    "frs": 5586,
-    "en": 3162
+    "fr": 2990,
+    "frs": 4090,
+    "en": 2980
    },
    "bank": {
     "fr": [
-     1535394,
-     3906
+     1238880,
+     2990
     ],
     "frs": [
-     1539700,
-     5586
+     1242270,
+     4090
     ],
     "en": [
-     1545686,
-     3162
+     1246760,
+     2980
     ]
    }
   },
@@ -3162,28 +3261,29 @@
    "en": "like the notes of a chord.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s100_fr.mp3",
     "frs": "audio/s100_frs.mp3",
     "en": "audio/s100_en.mp3"
    },
    "ms": {
-    "fr": 3114,
-    "frs": 4410,
-    "en": 1938
+    "fr": 2250,
+    "frs": 3000,
+    "en": 1750
    },
    "bank": {
     "fr": [
-     1549248,
-     3114
+     1250140,
+     2250
     ],
     "frs": [
-     1552762,
-     4410
+     1252790,
+     3000
     ],
     "en": [
-     1557572,
-     1938
+     1256190,
+     1750
     ]
    }
   },
@@ -3192,28 +3292,29 @@
    "en": "A nephew who sells everything. A maid who was fired.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s101_fr.mp3",
     "frs": "audio/s101_frs.mp3",
     "en": "audio/s101_en.mp3"
    },
    "ms": {
-    "fr": 4890,
-    "frs": 7098,
-    "en": 3642
+    "fr": 3930,
+    "frs": 5500,
+    "en": 3460
    },
    "bank": {
     "fr": [
-     1559910,
-     4890
+     1258340,
+     3930
     ],
     "frs": [
-     1565200,
-     7098
+     1262670,
+     5500
     ],
     "en": [
-     1572698,
-     3642
+     1268570,
+     3460
     ]
    }
   },
@@ -3222,28 +3323,29 @@
    "en": "An unknown old woman in Madame Vasseur's bed.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s102_fr.mp3",
     "frs": "audio/s102_frs.mp3",
     "en": "audio/s102_en.mp3"
    },
    "ms": {
-    "fr": 4410,
-    "frs": 6354,
-    "en": 3834
+    "fr": 3530,
+    "frs": 4910,
+    "en": 3670
    },
    "bank": {
     "fr": [
-     1576740,
-     4410
+     1272430,
+     3530
     ],
     "frs": [
-     1581550,
-     6354
+     1276360,
+     4910
     ],
     "en": [
-     1588304,
-     3834
+     1281670,
+     3670
     ]
    }
   },
@@ -3252,28 +3354,29 @@
    "en": "And the message: don't believe what they're going to tell you.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s103_fr.mp3",
     "frs": "audio/s103_frs.mp3",
     "en": "audio/s103_en.mp3"
    },
    "ms": {
-    "fr": 4506,
-    "frs": 6498,
-    "en": 3546
+    "fr": 3600,
+    "frs": 5010,
+    "en": 3370
    },
    "bank": {
     "fr": [
-     1592538,
-     4506
+     1285740,
+     3600
     ],
     "frs": [
-     1597444,
-     6498
+     1289740,
+     5010
     ],
     "en": [
-     1604342,
-     3546
+     1295150,
+     3370
     ]
    }
   },
@@ -3282,28 +3385,29 @@
    "en": "Gérard had hidden his aunt somewhere.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s104_fr.mp3",
     "frs": "audio/s104_frs.mp3",
     "en": "audio/s104_en.mp3"
    },
    "ms": {
-    "fr": 4098,
-    "frs": 5898,
-    "en": 2658
+    "fr": 3200,
+    "frs": 4420,
+    "en": 2480
    },
    "bank": {
     "fr": [
-     1608288,
-     4098
+     1298920,
+     3200
     ],
     "frs": [
-     1612786,
-     5898
+     1302520,
+     4420
     ],
     "en": [
-     1619084,
-     2658
+     1307340,
+     2480
     ]
    }
   },
@@ -3312,28 +3416,29 @@
    "en": "And he had put another woman in her place,",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s105_fr.mp3",
     "frs": "audio/s105_frs.mp3",
     "en": "audio/s105_en.mp3"
    },
    "ms": {
-    "fr": 3786,
-    "frs": 5418,
-    "en": 2706
+    "fr": 2940,
+    "frs": 4019,
+    "en": 2520
    },
    "bank": {
     "fr": [
-     1622142,
-     3786
+     1310220,
+     2940
     ],
     "frs": [
-     1626328,
-     5418
+     1313560,
+     4019
     ],
     "en": [
-     1632146,
-     2706
+     1317980,
+     2520
     ]
    }
   },
@@ -3342,28 +3447,29 @@
    "en": "to sell the house.",
    "para": 17,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s106_fr.mp3",
     "frs": "audio/s106_frs.mp3",
     "en": "audio/s106_en.mp3"
    },
    "ms": {
-    "fr": 2826,
-    "frs": 3978,
-    "en": 2322
+    "fr": 1870,
+    "frs": 2440,
+    "en": 1520
    },
    "bank": {
     "fr": [
-     1635252,
-     2826
+     1320900,
+     1870
     ],
     "frs": [
-     1638478,
-     3978
+     1323170,
+     2440
     ],
     "en": [
-     1642856,
-     2322
+     1326010,
+     1520
     ]
    }
   },
@@ -3372,28 +3478,29 @@
    "en": "For the first time in his life,",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s107_fr.mp3",
     "frs": "audio/s107_frs.mp3",
     "en": "audio/s107_en.mp3"
    },
    "ms": {
-    "fr": 3114,
-    "frs": 4434,
-    "en": 2322
+    "fr": 2210,
+    "frs": 2920,
+    "en": 2009
    },
    "bank": {
     "fr": [
-     1645578,
-     3114
+     1327930,
+     2210
     ],
     "frs": [
-     1649092,
-     4434
+     1330540,
+     2920
     ],
     "en": [
-     1653926,
-     2322
+     1333860,
+     2009
     ]
    }
   },
@@ -3407,6 +3514,7 @@
      "en": "any old way, badly"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s108_fr.mp3",
     "frs": "audio/s108_frs.mp3",
@@ -3414,27 +3522,27 @@
     "gl": "audio/s108_gl.mp3"
    },
    "ms": {
-    "fr": 4290,
-    "frs": 6186,
-    "en": 2802,
-    "gl": 6434
+    "fr": 3400,
+    "frs": 4710,
+    "en": 2670,
+    "gl": 4530
    },
    "bank": {
     "fr": [
-     1656648,
-     4290
+     1336270,
+     3400
     ],
     "frs": [
-     1661338,
-     6186
+     1340070,
+     4710
     ],
     "en": [
-     1667924,
-     2802
+     1345180,
+     2670
     ],
     "gl": [
-     1671126,
-     6434
+     1348250,
+     4530
     ]
    }
   },
@@ -3443,28 +3551,29 @@
    "en": "Then he said, \"The dog needs to go out.\"",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s109_fr.mp3",
     "frs": "audio/s109_frs.mp3",
     "en": "audio/s109_en.mp3"
    },
    "ms": {
-    "fr": 4002,
-    "frs": 5730,
-    "en": 3186
+    "fr": 3100,
+    "frs": 4270,
+    "en": 2990
    },
    "bank": {
     "fr": [
-     1677960,
-     4002
+     1353180,
+     3100
     ],
     "frs": [
-     1682362,
-     5730
+     1356680,
+     4270
     ],
     "en": [
-     1688492,
-     3186
+     1361350,
+     2990
     ]
    }
   },
@@ -3478,6 +3587,7 @@
      "en": "the rural police"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s110_fr.mp3",
     "frs": "audio/s110_frs.mp3",
@@ -3485,27 +3595,27 @@
     "gl": "audio/s110_gl.mp3"
    },
    "ms": {
-    "fr": 4338,
-    "frs": 6258,
-    "en": 2802,
-    "gl": 6362
+    "fr": 3460,
+    "frs": 4800,
+    "en": 2610,
+    "gl": 4360
    },
    "bank": {
     "fr": [
-     1692078,
-     4338
+     1364740,
+     3460
     ],
     "frs": [
-     1696816,
-     6258
+     1368600,
+     4800
     ],
     "en": [
-     1703474,
-     2802
+     1373800,
+     2610
     ],
     "gl": [
-     1706676,
-     6362
+     1376810,
+     4360
     ]
    }
   },
@@ -3514,28 +3624,29 @@
    "en": "He spoke very quietly.",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s111_fr.mp3",
     "frs": "audio/s111_frs.mp3",
     "en": "audio/s111_en.mp3"
    },
    "ms": {
-    "fr": 2610,
-    "frs": 3666,
-    "en": 2322
+    "fr": 1710,
+    "frs": 2160,
+    "en": 2029
    },
    "bank": {
     "fr": [
-     1713438,
-     2610
+     1381570,
+     1710
     ],
     "frs": [
-     1716448,
-     3666
+     1383680,
+     2160
     ],
     "en": [
-     1720514,
-     2322
+     1386240,
+     2029
     ]
    }
   },
@@ -3544,28 +3655,29 @@
    "en": "He couldn't see the house, of course.",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s112_fr.mp3",
     "frs": "audio/s112_frs.mp3",
     "en": "audio/s112_en.mp3"
    },
    "ms": {
-    "fr": 4146,
-    "frs": 5946,
-    "en": 2802
+    "fr": 3220,
+    "frs": 4450,
+    "en": 2610
    },
    "bank": {
     "fr": [
-     1723236,
-     4146
+     1388670,
+     3220
     ],
     "frs": [
-     1727782,
-     5946
+     1392290,
+     4450
     ],
     "en": [
-     1734128,
-     2802
+     1397140,
+     2610
     ]
    }
   },
@@ -3574,28 +3686,29 @@
    "en": "But he heard a curtain move, at a window.",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s113_fr.mp3",
     "frs": "audio/s113_frs.mp3",
     "en": "audio/s113_en.mp3"
    },
    "ms": {
-    "fr": 4602,
-    "frs": 6642,
-    "en": 2946
+    "fr": 3750,
+    "frs": 5220,
+    "en": 2790
    },
    "bank": {
     "fr": [
-     1737330,
-     4602
+     1400150,
+     3750
     ],
     "frs": [
-     1742332,
-     6642
+     1404300,
+     5220
     ],
     "en": [
-     1749374,
-     2946
+     1409920,
+     2790
     ]
    }
   },
@@ -3604,28 +3717,29 @@
    "en": "Someone was watching him.",
    "para": 18,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s114_fr.mp3",
     "frs": "audio/s114_frs.mp3",
     "en": "audio/s114_en.mp3"
    },
    "ms": {
-    "fr": 2802,
-    "frs": 3954,
-    "en": 2322
+    "fr": 1910,
+    "frs": 2480,
+    "en": 1670
    },
    "bank": {
     "fr": [
-     1752720,
-     2802
+     1413110,
+     1910
     ],
     "frs": [
-     1755922,
-     3954
+     1415420,
+     2480
     ],
     "en": [
-     1760276,
-     2322
+     1418300,
+     1670
     ]
    }
   },
@@ -3639,6 +3753,7 @@
      "en": "sergeant (police rank)"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s115_fr.mp3",
     "frs": "audio/s115_frs.mp3",
@@ -3646,27 +3761,27 @@
     "gl": "audio/s115_gl.mp3"
    },
    "ms": {
-    "fr": 4386,
-    "frs": 6330,
-    "en": 3426,
-    "gl": 5714
+    "fr": 3490,
+    "frs": 4870,
+    "en": 3240,
+    "gl": 4080
    },
    "bank": {
     "fr": [
-     1762998,
-     4386
+     1420370,
+     3490
     ],
     "frs": [
-     1767784,
-     6330
+     1424260,
+     4870
     ],
     "en": [
-     1774514,
-     3426
+     1429530,
+     3240
     ],
     "gl": [
-     1778340,
-     5714
+     1433170,
+     4080
     ]
    }
   },
@@ -3675,28 +3790,29 @@
    "en": "Lucien had known him forever.",
    "para": 19,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s116_fr.mp3",
     "frs": "audio/s116_frs.mp3",
     "en": "audio/s116_en.mp3"
    },
    "ms": {
-    "fr": 3618,
-    "frs": 5178,
-    "en": 2418
+    "fr": 2760,
+    "frs": 3750,
+    "en": 2240
    },
    "bank": {
     "fr": [
-     1784454,
-     3618
+     1437650,
+     2760
     ],
     "frs": [
-     1788472,
-     5178
+     1440810,
+     3750
     ],
     "en": [
-     1794050,
-     2418
+     1444960,
+     2240
     ]
    }
   },
@@ -3705,28 +3821,29 @@
    "en": "At ten, little Morel took piano lessons,",
    "para": 19,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s117_fr.mp3",
     "frs": "audio/s117_frs.mp3",
     "en": "audio/s117_en.mp3"
    },
    "ms": {
-    "fr": 4674,
-    "frs": 6738,
-    "en": 3642
+    "fr": 3830,
+    "frs": 5350,
+    "en": 3450
    },
    "bank": {
     "fr": [
-     1796868,
-     4674
+     1447600,
+     3830
     ],
     "frs": [
-     1801942,
-     6738
+     1451830,
+     5350
     ],
     "en": [
-     1809080,
-     3642
+     1457580,
+     3450
     ]
    }
   },
@@ -3735,28 +3852,29 @@
    "en": "and he played very, very badly.",
    "para": 19,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s118_fr.mp3",
     "frs": "audio/s118_frs.mp3",
     "en": "audio/s118_en.mp3"
    },
    "ms": {
-    "fr": 3378,
-    "frs": 4818,
-    "en": 2754
+    "fr": 2490,
+    "frs": 3320,
+    "en": 2590
    },
    "bank": {
     "fr": [
-     1813122,
-     3378
+     1461430,
+     2490
     ],
     "frs": [
-     1816900,
-     4818
+     1464320,
+     3320
     ],
     "en": [
-     1822118,
-     2754
+     1468040,
+     2590
     ]
    }
   },
@@ -3770,6 +3888,7 @@
      "en": "had sighed"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s119_fr.mp3",
     "frs": "audio/s119_frs.mp3",
@@ -3777,27 +3896,27 @@
     "gl": "audio/s119_gl.mp3"
    },
    "ms": {
-    "fr": 4146,
-    "frs": 5970,
-    "en": 2754,
-    "gl": 6194
+    "fr": 3230,
+    "frs": 4450,
+    "en": 2580,
+    "gl": 3630
    },
    "bank": {
     "fr": [
-     1825272,
-     4146
+     1471030,
+     3230
     ],
     "frs": [
-     1829818,
-     5970
+     1474660,
+     4450
     ],
     "en": [
-     1836188,
-     2754
+     1479510,
+     2580
     ],
     "gl": [
-     1839342,
-     6194
+     1482490,
+     3630
     ]
    }
   },
@@ -3806,28 +3925,29 @@
    "en": "\"Lucien, it's my day off.\"",
    "para": 19,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s120_fr.mp3",
     "frs": "audio/s120_frs.mp3",
     "en": "audio/s120_en.mp3"
    },
    "ms": {
-    "fr": 3666,
-    "frs": 5250,
-    "en": 2346
+    "fr": 2710,
+    "frs": 3700,
+    "en": 2060
    },
    "bank": {
     "fr": [
-     1845936,
-     3666
+     1486520,
+     2710
     ],
     "frs": [
-     1850002,
-     5250
+     1489630,
+     3700
     ],
     "en": [
-     1855652,
-     2346
+     1493730,
+     2060
     ]
    }
   },
@@ -3841,6 +3961,7 @@
      "en": "per bar (in music)"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s121_fr.mp3",
     "frs": "audio/s121_frs.mp3",
@@ -3848,27 +3969,27 @@
     "gl": "audio/s121_gl.mp3"
    },
    "ms": {
-    "fr": 4506,
-    "frs": 6498,
-    "en": 3258,
-    "gl": 5834
+    "fr": 3620,
+    "frs": 5050,
+    "en": 3080,
+    "gl": 4220
    },
    "bank": {
     "fr": [
-     1858398,
-     4506
+     1496190,
+     3620
     ],
     "frs": [
-     1863304,
-     6498
+     1500210,
+     5050
     ],
     "en": [
-     1870202,
-     3258
+     1505660,
+     3080
     ],
     "gl": [
-     1873860,
-     5834
+     1509140,
+     4220
     ]
    }
   },
@@ -3877,28 +3998,29 @@
    "en": "You owe me that much.\"",
    "para": 19,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s122_fr.mp3",
     "frs": "audio/s122_frs.mp3",
     "en": "audio/s122_en.mp3"
    },
    "ms": {
-    "fr": 2682,
-    "frs": 3786,
-    "en": 2322
+    "fr": 1810,
+    "frs": 2360,
+    "en": 1820
    },
    "bank": {
     "fr": [
-     1880094,
-     2682
+     1513760,
+     1810
     ],
     "frs": [
-     1883176,
-     3786
+     1515970,
+     2360
     ],
     "en": [
-     1887362,
-     2322
+     1518730,
+     1820
     ]
    }
   },
@@ -3907,28 +4029,29 @@
    "en": "\"A fake Madame Vasseur?\" said Morel. \"Are you sure?\"",
    "para": 20,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s123_fr.mp3",
     "frs": "audio/s123_frs.mp3",
     "en": "audio/s123_en.mp3"
    },
    "ms": {
-    "fr": 6810,
-    "frs": 9978,
-    "en": 3906
+    "fr": 5960,
+    "frs": 8550,
+    "en": 3790
    },
    "bank": {
     "fr": [
-     1890084,
-     6810
+     1520950,
+     5960
     ],
     "frs": [
-     1897294,
-     9978
+     1527310,
+     8550
     ],
     "en": [
-     1907672,
-     3906
+     1536260,
+     3790
     ]
    }
   },
@@ -3942,6 +4065,7 @@
      "en": "are never wrong"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s124_fr.mp3",
     "frs": "audio/s124_frs.mp3",
@@ -3949,27 +4073,27 @@
     "gl": "audio/s124_gl.mp3"
    },
    "ms": {
-    "fr": 3234,
-    "frs": 4602,
-    "en": 2322,
-    "gl": 6530
+    "fr": 2340,
+    "frs": 3110,
+    "en": 2009,
+    "gl": 4240
    },
    "bank": {
     "fr": [
-     1911978,
-     3234
+     1540450,
+     2340
     ],
     "frs": [
-     1915612,
-     4602
+     1543190,
+     3110
     ],
     "en": [
-     1920614,
-     2322
+     1546700,
+     2009
     ],
     "gl": [
-     1923336,
-     6530
+     1549110,
+     4240
     ]
    }
   },
@@ -3978,28 +4102,29 @@
    "en": "Gérard was shouting that it was ridiculous.",
    "para": 20,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s125_fr.mp3",
     "frs": "audio/s125_frs.mp3",
     "en": "audio/s125_en.mp3"
    },
    "ms": {
-    "fr": 3786,
-    "frs": 5418,
-    "en": 2970
+    "fr": 2860,
+    "frs": 3890,
+    "en": 2790
    },
    "bank": {
     "fr": [
-     1930266,
-     3786
+     1553750,
+     2860
     ],
     "frs": [
-     1934452,
-     5418
+     1557010,
+     3890
     ],
     "en": [
-     1940270,
-     2970
+     1561300,
+     2790
     ]
    }
   },
@@ -4008,28 +4133,29 @@
    "en": "Morel went upstairs.",
    "para": 20,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s126_fr.mp3",
     "frs": "audio/s126_frs.mp3",
     "en": "audio/s126_en.mp3"
    },
    "ms": {
-    "fr": 2610,
-    "frs": 3666,
-    "en": 2322
+    "fr": 1730,
+    "frs": 2210,
+    "en": 1880
    },
    "bank": {
     "fr": [
-     1943640,
-     2610
+     1564490,
+     1730
     ],
     "frs": [
-     1946650,
-     3666
+     1566620,
+     2210
     ],
     "en": [
-     1950716,
-     2322
+     1569230,
+     1880
     ]
    }
   },
@@ -4038,28 +4164,29 @@
    "en": "Brahms sighed.",
    "para": 20,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s127_fr.mp3",
     "frs": "audio/s127_frs.mp3",
     "en": "audio/s127_en.mp3"
    },
    "ms": {
-    "fr": 2874,
-    "frs": 4050,
-    "en": 2322
+    "fr": 1950,
+    "frs": 2520,
+    "en": 1470
    },
    "bank": {
     "fr": [
-     1953438,
-     2874
+     1571510,
+     1950
     ],
     "frs": [
-     1956712,
-     4050
+     1573860,
+     2520
     ],
     "en": [
-     1961162,
-     2322
+     1576780,
+     1470
     ]
    }
   },
@@ -4068,28 +4195,29 @@
    "en": "Ten minutes later, Morel came back down.",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s128_fr.mp3",
     "frs": "audio/s128_frs.mp3",
     "en": "audio/s128_en.mp3"
    },
    "ms": {
-    "fr": 4314,
-    "frs": 6210,
-    "en": 3186
+    "fr": 3550,
+    "frs": 4930,
+    "en": 3040
    },
    "bank": {
     "fr": [
-     1963884,
-     4314
+     1578650,
+     3550
     ],
     "frs": [
-     1968598,
-     6210
+     1582600,
+     4930
     ],
     "en": [
-     1975208,
-     3186
+     1587930,
+     3040
     ]
    }
   },
@@ -4098,28 +4226,29 @@
    "en": "\"Lucien. I saw her ID card.",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s129_fr.mp3",
     "frs": "audio/s129_frs.mp3",
     "en": "audio/s129_en.mp3"
    },
    "ms": {
-    "fr": 5034,
-    "frs": 7314,
-    "en": 2850
+    "fr": 4130,
+    "frs": 5790,
+    "en": 2670
    },
    "bank": {
     "fr": [
-     1978794,
-     5034
+     1591370,
+     4130
     ],
     "frs": [
-     1984228,
-     7314
+     1595900,
+     5790
     ],
     "en": [
-     1991942,
-     2850
+     1602090,
+     2670
     ]
    }
   },
@@ -4128,28 +4257,29 @@
    "en": "Hélène Vasseur, born in nineteen thirty-five, in this house.",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s130_fr.mp3",
     "frs": "audio/s130_frs.mp3",
     "en": "audio/s130_en.mp3"
    },
    "ms": {
-    "fr": 5682,
-    "frs": 8274,
-    "en": 4674
+    "fr": 4740,
+    "frs": 6730,
+    "en": 4490
    },
    "bank": {
     "fr": [
-     1995192,
-     5682
+     1605160,
+     4740
     ],
     "frs": [
-     2001274,
-     8274
+     1610300,
+     6730
     ],
     "en": [
-     2009948,
-     4674
+     1617430,
+     4490
     ]
    }
   },
@@ -4158,28 +4288,29 @@
    "en": "My mother has known her for fifty years. It's her.\"",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s131_fr.mp3",
     "frs": "audio/s131_frs.mp3",
     "en": "audio/s131_en.mp3"
    },
    "ms": {
-    "fr": 5346,
-    "frs": 7770,
-    "en": 3642
+    "fr": 4440,
+    "frs": 6270,
+    "en": 3440
    },
    "bank": {
     "fr": [
-     2015022,
-     5346
+     1622320,
+     4440
     ],
     "frs": [
-     2020768,
-     7770
+     1627160,
+     6270
     ],
     "en": [
-     2028938,
-     3642
+     1633830,
+     3440
     ]
    }
   },
@@ -4188,28 +4319,29 @@
    "en": "\"Impossible,\" said Lucien. \"I've known her voice for twenty years!",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s132_fr.mp3",
     "frs": "audio/s132_frs.mp3",
     "en": "audio/s132_en.mp3"
    },
    "ms": {
-    "fr": 6138,
-    "frs": 8970,
-    "en": 4818
+    "fr": 5240,
+    "frs": 7490,
+    "en": 4610
    },
    "bank": {
     "fr": [
-     2032980,
-     6138
+     1637670,
+     5240
     ],
     "frs": [
-     2039518,
-     8970
+     1643310,
+     7490
     ],
     "en": [
-     2048888,
-     4818
+     1651200,
+     4610
     ]
    }
   },
@@ -4218,28 +4350,29 @@
    "en": "A low voice, a laugh,",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s133_fr.mp3",
     "frs": "audio/s133_frs.mp3",
     "en": "audio/s133_en.mp3"
    },
    "ms": {
-    "fr": 3282,
-    "frs": 4650,
-    "en": 2178
+    "fr": 2380,
+    "frs": 3200,
+    "en": 1910
    },
    "bank": {
     "fr": [
-     2054106,
-     3282
+     1656210,
+     2380
     ],
     "frs": [
-     2057788,
-     4650
+     1658990,
+     3200
     ],
     "en": [
-     2062838,
-     2178
+     1662590,
+     1910
     ]
    }
   },
@@ -4248,28 +4381,29 @@
    "en": "she brings me tea, she smells of onion…\"",
    "para": 21,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s134_fr.mp3",
     "frs": "audio/s134_frs.mp3",
     "en": "audio/s134_en.mp3"
    },
    "ms": {
-    "fr": 3882,
-    "frs": 5586,
-    "en": 3378
+    "fr": 2970,
+    "frs": 4059,
+    "en": 3230
    },
    "bank": {
     "fr": [
-     2065416,
-     3882
+     1664900,
+     2970
     ],
     "frs": [
-     2069697,
-     5586
+     1668270,
+     4059
     ],
     "en": [
-     2075684,
-     3378
+     1672730,
+     3230
     ]
    }
   },
@@ -4278,28 +4412,29 @@
    "en": "Gérard started to laugh.",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s135_fr.mp3",
     "frs": "audio/s135_frs.mp3",
     "en": "audio/s135_en.mp3"
    },
    "ms": {
-    "fr": 3426,
-    "frs": 4866,
-    "en": 2322
+    "fr": 2540,
+    "frs": 3430,
+    "en": 1910
    },
    "bank": {
     "fr": [
-     2079462,
-     3426
+     1676360,
+     2540
     ],
     "frs": [
-     2083288,
-     4866
+     1679300,
+     3430
     ],
     "en": [
-     2088554,
-     2322
+     1683130,
+     1910
     ]
    }
   },
@@ -4308,28 +4443,29 @@
    "en": "Not a mean laugh. A tired laugh.",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s136_fr.mp3",
     "frs": "audio/s136_frs.mp3",
     "en": "audio/s136_en.mp3"
    },
    "ms": {
-    "fr": 4722,
-    "frs": 6834,
-    "en": 2850
+    "fr": 3770,
+    "frs": 5260,
+    "en": 2640
    },
    "bank": {
     "fr": [
-     2091275,
-     4722
+     1685440,
+     3770
     ],
     "frs": [
-     2096398,
-     6834
+     1689610,
+     5260
     ],
     "en": [
-     2103632,
-     2850
+     1695270,
+     2640
     ]
    }
   },
@@ -4338,28 +4474,29 @@
    "en": "\"Onion… Monsieur Fabre,",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s137_fr.mp3",
     "frs": "audio/s137_frs.mp3",
     "en": "audio/s137_en.mp3"
    },
    "ms": {
-    "fr": 4026,
-    "frs": 5778,
-    "en": 2370
+    "fr": 3170,
+    "frs": 4380,
+    "en": 2210
    },
    "bank": {
     "fr": [
-     2106882,
-     4026
+     1698310,
+     3170
     ],
     "frs": [
-     2111308,
-     5778
+     1701880,
+     4380
     ],
     "en": [
-     2117486,
-     2370
+     1706660,
+     2210
     ]
    }
   },
@@ -4368,28 +4505,29 @@
    "en": "my aunt hasn't gone to the kitchen in fifteen years.",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s138_fr.mp3",
     "frs": "audio/s138_frs.mp3",
     "en": "audio/s138_en.mp3"
    },
    "ms": {
-    "fr": 4290,
-    "frs": 6186,
-    "en": 3426
+    "fr": 3400,
+    "frs": 4710,
+    "en": 3240
    },
    "bank": {
     "fr": [
-     2120256,
-     4290
+     1709270,
+     3400
     ],
     "frs": [
-     2124946,
-     6186
+     1713070,
+     4710
     ],
     "en": [
-     2131532,
-     3426
+     1718180,
+     3240
     ]
    }
   },
@@ -4398,28 +4536,29 @@
    "en": "The one who brought you tea was Jeanne.",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s139_fr.mp3",
     "frs": "audio/s139_frs.mp3",
     "en": "audio/s139_en.mp3"
    },
    "ms": {
-    "fr": 4314,
-    "frs": 6210,
-    "en": 2418
+    "fr": 3410,
+    "frs": 4740,
+    "en": 2260
    },
    "bank": {
     "fr": [
-     2135358,
-     4314
+     1721820,
+     3410
     ],
     "frs": [
-     2140072,
-     6210
+     1725630,
+     4740
     ],
     "en": [
-     2146682,
-     2418
+     1730770,
+     2260
     ]
    }
   },
@@ -4428,28 +4567,29 @@
    "en": "The maid.\"",
    "para": 22,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s140_fr.mp3",
     "frs": "audio/s140_frs.mp3",
     "en": "audio/s140_en.mp3"
    },
    "ms": {
-    "fr": 2322,
-    "frs": 3066,
-    "en": 2322
+    "fr": 1380,
+    "frs": 1690,
+    "en": 1170
    },
    "bank": {
     "fr": [
-     2149500,
-     2322
+     1733430,
+     1380
     ],
     "frs": [
-     2152222,
-     3066
+     1735210,
+     1690
     ],
     "en": [
-     2155688,
-     2322
+     1737300,
+     1170
     ]
    }
   },
@@ -4458,28 +4598,29 @@
    "en": "Lucien said nothing.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s141_fr.mp3",
     "frs": "audio/s141_frs.mp3",
     "en": "audio/s141_en.mp3"
    },
    "ms": {
-    "fr": 2898,
-    "frs": 4098,
-    "en": 2322
+    "fr": 1970,
+    "frs": 2540,
+    "en": 1670
    },
    "bank": {
     "fr": [
-     2158410,
-     2898
+     1738870,
+     1970
     ],
     "frs": [
-     2161708,
-     4098
+     1741240,
+     2540
     ],
     "en": [
-     2166206,
-     2322
+     1744180,
+     1670
     ]
    }
   },
@@ -4488,28 +4629,29 @@
    "en": "The hard hands.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s142_fr.mp3",
     "frs": "audio/s142_frs.mp3",
     "en": "audio/s142_en.mp3"
    },
    "ms": {
-    "fr": 2394,
-    "frs": 3354,
-    "en": 1650
+    "fr": 1560,
+    "frs": 2000,
+    "en": 1460
    },
    "bank": {
     "fr": [
-     2168928,
-     2394
+     1746250,
+     1560
     ],
     "frs": [
-     2171722,
-     3354
+     1748210,
+     2000
     ],
     "en": [
-     2175476,
-     1650
+     1750610,
+     1460
     ]
    }
   },
@@ -4518,28 +4660,29 @@
    "en": "The kitchen door.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s143_fr.mp3",
     "frs": "audio/s143_frs.mp3",
     "en": "audio/s143_en.mp3"
    },
    "ms": {
-    "fr": 3114,
-    "frs": 4434,
-    "en": 2322
+    "fr": 2190,
+    "frs": 2910,
+    "en": 1480
    },
    "bank": {
     "fr": [
-     2177526,
-     3114
+     1752470,
+     2190
     ],
     "frs": [
-     2181040,
-     4434
+     1755060,
+     2910
     ],
     "en": [
-     2185874,
-     2322
+     1758370,
+     1480
     ]
    }
   },
@@ -4548,28 +4691,29 @@
    "en": "\"I never learned.\"",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s144_fr.mp3",
     "frs": "audio/s144_frs.mp3",
     "en": "audio/s144_en.mp3"
    },
    "ms": {
-    "fr": 2802,
-    "frs": 3954,
-    "en": 2322
+    "fr": 1920,
+    "frs": 2500,
+    "en": 1490
    },
    "bank": {
     "fr": [
-     2188596,
-     2802
+     1760250,
+     1920
     ],
     "frs": [
-     2191798,
-     3954
+     1762570,
+     2500
     ],
     "en": [
-     2196152,
-     2322
+     1765470,
+     1490
     ]
    }
   },
@@ -4578,28 +4722,29 @@
    "en": "Twenty years.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s145_fr.mp3",
     "frs": "audio/s145_frs.mp3",
     "en": "audio/s145_en.mp3"
    },
    "ms": {
-    "fr": 2322,
-    "frs": 3042,
-    "en": 2322
+    "fr": 1340,
+    "frs": 1620,
+    "en": 1390
    },
    "bank": {
     "fr": [
-     2198874,
-     2322
+     1767360,
+     1340
     ],
     "frs": [
-     2201596,
-     3042
+     1769100,
+     1620
     ],
     "en": [
-     2205038,
-     2322
+     1771120,
+     1390
     ]
    }
   },
@@ -4608,28 +4753,29 @@
    "en": "People lie, he always used to say.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s146_fr.mp3",
     "frs": "audio/s146_frs.mp3",
     "en": "audio/s146_en.mp3"
    },
    "ms": {
-    "fr": 3906,
-    "frs": 5610,
-    "en": 2730
+    "fr": 3030,
+    "frs": 4160,
+    "en": 2580
    },
    "bank": {
     "fr": [
-     2207760,
-     3906
+     1772910,
+     3030
     ],
     "frs": [
-     2212066,
-     5610
+     1776340,
+     4160
     ],
     "en": [
-     2218076,
-     2730
+     1780900,
+     2580
     ]
    }
   },
@@ -4638,28 +4784,29 @@
    "en": "And he had heard nothing.",
    "para": 23,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s147_fr.mp3",
     "frs": "audio/s147_frs.mp3",
     "en": "audio/s147_en.mp3"
    },
    "ms": {
-    "fr": 3714,
-    "frs": 5298,
-    "en": 2322
+    "fr": 2850,
+    "frs": 3900,
+    "en": 1710
    },
    "bank": {
     "fr": [
-     2221206,
-     3714
+     1783880,
+     2850
     ],
     "frs": [
-     2225320,
-     5298
+     1787130,
+     3900
     ],
     "en": [
-     2231018,
-     2322
+     1791430,
+     1710
     ]
    }
   },
@@ -4668,28 +4815,29 @@
    "en": "\"She was stealing,\" Gérard repeated.",
    "para": 24,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s148_fr.mp3",
     "frs": "audio/s148_frs.mp3",
     "en": "audio/s148_en.mp3"
    },
    "ms": {
-    "fr": 3858,
-    "frs": 5538,
-    "en": 2802
+    "fr": 2960,
+    "frs": 4050,
+    "en": 2610
    },
    "bank": {
     "fr": [
-     2233740,
-     3858
+     1793540,
+     2960
     ],
     "frs": [
-     2237998,
-     5538
+     1796900,
+     4050
     ],
     "en": [
-     2243936,
-     2802
+     1801350,
+     2610
     ]
    }
   },
@@ -4703,6 +4851,7 @@
      "en": "sheet music"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s149_fr.mp3",
     "frs": "audio/s149_frs.mp3",
@@ -4710,27 +4859,27 @@
     "gl": "audio/s149_gl.mp3"
    },
    "ms": {
-    "fr": 4146,
-    "frs": 5970,
-    "en": 3138,
-    "gl": 5882
+    "fr": 3220,
+    "frs": 4450,
+    "en": 2960,
+    "gl": 3520
    },
    "bank": {
     "fr": [
-     2247138,
-     4146
+     1804360,
+     3220
     ],
     "frs": [
-     2251684,
-     5970
+     1807980,
+     4450
     ],
     "en": [
-     2258054,
-     3138
+     1812830,
+     2960
     ],
     "gl": [
-     2261592,
-     5882
+     1816190,
+     3520
     ]
    }
   },
@@ -4739,28 +4888,29 @@
    "en": "Then he added, \"And the piano? Is it in tune, at least?\"",
    "para": 24,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s150_fr.mp3",
     "frs": "audio/s150_frs.mp3",
     "en": "audio/s150_en.mp3"
    },
    "ms": {
-    "fr": 6018,
-    "frs": 8754,
-    "en": 4314
+    "fr": 5100,
+    "frs": 7290,
+    "en": 4010
    },
    "bank": {
     "fr": [
-     2267874,
-     6018
+     1820110,
+     5100
     ],
     "frs": [
-     2274292,
-     8754
+     1825610,
+     7290
     ],
     "en": [
-     2283446,
-     4314
+     1833300,
+     4010
     ]
    }
   },
@@ -4769,28 +4919,29 @@
    "en": "\"No,\" said Lucien. \"Call another tuner.\"",
    "para": 24,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s151_fr.mp3",
     "frs": "audio/s151_frs.mp3",
     "en": "audio/s151_en.mp3"
    },
    "ms": {
-    "fr": 5658,
-    "frs": 8226,
-    "en": 3474
+    "fr": 4740,
+    "frs": 6740,
+    "en": 3260
    },
    "bank": {
     "fr": [
-     2288160,
-     5658
+     1837710,
+     4740
     ],
     "frs": [
-     2294218,
-     8226
+     1842850,
+     6740
     ],
     "en": [
-     2302844,
-     3474
+     1849990,
+     3260
     ]
    }
   },
@@ -4799,28 +4950,29 @@
    "en": "On the bus going down to the lower town,",
    "para": 25,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s152_fr.mp3",
     "frs": "audio/s152_frs.mp3",
     "en": "audio/s152_en.mp3"
    },
    "ms": {
-    "fr": 4026,
-    "frs": 5778,
-    "en": 2850
+    "fr": 3140,
+    "frs": 4320,
+    "en": 2670
    },
    "bank": {
     "fr": [
-     2306718,
-     4026
+     1853650,
+     3140
     ],
     "frs": [
-     2311144,
-     5778
+     1857190,
+     4320
     ],
     "en": [
-     2317322,
-     2850
+     1861910,
+     2670
     ]
    }
   },
@@ -4829,28 +4981,29 @@
    "en": "Lucien took the paper out of his pocket.",
    "para": 25,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s153_fr.mp3",
     "frs": "audio/s153_frs.mp3",
     "en": "audio/s153_en.mp3"
    },
    "ms": {
-    "fr": 3882,
-    "frs": 5562,
-    "en": 2754
+    "fr": 3060,
+    "frs": 4190,
+    "en": 2570
    },
    "bank": {
     "fr": [
-     2320572,
-     3882
+     1864980,
+     3060
     ],
     "frs": [
-     2324854,
-     5562
+     1868440,
+     4190
     ],
     "en": [
-     2330816,
-     2754
+     1873030,
+     2570
     ]
    }
   },
@@ -4859,28 +5012,29 @@
    "en": "His fingers read slowly,",
    "para": 25,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s154_fr.mp3",
     "frs": "audio/s154_frs.mp3",
     "en": "audio/s154_en.mp3"
    },
    "ms": {
-    "fr": 2850,
-    "frs": 4002,
-    "en": 2322
+    "fr": 1940,
+    "frs": 2520,
+    "en": 2070
    },
    "bank": {
     "fr": [
-     2333970,
-     2850
+     1876000,
+     1940
     ],
     "frs": [
-     2337220,
-     4002
+     1878340,
+     2520
     ],
     "en": [
-     2341622,
-     2322
+     1881260,
+     2070
     ]
    }
   },
@@ -4889,28 +5043,29 @@
    "en": "because Jeanne made mistakes.",
    "para": 25,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s155_fr.mp3",
     "frs": "audio/s155_frs.mp3",
     "en": "audio/s155_en.mp3"
    },
    "ms": {
-    "fr": 3258,
-    "frs": 4626,
-    "en": 2418
+    "fr": 2380,
+    "frs": 3170,
+    "en": 2250
    },
    "bank": {
     "fr": [
-     2344344,
-     3258
+     1883730,
+     2380
     ],
     "frs": [
-     2348002,
-     4626
+     1886510,
+     3170
     ],
     "en": [
-     2353028,
-     2418
+     1890080,
+     2250
     ]
    }
   },
@@ -4919,28 +5074,29 @@
    "en": "\"Lucien, don't believe what they're going to tell you.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s156_fr.mp3",
     "frs": "audio/s156_frs.mp3",
     "en": "audio/s156_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 6018,
-    "en": 3138
+    "fr": 3260,
+    "frs": 4520,
+    "en": 2990
    },
    "bank": {
     "fr": [
-     2355846,
-     4170
+     1892730,
+     3260
     ],
     "frs": [
-     2360416,
-     6018
+     1896390,
+     4520
     ],
     "en": [
-     2366834,
-     3138
+     1901310,
+     2990
     ]
    }
   },
@@ -4949,28 +5105,29 @@
    "en": "I didn't steal anything. Well, almost nothing.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s157_fr.mp3",
     "frs": "audio/s157_frs.mp3",
     "en": "audio/s157_en.mp3"
    },
    "ms": {
-    "fr": 5418,
-    "frs": 7890,
-    "en": 3474
+    "fr": 4470,
+    "frs": 6350,
+    "en": 3280
    },
    "bank": {
     "fr": [
-     2370372,
-     5418
+     1904700,
+     4470
     ],
     "frs": [
-     2376190,
-     7890
+     1909570,
+     6350
     ],
     "en": [
-     2384480,
-     3474
+     1916320,
+     3280
     ]
    }
   },
@@ -4984,6 +5141,7 @@
      "en": "chipped"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s158_fr.mp3",
     "frs": "audio/s158_frs.mp3",
@@ -4991,27 +5149,27 @@
     "gl": "audio/s158_gl.mp3"
    },
    "ms": {
-    "fr": 4626,
-    "frs": 6690,
-    "en": 2946,
-    "gl": 4682
+    "fr": 3750,
+    "frs": 5260,
+    "en": 2780,
+    "gl": 3080
    },
    "bank": {
     "fr": [
-     2388354,
-     4626
+     1920000,
+     3750
     ],
     "frs": [
-     2393380,
-     6690
+     1924150,
+     5260
     ],
     "en": [
-     2400470,
-     2946
+     1929810,
+     2780
     ],
     "gl": [
-     2403816,
-     4682
+     1932990,
+     3080
     ]
    }
   },
@@ -5020,28 +5178,29 @@
    "en": "No one else used it.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s159_fr.mp3",
     "frs": "audio/s159_frs.mp3",
     "en": "audio/s159_en.mp3"
    },
    "ms": {
-    "fr": 3330,
-    "frs": 4746,
-    "en": 2322
+    "fr": 2390,
+    "frs": 3180,
+    "en": 1560
    },
    "bank": {
     "fr": [
-     2408898,
-     3330
+     1936470,
+     2390
     ],
     "frs": [
-     2412628,
-     4746
+     1939260,
+     3180
     ],
     "en": [
-     2417774,
-     2322
+     1942840,
+     1560
     ]
    }
   },
@@ -5050,28 +5209,29 @@
    "en": "And the sheet music, because you loved it.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s160_fr.mp3",
     "frs": "audio/s160_frs.mp3",
     "en": "audio/s160_en.mp3"
    },
    "ms": {
-    "fr": 3906,
-    "frs": 5586,
-    "en": 2826
+    "fr": 3020,
+    "frs": 4130,
+    "en": 2650
    },
    "bank": {
     "fr": [
-     2420496,
-     3906
+     1944800,
+     3020
     ],
     "frs": [
-     2424802,
-     5586
+     1948220,
+     4130
     ],
     "en": [
-     2430788,
-     2826
+     1952750,
+     2650
     ]
    }
   },
@@ -5080,28 +5240,29 @@
    "en": "I stole something else too: one hour a year.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s161_fr.mp3",
     "frs": "audio/s161_frs.mp3",
     "en": "audio/s161_en.mp3"
    },
    "ms": {
-    "fr": 4338,
-    "frs": 6258,
-    "en": 3066
+    "fr": 3430,
+    "frs": 4760,
+    "en": 2870
    },
    "bank": {
     "fr": [
-     2434014,
-     4338
+     1955800,
+     3430
     ],
     "frs": [
-     2438752,
-     6258
+     1959630,
+     4760
     ],
     "en": [
-     2445410,
-     3066
+     1964790,
+     2870
     ]
    }
   },
@@ -5110,28 +5271,29 @@
    "en": "On Thursdays, Madame went to her sister's, and later, she slept upstairs.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s162_fr.mp3",
     "frs": "audio/s162_frs.mp3",
     "en": "audio/s162_en.mp3"
    },
    "ms": {
-    "fr": 6354,
-    "frs": 9258,
-    "en": 5658
+    "fr": 5390,
+    "frs": 7710,
+    "en": 5460
    },
    "bank": {
     "fr": [
-     2448876,
-     6354
+     1968060,
+     5390
     ],
     "frs": [
-     2455630,
-     9258
+     1973850,
+     7710
     ],
     "en": [
-     2465288,
-     5658
+     1981960,
+     5460
     ]
    }
   },
@@ -5140,28 +5302,29 @@
    "en": "And me, downstairs, I was a lady who talks about music with a gentleman.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s163_fr.mp3",
     "frs": "audio/s163_frs.mp3",
     "en": "audio/s163_en.mp3"
    },
    "ms": {
-    "fr": 5658,
-    "frs": 8226,
-    "en": 5202
+    "fr": 4810,
+    "frs": 6840,
+    "en": 5030
    },
    "bank": {
     "fr": [
-     2471346,
-     5658
+     1987820,
+     4810
     ],
     "frs": [
-     2477404,
-     8226
+     1993030,
+     6840
     ],
     "en": [
-     2486030,
-     5202
+     2000270,
+     5030
     ]
    }
   },
@@ -5170,28 +5333,29 @@
    "en": "I never told you my name was Vasseur.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s164_fr.mp3",
     "frs": "audio/s164_frs.mp3",
     "en": "audio/s164_en.mp3"
    },
    "ms": {
-    "fr": 3930,
-    "frs": 5658,
-    "en": 2610
+    "fr": 3040,
+    "frs": 4170,
+    "en": 2430
    },
    "bank": {
     "fr": [
-     2491632,
-     3930
+     2005700,
+     3040
     ],
     "frs": [
-     2495962,
-     5658
+     2009140,
+     4170
     ],
     "en": [
-     2502020,
-     2610
+     2013710,
+     2430
     ]
    }
   },
@@ -5200,28 +5364,29 @@
    "en": "You were the one who believed it.",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s165_fr.mp3",
     "frs": "audio/s165_frs.mp3",
     "en": "audio/s165_en.mp3"
    },
    "ms": {
-    "fr": 2754,
-    "frs": 3882,
-    "en": 2154
+    "fr": 1890,
+    "frs": 2480,
+    "en": 1960
    },
    "bank": {
     "fr": [
-     2505030,
-     2754
+     2016540,
+     1890
     ],
     "frs": [
-     2508184,
-     3882
+     2018830,
+     2480
     ],
     "en": [
-     2512466,
-     2154
+     2021710,
+     1960
     ]
    }
   },
@@ -5235,6 +5400,7 @@
      "en": "I didn't correct it"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s166_fr.mp3",
     "frs": "audio/s166_frs.mp3",
@@ -5242,27 +5408,27 @@
     "gl": "audio/s166_gl.mp3"
    },
    "ms": {
-    "fr": 2850,
-    "frs": 4002,
-    "en": 2322,
-    "gl": 6626
+    "fr": 1890,
+    "frs": 2470,
+    "en": 1650,
+    "gl": 4280
    },
    "bank": {
     "fr": [
-     2515020,
-     2850
+     2024070,
+     1890
     ],
     "frs": [
-     2518270,
-     4002
+     2026360,
+     2470
     ],
     "en": [
-     2522672,
-     2322
+     2029230,
+     1650
     ],
     "gl": [
-     2525394,
-     6626
+     2031280,
+     4280
     ]
    }
   },
@@ -5271,28 +5437,29 @@
    "en": "If you still want some tea,",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s167_fr.mp3",
     "frs": "audio/s167_frs.mp3",
     "en": "audio/s167_en.mp3"
    },
    "ms": {
-    "fr": 2946,
-    "frs": 4146,
-    "en": 2322
+    "fr": 2060,
+    "frs": 2690,
+    "en": 1770
    },
    "bank": {
     "fr": [
-     2532420,
-     2946
+     2035960,
+     2060
     ],
     "frs": [
-     2535766,
-     4146
+     2038420,
+     2690
     ],
     "en": [
-     2540312,
-     2322
+     2041510,
+     1770
     ]
    }
   },
@@ -5306,6 +5473,7 @@
      "en": "the bakery"
     }
    ],
+   "words": [],
    "audio": {
     "fr": "audio/s168_fr.mp3",
     "frs": "audio/s168_frs.mp3",
@@ -5313,27 +5481,27 @@
     "gl": "audio/s168_gl.mp3"
    },
    "ms": {
-    "fr": 5130,
-    "frs": 7458,
-    "en": 4074,
-    "gl": 6266
+    "fr": 4230,
+    "frs": 5970,
+    "en": 3900,
+    "gl": 3830
    },
    "bank": {
     "fr": [
-     2543034,
-     5130
+     2043680,
+     4230
     ],
     "frs": [
-     2548564,
-     7458
+     2048310,
+     5970
     ],
     "en": [
-     2556422,
-     4074
+     2054679,
+     3900
     ],
     "gl": [
-     2560896,
-     6266
+     2058980,
+     3830
     ]
    }
   },
@@ -5342,28 +5510,29 @@
    "en": "I don't have a piano.\"",
    "para": 26,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s169_fr.mp3",
     "frs": "audio/s169_frs.mp3",
     "en": "audio/s169_en.mp3"
    },
    "ms": {
-    "fr": 2658,
-    "frs": 3714,
-    "en": 2322
+    "fr": 1760,
+    "frs": 2250,
+    "en": 1570
    },
    "bank": {
     "fr": [
-     2567562,
-     2658
+     2063210,
+     1760
     ],
     "frs": [
-     2570620,
-     3714
+     2065370,
+     2250
     ],
     "en": [
-     2574734,
-     2322
+     2068020,
+     1570
     ]
    }
   },
@@ -5372,28 +5541,29 @@
    "en": "Lucien got off at the next stop.",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s170_fr.mp3",
     "frs": "audio/s170_frs.mp3",
     "en": "audio/s170_en.mp3"
    },
    "ms": {
-    "fr": 3738,
-    "frs": 5346,
-    "en": 2562
+    "fr": 2810,
+    "frs": 3830,
+    "en": 2300
    },
    "bank": {
     "fr": [
-     2577456,
-     3738
+     2069989,
+     2810
     ],
     "frs": [
-     2581594,
-     5346
+     2073199,
+     3830
     ],
     "en": [
-     2587340,
-     2562
+     2077429,
+     2300
     ]
    }
   },
@@ -5402,28 +5572,29 @@
    "en": "Brahms led him to the bakery,",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s171_fr.mp3",
     "frs": "audio/s171_frs.mp3",
     "en": "audio/s171_en.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "frs": 5466,
-    "en": 2274
+    "fr": 2910,
+    "frs": 3980,
+    "en": 2110
    },
    "bank": {
     "fr": [
-     2590302,
-     3810
+     2080130,
+     2910
     ],
     "frs": [
-     2594512,
-     5466
+     2083440,
+     3980
     ],
     "en": [
-     2600378,
-     2274
+     2087820,
+     2110
     ]
    }
   },
@@ -5432,28 +5603,29 @@
    "en": "then to a door, on the first floor.",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s172_fr.mp3",
     "frs": "audio/s172_frs.mp3",
     "en": "audio/s172_en.mp3"
    },
    "ms": {
-    "fr": 4002,
-    "frs": 5730,
-    "en": 2850
+    "fr": 3130,
+    "frs": 4310,
+    "en": 2670
    },
    "bank": {
     "fr": [
-     2603052,
-     4002
+     2090330,
+     3130
     ],
     "frs": [
-     2607454,
-     5730
+     2093860,
+     4310
     ],
     "en": [
-     2613584,
-     2850
+     2098570,
+     2670
     ]
    }
   },
@@ -5462,28 +5634,29 @@
    "en": "He knocked.",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s173_fr.mp3",
     "frs": "audio/s173_frs.mp3",
     "en": "audio/s173_en.mp3"
    },
    "ms": {
-    "fr": 2418,
-    "frs": 3354,
-    "en": 2322
+    "fr": 1550,
+    "frs": 1940,
+    "en": 1200
    },
    "bank": {
     "fr": [
-     2616834,
-     2418
+     2101640,
+     1550
     ],
     "frs": [
-     2619652,
-     3354
+     2103590,
+     1940
     ],
     "en": [
-     2623406,
-     2322
+     2105930,
+     1200
     ]
    }
   },
@@ -5492,28 +5665,29 @@
    "en": "Footsteps. The door opened.",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s174_fr.mp3",
     "frs": "audio/s174_frs.mp3",
     "en": "audio/s174_en.mp3"
    },
    "ms": {
-    "fr": 4554,
-    "frs": 6570,
-    "en": 2538
+    "fr": 3710,
+    "frs": 5180,
+    "en": 2320
    },
    "bank": {
     "fr": [
-     2626128,
-     4554
+     2107530,
+     3710
     ],
     "frs": [
-     2631082,
-     6570
+     2111640,
+     5180
     ],
     "en": [
-     2638052,
-     2538
+     2117220,
+     2320
     ]
    }
   },
@@ -5522,28 +5696,29 @@
    "en": "Soap. Onion.",
    "para": 27,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s175_fr.mp3",
     "frs": "audio/s175_frs.mp3",
     "en": "audio/s175_en.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "frs": 5466,
-    "en": 1938
+    "fr": 2950,
+    "frs": 4050,
+    "en": 1730
    },
    "bank": {
     "fr": [
-     2640990,
-     3810
+     2119940,
+     2950
     ],
     "frs": [
-     2645200,
-     5466
+     2123290,
+     4050
     ],
     "en": [
-     2651066,
-     1938
+     2127740,
+     1730
     ]
    }
   },
@@ -5552,28 +5727,29 @@
    "en": "\"Hello,\" said Lucien.",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s176_fr.mp3",
     "frs": "audio/s176_frs.mp3",
     "en": "audio/s176_en.mp3"
    },
    "ms": {
-    "fr": 3306,
-    "frs": 4698,
-    "en": 2178
+    "fr": 2410,
+    "frs": 3220,
+    "en": 2009
    },
    "bank": {
     "fr": [
-     2653404,
-     3306
+     2129870,
+     2410
     ],
     "frs": [
-     2657110,
-     4698
+     2132680,
+     3220
     ],
     "en": [
-     2662208,
-     2178
+     2136300,
+     2009
     ]
    }
   },
@@ -5582,28 +5758,29 @@
    "en": "\"I don't think we've ever introduced ourselves.\"",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s177_fr.mp3",
     "frs": "audio/s177_frs.mp3",
     "en": "audio/s177_en.mp3"
    },
    "ms": {
-    "fr": 3618,
-    "frs": 5154,
-    "en": 3114
+    "fr": 2650,
+    "frs": 3580,
+    "en": 2900
    },
    "bank": {
     "fr": [
-     2664786,
-     3618
+     2138710,
+     2650
     ],
     "frs": [
-     2668804,
-     5154
+     2141760,
+     3580
     ],
     "en": [
-     2674358,
-     3114
+     2145740,
+     2900
     ]
    }
   },
@@ -5612,28 +5789,29 @@
    "en": "She laughed, a laugh that went up like a scale.",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s178_fr.mp3",
     "frs": "audio/s178_frs.mp3",
     "en": "audio/s178_en.mp3"
    },
    "ms": {
-    "fr": 4170,
-    "frs": 6018,
-    "en": 3450
+    "fr": 3270,
+    "frs": 4510,
+    "en": 3280
    },
    "bank": {
     "fr": [
-     2677872,
-     4170
+     2149040,
+     3270
     ],
     "frs": [
-     2682442,
-     6018
+     2152710,
+     4510
     ],
     "en": [
-     2688860,
-     3450
+     2157620,
+     3280
     ]
    }
   },
@@ -5642,28 +5820,29 @@
    "en": "\"Jeanne,\" she said.",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s179_fr.mp3",
     "frs": "audio/s179_frs.mp3",
     "en": "audio/s179_en.mp3"
    },
    "ms": {
-    "fr": 3090,
-    "frs": 4362,
-    "en": 1986
+    "fr": 2160,
+    "frs": 2840,
+    "en": 1820
    },
    "bank": {
     "fr": [
-     2692710,
-     3090
+     2161300,
+     2160
     ],
     "frs": [
-     2696200,
-     4362
+     2163860,
+     2840
     ],
     "en": [
-     2700962,
-     1986
+     2167100,
+     1820
     ]
    }
   },
@@ -5672,28 +5851,29 @@
    "en": "\"Jeanne,\" Lucien repeated, softly,",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s180_fr.mp3",
     "frs": "audio/s180_frs.mp3",
     "en": "audio/s180_en.mp3"
    },
    "ms": {
-    "fr": 4242,
-    "frs": 6090,
-    "en": 3282
+    "fr": 3320,
+    "frs": 4580,
+    "en": 3120
    },
    "bank": {
     "fr": [
-     2703348,
-     4242
+     2169320,
+     3320
     ],
     "frs": [
-     2707990,
-     6090
+     2173040,
+     4580
     ],
     "en": [
-     2714480,
-     3282
+     2178020,
+     3120
     ]
    }
   },
@@ -5702,28 +5882,29 @@
    "en": "the way you try out a new note.",
    "para": 28,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s181_fr.mp3",
     "frs": "audio/s181_frs.mp3",
     "en": "audio/s181_en.mp3"
    },
    "ms": {
-    "fr": 3330,
-    "frs": 4746,
-    "en": 2130
+    "fr": 2390,
+    "frs": 3200,
+    "en": 1940
    },
    "bank": {
     "fr": [
-     2718162,
-     3330
+     2181540,
+     2390
     ],
     "frs": [
-     2721892,
-     4746
+     2184330,
+     3200
     ],
     "en": [
-     2727038,
-     2130
+     2187930,
+     1940
     ]
    }
   },
@@ -5732,28 +5913,29 @@
    "en": "It rang true.",
    "para": 29,
    "glosses": [],
+   "words": [],
    "audio": {
     "fr": "audio/s182_fr.mp3",
     "frs": "audio/s182_frs.mp3",
     "en": "audio/s182_en.mp3"
    },
    "ms": {
-    "fr": 2658,
-    "frs": 3738,
-    "en": 2322
+    "fr": 1760,
+    "frs": 2280,
+    "en": 1460
    },
    "bank": {
     "fr": [
-     2729568,
-     2658
+     2190270,
+     1760
     ],
     "frs": [
-     2732626,
-     3738
+     2192430,
+     2280
     ],
     "en": [
-     2736764,
-     2322
+     2195110,
+     1460
     ]
    }
   }
@@ -5762,10 +5944,10 @@
   "file": "bank.m4a",
   "intro": [
    400,
-   21318
+   20010
   ],
   "silence": [
-   22118,
+   20810,
    30000
   ]
  }
