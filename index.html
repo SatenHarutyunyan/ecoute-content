@@ -53,6 +53,21 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #dots i.on { width:20px; background:var(--accent); }
 .meta { display:flex; align-items:center; justify-content:space-between; gap:8px; min-height:32px; margin-top:6px; }
 .steplabel { font-size:12px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); }
+#onb { position:fixed; inset:0; background:var(--bg); z-index:50; overflow-y:auto; }
+#onb .in { max-width:520px; margin:0 auto; padding:max(28px, env(safe-area-inset-top)) 20px 40px; }
+#onb h1 { font-size:26px; margin:6px 0 4px; }
+#onb .dotsrow { display:flex; gap:6px; margin-bottom:22px; }
+#onb .dotsrow i { flex:1; height:4px; border-radius:2px; background:var(--line); }
+#onb .dotsrow i.on { background:var(--accent); }
+#onb .opt { display:block; width:100%; text-align:left; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:14px; padding:14px; margin-top:10px; font-size:16px; cursor:pointer; }
+#onb .opt.on { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset; }
+#onb .opt .muted { margin-top:3px; }
+#onb .opt .rec { color:var(--accent); font-size:12px; font-weight:600; margin-left:6px; }
+#onb .row { display:flex; gap:8px; margin-top:8px; }
+#onb .go { width:100%; margin-top:22px; padding:14px; border:none; border-radius:12px; background:var(--accent); color:#fff; font-size:17px; font-weight:600; }
+#onb .go:disabled { opacity:.4; }
+#onb input { font-size:18px; padding:12px; }
+#survey .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
 .chip { display:inline-flex; align-items:center; gap:6px; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:7px 13px; font-size:13px; cursor:pointer; }
 .chip svg { width:15px; height:15px; }
 .chip:disabled { opacity:.35; }
@@ -105,6 +120,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </style>
 </head>
 <body>
+<div id="onb" hidden><div class="in"></div></div>
 <main>
   <h1>Écoute</h1>
   <div class="muted">Stories you listen to, phrase by phrase. Eyes free.</div>
@@ -120,6 +136,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
     <button data-mode="lesson">Step by step</button><button data-mode="story">Continuous</button>
     <div class="muted" id="modeHint" style="width:100%"></div>
   </div>
+  <div class="card" id="survey" hidden style="margin-bottom:12px"></div>
   <div class="card" id="now">
     <div class="muted" id="where">Pick an episode below.</div>
     <div id="fb" hidden><b>How was this episode?</b>
@@ -211,7 +228,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.37";
+const VERSION = "web 0.38";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -230,9 +247,10 @@ document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.datas
 const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: "T EN T" };
+const DEFAULT_PATTERN = {};  // every language: T EN T, no pause (Saten, 2026-11-18); saved choices are kept
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"] };
-const LESSON_FIRST = ["es"];  // languages taught from zero (Nare, Armen): Step by step until the learner switches
+const LESSON_FIRST = ["es"];
+const WORDY = ["hy", "es"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
 // Lesson mode: the learner moves through each phrase step by step, at their own pace
 const LESSON = ["T", "EN", "WORDS", "EN", "T"];
@@ -280,7 +298,7 @@ if (!store.get("mode_reset_024", false)) { try { for (const l of ["fr", "hy"]) l
 const getMode = () => store.get("mode_" + lang, LESSON_FIRST.includes(lang) || (store.get("place_" + lang, {}) || {}).start?.startsWith(lang + "_s0") ? "lesson" : "story");
 const lessonMode = () => getMode() === "lesson";
 
-const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
+const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T");
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
   .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
@@ -322,7 +340,7 @@ function advance() {
   step++;
   if (step < steps.length) return playRange(steps[step]);
   if (seg + 1 < story.segments.length) startSeg(seg + 1);
-  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); renderStories(); showFeedback(); }
+  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback(); }
 }
 
 function startSeg(i, pat) {
@@ -348,7 +366,7 @@ function lessonGo(k, act) {
   if (k < 0) k = 0;
   if (k >= steps.length) {
     if (seg + 1 < story.segments.length) return startSeg(seg + 1);
-    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); renderStories(); return showFeedback();
+    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); store.set("ends", store.get("ends", 0) + 1); renderStories(); return showFeedback();
   }
   step = k; waiting = false;
   show();
@@ -549,7 +567,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); }
+  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -761,6 +779,118 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
 });
 $("restart").onclick = restartStory;
 $("ver").textContent = VERSION;
+// ---------- onboarding (Saten, 2026-11-18): name -> language -> how to listen -> pattern (Continuous only) ----------
+// Every choice has a ▶ sample built from a real phrase of the chosen language. People who already have a name and a
+// language never see it.
+const ONB_PATTERNS = [
+  ["T EN T", "Normal", "LANG, English, LANG"],
+  ["T EN T EN T", "More repetition", "LANG, English, LANG, English, LANG"],
+  ["T EN T_SLOW EN T", "Slow version too", "LANG, English, LANG slowly, English, LANG"],
+];
+const ONB = { step: 0, name: "", lang: null, mode: null, pat: "T EN T", sample: null };
+
+async function onbSample() {  // a phrase of 4–9 words from the language's first (easiest) episode
+  if (ONB.sample && ONB.sample.lang === ONB.lang) return ONB.sample;
+  const e = catalog.find(c => c.lang === ONB.lang);
+  if (!e) return null;
+  const st = await storyJson(e.id);
+  if (!st) return null;
+  const i = Math.max(0, st.segments.findIndex(x => { const n = x.fr.split(/\s+/).length; return n >= 4 && n <= 9; }));
+  return ONB.sample = { lang: ONB.lang, url: `${MEDIA}stories/${e.id}/${st.bank.file}?v=${e.version}`, seg: st.segments[i], next: st.segments[i + 1] };
+}
+function onbPlay(tokens, btn) {  // tokens over one phrase ("|" moves to the next phrase)
+  onbSample().then(sm => {
+    if (!sm) return;
+    btn && btn.classList.add("on");
+    let s = sm.seg;
+    const ranges = [];
+    for (const t of tokens.split(" ")) {
+      if (t === "|") { s = sm.next || s; continue; }
+      const r = s.bank[KIND[t]];
+      if (r && ranges[ranges.length - 1] !== r) ranges.push(r);  // no word-by-word track: don't play English twice
+    }
+    const run = k => k < ranges.length ? vaRange(sm.url, ranges[k], () => run(k + 1)) : btn && btn.classList.remove("on");
+    run(0);
+  });
+}
+function onbShow() {
+  const el = $("onb"), box = el.querySelector(".in");
+  const L = ONB.lang ? LANGS[ONB.lang][0] : "";
+  const steps = ONB.mode === "story" ? 4 : 3;
+  const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= ONB.step ? "on" : ""}"></i>`).join("")}</div>`;
+  let html = "";
+  if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
+    <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
+    <div class="muted" style="margin-top:6px">So we know whose feedback is whose.</div>
+    <button class="go" id="onbNext">Next</button>`;
+  if (ONB.step === 1) html = `<h1>What are you learning?</h1>` +
+    Object.entries(LANGS).map(([c, [en, nat]]) => `<button class="opt${ONB.lang === c ? " on" : ""}" data-l="${c}"><b>${en}</b> · ${nat}</button>`).join("") +
+    `<button class="go" id="onbNext" ${ONB.lang ? "" : "disabled"}>Next</button>`;
+  if (ONB.step === 2) {
+    const rec = LESSON_FIRST.includes(ONB.lang) || ONB.lang === "hy" ? "lesson" : "story";
+    if (!ONB.mode) ONB.mode = rec;  // the recommended one is preselected
+    const opt = (m, title, text, demo) => `<div class="opt${ONB.mode === m ? " on" : ""}" data-m="${m}"><b>${title}</b>${rec === m ? '<span class="rec">Recommended</span>' : ""}
+      <div class="muted">${text}</div><div class="row"><button class="chip" data-demo="${demo}">▶ Hear an example</button></div></div>`;
+    html = `<h1>How do you want to listen?</h1>` +
+      opt("lesson", "Step by step", `Each phrase in ${L}, then English, ${WORDY.includes(ONB.lang) ? "then word by word, " : ""}then ${L} again. You decide when to move on. Best when you're starting.`, "T EN WORDS EN T") +
+      opt("story", "Continuous", "Plays on its own, like an audiobook, with the English after each phrase. Best when you know some already.", "T EN T | T EN T") +
+      `<div class="muted" style="margin-top:8px">You can switch any time at the top of the player.</div>
+      <button class="go" id="onbNext" ${ONB.mode ? "" : "disabled"}>${ONB.mode === "story" ? "Next" : "Start listening"}</button>`;
+  }
+  if (ONB.step === 3) html = `<h1>What should each phrase sound like?</h1>` +
+    ONB_PATTERNS.map(([p, title, text]) => `<div class="opt${ONB.pat === p ? " on" : ""}" data-p="${p}"><b>${title}</b>${p === "T EN T" ? '<span class="rec">Default</span>' : ""}
+      <div class="muted">${text.replace(/LANG/g, L)}</div><div class="row"><button class="chip" data-demo="${p}">▶ Hear it</button></div></div>`).join("") +
+    `<div class="muted" style="margin-top:8px">You can change it later under the episode list.</div><button class="go" id="onbNext">Start listening</button>`;
+  box.innerHTML = dots + html;
+  el.hidden = false;
+  const next = $("onbNext");
+  if (ONB.step === 0) {
+    const inp = $("onbName");
+    const ok = () => { next.disabled = !inp.value.trim(); };
+    inp.oninput = ok; ok();
+    inp.onkeydown = e => { if (e.key === "Enter" && inp.value.trim()) next.click(); };
+  }
+  box.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { ONB.lang = b.dataset.l; ONB.sample = null; onbShow(); });
+  box.querySelectorAll("[data-m]").forEach(b => b.onclick = e => { if (e.target.dataset.demo) return; ONB.mode = b.dataset.m; onbShow(); });
+  box.querySelectorAll("[data-p]").forEach(b => b.onclick = e => { if (e.target.dataset.demo) return; ONB.pat = b.dataset.p; onbShow(); });
+  box.querySelectorAll("[data-demo]").forEach(b => b.onclick = () => { log("onb_sample", { what: b.dataset.demo, lang: ONB.lang }, ""); onbPlay(b.dataset.demo, b); });
+  next.onclick = () => {
+    if (ONB.step === 0) ONB.name = $("onbName").value.trim();
+    const last = ONB.step === 3 || (ONB.step === 2 && ONB.mode === "lesson");
+    if (!last) { ONB.step++; onbShow(); window.scrollTo(0, 0); return; }
+    VA.el.pause();
+    store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
+    store.set("mode_" + lang, ONB.mode);
+    if (ONB.mode === "story") store.set("pattern_" + lang, ONB.pat);
+    store.set("onboarded", true);
+    log("onboarding", { lang, mode: ONB.mode, pattern: ONB.mode === "story" ? ONB.pat : "" }, "");
+    el.hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
+  };
+}
+if (store.get("name", "") && store.get("lang", null)) store.set("onboarded", true);
+const needsOnboarding = () => !store.get("onboarded", false);
+
+// ---------- one-time question after 3 finished episodes: what should the next stories be about? ----------
+const TOPICS = ["Everyday life", "Travel", "Food", "Mystery", "Funny", "Family", "History", "Love", "Work", "Nature"];
+function renderSurvey() {
+  const el = $("survey");
+  el.hidden = !lang || store.get("survey_done", false) || store.get("ends", 0) < 3;
+  if (el.hidden) return;
+  const picked = new Set();
+  el.innerHTML = `<b>What should the next stories be about?</b><div class="muted">Pick any, add your own. It goes straight to the people writing them.</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px">${TOPICS.map(t => `<button class="chip" data-t="${t}">${t}</button>`).join("")}</div>
+    <input type="text" id="surveyText" placeholder="Anything else? A place, a book, a situation…">
+    <div class="row" style="display:flex;gap:8px;margin-top:10px"><button class="chip" id="surveySend" style="background:var(--accent);color:#fff;border:none">Send</button><button class="chip" id="surveySkip">Not now</button></div>`;
+  el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { picked.has(b.dataset.t) ? picked.delete(b.dataset.t) : picked.add(b.dataset.t); b.classList.toggle("on"); });
+  $("surveySend").onclick = () => {
+    log("story_request", { topics: [...picked], text: $("surveyText").value.trim() }, "");
+    store.set("survey_done", true); flush();
+    el.innerHTML = "<b>Thank you!</b> <span class='muted'>New stories are on their way.</span>";
+    setTimeout(() => { el.hidden = true; }, 2500);
+  };
+  $("surveySkip").onclick = () => { log("story_request_skip", {}, ""); store.set("survey_done", true); el.hidden = true; };
+}
+
 // the name is locked once saved, so a stray touch can't change it (it labels every log batch)
 function renderName(editing) {
   const n = store.get("name", "");
@@ -1091,7 +1221,7 @@ async function checkUpdate() {
 checkUpdate();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
-fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
+fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
 </script>
 </body>
