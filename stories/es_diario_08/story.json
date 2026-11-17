@@ -1,0 +1,3102 @@
+{
+ "id": "es_diario_08",
+ "lang": "es",
+ "title": "Pablo tiene el diario",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Diario de Marta (a girl's diary)",
+ "episode": "8",
+ "note": "Disaster! Little brother Pablo has Marta's diary. New past form: leyó means \"he read\". And then someone rings the doorbell, the timbre.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 17400,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Querido diario:",
+   "en": "Dear diary:",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Querido diario",
+     "Dear diary"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 1800,
+    "frs": 2310,
+    "en": 1350,
+    "wd": 3760
+   },
+   "bank": {
+    "fr": [
+     48600,
+     1800
+    ],
+    "frs": [
+     50800,
+     2310
+    ],
+    "en": [
+     53510,
+     1350
+    ],
+    "wd": [
+     55260,
+     3760
+    ],
+    "wp": [
+     [
+      55260,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Miércoles.",
+   "en": "Wednesday.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Miércoles",
+     "Wednesday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 1590,
+    "frs": 2000,
+    "en": 1180,
+    "wd": 3380
+   },
+   "bank": {
+    "fr": [
+     59420,
+     1590
+    ],
+    "frs": [
+     61410,
+     2000
+    ],
+    "en": [
+     63810,
+     1180
+    ],
+    "wd": [
+     65390,
+     3380
+    ],
+    "wp": [
+     [
+      65390,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Escribo en un papel.",
+   "en": "I'm writing on a piece of paper.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "papel",
+     "en": "piece of paper"
+    }
+   ],
+   "words": [
+    [
+     "Escribo",
+     "I write"
+    ],
+    [
+     "en",
+     "on"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "papel",
+     "piece of paper"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2070,
+    "frs": 2710,
+    "en": 2080,
+    "gl": 3220,
+    "wd": 10580
+   },
+   "bank": {
+    "fr": [
+     69170,
+     2070
+    ],
+    "frs": [
+     71640,
+     2710
+    ],
+    "en": [
+     74750,
+     2080
+    ],
+    "gl": [
+     77230,
+     3220
+    ],
+    "wd": [
+     80850,
+     10580
+    ],
+    "wp": [
+     [
+      80850,
+      2370
+     ],
+     [
+      83620,
+      1890
+     ],
+     [
+      85910,
+      1860
+     ],
+     [
+      88170,
+      2410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Porque tú no estás aquí.",
+   "en": "Because you're not here.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Porque",
+     "because"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "estás",
+     "are"
+    ],
+    [
+     "aquí",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2100,
+    "frs": 2760,
+    "en": 1660,
+    "wd": 12670
+   },
+   "bank": {
+    "fr": [
+     91830,
+     2100
+    ],
+    "frs": [
+     94330,
+     2760
+    ],
+    "en": [
+     97490,
+     1660
+    ],
+    "wd": [
+     99550,
+     12670
+    ],
+    "wp": [
+     [
+      99550,
+      2260
+     ],
+     [
+      102210,
+      1880
+     ],
+     [
+      104490,
+      1960
+     ],
+     [
+      106850,
+      2140
+     ],
+     [
+      109390,
+      1980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Pablo te tiene!",
+   "en": "Pablo has you!",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "te",
+     "you"
+    ],
+    [
+     "tiene",
+     "has"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 1670,
+    "frs": 2110,
+    "en": 1450,
+    "wd": 7620
+   },
+   "bank": {
+    "fr": [
+     112620,
+     1670
+    ],
+    "frs": [
+     114690,
+     2110
+    ],
+    "en": [
+     117200,
+     1450
+    ],
+    "wd": [
+     119050,
+     7620
+    ],
+    "wp": [
+     [
+      119050,
+      2080
+     ],
+     [
+      121530,
+      1800
+     ],
+     [
+      123730,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ayer, en la cena, Pablo leyó mi diario.",
+   "en": "Yesterday, at dinner, Pablo read my diary.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "cena",
+     "en": "dinner"
+    },
+    {
+     "fr": "leyó",
+     "en": "he read"
+    }
+   ],
+   "words": [
+    [
+     "Ayer",
+     "yesterday"
+    ],
+    [
+     "en",
+     "at"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "cena",
+     "dinner"
+    ],
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "leyó",
+     "read"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "diario",
+     "diary"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "frs": 4680,
+    "en": 3550,
+    "gl": 5450,
+    "wd": 19910
+   },
+   "bank": {
+    "fr": [
+     127070,
+     3370
+    ],
+    "frs": [
+     130840,
+     4680
+    ],
+    "en": [
+     135920,
+     3550
+    ],
+    "gl": [
+     139870,
+     5450
+    ],
+    "wd": [
+     145720,
+     19910
+    ],
+    "wp": [
+     [
+      145720,
+      2160
+     ],
+     [
+      148280,
+      1820
+     ],
+     [
+      150500,
+      1810
+     ],
+     [
+      152710,
+      2020
+     ],
+     [
+      155130,
+      2080
+     ],
+     [
+      157610,
+      2110
+     ],
+     [
+      160120,
+      1920
+     ],
+     [
+      162440,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En voz alta.",
+   "en": "Out loud.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "en voz alta",
+     "en": "out loud"
+    }
+   ],
+   "words": [
+    [
+     "En voz alta",
+     "out loud"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 1670,
+    "frs": 2120,
+    "en": 1250,
+    "gl": 3740,
+    "wd": 3540
+   },
+   "bank": {
+    "fr": [
+     166030,
+     1670
+    ],
+    "frs": [
+     168100,
+     2120
+    ],
+    "en": [
+     170620,
+     1250
+    ],
+    "gl": [
+     172270,
+     3740
+    ],
+    "wd": [
+     176410,
+     3540
+    ],
+    "wp": [
+     [
+      176410,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Querido diario: me gusta Dani.»",
+   "en": "\"Dear diary: I like Dani.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Querido diario",
+     "Dear diary"
+    ],
+    [
+     "me gusta",
+     "I like"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2840,
+    "frs": 3880,
+    "en": 2490,
+    "wd": 9080
+   },
+   "bank": {
+    "fr": [
+     180350,
+     2840
+    ],
+    "frs": [
+     183590,
+     3880
+    ],
+    "en": [
+     187870,
+     2490
+    ],
+    "wd": [
+     190760,
+     9080
+    ],
+    "wp": [
+     [
+      190760,
+      2910
+     ],
+     [
+      194070,
+      2430
+     ],
+     [
+      196900,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Me gusta mucho.»",
+   "en": "\"I like him a lot.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Me gusta",
+     "I like (him)"
+    ],
+    [
+     "mucho",
+     "a lot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 1870,
+    "frs": 2410,
+    "en": 1510,
+    "wd": 6130
+   },
+   "bank": {
+    "fr": [
+     200240,
+     1870
+    ],
+    "frs": [
+     202510,
+     2410
+    ],
+    "en": [
+     205320,
+     1510
+    ],
+    "wd": [
+     207230,
+     6130
+    ],
+    "wp": [
+     [
+      207230,
+      2640
+     ],
+     [
+      210270,
+      2240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mi cara: roja. Muy roja.",
+   "en": "My face: red. Very red.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mi",
+     "my"
+    ],
+    [
+     "cara",
+     "face"
+    ],
+    [
+     "roja",
+     "red"
+    ],
+    [
+     "Muy",
+     "very"
+    ],
+    [
+     "roja",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4160,
+    "frs": 5860,
+    "en": 2700,
+    "wd": 12600
+   },
+   "bank": {
+    "fr": [
+     213760,
+     4160
+    ],
+    "frs": [
+     218320,
+     5860
+    ],
+    "en": [
+     224580,
+     2700
+    ],
+    "wd": [
+     227680,
+     12600
+    ],
+    "wp": [
+     [
+      227680,
+      1920
+     ],
+     [
+      230000,
+      2020
+     ],
+     [
+      232420,
+      2110
+     ],
+     [
+      234930,
+      1990
+     ],
+     [
+      237320,
+      2110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mi madre me dijo:",
+   "en": "My mum said to me:",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mi",
+     "my"
+    ],
+    [
+     "madre",
+     "mother"
+    ],
+    [
+     "me dijo",
+     "said to me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 1870,
+    "frs": 2420,
+    "en": 1550,
+    "wd": 8029
+   },
+   "bank": {
+    "fr": [
+     240680,
+     1870
+    ],
+    "frs": [
+     242950,
+     2420
+    ],
+    "en": [
+     245770,
+     1550
+    ],
+    "wd": [
+     247720,
+     8029
+    ],
+    "wp": [
+     [
+      247720,
+      1920
+     ],
+     [
+      250040,
+      2100
+     ],
+     [
+      252540,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Ay, Marta. ¿Quién es Dani?»",
+   "en": "\"Oh, Marta. Who is Dani?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ay",
+     "oh"
+    ],
+    [
+     "Marta",
+     "Marta"
+    ],
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3670,
+    "frs": 5130,
+    "en": 2260,
+    "wd": 12340
+   },
+   "bank": {
+    "fr": [
+     256149,
+     3670
+    ],
+    "frs": [
+     260220,
+     5130
+    ],
+    "en": [
+     265750,
+     2260
+    ],
+    "wd": [
+     268410,
+     12340
+    ],
+    "wp": [
+     [
+      268410,
+      1820
+     ],
+     [
+      270630,
+      2140
+     ],
+     [
+      273170,
+      1930
+     ],
+     [
+      275500,
+      1910
+     ],
+     [
+      277810,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Qué horror!",
+   "en": "How awful!",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Qué horror",
+     "how awful"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 1310,
+    "frs": 1580,
+    "en": 1240,
+    "wd": 3250
+   },
+   "bank": {
+    "fr": [
+     281150,
+     1310
+    ],
+    "frs": [
+     282860,
+     1580
+    ],
+    "en": [
+     284840,
+     1240
+    ],
+    "wd": [
+     286480,
+     3250
+    ],
+    "wp": [
+     [
+      286480,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Pablo, dame el diario!»",
+   "en": "\"Pablo, give me the diary!\"",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "dame",
+     "en": "give me"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "dame",
+     "give me"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "diario",
+     "diary"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3170,
+    "en": 2020,
+    "gl": 2940,
+    "wd": 10350
+   },
+   "bank": {
+    "fr": [
+     290130,
+     2370
+    ],
+    "frs": [
+     292900,
+     3170
+    ],
+    "en": [
+     296470,
+     2020
+    ],
+    "gl": [
+     298890,
+     2940
+    ],
+    "wd": [
+     302230,
+     10350
+    ],
+    "wp": [
+     [
+      302230,
+      2080
+     ],
+     [
+      304710,
+      2090
+     ],
+     [
+      307200,
+      1790
+     ],
+     [
+      309390,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pero Pablo corre.",
+   "en": "But Pablo runs.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "corre",
+     "runs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 1830,
+    "frs": 2360,
+    "en": 1680,
+    "wd": 7620
+   },
+   "bank": {
+    "fr": [
+     312980,
+     1830
+    ],
+    "frs": [
+     315210,
+     2360
+    ],
+    "en": [
+     317970,
+     1680
+    ],
+    "wd": [
+     320050,
+     7620
+    ],
+    "wp": [
+     [
+      320050,
+      1750
+     ],
+     [
+      322200,
+      2080
+     ],
+     [
+      324680,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y ahora esconde el diario.",
+   "en": "And now he hides the diary.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "esconde",
+     "en": "hides"
+    }
+   ],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "ahora",
+     "now"
+    ],
+    [
+     "esconde",
+     "hides"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "diario",
+     "diary"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2350,
+    "frs": 3140,
+    "en": 2170,
+    "gl": 3270,
+    "wd": 13080
+   },
+   "bank": {
+    "fr": [
+     328070,
+     2350
+    ],
+    "frs": [
+     330820,
+     3140
+    ],
+    "en": [
+     334360,
+     2170
+    ],
+    "gl": [
+     336930,
+     3270
+    ],
+    "wd": [
+     340600,
+     13080
+    ],
+    "wp": [
+     [
+      340600,
+      2130
+     ],
+     [
+      343130,
+      2030
+     ],
+     [
+      345560,
+      2340
+     ],
+     [
+      348300,
+      1790
+     ],
+     [
+      350490,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Dónde? No sé.",
+   "en": "Where? I don't know.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "No",
+     "not"
+    ],
+    [
+     "sé",
+     "I know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4070,
+    "en": 1900,
+    "wd": 7700
+   },
+   "bank": {
+    "fr": [
+     354080,
+     2970
+    ],
+    "frs": [
+     357450,
+     4070
+    ],
+    "en": [
+     361920,
+     1900
+    ],
+    "wd": [
+     364220,
+     7700
+    ],
+    "wp": [
+     [
+      364220,
+      2120
+     ],
+     [
+      366740,
+      1960
+     ],
+     [
+      369100,
+      1970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hoy, en el instituto, no hablo con Dani.",
+   "en": "Today, at school, I don't talk with Dani.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Hoy",
+     "today"
+    ],
+    [
+     "en",
+     "at"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "instituto",
+     "high school"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "hablo",
+     "I talk"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3280,
+    "frs": 4530,
+    "en": 2990,
+    "wd": 19800
+   },
+   "bank": {
+    "fr": [
+     372320,
+     3280
+    ],
+    "frs": [
+     376000,
+     4530
+    ],
+    "en": [
+     380930,
+     2990
+    ],
+    "wd": [
+     384320,
+     19800
+    ],
+    "wp": [
+     [
+      384320,
+      1960
+     ],
+     [
+      386680,
+      1820
+     ],
+     [
+      388900,
+      1790
+     ],
+     [
+      391090,
+      2580
+     ],
+     [
+      394070,
+      1960
+     ],
+     [
+      396430,
+      2170
+     ],
+     [
+      399000,
+      1780
+     ],
+     [
+      401180,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No soy valiente.",
+   "en": "I am not brave.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "not"
+    ],
+    [
+     "soy",
+     "I am"
+    ],
+    [
+     "valiente",
+     "brave"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 1920,
+    "frs": 2490,
+    "en": 1480,
+    "wd": 8050
+   },
+   "bank": {
+    "fr": [
+     404520,
+     1920
+    ],
+    "frs": [
+     406840,
+     2490
+    ],
+    "en": [
+     409730,
+     1480
+    ],
+    "wd": [
+     411610,
+     8050
+    ],
+    "wp": [
+     [
+      411610,
+      1960
+     ],
+     [
+      413970,
+      2140
+     ],
+     [
+      416510,
+      2300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dani me mira. Yo no.",
+   "en": "Dani looks at me. I don't.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "me",
+     "at me"
+    ],
+    [
+     "mira",
+     "looks"
+    ],
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "no",
+     "don't"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 3270,
+    "frs": 4510,
+    "en": 2160,
+    "wd": 12390
+   },
+   "bank": {
+    "fr": [
+     420060,
+     3270
+    ],
+    "frs": [
+     423730,
+     4510
+    ],
+    "en": [
+     428640,
+     2160
+    ],
+    "wd": [
+     431200,
+     12390
+    ],
+    "wp": [
+     [
+      431200,
+      2090
+     ],
+     [
+      433690,
+      1920
+     ],
+     [
+      436010,
+      2080
+     ],
+     [
+      438490,
+      1870
+     ],
+     [
+      440760,
+      1980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lucía ríe.",
+   "en": "Lucía laughs.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Lucía",
+     "Lucía"
+    ],
+    [
+     "ríe",
+     "laughs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 1770,
+    "frs": 2260,
+    "en": 1570,
+    "wd": 5860
+   },
+   "bank": {
+    "fr": [
+     443990,
+     1770
+    ],
+    "frs": [
+     446160,
+     2260
+    ],
+    "en": [
+     448820,
+     1570
+    ],
+    "wd": [
+     450790,
+     5860
+    ],
+    "wp": [
+     [
+      450790,
+      2370
+     ],
+     [
+      453560,
+      2240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Marta, ¡eres un desastre!»",
+   "en": "\"Marta, you're a disaster!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Marta",
+     "Marta"
+    ],
+    [
+     "eres",
+     "you are"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "desastre",
+     "disaster"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3400,
+    "en": 2360,
+    "wd": 10860
+   },
+   "bank": {
+    "fr": [
+     457050,
+     2530
+    ],
+    "frs": [
+     459980,
+     3400
+    ],
+    "en": [
+     463780,
+     2360
+    ],
+    "wd": [
+     466540,
+     10860
+    ],
+    "wp": [
+     [
+      466540,
+      2140
+     ],
+     [
+      469080,
+      2140
+     ],
+     [
+      471620,
+      1860
+     ],
+     [
+      473880,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y Lucía mira a Álex.",
+   "en": "And Lucía looks at Álex.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "Lucía",
+     "Lucía"
+    ],
+    [
+     "mira",
+     "looks"
+    ],
+    [
+     "a",
+     "at"
+    ],
+    [
+     "Álex",
+     "Álex"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2400,
+    "frs": 3210,
+    "en": 2090,
+    "wd": 13100
+   },
+   "bank": {
+    "fr": [
+     477800,
+     2400
+    ],
+    "frs": [
+     480600,
+     3210
+    ],
+    "en": [
+     484210,
+     2090
+    ],
+    "wd": [
+     486700,
+     13100
+    ],
+    "wp": [
+     [
+      486700,
+      2130
+     ],
+     [
+      489230,
+      2370
+     ],
+     [
+      492000,
+      2080
+     ],
+     [
+      494480,
+      1780
+     ],
+     [
+      496660,
+      2290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mira mucho a Álex.",
+   "en": "She looks at Álex a lot.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mira",
+     "she looks"
+    ],
+    [
+     "mucho",
+     "a lot"
+    ],
+    [
+     "a",
+     "at"
+    ],
+    [
+     "Álex",
+     "Álex"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 2210,
+    "frs": 2950,
+    "en": 1900,
+    "wd": 10610
+   },
+   "bank": {
+    "fr": [
+     500200,
+     2210
+    ],
+    "frs": [
+     502810,
+     2950
+    ],
+    "en": [
+     506160,
+     1900
+    ],
+    "wd": [
+     508460,
+     10610
+    ],
+    "wp": [
+     [
+      508460,
+      2250
+     ],
+     [
+      511110,
+      2240
+     ],
+     [
+      513750,
+      1780
+     ],
+     [
+      515930,
+      2290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hmm. Interesante.",
+   "en": "Hmm. Interesting.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Hmm",
+     "hmm"
+    ],
+    [
+     "Interesante",
+     "interesting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2080,
+    "frs": 2750,
+    "en": 1320,
+    "wd": 5770
+   },
+   "bank": {
+    "fr": [
+     519470,
+     2080
+    ],
+    "frs": [
+     521950,
+     2750
+    ],
+    "en": [
+     525100,
+     1320
+    ],
+    "wd": [
+     526820,
+     5770
+    ],
+    "wp": [
+     [
+      526820,
+      1800
+     ],
+     [
+      529020,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora son las seis.",
+   "en": "Now it's six o'clock.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "son",
+     "it is"
+    ],
+    [
+     "las",
+     "the"
+    ],
+    [
+     "seis",
+     "six"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2660,
+    "en": 1740,
+    "wd": 10270
+   },
+   "bank": {
+    "fr": [
+     532990,
+     2050
+    ],
+    "frs": [
+     535440,
+     2660
+    ],
+    "en": [
+     538500,
+     1740
+    ],
+    "wd": [
+     540640,
+     10270
+    ],
+    "wp": [
+     [
+      540640,
+      2030
+     ],
+     [
+      543070,
+      2070
+     ],
+     [
+      545540,
+      1940
+     ],
+     [
+      547880,
+      2180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Estoy en casa.",
+   "en": "I am at home.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Estoy",
+     "I am"
+    ],
+    [
+     "en",
+     "at"
+    ],
+    [
+     "casa",
+     "home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 1860,
+    "frs": 2390,
+    "en": 1370,
+    "wd": 7740
+   },
+   "bank": {
+    "fr": [
+     551310,
+     1860
+    ],
+    "frs": [
+     553570,
+     2390
+    ],
+    "en": [
+     556360,
+     1370
+    ],
+    "wd": [
+     558130,
+     7740
+    ],
+    "wp": [
+     [
+      558130,
+      2250
+     ],
+     [
+      560780,
+      1820
+     ],
+     [
+      563000,
+      2020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "De repente, suena el timbre.",
+   "en": "Suddenly, the doorbell rings.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "timbre",
+     "en": "doorbell"
+    }
+   ],
+   "words": [
+    [
+     "De repente",
+     "suddenly"
+    ],
+    [
+     "suena",
+     "rings"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "timbre",
+     "doorbell"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "gl": "audio/s028_gl.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3390,
+    "en": 2470,
+    "gl": 2990,
+    "wd": 10830
+   },
+   "bank": {
+    "fr": [
+     566270,
+     2530
+    ],
+    "frs": [
+     569200,
+     3390
+    ],
+    "en": [
+     572990,
+     2470
+    ],
+    "gl": [
+     575860,
+     2990
+    ],
+    "wd": [
+     579250,
+     10830
+    ],
+    "wp": [
+     [
+      579250,
+      2590
+     ],
+     [
+      582240,
+      2240
+     ],
+     [
+      584880,
+      1790
+     ],
+     [
+      587070,
+      2160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pablo abre la puerta.",
+   "en": "Pablo opens the door.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "abre",
+     "en": "opens"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "abre",
+     "opens"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "puerta",
+     "door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 1990,
+    "frs": 2610,
+    "en": 1810,
+    "gl": 2900,
+    "wd": 10060
+   },
+   "bank": {
+    "fr": [
+     590480,
+     1990
+    ],
+    "frs": [
+     592870,
+     2610
+    ],
+    "en": [
+     595880,
+     1810
+    ],
+    "gl": [
+     598090,
+     2900
+    ],
+    "wd": [
+     601390,
+     10060
+    ],
+    "wp": [
+     [
+      601390,
+      2080
+     ],
+     [
+      603870,
+      2080
+     ],
+     [
+      606350,
+      1810
+     ],
+     [
+      608560,
+      2040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es un chico.",
+   "en": "It's a boy.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "chico",
+     "boy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 1660,
+    "frs": 2100,
+    "en": 1260,
+    "wd": 7490
+   },
+   "bank": {
+    "fr": [
+     611850,
+     1660
+    ],
+    "frs": [
+     613910,
+     2100
+    ],
+    "en": [
+     616410,
+     1260
+    ],
+    "wd": [
+     618070,
+     7490
+    ],
+    "wp": [
+     [
+      618070,
+      1990
+     ],
+     [
+      620460,
+      1860
+     ],
+     [
+      622720,
+      1990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tiene una guitarra.",
+   "en": "He has a guitar.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Tiene",
+     "he has"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "guitarra",
+     "guitar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 1910,
+    "frs": 2480,
+    "en": 1530,
+    "wd": 8119
+   },
+   "bank": {
+    "fr": [
+     625960,
+     1910
+    ],
+    "frs": [
+     628270,
+     2480
+    ],
+    "en": [
+     631150,
+     1530
+    ],
+    "wd": [
+     633080,
+     8119
+    ],
+    "wp": [
+     [
+      633080,
+      2170
+     ],
+     [
+      635650,
+      1930
+     ],
+     [
+      637980,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Es Dani! ¡Dani, en mi casa!",
+   "en": "It's Dani! Dani, at my house!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "en",
+     "at"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "casa",
+     "house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3800,
+    "frs": 5310,
+    "en": 2630,
+    "wd": 14890
+   },
+   "bank": {
+    "fr": [
+     641600,
+     3800
+    ],
+    "frs": [
+     645800,
+     5310
+    ],
+    "en": [
+     651510,
+     2630
+    ],
+    "wd": [
+     654540,
+     14890
+    ],
+    "wp": [
+     [
+      654540,
+      1990
+     ],
+     [
+      656930,
+      2090
+     ],
+     [
+      659420,
+      2090
+     ],
+     [
+      661910,
+      1820
+     ],
+     [
+      664130,
+      1920
+     ],
+     [
+      666450,
+      2130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Hola. ¿Está Marta?»",
+   "en": "\"Hi. Is Marta in?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Hola",
+     "hi"
+    ],
+    [
+     "Está",
+     "is in"
+    ],
+    [
+     "Marta",
+     "Marta"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "frs": 4130,
+    "en": 2100,
+    "wd": 7910
+   },
+   "bank": {
+    "fr": [
+     669830,
+     2990
+    ],
+    "frs": [
+     673220,
+     4130
+    ],
+    "en": [
+     677750,
+     2100
+    ],
+    "wd": [
+     680250,
+     7910
+    ],
+    "wp": [
+     [
+      680250,
+      1940
+     ],
+     [
+      682590,
+      2180
+     ],
+     [
+      685170,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pablo mira a Dani.",
+   "en": "Pablo looks at Dani.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "mira",
+     "looks"
+    ],
+    [
+     "a",
+     "at"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 1940,
+    "frs": 2530,
+    "en": 1740,
+    "wd": 10080
+   },
+   "bank": {
+    "fr": [
+     688560,
+     1940
+    ],
+    "frs": [
+     690900,
+     2530
+    ],
+    "en": [
+     693830,
+     1740
+    ],
+    "wd": [
+     695970,
+     10080
+    ],
+    "wp": [
+     [
+      695970,
+      2080
+     ],
+     [
+      698450,
+      2080
+     ],
+     [
+      700930,
+      1780
+     ],
+     [
+      703110,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Tú eres Dani? ¿El de la guitarra?»",
+   "en": "\"Are you Dani? The one with the guitar?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Tú",
+     "you"
+    ],
+    [
+     "eres",
+     "are"
+    ],
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "El",
+     "the one"
+    ],
+    [
+     "de",
+     "with"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "guitarra",
+     "guitar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3660,
+    "frs": 5100,
+    "en": 2690,
+    "wd": 17130
+   },
+   "bank": {
+    "fr": [
+     706450,
+     3660
+    ],
+    "frs": [
+     710510,
+     5100
+    ],
+    "en": [
+     716010,
+     2690
+    ],
+    "wd": [
+     719100,
+     17130
+    ],
+    "wp": [
+     [
+      719100,
+      1880
+     ],
+     [
+      721380,
+      1990
+     ],
+     [
+      723770,
+      2090
+     ],
+     [
+      726260,
+      1950
+     ],
+     [
+      728610,
+      1790
+     ],
+     [
+      730800,
+      1810
+     ],
+     [
+      733010,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí...»",
+   "en": "\"Yes...\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 1320,
+    "frs": 1600,
+    "en": 1190,
+    "wd": 2880
+   },
+   "bank": {
+    "fr": [
+     736630,
+     1320
+    ],
+    "frs": [
+     738350,
+     1600
+    ],
+    "en": [
+     740350,
+     1190
+    ],
+    "wd": [
+     741940,
+     2880
+    ],
+    "wp": [
+     [
+      741940,
+      2030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Mira! ¡Es el diario de Marta!»",
+   "en": "\"Look! It's Marta's diary!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mira",
+     "look"
+    ],
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "diario",
+     "diary"
+    ],
+    [
+     "de",
+     "of"
+    ],
+    [
+     "Marta",
+     "Marta"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3720,
+    "frs": 5190,
+    "en": 2430,
+    "wd": 14910
+   },
+   "bank": {
+    "fr": [
+     745220,
+     3720
+    ],
+    "frs": [
+     749340,
+     5190
+    ],
+    "en": [
+     754930,
+     2430
+    ],
+    "wd": [
+     757760,
+     14910
+    ],
+    "wp": [
+     [
+      757760,
+      1980
+     ],
+     [
+      760140,
+      1990
+     ],
+     [
+      762530,
+      1790
+     ],
+     [
+      764720,
+      2340
+     ],
+     [
+      767460,
+      1820
+     ],
+     [
+      769680,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No. No, no, no.",
+   "en": "No. No, no, no.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "No",
+     "no"
+    ],
+    [
+     "no",
+     "no"
+    ],
+    [
+     "no",
+     "no"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 3640,
+    "frs": 5060,
+    "en": 2410,
+    "wd": 9890
+   },
+   "bank": {
+    "fr": [
+     773070,
+     3640
+    ],
+    "frs": [
+     777110,
+     5060
+    ],
+    "en": [
+     782570,
+     2410
+    ],
+    "wd": [
+     785380,
+     9890
+    ],
+    "wp": [
+     [
+      785380,
+      1960
+     ],
+     [
+      787740,
+      1960
+     ],
+     [
+      790100,
+      1960
+     ],
+     [
+      792460,
+      1960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Corro a la puerta.",
+   "en": "I run to the door.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Corro",
+     "I run"
+    ],
+    [
+     "a",
+     "to"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "puerta",
+     "door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 1820,
+    "frs": 2350,
+    "en": 1540,
+    "wd": 9800
+   },
+   "bank": {
+    "fr": [
+     795670,
+     1820
+    ],
+    "frs": [
+     797890,
+     2350
+    ],
+    "en": [
+     800640,
+     1540
+    ],
+    "wd": [
+     802580,
+     9800
+    ],
+    "wp": [
+     [
+      802580,
+      2150
+     ],
+     [
+      805130,
+      1750
+     ],
+     [
+      807280,
+      1810
+     ],
+     [
+      809490,
+      2040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pero es tarde.",
+   "en": "But it's too late.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "es",
+     "it is"
+    ],
+    [
+     "tarde",
+     "late"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 1670,
+    "frs": 2110,
+    "en": 1490,
+    "wd": 7380
+   },
+   "bank": {
+    "fr": [
+     812780,
+     1670
+    ],
+    "frs": [
+     814850,
+     2110
+    ],
+    "en": [
+     817360,
+     1490
+    ],
+    "wd": [
+     819250,
+     7380
+    ],
+    "wp": [
+     [
+      819250,
+      1750
+     ],
+     [
+      821400,
+      1990
+     ],
+     [
+      823790,
+      1990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dani lee mi diario.",
+   "en": "Dani is reading my diary.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "lee",
+     "reads"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "diario",
+     "diary"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2910,
+    "en": 2020,
+    "wd": 10570
+   },
+   "bank": {
+    "fr": [
+     827030,
+     2190
+    ],
+    "frs": [
+     829620,
+     2910
+    ],
+    "en": [
+     832930,
+     2020
+    ],
+    "wd": [
+     835350,
+     10570
+    ],
+    "wp": [
+     [
+      835350,
+      2090
+     ],
+     [
+      837840,
+      2170
+     ],
+     [
+      840410,
+      1920
+     ],
+     [
+      842730,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dani me mira.",
+   "en": "Dani looks at me.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Dani",
+     "Dani"
+    ],
+    [
+     "me",
+     "at me"
+    ],
+    [
+     "mira",
+     "looks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 1690,
+    "frs": 2150,
+    "en": 1470,
+    "wd": 7740
+   },
+   "bank": {
+    "fr": [
+     846320,
+     1690
+    ],
+    "frs": [
+     848410,
+     2150
+    ],
+    "en": [
+     850960,
+     1470
+    ],
+    "wd": [
+     852830,
+     7740
+    ],
+    "wp": [
+     [
+      852830,
+      2090
+     ],
+     [
+      855320,
+      1920
+     ],
+     [
+      857640,
+      2080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Marta... ¿es verdad?»",
+   "en": "\"Marta... is it true?\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "es verdad",
+     "en": "it's true"
+    }
+   ],
+   "words": [
+    [
+     "Marta",
+     "Marta"
+    ],
+    [
+     "es verdad",
+     "is it true"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3",
+    "gl": "audio/s043_gl.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 1950,
+    "frs": 2540,
+    "en": 1980,
+    "gl": 3350,
+    "wd": 5830
+   },
+   "bank": {
+    "fr": [
+     860970,
+     1950
+    ],
+    "frs": [
+     863320,
+     2540
+    ],
+    "en": [
+     866260,
+     1980
+    ],
+    "gl": [
+     868640,
+     3350
+    ],
+    "wd": [
+     872390,
+     5830
+    ],
+    "wp": [
+     [
+      872390,
+      2140
+     ],
+     [
+      874930,
+      2440
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   17400
+  ],
+  "silence": [
+   18200,
+   30000
+  ]
+ }
+}
