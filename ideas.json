@@ -1,0 +1,1389 @@
+{
+ "version": 1,
+ "ideas": [
+  {
+   "t": "Two strangers share an umbrella in Lyon and keep meeting every rainy Tuesday",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "A love story told only through notes left on a shared fridge",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "A summer romance on the island of Capri, told by the ferry captain",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "A grandmother reveals the letter she never sent in 1962",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "Wedding day in Yerevan: the bride's sister has a secret to confess",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "Two rival bakers in the same Madrid street slowly fall in love",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "A violinist and a deaf painter fall in love — a gentle drama",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "An old couple dancing tango in Buenos Aires for their 50th anniversary",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "A night train from Paris to Venice and one conversation that changes everything",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "Sisters who haven't spoken in ten years meet at their father's vineyard",
+   "c": "Romance & drama"
+  },
+  {
+   "t": "The night the Mona Lisa was stolen from the Louvre (1911)",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A cozy whodunit in a Provençal village: who poisoned the jam contest?",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A detective in 1920s Naples and the case of the missing opera singer",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "The stolen recipe: a mystery in a Barcelona tapas bar",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "An Agatha Christie-style murder on a snowbound train",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A locked-room mystery in a Paris bookshop, solved by the cat's owner",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "The Great Brink's Robbery of 1950 told like a radio drama",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A small-town mystery in Dilijan: who keeps leaving apricots on the doorstep?",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "The art forger who fooled the experts: Han van Meegeren's story",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A detective interview: the witness who remembers everything except one thing",
+   "c": "Mystery & crime"
+  },
+  {
+   "t": "A cat writes a complaint letter to the hotel manager",
+   "c": "Funny"
+  },
+  {
+   "t": "A tourist orders in terrible French and accidentally adopts a goat",
+   "c": "Funny"
+  },
+  {
+   "t": "The worst job interview ever, told by the interviewer",
+   "c": "Funny"
+  },
+  {
+   "t": "A GPS that develops opinions about your life choices",
+   "c": "Funny"
+  },
+  {
+   "t": "Two grandmothers argue over the correct way to make dolma",
+   "c": "Funny"
+  },
+  {
+   "t": "A dog reviews every park in Rome like a food critic",
+   "c": "Funny"
+  },
+  {
+   "t": "My Italian mother-in-law visits for \"one weekend\" — day 47",
+   "c": "Funny"
+  },
+  {
+   "t": "A pigeon in Paris explains why it owns the Eiffel Tower",
+   "c": "Funny"
+  },
+  {
+   "t": "A very polite robot tries to return a sweater without a receipt",
+   "c": "Funny"
+  },
+  {
+   "t": "The family group chat during a holiday dinner, read aloud",
+   "c": "Funny"
+  },
+  {
+   "t": "Little Red Riding Hood retold from the wolf's side",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "The Armenian legend of Ara the Beautiful and Queen Semiramis",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Orpheus and Eurydice, told as a 10-minute radio drama",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Puss in Boots, the original French tale by Charles Perrault",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "The myth of Persephone and why we have winter",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Anahit: the Armenian tale of a girl who made a prince learn a craft",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Pinocchio as Collodi first wrote it — darker than Disney",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Beauty and the Beast, the 1740 French version",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "The Spanish legend of the Alhambra's enchanted soldier",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Theseus and the Minotaur explained like I'm 12",
+   "c": "Fairy tales & myths"
+  },
+  {
+   "t": "Le Petit Prince in a short summary for adults",
+   "c": "Famous books"
+  },
+  {
+   "t": "Don Quixote's fight with the windmills, simply retold",
+   "c": "Famous books"
+  },
+  {
+   "t": "The Count of Monte Cristo: the escape from the Château d'If",
+   "c": "Famous books"
+  },
+  {
+   "t": "Les Misérables: Jean Valjean and the bishop's candlesticks",
+   "c": "Famous books"
+  },
+  {
+   "t": "Pride and Prejudice: the first proposal scene, retold",
+   "c": "Famous books"
+  },
+  {
+   "t": "The Odyssey in 10 minutes",
+   "c": "Famous books"
+  },
+  {
+   "t": "Madame Bovary: what really went wrong for Emma?",
+   "c": "Famous books"
+  },
+  {
+   "t": "The Name of the Rose by Umberto Eco — the mystery in brief",
+   "c": "Famous books"
+  },
+  {
+   "t": "Twenty Thousand Leagues Under the Sea: a day aboard the Nautilus",
+   "c": "Famous books"
+  },
+  {
+   "t": "Hamlet explained to a teenager who hates Shakespeare",
+   "c": "Famous books"
+  },
+  {
+   "t": "Sherlock Holmes: The Adventure of the Speckled Band, retold",
+   "c": "Famous books"
+  },
+  {
+   "t": "How the Eiffel Tower was almost torn down in 1909",
+   "c": "History"
+  },
+  {
+   "t": "A day in Pompeii, the morning before Vesuvius erupted",
+   "c": "History"
+  },
+  {
+   "t": "How Armenians invented their own alphabet in 405 AD",
+   "c": "History"
+  },
+  {
+   "t": "The Great Stink of London, 1858",
+   "c": "History"
+  },
+  {
+   "t": "The Christmas truce of 1914 in the trenches",
+   "c": "History"
+  },
+  {
+   "t": "How Venice was built on water and wooden poles",
+   "c": "History"
+  },
+  {
+   "t": "The fall of the Berlin Wall told by a border guard's diary",
+   "c": "History"
+  },
+  {
+   "t": "Life on a Roman legionary's march, day by day",
+   "c": "History"
+  },
+  {
+   "t": "The building of the Panama Canal in five minutes",
+   "c": "History"
+  },
+  {
+   "t": "The Spanish Armada: what really happened in 1588",
+   "c": "History"
+  },
+  {
+   "t": "How Napoleon lost in Russia in 1812",
+   "c": "History"
+  },
+  {
+   "t": "Marie Curie: the woman who won two Nobel Prizes",
+   "c": "Biographies"
+  },
+  {
+   "t": "Leonardo da Vinci's to-do lists and what they tell us",
+   "c": "Biographies"
+  },
+  {
+   "t": "Coco Chanel's rise from an orphanage to Paris fashion",
+   "c": "Biographies"
+  },
+  {
+   "t": "Charles Aznavour: the Armenian boy who became France's voice",
+   "c": "Biographies"
+  },
+  {
+   "t": "Frida Kahlo's life in ten objects",
+   "c": "Biographies"
+  },
+  {
+   "t": "Galileo Galilei and the telescope that got him in trouble",
+   "c": "Biographies"
+  },
+  {
+   "t": "Antoni Gaudí and the church he never finished",
+   "c": "Biographies"
+  },
+  {
+   "t": "Édith Piaf: from street singer to legend",
+   "c": "Biographies"
+  },
+  {
+   "t": "Komitas, the priest who saved Armenian folk music",
+   "c": "Biographies"
+  },
+  {
+   "t": "Jules Verne: the man who imagined the future from his desk",
+   "c": "Biographies"
+  },
+  {
+   "t": "Maria Montessori and her revolution in classrooms",
+   "c": "Biographies"
+  },
+  {
+   "t": "The Chilean miners trapped underground for 69 days (2010)",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "How the Lascaux caves were found by teenagers and a dog in 1940",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The Apollo 13 rescue in under 10 minutes",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "Shackleton's Endurance: how all 28 men survived the ice",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The Miracle on the Hudson: a plane lands on a river",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The Tham Luang cave rescue in Thailand, 2018",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The man who walked a tightrope between the Twin Towers in 1974",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "How the Titanic's wreck was finally found in 1985",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The story of Hachikō, the dog who waited ten years",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "The 1966 Florence flood and the \"mud angels\" who saved the art",
+   "c": "True stories & documentaries"
+  },
+  {
+   "t": "Why we can't tickle ourselves — a 5-minute lecture",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Why songs get stuck in our heads",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "The marshmallow test and what it really showed",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Why we remember embarrassing moments for years",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "The Dunning-Kruger effect explained simply",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Why we walk into a room and forget why",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "The psychology of procrastination and how to beat it",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Why we feel lonely in crowds",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Déjà vu: what scientists think is happening",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "How habits form, explained like I'm 12",
+   "c": "Psychology & the mind"
+  },
+  {
+   "t": "Why the sky is blue but sunsets are red",
+   "c": "Science explained"
+  },
+  {
+   "t": "How do bees see the world?",
+   "c": "Science explained"
+  },
+  {
+   "t": "Why does bread rise? The chemistry of yeast",
+   "c": "Science explained"
+  },
+  {
+   "t": "What is a black hole, explained like I'm 12",
+   "c": "Science explained"
+  },
+  {
+   "t": "Why we have fingerprints",
+   "c": "Science explained"
+  },
+  {
+   "t": "How vaccines were discovered: Jenner and the milkmaid",
+   "c": "Science explained"
+  },
+  {
+   "t": "Why ice floats and why it matters for life",
+   "c": "Science explained"
+  },
+  {
+   "t": "Why onions make us cry",
+   "c": "Science explained"
+  },
+  {
+   "t": "How does a rainbow form?",
+   "c": "Science explained"
+  },
+  {
+   "t": "Why do cats purr? What science knows",
+   "c": "Science explained"
+  },
+  {
+   "t": "How a seed knows which way is up",
+   "c": "Science explained"
+  },
+  {
+   "t": "Making real French crêpes with grandma, step by step",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "How to cook Armenian lavash at home, told as a story",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Spaghetti carbonara the Roman way — no cream!",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "A Spanish tortilla and the great onion debate",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Ratatouille: a summer recipe told by a farmer in Provence",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Harissa, the Armenian wheat-and-chicken porridge, cooked overnight",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Tiramisu: a recipe and its little love story",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Paella valenciana on a Sunday afternoon by the sea",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "French onion soup on a cold night in a Paris bistro",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "Gata, the Armenian sweet bread, baked for a holiday",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "How to make the perfect espresso, Italian-style",
+   "c": "Recipes & cooking"
+  },
+  {
+   "t": "A slow walk through Montmartre on a Sunday morning",
+   "c": "Travel & places"
+  },
+  {
+   "t": "48 hours in Yerevan: cafés, cascades and Mount Ararat views",
+   "c": "Travel & places"
+  },
+  {
+   "t": "Lost in the canals of Venice without a map",
+   "c": "Travel & places"
+  },
+  {
+   "t": "A road trip through the Spanish Pyrenees",
+   "c": "Travel & places"
+  },
+  {
+   "t": "A morning market in Nice, stall by stall",
+   "c": "Travel & places"
+  },
+  {
+   "t": "The monastery of Geghard, carved into a mountain",
+   "c": "Travel & places"
+  },
+  {
+   "t": "The Camino de Santiago: one pilgrim's first day",
+   "c": "Travel & places"
+  },
+  {
+   "t": "Cinque Terre: five villages on the cliffs",
+   "c": "Travel & places"
+  },
+  {
+   "t": "A night ferry to Corsica",
+   "c": "Travel & places"
+  },
+  {
+   "t": "Lake Sevan at sunrise, told by a fisherman",
+   "c": "Travel & places"
+  },
+  {
+   "t": "Seville in April: oranges, flamenco and heat",
+   "c": "Travel & places"
+  },
+  {
+   "t": "How Vivaldi's Four Seasons paints the weather",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "The story behind Ravel's Boléro",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "Flamenco explained for beginners",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "Why \"La Vie en rose\" became a worldwide hit",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "The duduk: the Armenian instrument that sounds like crying",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "Mozart's childhood: a touring child star",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "How the piano was invented in Italy",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "Aram Khachaturian and the Sabre Dance",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "A day in the life of an orchestra conductor",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "The Beatles in Hamburg before they were famous",
+   "c": "Music & musicians"
+  },
+  {
+   "t": "How the Lumière brothers invented cinema in 1895",
+   "c": "Film & TV"
+  },
+  {
+   "t": "Amélie: why the film made everyone love Montmartre",
+   "c": "Film & TV"
+  },
+  {
+   "t": "Behind the scenes of Fellini's La Dolce Vita fountain scene",
+   "c": "Film & TV"
+  },
+  {
+   "t": "Georges Méliès and A Trip to the Moon",
+   "c": "Film & TV"
+  },
+  {
+   "t": "Why Italian neorealism changed movies forever",
+   "c": "Film & TV"
+  },
+  {
+   "t": "A screenwriter explains how to write a perfect cliffhanger",
+   "c": "Film & TV"
+  },
+  {
+   "t": "Sergei Parajanov's The Color of Pomegranates in five minutes",
+   "c": "Film & TV"
+  },
+  {
+   "t": "How dubbing works in Spain, Italy and France",
+   "c": "Film & TV"
+  },
+  {
+   "t": "A day on a film set, told by the person who holds the boom mic",
+   "c": "Film & TV"
+  },
+  {
+   "t": "How the first animated feature film was made",
+   "c": "Film & TV"
+  },
+  {
+   "t": "The night Van Gogh painted Starry Night",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Why the Mona Lisa is so famous (it wasn't always)",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Michelangelo painting the Sistine Chapel ceiling — lying down?",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Monet's water lilies and his garden at Giverny",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Picasso's Guernica explained simply",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Martiros Saryan, the painter of Armenian colour",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Las Meninas by Velázquez: who is looking at whom?",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Impressionism: the painters the Paris Salon rejected",
+   "c": "Art & artists"
+  },
+  {
+   "t": "How fresco painting works, step by step",
+   "c": "Art & artists"
+  },
+  {
+   "t": "Camille Claudel: the sculptor in Rodin's shadow",
+   "c": "Art & artists"
+  },
+  {
+   "t": "The first modern Olympics, Athens 1896",
+   "c": "Sport"
+  },
+  {
+   "t": "The Tour de France: how a newspaper invented a race",
+   "c": "Sport"
+  },
+  {
+   "t": "Why Armenia loves chess so much",
+   "c": "Sport"
+  },
+  {
+   "t": "A day in the life of a Formula 1 mechanic in Monza",
+   "c": "Sport"
+  },
+  {
+   "t": "How football came to Barcelona",
+   "c": "Sport"
+  },
+  {
+   "t": "The story of the marathon, from legend to race",
+   "c": "Sport"
+  },
+  {
+   "t": "Rafael Nadal's clay court kingdom at Roland-Garros",
+   "c": "Sport"
+  },
+  {
+   "t": "How tennis scoring got so strange (love, 15, 30, 40)",
+   "c": "Sport"
+  },
+  {
+   "t": "A cyclist's diary climbing Mont Ventoux",
+   "c": "Sport"
+  },
+  {
+   "t": "The history of the bicycle race Giro d'Italia",
+   "c": "Sport"
+  },
+  {
+   "t": "A 10-minute evening wind-down story for better sleep",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "The Mediterranean way of eating, explained simply",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "Why walking after dinner feels so good",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "A guided slow breathing walk through a pine forest",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "How the Italian \"passeggiata\" keeps towns happy",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "Why naps are a tradition in Spain",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "The science of a good cup of tea",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "A morning stretch routine told as a calm story",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "Why sunlight in the morning helps your mood",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "How to build a gentle reading habit before bed",
+   "c": "Health & wellbeing"
+  },
+  {
+   "t": "My first day at a Paris start-up, a funny diary",
+   "c": "Work & career"
+  },
+  {
+   "t": "How to ask for a raise — a role-play conversation",
+   "c": "Work & career"
+  },
+  {
+   "t": "A job interview in French: practice dialogue",
+   "c": "Work & career"
+  },
+  {
+   "t": "Running a family trattoria: a day with the owner",
+   "c": "Work & career"
+  },
+  {
+   "t": "How to give a great 3-minute presentation",
+   "c": "Work & career"
+  },
+  {
+   "t": "A remote worker in a café in Lisbon: pros and cons",
+   "c": "Work & career"
+  },
+  {
+   "t": "An apprentice's first week with a luthier in Cremona",
+   "c": "Work & career"
+  },
+  {
+   "t": "How to write a polite email to your boss",
+   "c": "Work & career"
+  },
+  {
+   "t": "A chef's first night running the kitchen",
+   "c": "Work & career"
+  },
+  {
+   "t": "Career change at 40: a pastry school story",
+   "c": "Work & career"
+  },
+  {
+   "t": "Ordering coffee in a busy Paris café",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Asking for directions at a Rome train station",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "At the pharmacy: describing a headache",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Checking into a hotel and the room isn't ready",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Small talk with a neighbour in the elevator",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Buying fruit at a Yerevan market and bargaining",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Calling a plumber when the kitchen floods",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Meeting your partner's parents for dinner",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Returning shoes that don't fit",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "Booking a table at a restaurant by phone",
+   "c": "Everyday conversations"
+  },
+  {
+   "t": "The little cloud who was afraid of raining",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "A hedgehog who wanted to hug everyone",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The moon goes on holiday and the stars take over",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "A tiny dragon who sneezes bubbles instead of fire",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The sleepy train that visits every toy in the house",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "A lighthouse keeper's cat who guards the ships",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The bear who couldn't find his winter cave",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "A snail's big race across the garden",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The pomegranate tree that grew stars",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The teddy bear's night adventure in the museum",
+   "c": "Kids' bedtime stories"
+  },
+  {
+   "t": "The Monty Hall problem — why switching doors wins",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The Ship of Theseus: is it still the same ship?",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "Zeno's paradox: why Achilles can't catch the tortoise",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The birthday paradox: 23 people, shared birthdays",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The liar paradox: \"This sentence is false\"",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The prisoner's dilemma told as a crime story",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "Three logic riddles to solve while you walk",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The grandfather paradox of time travel",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "Why 0.999... equals 1",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "The river-crossing puzzle with a wolf, a goat and a cabbage",
+   "c": "Paradoxes & puzzles"
+  },
+  {
+   "t": "A ghost in a Venetian palazzo who only appears during carnival",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "The legend of the haunted catacombs of Paris",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A gentle ghost story: the lighthouse that lights itself",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A Spanish village where the clock always stops at midnight",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "The Als: night spirits of Armenian folklore, told by the fire",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A hotel room that no one is allowed to book",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "The phantom of the Paris Opera — the real legends behind it",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A haunted bookshop where books rearrange themselves",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "The woman in white on a Tuscan road",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A ghost who just wants someone to finish his novel",
+   "c": "Supernatural & ghost stories"
+  },
+  {
+   "t": "A day in Paris in 2080: no cars, only gardens",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "The last bookshop on Mars",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "A robot learns to cook Armenian food from a grandmother",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "A message arrives from a star 40 years too late",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "Diary of the first child born on the Moon",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "A city where everyone's memories can be traded",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "An AI that becomes a tour guide in Rome",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "The first human colony under the sea",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "Time traveler stuck in 1920s Barcelona",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "A world where everyone speaks the same language — and misses the old ones",
+   "c": "Sci-fi & future"
+  },
+  {
+   "t": "How the little black dress was born",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "Why Italian design loves the Vespa",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "The story of the Breton striped shirt",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "How the Paris fashion week works",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "Haute couture: a day in the atelier",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "The history of the high heel (men wore them first)",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "Armenian carpets: patterns and meanings",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "Why Barcelona's buildings look like dreams",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "How jeans went from workwear to fashion",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "The invention of the bikini in Paris, 1946",
+   "c": "Fashion & design"
+  },
+  {
+   "t": "How octopuses solve puzzles",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "The great migration of storks to Europe",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "Why flamingos are pink",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "A day in the life of a honeybee",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "How trees talk to each other through roots",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "The wolves of Yellowstone and how they changed rivers",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "Why whales sing",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "The Armenian mouflon, a mountain sheep of the Caucasus",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "How crows remember faces",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "The secret life of a city fox",
+   "c": "Nature & animals"
+  },
+  {
+   "t": "Why French has so many silent letters",
+   "c": "Language & words"
+  },
+  {
+   "t": "Words that exist only in Italian, like \"abbiocco\"",
+   "c": "Language & words"
+  },
+  {
+   "t": "How English stole half its words from French",
+   "c": "Language & words"
+  },
+  {
+   "t": "Why Spanish has two verbs for \"to be\"",
+   "c": "Language & words"
+  },
+  {
+   "t": "The 36 letters of the Armenian alphabet and their stories",
+   "c": "Language & words"
+  },
+  {
+   "t": "Where the word \"salary\" comes from (it's salt!)",
+   "c": "Language & words"
+  },
+  {
+   "t": "False friends: French words that trick English speakers",
+   "c": "Language & words"
+  },
+  {
+   "t": "Why Italians talk with their hands",
+   "c": "Language & words"
+  },
+  {
+   "t": "How babies learn to talk",
+   "c": "Language & words"
+  },
+  {
+   "t": "Funny idioms: \"to have the cockroach\" in Spanish",
+   "c": "Language & words"
+  },
+  {
+   "t": "Socrates: why he said \"I know that I know nothing\"",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Descartes: \"I think, therefore I am\" explained like I'm 12",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Stoicism for a bad day at work",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Camus and the myth of Sisyphus: imagine him happy",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Plato's cave in five minutes",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "What is happiness? Aristotle vs Epicurus",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Montaigne and the art of writing about yourself",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "The trolley problem, gently explained",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Why do we fear death? Epicurus' answer",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "Is free will real? A short debate",
+   "c": "Philosophy in 5 minutes"
+  },
+  {
+   "t": "How a fridge keeps things cold",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "Who invented the bicycle and how it changed women's lives",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How the printing press changed Europe",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How does a microwave heat food?",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "The invention of the espresso machine in Turin",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How GPS knows where you are",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How a lock and key really work",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "The story of the zipper",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How Braille was invented by a 15-year-old in France",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "How the Paris metro was built",
+   "c": "Inventions & how things work"
+  },
+  {
+   "t": "A letter from a sailor to his wife, 1890",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "Napoleon's love letters to Josephine",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A letter to my younger self at 18",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A love letter written by an old man to his late wife's garden",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "Letters between two pen pals, Paris and Yerevan, 1975",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A thank-you letter to a teacher, twenty years later",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "Van Gogh's letters to his brother Theo",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A letter from a mother to her son leaving for university",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A soldier's letter home on Christmas Eve, 1914",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A love letter from a baker in Naples hidden in bread",
+   "c": "Love letters & letters"
+  },
+  {
+   "t": "A life told in first person by a Paris street lamp",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "I was a gondolier for 40 years — my story",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "My life as a Spanish flamenco dancer, in my own words",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "I am the Eiffel Tower, and here is what I've seen",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "Memoirs of an old violin made in Cremona",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "I grew up in Gyumri: a life told in first person",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "My life as a lighthouse keeper on the Breton coast",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "I am a cat who lived in the Hermitage Museum",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "The story of my life as a fisherman in Sicily",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "I was the first woman taxi driver in Madrid",
+   "c": "Autobiography-style"
+  },
+  {
+   "t": "Paris at 3 a.m.: bakers, cleaners and night owls",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Rome after midnight: fountains without tourists",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Yerevan on a summer night: the singing fountains",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Madrid's late dinners and night-time streets",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Venice at night, when the boats go quiet",
+   "c": "Cities at night"
+  },
+  {
+   "t": "A night shift at a Lyon hospital, gently told",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Barcelona's Gothic Quarter after dark",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Naples at night: pizza, scooters and music",
+   "c": "Cities at night"
+  },
+  {
+   "t": "A taxi driver's night in Marseille",
+   "c": "Cities at night"
+  },
+  {
+   "t": "Night trains across Europe: who rides them?",
+   "c": "Cities at night"
+  },
+  {
+   "t": "How the croissant came to France from Vienna",
+   "c": "Food history"
+  },
+  {
+   "t": "Who really invented pizza Margherita?",
+   "c": "Food history"
+  },
+  {
+   "t": "How tomatoes arrived in Italy from America",
+   "c": "Food history"
+  },
+  {
+   "t": "The history of chocolate, from the Aztecs to Spain",
+   "c": "Food history"
+  },
+  {
+   "t": "Why the apricot is called the Armenian plum",
+   "c": "Food history"
+  },
+  {
+   "t": "The story of champagne and the monk Dom Pérignon",
+   "c": "Food history"
+  },
+  {
+   "t": "How coffee arrived in Europe through Venice",
+   "c": "Food history"
+  },
+  {
+   "t": "The surprising history of the baguette",
+   "c": "Food history"
+  },
+  {
+   "t": "Gelato vs ice cream: the story of Italy's frozen treat",
+   "c": "Food history"
+  },
+  {
+   "t": "How the potato conquered Europe",
+   "c": "Food history"
+  },
+  {
+   "t": "What a day on the International Space Station looks like",
+   "c": "Space"
+  },
+  {
+   "t": "Why Mars is red",
+   "c": "Space"
+  },
+  {
+   "t": "How we know the age of the universe",
+   "c": "Space"
+  },
+  {
+   "t": "The first dog in space: Laika's story",
+   "c": "Space"
+  },
+  {
+   "t": "What astronauts eat in space",
+   "c": "Space"
+  },
+  {
+   "t": "Neil Armstrong's first steps, minute by minute",
+   "c": "Space"
+  },
+  {
+   "t": "Why does the Moon change shape?",
+   "c": "Space"
+  },
+  {
+   "t": "Jupiter's moon Europa and the ocean under the ice",
+   "c": "Space"
+  },
+  {
+   "t": "How the Voyager probes are still talking to us",
+   "c": "Space"
+  },
+  {
+   "t": "Why Pluto isn't a planet anymore",
+   "c": "Space"
+  },
+  {
+   "t": "Why do we yawn when others yawn?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why do fingers wrinkle in the bath?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why is the toast always butter side down?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why do clocks go clockwise?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why does the shower curtain blow inward?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why do we say \"bless you\" when someone sneezes?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why are keyboards not in alphabetical order?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why do we get goosebumps?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why do we always pick the slowest queue at the supermarket?",
+   "c": "Small mysteries of daily life"
+  },
+  {
+   "t": "Why does time seem to fly as we get older?",
+   "c": "Small mysteries of daily life"
+  }
+ ]
+}

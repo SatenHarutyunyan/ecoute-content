@@ -78,6 +78,9 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .rqchips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
 .rqchips .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
 .rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:15px; }
+.rqidea { display:flex; gap:6px; margin-top:6px; }
+.rqidea .chip { font-size:12px; padding:5px 10px; color:var(--muted); }
+.rqtext::placeholder { color:var(--muted); opacity:.75; font-style:italic; }
 .rqsend { background:var(--accent) !important; color:#fff !important; border:none !important; }
 .foryou { display:inline-block; margin-left:6px; font-size:11px; font-weight:600; color:var(--accent); }
 #survey .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
@@ -252,7 +255,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.40";
+const VERSION = "web 0.41";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -966,7 +969,10 @@ const needsOnboarding = () => !store.get("onboarded", false);
 const TOPICS = ["Romance & drama", "Mystery & crime", "Funny", "Fairy tales & myths", "Famous books", "History", "Biographies",
   "True stories & documentaries", "Psychology & the mind", "Science explained", "Recipes & cooking", "Travel & places",
   "Music & musicians", "Film & TV", "Art & artists", "Sport", "Health & wellbeing", "Work & career", "Everyday conversations",
-  "Kids' bedtime stories"];
+  "Kids' bedtime stories", "Paradoxes & puzzles", "Supernatural & ghost stories", "Sci-fi & future", "Fashion & design"];
+// grey suggestion in the request box, from a growing catalog (web/ideas.json, see mvp/IDEAS.md); "Use this idea" = Tab
+let IDEAS = null;
+const ideasLoad = () => IDEAS || (IDEAS = fetch("ideas.json", { cache: "no-store" }).then(r => r.json()).then(j => j.ideas.map(i => i.t)).catch(() => []));
 const ASK_LOVE = "A book you love, a YouTube channel you follow, a series, a city, a person's life story… anything. We'll make stories from it for you.";
 // One box for every place we ask (onboarding, Settings, after 3 episodes). Requests go to the Sheet as "story_request";
 // Claude writes them, and the story comes back marked "for you" (catalog field `for`).
@@ -974,15 +980,28 @@ function requestBox(el, where, opts = {}) {
   const picked = new Set();
   el.innerHTML = `<div class="rqchips">${TOPICS.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
     <textarea class="rqtext" rows="3" placeholder="e.g. Harry Potter · the channel Easy Spanish · cooking from Naples · the life of Frida Kahlo"></textarea>
+    <div class="rqidea"><button class="chip rquse">→ Use this idea</button><button class="chip rqdice" aria-label="Another idea">🎲 Another</button></div>
     ${opts.noSend ? "" : `<div style="display:flex;gap:8px;margin-top:10px;align-items:center"><button class="chip rqsend">Send</button><span class="muted rqok"></span></div>`}`;
   el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { picked.has(b.dataset.t) ? picked.delete(b.dataset.t) : picked.add(b.dataset.t); b.classList.toggle("on"); });
   const box = el.querySelector(".rqtext");
+  let idea = "";
+  const showIdeas = () => { el.querySelector(".rqidea").hidden = !!box.value.trim() || !idea; };
+  const nextIdea = () => ideasLoad().then(list => {
+    if (!list.length) return;
+    idea = list[Math.floor(Math.random() * list.length)]; box.placeholder = idea; showIdeas();
+  });
+  const useIdea = () => { if (!idea) return; box.value = idea; log("idea_used", { idea, where }, ""); showIdeas(); box.focus(); };
+  el.querySelector(".rquse").onclick = useIdea;
+  el.querySelector(".rqdice").onclick = nextIdea;
+  box.oninput = showIdeas;
+  box.onkeydown = e => { if (e.key === "Tab" && !box.value.trim() && idea) { e.preventDefault(); useIdea(); } };
+  showIdeas(); nextIdea();
   const send = () => {
     const text = box.value.trim();
     if (!picked.size && !text) return false;
     log("story_request", { where, topics: [...picked], text, lang }, "");
     flush();
-    picked.clear(); box.value = ""; el.querySelectorAll("[data-t].on").forEach(b => b.classList.remove("on"));
+    picked.clear(); box.value = ""; nextIdea(); el.querySelectorAll("[data-t].on").forEach(b => b.classList.remove("on"));
     return true;
   };
   const sb = el.querySelector(".rqsend");
@@ -1063,7 +1082,18 @@ function vaStop() {
   clearInterval(VA.timer); VA.queue = []; VA.el.pause();
   $("vocabAll").textContent = "▶ Play all (each twice)"; $("vocabAllS").textContent = "▶ Words + sentences";
 }
+// ---- base forms (Saten: saved words and flashcards always in the dictionary form): vocab/<lang>_lem.json from
+// build_lemmas.py maps each saved form ("w|m") to [lemma, lemma_en, bank, ts, td, es, ed]; audio in <lang>_lem_NN.m4a ----
+const LEMS = {};
+const lemsLoad = () => LEMS[lang] !== undefined ? Promise.resolve(LEMS[lang]) :
+  fetch(`vocab/${lang}_lem.json`, { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null).then(j => (LEMS[lang] = j));
+const lem = v => { const L = LEMS[lang]; const i = L && L.map[v.w + "|" + v.m]; return i == null ? null : L.items[i]; };
+const shown = v => { const b = lem(v); return b ? { w: b[0], m: b[1] } : { w: v.w, m: v.m }; };
+const baseKey = v => { const b = shown(v); return b.w + "|" + b.m; };
+const lemUrl = b => `${MEDIA}vocab/${lang}_lem_${String(b[2]).padStart(2, "0")}.m4a?v=${LEMS[lang].banks[b[2]]}`;
 function vaPlay(v, then) {  // called inside the tap first: iPhone only lets this element play after a tap
+  const b = lem(v);
+  if (b) return vaRange(lemUrl(b), [b[3], b[4]], () => vaRange(lemUrl(b), [b[5], b[6]], then));  // base form, then English
   const st = storyCache[v.story] && storyCache[v.story].done;
   const r = st && st.segments[v.seg] && st.segments[v.seg].bank.wp && st.segments[v.seg].bank.wp[v.k];
   if (!r) { then && then(); return; }
@@ -1109,6 +1139,7 @@ function vsHtml(v, i) {
     `<button class="chip vflag" data-sf="${i}" aria-label="This sentence sounds wrong">⚑</button></div></div>`;
 }
 function renderVocab() {
+  if (LEMS[lang] === undefined) lemsLoad().then(() => { if (LEMS[lang]) renderVocab(); });
   const list = vocab();
   vsLoad();
   $("vocabBox").hidden = !(lang === "hy" || list.length);
@@ -1117,7 +1148,8 @@ function renderVocab() {
   $("vocabHint").textContent = list.length ? `${list.length} word${list.length > 1 ? "s" : ""}. Tap ✓ when you know one.`
     : "In Step by step, tap ☆ Save word on a word step. Tap ✓ when you know it.";
   $("vocab").innerHTML = list.map((v, i) => `<div class="vrow"><button data-p="${i}">▶</button>` +
-    `<span class="vw" data-o="${i}"><b>${esc(v.w)}</b> = ${esc(v.m)}</span>` +
+    `<span class="vw" data-o="${i}"><b>${esc(shown(v).w)}</b> = ${esc(shown(v).m)}` +
+      (shown(v).w.toLowerCase() !== v.w.toLowerCase() ? ` <span class="muted">· ${esc(v.w)}</span>` : "") + `</span>` +
     (lang === "hy" ? `<button class="vopen" data-o="${i}" aria-label="Example sentence">${VS.open.has(vsKey(v)) ? "▴" : "▾"}</button>` : "") +
     `<button data-d="${i}" aria-label="Learned">✓</button></div>` + (VS.open.has(vsKey(v)) ? vsHtml(v, i) : "")).join("");
   for (const v of list) storyJson(v.story).then(j => { if (storyCache[v.story]) storyCache[v.story].done = j; });
@@ -1140,10 +1172,12 @@ $("wordsBack").onclick = $("wordsBack2").onclick = () => {
 };
 // ---- Flashcards (#cards): saved words, English first; "Not yet" comes back in this round, "I knew it" moves up a box ----
 const FC = { queue: [], cur: null, n: 0, knew: 0, flipped: false };
-const fcKey = v => "fc_" + lang + "_" + v.w + "|" + v.m;
-function fcStart() {
+const fcKey = v => "fc_" + lang + "_" + baseKey(v);
+async function fcStart() {
+  await lemsLoad();
   const box = v => store.get(fcKey(v), { box: 0 }).box;
-  const words = vocab().map(v => [box(v), Math.random(), v]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(x => x[2]);
+  const uniq = [...new Map(vocab().map(v => [baseKey(v), v])).values()];  // several saved forms of one word = one card
+  const words = uniq.map(v => [box(v), Math.random(), v]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(x => x[2]);
   Object.assign(FC, { queue: words.slice(0, 20), n: Math.min(words.length, 20), knew: 0 });  // weakest first, 20 a round
   $("fcAsk").textContent = `What is it in ${LANGS[lang][0]}?`;
   log("fc_start", { n: FC.n });
@@ -1162,13 +1196,13 @@ function fcNext() {
   }
   $("fcProg").textContent = `${FC.n - FC.queue.length} / ${FC.n}`;
   $("fcFront").hidden = false; $("fcBack").hidden = true;
-  $("fcEn").textContent = FC.cur.m;
+  $("fcEn").textContent = shown(FC.cur).m;
 }
 function fcFlip() {
   if (!FC.cur || FC.flipped) return;
   FC.flipped = true;
   $("fcFront").hidden = true; $("fcBack").hidden = false; $("fcBtns").hidden = false;
-  $("fcEn2").textContent = FC.cur.m; $("fcHy").textContent = FC.cur.w;
+  $("fcEn2").textContent = shown(FC.cur).m; $("fcHy").textContent = shown(FC.cur).w;
   vaPlay(FC.cur);  // inside the tap: iPhone allows the sound
 }
 function fcAnswer(knew) {
@@ -1176,7 +1210,7 @@ function fcAnswer(knew) {
   if (knew) { st.box++; st.streak = (st.streak || 0) + 1; if (!v.again) FC.knew++; }
   else { st.box = 0; st.streak = 0; FC.queue.splice(Math.min(3, FC.queue.length), 0, Object.assign({}, v, { again: true })); }  // back in 3 cards
   store.set(fcKey(v), st);
-  log("fc_answer", { w: v.w, knew, box: st.box });
+  log("fc_answer", { w: v.w, base: shown(v).w, knew, box: st.box });
   if (knew && st.streak >= 3) { $("fcBtns").hidden = true; $("fcLearn").hidden = false; return; }  // offer ✓ before moving on
   fcNext();
 }
@@ -1186,7 +1220,7 @@ $("fcYes").onclick = () => fcAnswer(true);
 $("fcNo").onclick = () => fcAnswer(false);
 $("fcLearned").onclick = () => {
   const v = FC.cur; log("vocab_learned", { w: v.w, m: v.m, from: "flashcards" });
-  store.set("vocab_" + lang, vocab().filter(x => !(x.w === v.w && x.m === v.m))); fcNext();
+  store.set("vocab_" + lang, vocab().filter(x => baseKey(x) !== baseKey(v))); fcNext();  // all saved forms of it
 };
 $("fcKeep").onclick = fcNext;
 $("fcAgain").onclick = fcStart;
