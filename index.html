@@ -75,6 +75,11 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .toks span { font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
 #onb .toks span.on { background:var(--accent); border-color:var(--accent); color:#fff; }
 #onb .toks span.past { color:var(--ink); }
+.rqchips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.rqchips .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
+.rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:15px; }
+.rqsend { background:var(--accent) !important; color:#fff !important; border:none !important; }
+.foryou { display:inline-block; margin-left:6px; font-size:11px; font-weight:600; color:var(--accent); }
 #survey .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
 .chip { display:inline-flex; align-items:center; gap:6px; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:7px 13px; font-size:13px; cursor:pointer; }
 .chip svg { width:15px; height:15px; }
@@ -147,6 +152,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
     <button data-mode="lesson">Step by step</button><button data-mode="story">Continuous</button>
     <div class="muted" id="modeHint" style="width:100%"></div>
   </div>
+  <div class="card" id="forYou" hidden style="margin-bottom:12px"></div>
   <div class="card" id="survey" hidden style="margin-bottom:12px"></div>
   <div class="card" id="now">
     <div class="muted" id="where">Pick an episode below.</div>
@@ -208,6 +214,8 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div id="nameForm" class="vrow"><input type="text" id="name" style="flex:1" placeholder="Your name (optional)" autocomplete="nickname">
     <button class="sec" id="nameSave" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:6px 12px">Save</button></div>
   <div class="muted" style="margin-top:6px">To improve the stories, the app sends your test answers and listening progress (which phrases you replay, where you stop), with this name and a random device ID. Nothing else.</div>
+  <h3 class="sh">💡 Request a story</h3>
+  <div class="muted" id="setLoveAsk"></div><div id="setLove"></div>
   <h3 class="sh">Listening pattern</h3>
   <details id="patternBox" open style="margin-top:6px"><summary id="patternHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
@@ -244,7 +252,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.39";
+const VERSION = "web 0.40";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -530,6 +538,7 @@ function renderStories() {
       const ep = s.series ? `Episode ${s.episode} · ` : `${s.author} · `;
       el.innerHTML = `<div class="sinfo"><b></b><span class="muted"></span></div><button class="mark" aria-label="Mark: current, done, none"></button>`;
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
+      if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
       el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
       const mb = el.querySelector(".mark");
       mb.textContent = MARKS[getMark(s.id)];
@@ -583,7 +592,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); }
+  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -866,8 +875,8 @@ function onbDemos() {
 function onbShow() {
   const el = $("onb"), box = el.querySelector(".in");
   const L = ONB.lang ? LANGS[ONB.lang][0] : "";
-  const steps = ONB.mode === "story" ? 4 : 3;
-  const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= ONB.step ? "on" : ""}"></i>`).join("")}</div>`;
+  const steps = ONB.mode === "story" ? 5 : 4, at = ONB.step === 4 && ONB.mode !== "story" ? 3 : ONB.step;
+  const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= at ? "on" : ""}"></i>`).join("")}</div>`;
   let html = "";
   if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
     <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
@@ -891,7 +900,7 @@ function onbShow() {
         `<div class="demo"><div class="toks" id="dcToks"></div><div class="fr" id="dcFr"></div><div class="en" id="dcEn"></div>
          <div class="pctl">${ctl("dcPlay", "play", "Play", true)}</div></div>`) +
       `<div class="muted" style="margin-top:8px">You can switch any time at the top of the player.</div>
-      <button class="go" id="onbNext">${ONB.mode === "story" ? "Next" : "Start listening"}</button>`;
+      <button class="go" id="onbNext">Next</button>`;
   }
   if (ONB.step === 3) {
     const code = ONB.lang.toUpperCase();
@@ -903,9 +912,13 @@ function onbShow() {
         <div class="muted">Write ${code} for ${L} and EN for English, in any order. Example: <b>EN ${code} EN ${code} ${code} EN</b></div>
         <input type="text" id="onbCustom" placeholder="${code} EN ${code}" value="${custom ? esc(display(ONB.pat)) : ""}" autocapitalize="characters">
         <div class="row"><button class="chip" id="onbCustomHear">▶ Hear it</button></div></div>` +
-      `<div class="muted" style="margin-top:8px">You can change it later under the episode list.</div><button class="go" id="onbNext">Start listening</button>`;
+      `<div class="muted" style="margin-top:8px">You can change it later in ⚙ Settings.</div><button class="go" id="onbNext">Next</button>`;
   }
+  if (ONB.step === 4) html = `<h1>What would you love to listen to?</h1><div class="muted">${ASK_LOVE}</div>
+    <div id="onbLove"></div><div class="muted" style="margin-top:8px">Optional. You can always add ideas later in ⚙ Settings.</div>
+    <button class="go" id="onbNext">Start listening</button>`;
   box.innerHTML = dots + html;
+  if (ONB.step === 4) ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
   el.hidden = false;
   const next = $("onbNext");
   if (ONB.step === 0) {
@@ -919,7 +932,6 @@ function onbShow() {
     if (ONB.mode === b.dataset.m) return;
     ONB.mode = b.dataset.m;
     box.querySelectorAll("[data-m]").forEach(o => o.classList.toggle("on", o === b));
-    $("onbNext").textContent = ONB.mode === "story" ? "Next" : "Start listening";
   });
   box.querySelectorAll("[data-p]").forEach(b => b.onclick = e => {
     if (e.target.dataset.demo || b.dataset.p === "custom") return;
@@ -936,13 +948,13 @@ function onbShow() {
   }
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
-    const last = ONB.step === 3 || (ONB.step === 2 && ONB.mode === "lesson");
-    if (!last) { ONB.step++; onbShow(); window.scrollTo(0, 0); return; }
+    if (ONB.step < 4) { ONB.step = ONB.step === 2 && ONB.mode === "lesson" ? 4 : ONB.step + 1; onbShow(); window.scrollTo(0, 0); return; }
     VA.el.pause();
     store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
     store.set("mode_" + lang, ONB.mode);
     if (ONB.mode === "story") store.set("pattern_" + lang, ONB.pat);
     store.set("onboarded", true);
+    ONB.sendLove && ONB.sendLove();
     log("onboarding", { lang, mode: ONB.mode, pattern: ONB.mode === "story" ? ONB.pat : "" }, "");
     el.hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
   };
@@ -951,23 +963,60 @@ if (store.get("name", "") && store.get("lang", null)) store.set("onboarded", tru
 const needsOnboarding = () => !store.get("onboarded", false);
 
 // ---------- one-time question after 3 finished episodes: what should the next stories be about? ----------
-const TOPICS = ["Everyday life", "Travel", "Food", "Mystery", "Funny", "Family", "History", "Love", "Work", "Nature"];
+const TOPICS = ["Romance & drama", "Mystery & crime", "Funny", "Fairy tales & myths", "Famous books", "History", "Biographies",
+  "True stories & documentaries", "Psychology & the mind", "Science explained", "Recipes & cooking", "Travel & places",
+  "Music & musicians", "Film & TV", "Art & artists", "Sport", "Health & wellbeing", "Work & career", "Everyday conversations",
+  "Kids' bedtime stories"];
+const ASK_LOVE = "A book you love, a YouTube channel you follow, a series, a city, a person's life story… anything. We'll make stories from it for you.";
+// One box for every place we ask (onboarding, Settings, after 3 episodes). Requests go to the Sheet as "story_request";
+// Claude writes them, and the story comes back marked "for you" (catalog field `for`).
+function requestBox(el, where, opts = {}) {
+  const picked = new Set();
+  el.innerHTML = `<div class="rqchips">${TOPICS.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
+    <textarea class="rqtext" rows="3" placeholder="e.g. Harry Potter · the channel Easy Spanish · cooking from Naples · the life of Frida Kahlo"></textarea>
+    ${opts.noSend ? "" : `<div style="display:flex;gap:8px;margin-top:10px;align-items:center"><button class="chip rqsend">Send</button><span class="muted rqok"></span></div>`}`;
+  el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { picked.has(b.dataset.t) ? picked.delete(b.dataset.t) : picked.add(b.dataset.t); b.classList.toggle("on"); });
+  const box = el.querySelector(".rqtext");
+  const send = () => {
+    const text = box.value.trim();
+    if (!picked.size && !text) return false;
+    log("story_request", { where, topics: [...picked], text, lang }, "");
+    flush();
+    picked.clear(); box.value = ""; el.querySelectorAll("[data-t].on").forEach(b => b.classList.remove("on"));
+    return true;
+  };
+  const sb = el.querySelector(".rqsend");
+  if (sb) sb.onclick = () => { el.querySelector(".rqok").textContent = send() ? "Thank you! We'll tell you when it's ready." : "Pick a topic or write something first."; };
+  return send;
+}
+// stories written from someone's request carry `for` (names) and `request` (what they asked) in the catalog
+const forMe = s => (s.for || []).some(n => n.toLowerCase() === store.get("name", "").trim().toLowerCase());
+function renderForYou() {
+  const fresh = catalog.filter(s => forMe(s) && !store.get("seen_for_" + s.id, false));
+  const el = $("forYou");
+  el.hidden = !fresh.length;
+  if (!fresh.length) return;
+  el.innerHTML = `<b>✨ New for you</b>` + fresh.map(s => `<div style="margin-top:8px"><a href="#" data-open="${s.id}"><b>${esc(s.title)}</b></a>
+    <div class="muted">${s.request ? "You asked for: " + esc(s.request) + " · " : ""}${LANGS[s.lang] ? LANGS[s.lang][0] : ""} · ${s.level}</div></div>`).join("") +
+    `<div style="margin-top:8px"><button class="chip" id="forYouOk">OK</button></div>`;
+  const seen = () => { fresh.forEach(s => store.set("seen_for_" + s.id, true)); el.hidden = true; };
+  el.querySelectorAll("[data-open]").forEach(a => a.onclick = e => {
+    e.preventDefault(); const s = catalog.find(c => c.id === a.dataset.open);
+    log("for_you_open", {}, s.id); seen();
+    if (s.lang !== lang) { lang = s.lang; store.set("lang", lang); renderAll(); }
+    openStory(s);
+  });
+  $("forYouOk").onclick = () => { log("for_you_seen", { n: fresh.length }, ""); seen(); };
+}
+
 function renderSurvey() {
   const el = $("survey");
   el.hidden = !lang || store.get("survey_done", false) || store.get("ends", 0) < 3;
   if (el.hidden) return;
-  const picked = new Set();
-  el.innerHTML = `<b>What should the next stories be about?</b><div class="muted">Pick any, add your own. It goes straight to the people writing them.</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px">${TOPICS.map(t => `<button class="chip" data-t="${t}">${t}</button>`).join("")}</div>
-    <input type="text" id="surveyText" placeholder="Anything else? A place, a book, a situation…">
-    <div class="row" style="display:flex;gap:8px;margin-top:10px"><button class="chip" id="surveySend" style="background:var(--accent);color:#fff;border:none">Send</button><button class="chip" id="surveySkip">Not now</button></div>`;
-  el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { picked.has(b.dataset.t) ? picked.delete(b.dataset.t) : picked.add(b.dataset.t); b.classList.toggle("on"); });
-  $("surveySend").onclick = () => {
-    log("story_request", { topics: [...picked], text: $("surveyText").value.trim() }, "");
-    store.set("survey_done", true); flush();
-    el.innerHTML = "<b>Thank you!</b> <span class='muted'>New stories are on their way.</span>";
-    setTimeout(() => { el.hidden = true; }, 2500);
-  };
+  el.innerHTML = `<b>What would you love to listen to next?</b><div class="muted">${ASK_LOVE}</div><div id="surveyBox"></div>
+    <div style="margin-top:6px"><button class="chip" id="surveySkip">Not now</button></div>`;
+  requestBox($("surveyBox"), "after_3");
+  $("surveyBox").querySelector(".rqsend").addEventListener("click", () => { store.set("survey_done", true); setTimeout(() => { el.hidden = true; }, 2500); });
   $("surveySkip").onclick = () => { log("story_request_skip", {}, ""); store.set("survey_done", true); el.hidden = true; };
 }
 
@@ -1149,7 +1198,7 @@ let setPushed = false;
 function showSettings() {
   const on = location.hash === "#settings";
   document.body.classList.toggle("settings", on);
-  if (on) { renderName(false); renderPattern(); window.scrollTo(0, 0); }
+  if (on) { renderName(false); renderPattern(); $("setLoveAsk").textContent = ASK_LOVE; requestBox($("setLove"), "settings"); window.scrollTo(0, 0); }
 }
 $("setOpen").onclick = () => { log("settings_open", {}, ""); setPushed = true; location.hash = "settings"; };
 $("setBack").onclick = () => {
