@@ -1,0 +1,2834 @@
+{
+ "id": "es_daily_04",
+ "lang": "es",
+ "title": "Daily scenarios: Where is the metro?",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Daily scenarios",
+ "episode": "4",
+ "note": "",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 7528,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Mark busca el metro.",
+   "en": "Mark is looking for the metro.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "busca",
+     "looks for"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4290,
+    "en": 2154,
+    "wd": 16386
+   },
+   "bank": {
+    "fr": [
+     38728,
+     3018
+    ],
+    "frs": [
+     42146,
+     4290
+    ],
+    "en": [
+     46836,
+     2154
+    ],
+    "wd": [
+     49390,
+     16386
+    ],
+    "wp": [
+     [
+      49390,
+      3338
+     ],
+     [
+      53128,
+      4394
+     ],
+     [
+      57922,
+      3218
+     ],
+     [
+      61540,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tiene un mapa, pero no entiende.",
+   "en": "He has a map, but he doesn't understand.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Tiene",
+     "he has"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "mapa",
+     "map"
+    ],
+    [
+     "pero",
+     "but"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "entiende",
+     "he understands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 3138,
+    "wd": 24726
+   },
+   "bank": {
+    "fr": [
+     66176,
+     3570
+    ],
+    "frs": [
+     70146,
+     5106
+    ],
+    "en": [
+     75652,
+     3138
+    ],
+    "wd": [
+     79190,
+     24726
+    ],
+    "wp": [
+     [
+      79190,
+      4394
+     ],
+     [
+      83984,
+      3218
+     ],
+     [
+      87602,
+      3314
+     ],
+     [
+      91316,
+      3218
+     ],
+     [
+      94934,
+      3290
+     ],
+     [
+      98624,
+      4442
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Perdón, señora. ¿Dónde está el metro?»",
+   "en": "\"Excuse me, madam. Where is the metro?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Perdón",
+     "excuse me"
+    ],
+    [
+     "señora",
+     "madam"
+    ],
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7338,
+    "en": 3162,
+    "wd": 23766
+   },
+   "bank": {
+    "fr": [
+     104316,
+     5058
+    ],
+    "frs": [
+     109774,
+     7338
+    ],
+    "en": [
+     117512,
+     3162
+    ],
+    "wd": [
+     121074,
+     23766
+    ],
+    "wp": [
+     [
+      121074,
+      4394
+     ],
+     [
+      125868,
+      3314
+     ],
+     [
+      129582,
+      3290
+     ],
+     [
+      133272,
+      3314
+     ],
+     [
+      136986,
+      3218
+     ],
+     [
+      140604,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Ah, el metro. Mire: todo recto,",
+   "en": "\"Ah, the metro. Look: straight ahead,",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ah",
+     "ah"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "Mire",
+     "look"
+    ],
+    [
+     "todo recto",
+     "straight ahead"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5298,
+    "frs": 7674,
+    "en": 3210,
+    "wd": 20028
+   },
+   "bank": {
+    "fr": [
+     145240,
+     5298
+    ],
+    "frs": [
+     150938,
+     7674
+    ],
+    "en": [
+     159012,
+     3210
+    ],
+    "wd": [
+     162622,
+     20028
+    ],
+    "wp": [
+     [
+      162622,
+      3218
+     ],
+     [
+      166240,
+      3218
+     ],
+     [
+      169858,
+      3386
+     ],
+     [
+      173644,
+      3242
+     ],
+     [
+      177286,
+      4514
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "luego a la izquierda,",
+   "en": "then to the left,",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "luego",
+     "then"
+    ],
+    [
+     "a la izquierda",
+     "to the left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2898,
+    "frs": 4098,
+    "en": 2322,
+    "wd": 9078
+   },
+   "bank": {
+    "fr": [
+     183050,
+     2898
+    ],
+    "frs": [
+     186348,
+     4098
+    ],
+    "en": [
+     190846,
+     2322
+    ],
+    "wd": [
+     193568,
+     9078
+    ],
+    "wp": [
+     [
+      193568,
+      3266
+     ],
+     [
+      197234,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "después a la derecha, y ya está».",
+   "en": "after that to the right, and that's it.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "después",
+     "after that"
+    ],
+    [
+     "a la derecha",
+     "to the right"
+    ],
+    [
+     "y ya está",
+     "and that's it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 2874,
+    "wd": 15120
+   },
+   "bank": {
+    "fr": [
+     203046,
+     3858
+    ],
+    "frs": [
+     207304,
+     5538
+    ],
+    "en": [
+     213242,
+     2874
+    ],
+    "wd": [
+     216516,
+     15120
+    ],
+    "wp": [
+     [
+      216516,
+      4466
+     ],
+     [
+      221382,
+      4538
+     ],
+     [
+      226320,
+      4466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Perdón, no entiendo».",
+   "en": "\"Sorry, I don't understand.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Perdón",
+     "sorry"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "entiendo",
+     "I understand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2490,
+    "wd": 12768
+   },
+   "bank": {
+    "fr": [
+     232036,
+     3114
+    ],
+    "frs": [
+     235550,
+     4434
+    ],
+    "en": [
+     240384,
+     2490
+    ],
+    "wd": [
+     243274,
+     12768
+    ],
+    "wp": [
+     [
+      243274,
+      3362
+     ],
+     [
+      247036,
+      3290
+     ],
+     [
+      250726,
+      4466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Puede repetir, por favor?",
+   "en": "\"Can you repeat, please?",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Puede",
+     "can you"
+    ],
+    [
+     "repetir",
+     "repeat"
+    ],
+    [
+     "por favor",
+     "please"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2322,
+    "wd": 13752
+   },
+   "bank": {
+    "fr": [
+     256442,
+     3258
+    ],
+    "frs": [
+     260100,
+     4626
+    ],
+    "en": [
+     265126,
+     2322
+    ],
+    "wd": [
+     267848,
+     13752
+    ],
+    "wp": [
+     [
+      267848,
+      3314
+     ],
+     [
+      271562,
+      4394
+     ],
+     [
+      276356,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Más despacio, por favor».",
+   "en": "More slowly, please.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Más",
+     "more"
+    ],
+    [
+     "despacio",
+     "slowly"
+    ],
+    [
+     "por favor",
+     "please"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2322,
+    "wd": 13824
+   },
+   "bank": {
+    "fr": [
+     282000,
+     3282
+    ],
+    "frs": [
+     285682,
+     4674
+    ],
+    "en": [
+     290756,
+     2322
+    ],
+    "wd": [
+     293478,
+     13824
+    ],
+    "wp": [
+     [
+      293478,
+      3314
+     ],
+     [
+      297192,
+      4466
+     ],
+     [
+      302058,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Todo… recto».",
+   "en": "\"Straight... ahead.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Todo",
+     "all"
+    ],
+    [
+     "recto",
+     "straight"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 2322,
+    "wd": 7902
+   },
+   "bank": {
+    "fr": [
+     307702,
+     2850
+    ],
+    "frs": [
+     310952,
+     4026
+    ],
+    "en": [
+     315378,
+     2322
+    ],
+    "wd": [
+     318100,
+     7902
+    ],
+    "wp": [
+     [
+      318100,
+      3266
+     ],
+     [
+      321766,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Luego… a la izquierda».",
+   "en": "\"Then... to the left.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Luego",
+     "then"
+    ],
+    [
+     "a la izquierda",
+     "to the left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2322,
+    "wd": 8934
+   },
+   "bank": {
+    "fr": [
+     326402,
+     3186
+    ],
+    "frs": [
+     329988,
+     4506
+    ],
+    "en": [
+     334894,
+     2322
+    ],
+    "wd": [
+     337616,
+     8934
+    ],
+    "wp": [
+     [
+      337616,
+      3122
+     ],
+     [
+      341138,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Después… a la derecha».",
+   "en": "\"After that... to the right.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Después",
+     "after that"
+    ],
+    [
+     "a la derecha",
+     "to the right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2322,
+    "wd": 10254
+   },
+   "bank": {
+    "fr": [
+     346950,
+     3306
+    ],
+    "frs": [
+     350656,
+     4698
+    ],
+    "en": [
+     355754,
+     2322
+    ],
+    "wd": [
+     358476,
+     10254
+    ],
+    "wp": [
+     [
+      358476,
+      4466
+     ],
+     [
+      363342,
+      4538
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Todo recto, izquierda, derecha. ¡Gracias!»",
+   "en": "\"Straight ahead, left, right. Thank you!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Todo recto",
+     "straight ahead"
+    ],
+    [
+     "izquierda",
+     "left"
+    ],
+    [
+     "derecha",
+     "right"
+    ],
+    [
+     "Gracias",
+     "thank you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 5586,
+    "frs": 8130,
+    "en": 3306,
+    "wd": 16602
+   },
+   "bank": {
+    "fr": [
+     369130,
+     5586
+    ],
+    "frs": [
+     375116,
+     8130
+    ],
+    "en": [
+     383646,
+     3306
+    ],
+    "wd": [
+     387352,
+     16602
+    ],
+    "wp": [
+     [
+      387352,
+      4514
+     ],
+     [
+      392266,
+      3362
+     ],
+     [
+      396028,
+      3266
+     ],
+     [
+      399694,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«De nada».",
+   "en": "\"You're welcome.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "De nada",
+     "you're welcome"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3186,
+    "en": 2322,
+    "wd": 5244
+   },
+   "bank": {
+    "fr": [
+     404354,
+     2322
+    ],
+    "frs": [
+     407076,
+     3186
+    ],
+    "en": [
+     410662,
+     2322
+    ],
+    "wd": [
+     413384,
+     5244
+    ],
+    "wp": [
+     [
+      413384,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mark camina todo recto.",
+   "en": "Mark walks straight ahead.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "camina",
+     "walks"
+    ],
+    [
+     "todo recto",
+     "straight ahead"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2322,
+    "wd": 13896
+   },
+   "bank": {
+    "fr": [
+     419028,
+     3330
+    ],
+    "frs": [
+     422758,
+     4746
+    ],
+    "en": [
+     427904,
+     2322
+    ],
+    "wd": [
+     430626,
+     13896
+    ],
+    "wp": [
+     [
+      430626,
+      3338
+     ],
+     [
+      434364,
+      4394
+     ],
+     [
+      439158,
+      4514
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Luego a la izquierda.",
+   "en": "Then to the left.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Luego",
+     "then"
+    ],
+    [
+     "a la izquierda",
+     "to the left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2898,
+    "frs": 4098,
+    "en": 2322,
+    "wd": 8934
+   },
+   "bank": {
+    "fr": [
+     444922,
+     2898
+    ],
+    "frs": [
+     448220,
+     4098
+    ],
+    "en": [
+     452718,
+     2322
+    ],
+    "wd": [
+     455440,
+     8934
+    ],
+    "wp": [
+     [
+      455440,
+      3122
+     ],
+     [
+      458962,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Después a la derecha.",
+   "en": "After that to the right.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Después",
+     "after that"
+    ],
+    [
+     "a la derecha",
+     "to the right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2322,
+    "wd": 10254
+   },
+   "bank": {
+    "fr": [
+     464774,
+     3018
+    ],
+    "frs": [
+     468192,
+     4266
+    ],
+    "en": [
+     472858,
+     2322
+    ],
+    "wd": [
+     475580,
+     10254
+    ],
+    "wp": [
+     [
+      475580,
+      4466
+     ],
+     [
+      480446,
+      4538
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No hay metro. Hay un parque.",
+   "en": "There is no metro. There is a park.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "hay",
+     "there is"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "Hay",
+     "there is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "parque",
+     "park"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4482,
+    "frs": 6474,
+    "en": 2850,
+    "wd": 24822
+   },
+   "bank": {
+    "fr": [
+     486234,
+     4482
+    ],
+    "frs": [
+     491116,
+     6474
+    ],
+    "en": [
+     497990,
+     2850
+    ],
+    "wd": [
+     501240,
+     24822
+    ],
+    "wp": [
+     [
+      501240,
+      3266
+     ],
+     [
+      504906,
+      4394
+     ],
+     [
+      509700,
+      3386
+     ],
+     [
+      513486,
+      4394
+     ],
+     [
+      518280,
+      3218
+     ],
+     [
+      521898,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Perdón. ¿Dónde está el metro?»",
+   "en": "\"Excuse me. Where is the metro?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Perdón",
+     "excuse me"
+    ],
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6306,
+    "en": 2994,
+    "wd": 20052
+   },
+   "bank": {
+    "fr": [
+     526462,
+     4362
+    ],
+    "frs": [
+     531224,
+     6306
+    ],
+    "en": [
+     537930,
+     2994
+    ],
+    "wd": [
+     541324,
+     20052
+    ],
+    "wp": [
+     [
+      541324,
+      4394
+     ],
+     [
+      546118,
+      3290
+     ],
+     [
+      549808,
+      3314
+     ],
+     [
+      553522,
+      3218
+     ],
+     [
+      557140,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿El metro? Uf, está lejos».",
+   "en": "\"The metro? Phew, it's far.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "Uf",
+     "phew"
+    ],
+    [
+     "está",
+     "it is"
+    ],
+    [
+     "lejos",
+     "far"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 2634,
+    "wd": 20052
+   },
+   "bank": {
+    "fr": [
+     561776,
+     4602
+    ],
+    "frs": [
+     566778,
+     6666
+    ],
+    "en": [
+     573844,
+     2634
+    ],
+    "wd": [
+     576878,
+     20052
+    ],
+    "wp": [
+     [
+      576878,
+      3218
+     ],
+     [
+      580496,
+      3386
+     ],
+     [
+      584282,
+      3266
+     ],
+     [
+      587948,
+      4394
+     ],
+     [
+      592742,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Lejos? ¿Puede repetir, por favor?»",
+   "en": "\"Far? Can you repeat, please?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Lejos",
+     "far"
+    ],
+    [
+     "Puede",
+     "can you"
+    ],
+    [
+     "repetir",
+     "repeat"
+    ],
+    [
+     "por favor",
+     "please"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4962,
+    "frs": 7170,
+    "en": 3210,
+    "wd": 17490
+   },
+   "bank": {
+    "fr": [
+     597330,
+     4962
+    ],
+    "frs": [
+     602692,
+     7170
+    ],
+    "en": [
+     610262,
+     3210
+    ],
+    "wd": [
+     613872,
+     17490
+    ],
+    "wp": [
+     [
+      613872,
+      3338
+     ],
+     [
+      617610,
+      3314
+     ],
+     [
+      621324,
+      4394
+     ],
+     [
+      626118,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Lejos. Muy lejos».",
+   "en": "\"Far. Very far.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Lejos",
+     "far"
+    ],
+    [
+     "Muy",
+     "very"
+    ],
+    [
+     "lejos",
+     "far"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2370,
+    "wd": 11616
+   },
+   "bank": {
+    "fr": [
+     631762,
+     4098
+    ],
+    "frs": [
+     636260,
+     5898
+    ],
+    "en": [
+     642558,
+     2370
+    ],
+    "wd": [
+     645328,
+     11616
+    ],
+    "wp": [
+     [
+      645328,
+      3338
+     ],
+     [
+      649066,
+      3290
+     ],
+     [
+      652756,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un taxi para. Es Paco.",
+   "en": "A taxi stops. It's Paco.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Un",
+     "a"
+    ],
+    [
+     "taxi",
+     "taxi"
+    ],
+    [
+     "para",
+     "stops"
+    ],
+    [
+     "Es",
+     "it's"
+    ],
+    [
+     "Paco",
+     "Paco"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6402,
+    "en": 2802,
+    "wd": 20076
+   },
+   "bank": {
+    "fr": [
+     657344,
+     4434
+    ],
+    "frs": [
+     662178,
+     6402
+    ],
+    "en": [
+     668980,
+     2802
+    ],
+    "wd": [
+     672182,
+     20076
+    ],
+    "wp": [
+     [
+      672182,
+      3218
+     ],
+     [
+      675800,
+      3386
+     ],
+     [
+      679586,
+      4394
+     ],
+     [
+      684380,
+      3290
+     ],
+     [
+      688070,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Marco! ¿Adónde vas?»",
+   "en": "\"Marco! Where are you going?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Marco",
+     "Marco"
+    ],
+    [
+     "Adónde",
+     "where to"
+    ],
+    [
+     "vas",
+     "are you going"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 4098,
+    "frs": 5898,
+    "en": 2322,
+    "wd": 12696
+   },
+   "bank": {
+    "fr": [
+     692658,
+     4098
+    ],
+    "frs": [
+     697156,
+     5898
+    ],
+    "en": [
+     703454,
+     2322
+    ],
+    "wd": [
+     706176,
+     12696
+    ],
+    "wp": [
+     [
+      706176,
+      3314
+     ],
+     [
+      709890,
+      3338
+     ],
+     [
+      713628,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Al metro, por favor».",
+   "en": "\"To the metro, please.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Al",
+     "to the"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "por favor",
+     "please"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2322,
+    "wd": 12720
+   },
+   "bank": {
+    "fr": [
+     719272,
+     2946
+    ],
+    "frs": [
+     722618,
+     4146
+    ],
+    "en": [
+     727164,
+     2322
+    ],
+    "wd": [
+     729886,
+     12720
+    ],
+    "wp": [
+     [
+      729886,
+      3290
+     ],
+     [
+      733576,
+      3386
+     ],
+     [
+      737362,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sube, sube».",
+   "en": "\"Get in, get in.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Sube",
+     "get in"
+    ],
+    [
+     "sube",
+     "get in"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3714,
+    "en": 2322,
+    "wd": 7830
+   },
+   "bank": {
+    "fr": [
+     743006,
+     2658
+    ],
+    "frs": [
+     746064,
+     3714
+    ],
+    "en": [
+     750178,
+     2322
+    ],
+    "wd": [
+     752900,
+     7830
+    ],
+    "wp": [
+     [
+      752900,
+      3290
+     ],
+     [
+      756590,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Paco conduce rápido.",
+   "en": "Paco drives fast.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Paco",
+     "Paco"
+    ],
+    [
+     "conduce",
+     "drives"
+    ],
+    [
+     "rápido",
+     "fast"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 2322,
+    "wd": 13776
+   },
+   "bank": {
+    "fr": [
+     761130,
+     3090
+    ],
+    "frs": [
+     764620,
+     4362
+    ],
+    "en": [
+     769382,
+     2322
+    ],
+    "wd": [
+     772104,
+     13776
+    ],
+    "wp": [
+     [
+      772104,
+      3338
+     ],
+     [
+      775842,
+      4394
+     ],
+     [
+      780636,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A la izquierda, a la derecha.",
+   "en": "To the left, to the right.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "A la izquierda",
+     "to the left"
+    ],
+    [
+     "a la derecha",
+     "to the right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2322,
+    "wd": 10350
+   },
+   "bank": {
+    "fr": [
+     786280,
+     3306
+    ],
+    "frs": [
+     789986,
+     4722
+    ],
+    "en": [
+     795108,
+     2322
+    ],
+    "wd": [
+     797830,
+     10350
+    ],
+    "wp": [
+     [
+      797830,
+      4562
+     ],
+     [
+      802792,
+      4538
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Todo recto. Otra vez a la izquierda.",
+   "en": "Straight ahead. Left again.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Todo recto",
+     "straight ahead"
+    ],
+    [
+     "Otra vez",
+     "again"
+    ],
+    [
+     "a la izquierda",
+     "to the left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4842,
+    "frs": 7002,
+    "en": 2466,
+    "wd": 14112
+   },
+   "bank": {
+    "fr": [
+     808580,
+     4842
+    ],
+    "frs": [
+     813822,
+     7002
+    ],
+    "en": [
+     821224,
+     2466
+    ],
+    "wd": [
+     824090,
+     14112
+    ],
+    "wp": [
+     [
+      824090,
+      4514
+     ],
+     [
+      829004,
+      3386
+     ],
+     [
+      832790,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Aquí está el metro».",
+   "en": "\"Here is the metro.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Aquí",
+     "here"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "wd": 15258
+   },
+   "bank": {
+    "fr": [
+     838602,
+     2874
+    ],
+    "frs": [
+     841876,
+     4074
+    ],
+    "en": [
+     846350,
+     2322
+    ],
+    "wd": [
+     849072,
+     15258
+    ],
+    "wp": [
+     [
+      849072,
+      3290
+     ],
+     [
+      852762,
+      3314
+     ],
+     [
+      856476,
+      3218
+     ],
+     [
+      860094,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mark mira por la ventana.",
+   "en": "Mark looks out of the window.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "mira",
+     "looks"
+    ],
+    [
+     "por",
+     "through"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "ventana",
+     "window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2322,
+    "wd": 18972
+   },
+   "bank": {
+    "fr": [
+     864730,
+     3306
+    ],
+    "frs": [
+     868436,
+     4722
+    ],
+    "en": [
+     873558,
+     2322
+    ],
+    "wd": [
+     876280,
+     18972
+    ],
+    "wp": [
+     [
+      876280,
+      3338
+     ],
+     [
+      880018,
+      3338
+     ],
+     [
+      883756,
+      3290
+     ],
+     [
+      887446,
+      3218
+     ],
+     [
+      891064,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ve su edificio.",
+   "en": "He sees his building.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ve",
+     "he sees"
+    ],
+    [
+     "su",
+     "his"
+    ],
+    [
+     "edificio",
+     "building"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2778,
+    "frs": 3930,
+    "en": 2322,
+    "wd": 12744
+   },
+   "bank": {
+    "fr": [
+     895652,
+     2778
+    ],
+    "frs": [
+     898830,
+     3930
+    ],
+    "en": [
+     903160,
+     2322
+    ],
+    "wd": [
+     905882,
+     12744
+    ],
+    "wp": [
+     [
+      905882,
+      4394
+     ],
+     [
+      910676,
+      3314
+     ],
+     [
+      914390,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Paco, ¡esa es mi casa!»",
+   "en": "\"Paco, that's my house!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Paco",
+     "Paco"
+    ],
+    [
+     "esa",
+     "that"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "casa",
+     "house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4530,
+    "en": 2130,
+    "wd": 20004
+   },
+   "bank": {
+    "fr": [
+     919026,
+     3186
+    ],
+    "frs": [
+     922612,
+     4530
+    ],
+    "en": [
+     927542,
+     2130
+    ],
+    "wd": [
+     930072,
+     20004
+    ],
+    "wp": [
+     [
+      930072,
+      3338
+     ],
+     [
+      933810,
+      3266
+     ],
+     [
+      937476,
+      3314
+     ],
+     [
+      941190,
+      3242
+     ],
+     [
+      944832,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí. Y el metro está enfrente».",
+   "en": "\"Yes. And the metro is across the street.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "enfrente",
+     "across the street"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6546,
+    "en": 3450,
+    "wd": 23814
+   },
+   "bank": {
+    "fr": [
+     950476,
+     4530
+    ],
+    "frs": [
+     955406,
+     6546
+    ],
+    "en": [
+     962352,
+     3450
+    ],
+    "wd": [
+     966202,
+     23814
+    ],
+    "wp": [
+     [
+      966202,
+      3386
+     ],
+     [
+      969988,
+      3194
+     ],
+     [
+      973582,
+      3218
+     ],
+     [
+      977200,
+      3386
+     ],
+     [
+      980986,
+      3314
+     ],
+     [
+      984700,
+      4466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Son diez euros».",
+   "en": "\"That's ten euros.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Son",
+     "it's"
+    ],
+    [
+     "diez",
+     "ten"
+    ],
+    [
+     "euros",
+     "euros"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 12600
+   },
+   "bank": {
+    "fr": [
+     990416,
+     2874
+    ],
+    "frs": [
+     993690,
+     4050
+    ],
+    "en": [
+     998140,
+     2322
+    ],
+    "wd": [
+     1000862,
+     12600
+    ],
+    "wp": [
+     [
+      1000862,
+      3290
+     ],
+     [
+      1004552,
+      3266
+     ],
+     [
+      1008218,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Diez euros? No entiendo».",
+   "en": "\"Ten euros? I don't understand.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Diez",
+     "ten"
+    ],
+    [
+     "euros",
+     "euros"
+    ],
+    [
+     "No",
+     "not"
+    ],
+    [
+     "entiendo",
+     "I understand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 2922,
+    "wd": 17466
+   },
+   "bank": {
+    "fr": [
+     1013862,
+     4626
+    ],
+    "frs": [
+     1018888,
+     6690
+    ],
+    "en": [
+     1025978,
+     2922
+    ],
+    "wd": [
+     1029300,
+     17466
+    ],
+    "wp": [
+     [
+      1029300,
+      3266
+     ],
+     [
+      1032966,
+      4394
+     ],
+     [
+      1037760,
+      3290
+     ],
+     [
+      1041450,
+      4466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Diez. Euros».",
+   "en": "\"Ten. Euros.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Diez",
+     "ten"
+    ],
+    [
+     "Euros",
+     "euros"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5442,
+    "en": 2082,
+    "wd": 8910
+   },
+   "bank": {
+    "fr": [
+     1047165,
+     3810
+    ],
+    "frs": [
+     1051376,
+     5442
+    ],
+    "en": [
+     1057218,
+     2082
+    ],
+    "wd": [
+     1059700,
+     8910
+    ],
+    "wp": [
+     [
+      1059700,
+      3266
+     ],
+     [
+      1063366,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mark paga.",
+   "en": "Mark pays.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "paga",
+     "pays"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3450,
+    "en": 2322,
+    "wd": 8982
+   },
+   "bank": {
+    "fr": [
+     1069010,
+     2466
+    ],
+    "frs": [
+     1071876,
+     3450
+    ],
+    "en": [
+     1075726,
+     2322
+    ],
+    "wd": [
+     1078448,
+     8982
+    ],
+    "wp": [
+     [
+      1078448,
+      3338
+     ],
+     [
+      1082186,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sofía está en la puerta.",
+   "en": "Sofía is at the door.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "en",
+     "at"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "puerta",
+     "door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322,
+    "wd": 19572
+   },
+   "bank": {
+    "fr": [
+     1087830,
+     3138
+    ],
+    "frs": [
+     1091368,
+     4458
+    ],
+    "en": [
+     1096226,
+     2322
+    ],
+    "wd": [
+     1098948,
+     19572
+    ],
+    "wp": [
+     [
+      1098948,
+      4394
+     ],
+     [
+      1103742,
+      3314
+     ],
+     [
+      1107456,
+      2882
+     ],
+     [
+      1110738,
+      3218
+     ],
+     [
+      1114356,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Mark, el metro está enfrente».",
+   "en": "\"Mark, the metro is across the street.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "metro",
+     "metro"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "enfrente",
+     "across the street"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 3090,
+    "wd": 20172
+   },
+   "bank": {
+    "fr": [
+     1118920,
+     3450
+    ],
+    "frs": [
+     1122770,
+     4938
+    ],
+    "en": [
+     1128108,
+     3090
+    ],
+    "wd": [
+     1131598,
+     20172
+    ],
+    "wp": [
+     [
+      1131598,
+      3338
+     ],
+     [
+      1135336,
+      3218
+     ],
+     [
+      1138954,
+      3386
+     ],
+     [
+      1142740,
+      3314
+     ],
+     [
+      1146454,
+      4466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí, Sofía. Ya lo sé».",
+   "en": "\"Yes, Sofía. I know now.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "Ya",
+     "now"
+    ],
+    [
+     "lo",
+     "it"
+    ],
+    [
+     "sé",
+     "I know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 2754,
+    "wd": 20028
+   },
+   "bank": {
+    "fr": [
+     1152170,
+     4338
+    ],
+    "frs": [
+     1156908,
+     6258
+    ],
+    "en": [
+     1163566,
+     2754
+    ],
+    "wd": [
+     1166720,
+     20028
+    ],
+    "wp": [
+     [
+      1166720,
+      3386
+     ],
+     [
+      1170506,
+      4394
+     ],
+     [
+      1175300,
+      3266
+     ],
+     [
+      1178966,
+      3170
+     ],
+     [
+      1182536,
+      3362
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   7528
+  ],
+  "silence": [
+   8328,
+   30000
+  ]
+ }
+}

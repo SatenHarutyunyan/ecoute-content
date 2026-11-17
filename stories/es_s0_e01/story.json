@@ -1,0 +1,2779 @@
+{
+ "id": "es_s0_e01",
+ "lang": "es",
+ "title": "¿Quién es?",
+ "author": "Original story (AI-generated)",
+ "level": "A0",
+ "series": "Lucía y Pablo (first steps)",
+ "episode": "1",
+ "note": "Meet Lucía, a little girl with a big red ball, pelota. And meet a small red cat called Tomate, which means \"tomato\".",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 17274,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "¿Quién es?",
+   "en": "Who is it?",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "quién",
+     "en": "who"
+    }
+   ],
+   "words": [
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "es",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3042,
+    "en": 2322,
+    "gl": 4370,
+    "wd": 7782
+   },
+   "bank": {
+    "fr": [
+     48474,
+     2322
+    ],
+    "frs": [
+     51196,
+     3042
+    ],
+    "en": [
+     54638,
+     2322
+    ],
+    "gl": [
+     57360,
+     4370
+    ],
+    "wd": [
+     62130,
+     7782
+    ],
+    "wp": [
+     [
+      62130,
+      3218
+     ],
+     [
+      65748,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es Lucía.",
+   "en": "It's Lucía.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "Lucía",
+     "Lucía"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2442,
+    "frs": 3402,
+    "en": 2322,
+    "wd": 10038
+   },
+   "bank": {
+    "fr": [
+     70312,
+     2442
+    ],
+    "frs": [
+     73154,
+     3402
+    ],
+    "en": [
+     76956,
+     2322
+    ],
+    "wd": [
+     79678,
+     10038
+    ],
+    "wp": [
+     [
+      79678,
+      4394
+     ],
+     [
+      84472,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lucía es pequeña.",
+   "en": "Lucía is small.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "pequeña",
+     "en": "small"
+    }
+   ],
+   "words": [
+    [
+     "Lucía",
+     "Lucía"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "pequeña",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "gl": 4730,
+    "wd": 12720
+   },
+   "bank": {
+    "fr": [
+     90116,
+     2874
+    ],
+    "frs": [
+     93390,
+     4074
+    ],
+    "en": [
+     97864,
+     2322
+    ],
+    "gl": [
+     100586,
+     4730
+    ],
+    "wd": [
+     105716,
+     12720
+    ],
+    "wp": [
+     [
+      105716,
+      4394
+     ],
+     [
+      110510,
+      3314
+     ],
+     [
+      114224,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lucía tiene una pelota.",
+   "en": "Lucía has a ball.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "pelota",
+     "en": "ball"
+    },
+    {
+     "fr": "tiene",
+     "en": "has"
+    }
+   ],
+   "words": [
+    [
+     "Lucía",
+     "Lucía"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2322,
+    "gl": 8722,
+    "wd": 16338
+   },
+   "bank": {
+    "fr": [
+     118836,
+     3330
+    ],
+    "frs": [
+     122566,
+     4746
+    ],
+    "en": [
+     127712,
+     2322
+    ],
+    "gl": [
+     130434,
+     8722
+    ],
+    "wd": [
+     139556,
+     16338
+    ],
+    "wp": [
+     [
+      139556,
+      4394
+     ],
+     [
+      144350,
+      3386
+     ],
+     [
+      148136,
+      3218
+     ],
+     [
+      151754,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La pelota es roja.",
+   "en": "The ball is red.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "roja",
+     "en": "red"
+    }
+   ],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "roja",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2322,
+    "gl": 4586,
+    "wd": 15138
+   },
+   "bank": {
+    "fr": [
+     156294,
+     2946
+    ],
+    "frs": [
+     159640,
+     4146
+    ],
+    "en": [
+     164186,
+     2322
+    ],
+    "gl": [
+     166908,
+     4586
+    ],
+    "wd": [
+     171894,
+     15138
+    ],
+    "wp": [
+     [
+      171894,
+      3218
+     ],
+     [
+      175512,
+      3290
+     ],
+     [
+      179202,
+      3314
+     ],
+     [
+      182916,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La pelota es grande.",
+   "en": "The ball is big.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "grande",
+     "en": "big"
+    }
+   ],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "grande",
+     "big"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2322,
+    "gl": 4658,
+    "wd": 15138
+   },
+   "bank": {
+    "fr": [
+     187432,
+     2946
+    ],
+    "frs": [
+     190778,
+     4146
+    ],
+    "en": [
+     195324,
+     2322
+    ],
+    "gl": [
+     198046,
+     4658
+    ],
+    "wd": [
+     203104,
+     15138
+    ],
+    "wp": [
+     [
+      203104,
+      3218
+     ],
+     [
+      206722,
+      3290
+     ],
+     [
+      210412,
+      3314
+     ],
+     [
+      214126,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Es mi pelota.",
+   "en": "\"It's my ball.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2586,
+    "frs": 3618,
+    "en": 2322,
+    "wd": 12576
+   },
+   "bank": {
+    "fr": [
+     218642,
+     2586
+    ],
+    "frs": [
+     221628,
+     3618
+    ],
+    "en": [
+     225646,
+     2322
+    ],
+    "wd": [
+     228368,
+     12576
+    ],
+    "wp": [
+     [
+      228368,
+      4394
+     ],
+     [
+      233162,
+      3242
+     ],
+     [
+      236804,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mi pelota roja.»",
+   "en": "My red ball.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mi",
+     "my"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "roja",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3882,
+    "en": 2322,
+    "wd": 11448
+   },
+   "bank": {
+    "fr": [
+     241344,
+     2754
+    ],
+    "frs": [
+     244498,
+     3882
+    ],
+    "en": [
+     248780,
+     2322
+    ],
+    "wd": [
+     251502,
+     11448
+    ],
+    "wp": [
+     [
+      251502,
+      3242
+     ],
+     [
+      255144,
+      3290
+     ],
+     [
+      258834,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Qué es?",
+   "en": "What is it?",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Qué",
+     "what"
+    ],
+    [
+     "es",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2994,
+    "en": 1314,
+    "wd": 7806
+   },
+   "bank": {
+    "fr": [
+     263350,
+     2322
+    ],
+    "frs": [
+     266072,
+     2994
+    ],
+    "en": [
+     269466,
+     1314
+    ],
+    "wd": [
+     271180,
+     7806
+    ],
+    "wp": [
+     [
+      271180,
+      3242
+     ],
+     [
+      274822,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No es una pelota.",
+   "en": "It's not a ball.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "not"
+    ],
+    [
+     "es",
+     "it is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 2322,
+    "wd": 16242
+   },
+   "bank": {
+    "fr": [
+     279386,
+     2850
+    ],
+    "frs": [
+     282636,
+     4026
+    ],
+    "en": [
+     287062,
+     2322
+    ],
+    "wd": [
+     289784,
+     16242
+    ],
+    "wp": [
+     [
+      289784,
+      3290
+     ],
+     [
+      293474,
+      4394
+     ],
+     [
+      298268,
+      3218
+     ],
+     [
+      301886,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es un gato.",
+   "en": "It's a cat.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "gato",
+     "en": "cat"
+    }
+   ],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "gato",
+     "cat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2442,
+    "frs": 3402,
+    "en": 2322,
+    "gl": 4586,
+    "wd": 12576
+   },
+   "bank": {
+    "fr": [
+     306426,
+     2442
+    ],
+    "frs": [
+     309268,
+     3402
+    ],
+    "en": [
+     313070,
+     2322
+    ],
+    "gl": [
+     315792,
+     4586
+    ],
+    "wd": [
+     320778,
+     12576
+    ],
+    "wp": [
+     [
+      320778,
+      4394
+     ],
+     [
+      325572,
+      3218
+     ],
+     [
+      329190,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El gato es pequeño.",
+   "en": "The cat is small.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "gato",
+     "cat"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "pequeño",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 4026,
+    "en": 2322,
+    "wd": 15258
+   },
+   "bank": {
+    "fr": [
+     333754,
+     2850
+    ],
+    "frs": [
+     337004,
+     4026
+    ],
+    "en": [
+     341430,
+     2322
+    ],
+    "wd": [
+     344152,
+     15258
+    ],
+    "wp": [
+     [
+      344152,
+      3218
+     ],
+     [
+      347770,
+      3314
+     ],
+     [
+      351484,
+      3314
+     ],
+     [
+      355198,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El gato es rojo.",
+   "en": "The cat is red.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "gato",
+     "cat"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "rojo",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2322,
+    "wd": 15162
+   },
+   "bank": {
+    "fr": [
+     359810,
+     2826
+    ],
+    "frs": [
+     363036,
+     3978
+    ],
+    "en": [
+     367414,
+     2322
+    ],
+    "wd": [
+     370136,
+     15162
+    ],
+    "wp": [
+     [
+      370136,
+      3218
+     ],
+     [
+      373754,
+      3314
+     ],
+     [
+      377468,
+      3314
+     ],
+     [
+      381182,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Hola, gato!",
+   "en": "\"Hello, cat!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Hola",
+     "hello"
+    ],
+    [
+     "gato",
+     "cat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 7878
+   },
+   "bank": {
+    "fr": [
+     385698,
+     2874
+    ],
+    "frs": [
+     388972,
+     4050
+    ],
+    "en": [
+     393422,
+     2322
+    ],
+    "wd": [
+     396144,
+     7878
+    ],
+    "wp": [
+     [
+      396144,
+      3314
+     ],
+     [
+      399858,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Yo soy Lucía.",
+   "en": "I am Lucía.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "soy",
+     "am"
+    ],
+    [
+     "Lucía",
+     "Lucía"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3738,
+    "en": 2322,
+    "wd": 12552
+   },
+   "bank": {
+    "fr": [
+     404422,
+     2658
+    ],
+    "frs": [
+     407480,
+     3738
+    ],
+    "en": [
+     411618,
+     2322
+    ],
+    "wd": [
+     414340,
+     12552
+    ],
+    "wp": [
+     [
+      414340,
+      3242
+     ],
+     [
+      417982,
+      3266
+     ],
+     [
+      421648,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Y tú? ¿Quién eres?»",
+   "en": "And you? Who are you?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "eres",
+     "are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5610,
+    "en": 2106,
+    "wd": 14970
+   },
+   "bank": {
+    "fr": [
+     427292,
+     3906
+    ],
+    "frs": [
+     431598,
+     5610
+    ],
+    "en": [
+     437608,
+     2106
+    ],
+    "wd": [
+     440114,
+     14970
+    ],
+    "wp": [
+     [
+      440114,
+      3194
+     ],
+     [
+      443708,
+      3242
+     ],
+     [
+      447350,
+      3218
+     ],
+     [
+      450968,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El gato no habla.",
+   "en": "The cat does not talk.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "gato",
+     "cat"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "habla",
+     "talks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3786,
+    "en": 2322,
+    "wd": 15234
+   },
+   "bank": {
+    "fr": [
+     455484,
+     2682
+    ],
+    "frs": [
+     458566,
+     3786
+    ],
+    "en": [
+     462752,
+     2322
+    ],
+    "wd": [
+     465474,
+     15234
+    ],
+    "wp": [
+     [
+      465474,
+      3218
+     ],
+     [
+      469092,
+      3314
+     ],
+     [
+      472806,
+      3290
+     ],
+     [
+      476496,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Hola? Soy Lucía.»",
+   "en": "\"Hello? I am Lucía.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Hola",
+     "hello"
+    ],
+    [
+     "Soy",
+     "I am"
+    ],
+    [
+     "Lucía",
+     "Lucía"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 2370,
+    "wd": 13752
+   },
+   "bank": {
+    "fr": [
+     481108,
+     4026
+    ],
+    "frs": [
+     485534,
+     5778
+    ],
+    "en": [
+     491712,
+     2370
+    ],
+    "wd": [
+     494482,
+     13752
+    ],
+    "wp": [
+     [
+      494482,
+      3314
+     ],
+     [
+      498196,
+      4394
+     ],
+     [
+      502990,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El gato no habla.",
+   "en": "The cat does not talk.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "gato",
+     "cat"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "habla",
+     "talks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2682,
+    "frs": 3786,
+    "en": 2322,
+    "wd": 15234
+   },
+   "bank": {
+    "fr": [
+     508634,
+     2682
+    ],
+    "frs": [
+     511716,
+     3786
+    ],
+    "en": [
+     515902,
+     2322
+    ],
+    "wd": [
+     518624,
+     15234
+    ],
+    "wp": [
+     [
+      518624,
+      3218
+     ],
+     [
+      522242,
+      3314
+     ],
+     [
+      525956,
+      3290
+     ],
+     [
+      529646,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Eres rojo...",
+   "en": "\"You are red...",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Eres",
+     "you are"
+    ],
+    [
+     "rojo",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2322,
+    "wd": 8910
+   },
+   "bank": {
+    "fr": [
+     534258,
+     2610
+    ],
+    "frs": [
+     537268,
+     3666
+    ],
+    "en": [
+     541334,
+     2322
+    ],
+    "wd": [
+     544056,
+     8910
+    ],
+    "wp": [
+     [
+      544056,
+      4394
+     ],
+     [
+      548850,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Eres Tomate!",
+   "en": "You are Tomate!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Eres",
+     "you are"
+    ],
+    [
+     "Tomate",
+     "Tomate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2562,
+    "frs": 3570,
+    "en": 2322,
+    "wd": 9006
+   },
+   "bank": {
+    "fr": [
+     553366,
+     2562
+    ],
+    "frs": [
+     556328,
+     3570
+    ],
+    "en": [
+     560298,
+     2322
+    ],
+    "wd": [
+     563020,
+     9006
+    ],
+    "wp": [
+     [
+      563020,
+      4394
+     ],
+     [
+      567814,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sí, tú eres Tomate.»",
+   "en": "Yes, you are Tomate.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "eres",
+     "are"
+    ],
+    [
+     "Tomate",
+     "Tomate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2322,
+    "wd": 15306
+   },
+   "bank": {
+    "fr": [
+     572426,
+     3090
+    ],
+    "frs": [
+     575916,
+     4386
+    ],
+    "en": [
+     580702,
+     2322
+    ],
+    "wd": [
+     583424,
+     15306
+    ],
+    "wp": [
+     [
+      583424,
+      3386
+     ],
+     [
+      587210,
+      3242
+     ],
+     [
+      590852,
+      3266
+     ],
+     [
+      594518,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es Tomate.",
+   "en": "It's Tomate.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "Tomate",
+     "Tomate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322,
+    "wd": 9006
+   },
+   "bank": {
+    "fr": [
+     599130,
+     2466
+    ],
+    "frs": [
+     601996,
+     3426
+    ],
+    "en": [
+     605822,
+     2322
+    ],
+    "wd": [
+     608544,
+     9006
+    ],
+    "wp": [
+     [
+      608544,
+      4394
+     ],
+     [
+      613338,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate es un gato.",
+   "en": "Tomate is a cat.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "gato",
+     "cat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 15258
+   },
+   "bank": {
+    "fr": [
+     617950,
+     2874
+    ],
+    "frs": [
+     621224,
+     4050
+    ],
+    "en": [
+     625674,
+     2322
+    ],
+    "wd": [
+     628396,
+     15258
+    ],
+    "wp": [
+     [
+      628396,
+      3362
+     ],
+     [
+      632158,
+      3314
+     ],
+     [
+      635872,
+      3218
+     ],
+     [
+      639490,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate es pequeño.",
+   "en": "Tomate is small.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "pequeño",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 11688
+   },
+   "bank": {
+    "fr": [
+     644054,
+     2874
+    ],
+    "frs": [
+     647328,
+     4050
+    ],
+    "en": [
+     651778,
+     2322
+    ],
+    "wd": [
+     654500,
+     11688
+    ],
+    "wp": [
+     [
+      654500,
+      3362
+     ],
+     [
+      658262,
+      3314
+     ],
+     [
+      661976,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Dónde está la pelota?",
+   "en": "Where is the ball?",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "dónde",
+     "en": "where"
+    }
+   ],
+   "words": [
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322,
+    "gl": 4610,
+    "wd": 15162
+   },
+   "bank": {
+    "fr": [
+     666588,
+     2994
+    ],
+    "frs": [
+     669982,
+     4218
+    ],
+    "en": [
+     674600,
+     2322
+    ],
+    "gl": [
+     677322,
+     4610
+    ],
+    "wd": [
+     682332,
+     15162
+    ],
+    "wp": [
+     [
+      682332,
+      3290
+     ],
+     [
+      686022,
+      3314
+     ],
+     [
+      689736,
+      3218
+     ],
+     [
+      693354,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡La pelota no está!",
+   "en": "The ball is not there!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "está",
+     "is there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 3978,
+    "en": 2322,
+    "wd": 16242
+   },
+   "bank": {
+    "fr": [
+     697894,
+     2826
+    ],
+    "frs": [
+     701120,
+     3978
+    ],
+    "en": [
+     705498,
+     2322
+    ],
+    "wd": [
+     708220,
+     16242
+    ],
+    "wp": [
+     [
+      708220,
+      3218
+     ],
+     [
+      711838,
+      3290
+     ],
+     [
+      715528,
+      3290
+     ],
+     [
+      719218,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Dónde está mi pelota?",
+   "en": "\"Where is my ball?",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4290,
+    "en": 2322,
+    "wd": 15186
+   },
+   "bank": {
+    "fr": [
+     724862,
+     3018
+    ],
+    "frs": [
+     728280,
+     4290
+    ],
+    "en": [
+     732970,
+     2322
+    ],
+    "wd": [
+     735692,
+     15186
+    ],
+    "wp": [
+     [
+      735692,
+      3290
+     ],
+     [
+      739382,
+      3314
+     ],
+     [
+      743096,
+      3242
+     ],
+     [
+      746738,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Quién tiene mi pelota?»",
+   "en": "Who has my ball?\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4122,
+    "en": 2322,
+    "wd": 15186
+   },
+   "bank": {
+    "fr": [
+     751278,
+     2922
+    ],
+    "frs": [
+     754600,
+     4122
+    ],
+    "en": [
+     759122,
+     2322
+    ],
+    "wd": [
+     761844,
+     15186
+    ],
+    "wp": [
+     [
+      761844,
+      3218
+     ],
+     [
+      765462,
+      3386
+     ],
+     [
+      769248,
+      3242
+     ],
+     [
+      772890,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Hola, Tomate. ¿Qué tienes?»",
+   "en": "\"Hello, Tomate. What do you have?\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Hola",
+     "hello"
+    ],
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "Qué",
+     "what"
+    ],
+    [
+     "tienes",
+     "you have"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 2586,
+    "wd": 16361
+   },
+   "bank": {
+    "fr": [
+     777430,
+     4698
+    ],
+    "frs": [
+     782528,
+     6786
+    ],
+    "en": [
+     789714,
+     2586
+    ],
+    "wd": [
+     792700,
+     16361
+    ],
+    "wp": [
+     [
+      792700,
+      3314
+     ],
+     [
+      796414,
+      3362
+     ],
+     [
+      800176,
+      3242
+     ],
+     [
+      803818,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate no habla.",
+   "en": "Tomate does not talk.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "habla",
+     "talks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2322,
+    "wd": 11664
+   },
+   "bank": {
+    "fr": [
+     809462,
+     2610
+    ],
+    "frs": [
+     812472,
+     3666
+    ],
+    "en": [
+     816538,
+     2322
+    ],
+    "wd": [
+     819260,
+     11664
+    ],
+    "wp": [
+     [
+      819260,
+      3362
+     ],
+     [
+      823022,
+      3290
+     ],
+     [
+      826712,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Tomate tiene una pelota!",
+   "en": "Tomate has a ball!",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4578,
+    "en": 2322,
+    "wd": 15306
+   },
+   "bank": {
+    "fr": [
+     831324,
+     3210
+    ],
+    "frs": [
+     834934,
+     4578
+    ],
+    "en": [
+     839912,
+     2322
+    ],
+    "wd": [
+     842634,
+     15306
+    ],
+    "wp": [
+     [
+      842634,
+      3362
+     ],
+     [
+      846396,
+      3386
+     ],
+     [
+      850182,
+      3218
+     ],
+     [
+      853800,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Tomate, ¿es tu pelota?»",
+   "en": "\"Tomate, is it your ball?\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "es",
+     "is it"
+    ],
+    [
+     "tu",
+     "your"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4482,
+    "en": 2322,
+    "wd": 15234
+   },
+   "bank": {
+    "fr": [
+     858340,
+     3138
+    ],
+    "frs": [
+     861878,
+     4482
+    ],
+    "en": [
+     866760,
+     2322
+    ],
+    "wd": [
+     869482,
+     15234
+    ],
+    "wp": [
+     [
+      869482,
+      3362
+     ],
+     [
+      873244,
+      3290
+     ],
+     [
+      876934,
+      3242
+     ],
+     [
+      880576,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate no habla.",
+   "en": "Tomate does not talk.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "habla",
+     "talks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2322,
+    "wd": 11664
+   },
+   "bank": {
+    "fr": [
+     885116,
+     2610
+    ],
+    "frs": [
+     888126,
+     3666
+    ],
+    "en": [
+     892192,
+     2322
+    ],
+    "wd": [
+     894914,
+     11664
+    ],
+    "wp": [
+     [
+      894914,
+      3362
+     ],
+     [
+      898676,
+      3290
+     ],
+     [
+      902366,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La pelota es grande.",
+   "en": "The ball is big.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "grande",
+     "big"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2322,
+    "wd": 15138
+   },
+   "bank": {
+    "fr": [
+     906978,
+     2946
+    ],
+    "frs": [
+     910324,
+     4146
+    ],
+    "en": [
+     914870,
+     2322
+    ],
+    "wd": [
+     917592,
+     15138
+    ],
+    "wp": [
+     [
+      917592,
+      3218
+     ],
+     [
+      921210,
+      3290
+     ],
+     [
+      924900,
+      3314
+     ],
+     [
+      928614,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate es pequeño.",
+   "en": "Tomate is small.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "pequeño",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 11688
+   },
+   "bank": {
+    "fr": [
+     933130,
+     2874
+    ],
+    "frs": [
+     936404,
+     4050
+    ],
+    "en": [
+     940854,
+     2322
+    ],
+    "wd": [
+     943576,
+     11688
+    ],
+    "wp": [
+     [
+      943576,
+      3362
+     ],
+     [
+      947338,
+      3314
+     ],
+     [
+      951052,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí, sí.",
+   "en": "\"Yes, yes.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "sí",
+     "yes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 2394,
+    "frs": 3330,
+    "en": 2322,
+    "wd": 8022
+   },
+   "bank": {
+    "fr": [
+     955664,
+     2394
+    ],
+    "frs": [
+     958458,
+     3330
+    ],
+    "en": [
+     962188,
+     2322
+    ],
+    "wd": [
+     964910,
+     8022
+    ],
+    "wp": [
+     [
+      964910,
+      3386
+     ],
+     [
+      968696,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es tu pelota.",
+   "en": "It's your ball.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "tu",
+     "your"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 2586,
+    "frs": 3618,
+    "en": 2322,
+    "wd": 12576
+   },
+   "bank": {
+    "fr": [
+     973332,
+     2586
+    ],
+    "frs": [
+     976318,
+     3618
+    ],
+    "en": [
+     980336,
+     2322
+    ],
+    "wd": [
+     983058,
+     12576
+    ],
+    "wp": [
+     [
+      983058,
+      4394
+     ],
+     [
+      987852,
+      3242
+     ],
+     [
+      991494,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tu pelota, grande y roja.",
+   "en": "Your ball, big and red.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Tu",
+     "your"
+    ],
+    [
+     "pelota",
+     "ball"
+    ],
+    [
+     "grande",
+     "big"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "roja",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2394,
+    "wd": 18708
+   },
+   "bank": {
+    "fr": [
+     996034,
+     3282
+    ],
+    "frs": [
+     999716,
+     4674
+    ],
+    "en": [
+     1004790,
+     2394
+    ],
+    "wd": [
+     1007584,
+     18708
+    ],
+    "wp": [
+     [
+      1007584,
+      3242
+     ],
+     [
+      1011226,
+      3290
+     ],
+     [
+      1014916,
+      3266
+     ],
+     [
+      1018582,
+      3194
+     ],
+     [
+      1022176,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Yo no tengo pelota.»",
+   "en": "I don't have a ball.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "no",
+     "don't"
+    ],
+    [
+     "tengo",
+     "have"
+    ],
+    [
+     "pelota",
+     "ball"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "wd": 15186
+   },
+   "bank": {
+    "fr": [
+     1026692,
+     2874
+    ],
+    "frs": [
+     1029965,
+     4074
+    ],
+    "en": [
+     1034440,
+     2322
+    ],
+    "wd": [
+     1037162,
+     15186
+    ],
+    "wp": [
+     [
+      1037162,
+      3242
+     ],
+     [
+      1040804,
+      3290
+     ],
+     [
+      1044494,
+      3314
+     ],
+     [
+      1048208,
+      3290
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   17274
+  ],
+  "silence": [
+   18074,
+   30000
+  ]
+ }
+}

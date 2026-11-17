@@ -1,0 +1,3066 @@
+{
+ "id": "es_daily_01",
+ "lang": "es",
+ "title": "Daily scenarios: Hello and nice to meet you",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Daily scenarios",
+ "episode": "1",
+ "note": "",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 7984,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Madrid, por la mañana.",
+   "en": "Madrid, in the morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Madrid",
+     "Madrid"
+    ],
+    [
+     "por la mañana",
+     "in the morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322,
+    "wd": 9222
+   },
+   "bank": {
+    "fr": [
+     39184,
+     3114
+    ],
+    "frs": [
+     42698,
+     4410
+    ],
+    "en": [
+     47508,
+     2322
+    ],
+    "wd": [
+     50230,
+     9222
+    ],
+    "wp": [
+     [
+      50230,
+      3362
+     ],
+     [
+      53992,
+      4610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mark sale de su piso.",
+   "en": "Mark leaves his flat.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "sale",
+     "leaves"
+    ],
+    [
+     "de",
+     "from"
+    ],
+    [
+     "su",
+     "his"
+    ],
+    [
+     "piso",
+     "flat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3066,
+    "frs": 4338,
+    "en": 2322,
+    "wd": 20124
+   },
+   "bank": {
+    "fr": [
+     59852,
+     3066
+    ],
+    "frs": [
+     63318,
+     4338
+    ],
+    "en": [
+     68056,
+     2322
+    ],
+    "wd": [
+     70778,
+     20124
+    ],
+    "wp": [
+     [
+      70778,
+      3338
+     ],
+     [
+      74516,
+      4394
+     ],
+     [
+      79310,
+      3266
+     ],
+     [
+      82976,
+      3314
+     ],
+     [
+      86690,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En la escalera hay una chica.",
+   "en": "There is a girl on the stairs.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "En",
+     "on"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "escalera",
+     "stairs"
+    ],
+    [
+     "hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "chica",
+     "girl"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4842,
+    "en": 2298,
+    "wd": 24582
+   },
+   "bank": {
+    "fr": [
+     91302,
+     3402
+    ],
+    "frs": [
+     95104,
+     4842
+    ],
+    "en": [
+     100346,
+     2298
+    ],
+    "wd": [
+     103044,
+     24582
+    ],
+    "wp": [
+     [
+      103044,
+      3266
+     ],
+     [
+      106710,
+      3218
+     ],
+     [
+      110328,
+      4394
+     ],
+     [
+      115122,
+      4394
+     ],
+     [
+      119916,
+      3218
+     ],
+     [
+      123534,
+      3242
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Buenos días».",
+   "en": "\"Good morning.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Buenos días",
+     "good morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3690,
+    "en": 2322,
+    "wd": 5532
+   },
+   "bank": {
+    "fr": [
+     128026,
+     2610
+    ],
+    "frs": [
+     131036,
+     3690
+    ],
+    "en": [
+     135126,
+     2322
+    ],
+    "wd": [
+     137848,
+     5532
+    ],
+    "wp": [
+     [
+      137848,
+      4682
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Buenos días.",
+   "en": "\"Good morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Buenos días",
+     "good morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3690,
+    "en": 2322,
+    "wd": 5532
+   },
+   "bank": {
+    "fr": [
+     143780,
+     2610
+    ],
+    "frs": [
+     146790,
+     3690
+    ],
+    "en": [
+     150880,
+     2322
+    ],
+    "wd": [
+     153602,
+     5532
+    ],
+    "wp": [
+     [
+      153602,
+      4682
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Eres el vecino nuevo?»",
+   "en": "Are you the new neighbour?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Eres",
+     "are you"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "vecino",
+     "neighbour"
+    ],
+    [
+     "nuevo",
+     "new"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4194,
+    "en": 2322,
+    "wd": 15234
+   },
+   "bank": {
+    "fr": [
+     159534,
+     2970
+    ],
+    "frs": [
+     162904,
+     4194
+    ],
+    "en": [
+     167498,
+     2322
+    ],
+    "wd": [
+     170220,
+     15234
+    ],
+    "wp": [
+     [
+      170220,
+      3314
+     ],
+     [
+      173934,
+      3218
+     ],
+     [
+      177552,
+      3386
+     ],
+     [
+      181338,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí. Me llamo Mark».",
+   "en": "\"Yes. My name is Mark.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "Me",
+     "myself"
+    ],
+    [
+     "llamo",
+     "I call"
+    ],
+    [
+     "Mark",
+     "Mark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 2538,
+    "wd": 17562
+   },
+   "bank": {
+    "fr": [
+     185854,
+     4050
+    ],
+    "frs": [
+     190304,
+     5802
+    ],
+    "en": [
+     196506,
+     2538
+    ],
+    "wd": [
+     199444,
+     17562
+    ],
+    "wp": [
+     [
+      199444,
+      3386
+     ],
+     [
+      203230,
+      4394
+     ],
+     [
+      208024,
+      4394
+     ],
+     [
+      212818,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Y tú? ¿Cómo te llamas?»",
+   "en": "\"And you? What is your name?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "Cómo",
+     "how"
+    ],
+    [
+     "te",
+     "yourself"
+    ],
+    [
+     "llamas",
+     "you call"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4122,
+    "frs": 5922,
+    "en": 2298,
+    "wd": 20916
+   },
+   "bank": {
+    "fr": [
+     217406,
+     4122
+    ],
+    "frs": [
+     221928,
+     5922
+    ],
+    "en": [
+     228250,
+     2298
+    ],
+    "wd": [
+     230948,
+     20916
+    ],
+    "wp": [
+     [
+      230948,
+      3194
+     ],
+     [
+      234542,
+      3242
+     ],
+     [
+      238184,
+      3242
+     ],
+     [
+      241826,
+      4394
+     ],
+     [
+      246620,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sofía. Encantada».",
+   "en": "\"Sofía. Nice to meet you.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "Encantada",
+     "nice to meet you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "frs": 6018,
+    "en": 2490,
+    "wd": 10182
+   },
+   "bank": {
+    "fr": [
+     252264,
+     4170
+    ],
+    "frs": [
+     256834,
+     6018
+    ],
+    "en": [
+     263252,
+     2490
+    ],
+    "wd": [
+     266142,
+     10182
+    ],
+    "wp": [
+     [
+      266142,
+      4394
+     ],
+     [
+      270936,
+      4538
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Encantado, Sofía».",
+   "en": "\"Nice to meet you, Sofía.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Encantado",
+     "nice to meet you"
+    ],
+    [
+     "Sofía",
+     "Sofía"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322,
+    "wd": 10182
+   },
+   "bank": {
+    "fr": [
+     276724,
+     3114
+    ],
+    "frs": [
+     280238,
+     4410
+    ],
+    "en": [
+     285048,
+     2322
+    ],
+    "wd": [
+     287770,
+     10182
+    ],
+    "wp": [
+     [
+      287770,
+      4538
+     ],
+     [
+      292708,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿De dónde eres, Mark?»",
+   "en": "\"Where are you from, Mark?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "De",
+     "from"
+    ],
+    [
+     "dónde",
+     "where"
+    ],
+    [
+     "eres",
+     "you are"
+    ],
+    [
+     "Mark",
+     "Mark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 1962,
+    "wd": 16338
+   },
+   "bank": {
+    "fr": [
+     298352,
+     3090
+    ],
+    "frs": [
+     301842,
+     4362
+    ],
+    "en": [
+     306604,
+     1962
+    ],
+    "wd": [
+     308966,
+     16338
+    ],
+    "wp": [
+     [
+      308966,
+      3266
+     ],
+     [
+      312632,
+      3290
+     ],
+     [
+      316322,
+      4394
+     ],
+     [
+      321116,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Soy de Estados Unidos.",
+   "en": "\"I am from the United States.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Soy",
+     "I am"
+    ],
+    [
+     "de",
+     "from"
+    ],
+    [
+     "Estados Unidos",
+     "United States"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2322,
+    "wd": 14232
+   },
+   "bank": {
+    "fr": [
+     325704,
+     3258
+    ],
+    "frs": [
+     329362,
+     4626
+    ],
+    "en": [
+     334388,
+     2322
+    ],
+    "wd": [
+     337110,
+     14232
+    ],
+    "wp": [
+     [
+      337110,
+      4394
+     ],
+     [
+      341904,
+      3266
+     ],
+     [
+      345570,
+      4922
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "De Chicago».",
+   "en": "From Chicago.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "De",
+     "from"
+    ],
+    [
+     "Chicago",
+     "Chicago"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322,
+    "wd": 8910
+   },
+   "bank": {
+    "fr": [
+     351742,
+     2466
+    ],
+    "frs": [
+     354608,
+     3426
+    ],
+    "en": [
+     358434,
+     2322
+    ],
+    "wd": [
+     361156,
+     8910
+    ],
+    "wp": [
+     [
+      361156,
+      3266
+     ],
+     [
+      364822,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Y tú? ¿De dónde eres?»",
+   "en": "\"And you? Where are you from?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "De",
+     "from"
+    ],
+    [
+     "dónde",
+     "where"
+    ],
+    [
+     "eres",
+     "you are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4218,
+    "frs": 6066,
+    "en": 2370,
+    "wd": 19836
+   },
+   "bank": {
+    "fr": [
+     370466,
+     4218
+    ],
+    "frs": [
+     375084,
+     6066
+    ],
+    "en": [
+     381550,
+     2370
+    ],
+    "wd": [
+     384320,
+     19836
+    ],
+    "wp": [
+     [
+      384320,
+      3194
+     ],
+     [
+      387914,
+      3242
+     ],
+     [
+      391556,
+      3266
+     ],
+     [
+      395222,
+      3290
+     ],
+     [
+      398912,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Soy de aquí. De Madrid».",
+   "en": "\"I am from here. From Madrid.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Soy",
+     "I am"
+    ],
+    [
+     "de",
+     "from"
+    ],
+    [
+     "aquí",
+     "here"
+    ],
+    [
+     "De",
+     "from"
+    ],
+    [
+     "Madrid",
+     "Madrid"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 2586,
+    "wd": 20028
+   },
+   "bank": {
+    "fr": [
+     404556,
+     4146
+    ],
+    "frs": [
+     409102,
+     5970
+    ],
+    "en": [
+     415472,
+     2586
+    ],
+    "wd": [
+     418458,
+     20028
+    ],
+    "wp": [
+     [
+      418458,
+      4394
+     ],
+     [
+      423252,
+      3266
+     ],
+     [
+      426918,
+      3290
+     ],
+     [
+      430608,
+      3266
+     ],
+     [
+      434274,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Hablas español?»",
+   "en": "\"Do you speak Spanish?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Hablas",
+     "you speak"
+    ],
+    [
+     "español",
+     "Spanish"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3666,
+    "en": 2322,
+    "wd": 10038
+   },
+   "bank": {
+    "fr": [
+     438886,
+     2610
+    ],
+    "frs": [
+     441896,
+     3666
+    ],
+    "en": [
+     445962,
+     2322
+    ],
+    "wd": [
+     448684,
+     10038
+    ],
+    "wp": [
+     [
+      448684,
+      4394
+     ],
+     [
+      453478,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí, un poco. Muy poco».",
+   "en": "\"Yes, a little. Very little.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "poco",
+     "little"
+    ],
+    [
+     "Muy",
+     "very"
+    ],
+    [
+     "poco",
+     "little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 2634,
+    "wd": 18876
+   },
+   "bank": {
+    "fr": [
+     459122,
+     4434
+    ],
+    "frs": [
+     463956,
+     6378
+    ],
+    "en": [
+     470734,
+     2634
+    ],
+    "wd": [
+     473768,
+     18876
+    ],
+    "wp": [
+     [
+      473768,
+      3386
+     ],
+     [
+      477554,
+      3218
+     ],
+     [
+      481172,
+      3266
+     ],
+     [
+      484838,
+      3290
+     ],
+     [
+      488528,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Vale. Poco a poco».",
+   "en": "\"Okay. Little by little.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Vale",
+     "okay"
+    ],
+    [
+     "Poco a poco",
+     "little by little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5778,
+    "en": 2370,
+    "wd": 9126
+   },
+   "bank": {
+    "fr": [
+     493044,
+     4026
+    ],
+    "frs": [
+     497470,
+     5778
+    ],
+    "en": [
+     503648,
+     2370
+    ],
+    "wd": [
+     506418,
+     9126
+    ],
+    "wp": [
+     [
+      506418,
+      3314
+     ],
+     [
+      510132,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Abajo hay una puerta abierta.",
+   "en": "Downstairs there is an open door.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Abajo",
+     "downstairs"
+    ],
+    [
+     "hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "puerta",
+     "door"
+    ],
+    [
+     "abierta",
+     "open"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2442,
+    "wd": 21060
+   },
+   "bank": {
+    "fr": [
+     515943,
+     3378
+    ],
+    "frs": [
+     519722,
+     4818
+    ],
+    "en": [
+     524940,
+     2442
+    ],
+    "wd": [
+     527782,
+     21060
+    ],
+    "wp": [
+     [
+      527782,
+      4394
+     ],
+     [
+      532576,
+      4394
+     ],
+     [
+      537370,
+      3218
+     ],
+     [
+      540988,
+      3314
+     ],
+     [
+      544702,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Huele a croquetas.",
+   "en": "It smells of croquettes.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Huele",
+     "it smells"
+    ],
+    [
+     "a",
+     "of"
+    ],
+    [
+     "croquetas",
+     "croquettes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 2322,
+    "wd": 13752
+   },
+   "bank": {
+    "fr": [
+     549242,
+     2922
+    ],
+    "frs": [
+     552564,
+     4146
+    ],
+    "en": [
+     557110,
+     2322
+    ],
+    "wd": [
+     559832,
+     13752
+    ],
+    "wp": [
+     [
+      559832,
+      4394
+     ],
+     [
+      564626,
+      3218
+     ],
+     [
+      568244,
+      4490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Una señora sale.",
+   "en": "A lady comes out.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Una",
+     "a"
+    ],
+    [
+     "señora",
+     "lady"
+    ],
+    [
+     "sale",
+     "comes out"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "wd": 12552
+   },
+   "bank": {
+    "fr": [
+     573984,
+     2874
+    ],
+    "frs": [
+     577258,
+     4074
+    ],
+    "en": [
+     581732,
+     2322
+    ],
+    "wd": [
+     584454,
+     12552
+    ],
+    "wp": [
+     [
+      584454,
+      3218
+     ],
+     [
+      588072,
+      3290
+     ],
+     [
+      591762,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Buenos días! ¿Quién eres tú?»",
+   "en": "\"Good morning! Who are you?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Buenos días",
+     "good morning"
+    ],
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "eres",
+     "are"
+    ],
+    [
+     "tú",
+     "you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6618,
+    "en": 2154,
+    "wd": 16458
+   },
+   "bank": {
+    "fr": [
+     597406,
+     4578
+    ],
+    "frs": [
+     602384,
+     6618
+    ],
+    "en": [
+     609402,
+     2154
+    ],
+    "wd": [
+     611956,
+     16458
+    ],
+    "wp": [
+     [
+      611956,
+      4682
+     ],
+     [
+      617038,
+      3218
+     ],
+     [
+      620656,
+      3266
+     ],
+     [
+      624322,
+      3242
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Buenos días, señora. Me llamo Mark».",
+   "en": "\"Good morning, madam. My name is Mark.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Buenos días",
+     "good morning"
+    ],
+    [
+     "señora",
+     "madam"
+    ],
+    [
+     "Me",
+     "myself"
+    ],
+    [
+     "llamo",
+     "I call"
+    ],
+    [
+     "Mark",
+     "Mark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5058,
+    "frs": 7314,
+    "en": 2946,
+    "wd": 22572
+   },
+   "bank": {
+    "fr": [
+     628814,
+     5058
+    ],
+    "frs": [
+     634272,
+     7314
+    ],
+    "en": [
+     641986,
+     2946
+    ],
+    "wd": [
+     645332,
+     22572
+    ],
+    "wp": [
+     [
+      645332,
+      4682
+     ],
+     [
+      650414,
+      3314
+     ],
+     [
+      654128,
+      4394
+     ],
+     [
+      658922,
+      4394
+     ],
+     [
+      663716,
+      3338
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Es Doña Carmen», dice Sofía.",
+   "en": "\"This is Doña Carmen,\" says Sofía.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "she is"
+    ],
+    [
+     "Doña",
+     "Mrs"
+    ],
+    [
+     "Carmen",
+     "Carmen"
+    ],
+    [
+     "dice",
+     "says"
+    ],
+    [
+     "Sofía",
+     "Sofía"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5322,
+    "en": 2994,
+    "wd": 22308
+   },
+   "bank": {
+    "fr": [
+     668304,
+     3714
+    ],
+    "frs": [
+     672418,
+     5322
+    ],
+    "en": [
+     678140,
+     2994
+    ],
+    "wd": [
+     681534,
+     22308
+    ],
+    "wp": [
+     [
+      681534,
+      4394
+     ],
+     [
+      686328,
+      4394
+     ],
+     [
+      691122,
+      3314
+     ],
+     [
+      694836,
+      3362
+     ],
+     [
+      698598,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Encantado, Doña Carmen».",
+   "en": "\"Nice to meet you, Doña Carmen.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Encantado",
+     "nice to meet you"
+    ],
+    [
+     "Doña",
+     "Mrs"
+    ],
+    [
+     "Carmen",
+     "Carmen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 2634,
+    "wd": 13896
+   },
+   "bank": {
+    "fr": [
+     704242,
+     3522
+    ],
+    "frs": [
+     708164,
+     5034
+    ],
+    "en": [
+     713598,
+     2634
+    ],
+    "wd": [
+     716632,
+     13896
+    ],
+    "wp": [
+     [
+      716632,
+      4538
+     ],
+     [
+      721570,
+      4394
+     ],
+     [
+      726364,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Encantada, cariño. ¿De dónde eres?»",
+   "en": "\"Nice to meet you, dear. Where are you from?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Encantada",
+     "nice to meet you"
+    ],
+    [
+     "cariño",
+     "dear"
+    ],
+    [
+     "De",
+     "from"
+    ],
+    [
+     "dónde",
+     "where"
+    ],
+    [
+     "eres",
+     "you are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 5202,
+    "frs": 7530,
+    "en": 2970,
+    "wd": 21228
+   },
+   "bank": {
+    "fr": [
+     730928,
+     5202
+    ],
+    "frs": [
+     736530,
+     7530
+    ],
+    "en": [
+     744460,
+     2970
+    ],
+    "wd": [
+     747830,
+     21228
+    ],
+    "wp": [
+     [
+      747830,
+      4538
+     ],
+     [
+      752768,
+      3290
+     ],
+     [
+      756458,
+      3266
+     ],
+     [
+      760124,
+      3290
+     ],
+     [
+      763814,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Soy de Estados Unidos».",
+   "en": "\"I am from the United States.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Soy",
+     "I am"
+    ],
+    [
+     "de",
+     "from"
+    ],
+    [
+     "Estados Unidos",
+     "United States"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2322,
+    "wd": 14232
+   },
+   "bank": {
+    "fr": [
+     769458,
+     3258
+    ],
+    "frs": [
+     773116,
+     4626
+    ],
+    "en": [
+     778142,
+     2322
+    ],
+    "wd": [
+     780864,
+     14232
+    ],
+    "wp": [
+     [
+      780864,
+      4394
+     ],
+     [
+      785658,
+      3266
+     ],
+     [
+      789324,
+      4922
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Y tienes novia?»",
+   "en": "\"And do you have a girlfriend?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "tienes",
+     "you have"
+    ],
+    [
+     "novia",
+     "girlfriend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3714,
+    "en": 2322,
+    "wd": 13632
+   },
+   "bank": {
+    "fr": [
+     795496,
+     2658
+    ],
+    "frs": [
+     798554,
+     3714
+    ],
+    "en": [
+     802668,
+     2322
+    ],
+    "wd": [
+     805390,
+     13632
+    ],
+    "wp": [
+     [
+      805390,
+      3194
+     ],
+     [
+      808984,
+      4394
+     ],
+     [
+      813778,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Eh… no. No tengo novia».",
+   "en": "\"Uh... no. I don't have a girlfriend.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Eh",
+     "uh"
+    ],
+    [
+     "no",
+     "no"
+    ],
+    [
+     "No",
+     "not"
+    ],
+    [
+     "tengo",
+     "I have"
+    ],
+    [
+     "novia",
+     "girlfriend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 2802,
+    "wd": 20964
+   },
+   "bank": {
+    "fr": [
+     819422,
+     4410
+    ],
+    "frs": [
+     824232,
+     6354
+    ],
+    "en": [
+     830986,
+     2802
+    ],
+    "wd": [
+     834188,
+     20964
+    ],
+    "wp": [
+     [
+      834188,
+      3170
+     ],
+     [
+      837758,
+      3266
+     ],
+     [
+      841424,
+      3290
+     ],
+     [
+      845114,
+      4394
+     ],
+     [
+      849908,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿No? ¡Sofía tampoco tiene novio!»",
+   "en": "\"No? Sofía doesn't have a boyfriend either!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "tampoco",
+     "not either"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "novio",
+     "boyfriend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 4938,
+    "frs": 7170,
+    "en": 3642,
+    "wd": 22284
+   },
+   "bank": {
+    "fr": [
+     855552,
+     4938
+    ],
+    "frs": [
+     860890,
+     7170
+    ],
+    "en": [
+     868460,
+     3642
+    ],
+    "wd": [
+     872502,
+     22284
+    ],
+    "wp": [
+     [
+      872502,
+      3266
+     ],
+     [
+      876168,
+      4394
+     ],
+     [
+      880962,
+      4394
+     ],
+     [
+      885756,
+      3386
+     ],
+     [
+      889542,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sofía mira al techo.",
+   "en": "Sofía looks at the ceiling.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "mira",
+     "looks"
+    ],
+    [
+     "al",
+     "at the"
+    ],
+    [
+     "techo",
+     "ceiling"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2322,
+    "wd": 17466
+   },
+   "bank": {
+    "fr": [
+     895186,
+     3042
+    ],
+    "frs": [
+     898628,
+     4314
+    ],
+    "en": [
+     903342,
+     2322
+    ],
+    "wd": [
+     906064,
+     17466
+    ],
+    "wp": [
+     [
+      906064,
+      4394
+     ],
+     [
+      910858,
+      3338
+     ],
+     [
+      914596,
+      3290
+     ],
+     [
+      918286,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Doña Carmen, por favor».",
+   "en": "\"Doña Carmen, please.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Doña",
+     "Mrs"
+    ],
+    [
+     "Carmen",
+     "Carmen"
+    ],
+    [
+     "por favor",
+     "please"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2322,
+    "wd": 13752
+   },
+   "bank": {
+    "fr": [
+     923930,
+     3186
+    ],
+    "frs": [
+     927516,
+     4506
+    ],
+    "en": [
+     932422,
+     2322
+    ],
+    "wd": [
+     935144,
+     13752
+    ],
+    "wp": [
+     [
+      935144,
+      4394
+     ],
+     [
+      939938,
+      3314
+     ],
+     [
+      943652,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Queréis croquetas? Pasad, pasad».",
+   "en": "\"Do you two want croquettes? Come in, come in.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Queréis",
+     "you want"
+    ],
+    [
+     "croquetas",
+     "croquettes"
+    ],
+    [
+     "Pasad",
+     "come in"
+    ],
+    [
+     "pasad",
+     "come in"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 4818,
+    "frs": 7002,
+    "en": 3570,
+    "wd": 17562
+   },
+   "bank": {
+    "fr": [
+     949296,
+     4818
+    ],
+    "frs": [
+     954514,
+     7002
+    ],
+    "en": [
+     961916,
+     3570
+    ],
+    "wd": [
+     965886,
+     17562
+    ],
+    "wp": [
+     [
+      965886,
+      4394
+     ],
+     [
+      970680,
+      4490
+     ],
+     [
+      975570,
+      3314
+     ],
+     [
+      979284,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mark no entiende todo.",
+   "en": "Mark doesn't understand everything.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "entiende",
+     "understands"
+    ],
+    [
+     "todo",
+     "everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2442,
+    "wd": 17514
+   },
+   "bank": {
+    "fr": [
+     983848,
+     3138
+    ],
+    "frs": [
+     987386,
+     4458
+    ],
+    "en": [
+     992244,
+     2442
+    ],
+    "wd": [
+     995086,
+     17514
+    ],
+    "wp": [
+     [
+      995086,
+      3338
+     ],
+     [
+      998824,
+      3290
+     ],
+     [
+      1002514,
+      4442
+     ],
+     [
+      1007356,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pero entiende «croquetas».",
+   "en": "But he understands \"croquettes.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "entiende",
+     "he understands"
+    ],
+    [
+     "croquetas",
+     "croquettes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2562,
+    "wd": 13800
+   },
+   "bank": {
+    "fr": [
+     1013000,
+     3210
+    ],
+    "frs": [
+     1016610,
+     4554
+    ],
+    "en": [
+     1021564,
+     2562
+    ],
+    "wd": [
+     1024526,
+     13800
+    ],
+    "wp": [
+     [
+      1024526,
+      3218
+     ],
+     [
+      1028144,
+      4442
+     ],
+     [
+      1032986,
+      4490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Sí, gracias!»",
+   "en": "\"Yes, thank you!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "gracias",
+     "thank you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322,
+    "wd": 8045
+   },
+   "bank": {
+    "fr": [
+     1038726,
+     2730
+    ],
+    "frs": [
+     1041856,
+     3834
+    ],
+    "en": [
+     1046089,
+     2322
+    ],
+    "wd": [
+     1048812,
+     8045
+    ],
+    "wp": [
+     [
+      1048812,
+      3386
+     ],
+     [
+      1052598,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Una hora después.",
+   "en": "One hour later.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Una",
+     "one"
+    ],
+    [
+     "hora",
+     "hour"
+    ],
+    [
+     "después",
+     "later"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "wd": 11616
+   },
+   "bank": {
+    "fr": [
+     1057258,
+     2874
+    ],
+    "frs": [
+     1060532,
+     4074
+    ],
+    "en": [
+     1065006,
+     2322
+    ],
+    "wd": [
+     1067728,
+     11616
+    ],
+    "wp": [
+     [
+      1067728,
+      3266
+     ],
+     [
+      1071394,
+      3314
+     ],
+     [
+      1075108,
+      3386
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Gracias, Doña Carmen. ¡Encantado!»",
+   "en": "\"Thank you, Doña Carmen. Nice to meet you!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Gracias",
+     "thank you"
+    ],
+    [
+     "Doña",
+     "Mrs"
+    ],
+    [
+     "Carmen",
+     "Carmen"
+    ],
+    [
+     "Encantado",
+     "nice to meet you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5106,
+    "frs": 7410,
+    "en": 3186,
+    "wd": 17706
+   },
+   "bank": {
+    "fr": [
+     1079744,
+     5106
+    ],
+    "frs": [
+     1085250,
+     7410
+    ],
+    "en": [
+     1093060,
+     3186
+    ],
+    "wd": [
+     1096646,
+     17706
+    ],
+    "wp": [
+     [
+      1096646,
+      3410
+     ],
+     [
+      1100456,
+      4394
+     ],
+     [
+      1105250,
+      3314
+     ],
+     [
+      1108964,
+      4538
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sofía le explica.",
+   "en": "Sofía explains to him.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sofía",
+     "Sofía"
+    ],
+    [
+     "le",
+     "to him"
+    ],
+    [
+     "explica",
+     "explains"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 2922,
+    "frs": 4146,
+    "en": 2322,
+    "wd": 13728
+   },
+   "bank": {
+    "fr": [
+     1114752,
+     2922
+    ],
+    "frs": [
+     1118074,
+     4146
+    ],
+    "en": [
+     1122620,
+     2322
+    ],
+    "wd": [
+     1125342,
+     13728
+    ],
+    "wp": [
+     [
+      1125342,
+      4394
+     ],
+     [
+      1130136,
+      3290
+     ],
+     [
+      1133826,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Mark, encantado es para hola.",
+   "en": "\"Mark, encantado is for hello.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mark",
+     "Mark"
+    ],
+    [
+     "encantado",
+     "nice to meet you"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "para",
+     "for"
+    ],
+    [
+     "hola",
+     "hello"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5226,
+    "en": 2850,
+    "wd": 20292
+   },
+   "bank": {
+    "fr": [
+     1139470,
+     3642
+    ],
+    "frs": [
+     1143512,
+     5226
+    ],
+    "en": [
+     1149138,
+     2850
+    ],
+    "wd": [
+     1152388,
+     20292
+    ],
+    "wp": [
+     [
+      1152388,
+      3338
+     ],
+     [
+      1156126,
+      4538
+     ],
+     [
+      1161064,
+      3314
+     ],
+     [
+      1164778,
+      3338
+     ],
+     [
+      1168516,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Para adiós decimos: hasta luego».",
+   "en": "For goodbye we say: see you later.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Para",
+     "for"
+    ],
+    [
+     "adiós",
+     "goodbye"
+    ],
+    [
+     "decimos",
+     "we say"
+    ],
+    [
+     "hasta luego",
+     "see you later"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2994,
+    "wd": 17706
+   },
+   "bank": {
+    "fr": [
+     1173080,
+     3786
+    ],
+    "frs": [
+     1177266,
+     5418
+    ],
+    "en": [
+     1183084,
+     2994
+    ],
+    "wd": [
+     1186478,
+     17706
+    ],
+    "wp": [
+     [
+      1186478,
+      3338
+     ],
+     [
+      1190216,
+      3338
+     ],
+     [
+      1193954,
+      4490
+     ],
+     [
+      1198844,
+      4490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Ah, vale. Hasta luego, Doña Carmen».",
+   "en": "\"Ah, okay. See you later, Doña Carmen.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ah",
+     "ah"
+    ],
+    [
+     "vale",
+     "okay"
+    ],
+    [
+     "Hasta luego",
+     "see you later"
+    ],
+    [
+     "Doña",
+     "Mrs"
+    ],
+    [
+     "Carmen",
+     "Carmen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 5274,
+    "frs": 7650,
+    "en": 3378,
+    "wd": 21180
+   },
+   "bank": {
+    "fr": [
+     1204584,
+     5274
+    ],
+    "frs": [
+     1210258,
+     7650
+    ],
+    "en": [
+     1218308,
+     3378
+    ],
+    "wd": [
+     1222086,
+     21180
+    ],
+    "wp": [
+     [
+      1222086,
+      3218
+     ],
+     [
+      1225704,
+      3314
+     ],
+     [
+      1229418,
+      4490
+     ],
+     [
+      1234308,
+      4394
+     ],
+     [
+      1239102,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Hasta luego, cariño.",
+   "en": "\"See you later, dear.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Hasta luego",
+     "see you later"
+    ],
+    [
+     "cariño",
+     "dear"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322,
+    "wd": 9030
+   },
+   "bank": {
+    "fr": [
+     1243666,
+     2994
+    ],
+    "frs": [
+     1247060,
+     4218
+    ],
+    "en": [
+     1251678,
+     2322
+    ],
+    "wd": [
+     1254400,
+     9030
+    ],
+    "wp": [
+     [
+      1254400,
+      4490
+     ],
+     [
+      1259290,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mañana, cocido. Y una novia».",
+   "en": "Tomorrow, stew. And a girlfriend.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mañana",
+     "tomorrow"
+    ],
+    [
+     "cocido",
+     "stew"
+    ],
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "novia",
+     "girlfriend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 4722,
+    "frs": 6834,
+    "en": 2850,
+    "wd": 20916
+   },
+   "bank": {
+    "fr": [
+     1263830,
+     4722
+    ],
+    "frs": [
+     1268952,
+     6834
+    ],
+    "en": [
+     1276186,
+     2850
+    ],
+    "wd": [
+     1279436,
+     20916
+    ],
+    "wp": [
+     [
+      1279436,
+      4394
+     ],
+     [
+      1284230,
+      3266
+     ],
+     [
+      1287896,
+      3194
+     ],
+     [
+      1291490,
+      3218
+     ],
+     [
+      1295108,
+      4394
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   7984
+  ],
+  "silence": [
+   8784,
+   30000
+  ]
+ }
+}

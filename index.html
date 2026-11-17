@@ -1,0 +1,1098 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Écoute</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Écoute">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="manifest" href="manifest.json">
+<style>
+:root { --bg:#f7f5f0; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --accent:#2b59c3; --line:#e4e1da; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121214; --card:#1d1d21; --ink:#f2f2f4; --muted:#9a9aa2; --accent:#7ea2ff; --line:#2e2e34; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
+main { max-width:640px; margin:0 auto; padding:16px 16px 48px; padding-top:max(16px, env(safe-area-inset-top)); }
+h1 { font-size:28px; margin:4px 0 0; }
+h2 { font-size:15px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:28px 0 8px; }
+.muted { color:var(--muted); font-size:13px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; }
+.langs { margin-top:12px; }
+.langs select { width:100%; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:12px; font-size:16px; }
+.presets button { flex:1; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:10px; font-size:15px; }
+.presets button.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
+.story { display:block; width:100%; text-align:left; margin-bottom:8px; cursor:pointer; color:var(--ink); font-size:16px; }
+div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
+.sinfo { flex:1; min-width:0; }
+.mark { flex:none; width:40px; height:40px; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--accent); font-size:20px; font-weight:700; padding:0; }
+.story b { display:block; }
+.group { margin-bottom:10px; }
+.hrow { display:flex; align-items:center; justify-content:space-between; }
+.hrow .chip { text-transform:none; letter-spacing:0; font-weight:500; color:var(--muted); padding:5px 12px; }
+.group > summary { list-style:none; display:flex; align-items:baseline; gap:10px; padding:10px 2px; cursor:pointer; font-weight:600; font-size:17px; }
+.group > summary::-webkit-details-marker { display:none; }
+.group > summary::before { content:"›"; display:inline-block; width:12px; color:var(--muted); transition:transform .15s; }
+.group[open] > summary::before { transform:rotate(90deg); }
+.gcount { margin-left:auto; font-weight:400; }
+.story.playing { border-color:var(--accent); }
+#now .fr { font-size:22px; font-weight:600; margin:6px 0; }
+#now .en { color:var(--muted); }
+.controls { display:flex; gap:10px; margin-top:14px; }
+/* player: round icon buttons with a caption; the one main action is the big filled circle */
+.pctl { display:flex; justify-content:center; align-items:center; gap:22px; margin-top:20px; }
+.ib { display:flex; flex-direction:column; align-items:center; gap:6px; background:none; border:none; padding:0; color:var(--muted); font-size:12px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.ib .c { width:50px; height:50px; border-radius:50%; display:grid; place-items:center; border:1px solid var(--line); background:var(--bg); color:var(--ink); transition:transform .1s; }
+.ib.main .c { width:68px; height:68px; border:none; background:var(--accent); color:#fff; box-shadow:0 6px 16px rgba(43,89,195,.28); }
+.ib svg { width:22px; height:22px; } .ib.main svg { width:30px; height:30px; }
+.ib:active .c { transform:scale(.93); }
+.ib:disabled { opacity:.3; }
+#dots { display:flex; gap:5px; margin:12px 0 0; }
+#dots i { width:7px; height:7px; border-radius:4px; background:var(--line); transition:width .2s, background .2s; }
+#dots i.past { background:var(--muted); opacity:.5; }
+#dots i.on { width:20px; background:var(--accent); }
+.meta { display:flex; align-items:center; justify-content:space-between; gap:8px; min-height:32px; margin-top:6px; }
+.steplabel { font-size:12px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); }
+.chip { display:inline-flex; align-items:center; gap:6px; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:7px 13px; font-size:13px; cursor:pointer; }
+.chip svg { width:15px; height:15px; }
+.chip:disabled { opacity:.35; }
+.chip.on { border-color:var(--accent); color:var(--accent); }
+.pbar { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:18px; }
+.pbar .chip { padding:6px 11px; }
+.pbar .chip svg { width:13px; height:13px; }
+.pfoot { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:20px; padding-top:14px; border-top:1px solid var(--line); }
+.controls button { flex:1; font-size:26px; padding:12px 0; border-radius:12px; border:none; background:var(--accent); color:#fff; }
+.controls button.sec { background:var(--line); color:var(--ink); }
+.presets { display:flex; flex-wrap:wrap; gap:8px; }
+.presets button { flex:1 1 45%; font-size:14px; }
+#fb .presets button { flex:1 1 0; padding:10px 4px; }  /* level and stars each on one line */
+input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:15px; margin-top:8px; }
+.pt h3 { margin:0 0 6px; font-size:19px; }
+.pt .big { width:100%; font-size:22px; padding:14px; border-radius:12px; border:none; background:var(--accent); color:#fff; margin:10px 0; }
+.pt .opts { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.pt .opts button, .pt .col button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:14px 8px; font-size:16px; }
+.pt .col { display:flex; flex-direction:column; gap:8px; margin-top:8px; }
+.pt .opts button.idk { grid-column:1 / -1; color:var(--muted); }
+.pt .reveal { margin-top:10px; font-size:17px; min-height:1.5em; }
+[hidden] { display:none !important; }
+/* My words is its own page (#words): it can get long, and Back returns to the player */
+body.words main > :not(#wordsPage), body:not(.words) #wordsPage { display:none !important; }
+.backbar { position:sticky; top:0; background:var(--bg); padding:10px 0; z-index:5; }
+#wordsPage .sec { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:10px 14px; font-size:16px; }
+label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
+.vrow { display:flex; align-items:center; gap:10px; padding:8px 0; border-top:1px solid var(--line); }
+.vrow:first-child { border-top:none; }
+.vw { flex:1; cursor:pointer; }
+.vopen { border:none; background:none; color:var(--muted); font-size:16px; padding:6px; }
+.vsent { margin:0 0 10px 44px; padding:10px 12px; border-radius:12px; background:var(--bg); border:1px solid var(--line); }
+.vshy { font-size:18px; font-weight:600; margin-bottom:2px; }
+.vsbtn { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
+.vflag { margin-left:auto; color:var(--muted); }
+#vocabCtl { flex-wrap:wrap; }
+/* flashcards: English first, tap to turn, then grade yourself */
+.fctop { display:flex; justify-content:space-between; margin-bottom:8px; }
+.fcard { background:var(--card); border:1px solid var(--line); border-radius:18px; min-height:220px; padding:24px 18px; display:flex; align-items:center; justify-content:center; text-align:center; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.06); -webkit-tap-highlight-color:transparent; }
+.fcard:active { transform:scale(.99); }
+.fcen { font-size:30px; font-weight:600; margin-bottom:8px; }
+.fchy { font-size:36px; font-weight:700; color:var(--accent); margin:6px 0 14px; }
+.fcbtns { display:flex; gap:12px; margin-top:16px; }
+.fcbtns .chip { flex:1; justify-content:center; padding:14px; font-size:17px; border-radius:14px; }
+.fcyes { background:var(--accent) !important; color:#fff !important; border-color:var(--accent) !important; }
+.fcdone { text-align:center; margin-top:16px; }
+.vrow .vw { flex:1; font-size:17px; }
+.vrow button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:8px 12px; font-size:16px; }
+.tip { background:var(--card); border-left:3px solid var(--accent); padding:10px 12px; border-radius:8px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Écoute</h1>
+  <div class="muted">Stories you listen to, phrase by phrase. Eyes free.</div>
+
+  <h2 id="learnHead">I'm learning</h2>
+  <div class="langs" id="langs"></div>
+
+  <div id="app">
+  <div class="card pt" id="pt" hidden style="margin-top:16px"></div>
+
+  <h2>Now playing</h2>
+  <div class="presets" id="modes" style="margin-bottom:10px">
+    <button data-mode="lesson">Step by step</button><button data-mode="story">Continuous</button>
+    <div class="muted" id="modeHint" style="width:100%"></div>
+  </div>
+  <div class="card" id="now">
+    <div class="muted" id="where">Pick an episode below.</div>
+    <div id="fb" hidden><b>How was this episode?</b>
+      <div class="muted" style="margin-top:8px">Level</div><div class="presets" id="fbLevel"></div>
+      <div class="muted" style="margin-top:8px">How much did you enjoy it?</div><div class="presets" id="fbFun"></div></div>
+    <div id="lessonStep" hidden>
+      <div id="dots"></div>
+      <div class="meta"><span class="steplabel" id="stepLabel"></span><span id="saveRow" hidden><button class="chip" id="saveWord">☆ Save</button></span></div>
+    </div>
+    <div class="fr" id="fr"></div>
+    <div class="en" id="en"></div>
+    <div class="pbar" id="phraseNav" hidden>
+      <button class="chip" id="lPrevPh"><span data-i="prev"></span>Previous phrase</button>
+      <span class="muted" id="phraseNo"></span>
+      <button class="chip" id="lNextPh">Next phrase<span data-i="skip"></span></button>
+    </div>
+    <div class="pctl" id="lessonCtl" hidden>
+      <button class="ib" id="lBack" aria-label="Back one step"><span class="c" data-i="back"></span>Back</button>
+      <button class="ib" id="lRepeat" aria-label="Repeat"><span class="c" data-i="repeat"></span>Repeat</button>
+      <button class="ib main" id="lNext" aria-label="Next"><span class="c" data-i="next"></span>Next</button>
+    </div>
+    <div class="pctl" id="storyCtl">
+      <button class="ib" id="prev" aria-label="Previous phrase"><span class="c" data-i="prev"></span>Previous</button>
+      <button class="ib" id="back" aria-label="Replay phrase"><span class="c" data-i="repeat"></span>Replay</button>
+      <button class="ib main" id="play" aria-label="Play or pause"><span class="c" data-i="play"></span>Play</button>
+      <button class="ib" id="next" aria-label="Next phrase"><span class="c" data-i="skip"></span>Next</button>
+    </div>
+    <div class="pfoot">
+      <button class="chip" id="restart"><span data-i="start"></span>From the start</button>
+      <button class="chip" id="voice"><span data-i="mic"></span><span id="voiceLabel">Voice: off</span></button>
+    </div>
+    <div class="muted" id="voiceHint" style="text-align:center;margin-top:8px">Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.</div>
+    <div class="muted" style="text-align:center;margin-top:6px">Phone in your pocket? AirPods and most earbuds work too: press (or tap) twice = next phrase, three times = hear it again.</div>
+  </div>
+
+  <div id="vocabBox" hidden>
+  <h2>My words</h2>
+  <button class="card story" id="vocabOpen"><b>📖 My words ›</b><span class="muted" id="vocabCount"></span></button>
+  </div>
+
+  <h2 class="hrow">Episodes <button class="chip" id="epToggle"></button></h2>
+  <div id="epBody">
+  <div class="presets" id="tabs" style="margin-bottom:10px">
+    <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
+  </div>
+  <div id="stories"><div class="muted">Loading…</div></div>
+  </div>
+
+  <details id="patternBox" style="margin-top:22px"><summary id="patternHead" style="font-weight:600;cursor:pointer"></summary>
+  <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
+  <div class="muted" id="tokens" style="white-space:pre-line"></div>
+  </details>
+
+  <h2>You</h2>
+  <div id="nameShow" class="vrow"><b id="nameText"></b> <button class="sec" id="nameEdit" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:6px 12px">✎ Change</button></div>
+  <div id="nameForm" class="vrow"><input type="text" id="name" style="flex:1" placeholder="Your name (optional)" autocomplete="nickname">
+    <button class="sec" id="nameSave" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:6px 12px">Save</button></div>
+  <div class="muted" style="margin-top:6px">To improve the stories, the app sends your test answers and listening progress (which phrases you replay, where you stop), with this name and a random device ID. Nothing else.</div>
+
+  <p class="muted">On iPhone, add this page to your Home Screen (Share → Add to Home Screen) so it opens like an app.</p>
+  <p><a href="#" class="muted" id="retest" hidden>Retake the level test</a></p>
+  </div>
+  <p class="muted" id="ver"></p>
+<section id="wordsPage">
+  <div class="backbar"><button class="sec" id="wordsBack">← Back</button></div>
+  <h2 id="wordsHead">My words</h2>
+  <div id="fcPanel" hidden>
+    <div class="fctop"><span class="muted" id="fcProg"></span><span class="muted">Tap the card to turn it</span></div>
+    <div class="fcard" id="fcCard" role="button" tabindex="0">
+      <div id="fcFront"><div class="fcen" id="fcEn"></div><div class="muted" id="fcAsk">What is it in Armenian?</div></div>
+      <div id="fcBack" hidden><div class="muted" id="fcEn2"></div><div class="fchy" id="fcHy"></div>
+        <button class="chip" id="fcSay"><span data-i="play"></span>Listen again</button></div>
+    </div>
+    <div class="fcbtns" id="fcBtns" hidden>
+      <button class="chip fcno" id="fcNo">Not yet</button><button class="chip fcyes" id="fcYes">I knew it</button>
+    </div>
+    <div id="fcLearn" hidden class="muted" style="text-align:center;margin-top:12px">You knew it 3 rounds in a row.
+      <div class="vsbtn" style="justify-content:center"><button class="chip" id="fcLearned">✓ Mark as learned</button><button class="chip" id="fcKeep">Keep practising</button></div></div>
+    <div class="fcdone card" id="fcDone" hidden><b>Round done!</b><div class="muted" id="fcSum"></div>
+      <div class="vsbtn" style="justify-content:center"><button class="chip" id="fcAgain">↻ Another round</button><button class="chip" id="fcExit">Back to my words</button></div></div>
+  </div>
+  <div class="card" id="vocabCard">
+    <div class="muted" id="vocabHint">In Step by step, tap ☆ Save word on a word step. Tap ✓ when you know it.</div>
+    <div class="controls" id="vocabCtl" style="margin-top:8px"><button id="fcOpen" style="font-size:16px">🃏 Flashcards</button><button class="sec" id="vocabAll" style="font-size:16px">▶ Play all (each twice)</button><button class="sec" id="vocabAllS" style="font-size:16px">▶ Words + sentences</button></div>
+    <div id="vocab"></div>
+  </div>
+  <p><button class="sec" id="wordsBack2">← Back</button></p>
+</section>
+</main>
+<audio id="audio" preload="auto"></audio>
+<script>
+const VERSION = "web 0.37";
+// Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
+const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
+const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+const ICON = {
+  back: SVG('<path d="M15 18l-6-6 6-6"/>'),
+  repeat: SVG('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>'),
+  next: SVG('<path d="M5 12h14M13 6l6 6-6 6"/>'),
+  prev: SVG('<path d="M18 19l-9-7 9-7z" fill="currentColor"/><path d="M6 5v14"/>'),
+  skip: SVG('<path d="M6 5l9 7-9 7z" fill="currentColor"/><path d="M18 5v14"/>'),
+  play: SVG('<path d="M8 5l11 7-11 7z" fill="currentColor"/>'),
+  pause: SVG('<path d="M8 5v14M16 5v14" stroke-width="3.2"/>'),
+  start: SVG('<path d="M6 5v14"/><path d="M18 5l-9 7 9 7z"/>'),
+  mic: SVG('<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>'),
+};
+document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.dataset.i]);
+const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
+const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
+const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
+const DEFAULT_PATTERN = { fr: PRESETS["Standard"], hy: "T EN T" };
+const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"] };
+const LESSON_FIRST = ["es"];  // languages taught from zero (Nare, Armen): Step by step until the learner switches
+const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
+// Lesson mode: the learner moves through each phrase step by step, at their own pace
+const LESSON = ["T", "EN", "WORDS", "EN", "T"];
+
+const $ = id => document.getElementById(id);
+// Audio and the voice model come from Cloudflare R2 (GitHub Pages keeps the page and the small JSON files)
+const MEDIA = "https://pub-a587f1a2850044c892fcda4700af3cb8.r2.dev/";
+const LOG_URL = "https://script.google.com/macros/s/AKfycbwsq4sHVpv882SokbrIPGwlybMKjedVGldGp25BSqy-J_HuOZ9EsN3FTUTeqlWx31eqgw/exec";   // Google Apps Script web app (mvp/logging/apps_script.gs); events wait in the outbox until set
+const audio = $("audio");
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+
+let catalog = [], lang = store.get("lang", null), story = null;
+
+// ---------- event log: queued in localStorage, sent in batches (survives offline and closing the app) ----------
+const device = store.get("device", null) || (() => {
+  const id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).slice(0, 13);
+  store.set("device", id); return id;
+})();
+function log(type, data = {}, storyId = story && story.id) {
+  const box = store.get("outbox", []);
+  box.push({ t: Date.now(), type, lang, story: storyId || "", data });
+  store.set("outbox", box.slice(-3000));
+}
+let flushing = false;
+function flush(beacon) {
+  const box = store.get("outbox", []);
+  if (!LOG_URL || !box.length || flushing || location.hostname === "localhost") return;  // Claude's test runs stay out of the Sheet
+  const batch = box.slice(0, 300);
+  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION, events: batch });
+  const done = () => store.set("outbox", store.get("outbox", []).slice(batch.length));
+  if (beacon && navigator.sendBeacon) { if (navigator.sendBeacon(LOG_URL, body)) done(); return; }
+  flushing = true;   // text/plain + no-cors: no preflight; the response is opaque, so a resolved fetch counts as sent
+  fetch(LOG_URL, { method: "POST", mode: "no-cors", body, headers: { "Content-Type": "text/plain" } })
+    .then(done).catch(() => {}).finally(() => flushing = false);
+}
+setInterval(flush, 20000);
+document.addEventListener("visibilitychange", () => document.hidden && flush(true));
+let seg = -1, steps = [], step = 0, stopAt = 0, pausedAt = 0, timer = null, lessonTok = [], waiting = false;
+// beginners (starting in the first-steps season) start in lesson mode
+// web 0.21–0.23 put the mode toggle under the list as "Stories | Lessons" and people switched modes by mistake: reset once
+if (!store.get("mode_reset_024", false)) { try { for (const l of ["fr", "hy"]) localStorage.removeItem("mode_" + l); } catch {} store.set("mode_reset_024", true); }
+const getMode = () => store.get("mode_" + lang, LESSON_FIRST.includes(lang) || (store.get("place_" + lang, {}) || {}).start?.startsWith(lang + "_s0") ? "lesson" : "story");
+const lessonMode = () => getMode() === "lesson";
+
+const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || PRESETS.Standard);
+const CODE = () => lang.toUpperCase();
+const parse = p => p.toUpperCase().split(/[\s,]+/)
+  .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
+  .filter(t => ["T", "T_SLOW", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS (removed) drops out of old patterns
+const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
+
+// ---------- playback engine: one audio file, we only seek inside it ----------
+function stepsFor(i, pat) {
+  const s = story.segments[i], b = s.bank, out = [];
+  for (const t of parse(pat)) {
+    if (t === "PAUSE") out.push([story.bank.silence[0], Math.max(1200, b.fr[1])]);
+    else if (b[KIND[t]]) out.push(b[KIND[t]]);
+  }
+  const nxt = story.segments[i + 1];
+  if (nxt && nxt.para !== s.para) out.push([story.bank.silence[0], 700]);
+  return out.length ? out : [b.fr];
+}
+
+let rangeStart = 0;
+function playRange([start, dur]) {
+  rangeStart = start;
+  audio.currentTime = start / 1000;
+  stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
+  clearTimeout(timer);
+  timer = setTimeout(tick, dur - 300);
+  if (audio.paused) audio.play().catch(() => {});
+}
+
+function tick() {
+  if (audio.paused || !story) return;
+  const t = audio.currentTime * 1000;
+  // iPhone, resuming after a pause, may play from where it stopped instead of where we seeked: seek again
+  if (t < rangeStart - 300 || t > stopAt + 1500) { audio.currentTime = rangeStart / 1000; return; }
+  if (t >= stopAt) advance();
+}
+
+function advance() {
+  if (lessonMode()) { waiting = true; audio.pause(); return; }  // the learner decides: back, repeat or next
+  step++;
+  if (step < steps.length) return playRange(steps[step]);
+  if (seg + 1 < story.segments.length) startSeg(seg + 1);
+  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); renderStories(); showFeedback(); }
+}
+
+function startSeg(i, pat) {
+  seg = i;
+  if (i > 0 && i % 10 === 0 && !pat) log("progress", { seg: i, of: story.segments.length });
+  store.set("pos_" + story.id, i);
+  if (lessonMode() && !pat) {
+    const b = story.segments[i].bank;
+    lessonTok = LESSON.filter(t => b[KIND[t]])  // no word pairs: that step is skipped
+      .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
+    steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? b.wp[+t.slice(1)] : b[KIND[t]]);
+  } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
+  step = 0; waiting = false;
+  show();
+  playRange(steps[0]);
+}
+
+function prevPhrase() { if (story) { log("back", { seg }); startSeg(Math.max(seg - 1, 0)); } }
+function restartStory() { if (story) { log("restart", { seg }); $("fb").hidden = true; startSeg(0); } }
+function lessonGo(k, act) {
+  if (!story) return;
+  log("lesson", { seg, step, act });
+  if (k < 0) k = 0;
+  if (k >= steps.length) {
+    if (seg + 1 < story.segments.length) return startSeg(seg + 1);
+    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); renderStories(); return showFeedback();
+  }
+  step = k; waiting = false;
+  show();
+  playRange(steps[step]);
+}
+const lessonBack = () => lessonGo(step - 1, "back");
+const lessonRepeat = () => lessonGo(step, "repeat");
+const lessonNext = () => lessonGo(step + 1, "next");
+
+function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
+function replay() {
+  if (!story) return;
+  const atStart = step === 0 && audio.currentTime * 1000 - steps[0][0] < 1500;
+  log("replay", { seg });
+  startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
+}
+function replayWithHelp() { if (story && seg >= 0) { log("help", { seg, text: story.segments[seg].fr }); startSeg(seg, HELP); } }
+
+audio.addEventListener("timeupdate", tick);
+audio.addEventListener("play", () => setPlayIcon(true));
+audio.addEventListener("pause", () => { setPlayIcon(false); pausedAt = Date.now(); clearTimeout(timer); });
+
+function resume() {
+  if (!story) return;
+  if (lessonMode()) return waiting ? lessonRepeat() : playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
+  const quick = pausedAt && Date.now() - pausedAt < 10000;
+  if (quick && TAP_HELP && seg >= 0) return replayWithHelp();
+  playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
+}
+function togglePlay() { if (!story) return; audio.paused ? resume() : audio.pause(); }
+
+if ("mediaSession" in navigator) {
+  const ms = navigator.mediaSession;
+  ms.setActionHandler("play", resume);
+  ms.setActionHandler("pause", () => audio.pause());
+  ms.setActionHandler("nexttrack", () => lessonMode() ? lessonNext() : nextPhrase());
+  ms.setActionHandler("previoustrack", () => lessonMode() ? lessonRepeat() : replay());
+  try { ms.setActionHandler("seekforward", null); ms.setActionHandler("seekbackward", null); } catch {}
+}
+
+function show() {
+  const n = story.segments.length;
+  const s = story.segments[seg];
+  $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
+  $("fr").textContent = s ? s.fr : story.title;
+  $("en").textContent = s ? s.en : story.note;
+  const lesson = lessonMode();
+  $("storyCtl").hidden = lesson; $("lessonCtl").hidden = !lesson; $("lessonStep").hidden = !lesson; $("saveRow").hidden = true;
+  $("phraseNav").hidden = !lesson; $("phraseNo").textContent = seg < 0 ? "" : `${seg + 1} / ${n}`;
+  $("lPrevPh").disabled = seg <= 0; $("lNextPh").disabled = seg + 1 >= n;
+  if (lesson && s) {
+    const t = lessonTok[step], k = /^W\d/.test(t) ? +t.slice(1) : -1;
+    $("dots").innerHTML = steps.map((_, i) => `<i class="${i === step ? "on" : i < step ? "past" : ""}"></i>`).join("");
+    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
+    if (step === 0) $("en").textContent = "";  // first, just listen
+    if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
+    if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${esc(w)} = ${esc(m)}</b>` : esc(w)).join("  ");
+    $("saveRow").hidden = k < 0;
+    if (k >= 0) { const [w, m] = s.words[k]; $("saveWord").textContent = isSaved(w) ? "★ Saved" : "☆ Save"; $("saveWord").classList.toggle("on", isSaved(w)); }
+    $("lBack").disabled = step === 0;
+  }
+  document.querySelectorAll(".story").forEach(el => el.classList.toggle("playing", el.dataset.id === story.id));
+  if ("mediaSession" in navigator) navigator.mediaSession.metadata = new MediaMetadata({
+    title: s ? s.fr : story.title, artist: s ? s.en : story.author,
+    album: seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`,
+    artwork: [{ src: "icon.png", sizes: "180x180", type: "image/png" }],
+  });
+}
+
+async function openStory(entry) {
+  const base = `stories/${entry.id}/`;
+  const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
+  story = await (await fetch(base + "story.json" + v)).json();
+  audio.src = MEDIA + base + story.bank.file + v;
+  const pos = store.get("pos_" + story.id, -1);
+  log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
+  $("fb").hidden = true;
+  startSeg(pos >= 0 && pos < story.segments.length ? pos : 0);
+}
+
+function showFeedback() {  // two quick taps after an episode: level and fun; hides once both are answered
+  const id = story.id, got = {};
+  const row = (box, key, values, labels) => {
+    $(box).innerHTML = "";
+    values.forEach((v, i) => {
+      const b = document.createElement("button"); b.textContent = labels[i];
+      b.onclick = () => {
+        log("feedback", { [key]: v }, id); got[key] = 1; flush();
+        $(box).querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+        if (got.rating && got.fun) setTimeout(() => { $("fb").hidden = true; }, 600);
+      };
+      $(box).append(b);
+    });
+  };
+  row("fbLevel", "rating", ["Too easy", "Just right", "Too hard"], ["Too easy", "Just right", "Too hard"]);
+  row("fbFun", "fun", [1, 2, 3, 4, 5], ["1", "2", "3", "4", "5"].map(n => n + "★"));
+  $("fb").hidden = false;
+}
+
+// ---------- UI ----------
+function renderLangs() {
+  const sel = document.createElement("select");
+  sel.innerHTML = (lang ? "" : `<option value="">Choose a language…</option>`) +
+    Object.entries(LANGS).map(([code, [en, native]]) => `<option value="${code}"${code === lang ? " selected" : ""}>${en} · ${native}</option>`).join("");
+  sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); renderAll(); };
+  $("langs").replaceChildren(sel);
+}
+
+// Lessons = everyday conversations (bank, shop...); Stories = the story series. Tabs only when a language has both.
+const isLesson = s => s.series === "Daily scenarios";
+const MARKS = { "": "", cur: "~", done: "✓" };
+const getMark = id => store.get("mark_" + id, "");  // set by hand only (Arshile), never by the app
+function renderStories() {
+  const all = catalog.filter(s => (s.lang || "fr") === lang);
+  const both = all.some(isLesson) && !all.every(isLesson);
+  const tab = both ? store.get("tab_" + lang, "stories") : null;
+  $("tabs").hidden = !both;
+  document.querySelectorAll("#tabs button").forEach(b => b.className = b.dataset.tab === tab ? "on" : "");
+  const list = tab ? all.filter(s => isLesson(s) === (tab === "lessons")) : all;
+  $("stories").innerHTML = list.length ? "" : '<div class="muted">No stories in this language yet.</div>';
+  // one foldable group per series; open/closed is remembered, and at first only the group being worked on is open
+  const groups = new Map();
+  for (const s of list) { const k = s.series || "Other stories"; groups.has(k) || groups.set(k, []); groups.get(k).push(s); }
+  const active = eps => eps.some(s => getMark(s.id) === "cur" || (story && s.id === story.id));
+  const anyActive = [...groups.values()].some(active);
+  let first = true;
+  for (const [k, eps] of groups) {
+    const g = document.createElement("details");
+    g.className = "group";
+    const saved = store.get(`open_${lang}_${k}`, null);
+    g.open = saved !== null ? saved : anyActive ? active(eps) : first;
+    first = false;
+    g.innerHTML = `<summary><span class="gname"></span><span class="gcount muted"></span></summary>`;
+    g.querySelector(".gname").textContent = k;
+    const count = () => {
+      const done = eps.filter(s => getMark(s.id) === "done").length;
+      g.querySelector(".gcount").textContent = `${eps.length} episode${eps.length > 1 ? "s" : ""}` + (done ? ` · ${done} ✓` : "");
+    };
+    count();
+    g.ontoggle = () => store.set(`open_${lang}_${k}`, g.open);
+    for (const s of eps) {
+      const pos = store.get("pos_" + s.id, -1);
+      const el = document.createElement("div");
+      el.className = "card story"; el.dataset.id = s.id;
+      const ep = s.series ? `Episode ${s.episode} · ` : `${s.author} · `;
+      el.innerHTML = `<div class="sinfo"><b></b><span class="muted"></span></div><button class="mark" aria-label="Mark: current, done, none"></button>`;
+      el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
+      el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
+      const mb = el.querySelector(".mark");
+      mb.textContent = MARKS[getMark(s.id)];
+      mb.onclick = e => {  // the learner sets the marks: none -> ~ current -> ✓ done -> none
+        e.stopPropagation();
+        const next = { "": "cur", cur: "done", done: "" }[getMark(s.id)];
+        store.set("mark_" + s.id, next); log("mark", { mark: next }, s.id); mb.textContent = MARKS[next]; count();
+      };
+      el.onclick = () => openStory(s);
+      g.append(el);
+    }
+    $("stories").append(g);
+  }
+}
+
+function renderPattern() {
+  const cur = parse(pattern()).join(" ");
+  $("pattern").value = display(cur);
+  $("patternHead").textContent = `What you hear in a story: ${display(cur)}`;
+  $("tokens").textContent = `Write what plays for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · EN = English · WORDS = word by word · PAUSE = time to repeat\nExample: ${CODE()} EN ${CODE()} PAUSE · Just the story: ${CODE()}\nUsed in Continuous only.`;
+}
+
+function setPattern(p) {
+  const clean = parse(p).join(" ") || "T";
+  store.set("pattern_" + lang, clean);
+  log("pattern", { pattern: clean });
+  renderPattern();
+  if (story && seg >= 0 && (story.lang || "fr") === lang) {  // takes effect from the next step
+    steps = stepsFor(seg, clean);
+    step = Math.min(step, steps.length - 1);
+  }
+}
+
+function renderMode() {
+  const m = getMode();
+  if (!story) { $("storyCtl").hidden = m === "lesson"; $("lessonCtl").hidden = $("phraseNav").hidden = m !== "lesson"; }  // right buttons before an episode is open
+  document.querySelectorAll("#modes button").forEach(b => b.className = b.dataset.mode === m ? "on" : "");
+  $("modeHint").textContent = m === "lesson"
+    ? `Step by step: ${LANGS[lang][0]}, English, word by word, English, ${LANGS[lang][0]}. You choose when to move on.`
+    : "Plays on its own, like an audiobook. Change what you hear below the list.";
+}
+
+function setMode(m) {
+  store.set("mode_" + lang, m);
+  log("mode", { mode: m });
+  renderMode();
+  if (story && seg >= 0) { audio.pause(); startSeg(seg); }  // restart the phrase in the new mode
+}
+
+function renderAll() {
+  renderLangs();
+  $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
+  $("app").hidden = !lang;   // first visit: pick a language before anything else
+  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); }
+}
+
+// ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
+const PT = { spec: null, audio: new Audio(), stopTimer: null };
+const ptEl = () => $("pt");
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+function ptPlay([start, dur]) {
+  const a = PT.audio;
+  PT.unlocking = false; a.muted = false;
+  clearTimeout(PT.stopTimer);
+  a.currentTime = start / 1000;
+  a.play().catch(() => {});
+  PT.stopTimer = setTimeout(() => a.pause(), dur);
+}
+
+async function renderPlacementEntry() {
+  const has = ["hy"].includes(lang);
+  $("retest").hidden = !has || !store.get("place_" + lang, null);
+  if (!has || store.get("place_" + lang, null) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
+  ptEl().hidden = false;
+  ptEl().innerHTML = `<h3>Find your starting story</h3>
+    <div class="muted">About 3–5 minutes. You'll hear words and short phrases. No reading needed.</div>
+    <div class="col"><b style="margin-top:10px">How much ${LANGS[lang][0]} do you know?</b></div>`;
+  const col = ptEl().querySelector(".col");
+  for (const [label, startStage] of [["None at all", -1], ["A few words", 0], ["I can say simple things", 2], ["More than that", 3]]) {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = () => { log("pt_start", { answer: label }, ""); startStage < 0 ? ptFinish({ none: true }) : ptStart(startStage); };
+    col.append(b);
+  }
+}
+
+function ptUnlock() {
+  // iPhone only allows sound started inside a tap: unlock the element now, before any await
+  if (!PT.audio.src.includes(`placement/${lang}.m4a`)) PT.audio.src = `${MEDIA}placement/${lang}.m4a?v=${VERSION.replace(/\D/g, "")}`;
+  PT.audio.muted = true; PT.unlocking = true;
+  PT.audio.play().then(() => { if (PT.unlocking) PT.audio.pause(); }).catch(() => {})
+    .finally(() => { PT.audio.muted = false; PT.unlocking = false; });
+}
+
+async function ptStart(stage) {
+  PT.running = true;
+  ptUnlock();
+  ptEl().innerHTML = '<div class="muted">Loading…</div>';
+  if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fetch(`placement/${lang}.json`, { cache: "no-store" })).json();
+  const spec = PT.spec;
+  PT.st = { stage, asked: {}, correct: {}, missed: [], known: [], pools: {}, started: Date.now() };
+  for (const s of spec.stages) {
+    // round-robin over the stage's episodes so every episode gets tested; pop() takes from the end
+    const byEp = {};
+    for (const i of shuffle(spec.items.filter(i => i.stage === s))) (byEp[i.story] ||= []).push(i);
+    const lists = Object.keys(byEp).sort().map(k => byEp[k]), order = [];
+    while (lists.some(l => l.length)) for (const l of lists) if (l.length) order.push(l.shift());
+    PT.st.pools[s] = order.reverse();
+    PT.st.minAsk = { ...PT.st.minAsk, [s]: Math.max(4, lists.length) };
+  }
+  ptNextWord();
+}
+
+
+function ptNextWord() {
+  const st = PT.st, spec = PT.spec, S = spec.stages, s = S[st.stage];
+  const a = st.asked[s] || 0, c = st.correct[s] || 0;
+  const m = st.minAsk[s];
+  const done = !st.pools[s].length || (a >= 4 && c === 0) ||               // knows none: stop early
+    (m > 4 ? a >= m : a >= 6 || (a === 4 && c !== 2));                     // 2 of 4 = unsure: ask 2 more
+  if (!done) return ptAskWord(st.pools[s].pop());
+  const pass = a === 4 ? c >= 3 : c / a >= 2 / 3;
+  (pass ? (st.passed ||= []) : (st.failed ||= [])).push(st.stage);
+  const next = st.stage + (pass ? 1 : -1);
+  const tested = i => (st.asked[S[i]] || 0) > 0;
+  if (next >= 0 && next < S.length && !tested(next)) { st.stage = next; return ptNextWord(); }
+  ptPhrases();
+}
+
+function ptAskWord(item) {
+  const st = PT.st, s = item.stage;
+  const others = shuffle(PT.spec.items.filter(i => i.en !== item.en && Math.abs(PT.spec.stages.indexOf(i.stage) - st.stage) <= 1));
+  const opts = shuffle([item.en, ...others.slice(0, 3).map(i => i.en)]);
+  const n = Object.values(st.asked).reduce((x, y) => x + y, 0) + 1;
+  ptEl().innerHTML = `<div class="muted">Word ${n} · what does it mean?</div>
+    <button class="big" id="ptHear">▶ Hear again</button><div class="opts"></div>`;
+  const shown = Date.now(); let replays = 0;
+  $("ptHear").onclick = () => { replays++; ptPlay(item.bank); };
+  const box = ptEl().querySelector(".opts");
+  const answer = (ok, chosen) => {
+    log("pt_word", { hy: item.hy, en: item.en, stage: item.stage, ep: item.story, chosen, ok, ms: Date.now() - shown, replays }, "");
+    st.asked[s] = (st.asked[s] || 0) + 1;
+    if (ok) { st.correct[s] = (st.correct[s] || 0) + 1; st.known.push(item.hy); } else st.missed.push(item);
+    ptNextWord();
+  };
+  for (const o of opts) {
+    const b = document.createElement("button"); b.textContent = o;
+    b.onclick = () => answer(o === item.en, o);
+    box.append(b);
+  }
+  const idk = document.createElement("button"); idk.className = "idk"; idk.textContent = "I don't know";
+  idk.onclick = () => answer(false, "idk");
+  box.append(idk);
+  ptPlay(item.bank);
+}
+
+function ptBoundary() {
+  // first stage the learner did not pass = where new learning starts
+  const passed = PT.st.passed || [];
+  const top = passed.length ? Math.max(...passed) : -1;
+  return Math.min(top + 1, PT.spec.stages.length - 1);
+}
+
+function ptPhrases() {
+  const st = PT.st, S = PT.spec.stages, b = ptBoundary();
+  st.phraseStages = [b - 1, b].filter(i => i >= 0);
+  st.queue = st.phraseStages.flatMap(i => PT.spec.phrases[S[i]].map(p => ({ ...p, stage: i })));
+  st.ratings = [];
+  ptAskPhrase();
+}
+
+function ptAskPhrase() {
+  const st = PT.st, p = st.queue.shift();
+  if (!p) return st.taste ? ptFinish({ taste: st.taste }) : ptTaste();
+  ptEl().innerHTML = `<div class="muted">Listen to the sentence. Try to understand it, then check.</div>
+    <button class="big" id="ptHear">▶ Hear again</button><div class="col"><button id="ptShow">Show the meaning</button></div>`;
+  $("ptHear").onclick = () => ptPlay(p.bank);
+  const col = ptEl().querySelector(".col");
+  $("ptShow").onclick = () => {
+    // rating after seeing the meaning: "I think I got it" overestimates
+    col.innerHTML = `<div class="reveal"></div><b style="margin-top:10px">Compared with that, how much did you get?</b>`;
+    col.querySelector(".reveal").textContent = "“" + p.en + "”";
+    for (const [label, v] of [["All of it", 2], ["Some of it", 1], ["Very little", 0]]) {
+      const b = document.createElement("button"); b.textContent = label;
+      b.onclick = () => {
+        st.ratings.push({ stage: p.stage, v });
+        log("pt_phrase", { hy: p.hy, stage: PT.spec.stages[p.stage], rating: label, revealed: true }, "");
+        ptAskPhrase();
+      };
+      col.append(b);
+    }
+  };
+  ptPlay(p.bank);
+}
+
+function ptTaste() {
+  ptEl().innerHTML = `<div class="muted">Last one. Which would you most like to listen to?</div><div class="col"></div>`;
+  const col = ptEl().querySelector(".col");
+  for (const [label, key] of [["A mystery with a clever thief", "mystery"], ["A comedy about funny neighbours", "comedy"],
+                              ["A fantasy adventure with magic", "fantasy"], ["Real life: people and places today", "real"]]) {
+    const b = document.createElement("button"); b.textContent = label;
+    b.onclick = () => ptFinish({ taste: key });
+    col.append(b);
+  }
+}
+
+function ptFinish({ none, taste }) {
+  const spec = PT.spec, st = PT.st;
+  let start = "hy_s0_e01", known = [];
+  if (!none) {
+    let b = ptBoundary();
+    const prev = st.ratings.filter(r => r.stage === b - 1);
+    if (prev.length && prev.reduce((x, r) => x + r.v, 0) / prev.length < 1) b = Math.max(0, b - 1);  // heard "very little": step back
+    const S = spec.stages[b];
+    start = spec.stage_story[S];
+    // inside a stage with several episodes: skip an episode only if its words were tested and all known
+    const eps = [...new Set(spec.items.filter(i => i.stage === S && i.story).map(i => i.story))].sort();
+    const knownSet = new Set(st.known);
+    for (const ep of eps) {
+      const tested = spec.items.filter(i => i.story === ep && (knownSet.has(i.hy) || st.missed.includes(i)));
+      if (!tested.length || tested.some(i => !knownSet.has(i.hy))) { start = ep; break; }
+    }
+    known = st.known;
+  }
+  const story = catalog.find(s => s.id === start);
+  const result = { start, known, passed: st && st.passed || [], missed: st && st.missed ? st.missed.map(i => i.hy) : [], taste: taste || null, at: Date.now(), secs: st && !none ? Math.round((Date.now() - st.started) / 1000) : 0 };
+  store.set("place_" + lang, result);
+  log("pt_result", { ...result, none: !!none }, "");
+  flush();
+  PT.running = false;
+  ptEl().hidden = false;
+  ptEl().innerHTML = `<h3>Start here</h3><div><b></b></div><div class="muted"></div>
+    <button class="big" id="ptGo">▶ Play</button>
+    <div class="muted">${known.length ? `You already know ${known.length} of the words we tested. ` : ""}The story list now marks your starting point with ★.</div>`;
+  ptEl().querySelector("b").textContent = story ? story.title : start;
+  ptEl().querySelector(".muted").textContent = story ? (story.series ? `${story.series} · episode ${story.episode}` : story.author) : "";
+  $("ptGo").onclick = () => { ptEl().hidden = true; if (story) openStory(story); };
+  renderStories();
+  $("retest").hidden = false;
+}
+
+$("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null); PT.running = false; renderAll(); window.scrollTo(0, 0); };
+
+$("pattern").addEventListener("change", e => setPattern(e.target.value));
+$("play").onclick = togglePlay;
+$("next").onclick = $("lNextPh").onclick = nextPhrase;
+$("back").onclick = replay;
+$("prev").onclick = $("lPrevPh").onclick = prevPhrase;
+$("lBack").onclick = lessonBack;
+$("lRepeat").onclick = lessonRepeat;
+$("lNext").onclick = lessonNext;
+document.querySelectorAll("#modes button").forEach(b => b.onclick = () => setMode(b.dataset.mode));
+// the whole Episodes section folds away, so the rest of the page is a short scroll
+function renderEpFold() {
+  const open = store.get("ep_open", true);
+  $("epBody").hidden = !open;
+  $("epToggle").textContent = open ? "Hide ▴" : "Show ▾";
+}
+$("epToggle").onclick = () => { store.set("ep_open", !store.get("ep_open", true)); log("episodes_fold", { open: store.get("ep_open", true) }); renderEpFold(); };
+renderEpFold();
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
+  store.set("tab_" + lang, b.dataset.tab); log("tab", { tab: b.dataset.tab }); renderStories();
+});
+$("restart").onclick = restartStory;
+$("ver").textContent = VERSION;
+// the name is locked once saved, so a stray touch can't change it (it labels every log batch)
+function renderName(editing) {
+  const n = store.get("name", "");
+  editing = editing || !n;
+  $("nameShow").hidden = editing; $("nameForm").hidden = !editing;
+  $("nameText").textContent = n; $("name").value = n;
+}
+$("nameEdit").onclick = () => { renderName(true); $("name").focus(); };
+$("nameSave").onclick = () => {
+  const n = $("name").value.trim();
+  if (n !== store.get("name", "")) { store.set("name", n); log("name", {}); }
+  renderName(false);
+};
+renderName(false);
+log("open", { standalone: !!navigator.standalone, ua: navigator.userAgent.slice(0, 120) }, "");
+
+// ---- My words: pairs saved from lesson mode, played from their story's audio; ✓ removes a learned word ----
+const vocab = () => store.get("vocab_" + lang, []);
+const isSaved = w => vocab().some(v => v.w === w);
+const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const storyCache = {};
+async function storyJson(id) {
+  if (!storyCache[id]) {
+    const e = catalog.find(c => c.id === id);
+    storyCache[id] = fetch(`stories/${id}/story.json?v=${e ? e.version : ""}`).then(r => r.json()).catch(() => { delete storyCache[id]; });
+  }
+  return storyCache[id];
+}
+function toggleSave() {
+  if (!story || seg < 0) return;
+  const k = +lessonTok[step].slice(1), [w, m] = story.segments[seg].words[k];
+  let list = vocab();
+  if (isSaved(w)) { list = list.filter(v => v.w !== w); log("vocab_unsave", { w, m, seg }); }
+  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now() }); log("vocab_save", { w, m, seg }); }
+  store.set("vocab_" + lang, list);
+  storyCache[story.id] = Promise.resolve(story);
+  show(); renderVocab();
+}
+const VA = { el: new Audio(), end: 0, timer: null, queue: [], url: "" };
+function vaStop() {
+  clearInterval(VA.timer); VA.queue = []; VA.el.pause();
+  $("vocabAll").textContent = "▶ Play all (each twice)"; $("vocabAllS").textContent = "▶ Words + sentences";
+}
+function vaPlay(v, then) {  // called inside the tap first: iPhone only lets this element play after a tap
+  const st = storyCache[v.story] && storyCache[v.story].done;
+  const r = st && st.segments[v.seg] && st.segments[v.seg].bank.wp && st.segments[v.seg].bank.wp[v.k];
+  if (!r) { then && then(); return; }
+  const e = catalog.find(c => c.id === v.story);
+  vaRange(`${MEDIA}stories/${v.story}/${st.bank.file}?v=${e ? e.version : ""}`, r, then);
+}
+function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, then call `then`
+  audio.pause();
+  if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = r[0] / 1000;
+  else { VA.url = url; VA.el.src = url + "#t=" + r[0] / 1000; }
+  VA.end = r[0] + r[1];
+  VA.el.play().catch(() => {});
+  clearInterval(VA.timer);
+  let started = false;  // a seek can land late: only stop once we have really been inside the word
+  VA.timer = setInterval(() => {
+    const t = VA.el.currentTime * 1000;
+    if (t < r[0] - 300 || t > VA.end + 1500 || (!started && t >= VA.end)) VA.el.currentTime = r[0] / 1000;  // iPhone seek fix
+    else if (t >= VA.end) { clearInterval(VA.timer); VA.el.pause(); if (then) setTimeout(then, 600); }
+    else started = true;
+  }, 40);
+}
+// ---- Example sentences for saved words: 3 per word, prepared offline (build_vocab.py), Armenian then English ----
+const VS = { idx: null, loading: null, open: new Set() };
+function vsLoad() {
+  if (VS.idx || VS.loading || lang !== "hy") return VS.loading;
+  return VS.loading = fetch("vocab/hy.json", { cache: "no-store" }).then(r => r.json())
+    .then(j => { VS.idx = j; renderVocab(); }).catch(() => { VS.loading = null; });
+}
+const vsKey = v => v.w + "|" + v.m;
+const vsList = v => (VS.idx && VS.idx.items[vsKey(v)]) || [];
+const vsCur = v => { const l = vsList(v); return l.length ? l[store.get("vs_" + vsKey(v), 0) % l.length] : null; };
+const vsUrl = s => `${MEDIA}vocab/hy_${String(s[2]).padStart(2, "0")}.m4a?v=${VS.idx.banks[s[2]]}`;  // per-bank version: new words don't re-download old banks
+function vsPlay(s, then) {  // Armenian, English, Armenian again
+  const u = vsUrl(s), hy = [s[3], s[4]], en = [s[5], s[6]];
+  vaRange(u, hy, () => vaRange(u, en, () => vaRange(u, hy, then)));
+}
+function vsHtml(v, i) {
+  const s = vsCur(v);
+  if (!VS.idx) return `<div class="vsent muted">Loading example…</div>`;
+  if (!s) return `<div class="vsent muted">No example sentence for this word yet.</div>`;
+  return `<div class="vsent"><div class="vshy">${esc(s[0])}</div><div class="muted">${esc(s[1])}</div>
+    <div class="vsbtn"><button class="chip" data-sp="${i}">▶ Play</button><button class="chip" data-sn="${i}">↻ Another</button>` +
+    `<button class="chip vflag" data-sf="${i}" aria-label="This sentence sounds wrong">⚑</button></div></div>`;
+}
+function renderVocab() {
+  const list = vocab();
+  vsLoad();
+  $("vocabBox").hidden = !(lang === "hy" || list.length);
+  $("vocabCtl").hidden = !list.length;
+  $("vocabCount").textContent = list.length ? ` ${list.length} word${list.length > 1 ? "s" : ""} saved` : " Save words in Step by step with ☆";
+  $("vocabHint").textContent = list.length ? `${list.length} word${list.length > 1 ? "s" : ""}. Tap ✓ when you know one.`
+    : "In Step by step, tap ☆ Save word on a word step. Tap ✓ when you know it.";
+  $("vocab").innerHTML = list.map((v, i) => `<div class="vrow"><button data-p="${i}">▶</button>` +
+    `<span class="vw" data-o="${i}"><b>${esc(v.w)}</b> = ${esc(v.m)}</span>` +
+    (lang === "hy" ? `<button class="vopen" data-o="${i}" aria-label="Example sentence">${VS.open.has(vsKey(v)) ? "▴" : "▾"}</button>` : "") +
+    `<button data-d="${i}" aria-label="Learned">✓</button></div>` + (VS.open.has(vsKey(v)) ? vsHtml(v, i) : "")).join("");
+  for (const v of list) storyJson(v.story).then(j => { if (storyCache[v.story]) storyCache[v.story].done = j; });
+}
+$("saveWord").onclick = toggleSave;
+function showWordsPage() {
+  const cards = location.hash === "#cards", on = cards || location.hash === "#words";
+  if (document.body.classList.contains("words")) vaStop();
+  document.body.classList.toggle("words", on);
+  $("fcPanel").hidden = !cards; $("vocabCard").hidden = cards; $("wordsHead").textContent = cards ? "Flashcards" : "My words";
+  if (cards && vocab().length) fcStart(); else if (cards) history.replaceState(null, "", "#words"), showWordsPage();
+  if (on && !cards) renderVocab();
+  if (on) window.scrollTo(0, 0);
+}
+let wordsPushed = false;  // opened from the button: Back = browser back (the iPhone swipe does the same)
+$("vocabOpen").onclick = () => { log("vocab_open", {}); wordsPushed = true; location.hash = "words"; };
+$("wordsBack").onclick = $("wordsBack2").onclick = () => {
+  if (wordsPushed) { wordsPushed = false; history.back(); }
+  else { history.replaceState(null, "", location.pathname + location.search); showWordsPage(); }
+};
+// ---- Flashcards (#cards): saved words, English first; "Not yet" comes back in this round, "I knew it" moves up a box ----
+const FC = { queue: [], cur: null, n: 0, knew: 0, flipped: false };
+const fcKey = v => "fc_" + lang + "_" + v.w + "|" + v.m;
+function fcStart() {
+  const box = v => store.get(fcKey(v), { box: 0 }).box;
+  const words = vocab().map(v => [box(v), Math.random(), v]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(x => x[2]);
+  Object.assign(FC, { queue: words.slice(0, 20), n: Math.min(words.length, 20), knew: 0 });  // weakest first, 20 a round
+  $("fcAsk").textContent = `What is it in ${LANGS[lang][0]}?`;
+  log("fc_start", { n: FC.n });
+  for (const v of words) storyJson(v.story).then(j => { if (storyCache[v.story]) storyCache[v.story].done = j; });  // word audio
+  $("fcDone").hidden = true; $("fcCard").hidden = false;
+  fcNext();
+}
+function fcNext() {
+  vaStop();
+  FC.cur = FC.queue.shift(); FC.flipped = false;
+  $("fcBtns").hidden = $("fcLearn").hidden = true;
+  if (!FC.cur) {
+    $("fcCard").hidden = true; $("fcDone").hidden = false;
+    $("fcSum").textContent = `${FC.knew} of ${FC.n} known the first time.`;
+    return log("fc_done", { n: FC.n, knew: FC.knew });
+  }
+  $("fcProg").textContent = `${FC.n - FC.queue.length} / ${FC.n}`;
+  $("fcFront").hidden = false; $("fcBack").hidden = true;
+  $("fcEn").textContent = FC.cur.m;
+}
+function fcFlip() {
+  if (!FC.cur || FC.flipped) return;
+  FC.flipped = true;
+  $("fcFront").hidden = true; $("fcBack").hidden = false; $("fcBtns").hidden = false;
+  $("fcEn2").textContent = FC.cur.m; $("fcHy").textContent = FC.cur.w;
+  vaPlay(FC.cur);  // inside the tap: iPhone allows the sound
+}
+function fcAnswer(knew) {
+  const v = FC.cur, st = store.get(fcKey(v), { box: 0, streak: 0 });
+  if (knew) { st.box++; st.streak = (st.streak || 0) + 1; if (!v.again) FC.knew++; }
+  else { st.box = 0; st.streak = 0; FC.queue.splice(Math.min(3, FC.queue.length), 0, Object.assign({}, v, { again: true })); }  // back in 3 cards
+  store.set(fcKey(v), st);
+  log("fc_answer", { w: v.w, knew, box: st.box });
+  if (knew && st.streak >= 3) { $("fcBtns").hidden = true; $("fcLearn").hidden = false; return; }  // offer ✓ before moving on
+  fcNext();
+}
+$("fcCard").onclick = fcFlip;
+$("fcSay").onclick = e => { e.stopPropagation(); vaStop(); vaPlay(FC.cur); };
+$("fcYes").onclick = () => fcAnswer(true);
+$("fcNo").onclick = () => fcAnswer(false);
+$("fcLearned").onclick = () => {
+  const v = FC.cur; log("vocab_learned", { w: v.w, m: v.m, from: "flashcards" });
+  store.set("vocab_" + lang, vocab().filter(x => !(x.w === v.w && x.m === v.m))); fcNext();
+};
+$("fcKeep").onclick = fcNext;
+$("fcAgain").onclick = fcStart;
+$("fcExit").onclick = () => history.back();
+$("fcOpen").onclick = () => { wordsPushed = true; location.hash = "cards"; };
+window.addEventListener("hashchange", showWordsPage);
+showWordsPage();
+$("vocab").onclick = e => {
+  const b = e.target.closest("[data-o],button"); if (!b) return;
+  const list = vocab();
+  if (b.dataset.o) {  // tap a word (or ▾) to open its example sentence
+    const k = vsKey(list[+b.dataset.o]);
+    VS.open.has(k) ? VS.open.delete(k) : (VS.open.add(k), log("vocab_sentence_open", { w: list[+b.dataset.o].w }));
+    return renderVocab();
+  }
+  if (b.dataset.sp) { vaStop(); const v = list[+b.dataset.sp], s = vsCur(v); log("vocab_sentence_play", { w: v.w, hy: s[0] }); vsPlay(s); }
+  if (b.dataset.sn) {
+    vaStop(); const v = list[+b.dataset.sn];
+    store.set("vs_" + vsKey(v), store.get("vs_" + vsKey(v), 0) + 1);
+    const s = vsCur(v); log("vocab_sentence_next", { w: v.w, hy: s[0] }); renderVocab(); vsPlay(s);
+  }
+  if (b.dataset.sf) {
+    const v = list[+b.dataset.sf], s = vsCur(v); log("vocab_sentence_flag", { w: v.w, m: v.m, hy: s[0], en: s[1] }); flush();
+    b.textContent = "⚑ Thanks, noted"; b.disabled = true;
+  }
+  if (b.dataset.p) { vaStop(); const v = list[+b.dataset.p]; log("vocab_play", { w: v.w }); vaPlay(v); }
+  if (b.dataset.d) {
+    VS.open.delete(vsKey(list[+b.dataset.d]));
+    const v = list[+b.dataset.d]; log("vocab_learned", { w: v.w, m: v.m, days: Math.round((Date.now() - v.t) / 864e5) });
+    store.set("vocab_" + lang, list.filter((_, i) => i !== +b.dataset.d)); renderVocab(); if (story) show();
+  }
+};
+$("vocabAll").onclick = () => {
+  if (VA.queue.length) return vaStop();
+  VA.queue = vocab().flatMap(v => [v, v]);
+  log("vocab_play_all", { n: VA.queue.length / 2 });
+  $("vocabAll").textContent = "■ Stop";
+  const nextOne = () => { const v = VA.queue.shift(); if (v) vaPlay(v, nextOne); else vaStop(); };
+  nextOne();
+};
+$("vocabAllS").onclick = () => {  // each word twice, then its example sentence
+  if (VA.queue.length) return vaStop();
+  VA.queue = vocab().map(v => ({ v, s: vsCur(v) }));
+  log("vocab_play_all_sentences", { n: VA.queue.length });
+  $("vocabAllS").textContent = "■ Stop";
+  const nextOne = () => {
+    const q = VA.queue.shift(); if (!q) return vaStop();
+    VA.queue.length || VA.queue.push(null);  // keep the queue non-empty while the last item plays, so Stop still works
+    if (VA.queue[0] === null) VA.queue = [];
+    vaPlay(q.v, () => vaPlay(q.v, () => q.s ? vsPlay(q.s, nextOne) : nextOne()));
+  };
+  nextOne();
+};
+
+// ---- Voice commands: offline recognizer in the page (same model and words as the Android app).
+// iPhone only lets a web page use the mic while it is open with the screen on, so we keep the screen awake.
+const VOICE_BASE = new URL("voice/", location.href).href;
+const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "repeat": "again", "again": "again",
+  "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "continue": "play", "resume": "play" };
+const V = { on: false, ctx: null, stream: null, rec: null, wake: null };
+const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
+
+function loadScript(src) {
+  return new Promise((ok, fail) => { const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = fail; document.head.appendChild(e); });
+}
+async function keepAwake() {
+  try { if (V.on && "wakeLock" in navigator && document.visibilityState === "visible" && !V.wake) {
+    V.wake = await navigator.wakeLock.request("screen"); V.wake.addEventListener("release", () => V.wake = null);
+  } } catch {}
+}
+function voiceDo(action) {
+  if (!story) return;
+  const lesson = lessonMode();
+  if (action === "pause") return audio.pause();
+  if (action === "play") return resume();
+  if (action === "back") return lesson ? lessonBack() : prevPhrase();
+  if (action === "next") return lesson ? lessonNext() : nextPhrase();
+  if (lesson) return lessonRepeat();
+  log("replay", { seg, via: "voice" }); startSeg(Math.max(seg, 0));
+}
+function voiceHeard(msg) {
+  const ws = (msg.result && msg.result.result) || [];
+  if (!ws.length || ws.length > 2) return;  // the command must be all that was said
+  const said = ws.map(w => w.word).join(" "), conf = Math.min(...ws.map(w => w.conf));
+  const action = VOICE_CMDS[said];
+  if (!action || conf < 0.8) return;
+  log("voice", { word: said, conf });
+  $("voiceHint").textContent = "Heard: " + said;
+  voiceDo(action);
+}
+async function voiceStart() {  // must run inside a tap (mic permission + audio on iPhone)
+  V.on = true; store.set("voice", true);
+  try {
+    voiceUi("starting…");
+    // ask for the mic first, inside the tap
+    V.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, channelCount: 1 } });
+    V.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if (V.ctx.state === "suspended") await V.ctx.resume();
+    if (!window.Vosk) await loadScript(VOICE_BASE + "vosk.js");
+    $("voiceHint").textContent = "Loading the voice model (40 MB, only the first time)…";
+    const model = await Vosk.createModel(MEDIA + "voice/vosk-model-small-en-us-0.15.tar.gz");
+    if (!V.on) return;
+    V.rec = new model.KaldiRecognizer(V.ctx.sampleRate, JSON.stringify(Object.keys(VOICE_CMDS).concat("[unk]")));
+    V.rec.setWords(true);
+    V.rec.on("result", voiceHeard);
+    const src = V.ctx.createMediaStreamSource(V.stream);
+    const node = V.ctx.createScriptProcessor(4096, 1, 1);
+    node.onaudioprocess = e => { try { V.rec.acceptWaveform(e.inputBuffer); } catch {} };
+    const mute = V.ctx.createGain(); mute.gain.value = 0;  // Safari only runs the processor when it reaches the output
+    src.connect(node); node.connect(mute); mute.connect(V.ctx.destination);
+    V.model = model;
+    voiceUi("on"); keepAwake();
+    $("voiceHint").textContent = "Listening. Say: previous · repeat · next · pause · continue. Keep the screen on.";
+    log("voice_setting", { on: true });
+  } catch (e) {
+    voiceStop(false);
+    $("voiceHint").textContent = "Voice commands couldn't start: " + (e && (e.message || e.name) || e) + ". Allow the microphone and try again.";
+    log("voice_error", { err: String(e && (e.message || e.name) || e).slice(0, 200) });
+  }
+}
+function voiceStop(save = true) {
+  V.on = false; if (save) { store.set("voice", false); log("voice_setting", { on: false }); }
+  try { V.stream && V.stream.getTracks().forEach(t => t.stop()); } catch {}
+  try { V.ctx && V.ctx.close(); } catch {}
+  try { V.model && V.model.terminate(); } catch {}
+  try { V.wake && V.wake.release(); } catch {}
+  Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null });
+  voiceUi("off");
+  $("voiceHint").textContent = "Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.";
+}
+$("voice").onclick = () => V.on ? voiceStop() : voiceStart();
+// remembered "on": the browser needs a tap before it may listen, so start on the first tap anywhere
+function voiceArm() {
+  if (!store.get("voice", false) || V.on) return;
+  voiceUi("tap anywhere to start");
+  document.addEventListener("click", function once(e) {
+    document.removeEventListener("click", once, true);
+    if (!V.on && store.get("voice", false) && e.target.id !== "voice") voiceStart();
+  }, true);
+}
+voiceArm();
+// leaving or closing the app turns the microphone off; it comes back on the first tap after returning
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden" && V.on) { voiceStop(false); log("voice_off", { why: "hidden" }); flush(true); }
+  else if (document.visibilityState === "visible") voiceArm();
+});
+window.addEventListener("pagehide", () => { if (V.on) voiceStop(false); });
+
+// iPhone keeps the page for up to 10 min (GitHub's cache header): look for a newer version on every open
+async function checkUpdate() {
+  if (!audio.paused || PT.running) return;  // never interrupt listening or the level test
+  try {
+    const t = await (await fetch("index.html?check=" + Date.now(), { cache: "no-store" })).text();
+    const v = (t.match(/const VERSION = "([^"]+)"/) || [])[1];
+    if (v && v !== VERSION && !location.search.includes(encodeURIComponent(v))) {  // a new URL skips the cached copy
+      flush(true);
+      location.replace(location.pathname + "?v=" + encodeURIComponent(v) + location.hash);  // stay on My words / cards
+    }
+  } catch {}
+}
+checkUpdate();
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
+
+fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); })
+  .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
+</script>
+</body>
+</html>

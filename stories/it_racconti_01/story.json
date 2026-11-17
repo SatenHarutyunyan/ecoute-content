@@ -1,0 +1,4215 @@
+{
+ "id": "it_racconti_01",
+ "lang": "it",
+ "title": "Il ladro di basilico",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "Racconti italiani",
+ "episode": "",
+ "note": "A small fishing village in Liguria, on the Italian Riviera, where pesto was born. In July, someone starts stealing the basil from everyone's balconies, and a retired police sergeant takes the case.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20406,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "A Borgo San Pietro, un piccolo paese sul mare in Liguria,",
+   "en": "In Borgo San Pietro, a small village by the sea in Liguria,",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3"
+   },
+   "ms": {
+    "fr": 5034,
+    "frs": 7290,
+    "en": 4890
+   },
+   "bank": {
+    "fr": [
+     51606,
+     5034
+    ],
+    "frs": [
+     57040,
+     7290
+    ],
+    "en": [
+     64730,
+     4890
+    ]
+   }
+  },
+  {
+   "fr": "tutti hanno il basilico sul balcone.",
+   "en": "everyone has basil on their balcony.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "basilico",
+     "en": "basil"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4386,
+    "en": 2538,
+    "gl": 3962
+   },
+   "bank": {
+    "fr": [
+     70020,
+     3090
+    ],
+    "frs": [
+     73510,
+     4386
+    ],
+    "en": [
+     78296,
+     2538
+    ],
+    "gl": [
+     81234,
+     3962
+    ]
+   }
+  },
+  {
+   "fr": "Il basilico è sacro, come la messa della domenica.",
+   "en": "Basil is sacred, like Sunday mass.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "sacro",
+     "en": "sacred"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3"
+   },
+   "ms": {
+    "fr": 4434,
+    "frs": 6378,
+    "en": 3162,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     85596,
+     4434
+    ],
+    "frs": [
+     90430,
+     6378
+    ],
+    "en": [
+     97208,
+     3162
+    ],
+    "gl": [
+     100770,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Forse di più.",
+   "en": "Maybe more.",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2322,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     106164,
+     2322
+    ],
+    "frs": [
+     108886,
+     2322
+    ],
+    "en": [
+     111608,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Perché senza basilico non c'è il pesto,",
+   "en": "Because without basil there is no pesto,",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     114330,
+     3426
+    ],
+    "frs": [
+     118156,
+     4890
+    ],
+    "en": [
+     123446,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "e senza pesto, per un ligure, non c'è la vita.",
+   "en": "and without pesto, for a Ligurian, there is no life.",
+   "para": 1,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3"
+   },
+   "ms": {
+    "fr": 4242,
+    "frs": 6114,
+    "en": 4290
+   },
+   "bank": {
+    "fr": [
+     126840,
+     4242
+    ],
+    "frs": [
+     131482,
+     6114
+    ],
+    "en": [
+     137996,
+     4290
+    ]
+   }
+  },
+  {
+   "fr": "Quell'estate, una mattina di luglio,",
+   "en": "That summer, one morning in July,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5106,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     142686,
+     3594
+    ],
+    "frs": [
+     146680,
+     5106
+    ],
+    "en": [
+     152186,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "la signora Carla si è svegliata e ha aperto la finestra.",
+   "en": "Signora Carla woke up and opened the window.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6738,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     155364,
+     4674
+    ],
+    "frs": [
+     160438,
+     6738
+    ],
+    "en": [
+     167576,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "Poi ha gridato così forte che l'hanno sentita fino al porto.",
+   "en": "Then she screamed so loudly that they heard her all the way to the harbor.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 4482
+   },
+   "bank": {
+    "fr": [
+     171282,
+     4698
+    ],
+    "frs": [
+     176380,
+     6786
+    ],
+    "en": [
+     183566,
+     4482
+    ]
+   }
+  },
+  {
+   "fr": "Il suo basilico non c'era più.",
+   "en": "Her basil was gone.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     188448,
+     2754
+    ],
+    "frs": [
+     191602,
+     3858
+    ],
+    "en": [
+     195860,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le piante erano ancora lì, nei vasi,",
+   "en": "The plants were still there, in the pots,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5226,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     198582,
+     3642
+    ],
+    "frs": [
+     202624,
+     5226
+    ],
+    "en": [
+     208250,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "ma senza una foglia. Nemmeno una.",
+   "en": "but without a leaf. Not even one.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2826
+   },
+   "bank": {
+    "fr": [
+     211668,
+     3546
+    ],
+    "frs": [
+     215614,
+     5058
+    ],
+    "en": [
+     221072,
+     2826
+    ]
+   }
+  },
+  {
+   "fr": "Il giorno dopo, è successo al fornaio.",
+   "en": "The next day, it happened to the baker.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "fornaio",
+     "en": "baker"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3"
+   },
+   "ms": {
+    "fr": 3546,
+    "frs": 5058,
+    "en": 2898,
+    "gl": 3962
+   },
+   "bank": {
+    "fr": [
+     224298,
+     3546
+    ],
+    "frs": [
+     228244,
+     5058
+    ],
+    "en": [
+     233702,
+     2898
+    ],
+    "gl": [
+     237000,
+     3962
+    ]
+   }
+  },
+  {
+   "fr": "Poi al farmacista.",
+   "en": "Then to the pharmacist.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3114,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     241362,
+     2322
+    ],
+    "frs": [
+     244084,
+     3114
+    ],
+    "en": [
+     247598,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Poi al sindaco.",
+   "en": "Then to the mayor.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2778,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     250320,
+     2322
+    ],
+    "frs": [
+     253042,
+     2778
+    ],
+    "en": [
+     256220,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "In una settimana, undici balconi sono rimasti senza basilico.",
+   "en": "In one week, eleven balconies were left without basil.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     258942,
+     5130
+    ],
+    "frs": [
+     264472,
+     7458
+    ],
+    "en": [
+     272330,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "E la gara del pesto era la domenica seguente.",
+   "en": "And the pesto contest was the following Sunday.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "la gara",
+     "en": "the contest, competition"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 3186,
+    "gl": 5138
+   },
+   "bank": {
+    "fr": [
+     276780,
+     3714
+    ],
+    "frs": [
+     280894,
+     5298
+    ],
+    "en": [
+     286592,
+     3186
+    ],
+    "gl": [
+     290178,
+     5138
+    ]
+   }
+  },
+  {
+   "fr": "Al bar della piazza non si parlava d'altro.",
+   "en": "At the bar in the square, people talked about nothing else.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 3810
+   },
+   "bank": {
+    "fr": [
+     295716,
+     3450
+    ],
+    "frs": [
+     299566,
+     4938
+    ],
+    "en": [
+     304904,
+     3810
+    ]
+   }
+  },
+  {
+   "fr": "«È gente di Genova», diceva qualcuno.",
+   "en": "\"It's people from Genoa,\" someone said.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     309114,
+     3426
+    ],
+    "frs": [
+     312940,
+     4890
+    ],
+    "en": [
+     318230,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "«No, sono i turisti», diceva un altro.",
+   "en": "\"No, it's the tourists,\" said another.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5634,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     321576,
+     3930
+    ],
+    "frs": [
+     325906,
+     5634
+    ],
+    "en": [
+     331940,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "«I turisti non rubano il basilico. Rubano gli asciugamani degli alberghi.»",
+   "en": "\"Tourists don't steal basil. They steal hotel towels.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 5898,
+    "frs": 8610,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     335574,
+     5898
+    ],
+    "frs": [
+     341872,
+     8610
+    ],
+    "en": [
+     350882,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "Alla fine, il sindaco è andato a bussare alla porta di Gino Parodi.",
+   "en": "In the end, the mayor went to knock on Gino Parodi's door.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "bussare",
+     "en": "to knock (on a door)"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3"
+   },
+   "ms": {
+    "fr": 5442,
+    "frs": 7890,
+    "en": 4218,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     355356,
+     5442
+    ],
+    "frs": [
+     361198,
+     7890
+    ],
+    "en": [
+     369488,
+     4218
+    ],
+    "gl": [
+     374106,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Gino aveva settant'anni,",
+   "en": "Gino was seventy years old,",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2418
+   },
+   "bank": {
+    "fr": [
+     379500,
+     2634
+    ],
+    "frs": [
+     382534,
+     3690
+    ],
+    "en": [
+     386624,
+     2418
+    ]
+   }
+  },
+  {
+   "fr": "ed era stato maresciallo dei carabinieri per trent'anni.",
+   "en": "and he had been a carabinieri sergeant for thirty years.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "maresciallo dei carabinieri",
+     "en": "sergeant of the carabinieri (Italian police)"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "gl": "audio/s024_gl.mp3"
+   },
+   "ms": {
+    "fr": 4314,
+    "frs": 6210,
+    "en": 3690,
+    "gl": 7802
+   },
+   "bank": {
+    "fr": [
+     389442,
+     4314
+    ],
+    "frs": [
+     394156,
+     6210
+    ],
+    "en": [
+     400766,
+     3690
+    ],
+    "gl": [
+     404856,
+     7802
+    ]
+   }
+  },
+  {
+   "fr": "Ora era in pensione, e passava le giornate a pescare,",
+   "en": "Now he was retired, and he spent his days fishing,",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "in pensione",
+     "en": "retired"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "gl": "audio/s025_gl.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3594,
+    "gl": 5330
+   },
+   "bank": {
+    "fr": [
+     413058,
+     4506
+    ],
+    "frs": [
+     417964,
+     6522
+    ],
+    "en": [
+     424886,
+     3594
+    ],
+    "gl": [
+     428880,
+     5330
+    ]
+   }
+  },
+  {
+   "fr": "senza prendere mai niente.",
+   "en": "without ever catching anything.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     434610,
+     2634
+    ],
+    "frs": [
+     437644,
+     3690
+    ],
+    "en": [
+     441734,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Gino, ti prego», ha detto il sindaco.",
+   "en": "\"Gino, please,\" said the mayor.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 3066
+   },
+   "bank": {
+    "fr": [
+     444456,
+     3978
+    ],
+    "frs": [
+     448834,
+     5706
+    ],
+    "en": [
+     454940,
+     3066
+    ]
+   }
+  },
+  {
+   "fr": "«Il paese ha bisogno di te.»",
+   "en": "\"The village needs you.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 2898,
+    "frs": 4098,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     458406,
+     2898
+    ],
+    "frs": [
+     461704,
+     4098
+    ],
+    "en": [
+     466202,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha guardato sua moglie, Rosa.",
+   "en": "Gino looked at his wife, Rosa.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4698,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     468924,
+     3306
+    ],
+    "frs": [
+     472630,
+     4698
+    ],
+    "en": [
+     477728,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "Rosa ha alzato gli occhi al cielo.",
+   "en": "Rosa rolled her eyes.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "ha alzato gli occhi al cielo",
+     "en": "rolled her eyes"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322,
+    "gl": 6002
+   },
+   "bank": {
+    "fr": [
+     480906,
+     2730
+    ],
+    "frs": [
+     484036,
+     3834
+    ],
+    "en": [
+     488270,
+     2322
+    ],
+    "gl": [
+     490992,
+     6002
+    ]
+   }
+  },
+  {
+   "fr": "«Vai, vai», ha detto. «Così almeno non stai tutto il giorno sul divano.»",
+   "en": "\"Go, go,\" she said. \"That way at least you won't be on the sofa all day.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "frs": 10146,
+    "en": 4626
+   },
+   "bank": {
+    "fr": [
+     497394,
+     6930
+    ],
+    "frs": [
+     504724,
+     10146
+    ],
+    "en": [
+     515270,
+     4626
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha cominciato dal balcone della signora Carla.",
+   "en": "Gino started with Signora Carla's balcony.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3138
+   },
+   "bank": {
+    "fr": [
+     520296,
+     4050
+    ],
+    "frs": [
+     524746,
+     5802
+    ],
+    "en": [
+     530948,
+     3138
+    ]
+   }
+  },
+  {
+   "fr": "Ha guardato i vasi con una lente d'ingrandimento,",
+   "en": "He looked at the pots with a magnifying glass,",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "lente d'ingrandimento",
+     "en": "magnifying glass"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "gl": "audio/s033_gl.mp3"
+   },
+   "ms": {
+    "fr": 3906,
+    "frs": 5586,
+    "en": 3234,
+    "gl": 6050
+   },
+   "bank": {
+    "fr": [
+     534486,
+     3906
+    ],
+    "frs": [
+     538792,
+     5586
+    ],
+    "en": [
+     544778,
+     3234
+    ],
+    "gl": [
+     548412,
+     6050
+    ]
+   }
+  },
+  {
+   "fr": "come nei film.",
+   "en": "like in the movies.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2634,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     554862,
+     2322
+    ],
+    "frs": [
+     557584,
+     2634
+    ],
+    "en": [
+     560618,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Le foglie non erano strappate.",
+   "en": "The leaves were not torn off.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "strappate",
+     "en": "torn off"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "gl": "audio/s035_gl.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322,
+    "gl": 5114
+   },
+   "bank": {
+    "fr": [
+     563340,
+     2754
+    ],
+    "frs": [
+     566494,
+     3858
+    ],
+    "en": [
+     570752,
+     2322
+    ],
+    "gl": [
+     573474,
+     5114
+    ]
+   }
+  },
+  {
+   "fr": "Erano tagliate, una per una, con delle forbici piccole.",
+   "en": "They were cut, one by one, with small scissors.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 4842,
+    "frs": 7002,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     578988,
+     4842
+    ],
+    "frs": [
+     584230,
+     7002
+    ],
+    "en": [
+     591632,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "«Questo non è un vandalo», ha detto Gino.",
+   "en": "\"This is not a vandal,\" said Gino.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5202,
+    "en": 2778
+   },
+   "bank": {
+    "fr": [
+     595866,
+     3642
+    ],
+    "frs": [
+     599908,
+     5202
+    ],
+    "en": [
+     605510,
+     2778
+    ]
+   }
+  },
+  {
+   "fr": "«Questo è qualcuno che sa cucinare.»",
+   "en": "\"This is someone who knows how to cook.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4794,
+    "en": 2682
+   },
+   "bank": {
+    "fr": [
+     608688,
+     3354
+    ],
+    "frs": [
+     612442,
+     4794
+    ],
+    "en": [
+     617636,
+     2682
+    ]
+   }
+  },
+  {
+   "fr": "Poi ha trovato un'altra cosa.",
+   "en": "Then he found something else.",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     620718,
+     2634
+    ],
+    "frs": [
+     623752,
+     3690
+    ],
+    "en": [
+     627842,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Sul muretto, vicino ai vasi, c'era una piccola macchia bianca.",
+   "en": "On the low wall, near the pots, there was a small white spot.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "muretto",
+     "en": "low stone wall"
+    },
+    {
+     "fr": "macchia",
+     "en": "stain, spot"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "gl": "audio/s040_gl.mp3"
+   },
+   "ms": {
+    "fr": 5154,
+    "frs": 7482,
+    "en": 4626,
+    "gl": 9538
+   },
+   "bank": {
+    "fr": [
+     630564,
+     5154
+    ],
+    "frs": [
+     636118,
+     7482
+    ],
+    "en": [
+     644000,
+     4626
+    ],
+    "gl": [
+     649026,
+     9538
+    ]
+   }
+  },
+  {
+   "fr": "L'ha toccata con il dito e l'ha annusata.",
+   "en": "He touched it with his finger and sniffed it.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "annusata",
+     "en": "sniffed, smelled"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "gl": "audio/s041_gl.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2970,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     658964,
+     3306
+    ],
+    "frs": [
+     662670,
+     4722
+    ],
+    "en": [
+     667792,
+     2970
+    ],
+    "gl": [
+     671162,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Farina.",
+   "en": "Flour.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "farina",
+     "en": "flour"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2322,
+    "en": 2322,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     676556,
+     2322
+    ],
+    "frs": [
+     679278,
+     2322
+    ],
+    "en": [
+     682000,
+     2322
+    ],
+    "gl": [
+     684722,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "«Il fornaio!» ha detto subito la signora Carla.",
+   "en": "\"The baker!\" said Signora Carla right away.",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6162,
+    "en": 3234
+   },
+   "bank": {
+    "fr": [
+     690116,
+     4266
+    ],
+    "frs": [
+     694782,
+     6162
+    ],
+    "en": [
+     701344,
+     3234
+    ]
+   }
+  },
+  {
+   "fr": "«Ma anche al fornaio hanno rubato il basilico», ha detto Gino.",
+   "en": "\"But they stole the baker's basil too,\" said Gino.",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7434,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     704978,
+     5130
+    ],
+    "frs": [
+     710508,
+     7434
+    ],
+    "en": [
+     718342,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "«Appunto! Così non sembra colpevole!»",
+   "en": "\"Exactly! That way he doesn't look guilty!\"",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "Appunto",
+     "en": "exactly"
+    },
+    {
+     "fr": "colpevole",
+     "en": "guilty"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3",
+    "gl": "audio/s045_gl.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5466,
+    "en": 3546,
+    "gl": 8458
+   },
+   "bank": {
+    "fr": [
+     722312,
+     3810
+    ],
+    "frs": [
+     726522,
+     5466
+    ],
+    "en": [
+     732388,
+     3546
+    ],
+    "gl": [
+     736334,
+     8458
+    ]
+   }
+  },
+  {
+   "fr": "Gino non era convinto.",
+   "en": "Gino was not convinced.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3"
+   },
+   "ms": {
+    "fr": 2346,
+    "frs": 3258,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     745192,
+     2346
+    ],
+    "frs": [
+     747938,
+     3258
+    ],
+    "en": [
+     751596,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "La sera, a cena, ha raccontato tutto a Rosa.",
+   "en": "In the evening, at dinner, he told Rosa everything.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 4386,
+    "frs": 6306,
+    "en": 4074
+   },
+   "bank": {
+    "fr": [
+     754318,
+     4386
+    ],
+    "frs": [
+     759104,
+     6306
+    ],
+    "en": [
+     765810,
+     4074
+    ]
+   }
+  },
+  {
+   "fr": "«Farina, forbici piccole, e nessun rumore.",
+   "en": "\"Flour, small scissors, and no noise.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     770284,
+     4266
+    ],
+    "frs": [
+     774950,
+     6138
+    ],
+    "en": [
+     781488,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "Il ladro viene di notte, e nessuno lo sente.»",
+   "en": "The thief comes at night, and nobody hears him.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6498,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     785290,
+     4506
+    ],
+    "frs": [
+     790196,
+     6498
+    ],
+    "en": [
+     797094,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "Rosa ha messo in tavola le trofie al pesto.",
+   "en": "Rosa put trofie with pesto on the table.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "trofie",
+     "en": "short twisted pasta from Liguria"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3",
+    "gl": "audio/s050_gl.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5034,
+    "en": 3066,
+    "gl": 5450
+   },
+   "bank": {
+    "fr": [
+     800944,
+     3522
+    ],
+    "frs": [
+     804866,
+     5034
+    ],
+    "en": [
+     810300,
+     3066
+    ],
+    "gl": [
+     813766,
+     5450
+    ]
+   }
+  },
+  {
+   "fr": "Gino si è fermato con la forchetta in aria.",
+   "en": "Gino stopped with his fork in the air.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5106,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     819616,
+     3594
+    ],
+    "frs": [
+     823610,
+     5106
+    ],
+    "en": [
+     829116,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "«Rosa. Dove hai preso il basilico?»",
+   "en": "\"Rosa. Where did you get the basil?\"",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5106,
+    "en": 2730
+   },
+   "bank": {
+    "fr": [
+     832174,
+     3570
+    ],
+    "frs": [
+     836144,
+     5106
+    ],
+    "en": [
+     841650,
+     2730
+    ]
+   }
+  },
+  {
+   "fr": "«Dal nostro balcone, naturalmente.",
+   "en": "\"From our balcony, of course.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     844780,
+     3378
+    ],
+    "frs": [
+     848558,
+     4818
+    ],
+    "en": [
+     853776,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "Il nostro non l'ha toccato nessuno.",
+   "en": "Nobody has touched ours.",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     856690,
+     2994
+    ],
+    "frs": [
+     860084,
+     4218
+    ],
+    "en": [
+     864702,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Forse il ladro ha paura dei carabinieri.»",
+   "en": "Maybe the thief is afraid of the carabinieri.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5274,
+    "en": 3354
+   },
+   "bank": {
+    "fr": [
+     867424,
+     3690
+    ],
+    "frs": [
+     871514,
+     5274
+    ],
+    "en": [
+     877188,
+     3354
+    ]
+   }
+  },
+  {
+   "fr": "Quella notte, Gino non è andato a letto.",
+   "en": "That night, Gino didn't go to bed.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4890,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     880942,
+     3426
+    ],
+    "frs": [
+     884768,
+     4890
+    ],
+    "en": [
+     890058,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "Si è seduto sul balcone, al buio, con un thermos di caffè.",
+   "en": "He sat on the balcony, in the dark, with a thermos of coffee.",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "al buio",
+     "en": "in the dark"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3",
+    "gl": "audio/s057_gl.mp3"
+   },
+   "ms": {
+    "fr": 5082,
+    "frs": 7362,
+    "en": 4338,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     893308,
+     5082
+    ],
+    "frs": [
+     898790,
+     7362
+    ],
+    "en": [
+     906552,
+     4338
+    ],
+    "gl": [
+     911290,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Il paese dormiva. Si sentiva solo il mare.",
+   "en": "The village was sleeping. You could only hear the sea.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5754,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     916684,
+     4026
+    ],
+    "frs": [
+     921110,
+     5754
+    ],
+    "en": [
+     927264,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "A mezzanotte, niente.",
+   "en": "At midnight, nothing.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 2802,
+    "frs": 3954,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     931090,
+     2802
+    ],
+    "frs": [
+     934292,
+     3954
+    ],
+    "en": [
+     938646,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "All'una, niente.",
+   "en": "At one, nothing.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3018,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     941368,
+     2322
+    ],
+    "frs": [
+     944090,
+     3018
+    ],
+    "en": [
+     947508,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Alle due, anche Gino dormiva, con la bocca aperta.",
+   "en": "At two, Gino was sleeping too, with his mouth open.",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3"
+   },
+   "ms": {
+    "fr": 4674,
+    "frs": 6762,
+    "en": 4002
+   },
+   "bank": {
+    "fr": [
+     950230,
+     4674
+    ],
+    "frs": [
+     955304,
+     6762
+    ],
+    "en": [
+     962466,
+     4002
+    ]
+   }
+  },
+  {
+   "fr": "Si è svegliato alle cinque, con il primo sole.",
+   "en": "He woke up at five, with the first sun.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5658,
+    "en": 2994
+   },
+   "bank": {
+    "fr": [
+     966868,
+     3930
+    ],
+    "frs": [
+     971198,
+     5658
+    ],
+    "en": [
+     977256,
+     2994
+    ]
+   }
+  },
+  {
+   "fr": "E ha guardato i suoi vasi.",
+   "en": "And he looked at his pots.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3"
+   },
+   "ms": {
+    "fr": 2514,
+    "frs": 3522,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     980650,
+     2514
+    ],
+    "frs": [
+     983564,
+     3522
+    ],
+    "en": [
+     987486,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il basilico era sparito.",
+   "en": "The basil had disappeared.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "sparito",
+     "en": "disappeared"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3",
+    "gl": "audio/s064_gl.mp3"
+   },
+   "ms": {
+    "fr": 2514,
+    "frs": 3522,
+    "en": 2322,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     990208,
+     2514
+    ],
+    "frs": [
+     993122,
+     3522
+    ],
+    "en": [
+     997044,
+     2322
+    ],
+    "gl": [
+     999766,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Tutto. Anche quello di Rosa.",
+   "en": "All of it. Even Rosa's.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4434,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1005160,
+     3114
+    ],
+    "frs": [
+     1008674,
+     4434
+    ],
+    "en": [
+     1013508,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "Sul muretto, una piccola macchia bianca.",
+   "en": "On the low wall, a small white spot.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3"
+   },
+   "ms": {
+    "fr": 3666,
+    "frs": 5250,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1016398,
+     3666
+    ],
+    "frs": [
+     1020464,
+     5250
+    ],
+    "en": [
+     1026114,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "«Mi ha rubato il basilico sotto il naso», ha detto Gino.",
+   "en": "\"He stole my basil right under my nose,\" said Gino.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "sotto il naso",
+     "en": "right under (his) nose"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3",
+    "gl": "audio/s067_gl.mp3"
+   },
+   "ms": {
+    "fr": 4578,
+    "frs": 6594,
+    "en": 3858,
+    "gl": 5282
+   },
+   "bank": {
+    "fr": [
+     1029556,
+     4578
+    ],
+    "frs": [
+     1034534,
+     6594
+    ],
+    "en": [
+     1041528,
+     3858
+    ],
+    "gl": [
+     1045786,
+     5282
+    ]
+   }
+  },
+  {
+   "fr": "Rosa, dalla cucina, ha riso per dieci minuti.",
+   "en": "Rosa, from the kitchen, laughed for ten minutes.",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6810,
+    "en": 3738
+   },
+   "bank": {
+    "fr": [
+     1051468,
+     4698
+    ],
+    "frs": [
+     1056566,
+     6810
+    ],
+    "en": [
+     1063776,
+     3738
+    ]
+   }
+  },
+  {
+   "fr": "Adesso era una questione personale.",
+   "en": "Now it was a personal matter.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1067914,
+     3138
+    ],
+    "frs": [
+     1071452,
+     4458
+    ],
+    "en": [
+     1076310,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha cominciato a camminare per il paese",
+   "en": "Gino started walking around the village",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3"
+   },
+   "ms": {
+    "fr": 3402,
+    "frs": 4866,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1079032,
+     3402
+    ],
+    "frs": [
+     1082834,
+     4866
+    ],
+    "en": [
+     1088100,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "e a guardare tutti i balconi.",
+   "en": "and looking at all the balconies.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 2634,
+    "frs": 3690,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1091374,
+     2634
+    ],
+    "frs": [
+     1094408,
+     3690
+    ],
+    "en": [
+     1098498,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Ne ha contati venti senza basilico.",
+   "en": "He counted twenty without basil.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 3234,
+    "frs": 4578,
+    "en": 2634
+   },
+   "bank": {
+    "fr": [
+     1101220,
+     3234
+    ],
+    "frs": [
+     1104854,
+     4578
+    ],
+    "en": [
+     1109832,
+     2634
+    ]
+   }
+  },
+  {
+   "fr": "Ma c'era un balcone, in fondo a via del Porto,",
+   "en": "But there was one balcony, at the end of Via del Porto,",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 4146,
+    "frs": 5970,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     1112866,
+     4146
+    ],
+    "frs": [
+     1117412,
+     5970
+    ],
+    "en": [
+     1123782,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "pieno di basilico verde e bellissimo.",
+   "en": "full of beautiful green basil.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3"
+   },
+   "ms": {
+    "fr": 3282,
+    "frs": 4674,
+    "en": 2562
+   },
+   "bank": {
+    "fr": [
+     1127800,
+     3282
+    ],
+    "frs": [
+     1131482,
+     4674
+    ],
+    "en": [
+     1136556,
+     2562
+    ]
+   }
+  },
+  {
+   "fr": "Era il balcone della signora Pina.",
+   "en": "It was Signora Pina's balcony.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4170,
+    "en": 2514
+   },
+   "bank": {
+    "fr": [
+     1139518,
+     2946
+    ],
+    "frs": [
+     1142864,
+     4170
+    ],
+    "en": [
+     1147434,
+     2514
+    ]
+   }
+  },
+  {
+   "fr": "La signora Pina aveva ottantotto anni.",
+   "en": "Signora Pina was eighty-eight years old.",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4938,
+    "en": 3018
+   },
+   "bank": {
+    "fr": [
+     1150348,
+     3450
+    ],
+    "frs": [
+     1154198,
+     4938
+    ],
+    "en": [
+     1159536,
+     3018
+    ]
+   }
+  },
+  {
+   "fr": "Aveva vinto la gara del pesto per ventidue anni di seguito.",
+   "en": "She had won the pesto contest twenty-two years in a row.",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "di seguito",
+     "en": "in a row"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3",
+    "gl": "audio/s077_gl.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 3642,
+    "gl": 5162
+   },
+   "bank": {
+    "fr": [
+     1162954,
+     4602
+    ],
+    "frs": [
+     1167956,
+     6666
+    ],
+    "en": [
+     1175022,
+     3642
+    ],
+    "gl": [
+     1179064,
+     5162
+    ]
+   }
+  },
+  {
+   "fr": "Nessuno conosceva il suo segreto.",
+   "en": "Nobody knew her secret.",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1184626,
+     3138
+    ],
+    "frs": [
+     1188164,
+     4458
+    ],
+    "en": [
+     1193022,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha bussato alla sua porta.",
+   "en": "Gino knocked on her door.",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1195744,
+     2730
+    ],
+    "frs": [
+     1198874,
+     3834
+    ],
+    "en": [
+     1203108,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Signora Pina, buongiorno. Posso entrare?»",
+   "en": "\"Signora Pina, good morning. May I come in?\"",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3"
+   },
+   "ms": {
+    "fr": 4194,
+    "frs": 6066,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     1205830,
+     4194
+    ],
+    "frs": [
+     1210424,
+     6066
+    ],
+    "en": [
+     1216890,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "«Gino! Certo, vieni. Vuoi un caffè?»",
+   "en": "\"Gino! Of course, come in. Do you want a coffee?\"",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 4482,
+    "frs": 6474,
+    "en": 3834
+   },
+   "bank": {
+    "fr": [
+     1220692,
+     4482
+    ],
+    "frs": [
+     1225574,
+     6474
+    ],
+    "en": [
+     1232448,
+     3834
+    ]
+   }
+  },
+  {
+   "fr": "La cucina della signora Pina era piccola e pulitissima.",
+   "en": "Signora Pina's kitchen was small and very clean.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 4506,
+    "frs": 6522,
+    "en": 3906
+   },
+   "bank": {
+    "fr": [
+     1236682,
+     4506
+    ],
+    "frs": [
+     1241588,
+     6522
+    ],
+    "en": [
+     1248510,
+     3906
+    ]
+   }
+  },
+  {
+   "fr": "Sul tavolo c'era un mortaio di marmo",
+   "en": "On the table there was a marble mortar",
+   "para": 13,
+   "glosses": [
+    {
+     "fr": "mortaio",
+     "en": "mortar (bowl for crushing)"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3",
+    "gl": "audio/s083_gl.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2850,
+    "gl": 5090
+   },
+   "bank": {
+    "fr": [
+     1252816,
+     3258
+    ],
+    "frs": [
+     1256474,
+     4626
+    ],
+    "en": [
+     1261500,
+     2850
+    ],
+    "gl": [
+     1264750,
+     5090
+    ]
+   }
+  },
+  {
+   "fr": "e un sacco di farina.",
+   "en": "and a sack of flour.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3138,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1270240,
+     2322
+    ],
+    "frs": [
+     1272962,
+     3138
+    ],
+    "en": [
+     1276500,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Gino si è avvicinato alla finestra e ha guardato il basilico.",
+   "en": "Gino went over to the window and looked at the basil.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 4698,
+    "frs": 6786,
+    "en": 3594
+   },
+   "bank": {
+    "fr": [
+     1279222,
+     4698
+    ],
+    "frs": [
+     1284320,
+     6786
+    ],
+    "en": [
+     1291506,
+     3594
+    ]
+   }
+  },
+  {
+   "fr": "Poi ha toccato una foglia.",
+   "en": "Then he touched a leaf.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 2466,
+    "frs": 3426,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1295500,
+     2466
+    ],
+    "frs": [
+     1298366,
+     3426
+    ],
+    "en": [
+     1302192,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Era di plastica.",
+   "en": "It was plastic.",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2706,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1304914,
+     2322
+    ],
+    "frs": [
+     1307636,
+     2706
+    ],
+    "en": [
+     1310742,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "La signora Pina si è seduta, lentamente.",
+   "en": "Signora Pina sat down, slowly.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3"
+   },
+   "ms": {
+    "fr": 3738,
+    "frs": 5346,
+    "en": 3042
+   },
+   "bank": {
+    "fr": [
+     1313464,
+     3738
+    ],
+    "frs": [
+     1317602,
+     5346
+    ],
+    "en": [
+     1323348,
+     3042
+    ]
+   }
+  },
+  {
+   "fr": "«Ad aprile il mio basilico si è ammalato», ha detto.",
+   "en": "\"In April my basil got sick,\" she said.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3378
+   },
+   "bank": {
+    "fr": [
+     1326790,
+     4338
+    ],
+    "frs": [
+     1331528,
+     6258
+    ],
+    "en": [
+     1338186,
+     3378
+    ]
+   }
+  },
+  {
+   "fr": "«Tutto. Le foglie sono diventate nere.",
+   "en": "\"All of it. The leaves turned black.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 3594,
+    "frs": 5130,
+    "en": 2922
+   },
+   "bank": {
+    "fr": [
+     1341964,
+     3594
+    ],
+    "frs": [
+     1345958,
+     5130
+    ],
+    "en": [
+     1351488,
+     2922
+    ]
+   }
+  },
+  {
+   "fr": "Ventidue anni, Gino. Tutto il paese mi chiama la regina del pesto.",
+   "en": "Twenty-two years, Gino. The whole village calls me the queen of pesto.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3"
+   },
+   "ms": {
+    "fr": 5682,
+    "frs": 8250,
+    "en": 4842
+   },
+   "bank": {
+    "fr": [
+     1354810,
+     5682
+    ],
+    "frs": [
+     1360892,
+     8250
+    ],
+    "en": [
+     1369542,
+     4842
+    ]
+   }
+  },
+  {
+   "fr": "Non potevo dire che non avevo più basilico.",
+   "en": "I couldn't say that I didn't have any basil anymore.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4818,
+    "en": 3306
+   },
+   "bank": {
+    "fr": [
+     1374784,
+     3378
+    ],
+    "frs": [
+     1378562,
+     4818
+    ],
+    "en": [
+     1383780,
+     3306
+    ]
+   }
+  },
+  {
+   "fr": "Allora ho comprato queste piante finte, per la gente che passa.",
+   "en": "So I bought these fake plants, for the people walking by.",
+   "para": 14,
+   "glosses": [
+    {
+     "fr": "finte",
+     "en": "fake"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3",
+    "gl": "audio/s093_gl.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7266,
+    "en": 3666,
+    "gl": 3914
+   },
+   "bank": {
+    "fr": [
+     1387486,
+     5010
+    ],
+    "frs": [
+     1392896,
+     7266
+    ],
+    "en": [
+     1400562,
+     3666
+    ],
+    "gl": [
+     1404628,
+     3914
+    ]
+   }
+  },
+  {
+   "fr": "E di notte...»",
+   "en": "And at night...\"",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2346,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1408942,
+     2322
+    ],
+    "frs": [
+     1411664,
+     2346
+    ],
+    "en": [
+     1414410,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«E di notte andava a prendere quello degli altri.»",
+   "en": "\"And at night you went to get other people's.\"",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5706,
+    "en": 2706
+   },
+   "bank": {
+    "fr": [
+     1417132,
+     3978
+    ],
+    "frs": [
+     1421510,
+     5706
+    ],
+    "en": [
+     1427616,
+     2706
+    ]
+   }
+  },
+  {
+   "fr": "«Con le forbici per le unghie», ha detto lei.",
+   "en": "\"With nail scissors,\" she said.",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 3714,
+    "frs": 5298,
+    "en": 2658
+   },
+   "bank": {
+    "fr": [
+     1430722,
+     3714
+    ],
+    "frs": [
+     1434836,
+     5298
+    ],
+    "en": [
+     1440534,
+     2658
+    ]
+   }
+  },
+  {
+   "fr": "«E la farina?»",
+   "en": "\"And the flour?\"",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2370,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1443592,
+     2322
+    ],
+    "frs": [
+     1446314,
+     2370
+    ],
+    "en": [
+     1449084,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Faccio le trofie a mano, ogni sera. Ho sempre le mani bianche.»",
+   "en": "\"I make trofie by hand, every evening. My hands are always white.\"",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3"
+   },
+   "ms": {
+    "fr": 5634,
+    "frs": 8178,
+    "en": 4866
+   },
+   "bank": {
+    "fr": [
+     1451806,
+     5634
+    ],
+    "frs": [
+     1457840,
+     8178
+    ],
+    "en": [
+     1466418,
+     4866
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha guardato quella piccola donna di ottantotto anni,",
+   "en": "Gino looked at that small woman of eighty-eight,",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3"
+   },
+   "ms": {
+    "fr": 4338,
+    "frs": 6258,
+    "en": 3162
+   },
+   "bank": {
+    "fr": [
+     1471684,
+     4338
+    ],
+    "frs": [
+     1476422,
+     6258
+    ],
+    "en": [
+     1483080,
+     3162
+    ]
+   }
+  },
+  {
+   "fr": "che di notte camminava sui muretti come un gatto.",
+   "en": "who walked along the low walls at night like a cat.",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3"
+   },
+   "ms": {
+    "fr": 3858,
+    "frs": 5538,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1486642,
+     3858
+    ],
+    "frs": [
+     1490900,
+     5538
+    ],
+    "en": [
+     1496838,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "«Signora Pina, ma come fa a salire sui balconi?»",
+   "en": "\"Signora Pina, but how do you climb onto the balconies?\"",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6186,
+    "en": 3762
+   },
+   "bank": {
+    "fr": [
+     1500808,
+     4290
+    ],
+    "frs": [
+     1505498,
+     6186
+    ],
+    "en": [
+     1512084,
+     3762
+    ]
+   }
+  },
+  {
+   "fr": "Lei ha sorriso. «Gino, io sono nata qui.",
+   "en": "She smiled. \"Gino, I was born here.",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6354,
+    "en": 3402
+   },
+   "bank": {
+    "fr": [
+     1516246,
+     4410
+    ],
+    "frs": [
+     1521056,
+     6354
+    ],
+    "en": [
+     1527810,
+     3402
+    ]
+   }
+  },
+  {
+   "fr": "Da bambina rubavo i fichi in tutti questi giardini.",
+   "en": "As a child I stole figs in all these gardens.",
+   "para": 15,
+   "glosses": [
+    {
+     "fr": "fichi",
+     "en": "figs"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3",
+    "gl": "audio/s103_gl.mp3"
+   },
+   "ms": {
+    "fr": 4074,
+    "frs": 5850,
+    "en": 3546,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     1531612,
+     4074
+    ],
+    "frs": [
+     1536086,
+     5850
+    ],
+    "en": [
+     1542336,
+     3546
+    ],
+    "gl": [
+     1546282,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Conosco ogni scala e ogni muretto del paese.»",
+   "en": "I know every staircase and every low wall in the village.\"",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 4362,
+    "frs": 6282,
+    "en": 4314
+   },
+   "bank": {
+    "fr": [
+     1551676,
+     4362
+    ],
+    "frs": [
+     1556438,
+     6282
+    ],
+    "en": [
+     1563120,
+     4314
+    ]
+   }
+  },
+  {
+   "fr": "«E adesso cosa fai?» ha chiesto lei. «Mi arresti?»",
+   "en": "\"And now what are you going to do?\" she asked. \"Arrest me?\"",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3618
+   },
+   "bank": {
+    "fr": [
+     1567834,
+     4746
+    ],
+    "frs": [
+     1572980,
+     6858
+    ],
+    "en": [
+     1580238,
+     3618
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha pensato a lungo.",
+   "en": "Gino thought for a long time.",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 2394,
+    "frs": 3330,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1584256,
+     2394
+    ],
+    "frs": [
+     1587050,
+     3330
+    ],
+    "en": [
+     1590780,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Poi ha detto: «Ho un'idea migliore.»",
+   "en": "Then he said, \"I have a better idea.\"",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 5082,
+    "en": 2946
+   },
+   "bank": {
+    "fr": [
+     1593502,
+     3570
+    ],
+    "frs": [
+     1597472,
+     5082
+    ],
+    "en": [
+     1602954,
+     2946
+    ]
+   }
+  },
+  {
+   "fr": "Quella domenica, in piazza, non c'è stata la solita gara del pesto.",
+   "en": "That Sunday, in the square, there wasn't the usual pesto contest.",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3"
+   },
+   "ms": {
+    "fr": 5802,
+    "frs": 8442,
+    "en": 4938
+   },
+   "bank": {
+    "fr": [
+     1606300,
+     5802
+    ],
+    "frs": [
+     1612502,
+     8442
+    ],
+    "en": [
+     1621344,
+     4938
+    ]
+   }
+  },
+  {
+   "fr": "C'era un tavolo lunghissimo,",
+   "en": "There was a very long table,",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 2586,
+    "frs": 3642,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1626682,
+     2586
+    ],
+    "frs": [
+     1629668,
+     3642
+    ],
+    "en": [
+     1633710,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "e ognuno ha portato quel poco di basilico che restava.",
+   "en": "and everyone brought what little basil was left.",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3"
+   },
+   "ms": {
+    "fr": 4458,
+    "frs": 6450,
+    "en": 3258
+   },
+   "bank": {
+    "fr": [
+     1636432,
+     4458
+    ],
+    "frs": [
+     1641290,
+     6450
+    ],
+    "en": [
+     1648140,
+     3258
+    ]
+   }
+  },
+  {
+   "fr": "Al centro del tavolo, con il suo mortaio di marmo,",
+   "en": "At the center of the table, with her marble mortar,",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3426
+   },
+   "bank": {
+    "fr": [
+     1651798,
+     4266
+    ],
+    "frs": [
+     1656464,
+     6138
+    ],
+    "en": [
+     1663002,
+     3426
+    ]
+   }
+  },
+  {
+   "fr": "c'era la signora Pina.",
+   "en": "there was Signora Pina.",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3114,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1666828,
+     2322
+    ],
+    "frs": [
+     1669550,
+     3114
+    ],
+    "en": [
+     1673064,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Il sindaco aveva annunciato:",
+   "en": "The mayor had announced:",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1675786,
+     2754
+    ],
+    "frs": [
+     1678940,
+     3858
+    ],
+    "en": [
+     1683198,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Quest'anno, la regina del pesto ci insegna il suo segreto.»",
+   "en": "\"This year, the queen of pesto is teaching us her secret.\"",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "frs": 7458,
+    "en": 4098
+   },
+   "bank": {
+    "fr": [
+     1685920,
+     5130
+    ],
+    "frs": [
+     1691450,
+     7458
+    ],
+    "en": [
+     1699308,
+     4098
+    ]
+   }
+  },
+  {
+   "fr": "Tutto il paese guardava.",
+   "en": "The whole village was watching.",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 2418,
+    "frs": 3378,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1703806,
+     2418
+    ],
+    "frs": [
+     1706624,
+     3378
+    ],
+    "en": [
+     1710402,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "La signora Pina ha preso le foglie, l'aglio, i pinoli, il formaggio e l'olio.",
+   "en": "Signora Pina took the leaves, the garlic, the pine nuts, the cheese and the oil.",
+   "para": 18,
+   "glosses": [
+    {
+     "fr": "pinoli",
+     "en": "pine nuts"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3",
+    "gl": "audio/s116_gl.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "frs": 10146,
+    "en": 6042,
+    "gl": 4994
+   },
+   "bank": {
+    "fr": [
+     1713124,
+     6930
+    ],
+    "frs": [
+     1720454,
+     10146
+    ],
+    "en": [
+     1731000,
+     6042
+    ],
+    "gl": [
+     1737442,
+     4994
+    ]
+   }
+  },
+  {
+   "fr": "Poi ha detto:",
+   "en": "Then she said:",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2346,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1742836,
+     2322
+    ],
+    "frs": [
+     1745558,
+     2346
+    ],
+    "en": [
+     1748304,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "«Il segreto è questo: il basilico rubato è sempre più buono.»",
+   "en": "\"The secret is this: stolen basil always tastes better.\"",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "frs": 7962,
+    "en": 4458
+   },
+   "bank": {
+    "fr": [
+     1751026,
+     5490
+    ],
+    "frs": [
+     1756916,
+     7962
+    ],
+    "en": [
+     1765278,
+     4458
+    ]
+   }
+  },
+  {
+   "fr": "Tutti hanno riso.",
+   "en": "Everyone laughed.",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2682,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1770136,
+     2322
+    ],
+    "frs": [
+     1772858,
+     2682
+    ],
+    "en": [
+     1775940,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Solo Gino e Rosa sapevano che non era uno scherzo.",
+   "en": "Only Gino and Rosa knew that it wasn't a joke.",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3"
+   },
+   "ms": {
+    "fr": 4266,
+    "frs": 6138,
+    "en": 3522
+   },
+   "bank": {
+    "fr": [
+     1778662,
+     4266
+    ],
+    "frs": [
+     1783328,
+     6138
+    ],
+    "en": [
+     1789866,
+     3522
+    ]
+   }
+  },
+  {
+   "fr": "La settimana dopo, sul balcone di Gino,",
+   "en": "The week after, on Gino's balcony,",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 3786,
+    "frs": 5418,
+    "en": 2874
+   },
+   "bank": {
+    "fr": [
+     1793788,
+     3786
+    ],
+    "frs": [
+     1797974,
+     5418
+    ],
+    "en": [
+     1803792,
+     2874
+    ]
+   }
+  },
+  {
+   "fr": "c'era un vaso nuovo, pieno di basilico giovane.",
+   "en": "there was a new pot, full of young basil.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "frs": 5802,
+    "en": 3114
+   },
+   "bank": {
+    "fr": [
+     1807066,
+     4050
+    ],
+    "frs": [
+     1811516,
+     5802
+    ],
+    "en": [
+     1817718,
+     3114
+    ]
+   }
+  },
+  {
+   "fr": "Sotto il vaso, un biglietto:",
+   "en": "Under the pot, a note:",
+   "para": 19,
+   "glosses": [
+    {
+     "fr": "biglietto",
+     "en": "note (small piece of paper)"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3",
+    "gl": "audio/s123_gl.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4362,
+    "en": 2322,
+    "gl": 5114
+   },
+   "bank": {
+    "fr": [
+     1821232,
+     3090
+    ],
+    "frs": [
+     1824722,
+     4362
+    ],
+    "en": [
+     1829484,
+     2322
+    ],
+    "gl": [
+     1832206,
+     5114
+    ]
+   }
+  },
+  {
+   "fr": "«Per il maresciallo. Questo l'ho comprato. Pina.»",
+   "en": "\"For the sergeant. This one I bought. Pina.\"",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 4746,
+    "frs": 6858,
+    "en": 3498
+   },
+   "bank": {
+    "fr": [
+     1837720,
+     4746
+    ],
+    "frs": [
+     1842866,
+     6858
+    ],
+    "en": [
+     1850124,
+     3498
+    ]
+   }
+  },
+  {
+   "fr": "Gino ha sorriso.",
+   "en": "Gino smiled.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2802,
+    "en": 2322
+   },
+   "bank": {
+    "fr": [
+     1854022,
+     2322
+    ],
+    "frs": [
+     1856744,
+     2802
+    ],
+    "en": [
+     1859946,
+     2322
+    ]
+   }
+  },
+  {
+   "fr": "Poi, per sicurezza, ha contato le foglie.",
+   "en": "Then, just to be safe, he counted the leaves.",
+   "para": 19,
+   "glosses": [
+    {
+     "fr": "per sicurezza",
+     "en": "just to be safe"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3",
+    "gl": "audio/s126_gl.mp3"
+   },
+   "ms": {
+    "fr": 4026,
+    "frs": 5754,
+    "en": 3762,
+    "gl": 5330
+   },
+   "bank": {
+    "fr": [
+     1862668,
+     4026
+    ],
+    "frs": [
+     1867094,
+     5754
+    ],
+    "en": [
+     1873248,
+     3762
+    ],
+    "gl": [
+     1877410,
+     5330
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20406
+  ],
+  "silence": [
+   21206,
+   30000
+  ]
+ }
+}

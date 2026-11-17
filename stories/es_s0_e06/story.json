@@ -1,0 +1,3002 @@
+{
+ "id": "es_s0_e06",
+ "lang": "es",
+ "title": "¿Qué hay en la caja?",
+ "author": "Original story (AI-generated)",
+ "level": "A0",
+ "series": "Lucía y Pablo (first steps)",
+ "episode": "6",
+ "note": "Today: en means \"in\", hay means \"there is\" or \"there are\", and voy a means \"I'm going to\", as in \"voy a comer\", \"I'm going to eat\".",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 23490,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Es el jardín.",
+   "en": "It's the garden.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "jardín",
+     "en": "garden"
+    }
+   ],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "jardín",
+     "garden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2514,
+    "frs": 3522,
+    "en": 2322,
+    "gl": 4754,
+    "wd": 12576
+   },
+   "bank": {
+    "fr": [
+     54690,
+     2514
+    ],
+    "frs": [
+     57604,
+     3522
+    ],
+    "en": [
+     61526,
+     2322
+    ],
+    "gl": [
+     64248,
+     4754
+    ],
+    "wd": [
+     69402,
+     12576
+    ],
+    "wp": [
+     [
+      69402,
+      4394
+     ],
+     [
+      74196,
+      3218
+     ],
+     [
+      77814,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela está en el jardín.",
+   "en": "Grandma is in the garden.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "jardín",
+     "garden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3258,
+    "frs": 4626,
+    "en": 2322,
+    "wd": 22158
+   },
+   "bank": {
+    "fr": [
+     82378,
+     3258
+    ],
+    "frs": [
+     86036,
+     4626
+    ],
+    "en": [
+     91062,
+     2322
+    ],
+    "wd": [
+     93784,
+     22158
+    ],
+    "wp": [
+     [
+      93784,
+      3218
+     ],
+     [
+      97402,
+      3338
+     ],
+     [
+      101140,
+      3314
+     ],
+     [
+      104854,
+      2906
+     ],
+     [
+      108160,
+      3218
+     ],
+     [
+      111778,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela tiene un sombrero.",
+   "en": "Grandma has a hat.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "sombrero",
+     "en": "hat"
+    }
+   ],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "sombrero",
+     "hat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3378,
+    "frs": 4794,
+    "en": 2322,
+    "gl": 4850,
+    "wd": 18924
+   },
+   "bank": {
+    "fr": [
+     116342,
+     3378
+    ],
+    "frs": [
+     120120,
+     4794
+    ],
+    "en": [
+     125314,
+     2322
+    ],
+    "gl": [
+     128036,
+     4850
+    ],
+    "wd": [
+     133286,
+     18924
+    ],
+    "wp": [
+     [
+      133286,
+      3218
+     ],
+     [
+      136904,
+      3338
+     ],
+     [
+      140642,
+      3386
+     ],
+     [
+      144428,
+      3218
+     ],
+     [
+      148046,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El sombrero es grande.",
+   "en": "The hat is big.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "sombrero",
+     "hat"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "grande",
+     "big"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3042,
+    "frs": 4314,
+    "en": 2322,
+    "wd": 15162
+   },
+   "bank": {
+    "fr": [
+     152610,
+     3042
+    ],
+    "frs": [
+     156052,
+     4314
+    ],
+    "en": [
+     160766,
+     2322
+    ],
+    "wd": [
+     163488,
+     15162
+    ],
+    "wp": [
+     [
+      163488,
+      3218
+     ],
+     [
+      167106,
+      3314
+     ],
+     [
+      170820,
+      3314
+     ],
+     [
+      174534,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela duerme.",
+   "en": "Grandma is sleeping.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "duerme",
+     "is sleeping"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2778,
+    "frs": 3906,
+    "en": 2322,
+    "wd": 12600
+   },
+   "bank": {
+    "fr": [
+     179050,
+     2778
+    ],
+    "frs": [
+     182228,
+     3906
+    ],
+    "en": [
+     186534,
+     2322
+    ],
+    "wd": [
+     189256,
+     12600
+    ],
+    "wp": [
+     [
+      189256,
+      3218
+     ],
+     [
+      192874,
+      3338
+     ],
+     [
+      196612,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lucía está en el jardín.",
+   "en": "Lucía is in the garden.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Lucía",
+     "Lucía"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "jardín",
+     "garden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3186,
+    "frs": 4506,
+    "en": 2370,
+    "wd": 19596
+   },
+   "bank": {
+    "fr": [
+     202256,
+     3186
+    ],
+    "frs": [
+     205842,
+     4506
+    ],
+    "en": [
+     210748,
+     2370
+    ],
+    "wd": [
+     213518,
+     19596
+    ],
+    "wp": [
+     [
+      213518,
+      4394
+     ],
+     [
+      218312,
+      3314
+     ],
+     [
+      222026,
+      2906
+     ],
+     [
+      225332,
+      3218
+     ],
+     [
+      228950,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pablo tiene una caja.",
+   "en": "Pablo has a box.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "caja",
+     "en": "box"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "caja",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3018,
+    "frs": 4266,
+    "en": 2322,
+    "gl": 5546,
+    "wd": 16410
+   },
+   "bank": {
+    "fr": [
+     233514,
+     3018
+    ],
+    "frs": [
+     236932,
+     4266
+    ],
+    "en": [
+     241598,
+     2322
+    ],
+    "gl": [
+     244320,
+     5546
+    ],
+    "wd": [
+     250266,
+     16410
+    ],
+    "wp": [
+     [
+      250266,
+      3362
+     ],
+     [
+      254028,
+      3386
+     ],
+     [
+      257814,
+      3218
+     ],
+     [
+      261432,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La caja es grande.",
+   "en": "The box is big.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "grande",
+     "big"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4074,
+    "en": 2322,
+    "wd": 16242
+   },
+   "bank": {
+    "fr": [
+     267076,
+     2874
+    ],
+    "frs": [
+     270350,
+     4074
+    ],
+    "en": [
+     274824,
+     2322
+    ],
+    "wd": [
+     277546,
+     16242
+    ],
+    "wp": [
+     [
+      277546,
+      3218
+     ],
+     [
+      281164,
+      4394
+     ],
+     [
+      285958,
+      3314
+     ],
+     [
+      289672,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Pablo, ¿qué hay en la caja?»",
+   "en": "\"Pablo, what is in the box?\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "hay",
+     "en": "there is, there are"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "qué",
+     "what"
+    ],
+    [
+     "hay",
+     "is there"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322,
+    "gl": 5402,
+    "wd": 24366
+   },
+   "bank": {
+    "fr": [
+     294188,
+     3114
+    ],
+    "frs": [
+     297702,
+     4410
+    ],
+    "en": [
+     302512,
+     2322
+    ],
+    "gl": [
+     305234,
+     5402
+    ],
+    "wd": [
+     311036,
+     24366
+    ],
+    "wp": [
+     [
+      311036,
+      3362
+     ],
+     [
+      314798,
+      3242
+     ],
+     [
+      318440,
+      4394
+     ],
+     [
+      323234,
+      2906
+     ],
+     [
+      326540,
+      3218
+     ],
+     [
+      330158,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Hay galletas en la caja.»",
+   "en": "\"There are cookies in the box.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Hay",
+     "there are"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322,
+    "wd": 21924
+   },
+   "bank": {
+    "fr": [
+     335802,
+     3114
+    ],
+    "frs": [
+     339316,
+     4410
+    ],
+    "en": [
+     344126,
+     2322
+    ],
+    "wd": [
+     346848,
+     21924
+    ],
+    "wp": [
+     [
+      346848,
+      4394
+     ],
+     [
+      351642,
+      4562
+     ],
+     [
+      356604,
+      2906
+     ],
+     [
+      359910,
+      3218
+     ],
+     [
+      363528,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Muchas galletas?»",
+   "en": "\"Many cookies?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Muchas",
+     "many"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322,
+    "wd": 9054
+   },
+   "bank": {
+    "fr": [
+     369172,
+     2826
+    ],
+    "frs": [
+     372398,
+     4002
+    ],
+    "en": [
+     376800,
+     2322
+    ],
+    "wd": [
+     379522,
+     9054
+    ],
+    "wp": [
+     [
+      379522,
+      3242
+     ],
+     [
+      383164,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Sí, muchas. Son ricas.»",
+   "en": "\"Yes, many. They are tasty.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Sí",
+     "yes"
+    ],
+    [
+     "muchas",
+     "many"
+    ],
+    [
+     "Son",
+     "they are"
+    ],
+    [
+     "ricas",
+     "tasty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4602,
+    "frs": 6666,
+    "en": 2682,
+    "wd": 17466
+   },
+   "bank": {
+    "fr": [
+     388976,
+     4602
+    ],
+    "frs": [
+     393978,
+     6666
+    ],
+    "en": [
+     401044,
+     2682
+    ],
+    "wd": [
+     404126,
+     17466
+    ],
+    "wp": [
+     [
+      404126,
+      3386
+     ],
+     [
+      407912,
+      3242
+     ],
+     [
+      411554,
+      4394
+     ],
+     [
+      416348,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pablo pone la caja aquí.",
+   "en": "Pablo puts the box here.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "pone",
+     "en": "puts"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "pone",
+     "puts"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ],
+    [
+     "aquí",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4554,
+    "en": 2322,
+    "gl": 4514,
+    "wd": 20076
+   },
+   "bank": {
+    "fr": [
+     421992,
+     3210
+    ],
+    "frs": [
+     425602,
+     4554
+    ],
+    "en": [
+     430556,
+     2322
+    ],
+    "gl": [
+     433278,
+     4514
+    ],
+    "wd": [
+     438192,
+     20076
+    ],
+    "wp": [
+     [
+      438192,
+      3362
+     ],
+     [
+      441954,
+      3362
+     ],
+     [
+      445716,
+      3218
+     ],
+     [
+      449334,
+      4394
+     ],
+     [
+      454128,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Voy a comer una galleta.»",
+   "en": "\"I'm going to eat a cookie.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "voy a",
+     "en": "I'm going to"
+    }
+   ],
+   "words": [
+    [
+     "Voy",
+     "I'm going"
+    ],
+    [
+     "a",
+     "to"
+    ],
+    [
+     "comer",
+     "eat"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "galleta",
+     "cookie"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3138,
+    "frs": 4458,
+    "en": 2322,
+    "gl": 5642,
+    "wd": 19740
+   },
+   "bank": {
+    "fr": [
+     458668,
+     3138
+    ],
+    "frs": [
+     462206,
+     4458
+    ],
+    "en": [
+     467064,
+     2322
+    ],
+    "gl": [
+     469786,
+     5642
+    ],
+    "wd": [
+     475828,
+     19740
+    ],
+    "wp": [
+     [
+      475828,
+      4394
+     ],
+     [
+      480622,
+      3170
+     ],
+     [
+      484192,
+      3218
+     ],
+     [
+      487810,
+      3218
+     ],
+     [
+      491428,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Yo también voy a comer.»",
+   "en": "\"I'm going to eat too.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "también",
+     "too"
+    ],
+    [
+     "voy",
+     "am going"
+    ],
+    [
+     "a",
+     "to"
+    ],
+    [
+     "comer",
+     "eat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3114,
+    "frs": 4410,
+    "en": 2322,
+    "wd": 19692
+   },
+   "bank": {
+    "fr": [
+     495968,
+     3114
+    ],
+    "frs": [
+     499482,
+     4410
+    ],
+    "en": [
+     504292,
+     2322
+    ],
+    "wd": [
+     507014,
+     19692
+    ],
+    "wp": [
+     [
+      507014,
+      3242
+     ],
+     [
+      510656,
+      3218
+     ],
+     [
+      514274,
+      4394
+     ],
+     [
+      519068,
+      3170
+     ],
+     [
+      522638,
+      3218
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pablo abre la caja.",
+   "en": "Pablo opens the box.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "abre",
+     "en": "opens"
+    }
+   ],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "abre",
+     "opens"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "gl": 5522,
+    "wd": 17418
+   },
+   "bank": {
+    "fr": [
+     527106,
+     2874
+    ],
+    "frs": [
+     530380,
+     4050
+    ],
+    "en": [
+     534830,
+     2322
+    ],
+    "gl": [
+     537552,
+     5522
+    ],
+    "wd": [
+     543474,
+     17418
+    ],
+    "wp": [
+     [
+      543474,
+      3362
+     ],
+     [
+      547236,
+      4394
+     ],
+     [
+      552030,
+      3218
+     ],
+     [
+      555648,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Qué hay en la caja?",
+   "en": "What is in the box?",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Qué",
+     "what"
+    ],
+    [
+     "hay",
+     "is there"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "caja",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2658,
+    "frs": 3738,
+    "en": 2322,
+    "wd": 20604
+   },
+   "bank": {
+    "fr": [
+     561292,
+     2658
+    ],
+    "frs": [
+     564350,
+     3738
+    ],
+    "en": [
+     568488,
+     2322
+    ],
+    "wd": [
+     571210,
+     20604
+    ],
+    "wp": [
+     [
+      571210,
+      3242
+     ],
+     [
+      574852,
+      4394
+     ],
+     [
+      579646,
+      2906
+     ],
+     [
+      582952,
+      3218
+     ],
+     [
+      586570,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No hay galletas.",
+   "en": "There are no cookies.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "hay",
+     "there are"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 1986,
+    "wd": 13872
+   },
+   "bank": {
+    "fr": [
+     592214,
+     2826
+    ],
+    "frs": [
+     595440,
+     4002
+    ],
+    "en": [
+     599842,
+     1986
+    ],
+    "wd": [
+     602228,
+     13872
+    ],
+    "wp": [
+     [
+      602228,
+      3266
+     ],
+     [
+      605894,
+      4394
+     ],
+     [
+      610688,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Hay una rana!",
+   "en": "There is a frog!",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "rana",
+     "en": "frog"
+    }
+   ],
+   "words": [
+    [
+     "Hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "rana",
+     "frog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "gl": "audio/s019_gl.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2586,
+    "frs": 3618,
+    "en": 2322,
+    "gl": 4682,
+    "wd": 12624
+   },
+   "bank": {
+    "fr": [
+     616500,
+     2586
+    ],
+    "frs": [
+     619486,
+     3618
+    ],
+    "en": [
+     623504,
+     2322
+    ],
+    "gl": [
+     626226,
+     4682
+    ],
+    "wd": [
+     631308,
+     12624
+    ],
+    "wp": [
+     [
+      631308,
+      4394
+     ],
+     [
+      636102,
+      3218
+     ],
+     [
+      639720,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rana es verde.",
+   "en": "The frog is green.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "verde",
+     "green"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322,
+    "wd": 15258
+   },
+   "bank": {
+    "fr": [
+     644332,
+     2826
+    ],
+    "frs": [
+     647558,
+     4002
+    ],
+    "en": [
+     651960,
+     2322
+    ],
+    "wd": [
+     654682,
+     15258
+    ],
+    "wp": [
+     [
+      654682,
+      3218
+     ],
+     [
+      658300,
+      3362
+     ],
+     [
+      662062,
+      3314
+     ],
+     [
+      665776,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rana es pequeña.",
+   "en": "The frog is small.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "pequeña",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2946,
+    "frs": 4146,
+    "en": 2322,
+    "wd": 15306
+   },
+   "bank": {
+    "fr": [
+     670340,
+     2946
+    ],
+    "frs": [
+     673686,
+     4146
+    ],
+    "en": [
+     678232,
+     2322
+    ],
+    "wd": [
+     680954,
+     15306
+    ],
+    "wp": [
+     [
+      680954,
+      3218
+     ],
+     [
+      684572,
+      3362
+     ],
+     [
+      688334,
+      3314
+     ],
+     [
+      692048,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Croac!»",
+   "en": "\"Croak!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Croac",
+     "croak"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2994,
+    "en": 1218,
+    "wd": 4164
+   },
+   "bank": {
+    "fr": [
+     696660,
+     2322
+    ],
+    "frs": [
+     699382,
+     2994
+    ],
+    "en": [
+     702776,
+     1218
+    ],
+    "wd": [
+     704394,
+     4164
+    ],
+    "wp": [
+     [
+      704394,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Pablo! ¡Una rana!»",
+   "en": "\"Pablo! A frog!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pablo",
+     "Pablo"
+    ],
+    [
+     "Una",
+     "a"
+    ],
+    [
+     "rana",
+     "frog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3978,
+    "frs": 5730,
+    "en": 2154,
+    "wd": 11592
+   },
+   "bank": {
+    "fr": [
+     708958,
+     3978
+    ],
+    "frs": [
+     713336,
+     5730
+    ],
+    "en": [
+     719466,
+     2154
+    ],
+    "wd": [
+     722020,
+     11592
+    ],
+    "wp": [
+     [
+      722020,
+      3362
+     ],
+     [
+      725782,
+      3218
+     ],
+     [
+      729400,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Rana, ¿tú comes galletas?»",
+   "en": "\"Frog, do you eat cookies?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Rana",
+     "frog"
+    ],
+    [
+     "tú",
+     "you"
+    ],
+    [
+     "comes",
+     "eat"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3642,
+    "frs": 5226,
+    "en": 2490,
+    "wd": 16434
+   },
+   "bank": {
+    "fr": [
+     734012,
+     3642
+    ],
+    "frs": [
+     738054,
+     5226
+    ],
+    "en": [
+     743680,
+     2490
+    ],
+    "wd": [
+     746570,
+     16434
+    ],
+    "wp": [
+     [
+      746570,
+      3362
+     ],
+     [
+      750332,
+      3242
+     ],
+     [
+      753974,
+      3218
+     ],
+     [
+      757592,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rana no habla.",
+   "en": "The frog does not talk.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "habla",
+     "talks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2754,
+    "frs": 3858,
+    "en": 2322,
+    "wd": 15282
+   },
+   "bank": {
+    "fr": [
+     763404,
+     2754
+    ],
+    "frs": [
+     766558,
+     3858
+    ],
+    "en": [
+     770816,
+     2322
+    ],
+    "wd": [
+     773538,
+     15282
+    ],
+    "wp": [
+     [
+      773538,
+      3218
+     ],
+     [
+      777156,
+      3362
+     ],
+     [
+      780918,
+      3290
+     ],
+     [
+      784608,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate está aquí.",
+   "en": "Tomate is here.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "aquí",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2826,
+    "frs": 4002,
+    "en": 2322,
+    "wd": 11616
+   },
+   "bank": {
+    "fr": [
+     789220,
+     2826
+    ],
+    "frs": [
+     792446,
+     4002
+    ],
+    "en": [
+     796848,
+     2322
+    ],
+    "wd": [
+     799570,
+     11616
+    ],
+    "wp": [
+     [
+      799570,
+      3362
+     ],
+     [
+      803332,
+      3314
+     ],
+     [
+      807046,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomate va a coger la rana.",
+   "en": "Tomate is going to catch the frog.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "va",
+     "is going"
+    ],
+    [
+     "a",
+     "to"
+    ],
+    [
+     "coger",
+     "catch"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4746,
+    "en": 2442,
+    "wd": 23718
+   },
+   "bank": {
+    "fr": [
+     811586,
+     3330
+    ],
+    "frs": [
+     815316,
+     4746
+    ],
+    "en": [
+     820462,
+     2442
+    ],
+    "wd": [
+     823304,
+     23718
+    ],
+    "wp": [
+     [
+      823304,
+      3362
+     ],
+     [
+      827066,
+      4394
+     ],
+     [
+      831860,
+      3170
+     ],
+     [
+      835430,
+      3362
+     ],
+     [
+      839192,
+      3218
+     ],
+     [
+      842810,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡No, Tomate! ¡No!»",
+   "en": "\"No, Tomate! No!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "Tomate",
+     "Tomate"
+    ],
+    [
+     "No",
+     "no"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 4002,
+    "frs": 5730,
+    "en": 2250,
+    "wd": 11544
+   },
+   "bank": {
+    "fr": [
+     847422,
+     4002
+    ],
+    "frs": [
+     851824,
+     5730
+    ],
+    "en": [
+     857954,
+     2250
+    ],
+    "wd": [
+     860604,
+     11544
+    ],
+    "wp": [
+     [
+      860604,
+      3266
+     ],
+     [
+      864270,
+      3362
+     ],
+     [
+      868032,
+      3266
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Dónde está la rana?",
+   "en": "Where is the frog?",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Dónde",
+     "where"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 15234
+   },
+   "bank": {
+    "fr": [
+     872548,
+     2874
+    ],
+    "frs": [
+     875822,
+     4050
+    ],
+    "en": [
+     880272,
+     2322
+    ],
+    "wd": [
+     882994,
+     15234
+    ],
+    "wp": [
+     [
+      882994,
+      3290
+     ],
+     [
+      886684,
+      3314
+     ],
+     [
+      890398,
+      3218
+     ],
+     [
+      894016,
+      3362
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rana no está.",
+   "en": "The frog is not there.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "está",
+     "is there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3834,
+    "en": 2322,
+    "wd": 16314
+   },
+   "bank": {
+    "fr": [
+     898628,
+     2730
+    ],
+    "frs": [
+     901758,
+     3834
+    ],
+    "en": [
+     905992,
+     2322
+    ],
+    "wd": [
+     908714,
+     16314
+    ],
+    "wp": [
+     [
+      908714,
+      3218
+     ],
+     [
+      912332,
+      3362
+     ],
+     [
+      916094,
+      3290
+     ],
+     [
+      919784,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Y dónde están las galletas?",
+   "en": "And where are the cookies?",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "dónde",
+     "where"
+    ],
+    [
+     "están",
+     "are"
+    ],
+    [
+     "las",
+     "the"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3354,
+    "frs": 4770,
+    "en": 2322,
+    "wd": 19980
+   },
+   "bank": {
+    "fr": [
+     925428,
+     3354
+    ],
+    "frs": [
+     929182,
+     4770
+    ],
+    "en": [
+     934352,
+     2322
+    ],
+    "wd": [
+     937074,
+     19980
+    ],
+    "wp": [
+     [
+      937074,
+      3194
+     ],
+     [
+      940668,
+      3290
+     ],
+     [
+      944358,
+      3266
+     ],
+     [
+      948024,
+      3218
+     ],
+     [
+      951642,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela duerme...",
+   "en": "Grandma is sleeping...",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "duerme",
+     "is sleeping"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2874,
+    "frs": 4050,
+    "en": 2322,
+    "wd": 12600
+   },
+   "bank": {
+    "fr": [
+     957454,
+     2874
+    ],
+    "frs": [
+     960728,
+     4050
+    ],
+    "en": [
+     965178,
+     2322
+    ],
+    "wd": [
+     967900,
+     12600
+    ],
+    "wp": [
+     [
+      967900,
+      3218
+     ],
+     [
+      971518,
+      3338
+     ],
+     [
+      975256,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela come una galleta.",
+   "en": "Grandma is eating a cookie.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "come",
+     "is eating"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "galleta",
+     "cookie"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3426,
+    "frs": 4866,
+    "en": 2442,
+    "wd": 19908
+   },
+   "bank": {
+    "fr": [
+     980900,
+     3426
+    ],
+    "frs": [
+     984726,
+     4866
+    ],
+    "en": [
+     989992,
+     2442
+    ],
+    "wd": [
+     992834,
+     19908
+    ],
+    "wp": [
+     [
+      992834,
+      3218
+     ],
+     [
+      996452,
+      3338
+     ],
+     [
+      1000190,
+      4394
+     ],
+     [
+      1004984,
+      3218
+     ],
+     [
+      1008602,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡La abuela tiene las galletas!",
+   "en": "Grandma has the cookies!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "abuela",
+     "grandma"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "las",
+     "the"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3522,
+    "frs": 5010,
+    "en": 2322,
+    "wd": 20172
+   },
+   "bank": {
+    "fr": [
+     1013142,
+     3522
+    ],
+    "frs": [
+     1017064,
+     5010
+    ],
+    "en": [
+     1022474,
+     2322
+    ],
+    "wd": [
+     1025195,
+     20172
+    ],
+    "wp": [
+     [
+      1025195,
+      3218
+     ],
+     [
+      1028813,
+      3338
+     ],
+     [
+      1032551,
+      3386
+     ],
+     [
+      1036337,
+      3218
+     ],
+     [
+      1039955,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Abuela! ¿Tú comes galletas?»",
+   "en": "\"Grandma! Are you eating cookies?\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Abuela",
+     "grandma"
+    ],
+    [
+     "Tú",
+     "you"
+    ],
+    [
+     "comes",
+     "are eating"
+    ],
+    [
+     "galletas",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 4626,
+    "frs": 6690,
+    "en": 2922,
+    "wd": 16578
+   },
+   "bank": {
+    "fr": [
+     1045768,
+     4626
+    ],
+    "frs": [
+     1050794,
+     6690
+    ],
+    "en": [
+     1057884,
+     2922
+    ],
+    "wd": [
+     1061206,
+     16578
+    ],
+    "wp": [
+     [
+      1061206,
+      3338
+     ],
+     [
+      1064944,
+      3242
+     ],
+     [
+      1068586,
+      3386
+     ],
+     [
+      1072372,
+      4562
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Qué? Yo no duermo.»",
+   "en": "\"What? I am not sleeping.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Qué",
+     "what"
+    ],
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "no",
+     "not"
+    ],
+    [
+     "duermo",
+     "am sleeping"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 3882,
+    "frs": 5562,
+    "en": 2394,
+    "wd": 16218
+   },
+   "bank": {
+    "fr": [
+     1078184,
+     3882
+    ],
+    "frs": [
+     1082466,
+     5562
+    ],
+    "en": [
+     1088428,
+     2394
+    ],
+    "wd": [
+     1091222,
+     16218
+    ],
+    "wp": [
+     [
+      1091222,
+      3242
+     ],
+     [
+      1094864,
+      3242
+     ],
+     [
+      1098506,
+      3290
+     ],
+     [
+      1102196,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Croac.»",
+   "en": "\"Croak.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Croac",
+     "croak"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 2994,
+    "en": 2322,
+    "wd": 4164
+   },
+   "bank": {
+    "fr": [
+     1107840,
+     2322
+    ],
+    "frs": [
+     1110562,
+     2994
+    ],
+    "en": [
+     1113956,
+     2322
+    ],
+    "wd": [
+     1116678,
+     4164
+    ],
+    "wp": [
+     [
+      1116678,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Quién habla?",
+   "en": "Who is talking?",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Quién",
+     "who"
+    ],
+    [
+     "habla",
+     "is talking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 2322,
+    "frs": 3210,
+    "en": 2322,
+    "wd": 8862
+   },
+   "bank": {
+    "fr": [
+     1121242,
+     2322
+    ],
+    "frs": [
+     1123964,
+     3210
+    ],
+    "en": [
+     1127574,
+     2322
+    ],
+    "wd": [
+     1130296,
+     8862
+    ],
+    "wp": [
+     [
+      1130296,
+      3218
+     ],
+     [
+      1133914,
+      4394
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Hay una rana en el sombrero!",
+   "en": "There is a frog in the hat!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "el",
+     "the"
+    ],
+    [
+     "sombrero",
+     "hat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 3306,
+    "frs": 4722,
+    "en": 2322,
+    "wd": 23262
+   },
+   "bank": {
+    "fr": [
+     1139558,
+     3306
+    ],
+    "frs": [
+     1143264,
+     4722
+    ],
+    "en": [
+     1148386,
+     2322
+    ],
+    "wd": [
+     1151108,
+     23262
+    ],
+    "wp": [
+     [
+      1151108,
+      4394
+     ],
+     [
+      1155902,
+      3218
+     ],
+     [
+      1159520,
+      3362
+     ],
+     [
+      1163282,
+      2906
+     ],
+     [
+      1166588,
+      3218
+     ],
+     [
+      1170206,
+      3314
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rana va a dormir.",
+   "en": "The frog is going to sleep.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La",
+     "the"
+    ],
+    [
+     "rana",
+     "frog"
+    ],
+    [
+     "va",
+     "is going"
+    ],
+    [
+     "a",
+     "to"
+    ],
+    [
+     "dormir",
+     "sleep"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 2994,
+    "frs": 4218,
+    "en": 2322,
+    "wd": 19908
+   },
+   "bank": {
+    "fr": [
+     1174770,
+     2994
+    ],
+    "frs": [
+     1178164,
+     4218
+    ],
+    "en": [
+     1182782,
+     2322
+    ],
+    "wd": [
+     1185504,
+     19908
+    ],
+    "wp": [
+     [
+      1185504,
+      3218
+     ],
+     [
+      1189122,
+      3362
+     ],
+     [
+      1192884,
+      4394
+     ],
+     [
+      1197678,
+      3170
+     ],
+     [
+      1201248,
+      3314
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   23490
+  ],
+  "silence": [
+   24290,
+   30000
+  ]
+ }
+}
