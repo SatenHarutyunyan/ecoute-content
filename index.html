@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.42";
+const VERSION = "web 0.43";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -895,7 +895,8 @@ function onbDemos() {
 function onbShow() {
   const el = $("onb"), box = el.querySelector(".in");
   const L = ONB.lang ? LANGS[ONB.lang][0] : "";
-  const steps = ONB.mode === "story" ? 5 : 4, at = ONB.step === 4 && ONB.mode !== "story" ? 3 : ONB.step;
+  // always 4 bars (Saten: the count jumping from 4 to 5 looked odd): name, language, how to listen (+ its pattern), wishes
+  const steps = 4, at = [0, 1, 2, 2, 3][ONB.step];
   const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= at ? "on" : ""}"></i>`).join("")}</div>`;
   let html = "";
   if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
