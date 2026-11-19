@@ -1,0 +1,10251 @@
+{
+ "id": "maupassant_la_peur",
+ "lang": "fr",
+ "title": "La Peur",
+ "author": "Guy de Maupassant",
+ "level": "B2",
+ "series": "",
+ "episode": "",
+ "note": "On a night train crossing France, the narrator listens to a strange old man talk about fear, and remembers a story Turgenev once told at Flaubert's house. The story uses the passé simple (\"il dit\", \"nous vîmes\": he said, we saw).",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20950,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Le train filait, à toute vapeur, dans les ténèbres.",
+   "en": "The train was speeding along, at full steam, through the darkness.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "ténèbres",
+     "en": "darkness"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3"
+   },
+   "ms": {
+    "fr": 4130,
+    "frs": 5790,
+    "en": 4780,
+    "gl": 3220
+   },
+   "bank": {
+    "fr": [
+     52150,
+     4130
+    ],
+    "frs": [
+     56680,
+     5790
+    ],
+    "en": [
+     62870,
+     4780
+    ],
+    "gl": [
+     68050,
+     3220
+    ]
+   }
+  },
+  {
+   "fr": "Je me trouvais seul, en face d'un vieux monsieur",
+   "en": "I found myself alone, opposite an old gentleman",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4680,
+    "en": 3700
+   },
+   "bank": {
+    "fr": [
+     71670,
+     3390
+    ],
+    "frs": [
+     75460,
+     4680
+    ],
+    "en": [
+     80540,
+     3700
+    ]
+   }
+  },
+  {
+   "fr": "qui regardait par la portière.",
+   "en": "who was looking out of the carriage door.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "portière",
+     "en": "carriage door"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3"
+   },
+   "ms": {
+    "fr": 2430,
+    "frs": 3250,
+    "en": 2160,
+    "gl": 3580
+   },
+   "bank": {
+    "fr": [
+     84640,
+     2430
+    ],
+    "frs": [
+     87470,
+     3250
+    ],
+    "en": [
+     91120,
+     2160
+    ],
+    "gl": [
+     93680,
+     3580
+    ]
+   }
+  },
+  {
+   "fr": "On sentait fortement le phénol dans ce wagon du Paris-Lyon-Méditerranée,",
+   "en": "There was a strong smell of carbolic in this carriage of the Paris-Lyon-Mediterranean line,",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "frs": 6370,
+    "en": 5360
+   },
+   "bank": {
+    "fr": [
+     97660,
+     4490
+    ],
+    "frs": [
+     102550,
+     6370
+    ],
+    "en": [
+     109320,
+     5360
+    ]
+   }
+  },
+  {
+   "fr": "venu sans doute de Marseille.",
+   "en": "which had no doubt come from Marseille.",
+   "para": 2,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3290,
+    "en": 2440
+   },
+   "bank": {
+    "fr": [
+     115080,
+     2450
+    ],
+    "frs": [
+     117930,
+     3290
+    ],
+    "en": [
+     121620,
+     2440
+    ]
+   }
+  },
+  {
+   "fr": "C'était par une nuit sans lune, sans air, brûlante.",
+   "en": "It was a moonless night, airless, scorching.",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "frs": 5660,
+    "en": 3390
+   },
+   "bank": {
+    "fr": [
+     124460,
+     4040
+    ],
+    "frs": [
+     128900,
+     5660
+    ],
+    "en": [
+     134960,
+     3390
+    ]
+   }
+  },
+  {
+   "fr": "On ne voyait point d'étoiles,",
+   "en": "No stars could be seen,",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "frs": 2930,
+    "en": 1930
+   },
+   "bank": {
+    "fr": [
+     138750,
+     2220
+    ],
+    "frs": [
+     141370,
+     2930
+    ],
+    "en": [
+     144700,
+     1930
+    ]
+   }
+  },
+  {
+   "fr": "et le souffle du train lancé nous jetait quelque chose de chaud,",
+   "en": "and the breath of the speeding train threw at us something hot,",
+   "para": 3,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3"
+   },
+   "ms": {
+    "fr": 3670,
+    "frs": 5110,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     147030,
+     3670
+    ],
+    "frs": [
+     151100,
+     5110
+    ],
+    "en": [
+     156610,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "de mou, d'accablant, d'irrespirable.",
+   "en": "soft, oppressive, unbreathable.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "accablant",
+     "en": "oppressive"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3"
+   },
+   "ms": {
+    "fr": 3410,
+    "frs": 4730,
+    "en": 2880,
+    "gl": 3270
+   },
+   "bank": {
+    "fr": [
+     160580,
+     3410
+    ],
+    "frs": [
+     164390,
+     4730
+    ],
+    "en": [
+     169520,
+     2880
+    ],
+    "gl": [
+     172800,
+     3270
+    ]
+   }
+  },
+  {
+   "fr": "Partis de Paris depuis trois heures,",
+   "en": "We had left Paris three hours before,",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3"
+   },
+   "ms": {
+    "fr": 2520,
+    "frs": 3410,
+    "en": 2720
+   },
+   "bank": {
+    "fr": [
+     176470,
+     2520
+    ],
+    "frs": [
+     179390,
+     3410
+    ],
+    "en": [
+     183200,
+     2720
+    ]
+   }
+  },
+  {
+   "fr": "nous allions vers le centre de la France",
+   "en": "and were heading toward the center of France",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3"
+   },
+   "ms": {
+    "fr": 2880,
+    "frs": 3910,
+    "en": 2850
+   },
+   "bank": {
+    "fr": [
+     186320,
+     2880
+    ],
+    "frs": [
+     189600,
+     3910
+    ],
+    "en": [
+     193910,
+     2850
+    ]
+   }
+  },
+  {
+   "fr": "sans rien voir des pays traversés.",
+   "en": "without seeing anything of the regions we crossed.",
+   "para": 4,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3640,
+    "en": 3100
+   },
+   "bank": {
+    "fr": [
+     197160,
+     2680
+    ],
+    "frs": [
+     200240,
+     3640
+    ],
+    "en": [
+     204280,
+     3100
+    ]
+   }
+  },
+  {
+   "fr": "Ce fut tout à coup comme une apparition fantastique.",
+   "en": "Suddenly there was something like a fantastic apparition.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3"
+   },
+   "ms": {
+    "fr": 3520,
+    "frs": 4870,
+    "en": 3470
+   },
+   "bank": {
+    "fr": [
+     207780,
+     3520
+    ],
+    "frs": [
+     211700,
+     4870
+    ],
+    "en": [
+     216970,
+     3470
+    ]
+   }
+  },
+  {
+   "fr": "Autour d'un grand feu, dans un bois, deux hommes étaient debout.",
+   "en": "Around a big fire, in a wood, two men were standing.",
+   "para": 5,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3"
+   },
+   "ms": {
+    "fr": 4270,
+    "frs": 6040,
+    "en": 4210
+   },
+   "bank": {
+    "fr": [
+     220840,
+     4270
+    ],
+    "frs": [
+     225510,
+     6040
+    ],
+    "en": [
+     231950,
+     4210
+    ]
+   }
+  },
+  {
+   "fr": "Nous vîmes cela pendant une seconde :",
+   "en": "We saw it for one second:",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3640,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     236560,
+     2680
+    ],
+    "frs": [
+     239640,
+     3640
+    ],
+    "en": [
+     243680,
+     1890
+    ]
+   }
+  },
+  {
+   "fr": "c'était, nous sembla-t-il, deux misérables en haillons,",
+   "en": "it was, so it seemed to us, two wretches in rags,",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "haillons",
+     "en": "rags"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "frs": 5830,
+    "en": 3940,
+    "gl": 2950
+   },
+   "bank": {
+    "fr": [
+     245970,
+     4140
+    ],
+    "frs": [
+     250510,
+     5830
+    ],
+    "en": [
+     256740,
+     3940
+    ],
+    "gl": [
+     261079,
+     2950
+    ]
+   }
+  },
+  {
+   "fr": "rouges dans la lueur éclatante du foyer,",
+   "en": "red in the blazing glow of the fire,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "frs": 4090,
+    "en": 2900
+   },
+   "bank": {
+    "fr": [
+     264430,
+     2990
+    ],
+    "frs": [
+     267820,
+     4090
+    ],
+    "en": [
+     272310,
+     2900
+    ]
+   }
+  },
+  {
+   "fr": "avec leurs faces barbues tournées vers nous,",
+   "en": "with their bearded faces turned toward us,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3760,
+    "en": 2830
+   },
+   "bank": {
+    "fr": [
+     275610,
+     2770
+    ],
+    "frs": [
+     278780,
+     3760
+    ],
+    "en": [
+     282940,
+     2830
+    ]
+   }
+  },
+  {
+   "fr": "et autour d'eux, comme un décor de drame,",
+   "en": "and around them, like a stage set for a drama,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "frs": 4330,
+    "en": 3270
+   },
+   "bank": {
+    "fr": [
+     286170,
+     3150
+    ],
+    "frs": [
+     289720,
+     4330
+    ],
+    "en": [
+     294450,
+     3270
+    ]
+   }
+  },
+  {
+   "fr": "les arbres verts, d'un vert clair et luisant,",
+   "en": "the green trees, a bright and shining green,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3"
+   },
+   "ms": {
+    "fr": 3380,
+    "frs": 4680,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     298120,
+     3380
+    ],
+    "frs": [
+     301900,
+     4680
+    ],
+    "en": [
+     306980,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "les troncs frappés par le vif reflet de la flamme,",
+   "en": "the trunks struck by the bright reflection of the flame,",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4440,
+    "en": 3500
+   },
+   "bank": {
+    "fr": [
+     310950,
+     3220
+    ],
+    "frs": [
+     314570,
+     4440
+    ],
+    "en": [
+     319410,
+     3500
+    ]
+   }
+  },
+  {
+   "fr": "le feuillage traversé, pénétré, mouillé",
+   "en": "the leaves crossed, pierced, soaked",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3"
+   },
+   "ms": {
+    "fr": 3760,
+    "frs": 5240,
+    "en": 3060
+   },
+   "bank": {
+    "fr": [
+     323310,
+     3760
+    ],
+    "frs": [
+     327470,
+     5240
+    ],
+    "en": [
+     333110,
+     3060
+    ]
+   }
+  },
+  {
+   "fr": "par la lumière qui coulait dedans.",
+   "en": "by the light that flowed into them.",
+   "para": 6,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3"
+   },
+   "ms": {
+    "fr": 2420,
+    "frs": 3250,
+    "en": 2240
+   },
+   "bank": {
+    "fr": [
+     336570,
+     2420
+    ],
+    "frs": [
+     339390,
+     3250
+    ],
+    "en": [
+     343040,
+     2240
+    ]
+   }
+  },
+  {
+   "fr": "Puis tout redevint noir de nouveau.",
+   "en": "Then everything went black again.",
+   "para": 7,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3170,
+    "en": 2210
+   },
+   "bank": {
+    "fr": [
+     345680,
+     2370
+    ],
+    "frs": [
+     348450,
+     3170
+    ],
+    "en": [
+     352020,
+     2210
+    ]
+   }
+  },
+  {
+   "fr": "Certes, ce fut une vision fort étrange !",
+   "en": "Certainly, it was a very strange sight!",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4700,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     354630,
+     3390
+    ],
+    "frs": [
+     358420,
+     4700
+    ],
+    "en": [
+     363520,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Que faisaient-ils dans cette forêt, ces deux rôdeurs ?",
+   "en": "What were they doing in this forest, those two prowlers?",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "rôdeurs",
+     "en": "prowlers"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4770,
+    "en": 3470,
+    "gl": 3360
+   },
+   "bank": {
+    "fr": [
+     367010,
+     3450
+    ],
+    "frs": [
+     370860,
+     4770
+    ],
+    "en": [
+     376030,
+     3470
+    ],
+    "gl": [
+     379900,
+     3360
+    ]
+   }
+  },
+  {
+   "fr": "Pourquoi ce feu dans cette nuit étouffante ?",
+   "en": "Why that fire on this stifling night?",
+   "para": 8,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3"
+   },
+   "ms": {
+    "fr": 2800,
+    "frs": 3810,
+    "en": 2620
+   },
+   "bank": {
+    "fr": [
+     383660,
+     2800
+    ],
+    "frs": [
+     386860,
+     3810
+    ],
+    "en": [
+     391070,
+     2620
+    ]
+   }
+  },
+  {
+   "fr": "Mon voisin tira sa montre et me dit :",
+   "en": "My neighbor pulled out his watch and said to me:",
+   "para": 9,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3770,
+    "en": 2880
+   },
+   "bank": {
+    "fr": [
+     394090,
+     2770
+    ],
+    "frs": [
+     397260,
+     3770
+    ],
+    "en": [
+     401430,
+     2880
+    ]
+   }
+  },
+  {
+   "fr": "« Il est juste minuit, Monsieur,",
+   "en": "\"It is exactly midnight, Monsieur,",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3"
+   },
+   "ms": {
+    "fr": 2560,
+    "frs": 3460,
+    "en": 2380
+   },
+   "bank": {
+    "fr": [
+     404710,
+     2560
+    ],
+    "frs": [
+     407670,
+     3460
+    ],
+    "en": [
+     411530,
+     2380
+    ]
+   }
+  },
+  {
+   "fr": "nous venons de voir une singulière chose. »",
+   "en": "we have just seen a peculiar thing.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "frs": 4019,
+    "en": 2320
+   },
+   "bank": {
+    "fr": [
+     414310,
+     2940
+    ],
+    "frs": [
+     417650,
+     4019
+    ],
+    "en": [
+     422070,
+     2320
+    ]
+   }
+  },
+  {
+   "fr": "J'en convins et nous commençâmes à causer,",
+   "en": "I agreed, and we began to chat,",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 3890,
+    "en": 2570
+   },
+   "bank": {
+    "fr": [
+     424790,
+     2850
+    ],
+    "frs": [
+     428040,
+     3890
+    ],
+    "en": [
+     432330,
+     2570
+    ]
+   }
+  },
+  {
+   "fr": "à chercher ce que pouvaient être ces personnages :",
+   "en": "to try to work out who these figures could be:",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4450,
+    "en": 2630
+   },
+   "bank": {
+    "fr": [
+     435300,
+     3220
+    ],
+    "frs": [
+     438920,
+     4450
+    ],
+    "en": [
+     443770,
+     2630
+    ]
+   }
+  },
+  {
+   "fr": "des malfaiteurs qui brûlaient des preuves",
+   "en": "criminals burning evidence",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 3860,
+    "en": 2270
+   },
+   "bank": {
+    "fr": [
+     446800,
+     2850
+    ],
+    "frs": [
+     450050,
+     3860
+    ],
+    "en": [
+     454310,
+     2270
+    ]
+   }
+  },
+  {
+   "fr": "ou des sorciers qui préparaient un philtre ?",
+   "en": "or sorcerers preparing a magic potion?",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "philtre",
+     "en": "magic potion"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "gl": "audio/s034_gl.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3720,
+    "en": 2910,
+    "gl": 3520
+   },
+   "bank": {
+    "fr": [
+     456980,
+     2740
+    ],
+    "frs": [
+     460120,
+     3720
+    ],
+    "en": [
+     464240,
+     2910
+    ],
+    "gl": [
+     467550,
+     3520
+    ]
+   }
+  },
+  {
+   "fr": "On n'allume pas un feu pareil, à minuit, en plein été,",
+   "en": "You don't light a fire like that, at midnight, in the middle of summer,",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3"
+   },
+   "ms": {
+    "fr": 3980,
+    "frs": 5590,
+    "en": 4240
+   },
+   "bank": {
+    "fr": [
+     471470,
+     3980
+    ],
+    "frs": [
+     475850,
+     5590
+    ],
+    "en": [
+     481840,
+     4240
+    ]
+   }
+  },
+  {
+   "fr": "dans une forêt, pour cuire la soupe ?",
+   "en": "in a forest, to cook soup?",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "frs": 4210,
+    "en": 2270
+   },
+   "bank": {
+    "fr": [
+     486480,
+     3070
+    ],
+    "frs": [
+     489950,
+     4210
+    ],
+    "en": [
+     494560,
+     2270
+    ]
+   }
+  },
+  {
+   "fr": "Que faisaient-ils donc ?",
+   "en": "So what were they doing?",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3"
+   },
+   "ms": {
+    "fr": 2000,
+    "frs": 2610,
+    "en": 1520
+   },
+   "bank": {
+    "fr": [
+     497230,
+     2000
+    ],
+    "frs": [
+     499630,
+     2610
+    ],
+    "en": [
+     502640,
+     1520
+    ]
+   }
+  },
+  {
+   "fr": "Nous ne pûmes rien imaginer de vraisemblable.",
+   "en": "We could imagine nothing plausible.",
+   "para": 11,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "frs": 4410,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     504560,
+     3200
+    ],
+    "frs": [
+     508160,
+     4410
+    ],
+    "en": [
+     512970,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "Et mon voisin se mit à parler…",
+   "en": "And my neighbor began to talk…",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3"
+   },
+   "ms": {
+    "fr": 2230,
+    "frs": 2970,
+    "en": 2090
+   },
+   "bank": {
+    "fr": [
+     515740,
+     2230
+    ],
+    "frs": [
+     518370,
+     2970
+    ],
+    "en": [
+     521740,
+     2090
+    ]
+   }
+  },
+  {
+   "fr": "C'était un vieil homme,",
+   "en": "He was an old man,",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3"
+   },
+   "ms": {
+    "fr": 1880,
+    "frs": 2440,
+    "en": 1470
+   },
+   "bank": {
+    "fr": [
+     524230,
+     1880
+    ],
+    "frs": [
+     526510,
+     2440
+    ],
+    "en": [
+     529350,
+     1470
+    ]
+   }
+  },
+  {
+   "fr": "dont je ne parvins point à déterminer la profession.",
+   "en": "whose profession I never managed to work out.",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "frs": 4980,
+    "en": 2910
+   },
+   "bank": {
+    "fr": [
+     531220,
+     3570
+    ],
+    "frs": [
+     535190,
+     4980
+    ],
+    "en": [
+     540570,
+     2910
+    ]
+   }
+  },
+  {
+   "fr": "Un original assurément, fort instruit,",
+   "en": "An eccentric, certainly, very well educated,",
+   "para": 12,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "frs": 4470,
+    "en": 3530
+   },
+   "bank": {
+    "fr": [
+     543880,
+     3230
+    ],
+    "frs": [
+     547510,
+     4470
+    ],
+    "en": [
+     552380,
+     3530
+    ]
+   }
+  },
+  {
+   "fr": "et qui semblait peut-être un peu détraqué.",
+   "en": "and who perhaps seemed a little unhinged.",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "détraqué",
+     "en": "unhinged"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "frs": "audio/s043_frs.mp3",
+    "en": "audio/s043_en.mp3",
+    "gl": "audio/s043_gl.mp3"
+   },
+   "ms": {
+    "fr": 2790,
+    "frs": 3810,
+    "en": 2610,
+    "gl": 3390
+   },
+   "bank": {
+    "fr": [
+     556310,
+     2790
+    ],
+    "frs": [
+     559500,
+     3810
+    ],
+    "en": [
+     563710,
+     2610
+    ],
+    "gl": [
+     566720,
+     3390
+    ]
+   }
+  },
+  {
+   "fr": "Mais sait-on quels sont les sages et quels sont les fous,",
+   "en": "But can we know who are the wise and who are the mad,",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "frs": "audio/s044_frs.mp3",
+    "en": "audio/s044_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4240,
+    "en": 3310
+   },
+   "bank": {
+    "fr": [
+     570510,
+     3090
+    ],
+    "frs": [
+     574000,
+     4240
+    ],
+    "en": [
+     578640,
+     3310
+    ]
+   }
+  },
+  {
+   "fr": "dans cette vie où la raison devrait souvent s'appeler sottise",
+   "en": "in this life where reason should often be called foolishness",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "frs": "audio/s045_frs.mp3",
+    "en": "audio/s045_en.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "frs": 5430,
+    "en": 4010
+   },
+   "bank": {
+    "fr": [
+     582350,
+     3870
+    ],
+    "frs": [
+     586620,
+     5430
+    ],
+    "en": [
+     592450,
+     4010
+    ]
+   }
+  },
+  {
+   "fr": "et la folie s'appeler génie ?",
+   "en": "and madness be called genius?",
+   "para": 13,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "frs": "audio/s046_frs.mp3",
+    "en": "audio/s046_en.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2890,
+    "en": 2270
+   },
+   "bank": {
+    "fr": [
+     596860,
+     2190
+    ],
+    "frs": [
+     599450,
+     2890
+    ],
+    "en": [
+     602740,
+     2270
+    ]
+   }
+  },
+  {
+   "fr": "Il disait :",
+   "en": "He was saying:",
+   "para": 14,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "frs": "audio/s047_frs.mp3",
+    "en": "audio/s047_en.mp3"
+   },
+   "ms": {
+    "fr": 1340,
+    "frs": 1630,
+    "en": 1360
+   },
+   "bank": {
+    "fr": [
+     605410,
+     1340
+    ],
+    "frs": [
+     607150,
+     1630
+    ],
+    "en": [
+     609180,
+     1360
+    ]
+   }
+  },
+  {
+   "fr": "Je suis content d'avoir vu cela.",
+   "en": "I am glad to have seen that.",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "frs": "audio/s048_frs.mp3",
+    "en": "audio/s048_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3290,
+    "en": 2000
+   },
+   "bank": {
+    "fr": [
+     610940,
+     2450
+    ],
+    "frs": [
+     613790,
+     3290
+    ],
+    "en": [
+     617480,
+     2000
+    ]
+   }
+  },
+  {
+   "fr": "J'ai éprouvé pendant quelques minutes une sensation disparue !",
+   "en": "For a few minutes I felt a sensation that has vanished!",
+   "para": 15,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "frs": "audio/s049_frs.mp3",
+    "en": "audio/s049_en.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "frs": 5410,
+    "en": 3440
+   },
+   "bank": {
+    "fr": [
+     619880,
+     3870
+    ],
+    "frs": [
+     624150,
+     5410
+    ],
+    "en": [
+     629960,
+     3440
+    ]
+   }
+  },
+  {
+   "fr": "Comme la terre devait être troublante autrefois,",
+   "en": "How disturbing the earth must have been in the old days,",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "frs": "audio/s050_frs.mp3",
+    "en": "audio/s050_en.mp3"
+   },
+   "ms": {
+    "fr": 3040,
+    "frs": 4170,
+    "en": 3380
+   },
+   "bank": {
+    "fr": [
+     633800,
+     3040
+    ],
+    "frs": [
+     637240,
+     4170
+    ],
+    "en": [
+     641810,
+     3380
+    ]
+   }
+  },
+  {
+   "fr": "quand elle était si mystérieuse !",
+   "en": "when it was so mysterious!",
+   "para": 16,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "frs": "audio/s051_frs.mp3",
+    "en": "audio/s051_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3190,
+    "en": 2090
+   },
+   "bank": {
+    "fr": [
+     645590,
+     2370
+    ],
+    "frs": [
+     648360,
+     3190
+    ],
+    "en": [
+     651950,
+     2090
+    ]
+   }
+  },
+  {
+   "fr": "À mesure qu'on lève les voiles de l'inconnu,",
+   "en": "As we lift the veils of the unknown,",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "frs": "audio/s052_frs.mp3",
+    "en": "audio/s052_en.mp3"
+   },
+   "ms": {
+    "fr": 2880,
+    "frs": 3920,
+    "en": 2800
+   },
+   "bank": {
+    "fr": [
+     654440,
+     2880
+    ],
+    "frs": [
+     657720,
+     3920
+    ],
+    "en": [
+     662040,
+     2800
+    ]
+   }
+  },
+  {
+   "fr": "on dépeuple l'imagination des hommes.",
+   "en": "we empty the imagination of men.",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "frs": "audio/s053_frs.mp3",
+    "en": "audio/s053_en.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3710,
+    "en": 2620
+   },
+   "bank": {
+    "fr": [
+     665240,
+     2740
+    ],
+    "frs": [
+     668380,
+     3710
+    ],
+    "en": [
+     672490,
+     2620
+    ]
+   }
+  },
+  {
+   "fr": "Vous ne trouvez pas, Monsieur,",
+   "en": "Don't you find, Monsieur,",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "frs": "audio/s054_frs.mp3",
+    "en": "audio/s054_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3290,
+    "en": 1780
+   },
+   "bank": {
+    "fr": [
+     675510,
+     2450
+    ],
+    "frs": [
+     678360,
+     3290
+    ],
+    "en": [
+     682050,
+     1780
+    ]
+   }
+  },
+  {
+   "fr": "que la nuit est bien vide et d'un noir bien vulgaire",
+   "en": "that the night is very empty and of a very ordinary black",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "frs": "audio/s055_frs.mp3",
+    "en": "audio/s055_en.mp3"
+   },
+   "ms": {
+    "fr": 3270,
+    "frs": 4560,
+    "en": 4250
+   },
+   "bank": {
+    "fr": [
+     684230,
+     3270
+    ],
+    "frs": [
+     687900,
+     4560
+    ],
+    "en": [
+     692860,
+     4250
+    ]
+   }
+  },
+  {
+   "fr": "depuis qu'elle n'a plus d'apparitions.",
+   "en": "since it has had no more apparitions.",
+   "para": 17,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "frs": "audio/s056_frs.mp3",
+    "en": "audio/s056_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3300,
+    "en": 2520
+   },
+   "bank": {
+    "fr": [
+     697510,
+     2450
+    ],
+    "frs": [
+     700360,
+     3300
+    ],
+    "en": [
+     704060,
+     2520
+    ]
+   }
+  },
+  {
+   "fr": "On se dit : « Plus de fantastique, plus de croyances étranges,",
+   "en": "People say to themselves: \"No more fantastic, no more strange beliefs,",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "frs": "audio/s057_frs.mp3",
+    "en": "audio/s057_en.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "frs": 6590,
+    "en": 5120
+   },
+   "bank": {
+    "fr": [
+     706980,
+     4650
+    ],
+    "frs": [
+     712030,
+     6590
+    ],
+    "en": [
+     719020,
+     5120
+    ]
+   }
+  },
+  {
+   "fr": "tout l'inexpliqué est explicable.",
+   "en": "everything unexplained can be explained.",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "frs": "audio/s058_frs.mp3",
+    "en": "audio/s058_en.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3720,
+    "en": 2790
+   },
+   "bank": {
+    "fr": [
+     724540,
+     2740
+    ],
+    "frs": [
+     727680,
+     3720
+    ],
+    "en": [
+     731800,
+     2790
+    ]
+   }
+  },
+  {
+   "fr": "Le surnaturel baisse comme un lac qu'un canal épuise ;",
+   "en": "The supernatural is shrinking like a lake drained by a canal;",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "frs": "audio/s059_frs.mp3",
+    "en": "audio/s059_en.mp3"
+   },
+   "ms": {
+    "fr": 3780,
+    "frs": 5310,
+    "en": 4220
+   },
+   "bank": {
+    "fr": [
+     734990,
+     3780
+    ],
+    "frs": [
+     739170,
+     5310
+    ],
+    "en": [
+     744880,
+     4220
+    ]
+   }
+  },
+  {
+   "fr": "la science, de jour en jour, recule les limites du merveilleux. »",
+   "en": "science, day by day, pushes back the limits of the marvelous.\"",
+   "para": 18,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "frs": "audio/s060_frs.mp3",
+    "en": "audio/s060_en.mp3"
+   },
+   "ms": {
+    "fr": 4750,
+    "frs": 6750,
+    "en": 4890
+   },
+   "bank": {
+    "fr": [
+     749500,
+     4750
+    ],
+    "frs": [
+     754650,
+     6750
+    ],
+    "en": [
+     761800,
+     4890
+    ]
+   }
+  },
+  {
+   "fr": "Eh bien, moi, Monsieur, j'appartiens à la vieille race,",
+   "en": "Well, I, Monsieur, belong to the old race,",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "frs": "audio/s061_frs.mp3",
+    "en": "audio/s061_en.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "frs": 6220,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     767090,
+     4400
+    ],
+    "frs": [
+     771890,
+     6220
+    ],
+    "en": [
+     778510,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "qui aime à croire.",
+   "en": "which loves to believe.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "frs": "audio/s062_frs.mp3",
+    "en": "audio/s062_en.mp3"
+   },
+   "ms": {
+    "fr": 1700,
+    "frs": 2170,
+    "en": 1690
+   },
+   "bank": {
+    "fr": [
+     782240,
+     1700
+    ],
+    "frs": [
+     784340,
+     2170
+    ],
+    "en": [
+     786910,
+     1690
+    ]
+   }
+  },
+  {
+   "fr": "J'appartiens à la vieille race naïve",
+   "en": "I belong to the old, naive race",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "frs": "audio/s063_frs.mp3",
+    "en": "audio/s063_en.mp3"
+   },
+   "ms": {
+    "fr": 2840,
+    "frs": 3880,
+    "en": 3000
+   },
+   "bank": {
+    "fr": [
+     789000,
+     2840
+    ],
+    "frs": [
+     792240,
+     3880
+    ],
+    "en": [
+     796520,
+     3000
+    ]
+   }
+  },
+  {
+   "fr": "accoutumée à ne pas comprendre, à ne pas chercher, à ne pas savoir,",
+   "en": "used to not understanding, not searching, not knowing,",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "frs": "audio/s064_frs.mp3",
+    "en": "audio/s064_en.mp3"
+   },
+   "ms": {
+    "fr": 4940,
+    "frs": 7050,
+    "en": 3990
+   },
+   "bank": {
+    "fr": [
+     799920,
+     4940
+    ],
+    "frs": [
+     805260,
+     7050
+    ],
+    "en": [
+     812710,
+     3990
+    ]
+   }
+  },
+  {
+   "fr": "faite aux mystères environnants",
+   "en": "accustomed to the mysteries all around",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "frs": "audio/s065_frs.mp3",
+    "en": "audio/s065_en.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 3000,
+    "en": 3050
+   },
+   "bank": {
+    "fr": [
+     817100,
+     2250
+    ],
+    "frs": [
+     819750,
+     3000
+    ],
+    "en": [
+     823150,
+     3050
+    ]
+   }
+  },
+  {
+   "fr": "et qui se refuse à la simple et nette vérité.",
+   "en": "and which refuses the simple, clear truth.",
+   "para": 19,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "frs": "audio/s066_frs.mp3",
+    "en": "audio/s066_en.mp3"
+   },
+   "ms": {
+    "fr": 3130,
+    "frs": 4300,
+    "en": 3410
+   },
+   "bank": {
+    "fr": [
+     826600,
+     3130
+    ],
+    "frs": [
+     830130,
+     4300
+    ],
+    "en": [
+     834830,
+     3410
+    ]
+   }
+  },
+  {
+   "fr": "Oui, Monsieur, on a dépeuplé l'imagination",
+   "en": "Yes, Monsieur, we have emptied the imagination",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "frs": "audio/s067_frs.mp3",
+    "en": "audio/s067_en.mp3"
+   },
+   "ms": {
+    "fr": 3770,
+    "frs": 5270,
+    "en": 3730
+   },
+   "bank": {
+    "fr": [
+     838640,
+     3770
+    ],
+    "frs": [
+     842810,
+     5270
+    ],
+    "en": [
+     848480,
+     3730
+    ]
+   }
+  },
+  {
+   "fr": "en surprenant l'invisible.",
+   "en": "by catching the invisible off guard.",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "frs": "audio/s068_frs.mp3",
+    "en": "audio/s068_en.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "frs": 2940,
+    "en": 2510
+   },
+   "bank": {
+    "fr": [
+     852610,
+     2220
+    ],
+    "frs": [
+     855230,
+     2940
+    ],
+    "en": [
+     858570,
+     2510
+    ]
+   }
+  },
+  {
+   "fr": "Notre terre m'apparaît aujourd'hui comme un monde abandonné,",
+   "en": "Our earth seems to me today like an abandoned world,",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "frs": "audio/s069_frs.mp3",
+    "en": "audio/s069_en.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4950,
+    "en": 3350
+   },
+   "bank": {
+    "fr": [
+     861480,
+     3560
+    ],
+    "frs": [
+     865440,
+     4950
+    ],
+    "en": [
+     870790,
+     3350
+    ]
+   }
+  },
+  {
+   "fr": "vide et nu.",
+   "en": "empty and bare.",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "frs": "audio/s070_frs.mp3",
+    "en": "audio/s070_en.mp3"
+   },
+   "ms": {
+    "fr": 1430,
+    "frs": 1760,
+    "en": 1560
+   },
+   "bank": {
+    "fr": [
+     874540,
+     1430
+    ],
+    "frs": [
+     876370,
+     1760
+    ],
+    "en": [
+     878530,
+     1560
+    ]
+   }
+  },
+  {
+   "fr": "Les croyances sont parties qui la rendaient poétique.",
+   "en": "The beliefs that made it poetic are gone.",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "frs": "audio/s071_frs.mp3",
+    "en": "audio/s071_en.mp3"
+   },
+   "ms": {
+    "fr": 3610,
+    "frs": 5020,
+    "en": 2690
+   },
+   "bank": {
+    "fr": [
+     880490,
+     3610
+    ],
+    "frs": [
+     884500,
+     5020
+    ],
+    "en": [
+     889920,
+     2690
+    ]
+   }
+  },
+  {
+   "fr": "Quand je sors la nuit,",
+   "en": "When I go out at night,",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "frs": "audio/s072_frs.mp3",
+    "en": "audio/s072_en.mp3"
+   },
+   "ms": {
+    "fr": 1760,
+    "frs": 2240,
+    "en": 1600
+   },
+   "bank": {
+    "fr": [
+     893010,
+     1760
+    ],
+    "frs": [
+     895170,
+     2240
+    ],
+    "en": [
+     897810,
+     1600
+    ]
+   }
+  },
+  {
+   "fr": "comme je voudrais frissonner de cette angoisse",
+   "en": "how I would love to shiver with that dread",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "frs": "audio/s073_frs.mp3",
+    "en": "audio/s073_en.mp3"
+   },
+   "ms": {
+    "fr": 3060,
+    "frs": 4210,
+    "en": 2690
+   },
+   "bank": {
+    "fr": [
+     899810,
+     3060
+    ],
+    "frs": [
+     903270,
+     4210
+    ],
+    "en": [
+     907880,
+     2690
+    ]
+   }
+  },
+  {
+   "fr": "qui fait se signer les vieilles femmes",
+   "en": "which makes old women cross themselves",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "frs": "audio/s074_frs.mp3",
+    "en": "audio/s074_en.mp3"
+   },
+   "ms": {
+    "fr": 2420,
+    "frs": 3260,
+    "en": 2700
+   },
+   "bank": {
+    "fr": [
+     910970,
+     2420
+    ],
+    "frs": [
+     913790,
+     3260
+    ],
+    "en": [
+     917450,
+     2700
+    ]
+   }
+  },
+  {
+   "fr": "le long des murs des cimetières",
+   "en": "along the cemetery walls",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "frs": "audio/s075_frs.mp3",
+    "en": "audio/s075_en.mp3"
+   },
+   "ms": {
+    "fr": 2390,
+    "frs": 3210,
+    "en": 2130
+   },
+   "bank": {
+    "fr": [
+     920550,
+     2390
+    ],
+    "frs": [
+     923340,
+     3210
+    ],
+    "en": [
+     926950,
+     2130
+    ]
+   }
+  },
+  {
+   "fr": "et se sauver les derniers superstitieux",
+   "en": "and makes the last superstitious people run away",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "frs": "audio/s076_frs.mp3",
+    "en": "audio/s076_en.mp3"
+   },
+   "ms": {
+    "fr": 2720,
+    "frs": 3700,
+    "en": 3400
+   },
+   "bank": {
+    "fr": [
+     929480,
+     2720
+    ],
+    "frs": [
+     932600,
+     3700
+    ],
+    "en": [
+     936700,
+     3400
+    ]
+   }
+  },
+  {
+   "fr": "devant les vapeurs étranges des marais",
+   "en": "from the strange mists of the marshes",
+   "para": 20,
+   "glosses": [
+    {
+     "fr": "marais",
+     "en": "marshes"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "frs": "audio/s077_frs.mp3",
+    "en": "audio/s077_en.mp3",
+    "gl": "audio/s077_gl.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3720,
+    "en": 2750,
+    "gl": 3040
+   },
+   "bank": {
+    "fr": [
+     940500,
+     2740
+    ],
+    "frs": [
+     943640,
+     3720
+    ],
+    "en": [
+     947760,
+     2750
+    ],
+    "gl": [
+     950910,
+     3040
+    ]
+   }
+  },
+  {
+   "fr": "et les fantasques feux follets !",
+   "en": "and the whimsical will-o'-the-wisps!",
+   "para": 20,
+   "glosses": [
+    {
+     "fr": "feux follets",
+     "en": "will-o'-the-wisps"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "frs": "audio/s078_frs.mp3",
+    "en": "audio/s078_en.mp3",
+    "gl": "audio/s078_gl.mp3"
+   },
+   "ms": {
+    "fr": 2150,
+    "frs": 2840,
+    "en": 2650,
+    "gl": 3790
+   },
+   "bank": {
+    "fr": [
+     954350,
+     2150
+    ],
+    "frs": [
+     956900,
+     2840
+    ],
+    "en": [
+     960140,
+     2650
+    ],
+    "gl": [
+     963190,
+     3790
+    ]
+   }
+  },
+  {
+   "fr": "Comme je voudrais croire à ce quelque chose de vague et de terrifiant",
+   "en": "How I would love to believe in that vague and terrifying something",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "frs": "audio/s079_frs.mp3",
+    "en": "audio/s079_en.mp3"
+   },
+   "ms": {
+    "fr": 4080,
+    "frs": 5740,
+    "en": 4170
+   },
+   "bank": {
+    "fr": [
+     967380,
+     4080
+    ],
+    "frs": [
+     971860,
+     5740
+    ],
+    "en": [
+     978000,
+     4170
+    ]
+   }
+  },
+  {
+   "fr": "qu'on s'imaginait sentir passer dans l'ombre.",
+   "en": "which people imagined they felt passing in the shadows.",
+   "para": 20,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "frs": "audio/s080_frs.mp3",
+    "en": "audio/s080_en.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4080,
+    "en": 3360
+   },
+   "bank": {
+    "fr": [
+     982570,
+     2980
+    ],
+    "frs": [
+     985950,
+     4080
+    ],
+    "en": [
+     990430,
+     3360
+    ]
+   }
+  },
+  {
+   "fr": "Comme l'obscurité des soirs devait être sombre, terrible, autrefois,",
+   "en": "How dark, how terrible the evening darkness must have been, long ago,",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "frs": "audio/s081_frs.mp3",
+    "en": "audio/s081_en.mp3"
+   },
+   "ms": {
+    "fr": 4760,
+    "frs": 6760,
+    "en": 5090
+   },
+   "bank": {
+    "fr": [
+     994190,
+     4760
+    ],
+    "frs": [
+     999350,
+     6760
+    ],
+    "en": [
+     1006510,
+     5090
+    ]
+   }
+  },
+  {
+   "fr": "quand elle était pleine d'êtres fabuleux, inconnus,",
+   "en": "when it was full of fabulous, unknown beings,",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "frs": "audio/s082_frs.mp3",
+    "en": "audio/s082_en.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4690,
+    "en": 3370
+   },
+   "bank": {
+    "fr": [
+     1012000,
+     3390
+    ],
+    "frs": [
+     1015790,
+     4690
+    ],
+    "en": [
+     1020880,
+     3370
+    ]
+   }
+  },
+  {
+   "fr": "rôdeurs méchants, dont on ne pouvait deviner les formes,",
+   "en": "evil prowlers whose shapes no one could guess,",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "frs": "audio/s083_frs.mp3",
+    "en": "audio/s083_en.mp3"
+   },
+   "ms": {
+    "fr": 3790,
+    "frs": 5300,
+    "en": 2990
+   },
+   "bank": {
+    "fr": [
+     1024650,
+     3790
+    ],
+    "frs": [
+     1028839,
+     5300
+    ],
+    "en": [
+     1034540,
+     2990
+    ]
+   }
+  },
+  {
+   "fr": "dont l'appréhension glaçait le cœur,",
+   "en": "the dread of which froze the heart,",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "frs": "audio/s084_frs.mp3",
+    "en": "audio/s084_en.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "frs": 3580,
+    "en": 2330
+   },
+   "bank": {
+    "fr": [
+     1037930,
+     2660
+    ],
+    "frs": [
+     1040990,
+     3580
+    ],
+    "en": [
+     1044970,
+     2330
+    ]
+   }
+  },
+  {
+   "fr": "dont la puissance occulte passait les bornes de notre pensée,",
+   "en": "whose hidden power went beyond the limits of our thought,",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "frs": "audio/s085_frs.mp3",
+    "en": "audio/s085_en.mp3"
+   },
+   "ms": {
+    "fr": 3830,
+    "frs": 5370,
+    "en": 3490
+   },
+   "bank": {
+    "fr": [
+     1047700,
+     3830
+    ],
+    "frs": [
+     1051930,
+     5370
+    ],
+    "en": [
+     1057700,
+     3490
+    ]
+   }
+  },
+  {
+   "fr": "et dont l'atteinte était inévitable ?",
+   "en": "and whose reach could not be escaped?",
+   "para": 21,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "frs": "audio/s086_frs.mp3",
+    "en": "audio/s086_en.mp3"
+   },
+   "ms": {
+    "fr": 2590,
+    "frs": 3490,
+    "en": 2600
+   },
+   "bank": {
+    "fr": [
+     1061590,
+     2590
+    ],
+    "frs": [
+     1064580,
+     3490
+    ],
+    "en": [
+     1068470,
+     2600
+    ]
+   }
+  },
+  {
+   "fr": "Avec le surnaturel, la vraie peur a disparu de la terre,",
+   "en": "With the supernatural, true fear has vanished from the earth,",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "frs": "audio/s087_frs.mp3",
+    "en": "audio/s087_en.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "frs": 6110,
+    "en": 4110
+   },
+   "bank": {
+    "fr": [
+     1071470,
+     4320
+    ],
+    "frs": [
+     1076190,
+     6110
+    ],
+    "en": [
+     1082700,
+     4110
+    ]
+   }
+  },
+  {
+   "fr": "car on n'a vraiment peur que de ce qu'on ne comprend pas.",
+   "en": "because we are only truly afraid of what we do not understand.",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "frs": "audio/s088_frs.mp3",
+    "en": "audio/s088_en.mp3"
+   },
+   "ms": {
+    "fr": 3260,
+    "frs": 4520,
+    "en": 4050
+   },
+   "bank": {
+    "fr": [
+     1087210,
+     3260
+    ],
+    "frs": [
+     1090870,
+     4520
+    ],
+    "en": [
+     1095790,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "Les dangers visibles peuvent émouvoir, troubler, effrayer !",
+   "en": "Visible dangers can move us, disturb us, frighten us!",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "frs": "audio/s089_frs.mp3",
+    "en": "audio/s089_en.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "frs": 6190,
+    "en": 4360
+   },
+   "bank": {
+    "fr": [
+     1100240,
+     4380
+    ],
+    "frs": [
+     1105020,
+     6190
+    ],
+    "en": [
+     1111610,
+     4360
+    ]
+   }
+  },
+  {
+   "fr": "Qu'est cela auprès de la convulsion que donne à l'âme la pensée",
+   "en": "What is that next to the convulsion the soul feels at the thought",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "frs": "audio/s090_frs.mp3",
+    "en": "audio/s090_en.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "frs": 5410,
+    "en": 3730
+   },
+   "bank": {
+    "fr": [
+     1116370,
+     3870
+    ],
+    "frs": [
+     1120640,
+     5410
+    ],
+    "en": [
+     1126450,
+     3730
+    ]
+   }
+  },
+  {
+   "fr": "qu'on va rencontrer un spectre errant,",
+   "en": "that we are going to meet a wandering ghost,",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "frs": "audio/s091_frs.mp3",
+    "en": "audio/s091_en.mp3"
+   },
+   "ms": {
+    "fr": 2550,
+    "frs": 3430,
+    "en": 2900
+   },
+   "bank": {
+    "fr": [
+     1130580,
+     2550
+    ],
+    "frs": [
+     1133530,
+     3430
+    ],
+    "en": [
+     1137360,
+     2900
+    ]
+   }
+  },
+  {
+   "fr": "qu'on va subir l'étreinte d'un mort,",
+   "en": "that we are going to suffer the grip of a dead man,",
+   "para": 22,
+   "glosses": [
+    {
+     "fr": "étreinte",
+     "en": "grip, embrace"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "frs": "audio/s092_frs.mp3",
+    "en": "audio/s092_en.mp3",
+    "gl": "audio/s092_gl.mp3"
+   },
+   "ms": {
+    "fr": 2580,
+    "frs": 3480,
+    "en": 3050,
+    "gl": 3750
+   },
+   "bank": {
+    "fr": [
+     1140660,
+     2580
+    ],
+    "frs": [
+     1143640,
+     3480
+    ],
+    "en": [
+     1147520,
+     3050
+    ],
+    "gl": [
+     1150970,
+     3750
+    ]
+   }
+  },
+  {
+   "fr": "qu'on va voir accourir une de ces bêtes effroyables",
+   "en": "that we are going to see one of those dreadful beasts come running",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "frs": "audio/s093_frs.mp3",
+    "en": "audio/s093_en.mp3"
+   },
+   "ms": {
+    "fr": 3430,
+    "frs": 4750,
+    "en": 3600
+   },
+   "bank": {
+    "fr": [
+     1155120,
+     3430
+    ],
+    "frs": [
+     1158950,
+     4750
+    ],
+    "en": [
+     1164100,
+     3600
+    ]
+   }
+  },
+  {
+   "fr": "qu'inventa l'épouvante des hommes ?",
+   "en": "invented by the terror of men?",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "frs": "audio/s094_frs.mp3",
+    "en": "audio/s094_en.mp3"
+   },
+   "ms": {
+    "fr": 2500,
+    "frs": 3360,
+    "en": 2290
+   },
+   "bank": {
+    "fr": [
+     1168100,
+     2500
+    ],
+    "frs": [
+     1171000,
+     3360
+    ],
+    "en": [
+     1174760,
+     2290
+    ]
+   }
+  },
+  {
+   "fr": "Les ténèbres me semblent claires",
+   "en": "The darkness seems bright to me",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "frs": "audio/s095_frs.mp3",
+    "en": "audio/s095_en.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3400,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1177450,
+     2530
+    ],
+    "frs": [
+     1180380,
+     3400
+    ],
+    "en": [
+     1184180,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "depuis qu'elles ne sont plus hantées.",
+   "en": "since it is no longer haunted.",
+   "para": 22,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "frs": "audio/s096_frs.mp3",
+    "en": "audio/s096_en.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 3030,
+    "en": 2060
+   },
+   "bank": {
+    "fr": [
+     1187070,
+     2290
+    ],
+    "frs": [
+     1189760,
+     3030
+    ],
+    "en": [
+     1193190,
+     2060
+    ]
+   }
+  },
+  {
+   "fr": "Et la preuve de cela,",
+   "en": "And the proof of that",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "frs": "audio/s097_frs.mp3",
+    "en": "audio/s097_en.mp3"
+   },
+   "ms": {
+    "fr": 1810,
+    "frs": 2320,
+    "en": 1550
+   },
+   "bank": {
+    "fr": [
+     1195650,
+     1810
+    ],
+    "frs": [
+     1197860,
+     2320
+    ],
+    "en": [
+     1200580,
+     1550
+    ]
+   }
+  },
+  {
+   "fr": "c'est que si nous nous trouvions seuls tout à coup dans ce bois,",
+   "en": "is that if we suddenly found ourselves alone in that wood,",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "frs": "audio/s098_frs.mp3",
+    "en": "audio/s098_en.mp3"
+   },
+   "ms": {
+    "fr": 3360,
+    "frs": 4650,
+    "en": 3520
+   },
+   "bank": {
+    "fr": [
+     1202530,
+     3360
+    ],
+    "frs": [
+     1206290,
+     4650
+    ],
+    "en": [
+     1211340,
+     3520
+    ]
+   }
+  },
+  {
+   "fr": "nous serions poursuivis par l'image des deux êtres singuliers",
+   "en": "we would be pursued by the image of the two strange beings",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "frs": "audio/s099_frs.mp3",
+    "en": "audio/s099_en.mp3"
+   },
+   "ms": {
+    "fr": 3980,
+    "frs": 5580,
+    "en": 3870
+   },
+   "bank": {
+    "fr": [
+     1215260,
+     3980
+    ],
+    "frs": [
+     1219640,
+     5580
+    ],
+    "en": [
+     1225620,
+     3870
+    ]
+   }
+  },
+  {
+   "fr": "qui viennent de nous apparaître dans l'éclair de leur foyer,",
+   "en": "who just appeared to us in the flash of their fire,",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "frs": "audio/s100_frs.mp3",
+    "en": "audio/s100_en.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4850,
+    "en": 2960
+   },
+   "bank": {
+    "fr": [
+     1229890,
+     3490
+    ],
+    "frs": [
+     1233780,
+     4850
+    ],
+    "en": [
+     1239030,
+     2960
+    ]
+   }
+  },
+  {
+   "fr": "bien plus que par l'appréhension d'un danger quelconque et réel.",
+   "en": "much more than by the fear of any real danger.",
+   "para": 23,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "frs": "audio/s101_frs.mp3",
+    "en": "audio/s101_en.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "frs": 5710,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     1242390,
+     4059
+    ],
+    "frs": [
+     1246850,
+     5710
+    ],
+    "en": [
+     1252960,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Il répéta : « On n'a vraiment peur que de ce qu'on ne comprend pas. »",
+   "en": "He repeated: \"We are only truly afraid of what we do not understand.\"",
+   "para": 24,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "frs": "audio/s102_frs.mp3",
+    "en": "audio/s102_en.mp3"
+   },
+   "ms": {
+    "fr": 4130,
+    "frs": 5820,
+    "en": 5040
+   },
+   "bank": {
+    "fr": [
+     1256450,
+     4130
+    ],
+    "frs": [
+     1260980,
+     5820
+    ],
+    "en": [
+     1267200,
+     5040
+    ]
+   }
+  },
+  {
+   "fr": "Et tout à coup un souvenir me vint,",
+   "en": "And suddenly a memory came to me,",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "frs": "audio/s103_frs.mp3",
+    "en": "audio/s103_en.mp3"
+   },
+   "ms": {
+    "fr": 2350,
+    "frs": 3150,
+    "en": 2270
+   },
+   "bank": {
+    "fr": [
+     1272640,
+     2350
+    ],
+    "frs": [
+     1275390,
+     3150
+    ],
+    "en": [
+     1278940,
+     2270
+    ]
+   }
+  },
+  {
+   "fr": "le souvenir d'une histoire que nous conta Tourgueneff,",
+   "en": "the memory of a story that Turgenev told us",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "frs": "audio/s104_frs.mp3",
+    "en": "audio/s104_en.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "frs": 5000,
+    "en": 3020
+   },
+   "bank": {
+    "fr": [
+     1281610,
+     3580
+    ],
+    "frs": [
+     1285590,
+     5000
+    ],
+    "en": [
+     1290990,
+     3020
+    ]
+   }
+  },
+  {
+   "fr": "un dimanche, chez Gustave Flaubert.",
+   "en": "one Sunday, at Gustave Flaubert's house.",
+   "para": 25,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "frs": "audio/s105_frs.mp3",
+    "en": "audio/s105_en.mp3"
+   },
+   "ms": {
+    "fr": 3130,
+    "frs": 4300,
+    "en": 3060
+   },
+   "bank": {
+    "fr": [
+     1294410,
+     3130
+    ],
+    "frs": [
+     1297940,
+     4300
+    ],
+    "en": [
+     1302640,
+     3060
+    ]
+   }
+  },
+  {
+   "fr": "L'a-t-il écrite quelque part, je n'en sais rien.",
+   "en": "Whether he ever wrote it down somewhere, I have no idea.",
+   "para": 26,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "frs": "audio/s106_frs.mp3",
+    "en": "audio/s106_en.mp3"
+   },
+   "ms": {
+    "fr": 3510,
+    "frs": 4880,
+    "en": 3480
+   },
+   "bank": {
+    "fr": [
+     1306100,
+     3510
+    ],
+    "frs": [
+     1310010,
+     4880
+    ],
+    "en": [
+     1315290,
+     3480
+    ]
+   }
+  },
+  {
+   "fr": "Personne plus que le grand romancier russe",
+   "en": "No one more than the great Russian novelist",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "frs": "audio/s107_frs.mp3",
+    "en": "audio/s107_en.mp3"
+   },
+   "ms": {
+    "fr": 2930,
+    "frs": 3990,
+    "en": 3250
+   },
+   "bank": {
+    "fr": [
+     1319170,
+     2930
+    ],
+    "frs": [
+     1322500,
+     3990
+    ],
+    "en": [
+     1326890,
+     3250
+    ]
+   }
+  },
+  {
+   "fr": "ne sut faire passer dans l'âme ce frisson de l'inconnu voilé,",
+   "en": "knew how to send into the soul that shiver of the veiled unknown,",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "frs": "audio/s108_frs.mp3",
+    "en": "audio/s108_en.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "frs": 5030,
+    "en": 4220
+   },
+   "bank": {
+    "fr": [
+     1330540,
+     3600
+    ],
+    "frs": [
+     1334540,
+     5030
+    ],
+    "en": [
+     1339970,
+     4220
+    ]
+   }
+  },
+  {
+   "fr": "et, dans la demi-lumière d'un conte étrange,",
+   "en": "and, in the half-light of a strange tale,",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "frs": "audio/s109_frs.mp3",
+    "en": "audio/s109_en.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "frs": 4490,
+    "en": 2960
+   },
+   "bank": {
+    "fr": [
+     1344590,
+     3250
+    ],
+    "frs": [
+     1348240,
+     4490
+    ],
+    "en": [
+     1353130,
+     2960
+    ]
+   }
+  },
+  {
+   "fr": "laisser entrevoir tout un monde de choses inquiétantes,",
+   "en": "to let us glimpse a whole world of disturbing things,",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "frs": "audio/s110_frs.mp3",
+    "en": "audio/s110_en.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "frs": 5080,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1356490,
+     3650
+    ],
+    "frs": [
+     1360540,
+     5080
+    ],
+    "en": [
+     1366020,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "incertaines, menaçantes.",
+   "en": "uncertain, threatening.",
+   "para": 27,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "frs": "audio/s111_frs.mp3",
+    "en": "audio/s111_en.mp3"
+   },
+   "ms": {
+    "fr": 2630,
+    "frs": 3550,
+    "en": 2029
+   },
+   "bank": {
+    "fr": [
+     1369990,
+     2630
+    ],
+    "frs": [
+     1373020,
+     3550
+    ],
+    "en": [
+     1376970,
+     2029
+    ]
+   }
+  },
+  {
+   "fr": "Avec lui, on la sent bien, la peur vague de l'Invisible,",
+   "en": "With him, you really feel it, the vague fear of the Invisible,",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "frs": "audio/s112_frs.mp3",
+    "en": "audio/s112_en.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "frs": 6070,
+    "en": 4450
+   },
+   "bank": {
+    "fr": [
+     1379400,
+     4300
+    ],
+    "frs": [
+     1384100,
+     6070
+    ],
+    "en": [
+     1390570,
+     4450
+    ]
+   }
+  },
+  {
+   "fr": "la peur de l'inconnu qui est derrière le mur,",
+   "en": "the fear of the unknown that is behind the wall,",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "frs": "audio/s113_frs.mp3",
+    "en": "audio/s113_en.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4080,
+    "en": 2920
+   },
+   "bank": {
+    "fr": [
+     1395420,
+     2980
+    ],
+    "frs": [
+     1398800,
+     4080
+    ],
+    "en": [
+     1403280,
+     2920
+    ]
+   }
+  },
+  {
+   "fr": "derrière la porte, derrière la vie apparente.",
+   "en": "behind the door, behind life as it appears.",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "frs": "audio/s114_frs.mp3",
+    "en": "audio/s114_en.mp3"
+   },
+   "ms": {
+    "fr": 3440,
+    "frs": 4750,
+    "en": 3200
+   },
+   "bank": {
+    "fr": [
+     1406600,
+     3440
+    ],
+    "frs": [
+     1410440,
+     4750
+    ],
+    "en": [
+     1415590,
+     3200
+    ]
+   }
+  },
+  {
+   "fr": "Avec lui, nous sommes brusquement traversés par des lumières douteuses",
+   "en": "With him, we are suddenly pierced by dubious lights",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "frs": "audio/s115_frs.mp3",
+    "en": "audio/s115_en.mp3"
+   },
+   "ms": {
+    "fr": 4730,
+    "frs": 6710,
+    "en": 3940
+   },
+   "bank": {
+    "fr": [
+     1419190,
+     4730
+    ],
+    "frs": [
+     1424320,
+     6710
+    ],
+    "en": [
+     1431430,
+     3940
+    ]
+   }
+  },
+  {
+   "fr": "qui éclairent seulement assez pour augmenter notre angoisse.",
+   "en": "which give just enough light to increase our dread.",
+   "para": 28,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "frs": "audio/s116_frs.mp3",
+    "en": "audio/s116_en.mp3"
+   },
+   "ms": {
+    "fr": 3620,
+    "frs": 5040,
+    "en": 3340
+   },
+   "bank": {
+    "fr": [
+     1435770,
+     3620
+    ],
+    "frs": [
+     1439790,
+     5040
+    ],
+    "en": [
+     1445230,
+     3340
+    ]
+   }
+  },
+  {
+   "fr": "Il semble nous montrer parfois",
+   "en": "He sometimes seems to show us",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "frs": "audio/s117_frs.mp3",
+    "en": "audio/s117_en.mp3"
+   },
+   "ms": {
+    "fr": 2380,
+    "frs": 3190,
+    "en": 2160
+   },
+   "bank": {
+    "fr": [
+     1448970,
+     2380
+    ],
+    "frs": [
+     1451750,
+     3190
+    ],
+    "en": [
+     1455340,
+     2160
+    ]
+   }
+  },
+  {
+   "fr": "la signification de coïncidences bizarres,",
+   "en": "the meaning of strange coincidences,",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "frs": "audio/s118_frs.mp3",
+    "en": "audio/s118_en.mp3"
+   },
+   "ms": {
+    "fr": 3290,
+    "frs": 4560,
+    "en": 2720
+   },
+   "bank": {
+    "fr": [
+     1457900,
+     3290
+    ],
+    "frs": [
+     1461590,
+     4560
+    ],
+    "en": [
+     1466550,
+     2720
+    ]
+   }
+  },
+  {
+   "fr": "de rapprochements inattendus de circonstances en apparence fortuites,",
+   "en": "of unexpected links between seemingly chance circumstances,",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "frs": "audio/s119_frs.mp3",
+    "en": "audio/s119_en.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "frs": 6100,
+    "en": 4130
+   },
+   "bank": {
+    "fr": [
+     1469670,
+     4330
+    ],
+    "frs": [
+     1474400,
+     6100
+    ],
+    "en": [
+     1480900,
+     4130
+    ]
+   }
+  },
+  {
+   "fr": "mais que guiderait une volonté cachée et sournoise.",
+   "en": "but which a hidden and sly will might be guiding.",
+   "para": 29,
+   "glosses": [
+    {
+     "fr": "sournoise",
+     "en": "sly, underhand"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "frs": "audio/s120_frs.mp3",
+    "en": "audio/s120_en.mp3",
+    "gl": "audio/s120_gl.mp3"
+   },
+   "ms": {
+    "fr": 3470,
+    "frs": 4820,
+    "en": 3070,
+    "gl": 4050
+   },
+   "bank": {
+    "fr": [
+     1485430,
+     3470
+    ],
+    "frs": [
+     1489300,
+     4820
+    ],
+    "en": [
+     1494520,
+     3070
+    ],
+    "gl": [
+     1497990,
+     4050
+    ]
+   }
+  },
+  {
+   "fr": "On croit sentir, avec lui ;",
+   "en": "With him, we think we feel",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "frs": "audio/s121_frs.mp3",
+    "en": "audio/s121_en.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3660,
+    "en": 2110
+   },
+   "bank": {
+    "fr": [
+     1502440,
+     2680
+    ],
+    "frs": [
+     1505520,
+     3660
+    ],
+    "en": [
+     1509580,
+     2110
+    ]
+   }
+  },
+  {
+   "fr": "un fil imperceptible qui nous guide d'une façon mystérieuse à travers la vie,",
+   "en": "an invisible thread that guides us mysteriously through life,",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "frs": "audio/s122_frs.mp3",
+    "en": "audio/s122_en.mp3"
+   },
+   "ms": {
+    "fr": 4850,
+    "frs": 6900,
+    "en": 4180
+   },
+   "bank": {
+    "fr": [
+     1512090,
+     4850
+    ],
+    "frs": [
+     1517340,
+     6900
+    ],
+    "en": [
+     1524640,
+     4180
+    ]
+   }
+  },
+  {
+   "fr": "comme à travers un rêve nébuleux",
+   "en": "as if through a hazy dream",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "frs": "audio/s123_frs.mp3",
+    "en": "audio/s123_en.mp3"
+   },
+   "ms": {
+    "fr": 2420,
+    "frs": 3250,
+    "en": 1970
+   },
+   "bank": {
+    "fr": [
+     1529220,
+     2420
+    ],
+    "frs": [
+     1532040,
+     3250
+    ],
+    "en": [
+     1535690,
+     1970
+    ]
+   }
+  },
+  {
+   "fr": "dont le sens nous échappe sans cesse.",
+   "en": "whose meaning always escapes us.",
+   "para": 29,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "frs": "audio/s124_frs.mp3",
+    "en": "audio/s124_en.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3850,
+    "en": 2500
+   },
+   "bank": {
+    "fr": [
+     1538060,
+     2820
+    ],
+    "frs": [
+     1541280,
+     3850
+    ],
+    "en": [
+     1545530,
+     2500
+    ]
+   }
+  },
+  {
+   "fr": "Il n'entre point hardiment dans le surnaturel,",
+   "en": "He does not boldly enter the supernatural,",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "frs": "audio/s125_frs.mp3",
+    "en": "audio/s125_en.mp3"
+   },
+   "ms": {
+    "fr": 3280,
+    "frs": 4520,
+    "en": 2990
+   },
+   "bank": {
+    "fr": [
+     1548430,
+     3280
+    ],
+    "frs": [
+     1552110,
+     4520
+    ],
+    "en": [
+     1557030,
+     2990
+    ]
+   }
+  },
+  {
+   "fr": "comme Edgar Poe ou Hoffmann,",
+   "en": "like Edgar Poe or Hoffmann;",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "frs": "audio/s126_frs.mp3",
+    "en": "audio/s126_en.mp3"
+   },
+   "ms": {
+    "fr": 2340,
+    "frs": 3120,
+    "en": 2350
+   },
+   "bank": {
+    "fr": [
+     1560420,
+     2340
+    ],
+    "frs": [
+     1563160,
+     3120
+    ],
+    "en": [
+     1566680,
+     2350
+    ]
+   }
+  },
+  {
+   "fr": "il raconte des histoires simples",
+   "en": "he tells simple stories",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "frs": "audio/s127_frs.mp3",
+    "en": "audio/s127_en.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3620,
+    "en": 1950
+   },
+   "bank": {
+    "fr": [
+     1569430,
+     2680
+    ],
+    "frs": [
+     1572510,
+     3620
+    ],
+    "en": [
+     1576530,
+     1950
+    ]
+   }
+  },
+  {
+   "fr": "où se mêle seulement quelque chose d'un peu vague et d'un peu troublant.",
+   "en": "in which only something a little vague and a little disturbing is mixed.",
+   "para": 30,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "frs": "audio/s128_frs.mp3",
+    "en": "audio/s128_en.mp3"
+   },
+   "ms": {
+    "fr": 3900,
+    "frs": 5470,
+    "en": 4420
+   },
+   "bank": {
+    "fr": [
+     1578880,
+     3900
+    ],
+    "frs": [
+     1583180,
+     5470
+    ],
+    "en": [
+     1589050,
+     4420
+    ]
+   }
+  },
+  {
+   "fr": "Il nous dit aussi, ce jour-là :",
+   "en": "He also told us, that day:",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "frs": "audio/s129_frs.mp3",
+    "en": "audio/s129_en.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3400,
+    "en": 2310
+   },
+   "bank": {
+    "fr": [
+     1593870,
+     2530
+    ],
+    "frs": [
+     1596800,
+     3400
+    ],
+    "en": [
+     1600600,
+     2310
+    ]
+   }
+  },
+  {
+   "fr": "« On n'a vraiment peur que de ce qu'on ne comprend point. »",
+   "en": "\"We are only truly afraid of what we do not understand.\"",
+   "para": 31,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "frs": "audio/s130_frs.mp3",
+    "en": "audio/s130_en.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "frs": 4380,
+    "en": 3830
+   },
+   "bank": {
+    "fr": [
+     1603310,
+     3170
+    ],
+    "frs": [
+     1606880,
+     4380
+    ],
+    "en": [
+     1611660,
+     3830
+    ]
+   }
+  },
+  {
+   "fr": "Il était assis, ou plutôt affaissé dans un grand fauteuil,",
+   "en": "He was sitting, or rather slumped in a big armchair,",
+   "para": 32,
+   "glosses": [
+    {
+     "fr": "affaissé",
+     "en": "slumped"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "frs": "audio/s131_frs.mp3",
+    "en": "audio/s131_en.mp3",
+    "gl": "audio/s131_gl.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "frs": 5720,
+    "en": 3540,
+    "gl": 3150
+   },
+   "bank": {
+    "fr": [
+     1615890,
+     4070
+    ],
+    "frs": [
+     1620360,
+     5720
+    ],
+    "en": [
+     1626480,
+     3540
+    ],
+    "gl": [
+     1630420,
+     3150
+    ]
+   }
+  },
+  {
+   "fr": "les bras pendants, les jambes allongées et molles,",
+   "en": "arms hanging, legs stretched out and limp,",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "frs": "audio/s132_frs.mp3",
+    "en": "audio/s132_en.mp3"
+   },
+   "ms": {
+    "fr": 3540,
+    "frs": 4950,
+    "en": 3410
+   },
+   "bank": {
+    "fr": [
+     1633970,
+     3540
+    ],
+    "frs": [
+     1637910,
+     4950
+    ],
+    "en": [
+     1643260,
+     3410
+    ]
+   }
+  },
+  {
+   "fr": "la tête toute blanche,",
+   "en": "his head all white,",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "frs": "audio/s133_frs.mp3",
+    "en": "audio/s133_en.mp3"
+   },
+   "ms": {
+    "fr": 2020,
+    "frs": 2630,
+    "en": 1550
+   },
+   "bank": {
+    "fr": [
+     1647070,
+     2020
+    ],
+    "frs": [
+     1649490,
+     2630
+    ],
+    "en": [
+     1652520,
+     1550
+    ]
+   }
+  },
+  {
+   "fr": "noyé dans ce grand flot de barbe et de cheveux d'argent",
+   "en": "drowned in that great flood of silver beard and hair",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "frs": "audio/s134_frs.mp3",
+    "en": "audio/s134_en.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4960,
+    "en": 3880
+   },
+   "bank": {
+    "fr": [
+     1654470,
+     3560
+    ],
+    "frs": [
+     1658430,
+     4960
+    ],
+    "en": [
+     1663790,
+     3880
+    ]
+   }
+  },
+  {
+   "fr": "qui lui donnait l'aspect d'un Père éternel ou d'un Fleuve d'Ovide.",
+   "en": "that gave him the look of God the Father or of a River god from Ovid.",
+   "para": 32,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "frs": "audio/s135_frs.mp3",
+    "en": "audio/s135_en.mp3"
+   },
+   "ms": {
+    "fr": 3820,
+    "frs": 5350,
+    "en": 4380
+   },
+   "bank": {
+    "fr": [
+     1668070,
+     3820
+    ],
+    "frs": [
+     1672290,
+     5350
+    ],
+    "en": [
+     1678040,
+     4380
+    ]
+   }
+  },
+  {
+   "fr": "Il parlait lentement, avec une certaine paresse",
+   "en": "He spoke slowly, with a certain laziness",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "frs": "audio/s136_frs.mp3",
+    "en": "audio/s136_en.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "frs": 5100,
+    "en": 3360
+   },
+   "bank": {
+    "fr": [
+     1682820,
+     3650
+    ],
+    "frs": [
+     1686870,
+     5100
+    ],
+    "en": [
+     1692370,
+     3360
+    ]
+   }
+  },
+  {
+   "fr": "qui donnait du charme aux phrases",
+   "en": "that gave charm to his sentences,",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "frs": "audio/s137_frs.mp3",
+    "en": "audio/s137_en.mp3"
+   },
+   "ms": {
+    "fr": 2380,
+    "frs": 3190,
+    "en": 2460
+   },
+   "bank": {
+    "fr": [
+     1696130,
+     2380
+    ],
+    "frs": [
+     1698910,
+     3190
+    ],
+    "en": [
+     1702500,
+     2460
+    ]
+   }
+  },
+  {
+   "fr": "et une certaine hésitation de la langue un peu lourde",
+   "en": "and a certain hesitation of his somewhat heavy tongue",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "frs": "audio/s138_frs.mp3",
+    "en": "audio/s138_en.mp3"
+   },
+   "ms": {
+    "fr": 3400,
+    "frs": 4710,
+    "en": 3370
+   },
+   "bank": {
+    "fr": [
+     1705360,
+     3400
+    ],
+    "frs": [
+     1709160,
+     4710
+    ],
+    "en": [
+     1714270,
+     3370
+    ]
+   }
+  },
+  {
+   "fr": "qui soulignait la justesse colorée des mots.",
+   "en": "that underlined the colorful precision of his words.",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "frs": "audio/s139_frs.mp3",
+    "en": "audio/s139_en.mp3"
+   },
+   "ms": {
+    "fr": 2870,
+    "frs": 3920,
+    "en": 3390
+   },
+   "bank": {
+    "fr": [
+     1718040,
+     2870
+    ],
+    "frs": [
+     1721310,
+     3920
+    ],
+    "en": [
+     1725630,
+     3390
+    ]
+   }
+  },
+  {
+   "fr": "Son œil pâle, grand ouvert, reflétait, comme un œil d'enfant,",
+   "en": "His pale eye, wide open, reflected, like a child's eye,",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "frs": "audio/s140_frs.mp3",
+    "en": "audio/s140_en.mp3"
+   },
+   "ms": {
+    "fr": 4960,
+    "frs": 7050,
+    "en": 4520
+   },
+   "bank": {
+    "fr": [
+     1729420,
+     4960
+    ],
+    "frs": [
+     1734780,
+     7050
+    ],
+    "en": [
+     1742230,
+     4520
+    ]
+   }
+  },
+  {
+   "fr": "toutes les émotions de sa pensée.",
+   "en": "all the emotions of his thought.",
+   "para": 33,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "frs": "audio/s141_frs.mp3",
+    "en": "audio/s141_en.mp3"
+   },
+   "ms": {
+    "fr": 2480,
+    "frs": 3330,
+    "en": 2150
+   },
+   "bank": {
+    "fr": [
+     1747150,
+     2480
+    ],
+    "frs": [
+     1750030,
+     3330
+    ],
+    "en": [
+     1753760,
+     2150
+    ]
+   }
+  },
+  {
+   "fr": "Il nous raconta ceci :",
+   "en": "He told us this:",
+   "para": 34,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "frs": "audio/s142_frs.mp3",
+    "en": "audio/s142_en.mp3"
+   },
+   "ms": {
+    "fr": 2060,
+    "frs": 2690,
+    "en": 1470
+   },
+   "bank": {
+    "fr": [
+     1756310,
+     2060
+    ],
+    "frs": [
+     1758770,
+     2690
+    ],
+    "en": [
+     1761860,
+     1470
+    ]
+   }
+  },
+  {
+   "fr": "Il chassait, étant jeune homme, dans une forêt de Russie.",
+   "en": "As a young man, he was hunting in a forest in Russia.",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "frs": "audio/s143_frs.mp3",
+    "en": "audio/s143_en.mp3"
+   },
+   "ms": {
+    "fr": 4350,
+    "frs": 6130,
+    "en": 3830
+   },
+   "bank": {
+    "fr": [
+     1763730,
+     4350
+    ],
+    "frs": [
+     1768480,
+     6130
+    ],
+    "en": [
+     1775010,
+     3830
+    ]
+   }
+  },
+  {
+   "fr": "Il avait marché tout le jour",
+   "en": "He had walked all day",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "frs": "audio/s144_frs.mp3",
+    "en": "audio/s144_en.mp3"
+   },
+   "ms": {
+    "fr": 2260,
+    "frs": 3040,
+    "en": 1720
+   },
+   "bank": {
+    "fr": [
+     1779240,
+     2260
+    ],
+    "frs": [
+     1781900,
+     3040
+    ],
+    "en": [
+     1785340,
+     1720
+    ]
+   }
+  },
+  {
+   "fr": "et il arriva, vers la fin de l'après-midi,",
+   "en": "and he arrived, toward the end of the afternoon,",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "frs": "audio/s145_frs.mp3",
+    "en": "audio/s145_en.mp3"
+   },
+   "ms": {
+    "fr": 3340,
+    "frs": 4630,
+    "en": 3190
+   },
+   "bank": {
+    "fr": [
+     1787460,
+     3340
+    ],
+    "frs": [
+     1791200,
+     4630
+    ],
+    "en": [
+     1796230,
+     3190
+    ]
+   }
+  },
+  {
+   "fr": "sur le bord d'une calme rivière.",
+   "en": "on the bank of a calm river.",
+   "para": 35,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "frs": "audio/s146_frs.mp3",
+    "en": "audio/s146_en.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3380,
+    "en": 2090
+   },
+   "bank": {
+    "fr": [
+     1799820,
+     2530
+    ],
+    "frs": [
+     1802750,
+     3380
+    ],
+    "en": [
+     1806530,
+     2090
+    ]
+   }
+  },
+  {
+   "fr": "Elle coulait sous les arbres, dans les arbres,",
+   "en": "It flowed under the trees, among the trees,",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "frs": "audio/s147_frs.mp3",
+    "en": "audio/s147_en.mp3"
+   },
+   "ms": {
+    "fr": 3180,
+    "frs": 4380,
+    "en": 3240
+   },
+   "bank": {
+    "fr": [
+     1809020,
+     3180
+    ],
+    "frs": [
+     1812600,
+     4380
+    ],
+    "en": [
+     1817380,
+     3240
+    ]
+   }
+  },
+  {
+   "fr": "pleine d'herbes flottantes, profonde, froide et claire.",
+   "en": "full of floating weeds, deep, cold and clear.",
+   "para": 36,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "frs": "audio/s148_frs.mp3",
+    "en": "audio/s148_en.mp3"
+   },
+   "ms": {
+    "fr": 4190,
+    "frs": 5910,
+    "en": 3880
+   },
+   "bank": {
+    "fr": [
+     1821020,
+     4190
+    ],
+    "frs": [
+     1825610,
+     5910
+    ],
+    "en": [
+     1831920,
+     3880
+    ]
+   }
+  },
+  {
+   "fr": "Un besoin impérieux saisit le chasseur",
+   "en": "An irresistible urge seized the hunter",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "frs": "audio/s149_frs.mp3",
+    "en": "audio/s149_en.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "frs": 4019,
+    "en": 3210
+   },
+   "bank": {
+    "fr": [
+     1836200,
+     2940
+    ],
+    "frs": [
+     1839540,
+     4019
+    ],
+    "en": [
+     1843960,
+     3210
+    ]
+   }
+  },
+  {
+   "fr": "de se jeter dans cette eau transparente.",
+   "en": "to throw himself into that transparent water.",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "frs": "audio/s150_frs.mp3",
+    "en": "audio/s150_en.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3810,
+    "en": 3120
+   },
+   "bank": {
+    "fr": [
+     1847570,
+     2810
+    ],
+    "frs": [
+     1850780,
+     3810
+    ],
+    "en": [
+     1854990,
+     3120
+    ]
+   }
+  },
+  {
+   "fr": "Il se dévêtit et s'élança dans le courant.",
+   "en": "He undressed and leapt into the current.",
+   "para": 37,
+   "glosses": [
+    {
+     "fr": "dévêtit",
+     "en": "undressed"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "frs": "audio/s151_frs.mp3",
+    "en": "audio/s151_en.mp3",
+    "gl": "audio/s151_gl.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "frs": 4290,
+    "en": 2880,
+    "gl": 3530
+   },
+   "bank": {
+    "fr": [
+     1858510,
+     3110
+    ],
+    "frs": [
+     1862020,
+     4290
+    ],
+    "en": [
+     1866710,
+     2880
+    ],
+    "gl": [
+     1869990,
+     3530
+    ]
+   }
+  },
+  {
+   "fr": "C'était un très grand et très fort garçon,",
+   "en": "He was a very tall and very strong young man,",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "frs": "audio/s152_frs.mp3",
+    "en": "audio/s152_en.mp3"
+   },
+   "ms": {
+    "fr": 2710,
+    "frs": 3680,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     1873920,
+     2710
+    ],
+    "frs": [
+     1877030,
+     3680
+    ],
+    "en": [
+     1881110,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "vigoureux et hardi nageur.",
+   "en": "a vigorous and daring swimmer.",
+   "para": 37,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "frs": "audio/s153_frs.mp3",
+    "en": "audio/s153_en.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "frs": 3420,
+    "en": 2490
+   },
+   "bank": {
+    "fr": [
+     1884840,
+     2540
+    ],
+    "frs": [
+     1887780,
+     3420
+    ],
+    "en": [
+     1891600,
+     2490
+    ]
+   }
+  },
+  {
+   "fr": "Il se laissait flotter doucement, l'âme tranquille,",
+   "en": "He let himself float gently, his soul at peace,",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "frs": "audio/s154_frs.mp3",
+    "en": "audio/s154_en.mp3"
+   },
+   "ms": {
+    "fr": 3480,
+    "frs": 4840,
+    "en": 3640
+   },
+   "bank": {
+    "fr": [
+     1894490,
+     3480
+    ],
+    "frs": [
+     1898370,
+     4840
+    ],
+    "en": [
+     1903610,
+     3640
+    ]
+   }
+  },
+  {
+   "fr": "frôlé par les herbes et les racines,",
+   "en": "brushed by the weeds and the roots,",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "frs": "audio/s155_frs.mp3",
+    "en": "audio/s155_en.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3520,
+    "en": 2670
+   },
+   "bank": {
+    "fr": [
+     1907650,
+     2610
+    ],
+    "frs": [
+     1910660,
+     3520
+    ],
+    "en": [
+     1914580,
+     2670
+    ]
+   }
+  },
+  {
+   "fr": "heureux de sentir contre sa chair",
+   "en": "happy to feel against his flesh",
+   "para": 38,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "frs": "audio/s156_frs.mp3",
+    "en": "audio/s156_en.mp3"
+   },
+   "ms": {
+    "fr": 2690,
+    "frs": 3660,
+    "en": 2580
+   },
+   "bank": {
+    "fr": [
+     1917650,
+     2690
+    ],
+    "frs": [
+     1920740,
+     3660
+    ],
+    "en": [
+     1924800,
+     2580
+    ]
+   }
+  },
+  {
+   "fr": "le glissement léger des lianes.",
+   "en": "the light sliding of the creepers.",
+   "para": 38,
+   "glosses": [
+    {
+     "fr": "lianes",
+     "en": "creepers, vines"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "frs": "audio/s157_frs.mp3",
+    "en": "audio/s157_en.mp3",
+    "gl": "audio/s157_gl.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3300,
+    "en": 2330,
+    "gl": 3840
+   },
+   "bank": {
+    "fr": [
+     1927780,
+     2450
+    ],
+    "frs": [
+     1930630,
+     3300
+    ],
+    "en": [
+     1934330,
+     2330
+    ],
+    "gl": [
+     1937060,
+     3840
+    ]
+   }
+  },
+  {
+   "fr": "Tout à coup une main se posa sur son épaule.",
+   "en": "Suddenly a hand came to rest on his shoulder.",
+   "para": 39,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "frs": "audio/s158_frs.mp3",
+    "en": "audio/s158_en.mp3"
+   },
+   "ms": {
+    "fr": 3000,
+    "frs": 4120,
+    "en": 3160
+   },
+   "bank": {
+    "fr": [
+     1941300,
+     3000
+    ],
+    "frs": [
+     1944700,
+     4120
+    ],
+    "en": [
+     1949220,
+     3160
+    ]
+   }
+  },
+  {
+   "fr": "Il se retourna d'une secousse",
+   "en": "He spun around with a jolt",
+   "para": 40,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "frs": "audio/s159_frs.mp3",
+    "en": "audio/s159_en.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3280,
+    "en": 2020
+   },
+   "bank": {
+    "fr": [
+     1952780,
+     2450
+    ],
+    "frs": [
+     1955630,
+     3280
+    ],
+    "en": [
+     1959310,
+     2020
+    ]
+   }
+  },
+  {
+   "fr": "et il aperçut un être effroyable qui le regardait avidement.",
+   "en": "and he saw a dreadful creature that was looking at him greedily.",
+   "para": 40,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "frs": "audio/s160_frs.mp3",
+    "en": "audio/s160_en.mp3"
+   },
+   "ms": {
+    "fr": 3910,
+    "frs": 5480,
+    "en": 3570
+   },
+   "bank": {
+    "fr": [
+     1961730,
+     3910
+    ],
+    "frs": [
+     1966040,
+     5480
+    ],
+    "en": [
+     1971920,
+     3570
+    ]
+   }
+  },
+  {
+   "fr": "Cela ressemblait à une femme ou à une guenon.",
+   "en": "It looked like a woman or a female monkey.",
+   "para": 41,
+   "glosses": [
+    {
+     "fr": "guenon",
+     "en": "female monkey"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "frs": "audio/s161_frs.mp3",
+    "en": "audio/s161_en.mp3",
+    "gl": "audio/s161_gl.mp3"
+   },
+   "ms": {
+    "fr": 3140,
+    "frs": 4310,
+    "en": 2960,
+    "gl": 3160
+   },
+   "bank": {
+    "fr": [
+     1975890,
+     3140
+    ],
+    "frs": [
+     1979430,
+     4310
+    ],
+    "en": [
+     1984140,
+     2960
+    ],
+    "gl": [
+     1987500,
+     3160
+    ]
+   }
+  },
+  {
+   "fr": "Elle avait une figure énorme, plissée, grimaçante et qui riait.",
+   "en": "She had an enormous face, wrinkled, grimacing, and laughing.",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "frs": "audio/s162_frs.mp3",
+    "en": "audio/s162_en.mp3"
+   },
+   "ms": {
+    "fr": 4550,
+    "frs": 6430,
+    "en": 4680
+   },
+   "bank": {
+    "fr": [
+     1991060,
+     4550
+    ],
+    "frs": [
+     1996010,
+     6430
+    ],
+    "en": [
+     2002840,
+     4680
+    ]
+   }
+  },
+  {
+   "fr": "Deux choses innommables deux mamelles sans doute,",
+   "en": "Two unspeakable things, two breasts no doubt,",
+   "para": 41,
+   "glosses": [
+    {
+     "fr": "mamelles",
+     "en": "breasts, teats"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "frs": "audio/s163_frs.mp3",
+    "en": "audio/s163_en.mp3",
+    "gl": "audio/s163_gl.mp3"
+   },
+   "ms": {
+    "fr": 3130,
+    "frs": 4330,
+    "en": 3550,
+    "gl": 3930
+   },
+   "bank": {
+    "fr": [
+     2007920,
+     3130
+    ],
+    "frs": [
+     2011450,
+     4330
+    ],
+    "en": [
+     2016180,
+     3550
+    ],
+    "gl": [
+     2020130,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "flottaient devant elle,",
+   "en": "floated in front of her,",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "frs": "audio/s164_frs.mp3",
+    "en": "audio/s164_en.mp3"
+   },
+   "ms": {
+    "fr": 1700,
+    "frs": 2170,
+    "en": 1630
+   },
+   "bank": {
+    "fr": [
+     2024460,
+     1700
+    ],
+    "frs": [
+     2026560,
+     2170
+    ],
+    "en": [
+     2029130,
+     1630
+    ]
+   }
+  },
+  {
+   "fr": "et des cheveux démesurés, mêlés, roussis par le soleil,",
+   "en": "and enormously long hair, tangled, turned reddish by the sun,",
+   "para": 41,
+   "glosses": [
+    {
+     "fr": "roussis",
+     "en": "turned reddish, scorched"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s165_fr.mp3",
+    "frs": "audio/s165_frs.mp3",
+    "en": "audio/s165_en.mp3",
+    "gl": "audio/s165_gl.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "frs": 6180,
+    "en": 4790,
+    "gl": 4080
+   },
+   "bank": {
+    "fr": [
+     2031160,
+     4380
+    ],
+    "frs": [
+     2035940,
+     6180
+    ],
+    "en": [
+     2042520,
+     4790
+    ],
+    "gl": [
+     2047710,
+     4080
+    ]
+   }
+  },
+  {
+   "fr": "entouraient son visage et flottaient sur son dos.",
+   "en": "surrounded her face and floated on her back.",
+   "para": 41,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s166_fr.mp3",
+    "frs": "audio/s166_frs.mp3",
+    "en": "audio/s166_en.mp3"
+   },
+   "ms": {
+    "fr": 3010,
+    "frs": 4150,
+    "en": 3090
+   },
+   "bank": {
+    "fr": [
+     2052190,
+     3010
+    ],
+    "frs": [
+     2055600,
+     4150
+    ],
+    "en": [
+     2060150,
+     3090
+    ]
+   }
+  },
+  {
+   "fr": "Tourgueneff se sentit traversé par la peur hideuse,",
+   "en": "Turgenev felt himself pierced by hideous fear,",
+   "para": 42,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s167_fr.mp3",
+    "frs": "audio/s167_frs.mp3",
+    "en": "audio/s167_en.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4840,
+    "en": 3670
+   },
+   "bank": {
+    "fr": [
+     2063639,
+     3490
+    ],
+    "frs": [
+     2067530,
+     4840
+    ],
+    "en": [
+     2072770,
+     3670
+    ]
+   }
+  },
+  {
+   "fr": "la peur glaciale des choses surnaturelles.",
+   "en": "the icy fear of supernatural things.",
+   "para": 42,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s168_fr.mp3",
+    "frs": "audio/s168_frs.mp3",
+    "en": "audio/s168_en.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "frs": 4460,
+    "en": 2880
+   },
+   "bank": {
+    "fr": [
+     2076840,
+     3230
+    ],
+    "frs": [
+     2080469,
+     4460
+    ],
+    "en": [
+     2085330,
+     2880
+    ]
+   }
+  },
+  {
+   "fr": "Sans réfléchir, sans songer, sans comprendre",
+   "en": "Without thinking, without pondering, without understanding,",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s169_fr.mp3",
+    "frs": "audio/s169_frs.mp3",
+    "en": "audio/s169_en.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5630,
+    "en": 3980
+   },
+   "bank": {
+    "fr": [
+     2088610,
+     4010
+    ],
+    "frs": [
+     2093020,
+     5630
+    ],
+    "en": [
+     2099050,
+     3980
+    ]
+   }
+  },
+  {
+   "fr": "il se mit à nager éperdument vers la rive.",
+   "en": "he began to swim frantically toward the bank.",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s170_fr.mp3",
+    "frs": "audio/s170_frs.mp3",
+    "en": "audio/s170_en.mp3"
+   },
+   "ms": {
+    "fr": 3160,
+    "frs": 4360,
+    "en": 3260
+   },
+   "bank": {
+    "fr": [
+     2103430,
+     3160
+    ],
+    "frs": [
+     2106990,
+     4360
+    ],
+    "en": [
+     2111750,
+     3260
+    ]
+   }
+  },
+  {
+   "fr": "Mais le monstre nageait plus vite encore",
+   "en": "But the monster swam even faster",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s171_fr.mp3",
+    "frs": "audio/s171_frs.mp3",
+    "en": "audio/s171_en.mp3"
+   },
+   "ms": {
+    "fr": 2870,
+    "frs": 3930,
+    "en": 2920
+   },
+   "bank": {
+    "fr": [
+     2115410,
+     2870
+    ],
+    "frs": [
+     2118680,
+     3930
+    ],
+    "en": [
+     2123010,
+     2920
+    ]
+   }
+  },
+  {
+   "fr": "et il lui touchait le cou, le dos, les jambes,",
+   "en": "and it touched his neck, his back, his legs,",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s172_fr.mp3",
+    "frs": "audio/s172_frs.mp3",
+    "en": "audio/s172_en.mp3"
+   },
+   "ms": {
+    "fr": 3520,
+    "frs": 4890,
+    "en": 3390
+   },
+   "bank": {
+    "fr": [
+     2126330,
+     3520
+    ],
+    "frs": [
+     2130250,
+     4890
+    ],
+    "en": [
+     2135540,
+     3390
+    ]
+   }
+  },
+  {
+   "fr": "avec de petits ricanements de joie.",
+   "en": "with little sniggers of joy.",
+   "para": 43,
+   "glosses": [
+    {
+     "fr": "ricanements",
+     "en": "sniggers"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s173_fr.mp3",
+    "frs": "audio/s173_frs.mp3",
+    "en": "audio/s173_en.mp3",
+    "gl": "audio/s173_gl.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "frs": 3450,
+    "en": 2170,
+    "gl": 3430
+   },
+   "bank": {
+    "fr": [
+     2139330,
+     2540
+    ],
+    "frs": [
+     2142270,
+     3450
+    ],
+    "en": [
+     2146120,
+     2170
+    ],
+    "gl": [
+     2148690,
+     3430
+    ]
+   }
+  },
+  {
+   "fr": "Le jeune homme, fou d'épouvante, toucha la berge, enfin,",
+   "en": "The young man, mad with terror, reached the bank at last,",
+   "para": 43,
+   "glosses": [
+    {
+     "fr": "berge",
+     "en": "riverbank"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s174_fr.mp3",
+    "frs": "audio/s174_frs.mp3",
+    "en": "audio/s174_en.mp3",
+    "gl": "audio/s174_gl.mp3"
+   },
+   "ms": {
+    "fr": 4590,
+    "frs": 6500,
+    "en": 4340,
+    "gl": 3200
+   },
+   "bank": {
+    "fr": [
+     2152520,
+     4590
+    ],
+    "frs": [
+     2157510,
+     6500
+    ],
+    "en": [
+     2164410,
+     4340
+    ],
+    "gl": [
+     2169150,
+     3200
+    ]
+   }
+  },
+  {
+   "fr": "et s'élança de toute sa vitesse à travers le bois,",
+   "en": "and dashed as fast as he could through the wood,",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s175_fr.mp3",
+    "frs": "audio/s175_frs.mp3",
+    "en": "audio/s175_en.mp3"
+   },
+   "ms": {
+    "fr": 3320,
+    "frs": 4590,
+    "en": 2910
+   },
+   "bank": {
+    "fr": [
+     2172750,
+     3320
+    ],
+    "frs": [
+     2176470,
+     4590
+    ],
+    "en": [
+     2181460,
+     2910
+    ]
+   }
+  },
+  {
+   "fr": "sans même penser à retrouver ses habits et son fusil.",
+   "en": "without even thinking of getting back his clothes and his gun.",
+   "para": 43,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s176_fr.mp3",
+    "frs": "audio/s176_frs.mp3",
+    "en": "audio/s176_en.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "frs": 4920,
+    "en": 3820
+   },
+   "bank": {
+    "fr": [
+     2184770,
+     3530
+    ],
+    "frs": [
+     2188700,
+     4920
+    ],
+    "en": [
+     2194020,
+     3820
+    ]
+   }
+  },
+  {
+   "fr": "L'être effroyable le suivit,",
+   "en": "The dreadful creature followed him,",
+   "para": 44,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s177_fr.mp3",
+    "frs": "audio/s177_frs.mp3",
+    "en": "audio/s177_en.mp3"
+   },
+   "ms": {
+    "fr": 2400,
+    "frs": 3200,
+    "en": 2370
+   },
+   "bank": {
+    "fr": [
+     2198240,
+     2400
+    ],
+    "frs": [
+     2201040,
+     3200
+    ],
+    "en": [
+     2204640,
+     2370
+    ]
+   }
+  },
+  {
+   "fr": "courant aussi vite que lui et grognant toujours.",
+   "en": "running as fast as he did and grunting all the while.",
+   "para": 44,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s178_fr.mp3",
+    "frs": "audio/s178_frs.mp3",
+    "en": "audio/s178_en.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "frs": 4590,
+    "en": 3780
+   },
+   "bank": {
+    "fr": [
+     2207410,
+     3310
+    ],
+    "frs": [
+     2211120,
+     4590
+    ],
+    "en": [
+     2216110,
+     3780
+    ]
+   }
+  },
+  {
+   "fr": "Le fuyard, à bout de forces et perclus par la terreur,",
+   "en": "The fugitive, at the end of his strength and paralyzed by terror,",
+   "para": 45,
+   "glosses": [
+    {
+     "fr": "perclus",
+     "en": "paralyzed"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s179_fr.mp3",
+    "frs": "audio/s179_frs.mp3",
+    "en": "audio/s179_en.mp3",
+    "gl": "audio/s179_gl.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5620,
+    "en": 4290,
+    "gl": 3170
+   },
+   "bank": {
+    "fr": [
+     2220290,
+     4010
+    ],
+    "frs": [
+     2224700,
+     5620
+    ],
+    "en": [
+     2230720,
+     4290
+    ],
+    "gl": [
+     2235410,
+     3170
+    ]
+   }
+  },
+  {
+   "fr": "allait tomber,",
+   "en": "was about to fall,",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s180_fr.mp3",
+    "frs": "audio/s180_frs.mp3",
+    "en": "audio/s180_en.mp3"
+   },
+   "ms": {
+    "fr": 1420,
+    "frs": 1760,
+    "en": 1540
+   },
+   "bank": {
+    "fr": [
+     2238980,
+     1420
+    ],
+    "frs": [
+     2240800,
+     1760
+    ],
+    "en": [
+     2242960,
+     1540
+    ]
+   }
+  },
+  {
+   "fr": "quand un enfant qui gardait des chèvres accourut, armé d'un fouet ;",
+   "en": "when a child who was minding goats came running, armed with a whip;",
+   "para": 45,
+   "glosses": [
+    {
+     "fr": "fouet",
+     "en": "whip"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s181_fr.mp3",
+    "frs": "audio/s181_frs.mp3",
+    "en": "audio/s181_en.mp3",
+    "gl": "audio/s181_gl.mp3"
+   },
+   "ms": {
+    "fr": 4100,
+    "frs": 5800,
+    "en": 4330,
+    "gl": 2660
+   },
+   "bank": {
+    "fr": [
+     2244900,
+     4100
+    ],
+    "frs": [
+     2249400,
+     5800
+    ],
+    "en": [
+     2255600,
+     4330
+    ],
+    "gl": [
+     2260330,
+     2660
+    ]
+   }
+  },
+  {
+   "fr": "il se mit à frapper l'affreuse bête humaine,",
+   "en": "he began to beat the hideous human beast,",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s182_fr.mp3",
+    "frs": "audio/s182_frs.mp3",
+    "en": "audio/s182_en.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3830,
+    "en": 3220
+   },
+   "bank": {
+    "fr": [
+     2263390,
+     2820
+    ],
+    "frs": [
+     2266610,
+     3830
+    ],
+    "en": [
+     2270840,
+     3220
+    ]
+   }
+  },
+  {
+   "fr": "qui se sauva en poussant des cris de douleur.",
+   "en": "which fled, letting out cries of pain.",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s183_fr.mp3",
+    "frs": "audio/s183_frs.mp3",
+    "en": "audio/s183_en.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4220,
+    "en": 2920
+   },
+   "bank": {
+    "fr": [
+     2274460,
+     3090
+    ],
+    "frs": [
+     2277950,
+     4220
+    ],
+    "en": [
+     2282570,
+     2920
+    ]
+   }
+  },
+  {
+   "fr": "Et Tourgueneff la vit disparaître dans le feuillage,",
+   "en": "And Turgenev saw her disappear into the leaves,",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s184_fr.mp3",
+    "frs": "audio/s184_frs.mp3",
+    "en": "audio/s184_en.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "frs": 4660,
+    "en": 3620
+   },
+   "bank": {
+    "fr": [
+     2285890,
+     3370
+    ],
+    "frs": [
+     2289660,
+     4660
+    ],
+    "en": [
+     2294720,
+     3620
+    ]
+   }
+  },
+  {
+   "fr": "pareille à une femelle de gorille.",
+   "en": "like a female gorilla.",
+   "para": 45,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s185_fr.mp3",
+    "frs": "audio/s185_frs.mp3",
+    "en": "audio/s185_en.mp3"
+   },
+   "ms": {
+    "fr": 2430,
+    "frs": 3250,
+    "en": 1920
+   },
+   "bank": {
+    "fr": [
+     2298740,
+     2430
+    ],
+    "frs": [
+     2301570,
+     3250
+    ],
+    "en": [
+     2305220,
+     1920
+    ]
+   }
+  },
+  {
+   "fr": "C'était une folle,",
+   "en": "She was a madwoman",
+   "para": 46,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s186_fr.mp3",
+    "frs": "audio/s186_frs.mp3",
+    "en": "audio/s186_en.mp3"
+   },
+   "ms": {
+    "fr": 1840,
+    "frs": 2350,
+    "en": 1680
+   },
+   "bank": {
+    "fr": [
+     2307540,
+     1840
+    ],
+    "frs": [
+     2309780,
+     2350
+    ],
+    "en": [
+     2312530,
+     1680
+    ]
+   }
+  },
+  {
+   "fr": "qui vivait depuis plus de trente ans dans ce bois,",
+   "en": "who had lived for more than thirty years in that wood,",
+   "para": 46,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s187_fr.mp3",
+    "frs": "audio/s187_frs.mp3",
+    "en": "audio/s187_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4080,
+    "en": 3000
+   },
+   "bank": {
+    "fr": [
+     2314610,
+     2970
+    ],
+    "frs": [
+     2317980,
+     4080
+    ],
+    "en": [
+     2322460,
+     3000
+    ]
+   }
+  },
+  {
+   "fr": "de la charité des bergers,",
+   "en": "on the charity of the shepherds,",
+   "para": 46,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s188_fr.mp3",
+    "frs": "audio/s188_frs.mp3",
+    "en": "audio/s188_en.mp3"
+   },
+   "ms": {
+    "fr": 2180,
+    "frs": 2890,
+    "en": 2240
+   },
+   "bank": {
+    "fr": [
+     2325860,
+     2180
+    ],
+    "frs": [
+     2328440,
+     2890
+    ],
+    "en": [
+     2331730,
+     2240
+    ]
+   }
+  },
+  {
+   "fr": "et qui passait la moitié de ses jours à nager dans la rivière.",
+   "en": "and who spent half her days swimming in the river.",
+   "para": 46,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s189_fr.mp3",
+    "frs": "audio/s189_frs.mp3",
+    "en": "audio/s189_en.mp3"
+   },
+   "ms": {
+    "fr": 3820,
+    "frs": 5350,
+    "en": 3010
+   },
+   "bank": {
+    "fr": [
+     2334370,
+     3820
+    ],
+    "frs": [
+     2338590,
+     5350
+    ],
+    "en": [
+     2344340,
+     3010
+    ]
+   }
+  },
+  {
+   "fr": "Le grand écrivain russe ajouta :",
+   "en": "The great Russian writer added:",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s190_fr.mp3",
+    "frs": "audio/s190_frs.mp3",
+    "en": "audio/s190_en.mp3"
+   },
+   "ms": {
+    "fr": 2570,
+    "frs": 3470,
+    "en": 2110
+   },
+   "bank": {
+    "fr": [
+     2347750,
+     2570
+    ],
+    "frs": [
+     2350720,
+     3470
+    ],
+    "en": [
+     2354590,
+     2110
+    ]
+   }
+  },
+  {
+   "fr": "« Je n'ai jamais eu si peur de ma vie,",
+   "en": "\"I have never been so afraid in my life,",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s191_fr.mp3",
+    "frs": "audio/s191_frs.mp3",
+    "en": "audio/s191_en.mp3"
+   },
+   "ms": {
+    "fr": 2500,
+    "frs": 3340,
+    "en": 2590
+   },
+   "bank": {
+    "fr": [
+     2357100,
+     2500
+    ],
+    "frs": [
+     2360000,
+     3340
+    ],
+    "en": [
+     2363740,
+     2590
+    ]
+   }
+  },
+  {
+   "fr": "parce que je n'ai pas compris ce que pouvait être ce monstre. »",
+   "en": "because I did not understand what that monster could be.\"",
+   "para": 47,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s192_fr.mp3",
+    "frs": "audio/s192_frs.mp3",
+    "en": "audio/s192_en.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "frs": 5030,
+    "en": 3190
+   },
+   "bank": {
+    "fr": [
+     2366730,
+     3630
+    ],
+    "frs": [
+     2370760,
+     5030
+    ],
+    "en": [
+     2376190,
+     3190
+    ]
+   }
+  },
+  {
+   "fr": "Mon compagnon, à qui j'avais dit cette aventure, reprit :",
+   "en": "My companion, to whom I had told this adventure, went on:",
+   "para": 48,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s193_fr.mp3",
+    "frs": "audio/s193_frs.mp3",
+    "en": "audio/s193_en.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "frs": 6090,
+    "en": 4180
+   },
+   "bank": {
+    "fr": [
+     2379780,
+     4310
+    ],
+    "frs": [
+     2384490,
+     6090
+    ],
+    "en": [
+     2390980,
+     4180
+    ]
+   }
+  },
+  {
+   "fr": "— Oui, on n'a peur que de ce qu'on ne comprend pas.",
+   "en": "\"Yes, we are only afraid of what we do not understand.",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s194_fr.mp3",
+    "frs": "audio/s194_frs.mp3",
+    "en": "audio/s194_en.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4440,
+    "en": 3830
+   },
+   "bank": {
+    "fr": [
+     2395560,
+     3220
+    ],
+    "frs": [
+     2399180,
+     4440
+    ],
+    "en": [
+     2404020,
+     3830
+    ]
+   }
+  },
+  {
+   "fr": "On n'éprouve vraiment l'affreuse convulsion de l'âme,",
+   "en": "We only truly feel that terrible convulsion of the soul",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s195_fr.mp3",
+    "frs": "audio/s195_frs.mp3",
+    "en": "audio/s195_en.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "frs": 4460,
+    "en": 4070
+   },
+   "bank": {
+    "fr": [
+     2408250,
+     3230
+    ],
+    "frs": [
+     2411880,
+     4460
+    ],
+    "en": [
+     2416740,
+     4070
+    ]
+   }
+  },
+  {
+   "fr": "qui s'appelle l'épouvante,",
+   "en": "which is called terror",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s196_fr.mp3",
+    "frs": "audio/s196_frs.mp3",
+    "en": "audio/s196_en.mp3"
+   },
+   "ms": {
+    "fr": 2120,
+    "frs": 2760,
+    "en": 1640
+   },
+   "bank": {
+    "fr": [
+     2421210,
+     2120
+    ],
+    "frs": [
+     2423730,
+     2760
+    ],
+    "en": [
+     2426890,
+     1640
+    ]
+   }
+  },
+  {
+   "fr": "que lorsque se mêle à la peur",
+   "en": "when there is mixed into the fear",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s197_fr.mp3",
+    "frs": "audio/s197_frs.mp3",
+    "en": "audio/s197_en.mp3"
+   },
+   "ms": {
+    "fr": 2340,
+    "frs": 3110,
+    "en": 2280
+   },
+   "bank": {
+    "fr": [
+     2428930,
+     2340
+    ],
+    "frs": [
+     2431670,
+     3110
+    ],
+    "en": [
+     2435180,
+     2280
+    ]
+   }
+  },
+  {
+   "fr": "un peu de la terreur superstitieuse des siècles passés.",
+   "en": "a little of the superstitious dread of past centuries.",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s198_fr.mp3",
+    "frs": "audio/s198_frs.mp3",
+    "en": "audio/s198_en.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "frs": 5150,
+    "en": 3810
+   },
+   "bank": {
+    "fr": [
+     2437860,
+     3700
+    ],
+    "frs": [
+     2441960,
+     5150
+    ],
+    "en": [
+     2447510,
+     3810
+    ]
+   }
+  },
+  {
+   "fr": "Moi, j'ai ressenti cette épouvante dans toute son horreur,",
+   "en": "I myself have felt that terror in all its horror,",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s199_fr.mp3",
+    "frs": "audio/s199_frs.mp3",
+    "en": "audio/s199_en.mp3"
+   },
+   "ms": {
+    "fr": 4090,
+    "frs": 5750,
+    "en": 3310
+   },
+   "bank": {
+    "fr": [
+     2451720,
+     4090
+    ],
+    "frs": [
+     2456210,
+     5750
+    ],
+    "en": [
+     2462360,
+     3310
+    ]
+   }
+  },
+  {
+   "fr": "et cela pour une chose si simple, si bête,",
+   "en": "and over something so simple, so silly,",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s200_fr.mp3",
+    "frs": "audio/s200_frs.mp3",
+    "en": "audio/s200_en.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "frs": 4650,
+    "en": 3180
+   },
+   "bank": {
+    "fr": [
+     2466070,
+     3370
+    ],
+    "frs": [
+     2469840,
+     4650
+    ],
+    "en": [
+     2474890,
+     3180
+    ]
+   }
+  },
+  {
+   "fr": "que j'ose à peine la dire.",
+   "en": "that I hardly dare tell it.",
+   "para": 49,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s201_fr.mp3",
+    "frs": "audio/s201_frs.mp3",
+    "en": "audio/s201_en.mp3"
+   },
+   "ms": {
+    "fr": 2150,
+    "frs": 2820,
+    "en": 1880
+   },
+   "bank": {
+    "fr": [
+     2478470,
+     2150
+    ],
+    "frs": [
+     2481020,
+     2820
+    ],
+    "en": [
+     2484240,
+     1880
+    ]
+   }
+  },
+  {
+   "fr": "Je voyageais en Bretagne, tout seul, à pied.",
+   "en": "I was traveling in Brittany, all alone, on foot.",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s202_fr.mp3",
+    "frs": "audio/s202_frs.mp3",
+    "en": "audio/s202_en.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "frs": 5400,
+    "en": 3770
+   },
+   "bank": {
+    "fr": [
+     2486520,
+     3840
+    ],
+    "frs": [
+     2490760,
+     5400
+    ],
+    "en": [
+     2496560,
+     3770
+    ]
+   }
+  },
+  {
+   "fr": "J'avais parcouru le Finistère, les landes désolées,",
+   "en": "I had walked through Finistère, the desolate moors,",
+   "para": 50,
+   "glosses": [
+    {
+     "fr": "landes",
+     "en": "moors"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s203_fr.mp3",
+    "frs": "audio/s203_frs.mp3",
+    "en": "audio/s203_en.mp3",
+    "gl": "audio/s203_gl.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "frs": 5350,
+    "en": 3380,
+    "gl": 3010
+   },
+   "bank": {
+    "fr": [
+     2500730,
+     3840
+    ],
+    "frs": [
+     2504970,
+     5350
+    ],
+    "en": [
+     2510720,
+     3380
+    ],
+    "gl": [
+     2514500,
+     3010
+    ]
+   }
+  },
+  {
+   "fr": "les terres nues où ne pousse que l'ajonc,",
+   "en": "the bare lands where nothing grows but gorse,",
+   "para": 50,
+   "glosses": [
+    {
+     "fr": "ajonc",
+     "en": "gorse"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s204_fr.mp3",
+    "frs": "audio/s204_frs.mp3",
+    "en": "audio/s204_en.mp3",
+    "gl": "audio/s204_gl.mp3"
+   },
+   "ms": {
+    "fr": 2470,
+    "frs": 3330,
+    "en": 3240,
+    "gl": 2980
+   },
+   "bank": {
+    "fr": [
+     2517910,
+     2470
+    ],
+    "frs": [
+     2520780,
+     3330
+    ],
+    "en": [
+     2524510,
+     3240
+    ],
+    "gl": [
+     2528150,
+     2980
+    ]
+   }
+  },
+  {
+   "fr": "à côté des grandes pierres sacrées, des pierres hantées.",
+   "en": "beside the great sacred stones, the haunted stones.",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s205_fr.mp3",
+    "frs": "audio/s205_frs.mp3",
+    "en": "audio/s205_en.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "frs": 5020,
+    "en": 3980
+   },
+   "bank": {
+    "fr": [
+     2531530,
+     3600
+    ],
+    "frs": [
+     2535530,
+     5020
+    ],
+    "en": [
+     2540950,
+     3980
+    ]
+   }
+  },
+  {
+   "fr": "J'avais visité la veille, la sinistre pointe du Raz,",
+   "en": "The day before, I had visited the grim Pointe du Raz,",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s206_fr.mp3",
+    "frs": "audio/s206_frs.mp3",
+    "en": "audio/s206_en.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "frs": 5680,
+    "en": 3950
+   },
+   "bank": {
+    "fr": [
+     2545330,
+     4040
+    ],
+    "frs": [
+     2549770,
+     5680
+    ],
+    "en": [
+     2555850,
+     3950
+    ]
+   }
+  },
+  {
+   "fr": "ce bout du vieux monde,",
+   "en": "that end of the old world,",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s207_fr.mp3",
+    "frs": "audio/s207_frs.mp3",
+    "en": "audio/s207_en.mp3"
+   },
+   "ms": {
+    "fr": 1960,
+    "frs": 2560,
+    "en": 1820
+   },
+   "bank": {
+    "fr": [
+     2560200,
+     1960
+    ],
+    "frs": [
+     2562560,
+     2560
+    ],
+    "en": [
+     2565520,
+     1820
+    ]
+   }
+  },
+  {
+   "fr": "où se battent éternellement deux océans :",
+   "en": "where two oceans fight forever:",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s208_fr.mp3",
+    "frs": "audio/s208_frs.mp3",
+    "en": "audio/s208_en.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3660,
+    "en": 2610
+   },
+   "bank": {
+    "fr": [
+     2567740,
+     2680
+    ],
+    "frs": [
+     2570820,
+     3660
+    ],
+    "en": [
+     2574880,
+     2610
+    ]
+   }
+  },
+  {
+   "fr": "l'Atlantique et la Manche ;",
+   "en": "the Atlantic and the Channel;",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s209_fr.mp3",
+    "frs": "audio/s209_frs.mp3",
+    "en": "audio/s209_en.mp3"
+   },
+   "ms": {
+    "fr": 2160,
+    "frs": 2850,
+    "en": 2140
+   },
+   "bank": {
+    "fr": [
+     2577890,
+     2160
+    ],
+    "frs": [
+     2580450,
+     2850
+    ],
+    "en": [
+     2583700,
+     2140
+    ]
+   }
+  },
+  {
+   "fr": "j'avais l'esprit plein de légendes,",
+   "en": "my mind was full of legends,",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s210_fr.mp3",
+    "frs": "audio/s210_frs.mp3",
+    "en": "audio/s210_en.mp3"
+   },
+   "ms": {
+    "fr": 2500,
+    "frs": 3360,
+    "en": 2110
+   },
+   "bank": {
+    "fr": [
+     2586240,
+     2500
+    ],
+    "frs": [
+     2589140,
+     3360
+    ],
+    "en": [
+     2592900,
+     2110
+    ]
+   }
+  },
+  {
+   "fr": "d'histoires lues ou racontées",
+   "en": "of stories read or told",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s211_fr.mp3",
+    "frs": "audio/s211_frs.mp3",
+    "en": "audio/s211_en.mp3"
+   },
+   "ms": {
+    "fr": 2260,
+    "frs": 3000,
+    "en": 2330
+   },
+   "bank": {
+    "fr": [
+     2595410,
+     2260
+    ],
+    "frs": [
+     2598070,
+     3000
+    ],
+    "en": [
+     2601470,
+     2330
+    ]
+   }
+  },
+  {
+   "fr": "sur cette terre des croyances et des superstitions.",
+   "en": "in that land of beliefs and superstitions.",
+   "para": 50,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s212_fr.mp3",
+    "frs": "audio/s212_frs.mp3",
+    "en": "audio/s212_en.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "frs": 4580,
+    "en": 3330
+   },
+   "bank": {
+    "fr": [
+     2604200,
+     3310
+    ],
+    "frs": [
+     2607910,
+     4580
+    ],
+    "en": [
+     2612890,
+     3330
+    ]
+   }
+  },
+  {
+   "fr": "Et j'allai de Penmarch à Pont-l'Abbé, de nuit.",
+   "en": "And I went from Penmarch to Pont-l'Abbé, by night.",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s213_fr.mp3",
+    "frs": "audio/s213_frs.mp3",
+    "en": "audio/s213_en.mp3"
+   },
+   "ms": {
+    "fr": 3300,
+    "frs": 4540,
+    "en": 3550
+   },
+   "bank": {
+    "fr": [
+     2616620,
+     3300
+    ],
+    "frs": [
+     2620320,
+     4540
+    ],
+    "en": [
+     2625260,
+     3550
+    ]
+   }
+  },
+  {
+   "fr": "Connaissez-vous Penmarch ?",
+   "en": "Do you know Penmarch?",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s214_fr.mp3",
+    "frs": "audio/s214_frs.mp3",
+    "en": "audio/s214_en.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2790,
+    "en": 1590
+   },
+   "bank": {
+    "fr": [
+     2629210,
+     2130
+    ],
+    "frs": [
+     2631740,
+     2790
+    ],
+    "en": [
+     2634930,
+     1590
+    ]
+   }
+  },
+  {
+   "fr": "Un rivage plat, tout plat, tout bas,",
+   "en": "A flat shore, completely flat, very low,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s215_fr.mp3",
+    "frs": "audio/s215_frs.mp3",
+    "en": "audio/s215_en.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "frs": 4230,
+    "en": 3510
+   },
+   "bank": {
+    "fr": [
+     2636920,
+     3070
+    ],
+    "frs": [
+     2640390,
+     4230
+    ],
+    "en": [
+     2645020,
+     3510
+    ]
+   }
+  },
+  {
+   "fr": "plus bas que la mer, semble-t-il.",
+   "en": "lower than the sea, it seems.",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s216_fr.mp3",
+    "frs": "audio/s216_frs.mp3",
+    "en": "audio/s216_en.mp3"
+   },
+   "ms": {
+    "fr": 2870,
+    "frs": 3920,
+    "en": 2530
+   },
+   "bank": {
+    "fr": [
+     2648930,
+     2870
+    ],
+    "frs": [
+     2652200,
+     3920
+    ],
+    "en": [
+     2656520,
+     2530
+    ]
+   }
+  },
+  {
+   "fr": "On la voit partout, menaçante et grise,",
+   "en": "You see it everywhere, threatening and gray,",
+   "para": 51,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s217_fr.mp3",
+    "frs": "audio/s217_frs.mp3",
+    "en": "audio/s217_en.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "frs": 4300,
+    "en": 3160
+   },
+   "bank": {
+    "fr": [
+     2659450,
+     3120
+    ],
+    "frs": [
+     2662970,
+     4300
+    ],
+    "en": [
+     2667670,
+     3160
+    ]
+   }
+  },
+  {
+   "fr": "cette mer pleine d'écueils baveux comme des bêtes furieuses.",
+   "en": "that sea full of reefs foaming like furious beasts.",
+   "para": 51,
+   "glosses": [
+    {
+     "fr": "écueils",
+     "en": "reefs"
+    },
+    {
+     "fr": "baveux",
+     "en": "slobbering, foaming"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s218_fr.mp3",
+    "frs": "audio/s218_frs.mp3",
+    "en": "audio/s218_en.mp3",
+    "gl": "audio/s218_gl.mp3"
+   },
+   "ms": {
+    "fr": 3790,
+    "frs": 5300,
+    "en": 3540,
+    "gl": 6270
+   },
+   "bank": {
+    "fr": [
+     2671230,
+     3790
+    ],
+    "frs": [
+     2675420,
+     5300
+    ],
+    "en": [
+     2681120,
+     3540
+    ],
+    "gl": [
+     2685060,
+     6270
+    ]
+   }
+  },
+  {
+   "fr": "J'avais dîné dans un cabaret de pêcheurs,",
+   "en": "I had had dinner in a fishermen's tavern,",
+   "para": 52,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s219_fr.mp3",
+    "frs": "audio/s219_frs.mp3",
+    "en": "audio/s219_en.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4100,
+    "en": 2570
+   },
+   "bank": {
+    "fr": [
+     2691730,
+     2980
+    ],
+    "frs": [
+     2695110,
+     4100
+    ],
+    "en": [
+     2699610,
+     2570
+    ]
+   }
+  },
+  {
+   "fr": "et je marchais maintenant sur la route droite, entre deux landes.",
+   "en": "and now I was walking on the straight road, between two moors.",
+   "para": 52,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s220_fr.mp3",
+    "frs": "audio/s220_frs.mp3",
+    "en": "audio/s220_en.mp3"
+   },
+   "ms": {
+    "fr": 4110,
+    "frs": 5780,
+    "en": 3840
+   },
+   "bank": {
+    "fr": [
+     2702580,
+     4110
+    ],
+    "frs": [
+     2707090,
+     5780
+    ],
+    "en": [
+     2713270,
+     3840
+    ]
+   }
+  },
+  {
+   "fr": "Il faisait très noir.",
+   "en": "It was very dark.",
+   "para": 52,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s221_fr.mp3",
+    "frs": "audio/s221_frs.mp3",
+    "en": "audio/s221_en.mp3"
+   },
+   "ms": {
+    "fr": 1930,
+    "frs": 2520,
+    "en": 1590
+   },
+   "bank": {
+    "fr": [
+     2717510,
+     1930
+    ],
+    "frs": [
+     2719840,
+     2520
+    ],
+    "en": [
+     2722760,
+     1590
+    ]
+   }
+  },
+  {
+   "fr": "De temps en temps, une pierre druidique,",
+   "en": "From time to time, a druid stone,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s222_fr.mp3",
+    "frs": "audio/s222_frs.mp3",
+    "en": "audio/s222_en.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4080,
+    "en": 2820
+   },
+   "bank": {
+    "fr": [
+     2724750,
+     2980
+    ],
+    "frs": [
+     2728130,
+     4080
+    ],
+    "en": [
+     2732610,
+     2820
+    ]
+   }
+  },
+  {
+   "fr": "pareille à un fantôme debout,",
+   "en": "like a ghost standing upright,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s223_fr.mp3",
+    "frs": "audio/s223_frs.mp3",
+    "en": "audio/s223_en.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2890,
+    "en": 2270
+   },
+   "bank": {
+    "fr": [
+     2735830,
+     2190
+    ],
+    "frs": [
+     2738420,
+     2890
+    ],
+    "en": [
+     2741710,
+     2270
+    ]
+   }
+  },
+  {
+   "fr": "semblait me regarder passer,",
+   "en": "seemed to watch me go by,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s224_fr.mp3",
+    "frs": "audio/s224_frs.mp3",
+    "en": "audio/s224_en.mp3"
+   },
+   "ms": {
+    "fr": 2300,
+    "frs": 3060,
+    "en": 1860
+   },
+   "bank": {
+    "fr": [
+     2744380,
+     2300
+    ],
+    "frs": [
+     2747080,
+     3060
+    ],
+    "en": [
+     2750540,
+     1860
+    ]
+   }
+  },
+  {
+   "fr": "et peu à peu entrait en moi une appréhension vague ;",
+   "en": "and little by little a vague dread came over me;",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s225_fr.mp3",
+    "frs": "audio/s225_frs.mp3",
+    "en": "audio/s225_en.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "frs": 4480,
+    "en": 3350
+   },
+   "bank": {
+    "fr": [
+     2752800,
+     3250
+    ],
+    "frs": [
+     2756450,
+     4480
+    ],
+    "en": [
+     2761330,
+     3350
+    ]
+   }
+  },
+  {
+   "fr": "de quoi ? Je n'en savais rien.",
+   "en": "of what? I had no idea.",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s226_fr.mp3",
+    "frs": "audio/s226_frs.mp3",
+    "en": "audio/s226_en.mp3"
+   },
+   "ms": {
+    "fr": 3480,
+    "frs": 4830,
+    "en": 2330
+   },
+   "bank": {
+    "fr": [
+     2765080,
+     3480
+    ],
+    "frs": [
+     2768960,
+     4830
+    ],
+    "en": [
+     2774190,
+     2330
+    ]
+   }
+  },
+  {
+   "fr": "Il est des soirs où l'on se croit frôlé par des esprits,",
+   "en": "There are evenings when you think spirits are brushing past you,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s227_fr.mp3",
+    "frs": "audio/s227_frs.mp3",
+    "en": "audio/s227_en.mp3"
+   },
+   "ms": {
+    "fr": 3380,
+    "frs": 4680,
+    "en": 3640
+   },
+   "bank": {
+    "fr": [
+     2776920,
+     3380
+    ],
+    "frs": [
+     2780700,
+     4680
+    ],
+    "en": [
+     2785780,
+     3640
+    ]
+   }
+  },
+  {
+   "fr": "où l'âme frissonne sans raison,",
+   "en": "when the soul shivers for no reason,",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s228_fr.mp3",
+    "frs": "audio/s228_frs.mp3",
+    "en": "audio/s228_en.mp3"
+   },
+   "ms": {
+    "fr": 2180,
+    "frs": 2890,
+    "en": 2540
+   },
+   "bank": {
+    "fr": [
+     2789820,
+     2180
+    ],
+    "frs": [
+     2792400,
+     2890
+    ],
+    "en": [
+     2795690,
+     2540
+    ]
+   }
+  },
+  {
+   "fr": "où le cœur bat sous la crainte confuse",
+   "en": "when the heart pounds under the confused fear",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s229_fr.mp3",
+    "frs": "audio/s229_frs.mp3",
+    "en": "audio/s229_en.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3780,
+    "en": 3190
+   },
+   "bank": {
+    "fr": [
+     2798630,
+     2770
+    ],
+    "frs": [
+     2801800,
+     3780
+    ],
+    "en": [
+     2805980,
+     3190
+    ]
+   }
+  },
+  {
+   "fr": "de ce quelque chose d'invisible que je regrette, moi.",
+   "en": "of that invisible something that I, for one, miss.",
+   "para": 53,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s230_fr.mp3",
+    "frs": "audio/s230_frs.mp3",
+    "en": "audio/s230_en.mp3"
+   },
+   "ms": {
+    "fr": 3880,
+    "frs": 5420,
+    "en": 3850
+   },
+   "bank": {
+    "fr": [
+     2809570,
+     3880
+    ],
+    "frs": [
+     2813850,
+     5420
+    ],
+    "en": [
+     2819670,
+     3850
+    ]
+   }
+  },
+  {
+   "fr": "Elle me semblait longue, cette route,",
+   "en": "It seemed long to me, that road,",
+   "para": 54,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s231_fr.mp3",
+    "frs": "audio/s231_frs.mp3",
+    "en": "audio/s231_en.mp3"
+   },
+   "ms": {
+    "fr": 2950,
+    "frs": 4040,
+    "en": 2770
+   },
+   "bank": {
+    "fr": [
+     2823920,
+     2950
+    ],
+    "frs": [
+     2827270,
+     4040
+    ],
+    "en": [
+     2831710,
+     2770
+    ]
+   }
+  },
+  {
+   "fr": "longue et vide interminablement.",
+   "en": "long and endlessly empty.",
+   "para": 54,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s232_fr.mp3",
+    "frs": "audio/s232_frs.mp3",
+    "en": "audio/s232_en.mp3"
+   },
+   "ms": {
+    "fr": 2410,
+    "frs": 3240,
+    "en": 2200
+   },
+   "bank": {
+    "fr": [
+     2834880,
+     2410
+    ],
+    "frs": [
+     2837690,
+     3240
+    ],
+    "en": [
+     2841330,
+     2200
+    ]
+   }
+  },
+  {
+   "fr": "Aucun bruit que le ronflement des flots, là-bas, derrière moi,",
+   "en": "No sound but the roar of the waves, back there, behind me,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s233_fr.mp3",
+    "frs": "audio/s233_frs.mp3",
+    "en": "audio/s233_en.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "frs": 6170,
+    "en": 4490
+   },
+   "bank": {
+    "fr": [
+     2843930,
+     4380
+    ],
+    "frs": [
+     2848710,
+     6170
+    ],
+    "en": [
+     2855280,
+     4490
+    ]
+   }
+  },
+  {
+   "fr": "et parfois ce bruit monotone et menaçant semblait tout près, si près,",
+   "en": "and sometimes that monotonous, threatening noise seemed very close, so close,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s234_fr.mp3",
+    "frs": "audio/s234_frs.mp3",
+    "en": "audio/s234_en.mp3"
+   },
+   "ms": {
+    "fr": 4440,
+    "frs": 6280,
+    "en": 5630
+   },
+   "bank": {
+    "fr": [
+     2860170,
+     4440
+    ],
+    "frs": [
+     2865010,
+     6280
+    ],
+    "en": [
+     2871690,
+     5630
+    ]
+   }
+  },
+  {
+   "fr": "que je les croyais sur mes talons,",
+   "en": "that I thought they were at my heels,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s235_fr.mp3",
+    "frs": "audio/s235_frs.mp3",
+    "en": "audio/s235_en.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 3040,
+    "en": 2150
+   },
+   "bank": {
+    "fr": [
+     2877720,
+     2290
+    ],
+    "frs": [
+     2880410,
+     3040
+    ],
+    "en": [
+     2883850,
+     2150
+    ]
+   }
+  },
+  {
+   "fr": "courant par la plaine avec leur front d'écume,",
+   "en": "running across the plain with their foaming brows,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s236_fr.mp3",
+    "frs": "audio/s236_frs.mp3",
+    "en": "audio/s236_en.mp3"
+   },
+   "ms": {
+    "fr": 3020,
+    "frs": 4140,
+    "en": 3270
+   },
+   "bank": {
+    "fr": [
+     2886400,
+     3020
+    ],
+    "frs": [
+     2889820,
+     4140
+    ],
+    "en": [
+     2894360,
+     3270
+    ]
+   }
+  },
+  {
+   "fr": "et que j'avais envie de me sauver,",
+   "en": "and that I wanted to run away,",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s237_fr.mp3",
+    "frs": "audio/s237_frs.mp3",
+    "en": "audio/s237_en.mp3"
+   },
+   "ms": {
+    "fr": 2310,
+    "frs": 3060,
+    "en": 1980
+   },
+   "bank": {
+    "fr": [
+     2898030,
+     2310
+    ],
+    "frs": [
+     2900740,
+     3060
+    ],
+    "en": [
+     2904200,
+     1980
+    ]
+   }
+  },
+  {
+   "fr": "de fuir à toutes jambes devant eux.",
+   "en": "to flee from them as fast as my legs could carry me.",
+   "para": 55,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s238_fr.mp3",
+    "frs": "audio/s238_frs.mp3",
+    "en": "audio/s238_en.mp3"
+   },
+   "ms": {
+    "fr": 2490,
+    "frs": 3370,
+    "en": 3370
+   },
+   "bank": {
+    "fr": [
+     2906580,
+     2490
+    ],
+    "frs": [
+     2909470,
+     3370
+    ],
+    "en": [
+     2913240,
+     3370
+    ]
+   }
+  },
+  {
+   "fr": "Le vent, un vent bas soufflant par rafales,",
+   "en": "The wind, a low wind blowing in gusts,",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s239_fr.mp3",
+    "frs": "audio/s239_frs.mp3",
+    "en": "audio/s239_en.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4440,
+    "en": 3420
+   },
+   "bank": {
+    "fr": [
+     2917010,
+     3220
+    ],
+    "frs": [
+     2920630,
+     4440
+    ],
+    "en": [
+     2925470,
+     3420
+    ]
+   }
+  },
+  {
+   "fr": "faisait siffler les ajoncs autour de moi.",
+   "en": "made the gorse whistle around me.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s240_fr.mp3",
+    "frs": "audio/s240_frs.mp3",
+    "en": "audio/s240_en.mp3"
+   },
+   "ms": {
+    "fr": 2900,
+    "frs": 3970,
+    "en": 2170
+   },
+   "bank": {
+    "fr": [
+     2929290,
+     2900
+    ],
+    "frs": [
+     2932590,
+     3970
+    ],
+    "en": [
+     2936960,
+     2170
+    ]
+   }
+  },
+  {
+   "fr": "Et, bien que j'allasse très vite,",
+   "en": "And, although I was walking very fast,",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s241_fr.mp3",
+    "frs": "audio/s241_frs.mp3",
+    "en": "audio/s241_en.mp3"
+   },
+   "ms": {
+    "fr": 2640,
+    "frs": 3560,
+    "en": 2910
+   },
+   "bank": {
+    "fr": [
+     2939530,
+     2640
+    ],
+    "frs": [
+     2942570,
+     3560
+    ],
+    "en": [
+     2946530,
+     2910
+    ]
+   }
+  },
+  {
+   "fr": "j'avais froid dans les bras et dans les jambes :",
+   "en": "my arms and legs were cold:",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s242_fr.mp3",
+    "frs": "audio/s242_frs.mp3",
+    "en": "audio/s242_en.mp3"
+   },
+   "ms": {
+    "fr": 2830,
+    "frs": 3870,
+    "en": 2250
+   },
+   "bank": {
+    "fr": [
+     2949840,
+     2830
+    ],
+    "frs": [
+     2953070,
+     3870
+    ],
+    "en": [
+     2957340,
+     2250
+    ]
+   }
+  },
+  {
+   "fr": "un vilain froid d'angoisse.",
+   "en": "a nasty chill of dread.",
+   "para": 56,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s243_fr.mp3",
+    "frs": "audio/s243_frs.mp3",
+    "en": "audio/s243_en.mp3"
+   },
+   "ms": {
+    "fr": 2240,
+    "frs": 2960,
+    "en": 1960
+   },
+   "bank": {
+    "fr": [
+     2959990,
+     2240
+    ],
+    "frs": [
+     2962630,
+     2960
+    ],
+    "en": [
+     2965990,
+     1960
+    ]
+   }
+  },
+  {
+   "fr": "Oh ! comme j'aurais voulu rencontrer quelqu'un !",
+   "en": "Oh! How I would have liked to meet someone!",
+   "para": 57,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s244_fr.mp3",
+    "frs": "audio/s244_frs.mp3",
+    "en": "audio/s244_en.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "frs": 5740,
+    "en": 2740
+   },
+   "bank": {
+    "fr": [
+     2968350,
+     4059
+    ],
+    "frs": [
+     2972810,
+     5740
+    ],
+    "en": [
+     2978950,
+     2740
+    ]
+   }
+  },
+  {
+   "fr": "Il faisait si noir que je distinguais à peine la route, maintenant.",
+   "en": "It was so dark that I could barely make out the road now.",
+   "para": 58,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s245_fr.mp3",
+    "frs": "audio/s245_frs.mp3",
+    "en": "audio/s245_en.mp3"
+   },
+   "ms": {
+    "fr": 4450,
+    "frs": 6290,
+    "en": 3340
+   },
+   "bank": {
+    "fr": [
+     2982090,
+     4450
+    ],
+    "frs": [
+     2986940,
+     6290
+    ],
+    "en": [
+     2993630,
+     3340
+    ]
+   }
+  },
+  {
+   "fr": "Et tout à coup j'entendis devant moi, très loin, un roulement.",
+   "en": "And suddenly I heard ahead of me, very far away, a rumbling of wheels.",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s246_fr.mp3",
+    "frs": "audio/s246_frs.mp3",
+    "en": "audio/s246_en.mp3"
+   },
+   "ms": {
+    "fr": 4200,
+    "frs": 5910,
+    "en": 5180
+   },
+   "bank": {
+    "fr": [
+     2997370,
+     4200
+    ],
+    "frs": [
+     3001970,
+     5910
+    ],
+    "en": [
+     3008280,
+     5180
+    ]
+   }
+  },
+  {
+   "fr": "Je pensai : « Tiens, une voiture. »",
+   "en": "I thought: \"Ah, a carriage.\"",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s247_fr.mp3",
+    "frs": "audio/s247_frs.mp3",
+    "en": "audio/s247_en.mp3"
+   },
+   "ms": {
+    "fr": 3240,
+    "frs": 4460,
+    "en": 2700
+   },
+   "bank": {
+    "fr": [
+     3013860,
+     3240
+    ],
+    "frs": [
+     3017500,
+     4460
+    ],
+    "en": [
+     3022360,
+     2700
+    ]
+   }
+  },
+  {
+   "fr": "Puis je n'entendis plus rien.",
+   "en": "Then I heard nothing more.",
+   "para": 59,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s248_fr.mp3",
+    "frs": "audio/s248_frs.mp3",
+    "en": "audio/s248_en.mp3"
+   },
+   "ms": {
+    "fr": 2120,
+    "frs": 2810,
+    "en": 1790
+   },
+   "bank": {
+    "fr": [
+     3025460,
+     2120
+    ],
+    "frs": [
+     3027980,
+     2810
+    ],
+    "en": [
+     3031190,
+     1790
+    ]
+   }
+  },
+  {
+   "fr": "Au bout d'une minute, je perçus distinctement le même bruit, plus proche.",
+   "en": "After a minute, I clearly made out the same noise, closer.",
+   "para": 60,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s249_fr.mp3",
+    "frs": "audio/s249_frs.mp3",
+    "en": "audio/s249_en.mp3"
+   },
+   "ms": {
+    "fr": 5060,
+    "frs": 7190,
+    "en": 4300
+   },
+   "bank": {
+    "fr": [
+     3033380,
+     5060
+    ],
+    "frs": [
+     3038840,
+     7190
+    ],
+    "en": [
+     3046430,
+     4300
+    ]
+   }
+  },
+  {
+   "fr": "Je ne voyais aucune lumière, cependant ;",
+   "en": "I could see no light, however;",
+   "para": 61,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s250_fr.mp3",
+    "frs": "audio/s250_frs.mp3",
+    "en": "audio/s250_en.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4460,
+    "en": 2290
+   },
+   "bank": {
+    "fr": [
+     3051130,
+     3220
+    ],
+    "frs": [
+     3054750,
+     4460
+    ],
+    "en": [
+     3059610,
+     2290
+    ]
+   }
+  },
+  {
+   "fr": "mais je me dis : « Ils n'ont pas de lanterne.",
+   "en": "but I said to myself: \"They have no lantern.",
+   "para": 61,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s251_fr.mp3",
+    "frs": "audio/s251_frs.mp3",
+    "en": "audio/s251_en.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "frs": 4280,
+    "en": 3250
+   },
+   "bank": {
+    "fr": [
+     3062300,
+     3110
+    ],
+    "frs": [
+     3065810,
+     4280
+    ],
+    "en": [
+     3070490,
+     3250
+    ]
+   }
+  },
+  {
+   "fr": "Quoi d'étonnant dans ce pays de sauvage. »",
+   "en": "What's surprising about that in this wild country.\"",
+   "para": 61,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s252_fr.mp3",
+    "frs": "audio/s252_frs.mp3",
+    "en": "audio/s252_en.mp3"
+   },
+   "ms": {
+    "fr": 2890,
+    "frs": 3950,
+    "en": 3020
+   },
+   "bank": {
+    "fr": [
+     3074140,
+     2890
+    ],
+    "frs": [
+     3077430,
+     3950
+    ],
+    "en": [
+     3081780,
+     3020
+    ]
+   }
+  },
+  {
+   "fr": "Le bruit s'arrêta encore, puis reprit.",
+   "en": "The noise stopped again, then started again.",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s253_fr.mp3",
+    "frs": "audio/s253_frs.mp3",
+    "en": "audio/s253_en.mp3"
+   },
+   "ms": {
+    "fr": 3270,
+    "frs": 4520,
+    "en": 2980
+   },
+   "bank": {
+    "fr": [
+     3085200,
+     3270
+    ],
+    "frs": [
+     3088870,
+     4520
+    ],
+    "en": [
+     3093790,
+     2980
+    ]
+   }
+  },
+  {
+   "fr": "Il était trop grêle pour que ce fût une charrette ;",
+   "en": "It was too faint to be a cart;",
+   "para": 62,
+   "glosses": [
+    {
+     "fr": "grêle",
+     "en": "thin, faint"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s254_fr.mp3",
+    "frs": "audio/s254_frs.mp3",
+    "en": "audio/s254_en.mp3",
+    "gl": "audio/s254_gl.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "frs": 4500,
+    "en": 2120,
+    "gl": 3320
+   },
+   "bank": {
+    "fr": [
+     3097170,
+     3250
+    ],
+    "frs": [
+     3100820,
+     4500
+    ],
+    "en": [
+     3105720,
+     2120
+    ],
+    "gl": [
+     3108240,
+     3320
+    ]
+   }
+  },
+  {
+   "fr": "et je n'entendais point d'ailleurs le trot du cheval,",
+   "en": "and besides, I could not hear a horse trotting,",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s255_fr.mp3",
+    "frs": "audio/s255_frs.mp3",
+    "en": "audio/s255_en.mp3"
+   },
+   "ms": {
+    "fr": 3190,
+    "frs": 4400,
+    "en": 3220
+   },
+   "bank": {
+    "fr": [
+     3111960,
+     3190
+    ],
+    "frs": [
+     3115550,
+     4400
+    ],
+    "en": [
+     3120350,
+     3220
+    ]
+   }
+  },
+  {
+   "fr": "ce qui m'étonnait, car la nuit était calme.",
+   "en": "which surprised me, because the night was calm.",
+   "para": 62,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s256_fr.mp3",
+    "frs": "audio/s256_frs.mp3",
+    "en": "audio/s256_en.mp3"
+   },
+   "ms": {
+    "fr": 3380,
+    "frs": 4680,
+    "en": 3060
+   },
+   "bank": {
+    "fr": [
+     3123970,
+     3380
+    ],
+    "frs": [
+     3127750,
+     4680
+    ],
+    "en": [
+     3132830,
+     3060
+    ]
+   }
+  },
+  {
+   "fr": "Je cherchais : « Qu'est-ce que cela ? »",
+   "en": "I wondered: \"What is that?\"",
+   "para": 63,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s257_fr.mp3",
+    "frs": "audio/s257_frs.mp3",
+    "en": "audio/s257_en.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3520,
+    "en": 1920
+   },
+   "bank": {
+    "fr": [
+     3136290,
+     2600
+    ],
+    "frs": [
+     3139290,
+     3520
+    ],
+    "en": [
+     3143210,
+     1920
+    ]
+   }
+  },
+  {
+   "fr": "Il approchait vite, très vite !",
+   "en": "It was coming closer fast, very fast!",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s258_fr.mp3",
+    "frs": "audio/s258_frs.mp3",
+    "en": "audio/s258_en.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3680,
+    "en": 3060
+   },
+   "bank": {
+    "fr": [
+     3145530,
+     2700
+    ],
+    "frs": [
+     3148630,
+     3680
+    ],
+    "en": [
+     3152710,
+     3060
+    ]
+   }
+  },
+  {
+   "fr": "Certes, je n'entendais rien qu'une roue",
+   "en": "Indeed, I could hear nothing but one wheel",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s259_fr.mp3",
+    "frs": "audio/s259_frs.mp3",
+    "en": "audio/s259_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4059,
+    "en": 3210
+   },
+   "bank": {
+    "fr": [
+     3156170,
+     2970
+    ],
+    "frs": [
+     3159540,
+     4059
+    ],
+    "en": [
+     3164000,
+     3210
+    ]
+   }
+  },
+  {
+   "fr": "— aucun battement de fers ou de pieds, — rien.",
+   "en": "— no beat of horseshoes or feet — nothing.",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s260_fr.mp3",
+    "frs": "audio/s260_frs.mp3",
+    "en": "audio/s260_en.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "frs": 4440,
+    "en": 3360
+   },
+   "bank": {
+    "fr": [
+     3167610,
+     3210
+    ],
+    "frs": [
+     3171220,
+     4440
+    ],
+    "en": [
+     3176060,
+     3360
+    ]
+   }
+  },
+  {
+   "fr": "Qu'était-ce que cela ?",
+   "en": "What could it be?",
+   "para": 64,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s261_fr.mp3",
+    "frs": "audio/s261_frs.mp3",
+    "en": "audio/s261_en.mp3"
+   },
+   "ms": {
+    "fr": 1870,
+    "frs": 2420,
+    "en": 1380
+   },
+   "bank": {
+    "fr": [
+     3179820,
+     1870
+    ],
+    "frs": [
+     3182090,
+     2420
+    ],
+    "en": [
+     3184910,
+     1380
+    ]
+   }
+  },
+  {
+   "fr": "Il était tout près, tout près ;",
+   "en": "It was very close, very close;",
+   "para": 65,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s262_fr.mp3",
+    "frs": "audio/s262_frs.mp3",
+    "en": "audio/s262_en.mp3"
+   },
+   "ms": {
+    "fr": 2400,
+    "frs": 3220,
+    "en": 2630
+   },
+   "bank": {
+    "fr": [
+     3186690,
+     2400
+    ],
+    "frs": [
+     3189490,
+     3220
+    ],
+    "en": [
+     3193110,
+     2630
+    ]
+   }
+  },
+  {
+   "fr": "je me jetai dans un fossé par un mouvement de peur instinctive,",
+   "en": "I threw myself into a ditch out of instinctive fear,",
+   "para": 65,
+   "glosses": [
+    {
+     "fr": "fossé",
+     "en": "ditch"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s263_fr.mp3",
+    "frs": "audio/s263_frs.mp3",
+    "en": "audio/s263_en.mp3",
+    "gl": "audio/s263_gl.mp3"
+   },
+   "ms": {
+    "fr": 4080,
+    "frs": 5730,
+    "en": 3520,
+    "gl": 3010
+   },
+   "bank": {
+    "fr": [
+     3196140,
+     4080
+    ],
+    "frs": [
+     3200620,
+     5730
+    ],
+    "en": [
+     3206750,
+     3520
+    ],
+    "gl": [
+     3210670,
+     3010
+    ]
+   }
+  },
+  {
+   "fr": "et je vis passer contre moi une brouette,",
+   "en": "and I saw a wheelbarrow pass right by me,",
+   "para": 65,
+   "glosses": [
+    {
+     "fr": "brouette",
+     "en": "wheelbarrow"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s264_fr.mp3",
+    "frs": "audio/s264_frs.mp3",
+    "en": "audio/s264_en.mp3",
+    "gl": "audio/s264_gl.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3820,
+    "en": 2720,
+    "gl": 3380
+   },
+   "bank": {
+    "fr": [
+     3214080,
+     2810
+    ],
+    "frs": [
+     3217290,
+     3820
+    ],
+    "en": [
+     3221510,
+     2720
+    ],
+    "gl": [
+     3224630,
+     3380
+    ]
+   }
+  },
+  {
+   "fr": "qui courait… toute seule, personne ne la poussant…",
+   "en": "running… all by itself, with no one pushing it…",
+   "para": 65,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s265_fr.mp3",
+    "frs": "audio/s265_frs.mp3",
+    "en": "audio/s265_en.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "frs": 5180,
+    "en": 3590
+   },
+   "bank": {
+    "fr": [
+     3228410,
+     3700
+    ],
+    "frs": [
+     3232510,
+     5180
+    ],
+    "en": [
+     3238090,
+     3590
+    ]
+   }
+  },
+  {
+   "fr": "Oui… une brouette… toute seule…",
+   "en": "Yes… a wheelbarrow… all by itself…",
+   "para": 65,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s266_fr.mp3",
+    "frs": "audio/s266_frs.mp3",
+    "en": "audio/s266_en.mp3"
+   },
+   "ms": {
+    "fr": 2900,
+    "frs": 3960,
+    "en": 2910
+   },
+   "bank": {
+    "fr": [
+     3242080,
+     2900
+    ],
+    "frs": [
+     3245380,
+     3960
+    ],
+    "en": [
+     3249740,
+     2910
+    ]
+   }
+  },
+  {
+   "fr": "Mon cœur se mit à bondir si violemment",
+   "en": "My heart began to leap so violently",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s267_fr.mp3",
+    "frs": "audio/s267_frs.mp3",
+    "en": "audio/s267_en.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "frs": 3900,
+    "en": 2740
+   },
+   "bank": {
+    "fr": [
+     3253050,
+     2860
+    ],
+    "frs": [
+     3256310,
+     3900
+    ],
+    "en": [
+     3260610,
+     2740
+    ]
+   }
+  },
+  {
+   "fr": "que je m'affaissai sur l'herbe",
+   "en": "that I collapsed onto the grass,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s268_fr.mp3",
+    "frs": "audio/s268_frs.mp3",
+    "en": "audio/s268_en.mp3"
+   },
+   "ms": {
+    "fr": 2270,
+    "frs": 3010,
+    "en": 2300
+   },
+   "bank": {
+    "fr": [
+     3263750,
+     2270
+    ],
+    "frs": [
+     3266420,
+     3010
+    ],
+    "en": [
+     3269830,
+     2300
+    ]
+   }
+  },
+  {
+   "fr": "et j'écoutais le roulement de la roue qui s'éloignait,",
+   "en": "and I listened to the rumbling of the wheel moving away,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s269_fr.mp3",
+    "frs": "audio/s269_frs.mp3",
+    "en": "audio/s269_en.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "frs": 4340,
+    "en": 3450
+   },
+   "bank": {
+    "fr": [
+     3272530,
+     3150
+    ],
+    "frs": [
+     3276080,
+     4340
+    ],
+    "en": [
+     3280820,
+     3450
+    ]
+   }
+  },
+  {
+   "fr": "qui s'en allait vers la mer.",
+   "en": "going off toward the sea.",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s270_fr.mp3",
+    "frs": "audio/s270_frs.mp3",
+    "en": "audio/s270_en.mp3"
+   },
+   "ms": {
+    "fr": 2160,
+    "frs": 2850,
+    "en": 1960
+   },
+   "bank": {
+    "fr": [
+     3284670,
+     2160
+    ],
+    "frs": [
+     3287230,
+     2850
+    ],
+    "en": [
+     3290480,
+     1960
+    ]
+   }
+  },
+  {
+   "fr": "Et je n'osais plus me lever, ni marcher, ni faire un mouvement ;",
+   "en": "And I no longer dared to get up, or walk, or make a movement;",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s271_fr.mp3",
+    "frs": "audio/s271_frs.mp3",
+    "en": "audio/s271_en.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6230,
+    "en": 4460
+   },
+   "bank": {
+    "fr": [
+     3292840,
+     4410
+    ],
+    "frs": [
+     3297650,
+     6230
+    ],
+    "en": [
+     3304280,
+     4460
+    ]
+   }
+  },
+  {
+   "fr": "car si elle était revenue, si elle m'avait poursuivi,",
+   "en": "for if it had come back, if it had chased me,",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s272_fr.mp3",
+    "frs": "audio/s272_frs.mp3",
+    "en": "audio/s272_en.mp3"
+   },
+   "ms": {
+    "fr": 3470,
+    "frs": 4800,
+    "en": 2900
+   },
+   "bank": {
+    "fr": [
+     3309140,
+     3470
+    ],
+    "frs": [
+     3313010,
+     4800
+    ],
+    "en": [
+     3318210,
+     2900
+    ]
+   }
+  },
+  {
+   "fr": "je serais mort de terreur.",
+   "en": "I would have died of terror.",
+   "para": 66,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s273_fr.mp3",
+    "frs": "audio/s273_frs.mp3",
+    "en": "audio/s273_en.mp3"
+   },
+   "ms": {
+    "fr": 2240,
+    "frs": 2970,
+    "en": 1820
+   },
+   "bank": {
+    "fr": [
+     3321510,
+     2240
+    ],
+    "frs": [
+     3324150,
+     2970
+    ],
+    "en": [
+     3327520,
+     1820
+    ]
+   }
+  },
+  {
+   "fr": "Je fus longtemps à me remettre, bien longtemps.",
+   "en": "It took me a long time to recover, a very long time.",
+   "para": 67,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s274_fr.mp3",
+    "frs": "audio/s274_frs.mp3",
+    "en": "audio/s274_en.mp3"
+   },
+   "ms": {
+    "fr": 3270,
+    "frs": 4530,
+    "en": 3720
+   },
+   "bank": {
+    "fr": [
+     3329740,
+     3270
+    ],
+    "frs": [
+     3333410,
+     4530
+    ],
+    "en": [
+     3338340,
+     3720
+    ]
+   }
+  },
+  {
+   "fr": "Et je fis le reste du chemin avec une telle angoisse dans l'âme",
+   "en": "And I walked the rest of the way with such dread in my soul",
+   "para": 67,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s275_fr.mp3",
+    "frs": "audio/s275_frs.mp3",
+    "en": "audio/s275_en.mp3"
+   },
+   "ms": {
+    "fr": 3950,
+    "frs": 5530,
+    "en": 3700
+   },
+   "bank": {
+    "fr": [
+     3342460,
+     3950
+    ],
+    "frs": [
+     3346810,
+     5530
+    ],
+    "en": [
+     3352740,
+     3700
+    ]
+   }
+  },
+  {
+   "fr": "que le moindre bruit me coupait l'haleine.",
+   "en": "that the slightest noise took my breath away.",
+   "para": 67,
+   "glosses": [
+    {
+     "fr": "haleine",
+     "en": "breath"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s276_fr.mp3",
+    "frs": "audio/s276_frs.mp3",
+    "en": "audio/s276_en.mp3",
+    "gl": "audio/s276_gl.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3650,
+    "en": 2910,
+    "gl": 2870
+   },
+   "bank": {
+    "fr": [
+     3356840,
+     2700
+    ],
+    "frs": [
+     3359940,
+     3650
+    ],
+    "en": [
+     3363990,
+     2910
+    ],
+    "gl": [
+     3367300,
+     2870
+    ]
+   }
+  },
+  {
+   "fr": "Est-ce bête, dites ?",
+   "en": "Isn't that silly, tell me?",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s277_fr.mp3",
+    "frs": "audio/s277_frs.mp3",
+    "en": "audio/s277_en.mp3"
+   },
+   "ms": {
+    "fr": 2060,
+    "frs": 2690,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     3370570,
+     2060
+    ],
+    "frs": [
+     3373030,
+     2690
+    ],
+    "en": [
+     3376120,
+     1890
+    ]
+   }
+  },
+  {
+   "fr": "Mais quelle peur !",
+   "en": "But what a fright!",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s278_fr.mp3",
+    "frs": "audio/s278_frs.mp3",
+    "en": "audio/s278_en.mp3"
+   },
+   "ms": {
+    "fr": 1700,
+    "frs": 2120,
+    "en": 1480
+   },
+   "bank": {
+    "fr": [
+     3378410,
+     1700
+    ],
+    "frs": [
+     3380510,
+     2120
+    ],
+    "en": [
+     3383030,
+     1480
+    ]
+   }
+  },
+  {
+   "fr": "En y réfléchissant, plus tard j'ai compris ;",
+   "en": "Thinking it over, later I understood;",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s279_fr.mp3",
+    "frs": "audio/s279_frs.mp3",
+    "en": "audio/s279_en.mp3"
+   },
+   "ms": {
+    "fr": 3240,
+    "frs": 4480,
+    "en": 2740
+   },
+   "bank": {
+    "fr": [
+     3384910,
+     3240
+    ],
+    "frs": [
+     3388550,
+     4480
+    ],
+    "en": [
+     3393430,
+     2740
+    ]
+   }
+  },
+  {
+   "fr": "un enfant, nu-pieds, la menait sans doute cette brouette,",
+   "en": "a barefoot child was no doubt pushing that wheelbarrow,",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s280_fr.mp3",
+    "frs": "audio/s280_frs.mp3",
+    "en": "audio/s280_en.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "frs": 5940,
+    "en": 3580
+   },
+   "bank": {
+    "fr": [
+     3396570,
+     4220
+    ],
+    "frs": [
+     3401190,
+     5940
+    ],
+    "en": [
+     3407530,
+     3580
+    ]
+   }
+  },
+  {
+   "fr": "et moi, j'ai cherché la tête d'un homme à la hauteur ordinaire !",
+   "en": "and I had looked for a man's head at the usual height!",
+   "para": 68,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s281_fr.mp3",
+    "frs": "audio/s281_frs.mp3",
+    "en": "audio/s281_en.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "frs": 5830,
+    "en": 3160
+   },
+   "bank": {
+    "fr": [
+     3411510,
+     4140
+    ],
+    "frs": [
+     3416050,
+     5830
+    ],
+    "en": [
+     3422280,
+     3160
+    ]
+   }
+  },
+  {
+   "fr": "Comprenez-vous cela…",
+   "en": "Do you understand that…",
+   "para": 69,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s282_fr.mp3",
+    "frs": "audio/s282_frs.mp3",
+    "en": "audio/s282_en.mp3"
+   },
+   "ms": {
+    "fr": 1820,
+    "frs": 2340,
+    "en": 1650
+   },
+   "bank": {
+    "fr": [
+     3425840,
+     1820
+    ],
+    "frs": [
+     3428060,
+     2340
+    ],
+    "en": [
+     3430800,
+     1650
+    ]
+   }
+  },
+  {
+   "fr": "quand on a déjà dans l'esprit un frisson de surnaturel…",
+   "en": "when you already have a shiver of the supernatural in your mind…",
+   "para": 69,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s283_fr.mp3",
+    "frs": "audio/s283_frs.mp3",
+    "en": "audio/s283_en.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "frs": 5220,
+    "en": 3710
+   },
+   "bank": {
+    "fr": [
+     3432850,
+     3740
+    ],
+    "frs": [
+     3436990,
+     5220
+    ],
+    "en": [
+     3442610,
+     3710
+    ]
+   }
+  },
+  {
+   "fr": "une brouette qui court… toute seule…",
+   "en": "a wheelbarrow running… all by itself…",
+   "para": 69,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s284_fr.mp3",
+    "frs": "audio/s284_frs.mp3",
+    "en": "audio/s284_en.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 4070,
+    "en": 2900
+   },
+   "bank": {
+    "fr": [
+     3446720,
+     2970
+    ],
+    "frs": [
+     3450090,
+     4070
+    ],
+    "en": [
+     3454560,
+     2900
+    ]
+   }
+  },
+  {
+   "fr": "Quelle peur !",
+   "en": "What a fright!\"",
+   "para": 69,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s285_fr.mp3",
+    "frs": "audio/s285_frs.mp3",
+    "en": "audio/s285_en.mp3"
+   },
+   "ms": {
+    "fr": 1460,
+    "frs": 1780,
+    "en": 1320
+   },
+   "bank": {
+    "fr": [
+     3457860,
+     1460
+    ],
+    "frs": [
+     3459720,
+     1780
+    ],
+    "en": [
+     3461900,
+     1320
+    ]
+   }
+  },
+  {
+   "fr": "Il se tut une seconde, puis reprit :",
+   "en": "He fell silent for a second, then went on:",
+   "para": 70,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s286_fr.mp3",
+    "frs": "audio/s286_frs.mp3",
+    "en": "audio/s286_en.mp3"
+   },
+   "ms": {
+    "fr": 2870,
+    "frs": 3930,
+    "en": 3190
+   },
+   "bank": {
+    "fr": [
+     3463620,
+     2870
+    ],
+    "frs": [
+     3466890,
+     3930
+    ],
+    "en": [
+     3471220,
+     3190
+    ]
+   }
+  },
+  {
+   "fr": "— Tenez, Monsieur, nous assistons à un spectacle curieux et terrible :",
+   "en": "\"Look, Monsieur, we are witnessing a curious and terrible spectacle:",
+   "para": 71,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s287_fr.mp3",
+    "frs": "audio/s287_frs.mp3",
+    "en": "audio/s287_en.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "frs": 7170,
+    "en": 5050
+   },
+   "bank": {
+    "fr": [
+     3474810,
+     5030
+    ],
+    "frs": [
+     3480240,
+     7170
+    ],
+    "en": [
+     3487810,
+     5050
+    ]
+   }
+  },
+  {
+   "fr": "cette invasion du choléra !",
+   "en": "this invasion of cholera!",
+   "para": 71,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s288_fr.mp3",
+    "frs": "audio/s288_frs.mp3",
+    "en": "audio/s288_en.mp3"
+   },
+   "ms": {
+    "fr": 2230,
+    "frs": 2950,
+    "en": 1890
+   },
+   "bank": {
+    "fr": [
+     3493260,
+     2230
+    ],
+    "frs": [
+     3495890,
+     2950
+    ],
+    "en": [
+     3499240,
+     1890
+    ]
+   }
+  },
+  {
+   "fr": "Vous sentez le phénol dont ces wagons sont empoisonnés,",
+   "en": "You can smell the carbolic these carriages are poisoned with,",
+   "para": 72,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s289_fr.mp3",
+    "frs": "audio/s289_frs.mp3",
+    "en": "audio/s289_en.mp3"
+   },
+   "ms": {
+    "fr": 3470,
+    "frs": 4830,
+    "en": 3520
+   },
+   "bank": {
+    "fr": [
+     3501530,
+     3470
+    ],
+    "frs": [
+     3505400,
+     4830
+    ],
+    "en": [
+     3510630,
+     3520
+    ]
+   }
+  },
+  {
+   "fr": "c'est qu'il est là quelque part.",
+   "en": "it's because it is here somewhere.",
+   "para": 72,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s290_fr.mp3",
+    "frs": "audio/s290_frs.mp3",
+    "en": "audio/s290_en.mp3"
+   },
+   "ms": {
+    "fr": 2270,
+    "frs": 3020,
+    "en": 2020
+   },
+   "bank": {
+    "fr": [
+     3514550,
+     2270
+    ],
+    "frs": [
+     3517220,
+     3020
+    ],
+    "en": [
+     3520640,
+     2020
+    ]
+   }
+  },
+  {
+   "fr": "Il faut voir Toulon en ce moment.",
+   "en": "You should see Toulon right now.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s291_fr.mp3",
+    "frs": "audio/s291_frs.mp3",
+    "en": "audio/s291_en.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3170,
+    "en": 2190
+   },
+   "bank": {
+    "fr": [
+     3523060,
+     2370
+    ],
+    "frs": [
+     3525830,
+     3170
+    ],
+    "en": [
+     3529400,
+     2190
+    ]
+   }
+  },
+  {
+   "fr": "Allez, on sent bien qu'il est là, Lui.",
+   "en": "Oh yes, you can really feel that it is there, It.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s292_fr.mp3",
+    "frs": "audio/s292_frs.mp3",
+    "en": "audio/s292_en.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "frs": 4350,
+    "en": 3180
+   },
+   "bank": {
+    "fr": [
+     3531990,
+     3150
+    ],
+    "frs": [
+     3535540,
+     4350
+    ],
+    "en": [
+     3540290,
+     3180
+    ]
+   }
+  },
+  {
+   "fr": "Et ce n'est pas la peur d'une maladie qui affole ces gens.",
+   "en": "And it's not the fear of a disease that drives these people wild.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s293_fr.mp3",
+    "frs": "audio/s293_frs.mp3",
+    "en": "audio/s293_en.mp3"
+   },
+   "ms": {
+    "fr": 3350,
+    "frs": 4650,
+    "en": 3760
+   },
+   "bank": {
+    "fr": [
+     3543870,
+     3350
+    ],
+    "frs": [
+     3547620,
+     4650
+    ],
+    "en": [
+     3552670,
+     3760
+    ]
+   }
+  },
+  {
+   "fr": "Le choléra c'est autre chose, c'est l'Invisible,",
+   "en": "Cholera is something else, it is the Invisible,",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s294_fr.mp3",
+    "frs": "audio/s294_frs.mp3",
+    "en": "audio/s294_en.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4940,
+    "en": 3270
+   },
+   "bank": {
+    "fr": [
+     3556830,
+     3560
+    ],
+    "frs": [
+     3560790,
+     4940
+    ],
+    "en": [
+     3566130,
+     3270
+    ]
+   }
+  },
+  {
+   "fr": "c'est un fléau d'autrefois, des temps passés,",
+   "en": "it is a scourge from the old days, from times gone by,",
+   "para": 73,
+   "glosses": [
+    {
+     "fr": "fléau",
+     "en": "scourge, plague"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s295_fr.mp3",
+    "frs": "audio/s295_frs.mp3",
+    "en": "audio/s295_en.mp3",
+    "gl": "audio/s295_gl.mp3"
+   },
+   "ms": {
+    "fr": 3280,
+    "frs": 4520,
+    "en": 3870,
+    "gl": 3460
+   },
+   "bank": {
+    "fr": [
+     3569800,
+     3280
+    ],
+    "frs": [
+     3573480,
+     4520
+    ],
+    "en": [
+     3578400,
+     3870
+    ],
+    "gl": [
+     3582670,
+     3460
+    ]
+   }
+  },
+  {
+   "fr": "une sorte d'Esprit malfaisant qui revient",
+   "en": "a kind of evil Spirit that comes back",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s296_fr.mp3",
+    "frs": "audio/s296_frs.mp3",
+    "en": "audio/s296_en.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "frs": 4030,
+    "en": 2930
+   },
+   "bank": {
+    "fr": [
+     3586530,
+     2940
+    ],
+    "frs": [
+     3589870,
+     4030
+    ],
+    "en": [
+     3594300,
+     2930
+    ]
+   }
+  },
+  {
+   "fr": "et qui nous étonne autant qu'il nous épouvante,",
+   "en": "and that astonishes us as much as it terrifies us,",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s297_fr.mp3",
+    "frs": "audio/s297_frs.mp3",
+    "en": "audio/s297_en.mp3"
+   },
+   "ms": {
+    "fr": 3050,
+    "frs": 4190,
+    "en": 3440
+   },
+   "bank": {
+    "fr": [
+     3597630,
+     3050
+    ],
+    "frs": [
+     3601080,
+     4190
+    ],
+    "en": [
+     3605670,
+     3440
+    ]
+   }
+  },
+  {
+   "fr": "car il appartient, semble-t-il, aux âges disparus.",
+   "en": "because it belongs, it seems, to vanished ages.",
+   "para": 73,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s298_fr.mp3",
+    "frs": "audio/s298_frs.mp3",
+    "en": "audio/s298_en.mp3"
+   },
+   "ms": {
+    "fr": 4110,
+    "frs": 5800,
+    "en": 3890
+   },
+   "bank": {
+    "fr": [
+     3609510,
+     4110
+    ],
+    "frs": [
+     3614020,
+     5800
+    ],
+    "en": [
+     3620220,
+     3890
+    ]
+   }
+  },
+  {
+   "fr": "Les médecins me font rire avec leur microbe.",
+   "en": "The doctors make me laugh with their microbe.",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s299_fr.mp3",
+    "frs": "audio/s299_frs.mp3",
+    "en": "audio/s299_en.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "frs": 4300,
+    "en": 2760
+   },
+   "bank": {
+    "fr": [
+     3624510,
+     3120
+    ],
+    "frs": [
+     3628030,
+     4300
+    ],
+    "en": [
+     3632730,
+     2760
+    ]
+   }
+  },
+  {
+   "fr": "Ce n'est pas un insecte qui terrifie les hommes",
+   "en": "It is not an insect that terrifies men",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s300_fr.mp3",
+    "frs": "audio/s300_frs.mp3",
+    "en": "audio/s300_en.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "frs": 4350,
+    "en": 2960
+   },
+   "bank": {
+    "fr": [
+     3635890,
+     3150
+    ],
+    "frs": [
+     3639440,
+     4350
+    ],
+    "en": [
+     3644190,
+     2960
+    ]
+   }
+  },
+  {
+   "fr": "au point de les faire sauter par la fenêtre ;",
+   "en": "so much that they jump out of the window;",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s301_fr.mp3",
+    "frs": "audio/s301_frs.mp3",
+    "en": "audio/s301_en.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3820,
+    "en": 2560
+   },
+   "bank": {
+    "fr": [
+     3647550,
+     2810
+    ],
+    "frs": [
+     3650760,
+     3820
+    ],
+    "en": [
+     3654980,
+     2560
+    ]
+   }
+  },
+  {
+   "fr": "c'est le choléra, l'être inexprimable et terrible",
+   "en": "it is cholera, the inexpressible and terrible being",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s302_fr.mp3",
+    "frs": "audio/s302_frs.mp3",
+    "en": "audio/s302_en.mp3"
+   },
+   "ms": {
+    "fr": 3790,
+    "frs": 5300,
+    "en": 3910
+   },
+   "bank": {
+    "fr": [
+     3657940,
+     3790
+    ],
+    "frs": [
+     3662130,
+     5300
+    ],
+    "en": [
+     3667830,
+     3910
+    ]
+   }
+  },
+  {
+   "fr": "venu du fond de l'Orient.",
+   "en": "come from the depths of the East.",
+   "para": 74,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s303_fr.mp3",
+    "frs": "audio/s303_frs.mp3",
+    "en": "audio/s303_en.mp3"
+   },
+   "ms": {
+    "fr": 2060,
+    "frs": 2710,
+    "en": 2150
+   },
+   "bank": {
+    "fr": [
+     3672140,
+     2060
+    ],
+    "frs": [
+     3674600,
+     2710
+    ],
+    "en": [
+     3677710,
+     2150
+    ]
+   }
+  },
+  {
+   "fr": "Traversez Toulon, on danse dans les rues.",
+   "en": "Go through Toulon: people are dancing in the streets.",
+   "para": 75,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s304_fr.mp3",
+    "frs": "audio/s304_frs.mp3",
+    "en": "audio/s304_en.mp3"
+   },
+   "ms": {
+    "fr": 3050,
+    "frs": 4170,
+    "en": 3630
+   },
+   "bank": {
+    "fr": [
+     3680260,
+     3050
+    ],
+    "frs": [
+     3683710,
+     4170
+    ],
+    "en": [
+     3688280,
+     3630
+    ]
+   }
+  },
+  {
+   "fr": "Pourquoi danser en ces jours de mort ?",
+   "en": "Why dance in these days of death?",
+   "para": 76,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s305_fr.mp3",
+    "frs": "audio/s305_frs.mp3",
+    "en": "audio/s305_en.mp3"
+   },
+   "ms": {
+    "fr": 2510,
+    "frs": 3360,
+    "en": 2340
+   },
+   "bank": {
+    "fr": [
+     3692310,
+     2510
+    ],
+    "frs": [
+     3695220,
+     3360
+    ],
+    "en": [
+     3698980,
+     2340
+    ]
+   }
+  },
+  {
+   "fr": "On tire des feux d'artifices dans la campagne autour de la ville ;",
+   "en": "They set off fireworks in the countryside around the town;",
+   "para": 76,
+   "glosses": [
+    {
+     "fr": "feux d'artifices",
+     "en": "fireworks"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s306_fr.mp3",
+    "frs": "audio/s306_frs.mp3",
+    "en": "audio/s306_en.mp3",
+    "gl": "audio/s306_gl.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "frs": 5530,
+    "en": 3440,
+    "gl": 4040
+   },
+   "bank": {
+    "fr": [
+     3701720,
+     3940
+    ],
+    "frs": [
+     3706060,
+     5530
+    ],
+    "en": [
+     3711990,
+     3440
+    ],
+    "gl": [
+     3715830,
+     4040
+    ]
+   }
+  },
+  {
+   "fr": "on allume des feux de joie ;",
+   "en": "they light bonfires;",
+   "para": 76,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s307_fr.mp3",
+    "frs": "audio/s307_frs.mp3",
+    "en": "audio/s307_en.mp3"
+   },
+   "ms": {
+    "fr": 2080,
+    "frs": 2750,
+    "en": 1780
+   },
+   "bank": {
+    "fr": [
+     3720270,
+     2080
+    ],
+    "frs": [
+     3722750,
+     2750
+    ],
+    "en": [
+     3725900,
+     1780
+    ]
+   }
+  },
+  {
+   "fr": "des orchestres jouent des airs joyeux sur toutes les promenades publiques.",
+   "en": "bands play cheerful tunes on all the public promenades.",
+   "para": 76,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s308_fr.mp3",
+    "frs": "audio/s308_frs.mp3",
+    "en": "audio/s308_en.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "frs": 6170,
+    "en": 3930
+   },
+   "bank": {
+    "fr": [
+     3728080,
+     4380
+    ],
+    "frs": [
+     3732860,
+     6170
+    ],
+    "en": [
+     3739430,
+     3930
+    ]
+   }
+  },
+  {
+   "fr": "C'est qu'Il est là, c'est qu'on le brave,",
+   "en": "It's because It is there, it's because they are defying it,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s309_fr.mp3",
+    "frs": "audio/s309_frs.mp3",
+    "en": "audio/s309_en.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3840,
+    "en": 3510
+   },
+   "bank": {
+    "fr": [
+     3743760,
+     2820
+    ],
+    "frs": [
+     3746980,
+     3840
+    ],
+    "en": [
+     3751220,
+     3510
+    ]
+   }
+  },
+  {
+   "fr": "non pas le Microbe, mais le Choléra,",
+   "en": "not the Microbe, but Cholera,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s310_fr.mp3",
+    "frs": "audio/s310_frs.mp3",
+    "en": "audio/s310_en.mp3"
+   },
+   "ms": {
+    "fr": 3010,
+    "frs": 4130,
+    "en": 2320
+   },
+   "bank": {
+    "fr": [
+     3755130,
+     3010
+    ],
+    "frs": [
+     3758540,
+     4130
+    ],
+    "en": [
+     3763070,
+     2320
+    ]
+   }
+  },
+  {
+   "fr": "et qu'on veut être crâne devant lui,",
+   "en": "and they want to look bold in front of it,",
+   "para": 77,
+   "glosses": [
+    {
+     "fr": "crâne",
+     "en": "bold, swaggering"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s311_fr.mp3",
+    "frs": "audio/s311_frs.mp3",
+    "en": "audio/s311_en.mp3",
+    "gl": "audio/s311_gl.mp3"
+   },
+   "ms": {
+    "fr": 2440,
+    "frs": 3270,
+    "en": 2210,
+    "gl": 3470
+   },
+   "bank": {
+    "fr": [
+     3765790,
+     2440
+    ],
+    "frs": [
+     3768630,
+     3270
+    ],
+    "en": [
+     3772300,
+     2210
+    ],
+    "gl": [
+     3774910,
+     3470
+    ]
+   }
+  },
+  {
+   "fr": "comme auprès d'un ennemi caché qui vous guette.",
+   "en": "as in front of a hidden enemy lying in wait for you.",
+   "para": 77,
+   "glosses": [
+    {
+     "fr": "guette",
+     "en": "lies in wait for"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s312_fr.mp3",
+    "frs": "audio/s312_frs.mp3",
+    "en": "audio/s312_en.mp3",
+    "gl": "audio/s312_gl.mp3"
+   },
+   "ms": {
+    "fr": 3020,
+    "frs": 4160,
+    "en": 3600,
+    "gl": 3470
+   },
+   "bank": {
+    "fr": [
+     3778780,
+     3020
+    ],
+    "frs": [
+     3782200,
+     4160
+    ],
+    "en": [
+     3786760,
+     3600
+    ],
+    "gl": [
+     3790760,
+     3470
+    ]
+   }
+  },
+  {
+   "fr": "C'est pour lui qu'on danse, qu'on rit, qu'on crie,",
+   "en": "It is for it that they dance, laugh, shout,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s313_fr.mp3",
+    "frs": "audio/s313_frs.mp3",
+    "en": "audio/s313_en.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4860,
+    "en": 3510
+   },
+   "bank": {
+    "fr": [
+     3794630,
+     3490
+    ],
+    "frs": [
+     3798520,
+     4860
+    ],
+    "en": [
+     3803780,
+     3510
+    ]
+   }
+  },
+  {
+   "fr": "qu'on allume ces feux, qu'on joue ces valses,",
+   "en": "light these fires, play these waltzes,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s314_fr.mp3",
+    "frs": "audio/s314_frs.mp3",
+    "en": "audio/s314_en.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "frs": 4290,
+    "en": 2990
+   },
+   "bank": {
+    "fr": [
+     3807690,
+     3120
+    ],
+    "frs": [
+     3811210,
+     4290
+    ],
+    "en": [
+     3815900,
+     2990
+    ]
+   }
+  },
+  {
+   "fr": "pour lui, l'Esprit qui tue,",
+   "en": "for it, the Spirit that kills,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s315_fr.mp3",
+    "frs": "audio/s315_frs.mp3",
+    "en": "audio/s315_en.mp3"
+   },
+   "ms": {
+    "fr": 2440,
+    "frs": 3270,
+    "en": 2740
+   },
+   "bank": {
+    "fr": [
+     3819290,
+     2440
+    ],
+    "frs": [
+     3822130,
+     3270
+    ],
+    "en": [
+     3825800,
+     2740
+    ]
+   }
+  },
+  {
+   "fr": "et qu'on sent partout présent, invisible, menaçant,",
+   "en": "and that you feel present everywhere, invisible, threatening,",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s316_fr.mp3",
+    "frs": "audio/s316_frs.mp3",
+    "en": "audio/s316_en.mp3"
+   },
+   "ms": {
+    "fr": 3900,
+    "frs": 5460,
+    "en": 4250
+   },
+   "bank": {
+    "fr": [
+     3828940,
+     3900
+    ],
+    "frs": [
+     3833240,
+     5460
+    ],
+    "en": [
+     3839100,
+     4250
+    ]
+   }
+  },
+  {
+   "fr": "comme un de ces anciens génies du mal",
+   "en": "like one of those ancient demons of evil",
+   "para": 77,
+   "glosses": [],
+   "words": [],
+   "audio": {
+    "fr": "audio/s317_fr.mp3",
+    "frs": "audio/s317_frs.mp3",
+    "en": "audio/s317_en.mp3"
+   },
+   "ms": {
+    "fr": 2650,
+    "frs": 3580,
+    "en": 2910
+   },
+   "bank": {
+    "fr": [
+     3843750,
+     2650
+    ],
+    "frs": [
+     3846800,
+     3580
+    ],
+    "en": [
+     3850780,
+     2910
+    ]
+   }
+  },
+  {
+   "fr": "que conjuraient les prêtres barbares…",
+   "en": "that barbarian priests used to ward off with spells…\"",
+   "para": 77,
+   "glosses": [
+    {
+     "fr": "conjuraient",
+     "en": "warded off by spells"
+    }
+   ],
+   "words": [],
+   "audio": {
+    "fr": "audio/s318_fr.mp3",
+    "frs": "audio/s318_frs.mp3",
+    "en": "audio/s318_en.mp3",
+    "gl": "audio/s318_gl.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3510,
+    "en": 3740,
+    "gl": 4010
+   },
+   "bank": {
+    "fr": [
+     3854090,
+     2610
+    ],
+    "frs": [
+     3857100,
+     3510
+    ],
+    "en": [
+     3861010,
+     3740
+    ],
+    "gl": [
+     3865150,
+     4010
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20950
+  ],
+  "silence": [
+   21750,
+   30000
+  ]
+ }
+}
