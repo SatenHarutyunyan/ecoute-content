@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.43";
+const VERSION = "web 0.44";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1444,7 +1444,13 @@ checkUpdate();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
 fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); if (needsOnboarding()) onbShow(); })
-  .catch(() => { renderAll(); $("stories").innerHTML = '<div class="muted">Offline — couldn’t load stories.</div>'; });
+  .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
+    const err = String(e && (e.stack || e.message) || e).slice(0, 300);
+    log("boot_error", { err, n: catalog.length }); flush(true);
+    try { renderAll(); } catch {}
+    $("stories").innerHTML = `<div class="muted">Couldn’t load stories (${esc(err.split("\n")[0])}).</div>`;
+  });
+window.addEventListener("error", e => { log("js_error", { err: String(e.message).slice(0, 200), at: (e.filename || "").split("/").pop() + ":" + e.lineno }); });
 </script>
 </body>
 </html>
