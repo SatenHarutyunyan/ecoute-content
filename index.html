@@ -219,6 +219,9 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="muted" style="margin-top:6px">To improve the stories, the app sends your test answers and listening progress (which phrases you replay, where you stop), with this name and a random device ID. Nothing else.</div>
   <h3 class="sh">💡 Request a story</h3>
   <div class="muted" id="setLoveAsk"></div><div id="setLove"></div>
+  <h3 class="sh">Pauses between phrases</h3>
+  <div class="presets" id="gaps" style="margin-top:6px"></div>
+  <div class="muted" id="gapHint" style="margin-top:6px"></div>
   <h3 class="sh">Listening pattern</h3>
   <details id="patternBox" open style="margin-top:6px"><summary id="patternHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
@@ -255,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.41";
+const VERSION = "web 0.42";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -332,12 +335,26 @@ const parse = p => p.toUpperCase().split(/[\s,]+/)
   .filter(t => ["T", "T_SLOW", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS (removed) drops out of old patterns
 const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 
+// Pauses after each clip (Saten, 2026-11-19): the audio holds only speech, the app adds the breathing room, which is also
+// when voice commands get through. Long = the old French tracks. Extra ms on top of the ~0.8 s that is always there.
+const GAPS = { short: ["Short", 0], medium: ["Medium", 400], long: ["Long", 900] };
+const gapKey = () => { const k = store.get("gap_" + lang, lang === "es" ? "medium" : "long"); return GAPS[k] ? k : "long"; };
+function renderGaps() {
+  $("gaps").innerHTML = Object.entries(GAPS).map(([k, [n]]) => `<button class="chip${k === gapKey() ? " on" : ""}" data-gap="${k}">${n}</button>`).join("");
+  $("gaps").querySelectorAll("[data-gap]").forEach(b => b.onclick = () => {
+    store.set("gap_" + lang, b.dataset.gap); log("gap", { gap: b.dataset.gap }); renderGaps();
+    if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); }
+  });
+  $("gapHint").textContent = "Longer pauses give you time to think, and to say a voice command.";
+}
+
 // ---------- playback engine: one audio file, we only seek inside it ----------
 function stepsFor(i, pat) {
   const s = story.segments[i], b = s.bank, out = [];
+  const gap = lessonMode() ? 0 : GAPS[gapKey()][1];
   for (const t of parse(pat)) {
     if (t === "PAUSE") out.push([story.bank.silence[0], Math.max(1200, b.fr[1])]);
-    else if (b[KIND[t]]) out.push(b[KIND[t]]);
+    else if (b[KIND[t]]) { out.push(b[KIND[t]]); if (gap) out.push([story.bank.silence[0], gap + 350]); }  // +350: playRange stops 350 ms early
   }
   const nxt = story.segments[i + 1];
   if (nxt && nxt.para !== s.para) out.push([story.bank.silence[0], 700]);
@@ -595,7 +612,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
+  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -1294,7 +1311,10 @@ $("vocabAllS").onclick = () => {  // each word twice, then its example sentence
 const VOICE_BASE = new URL("voice/", location.href).href;
 const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "repeat": "again", "again": "again",
   "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "continue": "play", "resume": "play" };
-const V = { on: false, ctx: null, stream: null, rec: null, wake: null };
+const V = { on: false, ctx: null, stream: null, rec: null, wake: null, sub: null };
+// Inside the iPhone app: the app's own listener (Apple's on-device recognition, works with the screen locked)
+const NATIVE_VOICE = window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
+  && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? Capacitor.registerPlugin("EcouteVoice") : null;
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
 
 function loadScript(src) {
@@ -1327,6 +1347,7 @@ function voiceHeard(msg) {
 }
 async function voiceStart() {  // must run inside a tap (mic permission + audio on iPhone)
   V.on = true; store.set("voice", true);
+  if (NATIVE_VOICE) return voiceStartNative();
   try {
     voiceUi("starting…");
     // ask for the mic first, inside the tap
@@ -1355,13 +1376,35 @@ async function voiceStart() {  // must run inside a tap (mic permission + audio 
     log("voice_error", { err: String(e && (e.message || e.name) || e).slice(0, 200) });
   }
 }
+async function voiceStartNative() {
+  try {
+    voiceUi("starting…");
+    V.sub = await NATIVE_VOICE.addListener("command", e => {
+      const action = VOICE_CMDS[e.word] || (e.word === "next phrase" ? "next" : e.word === "previous phrase" ? "back" : null);
+      if (!action) return;
+      log("voice", { word: e.word, conf: e.confidence, via: "ios" });
+      $("voiceHint").textContent = "Heard: " + e.word;
+      voiceDo(action);
+    });
+    const r = await NATIVE_VOICE.start();
+    if (!V.on) return NATIVE_VOICE.stop();
+    voiceUi("on");
+    $("voiceHint").textContent = "Listening, also with the screen locked. Say: previous · repeat · next · pause · continue.";
+    log("voice_setting", { on: true, via: "ios", on_device: r && r.onDevice });
+  } catch (e) {
+    voiceStop(false);
+    $("voiceHint").textContent = "Voice commands couldn't start: " + (e && (e.message || e) || e) + ". Allow the microphone and speech recognition in Settings → Écoute.";
+    log("voice_error", { err: String(e && (e.message || e) || e).slice(0, 200), via: "ios" });
+  }
+}
 function voiceStop(save = true) {
   V.on = false; if (save) { store.set("voice", false); log("voice_setting", { on: false }); }
+  if (NATIVE_VOICE) { NATIVE_VOICE.stop().catch(() => {}); try { V.sub && V.sub.remove(); } catch {} }
   try { V.stream && V.stream.getTracks().forEach(t => t.stop()); } catch {}
   try { V.ctx && V.ctx.close(); } catch {}
   try { V.model && V.model.terminate(); } catch {}
   try { V.wake && V.wake.release(); } catch {}
-  Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null });
+  Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null, sub: null });
   voiceUi("off");
   $("voiceHint").textContent = "Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.";
 }
@@ -1369,6 +1412,7 @@ $("voice").onclick = () => V.on ? voiceStop() : voiceStart();
 // remembered "on": the browser needs a tap before it may listen, so start on the first tap anywhere
 function voiceArm() {
   if (!store.get("voice", false) || V.on) return;
+  if (NATIVE_VOICE) return voiceStart();  // the app may listen without a tap
   voiceUi("tap anywhere to start");
   document.addEventListener("click", function once(e) {
     document.removeEventListener("click", once, true);
@@ -1378,10 +1422,10 @@ function voiceArm() {
 voiceArm();
 // leaving or closing the app turns the microphone off; it comes back on the first tap after returning
 document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "hidden" && V.on) { voiceStop(false); log("voice_off", { why: "hidden" }); flush(true); }
+  if (document.visibilityState === "hidden" && V.on && !NATIVE_VOICE) { voiceStop(false); log("voice_off", { why: "hidden" }); flush(true); }
   else if (document.visibilityState === "visible") voiceArm();
 });
-window.addEventListener("pagehide", () => { if (V.on) voiceStop(false); });
+window.addEventListener("pagehide", () => { if (V.on && !NATIVE_VOICE) voiceStop(false); });
 
 // iPhone keeps the page for up to 10 min (GitHub's cache header): look for a newer version on every open
 async function checkUpdate() {
