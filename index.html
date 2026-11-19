@@ -203,7 +203,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="presets" id="tabs" style="margin-bottom:10px">
     <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
   </div>
-  <div class="muted" style="margin:4px 0 8px">Tap the box next to an episode: ○ → ~ listening now → ✓ done → ○</div>
+  <div class="muted" id="marksHint" style="margin:4px 0 8px">Tap the box next to an episode: ○ → ~ listening now → ✓ done → ○ (hide it in ⚙ Settings)</div>
   <div id="stories"><div class="muted">Loading…</div></div>
   </div>
 
@@ -224,6 +224,8 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h3 class="sh">Pauses between phrases</h3>
   <div class="presets" id="gaps" style="margin-top:6px"></div>
   <div class="muted" id="gapHint" style="margin-top:6px"></div>
+  <h3 class="sh">Episode marks</h3>
+  <label class="opt"><input type="checkbox" id="marksOn"><span>Show the ○ ~ ✓ box next to each episode, to mark what you're listening to and what you've finished</span></label>
   <h3 class="sh">Listening pattern</h3>
   <details id="patternBox" open style="margin-top:6px"><summary id="patternHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
@@ -260,7 +262,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.50";
+const VERSION = "web 0.51";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -549,6 +551,11 @@ function renderLangs() {
 
 // Lessons = everyday conversations (bank, shop...); Stories = the story series. Tabs only when a language has both.
 const isLesson = s => s.series === "Daily scenarios";
+const marksOn = () => store.get("marks_on", true);  // Saten: wanted a way to hide them
+function renderMarksSetting() {
+  $("marksOn").checked = marksOn(); $("marksHint").hidden = !marksOn();
+  $("marksOn").onchange = () => { store.set("marks_on", $("marksOn").checked); log("marks_on", { on: $("marksOn").checked }); renderMarksSetting(); renderStories(); };
+}
 const MARKS = { "": "○", cur: "~", done: "✓" };  // empty box showed nothing: Saten couldn't tell it was a button
 const getMark = id => store.get("mark_" + id, "");  // set by hand only (Arshile), never by the app
 function renderStories() {
@@ -584,17 +591,19 @@ function renderStories() {
       const el = document.createElement("div");
       el.className = "card story"; el.dataset.id = s.id;
       const ep = s.series ? `Episode ${s.episode} · ` : `${s.author} · `;
-      el.innerHTML = `<div class="sinfo"><b></b><span class="muted"></span></div><button class="mark" aria-label="Mark: current, done, none"></button>`;
+      el.innerHTML = `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
       if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
       el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
       const mb = el.querySelector(".mark");
+      if (mb) {
       mb.textContent = MARKS[getMark(s.id)]; mb.classList.toggle("empty", !getMark(s.id));
       mb.onclick = e => {  // the learner sets the marks: none -> ~ current -> ✓ done -> none
         e.stopPropagation();
         const next = { "": "cur", cur: "done", done: "" }[getMark(s.id)];
         store.set("mark_" + s.id, next); log("mark", { mark: next }, s.id); mb.textContent = MARKS[next]; mb.classList.toggle("empty", !next); count();
       };
+      }
       el.onclick = () => openStory(s);
       g.append(el);
     }
@@ -640,7 +649,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
+  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
