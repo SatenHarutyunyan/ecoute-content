@@ -20,6 +20,29 @@ html[data-theme="nare"] .presets button.on, html[data-theme="nare"] .chip.on, ht
 html[data-theme="nare"] .card { border-radius:20px; }
 html[data-theme="nare"] h1, html[data-theme="nare"] a { color:var(--accent); }
 html[data-theme="nare"] a { text-decoration-color:var(--line); }
+/* lotus pond (Saten's Pinterest pick, 2026-11-19): painted in CSS from its colours (pink sky, sage reeds, lilac water), not the image itself */
+html[data-theme="nare"] body { background:
+  radial-gradient(ellipse 60% 30% at 35% 12%, rgba(246,160,190,.85), transparent 70%),
+  radial-gradient(ellipse 45% 25% at 70% 22%, rgba(250,196,176,.75), transparent 70%),
+  radial-gradient(ellipse 30% 55% at 4% 40%, rgba(120,160,110,.55), transparent 70%),
+  radial-gradient(ellipse 30% 50% at 98% 50%, rgba(140,175,130,.5), transparent 70%),
+  radial-gradient(ellipse 35% 10% at 30% 62%, rgba(110,160,110,.45), transparent 70%),
+  radial-gradient(ellipse 40% 12% at 72% 74%, rgba(120,170,120,.45), transparent 70%),
+  radial-gradient(ellipse 50% 22% at 40% 80%, rgba(240,150,190,.55), transparent 70%),
+  linear-gradient(180deg, #f9d6e0 0%, #e8dfe6 40%, #c9cfe0 65%, #b7bfdc 100%);
+  background-attachment:fixed; }
+html[data-theme="nare"] .card, html[data-theme="nare"] .cover { background:rgba(255,255,255,.78); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border-color:rgba(255,255,255,.9); }
+html[data-theme="nare"] h1, html[data-theme="nare"] h2 { text-shadow:0 1px 0 rgba(255,255,255,.8); }
+/* 3D buttons: glossy top, a darker ledge underneath, they sink when pressed */
+html[data-theme="nare"] button:not(.ib), html[data-theme="nare"] .chip, html[data-theme="nare"] .ib .c {
+  background:linear-gradient(180deg, #fff 0%, #ffe6f2 100%); border:1px solid #f7a8cf;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.95), 0 4px 0 #e98fbd, 0 6px 10px rgba(160,40,100,.25); transition:transform .08s, box-shadow .08s; }
+html[data-theme="nare"] .presets button.on, html[data-theme="nare"] .chip.on, html[data-theme="nare"] #modes button.on,
+html[data-theme="nare"] .ib.main .c, html[data-theme="nare"] .controls button {
+  background:linear-gradient(180deg, #ff6fb8 0%, #e0218a 60%, #c8137a 100%); color:#fff; border-color:#b80f6e;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.45), 0 5px 0 #9c0b5c, 0 8px 14px rgba(160,20,90,.35); }
+html[data-theme="nare"] button:not(.ib):active, html[data-theme="nare"] .chip:active, html[data-theme="nare"] .ib:active .c {
+  transform:translateY(4px); box-shadow:inset 0 2px 0 rgba(255,255,255,.6), 0 0 0 #e98fbd, 0 2px 4px rgba(160,40,100,.25); }
 .cover { flex:none; width:44px; height:44px; border-radius:14px; background:var(--bg); display:flex; align-items:center; justify-content:center; font-size:26px; }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
@@ -274,7 +297,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.54";
+const VERSION = "web 0.55";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
