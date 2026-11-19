@@ -12,30 +12,30 @@
 :root { --bg:#f7f5f0; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --accent:#2b59c3; --line:#e4e1da; }
 @media (prefers-color-scheme: dark) { :root { --bg:#121214; --card:#1d1d21; --ink:#f2f2f4; --muted:#9a9aa2; --accent:#7ea2ff; --line:#2e2e34; } }
 /* Nare's theme (2026-11-19): pink and white, emoji covers on the episodes; stays light in dark mode */
-html[data-theme="nare"] { --bg:#ffe3f1; --card:#fff; --ink:#4a0d2e; --muted:#b0477f; --accent:#e0218a; --line:#ffb3d9; --glow:rgba(224,33,138,.4); }  /* Barbie pink (Saten) */
+html[data-theme="nare"] { --bg:#fff0f6; --card:#fff; --ink:#5a2342; --muted:#a8618a; --accent:#e58bb5; --line:#f9d3e5; --glow:rgba(229,139,181,.4); }  /* pastel pink (Saten, 2026-11-19: "pastel everything") */
 html[data-theme="nare"] h2 { color:var(--accent); }
 html[data-theme="nare"] .card { border-width:2px; }
-html[data-theme="nare"] .cover { background:#ffd0e7; }
-html[data-theme="nare"] .presets button.on, html[data-theme="nare"] .chip.on, html[data-theme="nare"] #modes button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+html[data-theme="nare"] .cover { background:#fde3ef; }
+html[data-theme="nare"] .presets button.on, html[data-theme="nare"] .chip.on, html[data-theme="nare"] #modes button.on { color:#6e1d49; }
 html[data-theme="nare"] .card { border-radius:20px; }
 html[data-theme="nare"] h1, html[data-theme="nare"] a { color:var(--accent); }
 html[data-theme="nare"] a { text-decoration-color:var(--line); }
 /* lotus pond (Saten's Pinterest pick, 2026-11-19: "Lotus in Monet's Pond", artist unknown): the picture itself behind everything */
 html[data-theme="nare"] body { background:#e8dfe6; }
-html[data-theme="nare"] body::before { content:""; position:fixed; inset:0; z-index:-1; background:linear-gradient(rgba(255,240,248,.38), rgba(255,240,248,.38)), url(bg_pond.jpg) center/cover no-repeat; }
-html[data-theme="nare"] .muted:not(.card .muted), html[data-theme="nare"] h2 { color:#7a1650; text-shadow:0 0 6px #fff, 0 0 3px #fff, 0 0 1px #fff; }
+html[data-theme="nare"] body::before { content:""; position:fixed; inset:0; z-index:-1; background:linear-gradient(rgba(255,245,250,.45), rgba(255,245,250,.45)), url(bg_pond.jpg) center/cover no-repeat; }
+html[data-theme="nare"] .muted:not(.card .muted), html[data-theme="nare"] h2 { color:#8a3d68; text-shadow:0 0 6px #fff, 0 0 3px #fff, 0 0 1px #fff; }
 html[data-theme="nare"] h1 { text-shadow:0 0 8px #fff, 0 0 2px #fff; }
 html[data-theme="nare"] .card, html[data-theme="nare"] .cover { background:rgba(255,255,255,.78); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border-color:rgba(255,255,255,.9); }
 /* 3D buttons: glossy top, a darker ledge underneath, they sink when pressed */
 html[data-theme="nare"] button:not(.ib), html[data-theme="nare"] .chip, html[data-theme="nare"] .ib .c {
-  background:linear-gradient(180deg, #fff 0%, #ffe6f2 100%); border:1px solid #f7a8cf;
-  box-shadow:inset 0 2px 0 rgba(255,255,255,.95), 0 4px 0 #e98fbd, 0 6px 10px rgba(160,40,100,.25); transition:transform .08s, box-shadow .08s; }
+  background:linear-gradient(180deg, #fff 0%, #fff2f8 100%); border:1px solid #f6cfe1;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.95), 0 4px 0 #f1c3d8, 0 6px 10px rgba(200,120,160,.2); transition:transform .08s, box-shadow .08s; }
 html[data-theme="nare"] .presets button.on, html[data-theme="nare"] .chip.on, html[data-theme="nare"] #modes button.on,
 html[data-theme="nare"] .ib.main .c, html[data-theme="nare"] .controls button {
-  background:linear-gradient(180deg, #ff6fb8 0%, #e0218a 60%, #c8137a 100%); color:#fff; border-color:#b80f6e;
-  box-shadow:inset 0 2px 0 rgba(255,255,255,.45), 0 5px 0 #9c0b5c, 0 8px 14px rgba(160,20,90,.35); }
+  background:linear-gradient(180deg, #ffe0ee 0%, #fbc4dc 60%, #f5b0cf 100%); color:#6e1d49; border-color:#eda3c5; font-weight:600;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.8), 0 5px 0 #e295b9, 0 8px 14px rgba(200,110,150,.3); }
 html[data-theme="nare"] button:not(.ib):active, html[data-theme="nare"] .chip:active, html[data-theme="nare"] .ib:active .c {
-  transform:translateY(4px); box-shadow:inset 0 2px 0 rgba(255,255,255,.6), 0 0 0 #e98fbd, 0 2px 4px rgba(160,40,100,.25); }
+  transform:translateY(4px); box-shadow:inset 0 2px 0 rgba(255,255,255,.6), 0 0 0 #f1c3d8, 0 2px 4px rgba(200,120,160,.2); }
 .cover { flex:none; width:44px; height:44px; border-radius:14px; background:var(--bg); display:flex; align-items:center; justify-content:center; font-size:26px; }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
@@ -290,7 +290,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.56";
+const VERSION = "web 0.57";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
