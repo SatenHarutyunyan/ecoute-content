@@ -158,7 +158,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="card" id="forYou" hidden style="margin-bottom:12px"></div>
   <div class="card" id="survey" hidden style="margin-bottom:12px"></div>
   <div class="card" id="now">
-    <div class="muted" id="where">Pick an episode below.</div>
+    <div class="muted" id="where">Pick an episode below, or press Play.</div>
     <div id="fb" hidden><b>How was this episode?</b>
       <div class="muted" style="margin-top:8px">Level</div><div class="presets" id="fbLevel"></div>
       <div class="muted" style="margin-top:8px">How much did you enjoy it?</div><div class="presets" id="fbFun"></div></div>
@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.46";
+const VERSION = "web 0.47";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -404,7 +404,7 @@ function startSeg(i, pat) {
   store.set("pos_" + story.id, i);
   if (lessonMode() && !pat) {
     const b = story.segments[i].bank;
-    lessonTok = LESSON.filter(t => b[KIND[t]])  // no word pairs: that step is skipped
+    lessonTok = (b[KIND.WORDS] ? LESSON : ["T", "EN", "T"]).filter(t => b[KIND[t]])  // no word pairs (French, Italian): T EN T
       .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
     steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? b.wp[+t.slice(1)] : b[KIND[t]]);
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
@@ -451,7 +451,15 @@ function resume() {
   if (quick && TAP_HELP && seg >= 0) return replayWithHelp();
   playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
 }
-function togglePlay() { if (!story) return; audio.paused ? resume() : audio.pause(); }
+function togglePlay() {
+  if (!story) {  // Saten: Play did nothing until an episode was picked
+    const mine = catalog.filter(c => c.lang === lang), want = [store.get("last_" + lang), (store.get("place_" + lang, {}) || {}).start];
+    const e = want.map(id => mine.find(c => c.id === id)).find(Boolean) || mine[0];
+    if (e) { log("play_default", { id: e.id }, e.id); openStory(e).then(renderStories); }
+    return;
+  }
+  audio.paused ? resume() : audio.pause();
+}
 
 if ("mediaSession" in navigator) {
   const ms = navigator.mediaSession;
@@ -491,12 +499,18 @@ function show() {
   });
 }
 
+function closeStory() {  // another language: the old episode stops (Saten: the French story kept playing)
+  audio.pause(); clearTimeout(timer); story = null; seg = -1; steps = []; step = 0; waiting = false;
+  $("where").textContent = "Pick an episode below, or press Play."; $("fr").textContent = $("en").textContent = "";
+  $("lessonStep").hidden = true; $("fb").hidden = true;
+}
 async function openStory(entry) {
   const base = `stories/${entry.id}/`;
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
   story = await (await fetch(base + "story.json" + v)).json();
   audio.src = MEDIA + base + story.bank.file + v;
   const pos = store.get("pos_" + story.id, -1);
+  store.set("last_" + entry.lang, entry.id);
   log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
   $("fb").hidden = true;
   startSeg(pos >= 0 && pos < story.segments.length ? pos : 0);
@@ -526,7 +540,7 @@ function renderLangs() {
   const sel = document.createElement("select");
   sel.innerHTML = (lang ? "" : `<option value="">Choose a language…</option>`) +
     Object.entries(LANGS).map(([code, [en, native]]) => `<option value="${code}"${code === lang ? " selected" : ""}>${en} · ${native}</option>`).join("");
-  sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); renderAll(); };
+  sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); closeStory(); renderAll(); };
   $("langs").replaceChildren(sel);
 }
 
@@ -1325,10 +1339,23 @@ const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "rep
   "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "continue": "play", "resume": "play" };
 const V = { on: false, ctx: null, stream: null, rec: null, wake: null, sub: null };
 // Inside the iPhone app: the app's own listener (Apple's on-device recognition, works with the screen locked)
+// The app loads this page from the web, without @capacitor/core, so there is no Capacitor.registerPlugin (calling it
+// stopped the whole page in the iPhone app, 2026-11-19): talk to the plugin through the native bridge directly.
+function nativeVoiceBridge() {
+  const P = "EcouteVoice";
+  return {
+    start: (o = {}) => Capacitor.nativePromise(P, "start", o),
+    stop: () => Capacitor.nativePromise(P, "stop", {}),
+    addListener: (eventName, cb) => {
+      const id = Capacitor.nativeCallback(P, "addListener", { eventName }, (data, err) => { if (!err) cb(data); });
+      return Promise.resolve({ remove: () => Capacitor.nativePromise(P, "removeListener", { eventName, callbackId: id }).catch(() => {}) });
+    },
+  };
+}
 const NATIVE_VOICE = (() => {
   try {
     return window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
-      && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? Capacitor.registerPlugin("EcouteVoice") : null;
+      && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? nativeVoiceBridge() : null;
   } catch (e) { log("js_error", { err: "native voice: " + String(e && e.message || e).slice(0, 200) }); return null; }
 })();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
