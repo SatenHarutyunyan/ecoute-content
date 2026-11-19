@@ -618,7 +618,7 @@ function renderStories() {
       el.innerHTML = (theme() === "nare" ? `<span class="cover">${esc(COVERS[s.id] || "📖")}</span>` : "") + `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
       if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
-      el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
+      el.querySelector(".sinfo .muted").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
       const mb = el.querySelector(".mark");
       if (mb) {
       mb.textContent = MARKS[getMark(s.id)]; mb.classList.toggle("empty", !getMark(s.id));
