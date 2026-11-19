@@ -11,6 +11,11 @@
 <style>
 :root { --bg:#f7f5f0; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --accent:#2b59c3; --line:#e4e1da; }
 @media (prefers-color-scheme: dark) { :root { --bg:#121214; --card:#1d1d21; --ink:#f2f2f4; --muted:#9a9aa2; --accent:#7ea2ff; --line:#2e2e34; } }
+/* Nare's theme (2026-11-19): pink and white, emoji covers on the episodes; stays light in dark mode */
+html[data-theme="nare"] { --bg:#fff4f8; --card:#fff; --ink:#3b1f2e; --muted:#a0708a; --accent:#e0559a; --line:#f7d3e3; --glow:rgba(224,85,154,.3); }
+html[data-theme="nare"] .card { border-radius:20px; }
+html[data-theme="nare"] h1 { color:var(--accent); }
+.cover { flex:none; width:44px; height:44px; border-radius:14px; background:var(--bg); display:flex; align-items:center; justify-content:center; font-size:26px; }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
 main { max-width:640px; margin:0 auto; padding:16px 16px 48px; padding-top:max(16px, env(safe-area-inset-top)); }
@@ -44,7 +49,7 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .pctl { display:flex; justify-content:center; align-items:center; gap:22px; margin-top:20px; }
 .ib { display:flex; flex-direction:column; align-items:center; gap:6px; background:none; border:none; padding:0; color:var(--muted); font-size:12px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
 .ib .c { width:50px; height:50px; border-radius:50%; display:grid; place-items:center; border:1px solid var(--line); background:var(--bg); color:var(--ink); transition:transform .1s; }
-.ib.main .c { width:68px; height:68px; border:none; background:var(--accent); color:#fff; box-shadow:0 6px 16px rgba(43,89,195,.28); }
+.ib.main .c { width:68px; height:68px; border:none; background:var(--accent); color:#fff; box-shadow:0 6px 16px var(--glow, rgba(43,89,195,.28)); }
 .ib svg { width:22px; height:22px; } .ib.main svg { width:30px; height:30px; }
 .ib:active .c { transform:scale(.93); }
 .ib:disabled { opacity:.3; }
@@ -224,6 +229,8 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h3 class="sh">Pauses between phrases</h3>
   <div class="presets" id="gaps" style="margin-top:6px"></div>
   <div class="muted" id="gapHint" style="margin-top:6px"></div>
+  <h3 class="sh">Theme</h3>
+  <div class="presets" id="themes" style="margin-top:6px"></div>
   <h3 class="sh">Episode marks</h3>
   <label class="opt"><input type="checkbox" id="marksOn"><span>Show the ○ ~ ✓ box next to each episode, to mark what you're listening to and what you've finished</span></label>
   <h3 class="sh">Listening pattern</h3>
@@ -262,7 +269,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.51";
+const VERSION = "web 0.52";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -284,7 +291,7 @@ const HELP = "T_SLOW EN T";                    // used once after a "didn't catc
 const DEFAULT_PATTERN = {};  // every language: T EN T, no pause (Saten, 2026-11-18); saved choices are kept
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"] };
 const LESSON_FIRST = ["es"];
-const WORDY = ["hy", "es"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
+const WORDY = ["hy", "es", "fr", "it"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
 // Lesson mode: the learner moves through each phrase step by step, at their own pace
 const LESSON = ["T", "EN", "WORDS", "EN", "T"];
@@ -551,6 +558,22 @@ function renderLangs() {
 
 // Lessons = everyday conversations (bank, shop...); Stories = the story series. Tabs only when a language has both.
 const isLesson = s => s.series === "Daily scenarios";
+// themes: Default and Nare's (pink and white with an emoji cover per episode, web/covers.json)
+const THEMES = { default: "Default", nare: "Nare's 🌸" };
+const theme = () => { const t = store.get("theme", /^nare$/i.test(store.get("name", "")) ? "nare" : "default"); return THEMES[t] ? t : "default"; };
+let COVERS = {};
+function applyTheme() {
+  document.documentElement.dataset.theme = theme();
+  if (theme() === "nare" && !Object.keys(COVERS).length)
+    fresh("covers.json").then(r => r.json()).then(j => { COVERS = j.covers || {}; renderStories(); }).catch(() => {});
+}
+function renderThemes() {
+  $("themes").innerHTML = Object.entries(THEMES).map(([k, n]) => `<button class="${k === theme() ? "on" : ""}" data-theme="${k}">${n}</button>`).join("");
+  $("themes").querySelectorAll("[data-theme]").forEach(b => b.onclick = () => {
+    store.set("theme", b.dataset.theme); log("theme", { theme: b.dataset.theme }); applyTheme(); renderThemes(); renderStories();
+  });
+}
+applyTheme();
 const marksOn = () => store.get("marks_on", true);  // Saten: wanted a way to hide them
 function renderMarksSetting() {
   $("marksOn").checked = marksOn(); $("marksHint").hidden = !marksOn();
@@ -591,7 +614,7 @@ function renderStories() {
       const el = document.createElement("div");
       el.className = "card story"; el.dataset.id = s.id;
       const ep = s.series ? `Episode ${s.episode} · ` : `${s.author} · `;
-      el.innerHTML = `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
+      el.innerHTML = (theme() === "nare" ? `<span class="cover">${esc(COVERS[s.id] || "📖")}</span>` : "") + `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
       if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
       el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
@@ -649,7 +672,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
+  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
