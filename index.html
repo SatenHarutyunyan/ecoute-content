@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.45";
+const VERSION = "web 0.46";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -315,6 +315,9 @@ function log(type, data = {}, storyId = story && story.id) {
   box.push({ t: Date.now(), type, lang, story: storyId || "", data });
   store.set("outbox", box.slice(-3000));
 }
+// report any error, from the very start (the iPhone app stopped before loading the stories, 2026-11-19)
+window.addEventListener("error", e => { log("js_error", { err: String(e.message).slice(0, 200), at: (e.filename || "").split("/").pop() + ":" + e.lineno }); flush(true); });
+window.addEventListener("unhandledrejection", e => { log("js_error", { err: "promise: " + String(e.reason && (e.reason.message || e.reason)).slice(0, 200) }); flush(true); });
 let flushing = false;
 function flush(beacon) {
   const box = store.get("outbox", []);
@@ -1322,8 +1325,12 @@ const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "rep
   "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "continue": "play", "resume": "play" };
 const V = { on: false, ctx: null, stream: null, rec: null, wake: null, sub: null };
 // Inside the iPhone app: the app's own listener (Apple's on-device recognition, works with the screen locked)
-const NATIVE_VOICE = window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
-  && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? Capacitor.registerPlugin("EcouteVoice") : null;
+const NATIVE_VOICE = (() => {
+  try {
+    return window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
+      && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? Capacitor.registerPlugin("EcouteVoice") : null;
+  } catch (e) { log("js_error", { err: "native voice: " + String(e && e.message || e).slice(0, 200) }); return null; }
+})();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
 
 function loadScript(src) {
@@ -1428,7 +1435,7 @@ function voiceArm() {
     if (!V.on && store.get("voice", false) && e.target.id !== "voice") voiceStart();
   }, true);
 }
-voiceArm();
+try { voiceArm(); } catch (e) { log("js_error", { err: "voiceArm: " + String(e && e.message || e).slice(0, 200) }); }
 // leaving or closing the app turns the microphone off; it comes back on the first tap after returning
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden" && V.on && !NATIVE_VOICE) { voiceStop(false); log("voice_off", { why: "hidden" }); flush(true); }
@@ -1458,7 +1465,7 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
     try { renderAll(); } catch {}
     $("stories").innerHTML = `<div class="muted">Couldn’t load stories (${esc(err.split("\n")[0])}).</div>`;
   });
-window.addEventListener("error", e => { log("js_error", { err: String(e.message).slice(0, 200), at: (e.filename || "").split("/").pop() + ":" + e.lineno }); });
+
 </script>
 </body>
 </html>
