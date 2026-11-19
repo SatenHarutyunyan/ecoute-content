@@ -14,7 +14,8 @@
 /* Nare's theme (2026-11-19): pink and white, emoji covers on the episodes; stays light in dark mode */
 html[data-theme="nare"] { --bg:#fff4f8; --card:#fff; --ink:#3b1f2e; --muted:#a0708a; --accent:#e0559a; --line:#f7d3e3; --glow:rgba(224,85,154,.3); }
 html[data-theme="nare"] .card { border-radius:20px; }
-html[data-theme="nare"] h1 { color:var(--accent); }
+html[data-theme="nare"] h1, html[data-theme="nare"] a { color:var(--accent); }
+html[data-theme="nare"] a { text-decoration-color:var(--line); }
 .cover { flex:none; width:44px; height:44px; border-radius:14px; background:var(--bg); display:flex; align-items:center; justify-content:center; font-size:26px; }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
