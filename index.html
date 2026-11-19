@@ -50,6 +50,7 @@ html[data-theme="nare"] .ib.main .c, html[data-theme="nare"] .controls button {
 html[data-theme="nare"] .ib.main .c svg { filter:drop-shadow(0 1px 2px rgba(150,30,90,.35)); }
 html[data-theme="nare"] button:not(.ib):active, html[data-theme="nare"] .chip:active, html[data-theme="nare"] .ib:active .c { transform:translateY(2px) scale(.97); }
 html[data-theme="nare"] .cover { border-radius:16px; }
+html[data-theme="nare"] .backbar { background:transparent; }
 .cover { flex:none; width:44px; height:44px; border-radius:14px; background:var(--bg); display:flex; align-items:center; justify-content:center; font-size:26px; }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, system-ui, sans-serif; }
@@ -304,7 +305,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.58";
+const VERSION = "web 0.59";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
