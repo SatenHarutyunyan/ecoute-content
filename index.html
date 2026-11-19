@@ -25,6 +25,7 @@ h2 { font-size:15px; text-transform:uppercase; letter-spacing:.05em; color:var(-
 .story { display:block; width:100%; text-align:left; margin-bottom:8px; cursor:pointer; color:var(--ink); font-size:16px; }
 div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .sinfo { flex:1; min-width:0; }
+.mark.empty { color:var(--muted); font-weight:400; }
 .mark { flex:none; width:40px; height:40px; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--accent); font-size:20px; font-weight:700; padding:0; }
 .story b { display:block; }
 .group { margin-bottom:10px; }
@@ -202,6 +203,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="presets" id="tabs" style="margin-bottom:10px">
     <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
   </div>
+  <div class="muted" style="margin:4px 0 8px">Tap the box next to an episode: ○ → ~ listening now → ✓ done → ○</div>
   <div id="stories"><div class="muted">Loading…</div></div>
   </div>
 
@@ -258,7 +260,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.48";
+const VERSION = "web 0.49";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -349,11 +351,11 @@ const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 // Pauses after each clip (Saten, 2026-11-19): the audio holds only speech, the app adds the breathing room, which is also
 // when voice commands get through. Long = the old French tracks. Extra ms on top of the ~0.8 s that is always there.
 const GAPS = { short: ["Short", 0], medium: ["Medium", 400], long: ["Long", 900] };
-const gapKey = () => { const k = store.get("gap_" + lang, lang === "es" ? "medium" : "long"); return GAPS[k] ? k : "long"; };
+const gapKey = () => { const k = store.get("gap", store.get("gap_" + lang, lang === "es" ? "medium" : "long")); return GAPS[k] ? k : "long"; };  // one choice for every language
 function renderGaps() {
   $("gaps").innerHTML = Object.entries(GAPS).map(([k, [n]]) => `<button class="chip${k === gapKey() ? " on" : ""}" data-gap="${k}">${n}</button>`).join("");
   $("gaps").querySelectorAll("[data-gap]").forEach(b => b.onclick = () => {
-    store.set("gap_" + lang, b.dataset.gap); log("gap", { gap: b.dataset.gap }); renderGaps();
+    store.set("gap", b.dataset.gap); log("gap", { gap: b.dataset.gap }); renderGaps();
     if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); }
   });
   $("gapHint").textContent = "Longer pauses give you time to think, and to say a voice command.";
@@ -547,7 +549,7 @@ function renderLangs() {
 
 // Lessons = everyday conversations (bank, shop...); Stories = the story series. Tabs only when a language has both.
 const isLesson = s => s.series === "Daily scenarios";
-const MARKS = { "": "", cur: "~", done: "✓" };
+const MARKS = { "": "○", cur: "~", done: "✓" };  // empty box showed nothing: Saten couldn't tell it was a button
 const getMark = id => store.get("mark_" + id, "");  // set by hand only (Arshile), never by the app
 function renderStories() {
   const all = catalog.filter(s => (s.lang || "fr") === lang);
@@ -587,11 +589,11 @@ function renderStories() {
       if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
       el.querySelector("span").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
       const mb = el.querySelector(".mark");
-      mb.textContent = MARKS[getMark(s.id)];
+      mb.textContent = MARKS[getMark(s.id)]; mb.classList.toggle("empty", !getMark(s.id));
       mb.onclick = e => {  // the learner sets the marks: none -> ~ current -> ✓ done -> none
         e.stopPropagation();
         const next = { "": "cur", cur: "done", done: "" }[getMark(s.id)];
-        store.set("mark_" + s.id, next); log("mark", { mark: next }, s.id); mb.textContent = MARKS[next]; count();
+        store.set("mark_" + s.id, next); log("mark", { mark: next }, s.id); mb.textContent = MARKS[next]; mb.classList.toggle("empty", !next); count();
       };
       el.onclick = () => openStory(s);
       g.append(el);
