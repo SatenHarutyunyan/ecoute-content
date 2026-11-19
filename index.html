@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.44";
+const VERSION = "web 0.45";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -302,6 +302,14 @@ const device = store.get("device", null) || (() => {
   const id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).slice(0, 13);
   store.set("device", id); return id;
 })();
+// Always-fresh download: a new URL each time instead of `cache: "no-store"` (in the iPhone app on iOS 27 those requests
+// never answered: "Loading…" forever, 2026-11-19), and a 15 s limit so nothing hangs silently.
+function fresh(url, ms = 15000) {
+  const ctl = window.AbortController ? new AbortController() : null;
+  const t = ctl && setTimeout(() => ctl.abort(), ms);
+  return fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), ctl ? { signal: ctl.signal } : {})
+    .finally(() => clearTimeout(t));
+}
 function log(type, data = {}, storyId = story && story.id) {
   const box = store.get("outbox", []);
   box.push({ t: Date.now(), type, lang, story: storyId || "", data });
@@ -657,7 +665,7 @@ async function ptStart(stage) {
   PT.running = true;
   ptUnlock();
   ptEl().innerHTML = '<div class="muted">Loading…</div>';
-  if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fetch(`placement/${lang}.json`, { cache: "no-store" })).json();
+  if (!PT.spec || PT.spec.lang !== lang) PT.spec = await (await fresh(`placement/${lang}.json`)).json();
   const spec = PT.spec;
   PT.st = { stage, asked: {}, correct: {}, missed: [], known: [], pools: {}, started: Date.now() };
   for (const s of spec.stages) {
@@ -990,7 +998,7 @@ const TOPICS = ["Romance & drama", "Mystery & crime", "Funny", "Fairy tales & my
   "Kids' bedtime stories", "Paradoxes & puzzles", "Supernatural & ghost stories", "Sci-fi & future", "Fashion & design"];
 // grey suggestion in the request box, from a growing catalog (web/ideas.json, see mvp/IDEAS.md); "Use this idea" = Tab
 let IDEAS = null;
-const ideasLoad = () => IDEAS || (IDEAS = fetch("ideas.json", { cache: "no-store" }).then(r => r.json()).then(j => j.ideas.map(i => i.t)).catch(() => []));
+const ideasLoad = () => IDEAS || (IDEAS = fresh("ideas.json").then(r => r.json()).then(j => j.ideas.map(i => i.t)).catch(() => []));
 const ASK_LOVE = "A book you love, a YouTube channel you follow, a series, a city, a person's life story… anything. We'll make stories from it for you.";
 // One box for every place we ask (onboarding, Settings, after 3 episodes). Requests go to the Sheet as "story_request";
 // Claude writes them, and the story comes back marked "for you" (catalog field `for`).
@@ -1104,7 +1112,7 @@ function vaStop() {
 // build_lemmas.py maps each saved form ("w|m") to [lemma, lemma_en, bank, ts, td, es, ed]; audio in <lang>_lem_NN.m4a ----
 const LEMS = {};
 const lemsLoad = () => LEMS[lang] !== undefined ? Promise.resolve(LEMS[lang]) :
-  fetch(`vocab/${lang}_lem.json`, { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null).then(j => (LEMS[lang] = j));
+  fresh(`vocab/${lang}_lem.json`).then(r => r.ok ? r.json() : null).catch(() => null).then(j => (LEMS[lang] = j));
 const lem = v => { const L = LEMS[lang]; const i = L && L.map[v.w + "|" + v.m]; return i == null ? null : L.items[i]; };
 const shown = v => { const b = lem(v); return b ? { w: b[0], m: b[1] } : { w: v.w, m: v.m }; };
 const baseKey = v => { const b = shown(v); return b.w + "|" + b.m; };
@@ -1137,7 +1145,7 @@ function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, the
 const VS = { idx: null, loading: null, open: new Set() };
 function vsLoad() {
   if (VS.idx || VS.loading || lang !== "hy") return VS.loading;
-  return VS.loading = fetch("vocab/hy.json", { cache: "no-store" }).then(r => r.json())
+  return VS.loading = fresh("vocab/hy.json").then(r => r.json())
     .then(j => { VS.idx = j; renderVocab(); }).catch(() => { VS.loading = null; });
 }
 const vsKey = v => v.w + "|" + v.m;
@@ -1432,7 +1440,7 @@ window.addEventListener("pagehide", () => { if (V.on && !NATIVE_VOICE) voiceStop
 async function checkUpdate() {
   if (!audio.paused || PT.running) return;  // never interrupt listening or the level test
   try {
-    const t = await (await fetch("index.html?check=" + Date.now(), { cache: "no-store" })).text();
+    const t = await (await fresh("index.html?check=" + Date.now())).text();
     const v = (t.match(/const VERSION = "([^"]+)"/) || [])[1];
     if (v && v !== VERSION && !location.search.includes(encodeURIComponent(v))) {  // a new URL skips the cached copy
       flush(true);
@@ -1443,7 +1451,7 @@ async function checkUpdate() {
 checkUpdate();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
-fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(c => { catalog = c.stories; renderAll(); if (needsOnboarding()) onbShow(); })
+(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(c => { catalog = c.stories; renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
     const err = String(e && (e.stack || e.message) || e).slice(0, 300);
     log("boot_error", { err, n: catalog.length }); flush(true);
