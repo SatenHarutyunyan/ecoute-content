@@ -260,7 +260,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.49";
+const VERSION = "web 0.50";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1355,6 +1355,16 @@ function nativeVoiceBridge() {
     },
   };
 }
+// "Heard: next" shows for 2.5 s, then the listening hint comes back (Saten: an old "Heard: repeat" looked like the
+// second "repeat" had been heard but ignored)
+let heardTimer = null, listenHint = "";
+function heardHint(word) {
+  const el = $("voiceHint");
+  if (!el.textContent.startsWith("Heard")) listenHint = el.textContent;
+  el.textContent = "Heard: " + word + " ✓";
+  clearTimeout(heardTimer);
+  heardTimer = setTimeout(() => { if (V.on && el.textContent.startsWith("Heard")) el.textContent = listenHint; }, 2500);
+}
 const NATIVE_VOICE = (() => {
   try {
     return window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
@@ -1388,7 +1398,7 @@ function voiceHeard(msg) {
   const action = VOICE_CMDS[said];
   if (!action || conf < 0.8) return;
   log("voice", { word: said, conf });
-  $("voiceHint").textContent = "Heard: " + said;
+  heardHint(said);
   voiceDo(action);
 }
 async function voiceStart() {  // must run inside a tap (mic permission + audio on iPhone)
@@ -1429,7 +1439,7 @@ async function voiceStartNative() {
       const action = VOICE_CMDS[e.word] || (e.word === "next phrase" ? "next" : e.word === "previous phrase" ? "back" : null);
       if (!action) return;
       log("voice", { word: e.word, conf: e.confidence, via: "ios" });
-      $("voiceHint").textContent = "Heard: " + e.word;
+      heardHint(e.word);
       voiceDo(action);
     });
     // diagnostics: what the phone hears (throttled) and its state, so the Sheet shows why a command didn't come through
