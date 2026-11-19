@@ -258,7 +258,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.47";
+const VERSION = "web 0.48";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1430,6 +1430,13 @@ async function voiceStartNative() {
       $("voiceHint").textContent = "Heard: " + e.word;
       voiceDo(action);
     });
+    // diagnostics: what the phone hears (throttled) and its state, so the Sheet shows why a command didn't come through
+    let lastHeard = 0;
+    V.sub2 = await NATIVE_VOICE.addListener("heard", e => {
+      if (Date.now() - lastHeard < 3000 && !e.final) return;
+      lastHeard = Date.now(); log("voice_heard", { text: String(e.text || "").slice(-80), final: !!e.final });
+    });
+    V.sub3 = await NATIVE_VOICE.addListener("state", e => log("voice_state", e));
     const r = await NATIVE_VOICE.start();
     if (!V.on) return NATIVE_VOICE.stop();
     voiceUi("on");
@@ -1443,12 +1450,12 @@ async function voiceStartNative() {
 }
 function voiceStop(save = true) {
   V.on = false; if (save) { store.set("voice", false); log("voice_setting", { on: false }); }
-  if (NATIVE_VOICE) { NATIVE_VOICE.stop().catch(() => {}); try { V.sub && V.sub.remove(); } catch {} }
+  if (NATIVE_VOICE) { NATIVE_VOICE.stop().catch(() => {}); for (const k of ["sub", "sub2", "sub3"]) try { V[k] && V[k].remove(); } catch {} }
   try { V.stream && V.stream.getTracks().forEach(t => t.stop()); } catch {}
   try { V.ctx && V.ctx.close(); } catch {}
   try { V.model && V.model.terminate(); } catch {}
   try { V.wake && V.wake.release(); } catch {}
-  Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null, sub: null });
+  Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null, sub: null, sub2: null, sub3: null });
   voiceUi("off");
   $("voiceHint").textContent = "Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.";
 }
