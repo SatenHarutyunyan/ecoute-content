@@ -454,7 +454,8 @@ function resume() {
 function togglePlay() {
   if (!story) {  // Saten: Play did nothing until an episode was picked
     const mine = catalog.filter(c => c.lang === lang), want = [store.get("last_" + lang), (store.get("place_" + lang, {}) || {}).start];
-    const e = want.map(id => mine.find(c => c.id === id)).find(Boolean) || mine[0];
+    const easiest = [...mine].sort((x, y) => (x.level || "Z").localeCompare(y.level || "Z"))[0];  // A1 before B2
+    const e = want.map(id => mine.find(c => c.id === id)).find(Boolean) || easiest;
     if (e) { log("play_default", { id: e.id }, e.id); openStory(e).then(renderStories); }
     return;
   }
