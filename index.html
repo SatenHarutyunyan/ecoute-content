@@ -333,7 +333,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.77";
+const VERSION = "web 0.78";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1169,7 +1169,10 @@ async function onbJoke() {
   const st = await fetch(`onb/${ONB.lang}.json?v=${VERSION}`).then(r => r.json()).catch(() => null);
   if (!st) return null;
   st.lang = ONB.lang; jaScript(st);
-  return ONB.joke = { lang: ONB.lang, url: `${MEDIA}onb/${ONB.lang}.m4a?v=${VERSION}`, segs: st.segments };
+  const url = `${MEDIA}onb/${ONB.lang}.m4a?v=${VERSION}`;
+  // start downloading the joke's audio now, so the first Next plays at once (Saten: Armenian started late)
+  if (VA.url !== url) { VA.url = url; VA.el.preload = "auto"; VA.el.src = url; VA.el.load(); }
+  return ONB.joke = { lang: ONB.lang, url, segs: st.segments };
 }
 const TOK_NAME = t => ({ T: LANGS[ONB.lang][0], EN: "English", WORDS: "Word by word" }[t]);
 // the joke: phrase 1 the learner taps through exactly like a real lesson (each word pair its own step), phrases 2–4 play
@@ -1296,6 +1299,7 @@ function onbShow() {
   }
   box.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { ONB.lang = b.dataset.l; ONB.joke = null; onbShow(); });
   box.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { ONB.level = b.dataset.v; onbShow(); });
+  if (ONB.step === 2) onbJoke();  // load the joke while they pick a level
   box.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { ONB.mode = b.dataset.m; onbShow(); });
   if (ONB.step === 3) { ONB.toured = true; onbTour(); $("onbSkip").onclick = () => { VA.el.pause(); ONB.step = 4; onbShow(); }; }
   next.onclick = () => {
@@ -1450,6 +1454,7 @@ function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, the
   storyPause();
   const from = Math.max(0, r[0] - PRE) / 1000;  // a little before the sound, in the clip's leading silence
   if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = from;
+  else if (VA.url === url && VA.el.src) VA.el.addEventListener("loadedmetadata", () => { VA.el.currentTime = from; }, { once: true });  // already loading: don't start over
   else { VA.url = url; VA.el.src = url + "#t=" + from; }
   VA.end = r[0] + r[1];
   VA.el.play().catch(() => {});
