@@ -349,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.86";
+const VERSION = "web 0.87";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -729,8 +729,8 @@ function show() {
   $("en").textContent = s ? s.en : story.note;
   const lesson = lessonMode();
   // Continuous: each word with its translation under the sentence, if they asked for it (Armen, 2026-11-20)
-  // on for everyone (Saten, 2026-11-20), each one tappable for the bubble with ☆ Save
-  if (!lesson && s && s.words && s.words.length && store.get("cont_words", true))
+  // off by default: the words in the sentence are tappable now (Saten, 2026-11-21); Settings can turn the line on
+  if (!lesson && s && s.words && s.words.length && store.get("cont_words", false))
     $("en").insertAdjacentHTML("beforeend", `<div class="cwords">${s.words.map(([w, m], j) => `<span class="tw" data-k="${j}">${wordHTML(s, j)} = ${esc(m)}</span>`).join("")}</div>`);
   $("storyCtl").hidden = lesson; $("lessonCtl").hidden = !lesson; $("lessonStep").hidden = !lesson; $("saveRow").hidden = true;
   $("phraseNav").hidden = !lesson; $("phraseNo").textContent = seg < 0 ? "" : `${seg + 1} / ${n}`;
@@ -1175,7 +1175,7 @@ $("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("lessonPat").addEventListener("change", e => setLessonPattern(e.target.value));
-$("contWords").checked = store.get("cont_words", true);
+$("contWords").checked = store.get("cont_words", false);
 $("contWords").onchange = e => { store.set("cont_words", e.target.checked); log("cont_words", { on: e.target.checked }); if (story && seg >= 0) show(); };
 $("play").onclick = togglePlay;
 $("next").onclick = $("lNextPh").onclick = nextPhrase;
