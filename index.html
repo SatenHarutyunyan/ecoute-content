@@ -133,7 +133,9 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .tapme { display:inline-block; animation:tapme 1s ease-in-out infinite; }
 .rqchips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
 .rqchips .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
-.rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:15px; }
+.rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:16px; }
+/* iPhone zooms in on any text box under 16px and then it's hard to get out (Arshile, 2026-11-20): never under 16 */
+input, textarea, select { font-size:max(16px, 1em); }
 .rqidea { display:flex; gap:6px; margin-top:6px; }
 .rqidea .chip { font-size:12px; padding:5px 10px; color:var(--muted); }
 .rqtext::placeholder { color:var(--muted); opacity:.75; font-style:italic; }
@@ -153,7 +155,7 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .presets { display:flex; flex-wrap:wrap; gap:8px; }
 .presets button { flex:1 1 45%; font-size:14px; }
 #fb .presets button { flex:1 1 0; padding:10px 4px; }  /* level and stars each on one line */
-input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:15px; margin-top:8px; }
+input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:16px; margin-top:8px; }
 .pt h3 { margin:0 0 6px; font-size:19px; }
 .pt .big { width:100%; font-size:22px; padding:14px; border-radius:12px; border:none; background:var(--accent); color:#fff; margin:10px 0; }
 .pt .opts { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
@@ -326,7 +328,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.73";
+const VERSION = "web 0.74";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
