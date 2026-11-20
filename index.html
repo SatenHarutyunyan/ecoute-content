@@ -118,6 +118,8 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .toks span { font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
 #onb .toks span.on { background:var(--accent); border-color:var(--accent); color:#fff; }
 #onb .toks span.past { color:var(--ink); }
+.ten { display:block; font-size:13px; color:var(--muted); font-weight:400; }
+.rom { font-size:.62em; font-weight:400; color:var(--muted); margin-top:2px; }
 #onb .opt.radio { padding-left:44px; position:relative; }
 #onb .opt.radio::before { content:""; position:absolute; left:14px; top:16px; width:18px; height:18px; border-radius:50%; border:2px solid var(--line); box-sizing:border-box; }
 #onb .opt.radio.on::before { border:6px solid var(--accent); }
@@ -324,7 +326,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.67";
+const VERSION = "web 0.68";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -349,9 +351,9 @@ const LESSON_FIRST = ["es"];
 const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
 // Japanese (C14, Robin): stored and spoken in kanji; shown as Kana (default), Romaji, Kanji, or Kanji with small kana
 // above (furigana). Each line carries its kana and romaji, each word pair its [kana, romaji] (s.wr).
-const JSCRIPTS = { kana: "Kana", romaji: "Romaji", kanji: "Kanji", furi: "Kanji + kana above" };
-const jScript = () => { const v = store.get("ja_script", "kana"); return JSCRIPTS[v] ? v : "kana"; };
-const jPick = (kanji, kana, romaji) => ({ kana, romaji }[jScript()] || kanji);
+const JSCRIPTS = { kana: "Kana", kana_r: "Kana + romaji", romaji: "Romaji", kanji: "Kanji", furi: "Kanji + kana above" };  // kana_r: Saten, 2026-11-20
+const jScript = () => { const v = store.get("ja_script", "kana_r"); return JSCRIPTS[v] ? v : "kana_r"; };  // default kana + romaji (Saten, 2026-11-20)
+const jPick = (kanji, kana, romaji) => ({ kana, kana_r: kana, romaji }[jScript()] || kanji);
 function ruby(w, r) {  // kana above the kanji only: 部屋に + へやに -> <ruby>部屋<rt>へや</rt></ruby>に
   if (!r || !/[\u4e00-\u9fff々]/.test(w)) return esc(w);
   let a = 0, z = 0;
@@ -372,8 +374,9 @@ function jaScript(st) {  // switch a story's (or catalog entry's) visible text t
   return st;
 }
 const wkey = (s, k) => s.wk ? s.wk[k] : s.words[k][0];  // saved words keep the kanji form, whatever the script
-const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : esc(s.fr);
-const wordHTML = (s, k) => s.wk && jScript() === "furi" ? ruby(s.wk[k], (s.wr[k] || [])[0]) : esc(s.words[k][0]);
+const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : esc(s.fr) + (s.romaji && jScript() === "kana_r" ? `<div class="rom">${esc(s.romaji)}</div>` : "");
+const wordHTML = (s, k) => s.wk && jScript() === "furi" ? ruby(s.wk[k], (s.wr[k] || [])[0]) :
+  esc(s.words[k][0]) + (s.wr && jScript() === "kana_r" && (s.wr[k] || [])[1] ? ` <small class="rom">${esc(s.wr[k][1])}</small>` : "");
 function furigana(s) {  // the kanji line with each word pair's kana above its kanji
   let out = "", pos = 0;
   s.wk.forEach((w, k) => {
@@ -422,7 +425,7 @@ window.addEventListener("unhandledrejection", e => { log("js_error", { err: "pro
 let flushing = false;
 function flush(beacon) {
   const box = store.get("outbox", []);
-  if (!LOG_URL || !box.length || flushing || location.hostname === "localhost") return;  // Claude's test runs stay out of the Sheet
+  if (!LOG_URL || !box.length || flushing || ["localhost", "127.0.0.1"].includes(location.hostname) || navigator.webdriver) return;  // Claude's test runs stay out of the Sheet
   const batch = box.slice(0, 300);
   const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION, events: batch });
   const done = () => store.set("outbox", store.get("outbox", []).slice(batch.length));
@@ -737,6 +740,8 @@ function renderStories() {
       el.innerHTML = (theme() === "nare" ? `<span class="cover">${esc(COVERS[s.id] || "📖")}</span>` : "") + `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
       if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
+      if (s.title_romaji && jScript() === "kana_r") el.querySelector("b").insertAdjacentHTML("beforeend", ` <small class="rom">${esc(s.title_romaji)}</small>`);
+      if (s.title_en) el.querySelector("b").insertAdjacentHTML("afterend", `<span class="ten">${esc(s.title_en)}</span>`);  // web/titles_en.json
       el.querySelector(".sinfo .muted").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
       const mb = el.querySelector(".mark");
       if (mb) {
@@ -1679,7 +1684,9 @@ async function checkUpdate() {
 checkUpdate();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
-(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(c => { catalog = c.stories; catalog.forEach(jaScript); renderAll(); if (needsOnboarding()) onbShow(); })
+// English titles (Saten, 2026-11-20): web/titles_en.json {id: title}, kept apart so the catalog doesn't need republishing
+const TITLES_EN = fresh("titles_en.json").then(r => r.json()).catch(() => ({}));
+(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(async c => { catalog = c.stories; const ten = await TITLES_EN; catalog.forEach(s => { s.title_en = ten[s.id]; jaScript(s); }); renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
     const err = String(e && (e.stack || e.message) || e).slice(0, 300);
     log("boot_error", { err, n: catalog.length }); flush(true);
