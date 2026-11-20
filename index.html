@@ -108,6 +108,7 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .row { display:flex; gap:8px; margin-top:8px; }
 #onb .go { width:100%; margin-top:22px; padding:14px; border:none; border-radius:12px; background:var(--accent); color:#fff; font-size:17px; font-weight:600; }
 #onb .go:disabled { opacity:.4; }
+#onb .go.sec { background:var(--card); color:var(--accent); border:2px solid var(--accent); }
 #onb .go.sticky { position:sticky; bottom:max(12px, env(safe-area-inset-bottom)); box-shadow:0 4px 16px rgba(0,0,0,.18); }
 #onb input { font-size:18px; padding:12px; }
 #onb .demo { margin-top:12px; padding:12px; border-radius:12px; background:var(--bg); border:1px solid var(--line); }
@@ -337,7 +338,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.79";
+const VERSION = "web 0.80";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1234,7 +1235,8 @@ function onbTour() {
       $("tHint").innerHTML = "That's it! Now choose the one you liked.";
       $("tCtl").innerHTML = `<button class="ib" id="tAgain"><span class="c">${ICON.repeat}</span>Hear it again</button>`;
       $("tAgain").onclick = () => cont();
-      $("onbNext").disabled = false; $("onbNext").classList.add("pulse");
+      ONB.tourDone = true;
+      $("onbNext").textContent = "Choose one →"; $("onbNext").classList.remove("sec"); $("onbNext").classList.add("pulse");
     };
     lesson();
   });
@@ -1247,7 +1249,7 @@ function onbFinish() {
   if (ONB.mode === "story") store.set("pattern_" + lang, DEMO.join(" "));
   store.set("onboarded", true);
   if (ONB.sendLove && ONB.sendLove()) setTimeout(() => toast(REQ_THANKS, 9000), 800);
-  log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured }, "");
+  log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured, heard_both: !!ONB.tourDone }, "");
   $("onb").hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
   togglePlay();  // "Start listening" starts listening
 }
@@ -1256,7 +1258,6 @@ function onbShow() {
   // always 5 bars: name, language, level, how to listen (joke + choice), wishes
   const steps = 5, at = [0, 1, 2, 3, 3, 4][ONB.step];
   const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= at ? "on" : ""}"></i>`).join("")}</div>`;
-  const skip = `<button class="linkbtn" id="onbSkip">Skip</button>`;
   let html = "";
   if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
     <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
@@ -1271,7 +1272,7 @@ function onbShow() {
     <div class="demo tour" id="tour"><b id="tTitle"></b><div class="muted" id="tAbout"></div>
       <div class="toks" id="tToks"></div><div class="fr" id="tFr"></div><div class="en" id="tEn"></div><div class="wd muted" id="tWd"></div>
       <div class="pctl" id="tCtl"></div><div class="muted" id="tHint" style="text-align:center;margin-top:8px"></div></div>
-    <button class="go" id="onbNext" disabled>Choose one</button>${skip}`;
+    <button class="go sec" id="onbNext">Skip the example →</button>`;  // always works (Armen: a greyed-out button + small Skip link frustrated him)
   if (ONB.step === 4) {
     const opt = (m, t, d) => `<button class="opt radio${ONB.mode === m ? " on" : ""}" data-m="${m}"><b>${t}</b><div class="muted">${d}</div></button>`;
     html = `<h1>Which did you prefer?</h1><div class="muted">Pick one. You can switch any time at the top of the player,
@@ -1305,7 +1306,7 @@ function onbShow() {
   box.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { ONB.level = b.dataset.v; onbShow(); });
   if (ONB.step === 2) onbJoke();  // load the joke while they pick a level
   box.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { ONB.mode = b.dataset.m; onbShow(); });
-  if (ONB.step === 3) { ONB.toured = true; onbTour(); $("onbSkip").onclick = () => { VA.el.pause(); ONB.step = 4; onbShow(); }; }
+  if (ONB.step === 3) { ONB.toured = true; onbTour(); }
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
     if (ONB.step === 3) VA.el.pause();
