@@ -16,16 +16,31 @@
    "en": "Hugo Martin was thirty-eight years old,",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "avait",
+     "was (had)"
+    ],
+    [
+     "trente-huit",
+     "thirty-eight"
+    ],
+    [
+     "ans",
+     "years"
+    ]
+   ],
    "audio": {
     "fr": "audio/s001_fr.mp3",
     "frs": "audio/s001_frs.mp3",
-    "en": "audio/s001_en.mp3"
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
    },
    "ms": {
     "fr": 2520,
     "frs": 3400,
-    "en": 2830
+    "en": 2830,
+    "wd": 8960
    },
    "bank": {
     "fr": [
@@ -39,6 +54,24 @@
     "en": [
      56910,
      2830
+    ],
+    "wd": [
+     60140,
+     8960
+    ],
+    "wp": [
+     [
+      60140,
+      2430
+     ],
+     [
+      62970,
+      2810
+     ],
+     [
+      66180,
+      2070
+     ]
     ]
    }
   },
@@ -47,29 +80,70 @@
    "en": "a job as an accountant, and one big flaw:",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "travail",
+     "job"
+    ],
+    [
+     "comptable",
+     "accountant"
+    ],
+    [
+     "grand",
+     "big"
+    ],
+    [
+     "défaut",
+     "flaw"
+    ]
+   ],
    "audio": {
     "fr": "audio/s002_fr.mp3",
     "frs": "audio/s002_frs.mp3",
-    "en": "audio/s002_en.mp3"
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
    },
    "ms": {
     "fr": 2990,
     "frs": 4059,
-    "en": 3100
+    "en": 3100,
+    "wd": 11590
    },
    "bank": {
     "fr": [
-     60140,
+     69500,
      2990
     ],
     "frs": [
-     63530,
+     72890,
      4059
     ],
     "en": [
-     67990,
+     77350,
      3100
+    ],
+    "wd": [
+     80850,
+     11590
+    ],
+    "wp": [
+     [
+      80850,
+      2440
+     ],
+     [
+      83690,
+      2680
+     ],
+     [
+      86770,
+      2140
+     ],
+     [
+      89310,
+      2280
+     ]
     ]
    }
   },
@@ -83,35 +157,84 @@
      "en": "dared"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "osait",
+     "dared"
+    ],
+    [
+     "jamais",
+     "never"
+    ],
+    [
+     "rien",
+     "anything"
+    ],
+    [
+     "dire",
+     "to say"
+    ],
+    [
+     "personne",
+     "anyone"
+    ]
+   ],
    "audio": {
     "fr": "audio/s003_fr.mp3",
     "frs": "audio/s003_frs.mp3",
     "en": "audio/s003_en.mp3",
-    "gl": "audio/s003_gl.mp3"
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
    },
    "ms": {
     "fr": 2930,
     "frs": 3980,
     "en": 3010,
-    "gl": 3010
+    "gl": 3010,
+    "wd": 13960
    },
    "bank": {
     "fr": [
-     71490,
+     92840,
      2930
     ],
     "frs": [
-     74820,
+     96170,
      3980
     ],
     "en": [
-     79200,
+     100550,
      3010
     ],
     "gl": [
-     82610,
+     103960,
      3010
+    ],
+    "wd": [
+     107370,
+     13960
+    ],
+    "wp": [
+     [
+      107370,
+      2140
+     ],
+     [
+      109910,
+      2340
+     ],
+     [
+      112650,
+      2260
+     ],
+     [
+      115310,
+      2300
+     ],
+     [
+      118010,
+      2470
+     ]
     ]
    }
   },
@@ -120,29 +243,86 @@
    "en": "At the restaurant, when his steak arrived cold,",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "restaurant",
+     "restaurant"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "son",
+     "his"
+    ],
+    [
+     "steak",
+     "steak"
+    ],
+    [
+     "arrivait",
+     "arrived"
+    ],
+    [
+     "froid",
+     "cold"
+    ]
+   ],
    "audio": {
     "fr": "audio/s004_fr.mp3",
     "frs": "audio/s004_frs.mp3",
-    "en": "audio/s004_en.mp3"
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
    },
    "ms": {
     "fr": 3420,
     "frs": 4690,
-    "en": 3360
+    "en": 3360,
+    "wd": 16550
    },
    "bank": {
     "fr": [
-     86020,
+     121730,
      3420
     ],
     "frs": [
-     89840,
+     125550,
      4690
     ],
     "en": [
-     94930,
+     130639,
      3360
+    ],
+    "wd": [
+     134400,
+     16550
+    ],
+    "wp": [
+     [
+      134400,
+      2630
+     ],
+     [
+      137430,
+      2020
+     ],
+     [
+      139850,
+      2140
+     ],
+     [
+      142390,
+      2290
+     ],
+     [
+      145080,
+      2410
+     ],
+     [
+      147890,
+      2210
+     ]
     ]
    }
   },
@@ -151,29 +331,62 @@
    "en": "he said: \"Perfect, thank you.\"",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "disait",
+     "said"
+    ],
+    [
+     "Parfait",
+     "perfect"
+    ],
+    [
+     "merci",
+     "thank you"
+    ]
+   ],
    "audio": {
     "fr": "audio/s005_fr.mp3",
     "frs": "audio/s005_frs.mp3",
-    "en": "audio/s005_en.mp3"
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
    },
    "ms": {
     "fr": 3270,
     "frs": 4440,
-    "en": 2880
+    "en": 2880,
+    "wd": 8600
    },
    "bank": {
     "fr": [
-     98690,
+     151350,
      3270
     ],
     "frs": [
-     102360,
+     155020,
      4440
     ],
     "en": [
-     107200,
+     159860,
      2880
+    ],
+    "wd": [
+     163140,
+     8600
+    ],
+    "wp": [
+     [
+      163140,
+      2210
+     ],
+     [
+      165750,
+      2350
+     ],
+     [
+      168500,
+      2390
+     ]
     ]
    }
   },
@@ -182,29 +395,94 @@
    "en": "At the hairdresser's, when they cut off too much hair,",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Chez",
+     "at"
+    ],
+    [
+     "coiffeur",
+     "hairdresser's"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "lui",
+     "him"
+    ],
+    [
+     "coupait",
+     "cut"
+    ],
+    [
+     "trop",
+     "too much"
+    ],
+    [
+     "cheveux",
+     "hair"
+    ]
+   ],
    "audio": {
     "fr": "audio/s006_fr.mp3",
     "frs": "audio/s006_frs.mp3",
-    "en": "audio/s006_en.mp3"
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
    },
    "ms": {
     "fr": 3850,
     "frs": 5380,
-    "en": 3500
+    "en": 3500,
+    "wd": 18860
    },
    "bank": {
     "fr": [
-     110480,
+     172140,
      3850
     ],
     "frs": [
-     114730,
+     176390,
      5380
     ],
     "en": [
-     120510,
+     182170,
      3500
+    ],
+    "wd": [
+     186070,
+     18860
+    ],
+    "wp": [
+     [
+      186070,
+      2020
+     ],
+     [
+      188490,
+      2780
+     ],
+     [
+      191670,
+      2020
+     ],
+     [
+      194090,
+      2090
+     ],
+     [
+      196580,
+      2140
+     ],
+     [
+      199120,
+      2300
+     ],
+     [
+      201820,
+      2260
+     ]
     ]
    }
   },
@@ -213,29 +491,62 @@
    "en": "he said: \"That's exactly what I wanted.\"",
    "para": 1,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "disait",
+     "said"
+    ],
+    [
+     "exactement",
+     "exactly"
+    ],
+    [
+     "voulais",
+     "wanted"
+    ]
+   ],
    "audio": {
     "fr": "audio/s007_fr.mp3",
     "frs": "audio/s007_frs.mp3",
-    "en": "audio/s007_en.mp3"
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
    },
    "ms": {
     "fr": 3600,
     "frs": 4950,
-    "en": 3110
+    "en": 3110,
+    "wd": 8800
    },
    "bank": {
     "fr": [
-     124410,
+     205330,
      3600
     ],
     "frs": [
-     128410,
+     209330,
      4950
     ],
     "en": [
-     133760,
+     214680,
      3110
+    ],
+    "wd": [
+     218190,
+     8800
+    ],
+    "wp": [
+     [
+      218190,
+      2210
+     ],
+     [
+      220800,
+      2740
+     ],
+     [
+      223940,
+      2200
+     ]
     ]
    }
   },
@@ -244,29 +555,78 @@
    "en": "The only place where Hugo was brave",
    "para": 2,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "seul",
+     "only"
+    ],
+    [
+     "endroit",
+     "place"
+    ],
+    [
+     "où",
+     "where"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "courageux",
+     "brave"
+    ]
+   ],
    "audio": {
     "fr": "audio/s008_fr.mp3",
     "frs": "audio/s008_frs.mp3",
-    "en": "audio/s008_en.mp3"
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
    },
    "ms": {
     "fr": 3130,
     "frs": 4270,
-    "en": 2830
+    "en": 2830,
+    "wd": 13700
    },
    "bank": {
     "fr": [
-     137270,
+     227390,
      3130
     ],
     "frs": [
-     140800,
+     230920,
      4270
     ],
     "en": [
-     145470,
+     235590,
      2830
+    ],
+    "wd": [
+     238820,
+     13700
+    ],
+    "wp": [
+     [
+      238820,
+      2290
+     ],
+     [
+      241510,
+      2420
+     ],
+     [
+      244330,
+      1940
+     ],
+     [
+      246670,
+      2150
+     ],
+     [
+      249220,
+      2450
+     ]
     ]
    }
   },
@@ -275,29 +635,62 @@
    "en": "was in the shower.",
    "para": 2,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "c'était",
+     "it was"
+    ],
+    [
+     "sous",
+     "under"
+    ],
+    [
+     "douche",
+     "shower"
+    ]
+   ],
    "audio": {
     "fr": "audio/s009_fr.mp3",
     "frs": "audio/s009_frs.mp3",
-    "en": "audio/s009_en.mp3"
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
    },
    "ms": {
     "fr": 2080,
     "frs": 2730,
-    "en": 1560
+    "en": 1560,
+    "wd": 8600
    },
    "bank": {
     "fr": [
-     148700,
+     252920,
      2080
     ],
     "frs": [
-     151180,
+     255400,
      2730
     ],
     "en": [
-     154310,
+     258529,
      1560
+    ],
+    "wd": [
+     260490,
+     8600
+    ],
+    "wp": [
+     [
+      260490,
+      2410
+     ],
+     [
+      263300,
+      2210
+     ],
+     [
+      265910,
+      2329
+     ]
     ]
    }
   },
@@ -306,29 +699,78 @@
    "en": "There, every morning at six o'clock, he sang.",
    "para": 2,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Là",
+     "there"
+    ],
+    [
+     "tous les matins",
+     "every morning"
+    ],
+    [
+     "six",
+     "six"
+    ],
+    [
+     "heures",
+     "o'clock"
+    ],
+    [
+     "chantait",
+     "sang"
+    ]
+   ],
    "audio": {
     "fr": "audio/s010_fr.mp3",
     "frs": "audio/s010_frs.mp3",
-    "en": "audio/s010_en.mp3"
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
    },
    "ms": {
     "fr": 3760,
     "frs": 5200,
-    "en": 3520
+    "en": 3520,
+    "wd": 14270
    },
    "bank": {
     "fr": [
-     156270,
+     269490,
      3760
     ],
     "frs": [
-     160430,
+     273650,
      5200
     ],
     "en": [
-     166030,
+     279250,
      3520
+    ],
+    "wd": [
+     283170,
+     14270
+    ],
+    "wp": [
+     [
+      283170,
+      2060
+     ],
+     [
+      285630,
+      2750
+     ],
+     [
+      288780,
+      2340
+     ],
+     [
+      291520,
+      2290
+     ],
+     [
+      294210,
+      2380
+     ]
     ]
    }
   },
@@ -342,35 +784,60 @@
      "en": "badly off-key"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "fort",
+     "loud"
+    ],
+    [
+     "faux",
+     "off-key"
+    ]
+   ],
    "audio": {
     "fr": "audio/s011_fr.mp3",
     "frs": "audio/s011_frs.mp3",
     "en": "audio/s011_en.mp3",
-    "gl": "audio/s011_gl.mp3"
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
    },
    "ms": {
     "fr": 2470,
     "frs": 3300,
     "en": 2960,
-    "gl": 3710
+    "gl": 3710,
+    "wd": 5790
    },
    "bank": {
     "fr": [
-     169950,
+     297840,
      2470
     ],
     "frs": [
-     172820,
+     300710,
      3300
     ],
     "en": [
-     176520,
+     304410,
      2960
     ],
     "gl": [
-     179880,
+     307770,
      3710
+    ],
+    "wd": [
+     311880,
+     5790
+    ],
+    "wp": [
+     [
+      311880,
+      2300
+     ],
+     [
+      314580,
+      2240
+     ]
     ]
    }
   },
@@ -379,29 +846,78 @@
    "en": "Hugo lived on the third floor of an old building in Saint-Étienne,",
    "para": 3,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "habitait",
+     "lived"
+    ],
+    [
+     "troisième",
+     "third"
+    ],
+    [
+     "étage",
+     "floor"
+    ],
+    [
+     "vieil",
+     "old"
+    ],
+    [
+     "immeuble",
+     "building"
+    ]
+   ],
    "audio": {
     "fr": "audio/s012_fr.mp3",
     "frs": "audio/s012_frs.mp3",
-    "en": "audio/s012_en.mp3"
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
    },
    "ms": {
     "fr": 4450,
     "frs": 6250,
-    "en": 4550
+    "en": 4550,
+    "wd": 14370
    },
    "bank": {
     "fr": [
-     183990,
+     318070,
      4450
     ],
     "frs": [
-     188840,
+     322920,
      6250
     ],
     "en": [
-     195490,
+     329570,
      4550
+    ],
+    "wd": [
+     334520,
+     14370
+    ],
+    "wp": [
+     [
+      334520,
+      2329
+     ],
+     [
+      337250,
+      2500
+     ],
+     [
+      340150,
+      2390
+     ],
+     [
+      342940,
+      2340
+     ],
+     [
+      345680,
+      2360
+     ]
     ]
    }
   },
@@ -410,29 +926,70 @@
    "en": "right next to the tram line.",
    "para": 3,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "juste",
+     "just"
+    ],
+    [
+     "à côté de",
+     "next to"
+    ],
+    [
+     "ligne",
+     "line"
+    ],
+    [
+     "tram",
+     "tram"
+    ]
+   ],
    "audio": {
     "fr": "audio/s013_fr.mp3",
     "frs": "audio/s013_frs.mp3",
-    "en": "audio/s013_en.mp3"
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
    },
    "ms": {
     "fr": 3020,
     "frs": 4090,
-    "en": 2000
+    "en": 2000,
+    "wd": 11710
    },
    "bank": {
     "fr": [
-     200440,
+     349290,
      3020
     ],
     "frs": [
-     203860,
+     352710,
      4090
     ],
     "en": [
-     208350,
+     357200,
      2000
+    ],
+    "wd": [
+     359600,
+     11710
+    ],
+    "wp": [
+     [
+      359600,
+      2450
+     ],
+     [
+      362450,
+      2690
+     ],
+     [
+      365540,
+      2210
+     ],
+     [
+      368150,
+      2309
+     ]
     ]
    }
   },
@@ -441,29 +998,70 @@
    "en": "The noise of the tram didn't bother him.",
    "para": 3,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "bruit",
+     "noise"
+    ],
+    [
+     "tram",
+     "tram"
+    ],
+    [
+     "dérangeait",
+     "bothered"
+    ],
+    [
+     "pas",
+     "not"
+    ]
+   ],
    "audio": {
     "fr": "audio/s014_fr.mp3",
     "frs": "audio/s014_frs.mp3",
-    "en": "audio/s014_en.mp3"
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
    },
    "ms": {
     "fr": 2920,
     "frs": 3920,
-    "en": 2690
+    "en": 2690,
+    "wd": 11160
    },
    "bank": {
     "fr": [
-     210750,
+     371710,
      2920
     ],
     "frs": [
-     214070,
+     375030,
      3920
     ],
     "en": [
-     218390,
+     379350,
      2690
+    ],
+    "wd": [
+     382440,
+     11160
+    ],
+    "wp": [
+     [
+      382440,
+      2300
+     ],
+     [
+      385140,
+      2309
+     ],
+     [
+      387850,
+      2470
+     ],
+     [
+      390720,
+      2030
+     ]
     ]
    }
   },
@@ -472,29 +1070,70 @@
    "en": "What bothered him was the saxophone.",
    "para": 3,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Ce qui",
+     "what"
+    ],
+    [
+     "dérangeait",
+     "bothered"
+    ],
+    [
+     "c'était",
+     "was"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ]
+   ],
    "audio": {
     "fr": "audio/s015_fr.mp3",
     "frs": "audio/s015_frs.mp3",
-    "en": "audio/s015_en.mp3"
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
    },
    "ms": {
     "fr": 3730,
     "frs": 5190,
-    "en": 2610
+    "en": 2610,
+    "wd": 12080
    },
    "bank": {
     "fr": [
-     221480,
+     394000,
      3730
     ],
     "frs": [
-     225610,
+     398130,
      5190
     ],
     "en": [
-     231200,
+     403720,
      2610
+    ],
+    "wd": [
+     406730,
+     12080
+    ],
+    "wp": [
+     [
+      406730,
+      2290
+     ],
+     [
+      409420,
+      2470
+     ],
+     [
+      412290,
+      2300
+     ],
+     [
+      414990,
+      2970
+     ]
     ]
    }
   },
@@ -508,35 +1147,68 @@
      "en": "exactly, on the dot"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Tous les soirs",
+     "every evening"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ],
+    [
+     "pile",
+     "exactly"
+    ]
+   ],
    "audio": {
     "fr": "audio/s016_fr.mp3",
     "frs": "audio/s016_frs.mp3",
     "en": "audio/s016_en.mp3",
-    "gl": "audio/s016_gl.mp3"
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
    },
    "ms": {
     "fr": 2820,
     "frs": 3800,
     "en": 2740,
-    "gl": 3850
+    "gl": 3850,
+    "wd": 9350
    },
    "bank": {
     "fr": [
-     234210,
+     419210,
      2820
     ],
     "frs": [
-     237430,
+     422430,
      3800
     ],
     "en": [
-     241630,
+     426630,
      2740
     ],
     "gl": [
-     244770,
+     429770,
      3850
+    ],
+    "wd": [
+     434020,
+     9350
+    ],
+    "wp": [
+     [
+      434020,
+      2910
+     ],
+     [
+      437330,
+      2380
+     ],
+     [
+      440110,
+      2410
+     ]
     ]
    }
   },
@@ -545,29 +1217,78 @@
    "en": "someone played the saxophone on the fourth floor.",
    "para": 4,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "quelqu'un",
+     "someone"
+    ],
+    [
+     "jouait",
+     "played"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "quatrième",
+     "fourth"
+    ],
+    [
+     "étage",
+     "floor"
+    ]
+   ],
    "audio": {
     "fr": "audio/s017_fr.mp3",
     "frs": "audio/s017_frs.mp3",
-    "en": "audio/s017_en.mp3"
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
    },
    "ms": {
     "fr": 3680,
     "frs": 5100,
-    "en": 3160
+    "en": 3160,
+    "wd": 14880
    },
    "bank": {
     "fr": [
-     249020,
+     443770,
      3680
     ],
     "frs": [
-     253100,
+     447850,
      5100
     ],
     "en": [
-     258600,
+     453350,
      3160
+    ],
+    "wd": [
+     456910,
+     14880
+    ],
+    "wp": [
+     [
+      456910,
+      2370
+     ],
+     [
+      459680,
+      2220
+     ],
+     [
+      462300,
+      2970
+     ],
+     [
+      465670,
+      2480
+     ],
+     [
+      468550,
+      2390
+     ]
     ]
    }
   },
@@ -581,35 +1302,84 @@
      "en": "widow"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "veuve",
+     "widow"
+    ],
+    [
+     "soixante-dix-huit",
+     "seventy-eight"
+    ],
+    [
+     "ans",
+     "years"
+    ]
+   ],
    "audio": {
     "fr": "audio/s018_fr.mp3",
     "frs": "audio/s018_frs.mp3",
     "en": "audio/s018_en.mp3",
-    "gl": "audio/s018_gl.mp3"
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
    },
    "ms": {
     "fr": 3930,
     "frs": 5510,
     "en": 3610,
-    "gl": 3230
+    "gl": 3230,
+    "wd": 14950
    },
    "bank": {
     "fr": [
-     262160,
+     472190,
      3930
     ],
     "frs": [
-     266490,
+     476520,
      5510
     ],
     "en": [
-     272400,
+     482430,
      3610
     ],
     "gl": [
-     276410,
+     486440,
      3230
+    ],
+    "wd": [
+     490070,
+     14950
+    ],
+    "wp": [
+     [
+      490070,
+      2410
+     ],
+     [
+      492880,
+      2490
+     ],
+     [
+      495770,
+      2300
+     ],
+     [
+      498470,
+      3230
+     ],
+     [
+      502100,
+      2070
+     ]
     ]
    }
   },
@@ -618,29 +1388,62 @@
    "en": "very small, with red glasses.",
    "para": 4,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "toute petite",
+     "very small"
+    ],
+    [
+     "lunettes",
+     "glasses"
+    ],
+    [
+     "rouges",
+     "red"
+    ]
+   ],
    "audio": {
     "fr": "audio/s019_fr.mp3",
     "frs": "audio/s019_frs.mp3",
-    "en": "audio/s019_en.mp3"
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
    },
    "ms": {
     "fr": 3230,
     "frs": 4400,
-    "en": 2730
+    "en": 2730,
+    "wd": 9430
    },
    "bank": {
     "fr": [
-     280040,
+     505420,
      3230
     ],
     "frs": [
-     283670,
+     509050,
      4400
     ],
     "en": [
-     288470,
+     513850,
      2730
+    ],
+    "wd": [
+     516980,
+     9430
+    ],
+    "wp": [
+     [
+      516980,
+      2940
+     ],
+     [
+      520320,
+      2570
+     ],
+     [
+      523290,
+      2270
+     ]
     ]
    }
   },
@@ -649,29 +1452,70 @@
    "en": "She always played the same song,",
    "para": 4,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "jouait",
+     "played"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "même",
+     "same"
+    ],
+    [
+     "chanson",
+     "song"
+    ]
+   ],
    "audio": {
     "fr": "audio/s020_fr.mp3",
     "frs": "audio/s020_frs.mp3",
-    "en": "audio/s020_en.mp3"
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
    },
    "ms": {
     "fr": 2600,
     "frs": 3450,
-    "en": 2250
+    "en": 2250,
+    "wd": 11460
    },
    "bank": {
     "fr": [
-     291600,
+     526810,
      2600
     ],
     "frs": [
-     294600,
+     529810,
      3450
     ],
     "en": [
-     298450,
+     533660,
      2250
+    ],
+    "wd": [
+     536310,
+     11460
+    ],
+    "wp": [
+     [
+      536310,
+      2220
+     ],
+     [
+      538930,
+      2520
+     ],
+     [
+      541850,
+      2230
+     ],
+     [
+      544480,
+      2440
+     ]
     ]
    }
   },
@@ -680,29 +1524,86 @@
    "en": "an old melody that Hugo knew, without knowing where from.",
    "para": 4,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "vieille",
+     "old"
+    ],
+    [
+     "mélodie",
+     "melody"
+    ],
+    [
+     "connaissait",
+     "knew"
+    ],
+    [
+     "sans",
+     "without"
+    ],
+    [
+     "savoir",
+     "knowing"
+    ],
+    [
+     "d'où",
+     "from where"
+    ]
+   ],
    "audio": {
     "fr": "audio/s021_fr.mp3",
     "frs": "audio/s021_frs.mp3",
-    "en": "audio/s021_en.mp3"
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
    },
    "ms": {
     "fr": 4050,
     "frs": 5660,
-    "en": 3990
+    "en": 3990,
+    "wd": 17150
    },
    "bank": {
     "fr": [
-     301100,
+     548170,
      4050
     ],
     "frs": [
-     305550,
+     552620,
      5660
     ],
     "en": [
-     311610,
+     558680,
      3990
+    ],
+    "wd": [
+     563070,
+     17150
+    ],
+    "wp": [
+     [
+      563070,
+      2340
+     ],
+     [
+      565810,
+      2570
+     ],
+     [
+      568780,
+      2350
+     ],
+     [
+      571530,
+      2190
+     ],
+     [
+      574120,
+      2570
+     ],
+     [
+      577090,
+      2280
+     ]
     ]
    }
   },
@@ -716,35 +1617,76 @@
      "en": "ceiling"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "pendant",
+     "for"
+    ],
+    [
+     "heure",
+     "hour"
+    ],
+    [
+     "regardait",
+     "looked at"
+    ],
+    [
+     "plafond",
+     "ceiling"
+    ]
+   ],
    "audio": {
     "fr": "audio/s022_fr.mp3",
     "frs": "audio/s022_frs.mp3",
     "en": "audio/s022_en.mp3",
-    "gl": "audio/s022_gl.mp3"
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
    },
    "ms": {
     "fr": 3470,
     "frs": 4830,
     "en": 3160,
-    "gl": 3330
+    "gl": 3330,
+    "wd": 11340
    },
    "bank": {
     "fr": [
-     316000,
+     580620,
      3470
     ],
     "frs": [
-     319870,
+     584490,
      4830
     ],
     "en": [
-     325100,
+     589720,
      3160
     ],
     "gl": [
-     328660,
+     593280,
      3330
+    ],
+    "wd": [
+     597010,
+     11340
+    ],
+    "wp": [
+     [
+      597010,
+      2240
+     ],
+     [
+      599650,
+      2140
+     ],
+     [
+      602190,
+      2470
+     ],
+     [
+      605060,
+      2440
+     ]
     ]
    }
   },
@@ -753,29 +1695,78 @@
    "en": "For three months, he said nothing.",
    "para": 5,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Pendant",
+     "for"
+    ],
+    [
+     "trois",
+     "three"
+    ],
+    [
+     "mois",
+     "months"
+    ],
+    [
+     "rien",
+     "nothing"
+    ],
+    [
+     "dit",
+     "said"
+    ]
+   ],
    "audio": {
     "fr": "audio/s023_fr.mp3",
     "frs": "audio/s023_frs.mp3",
-    "en": "audio/s023_en.mp3"
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
    },
    "ms": {
     "fr": 3020,
     "frs": 4059,
-    "en": 2520
+    "en": 2520,
+    "wd": 13390
    },
    "bank": {
     "fr": [
-     332390,
+     608750,
      3020
     ],
     "frs": [
-     335810,
+     612170,
      4059
     ],
     "en": [
-     340270,
+     616630,
      2520
+    ],
+    "wd": [
+     619550,
+     13390
+    ],
+    "wp": [
+     [
+      619550,
+      2240
+     ],
+     [
+      622190,
+      2160
+     ],
+     [
+      624750,
+      2260
+     ],
+     [
+      627410,
+      2190
+     ],
+     [
+      630000,
+      2090
+     ]
     ]
    }
   },
@@ -789,35 +1780,60 @@
      "en": "earplugs"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a acheté",
+     "bought"
+    ],
+    [
+     "bouchons d'oreilles",
+     "earplugs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s024_fr.mp3",
     "frs": "audio/s024_frs.mp3",
     "en": "audio/s024_en.mp3",
-    "gl": "audio/s024_gl.mp3"
+    "gl": "audio/s024_gl.mp3",
+    "wd": "audio/s024_wd.mp3"
    },
    "ms": {
     "fr": 2650,
     "frs": 3540,
     "en": 1690,
-    "gl": 4240
+    "gl": 4240,
+    "wd": 6730
    },
    "bank": {
     "fr": [
-     343190,
+     633340,
      2650
     ],
     "frs": [
-     346240,
+     636390,
      3540
     ],
     "en": [
-     350180,
+     640330,
      1690
     ],
     "gl": [
-     352270,
+     642420,
      4240
+    ],
+    "wd": [
+     647060,
+     6730
+    ],
+    "wp": [
+     [
+      647060,
+      2420
+     ],
+     [
+      649880,
+      3060
+     ]
     ]
    }
   },
@@ -826,29 +1842,62 @@
    "en": "He slept with a pillow over his head.",
    "para": 5,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a dormi",
+     "slept"
+    ],
+    [
+     "oreiller",
+     "pillow"
+    ],
+    [
+     "tête",
+     "head"
+    ]
+   ],
    "audio": {
     "fr": "audio/s025_fr.mp3",
     "frs": "audio/s025_frs.mp3",
-    "en": "audio/s025_en.mp3"
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
    },
    "ms": {
     "fr": 3240,
     "frs": 4410,
-    "en": 2470
+    "en": 2470,
+    "wd": 8490
    },
    "bank": {
     "fr": [
-     356910,
+     654190,
      3240
     ],
     "frs": [
-     360550,
+     657830,
      4410
     ],
     "en": [
-     365360,
+     662640,
      2470
+    ],
+    "wd": [
+     665510,
+     8490
+    ],
+    "wp": [
+     [
+      665510,
+      2440
+     ],
+     [
+      668350,
+      2270
+     ],
+     [
+      671020,
+      2130
+     ]
     ]
    }
   },
@@ -862,35 +1911,68 @@
      "en": "to move house"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "même",
+     "even"
+    ],
+    [
+     "pensé",
+     "thought"
+    ],
+    [
+     "déménager",
+     "moving house"
+    ]
+   ],
    "audio": {
     "fr": "audio/s026_fr.mp3",
     "frs": "audio/s026_frs.mp3",
     "en": "audio/s026_en.mp3",
-    "gl": "audio/s026_gl.mp3"
+    "gl": "audio/s026_gl.mp3",
+    "wd": "audio/s026_wd.mp3"
    },
    "ms": {
     "fr": 2660,
     "frs": 3530,
     "en": 2390,
-    "gl": 4019
+    "gl": 4019,
+    "wd": 8990
    },
    "bank": {
     "fr": [
-     368230,
+     674400,
      2660
     ],
     "frs": [
-     371290,
+     677460,
      3530
     ],
     "en": [
-     375220,
+     681390,
      2390
     ],
     "gl": [
-     378010,
+     684180,
      4019
+    ],
+    "wd": [
+     688600,
+     8990
+    ],
+    "wp": [
+     [
+      688600,
+      2170
+     ],
+     [
+      691170,
+      2290
+     ],
+     [
+      693860,
+      2880
+     ]
     ]
    }
   },
@@ -899,29 +1981,70 @@
    "en": "Moving house was easier",
    "para": 5,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Déménager",
+     "moving house"
+    ],
+    [
+     "c'était",
+     "was"
+    ],
+    [
+     "plus",
+     "more"
+    ],
+    [
+     "facile",
+     "easy"
+    ]
+   ],
    "audio": {
     "fr": "audio/s027_fr.mp3",
     "frs": "audio/s027_frs.mp3",
-    "en": "audio/s027_en.mp3"
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
    },
    "ms": {
     "fr": 3100,
     "frs": 4270,
-    "en": 2060
+    "en": 2060,
+    "wd": 11890
    },
    "bank": {
     "fr": [
-     382430,
+     697990,
      3100
     ],
     "frs": [
-     385930,
+     701490,
      4270
     ],
     "en": [
-     390600,
+     706160,
      2060
+    ],
+    "wd": [
+     708620,
+     11890
+    ],
+    "wp": [
+     [
+      708620,
+      2890
+     ],
+     [
+      711910,
+      2300
+     ],
+     [
+      714610,
+      2210
+     ],
+     [
+      717220,
+      2440
+     ]
     ]
    }
   },
@@ -930,29 +2053,70 @@
    "en": "than going up one floor and knocking on a door.",
    "para": 5,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "monter",
+     "go up"
+    ],
+    [
+     "étage",
+     "floor"
+    ],
+    [
+     "frapper",
+     "knock"
+    ],
+    [
+     "porte",
+     "door"
+    ]
+   ],
    "audio": {
     "fr": "audio/s028_fr.mp3",
     "frs": "audio/s028_frs.mp3",
-    "en": "audio/s028_en.mp3"
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
    },
    "ms": {
     "fr": 3520,
     "frs": 4860,
-    "en": 3160
+    "en": 3160,
+    "wd": 11310
    },
    "bank": {
     "fr": [
-     393060,
+     720910,
      3520
     ],
     "frs": [
-     396980,
+     724830,
      4860
     ],
     "en": [
-     402240,
+     730090,
      3160
+    ],
+    "wd": [
+     733650,
+     11310
+    ],
+    "wp": [
+     [
+      733650,
+      2260
+     ],
+     [
+      736310,
+      2390
+     ],
+     [
+      739100,
+      2340
+     ],
+     [
+      741839,
+      2270
+     ]
     ]
    }
   },
@@ -966,35 +2130,76 @@
      "en": "he snapped, he cracked"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "nuit",
+     "night"
+    ],
+    [
+     "heure",
+     "o'clock"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "a craqué",
+     "snapped"
+    ]
+   ],
    "audio": {
     "fr": "audio/s029_fr.mp3",
     "frs": "audio/s029_frs.mp3",
     "en": "audio/s029_en.mp3",
-    "gl": "audio/s029_gl.mp3"
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
    },
    "ms": {
     "fr": 3840,
     "frs": 5320,
     "en": 3180,
-    "gl": 4460
+    "gl": 4460,
+    "wd": 11340
    },
    "bank": {
     "fr": [
-     405800,
+     745360,
      3840
     ],
     "frs": [
-     410040,
+     749600,
      5320
     ],
     "en": [
-     415760,
+     755320,
      3180
     ],
     "gl": [
-     419340,
+     758900,
      4460
+    ],
+    "wd": [
+     763760,
+     11340
+    ],
+    "wp": [
+     [
+      763760,
+      2140
+     ],
+     [
+      766300,
+      2290
+     ],
+     [
+      768990,
+      2309
+     ],
+     [
+      771700,
+      2550
+     ]
     ]
    }
   },
@@ -1008,35 +2213,76 @@
      "en": "notebook"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "feuille",
+     "sheet"
+    ],
+    [
+     "son",
+     "his"
+    ],
+    [
+     "carnet",
+     "notebook"
+    ]
+   ],
    "audio": {
     "fr": "audio/s030_fr.mp3",
     "frs": "audio/s030_frs.mp3",
     "en": "audio/s030_en.mp3",
-    "gl": "audio/s030_gl.mp3"
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
    },
    "ms": {
     "fr": 2590,
     "frs": 3430,
     "en": 2270,
-    "gl": 3230
+    "gl": 3230,
+    "wd": 10980
    },
    "bank": {
     "fr": [
-     424200,
+     775500,
      2590
     ],
     "frs": [
-     427190,
+     778490,
      3430
     ],
     "en": [
-     431020,
+     782320,
      2270
     ],
     "gl": [
-     433690,
+     784990,
      3230
+    ],
+    "wd": [
+     788620,
+     10980
+    ],
+    "wp": [
+     [
+      788620,
+      2220
+     ],
+     [
+      791240,
+      2220
+     ],
+     [
+      793860,
+      2140
+     ],
+     [
+      796400,
+      2350
+     ]
     ]
    }
   },
@@ -1045,29 +2291,62 @@
    "en": "and his green pen,",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "son",
+     "his"
+    ],
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "vert",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s031_fr.mp3",
     "frs": "audio/s031_frs.mp3",
-    "en": "audio/s031_en.mp3"
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
    },
    "ms": {
     "fr": 1980,
     "frs": 2590,
-    "en": 1680
+    "en": 1680,
+    "wd": 8230
    },
    "bank": {
     "fr": [
-     437320,
+     800000,
      1980
     ],
     "frs": [
-     439700,
+     802380,
      2590
     ],
     "en": [
-     442690,
+     805370,
      1680
+    ],
+    "wd": [
+     807450,
+     8230
+    ],
+    "wp": [
+     [
+      807450,
+      2140
+     ],
+     [
+      809990,
+      2200
+     ],
+     [
+      812590,
+      2240
+     ]
     ]
    }
   },
@@ -1076,29 +2355,78 @@
    "en": "the pen he used at the office to correct mistakes,",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "utilisait",
+     "used"
+    ],
+    [
+     "bureau",
+     "office"
+    ],
+    [
+     "corriger",
+     "to correct"
+    ],
+    [
+     "erreurs",
+     "mistakes"
+    ]
+   ],
    "audio": {
     "fr": "audio/s032_fr.mp3",
     "frs": "audio/s032_frs.mp3",
-    "en": "audio/s032_en.mp3"
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
    },
    "ms": {
     "fr": 4070,
     "frs": 5720,
-    "en": 3320
+    "en": 3320,
+    "wd": 14590
    },
    "bank": {
     "fr": [
-     444770,
+     816080,
      4070
     ],
     "frs": [
-     449240,
+     820550,
      5720
     ],
     "en": [
-     455360,
+     826670,
      3320
+    ],
+    "wd": [
+     830390,
+     14590
+    ],
+    "wp": [
+     [
+      830390,
+      2200
+     ],
+     [
+      832990,
+      2440
+     ],
+     [
+      835830,
+      2360
+     ],
+     [
+      838590,
+      2590
+     ],
+     [
+      841580,
+      2550
+     ]
     ]
    }
   },
@@ -1107,29 +2435,86 @@
    "en": "and that he always kept in his pocket, even on Sundays.",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "gardait",
+     "kept"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "sa",
+     "his"
+    ],
+    [
+     "poche",
+     "pocket"
+    ],
+    [
+     "même",
+     "even"
+    ],
+    [
+     "dimanche",
+     "on Sundays"
+    ]
+   ],
    "audio": {
     "fr": "audio/s033_fr.mp3",
     "frs": "audio/s033_frs.mp3",
-    "en": "audio/s033_en.mp3"
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
    },
    "ms": {
     "fr": 4120,
     "frs": 5790,
-    "en": 3750
+    "en": 3750,
+    "wd": 17080
    },
    "bank": {
     "fr": [
-     459080,
+     845380,
      4120
     ],
     "frs": [
-     463600,
+     849900,
      5790
     ],
     "en": [
-     469790,
+     856090,
      3750
+    ],
+    "wd": [
+     860240,
+     17080
+    ],
+    "wp": [
+     [
+      860240,
+      2270
+     ],
+     [
+      862910,
+      2520
+     ],
+     [
+      865830,
+      2200
+     ],
+     [
+      868429,
+      2309
+     ],
+     [
+      871140,
+      2170
+     ],
+     [
+      873710,
+      2760
+     ]
     ]
    }
   },
@@ -1138,29 +2523,46 @@
    "en": "He wrote:",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a écrit",
+     "wrote"
+    ]
+   ],
    "audio": {
     "fr": "audio/s034_fr.mp3",
     "frs": "audio/s034_frs.mp3",
-    "en": "audio/s034_en.mp3"
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
    },
    "ms": {
     "fr": 1620,
     "frs": 1990,
-    "en": 1230
+    "en": 1230,
+    "wd": 3190
    },
    "bank": {
     "fr": [
-     473940,
+     877720,
      1620
     ],
     "frs": [
-     475960,
+     879740,
      1990
     ],
     "en": [
-     478350,
+     882130,
      1230
+    ],
+    "wd": [
+     883760,
+     3190
+    ],
+    "wp": [
+     [
+      883760,
+      2340
+     ]
     ]
    }
   },
@@ -1169,29 +2571,70 @@
    "en": "\"Madame, saxophone at midnight: no.",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "madam"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ],
+    [
+     "c'est non",
+     "no way"
+    ]
+   ],
    "audio": {
     "fr": "audio/s035_fr.mp3",
     "frs": "audio/s035_frs.mp3",
-    "en": "audio/s035_en.mp3"
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
    },
    "ms": {
     "fr": 3830,
     "frs": 5310,
-    "en": 3290
+    "en": 3290,
+    "wd": 12220
    },
    "bank": {
     "fr": [
-     479980,
+     887350,
      3830
     ],
     "frs": [
-     484210,
+     891580,
      5310
     ],
     "en": [
-     489920,
+     897290,
      3290
+    ],
+    "wd": [
+     900980,
+     12220
+    ],
+    "wp": [
+     [
+      900980,
+      2390
+     ],
+     [
+      903770,
+      2970
+     ],
+     [
+      907140,
+      2380
+     ],
+     [
+      909920,
+      2430
+     ]
     ]
    }
   },
@@ -1200,29 +2643,70 @@
    "en": "Some people work in the morning. A neighbor.\"",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Certains",
+     "some people"
+    ],
+    [
+     "travaillent",
+     "work"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "voisin",
+     "neighbour"
+    ]
+   ],
    "audio": {
     "fr": "audio/s036_fr.mp3",
     "frs": "audio/s036_frs.mp3",
-    "en": "audio/s036_en.mp3"
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
    },
    "ms": {
     "fr": 4019,
     "frs": 5650,
-    "en": 2890
+    "en": 2890,
+    "wd": 11790
    },
    "bank": {
     "fr": [
-     493610,
+     913600,
      4019
     ],
     "frs": [
-     498030,
+     918020,
      5650
     ],
     "en": [
-     504080,
+     924070,
      2890
+    ],
+    "wd": [
+     927360,
+     11790
+    ],
+    "wp": [
+     [
+      927360,
+      2610
+     ],
+     [
+      930370,
+      2420
+     ],
+     [
+      933190,
+      2309
+     ],
+     [
+      935900,
+      2400
+     ]
     ]
    }
   },
@@ -1231,29 +2715,62 @@
    "en": "Then he went downstairs in his socks",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "est descendu",
+     "went down"
+    ],
+    [
+     "chaussettes",
+     "socks"
+    ]
+   ],
    "audio": {
     "fr": "audio/s037_fr.mp3",
     "frs": "audio/s037_frs.mp3",
-    "en": "audio/s037_en.mp3"
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
    },
    "ms": {
     "fr": 2710,
     "frs": 3620,
-    "en": 2610
+    "en": 2610,
+    "wd": 9030
    },
    "bank": {
     "fr": [
-     507370,
+     939550,
      2710
     ],
     "frs": [
-     510480,
+     942660,
      3620
     ],
     "en": [
-     514500,
+     946680,
      2610
+    ],
+    "wd": [
+     949690,
+     9030
+    ],
+    "wp": [
+     [
+      949690,
+      2110
+     ],
+     [
+      952200,
+      2710
+     ],
+     [
+      955310,
+      2560
+     ]
     ]
    }
   },
@@ -1262,29 +2779,70 @@
    "en": "and slipped the paper into Madame Grimaud's mailbox.",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a glissé",
+     "slipped"
+    ],
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "boîte aux lettres",
+     "letterbox"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s038_fr.mp3",
     "frs": "audio/s038_frs.mp3",
-    "en": "audio/s038_en.mp3"
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
    },
    "ms": {
     "fr": 4070,
     "frs": 5740,
-    "en": 3580
+    "en": 3580,
+    "wd": 12230
    },
    "bank": {
     "fr": [
-     517510,
+     959120,
      4070
     ],
     "frs": [
-     521980,
+     963590,
      5740
     ],
     "en": [
-     528120,
+     969730,
      3580
+    ],
+    "wd": [
+     973710,
+     12230
+    ],
+    "wp": [
+     [
+      973710,
+      2480
+     ],
+     [
+      976590,
+      2280
+     ],
+     [
+      979270,
+      2930
+     ],
+     [
+      982600,
+      2490
+     ]
     ]
    }
   },
@@ -1293,29 +2851,78 @@
    "en": "That night, he slept like a baby.",
    "para": 6,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Cette",
+     "that"
+    ],
+    [
+     "nuit-là",
+     "night"
+    ],
+    [
+     "a dormi",
+     "slept"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "bébé",
+     "baby"
+    ]
+   ],
    "audio": {
     "fr": "audio/s039_fr.mp3",
     "frs": "audio/s039_frs.mp3",
-    "en": "audio/s039_en.mp3"
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
    },
    "ms": {
     "fr": 3390,
     "frs": 4690,
-    "en": 2560
+    "en": 2560,
+    "wd": 13740
    },
    "bank": {
     "fr": [
-     532100,
+     986340,
      3390
     ],
     "frs": [
-     535890,
+     990130,
      4690
     ],
     "en": [
-     540980,
+     995220,
      2560
+    ],
+    "wd": [
+     998180,
+     13740
+    ],
+    "wp": [
+     [
+      998180,
+      2210
+     ],
+     [
+      1000790,
+      2190
+     ],
+     [
+      1003380,
+      2440
+     ],
+     [
+      1006219,
+      2170
+     ],
+     [
+      1008790,
+      2280
+     ]
     ]
    }
   },
@@ -1324,29 +2931,70 @@
    "en": "The next evening, coming home from work,",
    "para": 7,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "lendemain",
+     "next"
+    ],
+    [
+     "soir",
+     "evening"
+    ],
+    [
+     "en rentrant",
+     "coming home"
+    ],
+    [
+     "travail",
+     "work"
+    ]
+   ],
    "audio": {
     "fr": "audio/s040_fr.mp3",
     "frs": "audio/s040_frs.mp3",
-    "en": "audio/s040_en.mp3"
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
    },
    "ms": {
     "fr": 3640,
     "frs": 5010,
-    "en": 2740
+    "en": 2740,
+    "wd": 12110
    },
    "bank": {
     "fr": [
-     543940,
+     1012320,
      3640
     ],
     "frs": [
-     547980,
+     1016360,
      5010
     ],
     "en": [
-     553390,
+     1021770,
      2740
+    ],
+    "wd": [
+     1024910,
+     12110
+    ],
+    "wp": [
+     [
+      1024910,
+      2490
+     ],
+     [
+      1027800,
+      2440
+     ],
+     [
+      1030640,
+      2710
+     ],
+     [
+      1033750,
+      2420
+     ]
     ]
    }
   },
@@ -1355,29 +3003,78 @@
    "en": "he found all the neighbors gathered in the entrance hall.",
    "para": 7,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a trouvé",
+     "found"
+    ],
+    [
+     "tous",
+     "all"
+    ],
+    [
+     "voisins",
+     "neighbours"
+    ],
+    [
+     "réunis",
+     "gathered"
+    ],
+    [
+     "hall",
+     "hall"
+    ]
+   ],
    "audio": {
     "fr": "audio/s041_fr.mp3",
     "frs": "audio/s041_frs.mp3",
-    "en": "audio/s041_en.mp3"
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
    },
    "ms": {
     "fr": 3300,
     "frs": 4510,
-    "en": 3430
+    "en": 3430,
+    "wd": 14020
    },
    "bank": {
     "fr": [
-     556530,
+     1037420,
      3300
     ],
     "frs": [
-     560230,
+     1041119,
      4510
     ],
     "en": [
-     565140,
+     1046030,
      3430
+    ],
+    "wd": [
+     1049860,
+     14020
+    ],
+    "wp": [
+     [
+      1049860,
+      2410
+     ],
+     [
+      1052670,
+      2170
+     ],
+     [
+      1055240,
+      2480
+     ],
+     [
+      1058120,
+      2390
+     ],
+     [
+      1060910,
+      2120
+     ]
     ]
    }
   },
@@ -1391,35 +3088,100 @@
      "en": "taped"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Son",
+     "his"
+    ],
+    [
+     "petit",
+     "little"
+    ],
+    [
+     "mot",
+     "note"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "là",
+     "there"
+    ],
+    [
+     "scotché",
+     "taped"
+    ],
+    [
+     "mur",
+     "wall"
+    ]
+   ],
    "audio": {
     "fr": "audio/s042_fr.mp3",
     "frs": "audio/s042_frs.mp3",
     "en": "audio/s042_en.mp3",
-    "gl": "audio/s042_gl.mp3"
+    "gl": "audio/s042_gl.mp3",
+    "wd": "audio/s042_wd.mp3"
    },
    "ms": {
     "fr": 3520,
     "frs": 4870,
     "en": 3000,
-    "gl": 3430
+    "gl": 3430,
+    "wd": 18580
    },
    "bank": {
     "fr": [
-     568970,
+     1064280,
      3520
     ],
     "frs": [
-     572890,
+     1068200,
      4870
     ],
     "en": [
-     578160,
+     1073470,
      3000
     ],
     "gl": [
-     581560,
+     1076870,
      3430
+    ],
+    "wd": [
+     1080700,
+     18580
+    ],
+    "wp": [
+     [
+      1080700,
+      2140
+     ],
+     [
+      1083240,
+      2240
+     ],
+     [
+      1085880,
+      2110
+     ],
+     [
+      1088390,
+      2150
+     ],
+     [
+      1090940,
+      2060
+     ],
+     [
+      1093400,
+      2440
+     ],
+     [
+      1096240,
+      2190
+     ]
     ]
    }
   },
@@ -1428,29 +3190,54 @@
    "en": "next to the mailboxes.",
    "para": 7,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "à côté des",
+     "next to the"
+    ],
+    [
+     "boîtes aux lettres",
+     "letterboxes"
+    ]
+   ],
    "audio": {
     "fr": "audio/s043_fr.mp3",
     "frs": "audio/s043_frs.mp3",
-    "en": "audio/s043_en.mp3"
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
    },
    "ms": {
     "fr": 2370,
     "frs": 3140,
-    "en": 2000
+    "en": 2000,
+    "wd": 7080
    },
    "bank": {
     "fr": [
-     585390,
+     1099680,
      2370
     ],
     "frs": [
-     588160,
+     1102450,
      3140
     ],
     "en": [
-     591700,
+     1105990,
      2000
+    ],
+    "wd": [
+     1108390,
+     7080
+    ],
+    "wp": [
+     [
+      1108390,
+      2780
+     ],
+     [
+      1111570,
+      3050
+     ]
     ]
    }
   },
@@ -1459,29 +3246,86 @@
    "en": "Underneath, someone had written in big red letters:",
    "para": 7,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "En dessous",
+     "underneath"
+    ],
+    [
+     "quelqu'un",
+     "someone"
+    ],
+    [
+     "avait écrit",
+     "had written"
+    ],
+    [
+     "grosses",
+     "big"
+    ],
+    [
+     "lettres",
+     "letters"
+    ],
+    [
+     "rouges",
+     "red"
+    ]
+   ],
    "audio": {
     "fr": "audio/s044_fr.mp3",
     "frs": "audio/s044_frs.mp3",
-    "en": "audio/s044_en.mp3"
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
    },
    "ms": {
     "fr": 4090,
     "frs": 5700,
-    "en": 3670
+    "en": 3670,
+    "wd": 17440
    },
    "bank": {
     "fr": [
-     594100,
+     1115870,
      4090
     ],
     "frs": [
-     598590,
+     1120360,
      5700
     ],
     "en": [
-     604690,
+     1126460,
      3670
+    ],
+    "wd": [
+     1130530,
+     17440
+    ],
+    "wp": [
+     [
+      1130530,
+      2620
+     ],
+     [
+      1133550,
+      2370
+     ],
+     [
+      1136320,
+      2670
+     ],
+     [
+      1139390,
+      2290
+     ],
+     [
+      1142080,
+      2370
+     ],
+     [
+      1144850,
+      2270
+     ]
     ]
    }
   },
@@ -1495,35 +3339,84 @@
      "en": "coward"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "LÂCHE",
+     "coward"
+    ],
+    [
+     "ÉCRIT",
+     "wrote"
+    ],
+    [
+     "ÇA",
+     "this"
+    ],
+    [
+     "DOIT",
+     "must"
+    ],
+    [
+     "SE PRÉSENTER",
+     "come forward"
+    ]
+   ],
    "audio": {
     "fr": "audio/s045_fr.mp3",
     "frs": "audio/s045_frs.mp3",
     "en": "audio/s045_en.mp3",
-    "gl": "audio/s045_gl.mp3"
+    "gl": "audio/s045_gl.mp3",
+    "wd": "audio/s045_wd.mp3"
    },
    "ms": {
     "fr": 3210,
     "frs": 4370,
     "en": 3140,
-    "gl": 3280
+    "gl": 3280,
+    "wd": 14920
    },
    "bank": {
     "fr": [
-     608760,
+     1148370,
      3210
     ],
     "frs": [
-     612370,
+     1151980,
      4370
     ],
     "en": [
-     617140,
+     1156750,
      3140
     ],
     "gl": [
-     620680,
+     1160290,
      3280
+    ],
+    "wd": [
+     1163970,
+     14920
+    ],
+    "wp": [
+     [
+      1163970,
+      2370
+     ],
+     [
+      1166740,
+      2190
+     ],
+     [
+      1169330,
+      2680
+     ],
+     [
+      1172410,
+      2300
+     ],
+     [
+      1175110,
+      2930
+     ]
     ]
    }
   },
@@ -1537,35 +3430,76 @@
      "en": "building caretaker"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "écriture",
+     "handwriting"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "gardienne",
+     "caretaker"
+    ]
+   ],
    "audio": {
     "fr": "audio/s046_fr.mp3",
     "frs": "audio/s046_frs.mp3",
     "en": "audio/s046_en.mp3",
-    "gl": "audio/s046_gl.mp3"
+    "gl": "audio/s046_gl.mp3",
+    "wd": "audio/s046_wd.mp3"
    },
    "ms": {
     "fr": 4150,
     "frs": 5840,
     "en": 4430,
-    "gl": 4100
+    "gl": 4100,
+    "wd": 12320
    },
    "bank": {
     "fr": [
-     624360,
+     1179290,
      4150
     ],
     "frs": [
-     628910,
+     1183840,
      5840
     ],
     "en": [
-     635150,
+     1190080,
      4430
     ],
     "gl": [
-     639980,
+     1194910,
      4100
+    ],
+    "wd": [
+     1199410,
+     12320
+    ],
+    "wp": [
+     [
+      1199410,
+      2410
+     ],
+     [
+      1202220,
+      2670
+     ],
+     [
+      1205290,
+      2490
+     ],
+     [
+      1208180,
+      2700
+     ]
     ]
    }
   },
@@ -1574,29 +3508,70 @@
    "en": "Madame Da Silva had a sergeant's voice",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "avait",
+     "had"
+    ],
+    [
+     "voix",
+     "voice"
+    ],
+    [
+     "sergent",
+     "sergeant"
+    ]
+   ],
    "audio": {
     "fr": "audio/s047_fr.mp3",
     "frs": "audio/s047_frs.mp3",
-    "en": "audio/s047_en.mp3"
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
    },
    "ms": {
     "fr": 3100,
     "frs": 4220,
-    "en": 2860
+    "en": 2860,
+    "wd": 11480
    },
    "bank": {
     "fr": [
-     644480,
+     1212130,
      3100
     ],
     "frs": [
-     647980,
+     1215630,
      4220
     ],
     "en": [
-     652600,
+     1220250,
      2860
+    ],
+    "wd": [
+     1223510,
+     11480
+    ],
+    "wp": [
+     [
+      1223510,
+      2490
+     ],
+     [
+      1226400,
+      2100
+     ],
+     [
+      1228900,
+      2350
+     ],
+     [
+      1231650,
+      2490
+     ]
     ]
    }
   },
@@ -1605,29 +3580,86 @@
    "en": "and a poster of the town's football team in her lodge.",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "poster",
+     "poster"
+    ],
+    [
+     "équipe",
+     "team"
+    ],
+    [
+     "foot",
+     "football"
+    ],
+    [
+     "ville",
+     "town"
+    ],
+    [
+     "sa",
+     "her"
+    ],
+    [
+     "loge",
+     "lodge"
+    ]
+   ],
    "audio": {
     "fr": "audio/s048_fr.mp3",
     "frs": "audio/s048_frs.mp3",
-    "en": "audio/s048_en.mp3"
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
    },
    "ms": {
     "fr": 3980,
     "frs": 5580,
-    "en": 3410
+    "en": 3410,
+    "wd": 16730
    },
    "bank": {
     "fr": [
-     655860,
+     1235390,
      3980
     ],
     "frs": [
-     660240,
+     1239770,
      5580
     ],
     "en": [
-     666220,
+     1245750,
      3410
+    ],
+    "wd": [
+     1249560,
+     16730
+    ],
+    "wp": [
+     [
+      1249560,
+      2530
+     ],
+     [
+      1252490,
+      2160
+     ],
+     [
+      1255050,
+      2380
+     ],
+     [
+      1257830,
+      2240
+     ],
+     [
+      1260470,
+      2140
+     ],
+     [
+      1263010,
+      2430
+     ]
     ]
    }
   },
@@ -1636,29 +3668,70 @@
    "en": "\"A lady of seventy-eight!\" she shouted.",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "dame",
+     "lady"
+    ],
+    [
+     "soixante-dix-huit",
+     "seventy-eight"
+    ],
+    [
+     "ans",
+     "years"
+    ],
+    [
+     "criait-elle",
+     "she shouted"
+    ]
+   ],
    "audio": {
     "fr": "audio/s049_fr.mp3",
     "frs": "audio/s049_frs.mp3",
-    "en": "audio/s049_en.mp3"
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
    },
    "ms": {
     "fr": 4270,
     "frs": 5930,
-    "en": 2910
+    "en": 2910,
+    "wd": 12350
    },
    "bank": {
     "fr": [
-     670030,
+     1266690,
      4270
     ],
     "frs": [
-     674700,
+     1271360,
      5930
     ],
     "en": [
-     681030,
+     1277690,
      2910
+    ],
+    "wd": [
+     1281000,
+     12350
+    ],
+    "wp": [
+     [
+      1281000,
+      2200
+     ],
+     [
+      1283600,
+      3230
+     ],
+     [
+      1287230,
+      2070
+     ],
+     [
+      1289700,
+      2800
+     ]
     ]
    }
   },
@@ -1667,29 +3740,86 @@
    "en": "\"A widow! Who plays music to forget her grief!\"",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "veuve",
+     "widow"
+    ],
+    [
+     "joue",
+     "plays"
+    ],
+    [
+     "musique",
+     "music"
+    ],
+    [
+     "oublier",
+     "to forget"
+    ],
+    [
+     "son",
+     "her"
+    ],
+    [
+     "chagrin",
+     "grief"
+    ]
+   ],
    "audio": {
     "fr": "audio/s050_fr.mp3",
     "frs": "audio/s050_frs.mp3",
-    "en": "audio/s050_en.mp3"
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
    },
    "ms": {
     "fr": 5020,
     "frs": 7060,
-    "en": 3550
+    "en": 3550,
+    "wd": 16740
    },
    "bank": {
     "fr": [
-     684340,
+     1293750,
      5020
     ],
     "frs": [
-     689760,
+     1299170,
      7060
     ],
     "en": [
-     697220,
+     1306630,
      3550
+    ],
+    "wd": [
+     1310580,
+     16740
+    ],
+    "wp": [
+     [
+      1310580,
+      2300
+     ],
+     [
+      1313280,
+      2270
+     ],
+     [
+      1315950,
+      2380
+     ],
+     [
+      1318730,
+      2470
+     ],
+     [
+      1321600,
+      2080
+     ],
+     [
+      1324080,
+      2390
+     ]
     ]
    }
   },
@@ -1698,29 +3828,70 @@
    "en": "\"It's shameful,\" said Monsieur Kessler, from the second floor,",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "honteux",
+     "shameful"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "deuxième",
+     "second floor"
+    ]
+   ],
    "audio": {
     "fr": "audio/s051_fr.mp3",
     "frs": "audio/s051_frs.mp3",
-    "en": "audio/s051_en.mp3"
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
    },
    "ms": {
     "fr": 4059,
     "frs": 5680,
-    "en": 4030
+    "en": 4030,
+    "wd": 11710
    },
    "bank": {
     "fr": [
-     701170,
+     1327720,
      4059
     ],
     "frs": [
-     705630,
+     1332180,
      5680
     ],
     "en": [
-     711710,
+     1338260,
      4030
+    ],
+    "wd": [
+     1342690,
+     11710
+    ],
+    "wp": [
+     [
+      1342690,
+      2360
+     ],
+     [
+      1345450,
+      2220
+     ],
+     [
+      1348070,
+      2300
+     ],
+     [
+      1350770,
+      2780
+     ]
     ]
    }
   },
@@ -1729,29 +3900,62 @@
    "en": "a man who never smiled",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "homme",
+     "man"
+    ],
+    [
+     "souriait",
+     "smiled"
+    ],
+    [
+     "jamais",
+     "never"
+    ]
+   ],
    "audio": {
     "fr": "audio/s052_fr.mp3",
     "frs": "audio/s052_frs.mp3",
-    "en": "audio/s052_en.mp3"
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
    },
    "ms": {
     "fr": 2430,
     "frs": 3190,
-    "en": 2060
+    "en": 2060,
+    "wd": 8630
    },
    "bank": {
     "fr": [
-     716140,
+     1354800,
      2430
     ],
     "frs": [
-     718970,
+     1357630,
      3190
     ],
     "en": [
-     722560,
+     1361220,
      2060
+    ],
+    "wd": [
+     1363680,
+     8630
+    ],
+    "wp": [
+     [
+      1363680,
+      2150
+     ],
+     [
+      1366230,
+      2490
+     ],
+     [
+      1369120,
+      2340
+     ]
     ]
    }
   },
@@ -1760,29 +3964,70 @@
    "en": "and who always wore a green scarf.",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "portait",
+     "wore"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "écharpe",
+     "scarf"
+    ],
+    [
+     "verte",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s053_fr.mp3",
     "frs": "audio/s053_frs.mp3",
-    "en": "audio/s053_en.mp3"
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
    },
    "ms": {
     "fr": 3090,
     "frs": 4230,
-    "en": 2400
+    "en": 2400,
+    "wd": 11650
    },
    "bank": {
     "fr": [
-     725020,
+     1372710,
      3090
     ],
     "frs": [
-     728510,
+     1376200,
      4230
     ],
     "en": [
-     733140,
+     1380830,
      2400
+    ],
+    "wd": [
+     1383630,
+     11650
+    ],
+    "wp": [
+     [
+      1383630,
+      2270
+     ],
+     [
+      1386300,
+      2520
+     ],
+     [
+      1389220,
+      2460
+     ],
+     [
+      1392080,
+      2350
+     ]
     ]
    }
   },
@@ -1791,29 +4036,70 @@
    "en": "\"Shameful,\" repeated little Noé, from the first floor.",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Honteux",
+     "shameful"
+    ],
+    [
+     "a répété",
+     "repeated"
+    ],
+    [
+     "petit",
+     "little"
+    ],
+    [
+     "premier",
+     "first floor"
+    ]
+   ],
    "audio": {
     "fr": "audio/s054_fr.mp3",
     "frs": "audio/s054_frs.mp3",
-    "en": "audio/s054_en.mp3"
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
    },
    "ms": {
     "fr": 3980,
     "frs": 5550,
-    "en": 3950
+    "en": 3950,
+    "wd": 11830
    },
    "bank": {
     "fr": [
-     735940,
+     1395680,
      3980
     ],
     "frs": [
-     740320,
+     1400060,
      5550
     ],
     "en": [
-     746270,
+     1406010,
      3950
+    ],
+    "wd": [
+     1410360,
+     11830
+    ],
+    "wp": [
+     [
+      1410360,
+      2360
+     ],
+     [
+      1413120,
+      2610
+     ],
+     [
+      1416130,
+      2240
+     ],
+     [
+      1418770,
+      2570
+     ]
     ]
    }
   },
@@ -1822,29 +4108,86 @@
    "en": "He was eight, he didn't understand everything,",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "avait",
+     "was (had)"
+    ],
+    [
+     "huit",
+     "eight"
+    ],
+    [
+     "ans",
+     "years"
+    ],
+    [
+     "comprenait",
+     "understood"
+    ],
+    [
+     "pas",
+     "not"
+    ],
+    [
+     "tout",
+     "everything"
+    ]
+   ],
    "audio": {
     "fr": "audio/s055_fr.mp3",
     "frs": "audio/s055_frs.mp3",
-    "en": "audio/s055_en.mp3"
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
    },
    "ms": {
     "fr": 3190,
     "frs": 4350,
-    "en": 3080
+    "en": 3080,
+    "wd": 16320
    },
    "bank": {
     "fr": [
-     750620,
+     1422590,
      3190
     ],
     "frs": [
-     754210,
+     1426180,
      4350
     ],
     "en": [
-     758960,
+     1430930,
      3080
+    ],
+    "wd": [
+     1434410,
+     16320
+    ],
+    "wp": [
+     [
+      1434410,
+      2430
+     ],
+     [
+      1437240,
+      2090
+     ],
+     [
+      1439730,
+      2070
+     ],
+     [
+      1442200,
+      2640
+     ],
+     [
+      1445240,
+      2030
+     ],
+     [
+      1447670,
+      2210
+     ]
     ]
    }
   },
@@ -1853,29 +4196,54 @@
    "en": "but he loved scandals.",
    "para": 8,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "adorait",
+     "loved"
+    ],
+    [
+     "scandales",
+     "scandals"
+    ]
+   ],
    "audio": {
     "fr": "audio/s056_fr.mp3",
     "frs": "audio/s056_frs.mp3",
-    "en": "audio/s056_en.mp3"
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
    },
    "ms": {
     "fr": 2390,
     "frs": 3210,
-    "en": 1860
+    "en": 1860,
+    "wd": 6300
    },
    "bank": {
     "fr": [
-     762440,
+     1451130,
      2390
     ],
     "frs": [
-     765230,
+     1453920,
      3210
     ],
     "en": [
-     768840,
+     1457530,
      1860
+    ],
+    "wd": [
+     1459790,
+     6300
+    ],
+    "wp": [
+     [
+      1459790,
+      2309
+     ],
+     [
+      1462500,
+      2740
+     ]
     ]
    }
   },
@@ -1884,29 +4252,62 @@
    "en": "Everyone turned toward Hugo.",
    "para": 9,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "s'est tourné",
+     "turned"
+    ],
+    [
+     "vers",
+     "towards"
+    ]
+   ],
    "audio": {
     "fr": "audio/s057_fr.mp3",
     "frs": "audio/s057_frs.mp3",
-    "en": "audio/s057_en.mp3"
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
    },
    "ms": {
     "fr": 2690,
     "frs": 3620,
-    "en": 2340
+    "en": 2340,
+    "wd": 9150
    },
    "bank": {
     "fr": [
-     771100,
+     1466490,
      2690
     ],
     "frs": [
-     774190,
+     1469580,
      3620
     ],
     "en": [
-     778210,
+     1473600,
      2340
+    ],
+    "wd": [
+     1476340,
+     9150
+    ],
+    "wp": [
+     [
+      1476340,
+      2640
+     ],
+     [
+      1479380,
+      2520
+     ],
+     [
+      1482300,
+      2340
+     ]
     ]
    }
   },
@@ -1915,29 +4316,54 @@
    "en": "Hugo opened his mouth.",
    "para": 9,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a ouvert",
+     "opened"
+    ],
+    [
+     "bouche",
+     "mouth"
+    ]
+   ],
    "audio": {
     "fr": "audio/s058_fr.mp3",
     "frs": "audio/s058_frs.mp3",
-    "en": "audio/s058_en.mp3"
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
    },
    "ms": {
     "fr": 2360,
     "frs": 3150,
-    "en": 1870
+    "en": 1870,
+    "wd": 5980
    },
    "bank": {
     "fr": [
-     780950,
+     1485890,
      2360
     ],
     "frs": [
-     783710,
+     1488650,
      3150
     ],
     "en": [
-     787260,
+     1492200,
      1870
+    ],
+    "wd": [
+     1494470,
+     5980
+    ],
+    "wp": [
+     [
+      1494470,
+      2490
+     ],
+     [
+      1497360,
+      2240
+     ]
     ]
    }
   },
@@ -1946,29 +4372,78 @@
    "en": "He wanted to say: \"It's me. I'm sorry.\"",
    "para": 9,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "voulait",
+     "wanted"
+    ],
+    [
+     "dire",
+     "to say"
+    ],
+    [
+     "moi",
+     "me"
+    ],
+    [
+     "suis",
+     "am"
+    ],
+    [
+     "désolé",
+     "sorry"
+    ]
+   ],
    "audio": {
     "fr": "audio/s059_fr.mp3",
     "frs": "audio/s059_frs.mp3",
-    "en": "audio/s059_en.mp3"
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
    },
    "ms": {
     "fr": 4690,
     "frs": 6590,
-    "en": 3340
+    "en": 3340,
+    "wd": 13720
    },
    "bank": {
     "fr": [
-     789530,
+     1500850,
      4690
     ],
     "frs": [
-     794620,
+     1505940,
      6590
     ],
     "en": [
-     801610,
+     1512930,
      3340
+    ],
+    "wd": [
+     1516670,
+     13720
+    ],
+    "wp": [
+     [
+      1516670,
+      2200
+     ],
+     [
+      1519270,
+      2300
+     ],
+     [
+      1521970,
+      2140
+     ],
+     [
+      1524510,
+      2210
+     ],
+     [
+      1527120,
+      2420
+     ]
     ]
    }
   },
@@ -1977,29 +4452,54 @@
    "en": "He said: \"It's outrageous.\"",
    "para": 9,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "scandaleux",
+     "scandalous"
+    ]
+   ],
    "audio": {
     "fr": "audio/s060_fr.mp3",
     "frs": "audio/s060_frs.mp3",
-    "en": "audio/s060_en.mp3"
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
    },
    "ms": {
     "fr": 2640,
     "frs": 3510,
-    "en": 2610
+    "en": 2610,
+    "wd": 6280
    },
    "bank": {
     "fr": [
-     805350,
+     1530790,
      2640
     ],
     "frs": [
-     808390,
+     1533830,
      3510
     ],
     "en": [
-     812300,
+     1537740,
      2610
+    ],
+    "wd": [
+     1540750,
+     6280
+    ],
+    "wp": [
+     [
+      1540750,
+      2220
+     ],
+     [
+      1543370,
+      2810
+     ]
     ]
    }
   },
@@ -2008,29 +4508,78 @@
    "en": "That night, at midnight, there was no saxophone.",
    "para": 10,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Cette",
+     "that"
+    ],
+    [
+     "nuit-là",
+     "night"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ],
+    [
+     "il n'y a pas eu",
+     "there was no"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ]
+   ],
    "audio": {
     "fr": "audio/s061_fr.mp3",
     "frs": "audio/s061_frs.mp3",
-    "en": "audio/s061_en.mp3"
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
    },
    "ms": {
     "fr": 4480,
     "frs": 6330,
-    "en": 3730
+    "en": 3730,
+    "wd": 15070
    },
    "bank": {
     "fr": [
-     815310,
+     1547430,
      4480
     ],
     "frs": [
-     820190,
+     1552310,
      6330
     ],
     "en": [
-     826920,
+     1559040,
      3730
+    ],
+    "wd": [
+     1563170,
+     15070
+    ],
+    "wp": [
+     [
+      1563170,
+      2210
+     ],
+     [
+      1565780,
+      2190
+     ],
+     [
+      1568370,
+      2380
+     ],
+     [
+      1571150,
+      2870
+     ],
+     [
+      1574420,
+      2970
+     ]
     ]
    }
   },
@@ -2039,29 +4588,78 @@
    "en": "There was a total, perfect, absolute silence.",
    "para": 10,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Il y a eu",
+     "there was"
+    ],
+    [
+     "silence",
+     "silence"
+    ],
+    [
+     "total",
+     "total"
+    ],
+    [
+     "parfait",
+     "perfect"
+    ],
+    [
+     "absolu",
+     "absolute"
+    ]
+   ],
    "audio": {
     "fr": "audio/s062_fr.mp3",
     "frs": "audio/s062_frs.mp3",
-    "en": "audio/s062_en.mp3"
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
    },
    "ms": {
     "fr": 4130,
     "frs": 5800,
-    "en": 3780
+    "en": 3780,
+    "wd": 15080
    },
    "bank": {
     "fr": [
-     831050,
+     1578640,
      4130
     ],
     "frs": [
-     835580,
+     1583170,
      5800
     ],
     "en": [
-     841780,
+     1589370,
      3780
+    ],
+    "wd": [
+     1593550,
+     15080
+    ],
+    "wp": [
+     [
+      1593550,
+      2620
+     ],
+     [
+      1596570,
+      2680
+     ],
+     [
+      1599650,
+      2420
+     ],
+     [
+      1602470,
+      2350
+     ],
+     [
+      1605220,
+      2560
+     ]
     ]
    }
   },
@@ -2075,35 +4673,68 @@
      "en": "didn't sleep a wink"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "pas",
+     "not"
+    ],
+    [
+     "fermé l'œil",
+     "slept a wink"
+    ],
+    [
+     "nuit",
+     "night"
+    ]
+   ],
    "audio": {
     "fr": "audio/s063_fr.mp3",
     "frs": "audio/s063_frs.mp3",
     "en": "audio/s063_en.mp3",
-    "gl": "audio/s063_gl.mp3"
+    "gl": "audio/s063_gl.mp3",
+    "wd": "audio/s063_wd.mp3"
    },
    "ms": {
     "fr": 2660,
     "frs": 3580,
     "en": 2550,
-    "gl": 4910
+    "gl": 4910,
+    "wd": 8810
    },
    "bank": {
     "fr": [
-     845960,
+     1609030,
      2660
     ],
     "frs": [
-     849020,
+     1612090,
      3580
     ],
     "en": [
-     853000,
+     1616070,
      2550
     ],
     "gl": [
-     855950,
+     1619020,
      4910
+    ],
+    "wd": [
+     1624330,
+     8810
+    ],
+    "wp": [
+     [
+      1624330,
+      2030
+     ],
+     [
+      1626760,
+      2990
+     ],
+     [
+      1630150,
+      2140
+     ]
     ]
    }
   },
@@ -2112,29 +4743,86 @@
    "en": "On Saturday morning, Madame Da Silva organized a meeting in the hall.",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "samedi",
+     "Saturday"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "a organisé",
+     "organised"
+    ],
+    [
+     "réunion",
+     "meeting"
+    ],
+    [
+     "hall",
+     "hall"
+    ]
+   ],
    "audio": {
     "fr": "audio/s064_fr.mp3",
     "frs": "audio/s064_frs.mp3",
-    "en": "audio/s064_en.mp3"
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
    },
    "ms": {
     "fr": 5380,
     "frs": 7640,
-    "en": 4660
+    "en": 4660,
+    "wd": 17790
    },
    "bank": {
     "fr": [
-     861260,
+     1633540,
      5380
     ],
     "frs": [
-     867040,
+     1639320,
      7640
     ],
     "en": [
-     875080,
+     1647360,
      4660
+    ],
+    "wd": [
+     1652420,
+     17790
+    ],
+    "wp": [
+     [
+      1652420,
+      2700
+     ],
+     [
+      1655520,
+      2309
+     ],
+     [
+      1658230,
+      2490
+     ],
+     [
+      1661120,
+      2890
+     ],
+     [
+      1664410,
+      2430
+     ],
+     [
+      1667240,
+      2120
+     ]
     ]
    }
   },
@@ -2143,29 +4831,70 @@
    "en": "\"We have to find the culprit,\" she said.",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Il faut",
+     "we must"
+    ],
+    [
+     "trouver",
+     "find"
+    ],
+    [
+     "coupable",
+     "culprit"
+    ],
+    [
+     "a-t-elle dit",
+     "she said"
+    ]
+   ],
    "audio": {
     "fr": "audio/s065_fr.mp3",
     "frs": "audio/s065_frs.mp3",
-    "en": "audio/s065_en.mp3"
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
    },
    "ms": {
     "fr": 3260,
     "frs": 4500,
-    "en": 2650
+    "en": 2650,
+    "wd": 11930
    },
    "bank": {
     "fr": [
-     880140,
+     1670610,
      3260
     ],
     "frs": [
-     883800,
+     1674270,
      4500
     ],
     "en": [
-     888700,
+     1679170,
      2650
+    ],
+    "wd": [
+     1682220,
+     11930
+    ],
+    "wp": [
+     [
+      1682220,
+      2400
+     ],
+     [
+      1685020,
+      2280
+     ],
+     [
+      1687700,
+      2500
+     ],
+     [
+      1690600,
+      2700
+     ]
     ]
    }
   },
@@ -2179,35 +4908,84 @@
      "en": "to lead the investigation"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "mener",
+     "to lead"
+    ],
+    [
+     "enquête",
+     "investigation"
+    ],
+    [
+     "il nous faut",
+     "we need"
+    ],
+    [
+     "quelqu'un",
+     "someone"
+    ],
+    [
+     "sérieux",
+     "serious"
+    ]
+   ],
    "audio": {
     "fr": "audio/s066_fr.mp3",
     "frs": "audio/s066_frs.mp3",
     "en": "audio/s066_en.mp3",
-    "gl": "audio/s066_gl.mp3"
+    "gl": "audio/s066_gl.mp3",
+    "wd": "audio/s066_wd.mp3"
    },
    "ms": {
     "fr": 3750,
     "frs": 5260,
     "en": 3780,
-    "gl": 4880
+    "gl": 4880,
+    "wd": 14990
    },
    "bank": {
     "fr": [
-     891750,
+     1694550,
      3750
     ],
     "frs": [
-     895900,
+     1698700,
      5260
     ],
     "en": [
-     901560,
+     1704360,
      3780
     ],
     "gl": [
-     905740,
+     1708540,
      4880
+    ],
+    "wd": [
+     1713820,
+     14990
+    ],
+    "wp": [
+     [
+      1713820,
+      2280
+     ],
+     [
+      1716500,
+      2880
+     ],
+     [
+      1719780,
+      2450
+     ],
+     [
+      1722630,
+      2370
+     ],
+     [
+      1725400,
+      2560
+     ]
     ]
    }
   },
@@ -2216,29 +4994,54 @@
    "en": "Someone methodical.\"",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "méthodique",
+     "methodical"
+    ]
+   ],
    "audio": {
     "fr": "audio/s067_fr.mp3",
     "frs": "audio/s067_frs.mp3",
-    "en": "audio/s067_en.mp3"
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
    },
    "ms": {
     "fr": 2190,
     "frs": 2850,
-    "en": 1730
+    "en": 1730,
+    "wd": 6460
    },
    "bank": {
     "fr": [
-     911020,
+     1729210,
      2190
     ],
     "frs": [
-     913610,
+     1731800,
      2850
     ],
     "en": [
-     916860,
+     1735050,
      1730
+    ],
+    "wd": [
+     1737180,
+     6460
+    ],
+    "wp": [
+     [
+      1737180,
+      2370
+     ],
+     [
+      1739950,
+      2840
+     ]
     ]
    }
   },
@@ -2247,29 +5050,46 @@
    "en": "She looked at Hugo.",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ]
+   ],
    "audio": {
     "fr": "audio/s068_fr.mp3",
     "frs": "audio/s068_frs.mp3",
-    "en": "audio/s068_en.mp3"
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
    },
    "ms": {
     "fr": 2050,
     "frs": 2650,
-    "en": 1680
+    "en": 1680,
+    "wd": 3400
    },
    "bank": {
     "fr": [
-     918990,
+     1744040,
      2050
     ],
     "frs": [
-     921440,
+     1746490,
      2650
     ],
     "en": [
-     924490,
+     1749540,
      1680
+    ],
+    "wd": [
+     1751620,
+     3400
+    ],
+    "wp": [
+     [
+      1751620,
+      2550
+     ]
     ]
    }
   },
@@ -2278,29 +5098,62 @@
    "en": "\"You're an accountant, Monsieur Martin.",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "êtes",
+     "are"
+    ],
+    [
+     "comptable",
+     "accountant"
+    ],
+    [
+     "Monsieur",
+     "Mr"
+    ]
+   ],
    "audio": {
     "fr": "audio/s069_fr.mp3",
     "frs": "audio/s069_frs.mp3",
-    "en": "audio/s069_en.mp3"
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
    },
    "ms": {
     "fr": 3080,
     "frs": 4170,
-    "en": 2460
+    "en": 2460,
+    "wd": 8700
    },
    "bank": {
     "fr": [
-     926570,
+     1755420,
      3080
     ],
     "frs": [
-     930050,
+     1758900,
      4170
     ],
     "en": [
-     934620,
+     1763470,
      2460
+    ],
+    "wd": [
+     1766330,
+     8700
+    ],
+    "wp": [
+     [
+      1766330,
+      2070
+     ],
+     [
+      1768800,
+      2680
+     ],
+     [
+      1771880,
+      2300
+     ]
     ]
    }
   },
@@ -2314,35 +5167,60 @@
      "en": "you know all about that"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "détails",
+     "details"
+    ],
+    [
+     "ça vous connaît",
+     "that's your thing"
+    ]
+   ],
    "audio": {
     "fr": "audio/s070_fr.mp3",
     "frs": "audio/s070_frs.mp3",
     "en": "audio/s070_en.mp3",
-    "gl": "audio/s070_gl.mp3"
+    "gl": "audio/s070_gl.mp3",
+    "wd": "audio/s070_wd.mp3"
    },
    "ms": {
     "fr": 2790,
     "frs": 3750,
     "en": 2600,
-    "gl": 4310
+    "gl": 4310,
+    "wd": 6790
    },
    "bank": {
     "fr": [
-     937480,
+     1775430,
      2790
     ],
     "frs": [
-     940670,
+     1778620,
      3750
     ],
     "en": [
-     944820,
+     1782770,
      2600
     ],
     "gl": [
-     947820,
+     1785770,
      4310
+    ],
+    "wd": [
+     1790480,
+     6790
+    ],
+    "wp": [
+     [
+      1790480,
+      2630
+     ],
+     [
+      1793510,
+      2910
+     ]
     ]
    }
   },
@@ -2351,29 +5229,62 @@
    "en": "Hugo wanted to say no.",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "voulait",
+     "wanted"
+    ],
+    [
+     "dire",
+     "to say"
+    ],
+    [
+     "non",
+     "no"
+    ]
+   ],
    "audio": {
     "fr": "audio/s071_fr.mp3",
     "frs": "audio/s071_frs.mp3",
-    "en": "audio/s071_en.mp3"
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
    },
    "ms": {
     "fr": 1970,
     "frs": 2570,
-    "en": 1860
+    "en": 1860,
+    "wd": 8230
    },
    "bank": {
     "fr": [
-     952530,
+     1797670,
      1970
     ],
     "frs": [
-     954900,
+     1800040,
      2570
     ],
     "en": [
-     957870,
+     1803010,
      1860
+    ],
+    "wd": [
+     1805270,
+     8230
+    ],
+    "wp": [
+     [
+      1805270,
+      2200
+     ],
+     [
+      1807870,
+      2300
+     ],
+     [
+      1810570,
+      2080
+     ]
     ]
    }
   },
@@ -2382,29 +5293,70 @@
    "en": "He heard himself answer: \"Perfect, thank you.\"",
    "para": 11,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "s'est entendu",
+     "heard himself"
+    ],
+    [
+     "répondre",
+     "answer"
+    ],
+    [
+     "Parfait",
+     "perfect"
+    ],
+    [
+     "merci",
+     "thank you"
+    ]
+   ],
    "audio": {
     "fr": "audio/s072_fr.mp3",
     "frs": "audio/s072_frs.mp3",
-    "en": "audio/s072_en.mp3"
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
    },
    "ms": {
     "fr": 4000,
     "frs": 5620,
-    "en": 3630
+    "en": 3630,
+    "wd": 12410
    },
    "bank": {
     "fr": [
-     960130,
+     1813900,
      4000
     ],
     "frs": [
-     964530,
+     1818300,
      5620
     ],
     "en": [
-     970550,
+     1824320,
      3630
+    ],
+    "wd": [
+     1828350,
+     12410
+    ],
+    "wp": [
+     [
+      1828350,
+      3080
+     ],
+     [
+      1831830,
+      2540
+     ],
+     [
+      1834770,
+      2350
+     ],
+     [
+      1837520,
+      2390
+     ]
     ]
    }
   },
@@ -2413,29 +5365,78 @@
    "en": "In front of everyone, he examined the paper, very seriously.",
    "para": 12,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Devant",
+     "in front of"
+    ],
+    [
+     "tout le monde",
+     "everyone"
+    ],
+    [
+     "a examiné",
+     "examined"
+    ],
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "sérieusement",
+     "seriously"
+    ]
+   ],
    "audio": {
     "fr": "audio/s073_fr.mp3",
     "frs": "audio/s073_frs.mp3",
-    "en": "audio/s073_en.mp3"
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
    },
    "ms": {
     "fr": 4790,
     "frs": 6810,
-    "en": 4330
+    "en": 4330,
+    "wd": 15390
    },
    "bank": {
     "fr": [
-     974580,
+     1841160,
      4790
     ],
     "frs": [
-     979770,
+     1846350,
      6810
     ],
     "en": [
-     986980,
+     1853560,
      4330
+    ],
+    "wd": [
+     1858290,
+     15390
+    ],
+    "wp": [
+     [
+      1858290,
+      2440
+     ],
+     [
+      1861130,
+      2640
+     ],
+     [
+      1864170,
+      2780
+     ],
+     [
+      1867350,
+      2280
+     ],
+     [
+      1870030,
+      2800
+     ]
     ]
    }
   },
@@ -2449,35 +5450,84 @@
      "en": "ink"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Hum",
+     "hmm"
+    ],
+    [
+     "coupable",
+     "culprit"
+    ],
+    [
+     "a utilisé",
+     "used"
+    ],
+    [
+     "encre",
+     "ink"
+    ],
+    [
+     "verte",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s074_fr.mp3",
     "frs": "audio/s074_frs.mp3",
     "en": "audio/s074_en.mp3",
-    "gl": "audio/s074_gl.mp3"
+    "gl": "audio/s074_gl.mp3",
+    "wd": "audio/s074_wd.mp3"
    },
    "ms": {
     "fr": 4680,
     "frs": 6630,
     "en": 2940,
-    "gl": 3130
+    "gl": 3130,
+    "wd": 14200
    },
    "bank": {
     "fr": [
-     991710,
+     1874080,
      4680
     ],
     "frs": [
-     996790,
+     1879160,
      6630
     ],
     "en": [
-     1003820,
+     1886190,
      2940
     ],
     "gl": [
-     1007160,
+     1889530,
      3130
+    ],
+    "wd": [
+     1893060,
+     14200
+    ],
+    "wp": [
+     [
+      1893060,
+      2050
+     ],
+     [
+      1895510,
+      2500
+     ],
+     [
+      1898410,
+      2620
+     ],
+     [
+      1901430,
+      2230
+     ],
+     [
+      1904060,
+      2350
+     ]
     ]
    }
   },
@@ -2486,29 +5536,54 @@
    "en": "Monsieur Kessler shrugged.",
    "para": 12,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "a haussé les épaules",
+     "shrugged"
+    ]
+   ],
    "audio": {
     "fr": "audio/s075_fr.mp3",
     "frs": "audio/s075_frs.mp3",
-    "en": "audio/s075_en.mp3"
+    "en": "audio/s075_en.mp3",
+    "wd": "audio/s075_wd.mp3"
    },
    "ms": {
     "fr": 2850,
     "frs": 3890,
-    "en": 2000
+    "en": 2000,
+    "wd": 6600
    },
    "bank": {
     "fr": [
-     1010690,
+     1907660,
      2850
     ],
     "frs": [
-     1013940,
+     1910910,
      3890
     ],
     "en": [
-     1018230,
+     1915200,
      2000
+    ],
+    "wd": [
+     1917600,
+     6600
+    ],
+    "wp": [
+     [
+      1917600,
+      2300
+     ],
+     [
+      1920300,
+      3050
+     ]
     ]
    }
   },
@@ -2517,29 +5592,62 @@
    "en": "\"We're in Saint-Étienne. Everybody has a green pen.\"",
    "para": 12,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "vert",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s076_fr.mp3",
     "frs": "audio/s076_frs.mp3",
-    "en": "audio/s076_en.mp3"
+    "en": "audio/s076_en.mp3",
+    "wd": "audio/s076_wd.mp3"
    },
    "ms": {
     "fr": 4900,
     "frs": 6940,
-    "en": 3680
+    "en": 3680,
+    "wd": 8730
    },
    "bank": {
     "fr": [
-     1020630,
+     1924600,
      4900
     ],
     "frs": [
-     1025930,
+     1929900,
      6940
     ],
     "en": [
-     1033270,
+     1937240,
      3680
+    ],
+    "wd": [
+     1941320,
+     8730
+    ],
+    "wp": [
+     [
+      1941320,
+      2640
+     ],
+     [
+      1944360,
+      2200
+     ],
+     [
+      1946960,
+      2240
+     ]
     ]
    }
   },
@@ -2548,29 +5656,70 @@
    "en": "It was true. Hugo breathed a little.",
    "para": 12,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "vrai",
+     "true"
+    ],
+    [
+     "a respiré",
+     "breathed"
+    ],
+    [
+     "peu",
+     "a little"
+    ]
+   ],
    "audio": {
     "fr": "audio/s077_fr.mp3",
     "frs": "audio/s077_frs.mp3",
-    "en": "audio/s077_en.mp3"
+    "en": "audio/s077_en.mp3",
+    "wd": "audio/s077_wd.mp3"
    },
    "ms": {
     "fr": 4130,
     "frs": 5800,
-    "en": 2840
+    "en": 2840,
+    "wd": 11320
    },
    "bank": {
     "fr": [
-     1037349,
+     1950450,
      4130
     ],
     "frs": [
-     1041880,
+     1954980,
      5800
     ],
     "en": [
-     1048079,
+     1961180,
      2840
+    ],
+    "wd": [
+     1964420,
+     11320
+    ],
+    "wp": [
+     [
+      1964420,
+      2410
+     ],
+     [
+      1967230,
+      2200
+     ],
+     [
+      1969830,
+      2560
+     ],
+     [
+      1972790,
+      2100
+     ]
     ]
    }
   },
@@ -2584,35 +5733,68 @@
      "en": "magnifying glass"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "petit",
+     "little"
+    ],
+    [
+     "avait apporté",
+     "had brought"
+    ],
+    [
+     "loupe",
+     "magnifying glass"
+    ]
+   ],
    "audio": {
     "fr": "audio/s078_fr.mp3",
     "frs": "audio/s078_frs.mp3",
     "en": "audio/s078_en.mp3",
-    "gl": "audio/s078_gl.mp3"
+    "gl": "audio/s078_gl.mp3",
+    "wd": "audio/s078_wd.mp3"
    },
    "ms": {
     "fr": 3060,
     "frs": 4150,
     "en": 3140,
-    "gl": 3780
+    "gl": 3780,
+    "wd": 9630
    },
    "bank": {
     "fr": [
-     1051320,
+     1976140,
      3060
     ],
     "frs": [
-     1054780,
+     1979600,
      4150
     ],
     "en": [
-     1059330,
+     1984150,
      3140
     ],
     "gl": [
-     1062870,
+     1987690,
      3780
+    ],
+    "wd": [
+     1991870,
+     9630
+    ],
+    "wp": [
+     [
+      1991870,
+      2240
+     ],
+     [
+      1994510,
+      2820
+     ],
+     [
+      1997730,
+      2920
+     ]
     ]
    }
   },
@@ -2621,29 +5803,62 @@
    "en": "He looked at the paper very closely.",
    "para": 13,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "près",
+     "close"
+    ]
+   ],
    "audio": {
     "fr": "audio/s079_fr.mp3",
     "frs": "audio/s079_frs.mp3",
-    "en": "audio/s079_en.mp3"
+    "en": "audio/s079_en.mp3",
+    "wd": "audio/s079_wd.mp3"
    },
    "ms": {
     "fr": 2910,
     "frs": 3910,
-    "en": 2440
+    "en": 2440,
+    "wd": 8750
    },
    "bank": {
     "fr": [
-     1067050,
+     2001900,
      2910
     ],
     "frs": [
-     1070360,
+     2005210,
      3910
     ],
     "en": [
-     1074670,
+     2009520,
      2440
+    ],
+    "wd": [
+     2012360,
+     8750
+    ],
+    "wp": [
+     [
+      2012360,
+      2550
+     ],
+     [
+      2015310,
+      2280
+     ],
+     [
+      2017990,
+      2270
+     ]
     ]
    }
   },
@@ -2657,35 +5872,84 @@
      "en": "squares (on grid paper)"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Il y a",
+     "there are"
+    ],
+    [
+     "petits",
+     "small"
+    ],
+    [
+     "carreaux",
+     "squares"
+    ],
+    [
+     "a-t-il dit",
+     "he said"
+    ],
+    [
+     "colonnes",
+     "columns"
+    ]
+   ],
    "audio": {
     "fr": "audio/s080_fr.mp3",
     "frs": "audio/s080_frs.mp3",
     "en": "audio/s080_en.mp3",
-    "gl": "audio/s080_gl.mp3"
+    "gl": "audio/s080_gl.mp3",
+    "wd": "audio/s080_wd.mp3"
    },
    "ms": {
     "fr": 4900,
     "frs": 6910,
     "en": 3610,
-    "gl": 4290
+    "gl": 4290,
+    "wd": 14770
    },
    "bank": {
     "fr": [
-     1077510,
+     2021510,
      4900
     ],
     "frs": [
-     1082810,
+     2026810,
      6910
     ],
     "en": [
-     1090120,
+     2034120,
      3610
     ],
     "gl": [
-     1094130,
+     2038130,
      4290
+    ],
+    "wd": [
+     2042820,
+     14770
+    ],
+    "wp": [
+     [
+      2042820,
+      2470
+     ],
+     [
+      2045690,
+      2329
+     ],
+     [
+      2048420,
+      2430
+     ],
+     [
+      2051250,
+      2610
+     ],
+     [
+      2054260,
+      2480
+     ]
     ]
    }
   },
@@ -2694,29 +5958,54 @@
    "en": "It's accountant's paper.\"",
    "para": 13,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "comptable",
+     "accountant"
+    ]
+   ],
    "audio": {
     "fr": "audio/s081_fr.mp3",
     "frs": "audio/s081_frs.mp3",
-    "en": "audio/s081_en.mp3"
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
    },
    "ms": {
     "fr": 2460,
     "frs": 3320,
-    "en": 1880
+    "en": 1880,
+    "wd": 6210
    },
    "bank": {
     "fr": [
-     1098820,
+     2057989,
      2460
     ],
     "frs": [
-     1101680,
+     2060850,
      3320
     ],
     "en": [
-     1105400,
+     2064570,
      1880
+    ],
+    "wd": [
+     2066850,
+     6210
+    ],
+    "wp": [
+     [
+      2066850,
+      2280
+     ],
+     [
+      2069530,
+      2680
+     ]
     ]
    }
   },
@@ -2725,29 +6014,54 @@
    "en": "Silence in the hall.",
    "para": 14,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Silence",
+     "silence"
+    ],
+    [
+     "hall",
+     "hall"
+    ]
+   ],
    "audio": {
     "fr": "audio/s082_fr.mp3",
     "frs": "audio/s082_frs.mp3",
-    "en": "audio/s082_en.mp3"
+    "en": "audio/s082_en.mp3",
+    "wd": "audio/s082_wd.mp3"
    },
    "ms": {
     "fr": 2130,
     "frs": 2810,
-    "en": 1660
+    "en": 1660,
+    "wd": 6050
    },
    "bank": {
     "fr": [
-     1107680,
+     2073460,
      2130
     ],
     "frs": [
-     1110210,
+     2075989,
      2810
     ],
     "en": [
-     1113420,
+     2079199,
      1660
+    ],
+    "wd": [
+     2081260,
+     6050
+    ],
+    "wp": [
+     [
+      2081260,
+      2680
+     ],
+     [
+      2084340,
+      2120
+     ]
     ]
    }
   },
@@ -2756,29 +6070,62 @@
    "en": "All eyes landed on Hugo.",
    "para": 14,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Tous",
+     "all"
+    ],
+    [
+     "yeux",
+     "eyes"
+    ],
+    [
+     "se sont posés",
+     "settled"
+    ]
+   ],
    "audio": {
     "fr": "audio/s083_fr.mp3",
     "frs": "audio/s083_frs.mp3",
-    "en": "audio/s083_en.mp3"
+    "en": "audio/s083_en.mp3",
+    "wd": "audio/s083_wd.mp3"
    },
    "ms": {
     "fr": 2670,
     "frs": 3580,
-    "en": 2050
+    "en": 2050,
+    "wd": 8620
    },
    "bank": {
     "fr": [
-     1115480,
+     2087710,
      2670
     ],
     "frs": [
-     1118550,
+     2090780,
      3580
     ],
     "en": [
-     1122530,
+     2094760,
      2050
+    ],
+    "wd": [
+     2097210,
+     8620
+    ],
+    "wp": [
+     [
+      2097210,
+      2170
+     ],
+     [
+      2099780,
+      2110
+     ],
+     [
+      2102290,
+      2690
+     ]
     ]
    }
   },
@@ -2792,35 +6139,92 @@
      "en": "sweat"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a senti",
+     "felt"
+    ],
+    [
+     "goutte",
+     "drop"
+    ],
+    [
+     "sueur",
+     "sweat"
+    ],
+    [
+     "couler",
+     "run"
+    ],
+    [
+     "son",
+     "his"
+    ],
+    [
+     "dos",
+     "back"
+    ]
+   ],
    "audio": {
     "fr": "audio/s084_fr.mp3",
     "frs": "audio/s084_frs.mp3",
     "en": "audio/s084_en.mp3",
-    "gl": "audio/s084_gl.mp3"
+    "gl": "audio/s084_gl.mp3",
+    "wd": "audio/s084_wd.mp3"
    },
    "ms": {
     "fr": 3360,
     "frs": 4570,
     "en": 3110,
-    "gl": 3450
+    "gl": 3450,
+    "wd": 16430
    },
    "bank": {
     "fr": [
-     1124980,
+     2106230,
      3360
     ],
     "frs": [
-     1128740,
+     2109990,
      4570
     ],
     "en": [
-     1133710,
+     2114960,
      3110
     ],
     "gl": [
-     1137220,
+     2118470,
      3450
+    ],
+    "wd": [
+     2122320,
+     16430
+    ],
+    "wp": [
+     [
+      2122320,
+      2420
+     ],
+     [
+      2125140,
+      2250
+     ],
+     [
+      2127790,
+      2480
+     ],
+     [
+      2130670,
+      2190
+     ],
+     [
+      2133260,
+      2140
+     ],
+     [
+      2135800,
+      2100
+     ]
     ]
    }
   },
@@ -2829,29 +6233,102 @@
    "en": "And suddenly, he heard his own voice say something unbelievable:",
    "para": 14,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "soudain",
+     "suddenly"
+    ],
+    [
+     "a entendu",
+     "heard"
+    ],
+    [
+     "sa",
+     "his"
+    ],
+    [
+     "propre",
+     "own"
+    ],
+    [
+     "voix",
+     "voice"
+    ],
+    [
+     "dire",
+     "say"
+    ],
+    [
+     "chose",
+     "thing"
+    ],
+    [
+     "incroyable",
+     "incredible"
+    ]
+   ],
    "audio": {
     "fr": "audio/s085_fr.mp3",
     "frs": "audio/s085_frs.mp3",
-    "en": "audio/s085_en.mp3"
+    "en": "audio/s085_en.mp3",
+    "wd": "audio/s085_wd.mp3"
    },
    "ms": {
     "fr": 4600,
     "frs": 6490,
-    "en": 4750
+    "en": 4750,
+    "wd": 22760
    },
    "bank": {
     "fr": [
-     1141070,
+     2139150,
      4600
     ],
     "frs": [
-     1146070,
+     2144150,
      6490
     ],
     "en": [
-     1152960,
+     2151040,
      4750
+    ],
+    "wd": [
+     2156190,
+     22760
+    ],
+    "wp": [
+     [
+      2156190,
+      2440
+     ],
+     [
+      2159030,
+      2570
+     ],
+     [
+      2162000,
+      2200
+     ],
+     [
+      2164600,
+      2240
+     ],
+     [
+      2167240,
+      2350
+     ],
+     [
+      2169990,
+      2190
+     ],
+     [
+      2172580,
+      2270
+     ],
+     [
+      2175250,
+      2850
+     ]
     ]
    }
   },
@@ -2860,29 +6337,70 @@
    "en": "\"Exactly. Someone wants to frame me.\"",
    "para": 14,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Exactement",
+     "exactly"
+    ],
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "veut",
+     "wants"
+    ],
+    [
+     "me faire accuser",
+     "to frame me"
+    ]
+   ],
    "audio": {
     "fr": "audio/s086_fr.mp3",
     "frs": "audio/s086_frs.mp3",
-    "en": "audio/s086_en.mp3"
+    "en": "audio/s086_en.mp3",
+    "wd": "audio/s086_wd.mp3"
    },
    "ms": {
     "fr": 4230,
     "frs": 5960,
-    "en": 3000
+    "en": 3000,
+    "wd": 12380
    },
    "bank": {
     "fr": [
-     1158110,
+     2179350,
      4230
     ],
     "frs": [
-     1162740,
+     2183980,
      5960
     ],
     "en": [
-     1169100,
+     2190340,
      3000
+    ],
+    "wd": [
+     2193740,
+     12380
+    ],
+    "wp": [
+     [
+      2193740,
+      2750
+     ],
+     [
+      2196890,
+      2370
+     ],
+     [
+      2199660,
+      2200
+     ],
+     [
+      2202260,
+      3010
+     ]
     ]
    }
   },
@@ -2891,29 +6409,78 @@
    "en": "Madame Da Silva put a hand on her heart.",
    "para": 15,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "a mis",
+     "put"
+    ],
+    [
+     "main",
+     "hand"
+    ],
+    [
+     "son",
+     "her"
+    ],
+    [
+     "cœur",
+     "heart"
+    ]
+   ],
    "audio": {
     "fr": "audio/s087_fr.mp3",
     "frs": "audio/s087_frs.mp3",
-    "en": "audio/s087_en.mp3"
+    "en": "audio/s087_en.mp3",
+    "wd": "audio/s087_wd.mp3"
    },
    "ms": {
     "fr": 3460,
     "frs": 4780,
-    "en": 2900
+    "en": 2900,
+    "wd": 13370
    },
    "bank": {
     "fr": [
-     1172500,
+     2206520,
      3460
     ],
     "frs": [
-     1176360,
+     2210380,
      4780
     ],
     "en": [
-     1181540,
+     2215560,
      2900
+    ],
+    "wd": [
+     2218860,
+     13370
+    ],
+    "wp": [
+     [
+      2218860,
+      2490
+     ],
+     [
+      2221750,
+      2080
+     ],
+     [
+      2224230,
+      2130
+     ],
+     [
+      2226760,
+      2080
+     ],
+     [
+      2229240,
+      2140
+     ]
     ]
    }
   },
@@ -2922,29 +6489,54 @@
    "en": "\"My God. The poor man!\"",
    "para": 15,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Mon Dieu",
+     "my God"
+    ],
+    [
+     "pauvre",
+     "poor man"
+    ]
+   ],
    "audio": {
     "fr": "audio/s088_fr.mp3",
     "frs": "audio/s088_frs.mp3",
-    "en": "audio/s088_en.mp3"
+    "en": "audio/s088_en.mp3",
+    "wd": "audio/s088_wd.mp3"
    },
    "ms": {
     "fr": 3130,
     "frs": 4320,
-    "en": 2390
+    "en": 2390,
+    "wd": 6140
    },
    "bank": {
     "fr": [
-     1184840,
+     2232630,
      3130
     ],
     "frs": [
-     1188370,
+     2236160,
      4320
     ],
     "en": [
-     1193090,
+     2240880,
      2390
+    ],
+    "wd": [
+     2243670,
+     6140
+    ],
+    "wp": [
+     [
+      2243670,
+      2460
+     ],
+     [
+      2246530,
+      2430
+     ]
     ]
    }
   },
@@ -2953,29 +6545,86 @@
    "en": "In thirty seconds, Hugo became the building's second victim.",
    "para": 15,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "trente",
+     "thirty"
+    ],
+    [
+     "secondes",
+     "seconds"
+    ],
+    [
+     "est devenu",
+     "became"
+    ],
+    [
+     "deuxième",
+     "second"
+    ],
+    [
+     "victime",
+     "victim"
+    ],
+    [
+     "immeuble",
+     "building"
+    ]
+   ],
    "audio": {
     "fr": "audio/s089_fr.mp3",
     "frs": "audio/s089_frs.mp3",
-    "en": "audio/s089_en.mp3"
+    "en": "audio/s089_en.mp3",
+    "wd": "audio/s089_wd.mp3"
    },
    "ms": {
     "fr": 4750,
     "frs": 6680,
-    "en": 4200
+    "en": 4200,
+    "wd": 17620
    },
    "bank": {
     "fr": [
-     1195880,
+     2250210,
      4750
     ],
     "frs": [
-     1201030,
+     2255360,
      6680
     ],
     "en": [
-     1208110,
+     2262440,
      4200
+    ],
+    "wd": [
+     2267040,
+     17620
+    ],
+    "wp": [
+     [
+      2267040,
+      2280
+     ],
+     [
+      2269720,
+      2600
+     ],
+     [
+      2272720,
+      2510
+     ],
+     [
+      2275630,
+      2520
+     ],
+     [
+      2278550,
+      2500
+     ],
+     [
+      2281450,
+      2360
+     ]
     ]
    }
   },
@@ -2984,29 +6633,86 @@
    "en": "Madame Da Silva even brought him a slice of apple tart.",
    "para": 15,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "lui",
+     "him"
+    ],
+    [
+     "même",
+     "even"
+    ],
+    [
+     "apporté",
+     "brought"
+    ],
+    [
+     "part",
+     "slice"
+    ],
+    [
+     "tarte aux pommes",
+     "apple pie"
+    ]
+   ],
    "audio": {
     "fr": "audio/s090_fr.mp3",
     "frs": "audio/s090_frs.mp3",
-    "en": "audio/s090_en.mp3"
+    "en": "audio/s090_en.mp3",
+    "wd": "audio/s090_wd.mp3"
    },
    "ms": {
     "fr": 4290,
     "frs": 6000,
-    "en": 3610
+    "en": 3610,
+    "wd": 17280
    },
    "bank": {
     "fr": [
-     1212710,
+     2285060,
      4290
     ],
     "frs": [
-     1217400,
+     2289750,
      6000
     ],
     "en": [
-     1223800,
+     2296150,
      3610
+    ],
+    "wd": [
+     2300160,
+     17280
+    ],
+    "wp": [
+     [
+      2300160,
+      2490
+     ],
+     [
+      2303050,
+      2090
+     ],
+     [
+      2305540,
+      2170
+     ],
+     [
+      2308110,
+      2410
+     ],
+     [
+      2310920,
+      2380
+     ],
+     [
+      2313700,
+      2890
+     ]
     ]
    }
   },
@@ -3020,35 +6726,76 @@
      "en": "trap"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Maintenant",
+     "now"
+    ],
+    [
+     "il nous faut",
+     "we need"
+    ],
+    [
+     "piège",
+     "trap"
+    ],
+    [
+     "a-t-elle annoncé",
+     "she announced"
+    ]
+   ],
    "audio": {
     "fr": "audio/s091_fr.mp3",
     "frs": "audio/s091_frs.mp3",
     "en": "audio/s091_en.mp3",
-    "gl": "audio/s091_gl.mp3"
+    "gl": "audio/s091_gl.mp3",
+    "wd": "audio/s091_wd.mp3"
    },
    "ms": {
     "fr": 4140,
     "frs": 5830,
     "en": 2630,
-    "gl": 3120
+    "gl": 3120,
+    "wd": 12100
    },
    "bank": {
     "fr": [
-     1227810,
+     2317840,
      4140
     ],
     "frs": [
-     1232350,
+     2322380,
      5830
     ],
     "en": [
-     1238580,
+     2328610,
      2630
     ],
     "gl": [
-     1241610,
+     2331640,
      3120
+    ],
+    "wd": [
+     2335160,
+     12100
+    ],
+    "wp": [
+     [
+      2335160,
+      2320
+     ],
+     [
+      2337880,
+      2450
+     ],
+     [
+      2340730,
+      2250
+     ],
+     [
+      2343380,
+      3030
+     ]
     ]
    }
   },
@@ -3057,29 +6804,70 @@
    "en": "\"Tonight, Madame Grimaud will play again at midnight.",
    "para": 16,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Ce soir",
+     "tonight"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "va rejouer",
+     "will play again"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ]
+   ],
    "audio": {
     "fr": "audio/s092_fr.mp3",
     "frs": "audio/s092_frs.mp3",
-    "en": "audio/s092_en.mp3"
+    "en": "audio/s092_en.mp3",
+    "wd": "audio/s092_wd.mp3"
    },
    "ms": {
     "fr": 3900,
     "frs": 5470,
-    "en": 3600
+    "en": 3600,
+    "wd": 12420
    },
    "bank": {
     "fr": [
-     1245130,
+     2347660,
      3900
     ],
     "frs": [
-     1249430,
+     2351960,
      5470
     ],
     "en": [
-     1255300,
+     2357830,
      3600
+    ],
+    "wd": [
+     2361830,
+     12420
+    ],
+    "wp": [
+     [
+      2361830,
+      2560
+     ],
+     [
+      2364790,
+      2490
+     ],
+     [
+      2367680,
+      2940
+     ],
+     [
+      2371020,
+      2380
+     ]
     ]
    }
   },
@@ -3088,29 +6876,94 @@
    "en": "The culprit won't be able to resist, he'll write a new note.",
    "para": 16,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "coupable",
+     "culprit"
+    ],
+    [
+     "pourra",
+     "will be able"
+    ],
+    [
+     "pas",
+     "not"
+    ],
+    [
+     "résister",
+     "resist"
+    ],
+    [
+     "va écrire",
+     "will write"
+    ],
+    [
+     "nouveau",
+     "new"
+    ],
+    [
+     "mot",
+     "note"
+    ]
+   ],
    "audio": {
     "fr": "audio/s093_fr.mp3",
     "frs": "audio/s093_frs.mp3",
-    "en": "audio/s093_en.mp3"
+    "en": "audio/s093_en.mp3",
+    "wd": "audio/s093_wd.mp3"
    },
    "ms": {
     "fr": 4650,
     "frs": 6540,
-    "en": 4050
+    "en": 4050,
+    "wd": 19890
    },
    "bank": {
     "fr": [
-     1259300,
+     2374650,
      4650
     ],
     "frs": [
-     1264350,
+     2379700,
      6540
     ],
     "en": [
-     1271290,
+     2386640,
      4050
+    ],
+    "wd": [
+     2391090,
+     19890
+    ],
+    "wp": [
+     [
+      2391090,
+      2500
+     ],
+     [
+      2393990,
+      2450
+     ],
+     [
+      2396840,
+      2030
+     ],
+     [
+      2399270,
+      2690
+     ],
+     [
+      2402360,
+      2660
+     ],
+     [
+      2405420,
+      2200
+     ],
+     [
+      2408020,
+      2110
+     ]
     ]
    }
   },
@@ -3119,29 +6972,70 @@
    "en": "And we'll be there, hidden on the stairs.\"",
    "para": 16,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "sera",
+     "will be"
+    ],
+    [
+     "là",
+     "there"
+    ],
+    [
+     "cachés",
+     "hidden"
+    ],
+    [
+     "escalier",
+     "staircase"
+    ]
+   ],
    "audio": {
     "fr": "audio/s094_fr.mp3",
     "frs": "audio/s094_frs.mp3",
-    "en": "audio/s094_en.mp3"
+    "en": "audio/s094_en.mp3",
+    "wd": "audio/s094_wd.mp3"
    },
    "ms": {
     "fr": 3690,
     "frs": 5110,
-    "en": 2790
+    "en": 2790,
+    "wd": 11410
    },
    "bank": {
     "fr": [
-     1275740,
+     2411380,
      3690
     ],
     "frs": [
-     1279830,
+     2415470,
      5110
     ],
     "en": [
-     1285340,
+     2420980,
      2790
+    ],
+    "wd": [
+     2424170,
+     11410
+    ],
+    "wp": [
+     [
+      2424170,
+      2400
+     ],
+     [
+      2426970,
+      2060
+     ],
+     [
+      2429430,
+      2220
+     ],
+     [
+      2432050,
+      2680
+     ]
     ]
    }
   },
@@ -3150,29 +7044,86 @@
    "en": "Hugo wanted to say he was tired, sick, dying.",
    "para": 16,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "voulait",
+     "wanted"
+    ],
+    [
+     "dire",
+     "to say"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "fatigué",
+     "tired"
+    ],
+    [
+     "malade",
+     "sick"
+    ],
+    [
+     "mourant",
+     "dying"
+    ]
+   ],
    "audio": {
     "fr": "audio/s095_fr.mp3",
     "frs": "audio/s095_frs.mp3",
-    "en": "audio/s095_en.mp3"
+    "en": "audio/s095_en.mp3",
+    "wd": "audio/s095_wd.mp3"
    },
    "ms": {
     "fr": 4360,
     "frs": 6150,
-    "en": 3660
+    "en": 3660,
+    "wd": 16500
    },
    "bank": {
     "fr": [
-     1288530,
+     2435980,
      4360
     ],
     "frs": [
-     1293290,
+     2440740,
      6150
     ],
     "en": [
-     1299840,
+     2447290,
      3660
+    ],
+    "wd": [
+     2451350,
+     16500
+    ],
+    "wp": [
+     [
+      2451350,
+      2200
+     ],
+     [
+      2453950,
+      2300
+     ],
+     [
+      2456650,
+      2150
+     ],
+     [
+      2459200,
+      2440
+     ],
+     [
+      2462040,
+      2340
+     ],
+     [
+      2464780,
+      2220
+     ]
     ]
    }
   },
@@ -3181,29 +7132,62 @@
    "en": "He said: \"Excellent idea.\"",
    "para": 16,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Excellente",
+     "excellent"
+    ],
+    [
+     "idée",
+     "idea"
+    ]
+   ],
    "audio": {
     "fr": "audio/s096_fr.mp3",
     "frs": "audio/s096_frs.mp3",
-    "en": "audio/s096_en.mp3"
+    "en": "audio/s096_en.mp3",
+    "wd": "audio/s096_wd.mp3"
    },
    "ms": {
     "fr": 2580,
     "frs": 3420,
-    "en": 2480
+    "en": 2480,
+    "wd": 8880
    },
    "bank": {
     "fr": [
-     1303900,
+     2468250,
      2580
     ],
     "frs": [
-     1306880,
+     2471230,
      3420
     ],
     "en": [
-     1310700,
+     2475050,
      2480
+    ],
+    "wd": [
+     2477930,
+     8880
+    ],
+    "wp": [
+     [
+      2477930,
+      2220
+     ],
+     [
+      2480550,
+      2700
+     ],
+     [
+      2483650,
+      2309
+     ]
     ]
    }
   },
@@ -3212,29 +7196,86 @@
    "en": "At five to midnight, the whole building was sitting on the stairs,",
    "para": 17,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "minuit moins cinq",
+     "five to midnight"
+    ],
+    [
+     "tout",
+     "whole"
+    ],
+    [
+     "immeuble",
+     "building"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "assis",
+     "sitting"
+    ],
+    [
+     "escalier",
+     "stairs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s097_fr.mp3",
     "frs": "audio/s097_frs.mp3",
-    "en": "audio/s097_en.mp3"
+    "en": "audio/s097_en.mp3",
+    "wd": "audio/s097_wd.mp3"
    },
    "ms": {
     "fr": 4380,
     "frs": 6120,
-    "en": 4090
+    "en": 4090,
+    "wd": 17590
    },
    "bank": {
     "fr": [
-     1313580,
+     2487210,
      4380
     ],
     "frs": [
-     1318360,
+     2491990,
      6120
     ],
     "en": [
-     1324880,
+     2498510,
      4090
+    ],
+    "wd": [
+     2503000,
+     17590
+    ],
+    "wp": [
+     [
+      2503000,
+      3390
+     ],
+     [
+      2506790,
+      2030
+     ],
+     [
+      2509220,
+      2360
+     ],
+     [
+      2511980,
+      2150
+     ],
+     [
+      2514530,
+      2230
+     ],
+     [
+      2517160,
+      2580
+     ]
     ]
    }
   },
@@ -3243,29 +7284,54 @@
    "en": "in the dark, in pajamas.",
    "para": 17,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "noir",
+     "dark"
+    ],
+    [
+     "pyjama",
+     "pyjamas"
+    ]
+   ],
    "audio": {
     "fr": "audio/s098_fr.mp3",
     "frs": "audio/s098_frs.mp3",
-    "en": "audio/s098_en.mp3"
+    "en": "audio/s098_en.mp3",
+    "wd": "audio/s098_wd.mp3"
    },
    "ms": {
     "fr": 2640,
     "frs": 3540,
-    "en": 2320
+    "en": 2320,
+    "wd": 6220
    },
    "bank": {
     "fr": [
-     1329370,
+     2520990,
      2640
     ],
     "frs": [
-     1332410,
+     2524030,
      3540
     ],
     "en": [
-     1336350,
+     2527970,
      2320
+    ],
+    "wd": [
+     2530690,
+     6220
+    ],
+    "wp": [
+     [
+      2530690,
+      2370
+     ],
+     [
+      2533460,
+      2600
+     ]
     ]
    }
   },
@@ -3279,35 +7345,60 @@
      "en": "flashlight"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "lampe de poche",
+     "torch"
+    ]
+   ],
    "audio": {
     "fr": "audio/s099_fr.mp3",
     "frs": "audio/s099_frs.mp3",
     "en": "audio/s099_en.mp3",
-    "gl": "audio/s099_gl.mp3"
+    "gl": "audio/s099_gl.mp3",
+    "wd": "audio/s099_wd.mp3"
    },
    "ms": {
     "fr": 3360,
     "frs": 4650,
     "en": 2460,
-    "gl": 4150
+    "gl": 4150,
+    "wd": 6590
    },
    "bank": {
     "fr": [
-     1339070,
+     2537310,
      3360
     ],
     "frs": [
-     1342830,
+     2541070,
      4650
     ],
     "en": [
-     1347880,
+     2546120,
      2460
     ],
     "gl": [
-     1350740,
+     2548980,
      4150
+    ],
+    "wd": [
+     2553530,
+     6590
+    ],
+    "wp": [
+     [
+      2553530,
+      2490
+     ],
+     [
+      2556420,
+      2850
+     ]
     ]
    }
   },
@@ -3316,29 +7407,86 @@
    "en": "Monsieur Kessler with his green scarf over his pajamas.",
    "para": 17,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "son",
+     "his"
+    ],
+    [
+     "écharpe",
+     "scarf"
+    ],
+    [
+     "verte",
+     "green"
+    ],
+    [
+     "par-dessus",
+     "over"
+    ],
+    [
+     "pyjama",
+     "pyjamas"
+    ]
+   ],
    "audio": {
     "fr": "audio/s100_fr.mp3",
     "frs": "audio/s100_frs.mp3",
-    "en": "audio/s100_en.mp3"
+    "en": "audio/s100_en.mp3",
+    "wd": "audio/s100_wd.mp3"
    },
    "ms": {
     "fr": 4520,
     "frs": 6330,
-    "en": 3720
+    "en": 3720,
+    "wd": 17130
    },
    "bank": {
     "fr": [
-     1355290,
+     2560520,
      4520
     ],
     "frs": [
-     1360210,
+     2565440,
      6330
     ],
     "en": [
-     1366940,
+     2572170,
      3720
+    ],
+    "wd": [
+     2576290,
+     17130
+    ],
+    "wp": [
+     [
+      2576290,
+      2300
+     ],
+     [
+      2578990,
+      2140
+     ],
+     [
+      2581530,
+      2460
+     ],
+     [
+      2584390,
+      2350
+     ],
+     [
+      2587140,
+      2430
+     ],
+     [
+      2589970,
+      2600
+     ]
     ]
    }
   },
@@ -3347,29 +7495,54 @@
    "en": "Noé with his magnifying glass.",
    "para": 17,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "sa",
+     "his"
+    ],
+    [
+     "loupe",
+     "magnifying glass"
+    ]
+   ],
    "audio": {
     "fr": "audio/s101_fr.mp3",
     "frs": "audio/s101_frs.mp3",
-    "en": "audio/s101_en.mp3"
+    "en": "audio/s101_en.mp3",
+    "wd": "audio/s101_wd.mp3"
    },
    "ms": {
     "fr": 2050,
     "frs": 2690,
-    "en": 2490
+    "en": 2490,
+    "wd": 6370
    },
    "bank": {
     "fr": [
-     1371060,
+     2593820,
      2050
     ],
     "frs": [
-     1373510,
+     2596270,
      2690
     ],
     "en": [
-     1376600,
+     2599360,
      2490
+    ],
+    "wd": [
+     2602250,
+     6370
+    ],
+    "wp": [
+     [
+      2602250,
+      2200
+     ],
+     [
+      2604850,
+      2920
+     ]
     ]
    }
   },
@@ -3378,29 +7551,54 @@
    "en": "And Hugo, in the middle, sweating.",
    "para": 17,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "au milieu",
+     "in the middle"
+    ],
+    [
+     "transpirait",
+     "was sweating"
+    ]
+   ],
    "audio": {
     "fr": "audio/s102_fr.mp3",
     "frs": "audio/s102_frs.mp3",
-    "en": "audio/s102_en.mp3"
+    "en": "audio/s102_en.mp3",
+    "wd": "audio/s102_wd.mp3"
    },
    "ms": {
     "fr": 3330,
     "frs": 4580,
-    "en": 2950
+    "en": 2950,
+    "wd": 6490
    },
    "bank": {
     "fr": [
-     1379490,
+     2609020,
      3330
     ],
     "frs": [
-     1383220,
+     2612750,
      4580
     ],
     "en": [
-     1388200,
+     2617730,
      2950
+    ],
+    "wd": [
+     2621080,
+     6490
+    ],
+    "wp": [
+     [
+      2621080,
+      2520
+     ],
+     [
+      2624000,
+      2720
+     ]
     ]
    }
   },
@@ -3409,29 +7607,70 @@
    "en": "At midnight on the dot, the saxophone began.",
    "para": 18,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "minuit",
+     "midnight"
+    ],
+    [
+     "pile",
+     "on the dot"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "commencé",
+     "started"
+    ]
+   ],
    "audio": {
     "fr": "audio/s103_fr.mp3",
     "frs": "audio/s103_frs.mp3",
-    "en": "audio/s103_en.mp3"
+    "en": "audio/s103_en.mp3",
+    "wd": "audio/s103_wd.mp3"
    },
    "ms": {
     "fr": 3680,
     "frs": 5080,
-    "en": 3470
+    "en": 3470,
+    "wd": 12240
    },
    "bank": {
     "fr": [
-     1391550,
+     2627970,
      3680
     ],
     "frs": [
-     1395630,
+     2632050,
      5080
     ],
     "en": [
-     1401110,
+     2637530,
      3470
+    ],
+    "wd": [
+     2641400,
+     12240
+    ],
+    "wp": [
+     [
+      2641400,
+      2380
+     ],
+     [
+      2644180,
+      2340
+     ],
+     [
+      2646920,
+      2970
+     ],
+     [
+      2650290,
+      2500
+     ]
     ]
    }
   },
@@ -3440,29 +7679,62 @@
    "en": "The same old song.",
    "para": 18,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "même",
+     "same"
+    ],
+    [
+     "vieille",
+     "old"
+    ],
+    [
+     "chanson",
+     "song"
+    ]
+   ],
    "audio": {
     "fr": "audio/s104_fr.mp3",
     "frs": "audio/s104_frs.mp3",
-    "en": "audio/s104_en.mp3"
+    "en": "audio/s104_en.mp3",
+    "wd": "audio/s104_wd.mp3"
    },
    "ms": {
     "fr": 2120,
     "frs": 2740,
-    "en": 1630
+    "en": 1630,
+    "wd": 8660
    },
    "bank": {
     "fr": [
-     1404980,
+     2654040,
      2120
     ],
     "frs": [
-     1407500,
+     2656560,
      2740
     ],
     "en": [
-     1410640,
+     2659700,
      1630
+    ],
+    "wd": [
+     2661730,
+     8660
+    ],
+    "wp": [
+     [
+      2661730,
+      2230
+     ],
+     [
+      2664360,
+      2340
+     ],
+     [
+      2667100,
+      2440
+     ]
     ]
    }
   },
@@ -3471,29 +7743,62 @@
    "en": "Nobody moved. Nobody breathed.",
    "para": 18,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Personne",
+     "nobody"
+    ],
+    [
+     "bougeait",
+     "moved"
+    ],
+    [
+     "respirait",
+     "breathed"
+    ]
+   ],
    "audio": {
     "fr": "audio/s105_fr.mp3",
     "frs": "audio/s105_frs.mp3",
-    "en": "audio/s105_en.mp3"
+    "en": "audio/s105_en.mp3",
+    "wd": "audio/s105_wd.mp3"
    },
    "ms": {
     "fr": 4260,
     "frs": 5960,
-    "en": 2730
+    "en": 2730,
+    "wd": 8990
    },
    "bank": {
     "fr": [
-     1412670,
+     2670790,
      4260
     ],
     "frs": [
-     1417330,
+     2675450,
      5960
     ],
     "en": [
-     1423690,
+     2681810,
      2730
+    ],
+    "wd": [
+     2684940,
+     8990
+    ],
+    "wp": [
+     [
+      2684940,
+      2510
+     ],
+     [
+      2687850,
+      2329
+     ],
+     [
+      2690580,
+      2500
+     ]
     ]
    }
   },
@@ -3502,29 +7807,46 @@
    "en": "And it was at that moment",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "moment-là",
+     "moment"
+    ]
+   ],
    "audio": {
     "fr": "audio/s106_fr.mp3",
     "frs": "audio/s106_frs.mp3",
-    "en": "audio/s106_en.mp3"
+    "en": "audio/s106_en.mp3",
+    "wd": "audio/s106_wd.mp3"
    },
    "ms": {
     "fr": 1960,
     "frs": 2550,
-    "en": 1820
+    "en": 1820,
+    "wd": 3260
    },
    "bank": {
     "fr": [
-     1426820,
+     2694330,
      1960
     ],
     "frs": [
-     1429180,
+     2696690,
      2550
     ],
     "en": [
-     1432130,
+     2699640,
      1820
+    ],
+    "wd": [
+     2701860,
+     3260
+    ],
+    "wp": [
+     [
+      2701860,
+      2410
+     ]
     ]
    }
   },
@@ -3533,29 +7855,78 @@
    "en": "that the green pen fell out of Hugo's pajama pocket.",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "vert",
+     "green"
+    ],
+    [
+     "est tombé",
+     "fell"
+    ],
+    [
+     "poche",
+     "pocket"
+    ],
+    [
+     "pyjama",
+     "pyjamas"
+    ]
+   ],
    "audio": {
     "fr": "audio/s107_fr.mp3",
     "frs": "audio/s107_frs.mp3",
-    "en": "audio/s107_en.mp3"
+    "en": "audio/s107_en.mp3",
+    "wd": "audio/s107_wd.mp3"
    },
    "ms": {
     "fr": 3880,
     "frs": 5400,
-    "en": 3400
+    "en": 3400,
+    "wd": 14160
    },
    "bank": {
     "fr": [
-     1434350,
+     2705520,
      3880
     ],
     "frs": [
-     1438630,
+     2709800,
      5400
     ],
     "en": [
-     1444430,
+     2715600,
      3400
+    ],
+    "wd": [
+     2719400,
+     14160
+    ],
+    "wp": [
+     [
+      2719400,
+      2200
+     ],
+     [
+      2722000,
+      2240
+     ],
+     [
+      2724640,
+      2360
+     ],
+     [
+      2727400,
+      2309
+     ],
+     [
+      2730110,
+      2600
+     ]
     ]
    }
   },
@@ -3569,35 +7940,76 @@
      "en": "step (of a staircase)"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a roulé",
+     "rolled"
+    ],
+    [
+     "première",
+     "first"
+    ],
+    [
+     "marche",
+     "step"
+    ],
+    [
+     "Toc",
+     "tap"
+    ]
+   ],
    "audio": {
     "fr": "audio/s108_fr.mp3",
     "frs": "audio/s108_frs.mp3",
     "en": "audio/s108_en.mp3",
-    "gl": "audio/s108_gl.mp3"
+    "gl": "audio/s108_gl.mp3",
+    "wd": "audio/s108_wd.mp3"
    },
    "ms": {
     "fr": 4180,
     "frs": 5830,
     "en": 2940,
-    "gl": 4360
+    "gl": 4360,
+    "wd": 11450
    },
    "bank": {
     "fr": [
-     1448230,
+     2733960,
      4180
     ],
     "frs": [
-     1452810,
+     2738540,
      5830
     ],
     "en": [
-     1459040,
+     2744770,
      2940
     ],
     "gl": [
-     1462380,
+     2748110,
      4360
+    ],
+    "wd": [
+     2752870,
+     11450
+    ],
+    "wp": [
+     [
+      2752870,
+      2280
+     ],
+     [
+      2755550,
+      2580
+     ],
+     [
+      2758530,
+      2370
+     ],
+     [
+      2761300,
+      2170
+     ]
     ]
    }
   },
@@ -3606,29 +8018,62 @@
    "en": "Then onto the second. Tock.",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "deuxième",
+     "second"
+    ],
+    [
+     "Toc",
+     "tap"
+    ]
+   ],
    "audio": {
     "fr": "audio/s109_fr.mp3",
     "frs": "audio/s109_frs.mp3",
-    "en": "audio/s109_en.mp3"
+    "en": "audio/s109_en.mp3",
+    "wd": "audio/s109_wd.mp3"
    },
    "ms": {
     "fr": 3460,
     "frs": 4760,
-    "en": 2440
+    "en": 2440,
+    "wd": 8450
    },
    "bank": {
     "fr": [
-     1467140,
+     2764720,
      3460
     ],
     "frs": [
-     1471000,
+     2768580,
      4760
     ],
     "en": [
-     1476160,
+     2773740,
      2440
+    ],
+    "wd": [
+     2776580,
+     8450
+    ],
+    "wp": [
+     [
+      2776580,
+      2110
+     ],
+     [
+      2779090,
+      2520
+     ],
+     [
+      2782010,
+      2170
+     ]
     ]
    }
   },
@@ -3637,29 +8082,54 @@
    "en": "Then tock, tock, tock, tock, tock,",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "toc",
+     "tap"
+    ]
+   ],
    "audio": {
     "fr": "audio/s110_fr.mp3",
     "frs": "audio/s110_frs.mp3",
-    "en": "audio/s110_en.mp3"
+    "en": "audio/s110_en.mp3",
+    "wd": "audio/s110_wd.mp3"
    },
    "ms": {
     "fr": 3870,
     "frs": 5350,
-    "en": 3250
+    "en": 3250,
+    "wd": 5530
    },
    "bank": {
     "fr": [
-     1479000,
+     2785430,
      3870
     ],
     "frs": [
-     1483270,
+     2789700,
      5350
     ],
     "en": [
-     1489020,
+     2795450,
      3250
+    ],
+    "wd": [
+     2799100,
+     5530
+    ],
+    "wp": [
+     [
+      2799100,
+      2110
+     ],
+     [
+      2801610,
+      2170
+     ]
     ]
    }
   },
@@ -3668,29 +8138,54 @@
    "en": "all the way to the bottom of the stairs,",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "jusqu'en bas",
+     "all the way down"
+    ],
+    [
+     "escalier",
+     "stairs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s111_fr.mp3",
     "frs": "audio/s111_frs.mp3",
-    "en": "audio/s111_en.mp3"
+    "en": "audio/s111_en.mp3",
+    "wd": "audio/s111_wd.mp3"
    },
    "ms": {
     "fr": 2350,
     "frs": 3090,
-    "en": 2550
+    "en": 2550,
+    "wd": 6810
    },
    "bank": {
     "fr": [
-     1492670,
+     2805030,
      2350
     ],
     "frs": [
-     1495420,
+     2807780,
      3090
     ],
     "en": [
-     1498910,
+     2811270,
      2550
+    ],
+    "wd": [
+     2814220,
+     6810
+    ],
+    "wp": [
+     [
+      2814220,
+      2980
+     ],
+     [
+      2817600,
+      2580
+     ]
     ]
    }
   },
@@ -3699,29 +8194,70 @@
    "en": "where it stopped in front of Noé's feet.",
    "para": 19,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "où",
+     "where"
+    ],
+    [
+     "s'est arrêté",
+     "stopped"
+    ],
+    [
+     "devant",
+     "in front of"
+    ],
+    [
+     "pieds",
+     "feet"
+    ]
+   ],
    "audio": {
     "fr": "audio/s112_fr.mp3",
     "frs": "audio/s112_frs.mp3",
-    "en": "audio/s112_en.mp3"
+    "en": "audio/s112_en.mp3",
+    "wd": "audio/s112_wd.mp3"
    },
    "ms": {
     "fr": 2880,
     "frs": 3920,
-    "en": 2830
+    "en": 2830,
+    "wd": 11220
    },
    "bank": {
     "fr": [
-     1501860,
+     2821430,
      2880
     ],
     "frs": [
-     1505140,
+     2824710,
      3920
     ],
     "en": [
-     1509460,
+     2829030,
      2830
+    ],
+    "wd": [
+     2832260,
+     11220
+    ],
+    "wp": [
+     [
+      2832260,
+      1940
+     ],
+     [
+      2834600,
+      2720
+     ],
+     [
+      2837720,
+      2440
+     ],
+     [
+      2840560,
+      2070
+     ]
     ]
    }
   },
@@ -3730,29 +8266,70 @@
    "en": "Madame Da Silva switched on her flashlight.",
    "para": 20,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "a allumé",
+     "switched on"
+    ],
+    [
+     "sa",
+     "her"
+    ],
+    [
+     "lampe",
+     "torch"
+    ]
+   ],
    "audio": {
     "fr": "audio/s113_fr.mp3",
     "frs": "audio/s113_frs.mp3",
-    "en": "audio/s113_en.mp3"
+    "en": "audio/s113_en.mp3",
+    "wd": "audio/s113_wd.mp3"
    },
    "ms": {
     "fr": 3210,
     "frs": 4410,
-    "en": 2860
+    "en": 2860,
+    "wd": 11560
    },
    "bank": {
     "fr": [
-     1512690,
+     2843880,
      3210
     ],
     "frs": [
-     1516300,
+     2847490,
      4410
     ],
     "en": [
-     1521110,
+     2852300,
      2860
+    ],
+    "wd": [
+     2855560,
+     11560
+    ],
+    "wp": [
+     [
+      2855560,
+      2490
+     ],
+     [
+      2858450,
+      2630
+     ],
+     [
+      2861480,
+      2140
+     ],
+     [
+      2864020,
+      2250
+     ]
     ]
    }
   },
@@ -3766,35 +8343,76 @@
      "en": "picked up"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a ramassé",
+     "picked up"
+    ],
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "l'a examiné",
+     "examined it"
+    ],
+    [
+     "loupe",
+     "magnifying glass"
+    ]
+   ],
    "audio": {
     "fr": "audio/s114_fr.mp3",
     "frs": "audio/s114_frs.mp3",
     "en": "audio/s114_en.mp3",
-    "gl": "audio/s114_gl.mp3"
+    "gl": "audio/s114_gl.mp3",
+    "wd": "audio/s114_wd.mp3"
    },
    "ms": {
     "fr": 3890,
     "frs": 5470,
     "en": 4200,
-    "gl": 3530
+    "gl": 3530,
+    "wd": 12750
    },
    "bank": {
     "fr": [
-     1524370,
+     2867520,
      3890
     ],
     "frs": [
-     1528660,
+     2871810,
      5470
     ],
     "en": [
-     1534530,
+     2877680,
      4200
     ],
     "gl": [
-     1539130,
+     2882280,
      3530
+    ],
+    "wd": [
+     2886210,
+     12750
+    ],
+    "wp": [
+     [
+      2886210,
+      2520
+     ],
+     [
+      2889130,
+      2200
+     ],
+     [
+      2891730,
+      3060
+     ],
+     [
+      2895190,
+      2920
+     ]
     ]
    }
   },
@@ -3803,29 +8421,62 @@
    "en": "\"A green pen,\" he said.",
    "para": 20,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "vert",
+     "green"
+    ],
+    [
+     "a-t-il dit",
+     "he said"
+    ]
+   ],
    "audio": {
     "fr": "audio/s115_fr.mp3",
     "frs": "audio/s115_frs.mp3",
-    "en": "audio/s115_en.mp3"
+    "en": "audio/s115_en.mp3",
+    "wd": "audio/s115_wd.mp3"
    },
    "ms": {
     "fr": 2840,
     "frs": 3810,
-    "en": 2300
+    "en": 2300,
+    "wd": 8700
    },
    "bank": {
     "fr": [
-     1543060,
+     2899360,
      2840
     ],
     "frs": [
-     1546300,
+     2902600,
      3810
     ],
     "en": [
-     1550510,
+     2906810,
      2300
+    ],
+    "wd": [
+     2909510,
+     8700
+    ],
+    "wp": [
+     [
+      2909510,
+      2200
+     ],
+     [
+      2912110,
+      2240
+     ],
+     [
+      2914750,
+      2610
+     ]
     ]
    }
   },
@@ -3834,29 +8485,70 @@
    "en": "Hugo coughed. \"Everybody has a green pen.\"",
    "para": 20,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a toussé",
+     "coughed"
+    ],
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "stylo",
+     "pen"
+    ],
+    [
+     "vert",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s116_fr.mp3",
     "frs": "audio/s116_frs.mp3",
-    "en": "audio/s116_en.mp3"
+    "en": "audio/s116_en.mp3",
+    "wd": "audio/s116_wd.mp3"
    },
    "ms": {
     "fr": 4650,
     "frs": 6590,
-    "en": 3280
+    "en": 3280,
+    "wd": 11560
    },
    "bank": {
     "fr": [
-     1553210,
+     2918610,
      4650
     ],
     "frs": [
-     1558260,
+     2923660,
      6590
     ],
     "en": [
-     1565250,
+     2930650,
      3280
+    ],
+    "wd": [
+     2934330,
+     11560
+    ],
+    "wp": [
+     [
+      2934330,
+      2430
+     ],
+     [
+      2937160,
+      2640
+     ],
+     [
+      2940200,
+      2200
+     ],
+     [
+      2942800,
+      2240
+     ]
     ]
    }
   },
@@ -3865,29 +8557,62 @@
    "en": "Monsieur Kessler looked at him for a long time.",
    "para": 20,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "l'a regardé",
+     "looked at him"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ]
+   ],
    "audio": {
     "fr": "audio/s117_fr.mp3",
     "frs": "audio/s117_frs.mp3",
-    "en": "audio/s117_en.mp3"
+    "en": "audio/s117_en.mp3",
+    "wd": "audio/s117_wd.mp3"
    },
    "ms": {
     "fr": 2890,
     "frs": 3950,
-    "en": 2900
+    "en": 2900,
+    "wd": 9480
    },
    "bank": {
     "fr": [
-     1568930,
+     2946290,
      2890
     ],
     "frs": [
-     1572220,
+     2949580,
      3950
     ],
     "en": [
-     1576570,
+     2953930,
      2900
+    ],
+    "wd": [
+     2957230,
+     9480
+    ],
+    "wp": [
+     [
+      2957230,
+      2300
+     ],
+     [
+      2959930,
+      2780
+     ],
+     [
+      2963110,
+      2750
+     ]
     ]
    }
   },
@@ -3896,29 +8621,54 @@
    "en": "\"Not in their pajamas.\"",
    "para": 20,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Pas",
+     "not"
+    ],
+    [
+     "pyjama",
+     "pyjamas"
+    ]
+   ],
    "audio": {
     "fr": "audio/s118_fr.mp3",
     "frs": "audio/s118_frs.mp3",
-    "en": "audio/s118_en.mp3"
+    "en": "audio/s118_en.mp3",
+    "wd": "audio/s118_wd.mp3"
    },
    "ms": {
     "fr": 1790,
     "frs": 2240,
-    "en": 1830
+    "en": 1830,
+    "wd": 5880
    },
    "bank": {
     "fr": [
-     1579870,
+     2967110,
      1790
     ],
     "frs": [
-     1582060,
+     2969300,
      2240
     ],
     "en": [
-     1584700,
+     2971940,
      1830
+    ],
+    "wd": [
+     2974170,
+     5880
+    ],
+    "wp": [
+     [
+      2974170,
+      2030
+     ],
+     [
+      2976600,
+      2600
+     ]
     ]
    }
   },
@@ -3927,29 +8677,62 @@
    "en": "Upstairs, the saxophone stopped.",
    "para": 21,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Là-haut",
+     "up there"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "s'est arrêté",
+     "stopped"
+    ]
+   ],
    "audio": {
     "fr": "audio/s119_fr.mp3",
     "frs": "audio/s119_frs.mp3",
-    "en": "audio/s119_en.mp3"
+    "en": "audio/s119_en.mp3",
+    "wd": "audio/s119_wd.mp3"
    },
    "ms": {
     "fr": 3350,
     "frs": 4570,
-    "en": 2810
+    "en": 2810,
+    "wd": 9590
    },
    "bank": {
     "fr": [
-     1586930,
+     2980450,
      3350
     ],
     "frs": [
-     1590680,
+     2984200,
      4570
     ],
     "en": [
-     1595650,
+     2989170,
      2810
+    ],
+    "wd": [
+     2992380,
+     9590
+    ],
+    "wp": [
+     [
+      2992380,
+      2250
+     ],
+     [
+      2995030,
+      2970
+     ],
+     [
+      2998400,
+      2720
+     ]
     ]
    }
   },
@@ -3958,29 +8741,54 @@
    "en": "A door opened.",
    "para": 21,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "porte",
+     "door"
+    ],
+    [
+     "s'est ouverte",
+     "opened"
+    ]
+   ],
    "audio": {
     "fr": "audio/s120_fr.mp3",
     "frs": "audio/s120_frs.mp3",
-    "en": "audio/s120_en.mp3"
+    "en": "audio/s120_en.mp3",
+    "wd": "audio/s120_wd.mp3"
    },
    "ms": {
     "fr": 2360,
     "frs": 3080,
-    "en": 1460
+    "en": 1460,
+    "wd": 6230
    },
    "bank": {
     "fr": [
-     1598860,
+     3002370,
      2360
     ],
     "frs": [
-     1601620,
+     3005130,
      3080
     ],
     "en": [
-     1605100,
+     3008610,
      1460
+    ],
+    "wd": [
+     3010470,
+     6230
+    ],
+    "wp": [
+     [
+      3010470,
+      2270
+     ],
+     [
+      3013140,
+      2710
+     ]
     ]
    }
   },
@@ -3989,29 +8797,70 @@
    "en": "Madame Grimaud appeared at the top of the stairs,",
    "para": 21,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "est apparue",
+     "appeared"
+    ],
+    [
+     "en haut",
+     "at the top"
+    ],
+    [
+     "escalier",
+     "stairs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s121_fr.mp3",
     "frs": "audio/s121_frs.mp3",
-    "en": "audio/s121_en.mp3"
+    "en": "audio/s121_en.mp3",
+    "wd": "audio/s121_wd.mp3"
    },
    "ms": {
     "fr": 3430,
     "frs": 4710,
-    "en": 3230
+    "en": 3230,
+    "wd": 12080
    },
    "bank": {
     "fr": [
-     1606960,
+     3017100,
      3430
     ],
     "frs": [
-     1610790,
+     3020930,
      4710
     ],
     "en": [
-     1615900,
+     3026040,
      3230
+    ],
+    "wd": [
+     3029670,
+     12080
+    ],
+    "wp": [
+     [
+      3029670,
+      2490
+     ],
+     [
+      3032560,
+      2580
+     ],
+     [
+      3035540,
+      2380
+     ],
+     [
+      3038320,
+      2580
+     ]
     ]
    }
   },
@@ -4020,29 +8869,62 @@
    "en": "her saxophone in her hand.",
    "para": 21,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "son",
+     "her"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "main",
+     "hand"
+    ]
+   ],
    "audio": {
     "fr": "audio/s122_fr.mp3",
     "frs": "audio/s122_frs.mp3",
-    "en": "audio/s122_en.mp3"
+    "en": "audio/s122_en.mp3",
+    "wd": "audio/s122_wd.mp3"
    },
    "ms": {
     "fr": 2240,
     "frs": 2960,
-    "en": 2200
+    "en": 2200,
+    "wd": 8830
    },
    "bank": {
     "fr": [
-     1619530,
+     3042150,
      2240
     ],
     "frs": [
-     1622170,
+     3044790,
      2960
     ],
     "en": [
-     1625530,
+     3048150,
      2200
+    ],
+    "wd": [
+     3050750,
+     8830
+    ],
+    "wp": [
+     [
+      3050750,
+      2080
+     ],
+     [
+      3053230,
+      2970
+     ],
+     [
+      3056600,
+      2130
+     ]
     ]
    }
   },
@@ -4051,29 +8933,46 @@
    "en": "Hugo stood up.",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "s'est levé",
+     "stood up"
+    ]
+   ],
    "audio": {
     "fr": "audio/s123_fr.mp3",
     "frs": "audio/s123_frs.mp3",
-    "en": "audio/s123_en.mp3"
+    "en": "audio/s123_en.mp3",
+    "wd": "audio/s123_wd.mp3"
    },
    "ms": {
     "fr": 1700,
     "frs": 2170,
-    "en": 1420
+    "en": 1420,
+    "wd": 3260
    },
    "bank": {
     "fr": [
-     1628130,
+     3059980,
      1700
     ],
     "frs": [
-     1630230,
+     3062080,
      2170
     ],
     "en": [
-     1632800,
+     3064650,
      1420
+    ],
+    "wd": [
+     3066470,
+     3260
+    ],
+    "wp": [
+     [
+      3066470,
+      2410
+     ]
     ]
    }
   },
@@ -4082,29 +8981,70 @@
    "en": "For the first time in his life,",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "première",
+     "first"
+    ],
+    [
+     "fois",
+     "time"
+    ],
+    [
+     "sa",
+     "his"
+    ],
+    [
+     "vie",
+     "life"
+    ]
+   ],
    "audio": {
     "fr": "audio/s124_fr.mp3",
     "frs": "audio/s124_frs.mp3",
-    "en": "audio/s124_en.mp3"
+    "en": "audio/s124_en.mp3",
+    "wd": "audio/s124_wd.mp3"
    },
    "ms": {
     "fr": 2380,
     "frs": 3110,
-    "en": 2100
+    "en": 2100,
+    "wd": 11150
    },
    "bank": {
     "fr": [
-     1634620,
+     3070130,
      2380
     ],
     "frs": [
-     1637400,
+     3072910,
      3110
     ],
     "en": [
-     1640910,
+     3076420,
      2100
+    ],
+    "wd": [
+     3078920,
+     11150
+    ],
+    "wp": [
+     [
+      3078920,
+      2580
+     ],
+     [
+      3081900,
+      2170
+     ],
+     [
+      3084470,
+      2200
+     ],
+     [
+      3087070,
+      2150
+     ]
     ]
    }
   },
@@ -4113,29 +9053,86 @@
    "en": "he was going to tell the truth somewhere other than in the shower.",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "allait",
+     "was going"
+    ],
+    [
+     "dire",
+     "to tell"
+    ],
+    [
+     "vérité",
+     "truth"
+    ],
+    [
+     "ailleurs",
+     "elsewhere"
+    ],
+    [
+     "sous",
+     "under"
+    ],
+    [
+     "douche",
+     "shower"
+    ]
+   ],
    "audio": {
     "fr": "audio/s125_fr.mp3",
     "frs": "audio/s125_frs.mp3",
-    "en": "audio/s125_en.mp3"
+    "en": "audio/s125_en.mp3",
+    "wd": "audio/s125_wd.mp3"
    },
    "ms": {
     "fr": 3600,
     "frs": 4960,
-    "en": 3350
+    "en": 3350,
+    "wd": 16800
    },
    "bank": {
     "fr": [
-     1643410,
+     3090470,
      3600
     ],
     "frs": [
-     1647410,
+     3094470,
      4960
     ],
     "en": [
-     1652770,
+     3099830,
      3350
+    ],
+    "wd": [
+     3103580,
+     16800
+    ],
+    "wp": [
+     [
+      3103580,
+      2260
+     ],
+     [
+      3106240,
+      2300
+     ],
+     [
+      3108940,
+      2430
+     ],
+     [
+      3111769,
+      2420
+     ],
+     [
+      3114590,
+      2210
+     ],
+     [
+      3117200,
+      2329
+     ]
     ]
    }
   },
@@ -4144,29 +9141,70 @@
    "en": "\"It's me, Madame Grimaud. I'm the one who wrote the note.",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "moi",
+     "me"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "ai écrit",
+     "wrote"
+    ],
+    [
+     "mot",
+     "note"
+    ]
+   ],
    "audio": {
     "fr": "audio/s126_fr.mp3",
     "frs": "audio/s126_frs.mp3",
-    "en": "audio/s126_en.mp3"
+    "en": "audio/s126_en.mp3",
+    "wd": "audio/s126_wd.mp3"
    },
    "ms": {
     "fr": 5090,
     "frs": 7230,
-    "en": 3540
+    "en": 3540,
+    "wd": 11140
    },
    "bank": {
     "fr": [
-     1656520,
+     3120780,
      5090
     ],
     "frs": [
-     1662010,
+     3126270,
      7230
     ],
     "en": [
-     1669640,
+     3133900,
      3540
+    ],
+    "wd": [
+     3137840,
+     11140
+    ],
+    "wp": [
+     [
+      3137840,
+      2140
+     ],
+     [
+      3140380,
+      2490
+     ],
+     [
+      3143270,
+      2350
+     ],
+     [
+      3146020,
+      2110
+     ]
     ]
    }
   },
@@ -4175,29 +9213,62 @@
    "en": "I'm sorry. I'm a coward.\"",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "suis",
+     "am"
+    ],
+    [
+     "désolé",
+     "sorry"
+    ],
+    [
+     "lâche",
+     "coward"
+    ]
+   ],
    "audio": {
     "fr": "audio/s127_fr.mp3",
     "frs": "audio/s127_frs.mp3",
-    "en": "audio/s127_en.mp3"
+    "en": "audio/s127_en.mp3",
+    "wd": "audio/s127_wd.mp3"
    },
    "ms": {
     "fr": 4170,
     "frs": 5790,
-    "en": 2350
+    "en": 2350,
+    "wd": 8650
    },
    "bank": {
     "fr": [
-     1673580,
+     3149380,
      4170
     ],
     "frs": [
-     1678150,
+     3153950,
      5790
     ],
     "en": [
-     1684340,
+     3160140,
      2350
+    ],
+    "wd": [
+     3162890,
+     8650
+    ],
+    "wp": [
+     [
+      3162890,
+      2210
+     ],
+     [
+      3165500,
+      2420
+     ],
+     [
+      3168320,
+      2370
+     ]
     ]
    }
   },
@@ -4206,29 +9277,62 @@
    "en": "Madame Da Silva let out a cry.",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "a poussé",
+     "let out"
+    ],
+    [
+     "cri",
+     "scream"
+    ]
+   ],
    "audio": {
     "fr": "audio/s128_fr.mp3",
     "frs": "audio/s128_frs.mp3",
-    "en": "audio/s128_en.mp3"
+    "en": "audio/s128_en.mp3",
+    "wd": "audio/s128_wd.mp3"
    },
    "ms": {
     "fr": 2990,
     "frs": 4080,
-    "en": 2300
+    "en": 2300,
+    "wd": 8810
    },
    "bank": {
     "fr": [
-     1687090,
+     3171940,
      2990
     ],
     "frs": [
-     1690480,
+     3175330,
      4080
     ],
     "en": [
-     1694960,
+     3179810,
      2300
+    ],
+    "wd": [
+     3182510,
+     8810
+    ],
+    "wp": [
+     [
+      3182510,
+      2490
+     ],
+     [
+      3185400,
+      2450
+     ],
+     [
+      3188250,
+      2220
+     ]
     ]
    }
   },
@@ -4237,29 +9341,70 @@
    "en": "Noé wrote something down in his notebook.",
    "para": 22,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a noté",
+     "wrote down"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "son",
+     "his"
+    ],
+    [
+     "carnet",
+     "notebook"
+    ]
+   ],
    "audio": {
     "fr": "audio/s129_fr.mp3",
     "frs": "audio/s129_frs.mp3",
-    "en": "audio/s129_en.mp3"
+    "en": "audio/s129_en.mp3",
+    "wd": "audio/s129_wd.mp3"
    },
    "ms": {
     "fr": 3220,
     "frs": 4390,
-    "en": 2660
+    "en": 2660,
+    "wd": 11810
    },
    "bank": {
     "fr": [
-     1697660,
+     3191720,
      3220
     ],
     "frs": [
-     1701280,
+     3195340,
      4390
     ],
     "en": [
-     1706070,
+     3200130,
      2660
+    ],
+    "wd": [
+     3203190,
+     11810
+    ],
+    "wp": [
+     [
+      3203190,
+      2570
+     ],
+     [
+      3206160,
+      2700
+     ],
+     [
+      3209260,
+      2140
+     ],
+     [
+      3211800,
+      2350
+     ]
     ]
    }
   },
@@ -4268,29 +9413,54 @@
    "en": "Madame Grimaud smiled.",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "a souri",
+     "smiled"
+    ]
+   ],
    "audio": {
     "fr": "audio/s130_fr.mp3",
     "frs": "audio/s130_frs.mp3",
-    "en": "audio/s130_en.mp3"
+    "en": "audio/s130_en.mp3",
+    "wd": "audio/s130_wd.mp3"
    },
    "ms": {
     "fr": 2290,
     "frs": 3050,
-    "en": 1920
+    "en": 1920,
+    "wd": 6210
    },
    "bank": {
     "fr": [
-     1709130,
+     3215400,
      2290
     ],
     "frs": [
-     1711820,
+     3218090,
      3050
     ],
     "en": [
-     1715270,
+     3221540,
      1920
+    ],
+    "wd": [
+     3223860,
+     6210
+    ],
+    "wp": [
+     [
+      3223860,
+      2490
+     ],
+     [
+      3226750,
+      2470
+     ]
     ]
    }
   },
@@ -4299,29 +9469,78 @@
    "en": "\"I know, Monsieur Martin. I've known since the first day.\"",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "sais",
+     "know"
+    ],
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "depuis",
+     "since"
+    ],
+    [
+     "premier",
+     "first"
+    ],
+    [
+     "jour",
+     "day"
+    ]
+   ],
    "audio": {
     "fr": "audio/s131_fr.mp3",
     "frs": "audio/s131_frs.mp3",
-    "en": "audio/s131_en.mp3"
+    "en": "audio/s131_en.mp3",
+    "wd": "audio/s131_wd.mp3"
    },
    "ms": {
     "fr": 5430,
     "frs": 7700,
-    "en": 3610
+    "en": 3610,
+    "wd": 13890
    },
    "bank": {
     "fr": [
-     1717590,
+     3230470,
      5430
     ],
     "frs": [
-     1723420,
+     3236300,
      7700
     ],
     "en": [
-     1731520,
+     3244400,
      3610
+    ],
+    "wd": [
+     3248410,
+     13890
+    ],
+    "wp": [
+     [
+      3248410,
+      2100
+     ],
+     [
+      3250910,
+      2300
+     ],
+     [
+      3253610,
+      2400
+     ],
+     [
+      3256410,
+      2420
+     ],
+     [
+      3259230,
+      2220
+     ]
     ]
    }
   },
@@ -4330,29 +9549,46 @@
    "en": "\"But… how?\"",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "comment",
+     "how"
+    ]
+   ],
    "audio": {
     "fr": "audio/s132_fr.mp3",
     "frs": "audio/s132_frs.mp3",
-    "en": "audio/s132_en.mp3"
+    "en": "audio/s132_en.mp3",
+    "wd": "audio/s132_wd.mp3"
    },
    "ms": {
     "fr": 1930,
     "frs": 2420,
-    "en": 1340
+    "en": 1340,
+    "wd": 3030
    },
    "bank": {
     "fr": [
-     1735530,
+     3262700,
      1930
     ],
     "frs": [
-     1737860,
+     3265030,
      2420
     ],
     "en": [
-     1740680,
+     3267850,
      1340
+    ],
+    "wd": [
+     3269590,
+     3030
+    ],
+    "wp": [
+     [
+      3269590,
+      2180
+     ]
     ]
    }
   },
@@ -4361,29 +9597,86 @@
    "en": "\"You sing in the shower. Every morning, at six o'clock.",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "chantez",
+     "sing"
+    ],
+    [
+     "sous",
+     "under"
+    ],
+    [
+     "douche",
+     "shower"
+    ],
+    [
+     "Tous les matins",
+     "every morning"
+    ],
+    [
+     "six",
+     "six"
+    ],
+    [
+     "heures",
+     "o'clock"
+    ]
+   ],
    "audio": {
     "fr": "audio/s133_fr.mp3",
     "frs": "audio/s133_frs.mp3",
-    "en": "audio/s133_en.mp3"
+    "en": "audio/s133_en.mp3",
+    "wd": "audio/s133_wd.mp3"
    },
    "ms": {
     "fr": 5180,
     "frs": 7360,
-    "en": 3830
+    "en": 3830,
+    "wd": 17120
    },
    "bank": {
     "fr": [
-     1742420,
+     3273020,
      5180
     ],
     "frs": [
-     1748000,
+     3278600,
      7360
     ],
     "en": [
-     1755760,
+     3286360,
      3830
+    ],
+    "wd": [
+     3290590,
+     17120
+    ],
+    "wp": [
+     [
+      3290590,
+      2350
+     ],
+     [
+      3293340,
+      2210
+     ],
+     [
+      3295950,
+      2329
+     ],
+     [
+      3298680,
+      2750
+     ],
+     [
+      3301830,
+      2340
+     ],
+     [
+      3304570,
+      2290
+     ]
     ]
    }
   },
@@ -4392,29 +9685,62 @@
    "en": "For two years.",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Depuis",
+     "for"
+    ],
+    [
+     "deux",
+     "two"
+    ],
+    [
+     "ans",
+     "years"
+    ]
+   ],
    "audio": {
     "fr": "audio/s134_fr.mp3",
     "frs": "audio/s134_frs.mp3",
-    "en": "audio/s134_en.mp3"
+    "en": "audio/s134_en.mp3",
+    "wd": "audio/s134_wd.mp3"
    },
    "ms": {
     "fr": 1720,
     "frs": 2220,
-    "en": 1530
+    "en": 1530,
+    "wd": 8080
    },
    "bank": {
     "fr": [
-     1759990,
+     3308110,
      1720
     ],
     "frs": [
-     1762110,
+     3310230,
      2220
     ],
     "en": [
-     1764730,
+     3312850,
      1530
+    ],
+    "wd": [
+     3314780,
+     8080
+    ],
+    "wp": [
+     [
+      3314780,
+      2340
+     ],
+     [
+      3317520,
+      2020
+     ],
+     [
+      3319940,
+      2070
+     ]
     ]
    }
   },
@@ -4423,29 +9749,62 @@
    "en": "The walls are very thin, you know.\"",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "murs",
+     "walls"
+    ],
+    [
+     "fins",
+     "thin"
+    ],
+    [
+     "savez",
+     "know"
+    ]
+   ],
    "audio": {
     "fr": "audio/s135_fr.mp3",
     "frs": "audio/s135_frs.mp3",
-    "en": "audio/s135_en.mp3"
+    "en": "audio/s135_en.mp3",
+    "wd": "audio/s135_wd.mp3"
    },
    "ms": {
     "fr": 2910,
     "frs": 3910,
-    "en": 2410
+    "en": 2410,
+    "wd": 8300
    },
    "bank": {
     "fr": [
-     1766660,
+     3323260,
      2910
     ],
     "frs": [
-     1769970,
+     3326570,
      3910
     ],
     "en": [
-     1774280,
+     3330880,
      2410
+    ],
+    "wd": [
+     3333690,
+     8300
+    ],
+    "wp": [
+     [
+      3333690,
+      2309
+     ],
+     [
+      3336400,
+      2070
+     ],
+     [
+      3338870,
+      2270
+     ]
     ]
    }
   },
@@ -4454,29 +9813,62 @@
    "en": "Hugo turned bright red.",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "est devenu",
+     "went"
+    ],
+    [
+     "tout",
+     "all"
+    ],
+    [
+     "rouge",
+     "red"
+    ]
+   ],
    "audio": {
     "fr": "audio/s136_fr.mp3",
     "frs": "audio/s136_frs.mp3",
-    "en": "audio/s136_en.mp3"
+    "en": "audio/s136_en.mp3",
+    "wd": "audio/s136_wd.mp3"
    },
    "ms": {
     "fr": 2440,
     "frs": 3230,
-    "en": 2050
+    "en": 2050,
+    "wd": 8330
    },
    "bank": {
     "fr": [
-     1777090,
+     3342390,
      2440
     ],
     "frs": [
-     1779930,
+     3345230,
      3230
     ],
     "en": [
-     1783560,
+     3348860,
      2050
+    ],
+    "wd": [
+     3351310,
+     8330
+    ],
+    "wp": [
+     [
+      3351310,
+      2400
+     ],
+     [
+      3354110,
+      2010
+     ],
+     [
+      3356520,
+      2270
+     ]
     ]
    }
   },
@@ -4485,29 +9877,70 @@
    "en": "\"Always the same song,\" she went on.",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Toujours",
+     "always"
+    ],
+    [
+     "même",
+     "same"
+    ],
+    [
+     "chanson",
+     "song"
+    ],
+    [
+     "a-t-elle continué",
+     "she went on"
+    ]
+   ],
    "audio": {
     "fr": "audio/s137_fr.mp3",
     "frs": "audio/s137_frs.mp3",
-    "en": "audio/s137_en.mp3"
+    "en": "audio/s137_en.mp3",
+    "wd": "audio/s137_wd.mp3"
    },
    "ms": {
     "fr": 3460,
     "frs": 4760,
-    "en": 2970
+    "en": 2970,
+    "wd": 12330
    },
    "bank": {
     "fr": [
-     1786010,
+     3360040,
      3460
     ],
     "frs": [
-     1789870,
+     3363900,
      4760
     ],
     "en": [
-     1795030,
+     3369060,
      2970
+    ],
+    "wd": [
+     3372430,
+     12330
+    ],
+    "wp": [
+     [
+      3372430,
+      2520
+     ],
+     [
+      3375350,
+      2230
+     ],
+     [
+      3377980,
+      2440
+     ],
+     [
+      3380820,
+      3090
+     ]
     ]
    }
   },
@@ -4516,29 +9949,70 @@
    "en": "\"L'Été indien, by Joe Dassin. And always off-key.\"",
    "para": 23,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Été",
+     "summer"
+    ],
+    [
+     "indien",
+     "Indian"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "faux",
+     "off-key"
+    ]
+   ],
    "audio": {
     "fr": "audio/s138_fr.mp3",
     "frs": "audio/s138_frs.mp3",
-    "en": "audio/s138_en.mp3"
+    "en": "audio/s138_en.mp3",
+    "wd": "audio/s138_wd.mp3"
    },
    "ms": {
     "fr": 4880,
     "frs": 6870,
-    "en": 4200
+    "en": 4200,
+    "wd": 11260
    },
    "bank": {
     "fr": [
-     1798400,
+     3385160,
      4880
     ],
     "frs": [
-     1803680,
+     3390440,
      6870
     ],
     "en": [
-     1810950,
+     3397710,
      4200
+    ],
+    "wd": [
+     3402310,
+     11260
+    ],
+    "wp": [
+     [
+      3402310,
+      2200
+     ],
+     [
+      3404910,
+      2250
+     ],
+     [
+      3407560,
+      2520
+     ],
+     [
+      3410480,
+      2240
+     ]
     ]
    }
   },
@@ -4547,29 +10021,86 @@
    "en": "She raised her saxophone and played a few notes.",
    "para": 24,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a levé",
+     "raised"
+    ],
+    [
+     "son",
+     "her"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "a joué",
+     "played"
+    ],
+    [
+     "quelques",
+     "a few"
+    ],
+    [
+     "notes",
+     "notes"
+    ]
+   ],
    "audio": {
     "fr": "audio/s139_fr.mp3",
     "frs": "audio/s139_frs.mp3",
-    "en": "audio/s139_en.mp3"
+    "en": "audio/s139_en.mp3",
+    "wd": "audio/s139_wd.mp3"
    },
    "ms": {
     "fr": 3730,
     "frs": 5140,
-    "en": 3220
+    "en": 3220,
+    "wd": 17500
    },
    "bank": {
     "fr": [
-     1815550,
+     3413970,
      3730
     ],
     "frs": [
-     1819680,
+     3418100,
      5140
     ],
     "en": [
-     1825220,
+     3423640,
      3220
+    ],
+    "wd": [
+     3427260,
+     17500
+    ],
+    "wp": [
+     [
+      3427260,
+      2440
+     ],
+     [
+      3430100,
+      2080
+     ],
+     [
+      3432580,
+      2970
+     ],
+     [
+      3435950,
+      2309
+     ],
+     [
+      3438660,
+      2470
+     ],
+     [
+      3441530,
+      2380
+     ]
     ]
    }
   },
@@ -4578,29 +10109,62 @@
    "en": "The old midnight melody.",
    "para": 24,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "vieille",
+     "old"
+    ],
+    [
+     "mélodie",
+     "melody"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ]
+   ],
    "audio": {
     "fr": "audio/s140_fr.mp3",
     "frs": "audio/s140_frs.mp3",
-    "en": "audio/s140_en.mp3"
+    "en": "audio/s140_en.mp3",
+    "wd": "audio/s140_wd.mp3"
    },
    "ms": {
     "fr": 2510,
     "frs": 3310,
-    "en": 2029
+    "en": 2029,
+    "wd": 8940
    },
    "bank": {
     "fr": [
-     1828840,
+     3445160,
      2510
     ],
     "frs": [
-     1831750,
+     3448070,
      3310
     ],
     "en": [
-     1835460,
+     3451780,
      2029
+    ],
+    "wd": [
+     3454210,
+     8940
+    ],
+    "wp": [
+     [
+      3454210,
+      2340
+     ],
+     [
+      3456950,
+      2570
+     ],
+     [
+      3459920,
+      2380
+     ]
     ]
    }
   },
@@ -4609,29 +10173,54 @@
    "en": "And all at once, Hugo understood.",
    "para": 24,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "d'un coup",
+     "all at once"
+    ],
+    [
+     "a compris",
+     "understood"
+    ]
+   ],
    "audio": {
     "fr": "audio/s141_fr.mp3",
     "frs": "audio/s141_frs.mp3",
-    "en": "audio/s141_en.mp3"
+    "en": "audio/s141_en.mp3",
+    "wd": "audio/s141_wd.mp3"
    },
    "ms": {
     "fr": 2690,
     "frs": 3630,
-    "en": 2660
+    "en": 2660,
+    "wd": 6600
    },
    "bank": {
     "fr": [
-     1837890,
+     3463550,
      2690
     ],
     "frs": [
-     1840980,
+     3466640,
      3630
     ],
     "en": [
-     1845010,
+     3470670,
      2660
+    ],
+    "wd": [
+     3473730,
+     6600
+    ],
+    "wp": [
+     [
+      3473730,
+      2670
+     ],
+     [
+      3476800,
+      2680
+     ]
     ]
    }
   },
@@ -4640,29 +10229,70 @@
    "en": "It was his song. She was playing his song.",
    "para": 24,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "sa",
+     "his"
+    ],
+    [
+     "chanson",
+     "song"
+    ],
+    [
+     "jouait",
+     "was playing"
+    ]
+   ],
    "audio": {
     "fr": "audio/s142_fr.mp3",
     "frs": "audio/s142_frs.mp3",
-    "en": "audio/s142_en.mp3"
+    "en": "audio/s142_en.mp3",
+    "wd": "audio/s142_wd.mp3"
    },
    "ms": {
     "fr": 4270,
     "frs": 6030,
-    "en": 3030
+    "en": 3030,
+    "wd": 11600
    },
    "bank": {
     "fr": [
-     1848070,
+     3480730,
      4270
     ],
     "frs": [
-     1852740,
+     3485400,
      6030
     ],
     "en": [
-     1859170,
+     3491830,
      3030
+    ],
+    "wd": [
+     3495260,
+     11600
+    ],
+    "wp": [
+     [
+      3495260,
+      2410
+     ],
+     [
+      3498070,
+      2200
+     ],
+     [
+      3500670,
+      2440
+     ],
+     [
+      3503510,
+      2500
+     ]
     ]
    }
   },
@@ -4671,29 +10301,94 @@
    "en": "\"For two years, you woke me up in the morning,\" said Madame Grimaud.",
    "para": 25,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Pendant",
+     "for"
+    ],
+    [
+     "deux",
+     "two"
+    ],
+    [
+     "ans",
+     "years"
+    ],
+    [
+     "m'avez réveillée",
+     "woke me up"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s143_fr.mp3",
     "frs": "audio/s143_frs.mp3",
-    "en": "audio/s143_en.mp3"
+    "en": "audio/s143_en.mp3",
+    "wd": "audio/s143_wd.mp3"
    },
    "ms": {
     "fr": 4910,
     "frs": 6920,
-    "en": 4480
+    "en": 4480,
+    "wd": 19490
    },
    "bank": {
     "fr": [
-     1862600,
+     3507260,
      4910
     ],
     "frs": [
-     1867910,
+     3512570,
      6920
     ],
     "en": [
-     1875230,
+     3519890,
      4480
+    ],
+    "wd": [
+     3524770,
+     19490
+    ],
+    "wp": [
+     [
+      3524770,
+      2240
+     ],
+     [
+      3527410,
+      2020
+     ],
+     [
+      3529830,
+      2070
+     ],
+     [
+      3532300,
+      2890
+     ],
+     [
+      3535590,
+      2309
+     ],
+     [
+      3538300,
+      2220
+     ],
+     [
+      3540919,
+      2490
+     ]
     ]
    }
   },
@@ -4702,29 +10397,94 @@
    "en": "\"So three months ago, I took saxophone lessons.",
    "para": 25,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "il y a",
+     "ago"
+    ],
+    [
+     "trois",
+     "three"
+    ],
+    [
+     "mois",
+     "months"
+    ],
+    [
+     "ai pris",
+     "took"
+    ],
+    [
+     "cours",
+     "lessons"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ]
+   ],
    "audio": {
     "fr": "audio/s144_fr.mp3",
     "frs": "audio/s144_frs.mp3",
-    "en": "audio/s144_en.mp3"
+    "en": "audio/s144_en.mp3",
+    "wd": "audio/s144_wd.mp3"
    },
    "ms": {
     "fr": 4230,
     "frs": 5890,
-    "en": 3540
+    "en": 3540,
+    "wd": 19870
    },
    "bank": {
     "fr": [
-     1880110,
+     3544660,
      4230
     ],
     "frs": [
-     1884740,
+     3549290,
      5890
     ],
     "en": [
-     1891030,
+     3555580,
      3540
+    ],
+    "wd": [
+     3559520,
+     19870
+    ],
+    "wp": [
+     [
+      3559520,
+      2270
+     ],
+     [
+      3562190,
+      2400
+     ],
+     [
+      3564990,
+      2160
+     ],
+     [
+      3567549,
+      2260
+     ],
+     [
+      3570210,
+      2190
+     ],
+     [
+      3572800,
+      2370
+     ],
+     [
+      3575570,
+      2970
+     ]
     ]
    }
   },
@@ -4738,35 +10498,84 @@
      "en": "on purpose, specially"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Exprès",
+     "on purpose"
+    ],
+    [
+     "apprendre",
+     "to learn"
+    ],
+    [
+     "seule",
+     "single"
+    ],
+    [
+     "chanson",
+     "song"
+    ],
+    [
+     "vôtre",
+     "yours"
+    ]
+   ],
    "audio": {
     "fr": "audio/s145_fr.mp3",
     "frs": "audio/s145_frs.mp3",
     "en": "audio/s145_en.mp3",
-    "gl": "audio/s145_gl.mp3"
+    "gl": "audio/s145_gl.mp3",
+    "wd": "audio/s145_wd.mp3"
    },
    "ms": {
     "fr": 4990,
     "frs": 7090,
     "en": 3890,
-    "gl": 4340
+    "gl": 4340,
+    "wd": 14900
    },
    "bank": {
     "fr": [
-     1894970,
+     3579790,
      4990
     ],
     "frs": [
-     1900360,
+     3585180,
      7090
     ],
     "en": [
-     1907850,
+     3592670,
      3890
     ],
     "gl": [
-     1912140,
+     3596960,
      4340
+    ],
+    "wd": [
+     3601700,
+     14900
+    ],
+    "wp": [
+     [
+      3601700,
+      2650
+     ],
+     [
+      3604750,
+      2540
+     ],
+     [
+      3607690,
+      2380
+     ],
+     [
+      3610470,
+      2440
+     ],
+     [
+      3613310,
+      2440
+     ]
     ]
    }
   },
@@ -4775,29 +10584,70 @@
    "en": "You sang in the morning, I answered you at night.",
    "para": 25,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "chantiez",
+     "sang"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "répondais",
+     "answered"
+    ],
+    [
+     "soir",
+     "evening"
+    ]
+   ],
    "audio": {
     "fr": "audio/s146_fr.mp3",
     "frs": "audio/s146_frs.mp3",
-    "en": "audio/s146_en.mp3"
+    "en": "audio/s146_en.mp3",
+    "wd": "audio/s146_wd.mp3"
    },
    "ms": {
     "fr": 3800,
     "frs": 5260,
-    "en": 3250
+    "en": 3250,
+    "wd": 11720
    },
    "bank": {
     "fr": [
-     1916880,
+     3617000,
      3800
     ],
     "frs": [
-     1921080,
+     3621200,
      5260
     ],
     "en": [
-     1926740,
+     3626860,
      3250
+    ],
+    "wd": [
+     3630510,
+     11720
+    ],
+    "wp": [
+     [
+      3630510,
+      2420
+     ],
+     [
+      3633330,
+      2309
+     ],
+     [
+      3636040,
+      2500
+     ],
+     [
+      3638940,
+      2440
+     ]
     ]
    }
   },
@@ -4806,29 +10656,78 @@
    "en": "I was waiting for you to come up and knock on my door.",
    "para": 25,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "attendais",
+     "was waiting"
+    ],
+    [
+     "montiez",
+     "to come up"
+    ],
+    [
+     "frapper",
+     "knock"
+    ],
+    [
+     "ma",
+     "my"
+    ],
+    [
+     "porte",
+     "door"
+    ]
+   ],
    "audio": {
     "fr": "audio/s147_fr.mp3",
     "frs": "audio/s147_frs.mp3",
-    "en": "audio/s147_en.mp3"
+    "en": "audio/s147_en.mp3",
+    "wd": "audio/s147_wd.mp3"
    },
    "ms": {
     "fr": 3280,
     "frs": 4500,
-    "en": 3030
+    "en": 3030,
+    "wd": 14090
    },
    "bank": {
     "fr": [
-     1930390,
+     3642630,
      3280
     ],
     "frs": [
-     1934070,
+     3646310,
      4500
     ],
     "en": [
-     1938970,
+     3651210,
      3030
+    ],
+    "wd": [
+     3654640,
+     14090
+    ],
+    "wp": [
+     [
+      3654640,
+      2540
+     ],
+     [
+      3657580,
+      2430
+     ],
+     [
+      3660410,
+      2340
+     ],
+     [
+      3663150,
+      2060
+     ],
+     [
+      3665610,
+      2270
+     ]
     ]
    }
   },
@@ -4837,29 +10736,62 @@
    "en": "And you, you wrote me a little note.\"",
    "para": 25,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "m'avez écrit",
+     "wrote me"
+    ],
+    [
+     "petit",
+     "little"
+    ],
+    [
+     "mot",
+     "note"
+    ]
+   ],
    "audio": {
     "fr": "audio/s148_fr.mp3",
     "frs": "audio/s148_frs.mp3",
-    "en": "audio/s148_en.mp3"
+    "en": "audio/s148_en.mp3",
+    "wd": "audio/s148_wd.mp3"
    },
    "ms": {
     "fr": 3000,
     "frs": 4070,
-    "en": 2680
+    "en": 2680,
+    "wd": 8690
    },
    "bank": {
     "fr": [
-     1942400,
+     3669130,
      3000
     ],
     "frs": [
-     1945800,
+     3672530,
      4070
     ],
     "en": [
-     1950270,
+     3677000,
      2680
+    ],
+    "wd": [
+     3680080,
+     8690
+    ],
+    "wp": [
+     [
+      3680080,
+      2690
+     ],
+     [
+      3683170,
+      2240
+     ],
+     [
+      3685810,
+      2110
+     ]
     ]
    }
   },
@@ -4868,29 +10800,62 @@
    "en": "\"And the trap?\" asked Madame Da Silva.",
    "para": 26,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "piège",
+     "trap"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s149_fr.mp3",
     "frs": "audio/s149_frs.mp3",
-    "en": "audio/s149_en.mp3"
+    "en": "audio/s149_en.mp3",
+    "wd": "audio/s149_wd.mp3"
    },
    "ms": {
     "fr": 4410,
     "frs": 6190,
-    "en": 2810
+    "en": 2810,
+    "wd": 8830
    },
    "bank": {
     "fr": [
-     1953350,
+     3689170,
      4410
     ],
     "frs": [
-     1958160,
+     3693980,
      6190
     ],
     "en": [
-     1964750,
+     3700570,
      2810
+    ],
+    "wd": [
+     3703780,
+     8830
+    ],
+    "wp": [
+     [
+      3703780,
+      2250
+     ],
+     [
+      3706430,
+      2440
+     ],
+     [
+      3709270,
+      2490
+     ]
     ]
    }
   },
@@ -4899,29 +10864,62 @@
    "en": "\"That was my idea.",
    "para": 26,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "mon",
+     "my"
+    ],
+    [
+     "idée",
+     "idea"
+    ]
+   ],
    "audio": {
     "fr": "audio/s150_fr.mp3",
     "frs": "audio/s150_frs.mp3",
-    "en": "audio/s150_en.mp3"
+    "en": "audio/s150_en.mp3",
+    "wd": "audio/s150_wd.mp3"
    },
    "ms": {
     "fr": 1830,
     "frs": 2350,
-    "en": 1600
+    "en": 1600,
+    "wd": 8430
    },
    "bank": {
     "fr": [
-     1967960,
+     3713010,
      1830
     ],
     "frs": [
-     1970190,
+     3715240,
      2350
     ],
     "en": [
-     1972940,
+     3717990,
      1600
+    ],
+    "wd": [
+     3719990,
+     8430
+    ],
+    "wp": [
+     [
+      3719990,
+      2410
+     ],
+     [
+      3722800,
+      2060
+     ],
+     [
+      3725260,
+      2309
+     ]
     ]
    }
   },
@@ -4935,35 +10933,84 @@
      "en": "to hold out"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "voulais",
+     "wanted"
+    ],
+    [
+     "voir",
+     "to see"
+    ],
+    [
+     "combien de temps",
+     "how long"
+    ],
+    [
+     "allait",
+     "was going"
+    ],
+    [
+     "tenir",
+     "to hold out"
+    ]
+   ],
    "audio": {
     "fr": "audio/s151_fr.mp3",
     "frs": "audio/s151_frs.mp3",
     "en": "audio/s151_en.mp3",
-    "gl": "audio/s151_gl.mp3"
+    "gl": "audio/s151_gl.mp3",
+    "wd": "audio/s151_wd.mp3"
    },
    "ms": {
     "fr": 3350,
     "frs": 4570,
     "en": 2690,
-    "gl": 3460
+    "gl": 3460,
+    "wd": 14690
    },
    "bank": {
     "fr": [
-     1974940,
+     3728820,
      3350
     ],
     "frs": [
-     1978690,
+     3732570,
      4570
     ],
     "en": [
-     1983660,
+     3737540,
      2690
     ],
     "gl": [
-     1986750,
+     3740630,
      3460
+    ],
+    "wd": [
+     3744490,
+     14690
+    ],
+    "wp": [
+     [
+      3744490,
+      2200
+     ],
+     [
+      3747090,
+      2460
+     ],
+     [
+      3749950,
+      2760
+     ],
+     [
+      3753110,
+      2260
+     ],
+     [
+      3755770,
+      2560
+     ]
     ]
    }
   },
@@ -4977,35 +11024,92 @@
      "en": "bathrobe, dressing gown"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "a sorti",
+     "took out"
+    ],
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "poche",
+     "pocket"
+    ],
+    [
+     "sa",
+     "her"
+    ],
+    [
+     "robe de chambre",
+     "dressing gown"
+    ]
+   ],
    "audio": {
     "fr": "audio/s152_fr.mp3",
     "frs": "audio/s152_frs.mp3",
     "en": "audio/s152_en.mp3",
-    "gl": "audio/s152_gl.mp3"
+    "gl": "audio/s152_gl.mp3",
+    "wd": "audio/s152_wd.mp3"
    },
    "ms": {
     "fr": 3960,
     "frs": 5530,
     "en": 3860,
-    "gl": 4880
+    "gl": 4880,
+    "wd": 17280
    },
    "bank": {
     "fr": [
-     1990610,
+     3759580,
      3960
     ],
     "frs": [
-     1994970,
+     3763940,
      5530
     ],
     "en": [
-     2000900,
+     3769870,
      3860
     ],
     "gl": [
-     2005160,
+     3774130,
      4880
+    ],
+    "wd": [
+     3779410,
+     17280
+    ],
+    "wp": [
+     [
+      3779410,
+      2110
+     ],
+     [
+      3781920,
+      2480
+     ],
+     [
+      3784800,
+      2280
+     ],
+     [
+      3787480,
+      2309
+     ],
+     [
+      3790190,
+      2140
+     ],
+     [
+      3792730,
+      3110
+     ]
     ]
    }
   },
@@ -5014,29 +11118,78 @@
    "en": "\"Here. I wrote it two years ago.",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Tenez",
+     "here"
+    ],
+    [
+     "ai écrit",
+     "wrote"
+    ],
+    [
+     "il y a",
+     "ago"
+    ],
+    [
+     "deux",
+     "two"
+    ],
+    [
+     "ans",
+     "years"
+    ]
+   ],
    "audio": {
     "fr": "audio/s153_fr.mp3",
     "frs": "audio/s153_frs.mp3",
-    "en": "audio/s153_en.mp3"
+    "en": "audio/s153_en.mp3",
+    "wd": "audio/s153_wd.mp3"
    },
    "ms": {
     "fr": 3890,
     "frs": 5410,
-    "en": 2690
+    "en": 2690,
+    "wd": 13460
    },
    "bank": {
     "fr": [
-     2010440,
+     3797090,
      3890
     ],
     "frs": [
-     2014730,
+     3801380,
      5410
     ],
     "en": [
-     2020540,
+     3807190,
      2690
+    ],
+    "wd": [
+     3810280,
+     13460
+    ],
+    "wp": [
+     [
+      3810280,
+      2170
+     ],
+     [
+      3812850,
+      2350
+     ],
+     [
+      3815600,
+      2400
+     ],
+     [
+      3818399,
+      2020
+     ],
+     [
+      3820820,
+      2070
+     ]
     ]
    }
   },
@@ -5045,29 +11198,78 @@
    "en": "I never dared to put it in your mailbox.\"",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "jamais",
+     "never"
+    ],
+    [
+     "osé",
+     "dared"
+    ],
+    [
+     "mettre",
+     "to put"
+    ],
+    [
+     "votre",
+     "your"
+    ],
+    [
+     "boîte aux lettres",
+     "letterbox"
+    ]
+   ],
    "audio": {
     "fr": "audio/s154_fr.mp3",
     "frs": "audio/s154_frs.mp3",
-    "en": "audio/s154_en.mp3"
+    "en": "audio/s154_en.mp3",
+    "wd": "audio/s154_wd.mp3"
    },
    "ms": {
     "fr": 3690,
     "frs": 5110,
-    "en": 2590
+    "en": 2590,
+    "wd": 14390
    },
    "bank": {
     "fr": [
-     2023630,
+     3824140,
      3690
     ],
     "frs": [
-     2027720,
+     3828230,
      5110
     ],
     "en": [
-     2033230,
+     3833740,
      2590
+    ],
+    "wd": [
+     3836730,
+     14390
+    ],
+    "wp": [
+     [
+      3836730,
+      2340
+     ],
+     [
+      3839470,
+      2150
+     ],
+     [
+      3842020,
+      2309
+     ],
+     [
+      3844730,
+      2210
+     ],
+     [
+      3847340,
+      2930
+     ]
     ]
    }
   },
@@ -5081,35 +11283,92 @@
      "en": "unfolded"
     }
    ],
-   "words": [],
+   "words": [
+    [
+     "a déplié",
+     "unfolded"
+    ],
+    [
+     "papier",
+     "paper"
+    ],
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "écrit",
+     "written"
+    ],
+    [
+     "encre",
+     "ink"
+    ],
+    [
+     "verte",
+     "green"
+    ]
+   ],
    "audio": {
     "fr": "audio/s155_fr.mp3",
     "frs": "audio/s155_frs.mp3",
     "en": "audio/s155_en.mp3",
-    "gl": "audio/s155_gl.mp3"
+    "gl": "audio/s155_gl.mp3",
+    "wd": "audio/s155_wd.mp3"
    },
    "ms": {
     "fr": 5360,
     "frs": 7660,
     "en": 4040,
-    "gl": 3660
+    "gl": 3660,
+    "wd": 16990
    },
    "bank": {
     "fr": [
-     2036220,
+     3851520,
      5360
     ],
     "frs": [
-     2041980,
+     3857280,
      7660
     ],
     "en": [
-     2050040,
+     3865340,
      4040
     ],
     "gl": [
-     2054480,
+     3869780,
      3660
+    ],
+    "wd": [
+     3873840,
+     16990
+    ],
+    "wp": [
+     [
+      3873840,
+      2680
+     ],
+     [
+      3876920,
+      2280
+     ],
+     [
+      3879600,
+      2410
+     ],
+     [
+      3882410,
+      2190
+     ],
+     [
+      3885000,
+      2230
+     ],
+     [
+      3887630,
+      2350
+     ]
     ]
    }
   },
@@ -5118,29 +11377,78 @@
    "en": "\"Monsieur, singing at six o'clock: no.",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Monsieur",
+     "sir"
+    ],
+    [
+     "chanson",
+     "song"
+    ],
+    [
+     "six",
+     "six"
+    ],
+    [
+     "heures",
+     "o'clock"
+    ],
+    [
+     "c'est non",
+     "no way"
+    ]
+   ],
    "audio": {
     "fr": "audio/s156_fr.mp3",
     "frs": "audio/s156_frs.mp3",
-    "en": "audio/s156_en.mp3"
+    "en": "audio/s156_en.mp3",
+    "wd": "audio/s156_wd.mp3"
    },
    "ms": {
     "fr": 3780,
     "frs": 5240,
-    "en": 3360
+    "en": 3360,
+    "wd": 14220
    },
    "bank": {
     "fr": [
-     2058540,
+     3891230,
      3780
     ],
     "frs": [
-     2062719,
+     3895410,
      5240
     ],
     "en": [
-     2068360,
+     3901050,
      3360
+    ],
+    "wd": [
+     3904810,
+     14220
+    ],
+    "wp": [
+     [
+      3904810,
+      2270
+     ],
+     [
+      3907480,
+      2440
+     ],
+     [
+      3910320,
+      2340
+     ],
+     [
+      3913060,
+      2290
+     ],
+     [
+      3915750,
+      2430
+     ]
     ]
    }
   },
@@ -5149,29 +11457,70 @@
    "en": "Some people sleep in the morning. A neighbor.\"",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Certains",
+     "some people"
+    ],
+    [
+     "dorment",
+     "sleep"
+    ],
+    [
+     "matin",
+     "morning"
+    ],
+    [
+     "voisine",
+     "neighbour"
+    ]
+   ],
    "audio": {
     "fr": "audio/s157_fr.mp3",
     "frs": "audio/s157_frs.mp3",
-    "en": "audio/s157_en.mp3"
+    "en": "audio/s157_en.mp3",
+    "wd": "audio/s157_wd.mp3"
    },
    "ms": {
     "fr": 4059,
     "frs": 5710,
-    "en": 2940
+    "en": 2940,
+    "wd": 11840
    },
    "bank": {
     "fr": [
-     2072120,
+     3919430,
      4059
     ],
     "frs": [
-     2076580,
+     3923890,
      5710
     ],
     "en": [
-     2082690,
+     3930000,
      2940
+    ],
+    "wd": [
+     3933340,
+     11840
+    ],
+    "wp": [
+     [
+      3933340,
+      2610
+     ],
+     [
+      3936350,
+      2370
+     ],
+     [
+      3939120,
+      2309
+     ],
+     [
+      3941830,
+      2500
+     ]
     ]
    }
   },
@@ -5180,29 +11529,62 @@
    "en": "\"You see,\" said Madame Grimaud.",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "voyez",
+     "see"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Madame",
+     "Mrs"
+    ]
+   ],
    "audio": {
     "fr": "audio/s158_fr.mp3",
     "frs": "audio/s158_frs.mp3",
-    "en": "audio/s158_en.mp3"
+    "en": "audio/s158_en.mp3",
+    "wd": "audio/s158_wd.mp3"
    },
    "ms": {
     "fr": 2960,
     "frs": 4000,
-    "en": 2480
+    "en": 2480,
+    "wd": 8600
    },
    "bank": {
     "fr": [
-     2086030,
+     3945580,
      2960
     ],
     "frs": [
-     2089389,
+     3948940,
      4000
     ],
     "en": [
-     2093790,
+     3953340,
      2480
+    ],
+    "wd": [
+     3956220,
+     8600
+    ],
+    "wp": [
+     [
+      3956220,
+      2240
+     ],
+     [
+      3958860,
+      2220
+     ],
+     [
+      3961480,
+      2490
+     ]
     ]
    }
   },
@@ -5211,29 +11593,70 @@
    "en": "\"I'm not very brave either.\"",
    "para": 27,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Moi non plus",
+     "me neither"
+    ],
+    [
+     "suis",
+     "am"
+    ],
+    [
+     "pas",
+     "not"
+    ],
+    [
+     "courageuse",
+     "brave"
+    ]
+   ],
    "audio": {
     "fr": "audio/s159_fr.mp3",
     "frs": "audio/s159_frs.mp3",
-    "en": "audio/s159_en.mp3"
+    "en": "audio/s159_en.mp3",
+    "wd": "audio/s159_wd.mp3"
    },
    "ms": {
     "fr": 3560,
     "frs": 4900,
-    "en": 2050
+    "en": 2050,
+    "wd": 11690
    },
    "bank": {
     "fr": [
-     2096670,
+     3965220,
      3560
     ],
     "frs": [
-     2100630,
+     3969180,
      4900
     ],
     "en": [
-     2105930,
+     3974480,
      2050
+    ],
+    "wd": [
+     3976930,
+     11690
+    ],
+    "wp": [
+     [
+      3976930,
+      2780
+     ],
+     [
+      3980110,
+      2210
+     ],
+     [
+      3982720,
+      2030
+     ],
+     [
+      3985150,
+      2620
+     ]
     ]
    }
   },
@@ -5242,29 +11665,78 @@
    "en": "Since that day, the building has a new rule.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Depuis",
+     "since"
+    ],
+    [
+     "jour-là",
+     "day"
+    ],
+    [
+     "immeuble",
+     "building"
+    ],
+    [
+     "nouveau",
+     "new"
+    ],
+    [
+     "règlement",
+     "rule"
+    ]
+   ],
    "audio": {
     "fr": "audio/s160_fr.mp3",
     "frs": "audio/s160_frs.mp3",
-    "en": "audio/s160_en.mp3"
+    "en": "audio/s160_en.mp3",
+    "wd": "audio/s160_wd.mp3"
    },
    "ms": {
     "fr": 3680,
     "frs": 5150,
-    "en": 3150
+    "en": 3150,
+    "wd": 14020
    },
    "bank": {
     "fr": [
-     2108380,
+     3989020,
      3680
     ],
     "frs": [
-     2112460,
+     3993100,
      5150
     ],
     "en": [
-     2118010,
+     3998650,
      3150
+    ],
+    "wd": [
+     4002200,
+     14020
+    ],
+    "wp": [
+     [
+      4002200,
+      2400
+     ],
+     [
+      4005000,
+      2230
+     ],
+     [
+      4007630,
+      2360
+     ],
+     [
+      4010389,
+      2200
+     ],
+     [
+      4012990,
+      2380
+     ]
     ]
    }
   },
@@ -5273,29 +11745,94 @@
    "en": "No singing in the shower at six in the morning.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Pas",
+     "no"
+    ],
+    [
+     "chanson",
+     "singing"
+    ],
+    [
+     "sous",
+     "under"
+    ],
+    [
+     "douche",
+     "shower"
+    ],
+    [
+     "six",
+     "six"
+    ],
+    [
+     "heures",
+     "o'clock"
+    ],
+    [
+     "matin",
+     "morning"
+    ]
+   ],
    "audio": {
     "fr": "audio/s161_fr.mp3",
     "frs": "audio/s161_frs.mp3",
-    "en": "audio/s161_en.mp3"
+    "en": "audio/s161_en.mp3",
+    "wd": "audio/s161_wd.mp3"
    },
    "ms": {
     "fr": 3350,
     "frs": 4590,
-    "en": 2880
+    "en": 2880,
+    "wd": 19210
    },
    "bank": {
     "fr": [
-     2121560,
+     4016620,
      3350
     ],
     "frs": [
-     2125310,
+     4020370,
      4590
     ],
     "en": [
-     2130300,
+     4025360,
      2880
+    ],
+    "wd": [
+     4028640,
+     19210
+    ],
+    "wp": [
+     [
+      4028640,
+      2030
+     ],
+     [
+      4031070,
+      2450
+     ],
+     [
+      4033920,
+      2210
+     ],
+     [
+      4036530,
+      2329
+     ],
+     [
+      4039260,
+      2340
+     ],
+     [
+      4042000,
+      2290
+     ],
+     [
+      4044690,
+      2309
+     ]
     ]
    }
   },
@@ -5304,29 +11841,62 @@
    "en": "No saxophone at midnight.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Pas",
+     "no"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "minuit",
+     "midnight"
+    ]
+   ],
    "audio": {
     "fr": "audio/s162_fr.mp3",
     "frs": "audio/s162_frs.mp3",
-    "en": "audio/s162_en.mp3"
+    "en": "audio/s162_en.mp3",
+    "wd": "audio/s162_wd.mp3"
    },
    "ms": {
     "fr": 2430,
     "frs": 3210,
-    "en": 2200
+    "en": 2200,
+    "wd": 9030
    },
    "bank": {
     "fr": [
-     2133580,
+     4048250,
      2430
     ],
     "frs": [
-     2136410,
+     4051080,
      3210
     ],
     "en": [
-     2140020,
+     4054690,
      2200
+    ],
+    "wd": [
+     4057290,
+     9030
+    ],
+    "wp": [
+     [
+      4057290,
+      2030
+     ],
+     [
+      4059720,
+      2970
+     ],
+     [
+      4063090,
+      2380
+     ]
     ]
    }
   },
@@ -5335,29 +11905,78 @@
    "en": "But every Saturday, at six in the evening, in the hall,",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "tous les samedis",
+     "every Saturday"
+    ],
+    [
+     "six",
+     "six"
+    ],
+    [
+     "heures",
+     "o'clock"
+    ],
+    [
+     "soir",
+     "evening"
+    ],
+    [
+     "hall",
+     "hall"
+    ]
+   ],
    "audio": {
     "fr": "audio/s163_fr.mp3",
     "frs": "audio/s163_frs.mp3",
-    "en": "audio/s163_en.mp3"
+    "en": "audio/s163_en.mp3",
+    "wd": "audio/s163_wd.mp3"
    },
    "ms": {
     "fr": 4400,
     "frs": 6170,
-    "en": 3810
+    "en": 3810,
+    "wd": 14830
    },
    "bank": {
     "fr": [
-     2142620,
+     4066720,
      4400
     ],
     "frs": [
-     2147420,
+     4071520,
      6170
     ],
     "en": [
-     2153990,
+     4078090,
      3810
+    ],
+    "wd": [
+     4082300,
+     14830
+    ],
+    "wp": [
+     [
+      4082300,
+      3190
+     ],
+     [
+      4085890,
+      2340
+     ],
+     [
+      4088630,
+      2290
+     ],
+     [
+      4091320,
+      2440
+     ],
+     [
+      4094160,
+      2120
+     ]
     ]
    }
   },
@@ -5366,29 +11985,70 @@
    "en": "Madame Grimaud plays the saxophone, and Hugo sings.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "joue",
+     "plays"
+    ],
+    [
+     "saxophone",
+     "saxophone"
+    ],
+    [
+     "chante",
+     "sings"
+    ]
+   ],
    "audio": {
     "fr": "audio/s164_fr.mp3",
     "frs": "audio/s164_frs.mp3",
-    "en": "audio/s164_en.mp3"
+    "en": "audio/s164_en.mp3",
+    "wd": "audio/s164_wd.mp3"
    },
    "ms": {
     "fr": 4150,
     "frs": 5770,
-    "en": 3880
+    "en": 3880,
+    "wd": 12190
    },
    "bank": {
     "fr": [
-     2158200,
+     4097529,
      4150
     ],
     "frs": [
-     2162750,
+     4102080,
      5770
     ],
     "en": [
-     2168920,
+     4108250,
      3880
+    ],
+    "wd": [
+     4112529,
+     12190
+    ],
+    "wp": [
+     [
+      4112529,
+      2490
+     ],
+     [
+      4115419,
+      2270
+     ],
+     [
+      4118089,
+      2970
+     ],
+     [
+      4121459,
+      2410
+     ]
     ]
    }
   },
@@ -5397,29 +12057,70 @@
    "en": "Always the same song. Always off-key.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Toujours",
+     "always"
+    ],
+    [
+     "même",
+     "same"
+    ],
+    [
+     "chanson",
+     "song"
+    ],
+    [
+     "faux",
+     "off-key"
+    ]
+   ],
    "audio": {
     "fr": "audio/s165_fr.mp3",
     "frs": "audio/s165_frs.mp3",
-    "en": "audio/s165_en.mp3"
+    "en": "audio/s165_en.mp3",
+    "wd": "audio/s165_wd.mp3"
    },
    "ms": {
     "fr": 3960,
     "frs": 5530,
-    "en": 3020
+    "en": 3020,
+    "wd": 11480
    },
    "bank": {
     "fr": [
-     2173200,
+     4125120,
      3960
     ],
     "frs": [
-     2177560,
+     4129479,
      5530
     ],
     "en": [
-     2183490,
+     4135410,
      3020
+    ],
+    "wd": [
+     4138830,
+     11480
+    ],
+    "wp": [
+     [
+      4138830,
+      2520
+     ],
+     [
+      4141750,
+      2230
+     ],
+     [
+      4144380,
+      2440
+     ],
+     [
+      4147220,
+      2240
+     ]
     ]
    }
   },
@@ -5428,29 +12129,62 @@
    "en": "Madame Da Silva brings a tart.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Madame",
+     "Mrs"
+    ],
+    [
+     "apporte",
+     "brings"
+    ],
+    [
+     "tarte",
+     "pie"
+    ]
+   ],
    "audio": {
     "fr": "audio/s166_fr.mp3",
     "frs": "audio/s166_frs.mp3",
-    "en": "audio/s166_en.mp3"
+    "en": "audio/s166_en.mp3",
+    "wd": "audio/s166_wd.mp3"
    },
    "ms": {
     "fr": 3110,
     "frs": 4210,
-    "en": 2350
+    "en": 2350,
+    "wd": 8870
    },
    "bank": {
     "fr": [
-     2186910,
+     4150710,
      3110
     ],
     "frs": [
-     2190420,
+     4154220,
      4210
     ],
     "en": [
-     2195030,
+     4158830,
      2350
+    ],
+    "wd": [
+     4161580,
+     8870
+    ],
+    "wp": [
+     [
+      4161580,
+      2490
+     ],
+     [
+      4164470,
+      2450
+     ],
+     [
+      4167320,
+      2280
+     ]
     ]
    }
   },
@@ -5459,29 +12193,70 @@
    "en": "Noé sells tickets for fifty cents.",
    "para": 28,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "vend",
+     "sells"
+    ],
+    [
+     "billets",
+     "tickets"
+    ],
+    [
+     "cinquante",
+     "fifty"
+    ],
+    [
+     "centimes",
+     "cents"
+    ]
+   ],
    "audio": {
     "fr": "audio/s167_fr.mp3",
     "frs": "audio/s167_frs.mp3",
-    "en": "audio/s167_en.mp3"
+    "en": "audio/s167_en.mp3",
+    "wd": "audio/s167_wd.mp3"
    },
    "ms": {
     "fr": 3210,
     "frs": 4370,
-    "en": 2580
+    "en": 2580,
+    "wd": 11810
    },
    "bank": {
     "fr": [
-     2197780,
+     4170850,
      3210
     ],
     "frs": [
-     2201390,
+     4174460,
      4370
     ],
     "en": [
-     2206160,
+     4179229,
      2580
+    ],
+    "wd": [
+     4182210,
+     11810
+    ],
+    "wp": [
+     [
+      4182210,
+      2210
+     ],
+     [
+      4184820,
+      2360
+     ],
+     [
+      4187580,
+      2600
+     ],
+     [
+      4190580,
+      2590
+     ]
     ]
    }
   },
@@ -5490,29 +12265,70 @@
    "en": "The first Saturday, after the song,",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "premier",
+     "first"
+    ],
+    [
+     "samedi",
+     "Saturday"
+    ],
+    [
+     "après",
+     "after"
+    ],
+    [
+     "chanson",
+     "song"
+    ]
+   ],
    "audio": {
     "fr": "audio/s168_fr.mp3",
     "frs": "audio/s168_frs.mp3",
-    "en": "audio/s168_en.mp3"
+    "en": "audio/s168_en.mp3",
+    "wd": "audio/s168_wd.mp3"
    },
    "ms": {
     "fr": 3190,
     "frs": 4340,
-    "en": 2660
+    "en": 2660,
+    "wd": 11860
    },
    "bank": {
     "fr": [
-     2209140,
+     4194420,
      3190
     ],
     "frs": [
-     2212730,
+     4198010,
      4340
     ],
     "en": [
-     2217470,
+     4202750,
      2660
+    ],
+    "wd": [
+     4205810,
+     11860
+    ],
+    "wp": [
+     [
+      4205810,
+      2420
+     ],
+     [
+      4208630,
+      2700
+     ],
+     [
+      4211730,
+      2250
+     ],
+     [
+      4214380,
+      2440
+     ]
     ]
    }
   },
@@ -5521,29 +12337,62 @@
    "en": "Hugo turned toward Monsieur Kessler.",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "s'est tourné",
+     "turned"
+    ],
+    [
+     "vers",
+     "towards"
+    ],
+    [
+     "Monsieur",
+     "Mr"
+    ]
+   ],
    "audio": {
     "fr": "audio/s169_fr.mp3",
     "frs": "audio/s169_frs.mp3",
-    "en": "audio/s169_en.mp3"
+    "en": "audio/s169_en.mp3",
+    "wd": "audio/s169_wd.mp3"
    },
    "ms": {
     "fr": 2930,
     "frs": 3990,
-    "en": 2580
+    "en": 2580,
+    "wd": 8810
    },
    "bank": {
     "fr": [
-     2220530,
+     4218070,
      2930
     ],
     "frs": [
-     2223860,
+     4221400,
      3990
     ],
     "en": [
-     2228250,
+     4225790,
      2580
+    ],
+    "wd": [
+     4228770,
+     8810
+    ],
+    "wp": [
+     [
+      4228770,
+      2520
+     ],
+     [
+      4231690,
+      2340
+     ],
+     [
+      4234430,
+      2300
+     ]
     ]
    }
   },
@@ -5552,29 +12401,70 @@
    "en": "\"So, Monsieur Kessler, how was it?\"",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "c'était",
+     "it was"
+    ],
+    [
+     "comment",
+     "how"
+    ]
+   ],
    "audio": {
     "fr": "audio/s170_fr.mp3",
     "frs": "audio/s170_frs.mp3",
-    "en": "audio/s170_en.mp3"
+    "en": "audio/s170_en.mp3",
+    "wd": "audio/s170_wd.mp3"
    },
    "ms": {
     "fr": 3630,
     "frs": 4990,
-    "en": 2400
+    "en": 2400,
+    "wd": 11210
    },
    "bank": {
     "fr": [
-     2231230,
+     4237980,
      3630
     ],
     "frs": [
-     2235260,
+     4242010,
      4990
     ],
     "en": [
-     2240650,
+     4247400,
      2400
+    ],
+    "wd": [
+     4250200,
+     11210
+    ],
+    "wp": [
+     [
+      4250200,
+      2270
+     ],
+     [
+      4252870,
+      2300
+     ],
+     [
+      4255570,
+      2410
+     ],
+     [
+      4258380,
+      2180
+     ]
     ]
    }
   },
@@ -5583,29 +12473,62 @@
    "en": "Monsieur Kessler thought for a long time.",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Monsieur",
+     "Mr"
+    ],
+    [
+     "a réfléchi",
+     "thought"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ]
+   ],
    "audio": {
     "fr": "audio/s171_fr.mp3",
     "frs": "audio/s171_frs.mp3",
-    "en": "audio/s171_en.mp3"
+    "en": "audio/s171_en.mp3",
+    "wd": "audio/s171_wd.mp3"
    },
    "ms": {
     "fr": 2870,
     "frs": 3930,
-    "en": 2550
+    "en": 2550,
+    "wd": 9270
    },
    "bank": {
     "fr": [
-     2243450,
+     4261810,
      2870
     ],
     "frs": [
-     2246720,
+     4265080,
      3930
     ],
     "en": [
-     2251050,
+     4269410,
      2550
+    ],
+    "wd": [
+     4272360,
+     9270
+    ],
+    "wp": [
+     [
+      4272360,
+      2300
+     ],
+     [
+      4275060,
+      2570
+     ],
+     [
+      4278030,
+      2750
+     ]
     ]
    }
   },
@@ -5614,29 +12537,70 @@
    "en": "Then he said: \"Perfect, thank you.\"",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Parfait",
+     "perfect"
+    ],
+    [
+     "merci",
+     "thank you"
+    ]
+   ],
    "audio": {
     "fr": "audio/s172_fr.mp3",
     "frs": "audio/s172_frs.mp3",
-    "en": "audio/s172_en.mp3"
+    "en": "audio/s172_en.mp3",
+    "wd": "audio/s172_wd.mp3"
    },
    "ms": {
     "fr": 3370,
     "frs": 4610,
-    "en": 3060
+    "en": 3060,
+    "wd": 11120
    },
    "bank": {
     "fr": [
-     2254000,
+     4282030,
      3370
     ],
     "frs": [
-     2257770,
+     4285800,
      4610
     ],
     "en": [
-     2262780,
+     4290810,
      3060
+    ],
+    "wd": [
+     4294270,
+     11120
+    ],
+    "wp": [
+     [
+      4294270,
+      2110
+     ],
+     [
+      4296780,
+      2220
+     ],
+     [
+      4299400,
+      2350
+     ],
+     [
+      4302150,
+      2390
+     ]
     ]
    }
   },
@@ -5645,29 +12609,46 @@
    "en": "Hugo smiled.",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "a souri",
+     "smiled"
+    ]
+   ],
    "audio": {
     "fr": "audio/s173_fr.mp3",
     "frs": "audio/s173_frs.mp3",
-    "en": "audio/s173_en.mp3"
+    "en": "audio/s173_en.mp3",
+    "wd": "audio/s173_wd.mp3"
    },
    "ms": {
     "fr": 1820,
     "frs": 2330,
-    "en": 1580
+    "en": 1580,
+    "wd": 3320
    },
    "bank": {
     "fr": [
-     2266240,
+     4305790,
      1820
     ],
     "frs": [
-     2268460,
+     4308010,
      2330
     ],
     "en": [
-     2271190,
+     4310740,
      1580
+    ],
+    "wd": [
+     4312720,
+     3320
+    ],
+    "wp": [
+     [
+      4312720,
+      2470
+     ]
     ]
    }
   },
@@ -5676,29 +12657,78 @@
    "en": "He knew perfectly well what that meant.",
    "para": 29,
    "glosses": [],
-   "words": [],
+   "words": [
+    [
+     "savait",
+     "knew"
+    ],
+    [
+     "bien",
+     "well"
+    ],
+    [
+     "ce que",
+     "what"
+    ],
+    [
+     "ça",
+     "that"
+    ],
+    [
+     "voulait dire",
+     "meant"
+    ]
+   ],
    "audio": {
     "fr": "audio/s174_fr.mp3",
     "frs": "audio/s174_frs.mp3",
-    "en": "audio/s174_en.mp3"
+    "en": "audio/s174_en.mp3",
+    "wd": "audio/s174_wd.mp3"
    },
    "ms": {
     "fr": 3010,
     "frs": 4059,
-    "en": 2510
+    "en": 2510,
+    "wd": 13780
    },
    "bank": {
     "fr": [
-     2273170,
+     4316440,
      3010
     ],
     "frs": [
-     2276580,
+     4319850,
      4059
     ],
     "en": [
-     2281040,
+     4324310,
      2510
+    ],
+    "wd": [
+     4327220,
+     13780
+    ],
+    "wp": [
+     [
+      4327220,
+      2260
+     ],
+     [
+      4329880,
+      2120
+     ],
+     [
+      4332400,
+      2240
+     ],
+     [
+      4335040,
+      2150
+     ],
+     [
+      4337590,
+      2560
+     ]
     ]
    }
   }
