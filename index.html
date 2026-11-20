@@ -319,7 +319,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.65";
+const VERSION = "web 0.66";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -338,7 +338,7 @@ document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.datas
 const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = {};  // every language: T EN T EN T (Saten, 2026-11-20; was T EN T); saved choices are kept
+const DEFAULT_PATTERN = {};  // every language: T EN T, the same as the onboarding demo (Saten, 2026-11-20); saved choices are kept
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
 const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
@@ -435,7 +435,7 @@ if (!store.get("mode_reset_024", false)) { try { for (const l of ["fr", "hy"]) l
 const getMode = () => store.get("mode_" + lang, LESSON_FIRST.includes(lang) || (store.get("place_" + lang, {}) || {}).start?.startsWith(lang + "_s0") ? "lesson" : "story");
 const lessonMode = () => getMode() === "lesson";
 
-const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T EN T");
+const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T");
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
   .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
@@ -997,8 +997,7 @@ const ONB_LEVELS = [
   ["B1", "I can follow simple stories", "but I miss a lot"],
   ["B2", "Comfortable", "I understand most things"],
 ];
-const CONT = ["T", "EN", "T", "EN", "T"];  // the Continuous default (Saten likes it better than T EN T)
-const DEMO = ["T", "EN", "T"];  // the joke plays the short one: 5 parts per line confused people (Saten, 2026-11-20)
+const DEMO = ["T", "EN", "T"];  // the joke's Continuous part, and what choosing Continuous saves: what they heard is what they get
 const ONB = { step: 0, name: "", lang: null, level: null, mode: null, joke: null };
 
 async function onbJoke() {
@@ -1009,39 +1008,43 @@ async function onbJoke() {
   return ONB.joke = { lang: ONB.lang, url: `${MEDIA}onb/${ONB.lang}.m4a?v=${VERSION}`, segs: st.segments };
 }
 const TOK_NAME = t => ({ T: LANGS[ONB.lang][0], EN: "English", WORDS: "Word by word" }[t]);
-// the joke: phrases 1–2 the learner taps through, phrases 3–4 play by themselves
+// the joke: phrase 1 the learner taps through exactly like a real lesson (each word pair its own step), phrases 2–4 play
+// by themselves with the pattern they will get (Saten: the demo must not promise something else)
 function onbTour() {
   const T = { run: 0, p: 0, k: -1 };
   onbJoke().then(j => {
     if (!j) { $("tour").innerHTML = `<div class="muted">Couldn't load the example. Tap Skip.</div>`; return; }
-    const lessonToks = s => WORDY.includes(ONB.lang) && s.bank.wd ? LESSON : ["T", "EN", "T"];
-    const paint = (list, k) => $("tToks").innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${TOK_NAME(t)}</span>`).join("");
+    const lessonToks = s => s.bank.wp ? ["T", "EN", ...s.bank.wp.map((_, k) => "W" + k), "EN", "T"] : ["T", "EN", "T"];
+    const isW = t => /^W\d/.test(t), seg0 = j.segs[0];
+    const tokName = t => isW(t) ? seg0.words[+t.slice(1)][0] : TOK_NAME(t);
+    const range = (s, t) => isW(t) ? s.bank.wp[+t.slice(1)] : s.bank[KIND[t]];
+    const paint = (list, k) => $("tToks").innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${esc(tokName(t))}</span>`).join("");
     const text = (s, list, k) => {
       $("tFr").textContent = s.fr;
       $("tEn").textContent = k >= 0 && list.slice(0, k + 1).includes("EN") ? s.en : "";
-      $("tWd").textContent = list[k] === "WORDS" ? s.words.map(w => `${w[0]} = ${w[1]}`).join(" · ") : "";
+      $("tWd").textContent = isW(list[k] || "") ? `${s.words[+list[k].slice(1)][0]} = ${s.words[+list[k].slice(1)][1]}` : "";
     };
     const head = (title, tag, about) => { $("tTitle").innerHTML = `${title} <span class="rec">${tag}</span>`; $("tAbout").textContent = about; };
     // part 1: Step by step
     const lesson = () => {
-      head("Step by step", "for beginners", "You tap Next for each part: the sentence, its meaning, then word by word. Go at your own pace.");
-      const s = j.segs[T.p], list = lessonToks(s);
+      head("Step by step", "for beginners", "You tap Next for each part: the sentence, its meaning, then each word. Go at your own pace.");
+      const s = seg0, list = lessonToks(s);
       paint(list, T.k); text(s, list, T.k);
       $("tCtl").innerHTML = `<button class="ib" id="tRep"><span class="c">${ICON.repeat}</span>Repeat</button>
         <button class="ib main pulse" id="tNext"><span class="c">${ICON.next}</span>Next</button>`;
-      $("tHint").innerHTML = T.p === 0 && T.k < 0 ? `<span class="tapme">👆</span> Tap <b>Next</b> to hear the first sentence` :
-        T.k === list.length - 1 ? (T.p === 0 ? "Tap <b>Next</b> for the next sentence" : "Tap <b>Next</b> to see the other mode") : "Tap <b>Next</b> when you're ready";
-      $("tRep").onclick = () => { if (T.k >= 0) vaRange(j.url, s.bank[KIND[list[T.k]]], null); };
+      $("tHint").innerHTML = T.k < 0 ? `<span class="tapme">👆</span> Tap <b>Next</b> to hear the first sentence` :
+        T.k === list.length - 1 ? "Tap <b>Next</b> to try the other way" : isW(list[T.k]) ? "One word at a time. Tap <b>Next</b> for the next one" : "Tap <b>Next</b> when you're ready";
+      $("tRep").onclick = () => { if (T.k >= 0) vaRange(j.url, range(s, list[T.k]), null); };
       $("tNext").onclick = () => {
-        if (T.k === list.length - 1) { T.k = -1; T.p++; return T.p < 2 ? (lesson(), $("tNext").click()) : cont(); }
-        T.k++; lesson(); vaRange(j.url, s.bank[KIND[list[T.k]]], null);
+        if (T.k === list.length - 1) return cont();
+        T.k++; lesson(); vaRange(j.url, range(s, list[T.k]), null);
       };
     };
     // part 2: Continuous
     const cont = () => {
       VA.el.pause(); T.run++;
       head("Continuous", "hands-free", `Now it plays by itself, like an audiobook: ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}. Just listen.`);
-      paint(DEMO, -1); text(j.segs[2], DEMO, -1);
+      paint(DEMO, -1); text(j.segs[1], DEMO, -1);
       $("tCtl").innerHTML = `<button class="ib main pulse" id="tPlay"><span class="c">${ICON.play}</span>Play</button>`;
       $("tHint").innerHTML = `<span class="tapme">👆</span> Tap <b>Play</b>, then just listen`;
       $("tPlay").onclick = () => {
@@ -1049,11 +1052,11 @@ function onbTour() {
         $("tCtl").innerHTML = ""; $("tHint").textContent = "Playing by itself…";
         const go = (p, k) => {
           if (run !== T.run) return;
-          if (k === DEMO.length) return p === 2 ? setTimeout(() => go(3, 0), 600) : done();
+          if (k === DEMO.length) return p < j.segs.length - 1 ? setTimeout(() => go(p + 1, 0), 600) : done();
           paint(DEMO, k); text(j.segs[p], DEMO, k);
           vaRange(j.url, j.segs[p].bank[KIND[DEMO[k]]], () => go(p, k + 1));
         };
-        go(2, 0);
+        go(1, 0);
       };
     };
     const done = () => {
@@ -1070,7 +1073,7 @@ function onbFinish() {
   store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
   store.set("level_" + lang, ONB.level);
   store.set("mode_" + lang, ONB.mode);
-  if (ONB.mode === "story") store.set("pattern_" + lang, CONT.join(" "));
+  if (ONB.mode === "story") store.set("pattern_" + lang, DEMO.join(" "));
   store.set("onboarded", true);
   ONB.sendLove && ONB.sendLove();
   log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured }, "");
@@ -1092,14 +1095,15 @@ function onbShow() {
   if (ONB.step === 2) html = `<h1>How much ${LANGS[ONB.lang][0]} do you know?</h1>` +
     ONB_LEVELS.map(([v, t, d]) => `<button class="opt radio${ONB.level === v ? " on" : ""}" data-v="${v}"><b>${t}</b><div class="muted">${d}</div></button>`).join("") +
     `<button class="go" id="onbNext" ${ONB.level ? "" : "disabled"}>Next</button>`;
-  if (ONB.step === 3) html = `<h1>Two ways to listen</h1><div class="muted">Try both with a tiny joke, then pick one.</div>
+  if (ONB.step === 3) html = `<h1>Two ways to listen</h1><div class="muted">Try both with a tiny joke, then pick one. You can fine-tune either later in ⚙ Settings.</div>
     <div class="demo tour" id="tour"><b id="tTitle"></b><div class="muted" id="tAbout"></div>
       <div class="toks" id="tToks"></div><div class="fr" id="tFr"></div><div class="en" id="tEn"></div><div class="wd muted" id="tWd"></div>
       <div class="pctl" id="tCtl"></div><div class="muted" id="tHint" style="text-align:center;margin-top:8px"></div></div>
     <button class="go" id="onbNext" disabled>Choose one</button>${skip}`;
   if (ONB.step === 4) {
     const opt = (m, t, d) => `<button class="opt radio${ONB.mode === m ? " on" : ""}" data-m="${m}"><b>${t}</b><div class="muted">${d}</div></button>`;
-    html = `<h1>Which did you prefer?</h1><div class="muted">Pick one. You can switch any time at the top of the player.</div>` +
+    html = `<h1>Which did you prefer?</h1><div class="muted">Pick one. You can switch any time at the top of the player,
+      and set it up your way in ⚙ Settings: more repetition, longer pauses, and more.</div>` +
       opt("lesson", "Step by step", "You tap Next for each part. Best for beginners, or to study each sentence.") +
       opt("story", "Continuous", "Plays by itself, like an audiobook. Hands-free: walking, cooking, driving.") +
       `<button class="go" id="onbNext" ${ONB.mode ? "" : "disabled"}>${ONB.mode ? `Continue with ${ONB.mode === "lesson" ? "Step by step" : "Continuous"}` : "Next"}</button>`;
