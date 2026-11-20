@@ -1,0 +1,3312 @@
+{
+ "id": "fr_chekhov_mort_fonctionnaire",
+ "lang": "fr",
+ "title": "La Mort d'un fonctionnaire",
+ "author": "Adapted from Anton Chekhov (1883)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "A little clerk is happy at the opera, until he sneezes, éternué, on the bald head of a general. It's only a sneeze. But he cannot stop apologizing. Chekhov, 1883, retold in simple French.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 22510,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Un soir, un petit fonctionnaire, Ivan Tcherviakov, était très heureux.",
+   "en": "One evening, a minor civil servant, Ivan Tcherviakov, was very happy.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "fonctionnaire",
+     "en": "civil servant, clerk"
+    }
+   ],
+   "words": [
+    [
+     "Un soir",
+     "one evening"
+    ],
+    [
+     "un petit fonctionnaire",
+     "a minor civil servant"
+    ],
+    [
+     "Ivan Tcherviakov",
+     "Ivan Tcherviakov"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "heureux",
+     "happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5480,
+    "frs": 7780,
+    "en": 5170,
+    "gl": 4800,
+    "wd": 19640
+   },
+   "bank": {
+    "fr": [
+     53710,
+     5480
+    ],
+    "frs": [
+     59590,
+     7780
+    ],
+    "en": [
+     67770,
+     5170
+    ],
+    "gl": [
+     73340,
+     4800
+    ],
+    "wd": [
+     78540,
+     19640
+    ],
+    "wp": [
+     [
+      78540,
+      2640
+     ],
+     [
+      81580,
+      3870
+     ],
+     [
+      85850,
+      3770
+     ],
+     [
+      90020,
+      2150
+     ],
+     [
+      92570,
+      2130
+     ],
+     [
+      95100,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il était à l'opéra, au deuxième rang, avec ses jumelles.",
+   "en": "He was at the opera, in the second row, with his opera glasses.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "à l'opéra",
+     "at the opera"
+    ],
+    [
+     "au deuxième rang",
+     "in the second row"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "ses jumelles",
+     "his opera glasses"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "frs": 6300,
+    "en": 4260,
+    "wd": 18380
+   },
+   "bank": {
+    "fr": [
+     98580,
+     4490
+    ],
+    "frs": [
+     103470,
+     6300
+    ],
+    "en": [
+     110170,
+     4260
+    ],
+    "wd": [
+     114830,
+     18380
+    ],
+    "wp": [
+     [
+      114830,
+      2020
+     ],
+     [
+      117250,
+      2150
+     ],
+     [
+      119800,
+      2820
+     ],
+     [
+      123019,
+      3060
+     ],
+     [
+      126480,
+      2170
+     ],
+     [
+      129050,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il regardait la scène et se sentait le plus heureux des hommes.",
+   "en": "He watched the stage and felt like the happiest of men.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "regardait",
+     "was watching"
+    ],
+    [
+     "la scène",
+     "the stage"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "se sentait",
+     "felt"
+    ],
+    [
+     "le plus heureux des hommes",
+     "the happiest of men"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3820,
+    "frs": 5330,
+    "en": 3500,
+    "wd": 18290
+   },
+   "bank": {
+    "fr": [
+     133610,
+     3820
+    ],
+    "frs": [
+     137830,
+     5330
+    ],
+    "en": [
+     143560,
+     3500
+    ],
+    "wd": [
+     147460,
+     18290
+    ],
+    "wp": [
+     [
+      147460,
+      2020
+     ],
+     [
+      149880,
+      2680
+     ],
+     [
+      152960,
+      2730
+     ],
+     [
+      156090,
+      1820
+     ],
+     [
+      158310,
+      2450
+     ],
+     [
+      161160,
+      3740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais tout à coup, son nez l'a chatouillé, et il a éternué.",
+   "en": "But suddenly his nose tickled him, and he sneezed.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "éternué",
+     "en": "sneezed"
+    }
+   ],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "tout à coup",
+     "suddenly"
+    ],
+    [
+     "son nez",
+     "his nose"
+    ],
+    [
+     "l'a chatouillé",
+     "tickled him"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il a éternué",
+     "he sneezed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "frs": 6010,
+    "en": 3460,
+    "gl": 3600,
+    "wd": 17610
+   },
+   "bank": {
+    "fr": [
+     166150,
+     4300
+    ],
+    "frs": [
+     170850,
+     6010
+    ],
+    "en": [
+     177260,
+     3460
+    ],
+    "gl": [
+     181120,
+     3600
+    ],
+    "wd": [
+     185120,
+     17610
+    ],
+    "wp": [
+     [
+      185120,
+      1920
+     ],
+     [
+      187440,
+      2600
+     ],
+     [
+      190440,
+      2610
+     ],
+     [
+      193450,
+      2740
+     ],
+     [
+      196590,
+      1820
+     ],
+     [
+      198810,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Bien sûr, éternuer n'est pas interdit.",
+   "en": "Of course, sneezing is not forbidden.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Bien sûr",
+     "of course"
+    ],
+    [
+     "éternuer",
+     "to sneeze"
+    ],
+    [
+     "n'est pas",
+     "is not"
+    ],
+    [
+     "interdit",
+     "forbidden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3420,
+    "frs": 4690,
+    "en": 2800,
+    "wd": 12470
+   },
+   "bank": {
+    "fr": [
+     203130,
+     3420
+    ],
+    "frs": [
+     206950,
+     4690
+    ],
+    "en": [
+     212040,
+     2800
+    ],
+    "wd": [
+     215240,
+     12470
+    ],
+    "wp": [
+     [
+      215240,
+      2720
+     ],
+     [
+      218360,
+      2750
+     ],
+     [
+      221510,
+      2400
+     ],
+     [
+      224310,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tout le monde éternue : les paysans, les policiers, et même les ministres.",
+   "en": "Everyone sneezes: peasants, policemen, and even ministers.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "éternue",
+     "sneezes"
+    ],
+    [
+     "les paysans",
+     "peasants"
+    ],
+    [
+     "les policiers",
+     "policemen"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "même",
+     "even"
+    ],
+    [
+     "les ministres",
+     "ministers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5480,
+    "frs": 7770,
+    "en": 4790,
+    "wd": 20790
+   },
+   "bank": {
+    "fr": [
+     228110,
+     5480
+    ],
+    "frs": [
+     233990,
+     7770
+    ],
+    "en": [
+     242160,
+     4790
+    ],
+    "wd": [
+     247350,
+     20790
+    ],
+    "wp": [
+     [
+      247350,
+      2640
+     ],
+     [
+      250390,
+      2580
+     ],
+     [
+      253370,
+      2670
+     ],
+     [
+      256440,
+      2790
+     ],
+     [
+      259630,
+      1820
+     ],
+     [
+      261850,
+      2170
+     ],
+     [
+      264420,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tcherviakov a pris son mouchoir, sans aucune gêne.",
+   "en": "Tcherviakov took out his handkerchief, not at all embarrassed.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ],
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "son mouchoir",
+     "his handkerchief"
+    ],
+    [
+     "sans aucune gêne",
+     "without any embarrassment"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 4110,
+    "frs": 5750,
+    "en": 4000,
+    "wd": 14190
+   },
+   "bank": {
+    "fr": [
+     268540,
+     4110
+    ],
+    "frs": [
+     273050,
+     5750
+    ],
+    "en": [
+     279200,
+     4000
+    ],
+    "wd": [
+     283600,
+     14190
+    ],
+    "wp": [
+     [
+      283600,
+      2980
+     ],
+     [
+      286980,
+      2220
+     ],
+     [
+      289600,
+      3180
+     ],
+     [
+      293180,
+      3760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis il a regardé autour de lui, poliment, pour voir s'il avait dérangé quelqu'un.",
+   "en": "Then he looked around, politely, to see whether he had bothered anyone.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a regardé",
+     "he looked"
+    ],
+    [
+     "autour de lui",
+     "around him"
+    ],
+    [
+     "poliment",
+     "politely"
+    ],
+    [
+     "pour voir",
+     "to see"
+    ],
+    [
+     "s'il avait dérangé",
+     "whether he had bothered"
+    ],
+    [
+     "quelqu'un",
+     "anyone"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 5820,
+    "frs": 8310,
+    "en": 4800,
+    "wd": 22010
+   },
+   "bank": {
+    "fr": [
+     298190,
+     5820
+    ],
+    "frs": [
+     304410,
+     8310
+    ],
+    "en": [
+     313120,
+     4800
+    ],
+    "wd": [
+     318320,
+     22010
+    ],
+    "wp": [
+     [
+      318320,
+      2110
+     ],
+     [
+      320830,
+      2800
+     ],
+     [
+      324030,
+      2820
+     ],
+     [
+      327250,
+      2500
+     ],
+     [
+      330150,
+      2630
+     ],
+     [
+      333180,
+      3480
+     ],
+     [
+      337060,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et là, il a eu très peur.",
+   "en": "And then he got very scared.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Et là",
+     "and then"
+    ],
+    [
+     "il a eu",
+     "he had"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "peur",
+     "fear (avoir peur = to be scared)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "frs": 3540,
+    "en": 2020,
+    "wd": 13480
+   },
+   "bank": {
+    "fr": [
+     340730,
+     2660
+    ],
+    "frs": [
+     343790,
+     3540
+    ],
+    "en": [
+     347730,
+     2020
+    ],
+    "wd": [
+     350150,
+     13480
+    ],
+    "wp": [
+     [
+      350150,
+      2250
+     ],
+     [
+      352800,
+      2560
+     ],
+     [
+      355760,
+      2130
+     ],
+     [
+      358290,
+      4490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Devant lui, un vieux monsieur essuyait son crâne chauve avec son gant.",
+   "en": "In front of him, an old gentleman was wiping his bald head with his glove.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "crâne chauve",
+     "en": "bald head"
+    }
+   ],
+   "words": [
+    [
+     "Devant lui",
+     "in front of him"
+    ],
+    [
+     "un vieux monsieur",
+     "an old gentleman"
+    ],
+    [
+     "essuyait",
+     "was wiping"
+    ],
+    [
+     "son crâne chauve",
+     "his bald head"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "son gant",
+     "his glove"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4370,
+    "frs": 6170,
+    "en": 5040,
+    "gl": 3790,
+    "wd": 19320
+   },
+   "bank": {
+    "fr": [
+     364030,
+     4370
+    ],
+    "frs": [
+     368800,
+     6170
+    ],
+    "en": [
+     375370,
+     5040
+    ],
+    "gl": [
+     380810,
+     3790
+    ],
+    "wd": [
+     385000,
+     19320
+    ],
+    "wp": [
+     [
+      385000,
+      2760
+     ],
+     [
+      388160,
+      3190
+     ],
+     [
+      391750,
+      2550
+     ],
+     [
+      394700,
+      3230
+     ],
+     [
+      398330,
+      2170
+     ],
+     [
+      400900,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'était le général Brizjalov, un homme très important.",
+   "en": "It was General Brizjalov, a very important man.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "le général Brizjalov",
+     "General Brizjalov"
+    ],
+    [
+     "un homme",
+     "a man"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "important",
+     "important"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "frs": 6080,
+    "en": 3520,
+    "wd": 16180
+   },
+   "bank": {
+    "fr": [
+     404720,
+     4310
+    ],
+    "frs": [
+     409430,
+     6080
+    ],
+    "en": [
+     415910,
+     3520
+    ],
+    "wd": [
+     419830,
+     16180
+    ],
+    "wp": [
+     [
+      419830,
+      2410
+     ],
+     [
+      422640,
+      4130
+     ],
+     [
+      427170,
+      2520
+     ],
+     [
+      430090,
+      2130
+     ],
+     [
+      432620,
+      2540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je l'ai arrosé ! » a pensé Tcherviakov.",
+   "en": "\"I sprayed him!\" thought Tcherviakov.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "arrosé",
+     "en": "sprayed"
+    }
+   ],
+   "words": [
+    [
+     "Je l'ai arrosé",
+     "I sprayed him"
+    ],
+    [
+     "a pensé",
+     "thought"
+    ],
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4910,
+    "en": 2620,
+    "gl": 3300,
+    "wd": 10130
+   },
+   "bank": {
+    "fr": [
+     436410,
+     3560
+    ],
+    "frs": [
+     440370,
+     4910
+    ],
+    "en": [
+     445680,
+     2620
+    ],
+    "gl": [
+     448700,
+     3300
+    ],
+    "wd": [
+     452400,
+     10130
+    ],
+    "wp": [
+     [
+      452400,
+      3070
+     ],
+     [
+      455870,
+      2430
+     ],
+     [
+      458700,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce n'était pas son chef, mais quand même, il fallait s'excuser.",
+   "en": "He wasn't his boss, but still, he had to apologize.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "s'excuser",
+     "en": "to apologize"
+    }
+   ],
+   "words": [
+    [
+     "Ce n'était pas",
+     "it wasn't"
+    ],
+    [
+     "son chef",
+     "his boss"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "quand même",
+     "still"
+    ],
+    [
+     "il fallait",
+     "it was necessary"
+    ],
+    [
+     "s'excuser",
+     "to apologize"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4750,
+    "frs": 6710,
+    "en": 4210,
+    "gl": 4100,
+    "wd": 18680
+   },
+   "bank": {
+    "fr": [
+     462930,
+     4750
+    ],
+    "frs": [
+     468080,
+     6710
+    ],
+    "en": [
+     475190,
+     4210
+    ],
+    "gl": [
+     479800,
+     4100
+    ],
+    "wd": [
+     484300,
+     18680
+    ],
+    "wp": [
+     [
+      484300,
+      2720
+     ],
+     [
+      487420,
+      2820
+     ],
+     [
+      490640,
+      1920
+     ],
+     [
+      492960,
+      2470
+     ],
+     [
+      495830,
+      2840
+     ],
+     [
+      499070,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il s'est penché vers l'oreille du général.",
+   "en": "He leaned toward the general's ear.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "s'est penché",
+     "leaned"
+    ],
+    [
+     "vers",
+     "toward"
+    ],
+    [
+     "l'oreille",
+     "the ear"
+    ],
+    [
+     "du général",
+     "of the general"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "frs": 4220,
+    "en": 2370,
+    "wd": 14820
+   },
+   "bank": {
+    "fr": [
+     503380,
+     3070
+    ],
+    "frs": [
+     506850,
+     4220
+    ],
+    "en": [
+     511470,
+     2370
+    ],
+    "wd": [
+     514240,
+     14820
+    ],
+    "wp": [
+     [
+      514240,
+      2020
+     ],
+     [
+      516660,
+      2530
+     ],
+     [
+      519590,
+      2210
+     ],
+     [
+      522200,
+      2560
+     ],
+     [
+      525160,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Excusez-moi, Votre Excellence, j'ai éternué… Je ne voulais pas… »",
+   "en": "\"Excuse me, Your Excellency, I sneezed… I didn't mean to…\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "Votre Excellence",
+     "en": "Your Excellency"
+    }
+   ],
+   "words": [
+    [
+     "Excusez-moi",
+     "excuse me"
+    ],
+    [
+     "Votre Excellence",
+     "Your Excellency"
+    ],
+    [
+     "j'ai éternué",
+     "I sneezed"
+    ],
+    [
+     "Je ne voulais pas",
+     "I didn't mean to"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 6230,
+    "frs": 8940,
+    "en": 4740,
+    "gl": 4500,
+    "wd": 14480
+   },
+   "bank": {
+    "fr": [
+     529460,
+     6230
+    ],
+    "frs": [
+     536090,
+     8940
+    ],
+    "en": [
+     545430,
+     4740
+    ],
+    "gl": [
+     550570,
+     4500
+    ],
+    "wd": [
+     555470,
+     14480
+    ],
+    "wp": [
+     [
+      555470,
+      2910
+     ],
+     [
+      558780,
+      3310
+     ],
+     [
+      562490,
+      3040
+     ],
+     [
+      565930,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce n'est rien, ce n'est rien… »",
+   "en": "\"It's nothing, it's nothing…\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce n'est rien",
+     "it's nothing"
+    ],
+    [
+     "ce n'est rien",
+     "it's nothing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3370,
+    "en": 2020,
+    "wd": 6620
+   },
+   "bank": {
+    "fr": [
+     570350,
+     2530
+    ],
+    "frs": [
+     573280,
+     3370
+    ],
+    "en": [
+     577050,
+     2020
+    ],
+    "wd": [
+     579470,
+     6620
+    ],
+    "wp": [
+     [
+      579470,
+      2680
+     ],
+     [
+      582550,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pardon, je vous assure, je ne l'ai pas fait exprès ! »",
+   "en": "\"Forgive me, I assure you, I didn't do it on purpose!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pardon",
+     "forgive me"
+    ],
+    [
+     "je vous assure",
+     "I assure you"
+    ],
+    [
+     "je ne l'ai pas fait exprès",
+     "I didn't do it on purpose"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "frs": 5470,
+    "en": 4230,
+    "wd": 11160
+   },
+   "bank": {
+    "fr": [
+     586490,
+     3940
+    ],
+    "frs": [
+     590830,
+     5470
+    ],
+    "en": [
+     596700,
+     4230
+    ],
+    "wd": [
+     601330,
+     11160
+    ],
+    "wp": [
+     [
+      601330,
+      2430
+     ],
+     [
+      604160,
+      3110
+     ],
+     [
+      607670,
+      3970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Oh, asseyez-vous, s'il vous plaît ! Laissez-moi écouter ! »",
+   "en": "\"Oh, sit down, please! Let me listen!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Oh",
+     "oh"
+    ],
+    [
+     "asseyez-vous",
+     "sit down"
+    ],
+    [
+     "s'il vous plaît",
+     "please"
+    ],
+    [
+     "Laissez-moi",
+     "let me"
+    ],
+    [
+     "écouter",
+     "listen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 5270,
+    "frs": 7490,
+    "en": 3000,
+    "wd": 14710
+   },
+   "bank": {
+    "fr": [
+     612890,
+     5270
+    ],
+    "frs": [
+     618560,
+     7490
+    ],
+    "en": [
+     626450,
+     3000
+    ],
+    "wd": [
+     629850,
+     14710
+    ],
+    "wp": [
+     [
+      629850,
+      1870
+     ],
+     [
+      632120,
+      2790
+     ],
+     [
+      635310,
+      2650
+     ],
+     [
+      638360,
+      2520
+     ],
+     [
+      641280,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tcherviakov s'est assis, mais il n'était plus heureux.",
+   "en": "Tcherviakov sat down, but he was no longer happy.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ],
+    [
+     "s'est assis",
+     "sat down"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il n'était plus",
+     "he was no longer"
+    ],
+    [
+     "heureux",
+     "happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3900,
+    "frs": 5430,
+    "en": 3850,
+    "wd": 15540
+   },
+   "bank": {
+    "fr": [
+     644960,
+     3900
+    ],
+    "frs": [
+     649260,
+     5430
+    ],
+    "en": [
+     655090,
+     3850
+    ],
+    "wd": [
+     659340,
+     15540
+    ],
+    "wp": [
+     [
+      659340,
+      2980
+     ],
+     [
+      662720,
+      2800
+     ],
+     [
+      665920,
+      1920
+     ],
+     [
+      668240,
+      3160
+     ],
+     [
+      671800,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À l'entracte, il s'est approché du général encore une fois.",
+   "en": "At the intermission, he went up to the general once more.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "l'entracte",
+     "en": "the intermission"
+    }
+   ],
+   "words": [
+    [
+     "À l'entracte",
+     "at the intermission"
+    ],
+    [
+     "il s'est approché",
+     "he went up"
+    ],
+    [
+     "du général",
+     "to the general"
+    ],
+    [
+     "encore une fois",
+     "once more"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4450,
+    "frs": 6220,
+    "en": 3530,
+    "gl": 4110,
+    "wd": 13900
+   },
+   "bank": {
+    "fr": [
+     675280,
+     4450
+    ],
+    "frs": [
+     680130,
+     6220
+    ],
+    "en": [
+     686750,
+     3530
+    ],
+    "gl": [
+     690680,
+     4110
+    ],
+    "wd": [
+     695190,
+     13900
+    ],
+    "wp": [
+     [
+      695190,
+      3180
+     ],
+     [
+      698770,
+      2810
+     ],
+     [
+      701980,
+      3040
+     ],
+     [
+      705420,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Votre Excellence, je vous ai arrosé… Pardonnez-moi… »",
+   "en": "\"Your Excellency, I sprayed you… Forgive me…\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Votre Excellence",
+     "Your Excellency"
+    ],
+    [
+     "je vous ai arrosé",
+     "I sprayed you"
+    ],
+    [
+     "Pardonnez-moi",
+     "forgive me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5090,
+    "frs": 7190,
+    "en": 3430,
+    "wd": 10830
+   },
+   "bank": {
+    "fr": [
+     709490,
+     5090
+    ],
+    "frs": [
+     714980,
+     7190
+    ],
+    "en": [
+     722570,
+     3430
+    ],
+    "wd": [
+     726400,
+     10830
+    ],
+    "wp": [
+     [
+      726400,
+      3310
+     ],
+     [
+      730110,
+      3140
+     ],
+     [
+      733650,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais enfin, j'ai déjà oublié ! Et vous, vous en parlez encore ! »",
+   "en": "\"Oh, come on, I've already forgotten! And you're still talking about it!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Mais enfin",
+     "oh, come on"
+    ],
+    [
+     "j'ai déjà oublié",
+     "I've already forgotten"
+    ],
+    [
+     "Et vous",
+     "and you"
+    ],
+    [
+     "vous en parlez encore",
+     "you're still talking about it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5970,
+    "frs": 8520,
+    "en": 4880,
+    "wd": 14400
+   },
+   "bank": {
+    "fr": [
+     737630,
+     5970
+    ],
+    "frs": [
+     744000,
+     8520
+    ],
+    "en": [
+     752920,
+     4880
+    ],
+    "wd": [
+     758200,
+     14400
+    ],
+    "wp": [
+     [
+      758200,
+      2730
+     ],
+     [
+      761330,
+      3530
+     ],
+     [
+      765260,
+      2250
+     ],
+     [
+      767910,
+      3840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le général avait l'air irrité.",
+   "en": "The general looked irritated.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le général",
+     "the general"
+    ],
+    [
+     "avait l'air",
+     "looked"
+    ],
+    [
+     "irrité",
+     "irritated"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2570,
+    "frs": 3460,
+    "en": 2160,
+    "wd": 9470
+   },
+   "bank": {
+    "fr": [
+     773000,
+     2570
+    ],
+    "frs": [
+     775970,
+     3460
+    ],
+    "en": [
+     779830,
+     2160
+    ],
+    "wd": [
+     782390,
+     9470
+    ],
+    "wp": [
+     [
+      782390,
+      2870
+     ],
+     [
+      785660,
+      2400
+     ],
+     [
+      788460,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il dit qu'il a oublié, mais ses yeux sont méchants », pensait Tcherviakov.",
+   "en": "\"He says he's forgotten, but his eyes are nasty,\" thought Tcherviakov.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Il dit",
+     "he says"
+    ],
+    [
+     "qu'il a oublié",
+     "that he has forgotten"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "ses yeux",
+     "his eyes"
+    ],
+    [
+     "sont méchants",
+     "are nasty"
+    ],
+    [
+     "pensait",
+     "thought"
+    ],
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 5230,
+    "frs": 7410,
+    "en": 5000,
+    "wd": 21520
+   },
+   "bank": {
+    "fr": [
+     792260,
+     5230
+    ],
+    "frs": [
+     797890,
+     7410
+    ],
+    "en": [
+     805700,
+     5000
+    ],
+    "wd": [
+     811100,
+     21520
+    ],
+    "wp": [
+     [
+      811100,
+      2500
+     ],
+     [
+      814000,
+      3170
+     ],
+     [
+      817570,
+      1920
+     ],
+     [
+      819890,
+      2650
+     ],
+     [
+      822940,
+      2770
+     ],
+     [
+      826110,
+      2280
+     ],
+     [
+      828790,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À la maison, il a tout raconté à sa femme.",
+   "en": "At home, he told his wife everything.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "À la maison",
+     "at home"
+    ],
+    [
+     "il a tout raconté",
+     "he told everything"
+    ],
+    [
+     "à sa femme",
+     "to his wife"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3620,
+    "frs": 4980,
+    "en": 2800,
+    "wd": 10510
+   },
+   "bank": {
+    "fr": [
+     833020,
+     3620
+    ],
+    "frs": [
+     837040,
+     4980
+    ],
+    "en": [
+     842420,
+     2800
+    ],
+    "wd": [
+     845620,
+     10510
+    ],
+    "wp": [
+     [
+      845620,
+      2590
+     ],
+     [
+      848610,
+      3420
+     ],
+     [
+      852430,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sa femme a eu peur, puis elle a dit : « Va t'excuser demain. »",
+   "en": "His wife got scared, then she said: \"Go and apologize tomorrow.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Sa femme",
+     "his wife"
+    ],
+    [
+     "a eu peur",
+     "got scared"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "elle a dit",
+     "she said"
+    ],
+    [
+     "Va t'excuser",
+     "go and apologize"
+    ],
+    [
+     "demain",
+     "tomorrow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 4560,
+    "frs": 6440,
+    "en": 4980,
+    "wd": 18940
+   },
+   "bank": {
+    "fr": [
+     856530,
+     4560
+    ],
+    "frs": [
+     861490,
+     6440
+    ],
+    "en": [
+     868330,
+     4980
+    ],
+    "wd": [
+     873710,
+     18940
+    ],
+    "wp": [
+     [
+      873710,
+      2700
+     ],
+     [
+      876810,
+      2840
+     ],
+     [
+      880050,
+      2110
+     ],
+     [
+      882560,
+      2630
+     ],
+     [
+      885590,
+      3450
+     ],
+     [
+      889440,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, Tcherviakov a mis son uniforme neuf et il est allé chez le général.",
+   "en": "The next day, Tcherviakov put on his new uniform and went to the general's.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ],
+    [
+     "a mis",
+     "put on"
+    ],
+    [
+     "son uniforme neuf",
+     "his new uniform"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il est allé",
+     "he went"
+    ],
+    [
+     "chez le général",
+     "to the general's"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 5700,
+    "frs": 8090,
+    "en": 5000,
+    "wd": 22470
+   },
+   "bank": {
+    "fr": [
+     893050,
+     5700
+    ],
+    "frs": [
+     899150,
+     8090
+    ],
+    "en": [
+     907640,
+     5000
+    ],
+    "wd": [
+     913040,
+     22470
+    ],
+    "wp": [
+     [
+      913040,
+      2790
+     ],
+     [
+      916230,
+      2980
+     ],
+     [
+      919610,
+      2250
+     ],
+     [
+      922260,
+      3580
+     ],
+     [
+      926240,
+      1820
+     ],
+     [
+      928460,
+      2530
+     ],
+     [
+      931390,
+      3270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il y avait beaucoup de monde, mais il a attendu son tour.",
+   "en": "There were a lot of people, but he waited for his turn.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Il y avait",
+     "there were"
+    ],
+    [
+     "beaucoup de monde",
+     "a lot of people"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il a attendu",
+     "he waited"
+    ],
+    [
+     "son tour",
+     "his turn"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "frs": 5660,
+    "en": 3580,
+    "wd": 15540
+   },
+   "bank": {
+    "fr": [
+     935910,
+     4070
+    ],
+    "frs": [
+     940380,
+     5660
+    ],
+    "en": [
+     946440,
+     3580
+    ],
+    "wd": [
+     950420,
+     15540
+    ],
+    "wp": [
+     [
+      950420,
+      2470
+     ],
+     [
+      953290,
+      3120
+     ],
+     [
+      956810,
+      1920
+     ],
+     [
+      959130,
+      2900
+     ],
+     [
+      962430,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Hier, à l'opéra, Votre Excellence… j'ai éternué et… »",
+   "en": "\"Yesterday, at the opera, Your Excellency… I sneezed and…\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Hier",
+     "yesterday"
+    ],
+    [
+     "à l'opéra",
+     "at the opera"
+    ],
+    [
+     "Votre Excellence",
+     "Your Excellency"
+    ],
+    [
+     "j'ai éternué",
+     "I sneezed"
+    ],
+    [
+     "et",
+     "and"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4910,
+    "frs": 6900,
+    "en": 4400,
+    "wd": 15960
+   },
+   "bank": {
+    "fr": [
+     966360,
+     4910
+    ],
+    "frs": [
+     971670,
+     6900
+    ],
+    "en": [
+     978970,
+     4400
+    ],
+    "wd": [
+     983770,
+     15960
+    ],
+    "wp": [
+     [
+      983770,
+      2520
+     ],
+     [
+      986690,
+      2820
+     ],
+     [
+      989910,
+      3310
+     ],
+     [
+      993620,
+      3040
+     ],
+     [
+      997060,
+      1820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quelle bêtise ! Vous vous moquez de moi ! » a dit le général.",
+   "en": "\"What nonsense! You're making fun of me!\" said the general.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "vous moquez",
+     "en": "make fun (se moquer de)"
+    }
+   ],
+   "words": [
+    [
+     "Quelle bêtise",
+     "what nonsense"
+    ],
+    [
+     "Vous vous moquez de moi",
+     "you're making fun of me"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "le général",
+     "the general"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5390,
+    "frs": 7660,
+    "en": 4130,
+    "gl": 4870,
+    "wd": 13850
+   },
+   "bank": {
+    "fr": [
+     1000130,
+     5390
+    ],
+    "frs": [
+     1005920,
+     7660
+    ],
+    "en": [
+     1013980,
+     4130
+    ],
+    "gl": [
+     1018510,
+     4870
+    ],
+    "wd": [
+     1023780,
+     13850
+    ],
+    "wp": [
+     [
+      1023780,
+      3120
+     ],
+     [
+      1027300,
+      3590
+     ],
+     [
+      1031290,
+      2220
+     ],
+     [
+      1033910,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Se moquer ? » Tcherviakov est devenu tout pâle.",
+   "en": "\"Making fun?\" Tcherviakov went quite pale.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Se moquer",
+     "to make fun"
+    ],
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ],
+    [
+     "est devenu",
+     "became"
+    ],
+    [
+     "tout pâle",
+     "quite pale"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "frs": 6350,
+    "en": 3530,
+    "wd": 13040
+   },
+   "bank": {
+    "fr": [
+     1038030,
+     4510
+    ],
+    "frs": [
+     1042940,
+     6350
+    ],
+    "en": [
+     1049690,
+     3530
+    ],
+    "wd": [
+     1053620,
+     13040
+    ],
+    "wp": [
+     [
+      1053620,
+      2860
+     ],
+     [
+      1056880,
+      2980
+     ],
+     [
+      1060260,
+      2510
+     ],
+     [
+      1063170,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toute la nuit, il a pensé à écrire une lettre, mais il ne savait pas quoi écrire.",
+   "en": "All night he thought about writing a letter, but he didn't know what to write.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Toute la nuit",
+     "all night"
+    ],
+    [
+     "il a pensé",
+     "he thought"
+    ],
+    [
+     "à écrire",
+     "about writing"
+    ],
+    [
+     "une lettre",
+     "a letter"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il ne savait pas",
+     "he didn't know"
+    ],
+    [
+     "quoi écrire",
+     "what to write"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 5540,
+    "frs": 7870,
+    "en": 4190,
+    "wd": 21450
+   },
+   "bank": {
+    "fr": [
+     1067060,
+     5540
+    ],
+    "frs": [
+     1073000,
+     7870
+    ],
+    "en": [
+     1081270,
+     4190
+    ],
+    "wd": [
+     1085860,
+     21450
+    ],
+    "wp": [
+     [
+      1085860,
+      2660
+     ],
+     [
+      1088920,
+      2770
+     ],
+     [
+      1092090,
+      2790
+     ],
+     [
+      1095280,
+      2430
+     ],
+     [
+      1098110,
+      1920
+     ],
+     [
+      1100430,
+      2870
+     ],
+     [
+      1103700,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le jour suivant, il est retourné chez le général.",
+   "en": "The following day, he went back to the general's.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le jour suivant",
+     "the following day"
+    ],
+    [
+     "il est retourné",
+     "he went back"
+    ],
+    [
+     "chez le général",
+     "to the general's"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5560,
+    "en": 3390,
+    "wd": 11030
+   },
+   "bank": {
+    "fr": [
+     1107710,
+     4010
+    ],
+    "frs": [
+     1112120,
+     5560
+    ],
+    "en": [
+     1118080,
+     3390
+    ],
+    "wd": [
+     1121870,
+     11030
+    ],
+    "wp": [
+     [
+      1121870,
+      3140
+     ],
+     [
+      1125410,
+      2970
+     ],
+     [
+      1128780,
+      3270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Votre Excellence, je ne suis pas venu pour me moquer de vous, mais pour m'excuser… »",
+   "en": "\"Your Excellency, I didn't come to make fun of you, but to apologize…\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Votre Excellence",
+     "Your Excellency"
+    ],
+    [
+     "je ne suis pas venu",
+     "I didn't come"
+    ],
+    [
+     "pour me moquer de vous",
+     "to make fun of you"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "pour m'excuser",
+     "to apologize"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "frs": 8000,
+    "en": 4740,
+    "wd": 17420
+   },
+   "bank": {
+    "fr": [
+     1133300,
+     5630
+    ],
+    "frs": [
+     1139330,
+     8000
+    ],
+    "en": [
+     1147730,
+     4740
+    ],
+    "wd": [
+     1152870,
+     17420
+    ],
+    "wp": [
+     [
+      1152870,
+      3310
+     ],
+     [
+      1156580,
+      3230
+     ],
+     [
+      1160210,
+      3310
+     ],
+     [
+      1163920,
+      1920
+     ],
+     [
+      1166240,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le général est devenu tout rouge et il a crié : « Dehors ! »",
+   "en": "The general turned bright red and shouted: \"Get out!\"",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "Dehors",
+     "en": "get out!"
+    }
+   ],
+   "words": [
+    [
+     "Le général",
+     "the general"
+    ],
+    [
+     "est devenu",
+     "turned"
+    ],
+    [
+     "tout rouge",
+     "bright red"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il a crié",
+     "he shouted"
+    ],
+    [
+     "Dehors",
+     "get out"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "gl": "audio/s035_gl.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 4230,
+    "frs": 5890,
+    "en": 4040,
+    "gl": 3260,
+    "wd": 17660
+   },
+   "bank": {
+    "fr": [
+     1170690,
+     4230
+    ],
+    "frs": [
+     1175320,
+     5890
+    ],
+    "en": [
+     1181610,
+     4040
+    ],
+    "gl": [
+     1186050,
+     3260
+    ],
+    "wd": [
+     1189710,
+     17660
+    ],
+    "wp": [
+     [
+      1189710,
+      2870
+     ],
+     [
+      1192980,
+      2410
+     ],
+     [
+      1195790,
+      2630
+     ],
+     [
+      1198820,
+      1820
+     ],
+     [
+      1201040,
+      2710
+     ],
+     [
+      1204150,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pardon ? » a murmuré Tcherviakov, mort de peur.",
+   "en": "\"Sorry?\" whispered Tcherviakov, scared to death.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Pardon",
+     "sorry"
+    ],
+    [
+     "a murmuré",
+     "whispered"
+    ],
+    [
+     "Tcherviakov",
+     "Tcherviakov"
+    ],
+    [
+     "mort de peur",
+     "scared to death"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4420,
+    "frs": 6180,
+    "en": 3620,
+    "wd": 13050
+   },
+   "bank": {
+    "fr": [
+     1207770,
+     4420
+    ],
+    "frs": [
+     1212590,
+     6180
+    ],
+    "en": [
+     1219170,
+     3620
+    ],
+    "wd": [
+     1223190,
+     13050
+    ],
+    "wp": [
+     [
+      1223190,
+      2309
+     ],
+     [
+      1225900,
+      2660
+     ],
+     [
+      1228960,
+      2980
+     ],
+     [
+      1232340,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dehors ! » a répété le général en tapant du pied.",
+   "en": "\"Get out!\" the general repeated, stamping his foot.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dehors",
+     "get out"
+    ],
+    [
+     "a répété",
+     "repeated"
+    ],
+    [
+     "le général",
+     "the general"
+    ],
+    [
+     "en tapant du pied",
+     "stamping his foot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "frs": 5420,
+    "en": 3740,
+    "wd": 13260
+   },
+   "bank": {
+    "fr": [
+     1236640,
+     3870
+    ],
+    "frs": [
+     1240910,
+     5420
+    ],
+    "en": [
+     1246730,
+     3740
+    ],
+    "wd": [
+     1250870,
+     13260
+    ],
+    "wp": [
+     [
+      1250870,
+      2370
+     ],
+     [
+      1253640,
+      2610
+     ],
+     [
+      1256650,
+      2870
+     ],
+     [
+      1259920,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans le ventre de Tcherviakov, quelque chose s'est cassé.",
+   "en": "In Tcherviakov's stomach, something broke.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "ventre",
+     "en": "stomach"
+    }
+   ],
+   "words": [
+    [
+     "Dans",
+     "in"
+    ],
+    [
+     "le ventre",
+     "the stomach"
+    ],
+    [
+     "de Tcherviakov",
+     "of Tcherviakov"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "s'est cassé",
+     "broke"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "gl": "audio/s038_gl.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 4340,
+    "frs": 6080,
+    "en": 2990,
+    "gl": 3260,
+    "wd": 15770
+   },
+   "bank": {
+    "fr": [
+     1264530,
+     4340
+    ],
+    "frs": [
+     1269270,
+     6080
+    ],
+    "en": [
+     1275750,
+     2990
+    ],
+    "gl": [
+     1279140,
+     3260
+    ],
+    "wd": [
+     1282800,
+     15770
+    ],
+    "wp": [
+     [
+      1282800,
+      2040
+     ],
+     [
+      1285240,
+      2620
+     ],
+     [
+      1288260,
+      3380
+     ],
+     [
+      1292040,
+      2700
+     ],
+     [
+      1295140,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sans rien voir, sans rien entendre, il est sorti dans la rue et il est rentré chez lui.",
+   "en": "Seeing nothing, hearing nothing, he went out into the street and went home.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Sans rien voir",
+     "seeing nothing"
+    ],
+    [
+     "sans rien entendre",
+     "hearing nothing"
+    ],
+    [
+     "il est sorti",
+     "he went out"
+    ],
+    [
+     "dans la rue",
+     "into the street"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il est rentré",
+     "he went back"
+    ],
+    [
+     "chez lui",
+     "home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 5820,
+    "frs": 8320,
+    "en": 5080,
+    "wd": 22400
+   },
+   "bank": {
+    "fr": [
+     1298970,
+     5820
+    ],
+    "frs": [
+     1305190,
+     8320
+    ],
+    "en": [
+     1313910,
+     5080
+    ],
+    "wd": [
+     1319390,
+     22400
+    ],
+    "wp": [
+     [
+      1319390,
+      3170
+     ],
+     [
+      1322960,
+      3250
+     ],
+     [
+      1326610,
+      2800
+     ],
+     [
+      1329810,
+      2860
+     ],
+     [
+      1333070,
+      1820
+     ],
+     [
+      1335290,
+      2860
+     ],
+     [
+      1338550,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il s'est couché sur le canapé, sans enlever son uniforme… et il est mort.",
+   "en": "He lay down on the sofa, without taking off his uniform… and he died.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "s'est couché",
+     "lay down"
+    ],
+    [
+     "sur le canapé",
+     "on the sofa"
+    ],
+    [
+     "sans enlever",
+     "without taking off"
+    ],
+    [
+     "son uniforme",
+     "his uniform"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il est mort",
+     "he died"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "frs": 7680,
+    "en": 4810,
+    "wd": 21660
+   },
+   "bank": {
+    "fr": [
+     1342190,
+     5330
+    ],
+    "frs": [
+     1347920,
+     7680
+    ],
+    "en": [
+     1356000,
+     4810
+    ],
+    "wd": [
+     1361210,
+     21660
+    ],
+    "wp": [
+     [
+      1361210,
+      2020
+     ],
+     [
+      1363630,
+      2630
+     ],
+     [
+      1366660,
+      3060
+     ],
+     [
+      1370120,
+      3100
+     ],
+     [
+      1373620,
+      3120
+     ],
+     [
+      1377140,
+      1820
+     ],
+     [
+      1379360,
+      2660
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   22510
+  ],
+  "silence": [
+   23310,
+   30000
+  ]
+ }
+}
