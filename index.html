@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">  <!-- maximum-scale: no automatic zoom on text boxes (Arshile); iPhone still lets you pinch-zoom -->
 <title>Écoute</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Écoute">
@@ -136,6 +136,7 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:16px; }
 /* iPhone zooms in on any text box under 16px and then it's hard to get out (Arshile, 2026-11-20): never under 16 */
 input, textarea, select { font-size:max(16px, 1em); }
+body { overflow-x:clip; }  /* never scroll sideways (Arshile, 2026-11-20); clip, not hidden: hidden would make body its own scroller */
 .rqidea { display:flex; gap:6px; margin-top:6px; }
 .rqidea .chip { font-size:12px; padding:5px 10px; color:var(--muted); }
 .rqtext::placeholder { color:var(--muted); opacity:.75; font-style:italic; }
@@ -328,7 +329,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.74";
+const VERSION = "web 0.75";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -490,7 +491,7 @@ const storyPaused = () => NATIVE_PLAYER ? !NQ.playing : audio.paused;
 const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) : audio.pause();
 function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
   const items = [], n = story.segments.length;
-  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: r[0], d: Math.max(50, r[1] - 350), seg: j, step: from + m }));
+  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: Math.max(0, r[0] - PRE), d: Math.max(50, r[1] - 350 + PRE), seg: j, step: from + m }));
   add(seg, steps, step);
   if (one) items.length = Math.min(items.length, 1);
   else for (let j = seg + 1; j < Math.min(n, seg + QUEUE_PHRASES); j++) add(j, stepsFor(j, pattern()), 0);
@@ -534,10 +535,17 @@ function nativeEvents() {
   NATIVE_PLAYER.addListener("rebuilt", d => log("audio_rebuilt", { reason: d.reason }));
 }
 
+// Word pairs sit right after the previous pair's silence with only 0.3 s after them, so played as is the player's early
+// stop (350 ms) cut their end and a late iPhone seek their start (Arshile, 2026-11-20: "losing a bit of the front and
+// end"). Start 0.25 s before, in the silence, and keep the whole tail.
+const wpRange = r => [Math.max(0, r[0] - 250), r[1] + 250 + 350];
+// every clip in the bank has 0.4 s of silence before it: start a little inside that, so a late seek never eats a sound
+const PRE = 150;
+
 let rangeStart = 0;
 function playRange([start, dur]) {
   rangeStart = start;
-  audio.currentTime = start / 1000;
+  audio.currentTime = Math.max(0, start - PRE) / 1000;
   stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
   clearTimeout(timer);
   timer = setTimeout(tick, dur - 300);
@@ -569,7 +577,7 @@ function startSeg(i, pat) {
     lessonTok = parse(lessonPattern()).filter(t => b[KIND[t]])  // PAUSE drops out (they tap); no word pairs: WORDS drops out
       .filter((t, k, a) => k === 0 || t !== a[k - 1])  // ...and English doesn't play twice in a row
       .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
-    steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? b.wp[+t.slice(1)] : b[KIND[t]]);
+    steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? wpRange(b.wp[+t.slice(1)]) : b[KIND[t]]);
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
   step = 0; waiting = false;
   show();
@@ -1121,7 +1129,7 @@ function onbTour() {
     const lessonToks = s => s.bank.wp ? ["T", "EN", ...s.bank.wp.map((_, k) => "W" + k), "EN", "T"] : ["T", "EN", "T"];
     const isW = t => /^W\d/.test(t), seg0 = j.segs[0];
     const tokName = t => isW(t) ? seg0.words[+t.slice(1)][0] : TOK_NAME(t);
-    const range = (s, t) => isW(t) ? s.bank.wp[+t.slice(1)] : s.bank[KIND[t]];
+    const range = (s, t) => isW(t) ? wpRange(s.bank.wp[+t.slice(1)]) : s.bank[KIND[t]];
     const paint = (list, k) => $("tToks").innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${esc(tokName(t))}</span>`).join("");
     const text = (s, list, k) => {
       $("tFr").textContent = s.fr;
@@ -1380,22 +1388,24 @@ function vaPlay(v, then) {  // called inside the tap first: iPhone only lets thi
   const b = lem(v);
   if (b) return vaRange(lemUrl(b), [b[3], b[4]], () => vaRange(lemUrl(b), [b[5], b[6]], then));  // base form, then English
   const st = storyCache[v.story] && storyCache[v.story].done;
-  const r = st && st.segments[v.seg] && st.segments[v.seg].bank.wp && st.segments[v.seg].bank.wp[v.k];
-  if (!r) { then && then(); return; }
+  const w = st && st.segments[v.seg] && st.segments[v.seg].bank.wp && st.segments[v.seg].bank.wp[v.k];
+  if (!w) { then && then(); return; }
+  const r = [w[0], w[1] + 250];  // the whole tail (see wpRange)
   const e = catalog.find(c => c.id === v.story);
   vaRange(`${MEDIA}stories/${v.story}/${st.bank.file}?v=${e ? e.version : ""}`, r, then);
 }
 function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, then call `then`
   storyPause();
-  if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = r[0] / 1000;
-  else { VA.url = url; VA.el.src = url + "#t=" + r[0] / 1000; }
+  const from = Math.max(0, r[0] - PRE) / 1000;  // a little before the sound, in the clip's leading silence
+  if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = from;
+  else { VA.url = url; VA.el.src = url + "#t=" + from; }
   VA.end = r[0] + r[1];
   VA.el.play().catch(() => {});
   clearInterval(VA.timer);
   let started = false;  // a seek can land late: only stop once we have really been inside the word
   VA.timer = setInterval(() => {
     const t = VA.el.currentTime * 1000;
-    if (t < r[0] - 300 || t > VA.end + 1500 || (!started && t >= VA.end)) VA.el.currentTime = r[0] / 1000;  // iPhone seek fix
+    if (t < r[0] - PRE - 300 || t > VA.end + 1500 || (!started && t >= VA.end)) VA.el.currentTime = from;  // iPhone seek fix
     else if (t >= VA.end) { clearInterval(VA.timer); VA.el.pause(); if (then) setTimeout(then, 600); }
     else started = true;
   }, 40);
