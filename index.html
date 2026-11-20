@@ -121,6 +121,10 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .ten { display:block; font-size:13px; color:var(--muted); font-weight:400; }
 .rom { font-size:.62em; font-weight:400; color:var(--muted); margin-top:2px; }
 .done-big { font-size:22px; font-weight:700; margin-bottom:4px; }
+#toast { position:fixed; left:16px; right:16px; bottom:max(16px, env(safe-area-inset-bottom)); z-index:60; background:var(--ink); color:var(--bg);
+  padding:14px 16px; border-radius:14px; font-size:15px; box-shadow:0 8px 24px rgba(0,0,0,.25); opacity:0; transform:translateY(20px);
+  transition:opacity .25s, transform .25s; pointer-events:none; }
+#toast.on { opacity:1; transform:none; pointer-events:auto; }
 .done-row { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 16px; }
 .done-row .big { flex:1 1 100%; font-size:17px; padding:13px; border-radius:12px; border:none; background:var(--accent); color:#fff; font-weight:600; }
 #onb .opt.radio { padding-left:44px; position:relative; }
@@ -333,7 +337,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.78";
+const VERSION = "web 0.79";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1242,7 +1246,7 @@ function onbFinish() {
   store.set("mode_" + lang, ONB.mode);
   if (ONB.mode === "story") store.set("pattern_" + lang, DEMO.join(" "));
   store.set("onboarded", true);
-  ONB.sendLove && ONB.sendLove();
+  if (ONB.sendLove && ONB.sendLove()) setTimeout(() => toast(REQ_THANKS, 9000), 800);
   log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured }, "");
   $("onb").hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
   togglePlay();  // "Start listening" starts listening
@@ -1354,8 +1358,20 @@ function requestBox(el, where, opts = {}) {
     return true;
   };
   const sb = el.querySelector(".rqsend");
-  if (sb) sb.onclick = () => { el.querySelector(".rqok").textContent = send() ? "Thank you! We'll tell you when it's ready." : "Pick a topic or write something first."; };
+  if (sb) sb.onclick = () => {
+    const ok = send();
+    el.querySelector(".rqok").textContent = ok ? REQ_THANKS : "Pick a topic or write something first.";
+    if (ok) toast(REQ_THANKS);
+  };
   return send;
+}
+// what people hear after asking for a story (Arshile, 2026-11-20: say that it takes some time)
+const REQ_THANKS = "Thank you! Writing and recording a story takes a day or two. It will appear in your list marked ✨ for you.";
+function toast(msg, ms = 7000) {
+  let t = $("toast");
+  if (!t) { t = document.createElement("div"); t.id = "toast"; document.body.append(t); t.onclick = () => t.classList.remove("on"); }
+  t.textContent = msg; t.classList.add("on");
+  clearTimeout(t.timer); t.timer = setTimeout(() => t.classList.remove("on"), ms);
 }
 // stories written from someone's request carry `for` (names) and `request` (what they asked) in the catalog
 const forMe = s => (s.for || []).some(n => n.toLowerCase() === store.get("name", "").trim().toLowerCase());
