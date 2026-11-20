@@ -308,7 +308,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.60";
+const VERSION = "web 0.61";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1248,7 +1248,7 @@ const LEMS = {};
 const lemsLoad = () => LEMS[lang] !== undefined ? Promise.resolve(LEMS[lang]) :
   fresh(`vocab/${lang}_lem.json`).then(r => r.ok ? r.json() : null).catch(() => null).then(j => (LEMS[lang] = j));
 const lem = v => { const L = LEMS[lang]; const i = L && L.map[v.w + "|" + v.m]; return i == null ? null : L.items[i]; };
-const shown = v => { const b = lem(v); return b ? { w: b[0], m: b[1] } : { w: v.r ? jPick(v.w, ...v.r) : v.w, m: v.m }; };
+const shown = v => { const b = lem(v); return b ? { w: b[7] ? jPick(b[0], b[7], b[8]) : b[0], m: b[1] } : { w: v.r ? jPick(v.w, ...v.r) : v.w, m: v.m }; };
 const baseKey = v => { const b = shown(v); return b.w + "|" + b.m; };
 const lemUrl = b => `${MEDIA}vocab/${lang}_lem_${String(b[2]).padStart(2, "0")}.m4a?v=${LEMS[lang].banks[b[2]]}`;
 function vaPlay(v, then) {  // called inside the tap first: iPhone only lets this element play after a tap
