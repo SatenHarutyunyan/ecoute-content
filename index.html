@@ -108,6 +108,7 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .row { display:flex; gap:8px; margin-top:8px; }
 #onb .go { width:100%; margin-top:22px; padding:14px; border:none; border-radius:12px; background:var(--accent); color:#fff; font-size:17px; font-weight:600; }
 #onb .go:disabled { opacity:.4; }
+#onb .go.sticky { position:sticky; bottom:max(12px, env(safe-area-inset-bottom)); box-shadow:0 4px 16px rgba(0,0,0,.18); }
 #onb input { font-size:18px; padding:12px; }
 #onb .demo { margin-top:12px; padding:12px; border-radius:12px; background:var(--bg); border:1px solid var(--line); }
 #onb .demo .fr { font-size:17px; font-weight:600; margin-top:6px; }
@@ -288,6 +289,10 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="tokens" style="white-space:pre-line"></div>
   </details>
+  <details id="lessonBox" style="margin-top:10px"><summary id="lessonHead" style="font-weight:600;cursor:pointer"></summary>
+  <input type="text" id="lessonPat" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
+  <div class="muted" id="lessonTokens" style="white-space:pre-line"></div>
+  </details>
   <p><a href="#" class="muted" id="retest" hidden>Retake the level test</a></p>
   <p class="muted">On iPhone, add this page to your Home Screen (Share → Add to Home Screen) so it opens like an app.</p>
 </section>
@@ -319,7 +324,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.66";
+const VERSION = "web 0.67";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -379,7 +384,7 @@ function furigana(s) {  // the kanji line with each word pair's kana above its k
 }
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
 // Lesson mode: the learner moves through each phrase step by step, at their own pace
-const LESSON = ["T", "EN", "WORDS", "EN", "T"];
+const LESSON = ["T", "EN", "WORDS", "EN", "T"];  // the default; each learner can set their own order (Settings, "lesson_<lang>")
 
 const $ = id => document.getElementById(id);
 // Audio and the voice model come from Cloudflare R2 (GitHub Pages keeps the page and the small JSON files)
@@ -436,6 +441,7 @@ const getMode = () => store.get("mode_" + lang, LESSON_FIRST.includes(lang) || (
 const lessonMode = () => getMode() === "lesson";
 
 const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T");
+const lessonPattern = () => store.get("lesson_" + lang, LESSON.join(" "));
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
   .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
@@ -500,7 +506,8 @@ function startSeg(i, pat) {
   store.set("pos_" + story.id, i);
   if (lessonMode() && !pat) {
     const b = story.segments[i].bank;
-    lessonTok = (b[KIND.WORDS] ? LESSON : ["T", "EN", "T"]).filter(t => b[KIND[t]])  // no word pairs (French, Italian): T EN T
+    lessonTok = parse(lessonPattern()).filter(t => b[KIND[t]])  // PAUSE drops out (they tap); no word pairs: WORDS drops out
+      .filter((t, k, a) => k === 0 || t !== a[k - 1])  // ...and English doesn't play twice in a row
       .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
     steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? b.wp[+t.slice(1)] : b[KIND[t]]);
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
@@ -547,11 +554,31 @@ function resume() {
   if (quick && TAP_HELP && seg >= 0) return replayWithHelp();
   playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
 }
+// What Play starts when nothing is open (Saten: never make them pick first). In order: the episode they were on, the
+// Armenian level test's pick, the episode after the last one they marked ✓, the first episode at their onboarding level,
+// the easiest one.
+function pickStart() {
+  const mine = catalog.filter(c => c.lang === lang), byId = id => mine.find(c => c.id === id);
+  const last = byId(store.get("last_" + lang)), place = byId((store.get("place_" + lang, {}) || {}).start);
+  if (last && getMark(last.id) !== "done") return last;
+  if (place && getMark(place.id) !== "done") return place;
+  const done = mine.filter(c => getMark(c.id) === "done");
+  if (done.length) {  // catalog order is series, then episode: the first not-done episode after the last done one
+    const i = mine.indexOf(done[done.length - 1]), after = mine.slice(i + 1).find(c => getMark(c.id) !== "done");
+    if (after) return after;
+  }
+  const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], rank = l => LV.indexOf((l || "").slice(0, 2));
+  const open = mine.filter(c => getMark(c.id) !== "done" && rank(c.level) >= 0);
+  const first = list => list.find(c => !c.series || +c.episode === 1) || list[0];  // start a series at its beginning
+  const want = rank(store.get("level_" + lang, "A0"));  // no answer: the easiest
+  // their level; if there's none, the closest easier one; then the closest harder one
+  const order = [...LV.keys()].sort((x, y) => (x > want) - (y > want) || Math.abs(x - want) - Math.abs(y - want));
+  for (const r of order) { const e = first(open.filter(c => rank(c.level) === r)); if (e) return e; }
+  return mine[0];
+}
 function togglePlay() {
   if (!story) {  // Saten: Play did nothing until an episode was picked
-    const mine = catalog.filter(c => c.lang === lang), want = [store.get("last_" + lang), (store.get("place_" + lang, {}) || {}).start];
-    const easiest = [...mine].sort((x, y) => (x.level || "Z").localeCompare(y.level || "Z"))[0];  // A1 before B2
-    const e = want.map(id => mine.find(c => c.id === id)).find(Boolean) || easiest;
+    const e = pickStart();
     if (e) { log("play_default", { id: e.id }, e.id); openStory(e).then(renderStories); }
     return;
   }
@@ -580,7 +607,7 @@ function show() {
   if (lesson && s) {
     const t = lessonTok[step], k = /^W\d/.test(t) ? +t.slice(1) : -1;
     $("dots").innerHTML = steps.map((_, i) => `<i class="${i === step ? "on" : i < step ? "past" : ""}"></i>`).join("");
-    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
+    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], T_SLOW: LANGS[lang][0] + " (slow)", EN: "English", WORDS: "Word by word" }[t];
     if (step === 0) $("en").textContent = "";  // first, just listen
     if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
     if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${wordHTML(s, j)} = ${esc(m)}</b>` : wordHTML(s, j)).join("  ");
@@ -732,6 +759,17 @@ function renderPattern() {
   $("pattern").value = display(cur);
   $("patternHead").textContent = `What you hear in a story: ${display(cur)}`;
   $("tokens").textContent = `Write what plays for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · EN = English · WORDS = word by word · PAUSE = time to repeat\nExample: ${CODE()} EN ${CODE()} PAUSE · Just the story: ${CODE()}\nUsed in Continuous only.`;
+  const les = parse(lessonPattern()).filter(t => t !== "PAUSE").join(" ");
+  $("lessonPat").value = display(les);
+  $("lessonHead").textContent = `Step by step order: ${display(les)}`;
+  $("lessonTokens").textContent = `The parts you tap through for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · EN = English · WORDS = each word, one tap per word\nExample: ${CODE()} EN WORDS ${CODE()} EN ${CODE()} · Default: ${display(LESSON.join(" "))}\nUsed in Step by step only. Takes effect from the next sentence.`;
+}
+
+function setLessonPattern(p) {
+  const clean = parse(p).filter(t => t !== "PAUSE").join(" ") || LESSON.join(" ");
+  store.set("lesson_" + lang, clean);
+  log("lesson_pattern", { pattern: clean });
+  renderPattern(); renderMode();
 }
 
 function setPattern(p) {
@@ -750,7 +788,7 @@ function renderMode() {
   if (!story) { $("storyCtl").hidden = m === "lesson"; $("lessonCtl").hidden = $("phraseNav").hidden = m !== "lesson"; }  // right buttons before an episode is open
   document.querySelectorAll("#modes button").forEach(b => b.className = b.dataset.mode === m ? "on" : "");
   $("modeHint").textContent = m === "lesson"
-    ? `Step by step: ${LANGS[lang][0]}, English, word by word, English, ${LANGS[lang][0]}. You choose when to move on.`
+    ? `Step by step: ${parse(lessonPattern()).map(t => ({ T: LANGS[lang][0], T_SLOW: LANGS[lang][0] + " (slow)", EN: "English", WORDS: "word by word" }[t])).filter(Boolean).join(", ")}. You choose when to move on. Change the order in ⚙ Settings.`
     : "Plays on its own, like an audiobook. Change what you hear in ⚙ Settings.";
 }
 
@@ -967,6 +1005,7 @@ function ptFinish({ none, taste }) {
 $("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null); PT.running = false; $("setBack").click(); renderAll(); window.scrollTo(0, 0); };
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
+$("lessonPat").addEventListener("change", e => setLessonPattern(e.target.value));
 $("play").onclick = togglePlay;
 $("next").onclick = $("lNextPh").onclick = nextPhrase;
 $("back").onclick = replay;
@@ -1078,6 +1117,7 @@ function onbFinish() {
   ONB.sendLove && ONB.sendLove();
   log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured }, "");
   $("onb").hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
+  togglePlay();  // "Start listening" starts listening
 }
 function onbShow() {
   const el = $("onb"), box = el.querySelector(".in");
@@ -1108,11 +1148,19 @@ function onbShow() {
       opt("story", "Continuous", "Plays by itself, like an audiobook. Hands-free: walking, cooking, driving.") +
       `<button class="go" id="onbNext" ${ONB.mode ? "" : "disabled"}>${ONB.mode ? `Continue with ${ONB.mode === "lesson" ? "Step by step" : "Continuous"}` : "Next"}</button>`;
   }
-  if (ONB.step === 5) html = `<h1>What would you love to listen to?</h1><div class="muted">${ASK_LOVE}</div>
-    <div id="onbLove"></div><div class="muted" style="margin-top:8px">Optional. You can always add ideas later in ⚙ Settings.</div>
-    <button class="go" id="onbNext">Start listening</button>`;
+  if (ONB.step === 5) html = `<h1>What would you love to listen to?</h1><div class="muted">Optional. ${ASK_LOVE}</div>
+    <div id="onbLove"></div><div class="muted" style="margin-top:8px">Nothing comes to mind? Just skip. You can add ideas any time in ⚙ Settings.</div>
+    <button class="go sticky" id="onbNext">Skip and start listening</button>`;
   box.innerHTML = dots + html;
-  if (ONB.step === 5) ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
+  if (ONB.step === 5) {
+    ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
+    // one button, two names (Saten: nobody should feel they have to fill this in)
+    const love = $("onbLove"), name = () => setTimeout(() => {
+      const any = love.querySelector(".rqtext").value.trim() || love.querySelector("[data-t].on");
+      $("onbNext").textContent = any ? "Send and start listening" : "Skip and start listening";
+    });
+    love.addEventListener("input", name); love.addEventListener("click", name);
+  }
   el.hidden = false;
   const next = $("onbNext");
   if (ONB.step === 0) {
