@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">  <!-- maximum-scale: no automatic zoom on text boxes (Arshile); iPhone still lets you pinch-zoom -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">  <!-- no maximum-scale: it blocks pinch-zoom on Android; text boxes ≥16px already stop iPhone's auto-zoom -->
 <title>Écoute</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Écoute">
@@ -349,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.91";
+const VERSION = "web 0.92";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -580,7 +580,8 @@ function nativeEvents() {
 // Word pairs sit right after the previous pair's silence with only 0.3 s after them, so played as is the player's early
 // stop (350 ms) cut their end and a late iPhone seek their start (Arshile, 2026-11-20: "losing a bit of the front and
 // end"). Start 0.25 s before, in the silence, and keep the whole tail.
-const wpRange = r => [Math.max(0, r[0] - 250), r[1] + 250 + 350];
+const wpRange = r => { const s0 = Math.max(0, r[0] - 250); return [s0, r[0] + r[1] - s0 + 350]; };  // players that stop 350 ms early
+const wpRangeVA = r => { const s0 = Math.max(0, r[0] - 250); return [s0, r[0] + r[1] - s0]; };  // vaRange plays to the end
 // every clip in the bank has 0.4 s of silence before it: start a little inside that, so a late seek never eats a sound
 const PRE = 150;
 
@@ -620,6 +621,7 @@ function startSeg(i, pat) {
     lessonTok = parse(lessonPattern()).filter(t => b[KIND[t]])  // PAUSE drops out (they tap); no word pairs: WORDS drops out
       .filter((t, k, a) => k === 0 || t !== a[k - 1])  // ...and English doesn't play twice in a row
       .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
+    if (!lessonTok.length) lessonTok = ["T", "EN", "T"].filter(t => b[KIND[t]]);  // an order with nothing this story has
     steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? wpRange(b.wp[+t.slice(1)]) : b[KIND[t]]);
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
   step = 0; waiting = false;
@@ -732,6 +734,7 @@ if ("mediaSession" in navigator) {
 
 function show() {
   const n = story.segments.length;
+  const bub = $("wbub"); if (bub && bub.dataset.seg !== String(seg)) bub.remove();  // the sentence moved on
   const s = story.segments[seg];
   $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
   $("fr").innerHTML = s ? segHTML(s) : esc(story.title);
@@ -1237,7 +1240,7 @@ function onbTour() {
     const lessonToks = s => s.bank.wp ? ["T", "EN", ...s.bank.wp.map((_, k) => "W" + k), "EN", "T"] : ["T", "EN", "T"];
     const isW = t => /^W\d/.test(t), seg0 = j.segs[0];
     const tokName = t => isW(t) ? seg0.words[+t.slice(1)][0] : TOK_NAME(t);
-    const range = (s, t) => isW(t) ? wpRange(s.bank.wp[+t.slice(1)]) : s.bank[KIND[t]];
+    const range = (s, t) => isW(t) ? wpRangeVA(s.bank.wp[+t.slice(1)]) : s.bank[KIND[t]];
     const paint = (list, k) => $("tToks").innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${esc(tokName(t))}</span>`).join("");
     const text = (s, list, k) => {
       $("tFr").textContent = s.fr;
@@ -1271,7 +1274,7 @@ function onbTour() {
         const run = ++T.run;
         $("tCtl").innerHTML = ""; $("tHint").textContent = "Playing by itself…";
         const go = (p, k) => {
-          if (run !== T.run) return;
+          if (run !== T.run || !$("tour")) return;  // they left the example
           if (k === DEMO.length) return p < j.segs.length - 1 ? setTimeout(() => go(p + 1, 0), 600) : done();
           paint(DEMO, k); text(j.segs[p], DEMO, k);
           vaRange(j.url, j.segs[p].bank[KIND[DEMO[k]]], () => go(p, k + 1));
@@ -1280,6 +1283,7 @@ function onbTour() {
       };
     };
     const done = () => {
+      if (!$("tour")) return;
       $("tHint").innerHTML = "That's it! Now choose the one you liked.";
       $("tCtl").innerHTML = `<button class="ib" id="tAgain"><span class="c">${ICON.repeat}</span>Hear it again</button>`;
       $("tAgain").onclick = () => cont();
@@ -1290,7 +1294,7 @@ function onbTour() {
   });
 }
 function onbFinish() {
-  VA.el.pause();
+  VA.el.pause(); clearInterval(VA.timer);
   store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
   store.set("level_" + lang, ONB.level);
   store.set("mode_" + lang, ONB.mode);
@@ -1357,7 +1361,7 @@ function onbShow() {
   if (ONB.step === 3) { ONB.toured = true; onbTour(); }
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
-    if (ONB.step === 3) VA.el.pause();
+    if (ONB.step === 3) { VA.el.pause(); clearInterval(VA.timer); }
     if (ONB.step === 2 && ONB.level === "A0") { ONB.mode = "lesson"; ONB.step = 5; }  // complete beginners: Step by step, no joke
     else if (ONB.step < 5) ONB.step++;
     else return onbFinish();
@@ -1481,12 +1485,12 @@ async function storyJson(id) {
   }
   return storyCache[id];
 }
-function toggleSave(kk) {
-  if (!story || seg < 0) return;
-  const k = kk !== undefined ? kk : +lessonTok[step].slice(1), sg = story.segments[seg], w = wkey(sg, k), m = sg.words[k][1];
+function toggleSave(kk, at = seg) {  // kk, at: a word from the bubble, of the sentence it was opened on
+  if (!story || at < 0) return;
+  const k = kk !== undefined ? kk : +lessonTok[step].slice(1), sg = story.segments[at], w = wkey(sg, k), m = sg.words[k][1];
   let list = vocab();
   if (isSaved(w)) { list = list.filter(v => v.w !== w); log("vocab_unsave", { w, m, seg }); }
-  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); KNOW.set(KNOW.base(sg, k), p => Math.min(p, .15)); }
+  else { list.unshift({ w, m, story: story.id, seg: at, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); KNOW.set(KNOW.base(sg, k), p => Math.min(p, .15)); }
   store.set("vocab_" + lang, list);
   storyCache[story.id] = Promise.resolve(story);
   show(); renderVocab();
@@ -1537,14 +1541,15 @@ document.addEventListener("click", e => {
   log("word_tap", { w: key, m, seg });
   KNOW.set(KNOW.base(sg, k), KNOW.down(.6));  // looked it up
   const d = document.createElement("div");
-  d.id = "wbub";
+  d.id = "wbub"; d.dataset.seg = seg;
   d.innerHTML = `<b>${esc(w)}</b> = ${esc(m)}${base ? `<div class="muted">dictionary form: ${esc(shown({ w: key, m }).w)} · ${esc(b[1])}</div>` : ""}
     <button class="chip" id="wbSave">${isSaved(key) ? "★ Saved" : "☆ Save"}</button>`;
   document.body.append(d);
   const r = t.getBoundingClientRect(), W = document.documentElement.clientWidth;
   d.style.top = (window.scrollY + r.bottom + 8) + "px";
   d.style.left = Math.max(12, Math.min(W - d.offsetWidth - 12, r.left + r.width / 2 - d.offsetWidth / 2)) + "px";
-  $("wbSave").onclick = () => { toggleSave(k); $("wbSave").textContent = isSaved(key) ? "★ Saved" : "☆ Save"; };
+  const at = seg;
+  $("wbSave").onclick = () => { toggleSave(k, at); $("wbSave").textContent = isSaved(key) ? "★ Saved" : "☆ Save"; };
 });
 
 const VA = { el: new Audio(), end: 0, timer: null, queue: [], url: "" };
@@ -1575,7 +1580,8 @@ function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, the
   storyPause();
   const from = Math.max(0, r[0] - PRE) / 1000;  // a little before the sound, in the clip's leading silence
   if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = from;
-  else if (VA.url === url && VA.el.src) VA.el.addEventListener("loadedmetadata", () => { VA.el.currentTime = from; }, { once: true });  // already loading: don't start over
+  else if (VA.url === url && VA.el.src && !VA.el.error && VA.el.networkState !== 3)  // already loading: don't start over
+    VA.el.addEventListener("loadedmetadata", () => { VA.el.currentTime = from; }, { once: true });
   else { VA.url = url; VA.el.src = url + "#t=" + from; }
   VA.end = r[0] + r[1];
   VA.el.play().catch(() => {});
@@ -1628,7 +1634,7 @@ function renderVocab() {
     `<button data-d="${i}" aria-label="Learned">✓</button></div>` + (VS.open.has(vsKey(v)) ? vsHtml(v, i) : "")).join("");
   for (const v of list) storyJson(v.story).then(j => { if (storyCache[v.story]) storyCache[v.story].done = j; });
 }
-$("saveWord").onclick = toggleSave;
+$("saveWord").onclick = () => toggleSave();  // not the click event as the word number (broke Save in 0.85–0.91)
 function showWordsPage() {
   const cards = location.hash === "#cards", on = cards || location.hash === "#words";
   if (document.body.classList.contains("words")) vaStop();
