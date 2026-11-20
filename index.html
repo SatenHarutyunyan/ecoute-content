@@ -119,6 +119,11 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .toks span { font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
 #onb .toks span.on { background:var(--accent); border-color:var(--accent); color:#fff; }
 #onb .toks span.past { color:var(--ink); }
+.tw { cursor:pointer; border-bottom:1px dotted color-mix(in srgb, var(--muted) 60%, transparent); }
+.tw:active { background:color-mix(in srgb, var(--accent) 15%, transparent); border-radius:4px; }
+#wbub { position:absolute; z-index:65; max-width:min(320px, calc(100vw - 24px)); background:var(--card); color:var(--ink); border:1px solid var(--line);
+  border-radius:12px; padding:10px 12px; box-shadow:0 8px 24px rgba(0,0,0,.18); font-size:16px; }
+#wbub .chip { margin-top:8px; }
 .cwords { margin-top:8px; font-size:14px; line-height:1.7; color:var(--muted); }
 .cwords span { display:inline-block; margin-right:12px; }
 .ten { display:block; font-size:13px; color:var(--muted); font-weight:400; }
@@ -344,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.84";
+const VERSION = "web 0.85";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -392,7 +397,26 @@ function jaScript(st) {  // switch a story's (or catalog entry's) visible text t
   return st;
 }
 const wkey = (s, k) => s.wk ? s.wk[k] : s.words[k][0];  // saved words keep the kanji form, whatever the script
-const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : esc(s.fr) + (s.romaji && jScript() === "kana_r" ? `<div class="rom">${esc(s.romaji)}</div>` : "");
+const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : tapHTML(s) + (s.romaji && jScript() === "kana_r" ? `<div class="rom">${esc(s.romaji)}</div>` : "");
+// each word pair's words in the sentence become tappable (Saten, 2026-11-20: touch a word, see its translation);
+// the pairs are in sentence order and appear verbatim (check_pairs.py), so a forward search finds them
+function tapHTML(s) {
+  if (!s.words || !s.words.length) return esc(s.fr);
+  // compare without Armenian marks inside words (նո՞ր = նոր, Լիլի՛թ = Լիլիթ) and with ’ as '; map back to the text
+  const text = s.fr, skip = /[՞՛՜]/, idx = [];
+  let low = "";
+  for (let j = 0; j < text.length; j++) if (!skip.test(text[j])) { low += text[j].toLowerCase().replace("’", "'"); idx.push(j); }
+  let pos = 0, at = 0, out = "";
+  s.words.forEach(([w], k) => {
+    const q = (w || "").toLowerCase().replace(/’/g, "'").replace(/[՞՛՜]/g, "");
+    const i = q ? low.indexOf(q, pos) : -1;
+    if (i < 0) return;
+    const a = idx[i], z = idx[i + q.length - 1] + 1;
+    out += esc(text.slice(at, a)) + `<span class="tw" data-k="${k}">${esc(text.slice(a, z))}</span>`;
+    pos = i + q.length; at = z;
+  });
+  return out + esc(text.slice(at));
+}
 const wordHTML = (s, k) => s.wk && jScript() === "furi" ? ruby(s.wk[k], (s.wr[k] || [])[0]) :
   esc(s.words[k][0]) + (s.wr && jScript() === "kana_r" && (s.wr[k] || [])[1] ? ` <small class="rom">${esc(s.wr[k][1])}</small>` : "");
 function furigana(s) {  // the kanji line with each word pair's kana above its kanji
@@ -1449,9 +1473,9 @@ async function storyJson(id) {
   }
   return storyCache[id];
 }
-function toggleSave() {
+function toggleSave(kk) {
   if (!story || seg < 0) return;
-  const k = +lessonTok[step].slice(1), sg = story.segments[seg], w = wkey(sg, k), m = sg.words[k][1];
+  const k = kk !== undefined ? kk : +lessonTok[step].slice(1), sg = story.segments[seg], w = wkey(sg, k), m = sg.words[k][1];
   let list = vocab();
   if (isSaved(w)) { list = list.filter(v => v.w !== w); log("vocab_unsave", { w, m, seg }); }
   else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); }
@@ -1459,6 +1483,25 @@ function toggleSave() {
   storyCache[story.id] = Promise.resolve(story);
   show(); renderVocab();
 }
+// the bubble for a tapped word: its meaning, its dictionary form when different, ☆ Save
+document.addEventListener("click", e => {
+  const t = e.target.closest && e.target.closest(".tw"), old = $("wbub");
+  if (old && !(e.target.closest && e.target.closest("#wbub"))) old.remove();
+  if (!t || !story || seg < 0) return;
+  const k = +t.dataset.k, sg = story.segments[seg], [w, m] = sg.words[k], key = wkey(sg, k);
+  const b = lem({ w: key, m }), base = b && b[0] !== key && b[0] !== w ? b : null;
+  log("word_tap", { w: key, m, seg });
+  const d = document.createElement("div");
+  d.id = "wbub";
+  d.innerHTML = `<b>${esc(w)}</b> = ${esc(m)}${base ? `<div class="muted">dictionary form: ${esc(shown({ w: key, m }).w)} · ${esc(b[1])}</div>` : ""}
+    <button class="chip" id="wbSave">${isSaved(key) ? "★ Saved" : "☆ Save"}</button>`;
+  document.body.append(d);
+  const r = t.getBoundingClientRect(), W = document.documentElement.clientWidth;
+  d.style.top = (window.scrollY + r.bottom + 8) + "px";
+  d.style.left = Math.max(12, Math.min(W - d.offsetWidth - 12, r.left + r.width / 2 - d.offsetWidth / 2)) + "px";
+  $("wbSave").onclick = () => { toggleSave(k); $("wbSave").textContent = isSaved(key) ? "★ Saved" : "☆ Save"; };
+});
+
 const VA = { el: new Audio(), end: 0, timer: null, queue: [], url: "" };
 function vaStop() {
   clearInterval(VA.timer); VA.queue = []; VA.el.pause();
