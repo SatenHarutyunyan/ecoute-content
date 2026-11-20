@@ -122,6 +122,9 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 .ten { display:block; font-size:13px; color:var(--muted); font-weight:400; }
 .rom { font-size:.62em; font-weight:400; color:var(--muted); margin-top:2px; }
 .done-big { font-size:22px; font-weight:700; margin-bottom:4px; }
+#micAsk { position:fixed; inset:0; z-index:70; background:rgba(0,0,0,.45); display:flex; align-items:flex-end; justify-content:center; }
+#micAsk .micbox { background:var(--card); color:var(--ink); width:100%; max-width:520px; border-radius:18px 18px 0 0; padding:20px 18px max(18px, env(safe-area-inset-bottom)); font-size:15px; }
+#micAsk p { margin:10px 0 0; line-height:1.4; }
 #toast { position:fixed; left:16px; right:16px; bottom:max(16px, env(safe-area-inset-bottom)); z-index:60; background:var(--ink); color:var(--bg);
   padding:14px 16px; border-radius:14px; font-size:15px; box-shadow:0 8px 24px rgba(0,0,0,.25); opacity:0; transform:translateY(20px);
   transition:opacity .25s, transform .25s; pointer-events:none; }
@@ -338,7 +341,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.82";
+const VERSION = "web 0.83";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1817,11 +1820,12 @@ async function voiceStartNative() {
       heardHint(e.word);
       if (!e.handled) voiceDo(action);  // the app did it already (C17: it works with the screen locked)
     });
-    // diagnostics: what the phone hears (throttled) and its state, so the Sheet shows why a command didn't come through
+    // diagnostics: only THAT the phone hears something (how many characters), never WHAT: people talk near their
+    // phone, and their words must not reach our logs (Armen, Saten 2026-11-20; until then the last 80 characters went)
     let lastHeard = 0;
     V.sub2 = await NATIVE_VOICE.addListener("heard", e => {
-      if (Date.now() - lastHeard < 3000 && !e.final) return;
-      lastHeard = Date.now(); log("voice_heard", { text: String(e.text || "").slice(-80), final: !!e.final });
+      if (Date.now() - lastHeard < 10000 && !e.final) return;
+      lastHeard = Date.now(); log("voice_heard", { chars: String(e.text || "").length, final: !!e.final });
     });
     V.sub3 = await NATIVE_VOICE.addListener("state", e => {
       log("voice_state", e);
@@ -1849,7 +1853,26 @@ function voiceStop(save = true) {
   voiceUi("off");
   $("voiceHint").textContent = "Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.";
 }
-$("voice").onclick = () => V.on ? voiceStop() : voiceStart();
+$("voice").onclick = () => V.on ? voiceStop() : store.get("mic_ok", false) ? voiceStart() : micExplain();
+// Before the phone's own microphone question (which names the website, "satenharutyunyan.github.io wants to use the
+// microphone"): say what it's for, in our words (Armen, 2026-11-20)
+function micExplain() {
+  const ios = NATIVE_VOICE && !ANDROID;  // Apple's recognition: on the phone where supported, else Apple's servers
+  const how = ios
+    ? "Apple's speech recognition does it, on the iPhone itself on most models (older ones may use Apple's servers). We never record or keep what you say:"
+    : `Recognition runs on your phone, inside ${ANDROID ? "the app" : "this page"}:`;
+  const d = document.createElement("div");
+  d.id = "micAsk";
+  d.innerHTML = `<div class="micbox"><b>🎙 Voice commands</b>
+    <p>Say <b>next</b>, <b>repeat</b>, <b>pause</b> or <b>continue</b> while you listen — handy with your hands busy.</p>
+    <p>To hear these words the app needs the microphone. ${how} <b>${ios ? "only the command words reach the app" : "nothing you say is recorded, saved or sent anywhere"}</b>.
+    Only the command words do something.</p>
+    <p class="muted">Next, your phone asks for permission${location.hostname.endsWith("github.io") ? ` — it names our website, <i>${esc(location.hostname)}</i>` : ""}.</p>
+    <div class="done-row"><button class="big" id="micYes">Turn on voice commands</button><button class="chip" id="micNo">Not now</button></div></div>`;
+  document.body.append(d);
+  $("micYes").onclick = () => { store.set("mic_ok", true); log("mic_explain", { ok: true }); d.remove(); voiceStart(); };  // still inside the tap
+  $("micNo").onclick = () => { log("mic_explain", { ok: false }); d.remove(); };
+}
 // remembered "on": the browser needs a tap before it may listen, so start on the first tap anywhere
 function voiceArm() {
   if (!store.get("voice", false) || V.on) return;
@@ -1857,7 +1880,7 @@ function voiceArm() {
   voiceUi("tap anywhere to start");
   document.addEventListener("click", function once(e) {
     document.removeEventListener("click", once, true);
-    if (!V.on && store.get("voice", false) && e.target.id !== "voice") voiceStart();
+    if (!V.on && store.get("voice", false) && e.target.id !== "voice") { store.set("mic_ok", true); voiceStart(); }  // already allowed before
   }, true);
 }
 try { voiceArm(); } catch (e) { log("js_error", { err: "voiceArm: " + String(e && e.message || e).slice(0, 200) }); }
