@@ -1,0 +1,1971 @@
+{
+ "id": "es_req_armen_01",
+ "lang": "es",
+ "title": "La película del viernes",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "It's Friday night. Two brothers want to watch a film, a película, but they never agree, and the remote control is in danger.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 15960,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Es viernes por la noche.",
+   "en": "It's Friday night.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it is"
+    ],
+    [
+     "viernes",
+     "Friday"
+    ],
+    [
+     "por la noche",
+     "at night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2440,
+    "frs": 3240,
+    "en": 1590,
+    "wd": 9250
+   },
+   "bank": {
+    "fr": [
+     47160,
+     2440
+    ],
+    "frs": [
+     50000,
+     3240
+    ],
+    "en": [
+     53640,
+     1590
+    ],
+    "wd": [
+     55630,
+     9250
+    ],
+    "wp": [
+     [
+      55630,
+      2230
+     ],
+     [
+      58260,
+      2610
+     ],
+     [
+      61270,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Diego y Raúl son hermanos.",
+   "en": "Diego and Raúl are brothers.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Diego",
+     "Diego"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "Raúl",
+     "Raúl"
+    ],
+    [
+     "son",
+     "are"
+    ],
+    [
+     "hermanos",
+     "brothers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3840,
+    "en": 2680,
+    "wd": 14440
+   },
+   "bank": {
+    "fr": [
+     65280,
+     2820
+    ],
+    "frs": [
+     68500,
+     3840
+    ],
+    "en": [
+     72740,
+     2680
+    ],
+    "wd": [
+     75820,
+     14440
+    ],
+    "wp": [
+     [
+      75820,
+      2440
+     ],
+     [
+      78660,
+      2360
+     ],
+     [
+      81420,
+      2329
+     ],
+     [
+      84150,
+      2190
+     ],
+     [
+      86740,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Están en el sofá con palomitas.",
+   "en": "They're on the sofa with popcorn.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "sofá",
+     "en": "sofa"
+    },
+    {
+     "fr": "palomitas",
+     "en": "popcorn"
+    }
+   ],
+   "words": [
+    [
+     "Están",
+     "they are"
+    ],
+    [
+     "en",
+     "on"
+    ],
+    [
+     "el sofá",
+     "the sofa"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "palomitas",
+     "popcorn"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2880,
+    "frs": 3900,
+    "en": 2150,
+    "gl": 6710,
+    "wd": 14410
+   },
+   "bank": {
+    "fr": [
+     90660,
+     2880
+    ],
+    "frs": [
+     93940,
+     3900
+    ],
+    "en": [
+     98240,
+     2150
+    ],
+    "gl": [
+     100790,
+     6710
+    ],
+    "wd": [
+     107900,
+     14410
+    ],
+    "wp": [
+     [
+      107900,
+      2440
+     ],
+     [
+      110740,
+      2110
+     ],
+     [
+      113250,
+      2640
+     ],
+     [
+      116290,
+      2020
+     ],
+     [
+      118710,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quieren ver una película.",
+   "en": "They want to watch a film.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "película",
+     "en": "film, movie"
+    }
+   ],
+   "words": [
+    [
+     "Quieren",
+     "they want"
+    ],
+    [
+     "ver",
+     "to watch"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "película",
+     "film"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2300,
+    "frs": 3060,
+    "en": 1760,
+    "gl": 3730,
+    "wd": 11440
+   },
+   "bank": {
+    "fr": [
+     122710,
+     2300
+    ],
+    "frs": [
+     125410,
+     3060
+    ],
+    "en": [
+     128870,
+     1760
+    ],
+    "gl": [
+     131030,
+     3730
+    ],
+    "wd": [
+     135160,
+     11440
+    ],
+    "wp": [
+     [
+      135160,
+      2410
+     ],
+     [
+      137970,
+      2340
+     ],
+     [
+      140710,
+      2150
+     ],
+     [
+      143260,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pero Diego tiene el mando.",
+   "en": "But Diego has the remote control.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "mando",
+     "en": "remote control"
+    }
+   ],
+   "words": [
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "Diego",
+     "Diego"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "el mando",
+     "the remote control"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2460,
+    "frs": 3280,
+    "en": 2710,
+    "gl": 3770,
+    "wd": 11950
+   },
+   "bank": {
+    "fr": [
+     147000,
+     2460
+    ],
+    "frs": [
+     149860,
+     3280
+    ],
+    "en": [
+     153540,
+     2710
+    ],
+    "gl": [
+     156650,
+     3770
+    ],
+    "wd": [
+     160820,
+     11950
+    ],
+    "wp": [
+     [
+      160820,
+      2010
+     ],
+     [
+      163230,
+      2440
+     ],
+     [
+      166070,
+      2329
+     ],
+     [
+      168800,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Una película de miedo», dice Diego.",
+   "en": "\"A horror film,\" says Diego.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "miedo",
+     "en": "fear"
+    }
+   ],
+   "words": [
+    [
+     "Una",
+     "a"
+    ],
+    [
+     "película de miedo",
+     "horror film"
+    ],
+    [
+     "dice",
+     "says"
+    ],
+    [
+     "Diego",
+     "Diego"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "frs": 4440,
+    "en": 2630,
+    "gl": 3280,
+    "wd": 12230
+   },
+   "bank": {
+    "fr": [
+     173170,
+     3230
+    ],
+    "frs": [
+     176800,
+     4440
+    ],
+    "en": [
+     181640,
+     2630
+    ],
+    "gl": [
+     184670,
+     3280
+    ],
+    "wd": [
+     188350,
+     12230
+    ],
+    "wp": [
+     [
+      188350,
+      2150
+     ],
+     [
+      190900,
+      3240
+     ],
+     [
+      194540,
+      2350
+     ],
+     [
+      197290,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡No! Una comedia», dice Raúl.",
+   "en": "\"No! A comedy,\" says Raúl.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "comedia",
+     "en": "comedy"
+    }
+   ],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "Una",
+     "a"
+    ],
+    [
+     "comedia",
+     "comedy"
+    ],
+    [
+     "dice",
+     "says"
+    ],
+    [
+     "Raúl",
+     "Raúl"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 4360,
+    "frs": 6140,
+    "en": 2940,
+    "gl": 3410,
+    "wd": 13940
+   },
+   "bank": {
+    "fr": [
+     200980,
+     4360
+    ],
+    "frs": [
+     205740,
+     6140
+    ],
+    "en": [
+     212280,
+     2940
+    ],
+    "gl": [
+     215620,
+     3410
+    ],
+    "wd": [
+     219430,
+     13940
+    ],
+    "wp": [
+     [
+      219430,
+      2180
+     ],
+     [
+      222010,
+      2150
+     ],
+     [
+      224560,
+      2480
+     ],
+     [
+      227440,
+      2350
+     ],
+     [
+      230190,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Raúl toma el mando.",
+   "en": "Raúl takes the remote control.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Raúl",
+     "Raúl"
+    ],
+    [
+     "toma",
+     "takes"
+    ],
+    [
+     "el mando",
+     "the remote control"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "frs": 3040,
+    "en": 2430,
+    "wd": 9380
+   },
+   "bank": {
+    "fr": [
+     233770,
+     2290
+    ],
+    "frs": [
+     236460,
+     3040
+    ],
+    "en": [
+     239900,
+     2430
+    ],
+    "wd": [
+     242730,
+     9380
+    ],
+    "wp": [
+     [
+      242730,
+      2329
+     ],
+     [
+      245460,
+      2280
+     ],
+     [
+      248140,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Diego toma el mando otra vez.",
+   "en": "Diego takes the remote control again.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Diego",
+     "Diego"
+    ],
+    [
+     "toma",
+     "takes"
+    ],
+    [
+     "el mando",
+     "the remote control"
+    ],
+    [
+     "otra vez",
+     "again"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2590,
+    "frs": 3500,
+    "en": 2710,
+    "wd": 12360
+   },
+   "bank": {
+    "fr": [
+     252510,
+     2590
+    ],
+    "frs": [
+     255500,
+     3500
+    ],
+    "en": [
+     259399,
+     2710
+    ],
+    "wd": [
+     262510,
+     12360
+    ],
+    "wp": [
+     [
+      262510,
+      2440
+     ],
+     [
+      265350,
+      2280
+     ],
+     [
+      268030,
+      3120
+     ],
+     [
+      271550,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Ay! El mando cae al suelo.",
+   "en": "Oops! The remote control falls on the floor.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ay",
+     "oops"
+    ],
+    [
+     "El mando",
+     "the remote control"
+    ],
+    [
+     "cae",
+     "falls"
+    ],
+    [
+     "al suelo",
+     "on the floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "frs": 5340,
+    "en": 3390,
+    "wd": 12480
+   },
+   "bank": {
+    "fr": [
+     275270,
+     3840
+    ],
+    "frs": [
+     279510,
+     5340
+    ],
+    "en": [
+     285250,
+     3390
+    ],
+    "wd": [
+     289040,
+     12480
+    ],
+    "wp": [
+     [
+      289040,
+      2110
+     ],
+     [
+      291550,
+      3120
+     ],
+     [
+      295070,
+      2410
+     ],
+     [
+      297880,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora la tele no funciona.",
+   "en": "Now the TV doesn't work.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "la tele",
+     "the TV"
+    ],
+    [
+     "no funciona",
+     "doesn't work"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2620,
+    "frs": 3520,
+    "en": 2080,
+    "wd": 9490
+   },
+   "bank": {
+    "fr": [
+     301920,
+     2620
+    ],
+    "frs": [
+     304940,
+     3520
+    ],
+    "en": [
+     308860,
+     2080
+    ],
+    "wd": [
+     311340,
+     9490
+    ],
+    "wp": [
+     [
+      311340,
+      2260
+     ],
+     [
+      314000,
+      2630
+     ],
+     [
+      317030,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los hermanos miran la pantalla negra.",
+   "en": "The brothers look at the black screen.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Los hermanos",
+     "the brothers"
+    ],
+    [
+     "miran",
+     "look at"
+    ],
+    [
+     "la pantalla",
+     "the screen"
+    ],
+    [
+     "negra",
+     "black"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3100,
+    "frs": 4240,
+    "en": 2340,
+    "wd": 12840
+   },
+   "bank": {
+    "fr": [
+     321230,
+     3100
+    ],
+    "frs": [
+     324730,
+     4240
+    ],
+    "en": [
+     329370,
+     2340
+    ],
+    "wd": [
+     332110,
+     12840
+    ],
+    "wp": [
+     [
+      332110,
+      3140
+     ],
+     [
+      335650,
+      2360
+     ],
+     [
+      338410,
+      2890
+     ],
+     [
+      341700,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Entra su abuela, Doña Pilar.",
+   "en": "Their grandmother, Doña Pilar, comes in.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Entra",
+     "comes in"
+    ],
+    [
+     "su",
+     "their"
+    ],
+    [
+     "abuela",
+     "grandmother"
+    ],
+    [
+     "Doña Pilar",
+     "Doña Pilar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2900,
+    "frs": 3940,
+    "en": 3320,
+    "wd": 12150
+   },
+   "bank": {
+    "fr": [
+     345350,
+     2900
+    ],
+    "frs": [
+     348650,
+     3940
+    ],
+    "en": [
+     352990,
+     3320
+    ],
+    "wd": [
+     356710,
+     12150
+    ],
+    "wp": [
+     [
+      356710,
+      2410
+     ],
+     [
+      359520,
+      2210
+     ],
+     [
+      362130,
+      2580
+     ],
+     [
+      365110,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Qué pasa aquí?», pregunta.",
+   "en": "\"What's going on here?\" she asks.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Qué pasa",
+     "what's going on"
+    ],
+    [
+     "aquí",
+     "here"
+    ],
+    [
+     "pregunta",
+     "she asks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "frs": 3400,
+    "en": 2520,
+    "wd": 9500
+   },
+   "bank": {
+    "fr": [
+     369260,
+     2540
+    ],
+    "frs": [
+     372200,
+     3400
+    ],
+    "en": [
+     376000,
+     2520
+    ],
+    "wd": [
+     378920,
+     9500
+    ],
+    "wp": [
+     [
+      378920,
+      2890
+     ],
+     [
+      382210,
+      2240
+     ],
+     [
+      384850,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«No podemos elegir una película», dice Raúl.",
+   "en": "\"We can't choose a film,\" says Raúl.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "elegir",
+     "en": "to choose"
+    }
+   ],
+   "words": [
+    [
+     "No podemos",
+     "we can't"
+    ],
+    [
+     "elegir",
+     "choose"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "película",
+     "film"
+    ],
+    [
+     "dice",
+     "says"
+    ],
+    [
+     "Raúl",
+     "Raúl"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3910,
+    "frs": 5470,
+    "en": 2850,
+    "gl": 3440,
+    "wd": 17470
+   },
+   "bank": {
+    "fr": [
+     388820,
+     3910
+    ],
+    "frs": [
+     393130,
+     5470
+    ],
+    "en": [
+     399000,
+     2850
+    ],
+    "gl": [
+     402250,
+     3440
+    ],
+    "wd": [
+     406090,
+     17470
+    ],
+    "wp": [
+     [
+      406090,
+      2890
+     ],
+     [
+      409380,
+      2410
+     ],
+     [
+      412190,
+      2150
+     ],
+     [
+      414740,
+      2490
+     ],
+     [
+      417630,
+      2350
+     ],
+     [
+      420380,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La abuela sonríe.",
+   "en": "Grandma smiles.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La abuela",
+     "Grandma"
+    ],
+    [
+     "sonríe",
+     "smiles"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2240,
+    "frs": 2940,
+    "en": 1690,
+    "wd": 6600
+   },
+   "bank": {
+    "fr": [
+     423960,
+     2240
+    ],
+    "frs": [
+     426600,
+     2940
+    ],
+    "en": [
+     429940,
+     1690
+    ],
+    "wd": [
+     432030,
+     6600
+    ],
+    "wp": [
+     [
+      432030,
+      2580
+     ],
+     [
+      435010,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Abre una caja vieja.",
+   "en": "She opens an old box.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Abre",
+     "she opens"
+    ],
+    [
+     "una",
+     "an"
+    ],
+    [
+     "caja",
+     "box"
+    ],
+    [
+     "vieja",
+     "old"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2280,
+    "frs": 2990,
+    "en": 2070,
+    "wd": 11390
+   },
+   "bank": {
+    "fr": [
+     439030,
+     2280
+    ],
+    "frs": [
+     441710,
+     2990
+    ],
+    "en": [
+     445100,
+     2070
+    ],
+    "wd": [
+     447570,
+     11390
+    ],
+    "wp": [
+     [
+      447570,
+      2530
+     ],
+     [
+      450500,
+      2160
+     ],
+     [
+      453060,
+      2340
+     ],
+     [
+      455800,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dentro hay un álbum de fotos.",
+   "en": "Inside there's a photo album.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Dentro",
+     "inside"
+    ],
+    [
+     "hay",
+     "there is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "álbum de fotos",
+     "photo album"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2790,
+    "frs": 3780,
+    "en": 2170,
+    "wd": 12180
+   },
+   "bank": {
+    "fr": [
+     459360,
+     2790
+    ],
+    "frs": [
+     462550,
+     3780
+    ],
+    "en": [
+     466730,
+     2170
+    ],
+    "wd": [
+     469300,
+     12180
+    ],
+    "wp": [
+     [
+      469300,
+      2510
+     ],
+     [
+      472210,
+      2230
+     ],
+     [
+      474840,
+      2080
+     ],
+     [
+      477320,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Esta es mi película favorita», dice.",
+   "en": "\"This is my favorite film,\" she says.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Esta",
+     "this"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "película",
+     "film"
+    ],
+    [
+     "favorita",
+     "favorite"
+    ],
+    [
+     "dice",
+     "she says"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3300,
+    "frs": 4540,
+    "en": 2960,
+    "wd": 17140
+   },
+   "bank": {
+    "fr": [
+     481880,
+     3300
+    ],
+    "frs": [
+     485580,
+     4540
+    ],
+    "en": [
+     490520,
+     2960
+    ],
+    "wd": [
+     493880,
+     17140
+    ],
+    "wp": [
+     [
+      493880,
+      2329
+     ],
+     [
+      496610,
+      2140
+     ],
+     [
+      499150,
+      2150
+     ],
+     [
+      501700,
+      2490
+     ],
+     [
+      504590,
+      2630
+     ],
+     [
+      507620,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hay fotos de su boda, de viajes, de los niños.",
+   "en": "There are photos of her wedding, of trips, of the children.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Hay",
+     "there are"
+    ],
+    [
+     "fotos",
+     "photos"
+    ],
+    [
+     "de",
+     "of"
+    ],
+    [
+     "su",
+     "her"
+    ],
+    [
+     "boda",
+     "wedding"
+    ],
+    [
+     "de",
+     "of"
+    ],
+    [
+     "viajes",
+     "trips"
+    ],
+    [
+     "de",
+     "of"
+    ],
+    [
+     "los niños",
+     "the children"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5300,
+    "en": 4050,
+    "wd": 25010
+   },
+   "bank": {
+    "fr": [
+     511420,
+     3810
+    ],
+    "frs": [
+     515630,
+     5300
+    ],
+    "en": [
+     521330,
+     4050
+    ],
+    "wd": [
+     525780,
+     25010
+    ],
+    "wp": [
+     [
+      525780,
+      2240
+     ],
+     [
+      528420,
+      2570
+     ],
+     [
+      531390,
+      2040
+     ],
+     [
+      533830,
+      2180
+     ],
+     [
+      536410,
+      2300
+     ],
+     [
+      539110,
+      2040
+     ],
+     [
+      541550,
+      2600
+     ],
+     [
+      544550,
+      2040
+     ],
+     [
+      546990,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hay una foto de Diego y Raúl, muy pequeños, con un mando en la boca.",
+   "en": "There's a photo of Diego and Raúl, very small, with a remote control in their mouths.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "foto",
+     "photo"
+    ],
+    [
+     "de",
+     "of"
+    ],
+    [
+     "Diego",
+     "Diego"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "Raúl",
+     "Raúl"
+    ],
+    [
+     "muy",
+     "very"
+    ],
+    [
+     "pequeños",
+     "small"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "mando",
+     "remote control"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "la boca",
+     "the mouth"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5050,
+    "frs": 7150,
+    "en": 5930,
+    "wd": 38420
+   },
+   "bank": {
+    "fr": [
+     551190,
+     5050
+    ],
+    "frs": [
+     556640,
+     7150
+    ],
+    "en": [
+     564190,
+     5930
+    ],
+    "wd": [
+     570520,
+     38420
+    ],
+    "wp": [
+     [
+      570520,
+      2230
+     ],
+     [
+      573150,
+      2150
+     ],
+     [
+      575700,
+      2390
+     ],
+     [
+      578490,
+      2040
+     ],
+     [
+      580930,
+      2440
+     ],
+     [
+      583770,
+      2360
+     ],
+     [
+      586530,
+      2329
+     ],
+     [
+      589260,
+      2220
+     ],
+     [
+      591880,
+      2620
+     ],
+     [
+      594900,
+      2020
+     ],
+     [
+      597320,
+      2080
+     ],
+     [
+      599800,
+      2840
+     ],
+     [
+      603040,
+      2100
+     ],
+     [
+      605540,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los tres ríen mucho.",
+   "en": "The three of them laugh a lot.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Los tres",
+     "the three of them"
+    ],
+    [
+     "ríen",
+     "laugh"
+    ],
+    [
+     "mucho",
+     "a lot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 2390,
+    "frs": 3180,
+    "en": 2060,
+    "wd": 9440
+   },
+   "bank": {
+    "fr": [
+     609340,
+     2390
+    ],
+    "frs": [
+     612130,
+     3180
+    ],
+    "en": [
+     615710,
+     2060
+    ],
+    "wd": [
+     618170,
+     9440
+    ],
+    "wp": [
+     [
+      618170,
+      2880
+     ],
+     [
+      621450,
+      2440
+     ],
+     [
+      624290,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A las once, la abuela se duerme en el sofá.",
+   "en": "At eleven, Grandma falls asleep on the sofa.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "se duerme",
+     "en": "falls asleep"
+    }
+   ],
+   "words": [
+    [
+     "A las once",
+     "at eleven"
+    ],
+    [
+     "la abuela",
+     "Grandma"
+    ],
+    [
+     "se duerme",
+     "falls asleep"
+    ],
+    [
+     "en",
+     "on"
+    ],
+    [
+     "el sofá",
+     "the sofa"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "gl": "audio/s023_gl.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "frs": 4560,
+    "en": 3480,
+    "gl": 3840,
+    "wd": 15420
+   },
+   "bank": {
+    "fr": [
+     628010,
+     3310
+    ],
+    "frs": [
+     631720,
+     4560
+    ],
+    "en": [
+     636680,
+     3480
+    ],
+    "gl": [
+     640560,
+     3840
+    ],
+    "wd": [
+     644800,
+     15420
+    ],
+    "wp": [
+     [
+      644800,
+      2770
+     ],
+     [
+      647970,
+      2590
+     ],
+     [
+      650960,
+      2860
+     ],
+     [
+      654220,
+      2110
+     ],
+     [
+      656730,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y los hermanos comen todas las palomitas.",
+   "en": "And the brothers eat all the popcorn.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "los hermanos",
+     "the brothers"
+    ],
+    [
+     "comen",
+     "eat"
+    ],
+    [
+     "todas",
+     "all"
+    ],
+    [
+     "las palomitas",
+     "the popcorn"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3460,
+    "frs": 4790,
+    "en": 2600,
+    "wd": 15580
+   },
+   "bank": {
+    "fr": [
+     660620,
+     3460
+    ],
+    "frs": [
+     664480,
+     4790
+    ],
+    "en": [
+     669670,
+     2600
+    ],
+    "wd": [
+     672670,
+     15580
+    ],
+    "wp": [
+     [
+      672670,
+      2360
+     ],
+     [
+      675430,
+      3140
+     ],
+     [
+      678970,
+      2190
+     ],
+     [
+      681560,
+      2300
+     ],
+     [
+      684260,
+      3140
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   15960
+  ],
+  "silence": [
+   16760,
+   30000
+  ]
+ }
+}
