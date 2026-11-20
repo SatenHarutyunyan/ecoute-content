@@ -319,7 +319,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.63";
+const VERSION = "web 0.64";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -987,6 +987,7 @@ const ONB_LEVELS = [
   ["B2", "Comfortable", "I understand most things"],
 ];
 const CONT = ["T", "EN", "T", "EN", "T"];  // the Continuous default (Saten likes it better than T EN T)
+const DEMO = ["T", "EN", "T"];  // the joke plays the short one: 5 parts per line confused people (Saten, 2026-11-20)
 const ONB = { step: 0, name: "", lang: null, level: null, mode: null, joke: null };
 
 async function onbJoke() {
@@ -1028,8 +1029,8 @@ function onbTour() {
     // part 2: Continuous
     const cont = () => {
       VA.el.pause(); T.run++;
-      head("Continuous", "hands-free", `Now it plays by itself, like an audiobook: ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}. Just listen.`);
-      paint(CONT, -1); text(j.segs[2], CONT, -1);
+      head("Continuous", "hands-free", `Now it plays by itself, like an audiobook: ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}. Just listen.`);
+      paint(DEMO, -1); text(j.segs[2], DEMO, -1);
       $("tCtl").innerHTML = `<button class="ib main pulse" id="tPlay"><span class="c">${ICON.play}</span>Play</button>`;
       $("tHint").innerHTML = `<span class="tapme">👆</span> Tap <b>Play</b>, then just listen`;
       $("tPlay").onclick = () => {
@@ -1037,9 +1038,9 @@ function onbTour() {
         $("tCtl").innerHTML = ""; $("tHint").textContent = "Playing by itself…";
         const go = (p, k) => {
           if (run !== T.run) return;
-          if (k === CONT.length) return p === 2 ? setTimeout(() => go(3, 0), 600) : done();
-          paint(CONT, k); text(j.segs[p], CONT, k);
-          vaRange(j.url, j.segs[p].bank[KIND[CONT[k]]], () => go(p, k + 1));
+          if (k === DEMO.length) return p === 2 ? setTimeout(() => go(3, 0), 600) : done();
+          paint(DEMO, k); text(j.segs[p], DEMO, k);
+          vaRange(j.url, j.segs[p].bank[KIND[DEMO[k]]], () => go(p, k + 1));
         };
         go(2, 0);
       };
