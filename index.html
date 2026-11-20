@@ -308,7 +308,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.61";
+const VERSION = "web 0.62";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -434,7 +434,7 @@ const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 // Pauses after each clip (Saten, 2026-11-19): the audio holds only speech, the app adds the breathing room, which is also
 // when voice commands get through. Long = the old French tracks. Extra ms on top of the ~0.8 s that is always there.
 const GAPS = { short: ["Short", 0], medium: ["Medium", 400], long: ["Long", 900] };
-const gapKey = () => { const k = store.get("gap", store.get("gap_" + lang, lang === "es" ? "medium" : "long")); return GAPS[k] ? k : "long"; };  // one choice for every language
+const gapKey = () => { const k = store.get("gap", store.get("gap_" + lang, "medium")); return GAPS[k] ? k : "medium"; };  // one choice for every language; default Medium (Saten, 2026-11-20: "long is too long")
 function renderGaps() {
   $("gaps").innerHTML = Object.entries(GAPS).map(([k, [n]]) => `<button class="chip${k === gapKey() ? " on" : ""}" data-gap="${k}">${n}</button>`).join("");
   $("gaps").querySelectorAll("[data-gap]").forEach(b => b.onclick = () => {
