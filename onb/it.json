@@ -1,0 +1,346 @@
+{
+ "id": "onb_it",
+ "lang": "it",
+ "title": "La mosca",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "Onboarding joke (web/onb/), not in the catalog.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 11290,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Un uomo è al ristorante.",
+   "en": "A man is at a restaurant.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Un",
+     "a"
+    ],
+    [
+     "uomo",
+     "man"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "al ristorante",
+     "at the restaurant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3700,
+    "en": 1990,
+    "wd": 11870
+   },
+   "bank": {
+    "fr": [
+     42490,
+     2730
+    ],
+    "frs": [
+     45620,
+     3700
+    ],
+    "en": [
+     49720,
+     1990
+    ],
+    "wd": [
+     52110,
+     11870
+    ],
+    "wp": [
+     [
+      52110,
+      2100
+     ],
+     [
+      54610,
+      2290
+     ],
+     [
+      57300,
+      2100
+     ],
+     [
+      59800,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Cameriere! C'è una mosca nella mia zuppa!»",
+   "en": "\"Waiter! There's a fly in my soup!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Cameriere",
+     "waiter"
+    ],
+    [
+     "C'è",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "mosca",
+     "fly"
+    ],
+    [
+     "nella",
+     "in the"
+    ],
+    [
+     "mia",
+     "my"
+    ],
+    [
+     "zuppa",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "frs": 5500,
+    "en": 2720,
+    "wd": 19480
+   },
+   "bank": {
+    "fr": [
+     64379,
+     3940
+    ],
+    "frs": [
+     68720,
+     5500
+    ],
+    "en": [
+     74620,
+     2720
+    ],
+    "wd": [
+     77740,
+     19480
+    ],
+    "wp": [
+     [
+      77740,
+      2560
+     ],
+     [
+      80700,
+      2160
+     ],
+     [
+      83260,
+      2170
+     ],
+     [
+      85830,
+      2430
+     ],
+     [
+      88660,
+      2350
+     ],
+     [
+      91410,
+      2190
+     ],
+     [
+      94000,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il cameriere guarda la zuppa.",
+   "en": "The waiter looks at the soup.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "the"
+    ],
+    [
+     "cameriere",
+     "waiter"
+    ],
+    [
+     "guarda",
+     "looks at"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "zuppa",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3670,
+    "en": 1950,
+    "wd": 13890
+   },
+   "bank": {
+    "fr": [
+     97620,
+     2730
+    ],
+    "frs": [
+     100750,
+     3670
+    ],
+    "en": [
+     104820,
+     1950
+    ],
+    "wd": [
+     107170,
+     13890
+    ],
+    "wp": [
+     [
+      107170,
+      2030
+     ],
+     [
+      109600,
+      2560
+     ],
+     [
+      112560,
+      2410
+     ],
+     [
+      115370,
+      2070
+     ],
+     [
+      117840,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Non si preoccupi, signore. Non mangia molto.»",
+   "en": "\"Don't worry, sir. It doesn't eat much.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Non si preoccupi",
+     "don't worry"
+    ],
+    [
+     "signore",
+     "sir"
+    ],
+    [
+     "Non mangia",
+     "it doesn't eat"
+    ],
+    [
+     "molto",
+     "much"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4560,
+    "frs": 6440,
+    "en": 3090,
+    "wd": 13080
+   },
+   "bank": {
+    "fr": [
+     121460,
+     4560
+    ],
+    "frs": [
+     126420,
+     6440
+    ],
+    "en": [
+     133260,
+     3090
+    ],
+    "wd": [
+     136750,
+     13080
+    ],
+    "wp": [
+     [
+      136750,
+      3140
+     ],
+     [
+      140290,
+      2540
+     ],
+     [
+      143230,
+      2860
+     ],
+     [
+      146490,
+      2490
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   11290
+  ],
+  "silence": [
+   12090,
+   30000
+  ]
+ }
+}

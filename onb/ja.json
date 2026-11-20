@@ -1,0 +1,372 @@
+{
+ "id": "onb_ja",
+ "lang": "ja",
+ "title": "ハエ",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "Onboarding joke (web/onb/), not in the catalog.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 10990,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "男の人がレストランにいます。",
+   "en": "A man is in a restaurant.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "男の人が",
+     "a man"
+    ],
+    [
+     "レストランに",
+     "in a restaurant"
+    ],
+    [
+     "います",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3020,
+    "frs": 4050,
+    "en": 2050,
+    "wd": 10100
+   },
+   "kana": "おとこの ひとが レストランに います。",
+   "romaji": "Otoko no hito ga resutoran ni imasu.",
+   "wr": [
+    [
+     "おとこのひとが",
+     "otoko no hito ga"
+    ],
+    [
+     "レストランに",
+     "resutoran ni"
+    ],
+    [
+     "います",
+     "imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     42190,
+     3020
+    ],
+    "frs": [
+     45610,
+     4050
+    ],
+    "en": [
+     50060,
+     2050
+    ],
+    "wd": [
+     52510,
+     10100
+    ],
+    "wp": [
+     [
+      52510,
+      3050
+     ],
+     [
+      55960,
+      3130
+     ],
+     [
+      59490,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「すみません！スープにハエがいます！」",
+   "en": "\"Excuse me! There's a fly in my soup!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "すみません",
+     "excuse me"
+    ],
+    [
+     "スープに",
+     "in the soup"
+    ],
+    [
+     "ハエが",
+     "a fly"
+    ],
+    [
+     "います",
+     "there is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4210,
+    "frs": 5840,
+    "en": 2980,
+    "wd": 12590
+   },
+   "kana": "「すみません！ スープに ハエが います！」",
+   "romaji": "\"Sumimasen! Suupu ni hae ga imasu!\"",
+   "wr": [
+    [
+     "すみません",
+     "sumimasen"
+    ],
+    [
+     "スープに",
+     "suupu ni"
+    ],
+    [
+     "ハエが",
+     "hae ga"
+    ],
+    [
+     "います",
+     "imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     63010,
+     4210
+    ],
+    "frs": [
+     67620,
+     5840
+    ],
+    "en": [
+     73860,
+     2980
+    ],
+    "wd": [
+     77240,
+     12590
+    ],
+    "wp": [
+     [
+      77240,
+      2890
+     ],
+     [
+      80530,
+      2780
+     ],
+     [
+      83710,
+      2500
+     ],
+     [
+      86610,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "店員はスープを見ます。",
+   "en": "The waiter looks at the soup.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "店員は",
+     "the waiter (topic)"
+    ],
+    [
+     "スープを",
+     "the soup (object)"
+    ],
+    [
+     "見ます",
+     "looks at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2650,
+    "frs": 3480,
+    "en": 1950,
+    "wd": 10670
+   },
+   "kana": "てんいんは スープを みます。",
+   "romaji": "Ten'in wa suupu o mimasu.",
+   "wr": [
+    [
+     "てんいんは",
+     "ten'in wa"
+    ],
+    [
+     "スープを",
+     "suupu o"
+    ],
+    [
+     "みます",
+     "mimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     90230,
+     2650
+    ],
+    "frs": [
+     93280,
+     3480
+    ],
+    "en": [
+     97160,
+     1950
+    ],
+    "wd": [
+     99510,
+     10670
+    ],
+    "wp": [
+     [
+      99510,
+      3370
+     ],
+     [
+      103280,
+      3290
+     ],
+     [
+      106970,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「だいじょうぶです。ハエはあまり食べませんから。」",
+   "en": "\"Don't worry. It doesn't eat much.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "だいじょうぶです",
+     "it's OK"
+    ],
+    [
+     "ハエは",
+     "the fly (topic)"
+    ],
+    [
+     "あまり",
+     "(not) much"
+    ],
+    [
+     "食べませんから",
+     "because (it) doesn't eat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5020,
+    "frs": 7050,
+    "en": 2780,
+    "wd": 14760
+   },
+   "kana": "「だいじょうぶです。 ハエは あまり たべませんから。」",
+   "romaji": "\"Daijoubu desu. Hae wa amari tabemasen kara.\"",
+   "wr": [
+    [
+     "だいじょうぶです",
+     "daijoubu desu"
+    ],
+    [
+     "ハエは",
+     "hae wa"
+    ],
+    [
+     "あまり",
+     "amari"
+    ],
+    [
+     "たべませんから",
+     "tabemasen kara"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     110580,
+     5020
+    ],
+    "frs": [
+     116000,
+     7050
+    ],
+    "en": [
+     123450,
+     2780
+    ],
+    "wd": [
+     126630,
+     14760
+    ],
+    "wp": [
+     [
+      126630,
+      3000
+     ],
+     [
+      130030,
+      3040
+     ],
+     [
+      133470,
+      2690
+     ],
+     [
+      136560,
+      3980
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "ハエ",
+ "title_romaji": "Hae",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   10990
+  ],
+  "silence": [
+   11790,
+   30000
+  ]
+ }
+}

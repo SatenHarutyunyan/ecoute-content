@@ -1,0 +1,354 @@
+{
+ "id": "onb_fr",
+ "lang": "fr",
+ "title": "La mouche",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "Onboarding joke (web/onb/), not in the catalog.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 11210,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Un homme est au restaurant.",
+   "en": "A man is at a restaurant.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Un",
+     "a"
+    ],
+    [
+     "homme",
+     "man"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "au restaurant",
+     "at the restaurant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2870,
+    "en": 1990,
+    "wd": 11040
+   },
+   "bank": {
+    "fr": [
+     42410,
+     2190
+    ],
+    "frs": [
+     45000,
+     2870
+    ],
+    "en": [
+     48270,
+     1990
+    ],
+    "wd": [
+     50660,
+     11040
+    ],
+    "wp": [
+     [
+      50660,
+      1910
+     ],
+     [
+      52970,
+      2150
+     ],
+     [
+      55520,
+      1990
+     ],
+     [
+      57910,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Garçon ! Il y a une mouche dans ma soupe ! »",
+   "en": "\"Waiter! There's a fly in my soup!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Garçon",
+     "waiter"
+    ],
+    [
+     "Il y a",
+     "there is"
+    ],
+    [
+     "une",
+     "a"
+    ],
+    [
+     "mouche",
+     "fly"
+    ],
+    [
+     "dans",
+     "in"
+    ],
+    [
+     "ma",
+     "my"
+    ],
+    [
+     "soupe",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "frs": 5610,
+    "en": 2720,
+    "wd": 18790
+   },
+   "bank": {
+    "fr": [
+     62100,
+     3990
+    ],
+    "frs": [
+     66490,
+     5610
+    ],
+    "en": [
+     72500,
+     2720
+    ],
+    "wd": [
+     75620,
+     18790
+    ],
+    "wp": [
+     [
+      75620,
+      2390
+     ],
+     [
+      78410,
+      2460
+     ],
+     [
+      81270,
+      2010
+     ],
+     [
+      83680,
+      2309
+     ],
+     [
+      86390,
+      2040
+     ],
+     [
+      88830,
+      2060
+     ],
+     [
+      91290,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le garçon regarde la soupe.",
+   "en": "The waiter looks at the soup.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le",
+     "the"
+    ],
+    [
+     "garçon",
+     "waiter"
+    ],
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "soupe",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2560,
+    "frs": 3460,
+    "en": 1950,
+    "wd": 13730
+   },
+   "bank": {
+    "fr": [
+     94810,
+     2560
+    ],
+    "frs": [
+     97770,
+     3460
+    ],
+    "en": [
+     101630,
+     1950
+    ],
+    "wd": [
+     103980,
+     13730
+    ],
+    "wp": [
+     [
+      103980,
+      2040
+     ],
+     [
+      106420,
+      2390
+     ],
+     [
+      109210,
+      2550
+     ],
+     [
+      112160,
+      2030
+     ],
+     [
+      114590,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ne vous inquiétez pas, monsieur. Elle ne mange pas beaucoup. »",
+   "en": "\"Don't worry, sir. It doesn't eat much.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ne vous inquiétez pas",
+     "don't worry"
+    ],
+    [
+     "monsieur",
+     "sir"
+    ],
+    [
+     "Elle",
+     "it (the fly)"
+    ],
+    [
+     "ne mange pas",
+     "doesn't eat"
+    ],
+    [
+     "beaucoup",
+     "much"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5020,
+    "frs": 7090,
+    "en": 3090,
+    "wd": 15490
+   },
+   "bank": {
+    "fr": [
+     118110,
+     5020
+    ],
+    "frs": [
+     123530,
+     7090
+    ],
+    "en": [
+     131020,
+     3090
+    ],
+    "wd": [
+     134510,
+     15490
+    ],
+    "wp": [
+     [
+      134510,
+      3100
+     ],
+     [
+      138010,
+      2270
+     ],
+     [
+      140680,
+      2520
+     ],
+     [
+      143600,
+      2790
+     ],
+     [
+      146790,
+      2360
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   11210
+  ],
+  "silence": [
+   12010,
+   30000
+  ]
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "id": "onb_es",
+ "lang": "es",
+ "title": "La mosca",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "Onboarding joke (web/onb/), not in the catalog.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 11270,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Un hombre está en un restaurante.",
+   "en": "A man is in a restaurant.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Un",
+     "a"
+    ],
+    [
+     "hombre",
+     "man"
+    ],
+    [
+     "está",
+     "is"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "restaurante",
+     "restaurant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 3860,
+    "en": 2050,
+    "wd": 16620
+   },
+   "bank": {
+    "fr": [
+     42470,
+     2850
+    ],
+    "frs": [
+     45720,
+     3860
+    ],
+    "en": [
+     49980,
+     2050
+    ],
+    "wd": [
+     52430,
+     16620
+    ],
+    "wp": [
+     [
+      52430,
+      2080
+     ],
+     [
+      54910,
+      2290
+     ],
+     [
+      57600,
+      2290
+     ],
+     [
+      60290,
+      2100
+     ],
+     [
+      62790,
+      2080
+     ],
+     [
+      65270,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Camarero! ¡Hay una mosca en mi sopa!»",
+   "en": "\"Waiter! There's a fly in my soup!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Camarero",
+     "waiter"
+    ],
+    [
+     "Hay",
+     "there is"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "mosca",
+     "fly"
+    ],
+    [
+     "en",
+     "in"
+    ],
+    [
+     "mi",
+     "my"
+    ],
+    [
+     "sopa",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4130,
+    "frs": 5780,
+    "en": 2720,
+    "wd": 19180
+   },
+   "bank": {
+    "fr": [
+     69450,
+     4130
+    ],
+    "frs": [
+     73980,
+     5780
+    ],
+    "en": [
+     80160,
+     2720
+    ],
+    "wd": [
+     83280,
+     19180
+    ],
+    "wp": [
+     [
+      83280,
+      2490
+     ],
+     [
+      86170,
+      2230
+     ],
+     [
+      88800,
+      2150
+     ],
+     [
+      91350,
+      2450
+     ],
+     [
+      94200,
+      2100
+     ],
+     [
+      96700,
+      2150
+     ],
+     [
+      99250,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El camarero mira la sopa.",
+   "en": "The waiter looks at the soup.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "El",
+     "the"
+    ],
+    [
+     "camarero",
+     "waiter"
+    ],
+    [
+     "mira",
+     "looks at"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "sopa",
+     "soup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2550,
+    "frs": 3420,
+    "en": 1950,
+    "wd": 13670
+   },
+   "bank": {
+    "fr": [
+     102860,
+     2550
+    ],
+    "frs": [
+     105810,
+     3420
+    ],
+    "en": [
+     109630,
+     1950
+    ],
+    "wd": [
+     111980,
+     13670
+    ],
+    "wp": [
+     [
+      111980,
+      2020
+     ],
+     [
+      114400,
+      2490
+     ],
+     [
+      117290,
+      2309
+     ],
+     [
+      120000,
+      2040
+     ],
+     [
+      122440,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«No se preocupe, señor. No come mucho.»",
+   "en": "\"Don't worry, sir. It doesn't eat much.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "No se preocupe",
+     "don't worry"
+    ],
+    [
+     "señor",
+     "sir"
+    ],
+    [
+     "No come",
+     "it doesn't eat"
+    ],
+    [
+     "mucho",
+     "much"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "frs": 6530,
+    "en": 3090,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     126050,
+     4610
+    ],
+    "frs": [
+     131060,
+     6530
+    ],
+    "en": [
+     137990,
+     3090
+    ],
+    "wd": [
+     141480,
+     12770
+    ],
+    "wp": [
+     [
+      141480,
+      3100
+     ],
+     [
+      144980,
+      2370
+     ],
+     [
+      147750,
+      2820
+     ],
+     [
+      150970,
+      2430
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   11270
+  ],
+  "silence": [
+   12070,
+   30000
+  ]
+ }
+}

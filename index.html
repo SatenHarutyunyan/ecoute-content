@@ -117,6 +117,17 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #onb .toks span { font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
 #onb .toks span.on { background:var(--accent); border-color:var(--accent); color:#fff; }
 #onb .toks span.past { color:var(--ink); }
+#onb .opt.radio { padding-left:44px; position:relative; }
+#onb .opt.radio::before { content:""; position:absolute; left:14px; top:16px; width:18px; height:18px; border-radius:50%; border:2px solid var(--line); box-sizing:border-box; }
+#onb .opt.radio.on::before { border:6px solid var(--accent); }
+#onb .tour .rec { color:var(--accent); font-size:12px; font-weight:600; margin-left:6px; }
+#onb .tour .wd { font-size:13px; margin-top:4px; min-height:16px; }
+#onb .linkbtn { display:block; margin:14px auto 0; background:none; border:none; color:var(--muted); font-size:14px; text-decoration:underline; }
+@keyframes pulse { 0%,100% { transform:scale(1); } 50% { transform:scale(1.08); } }
+@keyframes tapme { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-6px); } }
+#onb .pulse { animation:pulse 1.4s ease-in-out infinite; }
+#onb .ib.pulse .c { box-shadow:0 0 0 6px color-mix(in srgb, var(--accent) 25%, transparent); border-radius:50%; }
+#onb .tapme { display:inline-block; animation:tapme 1s ease-in-out infinite; }
 .rqchips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
 .rqchips .chip.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
 .rqtext { width:100%; box-sizing:border-box; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:15px; }
@@ -308,7 +319,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.62";
+const VERSION = "web 0.63";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -327,7 +338,7 @@ document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.datas
 const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = {};  // every language: T EN T, no pause (Saten, 2026-11-18); saved choices are kept
+const DEFAULT_PATTERN = {};  // every language: T EN T EN T (Saten, 2026-11-20; was T EN T); saved choices are kept
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
 const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
@@ -424,7 +435,7 @@ if (!store.get("mode_reset_024", false)) { try { for (const l of ["fr", "hy"]) l
 const getMode = () => store.get("mode_" + lang, LESSON_FIRST.includes(lang) || (store.get("place_" + lang, {}) || {}).start?.startsWith(lang + "_s0") ? "lesson" : "story");
 const lessonMode = () => getMode() === "lesson";
 
-const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T");
+const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T EN T EN T");
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
   .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
@@ -966,122 +977,126 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
 });
 $("restart").onclick = restartStory;
 $("ver").textContent = VERSION;
-// ---------- onboarding (Saten, 2026-11-18): name -> language -> how to listen -> pattern (Continuous only) ----------
-// Every choice has a ▶ sample built from a real phrase of the chosen language. People who already have a name and a
-// language never see it.
-const ONB_PATTERNS = [
-  ["T EN T", "Normal", "LANG, English, LANG"],
-  ["T EN T EN T", "More repetition", "LANG, English, LANG, English, LANG"],
+// ---------- onboarding (Saten, 2026-11-20): name -> language -> level -> a 4-line joke, 2 lines Step by step and 2 Continuous
+// -> which did you prefer? -> wishes. Complete beginners skip the joke and get Step by step. People who already have a
+// name and a language never see it. The joke is web/onb/<lang>.json + its audio (mvp/stories/onb_<lang>.txt).
+const ONB_LEVELS = [
+  ["A0", "Complete beginner", "I don't know any words yet"],
+  ["A1", "A little", "I know some words and simple phrases"],
+  ["B1", "I can follow simple stories", "but I miss a lot"],
+  ["B2", "Comfortable", "I understand most things"],
 ];
-const ONB = { step: 0, name: "", lang: null, mode: null, pat: "T EN T", sample: null };
+const CONT = ["T", "EN", "T", "EN", "T"];  // the Continuous default (Saten likes it better than T EN T)
+const ONB = { step: 0, name: "", lang: null, level: null, mode: null, joke: null };
 
-async function onbSample() {  // a phrase of 4–9 words from the language's first (easiest) episode
-  if (ONB.sample && ONB.sample.lang === ONB.lang) return ONB.sample;
-  const e = catalog.find(c => c.lang === ONB.lang);
-  if (!e) return null;
-  const st = await storyJson(e.id);
+async function onbJoke() {
+  if (ONB.joke && ONB.joke.lang === ONB.lang) return ONB.joke;
+  const st = await fetch(`onb/${ONB.lang}.json?v=${VERSION}`).then(r => r.json()).catch(() => null);
   if (!st) return null;
-  const i = Math.max(0, st.segments.findIndex(x => { const n = x.fr.split(/\s+/).length; return n >= 4 && n <= 9; }));
-  return ONB.sample = { lang: ONB.lang, url: `${MEDIA}stories/${e.id}/${st.bank.file}?v=${e.version}`, seg: st.segments[i], next: st.segments[i + 1] };
+  st.lang = ONB.lang; jaScript(st);
+  return ONB.joke = { lang: ONB.lang, url: `${MEDIA}onb/${ONB.lang}.m4a?v=${VERSION}`, segs: st.segments };
 }
-function onbPlay(tokens, btn) {  // tokens over one phrase ("|" moves to the next phrase)
-  onbSample().then(sm => {
-    if (!sm) return;
-    btn && btn.classList.add("on");
-    let s = sm.seg;
-    const ranges = [];
-    for (const t of tokens.split(" ")) {
-      if (t === "|") { s = sm.next || s; continue; }
-      const r = s.bank[KIND[t]];
-      if (r && ranges[ranges.length - 1] !== r) ranges.push(r);  // no word-by-word track: don't play English twice
-    }
-    const run = k => k < ranges.length ? vaRange(sm.url, ranges[k], () => run(k + 1)) : btn && btn.classList.remove("on");
-    run(0);
-  });
-}
-// the two live demos on the "how do you want to listen?" screen, with the player's own buttons
 const TOK_NAME = t => ({ T: LANGS[ONB.lang][0], EN: "English", WORDS: "Word by word" }[t]);
-function onbDemos() {
-  const D = { k: -1, run: 0 };
-  onbSample().then(sm => {
-    if (!sm) return;
-    const toks = WORDY.includes(ONB.lang) && sm.seg.bank.wd ? ["T", "EN", "WORDS", "EN", "T"] : ["T", "EN", "T"];
-    const paint = (el, list, k) => { $(el).innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${TOK_NAME(t)}</span>`).join(""); };
-    // step by step: the learner taps Next for each part
-    const showL = () => { paint("dlToks", toks, D.k); $("dlFr").textContent = sm.seg.fr; $("dlEn").textContent = D.k >= 1 ? sm.seg.en : ""; };
-    const playL = () => { D.run++; vaRange(sm.url, sm.seg.bank[KIND[toks[D.k]]], null); };
-    showL();
-    $("dlNext").onclick = () => {
-      if (D.k === toks.length - 1) { D.k = -1; showL(); $("dlHint").textContent = "That was one phrase. Next would start the next one."; return; }
-      D.k++; showL(); playL();
-      $("dlHint").textContent = D.k === toks.length - 1 ? "Last part. Tap Next to finish the phrase." : "Tap Next when you're ready";
+// the joke: phrases 1–2 the learner taps through, phrases 3–4 play by themselves
+function onbTour() {
+  const T = { run: 0, p: 0, k: -1 };
+  onbJoke().then(j => {
+    if (!j) { $("tour").innerHTML = `<div class="muted">Couldn't load the example. Tap Skip.</div>`; return; }
+    const lessonToks = s => WORDY.includes(ONB.lang) && s.bank.wd ? LESSON : ["T", "EN", "T"];
+    const paint = (list, k) => $("tToks").innerHTML = list.map((t, i) => `<span class="${i === k ? "on" : i < k ? "past" : ""}">${TOK_NAME(t)}</span>`).join("");
+    const text = (s, list, k) => {
+      $("tFr").textContent = s.fr;
+      $("tEn").textContent = k >= 0 && list.slice(0, k + 1).includes("EN") ? s.en : "";
+      $("tWd").textContent = list[k] === "WORDS" ? s.words.map(w => `${w[0]} = ${w[1]}`).join(" · ") : "";
     };
-    $("dlRep").onclick = () => { if (D.k >= 0) playL(); };
-    // continuous: two phrases play on their own
-    const cont = ["T", "EN", "T"], phrases = [sm.seg, sm.next || sm.seg];
-    const showC = (p, k) => { paint("dcToks", cont, k); $("dcFr").textContent = phrases[p].fr; $("dcEn").textContent = k >= 1 ? phrases[p].en : ""; };
-    showC(0, -1);
-    $("dcPlay").onclick = () => {
-      const run = ++D.run;
-      const go = (p, k) => {
-        if (run !== D.run) return;
-        if (k === cont.length) { if (p + 1 < phrases.length) return setTimeout(() => go(p + 1, 0), 500); showC(0, -1); return; }
-        showC(p, k);
-        vaRange(sm.url, phrases[p].bank[KIND[cont[k]]], () => go(p, k + 1));
+    const head = (title, tag, about) => { $("tTitle").innerHTML = `${title} <span class="rec">${tag}</span>`; $("tAbout").textContent = about; };
+    // part 1: Step by step
+    const lesson = () => {
+      head("Step by step", "for beginners", "You tap Next for each part: the sentence, its meaning, then word by word. Go at your own pace.");
+      const s = j.segs[T.p], list = lessonToks(s);
+      paint(list, T.k); text(s, list, T.k);
+      $("tCtl").innerHTML = `<button class="ib" id="tRep"><span class="c">${ICON.repeat}</span>Repeat</button>
+        <button class="ib main pulse" id="tNext"><span class="c">${ICON.next}</span>Next</button>`;
+      $("tHint").innerHTML = T.p === 0 && T.k < 0 ? `<span class="tapme">👆</span> Tap <b>Next</b> to hear the first sentence` :
+        T.k === list.length - 1 ? (T.p === 0 ? "Tap <b>Next</b> for the next sentence" : "Tap <b>Next</b> to see the other mode") : "Tap <b>Next</b> when you're ready";
+      $("tRep").onclick = () => { if (T.k >= 0) vaRange(j.url, s.bank[KIND[list[T.k]]], null); };
+      $("tNext").onclick = () => {
+        if (T.k === list.length - 1) { T.k = -1; T.p++; return T.p < 2 ? (lesson(), $("tNext").click()) : cont(); }
+        T.k++; lesson(); vaRange(j.url, s.bank[KIND[list[T.k]]], null);
       };
-      go(0, 0);
     };
+    // part 2: Continuous
+    const cont = () => {
+      VA.el.pause(); T.run++;
+      head("Continuous", "hands-free", `Now it plays by itself, like an audiobook: ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}, English, ${LANGS[ONB.lang][0]}. Just listen.`);
+      paint(CONT, -1); text(j.segs[2], CONT, -1);
+      $("tCtl").innerHTML = `<button class="ib main pulse" id="tPlay"><span class="c">${ICON.play}</span>Play</button>`;
+      $("tHint").innerHTML = `<span class="tapme">👆</span> Tap <b>Play</b>, then just listen`;
+      $("tPlay").onclick = () => {
+        const run = ++T.run;
+        $("tCtl").innerHTML = ""; $("tHint").textContent = "Playing by itself…";
+        const go = (p, k) => {
+          if (run !== T.run) return;
+          if (k === CONT.length) return p === 2 ? setTimeout(() => go(3, 0), 600) : done();
+          paint(CONT, k); text(j.segs[p], CONT, k);
+          vaRange(j.url, j.segs[p].bank[KIND[CONT[k]]], () => go(p, k + 1));
+        };
+        go(2, 0);
+      };
+    };
+    const done = () => {
+      $("tHint").innerHTML = "That's it! Now choose the one you liked.";
+      $("tCtl").innerHTML = `<button class="ib" id="tAgain"><span class="c">${ICON.repeat}</span>Hear it again</button>`;
+      $("tAgain").onclick = () => cont();
+      $("onbNext").disabled = false; $("onbNext").classList.add("pulse");
+    };
+    lesson();
   });
 }
-
+function onbFinish() {
+  VA.el.pause();
+  store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
+  store.set("level_" + lang, ONB.level);
+  store.set("mode_" + lang, ONB.mode);
+  if (ONB.mode === "story") store.set("pattern_" + lang, CONT.join(" "));
+  store.set("onboarded", true);
+  ONB.sendLove && ONB.sendLove();
+  log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured }, "");
+  $("onb").hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
+}
 function onbShow() {
   const el = $("onb"), box = el.querySelector(".in");
-  const L = ONB.lang ? LANGS[ONB.lang][0] : "";
-  // always 4 bars (Saten: the count jumping from 4 to 5 looked odd): name, language, how to listen (+ its pattern), wishes
-  const steps = 4, at = [0, 1, 2, 2, 3][ONB.step];
+  // always 5 bars: name, language, level, how to listen (joke + choice), wishes
+  const steps = 5, at = [0, 1, 2, 3, 3, 4][ONB.step];
   const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= at ? "on" : ""}"></i>`).join("")}</div>`;
+  const skip = `<button class="linkbtn" id="onbSkip">Skip</button>`;
   let html = "";
   if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
     <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
-    <div class="muted" style="margin-top:6px">So we know whose feedback is whose.</div>
     <button class="go" id="onbNext">Next</button>`;
   if (ONB.step === 1) html = `<h1>What are you learning?</h1>` +
     Object.entries(LANGS).map(([c, [en, nat]]) => `<button class="opt${ONB.lang === c ? " on" : ""}" data-l="${c}"><b>${en}</b> · ${nat}</button>`).join("") +
     `<button class="go" id="onbNext" ${ONB.lang ? "" : "disabled"}>Next</button>`;
-  if (ONB.step === 2) {
-    const rec = LESSON_FIRST.includes(ONB.lang) || ONB.lang === "hy" ? "lesson" : "story";
-    if (!ONB.mode) ONB.mode = rec;  // the recommended one is preselected
-    const card = (m, title, text, demo) => `<div class="opt${ONB.mode === m ? " on" : ""}" data-m="${m}"><b>${title}</b>${rec === m ? '<span class="rec">Recommended</span>' : ""}
-      <div class="muted">${text}</div>${demo}</div>`;
-    const ctl = (id, icon, label, main) => `<button class="ib${main ? " main" : ""}" id="${id}"><span class="c">${ICON[icon]}</span>${label}</button>`;
-    html = `<h1>How do you want to listen?</h1><div class="muted">Try both: these are the real buttons.</div>` +
-      card("lesson", "Step by step", "You move through each phrase yourself.",
-        `<div class="demo"><div class="toks" id="dlToks"></div><div class="fr" id="dlFr"></div><div class="en" id="dlEn"></div>
-         <div class="pctl">${ctl("dlRep", "repeat", "Repeat")}${ctl("dlNext", "next", "Next", true)}</div>
-         <div class="muted" id="dlHint" style="text-align:center;margin-top:6px">Tap Next</div></div>`) +
-      card("story", "Continuous", "Plays on its own, like an audiobook. You just listen.",
-        `<div class="demo"><div class="toks" id="dcToks"></div><div class="fr" id="dcFr"></div><div class="en" id="dcEn"></div>
-         <div class="pctl">${ctl("dcPlay", "play", "Play", true)}</div></div>`) +
-      `<div class="muted" style="margin-top:8px">You can switch any time at the top of the player.</div>
-      <button class="go" id="onbNext">Next</button>`;
+  if (ONB.step === 2) html = `<h1>How much ${LANGS[ONB.lang][0]} do you know?</h1>` +
+    ONB_LEVELS.map(([v, t, d]) => `<button class="opt radio${ONB.level === v ? " on" : ""}" data-v="${v}"><b>${t}</b><div class="muted">${d}</div></button>`).join("") +
+    `<button class="go" id="onbNext" ${ONB.level ? "" : "disabled"}>Next</button>`;
+  if (ONB.step === 3) html = `<h1>Two ways to listen</h1><div class="muted">Try both with a tiny joke, then pick one.</div>
+    <div class="demo tour" id="tour"><b id="tTitle"></b><div class="muted" id="tAbout"></div>
+      <div class="toks" id="tToks"></div><div class="fr" id="tFr"></div><div class="en" id="tEn"></div><div class="wd muted" id="tWd"></div>
+      <div class="pctl" id="tCtl"></div><div class="muted" id="tHint" style="text-align:center;margin-top:8px"></div></div>
+    <button class="go" id="onbNext" disabled>Choose one</button>${skip}`;
+  if (ONB.step === 4) {
+    const opt = (m, t, d) => `<button class="opt radio${ONB.mode === m ? " on" : ""}" data-m="${m}"><b>${t}</b><div class="muted">${d}</div></button>`;
+    html = `<h1>Which did you prefer?</h1><div class="muted">Pick one. You can switch any time at the top of the player.</div>` +
+      opt("lesson", "Step by step", "You tap Next for each part. Best for beginners, or to study each sentence.") +
+      opt("story", "Continuous", "Plays by itself, like an audiobook. Hands-free: walking, cooking, driving.") +
+      `<button class="go" id="onbNext" ${ONB.mode ? "" : "disabled"}>${ONB.mode ? `Continue with ${ONB.mode === "lesson" ? "Step by step" : "Continuous"}` : "Next"}</button>`;
   }
-  if (ONB.step === 3) {
-    const code = ONB.lang.toUpperCase();
-    const custom = !ONB_PATTERNS.some(([p]) => p === ONB.pat);
-    html = `<h1>What should each phrase sound like?</h1>` +
-      ONB_PATTERNS.map(([p, title, text]) => `<div class="opt${ONB.pat === p ? " on" : ""}" data-p="${p}"><b>${title}</b>${p === "T EN T" ? '<span class="rec">Default</span>' : ""}
-        <div class="muted">${text.replace(/LANG/g, L)}</div><div class="row"><button class="chip" data-demo="${p}">▶ Hear it</button></div></div>`).join("") +
-      `<div class="opt${custom ? " on" : ""}" data-p="custom"><b>My own</b>
-        <div class="muted">Write ${code} for ${L} and EN for English, in any order. Example: <b>EN ${code} EN ${code} ${code} EN</b></div>
-        <input type="text" id="onbCustom" placeholder="${code} EN ${code}" value="${custom ? esc(display(ONB.pat)) : ""}" autocapitalize="characters">
-        <div class="row"><button class="chip" id="onbCustomHear">▶ Hear it</button></div></div>` +
-      `<div class="muted" style="margin-top:8px">You can change it later in ⚙ Settings.</div><button class="go" id="onbNext">Next</button>`;
-  }
-  if (ONB.step === 4) html = `<h1>What would you love to listen to?</h1><div class="muted">${ASK_LOVE}</div>
+  if (ONB.step === 5) html = `<h1>What would you love to listen to?</h1><div class="muted">${ASK_LOVE}</div>
     <div id="onbLove"></div><div class="muted" style="margin-top:8px">Optional. You can always add ideas later in ⚙ Settings.</div>
     <button class="go" id="onbNext">Start listening</button>`;
   box.innerHTML = dots + html;
-  if (ONB.step === 4) ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
+  if (ONB.step === 5) ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
   el.hidden = false;
   const next = $("onbNext");
   if (ONB.step === 0) {
@@ -1090,36 +1105,17 @@ function onbShow() {
     inp.oninput = ok; ok();
     inp.onkeydown = e => { if (e.key === "Enter" && inp.value.trim()) next.click(); };
   }
-  box.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { ONB.lang = b.dataset.l; ONB.sample = null; onbShow(); });
-  box.querySelectorAll("[data-m]").forEach(b => b.onclick = () => {
-    if (ONB.mode === b.dataset.m) return;
-    ONB.mode = b.dataset.m;
-    box.querySelectorAll("[data-m]").forEach(o => o.classList.toggle("on", o === b));
-  });
-  box.querySelectorAll("[data-p]").forEach(b => b.onclick = e => {
-    if (e.target.dataset.demo || b.dataset.p === "custom") return;
-    ONB.pat = b.dataset.p; onbShow();
-  });
-  box.querySelectorAll("[data-demo]").forEach(b => b.onclick = () => { log("onb_sample", { what: b.dataset.demo, lang: ONB.lang }, ""); onbPlay(b.dataset.demo, b); });
-  if (ONB.step === 2) onbDemos();
-  if (ONB.step === 3) {
-    const inp = $("onbCustom");
-    const use = () => { const p = parse(inp.value); if (p.includes("T")) ONB.pat = p.join(" "); };
-    inp.onfocus = () => box.querySelectorAll("[data-p]").forEach(o => o.classList.toggle("on", o.dataset.p === "custom"));
-    inp.oninput = use;
-    $("onbCustomHear").onclick = () => { use(); log("onb_sample", { what: ONB.pat, lang: ONB.lang }, ""); onbPlay(ONB.pat, $("onbCustomHear")); };
-  }
+  box.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { ONB.lang = b.dataset.l; ONB.joke = null; onbShow(); });
+  box.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { ONB.level = b.dataset.v; onbShow(); });
+  box.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { ONB.mode = b.dataset.m; onbShow(); });
+  if (ONB.step === 3) { ONB.toured = true; onbTour(); $("onbSkip").onclick = () => { VA.el.pause(); ONB.step = 4; onbShow(); }; }
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
-    if (ONB.step < 4) { ONB.step = ONB.step === 2 && ONB.mode === "lesson" ? 4 : ONB.step + 1; onbShow(); window.scrollTo(0, 0); return; }
-    VA.el.pause();
-    store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
-    store.set("mode_" + lang, ONB.mode);
-    if (ONB.mode === "story") store.set("pattern_" + lang, ONB.pat);
-    store.set("onboarded", true);
-    ONB.sendLove && ONB.sendLove();
-    log("onboarding", { lang, mode: ONB.mode, pattern: ONB.mode === "story" ? ONB.pat : "" }, "");
-    el.hidden = true; renderName(false); renderAll(); window.scrollTo(0, 0);
+    if (ONB.step === 3) VA.el.pause();
+    if (ONB.step === 2 && ONB.level === "A0") { ONB.mode = "lesson"; ONB.step = 5; }  // complete beginners: Step by step, no joke
+    else if (ONB.step < 5) ONB.step++;
+    else return onbFinish();
+    onbShow(); window.scrollTo(0, 0);
   };
 }
 if (store.get("name", "") && store.get("lang", null)) store.set("onboarded", true);
