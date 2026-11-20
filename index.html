@@ -338,7 +338,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.80";
+const VERSION = "web 0.81";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1203,8 +1203,8 @@ function onbTour() {
       const s = seg0, list = lessonToks(s);
       paint(list, T.k); text(s, list, T.k);
       $("tCtl").innerHTML = `<button class="ib" id="tRep"><span class="c">${ICON.repeat}</span>Repeat</button>
-        <button class="ib main pulse" id="tNext"><span class="c">${ICON.next}</span>Next</button>`;
-      $("tHint").innerHTML = T.k < 0 ? `<span class="tapme">👆</span> Tap <b>Next</b> to hear the first sentence` :
+        <button class="ib main pulse" id="tNext"><span class="c">${ICON[T.k < 0 ? "play" : "next"]}</span>${T.k < 0 ? "Play" : "Next"}</button>`;  // Play before the first sound
+      $("tHint").innerHTML = T.k < 0 ? `<span class="tapme">👆</span> Tap <b>Play</b> to hear the first sentence` :
         T.k === list.length - 1 ? "Tap <b>Next</b> to try the other way" : isW(list[T.k]) ? "One word at a time. Tap <b>Next</b> for the next one" : "Tap <b>Next</b> when you're ready";
       $("tRep").onclick = () => { if (T.k >= 0) vaRange(j.url, range(s, list[T.k]), null); };
       $("tNext").onclick = () => {
