@@ -326,7 +326,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.71";
+const VERSION = "web 0.72";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -481,19 +481,20 @@ function stepsFor(i, pat) {
 // of the episode, so it keeps going with the screen locked. The page follows its "item" events.
 let storyUrl = "";
 const NQ = { at: 0, stale: false, playing: false, q: 0, upTo: 0 };
-const QUEUE_PHRASES = 40;  // phrases per queue; refilled near the end (a whole classic would be thousands of items)
+// the whole rest of the episode in one queue: with the iPhone locked the page sleeps and could not refill it
+// (phrase texts go once in `texts`, the items stay small numbers)
+const QUEUE_PHRASES = 100000;
 const storyPaused = () => NATIVE_PLAYER ? !NQ.playing : audio.paused;
 const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) : audio.pause();
 function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
   const items = [], n = story.segments.length;
-  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: r[0], d: Math.max(50, r[1] - 350), seg: j, step: from + m,
-    t: j < 0 ? story.title : story.segments[j].fr, a: j < 0 ? story.title : `${story.title} · ${j + 1}/${n}` }));
+  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: r[0], d: Math.max(50, r[1] - 350), seg: j, step: from + m }));
   add(seg, steps, step);
   if (one) items.length = Math.min(items.length, 1);
   else for (let j = seg + 1; j < Math.min(n, seg + QUEUE_PHRASES); j++) add(j, stepsFor(j, pattern()), 0);
   NQ.upTo = one ? seg : Math.min(n, seg + QUEUE_PHRASES) - 1;
   NQ.at = Date.now(); NQ.stale = false; NQ.q++;
-  NATIVE_PLAYER.play({ url: storyUrl, items, title: story.title, q: NQ.q })
+  NATIVE_PLAYER.play({ url: storyUrl, items, title: story.title, q: NQ.q, texts: story.segments.map(x => x.fr) })
     .catch(e => log("js_error", { err: "native play: " + String(e && e.message || e).slice(0, 200) }));
 }
 function nativeEvents() {
@@ -516,6 +517,7 @@ function nativeEvents() {
   NATIVE_PLAYER.addListener("ended", d => {
     if (!story || old(d || {})) return;
     if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
+    if (NQ.upTo < story.segments.length - 1) { seg = NQ.upTo + 1; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // queue was cut short
     $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end");
     store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback();
   });
@@ -1609,7 +1611,7 @@ const ANDROID = (() => {
   window.__ecouteNative = (name, data) => {
     if (name === "remote" && String(data.cmd).startsWith("voice:")) {  // a voice command (VoiceService -> PlaybackService)
       const go = data.cmd.slice(6);
-      return fire("v:command", { word: go === "again" ? "repeat" : go });
+      return fire("v:command", { word: go === "again" ? "repeat" : go, handled: !!data.handled });
     }
     fire(name === "voice" ? "v:state" : "p:" + name, data);
   };
