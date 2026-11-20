@@ -1,6 +1,34 @@
 {
  "stories": [
   {
+   "id": "es_cuentos_01",
+   "lang": "es",
+   "title": "Los paraguas de Carmen",
+   "author": "Original story (AI-generated)",
+   "level": "A2",
+   "series": "Cuentos cortos",
+   "episode": "1",
+   "phrases": 28,
+   "minutes": 5,
+   "size_mb": 4,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_cuentos_01.zip",
+   "version": "108fdda055aa"
+  },
+  {
+   "id": "es_cuentos_02",
+   "lang": "es",
+   "title": "La vecina del quinto",
+   "author": "Original story (AI-generated)",
+   "level": "B1",
+   "series": "Cuentos cortos",
+   "episode": "2",
+   "phrases": 34,
+   "minutes": 7,
+   "size_mb": 5,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_cuentos_02.zip",
+   "version": "4372b6ac53ab"
+  },
+  {
    "id": "es_daily_01",
    "lang": "es",
    "title": "Daily scenarios: Hello and nice to meet you",
@@ -455,6 +483,48 @@
    "size_mb": 38,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/balzac_grande_breteche_3.zip",
    "version": "264fbe9f1df2"
+  },
+  {
+   "id": "fr_s0_e01",
+   "lang": "fr",
+   "title": "Où est Biscuit ?",
+   "author": "Original story (AI-generated)",
+   "level": "A0",
+   "series": "Léa et Biscuit (first steps)",
+   "episode": "1",
+   "phrases": 18,
+   "minutes": 3,
+   "size_mb": 2,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_s0_e01.zip",
+   "version": "17d782dd573a"
+  },
+  {
+   "id": "fr_s0_e02",
+   "lang": "fr",
+   "title": "Le pique-nique",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Léa et Biscuit (first steps)",
+   "episode": "2",
+   "phrases": 21,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_s0_e02.zip",
+   "version": "24caa6e81340"
+  },
+  {
+   "id": "fr_s0_e03",
+   "lang": "fr",
+   "title": "Le chien du boulanger",
+   "author": "Original story (AI-generated)",
+   "level": "A2",
+   "series": "Léa et Biscuit (first steps)",
+   "episode": "3",
+   "phrases": 25,
+   "minutes": 5,
+   "size_mb": 4,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_s0_e03.zip",
+   "version": "2d4ccca8739b"
   },
   {
    "id": "maupassant_qui_sait_1",
@@ -1197,6 +1267,20 @@
    "size_mb": 22,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/it_verga_la_roba_2.zip",
    "version": "d593cb02ebd7"
+  },
+  {
+   "id": "it_s0_e03",
+   "lang": "it",
+   "title": "La torta",
+   "author": "Original story (AI-generated)",
+   "level": "A2",
+   "series": "Nonno Pino (first steps)",
+   "episode": "3",
+   "phrases": 24,
+   "minutes": 5,
+   "size_mb": 4,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/it_s0_e03.zip",
+   "version": "a1f6952fbd5a"
   },
   {
    "id": "it_collodi_pinocchio_1",

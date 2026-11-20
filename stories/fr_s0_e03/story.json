@@ -1,0 +1,1959 @@
+{
+ "id": "fr_s0_e03",
+ "lang": "fr",
+ "title": "Le chien du boulanger",
+ "author": "Original story (AI-generated)",
+ "level": "A2",
+ "series": "Léa et Biscuit (first steps)",
+ "episode": "3",
+ "note": "Yesterday, Biscuit ran away, and Léa went looking for him. This story is in the past: \"il a couru\" means \"he ran\". It ends at the bakery, the boulangerie.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 18320,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Hier matin, Léa a ouvert la porte.",
+   "en": "Yesterday morning, Léa opened the door.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "a ouvert",
+     "en": "opened"
+    }
+   ],
+   "words": [
+    [
+     "Hier matin",
+     "yesterday morning"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a ouvert",
+     "opened"
+    ],
+    [
+     "la porte",
+     "the door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "frs": 4860,
+    "en": 2990,
+    "gl": 3510,
+    "wd": 12450
+   },
+   "bank": {
+    "fr": [
+     49520,
+     3530
+    ],
+    "frs": [
+     53450,
+     4860
+    ],
+    "en": [
+     58710,
+     2990
+    ],
+    "gl": [
+     62100,
+     3510
+    ],
+    "wd": [
+     66010,
+     12450
+    ],
+    "wp": [
+     [
+      66010,
+      3030
+     ],
+     [
+      69440,
+      2270
+     ],
+     [
+      72110,
+      2490
+     ],
+     [
+      75000,
+      2610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit est sorti très vite.",
+   "en": "Biscuit went out very fast.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "est sorti",
+     "en": "went out"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "est sorti",
+     "went out"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "vite",
+     "fast"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3400,
+    "en": 2300,
+    "gl": 3480,
+    "wd": 11460
+   },
+   "bank": {
+    "fr": [
+     78860,
+     2530
+    ],
+    "frs": [
+     81790,
+     3400
+    ],
+    "en": [
+     85590,
+     2300
+    ],
+    "gl": [
+     88290,
+     3480
+    ],
+    "wd": [
+     92170,
+     11460
+    ],
+    "wp": [
+     [
+      92170,
+      2460
+     ],
+     [
+      95030,
+      2500
+     ],
+     [
+      97930,
+      2130
+     ],
+     [
+      100460,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il a couru dans la rue.",
+   "en": "He ran down the street.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "a couru",
+     "en": "ran"
+    }
+   ],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "a couru",
+     "ran"
+    ],
+    [
+     "dans la rue",
+     "in the street"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2120,
+    "frs": 2720,
+    "en": 1710,
+    "gl": 3260,
+    "wd": 8740
+   },
+   "bank": {
+    "fr": [
+     104030,
+     2120
+    ],
+    "frs": [
+     106550,
+     2720
+    ],
+    "en": [
+     109670,
+     1710
+    ],
+    "gl": [
+     111780,
+     3260
+    ],
+    "wd": [
+     115440,
+     8740
+    ],
+    "wp": [
+     [
+      115440,
+      2020
+     ],
+     [
+      117860,
+      2340
+     ],
+     [
+      120600,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Biscuit ! Reviens ! » a crié Léa.",
+   "en": "\"Biscuit! Come back!\" Léa shouted.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "a crié",
+     "en": "shouted"
+    },
+    {
+     "fr": "Reviens",
+     "en": "come back"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "Reviens",
+     "come back"
+    ],
+    [
+     "a crié",
+     "shouted"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4190,
+    "frs": 5910,
+    "en": 3100,
+    "gl": 6440,
+    "wd": 11780
+   },
+   "bank": {
+    "fr": [
+     124580,
+     4190
+    ],
+    "frs": [
+     129169,
+     5910
+    ],
+    "en": [
+     135480,
+     3100
+    ],
+    "gl": [
+     138980,
+     6440
+    ],
+    "wd": [
+     145820,
+     11780
+    ],
+    "wp": [
+     [
+      145820,
+      2460
+     ],
+     [
+      148680,
+      2550
+     ],
+     [
+      151630,
+      2450
+     ],
+     [
+      154480,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais Biscuit n'a pas écouté.",
+   "en": "But Biscuit didn't listen.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "n'a pas écouté",
+     "didn't listen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2460,
+    "frs": 3250,
+    "en": 2040,
+    "wd": 9050
+   },
+   "bank": {
+    "fr": [
+     158000,
+     2460
+    ],
+    "frs": [
+     160860,
+     3250
+    ],
+    "en": [
+     164510,
+     2040
+    ],
+    "wd": [
+     166950,
+     9050
+    ],
+    "wp": [
+     [
+      166950,
+      1920
+     ],
+     [
+      169270,
+      2460
+     ],
+     [
+      172130,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa a pris son manteau et elle est partie le chercher.",
+   "en": "Léa took her coat and went to look for him.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "son manteau",
+     "her coat"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "elle est partie",
+     "she left"
+    ],
+    [
+     "le chercher",
+     "to look for him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "frs": 4920,
+    "en": 2880,
+    "wd": 17330
+   },
+   "bank": {
+    "fr": [
+     176400,
+     3580
+    ],
+    "frs": [
+     180380,
+     4920
+    ],
+    "en": [
+     185700,
+     2880
+    ],
+    "wd": [
+     188980,
+     17330
+    ],
+    "wp": [
+     [
+      188980,
+      2270
+     ],
+     [
+      191650,
+      2220
+     ],
+     [
+      194270,
+      2680
+     ],
+     [
+      197350,
+      1820
+     ],
+     [
+      199570,
+      2770
+     ],
+     [
+      202740,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle a demandé à la voisine :",
+   "en": "She asked the neighbor:",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "voisine",
+     "en": "neighbor"
+    }
+   ],
+   "words": [
+    [
+     "Elle",
+     "she"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ],
+    [
+     "à la voisine",
+     "the neighbor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2470,
+    "frs": 3250,
+    "en": 1740,
+    "gl": 3470,
+    "wd": 8970
+   },
+   "bank": {
+    "fr": [
+     206710,
+     2470
+    ],
+    "frs": [
+     209580,
+     3250
+    ],
+    "en": [
+     213230,
+     1740
+    ],
+    "gl": [
+     215370,
+     3470
+    ],
+    "wd": [
+     219240,
+     8970
+    ],
+    "wp": [
+     [
+      219240,
+      2120
+     ],
+     [
+      221760,
+      2440
+     ],
+     [
+      224600,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Bonjour Madame, vous avez vu mon chien ? »",
+   "en": "\"Hello, ma'am, have you seen my dog?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Bonjour",
+     "hello"
+    ],
+    [
+     "Madame",
+     "ma'am"
+    ],
+    [
+     "vous avez vu",
+     "have you seen"
+    ],
+    [
+     "mon chien",
+     "my dog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4400,
+    "en": 2610,
+    "wd": 12410
+   },
+   "bank": {
+    "fr": [
+     228610,
+     3220
+    ],
+    "frs": [
+     232230,
+     4400
+    ],
+    "en": [
+     237030,
+     2610
+    ],
+    "wd": [
+     240040,
+     12410
+    ],
+    "wp": [
+     [
+      240040,
+      2490
+     ],
+     [
+      242930,
+      2410
+     ],
+     [
+      245740,
+      2910
+     ],
+     [
+      249050,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un petit chien blanc ? Oui, il est allé par là ! »",
+   "en": "\"A little white dog? Yes, he went that way!\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "par là",
+     "en": "that way"
+    }
+   ],
+   "words": [
+    [
+     "Un petit chien blanc",
+     "a little white dog"
+    ],
+    [
+     "Oui",
+     "yes"
+    ],
+    [
+     "il est allé",
+     "he went"
+    ],
+    [
+     "par là",
+     "that way"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "frs": 6350,
+    "en": 3300,
+    "gl": 3270,
+    "wd": 12490
+   },
+   "bank": {
+    "fr": [
+     252850,
+     4530
+    ],
+    "frs": [
+     257779,
+     6350
+    ],
+    "en": [
+     264530,
+     3300
+    ],
+    "gl": [
+     268230,
+     3270
+    ],
+    "wd": [
+     271900,
+     12490
+    ],
+    "wp": [
+     [
+      271900,
+      3340
+     ],
+     [
+      275640,
+      2190
+     ],
+     [
+      278230,
+      2530
+     ],
+     [
+      281160,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa a couru jusqu'au coin de la rue.",
+   "en": "Léa ran to the corner of the street.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a couru",
+     "ran"
+    ],
+    [
+     "jusqu'au",
+     "up to the"
+    ],
+    [
+     "coin",
+     "corner"
+    ],
+    [
+     "de la rue",
+     "of the street"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3040,
+    "frs": 4100,
+    "en": 2480,
+    "wd": 14450
+   },
+   "bank": {
+    "fr": [
+     284790,
+     3040
+    ],
+    "frs": [
+     288230,
+     4100
+    ],
+    "en": [
+     292730,
+     2480
+    ],
+    "wd": [
+     295610,
+     14450
+    ],
+    "wp": [
+     [
+      295610,
+      2270
+     ],
+     [
+      298280,
+      2340
+     ],
+     [
+      301020,
+      2520
+     ],
+     [
+      303940,
+      2170
+     ],
+     [
+      306510,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Là, il y a une boulangerie.",
+   "en": "There, there's a bakery.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "une boulangerie",
+     "en": "a bakery"
+    }
+   ],
+   "words": [
+    [
+     "Là",
+     "there"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "une boulangerie",
+     "a bakery"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3630,
+    "en": 2070,
+    "gl": 4080,
+    "wd": 9130
+   },
+   "bank": {
+    "fr": [
+     310460,
+     2700
+    ],
+    "frs": [
+     313560,
+     3630
+    ],
+    "en": [
+     317590,
+     2070
+    ],
+    "gl": [
+     320060,
+     4080
+    ],
+    "wd": [
+     324540,
+     9130
+    ],
+    "wp": [
+     [
+      324540,
+      2060
+     ],
+     [
+      327000,
+      2460
+     ],
+     [
+      329860,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ça sentait bon le pain chaud.",
+   "en": "It smelled of warm bread.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ça sentait bon",
+     "it smelled good"
+    ],
+    [
+     "le pain chaud",
+     "warm bread"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 2990,
+    "en": 2060,
+    "wd": 6950
+   },
+   "bank": {
+    "fr": [
+     334070,
+     2250
+    ],
+    "frs": [
+     336720,
+     2990
+    ],
+    "en": [
+     340110,
+     2060
+    ],
+    "wd": [
+     342570,
+     6950
+    ],
+    "wp": [
+     [
+      342570,
+      3010
+     ],
+     [
+      345980,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Devant la porte, Léa a vu Biscuit.",
+   "en": "In front of the door, Léa saw Biscuit.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Devant",
+     "in front of"
+    ],
+    [
+     "la porte",
+     "the door"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a vu",
+     "saw"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3290,
+    "frs": 4560,
+    "en": 2870,
+    "wd": 14500
+   },
+   "bank": {
+    "fr": [
+     349920,
+     3290
+    ],
+    "frs": [
+     353610,
+     4560
+    ],
+    "en": [
+     358570,
+     2870
+    ],
+    "wd": [
+     361840,
+     14500
+    ],
+    "wp": [
+     [
+      361840,
+      2440
+     ],
+     [
+      364680,
+      2610
+     ],
+     [
+      367690,
+      2270
+     ],
+     [
+      370360,
+      2270
+     ],
+     [
+      373030,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il était assis, très sage.",
+   "en": "He was sitting, very well-behaved.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "sage",
+     "en": "well-behaved"
+    }
+   ],
+   "words": [
+    [
+     "Il était assis",
+     "he was sitting"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "sage",
+     "well-behaved"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3770,
+    "en": 2610,
+    "gl": 3580,
+    "wd": 9420
+   },
+   "bank": {
+    "fr": [
+     376740,
+     2810
+    ],
+    "frs": [
+     379950,
+     3770
+    ],
+    "en": [
+     384120,
+     2610
+    ],
+    "gl": [
+     387130,
+     3580
+    ],
+    "wd": [
+     391110,
+     9420
+    ],
+    "wp": [
+     [
+      391110,
+      2990
+     ],
+     [
+      394500,
+      2130
+     ],
+     [
+      397030,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le boulanger est sorti avec un croissant.",
+   "en": "The baker came out with a croissant.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "Le boulanger",
+     "en": "the baker"
+    }
+   ],
+   "words": [
+    [
+     "Le boulanger",
+     "the baker"
+    ],
+    [
+     "est sorti",
+     "came out"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "un croissant",
+     "a croissant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "frs": 4370,
+    "en": 2330,
+    "gl": 3820,
+    "wd": 12280
+   },
+   "bank": {
+    "fr": [
+     400930,
+     3170
+    ],
+    "frs": [
+     404500,
+     4370
+    ],
+    "en": [
+     409270,
+     2330
+    ],
+    "gl": [
+     412000,
+     3820
+    ],
+    "wd": [
+     416220,
+     12280
+    ],
+    "wp": [
+     [
+      416220,
+      2780
+     ],
+     [
+      419400,
+      2530
+     ],
+     [
+      422330,
+      2170
+     ],
+     [
+      424900,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est ton chien ? Il vient ici tous les matins ! »",
+   "en": "\"Is that your dog? He comes here every morning!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "C'est",
+     "is it"
+    ],
+    [
+     "ton chien",
+     "your dog"
+    ],
+    [
+     "Il vient",
+     "he comes"
+    ],
+    [
+     "ici",
+     "here"
+    ],
+    [
+     "tous les matins",
+     "every morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4200,
+    "frs": 5890,
+    "en": 3250,
+    "wd": 14620
+   },
+   "bank": {
+    "fr": [
+     428900,
+     4200
+    ],
+    "frs": [
+     433500,
+     5890
+    ],
+    "en": [
+     439790,
+     3250
+    ],
+    "wd": [
+     443440,
+     14620
+    ],
+    "wp": [
+     [
+      443440,
+      2100
+     ],
+     [
+      445940,
+      2530
+     ],
+     [
+      448870,
+      2580
+     ],
+     [
+      451850,
+      2210
+     ],
+     [
+      454460,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa a ouvert de grands yeux.",
+   "en": "Léa's eyes went wide.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a ouvert de grands yeux",
+     "opened her eyes wide"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3460,
+    "en": 1970,
+    "wd": 7160
+   },
+   "bank": {
+    "fr": [
+     458460,
+     2600
+    ],
+    "frs": [
+     461460,
+     3460
+    ],
+    "en": [
+     465320,
+     1970
+    ],
+    "wd": [
+     467690,
+     7160
+    ],
+    "wp": [
+     [
+      467690,
+      2270
+     ],
+     [
+      470360,
+      3640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tous les matins ? Mais il dort à la maison ! »",
+   "en": "\"Every morning? But he sleeps at home!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Tous les matins",
+     "every morning"
+    ],
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "il dort",
+     "he sleeps"
+    ],
+    [
+     "à la maison",
+     "at home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3970,
+    "frs": 5530,
+    "en": 2870,
+    "wd": 12080
+   },
+   "bank": {
+    "fr": [
+     475250,
+     3970
+    ],
+    "frs": [
+     479620,
+     5530
+    ],
+    "en": [
+     485550,
+     2870
+    ],
+    "wd": [
+     488820,
+     12080
+    ],
+    "wp": [
+     [
+      488820,
+      2750
+     ],
+     [
+      491970,
+      1920
+     ],
+     [
+      494290,
+      2770
+     ],
+     [
+      497460,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le boulanger a ri.",
+   "en": "The baker laughed.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le boulanger",
+     "the baker"
+    ],
+    [
+     "a ri",
+     "laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2700,
+    "en": 1660,
+    "wd": 6360
+   },
+   "bank": {
+    "fr": [
+     501300,
+     2050
+    ],
+    "frs": [
+     503750,
+     2700
+    ],
+    "en": [
+     506850,
+     1660
+    ],
+    "wd": [
+     508910,
+     6360
+    ],
+    "wp": [
+     [
+      508910,
+      2780
+     ],
+     [
+      512090,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il arrive à sept heures, il mange un croissant, et il repart. »",
+   "en": "\"He arrives at seven, eats a croissant, and leaves again.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "il repart",
+     "en": "he leaves again"
+    }
+   ],
+   "words": [
+    [
+     "Il arrive",
+     "he arrives"
+    ],
+    [
+     "à sept heures",
+     "at seven o'clock"
+    ],
+    [
+     "il mange",
+     "he eats"
+    ],
+    [
+     "un croissant",
+     "a croissant"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il repart",
+     "he leaves again"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "frs": 6480,
+    "en": 4290,
+    "gl": 4050,
+    "wd": 19150
+   },
+   "bank": {
+    "fr": [
+     515669,
+     4610
+    ],
+    "frs": [
+     520679,
+     6480
+    ],
+    "en": [
+     527560,
+     4290
+    ],
+    "gl": [
+     532250,
+     4050
+    ],
+    "wd": [
+     536700,
+     19150
+    ],
+    "wp": [
+     [
+      536700,
+      2820
+     ],
+     [
+      539920,
+      3160
+     ],
+     [
+      543480,
+      2750
+     ],
+     [
+      546630,
+      2750
+     ],
+     [
+      549780,
+      1820
+     ],
+     [
+      552000,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors Léa a compris.",
+   "en": "Then Léa understood.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "then"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a compris",
+     "understood"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 2950,
+    "en": 1960,
+    "wd": 8880
+   },
+   "bank": {
+    "fr": [
+     556250,
+     2250
+    ],
+    "frs": [
+     558900,
+     2950
+    ],
+    "en": [
+     562250,
+     1960
+    ],
+    "wd": [
+     564610,
+     8880
+    ],
+    "wp": [
+     [
+      564610,
+      2280
+     ],
+     [
+      567290,
+      2270
+     ],
+     [
+      569960,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tous les matins, Papa ouvre la porte pour prendre le journal.",
+   "en": "Every morning, Dad opens the door to get the newspaper.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "le journal",
+     "en": "the newspaper"
+    }
+   ],
+   "words": [
+    [
+     "Tous les matins",
+     "every morning"
+    ],
+    [
+     "Papa",
+     "Dad"
+    ],
+    [
+     "ouvre",
+     "opens"
+    ],
+    [
+     "la porte",
+     "the door"
+    ],
+    [
+     "pour prendre",
+     "to get"
+    ],
+    [
+     "le journal",
+     "the newspaper"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6190,
+    "en": 3850,
+    "gl": 4080,
+    "wd": 18230
+   },
+   "bank": {
+    "fr": [
+     573890,
+     4410
+    ],
+    "frs": [
+     578700,
+     6190
+    ],
+    "en": [
+     585290,
+     3850
+    ],
+    "gl": [
+     589540,
+     4080
+    ],
+    "wd": [
+     594020,
+     18230
+    ],
+    "wp": [
+     [
+      594020,
+      2750
+     ],
+     [
+      597170,
+      2220
+     ],
+     [
+      599790,
+      2240
+     ],
+     [
+      602430,
+      2610
+     ],
+     [
+      605440,
+      2550
+     ],
+     [
+      608390,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et Biscuit sort, sans rien dire.",
+   "en": "And Biscuit goes out, without a word.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "sort",
+     "goes out"
+    ],
+    [
+     "sans rien dire",
+     "without saying anything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "frs": 4240,
+    "en": 2810,
+    "wd": 12230
+   },
+   "bank": {
+    "fr": [
+     612650,
+     3110
+    ],
+    "frs": [
+     616160,
+     4240
+    ],
+    "en": [
+     620800,
+     2810
+    ],
+    "wd": [
+     624010,
+     12230
+    ],
+    "wp": [
+     [
+      624010,
+      1820
+     ],
+     [
+      626230,
+      2460
+     ],
+     [
+      629090,
+      2450
+     ],
+     [
+      631940,
+      3450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa a acheté deux croissants : un pour elle, un pour Biscuit.",
+   "en": "Léa bought two croissants: one for her, one for Biscuit.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a acheté",
+     "bought"
+    ],
+    [
+     "deux croissants",
+     "two croissants"
+    ],
+    [
+     "un",
+     "one"
+    ],
+    [
+     "pour elle",
+     "for her"
+    ],
+    [
+     "un",
+     "one"
+    ],
+    [
+     "pour Biscuit",
+     "for Biscuit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "frs": 6650,
+    "en": 4660,
+    "wd": 20310
+   },
+   "bank": {
+    "fr": [
+     636640,
+     4680
+    ],
+    "frs": [
+     641720,
+     6650
+    ],
+    "en": [
+     648770,
+     4660
+    ],
+    "wd": [
+     653830,
+     20310
+    ],
+    "wp": [
+     [
+      653830,
+      2270
+     ],
+     [
+      656500,
+      2420
+     ],
+     [
+      659320,
+      3120
+     ],
+     [
+      662840,
+      1980
+     ],
+     [
+      665220,
+      2450
+     ],
+     [
+      668070,
+      1980
+     ],
+     [
+      670450,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais demain, Biscuit, on y va ensemble ! »",
+   "en": "\"But tomorrow, Biscuit, we go together!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "demain",
+     "tomorrow"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "on y va",
+     "we go there"
+    ],
+    [
+     "ensemble",
+     "together"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3670,
+    "frs": 5060,
+    "en": 3340,
+    "wd": 14240
+   },
+   "bank": {
+    "fr": [
+     674540,
+     3670
+    ],
+    "frs": [
+     678610,
+     5060
+    ],
+    "en": [
+     684070,
+     3340
+    ],
+    "wd": [
+     687810,
+     14240
+    ],
+    "wp": [
+     [
+      687810,
+      1920
+     ],
+     [
+      690130,
+      2360
+     ],
+     [
+      692890,
+      2460
+     ],
+     [
+      695750,
+      2490
+     ],
+     [
+      698640,
+      2560
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   18320
+  ],
+  "silence": [
+   19120,
+   30000
+  ]
+ }
+}

@@ -1,0 +1,1386 @@
+{
+ "id": "fr_s0_e01",
+ "lang": "fr",
+ "title": "Où est Biscuit ?",
+ "author": "Original story (AI-generated)",
+ "level": "A0",
+ "series": "Léa et Biscuit (first steps)",
+ "episode": "1",
+ "note": "Meet Léa, a little girl, and her little white dog, her chien, called Biscuit. Today Biscuit is missing.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 14910,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Voici Léa.",
+   "en": "This is Léa.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Voici",
+     "here is"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 1690,
+    "frs": 2170,
+    "en": 1430,
+    "wd": 5970
+   },
+   "bank": {
+    "fr": [
+     46110,
+     1690
+    ],
+    "frs": [
+     48200,
+     2170
+    ],
+    "en": [
+     50770,
+     1430
+    ],
+    "wd": [
+     52600,
+     5970
+    ],
+    "wp": [
+     [
+      52600,
+      2450
+     ],
+     [
+      55450,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa est petite.",
+   "en": "Léa is little.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "petite",
+     "en": "little"
+    }
+   ],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "petite",
+     "little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2029,
+    "frs": 2600,
+    "en": 1750,
+    "gl": 3300,
+    "wd": 8240
+   },
+   "bank": {
+    "fr": [
+     58970,
+     2029
+    ],
+    "frs": [
+     61400,
+     2600
+    ],
+    "en": [
+     64400,
+     1750
+    ],
+    "gl": [
+     66550,
+     3300
+    ],
+    "wd": [
+     70250,
+     8240
+    ],
+    "wp": [
+     [
+      70250,
+      2270
+     ],
+     [
+      72920,
+      1990
+     ],
+     [
+      75310,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa a un chien.",
+   "en": "Léa has a dog.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "chien",
+     "en": "dog"
+    }
+   ],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "a",
+     "has"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "chien",
+     "dog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2070,
+    "frs": 2660,
+    "en": 1610,
+    "gl": 3060,
+    "wd": 10520
+   },
+   "bank": {
+    "fr": [
+     78890,
+     2070
+    ],
+    "frs": [
+     81360,
+     2660
+    ],
+    "en": [
+     84420,
+     1610
+    ],
+    "gl": [
+     86430,
+     3060
+    ],
+    "wd": [
+     89890,
+     10520
+    ],
+    "wp": [
+     [
+      89890,
+      2270
+     ],
+     [
+      92560,
+      2090
+     ],
+     [
+      95050,
+      1910
+     ],
+     [
+      97360,
+      2200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le chien s'appelle Biscuit.",
+   "en": "The dog is called Biscuit.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le",
+     "the"
+    ],
+    [
+     "chien",
+     "dog"
+    ],
+    [
+     "s'appelle",
+     "is called"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2380,
+    "frs": 3130,
+    "en": 2009,
+    "wd": 11400
+   },
+   "bank": {
+    "fr": [
+     100810,
+     2380
+    ],
+    "frs": [
+     103590,
+     3130
+    ],
+    "en": [
+     107120,
+     2009
+    ],
+    "wd": [
+     109530,
+     11400
+    ],
+    "wp": [
+     [
+      109530,
+      2040
+     ],
+     [
+      111970,
+      2200
+     ],
+     [
+      114570,
+      2650
+     ],
+     [
+      117620,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit est petit et blanc.",
+   "en": "Biscuit is small and white.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "blanc",
+     "en": "white"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "petit",
+     "small"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "blanc",
+     "white"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2280,
+    "frs": 3050,
+    "en": 2200,
+    "gl": 2850,
+    "wd": 13070
+   },
+   "bank": {
+    "fr": [
+     121330,
+     2280
+    ],
+    "frs": [
+     124010,
+     3050
+    ],
+    "en": [
+     127460,
+     2200
+    ],
+    "gl": [
+     130060,
+     2850
+    ],
+    "wd": [
+     133310,
+     13070
+    ],
+    "wp": [
+     [
+      133310,
+      2460
+     ],
+     [
+      136170,
+      1990
+     ],
+     [
+      138560,
+      2329
+     ],
+     [
+      141290,
+      1820
+     ],
+     [
+      143510,
+      2020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Aujourd'hui, Léa cherche Biscuit.",
+   "en": "Today, Léa is looking for Biscuit.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "cherche",
+     "en": "is looking for"
+    }
+   ],
+   "words": [
+    [
+     "Aujourd'hui",
+     "today"
+    ],
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "cherche",
+     "is looking for"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3160,
+    "frs": 4290,
+    "en": 2880,
+    "gl": 3710,
+    "wd": 12090
+   },
+   "bank": {
+    "fr": [
+     146780,
+     3160
+    ],
+    "frs": [
+     150340,
+     4290
+    ],
+    "en": [
+     155030,
+     2880
+    ],
+    "gl": [
+     158310,
+     3710
+    ],
+    "wd": [
+     162420,
+     12090
+    ],
+    "wp": [
+     [
+      162420,
+      2510
+     ],
+     [
+      165330,
+      2270
+     ],
+     [
+      168000,
+      2800
+     ],
+     [
+      171200,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Biscuit ? Où es-tu ? »",
+   "en": "\"Biscuit? Where are you?\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "où",
+     "en": "where"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "Où",
+     "where"
+    ],
+    [
+     "es-tu",
+     "are you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "frs": 4290,
+    "en": 2130,
+    "gl": 2670,
+    "wd": 8280
+   },
+   "bank": {
+    "fr": [
+     174910,
+     3120
+    ],
+    "frs": [
+     178430,
+     4290
+    ],
+    "en": [
+     183120,
+     2130
+    ],
+    "gl": [
+     185650,
+     2670
+    ],
+    "wd": [
+     188720,
+     8280
+    ],
+    "wp": [
+     [
+      188720,
+      2460
+     ],
+     [
+      191580,
+      1940
+     ],
+     [
+      193920,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit n'est pas dans le jardin.",
+   "en": "Biscuit isn't in the garden.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "n'est pas",
+     "isn't"
+    ],
+    [
+     "dans",
+     "in"
+    ],
+    [
+     "le",
+     "the"
+    ],
+    [
+     "jardin",
+     "garden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2390,
+    "frs": 3200,
+    "en": 2180,
+    "wd": 13610
+   },
+   "bank": {
+    "fr": [
+     197400,
+     2390
+    ],
+    "frs": [
+     200190,
+     3200
+    ],
+    "en": [
+     203790,
+     2180
+    ],
+    "wd": [
+     206370,
+     13610
+    ],
+    "wp": [
+     [
+      206370,
+      2460
+     ],
+     [
+      209230,
+      2270
+     ],
+     [
+      211900,
+      2040
+     ],
+     [
+      214340,
+      2040
+     ],
+     [
+      216780,
+      2350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit n'est pas sous le lit.",
+   "en": "Biscuit isn't under the bed.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "sous",
+     "en": "under"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "n'est pas",
+     "isn't"
+    ],
+    [
+     "sous",
+     "under"
+    ],
+    [
+     "le",
+     "the"
+    ],
+    [
+     "lit",
+     "bed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2280,
+    "frs": 3050,
+    "en": 2220,
+    "gl": 3060,
+    "wd": 13510
+   },
+   "bank": {
+    "fr": [
+     220380,
+     2280
+    ],
+    "frs": [
+     223060,
+     3050
+    ],
+    "en": [
+     226510,
+     2220
+    ],
+    "gl": [
+     229130,
+     3060
+    ],
+    "wd": [
+     232590,
+     13510
+    ],
+    "wp": [
+     [
+      232590,
+      2460
+     ],
+     [
+      235450,
+      2270
+     ],
+     [
+      238120,
+      2210
+     ],
+     [
+      240730,
+      2040
+     ],
+     [
+      243170,
+      2080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit n'est pas dans la chambre.",
+   "en": "Biscuit isn't in the bedroom.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "n'est pas",
+     "isn't"
+    ],
+    [
+     "dans",
+     "in"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "chambre",
+     "bedroom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2410,
+    "frs": 3240,
+    "en": 2250,
+    "wd": 13560
+   },
+   "bank": {
+    "fr": [
+     246500,
+     2410
+    ],
+    "frs": [
+     249310,
+     3240
+    ],
+    "en": [
+     252950,
+     2250
+    ],
+    "wd": [
+     255600,
+     13560
+    ],
+    "wp": [
+     [
+      255600,
+      2460
+     ],
+     [
+      258460,
+      2270
+     ],
+     [
+      261130,
+      2040
+     ],
+     [
+      263570,
+      2030
+     ],
+     [
+      266000,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maman arrive.",
+   "en": "Mom arrives.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 1820,
+    "frs": 2350,
+    "en": 1570,
+    "wd": 6010
+   },
+   "bank": {
+    "fr": [
+     269560,
+     1820
+    ],
+    "frs": [
+     271780,
+     2350
+    ],
+    "en": [
+     274530,
+     1570
+    ],
+    "wd": [
+     276500,
+     6010
+    ],
+    "wp": [
+     [
+      276500,
+      2230
+     ],
+     [
+      279130,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Maman, où est Biscuit ? »",
+   "en": "\"Mom, where is Biscuit?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ],
+    [
+     "où",
+     "where"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "Biscuit",
+     "Biscuit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2420,
+    "frs": 3170,
+    "en": 2140,
+    "wd": 10670
+   },
+   "bank": {
+    "fr": [
+     282910,
+     2420
+    ],
+    "frs": [
+     285730,
+     3170
+    ],
+    "en": [
+     289300,
+     2140
+    ],
+    "wd": [
+     291840,
+     10670
+    ],
+    "wp": [
+     [
+      291840,
+      2230
+     ],
+     [
+      294470,
+      1940
+     ],
+     [
+      296810,
+      1990
+     ],
+     [
+      299200,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maman sourit.",
+   "en": "Mom smiles.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ],
+    [
+     "sourit",
+     "smiles"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2190,
+    "en": 1470,
+    "wd": 6010
+   },
+   "bank": {
+    "fr": [
+     302910,
+     1730
+    ],
+    "frs": [
+     305040,
+     2190
+    ],
+    "en": [
+     307630,
+     1470
+    ],
+    "wd": [
+     309500,
+     6010
+    ],
+    "wp": [
+     [
+      309500,
+      2230
+     ],
+     [
+      312130,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Biscuit est dans la cuisine. »",
+   "en": "\"Biscuit is in the kitchen.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "cuisine",
+     "en": "kitchen"
+    }
+   ],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "dans",
+     "in"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "cuisine",
+     "kitchen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2350,
+    "frs": 3140,
+    "en": 2180,
+    "gl": 3390,
+    "wd": 13420
+   },
+   "bank": {
+    "fr": [
+     315910,
+     2350
+    ],
+    "frs": [
+     318660,
+     3140
+    ],
+    "en": [
+     322200,
+     2180
+    ],
+    "gl": [
+     324780,
+     3390
+    ],
+    "wd": [
+     328570,
+     13420
+    ],
+    "wp": [
+     [
+      328570,
+      2460
+     ],
+     [
+      331430,
+      1990
+     ],
+     [
+      333820,
+      2040
+     ],
+     [
+      336260,
+      2030
+     ],
+     [
+      338690,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Léa va dans la cuisine.",
+   "en": "Léa goes into the kitchen.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Léa",
+     "Léa"
+    ],
+    [
+     "va",
+     "goes"
+    ],
+    [
+     "dans",
+     "into"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "cuisine",
+     "kitchen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2380,
+    "frs": 3130,
+    "en": 2150,
+    "wd": 13520
+   },
+   "bank": {
+    "fr": [
+     342390,
+     2380
+    ],
+    "frs": [
+     345170,
+     3130
+    ],
+    "en": [
+     348700,
+     2150
+    ],
+    "wd": [
+     351250,
+     13520
+    ],
+    "wp": [
+     [
+      351250,
+      2270
+     ],
+     [
+      353920,
+      2200
+     ],
+     [
+      356520,
+      2120
+     ],
+     [
+      359040,
+      2030
+     ],
+     [
+      361470,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscuit est là !",
+   "en": "Biscuit is there!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "là",
+     "there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 1660,
+    "frs": 2110,
+    "en": 1560,
+    "wd": 8160
+   },
+   "bank": {
+    "fr": [
+     365170,
+     1660
+    ],
+    "frs": [
+     367230,
+     2110
+    ],
+    "en": [
+     369740,
+     1560
+    ],
+    "wd": [
+     371700,
+     8160
+    ],
+    "wp": [
+     [
+      371700,
+      2460
+     ],
+     [
+      374560,
+      1990
+     ],
+     [
+      376950,
+      2060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il mange le gâteau de Léa.",
+   "en": "He is eating Léa's cake.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "gâteau",
+     "en": "cake"
+    }
+   ],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "mange",
+     "is eating"
+    ],
+    [
+     "le",
+     "the"
+    ],
+    [
+     "gâteau",
+     "cake"
+    ],
+    [
+     "de Léa",
+     "Léa's"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2330,
+    "frs": 3110,
+    "en": 2150,
+    "gl": 3160,
+    "wd": 13660
+   },
+   "bank": {
+    "fr": [
+     380260,
+     2330
+    ],
+    "frs": [
+     382990,
+     3110
+    ],
+    "en": [
+     386500,
+     2150
+    ],
+    "gl": [
+     389050,
+     3160
+    ],
+    "wd": [
+     392610,
+     13660
+    ],
+    "wp": [
+     [
+      392610,
+      2020
+     ],
+     [
+      395030,
+      2430
+     ],
+     [
+      397860,
+      2040
+     ],
+     [
+      400300,
+      2240
+     ],
+     [
+      402940,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Biscuit ! Mon gâteau ! »",
+   "en": "\"Biscuit! My cake!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Biscuit",
+     "Biscuit"
+    ],
+    [
+     "Mon",
+     "my"
+    ],
+    [
+     "gâteau",
+     "cake"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3280,
+    "frs": 4540,
+    "en": 2190,
+    "wd": 8410
+   },
+   "bank": {
+    "fr": [
+     406670,
+     3280
+    ],
+    "frs": [
+     410350,
+     4540
+    ],
+    "en": [
+     415290,
+     2190
+    ],
+    "wd": [
+     417880,
+     8410
+    ],
+    "wp": [
+     [
+      417880,
+      2460
+     ],
+     [
+      420740,
+      2060
+     ],
+     [
+      423200,
+      2240
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   14910
+  ],
+  "silence": [
+   15710,
+   30000
+  ]
+ }
+}

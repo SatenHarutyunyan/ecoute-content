@@ -1,0 +1,2733 @@
+{
+ "id": "es_cuentos_02",
+ "lang": "es",
+ "title": "La vecina del quinto",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "Cuentos cortos",
+ "episode": "2",
+ "note": "Tomás has just moved to Madrid. His new building is very quiet, until a piano starts playing in the middle of the night. \"El quinto\" is short for \"el quinto piso\", the fifth floor.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 18930,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Cuando Tomás se mudó a Madrid,",
+   "en": "When Tomás moved to Madrid,",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "se mudó",
+     "en": "moved (house)"
+    }
+   ],
+   "words": [
+    [
+     "Cuando",
+     "when"
+    ],
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "se mudó",
+     "moved"
+    ],
+    [
+     "a Madrid",
+     "to Madrid"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2520,
+    "frs": 3350,
+    "en": 2340,
+    "gl": 4019,
+    "wd": 11810
+   },
+   "bank": {
+    "fr": [
+     50130,
+     2520
+    ],
+    "frs": [
+     53050,
+     3350
+    ],
+    "en": [
+     56800,
+     2340
+    ],
+    "gl": [
+     59540,
+     4019
+    ],
+    "wd": [
+     63960,
+     11810
+    ],
+    "wp": [
+     [
+      63960,
+      2250
+     ],
+     [
+      66610,
+      2510
+     ],
+     [
+      69520,
+      2510
+     ],
+     [
+      72430,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "alquiló un apartamento pequeño en el cuarto piso.",
+   "en": "he rented a small apartment on the fourth floor.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "alquiló",
+     "en": "rented"
+    },
+    {
+     "fr": "piso",
+     "en": "floor"
+    }
+   ],
+   "words": [
+    [
+     "alquiló",
+     "rented"
+    ],
+    [
+     "un apartamento",
+     "an apartment"
+    ],
+    [
+     "pequeño",
+     "small"
+    ],
+    [
+     "en el cuarto piso",
+     "on the fourth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "frs": 5180,
+    "en": 2930,
+    "gl": 6070,
+    "wd": 13540
+   },
+   "bank": {
+    "fr": [
+     76170,
+     3730
+    ],
+    "frs": [
+     80300,
+     5180
+    ],
+    "en": [
+     85880,
+     2930
+    ],
+    "gl": [
+     89210,
+     6070
+    ],
+    "wd": [
+     95680,
+     13540
+    ],
+    "wp": [
+     [
+      95680,
+      2420
+     ],
+     [
+      98500,
+      3090
+     ],
+     [
+      101990,
+      2450
+     ],
+     [
+      104840,
+      3530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El edificio era antiguo y tranquilo.",
+   "en": "The building was old and quiet.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "El edificio",
+     "the building"
+    ],
+    [
+     "era",
+     "was"
+    ],
+    [
+     "antiguo",
+     "old"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "tranquilo",
+     "quiet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3140,
+    "frs": 4310,
+    "en": 2370,
+    "wd": 14750
+   },
+   "bank": {
+    "fr": [
+     109620,
+     3140
+    ],
+    "frs": [
+     113160,
+     4310
+    ],
+    "en": [
+     117870,
+     2370
+    ],
+    "wd": [
+     120640,
+     14750
+    ],
+    "wp": [
+     [
+      120640,
+      2840
+     ],
+     [
+      123880,
+      2150
+     ],
+     [
+      126430,
+      2440
+     ],
+     [
+      129270,
+      2360
+     ],
+     [
+      132030,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Demasiado tranquilo, pensaba él.",
+   "en": "Too quiet, he thought.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "demasiado",
+     "en": "too"
+    }
+   ],
+   "words": [
+    [
+     "Demasiado",
+     "too"
+    ],
+    [
+     "tranquilo",
+     "quiet"
+    ],
+    [
+     "pensaba",
+     "thought"
+    ],
+    [
+     "él",
+     "he"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4240,
+    "en": 1890,
+    "gl": 3530,
+    "wd": 11470
+   },
+   "bank": {
+    "fr": [
+     135790,
+     3090
+    ],
+    "frs": [
+     139280,
+     4240
+    ],
+    "en": [
+     143920,
+     1890
+    ],
+    "gl": [
+     146210,
+     3530
+    ],
+    "wd": [
+     150140,
+     11470
+    ],
+    "wp": [
+     [
+      150140,
+      2490
+     ],
+     [
+      153030,
+      2510
+     ],
+     [
+      155940,
+      2410
+     ],
+     [
+      158750,
+      2010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hasta la primera noche.",
+   "en": "Until the first night.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Hasta",
+     "until"
+    ],
+    [
+     "la primera noche",
+     "the first night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "frs": 2920,
+    "en": 1740,
+    "wd": 6890
+   },
+   "bank": {
+    "fr": [
+     162010,
+     2220
+    ],
+    "frs": [
+     164630,
+     2920
+    ],
+    "en": [
+     167950,
+     1740
+    ],
+    "wd": [
+     170090,
+     6890
+    ],
+    "wp": [
+     [
+      170090,
+      2400
+     ],
+     [
+      172890,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A las dos de la madrugada, empezó a sonar un piano.",
+   "en": "At two in the morning, a piano began to play.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "de la madrugada",
+     "en": "in the early morning (after midnight)"
+    },
+    {
+     "fr": "sonar",
+     "en": "to sound, to play"
+    }
+   ],
+   "words": [
+    [
+     "A las dos",
+     "at two"
+    ],
+    [
+     "de la madrugada",
+     "in the early morning"
+    ],
+    [
+     "empezó a",
+     "began to"
+    ],
+    [
+     "sonar",
+     "sound"
+    ],
+    [
+     "un piano",
+     "a piano"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "frs": 5500,
+    "en": 3120,
+    "gl": 9030,
+    "wd": 16360
+   },
+   "bank": {
+    "fr": [
+     177380,
+     3940
+    ],
+    "frs": [
+     181720,
+     5500
+    ],
+    "en": [
+     187620,
+     3120
+    ],
+    "gl": [
+     191140,
+     9030
+    ],
+    "wd": [
+     200570,
+     16360
+    ],
+    "wp": [
+     [
+      200570,
+      2700
+     ],
+     [
+      203670,
+      3360
+     ],
+     [
+      207430,
+      2820
+     ],
+     [
+      210650,
+      2350
+     ],
+     [
+      213400,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La música venía de arriba, del quinto piso.",
+   "en": "The music came from upstairs, from the fifth floor.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "de arriba",
+     "en": "from upstairs"
+    }
+   ],
+   "words": [
+    [
+     "La música",
+     "the music"
+    ],
+    [
+     "venía",
+     "came"
+    ],
+    [
+     "de arriba",
+     "from upstairs"
+    ],
+    [
+     "del quinto piso",
+     "from the fifth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5120,
+    "en": 3580,
+    "gl": 4000,
+    "wd": 13760
+   },
+   "bank": {
+    "fr": [
+     217330,
+     3690
+    ],
+    "frs": [
+     221420,
+     5120
+    ],
+    "en": [
+     226940,
+     3580
+    ],
+    "gl": [
+     230920,
+     4000
+    ],
+    "wd": [
+     235320,
+     13760
+    ],
+    "wp": [
+     [
+      235320,
+      2820
+     ],
+     [
+      238540,
+      2390
+     ],
+     [
+      241330,
+      2990
+     ],
+     [
+      244720,
+      3510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Era bonita, pero Tomás tenía que levantarse a las siete.",
+   "en": "It was pretty, but Tomás had to get up at seven.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "levantarse",
+     "en": "to get up"
+    }
+   ],
+   "words": [
+    [
+     "Era",
+     "it was"
+    ],
+    [
+     "bonita",
+     "pretty"
+    ],
+    [
+     "pero",
+     "but"
+    ],
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "tenía que",
+     "had to"
+    ],
+    [
+     "levantarse",
+     "get up"
+    ],
+    [
+     "a las siete",
+     "at seven"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "frs": 5990,
+    "en": 3320,
+    "gl": 3820,
+    "wd": 20410
+   },
+   "bank": {
+    "fr": [
+     249480,
+     4260
+    ],
+    "frs": [
+     254140,
+     5990
+    ],
+    "en": [
+     260529,
+     3320
+    ],
+    "gl": [
+     264250,
+     3820
+    ],
+    "wd": [
+     268470,
+     20410
+    ],
+    "wp": [
+     [
+      268470,
+      2260
+     ],
+     [
+      271130,
+      2400
+     ],
+     [
+      273930,
+      2010
+     ],
+     [
+      276340,
+      2510
+     ],
+     [
+      279250,
+      2580
+     ],
+     [
+      282230,
+      2620
+     ],
+     [
+      285250,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La segunda noche pasó lo mismo.",
+   "en": "The second night, the same thing happened.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "lo mismo",
+     "en": "the same thing"
+    }
+   ],
+   "words": [
+    [
+     "La segunda noche",
+     "the second night"
+    ],
+    [
+     "pasó",
+     "happened"
+    ],
+    [
+     "lo mismo",
+     "the same thing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "frs": 3890,
+    "en": 2710,
+    "gl": 3920,
+    "wd": 10230
+   },
+   "bank": {
+    "fr": [
+     289280,
+     2860
+    ],
+    "frs": [
+     292540,
+     3890
+    ],
+    "en": [
+     296830,
+     2710
+    ],
+    "gl": [
+     299940,
+     3920
+    ],
+    "wd": [
+     304260,
+     10230
+    ],
+    "wp": [
+     [
+      304260,
+      3330
+     ],
+     [
+      307990,
+      2329
+     ],
+     [
+      310720,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y la tercera.",
+   "en": "And the third.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "la tercera",
+     "the third"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 1760,
+    "frs": 2240,
+    "en": 1440,
+    "wd": 6410
+   },
+   "bank": {
+    "fr": [
+     314890,
+     1760
+    ],
+    "frs": [
+     317050,
+     2240
+    ],
+    "en": [
+     319690,
+     1440
+    ],
+    "wd": [
+     321530,
+     6410
+    ],
+    "wp": [
+     [
+      321530,
+      2360
+     ],
+     [
+      324290,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El jueves, Tomás estaba agotado.",
+   "en": "On Thursday, Tomás was exhausted.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "agotado",
+     "en": "exhausted"
+    }
+   ],
+   "words": [
+    [
+     "El jueves",
+     "on Thursday"
+    ],
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "estaba",
+     "was"
+    ],
+    [
+     "agotado",
+     "exhausted"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "frs": 4070,
+    "en": 2910,
+    "gl": 3650,
+    "wd": 12520
+   },
+   "bank": {
+    "fr": [
+     328340,
+     2990
+    ],
+    "frs": [
+     331730,
+     4070
+    ],
+    "en": [
+     336200,
+     2910
+    ],
+    "gl": [
+     339510,
+     3650
+    ],
+    "wd": [
+     343560,
+     12520
+    ],
+    "wp": [
+     [
+      343560,
+      2900
+     ],
+     [
+      346860,
+      2510
+     ],
+     [
+      349770,
+      2370
+     ],
+     [
+      352540,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Escribió una nota:",
+   "en": "He wrote a note:",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Escribió",
+     "he wrote"
+    ],
+    [
+     "una nota",
+     "a note"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2240,
+    "frs": 2960,
+    "en": 1440,
+    "wd": 6560
+   },
+   "bank": {
+    "fr": [
+     356480,
+     2240
+    ],
+    "frs": [
+     359120,
+     2960
+    ],
+    "en": [
+     362480,
+     1440
+    ],
+    "wd": [
+     364320,
+     6560
+    ],
+    "wp": [
+     [
+      364320,
+      2650
+     ],
+     [
+      367370,
+      2660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Querido vecino:",
+   "en": "\"Dear neighbor:",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "vecino",
+     "en": "neighbor"
+    }
+   ],
+   "words": [
+    [
+     "Querido",
+     "dear"
+    ],
+    [
+     "vecino",
+     "neighbor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 1890,
+    "frs": 2420,
+    "en": 1360,
+    "gl": 3500,
+    "wd": 6070
+   },
+   "bank": {
+    "fr": [
+     371280,
+     1890
+    ],
+    "frs": [
+     373570,
+     2420
+    ],
+    "en": [
+     376390,
+     1360
+    ],
+    "gl": [
+     378150,
+     3500
+    ],
+    "wd": [
+     382050,
+     6070
+    ],
+    "wp": [
+     [
+      382050,
+      2309
+     ],
+     [
+      384760,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "la música es preciosa, pero necesito dormir.",
+   "en": "the music is lovely, but I need to sleep.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "preciosa",
+     "en": "lovely"
+    }
+   ],
+   "words": [
+    [
+     "la música",
+     "the music"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "preciosa",
+     "lovely"
+    ],
+    [
+     "pero",
+     "but"
+    ],
+    [
+     "necesito",
+     "I need"
+    ],
+    [
+     "dormir",
+     "to sleep"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3800,
+    "frs": 5290,
+    "en": 3020,
+    "gl": 3560,
+    "wd": 17590
+   },
+   "bank": {
+    "fr": [
+     388520,
+     3800
+    ],
+    "frs": [
+     392720,
+     5290
+    ],
+    "en": [
+     398410,
+     3020
+    ],
+    "gl": [
+     401830,
+     3560
+    ],
+    "wd": [
+     405790,
+     17590
+    ],
+    "wp": [
+     [
+      405790,
+      2820
+     ],
+     [
+      409010,
+      2140
+     ],
+     [
+      411550,
+      2560
+     ],
+     [
+      414510,
+      2010
+     ],
+     [
+      416920,
+      2760
+     ],
+     [
+      420080,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¿Podría tocar más temprano?",
+   "en": "Could you play earlier?",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "más temprano",
+     "en": "earlier"
+    }
+   ],
+   "words": [
+    [
+     "Podría",
+     "could you"
+    ],
+    [
+     "tocar",
+     "play"
+    ],
+    [
+     "más temprano",
+     "earlier"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2520,
+    "frs": 3380,
+    "en": 1600,
+    "gl": 4000,
+    "wd": 9100
+   },
+   "bank": {
+    "fr": [
+     423780,
+     2520
+    ],
+    "frs": [
+     426700,
+     3380
+    ],
+    "en": [
+     430480,
+     1600
+    ],
+    "gl": [
+     432480,
+     4000
+    ],
+    "wd": [
+     436880,
+     9100
+    ],
+    "wp": [
+     [
+      436880,
+      2430
+     ],
+     [
+      439710,
+      2150
+     ],
+     [
+      442260,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gracias. Tomás, cuarto piso.»",
+   "en": "Thank you. Tomás, fourth floor.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Gracias",
+     "thank you"
+    ],
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "cuarto piso",
+     "fourth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "frs": 5720,
+    "en": 2940,
+    "wd": 9700
+   },
+   "bank": {
+    "fr": [
+     446380,
+     4070
+    ],
+    "frs": [
+     450850,
+     5720
+    ],
+    "en": [
+     456970,
+     2940
+    ],
+    "wd": [
+     460310,
+     9700
+    ],
+    "wp": [
+     [
+      460310,
+      2620
+     ],
+     [
+      463330,
+      2510
+     ],
+     [
+      466240,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Subió las escaleras y dejó la nota debajo de la puerta.",
+   "en": "He went up the stairs and left the note under the door.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "escaleras",
+     "en": "stairs"
+    },
+    {
+     "fr": "debajo de",
+     "en": "under"
+    }
+   ],
+   "words": [
+    [
+     "Subió",
+     "went up"
+    ],
+    [
+     "las escaleras",
+     "the stairs"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "dejó",
+     "left"
+    ],
+    [
+     "la nota",
+     "the note"
+    ],
+    [
+     "debajo de",
+     "under"
+    ],
+    [
+     "la puerta",
+     "the door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "frs": 5780,
+    "en": 3410,
+    "gl": 7100,
+    "wd": 21340
+   },
+   "bank": {
+    "fr": [
+     470410,
+     4140
+    ],
+    "frs": [
+     474950,
+     5780
+    ],
+    "en": [
+     481130,
+     3410
+    ],
+    "gl": [
+     484940,
+     7100
+    ],
+    "wd": [
+     492440,
+     21340
+    ],
+    "wp": [
+     [
+      492440,
+      2390
+     ],
+     [
+      495230,
+      3180
+     ],
+     [
+      498810,
+      2360
+     ],
+     [
+      501570,
+      2350
+     ],
+     [
+      504320,
+      2550
+     ],
+     [
+      507270,
+      2570
+     ],
+     [
+      510240,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Esa noche no hubo música.",
+   "en": "That night there was no music.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "no hubo",
+     "en": "there was no"
+    }
+   ],
+   "words": [
+    [
+     "Esa noche",
+     "that night"
+    ],
+    [
+     "no hubo",
+     "there was no"
+    ],
+    [
+     "música",
+     "music"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "frs": 3560,
+    "en": 2110,
+    "gl": 3670,
+    "wd": 9700
+   },
+   "bank": {
+    "fr": [
+     514179,
+     2660
+    ],
+    "frs": [
+     517240,
+     3560
+    ],
+    "en": [
+     521200,
+     2110
+    ],
+    "gl": [
+     523710,
+     3670
+    ],
+    "wd": [
+     527780,
+     9700
+    ],
+    "wp": [
+     [
+      527780,
+      2780
+     ],
+     [
+      530960,
+      2700
+     ],
+     [
+      534060,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomás durmió como un bebé.",
+   "en": "Tomás slept like a baby.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "durmió",
+     "slept"
+    ],
+    [
+     "como",
+     "like"
+    ],
+    [
+     "un bebé",
+     "a baby"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2520,
+    "frs": 3380,
+    "en": 2060,
+    "wd": 11810
+   },
+   "bank": {
+    "fr": [
+     537880,
+     2520
+    ],
+    "frs": [
+     540800,
+     3380
+    ],
+    "en": [
+     544580,
+     2060
+    ],
+    "wd": [
+     547040,
+     11810
+    ],
+    "wp": [
+     [
+      547040,
+      2510
+     ],
+     [
+      549950,
+      2450
+     ],
+     [
+      552800,
+      2160
+     ],
+     [
+      555360,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pero por la mañana, alguien llamó a su puerta.",
+   "en": "But in the morning, someone knocked on his door.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "llamó a su puerta",
+     "en": "knocked on his door"
+    }
+   ],
+   "words": [
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "por la mañana",
+     "in the morning"
+    ],
+    [
+     "alguien",
+     "someone"
+    ],
+    [
+     "llamó a su puerta",
+     "knocked on his door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "frs": 5030,
+    "en": 2930,
+    "gl": 4670,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     559250,
+     3630
+    ],
+    "frs": [
+     563280,
+     5030
+    ],
+    "en": [
+     568710,
+     2930
+    ],
+    "gl": [
+     572040,
+     4670
+    ],
+    "wd": [
+     577110,
+     12770
+    ],
+    "wp": [
+     [
+      577110,
+      2010
+     ],
+     [
+      579520,
+      2900
+     ],
+     [
+      582820,
+      2380
+     ],
+     [
+      585600,
+      3430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Era una señora muy mayor, con el pelo blanco.",
+   "en": "It was a very old lady with white hair.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "muy mayor",
+     "en": "very old"
+    }
+   ],
+   "words": [
+    [
+     "Era",
+     "it was"
+    ],
+    [
+     "una señora",
+     "a lady"
+    ],
+    [
+     "muy mayor",
+     "very old"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "el pelo",
+     "hair"
+    ],
+    [
+     "blanco",
+     "white"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "gl": "audio/s021_gl.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "frs": 4970,
+    "en": 2650,
+    "gl": 3760,
+    "wd": 17350
+   },
+   "bank": {
+    "fr": [
+     590280,
+     3600
+    ],
+    "frs": [
+     594280,
+     4970
+    ],
+    "en": [
+     599650,
+     2650
+    ],
+    "gl": [
+     602700,
+     3760
+    ],
+    "wd": [
+     606860,
+     17350
+    ],
+    "wp": [
+     [
+      606860,
+      2260
+     ],
+     [
+      609520,
+      2790
+     ],
+     [
+      612710,
+      2760
+     ],
+     [
+      615870,
+      2020
+     ],
+     [
+      618290,
+      2350
+     ],
+     [
+      621040,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tenía una caja de galletas en las manos.",
+   "en": "She had a box of cookies in her hands.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "galletas",
+     "en": "cookies"
+    }
+   ],
+   "words": [
+    [
+     "Tenía",
+     "she had"
+    ],
+    [
+     "una caja",
+     "a box"
+    ],
+    [
+     "de galletas",
+     "of cookies"
+    ],
+    [
+     "en las manos",
+     "in her hands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4580,
+    "en": 2690,
+    "gl": 3870,
+    "wd": 13610
+   },
+   "bank": {
+    "fr": [
+     624610,
+     3330
+    ],
+    "frs": [
+     628340,
+     4580
+    ],
+    "en": [
+     633320,
+     2690
+    ],
+    "gl": [
+     636410,
+     3870
+    ],
+    "wd": [
+     640680,
+     13610
+    ],
+    "wp": [
+     [
+      640680,
+      2540
+     ],
+     [
+      643620,
+      2810
+     ],
+     [
+      646830,
+      3010
+     ],
+     [
+      650240,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Soy Elena, la del quinto. Lo siento mucho.",
+   "en": "\"I'm Elena, from the fifth floor. I'm very sorry.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "lo siento",
+     "en": "I'm sorry"
+    }
+   ],
+   "words": [
+    [
+     "Soy",
+     "I am"
+    ],
+    [
+     "Elena",
+     "Elena"
+    ],
+    [
+     "la del quinto",
+     "the one from the fifth"
+    ],
+    [
+     "Lo siento",
+     "I'm sorry"
+    ],
+    [
+     "mucho",
+     "very much"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "gl": "audio/s023_gl.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4830,
+    "frs": 6840,
+    "en": 3670,
+    "gl": 3860,
+    "wd": 15920
+   },
+   "bank": {
+    "fr": [
+     654690,
+     4830
+    ],
+    "frs": [
+     659920,
+     6840
+    ],
+    "en": [
+     667160,
+     3670
+    ],
+    "gl": [
+     671230,
+     3860
+    ],
+    "wd": [
+     675490,
+     15920
+    ],
+    "wp": [
+     [
+      675490,
+      2380
+     ],
+     [
+      678270,
+      2460
+     ],
+     [
+      681130,
+      3170
+     ],
+     [
+      684700,
+      2830
+     ],
+     [
+      687930,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Fui pianista durante cuarenta años.",
+   "en": "I was a pianist for forty years.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Fui",
+     "I was"
+    ],
+    [
+     "pianista",
+     "pianist"
+    ],
+    [
+     "durante",
+     "for"
+    ],
+    [
+     "cuarenta",
+     "forty"
+    ],
+    [
+     "años",
+     "years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "frs": 4310,
+    "en": 2490,
+    "wd": 14920
+   },
+   "bank": {
+    "fr": [
+     691810,
+     3200
+    ],
+    "frs": [
+     695410,
+     4310
+    ],
+    "en": [
+     700120,
+     2490
+    ],
+    "wd": [
+     703010,
+     14920
+    ],
+    "wp": [
+     [
+      703010,
+      2400
+     ],
+     [
+      705810,
+      2640
+     ],
+     [
+      708850,
+      2500
+     ],
+     [
+      711750,
+      2450
+     ],
+     [
+      714600,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora tengo ochenta y ya no duermo bien.",
+   "en": "Now I'm eighty and I don't sleep well anymore.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "ya no",
+     "en": "no longer"
+    }
+   ],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "tengo ochenta",
+     "I'm eighty"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "ya no",
+     "no longer"
+    ],
+    [
+     "duermo",
+     "I sleep"
+    ],
+    [
+     "bien",
+     "well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "gl": "audio/s025_gl.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3300,
+    "frs": 4540,
+    "en": 3030,
+    "gl": 3530,
+    "wd": 17710
+   },
+   "bank": {
+    "fr": [
+     718330,
+     3300
+    ],
+    "frs": [
+     722030,
+     4540
+    ],
+    "en": [
+     726970,
+     3030
+    ],
+    "gl": [
+     730400,
+     3530
+    ],
+    "wd": [
+     734330,
+     17710
+    ],
+    "wp": [
+     [
+      734330,
+      2260
+     ],
+     [
+      736990,
+      2850
+     ],
+     [
+      740240,
+      2360
+     ],
+     [
+      743000,
+      2600
+     ],
+     [
+      746000,
+      2510
+     ],
+     [
+      748910,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Cuando no puedo dormir, toco.»",
+   "en": "When I can't sleep, I play.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Cuando",
+     "when"
+    ],
+    [
+     "no puedo",
+     "I can't"
+    ],
+    [
+     "dormir",
+     "sleep"
+    ],
+    [
+     "toco",
+     "I play"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2640,
+    "frs": 3530,
+    "en": 2500,
+    "wd": 11570
+   },
+   "bank": {
+    "fr": [
+     752440,
+     2640
+    ],
+    "frs": [
+     755480,
+     3530
+    ],
+    "en": [
+     759410,
+     2500
+    ],
+    "wd": [
+     762310,
+     11570
+    ],
+    "wp": [
+     [
+      762310,
+      2250
+     ],
+     [
+      764960,
+      2630
+     ],
+     [
+      767990,
+      2309
+     ],
+     [
+      770700,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tomás no sabía qué decir.",
+   "en": "Tomás didn't know what to say.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Tomás",
+     "Tomás"
+    ],
+    [
+     "no sabía",
+     "didn't know"
+    ],
+    [
+     "qué",
+     "what"
+    ],
+    [
+     "decir",
+     "to say"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 2480,
+    "frs": 3300,
+    "en": 2060,
+    "wd": 11670
+   },
+   "bank": {
+    "fr": [
+     774280,
+     2480
+    ],
+    "frs": [
+     777160,
+     3300
+    ],
+    "en": [
+     780860,
+     2060
+    ],
+    "wd": [
+     783320,
+     11670
+    ],
+    "wp": [
+     [
+      783320,
+      2510
+     ],
+     [
+      786230,
+      2770
+     ],
+     [
+      789400,
+      1980
+     ],
+     [
+      791780,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Luego tuvo una idea.",
+   "en": "Then he had an idea.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Luego",
+     "then"
+    ],
+    [
+     "tuvo",
+     "he had"
+    ],
+    [
+     "una idea",
+     "an idea"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3150,
+    "en": 1670,
+    "wd": 9130
+   },
+   "bank": {
+    "fr": [
+     795390,
+     2370
+    ],
+    "frs": [
+     798160,
+     3150
+    ],
+    "en": [
+     801710,
+     1670
+    ],
+    "wd": [
+     803780,
+     9130
+    ],
+    "wp": [
+     [
+      803780,
+      2320
+     ],
+     [
+      806500,
+      2329
+     ],
+     [
+      809230,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¿Y si toca por la tarde... y me enseña a mí?»",
+   "en": "\"What if you play in the afternoon... and teach me?\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "me enseña",
+     "en": "you teach me"
+    }
+   ],
+   "words": [
+    [
+     "Y si",
+     "what if"
+    ],
+    [
+     "toca",
+     "you play"
+    ],
+    [
+     "por la tarde",
+     "in the afternoon"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "me enseña",
+     "you teach me"
+    ],
+    [
+     "a mí",
+     "me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4680,
+    "en": 3070,
+    "gl": 3950,
+    "wd": 18020
+   },
+   "bank": {
+    "fr": [
+     813310,
+     3390
+    ],
+    "frs": [
+     817100,
+     4680
+    ],
+    "en": [
+     822180,
+     3070
+    ],
+    "gl": [
+     825650,
+     3950
+    ],
+    "wd": [
+     830000,
+     18020
+    ],
+    "wp": [
+     [
+      830000,
+      2210
+     ],
+     [
+      832610,
+      2350
+     ],
+     [
+      835360,
+      3120
+     ],
+     [
+      838880,
+      2360
+     ],
+     [
+      841640,
+      2900
+     ],
+     [
+      844940,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elena sonrió por primera vez.",
+   "en": "Elena smiled for the first time.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Elena",
+     "Elena"
+    ],
+    [
+     "sonrió",
+     "smiled"
+    ],
+    [
+     "por primera vez",
+     "for the first time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3640,
+    "en": 2320,
+    "wd": 9820
+   },
+   "bank": {
+    "fr": [
+     848420,
+     2700
+    ],
+    "frs": [
+     851520,
+     3640
+    ],
+    "en": [
+     855560,
+     2320
+    ],
+    "wd": [
+     858280,
+     9820
+    ],
+    "wp": [
+     [
+      858280,
+      2460
+     ],
+     [
+      861140,
+      2590
+     ],
+     [
+      864130,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora, todos los martes a las seis, se oye el piano del quinto.",
+   "en": "Now, every Tuesday at six, you can hear the piano on the fifth floor.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "se oye",
+     "en": "you can hear"
+    }
+   ],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "todos los martes",
+     "every Tuesday"
+    ],
+    [
+     "a las seis",
+     "at six"
+    ],
+    [
+     "se oye",
+     "you can hear"
+    ],
+    [
+     "el piano",
+     "the piano"
+    ],
+    [
+     "del quinto",
+     "on the fifth (floor)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "gl": "audio/s031_gl.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6760,
+    "en": 4650,
+    "gl": 3750,
+    "wd": 20130
+   },
+   "bank": {
+    "fr": [
+     868500,
+     4770
+    ],
+    "frs": [
+     873670,
+     6760
+    ],
+    "en": [
+     880830,
+     4650
+    ],
+    "gl": [
+     885880,
+     3750
+    ],
+    "wd": [
+     890030,
+     20130
+    ],
+    "wp": [
+     [
+      890030,
+      2260
+     ],
+     [
+      892690,
+      3530
+     ],
+     [
+      896620,
+      2860
+     ],
+     [
+      899880,
+      2770
+     ],
+     [
+      903050,
+      2650
+     ],
+     [
+      906100,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Suena bastante mal.",
+   "en": "It sounds pretty bad.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Suena",
+     "it sounds"
+    ],
+    [
+     "bastante",
+     "pretty"
+    ],
+    [
+     "mal",
+     "bad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "frs": 2920,
+    "en": 1730,
+    "wd": 9050
+   },
+   "bank": {
+    "fr": [
+     910560,
+     2220
+    ],
+    "frs": [
+     913180,
+     2920
+    ],
+    "en": [
+     916500,
+     1730
+    ],
+    "wd": [
+     918630,
+     9050
+    ],
+    "wp": [
+     [
+      918630,
+      2670
+     ],
+     [
+      921700,
+      2490
+     ],
+     [
+      924590,
+      2240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es Tomás.",
+   "en": "It's Tomás.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Es",
+     "it's"
+    ],
+    [
+     "Tomás",
+     "Tomás"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 1670,
+    "frs": 2100,
+    "en": 1510,
+    "wd": 5890
+   },
+   "bank": {
+    "fr": [
+     928080,
+     1670
+    ],
+    "frs": [
+     930150,
+     2100
+    ],
+    "en": [
+     932650,
+     1510
+    ],
+    "wd": [
+     934560,
+     5890
+    ],
+    "wp": [
+     [
+      934560,
+      2130
+     ],
+     [
+      937090,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y nadie se queja.",
+   "en": "And nobody complains.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "se queja",
+     "en": "complains"
+    }
+   ],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "nadie",
+     "nobody"
+    ],
+    [
+     "se queja",
+     "complains"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "gl": "audio/s034_gl.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 2000,
+    "frs": 2600,
+    "en": 1870,
+    "gl": 3700,
+    "wd": 9190
+   },
+   "bank": {
+    "fr": [
+     940850,
+     2000
+    ],
+    "frs": [
+     943250,
+     2600
+    ],
+    "en": [
+     946250,
+     1870
+    ],
+    "gl": [
+     948520,
+     3700
+    ],
+    "wd": [
+     952620,
+     9190
+    ],
+    "wp": [
+     [
+      952620,
+      2360
+     ],
+     [
+      955380,
+      2460
+     ],
+     [
+      958240,
+      2720
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   18930
+  ],
+  "silence": [
+   19730,
+   30000
+  ]
+ }
+}
