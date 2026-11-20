@@ -160,6 +160,7 @@ input, textarea, select { font-size:max(16px, 1em); }
 body { overflow-x:clip; }  /* never scroll sideways (Arshile, 2026-11-20); clip, not hidden: hidden would make body its own scroller */
 .rqidea { display:flex; gap:6px; margin-top:6px; }
 .rqidea .chip { font-size:12px; padding:5px 10px; color:var(--muted); }
+.rqfav { width:100%; box-sizing:border-box; margin-top:8px; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:16px; }
 .rqtext::placeholder { color:var(--muted); opacity:.75; font-style:italic; }
 .rqsend { background:var(--accent) !important; color:#fff !important; border:none !important; }
 .foryou { display:inline-block; margin-left:6px; font-size:11px; font-weight:600; color:var(--accent); }
@@ -354,7 +355,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.95";
+const VERSION = "web 0.96";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1379,7 +1380,7 @@ function onbShow() {
     ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
     // one button, two names (Saten: nobody should feel they have to fill this in)
     const love = $("onbLove"), name = () => setTimeout(() => {
-      const any = love.querySelector(".rqtext").value.trim() || love.querySelector("[data-t].on");
+      const any = love.querySelector(".rqtext").value.trim() || love.querySelector(".rqfav").value.trim() || love.querySelector("[data-t].on");
       $("onbNext").textContent = any ? "Send and start listening" : "Skip and start listening";
     });
     love.addEventListener("input", name); love.addEventListener("click", name);
@@ -1425,6 +1426,7 @@ function requestBox(el, where, opts = {}) {
   el.innerHTML = `<div class="rqchips">${TOPICS.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
     <textarea class="rqtext" rows="3" placeholder="e.g. Harry Potter · the channel Easy Spanish · cooking from Naples · the life of Frida Kahlo"></textarea>
     <div class="rqidea"><button class="chip rquse">→ Use this idea</button><button class="chip rqdice" aria-label="Another idea">🎲 Another</button></div>
+    <input type="text" class="rqfav" placeholder="Your favorite writers, books or films (optional)" autocomplete="off">
     ${opts.noSend ? "" : `<div style="display:flex;gap:8px;margin-top:10px;align-items:center"><button class="chip rqsend">Send</button><span class="muted rqok"></span></div>`}`;
   el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { picked.has(b.dataset.t) ? picked.delete(b.dataset.t) : picked.add(b.dataset.t); b.classList.toggle("on"); });
   const box = el.querySelector(".rqtext");
@@ -1440,12 +1442,14 @@ function requestBox(el, where, opts = {}) {
   box.oninput = showIdeas;
   box.onkeydown = e => { if (e.key === "Tab" && !box.value.trim() && idea) { e.preventDefault(); useIdea(); } };
   showIdeas(); nextIdea();
+  const fav = el.querySelector(".rqfav");  // favorites shape the style of what we write for them (mvp/WRITERS_ROOM.md)
   const send = () => {
-    const text = box.value.trim();
-    if (!picked.size && !text) return false;
-    log("story_request", { where, topics: [...picked], text, lang }, "");
+    const text = box.value.trim(), favs = fav.value.trim();
+    if (!picked.size && !text && !favs) return false;
+    log("story_request", { where, topics: [...picked], text, favorites: favs, lang }, "");
+    if (favs) store.set("favorites", favs);
     flush();
-    picked.clear(); box.value = ""; nextIdea(); el.querySelectorAll("[data-t].on").forEach(b => b.classList.remove("on"));
+    picked.clear(); box.value = ""; fav.value = ""; nextIdea(); el.querySelectorAll("[data-t].on").forEach(b => b.classList.remove("on"));
     return true;
   };
   const sb = el.querySelector(".rqsend");
