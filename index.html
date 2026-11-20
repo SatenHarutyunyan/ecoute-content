@@ -329,7 +329,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.75";
+const VERSION = "web 0.76";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -521,8 +521,7 @@ function nativeEvents() {
     if (!story || old(d || {})) return;
     if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
     if (NQ.upTo < story.segments.length - 1) { seg = NQ.upTo + 1; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // queue was cut short
-    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end");
-    store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback();
+    storyEnd();
   });
   NATIVE_PLAYER.addListener("state", d => { NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now(); });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
@@ -565,7 +564,7 @@ function advance() {
   step++;
   if (step < steps.length) return playRange(steps[step]);
   if (seg + 1 < story.segments.length) startSeg(seg + 1);
-  else { audio.pause(); $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback(); }
+  else { audio.pause(); storyEnd(); }
 }
 
 function startSeg(i, pat) {
@@ -584,15 +583,29 @@ function startSeg(i, pat) {
   NATIVE_PLAYER ? nativePlay(lessonMode() && !pat) : playRange(steps[0]);
 }
 
-function prevPhrase() { if (story) { log("back", { seg }); startSeg(Math.max(seg - 1, 0)); } }
+// The end of an episode: it counts as finished for "what's next" (the ✓ marks stay the learner's own), and the player
+// says what comes after; Next / Play start it (Arshile, 2026-11-20: always know what comes after)
+function storyEnd() {
+  store.set("pos_" + story.id, -1); store.set("fin_" + story.id, true); log("story_end");
+  store.set("ends", store.get("ends", 0) + 1); renderStories();
+  const e = pickStart();
+  $("where").textContent = story.title + " · the end" + (e && e.id !== story.id ? ` · Up next: ${e.title}` : "");
+  NQ.ended = true;
+  showFeedback();
+}
+const atEnd = () => story && store.get("pos_" + story.id, -1) < 0 && store.get("fin_" + story.id, false) && seg >= story.segments.length - 1;
+function startNext() { const e = pickStart(); if (e && e.id !== story.id) { log("play_next", { id: e.id }, e.id); openStory(e).then(renderStories); return true; } return false; }
+
+function prevPhrase() { if (!story) return togglePlay(); log("back", { seg }); startSeg(Math.max(seg - 1, 0)); }
 function restartStory() { if (story) { log("restart", { seg }); $("fb").hidden = true; startSeg(0); } }
 function lessonGo(k, act) {
-  if (!story) return;
+  if (!story) return togglePlay();  // nothing open yet: any player button starts the story shown as "Up next" (Arshile)
   log("lesson", { seg, step, act });
   if (k < 0) k = 0;
   if (k >= steps.length) {
     if (seg + 1 < story.segments.length) return startSeg(seg + 1);
-    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end"); store.set("ends", store.get("ends", 0) + 1); renderStories(); return showFeedback();
+    if (atEnd() && startNext()) return;
+    return storyEnd();
   }
   step = k; waiting = false;
   show();
@@ -602,9 +615,9 @@ const lessonBack = () => lessonGo(step - 1, "back");
 const lessonRepeat = () => lessonGo(step, "repeat");
 const lessonNext = () => lessonGo(step + 1, "next");
 
-function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
+function nextPhrase() { if (!story) return togglePlay(); if (seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } else if (atEnd()) startNext(); }
 function replay() {
-  if (!story) return;
+  if (!story) return togglePlay();
   const atStart = step === 0 && (NATIVE_PLAYER ? Date.now() - NQ.at < 1500 : audio.currentTime * 1000 - steps[0][0] < 1500);
   log("replay", { seg });
   startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
@@ -629,15 +642,16 @@ function resume() {
 function pickStart() {
   const mine = catalog.filter(c => c.lang === lang), byId = id => mine.find(c => c.id === id);
   const last = byId(store.get("last_" + lang)), place = byId((store.get("place_" + lang, {}) || {}).start);
-  if (last && getMark(last.id) !== "done") return last;
-  if (place && getMark(place.id) !== "done") return place;
-  const done = mine.filter(c => getMark(c.id) === "done");
+  const finished = c => getMark(c.id) === "done" || (store.get("fin_" + c.id, false) && store.get("pos_" + c.id, -1) < 0);
+  if (last && !finished(last)) return last;
+  if (place && !finished(place)) return place;
+  const done = mine.filter(finished);
   if (done.length) {  // catalog order is series, then episode: the first not-done episode after the last done one
     const i = mine.indexOf(done[done.length - 1]), after = mine.slice(i + 1).find(c => getMark(c.id) !== "done");
     if (after) return after;
   }
   const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], rank = l => LV.indexOf((l || "").slice(0, 2));
-  const open = mine.filter(c => getMark(c.id) !== "done" && rank(c.level) >= 0);
+  const open = mine.filter(c => !finished(c) && rank(c.level) >= 0);
   const first = list => list.find(c => !c.series || +c.episode === 1) || list[0];  // start a series at its beginning
   const want = rank(store.get("level_" + lang, "A0"));  // no answer: the easiest
   // their level; if there's none, the closest easier one; then the closest harder one
@@ -651,6 +665,7 @@ function togglePlay() {
     if (e) { log("play_default", { id: e.id }, e.id); openStory(e).then(renderStories); }
     return;
   }
+  if (storyPaused() && atEnd() && startNext()) return;
   storyPaused() ? resume() : storyPause();
 }
 
@@ -694,13 +709,14 @@ function show() {
 
 function closeStory() {  // another language: the old episode stops (Saten: the French story kept playing)
   storyPause(); NATIVE_PLAYER && NATIVE_PLAYER.stop(); clearTimeout(timer); story = null; seg = -1; steps = []; step = 0; waiting = false;
-  $("where").textContent = "Pick an episode below, or press Play."; $("fr").textContent = $("en").textContent = "";
+  $("fr").textContent = $("en").textContent = ""; renderUpNext();
   $("lessonStep").hidden = true; $("fb").hidden = true;
 }
 async function openStory(entry) {
   const base = `stories/${entry.id}/`;
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
   story = jaScript(await (await fetch(base + "story.json" + v)).json());
+  lessonButton();
   storyUrl = MEDIA + base + story.bank.file + v;
   if (!NATIVE_PLAYER) audio.src = storyUrl;
   const pos = store.get("pos_" + story.id, -1);
@@ -869,14 +885,34 @@ function setMode(m) {
   store.set("mode_" + lang, m);
   log("mode", { mode: m });
   renderMode();
+  renderUpNext();
   if (story && seg >= 0) { storyPause(); startSeg(seg); }  // restart the phrase in the new mode
+}
+
+// Nothing open: say what any player button will start, so the buttons never look dead (Arshile, 2026-11-20:
+// "the buttons don't do anything unless I pressed a story", "it says or press Play but there is no play button")
+// Step by step: the big button says Play until something plays, then Next (Saten, 2026-11-20)
+function lessonButton() {
+  const first = !story;
+  $("lNext").querySelector(".c").innerHTML = ICON[first ? "play" : "next"];
+  $("lNext").lastChild.textContent = first ? "Play" : "Next";
+  $("lNext").setAttribute("aria-label", first ? "Play" : "Next");
+}
+function renderUpNext() {
+  lessonButton();
+  if (story || !catalog.length || !lang) return;
+  const e = pickStart(), key = "Play";
+  if (!e) { $("where").textContent = "Pick an episode below."; return; }
+  const cont = store.get("pos_" + e.id, -1) >= 0;
+  $("where").textContent = `${cont ? "Continue" : "Up next"}: ${e.title}${e.title_en ? " · " + e.title_en : ""}`;
+  $("fr").textContent = ""; $("en").textContent = `Press ${key} to start, or pick another episode below.`;
 }
 
 function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
+  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); renderUpNext(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
