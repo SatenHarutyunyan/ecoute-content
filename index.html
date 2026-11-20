@@ -265,6 +265,9 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h3 class="sh">Pauses between phrases</h3>
   <div class="presets" id="gaps" style="margin-top:6px"></div>
   <div class="muted" id="gapHint" style="margin-top:6px"></div>
+  <div id="jaBox" hidden><h3 class="sh">Japanese writing</h3>
+  <div class="presets" id="jaScripts" style="margin-top:6px"></div>
+  <div class="muted" style="margin-top:6px">What you read on screen. The voice is the same.</div></div>
   <h3 class="sh">Theme</h3>
   <div class="presets" id="themes" style="margin-top:6px"></div>
   <h3 class="sh">Episode marks</h3>
@@ -305,7 +308,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.59";
+const VERSION = "web 0.60";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -325,9 +328,44 @@ const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
 const DEFAULT_PATTERN = {};  // every language: T EN T, no pause (Saten, 2026-11-18); saved choices are kept
-const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"] };
+const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
-const WORDY = ["hy", "es", "fr", "it"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
+const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
+// Japanese (C14, Robin): stored and spoken in kanji; shown as Kana (default), Romaji, Kanji, or Kanji with small kana
+// above (furigana). Each line carries its kana and romaji, each word pair its [kana, romaji] (s.wr).
+const JSCRIPTS = { kana: "Kana", romaji: "Romaji", kanji: "Kanji", furi: "Kanji + kana above" };
+const jScript = () => { const v = store.get("ja_script", "kana"); return JSCRIPTS[v] ? v : "kana"; };
+const jPick = (kanji, kana, romaji) => ({ kana, romaji }[jScript()] || kanji);
+function ruby(w, r) {  // kana above the kanji only: 部屋に + へやに -> <ruby>部屋<rt>へや</rt></ruby>に
+  if (!r || !/[\u4e00-\u9fff々]/.test(w)) return esc(w);
+  let a = 0, z = 0;
+  while (a < w.length && a < r.length && w[a] === r[a]) a++;
+  while (z < w.length - a && z < r.length - a && w[w.length - 1 - z] === r[r.length - 1 - z]) z++;
+  return esc(w.slice(0, a)) + `<ruby>${esc(w.slice(a, w.length - z))}<rt>${esc(r.slice(a, r.length - z))}</rt></ruby>` + esc(w.slice(w.length - z));
+}
+function jaScript(st) {  // switch a story's (or catalog entry's) visible text to the chosen script; the kanji stays in s.kanji
+  if (!st || st.lang !== "ja") return st;
+  st.title_kanji = st.title_kanji || st.title;
+  st.title = jPick(st.title_kanji, st.title_kana, st.title_romaji);
+  for (const s of st.segments || []) {
+    if (!s.kana) continue;
+    s.kanji = s.kanji || s.fr; s.wk = s.wk || s.words.map(w => w[0]);
+    s.fr = jPick(s.kanji, s.kana, s.romaji);
+    s.words.forEach((w, k) => { w[0] = jPick(s.wk[k], ...(s.wr[k] || [])); });
+  }
+  return st;
+}
+const wkey = (s, k) => s.wk ? s.wk[k] : s.words[k][0];  // saved words keep the kanji form, whatever the script
+const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : esc(s.fr);
+const wordHTML = (s, k) => s.wk && jScript() === "furi" ? ruby(s.wk[k], (s.wr[k] || [])[0]) : esc(s.words[k][0]);
+function furigana(s) {  // the kanji line with each word pair's kana above its kanji
+  let out = "", pos = 0;
+  s.wk.forEach((w, k) => {
+    const j = s.kanji.indexOf(w, pos); if (j < 0) return;
+    out += esc(s.kanji.slice(pos, j)) + ruby(w, (s.wr[k] || [])[0]); pos = j + w.length;
+  });
+  return out + esc(s.kanji.slice(pos));
+}
 const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
 // Lesson mode: the learner moves through each phrase step by step, at their own pace
 const LESSON = ["T", "EN", "WORDS", "EN", "T"];
@@ -522,7 +560,7 @@ function show() {
   const n = story.segments.length;
   const s = story.segments[seg];
   $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
-  $("fr").textContent = s ? s.fr : story.title;
+  $("fr").innerHTML = s ? segHTML(s) : esc(story.title);
   $("en").textContent = s ? s.en : story.note;
   const lesson = lessonMode();
   $("storyCtl").hidden = lesson; $("lessonCtl").hidden = !lesson; $("lessonStep").hidden = !lesson; $("saveRow").hidden = true;
@@ -534,9 +572,9 @@ function show() {
     $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
     if (step === 0) $("en").textContent = "";  // first, just listen
     if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
-    if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${esc(w)} = ${esc(m)}</b>` : esc(w)).join("  ");
+    if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${wordHTML(s, j)} = ${esc(m)}</b>` : wordHTML(s, j)).join("  ");
     $("saveRow").hidden = k < 0;
-    if (k >= 0) { const [w, m] = s.words[k]; $("saveWord").textContent = isSaved(w) ? "★ Saved" : "☆ Save"; $("saveWord").classList.toggle("on", isSaved(w)); }
+    if (k >= 0) { const w = wkey(s, k); $("saveWord").textContent = isSaved(w) ? "★ Saved" : "☆ Save"; $("saveWord").classList.toggle("on", isSaved(w)); }
     $("lBack").disabled = step === 0;
   }
   document.querySelectorAll(".story").forEach(el => el.classList.toggle("playing", el.dataset.id === story.id));
@@ -555,7 +593,7 @@ function closeStory() {  // another language: the old episode stops (Saten: the 
 async function openStory(entry) {
   const base = `stories/${entry.id}/`;
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
-  story = await (await fetch(base + "story.json" + v)).json();
+  story = jaScript(await (await fetch(base + "story.json" + v)).json());
   audio.src = MEDIA + base + story.bank.file + v;
   const pos = store.get("pos_" + story.id, -1);
   store.set("last_" + entry.lang, entry.id);
@@ -607,6 +645,14 @@ function renderThemes() {
   $("themes").innerHTML = Object.entries(THEMES).map(([k, n]) => `<button class="${k === theme() ? "on" : ""}" data-theme="${k}">${n}</button>`).join("");
   $("themes").querySelectorAll("[data-theme]").forEach(b => b.onclick = () => {
     store.set("theme", b.dataset.theme); log("theme", { theme: b.dataset.theme }); applyTheme(); renderThemes(); renderStories();
+  });
+}
+function renderJaScripts() {
+  $("jaBox").hidden = lang !== "ja";
+  $("jaScripts").innerHTML = Object.entries(JSCRIPTS).map(([k, n]) => `<button class="${k === jScript() ? "on" : ""}" data-js="${k}">${n}</button>`).join("");
+  $("jaScripts").querySelectorAll("[data-js]").forEach(b => b.onclick = () => {
+    store.set("ja_script", b.dataset.js); log("ja_script", { script: b.dataset.js });
+    catalog.forEach(jaScript); jaScript(story); renderJaScripts(); renderStories(); if (story) show();
   });
 }
 applyTheme();
@@ -708,7 +754,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
+  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -1183,10 +1229,10 @@ async function storyJson(id) {
 }
 function toggleSave() {
   if (!story || seg < 0) return;
-  const k = +lessonTok[step].slice(1), [w, m] = story.segments[seg].words[k];
+  const k = +lessonTok[step].slice(1), sg = story.segments[seg], w = wkey(sg, k), m = sg.words[k][1];
   let list = vocab();
   if (isSaved(w)) { list = list.filter(v => v.w !== w); log("vocab_unsave", { w, m, seg }); }
-  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now() }); log("vocab_save", { w, m, seg }); }
+  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); }
   store.set("vocab_" + lang, list);
   storyCache[story.id] = Promise.resolve(story);
   show(); renderVocab();
@@ -1202,7 +1248,7 @@ const LEMS = {};
 const lemsLoad = () => LEMS[lang] !== undefined ? Promise.resolve(LEMS[lang]) :
   fresh(`vocab/${lang}_lem.json`).then(r => r.ok ? r.json() : null).catch(() => null).then(j => (LEMS[lang] = j));
 const lem = v => { const L = LEMS[lang]; const i = L && L.map[v.w + "|" + v.m]; return i == null ? null : L.items[i]; };
-const shown = v => { const b = lem(v); return b ? { w: b[0], m: b[1] } : { w: v.w, m: v.m }; };
+const shown = v => { const b = lem(v); return b ? { w: b[0], m: b[1] } : { w: v.r ? jPick(v.w, ...v.r) : v.w, m: v.m }; };
 const baseKey = v => { const b = shown(v); return b.w + "|" + b.m; };
 const lemUrl = b => `${MEDIA}vocab/${lang}_lem_${String(b[2]).padStart(2, "0")}.m4a?v=${LEMS[lang].banks[b[2]]}`;
 function vaPlay(v, then) {  // called inside the tap first: iPhone only lets this element play after a tap
@@ -1573,7 +1619,7 @@ async function checkUpdate() {
 checkUpdate();
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
-(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(c => { catalog = c.stories; renderAll(); if (needsOnboarding()) onbShow(); })
+(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(c => { catalog = c.stories; catalog.forEach(jaScript); renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
     const err = String(e && (e.stack || e.message) || e).slice(0, 300);
     log("boot_error", { err, n: catalog.length }); flush(true);
