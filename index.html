@@ -349,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.89";
+const VERSION = "web 0.90";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -548,6 +548,7 @@ function nativeEvents() {
       if (refill) {  // pattern changed, or the queue is running out: send a fresh one from this phrase
         seg = d.seg; steps = stepsFor(seg, pattern()); step = 0; store.set("pos_" + story.id, seg); show(); return nativePlay(false);
       }
+      if (d.seg === seg + 1 && !lessonMode()) KNOW.words(story.segments[seg], KNOW.up(.05));
       seg = d.seg;
       steps = seg < 0 ? [story.bank.intro] : stepsFor(seg, pattern());
       store.set("pos_" + story.id, seg);
@@ -605,6 +606,7 @@ function advance() {
   if (lessonMode()) { waiting = true; audio.pause(); return; }  // the learner decides: back, repeat or next
   step++;
   if (step < steps.length) return playRange(steps[step]);
+  KNOW.words(story.segments[seg], KNOW.up(.05));  // heard through without asking for it again
   if (seg + 1 < story.segments.length) startSeg(seg + 1);
   else { audio.pause(); storyEnd(); }
 }
@@ -643,6 +645,12 @@ function restartStory() { if (story) { log("restart", { seg }); $("fb").hidden =
 function lessonGo(k, act) {
   if (!story) return togglePlay();  // nothing open yet: any player button starts the story shown as "Up next" (Arshile)
   log("lesson", { seg, step, act });
+  try {  // on a word step: "repeat" = unsure; "next" within 1.5 s = probably knows it
+    const t = lessonTok[step], w = /^W\d/.test(t || "") ? +t.slice(1) : -1, sg = story.segments[seg];
+    if (w >= 0 && act === "repeat") KNOW.set(KNOW.base(sg, w), KNOW.down(.75));
+    if (w >= 0 && act === "next" && Date.now() - KNOW.stepAt < 1500) KNOW.set(KNOW.base(sg, w), KNOW.up(.15));
+  } catch {}
+  KNOW.stepAt = Date.now();
   if (k < 0) k = 0;
   if (k >= steps.length) {
     if (seg + 1 < story.segments.length) return startSeg(seg + 1);
@@ -662,6 +670,7 @@ function replay() {
   if (!story) return togglePlay();
   const atStart = step === 0 && (NATIVE_PLAYER ? Date.now() - NQ.at < 1500 : audio.currentTime * 1000 - steps[0][0] < 1500);
   log("replay", { seg });
+  KNOW.words(story.segments[seg], p => p < .9 ? p * .9 : p);  // something in it wasn't clear
   startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
 }
 function replayWithHelp() { if (story && seg >= 0) { log("help", { seg, text: story.segments[seg].fr }); startSeg(seg, HELP); } }
@@ -1477,11 +1486,38 @@ function toggleSave(kk) {
   const k = kk !== undefined ? kk : +lessonTok[step].slice(1), sg = story.segments[seg], w = wkey(sg, k), m = sg.words[k][1];
   let list = vocab();
   if (isSaved(w)) { list = list.filter(v => v.w !== w); log("vocab_unsave", { w, m, seg }); }
-  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); }
+  else { list.unshift({ w, m, story: story.id, seg, k, t: Date.now(), ...(sg.wr ? { r: sg.wr[k] } : {}) }); log("vocab_save", { w, m, seg }); KNOW.set(KNOW.base(sg, k), p => Math.min(p, .15)); }
   store.set("vocab_" + lang, list);
   storyCache[story.id] = Promise.resolve(story);
   show(); renderVocab();
 }
+// ---------- C19 step 1 (2026-11-21): how likely the learner knows each word (its dictionary form), from signals we
+// already have. Nothing uses it yet: it's for the adaptive Continuous (mvp/C19_word_knowledge.md). Every call is
+// wrapped: it may never break playback. Stored per language as {base: [p, times seen, last seen (day)]}.
+const KNOW = {
+  mem: null, lang: null, timer: null,
+  load() { if (this.lang !== lang) { this.mem = store.get("know_" + lang, {}) || {}; this.lang = lang; } return this.mem; },
+  save() { clearTimeout(this.timer); this.timer = setTimeout(() => store.set("know_" + this.lang, this.mem), 2000); },
+  prior() { return { A0: .1, A1: .3, B1: .55, B2: .7 }[store.get("level_" + lang, "")] ?? .4; },
+  base(sg, k) { const w = wkey(sg, k), m = sg.words[k][1], b = lem({ w, m }); return b ? b[0] : w; },
+  set(base, f) {
+    try {
+      const M = this.load(), e = M[base] || [this.prior(), 0, 0];
+      e[0] = Math.round(Math.min(.99, Math.max(.01, f(e[0]))) * 100) / 100; e[1]++; e[2] = Math.floor(Date.now() / 864e5);
+      M[base] = e; this.save(); this.daily();
+    } catch {}
+  },
+  words(sg, f) { try { (sg && sg.words || []).forEach((_, k) => this.set(this.base(sg, k), f)); } catch {} },
+  up: a => p => p + (1 - p) * a, down: a => p => p * a,
+  daily() {  // once a day per language: how many words look known / unknown (to check the numbers make sense)
+    const d = Math.floor(Date.now() / 864e5);
+    if (store.get("know_day_" + lang, 0) === d) return;
+    store.set("know_day_" + lang, d);
+    const v = Object.values(this.mem);
+    log("know_summary", { n: v.length, known: v.filter(e => e[0] >= .9).length, unknown: v.filter(e => e[0] < .3).length });
+  },
+};
+
 // the bubble for a tapped word: its meaning, its dictionary form when different, ☆ Save
 document.addEventListener("click", e => {
   const t = e.target.closest && e.target.closest(".tw"), old = $("wbub");
@@ -1490,6 +1526,7 @@ document.addEventListener("click", e => {
   const k = +t.dataset.k, sg = story.segments[seg], [w, m] = sg.words[k], key = wkey(sg, k);
   const b = lem({ w: key, m }), base = b && b[0] !== key && b[0] !== w ? b : null;
   log("word_tap", { w: key, m, seg });
+  KNOW.set(KNOW.base(sg, k), KNOW.down(.6));  // looked it up
   const d = document.createElement("div");
   d.id = "wbub";
   d.innerHTML = `<b>${esc(w)}</b> = ${esc(m)}${base ? `<div class="muted">dictionary form: ${esc(shown({ w: key, m }).w)} · ${esc(b[1])}</div>` : ""}
@@ -1638,6 +1675,7 @@ function fcAnswer(knew) {
   else { st.box = 0; st.streak = 0; FC.queue.splice(Math.min(3, FC.queue.length), 0, Object.assign({}, v, { again: true })); }  // back in 3 cards
   store.set(fcKey(v), st);
   log("fc_answer", { w: v.w, base: shown(v).w, knew, box: st.box });
+  try { const b = lem(v); KNOW.set(b ? b[0] : v.w, knew ? KNOW.up(.5) : KNOW.down(.5)); } catch {}
   if (knew && st.streak >= 3) { $("fcBtns").hidden = true; $("fcLearn").hidden = false; return; }  // offer ✓ before moving on
   fcNext();
 }
