@@ -326,7 +326,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.70";
+const VERSION = "web 0.71";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -480,7 +480,8 @@ function stepsFor(i, pat) {
 // iPhone app from build 4 (C17): the story plays in native code (EcoutePlayer), one queue of ranges from here to the end
 // of the episode, so it keeps going with the screen locked. The page follows its "item" events.
 let storyUrl = "";
-const NQ = { at: 0, stale: false, playing: false };
+const NQ = { at: 0, stale: false, playing: false, q: 0, upTo: 0 };
+const QUEUE_PHRASES = 40;  // phrases per queue; refilled near the end (a whole classic would be thousands of items)
 const storyPaused = () => NATIVE_PLAYER ? !NQ.playing : audio.paused;
 const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) : audio.pause();
 function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
@@ -489,16 +490,21 @@ function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this
     t: j < 0 ? story.title : story.segments[j].fr, a: j < 0 ? story.title : `${story.title} · ${j + 1}/${n}` }));
   add(seg, steps, step);
   if (one) items.length = Math.min(items.length, 1);
-  else for (let j = seg + 1; j < n; j++) add(j, stepsFor(j, pattern()), 0);
-  NQ.at = Date.now(); NQ.stale = false;
-  NATIVE_PLAYER.play({ url: storyUrl, items, title: story.title })
+  else for (let j = seg + 1; j < Math.min(n, seg + QUEUE_PHRASES); j++) add(j, stepsFor(j, pattern()), 0);
+  NQ.upTo = one ? seg : Math.min(n, seg + QUEUE_PHRASES) - 1;
+  NQ.at = Date.now(); NQ.stale = false; NQ.q++;
+  NATIVE_PLAYER.play({ url: storyUrl, items, title: story.title, q: NQ.q })
     .catch(e => log("js_error", { err: "native play: " + String(e && e.message || e).slice(0, 200) }));
 }
 function nativeEvents() {
+  const old = d => d.q !== undefined && d.q !== NQ.q;  // an event from a queue we already replaced
   NATIVE_PLAYER.addListener("item", d => {
-    if (!story) return;
+    if (!story || old(d)) return;
     if (d.seg !== seg) {  // the queue moved on to the next phrase (maybe with the screen locked)
-      if (NQ.stale && !lessonMode()) { seg = d.seg; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // pattern changed
+      const refill = !lessonMode() && d.step === 0 && (NQ.stale || (d.seg >= NQ.upTo - 3 && NQ.upTo < story.segments.length - 1));
+      if (refill) {  // pattern changed, or the queue is running out: send a fresh one from this phrase
+        seg = d.seg; steps = stepsFor(seg, pattern()); step = 0; store.set("pos_" + story.id, seg); show(); return nativePlay(false);
+      }
       seg = d.seg;
       steps = seg < 0 ? [story.bank.intro] : stepsFor(seg, pattern());
       store.set("pos_" + story.id, seg);
@@ -507,15 +513,16 @@ function nativeEvents() {
     step = d.step; waiting = false; NQ.at = Date.now();
     show();
   });
-  NATIVE_PLAYER.addListener("ended", () => {
-    if (!story) return;
+  NATIVE_PLAYER.addListener("ended", d => {
+    if (!story || old(d || {})) return;
     if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
     $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end");
     store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback();
   });
   NATIVE_PLAYER.addListener("state", d => { NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now(); });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
-    log("remote", { cmd: d.cmd });
+    log("remote", { cmd: d.cmd, handled: !!d.handled });
+    if (d.handled) return;  // the app did it already (works with the screen locked); the "item" events update the page
     const lesson = lessonMode();
     ({ play: resume, pause: storyPause, toggle: togglePlay, next: lesson ? lessonNext : nextPhrase, previous: lesson ? lessonRepeat : replay,
        back: () => voiceDo("back"), again: () => voiceDo("again") }[d.cmd] || (() => {}))();
@@ -1612,7 +1619,11 @@ const ANDROID = (() => {
     voice: {
       addListener: on("v:"), stop: () => call("voiceStop"),
       start: () => new Promise((ok, fail) => {  // resolves when VoiceService listens (the model may download first)
-        on("v:")("state", e => { if (e.state === "on") ok({ onDevice: true }); else if (e.state === "error") fail(new Error(e.error)); });
+        let sub; on("v:")("state", sub = e => {
+          if (e.state !== "on" && e.state !== "error") return;
+          subs["v:state"] = (subs["v:state"] || []).filter(f => f !== sub);
+          e.state === "on" ? ok({ onDevice: true }) : fail(new Error(e.error));
+        });
         call("voiceStart").catch(fail);
       }),
     },
@@ -1709,9 +1720,9 @@ async function voiceStartNative() {
     V.sub = await NATIVE_VOICE.addListener("command", e => {
       const action = VOICE_CMDS[e.word] || (e.word === "next phrase" ? "next" : e.word === "previous phrase" ? "back" : null);
       if (!action) return;
-      log("voice", { word: e.word, conf: e.confidence, via: "ios" });
+      log("voice", { word: e.word, conf: e.confidence, via: ANDROID ? "android" : "ios", handled: !!e.handled });
       heardHint(e.word);
-      voiceDo(action);
+      if (!e.handled) voiceDo(action);  // the app did it already (C17: it works with the screen locked)
     });
     // diagnostics: what the phone hears (throttled) and its state, so the Sheet shows why a command didn't come through
     let lastHeard = 0;
@@ -1719,7 +1730,10 @@ async function voiceStartNative() {
       if (Date.now() - lastHeard < 3000 && !e.final) return;
       lastHeard = Date.now(); log("voice_heard", { text: String(e.text || "").slice(-80), final: !!e.final });
     });
-    V.sub3 = await NATIVE_VOICE.addListener("state", e => log("voice_state", e));
+    V.sub3 = await NATIVE_VOICE.addListener("state", e => {
+      log("voice_state", e);
+      if (e.state === "error" && V.on) { voiceStop(false); $("voiceHint").textContent = "Voice commands stopped: " + (e.error || e.reason || "error"); }
+    });
     const r = await NATIVE_VOICE.start();
     if (!V.on) return NATIVE_VOICE.stop();
     voiceUi("on");
