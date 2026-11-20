@@ -1,0 +1,1359 @@
+{
+ "id": "it_s0_e01",
+ "lang": "it",
+ "title": "Biscotto",
+ "author": "Original story (AI-generated)",
+ "level": "A0",
+ "series": "Nonno Pino (first steps)",
+ "episode": "1",
+ "note": "Meet Pino, a grandpa, and his little dog. The dog's name is Biscotto, which means biscotto, cookie. And Pino loves cookies too.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 16800,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Questo è Pino.",
+   "en": "This is Pino.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Questo",
+     "this"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "Pino",
+     "Pino"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 1880,
+    "frs": 2430,
+    "en": 1610,
+    "wd": 8400
+   },
+   "bank": {
+    "fr": [
+     48000,
+     1880
+    ],
+    "frs": [
+     50280,
+     2430
+    ],
+    "en": [
+     53110,
+     1610
+    ],
+    "wd": [
+     55120,
+     8400
+    ],
+    "wp": [
+     [
+      55120,
+      2430
+     ],
+     [
+      57950,
+      2100
+     ],
+     [
+      60450,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino è un nonno.",
+   "en": "Pino is a grandpa.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "nonno",
+     "en": "grandpa"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "nonno",
+     "grandpa"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2020,
+    "frs": 2630,
+    "en": 1880,
+    "gl": 3440,
+    "wd": 10960
+   },
+   "bank": {
+    "fr": [
+     63920,
+     2020
+    ],
+    "frs": [
+     66340,
+     2630
+    ],
+    "en": [
+     69370,
+     1880
+    ],
+    "gl": [
+     71650,
+     3440
+    ],
+    "wd": [
+     75490,
+     10960
+    ],
+    "wp": [
+     [
+      75490,
+      2220
+     ],
+     [
+      78110,
+      2100
+     ],
+     [
+      80610,
+      2100
+     ],
+     [
+      83110,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino ha un cane.",
+   "en": "Pino has a dog.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "cane",
+     "en": "dog"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "ha",
+     "has"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "cane",
+     "dog"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 1900,
+    "frs": 2430,
+    "en": 1710,
+    "gl": 3140,
+    "wd": 10860
+   },
+   "bank": {
+    "fr": [
+     86850,
+     1900
+    ],
+    "frs": [
+     89150,
+     2430
+    ],
+    "en": [
+     91980,
+     1710
+    ],
+    "gl": [
+     94090,
+     3140
+    ],
+    "wd": [
+     97630,
+     10860
+    ],
+    "wp": [
+     [
+      97630,
+      2220
+     ],
+     [
+      100250,
+      2170
+     ],
+     [
+      102820,
+      2100
+     ],
+     [
+      105320,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il cane è piccolo.",
+   "en": "The dog is small.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "the"
+    ],
+    [
+     "cane",
+     "dog"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "piccolo",
+     "small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2110,
+    "frs": 2740,
+    "en": 1720,
+    "wd": 10930
+   },
+   "bank": {
+    "fr": [
+     108890,
+     2110
+    ],
+    "frs": [
+     111400,
+     2740
+    ],
+    "en": [
+     114540,
+     1720
+    ],
+    "wd": [
+     116660,
+     10930
+    ],
+    "wp": [
+     [
+      116660,
+      2030
+     ],
+     [
+      119090,
+      2320
+     ],
+     [
+      121810,
+      2100
+     ],
+     [
+      124310,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il cane si chiama Biscotto.",
+   "en": "The dog is called Biscotto.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "biscotto",
+     "en": "cookie"
+    }
+   ],
+   "words": [
+    [
+     "Il",
+     "the"
+    ],
+    [
+     "cane",
+     "dog"
+    ],
+    [
+     "si chiama",
+     "is called"
+    ],
+    [
+     "Biscotto",
+     "Biscotto"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2630,
+    "frs": 3520,
+    "en": 2110,
+    "gl": 3680,
+    "wd": 12020
+   },
+   "bank": {
+    "fr": [
+     127990,
+     2630
+    ],
+    "frs": [
+     131020,
+     3520
+    ],
+    "en": [
+     134940,
+     2110
+    ],
+    "gl": [
+     137450,
+     3680
+    ],
+    "wd": [
+     141530,
+     12020
+    ],
+    "wp": [
+     [
+      141530,
+      2030
+     ],
+     [
+      143960,
+      2320
+     ],
+     [
+      146680,
+      2790
+     ],
+     [
+      149870,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino ha una scatola.",
+   "en": "Pino has a box.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "scatola",
+     "en": "box"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "ha",
+     "has"
+    ],
+    [
+     "una",
+     "a"
+    ],
+    [
+     "scatola",
+     "box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2180,
+    "frs": 2860,
+    "en": 1790,
+    "gl": 3580,
+    "wd": 11180
+   },
+   "bank": {
+    "fr": [
+     153950,
+     2180
+    ],
+    "frs": [
+     156530,
+     2860
+    ],
+    "en": [
+     159790,
+     1790
+    ],
+    "gl": [
+     161980,
+     3580
+    ],
+    "wd": [
+     165960,
+     11180
+    ],
+    "wp": [
+     [
+      165960,
+      2220
+     ],
+     [
+      168580,
+      2170
+     ],
+     [
+      171150,
+      2170
+     ],
+     [
+      173720,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nella scatola ci sono i biscotti.",
+   "en": "In the box there are cookies.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Nella",
+     "in the"
+    ],
+    [
+     "scatola",
+     "box"
+    ],
+    [
+     "ci sono",
+     "there are"
+    ],
+    [
+     "i",
+     "the"
+    ],
+    [
+     "biscotti",
+     "cookies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "frs": 4260,
+    "en": 2120,
+    "wd": 14760
+   },
+   "bank": {
+    "fr": [
+     177540,
+     3110
+    ],
+    "frs": [
+     181050,
+     4260
+    ],
+    "en": [
+     185710,
+     2120
+    ],
+    "wd": [
+     188230,
+     14760
+    ],
+    "wp": [
+     [
+      188230,
+      2350
+     ],
+     [
+      190980,
+      2570
+     ],
+     [
+      193950,
+      2580
+     ],
+     [
+      196930,
+      2090
+     ],
+     [
+      199420,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Mmm, un biscotto!»",
+   "en": "\"Mmm, a cookie!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mmm",
+     "mmm"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "biscotto",
+     "cookie"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2640,
+    "frs": 3580,
+    "en": 1600,
+    "wd": 9060
+   },
+   "bank": {
+    "fr": [
+     203390,
+     2640
+    ],
+    "frs": [
+     206430,
+     3580
+    ],
+    "en": [
+     210410,
+     1600
+    ],
+    "wd": [
+     212410,
+     9060
+    ],
+    "wp": [
+     [
+      212410,
+      2710
+     ],
+     [
+      215520,
+      2100
+     ],
+     [
+      218020,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto guarda Pino.",
+   "en": "Biscotto looks at Pino.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "guarda",
+     "looks at"
+    ],
+    [
+     "Pino",
+     "Pino"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2410,
+    "frs": 3240,
+    "en": 1960,
+    "wd": 9110
+   },
+   "bank": {
+    "fr": [
+     221870,
+     2410
+    ],
+    "frs": [
+     224680,
+     3240
+    ],
+    "en": [
+     228320,
+     1960
+    ],
+    "wd": [
+     230680,
+     9110
+    ],
+    "wp": [
+     [
+      230680,
+      2830
+     ],
+     [
+      233910,
+      2410
+     ],
+     [
+      236720,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto guarda il biscotto.",
+   "en": "Biscotto looks at the cookie.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "guarda",
+     "looks at"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "biscotto",
+     "cookie"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2760,
+    "frs": 3770,
+    "en": 2060,
+    "wd": 11920
+   },
+   "bank": {
+    "fr": [
+     240190,
+     2760
+    ],
+    "frs": [
+     243350,
+     3770
+    ],
+    "en": [
+     247520,
+     2060
+    ],
+    "wd": [
+     249980,
+     11920
+    ],
+    "wp": [
+     [
+      249980,
+      2830
+     ],
+     [
+      253210,
+      2410
+     ],
+     [
+      256020,
+      2030
+     ],
+     [
+      258450,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«No, Biscotto, no!»",
+   "en": "\"No, Biscotto, no!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "No",
+     "no"
+    ],
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "no",
+     "no"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4059,
+    "en": 2020,
+    "wd": 8700
+   },
+   "bank": {
+    "fr": [
+     262300,
+     2980
+    ],
+    "frs": [
+     265680,
+     4059
+    ],
+    "en": [
+     270140,
+     2020
+    ],
+    "wd": [
+     272560,
+     8700
+    ],
+    "wp": [
+     [
+      272560,
+      2110
+     ],
+     [
+      275070,
+      2830
+     ],
+     [
+      278300,
+      2110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Qualcuno bussa alla porta.",
+   "en": "Someone knocks at the door.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "porta",
+     "en": "door"
+    }
+   ],
+   "words": [
+    [
+     "Qualcuno",
+     "someone"
+    ],
+    [
+     "bussa",
+     "knocks"
+    ],
+    [
+     "alla",
+     "at the"
+    ],
+    [
+     "porta",
+     "door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2450,
+    "frs": 3270,
+    "en": 1970,
+    "gl": 3210,
+    "wd": 11620
+   },
+   "bank": {
+    "fr": [
+     281660,
+     2450
+    ],
+    "frs": [
+     284510,
+     3270
+    ],
+    "en": [
+     288180,
+     1970
+    ],
+    "gl": [
+     290550,
+     3210
+    ],
+    "wd": [
+     294160,
+     11620
+    ],
+    "wp": [
+     [
+      294160,
+      2540
+     ],
+     [
+      297100,
+      2500
+     ],
+     [
+      300000,
+      2220
+     ],
+     [
+      302620,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "È il postino.",
+   "en": "It's the mailman.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "postino",
+     "en": "mailman"
+    }
+   ],
+   "words": [
+    [
+     "È",
+     "it is"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "postino",
+     "mailman"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 1860,
+    "frs": 2390,
+    "en": 1550,
+    "gl": 3480,
+    "wd": 8400
+   },
+   "bank": {
+    "fr": [
+     306180,
+     1860
+    ],
+    "frs": [
+     308440,
+     2390
+    ],
+    "en": [
+     311230,
+     1550
+    ],
+    "gl": [
+     313180,
+     3480
+    ],
+    "wd": [
+     317060,
+     8400
+    ],
+    "wp": [
+     [
+      317060,
+      2190
+     ],
+     [
+      319650,
+      2030
+     ],
+     [
+      322080,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino apre la porta.",
+   "en": "Pino opens the door.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "apre",
+     "opens"
+    ],
+    [
+     "la",
+     "the"
+    ],
+    [
+     "porta",
+     "door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2120,
+    "frs": 2760,
+    "en": 1830,
+    "wd": 10970
+   },
+   "bank": {
+    "fr": [
+     325860,
+     2120
+    ],
+    "frs": [
+     328380,
+     2760
+    ],
+    "en": [
+     331540,
+     1830
+    ],
+    "wd": [
+     333770,
+     10970
+    ],
+    "wp": [
+     [
+      333770,
+      2220
+     ],
+     [
+      336390,
+      2320
+     ],
+     [
+      339110,
+      2070
+     ],
+     [
+      341580,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dov'è il biscotto?",
+   "en": "Where is the cookie?",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Dov'è",
+     "where is"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "biscotto",
+     "cookie"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2160,
+    "frs": 2840,
+    "en": 1530,
+    "wd": 8800
+   },
+   "bank": {
+    "fr": [
+     345140,
+     2160
+    ],
+    "frs": [
+     347700,
+     2840
+    ],
+    "en": [
+     350940,
+     1530
+    ],
+    "wd": [
+     352870,
+     8800
+    ],
+    "wp": [
+     [
+      352870,
+      2520
+     ],
+     [
+      355790,
+      2030
+     ],
+     [
+      358220,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il biscotto non c'è.",
+   "en": "The cookie isn't there.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "the"
+    ],
+    [
+     "biscotto",
+     "cookie"
+    ],
+    [
+     "non c'è",
+     "isn't there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2180,
+    "frs": 2850,
+    "en": 1730,
+    "wd": 8870
+   },
+   "bank": {
+    "fr": [
+     362070,
+     2180
+    ],
+    "frs": [
+     364650,
+     2850
+    ],
+    "en": [
+     367900,
+     1730
+    ],
+    "wd": [
+     370030,
+     8870
+    ],
+    "wp": [
+     [
+      370030,
+      2030
+     ],
+     [
+      372460,
+      2600
+     ],
+     [
+      375460,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto è molto felice.",
+   "en": "Biscotto is very happy.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "molto",
+     "very"
+    ],
+    [
+     "felice",
+     "happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2590,
+    "frs": 3510,
+    "en": 2260,
+    "wd": 11870
+   },
+   "bank": {
+    "fr": [
+     379300,
+     2590
+    ],
+    "frs": [
+     382290,
+     3510
+    ],
+    "en": [
+     386200,
+     2260
+    ],
+    "wd": [
+     388860,
+     11870
+    ],
+    "wp": [
+     [
+      388860,
+      2830
+     ],
+     [
+      392090,
+      2100
+     ],
+     [
+      394590,
+      2420
+     ],
+     [
+      397410,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Biscotto! Sei un biscotto cattivo!»",
+   "en": "\"Biscotto! You're a naughty cookie!\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "cattivo",
+     "en": "naughty, bad"
+    }
+   ],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "Sei",
+     "you are"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "biscotto",
+     "cookie"
+    ],
+    [
+     "cattivo",
+     "naughty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3880,
+    "frs": 5450,
+    "en": 2870,
+    "gl": 3940,
+    "wd": 14910
+   },
+   "bank": {
+    "fr": [
+     401130,
+     3880
+    ],
+    "frs": [
+     405410,
+     5450
+    ],
+    "en": [
+     411260,
+     2870
+    ],
+    "gl": [
+     414530,
+     3940
+    ],
+    "wd": [
+     418870,
+     14910
+    ],
+    "wp": [
+     [
+      418870,
+      2830
+     ],
+     [
+      422100,
+      2410
+     ],
+     [
+      424910,
+      2100
+     ],
+     [
+      427410,
+      2600
+     ],
+     [
+      430410,
+      2520
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   16800
+  ],
+  "silence": [
+   17600,
+   30000
+  ]
+ }
+}

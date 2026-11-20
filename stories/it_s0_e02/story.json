@@ -1,0 +1,1583 @@
+{
+ "id": "it_s0_e02",
+ "lang": "it",
+ "title": "Al mercato",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Nonno Pino (first steps)",
+ "episode": "2",
+ "note": "Saturday morning. Pino and his dog Biscotto go to the market, the mercato. Pino wants bread and cheese. Biscotto wants something else.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 16050,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "È sabato mattina.",
+   "en": "It's Saturday morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "È",
+     "it is"
+    ],
+    [
+     "sabato",
+     "Saturday"
+    ],
+    [
+     "mattina",
+     "morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2140,
+    "frs": 2800,
+    "en": 1730,
+    "wd": 9070
+   },
+   "bank": {
+    "fr": [
+     47250,
+     2140
+    ],
+    "frs": [
+     49790,
+     2800
+    ],
+    "en": [
+     52990,
+     1730
+    ],
+    "wd": [
+     55120,
+     9070
+    ],
+    "wp": [
+     [
+      55120,
+      2190
+     ],
+     [
+      57710,
+      2710
+     ],
+     [
+      60820,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino e Biscotto vanno al mercato.",
+   "en": "Pino and Biscotto go to the market.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "mercato",
+     "en": "market"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "e",
+     "and"
+    ],
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "vanno",
+     "go"
+    ],
+    [
+     "al mercato",
+     "to the market"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3100,
+    "frs": 4260,
+    "en": 2700,
+    "gl": 3670,
+    "wd": 14640
+   },
+   "bank": {
+    "fr": [
+     64590,
+     3100
+    ],
+    "frs": [
+     68090,
+     4260
+    ],
+    "en": [
+     72750,
+     2700
+    ],
+    "gl": [
+     75850,
+     3670
+    ],
+    "wd": [
+     79920,
+     14640
+    ],
+    "wp": [
+     [
+      79920,
+      2220
+     ],
+     [
+      82540,
+      1970
+     ],
+     [
+      84910,
+      2830
+     ],
+     [
+      88140,
+      2260
+     ],
+     [
+      90800,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il mercato è grande e pieno di gente.",
+   "en": "The market is big and full of people.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "gente",
+     "en": "people"
+    }
+   ],
+   "words": [
+    [
+     "Il",
+     "the"
+    ],
+    [
+     "mercato",
+     "market"
+    ],
+    [
+     "è",
+     "is"
+    ],
+    [
+     "grande",
+     "big"
+    ],
+    [
+     "e",
+     "and"
+    ],
+    [
+     "pieno di",
+     "full of"
+    ],
+    [
+     "gente",
+     "people"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3380,
+    "frs": 4650,
+    "en": 2800,
+    "gl": 3400,
+    "wd": 19200
+   },
+   "bank": {
+    "fr": [
+     94960,
+     3380
+    ],
+    "frs": [
+     98740,
+     4650
+    ],
+    "en": [
+     103790,
+     2800
+    ],
+    "gl": [
+     106990,
+     3400
+    ],
+    "wd": [
+     110790,
+     19200
+    ],
+    "wp": [
+     [
+      110790,
+      2030
+     ],
+     [
+      113220,
+      2630
+     ],
+     [
+      116250,
+      2100
+     ],
+     [
+      118750,
+      2380
+     ],
+     [
+      121530,
+      1970
+     ],
+     [
+      123900,
+      2420
+     ],
+     [
+      126720,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino compra il pane.",
+   "en": "Pino buys bread.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "pane",
+     "en": "bread"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "compra",
+     "buys"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "pane",
+     "bread"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2870,
+    "en": 1740,
+    "gl": 3080,
+    "wd": 11040
+   },
+   "bank": {
+    "fr": [
+     130389,
+     2190
+    ],
+    "frs": [
+     132980,
+     2870
+    ],
+    "en": [
+     136250,
+     1740
+    ],
+    "gl": [
+     138390,
+     3080
+    ],
+    "wd": [
+     141870,
+     11040
+    ],
+    "wp": [
+     [
+      141870,
+      2220
+     ],
+     [
+      144490,
+      2520
+     ],
+     [
+      147410,
+      2030
+     ],
+     [
+      149840,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Poi compra il formaggio.",
+   "en": "Then he buys cheese.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "formaggio",
+     "en": "cheese"
+    }
+   ],
+   "words": [
+    [
+     "Poi",
+     "then"
+    ],
+    [
+     "compra",
+     "he buys"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "formaggio",
+     "cheese"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2340,
+    "frs": 3130,
+    "en": 1860,
+    "gl": 3650,
+    "wd": 11510
+   },
+   "bank": {
+    "fr": [
+     153310,
+     2340
+    ],
+    "frs": [
+     156050,
+     3130
+    ],
+    "en": [
+     159580,
+     1860
+    ],
+    "gl": [
+     161840,
+     3650
+    ],
+    "wd": [
+     165890,
+     11510
+    ],
+    "wp": [
+     [
+      165890,
+      2160
+     ],
+     [
+      168450,
+      2590
+     ],
+     [
+      171440,
+      2030
+     ],
+     [
+      173870,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto non guarda il pane.",
+   "en": "Biscotto doesn't look at the bread.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "non guarda",
+     "doesn't look at"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "pane",
+     "bread"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2640,
+    "frs": 3590,
+    "en": 2340,
+    "wd": 12090
+   },
+   "bank": {
+    "fr": [
+     177800,
+     2640
+    ],
+    "frs": [
+     180840,
+     3590
+    ],
+    "en": [
+     184830,
+     2340
+    ],
+    "wd": [
+     187570,
+     12090
+    ],
+    "wp": [
+     [
+      187570,
+      2830
+     ],
+     [
+      190800,
+      2960
+     ],
+     [
+      194160,
+      2030
+     ],
+     [
+      196590,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto non guarda il formaggio.",
+   "en": "Biscotto doesn't look at the cheese.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "non guarda",
+     "doesn't look at"
+    ],
+    [
+     "il",
+     "the"
+    ],
+    [
+     "formaggio",
+     "cheese"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "frs": 4030,
+    "en": 2480,
+    "wd": 12550
+   },
+   "bank": {
+    "fr": [
+     200060,
+     2940
+    ],
+    "frs": [
+     203400,
+     4030
+    ],
+    "en": [
+     207830,
+     2480
+    ],
+    "wd": [
+     210710,
+     12550
+    ],
+    "wp": [
+     [
+      210710,
+      2830
+     ],
+     [
+      213940,
+      2960
+     ],
+     [
+      217300,
+      2030
+     ],
+     [
+      219730,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto guarda solo una cosa: i salami!",
+   "en": "Biscotto looks at only one thing: the salamis!",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "salami",
+     "en": "salamis"
+    }
+   ],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "guarda",
+     "looks at"
+    ],
+    [
+     "solo",
+     "only"
+    ],
+    [
+     "una",
+     "one"
+    ],
+    [
+     "cosa",
+     "thing"
+    ],
+    [
+     "i",
+     "the"
+    ],
+    [
+     "salami",
+     "salamis"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3980,
+    "frs": 5580,
+    "en": 3860,
+    "gl": 3600,
+    "wd": 19940
+   },
+   "bank": {
+    "fr": [
+     223660,
+     3980
+    ],
+    "frs": [
+     228040,
+     5580
+    ],
+    "en": [
+     234020,
+     3860
+    ],
+    "gl": [
+     238280,
+     3600
+    ],
+    "wd": [
+     242280,
+     19940
+    ],
+    "wp": [
+     [
+      242280,
+      2830
+     ],
+     [
+      245510,
+      2410
+     ],
+     [
+      248320,
+      2280
+     ],
+     [
+      251000,
+      2240
+     ],
+     [
+      253640,
+      2200
+     ],
+     [
+      256240,
+      2090
+     ],
+     [
+      258730,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il signor Rossi vende i salami.",
+   "en": "Mr. Rossi sells salamis.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "vende",
+     "en": "sells"
+    }
+   ],
+   "words": [
+    [
+     "Il signor Rossi",
+     "Mr. Rossi"
+    ],
+    [
+     "vende",
+     "sells"
+    ],
+    [
+     "i",
+     "the"
+    ],
+    [
+     "salami",
+     "salamis"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2900,
+    "frs": 3960,
+    "en": 2530,
+    "gl": 3380,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     262620,
+     2900
+    ],
+    "frs": [
+     265920,
+     3960
+    ],
+    "en": [
+     270280,
+     2530
+    ],
+    "gl": [
+     273210,
+     3380
+    ],
+    "wd": [
+     276990,
+     12770
+    ],
+    "wp": [
+     [
+      276990,
+      3530
+     ],
+     [
+      280920,
+      2460
+     ],
+     [
+      283780,
+      2090
+     ],
+     [
+      286270,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Buongiorno, Pino! Come stai?»",
+   "en": "\"Good morning, Pino! How are you?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Buongiorno",
+     "good morning"
+    ],
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "Come stai",
+     "how are you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3420,
+    "frs": 4750,
+    "en": 2540,
+    "wd": 9400
+   },
+   "bank": {
+    "fr": [
+     290160,
+     3420
+    ],
+    "frs": [
+     293980,
+     4750
+    ],
+    "en": [
+     299130,
+     2540
+    ],
+    "wd": [
+     302070,
+     9400
+    ],
+    "wp": [
+     [
+      302070,
+      2750
+     ],
+     [
+      305220,
+      2220
+     ],
+     [
+      307840,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Bene, grazie. E tu?»",
+   "en": "\"Fine, thanks. And you?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Bene",
+     "fine"
+    ],
+    [
+     "grazie",
+     "thanks"
+    ],
+    [
+     "E",
+     "and"
+    ],
+    [
+     "tu",
+     "you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3040,
+    "frs": 4180,
+    "en": 2250,
+    "wd": 10800
+   },
+   "bank": {
+    "fr": [
+     311870,
+     3040
+    ],
+    "frs": [
+     315310,
+     4180
+    ],
+    "en": [
+     319890,
+     2250
+    ],
+    "wd": [
+     322540,
+     10800
+    ],
+    "wp": [
+     [
+      322540,
+      2390
+     ],
+     [
+      325330,
+      2450
+     ],
+     [
+      328180,
+      1970
+     ],
+     [
+      330550,
+      1940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino e il signor Rossi parlano, parlano, parlano.",
+   "en": "Pino and Mr. Rossi talk and talk and talk.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "e",
+     "and"
+    ],
+    [
+     "il signor Rossi",
+     "Mr. Rossi"
+    ],
+    [
+     "parlano",
+     "talk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4860,
+    "frs": 6900,
+    "en": 3410,
+    "wd": 12200
+   },
+   "bank": {
+    "fr": [
+     333740,
+     4860
+    ],
+    "frs": [
+     339000,
+     6900
+    ],
+    "en": [
+     346300,
+     3410
+    ],
+    "wd": [
+     350110,
+     12200
+    ],
+    "wp": [
+     [
+      350110,
+      2220
+     ],
+     [
+      352730,
+      1970
+     ],
+     [
+      355100,
+      3530
+     ],
+     [
+      359030,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto aspetta.",
+   "en": "Biscotto waits.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "aspetta",
+     "en": "waits"
+    }
+   ],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "aspetta",
+     "waits"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2140,
+    "frs": 2820,
+    "en": 1670,
+    "gl": 3580,
+    "wd": 6690
+   },
+   "bank": {
+    "fr": [
+     362710,
+     2140
+    ],
+    "frs": [
+     365250,
+     2820
+    ],
+    "en": [
+     368470,
+     1670
+    ],
+    "gl": [
+     370540,
+     3580
+    ],
+    "wd": [
+     374520,
+     6690
+    ],
+    "wp": [
+     [
+      374520,
+      2830
+     ],
+     [
+      377750,
+      2610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Poi Biscotto non aspetta più.",
+   "en": "Then Biscotto doesn't wait anymore.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Poi",
+     "then"
+    ],
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "non aspetta più",
+     "doesn't wait anymore"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3700,
+    "en": 2640,
+    "wd": 10150
+   },
+   "bank": {
+    "fr": [
+     381610,
+     2740
+    ],
+    "frs": [
+     384750,
+     3700
+    ],
+    "en": [
+     388850,
+     2640
+    ],
+    "wd": [
+     391890,
+     10150
+    ],
+    "wp": [
+     [
+      391890,
+      2160
+     ],
+     [
+      394450,
+      2830
+     ],
+     [
+      397680,
+      3510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Pino! Il mio salame!»",
+   "en": "\"Pino! My salami!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "Il mio",
+     "my"
+    ],
+    [
+     "salame",
+     "salami"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2720,
+    "frs": 3620,
+    "en": 2200,
+    "wd": 8680
+   },
+   "bank": {
+    "fr": [
+     402440,
+     2720
+    ],
+    "frs": [
+     405560,
+     3620
+    ],
+    "en": [
+     409580,
+     2200
+    ],
+    "wd": [
+     412180,
+     8680
+    ],
+    "wp": [
+     [
+      412180,
+      2220
+     ],
+     [
+      414800,
+      2250
+     ],
+     [
+      417450,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Biscotto corre via con un salame in bocca.",
+   "en": "Biscotto runs away with a salami in his mouth.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "corre via",
+     "en": "runs away"
+    },
+    {
+     "fr": "in bocca",
+     "en": "in his mouth"
+    }
+   ],
+   "words": [
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "corre via",
+     "runs away"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "un",
+     "a"
+    ],
+    [
+     "salame",
+     "salami"
+    ],
+    [
+     "in bocca",
+     "in his mouth"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4850,
+    "en": 3200,
+    "gl": 6980,
+    "wd": 17990
+   },
+   "bank": {
+    "fr": [
+     421260,
+     3490
+    ],
+    "frs": [
+     425150,
+     4850
+    ],
+    "en": [
+     430400,
+     3200
+    ],
+    "gl": [
+     434000,
+     6980
+    ],
+    "wd": [
+     441380,
+     17990
+    ],
+    "wp": [
+     [
+      441380,
+      2830
+     ],
+     [
+      444610,
+      2750
+     ],
+     [
+      447760,
+      2210
+     ],
+     [
+      450370,
+      2100
+     ],
+     [
+      452870,
+      2560
+     ],
+     [
+      455830,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pino diventa rosso.",
+   "en": "Pino turns red.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "diventa",
+     "en": "becomes"
+    }
+   ],
+   "words": [
+    [
+     "Pino",
+     "Pino"
+    ],
+    [
+     "diventa",
+     "becomes"
+    ],
+    [
+     "rosso",
+     "red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 2970,
+    "en": 1800,
+    "gl": 3680,
+    "wd": 8930
+   },
+   "bank": {
+    "fr": [
+     459770,
+     2250
+    ],
+    "frs": [
+     462420,
+     2970
+    ],
+    "en": [
+     465790,
+     1800
+    ],
+    "gl": [
+     467990,
+     3680
+    ],
+    "wd": [
+     472070,
+     8930
+    ],
+    "wp": [
+     [
+      472070,
+      2220
+     ],
+     [
+      474690,
+      2700
+     ],
+     [
+      477790,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Scusa, scusa! Quanto costa?»",
+   "en": "\"Sorry, sorry! How much is it?\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "quanto costa",
+     "en": "how much is it"
+    }
+   ],
+   "words": [
+    [
+     "Scusa",
+     "sorry"
+    ],
+    [
+     "scusa",
+     "sorry"
+    ],
+    [
+     "Quanto costa",
+     "how much is it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3770,
+    "frs": 5280,
+    "en": 2460,
+    "gl": 4010,
+    "wd": 9550
+   },
+   "bank": {
+    "fr": [
+     481400,
+     3770
+    ],
+    "frs": [
+     485570,
+     5280
+    ],
+    "en": [
+     491250,
+     2460
+    ],
+    "gl": [
+     494110,
+     4010
+    ],
+    "wd": [
+     498520,
+     9550
+    ],
+    "wp": [
+     [
+      498520,
+      2460
+     ],
+     [
+      501380,
+      2460
+     ],
+     [
+      504240,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il signor Rossi ride.",
+   "en": "Mr. Rossi laughs.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Il signor Rossi",
+     "Mr. Rossi"
+    ],
+    [
+     "ride",
+     "laughs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2440,
+    "frs": 3270,
+    "en": 1910,
+    "wd": 7170
+   },
+   "bank": {
+    "fr": [
+     508470,
+     2440
+    ],
+    "frs": [
+     511310,
+     3270
+    ],
+    "en": [
+     514980,
+     1910
+    ],
+    "wd": [
+     517289,
+     7170
+    ],
+    "wp": [
+     [
+      517289,
+      3530
+     ],
+     [
+      521219,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Per Biscotto è gratis!»",
+   "en": "\"For Biscotto, it's free!\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "gratis",
+     "en": "free"
+    }
+   ],
+   "words": [
+    [
+     "Per",
+     "for"
+    ],
+    [
+     "Biscotto",
+     "Biscotto"
+    ],
+    [
+     "è",
+     "it is"
+    ],
+    [
+     "gratis",
+     "free"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2778,
+    "frs": 3770,
+    "en": 2280,
+    "gl": 3500,
+    "wd": 11730
+   },
+   "bank": {
+    "fr": [
+     524860,
+     2778
+    ],
+    "frs": [
+     528038,
+     3770
+    ],
+    "en": [
+     532208,
+     2280
+    ],
+    "gl": [
+     534888,
+     3500
+    ],
+    "wd": [
+     538788,
+     11730
+    ],
+    "wp": [
+     [
+      538788,
+      2190
+     ],
+     [
+      541378,
+      2830
+     ],
+     [
+      544608,
+      2190
+     ],
+     [
+      547198,
+      2470
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   16050
+  ],
+  "silence": [
+   16850,
+   30000
+  ]
+ }
+}
