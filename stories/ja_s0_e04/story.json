@@ -1,0 +1,1932 @@
+{
+ "id": "ja_s0_e04",
+ "lang": "ja",
+ "title": "ラーメン屋",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Mika in Tokyo (first steps)",
+ "episode": "4",
+ "note": "After work, Mika's new colleague Yuki takes her to a small ramen shop, a ラーメン屋. In many ramen shops you order from a ticket machine.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 16030,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "仕事が終わりました。",
+   "en": "Work is over.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "仕事が",
+     "work"
+    ],
+    [
+     "終わりました",
+     "ended"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "frs": 3040,
+    "en": 1440,
+    "wd": 6390
+   },
+   "kana": "しごとが おわりました。",
+   "romaji": "Shigoto ga owarimashita.",
+   "wr": [
+    [
+     "しごとが",
+     "shigoto ga"
+    ],
+    [
+     "おわりました",
+     "owarimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     47230,
+     2370
+    ],
+    "frs": [
+     50000,
+     3040
+    ],
+    "en": [
+     53440,
+     1440
+    ],
+    "wd": [
+     55280,
+     6390
+    ],
+    "wp": [
+     [
+      55280,
+      2540
+     ],
+     [
+      58220,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "となりの席の人は、ユキさんです。",
+   "en": "The person at the next desk is Yuki.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "となりの席の人は",
+     "the person at the next desk (topic)"
+    ],
+    [
+     "ユキさんです",
+     "is Yuki"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3680,
+    "frs": 5050,
+    "en": 2940,
+    "wd": 9160
+   },
+   "kana": "となりの せきの ひとは、ユキさんです。",
+   "romaji": "Tonari no seki no hito wa, Yuki-san desu.",
+   "wr": [
+    [
+     "となりのせきのひとは",
+     "tonari no seki no hito wa"
+    ],
+    [
+     "ユキさんです",
+     "Yuki-san desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     62070,
+     3680
+    ],
+    "frs": [
+     66150,
+     5050
+    ],
+    "en": [
+     71600,
+     2940
+    ],
+    "wd": [
+     74940,
+     9160
+    ],
+    "wp": [
+     [
+      74940,
+      4990
+     ],
+     [
+      80330,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは「ラーメンを食べませんか」と言いました。",
+   "en": "Yuki said, \"Would you like to eat ramen?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "ラーメンを",
+     "ramen (object)"
+    ],
+    [
+     "食べませんか",
+     "won't you eat? (= would you like to eat?)"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 4800,
+    "frs": 6720,
+    "en": 2800,
+    "wd": 15840
+   },
+   "kana": "ユキさんは 「ラーメンを たべませんか」と いいました。",
+   "romaji": "Yuki-san wa \"raamen o tabemasen ka\" to iimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "ラーメンを",
+     "raamen o"
+    ],
+    [
+     "たべませんか",
+     "tabemasen ka"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     84500,
+     4800
+    ],
+    "frs": [
+     89700,
+     6720
+    ],
+    "en": [
+     96820,
+     2800
+    ],
+    "wd": [
+     100020,
+     15840
+    ],
+    "wp": [
+     [
+      100020,
+      3350
+     ],
+     [
+      103770,
+      3220
+     ],
+     [
+      107390,
+      4590
+     ],
+     [
+      112380,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「はい、ぜひ！」",
+   "en": "\"Yes, I'd love to!\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "はい",
+     "yes"
+    ],
+    [
+     "ぜひ",
+     "by all means"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 1970,
+    "frs": 2450,
+    "en": 1810,
+    "wd": 6150
+   },
+   "kana": "「はい、ぜひ！」",
+   "romaji": "\"Hai, zehi!\"",
+   "wr": [
+    [
+     "はい",
+     "hai"
+    ],
+    [
+     "ぜひ",
+     "zehi"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     116260,
+     1970
+    ],
+    "frs": [
+     118630,
+     2450
+    ],
+    "en": [
+     121480,
+     1810
+    ],
+    "wd": [
+     123690,
+     6150
+    ],
+    "wp": [
+     [
+      123690,
+      2170
+     ],
+     [
+      126260,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ラーメン屋は小さい店です。",
+   "en": "The ramen shop is a small place.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ラーメン屋は",
+     "the ramen shop (topic)"
+    ],
+    [
+     "小さい",
+     "small"
+    ],
+    [
+     "店です",
+     "is a shop"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "frs": 4280,
+    "en": 2500,
+    "wd": 10700
+   },
+   "kana": "ラーメンやは ちいさい みせです。",
+   "romaji": "Raamen-ya wa chiisai mise desu.",
+   "wr": [
+    [
+     "ラーメンやは",
+     "raamen-ya wa"
+    ],
+    [
+     "ちいさい",
+     "chiisai"
+    ],
+    [
+     "みせです",
+     "mise desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     130240,
+     3170
+    ],
+    "frs": [
+     133810,
+     4280
+    ],
+    "en": [
+     138490,
+     2500
+    ],
+    "wd": [
+     141390,
+     10700
+    ],
+    "wp": [
+     [
+      141390,
+      3830
+     ],
+     [
+      145620,
+      2530
+     ],
+     [
+      148550,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "席はやっつだけです。",
+   "en": "There are only eight seats.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "席は",
+     "the seats (topic)"
+    ],
+    [
+     "やっつ",
+     "eight (things)"
+    ],
+    [
+     "だけです",
+     "only"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2520,
+    "frs": 3290,
+    "en": 2009,
+    "wd": 10260
+   },
+   "kana": "せきは やっつ だけです。",
+   "romaji": "Seki wa yattsu dake desu.",
+   "wr": [
+    [
+     "せきは",
+     "seki wa"
+    ],
+    [
+     "やっつ",
+     "yattsu"
+    ],
+    [
+     "だけです",
+     "dake desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     152490,
+     2520
+    ],
+    "frs": [
+     155410,
+     3290
+    ],
+    "en": [
+     159100,
+     2009
+    ],
+    "wd": [
+     161510,
+     10260
+    ],
+    "wp": [
+     [
+      161510,
+      3280
+     ],
+     [
+      165190,
+      2880
+     ],
+     [
+      168470,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "入口に機械があります。",
+   "en": "There's a ticket machine at the entrance.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "入口に",
+     "at the entrance"
+    ],
+    [
+     "機械が",
+     "a machine"
+    ],
+    [
+     "あります",
+     "there is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2720,
+    "frs": 3610,
+    "en": 2380,
+    "wd": 9880
+   },
+   "kana": "いりぐちに きかいが あります。",
+   "romaji": "Iriguchi ni kikai ga arimasu.",
+   "wr": [
+    [
+     "いりぐちに",
+     "iriguchi ni"
+    ],
+    [
+     "きかいが",
+     "kikai ga"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     172170,
+     2720
+    ],
+    "frs": [
+     175290,
+     3610
+    ],
+    "en": [
+     179300,
+     2380
+    ],
+    "wd": [
+     182080,
+     9880
+    ],
+    "wp": [
+     [
+      182080,
+      3060
+     ],
+     [
+      185540,
+      2660
+     ],
+     [
+      188600,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは「ここで食券を買います」と言いました。",
+   "en": "Yuki said, \"You buy a meal ticket here.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "ここで",
+     "here"
+    ],
+    [
+     "食券を",
+     "a meal ticket (object)"
+    ],
+    [
+     "買います",
+     "buy"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4980,
+    "frs": 7000,
+    "en": 3210,
+    "wd": 16710
+   },
+   "kana": "ユキさんは 「ここで しょっけんを かいます」と いいました。",
+   "romaji": "Yuki-san wa \"koko de shokken o kaimasu\" to iimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "ここで",
+     "koko de"
+    ],
+    [
+     "しょっけんを",
+     "shokken o"
+    ],
+    [
+     "かいます",
+     "kaimasu"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     192360,
+     4980
+    ],
+    "frs": [
+     197740,
+     7000
+    ],
+    "en": [
+     205140,
+     3210
+    ],
+    "wd": [
+     208750,
+     16710
+    ],
+    "wp": [
+     [
+      208750,
+      3350
+     ],
+     [
+      212500,
+      2280
+     ],
+     [
+      215180,
+      3660
+     ],
+     [
+      219240,
+      2340
+     ],
+     [
+      221980,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ボタンがたくさんあります。",
+   "en": "There are lots of buttons.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ボタンが",
+     "buttons"
+    ],
+    [
+     "たくさん",
+     "a lot"
+    ],
+    [
+     "あります",
+     "there are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "frs": 3370,
+    "en": 1830,
+    "wd": 9350
+   },
+   "kana": "ボタンが たくさん あります。",
+   "romaji": "Botan ga takusan arimasu.",
+   "wr": [
+    [
+     "ボタンが",
+     "botan ga"
+    ],
+    [
+     "たくさん",
+     "takusan"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     225860,
+     2540
+    ],
+    "frs": [
+     228800,
+     3370
+    ],
+    "en": [
+     232570,
+     1830
+    ],
+    "wd": [
+     234800,
+     9350
+    ],
+    "wp": [
+     [
+      234800,
+      2620
+     ],
+     [
+      237820,
+      2560
+     ],
+     [
+      240780,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、全部日本語です。",
+   "en": "But it's all in Japanese.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "全部",
+     "all"
+    ],
+    [
+     "日本語です",
+     "is Japanese"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "frs": 4010,
+    "en": 2050,
+    "wd": 9200
+   },
+   "kana": "でも、ぜんぶ にほんごです。",
+   "romaji": "Demo, zenbu nihongo desu.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "ぜんぶ",
+     "zenbu"
+    ],
+    [
+     "にほんごです",
+     "nihongo desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     244550,
+     2990
+    ],
+    "frs": [
+     247940,
+     4010
+    ],
+    "en": [
+     252350,
+     2050
+    ],
+    "wd": [
+     254800,
+     9200
+    ],
+    "wp": [
+     [
+      254800,
+      2060
+     ],
+     [
+      257260,
+      2290
+     ],
+     [
+      259950,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「ユキさん、どれがおいしいですか。」",
+   "en": "\"Yuki, which one is good?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさん",
+     "Yuki"
+    ],
+    [
+     "どれが",
+     "which one"
+    ],
+    [
+     "おいしいですか",
+     "is delicious?"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "frs": 4510,
+    "en": 2130,
+    "wd": 9950
+   },
+   "kana": "「ユキさん、どれが おいしいですか。」",
+   "romaji": "\"Yuki-san, dore ga oishii desu ka.\"",
+   "wr": [
+    [
+     "ユキさん",
+     "Yuki-san"
+    ],
+    [
+     "どれが",
+     "dore ga"
+    ],
+    [
+     "おいしいですか",
+     "oishii desu ka"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     264400,
+     3330
+    ],
+    "frs": [
+     268130,
+     4510
+    ],
+    "en": [
+     273040,
+     2130
+    ],
+    "wd": [
+     275570,
+     9950
+    ],
+    "wp": [
+     [
+      275570,
+      2500
+     ],
+     [
+      278470,
+      2530
+     ],
+     [
+      281400,
+      3270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「みそラーメンがいちばんです。」",
+   "en": "\"Miso ramen is the best.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "みそラーメンが",
+     "miso ramen"
+    ],
+    [
+     "いちばんです",
+     "is number one, the best"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3660,
+    "en": 2490,
+    "wd": 8300
+   },
+   "kana": "「みそラーメンが いちばんです。」",
+   "romaji": "\"Miso raamen ga ichiban desu.\"",
+   "wr": [
+    [
+     "みそラーメンが",
+     "miso raamen ga"
+    ],
+    [
+     "いちばんです",
+     "ichiban desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     285920,
+     2770
+    ],
+    "frs": [
+     289090,
+     3660
+    ],
+    "en": [
+     293150,
+     2490
+    ],
+    "wd": [
+     296040,
+     8300
+    ],
+    "wp": [
+     [
+      296040,
+      3240
+     ],
+     [
+      299680,
+      3810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "二人でみそラーメンを食べました。",
+   "en": "The two of us ate miso ramen.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "二人で",
+     "the two of us"
+    ],
+    [
+     "みそラーメンを",
+     "miso ramen (object)"
+    ],
+    [
+     "食べました",
+     "ate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4150,
+    "en": 2460,
+    "wd": 10970
+   },
+   "kana": "ふたりで みそラーメンを たべました。",
+   "romaji": "Futari de miso raamen o tabemashita.",
+   "wr": [
+    [
+     "ふたりで",
+     "futari de"
+    ],
+    [
+     "みそラーメンを",
+     "miso raamen o"
+    ],
+    [
+     "たべました",
+     "tabemashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     304740,
+     3090
+    ],
+    "frs": [
+     308230,
+     4150
+    ],
+    "en": [
+     312780,
+     2460
+    ],
+    "wd": [
+     315640,
+     10970
+    ],
+    "wp": [
+     [
+      315640,
+      2900
+     ],
+     [
+      318940,
+      3900
+     ],
+     [
+      323240,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "とても熱いです。",
+   "en": "It's very hot.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "熱いです",
+     "is hot (to the touch)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2150,
+    "frs": 2720,
+    "en": 1500,
+    "wd": 7270
+   },
+   "kana": "とても あついです。",
+   "romaji": "Totemo atsui desu.",
+   "wr": [
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "あついです",
+     "atsui desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     327010,
+     2150
+    ],
+    "frs": [
+     329560,
+     2720
+    ],
+    "en": [
+     332680,
+     1500
+    ],
+    "wd": [
+     334580,
+     7270
+    ],
+    "wp": [
+     [
+      334580,
+      2360
+     ],
+     [
+      337340,
+      3660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "まわりの人は、ズルズル食べています。",
+   "en": "The people around us are slurping loudly.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "まわりの人は",
+     "the people around (topic)"
+    ],
+    [
+     "ズルズル",
+     "slurp slurp (sound word)"
+    ],
+    [
+     "食べています",
+     "are eating"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5220,
+    "en": 2750,
+    "wd": 12080
+   },
+   "kana": "まわりの ひとは、ズルズル たべて います。",
+   "romaji": "Mawari no hito wa, zuruzuru tabete imasu.",
+   "wr": [
+    [
+     "まわりのひとは",
+     "mawari no hito wa"
+    ],
+    [
+     "ズルズル",
+     "zuruzuru"
+    ],
+    [
+     "たべています",
+     "tabete imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     342250,
+     3810
+    ],
+    "frs": [
+     346460,
+     5220
+    ],
+    "en": [
+     352080,
+     2750
+    ],
+    "wd": [
+     355230,
+     12080
+    ],
+    "wp": [
+     [
+      355230,
+      4030
+     ],
+     [
+      359660,
+      3630
+     ],
+     [
+      363690,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私はびっくりしました。",
+   "en": "I was surprised.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "びっくりしました",
+     "was surprised"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "frs": 3510,
+    "en": 1630,
+    "wd": 7470
+   },
+   "kana": "わたしは びっくり しました。",
+   "romaji": "Watashi wa bikkuri shimashita.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "びっくりしました",
+     "bikkuri shimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     367710,
+     2660
+    ],
+    "frs": [
+     370770,
+     3510
+    ],
+    "en": [
+     374680,
+     1630
+    ],
+    "wd": [
+     376710,
+     7470
+    ],
+    "wp": [
+     [
+      376710,
+      2780
+     ],
+     [
+      379890,
+      3440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは笑いました。",
+   "en": "Yuki laughed.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "笑いました",
+     "laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2500,
+    "frs": 3260,
+    "en": 1490,
+    "wd": 7370
+   },
+   "kana": "ユキさんは わらいました。",
+   "romaji": "Yuki-san wa waraimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "わらいました",
+     "waraimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     384580,
+     2500
+    ],
+    "frs": [
+     387480,
+     3260
+    ],
+    "en": [
+     391140,
+     1490
+    ],
+    "wd": [
+     393030,
+     7370
+    ],
+    "wp": [
+     [
+      393030,
+      3350
+     ],
+     [
+      396780,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「日本では、それは失礼じゃありませんよ。」",
+   "en": "\"In Japan, that's not rude, you know.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "日本では",
+     "in Japan (では: as opposed to elsewhere)"
+    ],
+    [
+     "それは",
+     "that (topic)"
+    ],
+    [
+     "失礼じゃありません",
+     "is not rude"
+    ],
+    [
+     "よ",
+     "you know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4150,
+    "frs": 5750,
+    "en": 3080,
+    "wd": 15860
+   },
+   "kana": "「にほんでは、それは しつれいじゃ ありませんよ。」",
+   "romaji": "\"Nihon de wa, sore wa shitsurei ja arimasen yo.\"",
+   "wr": [
+    [
+     "にほんでは",
+     "Nihon de wa"
+    ],
+    [
+     "それは",
+     "sore wa"
+    ],
+    [
+     "しつれいじゃありません",
+     "shitsurei ja arimasen"
+    ],
+    [
+     "よ",
+     "yo"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     400800,
+     4150
+    ],
+    "frs": [
+     405350,
+     5750
+    ],
+    "en": [
+     411500,
+     3080
+    ],
+    "wd": [
+     414980,
+     15860
+    ],
+    "wp": [
+     [
+      414980,
+      5190
+     ],
+     [
+      420570,
+      2860
+     ],
+     [
+      423830,
+      3610
+     ],
+     [
+      427840,
+      2150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私もズルズル食べました。",
+   "en": "I slurped too.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "私も",
+     "I, too"
+    ],
+    [
+     "ズルズル",
+     "slurp slurp"
+    ],
+    [
+     "食べました",
+     "ate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2840,
+    "frs": 3750,
+    "en": 1500,
+    "wd": 9600
+   },
+   "kana": "わたしも ズルズル たべました。",
+   "romaji": "Watashi mo zuruzuru tabemashita.",
+   "wr": [
+    [
+     "わたしも",
+     "watashi mo"
+    ],
+    [
+     "ズルズル",
+     "zuruzuru"
+    ],
+    [
+     "たべました",
+     "tabemashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     431240,
+     2840
+    ],
+    "frs": [
+     434480,
+     3750
+    ],
+    "en": [
+     438630,
+     1500
+    ],
+    "wd": [
+     440530,
+     9600
+    ],
+    "wp": [
+     [
+      440530,
+      2620
+     ],
+     [
+      443550,
+      2810
+     ],
+     [
+      446760,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "楽しいです！",
+   "en": "It's fun!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "楽しいです",
+     "is fun"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 1780,
+    "frs": 2210,
+    "en": 1350,
+    "wd": 3740
+   },
+   "kana": "たのしいです！",
+   "romaji": "Tanoshii desu!",
+   "wr": [
+    [
+     "たのしいです",
+     "tanoshii desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     450530,
+     1780
+    ],
+    "frs": [
+     452710,
+     2210
+    ],
+    "en": [
+     455320,
+     1350
+    ],
+    "wd": [
+     457070,
+     3740
+    ],
+    "wp": [
+     [
+      457070,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「ごちそうさまでした。」",
+   "en": "\"Thank you for the meal.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ごちそうさまでした",
+     "thank you for the meal (said after eating)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2260,
+    "frs": 2910,
+    "en": 1730,
+    "wd": 5600
+   },
+   "kana": "「ごちそうさまでした。」",
+   "romaji": "\"Gochisousama deshita.\"",
+   "wr": [
+    [
+     "ごちそうさまでした",
+     "gochisousama deshita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     461210,
+     2260
+    ],
+    "frs": [
+     463870,
+     2910
+    ],
+    "en": [
+     467180,
+     1730
+    ],
+    "wd": [
+     469310,
+     5600
+    ],
+    "wp": [
+     [
+      469310,
+      4750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "店の人は「ありがとうございました」と言いました。",
+   "en": "The shop staff said, \"Thank you very much.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "店の人は",
+     "the shop staff (topic)"
+    ],
+    [
+     "ありがとうございました",
+     "thank you very much"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "frs": 6750,
+    "en": 3210,
+    "wd": 11970
+   },
+   "kana": "みせの ひとは 「ありがとうございました」と いいました。",
+   "romaji": "Mise no hito wa \"arigatou gozaimashita\" to iimashita.",
+   "wr": [
+    [
+     "みせのひとは",
+     "mise no hito wa"
+    ],
+    [
+     "ありがとうございました",
+     "arigatou gozaimashita"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     475310,
+     4820
+    ],
+    "frs": [
+     480530,
+     6750
+    ],
+    "en": [
+     487680,
+     3210
+    ],
+    "wd": [
+     491290,
+     11970
+    ],
+    "wp": [
+     [
+      491290,
+      3910
+     ],
+     [
+      495600,
+      3780
+     ],
+     [
+      499780,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "外は寒いです。",
+   "en": "It's cold outside.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "外は",
+     "outside (topic)"
+    ],
+    [
+     "寒いです",
+     "is cold"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "frs": 2820,
+    "en": 1670,
+    "wd": 7260
+   },
+   "kana": "そとは さむいです。",
+   "romaji": "Soto wa samui desu.",
+   "wr": [
+    [
+     "そとは",
+     "soto wa"
+    ],
+    [
+     "さむいです",
+     "samui desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     503660,
+     2220
+    ],
+    "frs": [
+     506280,
+     2820
+    ],
+    "en": [
+     509500,
+     1670
+    ],
+    "wd": [
+     511570,
+     7260
+    ],
+    "wp": [
+     [
+      511570,
+      3220
+     ],
+     [
+      515190,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、おなかはあたたかいです。",
+   "en": "But my stomach is warm.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "おなかは",
+     "my stomach (topic)"
+    ],
+    [
+     "あたたかいです",
+     "is warm"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3140,
+    "frs": 4220,
+    "en": 1870,
+    "wd": 10130
+   },
+   "kana": "でも、おなかは あたたかいです。",
+   "romaji": "Demo, onaka wa atatakai desu.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "おなかは",
+     "onaka wa"
+    ],
+    [
+     "あたたかいです",
+     "atatakai desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     519230,
+     3140
+    ],
+    "frs": [
+     522770,
+     4220
+    ],
+    "en": [
+     527390,
+     1870
+    ],
+    "wd": [
+     529660,
+     10130
+    ],
+    "wp": [
+     [
+      529660,
+      2060
+     ],
+     [
+      532120,
+      3420
+     ],
+     [
+      535940,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「ユキさん、また来ましょう！」",
+   "en": "\"Yuki, let's come again!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさん",
+     "Yuki"
+    ],
+    [
+     "また",
+     "again"
+    ],
+    [
+     "来ましょう",
+     "let's come"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2740,
+    "frs": 3600,
+    "en": 2110,
+    "wd": 9130
+   },
+   "kana": "「ユキさん、また きましょう！」",
+   "romaji": "\"Yuki-san, mata kimashou!\"",
+   "wr": [
+    [
+     "ユキさん",
+     "Yuki-san"
+    ],
+    [
+     "また",
+     "mata"
+    ],
+    [
+     "きましょう",
+     "kimashou"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     540190,
+     2740
+    ],
+    "frs": [
+     543330,
+     3600
+    ],
+    "en": [
+     547330,
+     2110
+    ],
+    "wd": [
+     549840,
+     9130
+    ],
+    "wp": [
+     [
+      549840,
+      2500
+     ],
+     [
+      552740,
+      2329
+     ],
+     [
+      555470,
+      2650
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "ラーメンや",
+ "title_romaji": "Raamen-ya",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   16030
+  ],
+  "silence": [
+   16830,
+   30000
+  ]
+ }
+}

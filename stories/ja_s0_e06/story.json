@@ -1,0 +1,1968 @@
+{
+ "id": "ja_s0_e06",
+ "lang": "ja",
+ "title": "子猫の名前",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Mika in Tokyo (first steps)",
+ "episode": "6",
+ "note": "Kuro and her three kittens, 子猫, now live at Mrs. Tanaka's. The kittens need names, and everyone has an idea.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 15400,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "日曜日、田中さんのいえに行きました。",
+   "en": "On Sunday, I went to Mrs. Tanaka's house.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "日曜日",
+     "Sunday"
+    ],
+    [
+     "田中さんのいえに",
+     "to Mrs. Tanaka's house"
+    ],
+    [
+     "行きました",
+     "went"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4000,
+    "frs": 5510,
+    "en": 3460,
+    "wd": 11050
+   },
+   "kana": "にちようび、たなかさんの いえに いきました。",
+   "romaji": "Nichiyoubi, Tanaka-san no ie ni ikimashita.",
+   "wr": [
+    [
+     "にちようび",
+     "nichiyoubi"
+    ],
+    [
+     "たなかさんのいえに",
+     "Tanaka-san no ie ni"
+    ],
+    [
+     "いきました",
+     "ikimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     46600,
+     4000
+    ],
+    "frs": [
+     51000,
+     5510
+    ],
+    "en": [
+     56910,
+     3460
+    ],
+    "wd": [
+     60770,
+     11050
+    ],
+    "wp": [
+     [
+      60770,
+      2660
+     ],
+     [
+      63830,
+      4180
+     ],
+     [
+      68410,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんもいっしょに来ました。",
+   "en": "Yuki came with me.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんも",
+     "Yuki, too"
+    ],
+    [
+     "いっしょに",
+     "together"
+    ],
+    [
+     "来ました",
+     "came"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3730,
+    "en": 1690,
+    "wd": 9520
+   },
+   "kana": "ユキさんも いっしょに きました。",
+   "romaji": "Yuki-san mo issho ni kimashita.",
+   "wr": [
+    [
+     "ユキさんも",
+     "Yuki-san mo"
+    ],
+    [
+     "いっしょに",
+     "issho ni"
+    ],
+    [
+     "きました",
+     "kimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     72220,
+     2820
+    ],
+    "frs": [
+     75440,
+     3730
+    ],
+    "en": [
+     79570,
+     1690
+    ],
+    "wd": [
+     81660,
+     9520
+    ],
+    "wp": [
+     [
+      81660,
+      2930
+     ],
+     [
+      84990,
+      2520
+     ],
+     [
+      87910,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私はおにぎりを持って来ました。",
+   "en": "I brought rice balls.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "おにぎりを",
+     "rice balls (object)"
+    ],
+    [
+     "持って来ました",
+     "brought"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3360,
+    "frs": 4550,
+    "en": 1830,
+    "wd": 10750
+   },
+   "kana": "わたしは おにぎりを もって きました。",
+   "romaji": "Watashi wa onigiri o motte kimashita.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "おにぎりを",
+     "onigiri o"
+    ],
+    [
+     "もってきました",
+     "motte kimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     91580,
+     3360
+    ],
+    "frs": [
+     95340,
+     4550
+    ],
+    "en": [
+     100290,
+     1830
+    ],
+    "wd": [
+     102520,
+     10750
+    ],
+    "wp": [
+     [
+      102520,
+      2780
+     ],
+     [
+      105700,
+      3470
+     ],
+     [
+      109570,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロと子猫は、箱の中にいます。",
+   "en": "Kuro and the kittens are in a box.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "クロと",
+     "Kuro and"
+    ],
+    [
+     "子猫は",
+     "the kittens (topic)"
+    ],
+    [
+     "箱の中に",
+     "in a box"
+    ],
+    [
+     "います",
+     "are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "frs": 5150,
+    "en": 2880,
+    "wd": 13340
+   },
+   "kana": "クロと こねこは、はこの なかに います。",
+   "romaji": "Kuro to koneko wa, hako no naka ni imasu.",
+   "wr": [
+    [
+     "クロと",
+     "Kuro to"
+    ],
+    [
+     "こねこは",
+     "koneko wa"
+    ],
+    [
+     "はこのなかに",
+     "hako no naka ni"
+    ],
+    [
+     "います",
+     "imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     113670,
+     3750
+    ],
+    "frs": [
+     117820,
+     5150
+    ],
+    "en": [
+     123370,
+     2880
+    ],
+    "wd": [
+     126650,
+     13340
+    ],
+    "wp": [
+     [
+      126650,
+      2540
+     ],
+     [
+      129590,
+      3400
+     ],
+     [
+      133390,
+      3110
+     ],
+     [
+      136900,
+      2240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "子猫はとても小さいです。",
+   "en": "The kittens are very small.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "子猫は",
+     "the kittens (topic)"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "小さいです",
+     "are small"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "frs": 3980,
+    "en": 2080,
+    "wd": 10420
+   },
+   "kana": "こねこは とても ちいさいです。",
+   "romaji": "Koneko wa totemo chiisai desu.",
+   "wr": [
+    [
+     "こねこは",
+     "koneko wa"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "ちいさいです",
+     "chiisai desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     140390,
+     2970
+    ],
+    "frs": [
+     143760,
+     3980
+    ],
+    "en": [
+     148140,
+     2080
+    ],
+    "wd": [
+     150620,
+     10420
+    ],
+    "wp": [
+     [
+      150620,
+      3400
+     ],
+     [
+      154420,
+      2360
+     ],
+     [
+      157180,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "いっぴきは白です。",
+   "en": "One is white.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "いっぴきは",
+     "one (small animal) (topic)"
+    ],
+    [
+     "白です",
+     "is white"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2330,
+    "frs": 3010,
+    "en": 1390,
+    "wd": 8000
+   },
+   "kana": "いっぴきは しろです。",
+   "romaji": "Ippiki wa shiro desu.",
+   "wr": [
+    [
+     "いっぴきは",
+     "ippiki wa"
+    ],
+    [
+     "しろです",
+     "shiro desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     161440,
+     2330
+    ],
+    "frs": [
+     164170,
+     3010
+    ],
+    "en": [
+     167580,
+     1390
+    ],
+    "wd": [
+     169370,
+     8000
+    ],
+    "wp": [
+     [
+      169370,
+      4190
+     ],
+     [
+      173960,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "いっぴきは黒です。",
+   "en": "One is black.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "いっぴきは",
+     "one (topic)"
+    ],
+    [
+     "黒です",
+     "is black"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2320,
+    "frs": 3000,
+    "en": 1500,
+    "wd": 6940
+   },
+   "kana": "いっぴきは くろです。",
+   "romaji": "Ippiki wa kuro desu.",
+   "wr": [
+    [
+     "いっぴきは",
+     "ippiki wa"
+    ],
+    [
+     "くろです",
+     "kuro desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     177770,
+     2320
+    ],
+    "frs": [
+     180490,
+     3000
+    ],
+    "en": [
+     183890,
+     1500
+    ],
+    "wd": [
+     185790,
+     6940
+    ],
+    "wp": [
+     [
+      185790,
+      3010
+     ],
+     [
+      189200,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "もういっぴきは、白と黒です。",
+   "en": "The last one is black and white.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "もういっぴきは",
+     "the last one (topic)"
+    ],
+    [
+     "白と黒です",
+     "is white and black"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "frs": 4490,
+    "en": 2220,
+    "wd": 8540
+   },
+   "kana": "もう いっぴきは、しろと くろです。",
+   "romaji": "Mou ippiki wa, shiro to kuro desu.",
+   "wr": [
+    [
+     "もういっぴきは",
+     "mou ippiki wa"
+    ],
+    [
+     "しろとくろです",
+     "shiro to kuro desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     193130,
+     3310
+    ],
+    "frs": [
+     196840,
+     4490
+    ],
+    "en": [
+     201730,
+     2220
+    ],
+    "wd": [
+     204350,
+     8540
+    ],
+    "wp": [
+     [
+      204350,
+      3720
+     ],
+     [
+      208470,
+      3570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "田中さんは「名前はまだありません」と言いました。",
+   "en": "Mrs. Tanaka said, \"They don't have names yet.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "田中さんは",
+     "Mrs. Tanaka (topic)"
+    ],
+    [
+     "名前は",
+     "names (topic)"
+    ],
+    [
+     "まだ",
+     "yet (with a negative)"
+    ],
+    [
+     "ありません",
+     "there aren't"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4760,
+    "frs": 6650,
+    "en": 3460,
+    "wd": 17860
+   },
+   "kana": "たなかさんは 「なまえは まだ ありません」と いいました。",
+   "romaji": "Tanaka-san wa \"namae wa mada arimasen\" to iimashita.",
+   "wr": [
+    [
+     "たなかさんは",
+     "Tanaka-san wa"
+    ],
+    [
+     "なまえは",
+     "namae wa"
+    ],
+    [
+     "まだ",
+     "mada"
+    ],
+    [
+     "ありません",
+     "arimasen"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     213290,
+     4760
+    ],
+    "frs": [
+     218450,
+     6650
+    ],
+    "en": [
+     225500,
+     3460
+    ],
+    "wd": [
+     229360,
+     17860
+    ],
+    "wp": [
+     [
+      229360,
+      3950
+     ],
+     [
+      233710,
+      3210
+     ],
+     [
+      237320,
+      2990
+     ],
+     [
+      240710,
+      2630
+     ],
+     [
+      243740,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "田中さんは私たちを見ました。",
+   "en": "Mrs. Tanaka looked at us.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "田中さんは",
+     "Mrs. Tanaka (topic)"
+    ],
+    [
+     "私たちを",
+     "us (object)"
+    ],
+    [
+     "見ました",
+     "looked at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3260,
+    "frs": 4420,
+    "en": 2100,
+    "wd": 11370
+   },
+   "kana": "たなかさんは わたしたちを みました。",
+   "romaji": "Tanaka-san wa watashitachi o mimashita.",
+   "wr": [
+    [
+     "たなかさんは",
+     "Tanaka-san wa"
+    ],
+    [
+     "わたしたちを",
+     "watashitachi o"
+    ],
+    [
+     "みました",
+     "mimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     247620,
+     3260
+    ],
+    "frs": [
+     251280,
+     4420
+    ],
+    "en": [
+     256100,
+     2100
+    ],
+    "wd": [
+     258600,
+     11370
+    ],
+    "wp": [
+     [
+      258600,
+      3950
+     ],
+     [
+      262950,
+      3250
+     ],
+     [
+      266600,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「なにがいいですか。」",
+   "en": "\"What would be good?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "なにが",
+     "what"
+    ],
+    [
+     "いいですか",
+     "is good?"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2130,
+    "frs": 2710,
+    "en": 1570,
+    "wd": 6240
+   },
+   "kana": "「なにが いいですか。」",
+   "romaji": "\"Nani ga ii desu ka.\"",
+   "wr": [
+    [
+     "なにが",
+     "nani ga"
+    ],
+    [
+     "いいですか",
+     "ii desu ka"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     270370,
+     2130
+    ],
+    "frs": [
+     272900,
+     2710
+    ],
+    "en": [
+     276010,
+     1570
+    ],
+    "wd": [
+     277980,
+     6240
+    ],
+    "wp": [
+     [
+      277980,
+      2290
+     ],
+     [
+      280670,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは「白い猫は、シロ！」と言いました。",
+   "en": "Yuki said, \"The white cat: Shiro!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "白い猫は",
+     "the white cat (topic)"
+    ],
+    [
+     "シロ",
+     "Shiro (\"Whitey\")"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "frs": 6750,
+    "en": 3110,
+    "wd": 14710
+   },
+   "kana": "ユキさんは 「しろい ねこは、シロ！」と いいました。",
+   "romaji": "Yuki-san wa \"shiroi neko wa, Shiro!\" to iimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "しろいねこは",
+     "shiroi neko wa"
+    ],
+    [
+     "シロ",
+     "Shiro"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     284620,
+     4820
+    ],
+    "frs": [
+     289840,
+     6750
+    ],
+    "en": [
+     296990,
+     3110
+    ],
+    "wd": [
+     300500,
+     14710
+    ],
+    "wp": [
+     [
+      300500,
+      3350
+     ],
+     [
+      304250,
+      3890
+     ],
+     [
+      308539,
+      2790
+     ],
+     [
+      311730,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "田中さんは笑いました。",
+   "en": "Mrs. Tanaka laughed.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "田中さんは",
+     "Mrs. Tanaka (topic)"
+    ],
+    [
+     "笑いました",
+     "laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3420,
+    "en": 1910,
+    "wd": 7970
+   },
+   "kana": "たなかさんは わらいました。",
+   "romaji": "Tanaka-san wa waraimashita.",
+   "wr": [
+    [
+     "たなかさんは",
+     "Tanaka-san wa"
+    ],
+    [
+     "わらいました",
+     "waraimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     315610,
+     2600
+    ],
+    "frs": [
+     318610,
+     3420
+    ],
+    "en": [
+     322430,
+     1910
+    ],
+    "wd": [
+     324740,
+     7970
+    ],
+    "wp": [
+     [
+      324740,
+      3950
+     ],
+     [
+      329090,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「クロとシロ。かんたんですね。」",
+   "en": "\"Kuro and Shiro. That's easy, isn't it.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "クロとシロ",
+     "Kuro and Shiro"
+    ],
+    [
+     "かんたんですね",
+     "is easy, isn't it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5250,
+    "en": 3340,
+    "wd": 8150
+   },
+   "kana": "「クロと シロ。かんたんですね。」",
+   "romaji": "\"Kuro to Shiro. Kantan desu ne.\"",
+   "wr": [
+    [
+     "クロとシロ",
+     "Kuro to Shiro"
+    ],
+    [
+     "かんたんですね",
+     "kantan desu ne"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     333110,
+     3810
+    ],
+    "frs": [
+     337320,
+     5250
+    ],
+    "en": [
+     342970,
+     3340
+    ],
+    "wd": [
+     346710,
+     8150
+    ],
+    "wp": [
+     [
+      346710,
+      3350
+     ],
+     [
+      350460,
+      3550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "黒い子猫は、クロと同じ色です。",
+   "en": "The black kitten is the same color as Kuro.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "黒い子猫は",
+     "the black kitten (topic)"
+    ],
+    [
+     "クロと",
+     "as Kuro"
+    ],
+    [
+     "同じ",
+     "the same"
+    ],
+    [
+     "色です",
+     "is a color"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5060,
+    "en": 3110,
+    "wd": 13920
+   },
+   "kana": "くろい こねこは、クロと おなじ いろです。",
+   "romaji": "Kuroi koneko wa, Kuro to onaji iro desu.",
+   "wr": [
+    [
+     "くろいこねこは",
+     "kuroi koneko wa"
+    ],
+    [
+     "クロと",
+     "Kuro to"
+    ],
+    [
+     "おなじ",
+     "onaji"
+    ],
+    [
+     "いろです",
+     "iro desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     355260,
+     3690
+    ],
+    "frs": [
+     359350,
+     5060
+    ],
+    "en": [
+     364810,
+     3110
+    ],
+    "wd": [
+     368320,
+     13920
+    ],
+    "wp": [
+     [
+      368320,
+      4070
+     ],
+     [
+      372790,
+      2600
+     ],
+     [
+      375790,
+      2530
+     ],
+     [
+      378720,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私は「小さいから、チビ！」と言いました。",
+   "en": "I said, \"She's tiny, so: Chibi!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "小さいから",
+     "because (she's) small"
+    ],
+    [
+     "チビ",
+     "Chibi (\"Tiny\")"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4480,
+    "frs": 6240,
+    "en": 2980,
+    "wd": 14380
+   },
+   "kana": "わたしは 「ちいさいから、チビ！」と いいました。",
+   "romaji": "Watashi wa \"chiisai kara, Chibi!\" to iimashita.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "ちいさいから",
+     "chiisai kara"
+    ],
+    [
+     "チビ",
+     "Chibi"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     382640,
+     4480
+    ],
+    "frs": [
+     387520,
+     6240
+    ],
+    "en": [
+     394160,
+     2980
+    ],
+    "wd": [
+     397540,
+     14380
+    ],
+    "wp": [
+     [
+      397540,
+      2780
+     ],
+     [
+      400720,
+      4050
+     ],
+     [
+      405170,
+      2870
+     ],
+     [
+      408440,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは「いい名前ですね！」と言いました。",
+   "en": "Yuki said, \"That's a good name!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "いい",
+     "good"
+    ],
+    [
+     "名前ですね",
+     "is a name, isn't it"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4370,
+    "frs": 6090,
+    "en": 2750,
+    "wd": 13700
+   },
+   "kana": "ユキさんは 「いい なまえですね！」と いいました。",
+   "romaji": "Yuki-san wa \"ii namae desu ne!\" to iimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "いい",
+     "ii"
+    ],
+    [
+     "なまえですね",
+     "namae desu ne"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     412320,
+     4370
+    ],
+    "frs": [
+     417090,
+     6090
+    ],
+    "en": [
+     423580,
+     2750
+    ],
+    "wd": [
+     426730,
+     13700
+    ],
+    "wp": [
+     [
+      426730,
+      3350
+     ],
+     [
+      430480,
+      2050
+     ],
+     [
+      432930,
+      3620
+     ],
+     [
+      436950,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "白と黒の子猫は？",
+   "en": "And the black and white kitten?",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "白と黒の",
+     "black and white"
+    ],
+    [
+     "子猫は",
+     "the kitten (topic)?"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2650,
+    "frs": 3490,
+    "en": 2040,
+    "wd": 7630
+   },
+   "kana": "しろと くろの こねこは？",
+   "romaji": "Shiro to kuro no koneko wa?",
+   "wr": [
+    [
+     "しろとくろの",
+     "shiro to kuro no"
+    ],
+    [
+     "こねこは",
+     "koneko wa"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     440830,
+     2650
+    ],
+    "frs": [
+     443880,
+     3490
+    ],
+    "en": [
+     447770,
+     2040
+    ],
+    "wd": [
+     450210,
+     7630
+    ],
+    "wp": [
+     [
+      450210,
+      3170
+     ],
+     [
+      453780,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "みんなで考えました。",
+   "en": "We all thought about it.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "みんなで",
+     "all together"
+    ],
+    [
+     "考えました",
+     "thought"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2430,
+    "frs": 3150,
+    "en": 1600,
+    "wd": 6740
+   },
+   "kana": "みんなで かんがえました。",
+   "romaji": "Minna de kangaemashita.",
+   "wr": [
+    [
+     "みんなで",
+     "minna de"
+    ],
+    [
+     "かんがえました",
+     "kangaemashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     458240,
+     2430
+    ],
+    "frs": [
+     461070,
+     3150
+    ],
+    "en": [
+     464620,
+     1600
+    ],
+    "wd": [
+     466620,
+     6740
+    ],
+    "wp": [
+     [
+      466620,
+      2750
+     ],
+     [
+      469770,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「パンダ？」",
+   "en": "\"Panda?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "パンダ",
+     "panda"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 1490,
+    "frs": 1750,
+    "en": 1150,
+    "wd": 3170
+   },
+   "kana": "「パンダ？」",
+   "romaji": "\"Panda?\"",
+   "wr": [
+    [
+     "パンダ",
+     "panda"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     473760,
+     1490
+    ],
+    "frs": [
+     475650,
+     1750
+    ],
+    "en": [
+     477800,
+     1150
+    ],
+    "wd": [
+     479350,
+     3170
+    ],
+    "wp": [
+     [
+      479350,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「ゴマ？」",
+   "en": "\"Goma?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ゴマ",
+     "sesame (comes in black and white)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 1340,
+    "frs": 1550,
+    "en": 1110,
+    "wd": 4630
+   },
+   "kana": "「ゴマ？」",
+   "romaji": "\"Goma?\"",
+   "wr": [
+    [
+     "ゴマ",
+     "goma"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     482920,
+     1340
+    ],
+    "frs": [
+     484660,
+     1550
+    ],
+    "en": [
+     486610,
+     1110
+    ],
+    "wd": [
+     488120,
+     4630
+    ],
+    "wp": [
+     [
+      488120,
+      3780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「おにぎり？」",
+   "en": "\"Onigiri?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "おにぎり",
+     "rice ball (white rice, black seaweed)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 1590,
+    "frs": 1910,
+    "en": 1530,
+    "wd": 5570
+   },
+   "kana": "「おにぎり？」",
+   "romaji": "\"Onigiri?\"",
+   "wr": [
+    [
+     "おにぎり",
+     "onigiri"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     493150,
+     1590
+    ],
+    "frs": [
+     495140,
+     1910
+    ],
+    "en": [
+     497450,
+     1530
+    ],
+    "wd": [
+     499380,
+     5570
+    ],
+    "wp": [
+     [
+      499380,
+      4720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "その時、白と黒の子猫が、私のおにぎりの上で寝ました！",
+   "en": "Just then, the black and white kitten fell asleep on my rice ball!",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "その時",
+     "at that moment"
+    ],
+    [
+     "白と黒の",
+     "black and white"
+    ],
+    [
+     "子猫が",
+     "the kitten"
+    ],
+    [
+     "私の",
+     "my"
+    ],
+    [
+     "おにぎりの上で",
+     "on the rice ball"
+    ],
+    [
+     "寝ました",
+     "fell asleep"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 6030,
+    "frs": 8560,
+    "en": 4380,
+    "wd": 20230
+   },
+   "kana": "その とき、しろと くろの こねこが、わたしの おにぎりの うえで ねました！",
+   "romaji": "Sono toki, shiro to kuro no koneko ga, watashi no onigiri no ue de nemashita!",
+   "wr": [
+    [
+     "そのとき",
+     "sono toki"
+    ],
+    [
+     "しろとくろの",
+     "shiro to kuro no"
+    ],
+    [
+     "こねこが",
+     "koneko ga"
+    ],
+    [
+     "わたしの",
+     "watashi no"
+    ],
+    [
+     "おにぎりのうえで",
+     "onigiri no ue de"
+    ],
+    [
+     "ねました",
+     "nemashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     505350,
+     6030
+    ],
+    "frs": [
+     511780,
+     8560
+    ],
+    "en": [
+     520740,
+     4380
+    ],
+    "wd": [
+     525520,
+     20230
+    ],
+    "wp": [
+     [
+      525520,
+      2930
+     ],
+     [
+      528850,
+      3170
+     ],
+     [
+      532420,
+      2650
+     ],
+     [
+      535470,
+      2500
+     ],
+     [
+      538370,
+      3440
+     ],
+     [
+      542210,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "みんな大きい声で笑いました。",
+   "en": "Everyone laughed out loud.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "みんな",
+     "everyone"
+    ],
+    [
+     "大きい声で",
+     "in a loud voice"
+    ],
+    [
+     "笑いました",
+     "laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "frs": 4190,
+    "en": 2080,
+    "wd": 10430
+   },
+   "kana": "みんな おおきい こえで わらいました。",
+   "romaji": "Minna ookii koe de waraimashita.",
+   "wr": [
+    [
+     "みんな",
+     "minna"
+    ],
+    [
+     "おおきいこえで",
+     "ookii koe de"
+    ],
+    [
+     "わらいました",
+     "waraimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     546150,
+     3120
+    ],
+    "frs": [
+     549670,
+     4190
+    ],
+    "en": [
+     554260,
+     2080
+    ],
+    "wd": [
+     556740,
+     10430
+    ],
+    "wp": [
+     [
+      556740,
+      2440
+     ],
+     [
+      559580,
+      3570
+     ],
+     [
+      563550,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「名前は、おにぎりです！」",
+   "en": "\"Its name is Onigiri!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "名前は",
+     "the name (topic)"
+    ],
+    [
+     "おにぎりです",
+     "is Onigiri"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3410,
+    "en": 2320,
+    "wd": 7780
+   },
+   "kana": "「なまえは、おにぎりです！」",
+   "romaji": "\"Namae wa, onigiri desu!\"",
+   "wr": [
+    [
+     "なまえは",
+     "namae wa"
+    ],
+    [
+     "おにぎりです",
+     "onigiri desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     567570,
+     2600
+    ],
+    "frs": [
+     570570,
+     3410
+    ],
+    "en": [
+     574380,
+     2320
+    ],
+    "wd": [
+     577100,
+     7780
+    ],
+    "wp": [
+     [
+      577100,
+      3300
+     ],
+     [
+      580800,
+      3230
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "こねこの なまえ",
+ "title_romaji": "Koneko no namae",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   15400
+  ],
+  "silence": [
+   16200,
+   30000
+  ]
+ }
+}

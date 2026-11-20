@@ -1,0 +1,1904 @@
+{
+ "id": "ja_s0_e07",
+ "lang": "ja",
+ "title": "カラオケ",
+ "author": "Original story (AI-generated)",
+ "level": "A2",
+ "series": "Mika in Tokyo (first steps)",
+ "episode": "7",
+ "note": "It's Yuki's birthday, her 誕生日. Her colleagues go to karaoke, and Mika has to choose a song. Mika doesn't sing well.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 15140,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "金曜日は、ユキさんの誕生日でした。",
+   "en": "Friday was Yuki's birthday.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "金曜日は",
+     "Friday (topic)"
+    ],
+    [
+     "ユキさんの",
+     "Yuki's"
+    ],
+    [
+     "誕生日でした",
+     "was a birthday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "frs": 5580,
+    "en": 2290,
+    "wd": 11060
+   },
+   "kana": "きんようびは、ユキさんの たんじょうびでした。",
+   "romaji": "Kin'youbi wa, Yuki-san no tanjoubi deshita.",
+   "wr": [
+    [
+     "きんようびは",
+     "kin'youbi wa"
+    ],
+    [
+     "ユキさんの",
+     "Yuki-san no"
+    ],
+    [
+     "たんじょうびでした",
+     "tanjoubi deshita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     46340,
+     4040
+    ],
+    "frs": [
+     50780,
+     5580
+    ],
+    "en": [
+     56760,
+     2290
+    ],
+    "wd": [
+     59450,
+     11060
+    ],
+    "wp": [
+     [
+      59450,
+      3240
+     ],
+     [
+      63090,
+      2800
+     ],
+     [
+      66290,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "会社の人たちとカラオケに行きました。",
+   "en": "I went to karaoke with people from the office.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "会社の人たちと",
+     "with people from the company"
+    ],
+    [
+     "カラオケに",
+     "to karaoke"
+    ],
+    [
+     "行きました",
+     "went"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3710,
+    "frs": 5090,
+    "en": 2910,
+    "wd": 11230
+   },
+   "kana": "かいしゃの ひとたちと カラオケに いきました。",
+   "romaji": "Kaisha no hitotachi to karaoke ni ikimashita.",
+   "wr": [
+    [
+     "かいしゃのひとたちと",
+     "kaisha no hitotachi to"
+    ],
+    [
+     "カラオケに",
+     "karaoke ni"
+    ],
+    [
+     "いきました",
+     "ikimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     70910,
+     3710
+    ],
+    "frs": [
+     75020,
+     5090
+    ],
+    "en": [
+     80510,
+     2910
+    ],
+    "wd": [
+     83820,
+     11230
+    ],
+    "wp": [
+     [
+      83820,
+      4000
+     ],
+     [
+      88220,
+      3020
+     ],
+     [
+      91640,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "部屋は小さくて、暗いです。",
+   "en": "The room is small and dark.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "部屋は",
+     "the room (topic)"
+    ],
+    [
+     "小さくて",
+     "small and"
+    ],
+    [
+     "暗いです",
+     "is dark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4340,
+    "en": 2330,
+    "wd": 10450
+   },
+   "kana": "へやは ちいさくて、くらいです。",
+   "romaji": "Heya wa chiisakute, kurai desu.",
+   "wr": [
+    [
+     "へやは",
+     "heya wa"
+    ],
+    [
+     "ちいさくて",
+     "chiisakute"
+    ],
+    [
+     "くらいです",
+     "kurai desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     95450,
+     3220
+    ],
+    "frs": [
+     99070,
+     4340
+    ],
+    "en": [
+     103810,
+     2330
+    ],
+    "wd": [
+     106540,
+     10450
+    ],
+    "wp": [
+     [
+      106540,
+      3180
+     ],
+     [
+      110120,
+      2880
+     ],
+     [
+      113400,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "テレビとマイクが二本あります。",
+   "en": "There's a TV and two microphones.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "テレビと",
+     "a TV and"
+    ],
+    [
+     "マイクが",
+     "microphones"
+    ],
+    [
+     "二本",
+     "two (ほん counts long things; sounds like 日本!)"
+    ],
+    [
+     "あります",
+     "there are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "frs": 4170,
+    "en": 2810,
+    "wd": 15430
+   },
+   "kana": "テレビと マイクが にほん あります。",
+   "romaji": "Terebi to maiku ga nihon arimasu.",
+   "wr": [
+    [
+     "テレビと",
+     "terebi to"
+    ],
+    [
+     "マイクが",
+     "maiku ga"
+    ],
+    [
+     "にほん",
+     "nihon"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     117390,
+     3090
+    ],
+    "frs": [
+     120880,
+     4170
+    ],
+    "en": [
+     125450,
+     2810
+    ],
+    "wd": [
+     128660,
+     15430
+    ],
+    "wp": [
+     [
+      128660,
+      2880
+     ],
+     [
+      131940,
+      2880
+     ],
+     [
+      135220,
+      5100
+     ],
+     [
+      140720,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "最初に、ユキさんが歌いました。",
+   "en": "First, Yuki sang.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "最初に",
+     "first"
+    ],
+    [
+     "ユキさんが",
+     "Yuki"
+    ],
+    [
+     "歌いました",
+     "sang"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4600,
+    "en": 2009,
+    "wd": 9680
+   },
+   "kana": "さいしょに、ユキさんが うたいました。",
+   "romaji": "Saisho ni, Yuki-san ga utaimashita.",
+   "wr": [
+    [
+     "さいしょに",
+     "saisho ni"
+    ],
+    [
+     "ユキさんが",
+     "Yuki-san ga"
+    ],
+    [
+     "うたいました",
+     "utaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     144490,
+     3390
+    ],
+    "frs": [
+     148280,
+     4600
+    ],
+    "en": [
+     153280,
+     2009
+    ],
+    "wd": [
+     155690,
+     9680
+    ],
+    "wp": [
+     [
+      155690,
+      2660
+     ],
+     [
+      158750,
+      2680
+     ],
+     [
+      161830,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは歌がとても上手です。",
+   "en": "Yuki is very good at singing.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "歌が",
+     "singing"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "上手です",
+     "is good at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3470,
+    "frs": 4760,
+    "en": 2190,
+    "wd": 12970
+   },
+   "kana": "ユキさんは うたが とても じょうずです。",
+   "romaji": "Yuki-san wa uta ga totemo jouzu desu.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "うたが",
+     "uta ga"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "じょうずです",
+     "jouzu desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     165770,
+     3470
+    ],
+    "frs": [
+     169640,
+     4760
+    ],
+    "en": [
+     174800,
+     2190
+    ],
+    "wd": [
+     177390,
+     12970
+    ],
+    "wp": [
+     [
+      177390,
+      3350
+     ],
+     [
+      181140,
+      2410
+     ],
+     [
+      183950,
+      2360
+     ],
+     [
+      186710,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "みんな手をたたきました。",
+   "en": "Everyone clapped.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "みんな",
+     "everyone"
+    ],
+    [
+     "手を",
+     "hands (object)"
+    ],
+    [
+     "たたきました",
+     "clapped (same verb as \"knocked\")"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2470,
+    "frs": 3220,
+    "en": 1670,
+    "wd": 11210
+   },
+   "kana": "みんな てを たたきました。",
+   "romaji": "Minna te o tatakimashita.",
+   "wr": [
+    [
+     "みんな",
+     "minna"
+    ],
+    [
+     "てを",
+     "te o"
+    ],
+    [
+     "たたきました",
+     "tatakimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     190760,
+     2470
+    ],
+    "frs": [
+     193630,
+     3220
+    ],
+    "en": [
+     197250,
+     1670
+    ],
+    "wd": [
+     199320,
+     11210
+    ],
+    "wp": [
+     [
+      199320,
+      2440
+     ],
+     [
+      202160,
+      2800
+     ],
+     [
+      205360,
+      4319
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "次は、部長です。",
+   "en": "Next is the department head.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "次は",
+     "next (topic)"
+    ],
+    [
+     "部長です",
+     "is the department head (the boss)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2500,
+    "frs": 3280,
+    "en": 2110,
+    "wd": 8230
+   },
+   "kana": "つぎは、ぶちょうです。",
+   "romaji": "Tsugi wa, buchou desu.",
+   "wr": [
+    [
+     "つぎは",
+     "tsugi wa"
+    ],
+    [
+     "ぶちょうです",
+     "buchou desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     210930,
+     2500
+    ],
+    "frs": [
+     213830,
+     3280
+    ],
+    "en": [
+     217510,
+     2110
+    ],
+    "wd": [
+     220020,
+     8230
+    ],
+    "wp": [
+     [
+      220020,
+      2950
+     ],
+     [
+      223370,
+      4030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "部長は古い歌を歌いました。",
+   "en": "The boss sang an old song.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "部長は",
+     "the boss (topic)"
+    ],
+    [
+     "古い",
+     "old"
+    ],
+    [
+     "歌を",
+     "a song (object)"
+    ],
+    [
+     "歌いました",
+     "sang"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3270,
+    "frs": 4430,
+    "en": 2200,
+    "wd": 13490
+   },
+   "kana": "ぶちょうは ふるい うたを うたいました。",
+   "romaji": "Buchou wa furui uta o utaimashita.",
+   "wr": [
+    [
+     "ぶちょうは",
+     "buchou wa"
+    ],
+    [
+     "ふるい",
+     "furui"
+    ],
+    [
+     "うたを",
+     "uta o"
+    ],
+    [
+     "うたいました",
+     "utaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     228650,
+     3270
+    ],
+    "frs": [
+     232320,
+     4430
+    ],
+    "en": [
+     237150,
+     2200
+    ],
+    "wd": [
+     239750,
+     13490
+    ],
+    "wp": [
+     [
+      239750,
+      3470
+     ],
+     [
+      243620,
+      2240
+     ],
+     [
+      246260,
+      3040
+     ],
+     [
+      249700,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "あまり上手じゃありません。",
+   "en": "He's not very good.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "あまり",
+     "(not) very (with a negative)"
+    ],
+    [
+     "上手じゃありません",
+     "isn't good at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2650,
+    "frs": 3510,
+    "en": 1700,
+    "wd": 8490
+   },
+   "kana": "あまり じょうずじゃ ありません。",
+   "romaji": "Amari jouzu ja arimasen.",
+   "wr": [
+    [
+     "あまり",
+     "amari"
+    ],
+    [
+     "じょうずじゃありません",
+     "jouzu ja arimasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     253640,
+     2650
+    ],
+    "frs": [
+     256690,
+     3510
+    ],
+    "en": [
+     260600,
+     1700
+    ],
+    "wd": [
+     262700,
+     8490
+    ],
+    "wp": [
+     [
+      262700,
+      3770
+     ],
+     [
+      266870,
+      3470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、とても楽しそうです。",
+   "en": "But he looks like he's having a great time.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "楽しそうです",
+     "looks like having fun"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3060,
+    "frs": 4120,
+    "en": 2450,
+    "wd": 9550
+   },
+   "kana": "でも、とても たのしそうです。",
+   "romaji": "Demo, totemo tanoshisou desu.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "たのしそうです",
+     "tanoshisou desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     271590,
+     3060
+    ],
+    "frs": [
+     275050,
+     4120
+    ],
+    "en": [
+     279570,
+     2450
+    ],
+    "wd": [
+     282420,
+     9550
+    ],
+    "wp": [
+     [
+      282420,
+      2060
+     ],
+     [
+      284880,
+      2360
+     ],
+     [
+      287640,
+      3480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは「ミカさんも歌ってください！」と言いました。",
+   "en": "Yuki said, \"Mika, please sing too!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "ミカさんも",
+     "Mika, too"
+    ],
+    [
+     "歌ってください",
+     "please sing"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7020,
+    "en": 3110,
+    "wd": 14110
+   },
+   "kana": "ユキさんは 「ミカさんも うたって ください！」と いいました。",
+   "romaji": "Yuki-san wa \"Mika-san mo utatte kudasai!\" to iimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "ミカさんも",
+     "Mika-san mo"
+    ],
+    [
+     "うたってください",
+     "utatte kudasai"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     292370,
+     5010
+    ],
+    "frs": [
+     297780,
+     7020
+    ],
+    "en": [
+     305200,
+     3110
+    ],
+    "wd": [
+     308710,
+     14110
+    ],
+    "wp": [
+     [
+      308710,
+      3350
+     ],
+     [
+      312460,
+      2980
+     ],
+     [
+      315840,
+      3100
+     ],
+     [
+      319340,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私は歌が下手です。",
+   "en": "I'm bad at singing.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "歌が",
+     "singing"
+    ],
+    [
+     "下手です",
+     "am bad at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2640,
+    "frs": 3480,
+    "en": 1610,
+    "wd": 9570
+   },
+   "kana": "わたしは うたが へたです。",
+   "romaji": "Watashi wa uta ga heta desu.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "うたが",
+     "uta ga"
+    ],
+    [
+     "へたです",
+     "heta desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     323220,
+     2640
+    ],
+    "frs": [
+     326260,
+     3480
+    ],
+    "en": [
+     330140,
+     1610
+    ],
+    "wd": [
+     332150,
+     9570
+    ],
+    "wp": [
+     [
+      332150,
+      2780
+     ],
+     [
+      335330,
+      2410
+     ],
+     [
+      338140,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "それに、日本の歌を知りません。",
+   "en": "And I don't know any Japanese songs.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "それに",
+     "besides"
+    ],
+    [
+     "日本の歌を",
+     "Japanese songs (object)"
+    ],
+    [
+     "知りません",
+     "don't know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3540,
+    "frs": 4830,
+    "en": 2460,
+    "wd": 11210
+   },
+   "kana": "それに、にほんの うたを しりません。",
+   "romaji": "Soreni, Nihon no uta o shirimasen.",
+   "wr": [
+    [
+     "それに",
+     "soreni"
+    ],
+    [
+     "にほんのうたを",
+     "Nihon no uta o"
+    ],
+    [
+     "しりません",
+     "shirimasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     342120,
+     3540
+    ],
+    "frs": [
+     346060,
+     4830
+    ],
+    "en": [
+     351290,
+     2460
+    ],
+    "wd": [
+     354150,
+     11210
+    ],
+    "wp": [
+     [
+      354150,
+      2630
+     ],
+     [
+      357180,
+      4170
+     ],
+     [
+      361750,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「英語の歌でもいいですよ。」",
+   "en": "\"An English song is fine too.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "英語の歌でも",
+     "even an English song"
+    ],
+    [
+     "いいですよ",
+     "is fine, you know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2720,
+    "frs": 3610,
+    "en": 2380,
+    "wd": 8000
+   },
+   "kana": "「えいごの うたでも いいですよ。」",
+   "romaji": "\"Eigo no uta demo ii desu yo.\"",
+   "wr": [
+    [
+     "えいごのうたでも",
+     "eigo no uta demo"
+    ],
+    [
+     "いいですよ",
+     "ii desu yo"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     365760,
+     2720
+    ],
+    "frs": [
+     368880,
+     3610
+    ],
+    "en": [
+     372890,
+     2380
+    ],
+    "wd": [
+     375670,
+     8000
+    ],
+    "wp": [
+     [
+      375670,
+      3770
+     ],
+     [
+      379840,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんはやさしいです。",
+   "en": "Yuki is kind.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "やさしいです",
+     "is kind"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2610,
+    "frs": 3450,
+    "en": 1610,
+    "wd": 7560
+   },
+   "kana": "ユキさんは やさしいです。",
+   "romaji": "Yuki-san wa yasashii desu.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "やさしいです",
+     "yasashii desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     384070,
+     2610
+    ],
+    "frs": [
+     387080,
+     3450
+    ],
+    "en": [
+     390930,
+     1610
+    ],
+    "wd": [
+     392940,
+     7560
+    ],
+    "wp": [
+     [
+      392940,
+      3350
+     ],
+     [
+      396690,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私は「ハッピーバースデー」を歌いました。",
+   "en": "I sang \"Happy Birthday\".",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "ハッピーバースデー",
+     "\"Happy Birthday\""
+    ],
+    [
+     "を",
+     "(marks the object)"
+    ],
+    [
+     "歌いました",
+     "sang"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4160,
+    "frs": 5750,
+    "en": 2000,
+    "wd": 13610
+   },
+   "kana": "わたしは 「ハッピーバースデー」を うたいました。",
+   "romaji": "Watashi wa \"Happii Baasudee\" o utaimashita.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "ハッピーバースデー",
+     "happii baasudee"
+    ],
+    [
+     "を",
+     "o"
+    ],
+    [
+     "うたいました",
+     "utaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     400900,
+     4160
+    ],
+    "frs": [
+     405460,
+     5750
+    ],
+    "en": [
+     411610,
+     2000
+    ],
+    "wd": [
+     414010,
+     13610
+    ],
+    "wp": [
+     [
+      414010,
+      2780
+     ],
+     [
+      417190,
+      3500
+     ],
+     [
+      421090,
+      2590
+     ],
+     [
+      424080,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "すると、みんなもいっしょに歌いました。",
+   "en": "Then everyone sang along.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "すると",
+     "and then (as a result)"
+    ],
+    [
+     "みんなも",
+     "everyone, too"
+    ],
+    [
+     "いっしょに",
+     "together"
+    ],
+    [
+     "歌いました",
+     "sang"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "frs": 4970,
+    "en": 2080,
+    "wd": 13720
+   },
+   "kana": "すると、みんなも いっしょに うたいました。",
+   "romaji": "Suruto, minna mo issho ni utaimashita.",
+   "wr": [
+    [
+     "すると",
+     "suruto"
+    ],
+    [
+     "みんなも",
+     "minna mo"
+    ],
+    [
+     "いっしょに",
+     "issho ni"
+    ],
+    [
+     "うたいました",
+     "utaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     428020,
+     3650
+    ],
+    "frs": [
+     432070,
+     4970
+    ],
+    "en": [
+     437440,
+     2080
+    ],
+    "wd": [
+     439920,
+     13720
+    ],
+    "wp": [
+     [
+      439920,
+      3610
+     ],
+     [
+      443930,
+      2850
+     ],
+     [
+      447180,
+      2520
+     ],
+     [
+      450100,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "部長はいちばん大きい声で歌いました。",
+   "en": "The boss sang the loudest.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "部長は",
+     "the boss (topic)"
+    ],
+    [
+     "いちばん",
+     "the most"
+    ],
+    [
+     "大きい声で",
+     "in a loud voice"
+    ],
+    [
+     "歌いました",
+     "sang"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3950,
+    "frs": 5460,
+    "en": 2100,
+    "wd": 14450
+   },
+   "kana": "ぶちょうは いちばん おおきい こえで うたいました。",
+   "romaji": "Buchou wa ichiban ookii koe de utaimashita.",
+   "wr": [
+    [
+     "ぶちょうは",
+     "buchou wa"
+    ],
+    [
+     "いちばん",
+     "ichiban"
+    ],
+    [
+     "おおきいこえで",
+     "ookii koe de"
+    ],
+    [
+     "うたいました",
+     "utaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     454040,
+     3950
+    ],
+    "frs": [
+     458390,
+     5460
+    ],
+    "en": [
+     464250,
+     2100
+    ],
+    "wd": [
+     466750,
+     14450
+    ],
+    "wp": [
+     [
+      466750,
+      3470
+     ],
+     [
+      470620,
+      2670
+     ],
+     [
+      473690,
+      3570
+     ],
+     [
+      477660,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ユキさんは少し泣きました。",
+   "en": "Yuki cried a little.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "少し",
+     "a little"
+    ],
+    [
+     "泣きました",
+     "cried"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2910,
+    "frs": 3880,
+    "en": 1810,
+    "wd": 10140
+   },
+   "kana": "ユキさんは すこし なきました。",
+   "romaji": "Yuki-san wa sukoshi nakimashita.",
+   "wr": [
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "すこし",
+     "sukoshi"
+    ],
+    [
+     "なきました",
+     "nakimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     481600,
+     2910
+    ],
+    "frs": [
+     484910,
+     3880
+    ],
+    "en": [
+     489190,
+     1810
+    ],
+    "wd": [
+     491400,
+     10140
+    ],
+    "wp": [
+     [
+      491400,
+      3350
+     ],
+     [
+      495150,
+      2500
+     ],
+     [
+      498050,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「みなさん、ありがとうございます。うれしいです。」",
+   "en": "\"Everyone, thank you. I'm so happy.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "みなさん",
+     "everyone (when speaking to a group)"
+    ],
+    [
+     "ありがとうございます",
+     "thank you (polite)"
+    ],
+    [
+     "うれしいです",
+     "am happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "frs": 7060,
+    "en": 3080,
+    "wd": 12200
+   },
+   "kana": "「みなさん、ありがとうございます。うれしいです。」",
+   "romaji": "\"Minasan, arigatou gozaimasu. Ureshii desu.\"",
+   "wr": [
+    [
+     "みなさん",
+     "minasan"
+    ],
+    [
+     "ありがとうございます",
+     "arigatou gozaimasu"
+    ],
+    [
+     "うれしいです",
+     "ureshii desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     501940,
+     5010
+    ],
+    "frs": [
+     507350,
+     7060
+    ],
+    "en": [
+     514809,
+     3080
+    ],
+    "wd": [
+     518289,
+     12200
+    ],
+    "wp": [
+     [
+      518289,
+      3950
+     ],
+     [
+      522639,
+      3690
+     ],
+     [
+      526729,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "帰りの電車で、ユキさんは言いました。",
+   "en": "On the train home, Yuki said:",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "帰りの電車で",
+     "on the train home"
+    ],
+    [
+     "ユキさんは",
+     "Yuki (topic)"
+    ],
+    [
+     "言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "frs": 5100,
+    "en": 2580,
+    "wd": 10940
+   },
+   "kana": "かえりの でんしゃで、ユキさんは いいました。",
+   "romaji": "Kaeri no densha de, Yuki-san wa iimashita.",
+   "wr": [
+    [
+     "かえりのでんしゃで",
+     "kaeri no densha de"
+    ],
+    [
+     "ユキさんは",
+     "Yuki-san wa"
+    ],
+    [
+     "いいました",
+     "iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     530890,
+     3740
+    ],
+    "frs": [
+     535030,
+     5100
+    ],
+    "en": [
+     540530,
+     2580
+    ],
+    "wd": [
+     543510,
+     10940
+    ],
+    "wp": [
+     [
+      543510,
+      3420
+     ],
+     [
+      547330,
+      3350
+     ],
+     [
+      551080,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「ミカさんの歌、いちばんよかったです。」",
+   "en": "\"Mika, your song was the best.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ミカさんの歌",
+     "Mika's song"
+    ],
+    [
+     "いちばん",
+     "the most"
+    ],
+    [
+     "よかったです",
+     "was good (いい → よかった)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3480,
+    "frs": 4720,
+    "en": 2660,
+    "wd": 11650
+   },
+   "kana": "「ミカさんの うた、いちばん よかったです。」",
+   "romaji": "\"Mika-san no uta, ichiban yokatta desu.\"",
+   "wr": [
+    [
+     "ミカさんのうた",
+     "Mika-san no uta"
+    ],
+    [
+     "いちばん",
+     "ichiban"
+    ],
+    [
+     "よかったです",
+     "yokatta desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     554850,
+     3480
+    ],
+    "frs": [
+     558730,
+     4720
+    ],
+    "en": [
+     563850,
+     2660
+    ],
+    "wd": [
+     566910,
+     11650
+    ],
+    "wp": [
+     [
+      566910,
+      3330
+     ],
+     [
+      570640,
+      2670
+     ],
+     [
+      573710,
+      4000
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "カラオケ",
+ "title_romaji": "Karaoke",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   15140
+  ],
+  "silence": [
+   15940,
+   30000
+  ]
+ }
+}

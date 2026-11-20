@@ -1,0 +1,2156 @@
+{
+ "id": "ja_s0_e03",
+ "lang": "ja",
+ "title": "電車",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Mika in Tokyo (first steps)",
+ "episode": "3",
+ "note": "Mika takes the train, the 電車, to her first day at a new job. Tokyo trains are famous for being on time, and for being very full.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 16120,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "月曜日です。",
+   "en": "It's Monday.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "月曜日です",
+     "it's Monday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 1970,
+    "frs": 2510,
+    "en": 1360,
+    "wd": 3990
+   },
+   "kana": "げつようびです。",
+   "romaji": "Getsuyoubi desu.",
+   "wr": [
+    [
+     "げつようびです",
+     "getsuyoubi desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     47320,
+     1970
+    ],
+    "frs": [
+     49690,
+     2510
+    ],
+    "en": [
+     52600,
+     1360
+    ],
+    "wd": [
+     54360,
+     3990
+    ],
+    "wp": [
+     [
+      54360,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "今日から、新しい仕事です。",
+   "en": "Starting today, I have a new job.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "今日から",
+     "from today"
+    ],
+    [
+     "新しい",
+     "new"
+    ],
+    [
+     "仕事です",
+     "is a job"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "frs": 4400,
+    "en": 2630,
+    "wd": 9780
+   },
+   "kana": "きょうから、あたらしい しごとです。",
+   "romaji": "Kyou kara, atarashii shigoto desu.",
+   "wr": [
+    [
+     "きょうから",
+     "kyou kara"
+    ],
+    [
+     "あたらしい",
+     "atarashii"
+    ],
+    [
+     "しごとです",
+     "shigoto desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     58750,
+     3250
+    ],
+    "frs": [
+     62400,
+     4400
+    ],
+    "en": [
+     67200,
+     2630
+    ],
+    "wd": [
+     70230,
+     9780
+    ],
+    "wp": [
+     [
+      70230,
+      2600
+     ],
+     [
+      73230,
+      2650
+     ],
+     [
+      76280,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "会社は新宿にあります。",
+   "en": "The company is in Shinjuku.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "会社は",
+     "the company (topic)"
+    ],
+    [
+     "新宿に",
+     "in Shinjuku"
+    ],
+    [
+     "あります",
+     "is (for things)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2760,
+    "frs": 3640,
+    "en": 2430,
+    "wd": 11050
+   },
+   "kana": "かいしゃは しんじゅくに あります。",
+   "romaji": "Kaisha wa Shinjuku ni arimasu.",
+   "wr": [
+    [
+     "かいしゃは",
+     "kaisha wa"
+    ],
+    [
+     "しんじゅくに",
+     "Shinjuku ni"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     80410,
+     2760
+    ],
+    "frs": [
+     83570,
+     3640
+    ],
+    "en": [
+     87610,
+     2430
+    ],
+    "wd": [
+     90440,
+     11050
+    ],
+    "wp": [
+     [
+      90440,
+      3340
+     ],
+     [
+      94180,
+      3100
+     ],
+     [
+      97680,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "電車で二十分です。",
+   "en": "It's twenty minutes by train.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "電車で",
+     "by train"
+    ],
+    [
+     "二十分です",
+     "is twenty minutes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "frs": 3340,
+    "en": 2130,
+    "wd": 7320
+   },
+   "kana": "でんしゃで にじゅっぷんです。",
+   "romaji": "Densha de nijuppun desu.",
+   "wr": [
+    [
+     "でんしゃで",
+     "densha de"
+    ],
+    [
+     "にじゅっぷんです",
+     "nijuppun desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     101890,
+     2540
+    ],
+    "frs": [
+     104830,
+     3340
+    ],
+    "en": [
+     108570,
+     2130
+    ],
+    "wd": [
+     111100,
+     7320
+    ],
+    "wp": [
+     [
+      111100,
+      2680
+     ],
+     [
+      114180,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "仕事はくじからです。",
+   "en": "Work starts at nine.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "仕事は",
+     "work (topic)"
+    ],
+    [
+     "くじから",
+     "from nine o'clock"
+    ],
+    [
+     "です",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2570,
+    "frs": 3370,
+    "en": 1710,
+    "wd": 9930
+   },
+   "kana": "しごとは くじからです。",
+   "romaji": "Shigoto wa kuji kara desu.",
+   "wr": [
+    [
+     "しごとは",
+     "shigoto wa"
+    ],
+    [
+     "くじから",
+     "kuji kara"
+    ],
+    [
+     "です",
+     "desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     118820,
+     2570
+    ],
+    "frs": [
+     121790,
+     3370
+    ],
+    "en": [
+     125560,
+     1710
+    ],
+    "wd": [
+     127670,
+     9930
+    ],
+    "wp": [
+     [
+      127670,
+      3110
+     ],
+     [
+      131180,
+      2990
+     ],
+     [
+      134570,
+      2180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "駅に人がたくさんいます。",
+   "en": "There are lots of people at the station.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "駅に",
+     "at the station"
+    ],
+    [
+     "人が",
+     "people"
+    ],
+    [
+     "たくさん",
+     "a lot"
+    ],
+    [
+     "います",
+     "there are"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "frs": 3810,
+    "en": 2360,
+    "wd": 12050
+   },
+   "kana": "えきに ひとが たくさん います。",
+   "romaji": "Eki ni hito ga takusan imasu.",
+   "wr": [
+    [
+     "えきに",
+     "eki ni"
+    ],
+    [
+     "ひとが",
+     "hito ga"
+    ],
+    [
+     "たくさん",
+     "takusan"
+    ],
+    [
+     "います",
+     "imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     138000,
+     2860
+    ],
+    "frs": [
+     141260,
+     3810
+    ],
+    "en": [
+     145470,
+     2360
+    ],
+    "wd": [
+     148230,
+     12050
+    ],
+    "wp": [
+     [
+      148230,
+      2700
+     ],
+     [
+      151330,
+      2360
+     ],
+     [
+      154090,
+      2560
+     ],
+     [
+      157050,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "みんな速く歩きます。",
+   "en": "Everyone walks fast.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "みんな",
+     "everyone"
+    ],
+    [
+     "速く",
+     "fast (く turns an adjective into an adverb)"
+    ],
+    [
+     "歩きます",
+     "walk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 2550,
+    "frs": 3330,
+    "en": 1950,
+    "wd": 11780
+   },
+   "kana": "みんな はやく あるきます。",
+   "romaji": "Minna hayaku arukimasu.",
+   "wr": [
+    [
+     "みんな",
+     "minna"
+    ],
+    [
+     "はやく",
+     "hayaku"
+    ],
+    [
+     "あるきます",
+     "arukimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     160680,
+     2550
+    ],
+    "frs": [
+     163630,
+     3330
+    ],
+    "en": [
+     167360,
+     1950
+    ],
+    "wd": [
+     169710,
+     11780
+    ],
+    "wp": [
+     [
+      169710,
+      2440
+     ],
+     [
+      172550,
+      5040
+     ],
+     [
+      177990,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "電車が来ました。",
+   "en": "The train came.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "電車が",
+     "the train"
+    ],
+    [
+     "来ました",
+     "came"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2110,
+    "frs": 2690,
+    "en": 1520,
+    "wd": 6370
+   },
+   "kana": "でんしゃが きました。",
+   "romaji": "Densha ga kimashita.",
+   "wr": [
+    [
+     "でんしゃが",
+     "densha ga"
+    ],
+    [
+     "きました",
+     "kimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     181890,
+     2110
+    ],
+    "frs": [
+     184400,
+     2690
+    ],
+    "en": [
+     187490,
+     1520
+    ],
+    "wd": [
+     189410,
+     6370
+    ],
+    "wp": [
+     [
+      189410,
+      2700
+     ],
+     [
+      192510,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "八時五分です。",
+   "en": "It's 8:05.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "八時",
+     "eight o'clock"
+    ],
+    [
+     "五分です",
+     "is five minutes (past)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2230,
+    "frs": 2880,
+    "en": 1700,
+    "wd": 7740
+   },
+   "kana": "はちじ ごふんです。",
+   "romaji": "Hachiji gofun desu.",
+   "wr": [
+    [
+     "はちじ",
+     "hachiji"
+    ],
+    [
+     "ごふんです",
+     "gofun desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     196180,
+     2230
+    ],
+    "frs": [
+     198810,
+     2880
+    ],
+    "en": [
+     202090,
+     1700
+    ],
+    "wd": [
+     204190,
+     7740
+    ],
+    "wp": [
+     [
+      204190,
+      2670
+     ],
+     [
+      207260,
+      3820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "時間どおりです！",
+   "en": "Right on time!",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "時間どおり",
+     "on time"
+    ],
+    [
+     "です",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2080,
+    "frs": 2650,
+    "en": 1470,
+    "wd": 6300
+   },
+   "kana": "じかんどおりです！",
+   "romaji": "Jikan doori desu!",
+   "wr": [
+    [
+     "じかんどおり",
+     "jikan doori"
+    ],
+    [
+     "です",
+     "desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     212330,
+     2080
+    ],
+    "frs": [
+     214810,
+     2650
+    ],
+    "en": [
+     217860,
+     1470
+    ],
+    "wd": [
+     219730,
+     6300
+    ],
+    "wp": [
+     [
+      219730,
+      2870
+     ],
+     [
+      223000,
+      2180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "電車の中は、とても混んでいます。",
+   "en": "Inside the train, it's very crowded.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "電車の中は",
+     "inside the train (topic)"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "混んでいます",
+     "is crowded"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3640,
+    "frs": 4990,
+    "en": 2790,
+    "wd": 11030
+   },
+   "kana": "でんしゃの なかは、とても こんで います。",
+   "romaji": "Densha no naka wa, totemo konde imasu.",
+   "wr": [
+    [
+     "でんしゃのなかは",
+     "densha no naka wa"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "こんでいます",
+     "konde imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     226430,
+     3640
+    ],
+    "frs": [
+     230470,
+     4990
+    ],
+    "en": [
+     235860,
+     2790
+    ],
+    "wd": [
+     239050,
+     11030
+    ],
+    "wp": [
+     [
+      239050,
+      4180
+     ],
+     [
+      243630,
+      2360
+     ],
+     [
+      246390,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私は動けません。",
+   "en": "I can't move.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "動けません",
+     "can't move"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2360,
+    "frs": 3060,
+    "en": 1520,
+    "wd": 6980
+   },
+   "kana": "わたしは うごけません。",
+   "romaji": "Watashi wa ugokemasen.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "うごけません",
+     "ugokemasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     250480,
+     2360
+    ],
+    "frs": [
+     253240,
+     3060
+    ],
+    "en": [
+     256700,
+     1520
+    ],
+    "wd": [
+     258620,
+     6980
+    ],
+    "wp": [
+     [
+      258620,
+      2780
+     ],
+     [
+      261800,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、とても静かです。",
+   "en": "But it's very quiet.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "静かです",
+     "is quiet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 3990,
+    "en": 1710,
+    "wd": 9000
+   },
+   "kana": "でも、とても しずかです。",
+   "romaji": "Demo, totemo shizuka desu.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "しずかです",
+     "shizuka desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     266000,
+     2980
+    ],
+    "frs": [
+     269380,
+     3990
+    ],
+    "en": [
+     273770,
+     1710
+    ],
+    "wd": [
+     275880,
+     9000
+    ],
+    "wp": [
+     [
+      275880,
+      2060
+     ],
+     [
+      278340,
+      2360
+     ],
+     [
+      281100,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "だれも話しません。",
+   "en": "Nobody talks.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "だれも",
+     "nobody (with a negative)"
+    ],
+    [
+     "話しません",
+     "doesn't talk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 3000,
+    "en": 1580,
+    "wd": 7550
+   },
+   "kana": "だれも はなしません。",
+   "romaji": "Daremo hanashimasen.",
+   "wr": [
+    [
+     "だれも",
+     "daremo"
+    ],
+    [
+     "はなしません",
+     "hanashimasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     285280,
+     2250
+    ],
+    "frs": [
+     287930,
+     3000
+    ],
+    "en": [
+     291330,
+     1580
+    ],
+    "wd": [
+     293310,
+     7550
+    ],
+    "wp": [
+     [
+      293310,
+      3270
+     ],
+     [
+      296980,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "となりの人は寝ています。",
+   "en": "The person next to me is sleeping.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "となりの人は",
+     "the person next to me (topic)"
+    ],
+    [
+     "寝ています",
+     "is sleeping"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3430,
+    "en": 2410,
+    "wd": 8290
+   },
+   "kana": "となりの ひとは ねて います。",
+   "romaji": "Tonari no hito wa nete imasu.",
+   "wr": [
+    [
+     "となりのひとは",
+     "tonari no hito wa"
+    ],
+    [
+     "ねています",
+     "nete imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     301260,
+     2600
+    ],
+    "frs": [
+     304260,
+     3430
+    ],
+    "en": [
+     308090,
+     2410
+    ],
+    "wd": [
+     310900,
+     8290
+    ],
+    "wp": [
+     [
+      310900,
+      4220
+     ],
+     [
+      315520,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "立って寝ています！",
+   "en": "Sleeping standing up!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "立って",
+     "standing (how he does it)"
+    ],
+    [
+     "寝ています",
+     "is sleeping"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2029,
+    "frs": 2550,
+    "en": 1800,
+    "wd": 7500
+   },
+   "kana": "たって ねて います！",
+   "romaji": "Tatte nete imasu!",
+   "wr": [
+    [
+     "たって",
+     "tatte"
+    ],
+    [
+     "ねています",
+     "nete imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     319590,
+     2029
+    ],
+    "frs": [
+     322020,
+     2550
+    ],
+    "en": [
+     324970,
+     1800
+    ],
+    "wd": [
+     327170,
+     7500
+    ],
+    "wp": [
+     [
+      327170,
+      3430
+     ],
+     [
+      331000,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「次は、新宿です。」",
+   "en": "\"Next stop, Shinjuku.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "次は",
+     "next (topic)"
+    ],
+    [
+     "新宿です",
+     "is Shinjuku"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "frs": 3550,
+    "en": 2260,
+    "wd": 7440
+   },
+   "kana": "「つぎは、しんじゅくです。」",
+   "romaji": "\"Tsugi wa, Shinjuku desu.\"",
+   "wr": [
+    [
+     "つぎは",
+     "tsugi wa"
+    ],
+    [
+     "しんじゅくです",
+     "Shinjuku desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     335070,
+     2680
+    ],
+    "frs": [
+     338150,
+     3550
+    ],
+    "en": [
+     342100,
+     2260
+    ],
+    "wd": [
+     344760,
+     7440
+    ],
+    "wp": [
+     [
+      344760,
+      2950
+     ],
+     [
+      348110,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ドアがあきました。",
+   "en": "The doors opened.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ドアが",
+     "the door"
+    ],
+    [
+     "あきました",
+     "opened"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "frs": 2610,
+    "en": 1510,
+    "wd": 6340
+   },
+   "kana": "ドアが あきました。",
+   "romaji": "Doa ga akimashita.",
+   "wr": [
+    [
+     "ドアが",
+     "doa ga"
+    ],
+    [
+     "あきました",
+     "akimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     352600,
+     2050
+    ],
+    "frs": [
+     355050,
+     2610
+    ],
+    "en": [
+     358060,
+     1510
+    ],
+    "wd": [
+     359970,
+     6340
+    ],
+    "wp": [
+     [
+      359970,
+      2490
+     ],
+     [
+      362860,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "たくさんの人がいっしょにおります。",
+   "en": "Lots of people get off together.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "たくさんの人が",
+     "lots of people"
+    ],
+    [
+     "いっしょに",
+     "together"
+    ],
+    [
+     "おります",
+     "get off"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "frs": 4180,
+    "en": 2180,
+    "wd": 9950
+   },
+   "kana": "たくさんの ひとが いっしょに おります。",
+   "romaji": "Takusan no hito ga issho ni orimasu.",
+   "wr": [
+    [
+     "たくさんのひとが",
+     "takusan no hito ga"
+    ],
+    [
+     "いっしょに",
+     "issho ni"
+    ],
+    [
+     "おります",
+     "orimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     366710,
+     3110
+    ],
+    "frs": [
+     370220,
+     4180
+    ],
+    "en": [
+     374800,
+     2180
+    ],
+    "wd": [
+     377380,
+     9950
+    ],
+    "wp": [
+     [
+      377380,
+      3300
+     ],
+     [
+      381080,
+      2520
+     ],
+     [
+      384000,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私もおりました。",
+   "en": "I got off too.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "私も",
+     "I, too"
+    ],
+    [
+     "おりました",
+     "got off"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2190,
+    "frs": 2790,
+    "en": 1550,
+    "wd": 6520
+   },
+   "kana": "わたしも おりました。",
+   "romaji": "Watashi mo orimashita.",
+   "wr": [
+    [
+     "わたしも",
+     "watashi mo"
+    ],
+    [
+     "おりました",
+     "orimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     387730,
+     2190
+    ],
+    "frs": [
+     390320,
+     2790
+    ],
+    "en": [
+     393510,
+     1550
+    ],
+    "wd": [
+     395460,
+     6520
+    ],
+    "wp": [
+     [
+      395460,
+      2620
+     ],
+     [
+      398480,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "新宿駅はとても大きいです。",
+   "en": "Shinjuku station is very big.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "新宿駅は",
+     "Shinjuku station (topic)"
+    ],
+    [
+     "とても",
+     "very"
+    ],
+    [
+     "大きいです",
+     "is big"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 3430,
+    "frs": 4680,
+    "en": 2800,
+    "wd": 11350
+   },
+   "kana": "しんじゅくえきは とても おおきいです。",
+   "romaji": "Shinjuku-eki wa totemo ookii desu.",
+   "wr": [
+    [
+     "しんじゅくえきは",
+     "Shinjuku-eki wa"
+    ],
+    [
+     "とても",
+     "totemo"
+    ],
+    [
+     "おおきいです",
+     "ookii desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     402380,
+     3430
+    ],
+    "frs": [
+     406210,
+     4680
+    ],
+    "en": [
+     411290,
+     2800
+    ],
+    "wd": [
+     414490,
+     11350
+    ],
+    "wp": [
+     [
+      414490,
+      4430
+     ],
+     [
+      419320,
+      2360
+     ],
+     [
+      422080,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "出口がたくさんあります。",
+   "en": "There are lots of exits.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "出口が",
+     "exits"
+    ],
+    [
+     "たくさん",
+     "a lot"
+    ],
+    [
+     "あります",
+     "there are (for things)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 2630,
+    "frs": 3500,
+    "en": 1890,
+    "wd": 10210
+   },
+   "kana": "でぐちが たくさん あります。",
+   "romaji": "Deguchi ga takusan arimasu.",
+   "wr": [
+    [
+     "でぐちが",
+     "deguchi ga"
+    ],
+    [
+     "たくさん",
+     "takusan"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     426240,
+     2630
+    ],
+    "frs": [
+     429270,
+     3500
+    ],
+    "en": [
+     433170,
+     1890
+    ],
+    "wd": [
+     435460,
+     10210
+    ],
+    "wp": [
+     [
+      435460,
+      2770
+     ],
+     [
+      438630,
+      2560
+     ],
+     [
+      441590,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「すみません、東口はどこですか。」",
+   "en": "\"Excuse me, where is the east exit?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "すみません",
+     "excuse me"
+    ],
+    [
+     "東口は",
+     "the east exit (topic)"
+    ],
+    [
+     "どこですか",
+     "where is it?"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "frs": 5140,
+    "en": 2910,
+    "wd": 11140
+   },
+   "kana": "「すみません、ひがしぐちは どこですか。」",
+   "romaji": "\"Sumimasen, higashiguchi wa doko desu ka.\"",
+   "wr": [
+    [
+     "すみません",
+     "sumimasen"
+    ],
+    [
+     "ひがしぐちは",
+     "higashiguchi wa"
+    ],
+    [
+     "どこですか",
+     "doko desu ka"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     446070,
+     3730
+    ],
+    "frs": [
+     450200,
+     5140
+    ],
+    "en": [
+     455740,
+     2910
+    ],
+    "wd": [
+     459050,
+     11140
+    ],
+    "wp": [
+     [
+      459050,
+      2890
+     ],
+     [
+      462340,
+      3930
+     ],
+     [
+      466670,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "駅の人は「あちらです」と言いました。",
+   "en": "The station worker said, \"Over there.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "駅の人は",
+     "the station worker (topic)"
+    ],
+    [
+     "あちらです",
+     "it's over there"
+    ],
+    [
+     "と言いました",
+     "said (と marks a quote)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 4090,
+    "frs": 5660,
+    "en": 2920,
+    "wd": 12310
+   },
+   "kana": "えきの ひとは 「あちらです」と いいました。",
+   "romaji": "Eki no hito wa \"achira desu\" to iimashita.",
+   "wr": [
+    [
+     "えきのひとは",
+     "eki no hito wa"
+    ],
+    [
+     "あちらです",
+     "achira desu"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     470590,
+     4090
+    ],
+    "frs": [
+     475080,
+     5660
+    ],
+    "en": [
+     481140,
+     2920
+    ],
+    "wd": [
+     484460,
+     12310
+    ],
+    "wp": [
+     [
+      484460,
+      3970
+     ],
+     [
+      488830,
+      2870
+     ],
+     [
+      492100,
+      3820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "八時四十分に、会社に着きました。",
+   "en": "At 8:40, I arrived at the company.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "八時四十分に",
+     "at 8:40"
+    ],
+    [
+     "会社に",
+     "at the company"
+    ],
+    [
+     "着きました",
+     "arrived"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "frs": 5580,
+    "en": 2880,
+    "wd": 10860
+   },
+   "kana": "はちじ よんじゅっぷんに、かいしゃに つきました。",
+   "romaji": "Hachiji yonjuppun ni, kaisha ni tsukimashita.",
+   "wr": [
+    [
+     "はちじよんじゅっぷんに",
+     "hachiji yonjuppun ni"
+    ],
+    [
+     "かいしゃに",
+     "kaisha ni"
+    ],
+    [
+     "つきました",
+     "tsukimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     497170,
+     4040
+    ],
+    "frs": [
+     501610,
+     5580
+    ],
+    "en": [
+     507590,
+     2880
+    ],
+    "wd": [
+     510870,
+     10860
+    ],
+    "wp": [
+     [
+      510870,
+      3710
+     ],
+     [
+      514980,
+      2770
+     ],
+     [
+      518150,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "ちょっとつかれました。",
+   "en": "I'm a little tired.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "ちょっと",
+     "a little"
+    ],
+    [
+     "つかれました",
+     "got tired"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2210,
+    "frs": 2820,
+    "en": 1590,
+    "wd": 6540
+   },
+   "kana": "ちょっと つかれました。",
+   "romaji": "Chotto tsukaremashita.",
+   "wr": [
+    [
+     "ちょっと",
+     "chotto"
+    ],
+    [
+     "つかれました",
+     "tsukaremashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     522130,
+     2210
+    ],
+    "frs": [
+     524740,
+     2820
+    ],
+    "en": [
+     527960,
+     1590
+    ],
+    "wd": [
+     529950,
+     6540
+    ],
+    "wp": [
+     [
+      529950,
+      2360
+     ],
+     [
+      532710,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、遅れませんでした。",
+   "en": "But I wasn't late.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "遅れませんでした",
+     "wasn't late"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "frs": 3680,
+    "en": 1590,
+    "wd": 6660
+   },
+   "kana": "でも、おくれませんでした。",
+   "romaji": "Demo, okuremasen deshita.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "おくれませんでした",
+     "okuremasen deshita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     536890,
+     2770
+    ],
+    "frs": [
+     540060,
+     3680
+    ],
+    "en": [
+     544140,
+     1590
+    ],
+    "wd": [
+     546130,
+     6660
+    ],
+    "wp": [
+     [
+      546130,
+      2060
+     ],
+     [
+      548590,
+      3350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私も時間どおりです！",
+   "en": "I'm on time too!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "私も",
+     "I, too"
+    ],
+    [
+     "時間どおりです",
+     "am on time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2600,
+    "frs": 3420,
+    "en": 1600,
+    "wd": 7120
+   },
+   "kana": "わたしも じかんどおりです！",
+   "romaji": "Watashi mo jikan doori desu!",
+   "wr": [
+    [
+     "わたしも",
+     "watashi mo"
+    ],
+    [
+     "じかんどおりです",
+     "jikan doori desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     553190,
+     2600
+    ],
+    "frs": [
+     556190,
+     3420
+    ],
+    "en": [
+     560010,
+     1600
+    ],
+    "wd": [
+     562010,
+     7120
+    ],
+    "wp": [
+     [
+      562010,
+      2620
+     ],
+     [
+      565030,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "東京の電車と同じです！",
+   "en": "Just like the Tokyo trains!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "東京の電車と",
+     "(the same) as the Tokyo trains (と…同じ = same as)"
+    ],
+    [
+     "同じです",
+     "the same"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "frs": 3790,
+    "en": 2220,
+    "wd": 11050
+   },
+   "kana": "とうきょうの でんしゃと おなじです！",
+   "romaji": "Toukyou no densha to onaji desu!",
+   "wr": [
+    [
+     "とうきょうのでんしゃと",
+     "Toukyou no densha to"
+    ],
+    [
+     "おなじです",
+     "onaji desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     569530,
+     2860
+    ],
+    "frs": [
+     572790,
+     3790
+    ],
+    "en": [
+     576980,
+     2220
+    ],
+    "wd": [
+     579600,
+     11050
+    ],
+    "wp": [
+     [
+      579600,
+      6990
+     ],
+     [
+      586990,
+      2810
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "でんしゃ",
+ "title_romaji": "Densha",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   16120
+  ],
+  "silence": [
+   16920,
+   30000
+  ]
+ }
+}

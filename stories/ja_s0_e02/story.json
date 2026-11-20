@@ -1,0 +1,2092 @@
+{
+ "id": "ja_s0_e02",
+ "lang": "ja",
+ "title": "朝ご飯",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "Mika in Tokyo (first steps)",
+ "episode": "2",
+ "note": "Mika's first morning in Tokyo. She has nothing in her fridge, so she goes to a convenience store, a コンビニ.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 14180,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "朝、しちじに起きました。",
+   "en": "In the morning, I got up at seven.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "朝",
+     "morning"
+    ],
+    [
+     "しちじに",
+     "at seven o'clock"
+    ],
+    [
+     "起きました",
+     "got up"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "frs": 3740,
+    "en": 2460,
+    "wd": 9540
+   },
+   "kana": "あさ、しちじに おきました。",
+   "romaji": "Asa, shichiji ni okimashita.",
+   "wr": [
+    [
+     "あさ",
+     "asa"
+    ],
+    [
+     "しちじに",
+     "shichiji ni"
+    ],
+    [
+     "おきました",
+     "okimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     45380,
+     2820
+    ],
+    "frs": [
+     48600,
+     3740
+    ],
+    "en": [
+     52740,
+     2460
+    ],
+    "wd": [
+     55600,
+     9540
+    ],
+    "wp": [
+     [
+      55600,
+      2220
+     ],
+     [
+      58220,
+      3090
+     ],
+     [
+      61710,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "おなかがすきました。",
+   "en": "I got hungry.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "おなかが",
+     "stomach"
+    ],
+    [
+     "すきました",
+     "became empty (= I'm hungry)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2200,
+    "frs": 2830,
+    "en": 1490,
+    "wd": 7840
+   },
+   "kana": "おなかが すきました。",
+   "romaji": "Onaka ga sukimashita.",
+   "wr": [
+    [
+     "おなかが",
+     "onaka ga"
+    ],
+    [
+     "すきました",
+     "sukimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     65540,
+     2200
+    ],
+    "frs": [
+     68140,
+     2830
+    ],
+    "en": [
+     71370,
+     1490
+    ],
+    "wd": [
+     73260,
+     7840
+    ],
+    "wp": [
+     [
+      73260,
+      2530
+     ],
+     [
+      76190,
+      4060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "でも、冷蔵庫に何もありません。",
+   "en": "But there is nothing in the fridge.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "でも",
+     "but"
+    ],
+    [
+     "冷蔵庫に",
+     "in the fridge"
+    ],
+    [
+     "何も",
+     "nothing (with a negative)"
+    ],
+    [
+     "ありません",
+     "there isn't (for things)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4780,
+    "en": 2210,
+    "wd": 13740
+   },
+   "kana": "でも、れいぞうこに なにも ありません。",
+   "romaji": "Demo, reizouko ni nani mo arimasen.",
+   "wr": [
+    [
+     "でも",
+     "demo"
+    ],
+    [
+     "れいぞうこに",
+     "reizouko ni"
+    ],
+    [
+     "なにも",
+     "nani mo"
+    ],
+    [
+     "ありません",
+     "arimasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     81500,
+     3490
+    ],
+    "frs": [
+     85390,
+     4780
+    ],
+    "en": [
+     90570,
+     2210
+    ],
+    "wd": [
+     93180,
+     13740
+    ],
+    "wp": [
+     [
+      93180,
+      2060
+     ],
+     [
+      95640,
+      3050
+     ],
+     [
+      99090,
+      3270
+     ],
+     [
+      102760,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "水もありません。",
+   "en": "There's no water either.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "水も",
+     "water, too"
+    ],
+    [
+     "ありません",
+     "there isn't"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2060,
+    "frs": 2610,
+    "en": 1810,
+    "wd": 6590
+   },
+   "kana": "みずも ありません。",
+   "romaji": "Mizu mo arimasen.",
+   "wr": [
+    [
+     "みずも",
+     "mizu mo"
+    ],
+    [
+     "ありません",
+     "arimasen"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     107320,
+     2060
+    ],
+    "frs": [
+     109780,
+     2610
+    ],
+    "en": [
+     112790,
+     1810
+    ],
+    "wd": [
+     115000,
+     6590
+    ],
+    "wp": [
+     [
+      115000,
+      2670
+     ],
+     [
+      118070,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "コンビニに行きます。",
+   "en": "I'm going to the convenience store.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "コンビニに",
+     "to the convenience store"
+    ],
+    [
+     "行きます",
+     "go"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 2200,
+    "frs": 2790,
+    "en": 2100,
+    "wd": 6980
+   },
+   "kana": "コンビニに いきます。",
+   "romaji": "Konbini ni ikimasu.",
+   "wr": [
+    [
+     "コンビニに",
+     "konbini ni"
+    ],
+    [
+     "いきます",
+     "ikimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     121990,
+     2200
+    ],
+    "frs": [
+     124590,
+     2790
+    ],
+    "en": [
+     127780,
+     2100
+    ],
+    "wd": [
+     130280,
+     6980
+    ],
+    "wp": [
+     [
+      130280,
+      3350
+     ],
+     [
+      134030,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "コンビニは駅の前にあります。",
+   "en": "The convenience store is in front of the station.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "コンビニは",
+     "the convenience store (topic)"
+    ],
+    [
+     "駅の前に",
+     "in front of the station"
+    ],
+    [
+     "あります",
+     "is (for things)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3100,
+    "frs": 4170,
+    "en": 3000,
+    "wd": 11860
+   },
+   "kana": "コンビニは えきの まえに あります。",
+   "romaji": "Konbini wa eki no mae ni arimasu.",
+   "wr": [
+    [
+     "コンビニは",
+     "konbini wa"
+    ],
+    [
+     "えきのまえに",
+     "eki no mae ni"
+    ],
+    [
+     "あります",
+     "arimasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     137660,
+     3100
+    ],
+    "frs": [
+     141160,
+     4170
+    ],
+    "en": [
+     145730,
+     3000
+    ],
+    "wd": [
+     149130,
+     11860
+    ],
+    "wp": [
+     [
+      149130,
+      3850
+     ],
+     [
+      153380,
+      3400
+     ],
+     [
+      157180,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「いらっしゃいませ！」",
+   "en": "\"Welcome!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "いらっしゃいませ",
+     "welcome (said by shop staff)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 1910,
+    "frs": 2380,
+    "en": 1240,
+    "wd": 4880
+   },
+   "kana": "「いらっしゃいませ！」",
+   "romaji": "\"Irasshaimase!\"",
+   "wr": [
+    [
+     "いらっしゃいませ",
+     "irasshaimase"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     161390,
+     1910
+    ],
+    "frs": [
+     163700,
+     2380
+    ],
+    "en": [
+     166480,
+     1240
+    ],
+    "wd": [
+     168120,
+     4880
+    ],
+    "wp": [
+     [
+      168120,
+      4030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "店の人は元気な男の人です。",
+   "en": "The shop clerk is a cheerful man.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "店の人は",
+     "the shop clerk (topic)"
+    ],
+    [
+     "元気な",
+     "cheerful, energetic"
+    ],
+    [
+     "男の人です",
+     "is a man"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "frs": 4860,
+    "en": 2480,
+    "wd": 12180
+   },
+   "kana": "みせの ひとは げんきな おとこの ひとです。",
+   "romaji": "Mise no hito wa genki na otoko no hito desu.",
+   "wr": [
+    [
+     "みせのひとは",
+     "mise no hito wa"
+    ],
+    [
+     "げんきな",
+     "genki na"
+    ],
+    [
+     "おとこのひとです",
+     "otoko no hito desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     173400,
+     3580
+    ],
+    "frs": [
+     177380,
+     4860
+    ],
+    "en": [
+     182640,
+     2480
+    ],
+    "wd": [
+     185520,
+     12180
+    ],
+    "wp": [
+     [
+      185520,
+      3820
+     ],
+     [
+      189740,
+      3460
+     ],
+     [
+      193600,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "おにぎりを二つ買いました。",
+   "en": "I bought two rice balls.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "おにぎりを",
+     "rice balls (object)"
+    ],
+    [
+     "二つ",
+     "two (things)"
+    ],
+    [
+     "買いました",
+     "bought"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3560,
+    "en": 2029,
+    "wd": 10460
+   },
+   "kana": "おにぎりを ふたつ かいました。",
+   "romaji": "Onigiri o futatsu kaimashita.",
+   "wr": [
+    [
+     "おにぎりを",
+     "onigiri o"
+    ],
+    [
+     "ふたつ",
+     "futatsu"
+    ],
+    [
+     "かいました",
+     "kaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     198100,
+     2700
+    ],
+    "frs": [
+     201200,
+     3560
+    ],
+    "en": [
+     205160,
+     2029
+    ],
+    "wd": [
+     207590,
+     10460
+    ],
+    "wp": [
+     [
+      207590,
+      3470
+     ],
+     [
+      211460,
+      2790
+     ],
+     [
+      214650,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "それから、お茶も買いました。",
+   "en": "Then I bought tea too.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "それから",
+     "then, after that"
+    ],
+    [
+     "お茶も",
+     "tea, too"
+    ],
+    [
+     "買いました",
+     "bought"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3050,
+    "frs": 4100,
+    "en": 1740,
+    "wd": 9800
+   },
+   "kana": "それから、おちゃも かいました。",
+   "romaji": "Sorekara, ocha mo kaimashita.",
+   "wr": [
+    [
+     "それから",
+     "sorekara"
+    ],
+    [
+     "おちゃも",
+     "ocha mo"
+    ],
+    [
+     "かいました",
+     "kaimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     218450,
+     3050
+    ],
+    "frs": [
+     221900,
+     4100
+    ],
+    "en": [
+     226400,
+     1740
+    ],
+    "wd": [
+     228540,
+     9800
+    ],
+    "wp": [
+     [
+      228540,
+      3050
+     ],
+     [
+      231990,
+      2550
+     ],
+     [
+      234940,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "店の人は「全部で五百円です」と言いました。",
+   "en": "The clerk said, \"That's five hundred yen altogether.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "店の人は",
+     "the clerk (topic)"
+    ],
+    [
+     "全部で",
+     "altogether"
+    ],
+    [
+     "五百円です",
+     "is five hundred yen"
+    ],
+    [
+     "と言いました",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4960,
+    "frs": 6950,
+    "en": 3960,
+    "wd": 14610
+   },
+   "kana": "みせの ひとは 「ぜんぶで ごひゃくえんです」と いいました。",
+   "romaji": "Mise no hito wa \"zenbu de gohyaku-en desu\" to iimashita.",
+   "wr": [
+    [
+     "みせのひとは",
+     "mise no hito wa"
+    ],
+    [
+     "ぜんぶで",
+     "zenbu de"
+    ],
+    [
+     "ごひゃくえんです",
+     "gohyaku-en desu"
+    ],
+    [
+     "といいました",
+     "to iimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     238740,
+     4960
+    ],
+    "frs": [
+     244100,
+     6950
+    ],
+    "en": [
+     251450,
+     3960
+    ],
+    "wd": [
+     255810,
+     14610
+    ],
+    "wp": [
+     [
+      255810,
+      3570
+     ],
+     [
+      259780,
+      2780
+     ],
+     [
+      262960,
+      3580
+     ],
+     [
+      266940,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "安いです！",
+   "en": "That's cheap!",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "安いです",
+     "is cheap"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 1730,
+    "frs": 2140,
+    "en": 1370,
+    "wd": 3670
+   },
+   "kana": "やすいです！",
+   "romaji": "Yasui desu!",
+   "wr": [
+    [
+     "やすいです",
+     "yasui desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     270820,
+     1730
+    ],
+    "frs": [
+     272950,
+     2140
+    ],
+    "en": [
+     275490,
+     1370
+    ],
+    "wd": [
+     277260,
+     3670
+    ],
+    "wp": [
+     [
+      277260,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "店の外に、黒い猫がいます。",
+   "en": "Outside the shop, there's a black cat.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "店の外に",
+     "outside the shop"
+    ],
+    [
+     "黒い",
+     "black"
+    ],
+    [
+     "猫が",
+     "a cat"
+    ],
+    [
+     "います",
+     "there is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4580,
+    "en": 2800,
+    "wd": 12580
+   },
+   "kana": "みせの そとに、くろい ねこが います。",
+   "romaji": "Mise no soto ni, kuroi neko ga imasu.",
+   "wr": [
+    [
+     "みせのそとに",
+     "mise no soto ni"
+    ],
+    [
+     "くろい",
+     "kuroi"
+    ],
+    [
+     "ねこが",
+     "neko ga"
+    ],
+    [
+     "います",
+     "imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     281330,
+     3390
+    ],
+    "frs": [
+     285120,
+     4580
+    ],
+    "en": [
+     290100,
+     2800
+    ],
+    "wd": [
+     293300,
+     12580
+    ],
+    "wp": [
+     [
+      293300,
+      3300
+     ],
+     [
+      297000,
+      2340
+     ],
+     [
+      299740,
+      2520
+     ],
+     [
+      302660,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロです！",
+   "en": "It's Kuro!",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "クロです",
+     "it's Kuro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 1510,
+    "frs": 1810,
+    "en": 1400,
+    "wd": 3560
+   },
+   "kana": "クロです！",
+   "romaji": "Kuro desu!",
+   "wr": [
+    [
+     "クロです",
+     "Kuro desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     306280,
+     1510
+    ],
+    "frs": [
+     308190,
+     1810
+    ],
+    "en": [
+     310400,
+     1400
+    ],
+    "wd": [
+     312200,
+     3560
+    ],
+    "wp": [
+     [
+      312200,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロは私のおにぎりを見ています。",
+   "en": "Kuro is looking at my rice balls.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "クロは",
+     "Kuro (topic)"
+    ],
+    [
+     "私の",
+     "my"
+    ],
+    [
+     "おにぎりを",
+     "rice balls (object)"
+    ],
+    [
+     "見ています",
+     "is looking at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "frs": 4590,
+    "en": 2440,
+    "wd": 13860
+   },
+   "kana": "クロは わたしの おにぎりを みて います。",
+   "romaji": "Kuro wa watashi no onigiri o mite imasu.",
+   "wr": [
+    [
+     "クロは",
+     "Kuro wa"
+    ],
+    [
+     "わたしの",
+     "watashi no"
+    ],
+    [
+     "おにぎりを",
+     "onigiri o"
+    ],
+    [
+     "みています",
+     "mite imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     316160,
+     3390
+    ],
+    "frs": [
+     319950,
+     4590
+    ],
+    "en": [
+     324940,
+     2440
+    ],
+    "wd": [
+     327780,
+     13860
+    ],
+    "wp": [
+     [
+      327780,
+      3010
+     ],
+     [
+      331190,
+      2500
+     ],
+     [
+      334090,
+      3470
+     ],
+     [
+      337960,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「だめです。これは私の朝ご飯です。」",
+   "en": "\"No. This is my breakfast.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "だめです",
+     "no, not allowed"
+    ],
+    [
+     "これは",
+     "this (topic)"
+    ],
+    [
+     "私の",
+     "my"
+    ],
+    [
+     "朝ご飯です",
+     "is breakfast"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4840,
+    "frs": 6810,
+    "en": 2610,
+    "wd": 13700
+   },
+   "kana": "「だめです。これは わたしの あさごはんです。」",
+   "romaji": "\"Dame desu. Kore wa watashi no asagohan desu.\"",
+   "wr": [
+    [
+     "だめです",
+     "dame desu"
+    ],
+    [
+     "これは",
+     "kore wa"
+    ],
+    [
+     "わたしの",
+     "watashi no"
+    ],
+    [
+     "あさごはんです",
+     "asagohan desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     342040,
+     4840
+    ],
+    "frs": [
+     347280,
+     6810
+    ],
+    "en": [
+     354490,
+     2610
+    ],
+    "wd": [
+     357500,
+     13700
+    ],
+    "wp": [
+     [
+      357500,
+      2910
+     ],
+     [
+      360810,
+      2870
+     ],
+     [
+      364080,
+      2500
+     ],
+     [
+      366980,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロは悲しい顔をしました。",
+   "en": "Kuro made a sad face.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "クロは",
+     "Kuro (topic)"
+    ],
+    [
+     "悲しい",
+     "sad"
+    ],
+    [
+     "顔をしました",
+     "made a face"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3000,
+    "frs": 4000,
+    "en": 2120,
+    "wd": 10400
+   },
+   "kana": "クロは かなしい かおを しました。",
+   "romaji": "Kuro wa kanashii kao o shimashita.",
+   "wr": [
+    [
+     "クロは",
+     "Kuro wa"
+    ],
+    [
+     "かなしい",
+     "kanashii"
+    ],
+    [
+     "かおをしました",
+     "kao o shimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     371600,
+     3000
+    ],
+    "frs": [
+     375000,
+     4000
+    ],
+    "en": [
+     379400,
+     2120
+    ],
+    "wd": [
+     381920,
+     10400
+    ],
+    "wp": [
+     [
+      381920,
+      3010
+     ],
+     [
+      385330,
+      2520
+     ],
+     [
+      388250,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "それから、公園に行きました。",
+   "en": "Then I went to the park.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "それから",
+     "then"
+    ],
+    [
+     "公園に",
+     "to the park"
+    ],
+    [
+     "行きました",
+     "went"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "frs": 4290,
+    "en": 1710,
+    "wd": 9500
+   },
+   "kana": "それから、こうえんに いきました。",
+   "romaji": "Sorekara, kouen ni ikimashita.",
+   "wr": [
+    [
+     "それから",
+     "sorekara"
+    ],
+    [
+     "こうえんに",
+     "kouen ni"
+    ],
+    [
+     "いきました",
+     "ikimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     392720,
+     3170
+    ],
+    "frs": [
+     396290,
+     4290
+    ],
+    "en": [
+     400980,
+     1710
+    ],
+    "wd": [
+     403090,
+     9500
+    ],
+    "wp": [
+     [
+      403090,
+      2470
+     ],
+     [
+      405960,
+      2820
+     ],
+     [
+      409180,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "私は公園のベンチに座りました。",
+   "en": "I sat down on a bench in the park.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "私は",
+     "I (topic)"
+    ],
+    [
+     "公園の",
+     "of the park"
+    ],
+    [
+     "ベンチに",
+     "on the bench"
+    ],
+    [
+     "座りました",
+     "sat down"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4870,
+    "en": 2410,
+    "wd": 13480
+   },
+   "kana": "わたしは こうえんの ベンチに すわりました。",
+   "romaji": "Watashi wa kouen no benchi ni suwarimashita.",
+   "wr": [
+    [
+     "わたしは",
+     "watashi wa"
+    ],
+    [
+     "こうえんの",
+     "kouen no"
+    ],
+    [
+     "ベンチに",
+     "benchi ni"
+    ],
+    [
+     "すわりました",
+     "suwarimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     412990,
+     3560
+    ],
+    "frs": [
+     416950,
+     4870
+    ],
+    "en": [
+     422220,
+     2410
+    ],
+    "wd": [
+     425030,
+     13480
+    ],
+    "wp": [
+     [
+      425030,
+      2780
+     ],
+     [
+      428210,
+      2830
+     ],
+     [
+      431440,
+      2870
+     ],
+     [
+      434710,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロも来ました。",
+   "en": "Kuro came too.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "クロも",
+     "Kuro, too"
+    ],
+    [
+     "来ました",
+     "came"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2000,
+    "frs": 2510,
+    "en": 1650,
+    "wd": 6300
+   },
+   "kana": "クロも きました。",
+   "romaji": "Kuro mo kimashita.",
+   "wr": [
+    [
+     "クロも",
+     "Kuro mo"
+    ],
+    [
+     "きました",
+     "kimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     438910,
+     2000
+    ],
+    "frs": [
+     441310,
+     2510
+    ],
+    "en": [
+     444220,
+     1650
+    ],
+    "wd": [
+     446270,
+     6300
+    ],
+    "wp": [
+     [
+      446270,
+      2630
+     ],
+     [
+      449300,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "となりに座りました。",
+   "en": "He sat down next to me.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "となりに",
+     "next to (me)"
+    ],
+    [
+     "座りました",
+     "sat down"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 2330,
+    "frs": 3020,
+    "en": 1880,
+    "wd": 6890
+   },
+   "kana": "となりに すわりました。",
+   "romaji": "Tonari ni suwarimashita.",
+   "wr": [
+    [
+     "となりに",
+     "tonari ni"
+    ],
+    [
+     "すわりました",
+     "suwarimashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     452970,
+     2330
+    ],
+    "frs": [
+     455700,
+     3020
+    ],
+    "en": [
+     459120,
+     1880
+    ],
+    "wd": [
+     461400,
+     6890
+    ],
+    "wp": [
+     [
+      461400,
+      2690
+     ],
+     [
+      464490,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "おにぎりを一つ食べました。",
+   "en": "I ate one rice ball.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "おにぎりを",
+     "rice ball (object)"
+    ],
+    [
+     "一つ",
+     "one (thing)"
+    ],
+    [
+     "食べました",
+     "ate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 2800,
+    "frs": 3710,
+    "en": 1880,
+    "wd": 10190
+   },
+   "kana": "おにぎりを ひとつ たべました。",
+   "romaji": "Onigiri o hitotsu tabemashita.",
+   "wr": [
+    [
+     "おにぎりを",
+     "onigiri o"
+    ],
+    [
+     "ひとつ",
+     "hitotsu"
+    ],
+    [
+     "たべました",
+     "tabemashita"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     468690,
+     2800
+    ],
+    "frs": [
+     471890,
+     3710
+    ],
+    "en": [
+     476000,
+     1880
+    ],
+    "wd": [
+     478280,
+     10190
+    ],
+    "wp": [
+     [
+      478280,
+      3350
+     ],
+     [
+      482030,
+      2670
+     ],
+     [
+      485100,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "おいしいです。",
+   "en": "It's delicious.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "おいしいです",
+     "is delicious"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 1770,
+    "frs": 2180,
+    "en": 1590,
+    "wd": 3930
+   },
+   "kana": "おいしいです。",
+   "romaji": "Oishii desu.",
+   "wr": [
+    [
+     "おいしいです",
+     "oishii desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     488870,
+     1770
+    ],
+    "frs": [
+     491040,
+     2180
+    ],
+    "en": [
+     493620,
+     1590
+    ],
+    "wd": [
+     495610,
+     3930
+    ],
+    "wp": [
+     [
+      495610,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロはまだ私を見ています。",
+   "en": "Kuro is still looking at me.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "クロは",
+     "Kuro (topic)"
+    ],
+    [
+     "まだ",
+     "still"
+    ],
+    [
+     "私を",
+     "me (object)"
+    ],
+    [
+     "見ています",
+     "is looking at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3020,
+    "frs": 4040,
+    "en": 2110,
+    "wd": 13110
+   },
+   "kana": "クロは まだ わたしを みて います。",
+   "romaji": "Kuro wa mada watashi o mite imasu.",
+   "wr": [
+    [
+     "クロは",
+     "Kuro wa"
+    ],
+    [
+     "まだ",
+     "mada"
+    ],
+    [
+     "わたしを",
+     "watashi o"
+    ],
+    [
+     "みています",
+     "mite imasu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     499940,
+     3020
+    ],
+    "frs": [
+     503360,
+     4040
+    ],
+    "en": [
+     507800,
+     2110
+    ],
+    "wd": [
+     510310,
+     13110
+    ],
+    "wp": [
+     [
+      510310,
+      3010
+     ],
+     [
+      513720,
+      2240
+     ],
+     [
+      516360,
+      2980
+     ],
+     [
+      519740,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "「わかりました。少しだけですよ。」",
+   "en": "\"All right. Just a little, OK?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "わかりました",
+     "all right (giving in)"
+    ],
+    [
+     "少しだけ",
+     "just a little"
+    ],
+    [
+     "ですよ",
+     "OK? (friendly emphasis)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "frs": 5750,
+    "en": 2530,
+    "wd": 11720
+   },
+   "kana": "「わかりました。すこしだけ ですよ。」",
+   "romaji": "\"Wakarimashita. Sukoshi dake desu yo.\"",
+   "wr": [
+    [
+     "わかりました",
+     "wakarimashita"
+    ],
+    [
+     "すこしだけ",
+     "sukoshi dake"
+    ],
+    [
+     "ですよ",
+     "desu yo"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     523820,
+     4140
+    ],
+    "frs": [
+     528360,
+     5750
+    ],
+    "en": [
+     534510,
+     2530
+    ],
+    "wd": [
+     537440,
+     11720
+    ],
+    "wp": [
+     [
+      537440,
+      3350
+     ],
+     [
+      541190,
+      2900
+     ],
+     [
+      544490,
+      3820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "クロはうれしそうです。",
+   "en": "Kuro looks happy.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "クロは",
+     "Kuro (topic)"
+    ],
+    [
+     "うれしそうです",
+     "looks happy (そう = looks …)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 2300,
+    "frs": 2960,
+    "en": 1620,
+    "wd": 8660
+   },
+   "kana": "クロは うれしそうです。",
+   "romaji": "Kuro wa ureshisou desu.",
+   "wr": [
+    [
+     "クロは",
+     "Kuro wa"
+    ],
+    [
+     "うれしそうです",
+     "ureshisou desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     549560,
+     2300
+    ],
+    "frs": [
+     552260,
+     2960
+    ],
+    "en": [
+     555620,
+     1620
+    ],
+    "wd": [
+     557640,
+     8660
+    ],
+    "wp": [
+     [
+      557640,
+      3010
+     ],
+     [
+      561050,
+      4400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "いい朝です。",
+   "en": "It's a good morning.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "いい",
+     "good"
+    ],
+    [
+     "朝です",
+     "is a morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 1870,
+    "frs": 2340,
+    "en": 1470,
+    "wd": 5990
+   },
+   "kana": "いい あさです。",
+   "romaji": "Ii asa desu.",
+   "wr": [
+    [
+     "いい",
+     "ii"
+    ],
+    [
+     "あさです",
+     "asa desu"
+    ]
+   ],
+   "bank": {
+    "fr": [
+     566700,
+     1870
+    ],
+    "frs": [
+     568970,
+     2340
+    ],
+    "en": [
+     571710,
+     1470
+    ],
+    "wd": [
+     573580,
+     5990
+    ],
+    "wp": [
+     [
+      573580,
+      2050
+     ],
+     [
+      576030,
+      2690
+     ]
+    ]
+   }
+  }
+ ],
+ "title_kana": "あさごはん",
+ "title_romaji": "Asagohan",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   14180
+  ],
+  "silence": [
+   14980,
+   30000
+  ]
+ }
+}
