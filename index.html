@@ -319,7 +319,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.64";
+const VERSION = "web 0.65";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -787,6 +787,17 @@ async function renderPlacementEntry() {
   $("retest").hidden = !has || !store.get("place_" + lang, null);
   if (!has || store.get("place_" + lang, null) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
   ptEl().hidden = false;
+  // already answered in onboarding (level_<lang>): don't ask again. Complete beginners start at the first story.
+  const lvl = store.get("level_" + lang, null), stage = { A1: 0, B1: 2, B2: 3 }[lvl];
+  if (lvl === "A0") return ptFinish({ none: true });
+  if (stage !== undefined) {
+    ptEl().innerHTML = `<h3>Find your starting story</h3>
+      <div class="muted">About 3–5 minutes. You'll hear words and short phrases. No reading needed.</div>
+      <div class="col"><button id="ptBegin">Start the test</button><button id="ptFirst">Skip, start from the first story</button></div>`;
+    $("ptBegin").onclick = () => { log("pt_start", { answer: "level " + lvl }, ""); ptStart(stage); };
+    $("ptFirst").onclick = () => { log("pt_start", { answer: "skip" }, ""); ptFinish({ none: true }); };
+    return;
+  }
   ptEl().innerHTML = `<h3>Find your starting story</h3>
     <div class="muted">About 3–5 minutes. You'll hear words and short phrases. No reading needed.</div>
     <div class="col"><b style="margin-top:10px">How much ${LANGS[lang][0]} do you know?</b></div>`;
