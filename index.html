@@ -326,7 +326,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.69";
+const VERSION = "web 0.70";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -517,7 +517,8 @@ function nativeEvents() {
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
     log("remote", { cmd: d.cmd });
     const lesson = lessonMode();
-    ({ play: resume, pause: storyPause, toggle: togglePlay, next: lesson ? lessonNext : nextPhrase, previous: lesson ? lessonRepeat : replay }[d.cmd] || (() => {}))();
+    ({ play: resume, pause: storyPause, toggle: togglePlay, next: lesson ? lessonNext : nextPhrase, previous: lesson ? lessonRepeat : replay,
+       back: () => voiceDo("back"), again: () => voiceDo("again") }[d.cmd] || (() => {}))();
   });
   NATIVE_PLAYER.addListener("rebuilt", d => log("audio_rebuilt", { reason: d.reason }));
 }
@@ -1592,8 +1593,34 @@ function heardHint(word) {
   clearTimeout(heardTimer);
   heardTimer = setTimeout(() => { if (V.on && el.textContent.startsWith("Heard")) el.textContent = listenHint; }, 2500);
 }
+// Android app, web screens (C8, WebActivity.kt): window.EcouteAndroid, events come in through window.__ecouteNative
+const ANDROID = (() => {
+  if (!window.EcouteAndroid) return null;
+  const subs = {}, on = ns => (name, cb) => { const k = ns + name; (subs[k] = subs[k] || []).push(cb);
+    return Promise.resolve({ remove: () => { subs[k] = (subs[k] || []).filter(f => f !== cb); } }); };
+  const fire = (k, data) => (subs[k] || []).forEach(cb => { try { cb(data); } catch (e) { log("js_error", { err: "android " + k + ": " + String(e).slice(0, 150) }); } });
+  window.__ecouteNative = (name, data) => {
+    if (name === "remote" && String(data.cmd).startsWith("voice:")) {  // a voice command (VoiceService -> PlaybackService)
+      const go = data.cmd.slice(6);
+      return fire("v:command", { word: go === "again" ? "repeat" : go });
+    }
+    fire(name === "voice" ? "v:state" : "p:" + name, data);
+  };
+  const call = (f, ...a) => { try { EcouteAndroid[f](...a); return Promise.resolve(); } catch (e) { return Promise.reject(e); } };
+  return {
+    player: { play: o => call("play", JSON.stringify(o)), pause: () => call("pause"), resume: () => call("resume"), stop: () => call("stop"), addListener: on("p:") },
+    voice: {
+      addListener: on("v:"), stop: () => call("voiceStop"),
+      start: () => new Promise((ok, fail) => {  // resolves when VoiceService listens (the model may download first)
+        on("v:")("state", e => { if (e.state === "on") ok({ onDevice: true }); else if (e.state === "error") fail(new Error(e.error)); });
+        call("voiceStart").catch(fail);
+      }),
+    },
+  };
+})();
 const NATIVE_VOICE = (() => {
   try {
+    if (ANDROID) return ANDROID.voice;
     return window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()
       && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? nativeVoiceBridge() : null;
   } catch (e) { log("js_error", { err: "native voice: " + String(e && e.message || e).slice(0, 200) }); return null; }
@@ -1605,8 +1632,9 @@ function nativeBridge(P) {
     addListener: (eventName, cb) => Capacitor.nativeCallback(P, "addListener", { eventName }, (data, err) => { if (!err) cb(data); }),
   };
 }
-const NATIVE_PLAYER = (() => {  // only in the iPhone app from build 4; everywhere else the page's own <audio> plays
+const NATIVE_PLAYER = (() => {  // the iPhone app from build 4, or the Android web screens; everywhere else the page's own <audio>
   try {
+    if (ANDROID && !store.get("web_audio", false)) { setTimeout(() => { try { nativeEvents(); } catch (e) { log("js_error", { err: "native events: " + String(e).slice(0, 200) }); } }); return ANDROID.player; }
     if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform() && Capacitor.isPluginAvailable
       && Capacitor.isPluginAvailable("EcoutePlayer")) || store.get("web_audio", false)) return null;
     const p = nativeBridge("EcoutePlayer");
