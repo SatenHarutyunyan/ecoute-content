@@ -132,6 +132,9 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #micAsk { position:fixed; inset:0; z-index:70; background:rgba(0,0,0,.45); display:flex; align-items:flex-end; justify-content:center; }
 #micAsk .micbox { background:var(--card); color:var(--ink); width:100%; max-width:520px; border-radius:18px 18px 0 0; padding:20px 18px max(18px, env(safe-area-inset-bottom)); font-size:15px; }
 #micAsk p { margin:10px 0 0; line-height:1.4; }
+.wcgrid { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; max-height:50vh; overflow-y:auto; }
+.wcgrid .chip { font-size:17px; padding:8px 14px; }
+.wcgrid .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
 #toast { position:fixed; left:16px; right:16px; bottom:max(16px, env(safe-area-inset-bottom)); z-index:60; background:var(--ink); color:var(--bg);
   padding:14px 16px; border-radius:14px; font-size:15px; box-shadow:0 8px 24px rgba(0,0,0,.25); opacity:0; transform:translateY(20px);
   transition:opacity .25s, transform .25s; pointer-events:none; }
@@ -273,6 +276,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div id="vocabBox" hidden>
   <h2>My words</h2>
   <button class="card story" id="vocabOpen"><b>📖 My words ›</b><span class="muted" id="vocabCount"></span></button>
+  <button class="card story" id="wordCheckBtn"><b>🎯 1-minute word check ›</b><span class="muted">Tap the words you know, so the app knows where you are (optional).</span></button>
   </div>
 
   <h2 class="hrow">Episodes <button class="chip" id="epToggle"></button></h2>
@@ -309,6 +313,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h3 class="sh">Episode marks</h3>
   <label class="opt"><input type="checkbox" id="marksOn"><span>Show the ○ ~ ✓ box next to each episode, to mark what you're listening to and what you've finished</span></label>
   <h3 class="sh">Listening pattern</h3>
+  <label class="opt"><input type="checkbox" id="adaptive"><span id="adaptiveText"></span></label>
   <details id="patternBox" open style="margin-top:6px"><summary id="patternHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="tokens" style="white-space:pre-line"></div>
@@ -349,7 +354,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.93";
+const VERSION = "web 0.95";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -507,8 +512,26 @@ function renderGaps() {
 }
 
 // ---------- playback engine: one audio file, we only seek inside it ----------
-function stepsFor(i, pat) {
+// Adaptive Continuous (C19, Saten 2026-11-21): the learner's words decide how often a sentence is repeated
+const ADAPT = { super: "T EN", normal: "T EN T", hard: "T EN T EN T" };
+const adaptiveOn = () => store.get("adaptive_" + lang, false) && !lessonMode();
+// a name: same word in both languages (Ernesto = Ernesto), or one capitalized English word (Մարիամը = Mariam)
+const isName = (w, m) => w.toLowerCase() === String(m).toLowerCase() || (/^[A-Z][a-z]+$/.test(m) && m !== "I" && !/^[a-z]/.test(w));
+function sentenceKind(s) {
+  try {
+    if (!KNOW.ready()) return "normal";  // the word data isn't here yet: no guessing
+    const ps = (s.words || []).filter(([w, m]) => !isName(w, m)).map(([w]) => KNOW.p(KNOW.base(s, s.words.findIndex(x => x[0] === w))));
+    // probably a word they don't know: one very likely unknown, or two shaky ones (calibrated 2026-11-21)
+    if (ps.filter(p => p < .25).length >= 1 || ps.filter(p => p < .45).length >= 2) return "hard";
+    if (s.words.length <= 2 && ps.every(p => p >= .8)) return "super";             // "Ah !", "Merci."
+    return "normal";
+  } catch { return "normal"; }
+}
+const KIND_AT = {};  // sentence -> its kind, decided once per queue, so the tag and the queue agree
+const kindOf = i => KIND_AT[i] || (KIND_AT[i] = sentenceKind(story.segments[i]));
+function stepsFor(i, pat, auto = true) {  // auto = the learner's own pattern (not the "help" replay)
   const s = story.segments[i], b = s.bank, out = [];
+  if (auto && adaptiveOn() && i >= 0) pat = ADAPT[kindOf(i)];
   const gap = lessonMode() ? 0 : GAPS[gapKey()][1];
   for (const t of parse(pat)) {
     if (t === "PAUSE") out.push([story.bank.silence[0], Math.max(1200, b.fr[1])]);
@@ -530,6 +553,7 @@ const storyPaused = () => NATIVE_PLAYER ? !NQ.playing : audio.paused;
 const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) : audio.pause();
 function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
   const items = [], n = story.segments.length;
+  for (const k in KIND_AT) if (+k > seg) delete KIND_AT[k];  // decide the rest again with what we know now
   const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: Math.max(0, r[0] - PRE), d: Math.max(50, r[1] - 350 + PRE), seg: j, step: from + m }));
   add(seg, steps, step);
   if (one) items.length = Math.min(items.length, 1);
@@ -623,7 +647,7 @@ function startSeg(i, pat) {
       .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
     if (!lessonTok.length) lessonTok = ["T", "EN", "T"].filter(t => b[KIND[t]]);  // an order with nothing this story has
     steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? wpRange(b.wp[+t.slice(1)]) : b[KIND[t]]);
-  } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
+  } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern(), !pat);
   step = 0; waiting = false;
   show();
   NATIVE_PLAYER ? nativePlay(lessonMode() && !pat) : playRange(steps[0]);
@@ -737,6 +761,10 @@ function show() {
   const bub = $("wbub"); if (bub && bub.dataset.seg !== String(seg)) bub.remove();  // the sentence moved on
   const s = story.segments[seg];
   $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
+  if (s && adaptiveOn()) {  // say why it sounds the way it does
+    const k = kindOf(seg), L = CODE();
+    $("where").textContent += " · " + { super: `easy · ${L} EN`, normal: `${L} EN ${L}`, hard: `new word · ${L} EN ${L} EN ${L}` }[k];
+  }
   $("fr").innerHTML = s ? segHTML(s) : esc(story.title);
   $("en").textContent = s ? s.en : story.note;
   const lesson = lessonMode();
@@ -774,6 +802,7 @@ async function openStory(entry) {
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
   story = jaScript(await (await fetch(base + "story.json" + v)).json());
   heardAny = false; lessonButton();
+  for (const k in KIND_AT) delete KIND_AT[k];
   storyUrl = MEDIA + base + story.bank.file + v;
   if (!NATIVE_PLAYER) audio.src = storyUrl;
   const pos = store.get("pos_" + story.id, -1);
@@ -912,6 +941,11 @@ function renderStories() {
 }
 
 function renderPattern() {
+  const L = CODE();
+  $("adaptiveText").innerHTML = `<b>Adaptive</b> (Continuous): your words decide. Easy sentences ${L} EN, normal ones ${L} EN ${L},
+    sentences with a word you probably don't know ${L} EN ${L} EN ${L}. It learns from the words you tap, save and replay.` +
+    (adaptiveOn() || store.get("adaptive_" + lang, false) ? " <span class='muted'>(The pattern below is not used while this is on.)</span>" : "");
+  $("adaptive").checked = store.get("adaptive_" + lang, false);
   const cur = parse(pattern()).join(" ");
   $("pattern").value = display(cur);
   $("patternHead").textContent = `What you hear in a story: ${display(cur)}`;
@@ -982,7 +1016,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); renderUpNext(); }
+  if (lang) { KNOW.loadFreq(); renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); renderUpNext(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
@@ -1185,6 +1219,10 @@ $("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("lessonPat").addEventListener("change", e => setLessonPattern(e.target.value));
+$("adaptive").onchange = e => {
+  store.set("adaptive_" + lang, e.target.checked); log("adaptive", { on: e.target.checked }); renderPattern();
+  if (story && seg >= 0 && !lessonMode()) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; show(); }
+};
 $("tapWords").checked = store.get("tap_words", true);
 $("tapWords").onchange = e => { store.set("tap_words", e.target.checked); log("tap_words", { on: e.target.checked }); if (story && seg >= 0) show(); };
 $("play").onclick = togglePlay;
@@ -1505,16 +1543,38 @@ const KNOW = {
   // where we start for a word never seen: common words are likely known, more so the higher the level (step 2:
   // vocab/<lang>_freq.json, Zipf ≈ 1 rare … 7 very common, from build_freq.py)
   freq: {},
+  cog: {},
+  p(base) { const e = this.load()[base]; return e ? e[0] : this.prior(base); },  // without recording anything
   prior(base) {
     const lv = store.get("level_" + lang, ""), z = this.freq[lang] && this.freq[lang][base];
+    if (this.cog[lang] && this.cog[lang].has(base)) return Math.max(.8, this.prior0(lv, z));  // restaurante ≈ restaurant
+    return this.prior0(lv, z);
+  },
+  prior0(lv, z) {
     if (z == null) return { A0: .1, A1: .3, B1: .55, B2: .7 }[lv] ?? .4;
-    const z0 = { A0: 6.3, A1: 5.3, B1: 4.5, B2: 3.8 }[lv] ?? 5;
+    // the frequency where a word is a 50/50 guess: measured by the word check if they did it, else from their level
+    const z0 = store.get("z50_" + lang, null) ?? { A0: 6.0, A1: 4.8, B1: 4.0, B2: 3.4 }[lv] ?? 4.5;
     return 1 / (1 + Math.exp(-1.6 * (z - z0)));
   },
-  loadFreq() { if (lang && this.freq[lang] === undefined) { this.freq[lang] = null; fresh(`vocab/${lang}_freq.json`).then(r => r.ok ? r.json() : null).then(j => { this.freq[lang] = j; }).catch(() => {}); } },
+  ready() { return !!(this.freq[lang] && LEMS[lang] !== undefined && (!["fr", "it", "es"].includes(lang) || this.cog[lang])); },
+  loadFreq() {
+    if (!lang || this.freq[lang] !== undefined) return;
+    const L = lang;
+    this.freq[L] = null;
+    const arrived = this.onData = () => {  // the queue was decided without the word data: decide again
+      if (L !== lang || !this.ready() || !story || !adaptiveOn()) return;
+      for (const k in KIND_AT) delete KIND_AT[k];
+      NQ.stale = true; if (seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); show(); }
+    };
+    fresh(`vocab/${L}_freq.json`).then(r => r.ok ? r.json() : Promise.reject()).then(j => { this.freq[L] = j; arrived(); })
+      .catch(() => { this.freq[L] = undefined; });  // try again next time
+    if (["fr", "it", "es"].includes(L)) fresh(`vocab/${L}_cog.json`).then(r => r.ok ? r.json() : []).then(j => { this.cog[L] = new Set(j); arrived(); })
+      .catch(() => { this.cog[L] = new Set(); });
+  },
   base(sg, k) { const w = wkey(sg, k), m = sg.words[k][1], b = lem({ w, m }); return b ? b[0] : w; },
   set(base, f) {
     try {
+      if (!this.ready()) return;  // not before the word data: the starting point would be wrong for good
       const M = this.load(), e = M[base] || [this.prior(base), 0, 0];
       e[0] = Math.round(Math.min(.99, Math.max(.01, f(e[0]))) * 100) / 100; e[1]++; e[2] = Math.floor(Date.now() / 864e5);
       M[base] = e; this.save(); this.daily();
@@ -1530,6 +1590,49 @@ const KNOW = {
     log("know_summary", { n: v.length, known: v.filter(e => e[0] >= .9).length, unknown: v.filter(e => e[0] < .3).length });
   },
 };
+
+// ---------- 1-minute word check (C19, optional): 30 words from very common to rare, tap the ones you know ----------
+// Tapped: likely known (0.9). Not tapped: likely not (at most 0.3). Gives Adaptive a good start without months of data.
+function wordCheck() {
+  const z = KNOW.freq[lang];
+  if (!z) { KNOW.loadFreq(); return toast("One moment, loading the word list… then tap again.", 3000); }
+  const L = LEMS[lang], kana = {};
+  if (L && lang === "ja") L.items.forEach(b => { if (b[7]) kana[b[0]] = jPick(b[0], b[7], b[8]); });
+  const pool = Object.entries(z).filter(([b]) => b.length > 1 && (lang === "ja" || b === b.toLowerCase()) && !/\s/.test(b));  // no names, no phrases
+  const bands = [[6, 99], [5, 6], [4.5, 5], [4, 4.5], [0, 4]], pick = [];
+  for (const [lo, hi] of bands) {
+    const inBand = pool.filter(([, v]) => v >= lo && v < hi).sort(() => Math.random() - .5);
+    pick.push(...inBand.slice(0, 6).map(([b]) => b));
+  }
+  if (pick.length < 10) return toast("Not enough words in this language yet for a check.", 4000);
+  pick.sort(() => Math.random() - .5);
+  const d = document.createElement("div");
+  d.id = "micAsk";
+  d.innerHTML = `<div class="micbox"><b>🎯 Which of these words do you know?</b>
+    <p class="muted">Tap the ones you know (roughly what they mean). Leave the rest. About a minute.</p>
+    <div class="wcgrid">${pick.map(b => `<button class="chip" data-b="${esc(b)}">${esc(kana[b] || b)}</button>`).join("")}</div>
+    <div class="done-row"><button class="big" id="wcDone">Done</button><button class="chip" id="wcNo">Cancel</button></div></div>`;
+  document.body.append(d);
+  d.querySelectorAll("[data-b]").forEach(c => c.onclick = () => c.classList.toggle("on"));
+  $("wcNo").onclick = () => d.remove();
+  $("wcDone").onclick = () => {
+    const known = [...d.querySelectorAll("[data-b].on")].map(c => c.dataset.b);
+    pick.forEach(b => KNOW.set(b, known.includes(b) ? p => Math.max(p, .9) : p => Math.min(p, .3)));
+    const byBand = bands.map(([lo, hi]) => pick.filter(b => z[b] >= lo && z[b] < hi && known.includes(b)).length);
+    // where they cross 50 % known, from common to rare: that frequency becomes their starting point for every word
+    const asked = bands.map(([lo, hi]) => pick.filter(b => z[b] >= lo && z[b] < hi).length), mid = [6.5, 5.5, 4.75, 4.25, 3.5];
+    const frac = byBand.map((k, i) => asked[i] ? k / asked[i] : null);
+    let z50 = 3.0;
+    for (let i = 0; i < mid.length; i++) if (frac[i] != null && frac[i] < .5) { z50 = i ? (mid[i] + mid[i - 1]) / 2 : 6.5; break; }
+    store.set("z50_" + lang, z50);
+    for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
+    log("word_check", { n: pick.length, known: known.length, by_band: byBand, z50 });
+    store.set("word_check_" + lang, Date.now());
+    d.remove();
+    toast(`You know ${known.length} of ${pick.length}. Thanks! The app now has a better idea of which words you know.`, 5000);
+  };
+}
+$("wordCheckBtn").onclick = wordCheck;
 
 // the bubble for a tapped word: its meaning, its dictionary form when different, ☆ Save
 document.addEventListener("click", e => {
@@ -1618,8 +1721,8 @@ function vsHtml(v, i) {
     `<button class="chip vflag" data-sf="${i}" aria-label="This sentence sounds wrong">⚑</button></div></div>`;
 }
 function renderVocab() {
-  if (LEMS[lang] === undefined) lemsLoad().then(() => { if (LEMS[lang]) renderVocab(); });
-  KNOW.loadFreq();
+  if (LEMS[lang] === undefined) lemsLoad().then(() => { if (LEMS[lang]) renderVocab(); KNOW.onData && KNOW.onData(); });
+  KNOW.loadFreq();  // (also from renderAll, so it's there before an episode starts)
   const list = vocab();
   vsLoad();
   $("vocabBox").hidden = !(lang === "hy" || list.length);
