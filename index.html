@@ -313,6 +313,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="tokens" style="white-space:pre-line"></div>
   </details>
+  <label class="opt" style="margin-top:10px"><input type="checkbox" id="tapWords"><span>Tap a word in the sentence to see its translation (and save it)</span></label>
   <details id="lessonBox" style="margin-top:10px"><summary id="lessonHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="lessonPat" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="lessonTokens" style="white-space:pre-line"></div>
@@ -348,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.88";
+const VERSION = "web 0.89";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -400,7 +401,7 @@ const segHTML = s => s.kanji && jScript() === "furi" ? furigana(s) : tapHTML(s) 
 // each word pair's words in the sentence become tappable (Saten, 2026-11-20: touch a word, see its translation);
 // the pairs are in sentence order and appear verbatim (check_pairs.py), so a forward search finds them
 function tapHTML(s) {
-  if (!s.words || !s.words.length) return esc(s.fr);
+  if (!s.words || !s.words.length || !store.get("tap_words", true)) return esc(s.fr);  // Settings can turn it off
   // compare without Armenian marks inside words (նո՞ր = նոր, Լիլի՛թ = Լիլիթ) and with ’ as '; map back to the text
   const text = s.fr, skip = /[՞՛՜]/, idx = [];
   let low = "";
@@ -1172,6 +1173,8 @@ $("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("lessonPat").addEventListener("change", e => setLessonPattern(e.target.value));
+$("tapWords").checked = store.get("tap_words", true);
+$("tapWords").onchange = e => { store.set("tap_words", e.target.checked); log("tap_words", { on: e.target.checked }); if (story && seg >= 0) show(); };
 $("play").onclick = togglePlay;
 $("next").onclick = $("lNextPh").onclick = nextPhrase;
 $("back").onclick = replay;
