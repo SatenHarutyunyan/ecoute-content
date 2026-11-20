@@ -349,7 +349,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.90";
+const VERSION = "web 0.91";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1498,11 +1498,20 @@ const KNOW = {
   mem: null, lang: null, timer: null,
   load() { if (this.lang !== lang) { this.mem = store.get("know_" + lang, {}) || {}; this.lang = lang; } return this.mem; },
   save() { clearTimeout(this.timer); this.timer = setTimeout(() => store.set("know_" + this.lang, this.mem), 2000); },
-  prior() { return { A0: .1, A1: .3, B1: .55, B2: .7 }[store.get("level_" + lang, "")] ?? .4; },
+  // where we start for a word never seen: common words are likely known, more so the higher the level (step 2:
+  // vocab/<lang>_freq.json, Zipf ≈ 1 rare … 7 very common, from build_freq.py)
+  freq: {},
+  prior(base) {
+    const lv = store.get("level_" + lang, ""), z = this.freq[lang] && this.freq[lang][base];
+    if (z == null) return { A0: .1, A1: .3, B1: .55, B2: .7 }[lv] ?? .4;
+    const z0 = { A0: 6.3, A1: 5.3, B1: 4.5, B2: 3.8 }[lv] ?? 5;
+    return 1 / (1 + Math.exp(-1.6 * (z - z0)));
+  },
+  loadFreq() { if (lang && this.freq[lang] === undefined) { this.freq[lang] = null; fresh(`vocab/${lang}_freq.json`).then(r => r.ok ? r.json() : null).then(j => { this.freq[lang] = j; }).catch(() => {}); } },
   base(sg, k) { const w = wkey(sg, k), m = sg.words[k][1], b = lem({ w, m }); return b ? b[0] : w; },
   set(base, f) {
     try {
-      const M = this.load(), e = M[base] || [this.prior(), 0, 0];
+      const M = this.load(), e = M[base] || [this.prior(base), 0, 0];
       e[0] = Math.round(Math.min(.99, Math.max(.01, f(e[0]))) * 100) / 100; e[1]++; e[2] = Math.floor(Date.now() / 864e5);
       M[base] = e; this.save(); this.daily();
     } catch {}
@@ -1604,6 +1613,7 @@ function vsHtml(v, i) {
 }
 function renderVocab() {
   if (LEMS[lang] === undefined) lemsLoad().then(() => { if (LEMS[lang]) renderVocab(); });
+  KNOW.loadFreq();
   const list = vocab();
   vsLoad();
   $("vocabBox").hidden = !(lang === "hy" || list.length);
