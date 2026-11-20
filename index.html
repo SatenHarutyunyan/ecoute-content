@@ -338,7 +338,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.81";
+const VERSION = "web 0.82";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -532,7 +532,10 @@ function nativeEvents() {
     if (NQ.upTo < story.segments.length - 1) { seg = NQ.upTo + 1; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // queue was cut short
     storyEnd();
   });
-  NATIVE_PLAYER.addListener("state", d => { NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now(); });
+  NATIVE_PLAYER.addListener("state", d => {
+    NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now();
+    if (NQ.playing && !heardAny) { heardAny = true; lessonButton(); }
+  });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
     log("remote", { cmd: d.cmd, handled: !!d.handled });
     if (d.handled) return;  // the app did it already (works with the screen locked); the "item" events update the page
@@ -622,7 +625,7 @@ function lessonGo(k, act) {
 }
 const lessonBack = () => lessonGo(step - 1, "back");
 const lessonRepeat = () => lessonGo(step, "repeat");
-const lessonNext = () => lessonGo(step + 1, "next");
+const lessonNext = () => story && !heardAny ? lessonGo(step, "play") : lessonGo(step + 1, "next");  // "Play" plays this step, doesn't skip it
 
 function nextPhrase() { if (!story) return togglePlay(); if (seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } else if (atEnd()) startNext(); }
 function replay() {
@@ -635,6 +638,7 @@ function replayWithHelp() { if (story && seg >= 0) { log("help", { seg, text: st
 
 audio.addEventListener("timeupdate", tick);
 audio.addEventListener("play", () => setPlayIcon(true));
+audio.addEventListener("playing", () => { if (!heardAny) { heardAny = true; lessonButton(); } });
 audio.addEventListener("pause", () => { setPlayIcon(false); pausedAt = Date.now(); clearTimeout(timer); });
 
 function resume() {
@@ -725,7 +729,7 @@ async function openStory(entry) {
   const base = `stories/${entry.id}/`;
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
   story = jaScript(await (await fetch(base + "story.json" + v)).json());
-  lessonButton();
+  heardAny = false; lessonButton();
   storyUrl = MEDIA + base + story.bank.file + v;
   if (!NATIVE_PLAYER) audio.src = storyUrl;
   const pos = store.get("pos_" + story.id, -1);
@@ -913,8 +917,9 @@ function setMode(m) {
 // Nothing open: say what any player button will start, so the buttons never look dead (Arshile, 2026-11-20:
 // "the buttons don't do anything unless I pressed a story", "it says or press Play but there is no play button")
 // Step by step: the big button says Play until something plays, then Next (Saten, 2026-11-20)
+let heardAny = false;  // has this story made a sound yet? (iPhone often blocks the automatic start)
 function lessonButton() {
-  const first = !story;
+  const first = !story || !heardAny;
   $("lNext").querySelector(".c").innerHTML = ICON[first ? "play" : "next"];
   $("lNext").lastChild.textContent = first ? "Play" : "Next";
   $("lNext").setAttribute("aria-label", first ? "Play" : "Next");
