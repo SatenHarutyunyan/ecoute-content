@@ -326,7 +326,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.68";
+const VERSION = "web 0.69";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -459,7 +459,7 @@ function renderGaps() {
   $("gaps").innerHTML = Object.entries(GAPS).map(([k, [n]]) => `<button class="chip${k === gapKey() ? " on" : ""}" data-gap="${k}">${n}</button>`).join("");
   $("gaps").querySelectorAll("[data-gap]").forEach(b => b.onclick = () => {
     store.set("gap", b.dataset.gap); log("gap", { gap: b.dataset.gap }); renderGaps();
-    if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); }
+    if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; }
   });
   $("gapHint").textContent = "Longer pauses give you time to think, and to say a voice command.";
 }
@@ -475,6 +475,51 @@ function stepsFor(i, pat) {
   const nxt = story.segments[i + 1];
   if (nxt && nxt.para !== s.para) out.push([story.bank.silence[0], 700]);
   return out.length ? out : [b.fr];
+}
+
+// iPhone app from build 4 (C17): the story plays in native code (EcoutePlayer), one queue of ranges from here to the end
+// of the episode, so it keeps going with the screen locked. The page follows its "item" events.
+let storyUrl = "";
+const NQ = { at: 0, stale: false, playing: false };
+const storyPaused = () => NATIVE_PLAYER ? !NQ.playing : audio.paused;
+const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) : audio.pause();
+function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
+  const items = [], n = story.segments.length;
+  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: r[0], d: Math.max(50, r[1] - 350), seg: j, step: from + m,
+    t: j < 0 ? story.title : story.segments[j].fr, a: j < 0 ? story.title : `${story.title} · ${j + 1}/${n}` }));
+  add(seg, steps, step);
+  if (one) items.length = Math.min(items.length, 1);
+  else for (let j = seg + 1; j < n; j++) add(j, stepsFor(j, pattern()), 0);
+  NQ.at = Date.now(); NQ.stale = false;
+  NATIVE_PLAYER.play({ url: storyUrl, items, title: story.title })
+    .catch(e => log("js_error", { err: "native play: " + String(e && e.message || e).slice(0, 200) }));
+}
+function nativeEvents() {
+  NATIVE_PLAYER.addListener("item", d => {
+    if (!story) return;
+    if (d.seg !== seg) {  // the queue moved on to the next phrase (maybe with the screen locked)
+      if (NQ.stale && !lessonMode()) { seg = d.seg; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // pattern changed
+      seg = d.seg;
+      steps = seg < 0 ? [story.bank.intro] : stepsFor(seg, pattern());
+      store.set("pos_" + story.id, seg);
+      if (seg > 0 && seg % 10 === 0) log("progress", { seg, of: story.segments.length });
+    }
+    step = d.step; waiting = false; NQ.at = Date.now();
+    show();
+  });
+  NATIVE_PLAYER.addListener("ended", () => {
+    if (!story) return;
+    if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
+    $("where").textContent = story.title + " · the end"; store.set("pos_" + story.id, -1); log("story_end");
+    store.set("ends", store.get("ends", 0) + 1); renderStories(); showFeedback();
+  });
+  NATIVE_PLAYER.addListener("state", d => { NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now(); });
+  NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
+    log("remote", { cmd: d.cmd });
+    const lesson = lessonMode();
+    ({ play: resume, pause: storyPause, toggle: togglePlay, next: lesson ? lessonNext : nextPhrase, previous: lesson ? lessonRepeat : replay }[d.cmd] || (() => {}))();
+  });
+  NATIVE_PLAYER.addListener("rebuilt", d => log("audio_rebuilt", { reason: d.reason }));
 }
 
 let rangeStart = 0;
@@ -516,7 +561,7 @@ function startSeg(i, pat) {
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern());
   step = 0; waiting = false;
   show();
-  playRange(steps[0]);
+  NATIVE_PLAYER ? nativePlay(lessonMode() && !pat) : playRange(steps[0]);
 }
 
 function prevPhrase() { if (story) { log("back", { seg }); startSeg(Math.max(seg - 1, 0)); } }
@@ -531,7 +576,7 @@ function lessonGo(k, act) {
   }
   step = k; waiting = false;
   show();
-  playRange(steps[step]);
+  NATIVE_PLAYER ? nativePlay(true) : playRange(steps[step]);
 }
 const lessonBack = () => lessonGo(step - 1, "back");
 const lessonRepeat = () => lessonGo(step, "repeat");
@@ -540,7 +585,7 @@ const lessonNext = () => lessonGo(step + 1, "next");
 function nextPhrase() { if (story && seg + 1 < story.segments.length) { log("skip", { seg }); startSeg(seg + 1); } }
 function replay() {
   if (!story) return;
-  const atStart = step === 0 && audio.currentTime * 1000 - steps[0][0] < 1500;
+  const atStart = step === 0 && (NATIVE_PLAYER ? Date.now() - NQ.at < 1500 : audio.currentTime * 1000 - steps[0][0] < 1500);
   log("replay", { seg });
   startSeg(atStart && seg > 0 ? seg - 1 : Math.max(seg, 0));
 }
@@ -552,6 +597,7 @@ audio.addEventListener("pause", () => { setPlayIcon(false); pausedAt = Date.now(
 
 function resume() {
   if (!story) return;
+  if (NATIVE_PLAYER) return lessonMode() && waiting ? lessonRepeat() : NATIVE_PLAYER.resume();
   if (lessonMode()) return waiting ? lessonRepeat() : playRange([audio.currentTime * 1000, stopAt + 350 - audio.currentTime * 1000]);
   const quick = pausedAt && Date.now() - pausedAt < 10000;
   if (quick && TAP_HELP && seg >= 0) return replayWithHelp();
@@ -585,13 +631,13 @@ function togglePlay() {
     if (e) { log("play_default", { id: e.id }, e.id); openStory(e).then(renderStories); }
     return;
   }
-  audio.paused ? resume() : audio.pause();
+  storyPaused() ? resume() : storyPause();
 }
 
 if ("mediaSession" in navigator) {
   const ms = navigator.mediaSession;
   ms.setActionHandler("play", resume);
-  ms.setActionHandler("pause", () => audio.pause());
+  ms.setActionHandler("pause", () => storyPause());
   ms.setActionHandler("nexttrack", () => lessonMode() ? lessonNext() : nextPhrase());
   ms.setActionHandler("previoustrack", () => lessonMode() ? lessonRepeat() : replay());
   try { ms.setActionHandler("seekforward", null); ms.setActionHandler("seekbackward", null); } catch {}
@@ -627,7 +673,7 @@ function show() {
 }
 
 function closeStory() {  // another language: the old episode stops (Saten: the French story kept playing)
-  audio.pause(); clearTimeout(timer); story = null; seg = -1; steps = []; step = 0; waiting = false;
+  storyPause(); NATIVE_PLAYER && NATIVE_PLAYER.stop(); clearTimeout(timer); story = null; seg = -1; steps = []; step = 0; waiting = false;
   $("where").textContent = "Pick an episode below, or press Play."; $("fr").textContent = $("en").textContent = "";
   $("lessonStep").hidden = true; $("fb").hidden = true;
 }
@@ -635,7 +681,8 @@ async function openStory(entry) {
   const base = `stories/${entry.id}/`;
   const v = "?v=" + (entry.version || "");  // story.json and bank.m4a must come from the same build
   story = jaScript(await (await fetch(base + "story.json" + v)).json());
-  audio.src = MEDIA + base + story.bank.file + v;
+  storyUrl = MEDIA + base + story.bank.file + v;
+  if (!NATIVE_PLAYER) audio.src = storyUrl;
   const pos = store.get("pos_" + story.id, -1);
   store.set("last_" + entry.lang, entry.id);
   log("story_open", { pos, pattern: pattern(), standalone: !!navigator.standalone });
@@ -785,6 +832,7 @@ function setPattern(p) {
   if (story && seg >= 0 && (story.lang || "fr") === lang) {  // takes effect from the next step
     steps = stepsFor(seg, clean);
     step = Math.min(step, steps.length - 1);
+    NQ.stale = true;
   }
 }
 
@@ -801,7 +849,7 @@ function setMode(m) {
   store.set("mode_" + lang, m);
   log("mode", { mode: m });
   renderMode();
-  if (story && seg >= 0) { audio.pause(); startSeg(seg); }  // restart the phrase in the new mode
+  if (story && seg >= 0) { storyPause(); startSeg(seg); }  // restart the phrase in the new mode
 }
 
 function renderAll() {
@@ -1326,7 +1374,7 @@ function vaPlay(v, then) {  // called inside the tap first: iPhone only lets thi
   vaRange(`${MEDIA}stories/${v.story}/${st.bank.file}?v=${e ? e.version : ""}`, r, then);
 }
 function vaRange(url, r, then) {  // play [start_ms, dur_ms] of a bank file, then call `then`
-  audio.pause();
+  storyPause();
   if (VA.url === url && VA.el.readyState >= 1) VA.el.currentTime = r[0] / 1000;
   else { VA.url = url; VA.el.src = url + "#t=" + r[0] / 1000; }
   VA.end = r[0] + r[1];
@@ -1550,6 +1598,22 @@ const NATIVE_VOICE = (() => {
       && Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcouteVoice") ? nativeVoiceBridge() : null;
   } catch (e) { log("js_error", { err: "native voice: " + String(e && e.message || e).slice(0, 200) }); return null; }
 })();
+function nativeBridge(P) {
+  return {
+    play: o => Capacitor.nativePromise(P, "play", o), pause: () => Capacitor.nativePromise(P, "pause", {}),
+    resume: () => Capacitor.nativePromise(P, "resume", {}), stop: () => Capacitor.nativePromise(P, "stop", {}),
+    addListener: (eventName, cb) => Capacitor.nativeCallback(P, "addListener", { eventName }, (data, err) => { if (!err) cb(data); }),
+  };
+}
+const NATIVE_PLAYER = (() => {  // only in the iPhone app from build 4; everywhere else the page's own <audio> plays
+  try {
+    if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform() && Capacitor.isPluginAvailable
+      && Capacitor.isPluginAvailable("EcoutePlayer")) || store.get("web_audio", false)) return null;
+    const p = nativeBridge("EcoutePlayer");
+    setTimeout(() => { try { nativeEvents(); } catch (e) { log("js_error", { err: "native events: " + String(e).slice(0, 200) }); } });
+    return p;
+  } catch (e) { log("js_error", { err: "native player: " + String(e && e.message || e).slice(0, 200) }); return null; }
+})();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
 
 function loadScript(src) {
@@ -1563,7 +1627,7 @@ async function keepAwake() {
 function voiceDo(action) {
   if (!story) return;
   const lesson = lessonMode();
-  if (action === "pause") return audio.pause();
+  if (action === "pause") return storyPause();
   if (action === "play") return resume();
   if (action === "back") return lesson ? lessonBack() : prevPhrase();
   if (action === "next") return lesson ? lessonNext() : nextPhrase();
@@ -1671,7 +1735,7 @@ window.addEventListener("pagehide", () => { if (V.on && !NATIVE_VOICE) voiceStop
 
 // iPhone keeps the page for up to 10 min (GitHub's cache header): look for a newer version on every open
 async function checkUpdate() {
-  if (!audio.paused || PT.running) return;  // never interrupt listening or the level test
+  if (!storyPaused() || PT.running) return;  // never interrupt listening or the level test
   try {
     const t = await (await fresh("index.html?check=" + Date.now())).text();
     const v = (t.match(/const VERSION = "([^"]+)"/) || [])[1];
