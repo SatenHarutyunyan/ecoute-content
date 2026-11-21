@@ -433,6 +433,24 @@
    "request": "Film & TV (topic picked in onboarding)"
   },
   {
+   "id": "es_req_marine_01",
+   "lang": "es",
+   "title": "La golondrina de la duquesa",
+   "author": "Original story (AI-generated)",
+   "level": "B1",
+   "series": "",
+   "episode": "",
+   "phrases": 32,
+   "minutes": 9,
+   "size_mb": 6,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_req_marine_01.zip",
+   "version": "50802d55b902",
+   "for": [
+    "Marine"
+   ],
+   "request": "Art & artists, Film & TV (topics picked in onboarding)"
+  },
+  {
    "id": "maupassant_apparition_1",
    "lang": "fr",
    "title": "Apparition (1)",

@@ -1,0 +1,2603 @@
+{
+ "id": "es_req_marine_01",
+ "lang": "es",
+ "title": "La golondrina de la duquesa",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "Grandma Inés painted film sets when she was young, and she still hides a secret signature in every picture, a little golondrina. Then a \"lost Goya\" arrives at her grandson's museum.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20140,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Mi abuela Inés tiene ochenta años y todavía pinta todas las mañanas.",
+   "en": "My grandmother Inés is eighty and still paints every morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mi abuela",
+     "my grandmother"
+    ],
+    [
+     "Inés",
+     "Inés"
+    ],
+    [
+     "tiene ochenta años",
+     "is eighty years old"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "todavía",
+     "still"
+    ],
+    [
+     "pinta",
+     "paints"
+    ],
+    [
+     "todas las mañanas",
+     "every morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5170,
+    "frs": 7350,
+    "en": 3940,
+    "wd": 23090
+   },
+   "bank": {
+    "fr": [
+     51340,
+     5170
+    ],
+    "frs": [
+     56910,
+     7350
+    ],
+    "en": [
+     64660,
+     3940
+    ],
+    "wd": [
+     69000,
+     23090
+    ],
+    "wp": [
+     [
+      69000,
+      2980
+     ],
+     [
+      72380,
+      2470
+     ],
+     [
+      75250,
+      3780
+     ],
+     [
+      79430,
+      2360
+     ],
+     [
+      82190,
+      2480
+     ],
+     [
+      85070,
+      2380
+     ],
+     [
+      87850,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "De joven, pintaba decorados para el cine en Madrid.",
+   "en": "When she was young, she painted film sets in Madrid.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "decorados",
+     "en": "film sets, backdrops"
+    }
+   ],
+   "words": [
+    [
+     "De joven",
+     "when (she was) young"
+    ],
+    [
+     "pintaba",
+     "she used to paint"
+    ],
+    [
+     "decorados",
+     "film sets"
+    ],
+    [
+     "para el cine",
+     "for the cinema"
+    ],
+    [
+     "en Madrid",
+     "in Madrid"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "frs": 5200,
+    "en": 3550,
+    "gl": 4900,
+    "wd": 17250
+   },
+   "bank": {
+    "fr": [
+     92490,
+     3730
+    ],
+    "frs": [
+     96620,
+     5200
+    ],
+    "en": [
+     102220,
+     3550
+    ],
+    "gl": [
+     106170,
+     4900
+    ],
+    "wd": [
+     111470,
+     17250
+    ],
+    "wp": [
+     [
+      111470,
+      3450
+     ],
+     [
+      115320,
+      2890
+     ],
+     [
+      118610,
+      3030
+     ],
+     [
+      122040,
+      2870
+     ],
+     [
+      125310,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ciudades, cielos, palacios enteros, todo de cartón y pintura.",
+   "en": "Cities, skies, whole palaces, all made of cardboard and paint.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ciudades",
+     "cities"
+    ],
+    [
+     "cielos",
+     "skies"
+    ],
+    [
+     "palacios enteros",
+     "whole palaces"
+    ],
+    [
+     "todo",
+     "all"
+    ],
+    [
+     "de cartón",
+     "of cardboard"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "pintura",
+     "paint"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 4860,
+    "frs": 6830,
+    "en": 5220,
+    "wd": 21800
+   },
+   "bank": {
+    "fr": [
+     129120,
+     4860
+    ],
+    "frs": [
+     134380,
+     6830
+    ],
+    "en": [
+     141610,
+     5220
+    ],
+    "wd": [
+     147230,
+     21800
+    ],
+    "wp": [
+     [
+      147230,
+      2700
+     ],
+     [
+      150330,
+      2640
+     ],
+     [
+      153370,
+      3520
+     ],
+     [
+      157290,
+      2160
+     ],
+     [
+      159850,
+      2840
+     ],
+     [
+      163090,
+      2360
+     ],
+     [
+      165850,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Siempre esconde una golondrina pequeña en una esquina del cuadro.",
+   "en": "She always hides a little swallow in a corner of the painting.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "golondrina",
+     "en": "swallow (the bird)"
+    }
+   ],
+   "words": [
+    [
+     "Siempre",
+     "always"
+    ],
+    [
+     "esconde",
+     "hides"
+    ],
+    [
+     "una golondrina",
+     "a swallow"
+    ],
+    [
+     "pequeña",
+     "little"
+    ],
+    [
+     "en una esquina",
+     "in a corner"
+    ],
+    [
+     "del cuadro",
+     "of the painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4600,
+    "frs": 6500,
+    "en": 3860,
+    "gl": 4460,
+    "wd": 19250
+   },
+   "bank": {
+    "fr": [
+     169430,
+     4600
+    ],
+    "frs": [
+     174430,
+     6500
+    ],
+    "en": [
+     181330,
+     3860
+    ],
+    "gl": [
+     185590,
+     4460
+    ],
+    "wd": [
+     190450,
+     19250
+    ],
+    "wp": [
+     [
+      190450,
+      2540
+     ],
+     [
+      193390,
+      2580
+     ],
+     [
+      196370,
+      3070
+     ],
+     [
+      199840,
+      2340
+     ],
+     [
+      202580,
+      3000
+     ],
+     [
+      205980,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Es mi firma secreta», me dice. «Da buena suerte.»",
+   "en": "\"It's my secret signature,\" she tells me. \"It brings good luck.\"",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "firma",
+     "en": "signature"
+    }
+   ],
+   "words": [
+    [
+     "Es",
+     "it's"
+    ],
+    [
+     "mi firma secreta",
+     "my secret signature"
+    ],
+    [
+     "me dice",
+     "she tells me"
+    ],
+    [
+     "Da buena suerte",
+     "it brings good luck"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 5000,
+    "frs": 7090,
+    "en": 4320,
+    "gl": 3380,
+    "wd": 14020
+   },
+   "bank": {
+    "fr": [
+     210100,
+     5000
+    ],
+    "frs": [
+     215500,
+     7090
+    ],
+    "en": [
+     222990,
+     4320
+    ],
+    "gl": [
+     227710,
+     3380
+    ],
+    "wd": [
+     231490,
+     14020
+    ],
+    "wp": [
+     [
+      231490,
+      2130
+     ],
+     [
+      234020,
+      3730
+     ],
+     [
+      238150,
+      2710
+     ],
+     [
+      241260,
+      3400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Yo me llamo Julián y trabajo de vigilante en un museo pequeño.",
+   "en": "My name is Julián and I work as a guard in a small museum.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "vigilante",
+     "en": "guard"
+    }
+   ],
+   "words": [
+    [
+     "Yo",
+     "I"
+    ],
+    [
+     "me llamo",
+     "my name is"
+    ],
+    [
+     "Julián",
+     "Julián"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "trabajo de vigilante",
+     "I work as a guard"
+    ],
+    [
+     "en un museo pequeño",
+     "in a small museum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "frs": 6100,
+    "en": 3900,
+    "gl": 3580,
+    "wd": 19870
+   },
+   "bank": {
+    "fr": [
+     245910,
+     4330
+    ],
+    "frs": [
+     250640,
+     6100
+    ],
+    "en": [
+     257140,
+     3900
+    ],
+    "gl": [
+     261440,
+     3580
+    ],
+    "wd": [
+     265420,
+     19870
+    ],
+    "wp": [
+     [
+      265420,
+      2090
+     ],
+     [
+      267910,
+      2770
+     ],
+     [
+      271080,
+      2510
+     ],
+     [
+      273990,
+      2360
+     ],
+     [
+      276750,
+      3520
+     ],
+     [
+      280670,
+      3770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un lunes, llega un cuadro muy especial.",
+   "en": "One Monday, a very special painting arrives.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Un lunes",
+     "one Monday"
+    ],
+    [
+     "llega",
+     "arrives"
+    ],
+    [
+     "un cuadro",
+     "a painting"
+    ],
+    [
+     "muy especial",
+     "very special"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3400,
+    "frs": 4690,
+    "en": 3450,
+    "wd": 13240
+   },
+   "bank": {
+    "fr": [
+     285690,
+     3400
+    ],
+    "frs": [
+     289490,
+     4690
+    ],
+    "en": [
+     294580,
+     3450
+    ],
+    "wd": [
+     298430,
+     13240
+    ],
+    "wp": [
+     [
+      298430,
+      2830
+     ],
+     [
+      301660,
+      2530
+     ],
+     [
+      304590,
+      2660
+     ],
+     [
+      307650,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dicen que es un Goya perdido, encontrado en unos viejos estudios de cine.",
+   "en": "They say it's a lost Goya, found in some old film studios.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Dicen que",
+     "they say that"
+    ],
+    [
+     "es",
+     "it is"
+    ],
+    [
+     "un Goya perdido",
+     "a lost Goya"
+    ],
+    [
+     "encontrado",
+     "found"
+    ],
+    [
+     "en unos viejos estudios de cine",
+     "in some old film studios"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 5270,
+    "frs": 7500,
+    "en": 4340,
+    "wd": 18650
+   },
+   "bank": {
+    "fr": [
+     312070,
+     5270
+    ],
+    "frs": [
+     317740,
+     7500
+    ],
+    "en": [
+     325640,
+     4340
+    ],
+    "wd": [
+     330380,
+     18650
+    ],
+    "wp": [
+     [
+      330380,
+      2820
+     ],
+     [
+      333600,
+      2230
+     ],
+     [
+      336230,
+      3410
+     ],
+     [
+      340040,
+      2710
+     ],
+     [
+      343150,
+      5030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Es una duquesa vestida de negro, con un abanico en la mano.",
+   "en": "It's a duchess dressed in black, with a fan in her hand.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "abanico",
+     "en": "fan (held in the hand)"
+    }
+   ],
+   "words": [
+    [
+     "Es",
+     "it's"
+    ],
+    [
+     "una duquesa",
+     "a duchess"
+    ],
+    [
+     "vestida de negro",
+     "dressed in black"
+    ],
+    [
+     "con un abanico",
+     "with a fan"
+    ],
+    [
+     "en la mano",
+     "in her hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "frs": 5930,
+    "en": 4050,
+    "gl": 4540,
+    "wd": 16670
+   },
+   "bank": {
+    "fr": [
+     349430,
+     4220
+    ],
+    "frs": [
+     354050,
+     5930
+    ],
+    "en": [
+     360380,
+     4050
+    ],
+    "gl": [
+     364830,
+     4540
+    ],
+    "wd": [
+     369770,
+     16670
+    ],
+    "wp": [
+     [
+      369770,
+      2130
+     ],
+     [
+      372300,
+      2930
+     ],
+     [
+      375630,
+      3340
+     ],
+     [
+      379370,
+      3020
+     ],
+     [
+      382790,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los periódicos hablan de él todos los días.",
+   "en": "The newspapers talk about it every day.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Los periódicos",
+     "the newspapers"
+    ],
+    [
+     "hablan de él",
+     "talk about it"
+    ],
+    [
+     "todos los días",
+     "every day"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3640,
+    "frs": 5040,
+    "en": 2750,
+    "wd": 11110
+   },
+   "bank": {
+    "fr": [
+     386840,
+     3640
+    ],
+    "frs": [
+     390880,
+     5040
+    ],
+    "en": [
+     396320,
+     2750
+    ],
+    "wd": [
+     399470,
+     11110
+    ],
+    "wp": [
+     [
+      399470,
+      3420
+     ],
+     [
+      403290,
+      2920
+     ],
+     [
+      406610,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hay colas en la calle para verlo.",
+   "en": "There are queues in the street to see it.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "colas",
+     "en": "queues"
+    }
+   ],
+   "words": [
+    [
+     "Hay colas",
+     "there are queues"
+    ],
+    [
+     "en la calle",
+     "in the street"
+    ],
+    [
+     "para verlo",
+     "to see it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 2830,
+    "frs": 3830,
+    "en": 2420,
+    "gl": 3410,
+    "wd": 10030
+   },
+   "bank": {
+    "fr": [
+     410980,
+     2830
+    ],
+    "frs": [
+     414210,
+     3830
+    ],
+    "en": [
+     418440,
+     2420
+    ],
+    "gl": [
+     421260,
+     3410
+    ],
+    "wd": [
+     425070,
+     10030
+    ],
+    "wp": [
+     [
+      425070,
+      3030
+     ],
+     [
+      428500,
+      2790
+     ],
+     [
+      431690,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El domingo, llevo a mi abuela al museo.",
+   "en": "On Sunday, I take my grandmother to the museum.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "El domingo",
+     "on Sunday"
+    ],
+    [
+     "llevo",
+     "I take"
+    ],
+    [
+     "a mi abuela",
+     "my grandmother"
+    ],
+    [
+     "al museo",
+     "to the museum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4770,
+    "en": 3310,
+    "wd": 13340
+   },
+   "bank": {
+    "fr": [
+     435500,
+     3450
+    ],
+    "frs": [
+     439350,
+     4770
+    ],
+    "en": [
+     444520,
+     3310
+    ],
+    "wd": [
+     448230,
+     13340
+    ],
+    "wp": [
+     [
+      448230,
+      2840
+     ],
+     [
+      451470,
+      2380
+     ],
+     [
+      454250,
+      3110
+     ],
+     [
+      457760,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ella mira el cuadro durante mucho tiempo, sin decir nada.",
+   "en": "She looks at the painting for a long time, without saying anything.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ella",
+     "she"
+    ],
+    [
+     "mira",
+     "looks at"
+    ],
+    [
+     "el cuadro",
+     "the painting"
+    ],
+    [
+     "durante mucho tiempo",
+     "for a long time"
+    ],
+    [
+     "sin decir nada",
+     "without saying anything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5600,
+    "en": 4070,
+    "wd": 16710
+   },
+   "bank": {
+    "fr": [
+     461970,
+     4010
+    ],
+    "frs": [
+     466380,
+     5600
+    ],
+    "en": [
+     472380,
+     4070
+    ],
+    "wd": [
+     476850,
+     16710
+    ],
+    "wp": [
+     [
+      476850,
+      2180
+     ],
+     [
+      479430,
+      2309
+     ],
+     [
+      482140,
+      2650
+     ],
+     [
+      485190,
+      3600
+     ],
+     [
+      489190,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Luego se ríe tan fuerte que todo el mundo se gira.",
+   "en": "Then she laughs so loudly that everyone turns around.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Luego",
+     "then"
+    ],
+    [
+     "se ríe",
+     "laughs"
+    ],
+    [
+     "tan fuerte",
+     "so loudly"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "todo el mundo",
+     "everyone"
+    ],
+    [
+     "se gira",
+     "turns around"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3850,
+    "frs": 5370,
+    "en": 3440,
+    "wd": 18270
+   },
+   "bank": {
+    "fr": [
+     493960,
+     3850
+    ],
+    "frs": [
+     498210,
+     5370
+    ],
+    "en": [
+     503980,
+     3440
+    ],
+    "wd": [
+     507820,
+     18270
+    ],
+    "wp": [
+     [
+      507820,
+      2320
+     ],
+     [
+      510540,
+      2640
+     ],
+     [
+      513580,
+      2840
+     ],
+     [
+      516820,
+      2030
+     ],
+     [
+      519250,
+      2790
+     ],
+     [
+      522440,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Abuela, ¿qué te pasa?»",
+   "en": "\"Grandma, what's wrong?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Abuela",
+     "grandma"
+    ],
+    [
+     "qué te pasa",
+     "what's wrong (with you)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2250,
+    "frs": 2970,
+    "en": 1830,
+    "wd": 6790
+   },
+   "bank": {
+    "fr": [
+     526490,
+     2250
+    ],
+    "frs": [
+     529140,
+     2970
+    ],
+    "en": [
+     532510,
+     1830
+    ],
+    "wd": [
+     534740,
+     6790
+    ],
+    "wp": [
+     [
+      534740,
+      2470
+     ],
+     [
+      537610,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Julián, mira la esquina de abajo, a la derecha.»",
+   "en": "\"Julián, look at the bottom corner, on the right.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Julián",
+     "Julián"
+    ],
+    [
+     "mira",
+     "look at"
+    ],
+    [
+     "la esquina de abajo",
+     "the bottom corner"
+    ],
+    [
+     "a la derecha",
+     "on the right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "frs": 5240,
+    "en": 3300,
+    "wd": 13250
+   },
+   "bank": {
+    "fr": [
+     541930,
+     3810
+    ],
+    "frs": [
+     546140,
+     5240
+    ],
+    "en": [
+     551780,
+     3300
+    ],
+    "wd": [
+     555480,
+     13250
+    ],
+    "wp": [
+     [
+      555480,
+      2510
+     ],
+     [
+      558390,
+      2280
+     ],
+     [
+      561070,
+      3570
+     ],
+     [
+      565040,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Me acerco al cuadro, más cerca de lo que está permitido.",
+   "en": "I go up to the painting, closer than is allowed.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Me acerco",
+     "I go up"
+    ],
+    [
+     "al cuadro",
+     "to the painting"
+    ],
+    [
+     "más cerca",
+     "closer"
+    ],
+    [
+     "de lo que está permitido",
+     "than is allowed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3880,
+    "frs": 5430,
+    "en": 3220,
+    "wd": 13820
+   },
+   "bank": {
+    "fr": [
+     569130,
+     3880
+    ],
+    "frs": [
+     573410,
+     5430
+    ],
+    "en": [
+     579240,
+     3220
+    ],
+    "wd": [
+     582860,
+     13820
+    ],
+    "wp": [
+     [
+      582860,
+      2670
+     ],
+     [
+      585930,
+      2840
+     ],
+     [
+      589170,
+      2650
+     ],
+     [
+      592220,
+      3610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Allí, casi invisible bajo el barniz, hay una golondrina pequeña.",
+   "en": "There, almost invisible under the varnish, is a little swallow.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "barniz",
+     "en": "varnish"
+    }
+   ],
+   "words": [
+    [
+     "Allí",
+     "there"
+    ],
+    [
+     "casi invisible",
+     "almost invisible"
+    ],
+    [
+     "bajo el barniz",
+     "under the varnish"
+    ],
+    [
+     "hay",
+     "there is"
+    ],
+    [
+     "una golondrina pequeña",
+     "a little swallow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4920,
+    "frs": 6980,
+    "en": 4480,
+    "gl": 3340,
+    "wd": 17280
+   },
+   "bank": {
+    "fr": [
+     597080,
+     4920
+    ],
+    "frs": [
+     602400,
+     6980
+    ],
+    "en": [
+     609780,
+     4480
+    ],
+    "gl": [
+     614660,
+     3340
+    ],
+    "wd": [
+     618400,
+     17280
+    ],
+    "wp": [
+     [
+      618400,
+      2230
+     ],
+     [
+      621030,
+      3390
+     ],
+     [
+      624820,
+      3180
+     ],
+     [
+      628400,
+      2230
+     ],
+     [
+      631030,
+      3800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Goya nunca pintó golondrinas», dice mi abuela en voz baja.",
+   "en": "\"Goya never painted swallows,\" my grandmother says quietly.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Goya",
+     "Goya"
+    ],
+    [
+     "nunca pintó",
+     "never painted"
+    ],
+    [
+     "golondrinas",
+     "swallows"
+    ],
+    [
+     "dice",
+     "says"
+    ],
+    [
+     "mi abuela",
+     "my grandmother"
+    ],
+    [
+     "en voz baja",
+     "quietly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4540,
+    "frs": 6410,
+    "en": 4480,
+    "wd": 19420
+   },
+   "bank": {
+    "fr": [
+     636080,
+     4540
+    ],
+    "frs": [
+     641020,
+     6410
+    ],
+    "en": [
+     647830,
+     4480
+    ],
+    "wd": [
+     652710,
+     19420
+    ],
+    "wp": [
+     [
+      652710,
+      2290
+     ],
+     [
+      655400,
+      3040
+     ],
+     [
+      658840,
+      3030
+     ],
+     [
+      662270,
+      2350
+     ],
+     [
+      665020,
+      2980
+     ],
+     [
+      668400,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Yo pinté esta duquesa en 1965, para una película.»",
+   "en": "\"I painted this duchess in 1965, for a film.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Yo pinté",
+     "I painted"
+    ],
+    [
+     "esta duquesa",
+     "this duchess"
+    ],
+    [
+     "en 1965",
+     "in 1965"
+    ],
+    [
+     "para una película",
+     "for a film"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 5260,
+    "frs": 7510,
+    "en": 3970,
+    "wd": 15980
+   },
+   "bank": {
+    "fr": [
+     672530,
+     5260
+    ],
+    "frs": [
+     678190,
+     7510
+    ],
+    "en": [
+     686100,
+     3970
+    ],
+    "wd": [
+     690470,
+     15980
+    ],
+    "wp": [
+     [
+      690470,
+      2750
+     ],
+     [
+      693620,
+      3090
+     ],
+     [
+      697110,
+      4930
+     ],
+     [
+      702440,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«En el rodaje, el actor tenía que robarla en la escena final.»",
+   "en": "\"During the shoot, the actor had to steal it in the final scene.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "rodaje",
+     "en": "film shoot"
+    }
+   ],
+   "words": [
+    [
+     "En el rodaje",
+     "during the shoot"
+    ],
+    [
+     "el actor",
+     "the actor"
+    ],
+    [
+     "tenía que",
+     "had to"
+    ],
+    [
+     "robarla",
+     "steal it"
+    ],
+    [
+     "en la escena final",
+     "in the final scene"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "gl": "audio/s021_gl.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "frs": 5940,
+    "en": 4160,
+    "gl": 3740,
+    "wd": 16780
+   },
+   "bank": {
+    "fr": [
+     706850,
+     4220
+    ],
+    "frs": [
+     711470,
+     5940
+    ],
+    "en": [
+     717810,
+     4160
+    ],
+    "gl": [
+     722370,
+     3740
+    ],
+    "wd": [
+     726510,
+     16780
+    ],
+    "wp": [
+     [
+      726510,
+      3070
+     ],
+     [
+      729980,
+      2630
+     ],
+     [
+      733010,
+      2580
+     ],
+     [
+      735990,
+      2540
+     ],
+     [
+      738930,
+      3510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Después, nadie volvió a buscarla. Se quedó sesenta años en un almacén.»",
+   "en": "\"Afterwards, nobody came back for it. It stayed sixty years in a storeroom.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "almacén",
+     "en": "storeroom"
+    }
+   ],
+   "words": [
+    [
+     "Después",
+     "afterwards"
+    ],
+    [
+     "nadie",
+     "nobody"
+    ],
+    [
+     "volvió a buscarla",
+     "came back for it"
+    ],
+    [
+     "Se quedó",
+     "it stayed"
+    ],
+    [
+     "sesenta años",
+     "sixty years"
+    ],
+    [
+     "en un almacén",
+     "in a storeroom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 6670,
+    "frs": 9610,
+    "en": 5260,
+    "gl": 3560,
+    "wd": 20720
+   },
+   "bank": {
+    "fr": [
+     743690,
+     6670
+    ],
+    "frs": [
+     750760,
+     9610
+    ],
+    "en": [
+     760770,
+     5260
+    ],
+    "gl": [
+     766430,
+     3560
+    ],
+    "wd": [
+     770390,
+     20720
+    ],
+    "wp": [
+     [
+      770390,
+      2850
+     ],
+     [
+      773640,
+      2460
+     ],
+     [
+      776500,
+      3380
+     ],
+     [
+      780280,
+      2640
+     ],
+     [
+      783320,
+      3500
+     ],
+     [
+      787220,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Me pongo blanco.",
+   "en": "I go pale.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Me pongo blanco",
+     "I go pale (literally \"I turn white\")"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2009,
+    "frs": 2610,
+    "en": 1440,
+    "wd": 5370
+   },
+   "bank": {
+    "fr": [
+     791510,
+     2009
+    ],
+    "frs": [
+     793920,
+     2610
+    ],
+    "en": [
+     796930,
+     1440
+    ],
+    "wd": [
+     798770,
+     5370
+    ],
+    "wp": [
+     [
+      798770,
+      4520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tengo que decírselo a la directora.",
+   "en": "I have to tell the director.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tengo que",
+     "I have to"
+    ],
+    [
+     "decírselo",
+     "to tell her"
+    ],
+    [
+     "a la directora",
+     "the director (a woman)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "frs": 3850,
+    "en": 1920,
+    "wd": 10690
+   },
+   "bank": {
+    "fr": [
+     804540,
+     2850
+    ],
+    "frs": [
+     807790,
+     3850
+    ],
+    "en": [
+     812040,
+     1920
+    ],
+    "wd": [
+     814360,
+     10690
+    ],
+    "wp": [
+     [
+      814360,
+      2620
+     ],
+     [
+      817380,
+      2830
+     ],
+     [
+      820610,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La directora no se enfada. Primero se sienta, y después llama a los periódicos.",
+   "en": "The director doesn't get angry. First she sits down, and then she calls the newspapers.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La directora",
+     "the director"
+    ],
+    [
+     "no se enfada",
+     "doesn't get angry"
+    ],
+    [
+     "Primero",
+     "first"
+    ],
+    [
+     "se sienta",
+     "sits down"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "después",
+     "then"
+    ],
+    [
+     "llama",
+     "calls"
+    ],
+    [
+     "a los periódicos",
+     "the newspapers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 7040,
+    "frs": 10140,
+    "en": 5400,
+    "wd": 25850
+   },
+   "bank": {
+    "fr": [
+     825450,
+     7040
+    ],
+    "frs": [
+     832890,
+     10140
+    ],
+    "en": [
+     843430,
+     5400
+    ],
+    "wd": [
+     849230,
+     25850
+    ],
+    "wp": [
+     [
+      849230,
+      2980
+     ],
+     [
+      852610,
+      3250
+     ],
+     [
+      856260,
+      2430
+     ],
+     [
+      859090,
+      2800
+     ],
+     [
+      862290,
+      2360
+     ],
+     [
+      865050,
+      2530
+     ],
+     [
+      867980,
+      2380
+     ],
+     [
+      870760,
+      3470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Una semana después, el cuadro tiene una etiqueta nueva.",
+   "en": "A week later, the painting has a new label.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "etiqueta",
+     "en": "label"
+    }
+   ],
+   "words": [
+    [
+     "Una semana después",
+     "a week later"
+    ],
+    [
+     "el cuadro",
+     "the painting"
+    ],
+    [
+     "tiene",
+     "has"
+    ],
+    [
+     "una etiqueta nueva",
+     "a new label"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "frs": 6030,
+    "en": 3060,
+    "gl": 3520,
+    "wd": 14040
+   },
+   "bank": {
+    "fr": [
+     875480,
+     4290
+    ],
+    "frs": [
+     880170,
+     6030
+    ],
+    "en": [
+     886600,
+     3060
+    ],
+    "gl": [
+     890060,
+     3520
+    ],
+    "wd": [
+     893980,
+     14040
+    ],
+    "wp": [
+     [
+      893980,
+      3600
+     ],
+     [
+      897980,
+      2650
+     ],
+     [
+      901030,
+      2329
+     ],
+     [
+      903760,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«La duquesa del abanico. Inés Robles, pintora de cine, 1965.»",
+   "en": "\"The duchess with the fan. Inés Robles, film painter, 1965.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La duquesa del abanico",
+     "the duchess with the fan"
+    ],
+    [
+     "Inés Robles",
+     "Inés Robles"
+    ],
+    [
+     "pintora de cine",
+     "film painter"
+    ],
+    [
+     "1965",
+     "1965"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 7470,
+    "frs": 10810,
+    "en": 5700,
+    "wd": 17220
+   },
+   "bank": {
+    "fr": [
+     908420,
+     7470
+    ],
+    "frs": [
+     916290,
+     10810
+    ],
+    "en": [
+     927500,
+     5700
+    ],
+    "wd": [
+     933600,
+     17220
+    ],
+    "wp": [
+     [
+      933600,
+      4080
+     ],
+     [
+      938080,
+      3280
+     ],
+     [
+      941760,
+      3130
+     ],
+     [
+      945290,
+      4680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora las colas son todavía más largas.",
+   "en": "Now the queues are even longer.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "las colas",
+     "the queues"
+    ],
+    [
+     "son",
+     "are"
+    ],
+    [
+     "todavía más largas",
+     "even longer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "frs": 4810,
+    "en": 2190,
+    "wd": 12900
+   },
+   "bank": {
+    "fr": [
+     951220,
+     3490
+    ],
+    "frs": [
+     955110,
+     4810
+    ],
+    "en": [
+     960320,
+     2190
+    ],
+    "wd": [
+     962910,
+     12900
+    ],
+    "wp": [
+     [
+      962910,
+      2260
+     ],
+     [
+      965570,
+      2890
+     ],
+     [
+      968860,
+      2190
+     ],
+     [
+      971450,
+      3510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La gente quiere ver la golondrina.",
+   "en": "People want to see the swallow.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La gente",
+     "people"
+    ],
+    [
+     "quiere ver",
+     "want to see"
+    ],
+    [
+     "la golondrina",
+     "the swallow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3800,
+    "en": 1980,
+    "wd": 9770
+   },
+   "bank": {
+    "fr": [
+     976210,
+     2810
+    ],
+    "frs": [
+     979420,
+     3800
+    ],
+    "en": [
+     983620,
+     1980
+    ],
+    "wd": [
+     986000,
+     9770
+    ],
+    "wp": [
+     [
+      986000,
+      2520
+     ],
+     [
+      988920,
+      2560
+     ],
+     [
+      991880,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y los domingos, mi abuela se sienta en un banco delante del cuadro.",
+   "en": "And on Sundays, my grandmother sits on a bench in front of the painting.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "los domingos",
+     "on Sundays"
+    ],
+    [
+     "mi abuela",
+     "my grandmother"
+    ],
+    [
+     "se sienta",
+     "sits"
+    ],
+    [
+     "en un banco",
+     "on a bench"
+    ],
+    [
+     "delante del cuadro",
+     "in front of the painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "frs": 6340,
+    "en": 4210,
+    "wd": 20560
+   },
+   "bank": {
+    "fr": [
+     996170,
+     4490
+    ],
+    "frs": [
+     1001060,
+     6340
+    ],
+    "en": [
+     1007800,
+     4210
+    ],
+    "wd": [
+     1012410,
+     20560
+    ],
+    "wp": [
+     [
+      1012410,
+      2360
+     ],
+     [
+      1015170,
+      3150
+     ],
+     [
+      1018720,
+      2980
+     ],
+     [
+      1022100,
+      2680
+     ],
+     [
+      1025180,
+      2950
+     ],
+     [
+      1028530,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Firma autógrafos con un pincel.",
+   "en": "She signs autographs with a paintbrush.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "pincel",
+     "en": "paintbrush"
+    }
+   ],
+   "words": [
+    [
+     "Firma",
+     "she signs"
+    ],
+    [
+     "autógrafos",
+     "autographs"
+    ],
+    [
+     "con un pincel",
+     "with a paintbrush"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "gl": "audio/s031_gl.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 2870,
+    "frs": 3820,
+    "en": 2820,
+    "gl": 3470,
+    "wd": 10660
+   },
+   "bank": {
+    "fr": [
+     1033369,
+     2870
+    ],
+    "frs": [
+     1036640,
+     3820
+    ],
+    "en": [
+     1040859,
+     2820
+    ],
+    "gl": [
+     1044079,
+     3470
+    ],
+    "wd": [
+     1047950,
+     10660
+    ],
+    "wp": [
+     [
+      1047950,
+      2690
+     ],
+     [
+      1051040,
+      3130
+     ],
+     [
+      1054570,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y en cada autógrafo, claro, dibuja una golondrina pequeña.",
+   "en": "And on every autograph, of course, she draws a little swallow.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Y",
+     "and"
+    ],
+    [
+     "en cada autógrafo",
+     "on every autograph"
+    ],
+    [
+     "claro",
+     "of course"
+    ],
+    [
+     "dibuja",
+     "draws"
+    ],
+    [
+     "una golondrina pequeña",
+     "a little swallow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 4640,
+    "frs": 6540,
+    "en": 4330,
+    "wd": 17480
+   },
+   "bank": {
+    "fr": [
+     1059010,
+     4640
+    ],
+    "frs": [
+     1064050,
+     6540
+    ],
+    "en": [
+     1070990,
+     4330
+    ],
+    "wd": [
+     1075720,
+     17480
+    ],
+    "wp": [
+     [
+      1075720,
+      2360
+     ],
+     [
+      1078480,
+      3850
+     ],
+     [
+      1082730,
+      2480
+     ],
+     [
+      1085610,
+      2540
+     ],
+     [
+      1088550,
+      3800
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20140
+  ],
+  "silence": [
+   20940,
+   30000
+  ]
+ }
+}
