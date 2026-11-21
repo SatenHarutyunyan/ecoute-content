@@ -318,6 +318,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <input type="text" id="pattern" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="tokens" style="white-space:pre-line"></div>
   </details>
+  <label class="opt" id="volKeysRow" style="margin-top:10px" hidden><input type="checkbox" id="volKeys"><span>Volume buttons move through phrases: up = next, down = hear it again (Android app). Off: they change the volume.</span></label>
   <label class="opt" style="margin-top:10px"><input type="checkbox" id="tapWords"><span>Tap a word in the sentence to see its translation (and save it)</span></label>
   <details id="lessonBox" style="margin-top:10px"><summary id="lessonHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="lessonPat" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
@@ -354,7 +355,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.101";
+const VERSION = "web 0.102";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1223,6 +1224,12 @@ $("adaptive").onchange = e => {
   store.set("adaptive_" + lang, e.target.checked); log("adaptive", { on: e.target.checked }); renderPattern();
   if (story && seg >= 0 && !lessonMode()) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; show(); }
 };
+// Android app (web screens): the classic app's volume-buttons switch, stored by the app itself
+if (window.EcouteAndroid && EcouteAndroid.volumeKeys) {
+  $("volKeysRow").hidden = false;
+  try { $("volKeys").checked = EcouteAndroid.volumeKeys(); } catch {}
+  $("volKeys").onchange = e => { try { EcouteAndroid.setVolumeKeys(e.target.checked); } catch {} log("volume_keys_setting", { on: e.target.checked }); };
+}
 $("tapWords").checked = store.get("tap_words", true);
 $("tapWords").onchange = e => { store.set("tap_words", e.target.checked); log("tap_words", { on: e.target.checked }); if (story && seg >= 0) show(); };
 $("play").onclick = togglePlay;
