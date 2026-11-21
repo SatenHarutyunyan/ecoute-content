@@ -1,0 +1,3336 @@
+{
+ "id": "fr_req_saten_bolero",
+ "lang": "fr",
+ "title": "Une mélodie avec un seul doigt",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "The famous Boléro began as a small experiment: one melody, played with one finger. Listen for the word tambour, the drum that never stops.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 17760,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Été 1928, à Saint-Jean-de-Luz, près de la mer.",
+   "en": "Summer 1928, in Saint-Jean-de-Luz, near the sea.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Été",
+     "summer"
+    ],
+    [
+     "1928",
+     "1928"
+    ],
+    [
+     "à Saint-Jean-de-Luz",
+     "in Saint-Jean-de-Luz"
+    ],
+    [
+     "près de",
+     "near"
+    ],
+    [
+     "la mer",
+     "the sea"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4880,
+    "frs": 6890,
+    "en": 4630,
+    "wd": 17060
+   },
+   "bank": {
+    "fr": [
+     48960,
+     4880
+    ],
+    "frs": [
+     54240,
+     6890
+    ],
+    "en": [
+     61530,
+     4630
+    ],
+    "wd": [
+     66560,
+     17060
+    ],
+    "wp": [
+     [
+      66560,
+      2200
+     ],
+     [
+      69160,
+      3810
+     ],
+     [
+      73370,
+      3710
+     ],
+     [
+      77480,
+      2309
+     ],
+     [
+      80190,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maurice Ravel est assis devant un piano.",
+   "en": "Maurice Ravel is sitting at a piano.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Maurice Ravel",
+     "Maurice Ravel"
+    ],
+    [
+     "est assis",
+     "is sitting"
+    ],
+    [
+     "devant",
+     "in front of"
+    ],
+    [
+     "un piano",
+     "a piano"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2960,
+    "frs": 4050,
+    "en": 2680,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     84020,
+     2960
+    ],
+    "frs": [
+     87380,
+     4050
+    ],
+    "en": [
+     91830,
+     2680
+    ],
+    "wd": [
+     94910,
+     12770
+    ],
+    "wp": [
+     [
+      94910,
+      3250
+     ],
+     [
+      98560,
+      2510
+     ],
+     [
+      101470,
+      2440
+     ],
+     [
+      104310,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il joue une mélodie avec un seul doigt.",
+   "en": "He plays a melody with a single finger.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "mélodie",
+     "en": "melody"
+    }
+   ],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "joue",
+     "plays"
+    ],
+    [
+     "une mélodie",
+     "a melody"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "un seul",
+     "a single"
+    ],
+    [
+     "doigt",
+     "finger"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "frs": 4010,
+    "en": 2630,
+    "gl": 3580,
+    "wd": 16860
+   },
+   "bank": {
+    "fr": [
+     108080,
+     2980
+    ],
+    "frs": [
+     111460,
+     4010
+    ],
+    "en": [
+     115870,
+     2630
+    ],
+    "gl": [
+     118900,
+     3580
+    ],
+    "wd": [
+     122880,
+     16860
+    ],
+    "wp": [
+     [
+      122880,
+      2020
+     ],
+     [
+      125300,
+      2270
+     ],
+     [
+      127970,
+      2750
+     ],
+     [
+      131120,
+      2170
+     ],
+     [
+      133690,
+      2530
+     ],
+     [
+      136620,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Son ami Gustave l'écoute, un peu surpris.",
+   "en": "His friend Gustave listens to him, a little surprised.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Son ami",
+     "his friend"
+    ],
+    [
+     "Gustave",
+     "Gustave"
+    ],
+    [
+     "l'écoute",
+     "listens to him"
+    ],
+    [
+     "un peu",
+     "a little"
+    ],
+    [
+     "surpris",
+     "surprised"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "frs": 5050,
+    "en": 3630,
+    "wd": 15600
+   },
+   "bank": {
+    "fr": [
+     140140,
+     3630
+    ],
+    "frs": [
+     144170,
+     5050
+    ],
+    "en": [
+     149620,
+     3630
+    ],
+    "wd": [
+     153650,
+     15600
+    ],
+    "wp": [
+     [
+      153650,
+      2760
+     ],
+     [
+      156810,
+      2610
+     ],
+     [
+      159820,
+      2830
+     ],
+     [
+      163050,
+      2280
+     ],
+     [
+      165730,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tu ne trouves pas que ce thème est insistant ? » demande Ravel.",
+   "en": "\"Don't you think this theme is insistent?\" asks Ravel.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Tu ne trouves pas",
+     "don't you think"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "ce thème",
+     "this theme"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "insistant",
+     "insistent"
+    ],
+    [
+     "demande",
+     "asks"
+    ],
+    [
+     "Ravel",
+     "Ravel"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "frs": 5670,
+    "en": 3710,
+    "wd": 20400
+   },
+   "bank": {
+    "fr": [
+     169650,
+     4070
+    ],
+    "frs": [
+     174120,
+     5670
+    ],
+    "en": [
+     180190,
+     3710
+    ],
+    "wd": [
+     184300,
+     20400
+    ],
+    "wp": [
+     [
+      184300,
+      2930
+     ],
+     [
+      187630,
+      2020
+     ],
+     [
+      190050,
+      2680
+     ],
+     [
+      193130,
+      1990
+     ],
+     [
+      195520,
+      2640
+     ],
+     [
+      198560,
+      2460
+     ],
+     [
+      201420,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je vais le répéter, encore et encore, sans le changer. »",
+   "en": "\"I'm going to repeat it, again and again, without changing it.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je vais",
+     "I'm going to"
+    ],
+    [
+     "le répéter",
+     "repeat it"
+    ],
+    [
+     "encore et encore",
+     "again and again"
+    ],
+    [
+     "sans",
+     "without"
+    ],
+    [
+     "le changer",
+     "changing it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "frs": 6170,
+    "en": 4210,
+    "wd": 16190
+   },
+   "bank": {
+    "fr": [
+     205100,
+     4400
+    ],
+    "frs": [
+     209900,
+     6170
+    ],
+    "en": [
+     216470,
+     4210
+    ],
+    "wd": [
+     221080,
+     16190
+    ],
+    "wp": [
+     [
+      221080,
+      2600
+     ],
+     [
+      224080,
+      2720
+     ],
+     [
+      227200,
+      3600
+     ],
+     [
+      231200,
+      2190
+     ],
+     [
+      233790,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Seulement l'orchestre va grandir, petit à petit. »",
+   "en": "\"Only the orchestra will grow, little by little.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Seulement",
+     "only"
+    ],
+    [
+     "l'orchestre",
+     "the orchestra"
+    ],
+    [
+     "va grandir",
+     "will grow"
+    ],
+    [
+     "petit à petit",
+     "little by little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "frs": 5620,
+    "en": 3180,
+    "wd": 13190
+   },
+   "bank": {
+    "fr": [
+     237670,
+     4019
+    ],
+    "frs": [
+     242090,
+     5620
+    ],
+    "en": [
+     248110,
+     3180
+    ],
+    "wd": [
+     251690,
+     13190
+    ],
+    "wp": [
+     [
+      251690,
+      2350
+     ],
+     [
+      254440,
+      2870
+     ],
+     [
+      257710,
+      2790
+     ],
+     [
+      260900,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Cette année-là, une danseuse célèbre lui a demandé un ballet.",
+   "en": "That year, a famous dancer had asked him for a ballet.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Cette année-là",
+     "that year"
+    ],
+    [
+     "une danseuse",
+     "a dancer"
+    ],
+    [
+     "célèbre",
+     "famous"
+    ],
+    [
+     "lui a demandé",
+     "asked him for"
+    ],
+    [
+     "un ballet",
+     "a ballet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "frs": 6310,
+    "en": 3630,
+    "wd": 15930
+   },
+   "bank": {
+    "fr": [
+     265280,
+     4470
+    ],
+    "frs": [
+     270150,
+     6310
+    ],
+    "en": [
+     276860,
+     3630
+    ],
+    "wd": [
+     280890,
+     15930
+    ],
+    "wp": [
+     [
+      280890,
+      2640
+     ],
+     [
+      283930,
+      2810
+     ],
+     [
+      287140,
+      2550
+     ],
+     [
+      290090,
+      3010
+     ],
+     [
+      293500,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle s'appelle Ida Rubinstein, et elle veut quelque chose d'espagnol.",
+   "en": "Her name is Ida Rubinstein, and she wants something Spanish.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Elle s'appelle",
+     "her name is"
+    ],
+    [
+     "Ida Rubinstein",
+     "Ida Rubinstein"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "elle veut",
+     "she wants"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "d'espagnol",
+     "Spanish"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 6930,
+    "en": 4110,
+    "wd": 19230
+   },
+   "bank": {
+    "fr": [
+     297220,
+     4890
+    ],
+    "frs": [
+     302510,
+     6930
+    ],
+    "en": [
+     309840,
+     4110
+    ],
+    "wd": [
+     314350,
+     19230
+    ],
+    "wp": [
+     [
+      314350,
+      2850
+     ],
+     [
+      317600,
+      3660
+     ],
+     [
+      321660,
+      1820
+     ],
+     [
+      323880,
+      2510
+     ],
+     [
+      326790,
+      2700
+     ],
+     [
+      329890,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "D'abord, Ravel veut simplement orchestrer la musique d'un autre compositeur.",
+   "en": "At first, Ravel simply wants to orchestrate another composer's music.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "orchestrer",
+     "en": "to orchestrate"
+    }
+   ],
+   "words": [
+    [
+     "D'abord",
+     "at first"
+    ],
+    [
+     "Ravel",
+     "Ravel"
+    ],
+    [
+     "veut",
+     "wants"
+    ],
+    [
+     "simplement",
+     "simply"
+    ],
+    [
+     "orchestrer",
+     "to orchestrate"
+    ],
+    [
+     "la musique",
+     "the music"
+    ],
+    [
+     "d'un autre compositeur",
+     "of another composer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5500,
+    "frs": 7880,
+    "en": 4680,
+    "gl": 3900,
+    "wd": 22730
+   },
+   "bank": {
+    "fr": [
+     333980,
+     5500
+    ],
+    "frs": [
+     339880,
+     7880
+    ],
+    "en": [
+     348160,
+     4680
+    ],
+    "gl": [
+     353240,
+     3900
+    ],
+    "wd": [
+     357540,
+     22730
+    ],
+    "wp": [
+     [
+      357540,
+      2700
+     ],
+     [
+      360640,
+      2430
+     ],
+     [
+      363470,
+      2200
+     ],
+     [
+      366070,
+      2590
+     ],
+     [
+      369060,
+      2890
+     ],
+     [
+      372350,
+      2780
+     ],
+     [
+      375530,
+      3890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais les droits appartiennent déjà à quelqu'un d'autre.",
+   "en": "But the rights already belong to someone else.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "les droits",
+     "en": "the rights"
+    }
+   ],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "les droits",
+     "the rights"
+    ],
+    [
+     "appartiennent",
+     "belong"
+    ],
+    [
+     "déjà",
+     "already"
+    ],
+    [
+     "à quelqu'un d'autre",
+     "to someone else"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3470,
+    "frs": 4760,
+    "en": 3060,
+    "gl": 3640,
+    "wd": 15180
+   },
+   "bank": {
+    "fr": [
+     380670,
+     3470
+    ],
+    "frs": [
+     384540,
+     4760
+    ],
+    "en": [
+     389700,
+     3060
+    ],
+    "gl": [
+     393160,
+     3640
+    ],
+    "wd": [
+     397200,
+     15180
+    ],
+    "wp": [
+     [
+      397200,
+      1920
+     ],
+     [
+      399520,
+      2670
+     ],
+     [
+      402590,
+      2660
+     ],
+     [
+      405650,
+      2320
+     ],
+     [
+      408370,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors il décide d'écrire sa propre musique.",
+   "en": "So he decides to write his own music.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "il décide",
+     "he decides"
+    ],
+    [
+     "d'écrire",
+     "to write"
+    ],
+    [
+     "sa propre",
+     "his own"
+    ],
+    [
+     "musique",
+     "music"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "frs": 4740,
+    "en": 2540,
+    "wd": 15210
+   },
+   "bank": {
+    "fr": [
+     412780,
+     3450
+    ],
+    "frs": [
+     416630,
+     4740
+    ],
+    "en": [
+     421770,
+     2540
+    ],
+    "wd": [
+     424710,
+     15210
+    ],
+    "wp": [
+     [
+      424710,
+      2270
+     ],
+     [
+      427380,
+      2940
+     ],
+     [
+      430720,
+      2480
+     ],
+     [
+      433600,
+      2690
+     ],
+     [
+      436690,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il appelle ce morceau « une expérience ».",
+   "en": "He calls this piece \"an experiment\".",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "une expérience",
+     "en": "an experiment"
+    }
+   ],
+   "words": [
+    [
+     "Il appelle",
+     "he calls"
+    ],
+    [
+     "ce morceau",
+     "this piece"
+    ],
+    [
+     "une expérience",
+     "an experiment"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "frs": 4640,
+    "en": 2750,
+    "gl": 4340,
+    "wd": 10360
+   },
+   "bank": {
+    "fr": [
+     440320,
+     3370
+    ],
+    "frs": [
+     444090,
+     4640
+    ],
+    "en": [
+     449130,
+     2750
+    ],
+    "gl": [
+     452280,
+     4340
+    ],
+    "wd": [
+     457020,
+     10360
+    ],
+    "wp": [
+     [
+      457020,
+      2670
+     ],
+     [
+      460090,
+      2850
+     ],
+     [
+      463340,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pas de développement, pas de surprise : une seule mélodie, et un rythme de tambour.",
+   "en": "No development, no surprise: a single melody, and a drum rhythm.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "tambour",
+     "en": "drum"
+    }
+   ],
+   "words": [
+    [
+     "Pas de",
+     "no"
+    ],
+    [
+     "développement",
+     "development"
+    ],
+    [
+     "pas de",
+     "no"
+    ],
+    [
+     "surprise",
+     "surprise"
+    ],
+    [
+     "une seule",
+     "a single"
+    ],
+    [
+     "mélodie",
+     "melody"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "un rythme",
+     "a rhythm"
+    ],
+    [
+     "de tambour",
+     "of drum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "gl": "audio/s014_gl.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 6050,
+    "frs": 8630,
+    "en": 4760,
+    "gl": 3330,
+    "wd": 26180
+   },
+   "bank": {
+    "fr": [
+     467780,
+     6050
+    ],
+    "frs": [
+     474230,
+     8630
+    ],
+    "en": [
+     483260,
+     4760
+    ],
+    "gl": [
+     488420,
+     3330
+    ],
+    "wd": [
+     492150,
+     26180
+    ],
+    "wp": [
+     [
+      492150,
+      2180
+     ],
+     [
+      494730,
+      2750
+     ],
+     [
+      497880,
+      2180
+     ],
+     [
+      500460,
+      2850
+     ],
+     [
+      503710,
+      2550
+     ],
+     [
+      506660,
+      2570
+     ],
+     [
+      509630,
+      1820
+     ],
+     [
+      511850,
+      2540
+     ],
+     [
+      514790,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le tambour commence tout doucement, presque en silence.",
+   "en": "The drum starts very softly, almost in silence.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le tambour",
+     "the drum"
+    ],
+    [
+     "commence",
+     "starts"
+    ],
+    [
+     "tout doucement",
+     "very softly"
+    ],
+    [
+     "presque",
+     "almost"
+    ],
+    [
+     "en silence",
+     "in silence"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "frs": 5590,
+    "en": 3800,
+    "wd": 15930
+   },
+   "bank": {
+    "fr": [
+     518730,
+     4019
+    ],
+    "frs": [
+     523150,
+     5590
+    ],
+    "en": [
+     529140,
+     3800
+    ],
+    "wd": [
+     533340,
+     15930
+    ],
+    "wp": [
+     [
+      533340,
+      2710
+     ],
+     [
+      536450,
+      2580
+     ],
+     [
+      539430,
+      2860
+     ],
+     [
+      542690,
+      2400
+     ],
+     [
+      545490,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis une flûte joue la mélodie, puis une clarinette.",
+   "en": "Then a flute plays the melody, then a clarinet.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "une flûte",
+     "a flute"
+    ],
+    [
+     "joue",
+     "plays"
+    ],
+    [
+     "la mélodie",
+     "the melody"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "une clarinette",
+     "a clarinet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 3890,
+    "frs": 5410,
+    "en": 3320,
+    "wd": 17850
+   },
+   "bank": {
+    "fr": [
+     549670,
+     3890
+    ],
+    "frs": [
+     553960,
+     5410
+    ],
+    "en": [
+     559770,
+     3320
+    ],
+    "wd": [
+     563490,
+     17850
+    ],
+    "wp": [
+     [
+      563490,
+      2110
+     ],
+     [
+      566000,
+      2580
+     ],
+     [
+      568980,
+      2270
+     ],
+     [
+      571650,
+      2850
+     ],
+     [
+      574900,
+      2110
+     ],
+     [
+      577410,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À chaque fois, un instrument de plus, un peu plus fort.",
+   "en": "Each time, one more instrument, a little louder.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "À chaque fois",
+     "each time"
+    ],
+    [
+     "un instrument",
+     "an instrument"
+    ],
+    [
+     "de plus",
+     "more"
+    ],
+    [
+     "un peu",
+     "a little"
+    ],
+    [
+     "plus fort",
+     "louder"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4600,
+    "frs": 6450,
+    "en": 3450,
+    "wd": 15380
+   },
+   "bank": {
+    "fr": [
+     581740,
+     4600
+    ],
+    "frs": [
+     586740,
+     6450
+    ],
+    "en": [
+     593590,
+     3450
+    ],
+    "wd": [
+     597440,
+     15380
+    ],
+    "wp": [
+     [
+      597440,
+      2750
+     ],
+     [
+      600590,
+      2880
+     ],
+     [
+      603870,
+      2460
+     ],
+     [
+      606730,
+      2280
+     ],
+     [
+      609410,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ravel aime les machines et les usines.",
+   "en": "Ravel loves machines and factories.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "les usines",
+     "en": "factories"
+    }
+   ],
+   "words": [
+    [
+     "Ravel",
+     "Ravel"
+    ],
+    [
+     "aime",
+     "loves"
+    ],
+    [
+     "les machines",
+     "machines"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "les usines",
+     "factories"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "frs": 3640,
+    "en": 2810,
+    "gl": 3870,
+    "wd": 14600
+   },
+   "bank": {
+    "fr": [
+     613220,
+     2700
+    ],
+    "frs": [
+     616320,
+     3640
+    ],
+    "en": [
+     620360,
+     2810
+    ],
+    "gl": [
+     623570,
+     3870
+    ],
+    "wd": [
+     627840,
+     14600
+    ],
+    "wp": [
+     [
+      627840,
+      2430
+     ],
+     [
+      630670,
+      2260
+     ],
+     [
+      633330,
+      2820
+     ],
+     [
+      636550,
+      1820
+     ],
+     [
+      638770,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pour lui, ce rythme ressemble à une usine qui ne s'arrête jamais.",
+   "en": "For him, this rhythm is like a factory that never stops.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pour lui",
+     "for him"
+    ],
+    [
+     "ce rythme",
+     "this rhythm"
+    ],
+    [
+     "ressemble à",
+     "is like"
+    ],
+    [
+     "une usine",
+     "a factory"
+    ],
+    [
+     "qui",
+     "that"
+    ],
+    [
+     "ne s'arrête jamais",
+     "never stops"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "frs": 6170,
+    "en": 4230,
+    "wd": 18680
+   },
+   "bank": {
+    "fr": [
+     642840,
+     4410
+    ],
+    "frs": [
+     647650,
+     6170
+    ],
+    "en": [
+     654220,
+     4230
+    ],
+    "wd": [
+     658850,
+     18680
+    ],
+    "wp": [
+     [
+      658850,
+      2460
+     ],
+     [
+      661710,
+      2730
+     ],
+     [
+      664840,
+      2650
+     ],
+     [
+      667890,
+      2720
+     ],
+     [
+      671010,
+      2020
+     ],
+     [
+      673430,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le 22 novembre 1928, c'est la première à l'Opéra de Paris.",
+   "en": "On 22 November 1928, it's the premiere at the Paris Opera.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "la première",
+     "en": "the premiere"
+    }
+   ],
+   "words": [
+    [
+     "Le 22 novembre 1928",
+     "on 22 November 1928"
+    ],
+    [
+     "c'est",
+     "it's"
+    ],
+    [
+     "la première",
+     "the premiere"
+    ],
+    [
+     "à l'Opéra de Paris",
+     "at the Paris Opera"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 5260,
+    "frs": 7450,
+    "en": 5560,
+    "gl": 3910,
+    "wd": 17070
+   },
+   "bank": {
+    "fr": [
+     677930,
+     5260
+    ],
+    "frs": [
+     683590,
+     7450
+    ],
+    "en": [
+     691440,
+     5560
+    ],
+    "gl": [
+     697400,
+     3910
+    ],
+    "wd": [
+     701710,
+     17070
+    ],
+    "wp": [
+     [
+      701710,
+      6410
+     ],
+     [
+      708520,
+      2110
+     ],
+     [
+      711030,
+      2870
+     ],
+     [
+      714300,
+      3630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur la scène, Ida Rubinstein danse sur une grande table.",
+   "en": "On stage, Ida Rubinstein dances on a big table.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Sur la scène",
+     "on stage"
+    ],
+    [
+     "Ida Rubinstein",
+     "Ida Rubinstein"
+    ],
+    [
+     "danse",
+     "dances"
+    ],
+    [
+     "sur",
+     "on"
+    ],
+    [
+     "une grande table",
+     "a big table"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4580,
+    "frs": 6480,
+    "en": 3880,
+    "wd": 16930
+   },
+   "bank": {
+    "fr": [
+     719180,
+     4580
+    ],
+    "frs": [
+     724160,
+     6480
+    ],
+    "en": [
+     731040,
+     3880
+    ],
+    "wd": [
+     735320,
+     16930
+    ],
+    "wp": [
+     [
+      735320,
+      2990
+     ],
+     [
+      738710,
+      3660
+     ],
+     [
+      742770,
+      2470
+     ],
+     [
+      745640,
+      2250
+     ],
+     [
+      748290,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Autour d'elle, des hommes la regardent, de plus en plus excités.",
+   "en": "Around her, men watch her, more and more excited.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Autour d'elle",
+     "around her"
+    ],
+    [
+     "des hommes",
+     "men"
+    ],
+    [
+     "la regardent",
+     "watch her"
+    ],
+    [
+     "de plus en plus",
+     "more and more"
+    ],
+    [
+     "excités",
+     "excited"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4710,
+    "frs": 6640,
+    "en": 3680,
+    "wd": 16059
+   },
+   "bank": {
+    "fr": [
+     752650,
+     4710
+    ],
+    "frs": [
+     757760,
+     6640
+    ],
+    "en": [
+     764800,
+     3680
+    ],
+    "wd": [
+     768880,
+     16059
+    ],
+    "wp": [
+     [
+      768880,
+      2790
+     ],
+     [
+      772070,
+      2350
+     ],
+     [
+      774820,
+      2780
+     ],
+     [
+      778000,
+      3170
+     ],
+     [
+      781570,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La musique monte, monte, et à la fin, elle explose.",
+   "en": "The music rises, rises, and at the end, it explodes.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La musique",
+     "the music"
+    ],
+    [
+     "monte",
+     "rises"
+    ],
+    [
+     "monte",
+     "rises"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "à la fin",
+     "at the end"
+    ],
+    [
+     "elle explose",
+     "it explodes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "frs": 6890,
+    "en": 4810,
+    "wd": 18030
+   },
+   "bank": {
+    "fr": [
+     785340,
+     4890
+    ],
+    "frs": [
+     790630,
+     6890
+    ],
+    "en": [
+     797920,
+     4810
+    ],
+    "wd": [
+     803130,
+     18030
+    ],
+    "wp": [
+     [
+      803130,
+      2770
+     ],
+     [
+      806300,
+      2460
+     ],
+     [
+      809160,
+      2460
+     ],
+     [
+      812020,
+      1820
+     ],
+     [
+      814240,
+      2580
+     ],
+     [
+      817220,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le public applaudit, debout.",
+   "en": "The audience applauds, standing.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le public",
+     "the audience"
+    ],
+    [
+     "applaudit",
+     "applauds"
+    ],
+    [
+     "debout",
+     "standing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "frs": 3770,
+    "en": 2570,
+    "wd": 9610
+   },
+   "bank": {
+    "fr": [
+     821560,
+     2810
+    ],
+    "frs": [
+     824770,
+     3770
+    ],
+    "en": [
+     828940,
+     2570
+    ],
+    "wd": [
+     831910,
+     9610
+    ],
+    "wp": [
+     [
+      831910,
+      2910
+     ],
+     [
+      835220,
+      2710
+     ],
+     [
+      838330,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "On raconte qu'une femme a crié : « Au fou ! Au fou ! »",
+   "en": "People say that a woman shouted: \"He's mad! He's mad!\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "On raconte",
+     "people say"
+    ],
+    [
+     "qu'une femme",
+     "that a woman"
+    ],
+    [
+     "a crié",
+     "shouted"
+    ],
+    [
+     "Au fou",
+     "he's mad"
+    ],
+    [
+     "Au fou",
+     "he's mad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4860,
+    "frs": 6870,
+    "en": 4370,
+    "wd": 15380
+   },
+   "bank": {
+    "fr": [
+     841920,
+     4860
+    ],
+    "frs": [
+     847180,
+     6870
+    ],
+    "en": [
+     854450,
+     4370
+    ],
+    "wd": [
+     859220,
+     15380
+    ],
+    "wp": [
+     [
+      859220,
+      2860
+     ],
+     [
+      862480,
+      2660
+     ],
+     [
+      865540,
+      2450
+     ],
+     [
+      868390,
+      2480
+     ],
+     [
+      871270,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et Ravel aurait répondu : « Celle-là, elle a compris. »",
+   "en": "And Ravel supposedly replied: \"That one has understood.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "Ravel",
+     "Ravel"
+    ],
+    [
+     "aurait répondu",
+     "supposedly replied"
+    ],
+    [
+     "Celle-là",
+     "that one"
+    ],
+    [
+     "elle a compris",
+     "has understood"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "frs": 5620,
+    "en": 4160,
+    "wd": 15680
+   },
+   "bank": {
+    "fr": [
+     875000,
+     4019
+    ],
+    "frs": [
+     879420,
+     5620
+    ],
+    "en": [
+     885440,
+     4160
+    ],
+    "wd": [
+     890000,
+     15680
+    ],
+    "wp": [
+     [
+      890000,
+      1820
+     ],
+     [
+      892220,
+      2430
+     ],
+     [
+      895050,
+      3400
+     ],
+     [
+      898850,
+      2580
+     ],
+     [
+      901830,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le Boléro devient très vite célèbre dans le monde entier.",
+   "en": "Boléro very quickly becomes famous all over the world.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le Boléro",
+     "Boléro"
+    ],
+    [
+     "devient",
+     "becomes"
+    ],
+    [
+     "très vite",
+     "very quickly"
+    ],
+    [
+     "célèbre",
+     "famous"
+    ],
+    [
+     "dans le monde entier",
+     "all over the world"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3860,
+    "frs": 5410,
+    "en": 3890,
+    "wd": 16309
+   },
+   "bank": {
+    "fr": [
+     906080,
+     3860
+    ],
+    "frs": [
+     910340,
+     5410
+    ],
+    "en": [
+     916150,
+     3890
+    ],
+    "wd": [
+     920440,
+     16309
+    ],
+    "wp": [
+     [
+      920440,
+      2570
+     ],
+     [
+      923410,
+      2510
+     ],
+     [
+      926320,
+      2830
+     ],
+     [
+      929550,
+      2550
+     ],
+     [
+      932500,
+      3400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais Ravel n'est pas tout à fait content.",
+   "en": "But Ravel is not quite happy.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "Ravel",
+     "Ravel"
+    ],
+    [
+     "n'est pas",
+     "is not"
+    ],
+    [
+     "tout à fait",
+     "quite"
+    ],
+    [
+     "content",
+     "happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2750,
+    "frs": 3690,
+    "en": 2390,
+    "wd": 13920
+   },
+   "bank": {
+    "fr": [
+     937150,
+     2750
+    ],
+    "frs": [
+     940300,
+     3690
+    ],
+    "en": [
+     944390,
+     2390
+    ],
+    "wd": [
+     947180,
+     13920
+    ],
+    "wp": [
+     [
+      947180,
+      1920
+     ],
+     [
+      949500,
+      2430
+     ],
+     [
+      952330,
+      2400
+     ],
+     [
+      955130,
+      2410
+     ],
+     [
+      957940,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai écrit un seul chef-d'œuvre, dit-il : le Boléro. »",
+   "en": "\"I have written only one masterpiece,\" he says: \"Boléro.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "chef-d'œuvre",
+     "en": "masterpiece"
+    }
+   ],
+   "words": [
+    [
+     "J'ai écrit",
+     "I have written"
+    ],
+    [
+     "un seul",
+     "only one"
+    ],
+    [
+     "chef-d'œuvre",
+     "masterpiece"
+    ],
+    [
+     "dit-il",
+     "he says"
+    ],
+    [
+     "le Boléro",
+     "Boléro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "frs": 5950,
+    "en": 4610,
+    "gl": 3850,
+    "wd": 15900
+   },
+   "bank": {
+    "fr": [
+     961500,
+     4260
+    ],
+    "frs": [
+     966160,
+     5950
+    ],
+    "en": [
+     972510,
+     4610
+    ],
+    "gl": [
+     977520,
+     3850
+    ],
+    "wd": [
+     981770,
+     15900
+    ],
+    "wp": [
+     [
+      981770,
+      2820
+     ],
+     [
+      984990,
+      2620
+     ],
+     [
+      988010,
+      2850
+     ],
+     [
+      991260,
+      2590
+     ],
+     [
+      994250,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Malheureusement, il n'y a pas de musique dedans. »",
+   "en": "\"Unfortunately, there's no music in it.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Malheureusement",
+     "unfortunately"
+    ],
+    [
+     "il n'y a pas de",
+     "there is no"
+    ],
+    [
+     "musique",
+     "music"
+    ],
+    [
+     "dedans",
+     "in it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "frs": 4900,
+    "en": 2950,
+    "wd": 12410
+   },
+   "bank": {
+    "fr": [
+     998070,
+     3560
+    ],
+    "frs": [
+     1002030,
+     4900
+    ],
+    "en": [
+     1007330,
+     2950
+    ],
+    "wd": [
+     1010680,
+     12410
+    ],
+    "wp": [
+     [
+      1010680,
+      3010
+     ],
+     [
+      1014090,
+      2790
+     ],
+     [
+      1017280,
+      2380
+     ],
+     [
+      1020060,
+      2180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il plaisante, bien sûr. Ou peut-être pas complètement.",
+   "en": "He's joking, of course. Or maybe not completely.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Il plaisante",
+     "he's joking"
+    ],
+    [
+     "bien sûr",
+     "of course"
+    ],
+    [
+     "Ou",
+     "or"
+    ],
+    [
+     "peut-être pas",
+     "maybe not"
+    ],
+    [
+     "complètement",
+     "completely"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 5200,
+    "frs": 7370,
+    "en": 3530,
+    "wd": 15520
+   },
+   "bank": {
+    "fr": [
+     1023490,
+     5200
+    ],
+    "frs": [
+     1029089,
+     7370
+    ],
+    "en": [
+     1036859,
+     3530
+    ],
+    "wd": [
+     1040790,
+     15520
+    ],
+    "wp": [
+     [
+      1040790,
+      2890
+     ],
+     [
+      1044080,
+      2720
+     ],
+     [
+      1047200,
+      1910
+     ],
+     [
+      1049510,
+      2840
+     ],
+     [
+      1052750,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelques années plus tard, Ravel tombe malade.",
+   "en": "A few years later, Ravel falls ill.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Quelques années",
+     "a few years"
+    ],
+    [
+     "plus tard",
+     "later"
+    ],
+    [
+     "Ravel",
+     "Ravel"
+    ],
+    [
+     "tombe malade",
+     "falls ill"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3790,
+    "frs": 5280,
+    "en": 2960,
+    "wd": 12750
+   },
+   "bank": {
+    "fr": [
+     1056710,
+     3790
+    ],
+    "frs": [
+     1060900,
+     5280
+    ],
+    "en": [
+     1066580,
+     2960
+    ],
+    "wd": [
+     1069940,
+     12750
+    ],
+    "wp": [
+     [
+      1069940,
+      2930
+     ],
+     [
+      1073270,
+      2450
+     ],
+     [
+      1076120,
+      2430
+     ],
+     [
+      1078950,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Son cerveau ne trouve plus les mots, ni les notes.",
+   "en": "His brain can no longer find the words, nor the notes.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "cerveau",
+     "en": "brain"
+    }
+   ],
+   "words": [
+    [
+     "Son cerveau",
+     "his brain"
+    ],
+    [
+     "ne trouve plus",
+     "can no longer find"
+    ],
+    [
+     "les mots",
+     "the words"
+    ],
+    [
+     "ni",
+     "nor"
+    ],
+    [
+     "les notes",
+     "the notes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "gl": "audio/s033_gl.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "frs": 5130,
+    "en": 3750,
+    "gl": 3290,
+    "wd": 15630
+   },
+   "bank": {
+    "fr": [
+     1083090,
+     3690
+    ],
+    "frs": [
+     1087180,
+     5130
+    ],
+    "en": [
+     1092710,
+     3750
+    ],
+    "gl": [
+     1096860,
+     3290
+    ],
+    "wd": [
+     1100550,
+     15630
+    ],
+    "wp": [
+     [
+      1100550,
+      2760
+     ],
+     [
+      1103710,
+      3300
+     ],
+     [
+      1107410,
+      2380
+     ],
+     [
+      1110190,
+      2110
+     ],
+     [
+      1112700,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il entend encore la musique dans sa tête, mais il ne peut plus l'écrire.",
+   "en": "He still hears music in his head, but he can no longer write it.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Il entend",
+     "he hears"
+    ],
+    [
+     "encore",
+     "still"
+    ],
+    [
+     "la musique",
+     "music"
+    ],
+    [
+     "dans sa tête",
+     "in his head"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il ne peut plus",
+     "he can no longer"
+    ],
+    [
+     "l'écrire",
+     "write it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 4940,
+    "frs": 6960,
+    "en": 4130,
+    "wd": 21270
+   },
+   "bank": {
+    "fr": [
+     1116580,
+     4940
+    ],
+    "frs": [
+     1121920,
+     6960
+    ],
+    "en": [
+     1129280,
+     4130
+    ],
+    "wd": [
+     1133810,
+     21270
+    ],
+    "wp": [
+     [
+      1133810,
+      2580
+     ],
+     [
+      1136790,
+      2440
+     ],
+     [
+      1139630,
+      2620
+     ],
+     [
+      1142650,
+      3020
+     ],
+     [
+      1146070,
+      1920
+     ],
+     [
+      1148390,
+      3110
+     ],
+     [
+      1151900,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Certains médecins pensent que la maladie avait déjà commencé en 1928.",
+   "en": "Some doctors think the illness had already begun in 1928.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Certains médecins",
+     "some doctors"
+    ],
+    [
+     "pensent",
+     "think"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "la maladie",
+     "the illness"
+    ],
+    [
+     "avait déjà commencé",
+     "had already begun"
+    ],
+    [
+     "en 1928",
+     "in 1928"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5190,
+    "frs": 7400,
+    "en": 4210,
+    "wd": 20780
+   },
+   "bank": {
+    "fr": [
+     1155480,
+     5190
+    ],
+    "frs": [
+     1161070,
+     7400
+    ],
+    "en": [
+     1168870,
+     4210
+    ],
+    "wd": [
+     1173480,
+     20780
+    ],
+    "wp": [
+     [
+      1173480,
+      3190
+     ],
+     [
+      1177070,
+      2200
+     ],
+     [
+      1179670,
+      2020
+     ],
+     [
+      1182090,
+      2900
+     ],
+     [
+      1185390,
+      3580
+     ],
+     [
+      1189370,
+      4040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une mélodie répétée, encore et encore… Ce n'est qu'une hypothèse.",
+   "en": "A melody repeated, again and again… It's only a hypothesis.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "hypothèse",
+     "en": "hypothesis"
+    }
+   ],
+   "words": [
+    [
+     "Une mélodie",
+     "a melody"
+    ],
+    [
+     "répétée",
+     "repeated"
+    ],
+    [
+     "encore et encore",
+     "again and again"
+    ],
+    [
+     "Ce n'est qu'une",
+     "it's only a"
+    ],
+    [
+     "hypothèse",
+     "hypothesis"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "gl": "audio/s036_gl.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 5840,
+    "frs": 8350,
+    "en": 4990,
+    "gl": 3990,
+    "wd": 17240
+   },
+   "bank": {
+    "fr": [
+     1194660,
+     5840
+    ],
+    "frs": [
+     1200900,
+     8350
+    ],
+    "en": [
+     1209650,
+     4990
+    ],
+    "gl": [
+     1215040,
+     3990
+    ],
+    "wd": [
+     1219430,
+     17240
+    ],
+    "wp": [
+     [
+      1219430,
+      2730
+     ],
+     [
+      1222560,
+      2580
+     ],
+     [
+      1225540,
+      3600
+     ],
+     [
+      1229540,
+      2920
+     ],
+     [
+      1232860,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il meurt en décembre 1937, à soixante-deux ans.",
+   "en": "He dies in December 1937, at sixty-two.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Il meurt",
+     "he dies"
+    ],
+    [
+     "en décembre 1937",
+     "in December 1937"
+    ],
+    [
+     "à soixante-deux ans",
+     "at sixty-two"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "frs": 6140,
+    "en": 4350,
+    "wd": 13030
+   },
+   "bank": {
+    "fr": [
+     1237070,
+     4380
+    ],
+    "frs": [
+     1241850,
+     6140
+    ],
+    "en": [
+     1248390,
+     4350
+    ],
+    "wd": [
+     1253140,
+     13030
+    ],
+    "wp": [
+     [
+      1253140,
+      2630
+     ],
+     [
+      1256170,
+      5520
+     ],
+     [
+      1262090,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Aujourd'hui, quelque part dans le monde, un orchestre joue sans doute le Boléro.",
+   "en": "Today, somewhere in the world, an orchestra is probably playing Boléro.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Aujourd'hui",
+     "today"
+    ],
+    [
+     "quelque part",
+     "somewhere"
+    ],
+    [
+     "dans le monde",
+     "in the world"
+    ],
+    [
+     "un orchestre",
+     "an orchestra"
+    ],
+    [
+     "joue",
+     "is playing"
+    ],
+    [
+     "sans doute",
+     "probably"
+    ],
+    [
+     "le Boléro",
+     "Boléro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5560,
+    "frs": 7920,
+    "en": 4550,
+    "wd": 21900
+   },
+   "bank": {
+    "fr": [
+     1266570,
+     5560
+    ],
+    "frs": [
+     1272530,
+     7920
+    ],
+    "en": [
+     1280850,
+     4550
+    ],
+    "wd": [
+     1285800,
+     21900
+    ],
+    "wp": [
+     [
+      1285800,
+      2510
+     ],
+     [
+      1288710,
+      2730
+     ],
+     [
+      1291840,
+      2910
+     ],
+     [
+      1295150,
+      2990
+     ],
+     [
+      1298540,
+      2370
+     ],
+     [
+      1301310,
+      2570
+     ],
+     [
+      1304280,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et tout a commencé par une mélodie, jouée avec un seul doigt.",
+   "en": "And it all began with a melody, played with a single finger.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "tout a commencé",
+     "it all began"
+    ],
+    [
+     "par",
+     "with"
+    ],
+    [
+     "une mélodie",
+     "a melody"
+    ],
+    [
+     "jouée",
+     "played"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "un seul",
+     "a single"
+    ],
+    [
+     "doigt",
+     "finger"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "frs": 5930,
+    "en": 3780,
+    "wd": 22620
+   },
+   "bank": {
+    "fr": [
+     1308100,
+     4220
+    ],
+    "frs": [
+     1312720,
+     5930
+    ],
+    "en": [
+     1319050,
+     3780
+    ],
+    "wd": [
+     1323230,
+     22620
+    ],
+    "wp": [
+     [
+      1323230,
+      1820
+     ],
+     [
+      1325450,
+      3100
+     ],
+     [
+      1328950,
+      2120
+     ],
+     [
+      1331470,
+      2750
+     ],
+     [
+      1334620,
+      2210
+     ],
+     [
+      1337230,
+      2170
+     ],
+     [
+      1339800,
+      2530
+     ],
+     [
+      1342730,
+      2270
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   17760
+  ],
+  "silence": [
+   18560,
+   30000
+  ]
+ }
+}

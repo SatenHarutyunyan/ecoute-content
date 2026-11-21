@@ -1,0 +1,3041 @@
+{
+ "id": "fr_req_saten_lettres_gyumri",
+ "lang": "fr",
+ "title": "Lettres à Gyumri",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "Davit, nineteen, is doing his military service far from home. He writes to his mother in Gyumri, and he has taken his grandfather's old montre, the watch that stopped years ago.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 18630,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Chère maman,",
+   "en": "Dear Mom,",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Chère",
+     "dear"
+    ],
+    [
+     "maman",
+     "Mom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 1610,
+    "frs": 2009,
+    "en": 1270,
+    "wd": 5730
+   },
+   "bank": {
+    "fr": [
+     49830,
+     1610
+    ],
+    "frs": [
+     51840,
+     2009
+    ],
+    "en": [
+     54250,
+     1270
+    ],
+    "wd": [
+     55920,
+     5730
+    ],
+    "wp": [
+     [
+      55920,
+      2250
+     ],
+     [
+      58570,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je suis bien arrivé à la caserne.",
+   "en": "I arrived safely at the barracks.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "caserne",
+     "en": "barracks"
+    }
+   ],
+   "words": [
+    [
+     "Je suis bien arrivé",
+     "I arrived safely"
+    ],
+    [
+     "à la caserne",
+     "at the barracks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 2910,
+    "frs": 3910,
+    "en": 2460,
+    "gl": 3640,
+    "wd": 8020
+   },
+   "bank": {
+    "fr": [
+     62050,
+     2910
+    ],
+    "frs": [
+     65360,
+     3910
+    ],
+    "en": [
+     69670,
+     2460
+    ],
+    "gl": [
+     72530,
+     3640
+    ],
+    "wd": [
+     76570,
+     8020
+    ],
+    "wp": [
+     [
+      76570,
+      3690
+     ],
+     [
+      80660,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ne pleure pas, je t'entends d'ici.",
+   "en": "Don't cry, I can hear you from here.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ne pleure pas",
+     "don't cry"
+    ],
+    [
+     "je t'entends",
+     "I hear you"
+    ],
+    [
+     "d'ici",
+     "from here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3010,
+    "frs": 4070,
+    "en": 2830,
+    "wd": 9520
+   },
+   "bank": {
+    "fr": [
+     84990,
+     3010
+    ],
+    "frs": [
+     88400,
+     4070
+    ],
+    "en": [
+     92870,
+     2830
+    ],
+    "wd": [
+     96100,
+     9520
+    ],
+    "wp": [
+     [
+      96100,
+      2720
+     ],
+     [
+      99220,
+      2720
+     ],
+     [
+      102340,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ici, tout le monde se lève à six heures.",
+   "en": "Here, everyone gets up at six.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ici",
+     "here"
+    ],
+    [
+     "tout le monde",
+     "everyone"
+    ],
+    [
+     "se lève",
+     "gets up"
+    ],
+    [
+     "à six heures",
+     "at six o'clock"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3460,
+    "frs": 4740,
+    "en": 2580,
+    "wd": 12420
+   },
+   "bank": {
+    "fr": [
+     106020,
+     3460
+    ],
+    "frs": [
+     109880,
+     4740
+    ],
+    "en": [
+     115020,
+     2580
+    ],
+    "wd": [
+     118000,
+     12420
+    ],
+    "wp": [
+     [
+      118000,
+      2210
+     ],
+     [
+      120610,
+      2640
+     ],
+     [
+      123650,
+      2490
+     ],
+     [
+      126540,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La soupe de la cantine a vu une pomme de terre, une fois.",
+   "en": "The canteen soup has seen a potato, once.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La soupe",
+     "the soup"
+    ],
+    [
+     "de la cantine",
+     "of the canteen"
+    ],
+    [
+     "a vu",
+     "has seen"
+    ],
+    [
+     "une pomme de terre",
+     "a potato"
+    ],
+    [
+     "une fois",
+     "once"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4200,
+    "frs": 5860,
+    "en": 3220,
+    "wd": 16190
+   },
+   "bank": {
+    "fr": [
+     130820,
+     4200
+    ],
+    "frs": [
+     135420,
+     5860
+    ],
+    "en": [
+     141680,
+     3220
+    ],
+    "wd": [
+     145300,
+     16190
+    ],
+    "wp": [
+     [
+      145300,
+      2550
+     ],
+     [
+      148250,
+      3150
+     ],
+     [
+      151800,
+      2510
+     ],
+     [
+      154710,
+      3090
+     ],
+     [
+      158200,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je rêve de ton gata, avec beaucoup de beurre.",
+   "en": "I dream of your gata, with lots of butter.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "gata",
+     "en": "gata, Armenian sweet bread"
+    }
+   ],
+   "words": [
+    [
+     "Je rêve de",
+     "I dream of"
+    ],
+    [
+     "ton gata",
+     "your gata (sweet bread)"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "beaucoup de beurre",
+     "lots of butter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "frs": 5210,
+    "en": 3040,
+    "gl": 4620,
+    "wd": 13620
+   },
+   "bank": {
+    "fr": [
+     161890,
+     3740
+    ],
+    "frs": [
+     166030,
+     5210
+    ],
+    "en": [
+     171640,
+     3040
+    ],
+    "gl": [
+     175080,
+     4620
+    ],
+    "wd": [
+     180100,
+     13620
+    ],
+    "wp": [
+     [
+      180100,
+      2880
+     ],
+     [
+      183380,
+      3400
+     ],
+     [
+      187180,
+      2170
+     ],
+     [
+      189750,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai pris la montre de grand-père, comme tu voulais.",
+   "en": "I took Grandpa's watch, as you wanted.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "montre",
+     "en": "watch"
+    }
+   ],
+   "words": [
+    [
+     "J'ai pris",
+     "I took"
+    ],
+    [
+     "la montre",
+     "the watch"
+    ],
+    [
+     "de grand-père",
+     "Grandpa's"
+    ],
+    [
+     "comme tu voulais",
+     "as you wanted"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "frs": 5170,
+    "en": 2790,
+    "gl": 3260,
+    "wd": 12980
+   },
+   "bank": {
+    "fr": [
+     194120,
+     3730
+    ],
+    "frs": [
+     198250,
+     5170
+    ],
+    "en": [
+     203820,
+     2790
+    ],
+    "gl": [
+     207010,
+     3260
+    ],
+    "wd": [
+     210670,
+     12980
+    ],
+    "wp": [
+     [
+      210670,
+      2480
+     ],
+     [
+      213550,
+      2680
+     ],
+     [
+      216630,
+      2860
+     ],
+     [
+      219890,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle est toujours arrêtée à onze heures quarante et une.",
+   "en": "It's still stopped at 11:41.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Elle est",
+     "it is"
+    ],
+    [
+     "toujours",
+     "still"
+    ],
+    [
+     "arrêtée",
+     "stopped"
+    ],
+    [
+     "à onze heures quarante et une",
+     "at 11:41"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3430,
+    "frs": 4700,
+    "en": 2650,
+    "wd": 13160
+   },
+   "bank": {
+    "fr": [
+     224050,
+     3430
+    ],
+    "frs": [
+     227880,
+     4700
+    ],
+    "en": [
+     232980,
+     2650
+    ],
+    "wd": [
+     236030,
+     13160
+    ],
+    "wp": [
+     [
+      236030,
+      2309
+     ],
+     [
+      238740,
+      2450
+     ],
+     [
+      241590,
+      2400
+     ],
+     [
+      244390,
+      3950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je la porte quand même. Elle me rappelle la maison.",
+   "en": "I wear it anyway. It reminds me of home.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je la porte",
+     "I wear it"
+    ],
+    [
+     "quand même",
+     "anyway"
+    ],
+    [
+     "Elle me rappelle",
+     "it reminds me of"
+    ],
+    [
+     "la maison",
+     "home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4500,
+    "frs": 6310,
+    "en": 3020,
+    "wd": 12950
+   },
+   "bank": {
+    "fr": [
+     249590,
+     4500
+    ],
+    "frs": [
+     254490,
+     6310
+    ],
+    "en": [
+     261200,
+     3020
+    ],
+    "wd": [
+     264620,
+     12950
+    ],
+    "wp": [
+     [
+      264620,
+      2820
+     ],
+     [
+      267840,
+      2520
+     ],
+     [
+      270760,
+      3150
+     ],
+     [
+      274310,
+      2410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ton fils, Davit.",
+   "en": "Your son, Davit.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ton fils",
+     "your son"
+    ],
+    [
+     "Davit",
+     "Davit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 2390,
+    "frs": 3160,
+    "en": 1710,
+    "wd": 6300
+   },
+   "bank": {
+    "fr": [
+     277970,
+     2390
+    ],
+    "frs": [
+     280760,
+     3160
+    ],
+    "en": [
+     284320,
+     1710
+    ],
+    "wd": [
+     286430,
+     6300
+    ],
+    "wp": [
+     [
+      286430,
+      2640
+     ],
+     [
+      289470,
+      2410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maman,",
+   "en": "Mom,",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 1370,
+    "frs": 1680,
+    "en": 1180,
+    "wd": 3080
+   },
+   "bank": {
+    "fr": [
+     293130,
+     1370
+    ],
+    "frs": [
+     294900,
+     1680
+    ],
+    "en": [
+     296980,
+     1180
+    ],
+    "wd": [
+     298560,
+     3080
+    ],
+    "wp": [
+     [
+      298560,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Notre sergent ronfle comme un vieux tracteur.",
+   "en": "Our sergeant snores like an old tractor.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "ronfle",
+     "en": "snores"
+    }
+   ],
+   "words": [
+    [
+     "Notre sergent",
+     "our sergeant"
+    ],
+    [
+     "ronfle",
+     "snores"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "un vieux tracteur",
+     "an old tractor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3350,
+    "frs": 4590,
+    "en": 2900,
+    "gl": 3420,
+    "wd": 13110
+   },
+   "bank": {
+    "fr": [
+     302040,
+     3350
+    ],
+    "frs": [
+     305790,
+     4590
+    ],
+    "en": [
+     310780,
+     2900
+    ],
+    "gl": [
+     314080,
+     3420
+    ],
+    "wd": [
+     317900,
+     13110
+    ],
+    "wp": [
+     [
+      317900,
+      3060
+     ],
+     [
+      321360,
+      2490
+     ],
+     [
+      324250,
+      2170
+     ],
+     [
+      326820,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon voisin de lit s'appelle Aram, il vient d'Erevan.",
+   "en": "The boy in the next bed is called Aram; he's from Yerevan.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mon voisin de lit",
+     "the boy in the next bed"
+    ],
+    [
+     "s'appelle",
+     "is called"
+    ],
+    [
+     "Aram",
+     "Aram"
+    ],
+    [
+     "il vient",
+     "he comes"
+    ],
+    [
+     "d'Erevan",
+     "from Yerevan"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3920,
+    "frs": 5480,
+    "en": 4160,
+    "wd": 16340
+   },
+   "bank": {
+    "fr": [
+     331410,
+     3920
+    ],
+    "frs": [
+     335730,
+     5480
+    ],
+    "en": [
+     341610,
+     4160
+    ],
+    "wd": [
+     346170,
+     16340
+    ],
+    "wp": [
+     [
+      346170,
+      3640
+     ],
+     [
+      350210,
+      2650
+     ],
+     [
+      353260,
+      2290
+     ],
+     [
+      355950,
+      2580
+     ],
+     [
+      358930,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Son père répare des montres dans une petite boutique.",
+   "en": "His father repairs watches in a small shop.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Son père",
+     "his father"
+    ],
+    [
+     "répare",
+     "repairs"
+    ],
+    [
+     "des montres",
+     "watches"
+    ],
+    [
+     "dans",
+     "in"
+    ],
+    [
+     "une petite boutique",
+     "a small shop"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "frs": 4980,
+    "en": 3030,
+    "wd": 15840
+   },
+   "bank": {
+    "fr": [
+     362910,
+     3580
+    ],
+    "frs": [
+     366890,
+     4980
+    ],
+    "en": [
+     372270,
+     3030
+    ],
+    "wd": [
+     375700,
+     15840
+    ],
+    "wp": [
+     [
+      375700,
+      2790
+     ],
+     [
+      378890,
+      2630
+     ],
+     [
+      381920,
+      2610
+     ],
+     [
+      384930,
+      2040
+     ],
+     [
+      387370,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Aram a regardé la montre de grand-père très longtemps.",
+   "en": "Aram looked at Grandpa's watch for a very long time.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Aram",
+     "Aram"
+    ],
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "la montre",
+     "the watch"
+    ],
+    [
+     "de grand-père",
+     "Grandpa's"
+    ],
+    [
+     "très longtemps",
+     "for a very long time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3590,
+    "frs": 5010,
+    "en": 3470,
+    "wd": 16030
+   },
+   "bank": {
+    "fr": [
+     391940,
+     3590
+    ],
+    "frs": [
+     395930,
+     5010
+    ],
+    "en": [
+     401340,
+     3470
+    ],
+    "wd": [
+     405210,
+     16030
+    ],
+    "wp": [
+     [
+      405210,
+      2290
+     ],
+     [
+      407900,
+      2550
+     ],
+     [
+      410850,
+      2680
+     ],
+     [
+      413930,
+      2860
+     ],
+     [
+      417190,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il n'a rien dit. Il a seulement demandé : « Gyumri ? »",
+   "en": "He said nothing. He only asked: \"Gyumri?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il n'a rien dit",
+     "he said nothing"
+    ],
+    [
+     "Il a seulement demandé",
+     "he only asked"
+    ],
+    [
+     "Gyumri",
+     "Gyumri"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4870,
+    "frs": 6860,
+    "en": 3540,
+    "wd": 10780
+   },
+   "bank": {
+    "fr": [
+     421640,
+     4870
+    ],
+    "frs": [
+     426910,
+     6860
+    ],
+    "en": [
+     434170,
+     3540
+    ],
+    "wd": [
+     438110,
+     10780
+    ],
+    "wp": [
+     [
+      438110,
+      3060
+     ],
+     [
+      441570,
+      3530
+     ],
+     [
+      445500,
+      2540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ici, il fait déjà froid la nuit, mais j'ai ton pull bleu.",
+   "en": "It's already cold here at night, but I have your blue sweater.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ici",
+     "here"
+    ],
+    [
+     "il fait déjà froid",
+     "it's already cold"
+    ],
+    [
+     "la nuit",
+     "at night"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "j'ai",
+     "I have"
+    ],
+    [
+     "ton pull bleu",
+     "your blue sweater"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4440,
+    "frs": 6240,
+    "en": 3630,
+    "wd": 18100
+   },
+   "bank": {
+    "fr": [
+     449290,
+     4440
+    ],
+    "frs": [
+     454130,
+     6240
+    ],
+    "en": [
+     460770,
+     3630
+    ],
+    "wd": [
+     464800,
+     18100
+    ],
+    "wp": [
+     [
+      464800,
+      2210
+     ],
+     [
+      467410,
+      3370
+     ],
+     [
+      471180,
+      2520
+     ],
+     [
+      474100,
+      1920
+     ],
+     [
+      476420,
+      2260
+     ],
+     [
+      479080,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ne t'inquiète pas pour moi. Je mange bien. Presque.",
+   "en": "Don't worry about me. I eat well. Almost.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ne t'inquiète pas",
+     "don't worry"
+    ],
+    [
+     "pour moi",
+     "about me"
+    ],
+    [
+     "Je mange bien",
+     "I eat well"
+    ],
+    [
+     "Presque",
+     "almost"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 5900,
+    "frs": 8450,
+    "en": 3460,
+    "wd": 12920
+   },
+   "bank": {
+    "fr": [
+     483300,
+     5900
+    ],
+    "frs": [
+     489600,
+     8450
+    ],
+    "en": [
+     498450,
+     3460
+    ],
+    "wd": [
+     502310,
+     12920
+    ],
+    "wp": [
+     [
+      502310,
+      2970
+     ],
+     [
+      505680,
+      2550
+     ],
+     [
+      508630,
+      2950
+     ],
+     [
+      511980,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Davit.",
+   "en": "Davit.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Davit",
+     "Davit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 1480,
+    "frs": 1850,
+    "en": 1180,
+    "wd": 3260
+   },
+   "bank": {
+    "fr": [
+     515630,
+     1480
+    ],
+    "frs": [
+     517510,
+     1850
+    ],
+    "en": [
+     519760,
+     1180
+    ],
+    "wd": [
+     521340,
+     3260
+    ],
+    "wp": [
+     [
+      521340,
+      2410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon petit,",
+   "en": "My little one,",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mon petit",
+     "my little one"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 1600,
+    "frs": 1960,
+    "en": 1460,
+    "wd": 3700
+   },
+   "bank": {
+    "fr": [
+     525000,
+     1600
+    ],
+    "frs": [
+     527000,
+     1960
+    ],
+    "en": [
+     529360,
+     1460
+    ],
+    "wd": [
+     531220,
+     3700
+    ],
+    "wp": [
+     [
+      531220,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je ne pleure pas. Enfin, seulement le soir.",
+   "en": "I don't cry. Well, only in the evening.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne pleure pas",
+     "I don't cry"
+    ],
+    [
+     "Enfin",
+     "well"
+    ],
+    [
+     "seulement",
+     "only"
+    ],
+    [
+     "le soir",
+     "in the evening"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4630,
+    "frs": 6510,
+    "en": 3140,
+    "wd": 12340
+   },
+   "bank": {
+    "fr": [
+     535320,
+     4630
+    ],
+    "frs": [
+     540350,
+     6510
+    ],
+    "en": [
+     547260,
+     3140
+    ],
+    "wd": [
+     550800,
+     12340
+    ],
+    "wp": [
+     [
+      550800,
+      2990
+     ],
+     [
+      554190,
+      2200
+     ],
+     [
+      556790,
+      2350
+     ],
+     [
+      559540,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je t'envoie un colis : du fromage, des noix et un gata.",
+   "en": "I'm sending you a parcel: cheese, walnuts and a gata.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "colis",
+     "en": "parcel"
+    },
+    {
+     "fr": "noix",
+     "en": "walnuts"
+    }
+   ],
+   "words": [
+    [
+     "Je t'envoie",
+     "I'm sending you"
+    ],
+    [
+     "un colis",
+     "a parcel"
+    ],
+    [
+     "du fromage",
+     "some cheese"
+    ],
+    [
+     "des noix",
+     "walnuts"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "un gata",
+     "a gata"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 4600,
+    "frs": 6460,
+    "en": 4350,
+    "gl": 5980,
+    "wd": 18050
+   },
+   "bank": {
+    "fr": [
+     563540,
+     4600
+    ],
+    "frs": [
+     568540,
+     6460
+    ],
+    "en": [
+     575400,
+     4350
+    ],
+    "gl": [
+     580150,
+     5980
+    ],
+    "wd": [
+     586530,
+     18050
+    ],
+    "wp": [
+     [
+      586530,
+      2910
+     ],
+     [
+      589840,
+      2580
+     ],
+     [
+      592820,
+      2870
+     ],
+     [
+      596090,
+      2500
+     ],
+     [
+      598990,
+      1820
+     ],
+     [
+      601210,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Partage-le avec ce garçon d'Erevan.",
+   "en": "Share it with that boy from Yerevan.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Partage-le",
+     "share it"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "ce garçon",
+     "that boy"
+    ],
+    [
+     "d'Erevan",
+     "from Yerevan"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3010,
+    "frs": 4090,
+    "en": 2560,
+    "wd": 12330
+   },
+   "bank": {
+    "fr": [
+     604980,
+     3010
+    ],
+    "frs": [
+     608390,
+     4090
+    ],
+    "en": [
+     612880,
+     2560
+    ],
+    "wd": [
+     615840,
+     12330
+    ],
+    "wp": [
+     [
+      615840,
+      2650
+     ],
+     [
+      618890,
+      2170
+     ],
+     [
+      621460,
+      2730
+     ],
+     [
+      624590,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pour la montre, ne fais rien. Elle est bien comme ça.",
+   "en": "As for the watch, don't do anything. It's fine like that.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Pour la montre",
+     "as for the watch"
+    ],
+    [
+     "ne fais rien",
+     "don't do anything"
+    ],
+    [
+     "Elle est bien",
+     "it's fine"
+    ],
+    [
+     "comme ça",
+     "like that"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "frs": 6590,
+    "en": 3800,
+    "wd": 13150
+   },
+   "bank": {
+    "fr": [
+     628570,
+     4680
+    ],
+    "frs": [
+     633650,
+     6590
+    ],
+    "en": [
+     640640,
+     3800
+    ],
+    "wd": [
+     644840,
+     13150
+    ],
+    "wp": [
+     [
+      644840,
+      3050
+     ],
+     [
+      648290,
+      2900
+     ],
+     [
+      651590,
+      2580
+     ],
+     [
+      654570,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ton grand-père aimait dire : le temps répare tout, sauf les montres.",
+   "en": "Your grandpa liked to say: time fixes everything, except watches.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ton grand-père",
+     "your grandpa"
+    ],
+    [
+     "aimait dire",
+     "liked to say"
+    ],
+    [
+     "le temps",
+     "time"
+    ],
+    [
+     "répare tout",
+     "fixes everything"
+    ],
+    [
+     "sauf",
+     "except"
+    ],
+    [
+     "les montres",
+     "watches"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4640,
+    "frs": 6520,
+    "en": 4970,
+    "wd": 18920
+   },
+   "bank": {
+    "fr": [
+     658390,
+     4640
+    ],
+    "frs": [
+     663430,
+     6520
+    ],
+    "en": [
+     670350,
+     4970
+    ],
+    "wd": [
+     675720,
+     18920
+    ],
+    "wp": [
+     [
+      675720,
+      2900
+     ],
+     [
+      679020,
+      2750
+     ],
+     [
+      682170,
+      2230
+     ],
+     [
+      684800,
+      3130
+     ],
+     [
+      688330,
+      2470
+     ],
+     [
+      691200,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maman.",
+   "en": "Mom.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 1350,
+    "frs": 1640,
+    "en": 1180,
+    "wd": 3080
+   },
+   "bank": {
+    "fr": [
+     695040,
+     1350
+    ],
+    "frs": [
+     696790,
+     1640
+    ],
+    "en": [
+     698830,
+     1180
+    ],
+    "wd": [
+     700410,
+     3080
+    ],
+    "wp": [
+     [
+      700410,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chère maman,",
+   "en": "Dear Mom,",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Chère",
+     "dear"
+    ],
+    [
+     "maman",
+     "Mom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 1610,
+    "frs": 2009,
+    "en": 1270,
+    "wd": 5730
+   },
+   "bank": {
+    "fr": [
+     703890,
+     1610
+    ],
+    "frs": [
+     705900,
+     2009
+    ],
+    "en": [
+     708310,
+     1270
+    ],
+    "wd": [
+     709980,
+     5730
+    ],
+    "wp": [
+     [
+      709980,
+      2250
+     ],
+     [
+      712630,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ton colis est arrivé. Le gata n'a pas survécu une heure.",
+   "en": "Your parcel arrived. The gata didn't survive an hour.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Ton colis",
+     "your parcel"
+    ],
+    [
+     "est arrivé",
+     "arrived"
+    ],
+    [
+     "Le gata",
+     "the gata"
+    ],
+    [
+     "n'a pas survécu",
+     "didn't survive"
+    ],
+    [
+     "une heure",
+     "an hour"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 5220,
+    "frs": 7390,
+    "en": 3630,
+    "wd": 16170
+   },
+   "bank": {
+    "fr": [
+     716110,
+     5220
+    ],
+    "frs": [
+     721730,
+     7390
+    ],
+    "en": [
+     729520,
+     3630
+    ],
+    "wd": [
+     733550,
+     16170
+    ],
+    "wp": [
+     [
+      733550,
+      2710
+     ],
+     [
+      736660,
+      2620
+     ],
+     [
+      739680,
+      2550
+     ],
+     [
+      742630,
+      3390
+     ],
+     [
+      746420,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Même le sergent en a mangé deux morceaux, en silence.",
+   "en": "Even the sergeant ate two pieces, in silence.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Même",
+     "even"
+    ],
+    [
+     "le sergent",
+     "the sergeant"
+    ],
+    [
+     "en a mangé",
+     "ate (of it)"
+    ],
+    [
+     "deux morceaux",
+     "two pieces"
+    ],
+    [
+     "en silence",
+     "in silence"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4230,
+    "frs": 5970,
+    "en": 3770,
+    "wd": 15860
+   },
+   "bank": {
+    "fr": [
+     750120,
+     4230
+    ],
+    "frs": [
+     754750,
+     5970
+    ],
+    "en": [
+     761120,
+     3770
+    ],
+    "wd": [
+     765290,
+     15860
+    ],
+    "wp": [
+     [
+      765290,
+      2170
+     ],
+     [
+      767860,
+      2700
+     ],
+     [
+      770960,
+      2810
+     ],
+     [
+      774170,
+      2800
+     ],
+     [
+      777370,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le sept décembre, à onze heures quarante et une, nous nous sommes tous levés.",
+   "en": "On the seventh of December, at 11:41, we all stood up.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le sept décembre",
+     "on the seventh of December"
+    ],
+    [
+     "à onze heures quarante et une",
+     "at 11:41"
+    ],
+    [
+     "nous nous sommes tous levés",
+     "we all stood up"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5140,
+    "frs": 7260,
+    "en": 4830,
+    "wd": 12910
+   },
+   "bank": {
+    "fr": [
+     781550,
+     5140
+    ],
+    "frs": [
+     787090,
+     7260
+    ],
+    "en": [
+     794750,
+     4830
+    ],
+    "wd": [
+     799980,
+     12910
+    ],
+    "wp": [
+     [
+      799980,
+      3910
+     ],
+     [
+      804290,
+      3950
+     ],
+     [
+      808640,
+      3400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Personne n'a parlé. J'ai pensé à toi, et à grand-père.",
+   "en": "No one spoke. I thought of you, and of Grandpa.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Personne n'a parlé",
+     "no one spoke"
+    ],
+    [
+     "J'ai pensé à toi",
+     "I thought of you"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "à grand-père",
+     "of Grandpa"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 5440,
+    "frs": 7730,
+    "en": 3510,
+    "wd": 13240
+   },
+   "bank": {
+    "fr": [
+     813290,
+     5440
+    ],
+    "frs": [
+     819130,
+     7730
+    ],
+    "en": [
+     827260,
+     3510
+    ],
+    "wd": [
+     831170,
+     13240
+    ],
+    "wp": [
+     [
+      831170,
+      3300
+     ],
+     [
+      834870,
+      3210
+     ],
+     [
+      838480,
+      1820
+     ],
+     [
+      840700,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je ne t'ai pas obéi, maman. Tu comprendras plus tard. Pardon.",
+   "en": "I didn't obey you, Mom. You'll understand later. Sorry.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "obéi",
+     "en": "obeyed"
+    }
+   ],
+   "words": [
+    [
+     "Je ne t'ai pas obéi",
+     "I didn't obey you"
+    ],
+    [
+     "maman",
+     "Mom"
+    ],
+    [
+     "Tu comprendras",
+     "you'll understand"
+    ],
+    [
+     "plus tard",
+     "later"
+    ],
+    [
+     "Pardon",
+     "sorry"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "gl": "audio/s032_gl.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 6900,
+    "frs": 9890,
+    "en": 4120,
+    "gl": 3260,
+    "wd": 16120
+   },
+   "bank": {
+    "fr": [
+     844810,
+     6900
+    ],
+    "frs": [
+     852110,
+     9890
+    ],
+    "en": [
+     862400,
+     4120
+    ],
+    "gl": [
+     866920,
+     3260
+    ],
+    "wd": [
+     870580,
+     16120
+    ],
+    "wp": [
+     [
+      870580,
+      3560
+     ],
+     [
+      874540,
+      2230
+     ],
+     [
+      877170,
+      3120
+     ],
+     [
+      880690,
+      2450
+     ],
+     [
+      883540,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maman,",
+   "en": "Mom,",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Maman",
+     "Mom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 1370,
+    "frs": 1680,
+    "en": 1180,
+    "wd": 3080
+   },
+   "bank": {
+    "fr": [
+     887100,
+     1370
+    ],
+    "frs": [
+     888870,
+     1680
+    ],
+    "en": [
+     890950,
+     1180
+    ],
+    "wd": [
+     892530,
+     3080
+    ],
+    "wp": [
+     [
+      892530,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon service est presque fini. Je rentre le premier juillet.",
+   "en": "My service is almost over. I'm coming home on the first of July.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Mon service",
+     "my service"
+    ],
+    [
+     "est presque fini",
+     "is almost over"
+    ],
+    [
+     "Je rentre",
+     "I'm coming home"
+    ],
+    [
+     "le premier juillet",
+     "on the first of July"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "frs": 7510,
+    "en": 4260,
+    "wd": 14730
+   },
+   "bank": {
+    "fr": [
+     896010,
+     5250
+    ],
+    "frs": [
+     901660,
+     7510
+    ],
+    "en": [
+     909570,
+     4260
+    ],
+    "wd": [
+     914230,
+     14730
+    ],
+    "wp": [
+     [
+      914230,
+      2980
+     ],
+     [
+      917610,
+      3260
+     ],
+     [
+      921270,
+      2920
+     ],
+     [
+      924590,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant une permission, Aram a emporté la montre chez son père.",
+   "en": "During a leave, Aram took the watch to his father's.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "permission",
+     "en": "leave, time off from the army"
+    }
+   ],
+   "words": [
+    [
+     "Pendant",
+     "during"
+    ],
+    [
+     "une permission",
+     "a leave"
+    ],
+    [
+     "Aram",
+     "Aram"
+    ],
+    [
+     "a emporté",
+     "took (away)"
+    ],
+    [
+     "la montre",
+     "the watch"
+    ],
+    [
+     "chez son père",
+     "to his father's"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "gl": "audio/s035_gl.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 4640,
+    "frs": 6540,
+    "en": 3850,
+    "gl": 4670,
+    "wd": 18740
+   },
+   "bank": {
+    "fr": [
+     929360,
+     4640
+    ],
+    "frs": [
+     934400,
+     6540
+    ],
+    "en": [
+     941340,
+     3850
+    ],
+    "gl": [
+     945590,
+     4670
+    ],
+    "wd": [
+     950660,
+     18740
+    ],
+    "wp": [
+     [
+      950660,
+      2190
+     ],
+     [
+      953250,
+      2760
+     ],
+     [
+      956410,
+      2290
+     ],
+     [
+      959100,
+      2880
+     ],
+     [
+      962380,
+      2680
+     ],
+     [
+      965460,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle marche. Je l'entends la nuit, sous mon oreiller.",
+   "en": "It works. I hear it at night, under my pillow.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "oreiller",
+     "en": "pillow"
+    }
+   ],
+   "words": [
+    [
+     "Elle marche",
+     "it works"
+    ],
+    [
+     "Je l'entends",
+     "I hear it"
+    ],
+    [
+     "la nuit",
+     "at night"
+    ],
+    [
+     "sous mon oreiller",
+     "under my pillow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "gl": "audio/s036_gl.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4850,
+    "frs": 6890,
+    "en": 3570,
+    "gl": 3190,
+    "wd": 13050
+   },
+   "bank": {
+    "fr": [
+     969800,
+     4850
+    ],
+    "frs": [
+     975050,
+     6890
+    ],
+    "en": [
+     982340,
+     3570
+    ],
+    "gl": [
+     986310,
+     3190
+    ],
+    "wd": [
+     989900,
+     13050
+    ],
+    "wp": [
+     [
+      989900,
+      2660
+     ],
+     [
+      992960,
+      2620
+     ],
+     [
+      995980,
+      2520
+     ],
+     [
+      998900,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Grand-père disait que le temps répare tout, sauf les montres.",
+   "en": "Grandpa used to say that time fixes everything, except watches.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Grand-père",
+     "Grandpa"
+    ],
+    [
+     "disait",
+     "used to say"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "le temps",
+     "time"
+    ],
+    [
+     "répare tout",
+     "fixes everything"
+    ],
+    [
+     "sauf",
+     "except"
+    ],
+    [
+     "les montres",
+     "watches"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5600,
+    "en": 4500,
+    "wd": 20780
+   },
+   "bank": {
+    "fr": [
+     1003350,
+     4010
+    ],
+    "frs": [
+     1007760,
+     5600
+    ],
+    "en": [
+     1013760,
+     4500
+    ],
+    "wd": [
+     1018660,
+     20780
+    ],
+    "wp": [
+     [
+      1018660,
+      2580
+     ],
+     [
+      1021640,
+      2510
+     ],
+     [
+      1024550,
+      2020
+     ],
+     [
+      1026970,
+      2230
+     ],
+     [
+      1029600,
+      3130
+     ],
+     [
+      1033130,
+      2470
+     ],
+     [
+      1036000,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors, cette fois, c'est la montre qui répare un peu le temps.",
+   "en": "So this time, it's the watch that fixes time a little.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "cette fois",
+     "this time"
+    ],
+    [
+     "c'est la montre",
+     "it's the watch"
+    ],
+    [
+     "qui répare",
+     "that fixes"
+    ],
+    [
+     "un peu",
+     "a little"
+    ],
+    [
+     "le temps",
+     "time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "frs": 6310,
+    "en": 3500,
+    "wd": 18140
+   },
+   "bank": {
+    "fr": [
+     1039839,
+     4510
+    ],
+    "frs": [
+     1044750,
+     6310
+    ],
+    "en": [
+     1051460,
+     3500
+    ],
+    "wd": [
+     1055360,
+     18140
+    ],
+    "wp": [
+     [
+      1055360,
+      2270
+     ],
+     [
+      1058030,
+      2680
+     ],
+     [
+      1061110,
+      2960
+     ],
+     [
+      1064470,
+      2870
+     ],
+     [
+      1067740,
+      2280
+     ],
+     [
+      1070420,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon train arrive à Gyumri à onze heures quarante et une.",
+   "en": "My train arrives in Gyumri at 11:41.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Mon train",
+     "my train"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ],
+    [
+     "à Gyumri",
+     "in Gyumri"
+    ],
+    [
+     "à onze heures quarante et une",
+     "at 11:41"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "frs": 5180,
+    "en": 3510,
+    "wd": 13850
+   },
+   "bank": {
+    "fr": [
+     1073900,
+     3740
+    ],
+    "frs": [
+     1078040,
+     5180
+    ],
+    "en": [
+     1083620,
+     3510
+    ],
+    "wd": [
+     1087530,
+     13850
+    ],
+    "wp": [
+     [
+      1087530,
+      2550
+     ],
+     [
+      1090480,
+      2530
+     ],
+     [
+      1093410,
+      2770
+     ],
+     [
+      1096580,
+      3950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai choisi ce train exprès. Prépare un gata, s'il te plaît. Un grand.",
+   "en": "I chose this train on purpose. Make a gata, please. A big one.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "exprès",
+     "en": "on purpose"
+    }
+   ],
+   "words": [
+    [
+     "J'ai choisi",
+     "I chose"
+    ],
+    [
+     "ce train",
+     "this train"
+    ],
+    [
+     "exprès",
+     "on purpose"
+    ],
+    [
+     "Prépare",
+     "make"
+    ],
+    [
+     "un gata",
+     "a gata"
+    ],
+    [
+     "s'il te plaît",
+     "please"
+    ],
+    [
+     "Un grand",
+     "a big one"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "gl": "audio/s040_gl.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 7230,
+    "frs": 10410,
+    "en": 4890,
+    "gl": 3580,
+    "wd": 21560
+   },
+   "bank": {
+    "fr": [
+     1101780,
+     7230
+    ],
+    "frs": [
+     1109410,
+     10410
+    ],
+    "en": [
+     1120220,
+     4890
+    ],
+    "gl": [
+     1125510,
+     3580
+    ],
+    "wd": [
+     1129490,
+     21560
+    ],
+    "wp": [
+     [
+      1129490,
+      2870
+     ],
+     [
+      1132760,
+      2660
+     ],
+     [
+      1135820,
+      2650
+     ],
+     [
+      1138870,
+      2460
+     ],
+     [
+      1141730,
+      2520
+     ],
+     [
+      1144650,
+      2660
+     ],
+     [
+      1147710,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ton fils, Davit.",
+   "en": "Your son, Davit.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ton fils",
+     "your son"
+    ],
+    [
+     "Davit",
+     "Davit"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 2390,
+    "frs": 3160,
+    "en": 1710,
+    "wd": 6300
+   },
+   "bank": {
+    "fr": [
+     1151450,
+     2390
+    ],
+    "frs": [
+     1154240,
+     3160
+    ],
+    "en": [
+     1157800,
+     1710
+    ],
+    "wd": [
+     1159910,
+     6300
+    ],
+    "wp": [
+     [
+      1159910,
+      2640
+     ],
+     [
+      1162950,
+      2410
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   18630
+  ],
+  "silence": [
+   19430,
+   30000
+  ]
+ }
+}

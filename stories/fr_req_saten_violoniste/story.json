@@ -1,0 +1,3190 @@
+{
+ "id": "fr_req_saten_violoniste",
+ "lang": "fr",
+ "title": "Le douzième rang",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "A young woman hears a violinist play and feels she knows him completely. But between her seat and the stage, the scène, there is always a small distance.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 16950,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "La première fois, j'avais vingt-deux ans.",
+   "en": "The first time, I was twenty-two.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La première fois",
+     "the first time"
+    ],
+    [
+     "j'avais",
+     "I was (I had)"
+    ],
+    [
+     "vingt-deux ans",
+     "twenty-two years old"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "frs": "audio/s001_frs.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4400,
+    "en": 2640,
+    "wd": 10750
+   },
+   "bank": {
+    "fr": [
+     48150,
+     3220
+    ],
+    "frs": [
+     51770,
+     4400
+    ],
+    "en": [
+     56570,
+     2640
+    ],
+    "wd": [
+     59610,
+     10750
+    ],
+    "wp": [
+     [
+      59610,
+      3160
+     ],
+     [
+      63170,
+      2760
+     ],
+     [
+      66330,
+      3180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'étais assise au douzième rang, tout au bord.",
+   "en": "I was sitting in the twelfth row, right at the edge.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "rang",
+     "en": "row (of seats)"
+    },
+    {
+     "fr": "tout au bord",
+     "en": "right at the edge"
+    }
+   ],
+   "words": [
+    [
+     "J'étais assise",
+     "I was sitting"
+    ],
+    [
+     "au douzième rang",
+     "in the twelfth row"
+    ],
+    [
+     "tout au bord",
+     "right at the edge"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "frs": "audio/s002_frs.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "frs": 5000,
+    "en": 3440,
+    "gl": 7170,
+    "wd": 10950
+   },
+   "bank": {
+    "fr": [
+     70760,
+     3630
+    ],
+    "frs": [
+     74790,
+     5000
+    ],
+    "en": [
+     80190,
+     3440
+    ],
+    "gl": [
+     84030,
+     7170
+    ],
+    "wd": [
+     91600,
+     10950
+    ],
+    "wp": [
+     [
+      91600,
+      3200
+     ],
+     [
+      95200,
+      3070
+     ],
+     [
+      98670,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Adrien Morel est entré sur scène avec son violon.",
+   "en": "Adrien Morel walked onto the stage with his violin.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Adrien Morel",
+     "Adrien Morel"
+    ],
+    [
+     "est entré",
+     "walked in"
+    ],
+    [
+     "sur scène",
+     "onto the stage"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "son violon",
+     "his violin"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "frs": "audio/s003_frs.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3520,
+    "frs": 4900,
+    "en": 3680,
+    "wd": 16200
+   },
+   "bank": {
+    "fr": [
+     102950,
+     3520
+    ],
+    "frs": [
+     106870,
+     4900
+    ],
+    "en": [
+     112170,
+     3680
+    ],
+    "wd": [
+     116250,
+     16200
+    ],
+    "wp": [
+     [
+      116250,
+      3150
+     ],
+     [
+      119800,
+      2540
+     ],
+     [
+      122740,
+      3000
+     ],
+     [
+      126140,
+      2170
+     ],
+     [
+      128710,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il n'a pas regardé le public.",
+   "en": "He didn't look at the audience.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il",
+     "he"
+    ],
+    [
+     "n'a pas regardé",
+     "didn't look at"
+    ],
+    [
+     "le public",
+     "the audience"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "frs": "audio/s004_frs.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "frs": 3420,
+    "en": 2060,
+    "wd": 9640
+   },
+   "bank": {
+    "fr": [
+     132850,
+     2530
+    ],
+    "frs": [
+     135780,
+     3420
+    ],
+    "en": [
+     139600,
+     2060
+    ],
+    "wd": [
+     142060,
+     9640
+    ],
+    "wp": [
+     [
+      142060,
+      2020
+     ],
+     [
+      144480,
+      3050
+     ],
+     [
+      147930,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il a fermé les yeux, et il a commencé.",
+   "en": "He closed his eyes, and he began.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Il a fermé",
+     "he closed"
+    ],
+    [
+     "les yeux",
+     "his eyes"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il a commencé",
+     "he began"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "frs": "audio/s005_frs.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "frs": 4500,
+    "en": 2780,
+    "wd": 12250
+   },
+   "bank": {
+    "fr": [
+     152100,
+     3310
+    ],
+    "frs": [
+     155810,
+     4500
+    ],
+    "en": [
+     160710,
+     2780
+    ],
+    "wd": [
+     163890,
+     12250
+    ],
+    "wp": [
+     [
+      163890,
+      2820
+     ],
+     [
+      167110,
+      2590
+     ],
+     [
+      170100,
+      1820
+     ],
+     [
+      172320,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Après dix minutes, je savais tout de lui.",
+   "en": "After ten minutes, I knew everything about him.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Après",
+     "after"
+    ],
+    [
+     "dix minutes",
+     "ten minutes"
+    ],
+    [
+     "je savais",
+     "I knew"
+    ],
+    [
+     "tout",
+     "everything"
+    ],
+    [
+     "de lui",
+     "about him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "frs": "audio/s006_frs.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3260,
+    "frs": 4440,
+    "en": 3170,
+    "wd": 14870
+   },
+   "bank": {
+    "fr": [
+     176540,
+     3260
+    ],
+    "frs": [
+     180200,
+     4440
+    ],
+    "en": [
+     185040,
+     3170
+    ],
+    "wd": [
+     188610,
+     14870
+    ],
+    "wp": [
+     [
+      188610,
+      2250
+     ],
+     [
+      191260,
+      2840
+     ],
+     [
+      194500,
+      2610
+     ],
+     [
+      197510,
+      2210
+     ],
+     [
+      200120,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sa tristesse, sa patience, sa façon d'attendre avant une note.",
+   "en": "His sadness, his patience, his way of waiting before a note.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sa tristesse",
+     "his sadness"
+    ],
+    [
+     "sa patience",
+     "his patience"
+    ],
+    [
+     "sa façon",
+     "his way"
+    ],
+    [
+     "d'attendre",
+     "of waiting"
+    ],
+    [
+     "avant",
+     "before"
+    ],
+    [
+     "une note",
+     "a note"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "frs": "audio/s007_frs.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 5270,
+    "frs": 7500,
+    "en": 4570,
+    "wd": 19280
+   },
+   "bank": {
+    "fr": [
+     203880,
+     5270
+    ],
+    "frs": [
+     209550,
+     7500
+    ],
+    "en": [
+     217450,
+     4570
+    ],
+    "wd": [
+     222420,
+     19280
+    ],
+    "wp": [
+     [
+      222420,
+      3190
+     ],
+     [
+      226010,
+      3180
+     ],
+     [
+      229590,
+      2660
+     ],
+     [
+      232650,
+      2670
+     ],
+     [
+      235720,
+      2280
+     ],
+     [
+      238400,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Personne ne m'avait jamais parlé comme ça.",
+   "en": "No one had ever spoken to me like that.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Personne ne",
+     "no one"
+    ],
+    [
+     "m'avait jamais parlé",
+     "had ever spoken to me"
+    ],
+    [
+     "comme ça",
+     "like that"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "frs": "audio/s008_frs.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 3100,
+    "frs": 4210,
+    "en": 2710,
+    "wd": 10330
+   },
+   "bank": {
+    "fr": [
+     242100,
+     3100
+    ],
+    "frs": [
+     245600,
+     4210
+    ],
+    "en": [
+     250210,
+     2710
+    ],
+    "wd": [
+     253320,
+     10330
+    ],
+    "wp": [
+     [
+      253320,
+      2560
+     ],
+     [
+      256280,
+      3550
+     ],
+     [
+      260230,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Après le concert, il y avait une queue devant sa loge.",
+   "en": "After the concert, there was a line in front of his dressing room.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "loge",
+     "en": "dressing room"
+    }
+   ],
+   "words": [
+    [
+     "Après le concert",
+     "after the concert"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "une queue",
+     "a line"
+    ],
+    [
+     "devant",
+     "in front of"
+    ],
+    [
+     "sa loge",
+     "his dressing room"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "frs": "audio/s009_frs.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4090,
+    "frs": 5690,
+    "en": 3960,
+    "gl": 3450,
+    "wd": 16140
+   },
+   "bank": {
+    "fr": [
+     264050,
+     4090
+    ],
+    "frs": [
+     268540,
+     5690
+    ],
+    "en": [
+     274630,
+     3960
+    ],
+    "gl": [
+     278990,
+     3450
+    ],
+    "wd": [
+     282840,
+     16140
+    ],
+    "wp": [
+     [
+      282840,
+      3390
+     ],
+     [
+      286630,
+      2510
+     ],
+     [
+      289540,
+      2380
+     ],
+     [
+      292320,
+      2440
+     ],
+     [
+      295160,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai attendu quarante minutes, le programme dans les mains.",
+   "en": "I waited forty minutes, the program in my hands.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai attendu",
+     "I waited"
+    ],
+    [
+     "quarante minutes",
+     "forty minutes"
+    ],
+    [
+     "le programme",
+     "the program"
+    ],
+    [
+     "dans les mains",
+     "in my hands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "frs": "audio/s010_frs.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4130,
+    "frs": 5740,
+    "en": 3530,
+    "wd": 14000
+   },
+   "bank": {
+    "fr": [
+     299380,
+     4130
+    ],
+    "frs": [
+     303910,
+     5740
+    ],
+    "en": [
+     310050,
+     3530
+    ],
+    "wd": [
+     313980,
+     14000
+    ],
+    "wp": [
+     [
+      313980,
+      2980
+     ],
+     [
+      317360,
+      3180
+     ],
+     [
+      320940,
+      2910
+     ],
+     [
+      324250,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quand mon tour est arrivé, j'ai tout oublié.",
+   "en": "When my turn came, I forgot everything.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Quand",
+     "when"
+    ],
+    [
+     "mon tour",
+     "my turn"
+    ],
+    [
+     "est arrivé",
+     "came"
+    ],
+    [
+     "j'ai tout oublié",
+     "I forgot everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "frs": "audio/s011_frs.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "frs": 4630,
+    "en": 2920,
+    "wd": 12460
+   },
+   "bank": {
+    "fr": [
+     328380,
+     3370
+    ],
+    "frs": [
+     332150,
+     4630
+    ],
+    "en": [
+     337180,
+     2920
+    ],
+    "wd": [
+     340500,
+     12460
+    ],
+    "wp": [
+     [
+      340500,
+      2020
+     ],
+     [
+      342920,
+      2620
+     ],
+     [
+      345940,
+      2440
+     ],
+     [
+      348780,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'était… merci. Je crois que je vous connais, par votre musique. »",
+   "en": "\"It was… thank you. I think I know you, through your music.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "merci",
+     "thank you"
+    ],
+    [
+     "Je crois que",
+     "I think that"
+    ],
+    [
+     "je vous connais",
+     "I know you"
+    ],
+    [
+     "par votre musique",
+     "through your music"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "frs": "audio/s012_frs.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 6020,
+    "frs": 8630,
+    "en": 4160,
+    "wd": 16210
+   },
+   "bank": {
+    "fr": [
+     353360,
+     6020
+    ],
+    "frs": [
+     359780,
+     8630
+    ],
+    "en": [
+     368810,
+     4160
+    ],
+    "wd": [
+     373370,
+     16210
+    ],
+    "wp": [
+     [
+      373370,
+      2410
+     ],
+     [
+      376180,
+      2390
+     ],
+     [
+      378970,
+      2870
+     ],
+     [
+      382240,
+      2780
+     ],
+     [
+      385420,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il a souri, très gentiment.",
+   "en": "He smiled, very kindly.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il a souri",
+     "he smiled"
+    ],
+    [
+     "très",
+     "very"
+    ],
+    [
+     "gentiment",
+     "kindly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "frs": "audio/s013_frs.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "frs": 3540,
+    "en": 2360,
+    "wd": 9120
+   },
+   "bank": {
+    "fr": [
+     389980,
+     2660
+    ],
+    "frs": [
+     393040,
+     3540
+    ],
+    "en": [
+     396980,
+     2360
+    ],
+    "wd": [
+     399740,
+     9120
+    ],
+    "wp": [
+     [
+      399740,
+      2790
+     ],
+     [
+      402930,
+      2130
+     ],
+     [
+      405460,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est le plus beau compliment. Une photo ? »",
+   "en": "\"That's the nicest compliment. A photo?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "C'est",
+     "it's"
+    ],
+    [
+     "le plus beau compliment",
+     "the nicest compliment"
+    ],
+    [
+     "Une photo",
+     "a photo"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "frs": "audio/s014_frs.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "frs": 5520,
+    "en": 2980,
+    "wd": 10090
+   },
+   "bank": {
+    "fr": [
+     409260,
+     3930
+    ],
+    "frs": [
+     413590,
+     5520
+    ],
+    "en": [
+     419510,
+     2980
+    ],
+    "wd": [
+     422890,
+     10090
+    ],
+    "wp": [
+     [
+      422890,
+      2110
+     ],
+     [
+      425400,
+      3740
+     ],
+     [
+      429540,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur la photo, il regarde l'appareil. Moi, je le regarde, lui.",
+   "en": "In the photo, he looks at the camera. I look at him.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "l'appareil",
+     "en": "the camera"
+    }
+   ],
+   "words": [
+    [
+     "Sur la photo",
+     "in the photo"
+    ],
+    [
+     "il regarde",
+     "he looks at"
+    ],
+    [
+     "l'appareil",
+     "the camera"
+    ],
+    [
+     "Moi",
+     "me"
+    ],
+    [
+     "je le regarde",
+     "I look at him"
+    ],
+    [
+     "lui",
+     "him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "frs": "audio/s015_frs.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 6540,
+    "frs": 9410,
+    "en": 3590,
+    "gl": 3870,
+    "wd": 18580
+   },
+   "bank": {
+    "fr": [
+     433380,
+     6540
+    ],
+    "frs": [
+     440320,
+     9410
+    ],
+    "en": [
+     450130,
+     3590
+    ],
+    "gl": [
+     454120,
+     3870
+    ],
+    "wd": [
+     458390,
+     18580
+    ],
+    "wp": [
+     [
+      458390,
+      2890
+     ],
+     [
+      461680,
+      2790
+     ],
+     [
+      464870,
+      2830
+     ],
+     [
+      468100,
+      2140
+     ],
+     [
+      470640,
+      2990
+     ],
+     [
+      474030,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce soir-là, j'ai décidé de devenir quelqu'un.",
+   "en": "That night, I decided to become someone.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce soir-là",
+     "that night"
+    ],
+    [
+     "j'ai décidé",
+     "I decided"
+    ],
+    [
+     "de devenir",
+     "to become"
+    ],
+    [
+     "quelqu'un",
+     "someone"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "frs": "audio/s016_frs.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 3820,
+    "frs": 5340,
+    "en": 2980,
+    "wd": 12860
+   },
+   "bank": {
+    "fr": [
+     477370,
+     3820
+    ],
+    "frs": [
+     481590,
+     5340
+    ],
+    "en": [
+     487330,
+     2980
+    ],
+    "wd": [
+     490710,
+     12860
+    ],
+    "wp": [
+     [
+      490710,
+      2710
+     ],
+     [
+      493820,
+      2890
+     ],
+     [
+      497110,
+      2840
+     ],
+     [
+      500350,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une grande journaliste, peut-être, ou une musicienne.",
+   "en": "A great journalist, maybe, or a musician.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Une grande journaliste",
+     "a great journalist"
+    ],
+    [
+     "peut-être",
+     "maybe"
+    ],
+    [
+     "ou",
+     "or"
+    ],
+    [
+     "une musicienne",
+     "a musician"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "frs": "audio/s017_frs.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "frs": 5780,
+    "en": 3510,
+    "wd": 13310
+   },
+   "bank": {
+    "fr": [
+     503970,
+     4140
+    ],
+    "frs": [
+     508510,
+     5780
+    ],
+    "en": [
+     514690,
+     3510
+    ],
+    "wd": [
+     518600,
+     13310
+    ],
+    "wp": [
+     [
+      518600,
+      3830
+     ],
+     [
+      522830,
+      2470
+     ],
+     [
+      525700,
+      1910
+     ],
+     [
+      528010,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelqu'un qu'il regarderait dans les yeux.",
+   "en": "Someone he would look in the eyes.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "qu'il regarderait",
+     "whom he would look at"
+    ],
+    [
+     "dans les yeux",
+     "in the eyes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "frs": "audio/s018_frs.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2730,
+    "frs": 3690,
+    "en": 2220,
+    "wd": 9910
+   },
+   "bank": {
+    "fr": [
+     532310,
+     2730
+    ],
+    "frs": [
+     535440,
+     3690
+    ],
+    "en": [
+     539530,
+     2220
+    ],
+    "wd": [
+     542150,
+     9910
+    ],
+    "wp": [
+     [
+      542150,
+      2370
+     ],
+     [
+      544920,
+      3050
+     ],
+     [
+      548370,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai acheté un violon d'occasion. Je l'ai gardé deux mois.",
+   "en": "I bought a second-hand violin. I kept it for two months.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "d'occasion",
+     "en": "second-hand"
+    }
+   ],
+   "words": [
+    [
+     "J'ai acheté",
+     "I bought"
+    ],
+    [
+     "un violon",
+     "a violin"
+    ],
+    [
+     "d'occasion",
+     "second-hand"
+    ],
+    [
+     "Je l'ai gardé",
+     "I kept it"
+    ],
+    [
+     "deux mois",
+     "two months"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "frs": "audio/s019_frs.mp3",
+    "en": "audio/s019_en.mp3",
+    "gl": "audio/s019_gl.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 5120,
+    "frs": 7230,
+    "en": 3790,
+    "gl": 3760,
+    "wd": 16020
+   },
+   "bank": {
+    "fr": [
+     552460,
+     5120
+    ],
+    "frs": [
+     557980,
+     7230
+    ],
+    "en": [
+     565610,
+     3790
+    ],
+    "gl": [
+     569800,
+     3760
+    ],
+    "wd": [
+     573960,
+     16020
+    ],
+    "wp": [
+     [
+      573960,
+      2800
+     ],
+     [
+      577160,
+      2710
+     ],
+     [
+      580270,
+      2740
+     ],
+     [
+      583410,
+      2720
+     ],
+     [
+      586530,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais je ne voulais pas la musique. Je voulais qu'il me voie.",
+   "en": "But I didn't want the music. I wanted him to see me.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "je ne voulais pas",
+     "I didn't want"
+    ],
+    [
+     "la musique",
+     "the music"
+    ],
+    [
+     "Je voulais",
+     "I wanted"
+    ],
+    [
+     "qu'il me voie",
+     "him to see me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "frs": "audio/s020_frs.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "frs": 6750,
+    "en": 3130,
+    "wd": 15460
+   },
+   "bank": {
+    "fr": [
+     590380,
+     4770
+    ],
+    "frs": [
+     595550,
+     6750
+    ],
+    "en": [
+     602700,
+     3130
+    ],
+    "wd": [
+     606230,
+     15460
+    ],
+    "wp": [
+     [
+      606230,
+      1920
+     ],
+     [
+      608550,
+      3000
+     ],
+     [
+      611950,
+      2780
+     ],
+     [
+      615130,
+      2530
+     ],
+     [
+      618060,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce n'est pas une raison pour travailler dix ans.",
+   "en": "That's not a reason to work for ten years.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce n'est pas",
+     "it's not"
+    ],
+    [
+     "une raison",
+     "a reason"
+    ],
+    [
+     "pour travailler",
+     "to work"
+    ],
+    [
+     "dix ans",
+     "ten years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "frs": "audio/s021_frs.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 3030,
+    "frs": 4170,
+    "en": 2780,
+    "wd": 12370
+   },
+   "bank": {
+    "fr": [
+     622090,
+     3030
+    ],
+    "frs": [
+     625520,
+     4170
+    ],
+    "en": [
+     630090,
+     2780
+    ],
+    "wd": [
+     633270,
+     12370
+    ],
+    "wp": [
+     [
+      633270,
+      2570
+     ],
+     [
+      636240,
+      2510
+     ],
+     [
+      639150,
+      2730
+     ],
+     [
+      642280,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors je suis restée personne. Une personne du douzième rang.",
+   "en": "So I stayed nobody. A person from the twelfth row.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "je suis restée",
+     "I stayed"
+    ],
+    [
+     "personne",
+     "nobody"
+    ],
+    [
+     "Une personne",
+     "a person"
+    ],
+    [
+     "du douzième rang",
+     "from the twelfth row"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "frs": "audio/s022_frs.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5210,
+    "frs": 7370,
+    "en": 3520,
+    "wd": 16090
+   },
+   "bank": {
+    "fr": [
+     646040,
+     5210
+    ],
+    "frs": [
+     651650,
+     7370
+    ],
+    "en": [
+     659420,
+     3520
+    ],
+    "wd": [
+     663340,
+     16090
+    ],
+    "wp": [
+     [
+      663340,
+      2270
+     ],
+     [
+      666010,
+      2890
+     ],
+     [
+      669300,
+      2510
+     ],
+     [
+      672210,
+      2780
+     ],
+     [
+      675390,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Trois ans plus tard, j'ai lu la nouvelle dans un magazine.",
+   "en": "Three years later, I read the news in a magazine.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Trois ans plus tard",
+     "three years later"
+    ],
+    [
+     "j'ai lu",
+     "I read"
+    ],
+    [
+     "la nouvelle",
+     "the news"
+    ],
+    [
+     "dans un magazine",
+     "in a magazine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "frs": "audio/s023_frs.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4200,
+    "frs": 5880,
+    "en": 3650,
+    "wd": 14070
+   },
+   "bank": {
+    "fr": [
+     679830,
+     4200
+    ],
+    "frs": [
+     684430,
+     5880
+    ],
+    "en": [
+     690710,
+     3650
+    ],
+    "wd": [
+     694760,
+     14070
+    ],
+    "wp": [
+     [
+      694760,
+      3420
+     ],
+     [
+      698580,
+      2510
+     ],
+     [
+      701490,
+      2800
+     ],
+     [
+      704690,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Adrien Morel s'est marié, avec une pianiste.",
+   "en": "Adrien Morel got married, to a pianist.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "s'est marié",
+     "en": "got married"
+    }
+   ],
+   "words": [
+    [
+     "Adrien Morel",
+     "Adrien Morel"
+    ],
+    [
+     "s'est marié",
+     "got married"
+    ],
+    [
+     "avec une pianiste",
+     "to a pianist"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "frs": "audio/s024_frs.mp3",
+    "en": "audio/s024_en.mp3",
+    "gl": "audio/s024_gl.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3780,
+    "frs": 5260,
+    "en": 3270,
+    "gl": 3790,
+    "wd": 10860
+   },
+   "bank": {
+    "fr": [
+     709230,
+     3780
+    ],
+    "frs": [
+     713410,
+     5260
+    ],
+    "en": [
+     719070,
+     3270
+    ],
+    "gl": [
+     722740,
+     3790
+    ],
+    "wd": [
+     726930,
+     10860
+    ],
+    "wp": [
+     [
+      726930,
+      3150
+     ],
+     [
+      730480,
+      2790
+     ],
+     [
+      733670,
+      3270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai fermé le magazine très doucement, comme une porte.",
+   "en": "I closed the magazine very gently, like a door.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai fermé",
+     "I closed"
+    ],
+    [
+     "le magazine",
+     "the magazine"
+    ],
+    [
+     "très doucement",
+     "very gently"
+    ],
+    [
+     "comme une porte",
+     "like a door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "frs": "audio/s025_frs.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "frs": 5580,
+    "en": 3520,
+    "wd": 13550
+   },
+   "bank": {
+    "fr": [
+     738190,
+     4010
+    ],
+    "frs": [
+     742600,
+     5580
+    ],
+    "en": [
+     748580,
+     3520
+    ],
+    "wd": [
+     752500,
+     13550
+    ],
+    "wp": [
+     [
+      752500,
+      2780
+     ],
+     [
+      755680,
+      2940
+     ],
+     [
+      759020,
+      2860
+     ],
+     [
+      762280,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant un mois, je n'ai pas écouté de violon.",
+   "en": "For a month, I didn't listen to any violin.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant un mois",
+     "for a month"
+    ],
+    [
+     "je n'ai pas écouté",
+     "I didn't listen to"
+    ],
+    [
+     "de violon",
+     "any violin"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "frs": "audio/s026_frs.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 3550,
+    "frs": 4890,
+    "en": 3170,
+    "wd": 10830
+   },
+   "bank": {
+    "fr": [
+     766450,
+     3550
+    ],
+    "frs": [
+     770400,
+     4890
+    ],
+    "en": [
+     775690,
+     3170
+    ],
+    "wd": [
+     779260,
+     10830
+    ],
+    "wp": [
+     [
+      779260,
+      2890
+     ],
+     [
+      782550,
+      3480
+     ],
+     [
+      786430,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis je suis retournée au concert. Au douzième rang.",
+   "en": "Then I went back to the concert. To the twelfth row.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "je suis retournée",
+     "I went back"
+    ],
+    [
+     "au concert",
+     "to the concert"
+    ],
+    [
+     "Au douzième rang",
+     "to the twelfth row"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "frs": "audio/s027_frs.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 4600,
+    "frs": 6450,
+    "en": 3350,
+    "wd": 13330
+   },
+   "bank": {
+    "fr": [
+     790490,
+     4600
+    ],
+    "frs": [
+     795490,
+     6450
+    ],
+    "en": [
+     802340,
+     3350
+    ],
+    "wd": [
+     806090,
+     13330
+    ],
+    "wp": [
+     [
+      806090,
+      2110
+     ],
+     [
+      808600,
+      3180
+     ],
+     [
+      812180,
+      2910
+     ],
+     [
+      815490,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maintenant, après les concerts, je ne fais plus la queue.",
+   "en": "Now, after the concerts, I don't stand in line anymore.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Maintenant",
+     "now"
+    ],
+    [
+     "après les concerts",
+     "after the concerts"
+    ],
+    [
+     "je ne fais plus la queue",
+     "I don't stand in line anymore"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "frs": "audio/s028_frs.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 4230,
+    "frs": 5970,
+    "en": 4000,
+    "wd": 11560
+   },
+   "bank": {
+    "fr": [
+     819820,
+     4230
+    ],
+    "frs": [
+     824450,
+     5970
+    ],
+    "en": [
+     830820,
+     4000
+    ],
+    "wd": [
+     835220,
+     11560
+    ],
+    "wp": [
+     [
+      835220,
+      2320
+     ],
+     [
+      837940,
+      3490
+     ],
+     [
+      841830,
+      4100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je reste près de la porte du hall, derrière une colonne.",
+   "en": "I stay near the door of the hall, behind a pillar.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "colonne",
+     "en": "column, pillar"
+    }
+   ],
+   "words": [
+    [
+     "Je reste",
+     "I stay"
+    ],
+    [
+     "près de",
+     "near"
+    ],
+    [
+     "la porte",
+     "the door"
+    ],
+    [
+     "du hall",
+     "of the hall"
+    ],
+    [
+     "derrière une colonne",
+     "behind a pillar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "frs": "audio/s029_frs.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4270,
+    "frs": 5960,
+    "en": 3250,
+    "gl": 3780,
+    "wd": 16040
+   },
+   "bank": {
+    "fr": [
+     847180,
+     4270
+    ],
+    "frs": [
+     851850,
+     5960
+    ],
+    "en": [
+     858210,
+     3250
+    ],
+    "gl": [
+     861860,
+     3780
+    ],
+    "wd": [
+     866040,
+     16040
+    ],
+    "wp": [
+     [
+      866040,
+      2680
+     ],
+     [
+      869120,
+      2309
+     ],
+     [
+      871830,
+      2610
+     ],
+     [
+      874840,
+      2670
+     ],
+     [
+      877910,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je regarde les gens qui lui serrent la main.",
+   "en": "I watch the people who shake his hand.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "serrent la main",
+     "en": "shake hands"
+    }
+   ],
+   "words": [
+    [
+     "Je regarde",
+     "I watch"
+    ],
+    [
+     "les gens",
+     "the people"
+    ],
+    [
+     "qui lui serrent la main",
+     "who shake his hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "frs": "audio/s030_frs.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3030,
+    "frs": 4100,
+    "en": 2540,
+    "gl": 3920,
+    "wd": 10280
+   },
+   "bank": {
+    "fr": [
+     882480,
+     3030
+    ],
+    "frs": [
+     885910,
+     4100
+    ],
+    "en": [
+     890410,
+     2540
+    ],
+    "gl": [
+     893350,
+     3920
+    ],
+    "wd": [
+     897670,
+     10280
+    ],
+    "wp": [
+     [
+      897670,
+      2890
+     ],
+     [
+      900960,
+      2420
+     ],
+     [
+      903780,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je dois avoir l'air bizarre, une fan un peu folle.",
+   "en": "I must look strange, a slightly crazy fan.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "avoir l'air",
+     "en": "to look, to seem"
+    }
+   ],
+   "words": [
+    [
+     "Je dois avoir l'air",
+     "I must look"
+    ],
+    [
+     "bizarre",
+     "strange"
+    ],
+    [
+     "une fan",
+     "a fan"
+    ],
+    [
+     "un peu folle",
+     "a bit crazy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "frs": "audio/s031_frs.mp3",
+    "en": "audio/s031_en.mp3",
+    "gl": "audio/s031_gl.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "frs": 5610,
+    "en": 3360,
+    "gl": 4330,
+    "wd": 13650
+   },
+   "bank": {
+    "fr": [
+     908350,
+     4040
+    ],
+    "frs": [
+     912790,
+     5610
+    ],
+    "en": [
+     918800,
+     3360
+    ],
+    "gl": [
+     922560,
+     4330
+    ],
+    "wd": [
+     927290,
+     13650
+    ],
+    "wp": [
+     [
+      927290,
+      3310
+     ],
+     [
+      931000,
+      2650
+     ],
+     [
+      934050,
+      2600
+     ],
+     [
+      937050,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais qu'est-ce que je pourrais lui dire de plus ?",
+   "en": "But what more could I tell him?",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "qu'est-ce que",
+     "what"
+    ],
+    [
+     "je pourrais",
+     "I could"
+    ],
+    [
+     "lui dire",
+     "tell him"
+    ],
+    [
+     "de plus",
+     "more"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "frs": "audio/s032_frs.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3080,
+    "frs": 4160,
+    "en": 1880,
+    "wd": 14230
+   },
+   "bank": {
+    "fr": [
+     941340,
+     3080
+    ],
+    "frs": [
+     944820,
+     4160
+    ],
+    "en": [
+     949380,
+     1880
+    ],
+    "wd": [
+     951660,
+     14230
+    ],
+    "wp": [
+     [
+      951660,
+      1920
+     ],
+     [
+      953980,
+      2300
+     ],
+     [
+      956680,
+      2600
+     ],
+     [
+      959680,
+      2500
+     ],
+     [
+      962580,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Que je le connais par sa musique ? Je l'ai déjà dit.",
+   "en": "That I know him through his music? I've already said it.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Que",
+     "that"
+    ],
+    [
+     "je le connais",
+     "I know him"
+    ],
+    [
+     "par sa musique",
+     "through his music"
+    ],
+    [
+     "Je l'ai déjà dit",
+     "I've already said it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "frs": "audio/s033_frs.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "frs": 6470,
+    "en": 3300,
+    "wd": 13230
+   },
+   "bank": {
+    "fr": [
+     966290,
+     4610
+    ],
+    "frs": [
+     971300,
+     6470
+    ],
+    "en": [
+     978170,
+     3300
+    ],
+    "wd": [
+     981870,
+     13230
+    ],
+    "wp": [
+     [
+      981870,
+      2020
+     ],
+     [
+      984290,
+      2690
+     ],
+     [
+      987380,
+      3140
+     ],
+     [
+      990920,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Qu'il est le meilleur ? Il le sait. Tout le monde le dit.",
+   "en": "That he's the best? He knows. Everyone says so.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Qu'il est",
+     "that he is"
+    ],
+    [
+     "le meilleur",
+     "the best"
+    ],
+    [
+     "Il le sait",
+     "he knows it"
+    ],
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "le dit",
+     "says it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "frs": "audio/s034_frs.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 5650,
+    "frs": 8070,
+    "en": 4030,
+    "wd": 15170
+   },
+   "bank": {
+    "fr": [
+     995500,
+     5650
+    ],
+    "frs": [
+     1001550,
+     8070
+    ],
+    "en": [
+     1010020,
+     4030
+    ],
+    "wd": [
+     1014450,
+     15170
+    ],
+    "wp": [
+     [
+      1014450,
+      2510
+     ],
+     [
+      1017360,
+      2710
+     ],
+     [
+      1020470,
+      2530
+     ],
+     [
+      1023400,
+      2640
+     ],
+     [
+      1026440,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une fois, il m'a vue derrière ma colonne.",
+   "en": "Once, he saw me behind my pillar.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Une fois",
+     "once"
+    ],
+    [
+     "il m'a vue",
+     "he saw me"
+    ],
+    [
+     "derrière",
+     "behind"
+    ],
+    [
+     "ma colonne",
+     "my pillar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "frs": "audio/s035_frs.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3410,
+    "frs": 4660,
+    "en": 2630,
+    "wd": 12500
+   },
+   "bank": {
+    "fr": [
+     1030020,
+     3410
+    ],
+    "frs": [
+     1033829,
+     4660
+    ],
+    "en": [
+     1038890,
+     2630
+    ],
+    "wd": [
+     1041920,
+     12500
+    ],
+    "wp": [
+     [
+      1041920,
+      2440
+     ],
+     [
+      1044760,
+      2720
+     ],
+     [
+      1047880,
+      2530
+     ],
+     [
+      1050810,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ah, la dame du douzième rang ! » Il m'a fait un signe.",
+   "en": "\"Ah, the lady from the twelfth row!\" He waved at me.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Ah",
+     "ah"
+    ],
+    [
+     "la dame",
+     "the lady"
+    ],
+    [
+     "du douzième rang",
+     "from the twelfth row"
+    ],
+    [
+     "Il m'a fait un signe",
+     "he waved at me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "frs": "audio/s036_frs.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4860,
+    "frs": 6850,
+    "en": 3840,
+    "wd": 13030
+   },
+   "bank": {
+    "fr": [
+     1054820,
+     4860
+    ],
+    "frs": [
+     1060080,
+     6850
+    ],
+    "en": [
+     1067330,
+     3840
+    ],
+    "wd": [
+     1071570,
+     13030
+    ],
+    "wp": [
+     [
+      1071570,
+      1960
+     ],
+     [
+      1073930,
+      2530
+     ],
+     [
+      1076860,
+      3190
+     ],
+     [
+      1080450,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai répondu d'un signe, moi aussi, et je suis partie très vite.",
+   "en": "I waved back, and I left very quickly.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai répondu",
+     "I answered"
+    ],
+    [
+     "d'un signe",
+     "with a wave"
+    ],
+    [
+     "moi aussi",
+     "me too"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "je suis partie",
+     "I left"
+    ],
+    [
+     "très vite",
+     "very quickly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "frs": "audio/s037_frs.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 5110,
+    "frs": 7200,
+    "en": 2910,
+    "wd": 18880
+   },
+   "bank": {
+    "fr": [
+     1085000,
+     5110
+    ],
+    "frs": [
+     1090510,
+     7200
+    ],
+    "en": [
+     1098110,
+     2910
+    ],
+    "wd": [
+     1101420,
+     18880
+    ],
+    "wp": [
+     [
+      1101420,
+      2940
+     ],
+     [
+      1104760,
+      2770
+     ],
+     [
+      1107930,
+      2710
+     ],
+     [
+      1111040,
+      1820
+     ],
+     [
+      1113260,
+      2960
+     ],
+     [
+      1116620,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dehors, il pleuvait. Je souriais comme une idiote.",
+   "en": "Outside, it was raining. I was smiling like an idiot.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dehors",
+     "outside"
+    ],
+    [
+     "il pleuvait",
+     "it was raining"
+    ],
+    [
+     "Je souriais",
+     "I was smiling"
+    ],
+    [
+     "comme une idiote",
+     "like an idiot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "frs": "audio/s038_frs.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 4850,
+    "frs": 6900,
+    "en": 3760,
+    "wd": 13290
+   },
+   "bank": {
+    "fr": [
+     1120700,
+     4850
+    ],
+    "frs": [
+     1125950,
+     6900
+    ],
+    "en": [
+     1133250,
+     3760
+    ],
+    "wd": [
+     1137410,
+     13290
+    ],
+    "wp": [
+     [
+      1137410,
+      2510
+     ],
+     [
+      1140320,
+      2690
+     ],
+     [
+      1143410,
+      2970
+     ],
+     [
+      1146780,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je ne monterai jamais sur cette scène, et c'est bien.",
+   "en": "I will never go up onto that stage, and that's all right.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne monterai jamais",
+     "I will never go up"
+    ],
+    [
+     "sur cette scène",
+     "onto that stage"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "c'est bien",
+     "that's all right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "frs": "audio/s039_frs.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 3770,
+    "frs": 5210,
+    "en": 3630,
+    "wd": 13390
+   },
+   "bank": {
+    "fr": [
+     1151100,
+     3770
+    ],
+    "frs": [
+     1155270,
+     5210
+    ],
+    "en": [
+     1160880,
+     3630
+    ],
+    "wd": [
+     1164910,
+     13390
+    ],
+    "wp": [
+     [
+      1164910,
+      3590
+     ],
+     [
+      1168900,
+      3340
+     ],
+     [
+      1172640,
+      1820
+     ],
+     [
+      1174860,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La scène est un peu plus haute que le public.",
+   "en": "The stage is a little higher than the audience.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "La scène",
+     "the stage"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "un peu plus haute",
+     "a little higher"
+    ],
+    [
+     "que le public",
+     "than the audience"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "frs": "audio/s040_frs.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "frs": 4380,
+    "en": 3020,
+    "wd": 13040
+   },
+   "bank": {
+    "fr": [
+     1178700,
+     3220
+    ],
+    "frs": [
+     1182320,
+     4380
+    ],
+    "en": [
+     1187100,
+     3020
+    ],
+    "wd": [
+     1190520,
+     13040
+    ],
+    "wp": [
+     [
+      1190520,
+      2730
+     ],
+     [
+      1193650,
+      1990
+     ],
+     [
+      1196040,
+      3150
+     ],
+     [
+      1199590,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Juste assez pour que la musique descende jusqu'à nous.",
+   "en": "Just enough for the music to come down to us.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Juste assez",
+     "just enough"
+    ],
+    [
+     "pour que",
+     "so that"
+    ],
+    [
+     "la musique",
+     "the music"
+    ],
+    [
+     "descende",
+     "comes down"
+    ],
+    [
+     "jusqu'à nous",
+     "to us"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "frs": "audio/s041_frs.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 3660,
+    "frs": 5060,
+    "en": 2870,
+    "wd": 15920
+   },
+   "bank": {
+    "fr": [
+     1203960,
+     3660
+    ],
+    "frs": [
+     1208020,
+     5060
+    ],
+    "en": [
+     1213480,
+     2870
+    ],
+    "wd": [
+     1216750,
+     15920
+    ],
+    "wp": [
+     [
+      1216750,
+      2890
+     ],
+     [
+      1220040,
+      2500
+     ],
+     [
+      1222940,
+      2780
+     ],
+     [
+      1226120,
+      2640
+     ],
+     [
+      1229160,
+      2660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au douzième rang, tout au bord, j'ai la meilleure place.",
+   "en": "In the twelfth row, right at the edge, I have the best seat.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Au douzième rang",
+     "in the twelfth row"
+    ],
+    [
+     "tout au bord",
+     "right at the edge"
+    ],
+    [
+     "j'ai",
+     "I have"
+    ],
+    [
+     "la meilleure place",
+     "the best seat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "frs": "audio/s042_frs.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 4340,
+    "frs": 6100,
+    "en": 4390,
+    "wd": 13790
+   },
+   "bank": {
+    "fr": [
+     1233070,
+     4340
+    ],
+    "frs": [
+     1237810,
+     6100
+    ],
+    "en": [
+     1244310,
+     4390
+    ],
+    "wd": [
+     1249100,
+     13790
+    ],
+    "wp": [
+     [
+      1249100,
+      3070
+     ],
+     [
+      1252570,
+      3030
+     ],
+     [
+      1256000,
+      2260
+     ],
+     [
+      1258660,
+      3380
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   16950
+  ],
+  "silence": [
+   17750,
+   30000
+  ]
+ }
+}
