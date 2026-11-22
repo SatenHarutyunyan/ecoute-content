@@ -16,7 +16,29 @@
 html[data-theme="nare"] { --bg:#fff0f6; --card:rgba(255,255,255,.4); --ink:#5a1f43; --muted:#7f3a64; --accent:#e46fa6; --line:rgba(255,255,255,.85); --glow:rgba(228,111,166,.45); }
 /* lotus pond (Saten's Pinterest pick, "Lotus in Monet's Pond", artist unknown): the picture itself behind everything */
 html[data-theme="nare"] body { background:#e8dfe6; }
-html[data-theme="nare"] body::before { content:""; position:fixed; inset:0; z-index:-1; background:linear-gradient(rgba(255,235,245,.22), rgba(255,235,245,.22)), url(bg_pond.jpg) center/cover no-repeat; }
+/* Nare's background (Saten 2026-11-22, after her mockup): drawn in CSS, no photo. Pink → light blue silk with glossy bubbles (Saten: more light blue).
+   (Saten's own generated lotus photo, bg_pond.jpg, was the background before.) */
+html[data-theme="nare"] body::before { content:""; position:fixed; inset:0; z-index:-1;
+  background:
+    radial-gradient(70% 45% at 92% 8%, rgba(186,222,250,.95), transparent 70%),
+    radial-gradient(55% 40% at 0% 55%, rgba(255,186,214,.85), transparent 70%),
+    radial-gradient(80% 30% at 60% 100%, rgba(178,216,248,.9), transparent 65%),
+    radial-gradient(90% 35% at 10% 100%, rgba(250,176,207,.9), transparent 60%),
+    linear-gradient(160deg, #fbd0e2 0%, #f8c8dd 30%, #eee6f5 58%, #d4e9fb 100%); }
+html[data-theme="nare"] body::after { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) 3% 97%/150px 150px no-repeat,
+    radial-gradient(circle closest-side, #fbc3dc 0%, #ef93bd 55%, #d2689c 92%, rgba(0,0,0,0) 100%) 3% 97%/150px 150px no-repeat,
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) 30% 101%/70px 70px no-repeat,
+    radial-gradient(circle closest-side, #ffe1ec 0%, #f7b8cf 55%, #e591b4 92%, rgba(0,0,0,0) 100%) 30% 101%/70px 70px no-repeat,
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) 94% 92%/110px 110px no-repeat,
+    radial-gradient(circle closest-side, #eaf4ff 0%, #b7d9f6 55%, #7fb3e3 92%, rgba(0,0,0,0) 100%) 94% 92%/110px 110px no-repeat,
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) 78% 99%/56px 56px no-repeat,
+    radial-gradient(circle closest-side, #fbc3dc 0%, #ef93bd 55%, #d2689c 92%, rgba(0,0,0,0) 100%) 78% 99%/56px 56px no-repeat,
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) 102% 34%/80px 80px no-repeat,
+    radial-gradient(circle closest-side, #eaf4ff 0%, #b7d9f6 55%, #7fb3e3 92%, rgba(0,0,0,0) 100%) 102% 34%/80px 80px no-repeat,
+    radial-gradient(circle closest-side at 36% 32%, rgba(255,255,255,.95), rgba(255,255,255,0) 60%) -3% 22%/60px 60px no-repeat,
+    radial-gradient(circle closest-side, #ffe1ec 0%, #f7b8cf 55%, #e591b4 92%, rgba(0,0,0,0) 100%) -3% 22%/60px 60px no-repeat; }
 html[data-theme="nare"] a { color:#c2457f; text-decoration-color:rgba(194,69,127,.4); }
 html[data-theme="nare"] h2 { color:#7f3a64; }
 html[data-theme="nare"] .muted { color:#7f3a64; }
@@ -359,7 +381,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.110";
+const VERSION = "web 0.112";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
