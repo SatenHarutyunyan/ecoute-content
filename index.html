@@ -189,6 +189,17 @@ input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px soli
 [hidden] { display:none !important; }
 /* My words is its own page (#words): it can get long, and Back returns to the player */
 body.words main > :not(#wordsPage), body:not(.words) #wordsPage { display:none !important; }
+/* the Library is its own page (#library): home keeps only what to listen to now (Saten 2026-11-22) */
+body.library main > :not(#libPage), body:not(.library) #libPage { display:none !important; }
+.shelf-row { display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:14px; padding:12px 14px; margin-top:8px; cursor:pointer; font:inherit; }
+.shelf-row .t { flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
+.shelf-row b { font-size:16px; }
+.shelf-row .why { font-size:13px; color:var(--accent); }
+.shelf-row .play { font-size:20px; color:var(--accent); }
+.bar { height:5px; border-radius:3px; background:var(--line); overflow:hidden; margin-top:4px; }
+.bar i { display:block; height:100%; background:var(--accent); }
+.shelf-lib { display:block; width:100%; margin-top:12px; padding:12px; border-radius:12px; border:1px dashed var(--line); background:none; color:var(--ink); font:inherit; font-weight:600; cursor:pointer; }
+#libSearch { width:100%; box-sizing:border-box; }
 body.settings main > :not(#setPage), body:not(.settings) #setPage { display:none !important; }
 #setPage .sec { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:10px 14px; font-size:16px; }
 .sh { font-size:15px; margin:22px 0 8px; }
@@ -281,14 +292,8 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <button class="card story" id="wordCheckBtn"><b>🎯 1-minute word check ›</b><span class="muted">Tap the words you know, so the app knows where you are (optional).</span></button>
   </div>
 
-  <h2 class="hrow">Episodes <button class="chip" id="epToggle"></button></h2>
-  <div id="epBody">
-  <div class="presets" id="tabs" style="margin-bottom:10px">
-    <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
-  </div>
-  <div class="muted" id="marksHint" style="margin:4px 0 8px">Tap the box next to an episode: ○ → ~ listening now → ✓ done → ○ (hide it in ⚙ Settings)</div>
-  <div id="stories"><div class="muted">Loading…</div></div>
-  </div>
+  <h2>Your stories</h2>
+  <div id="shelf"><div class="muted">Loading…</div></div>
 
 
 
@@ -332,6 +337,19 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <p><a href="#" class="muted" id="retest" hidden>Retake the level test</a></p>
   <p class="muted">On iPhone, add this page to your Home Screen (Share → Add to Home Screen) so it opens like an app.</p>
 </section>
+<section id="libPage">
+  <div class="backbar"><button class="sec" id="libBack">← Back</button></div>
+  <h2>Library</h2>
+  <input type="search" id="libSearch" placeholder="Search a title, an author, a series…" autocomplete="off">
+  <div class="presets" id="libLevels" style="margin-top:10px"></div>
+  <div class="presets" id="tabs" style="margin:10px 0">
+    <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
+  </div>
+  <div class="muted" id="marksHint" style="margin:4px 0 8px">Tap the box next to an episode: ○ → ~ listening now → ✓ done → ○ (hide it in ⚙ Settings)</div>
+  <div id="stories"><div class="muted">Loading…</div></div>
+  <h3 class="sh" id="finHead" hidden>Finished</h3>
+  <div id="finished"></div>
+</section>
 <section id="wordsPage">
   <div class="backbar"><button class="sec" id="wordsBack">← Back</button></div>
   <h2 id="wordsHead">My words</h2>
@@ -360,7 +378,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.114";
+const VERSION = "web 0.115";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -843,7 +861,7 @@ function showFeedback() {  // two quick taps after an episode: level and fun; hi
   if (next) $("fbNext").onclick = () => { log("end_choice", { pick: "next", id: next.id }, id); $("fb").hidden = true; startNext(); };
   $("fbPick").onclick = () => {
     log("end_choice", { pick: "library" }, id);
-    store.set("ep_open", true); renderEpFold(); $("stories").scrollIntoView({ behavior: "smooth", block: "start" });
+    openLibrary();
   };
   $("fbQ").hidden = false;
   $("fb").hidden = false;
@@ -884,26 +902,71 @@ function renderJaScripts() {
   });
 }
 applyTheme();
-const marksOn = () => store.get("marks_on", true);  // Saten: wanted a way to hide them
+const marksOn = () => store.get("marks_on", false);  // off by default (Saten 2026-11-22: "doesn't make sense that much"); Settings turns them on  // Saten: wanted a way to hide them
 function renderMarksSetting() {
   $("marksOn").checked = marksOn(); $("marksHint").hidden = !marksOn();
   $("marksOn").onchange = () => { store.set("marks_on", $("marksOn").checked); log("marks_on", { on: $("marksOn").checked }); renderMarksSetting(); renderStories(); };
 }
 const MARKS = { "": "○", cur: "~", done: "✓" };  // empty box showed nothing: Saten couldn't tell it was a button
 const getMark = id => store.get("mark_" + id, "");  // set by hand only (Arshile), never by the app
+// finished: reached the end (automatic) or ✓ marked
+const isFinished = c => getMark(c.id) === "done" || (store.get("fin_" + c.id, false) && store.get("pos_" + c.id, -1) < 0);
+function goListen(e) {  // open a story from the shelf or the Library and show the player
+  if (location.hash === "#library") history.replaceState(null, "", location.pathname + location.search), showLibrary();
+  openStory(e).then(() => { renderStories(); const card = $("where").closest(".card"); card ? card.scrollIntoView({ behavior: "smooth", block: "start" }) : window.scrollTo(0, 0); });
+}
+// Home shows only what to listen to now (Saten 2026-11-22, like audiobook apps): Continue, a few picks, the Library
+function renderShelf() {
+  const el = $("shelf"); if (!el || !lang) return;
+  const mine = catalog.filter(c => c.lang === lang);
+  if (!mine.length) { el.innerHTML = '<div class="muted">No stories in this language yet.</div>'; return; }
+  const last = mine.find(c => c.id === store.get("last_" + lang));
+  const cont = last && store.get("pos_" + last.id, -1) >= 0 && !isFinished(last) ? last : null;
+  const picks = [], add = (c, why) => { if (c && c !== cont && !isFinished(c) && !picks.some(p => p.c === c)) picks.push({ c, why }); };
+  if (last && last.series) add(mine.find(c => c.series === last.series && +c.episode === +last.episode + 1), "next in your series");
+  const p = pickStart(); add(p, "good for your level");
+  mine.filter(forMe).filter(c => !isFinished(c)).slice(0, 2).forEach(c => add(c, "✨ written for you"));  // at most 2, so a level pick fits
+  const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], rk = c => LV.indexOf((c.level || "").slice(0, 2));
+  const near = p ? rk(p) : 1;
+  mine.filter(c => !c.series || +c.episode === 1).sort((a, b) => Math.abs(rk(a) - near) - Math.abs(rk(b) - near)).forEach(c => picks.length < 3 && add(c, "new for you"));
+  const row = (c, why, extra) => `<button class="shelf-row" data-open="${c.id}"><span class="t"><b>${esc(c.title)}</b>` +
+    `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min</span>` +
+    (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
+  const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
+  el.innerHTML = (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
+    (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
+    `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
+  el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("shelf_open", {}, e.id); goListen(e); });
+  $("libOpen").onclick = openLibrary;
+}
 function renderStories() {
   const all = catalog.filter(s => (s.lang || "fr") === lang);
   const both = all.some(isLesson) && !all.every(isLesson);
   const tab = both ? store.get("tab_" + lang, "stories") : null;
   $("tabs").hidden = !both;
   document.querySelectorAll("#tabs button").forEach(b => b.className = b.dataset.tab === tab ? "on" : "");
-  const list = tab ? all.filter(s => isLesson(s) === (tab === "lessons")) : all;
-  $("stories").innerHTML = list.length ? "" : '<div class="muted">No stories in this language yet.</div>';
+  renderShelf();
+  // Library filters (Saten 2026-11-22): level chips, search; finished ones move to their own shelf at the bottom
+  const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], lvOf = s => (s.level || "").slice(0, 2), rk = s => { const i = LV.indexOf(lvOf(s)); return i < 0 ? 9 : i; };
+  const present = LV.filter(l => all.some(s => lvOf(s) === l)), pick = store.get("lib_level_" + lang, "all");
+  $("libLevels").innerHTML = ["all", ...present].map(l => `<button data-lv="${l}" class="${l === pick ? "on" : ""}">${l === "all" ? "All levels" : l}</button>`).join("");
+  $("libLevels").querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { store.set("lib_level_" + lang, b.dataset.lv); log("library_level", { level: b.dataset.lv }); renderStories(); });
+  const q = ($("libSearch").value || "").trim().toLowerCase();
+  const hit = s => !q || [s.title, s.title_en, s.author, s.series].some(x => x && x.toLowerCase().includes(q));
+  const base = (tab ? all.filter(s => isLesson(s) === (tab === "lessons")) : all).filter(s => (pick === "all" || lvOf(s) === pick) && hit(s));
+  const fin = base.filter(isFinished), list = base.filter(s => !isFinished(s));
+  $("finHead").hidden = !fin.length;
+  $("finished").innerHTML = fin.map(s => `<button class="shelf-row" data-open="${s.id}"><span class="t"><b>${esc(s.title)}</b><span class="muted">${s.series ? esc(s.series) + " · " : ""}${s.level} · ✓ finished</span></span><span class="play">↻</span></button>`).join("");
+  $("finished").querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("library_relisten", {}, e.id); goListen(e); });
+  $("stories").innerHTML = list.length ? "" : `<div class="muted">${q || pick !== "all" ? "Nothing matches. Try another level or search." : "No stories in this language yet."}</div>`;
   // one foldable group per series; open/closed is remembered, and at first only the group being worked on is open
   const groups = new Map();
   // each story once (Saten: some appeared in several places): requested ones in their own group, first
   if (list.some(forMe)) groups.set("✨ For you", []);
   for (const s of list) { const k = forMe(s) ? "✨ For you" : s.series || "Other stories"; groups.has(k) || groups.set(k, []); groups.get(k).push(s); }
+  // easiest groups first (the "for you" group stays on top)
+  const sorted = [...groups.entries()].sort((a, b) => (a[0] === "✨ For you" ? -1 : b[0] === "✨ For you" ? 1 : Math.min(...a[1].map(rk)) - Math.min(...b[1].map(rk))));
+  groups.clear(); sorted.forEach(([k, v]) => groups.set(k, v));
   const active = eps => eps.some(s => getMark(s.id) === "cur" || (story && s.id === story.id));
   const anyActive = [...groups.values()].some(active);
   let first = true;
@@ -941,7 +1004,7 @@ function renderStories() {
         store.set("mark_" + s.id, next); log("mark", { mark: next }, s.id); mb.textContent = MARKS[next]; mb.classList.toggle("empty", !next); count();
       };
       }
-      el.onclick = () => openStory(s);
+      el.onclick = () => goListen(s);  // from the Library: back to the player
       g.append(el);
     }
     $("stories").append(g);
@@ -1267,13 +1330,7 @@ $("lRepeat").onclick = lessonRepeat;
 $("lNext").onclick = lessonNext;
 document.querySelectorAll("#modes button").forEach(b => b.onclick = () => setMode(b.dataset.mode));
 // the whole Episodes section folds away, so the rest of the page is a short scroll
-function renderEpFold() {
-  const open = store.get("ep_open", true);
-  $("epBody").hidden = !open;
-  $("epToggle").textContent = open ? "Hide ▴" : "Show ▾";
-}
-$("epToggle").onclick = () => { store.set("ep_open", !store.get("ep_open", true)); log("episodes_fold", { open: store.get("ep_open", true) }); renderEpFold(); };
-renderEpFold();
+function renderEpFold() {}  // (the old foldable Episodes section is now the Library page)
 document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
   store.set("tab_" + lang, b.dataset.tab); log("tab", { tab: b.dataset.tab }); renderStories();
 });
@@ -1520,8 +1577,7 @@ function renderForYou() {
   $("forYouShow").onclick = () => {
     log("for_you_open", { n: fresh.length }, ""); seen();
     if (fresh[0].lang !== lang) { lang = fresh[0].lang; store.set("lang", lang); renderAll(); }
-    store.set("ep_open", true); store.set(`open_${lang}_✨ For you`, true); renderEpFold(); renderStories();
-    $("stories").scrollIntoView({ behavior: "smooth", block: "start" });
+    store.set(`open_${lang}_✨ For you`, true); openLibrary();
   };
 }
 
@@ -1886,6 +1942,20 @@ $("setBack").onclick = () => {
   else { history.replaceState(null, "", location.pathname + location.search); showSettings(); }
 };
 window.addEventListener("hashchange", showSettings);
+let libPushed = false;
+function openLibrary() { log("library_open", {}); libPushed = true; location.hash = "library"; }
+function showLibrary() {
+  const on = location.hash === "#library";
+  document.body.classList.toggle("library", on);
+  if (on) { renderStories(); window.scrollTo(0, 0); }
+}
+$("libBack").onclick = () => {
+  if (libPushed) { libPushed = false; history.back(); }
+  else { history.replaceState(null, "", location.pathname + location.search); showLibrary(); }
+};
+$("libSearch").oninput = () => renderStories();
+window.addEventListener("hashchange", showLibrary);
+showLibrary();
 showSettings();
 showWordsPage();
 $("vocab").onclick = e => {
