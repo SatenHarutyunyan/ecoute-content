@@ -303,6 +303,42 @@
    "request": "romantic drama stories like the YouTube \"girl's diary\" channels"
   },
   {
+   "id": "es_quiroga_tortuga_1",
+   "lang": "es",
+   "title": "La tortuga gigante (1)",
+   "author": "Adapted from Horacio Quiroga (1918)",
+   "level": "A2",
+   "series": "La tortuga gigante",
+   "episode": "1",
+   "phrases": 41,
+   "minutes": 10,
+   "size_mb": 6,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_quiroga_tortuga_1.zip",
+   "version": "f4471781484c",
+   "for": [
+    "Nazeli"
+   ],
+   "request": ""
+  },
+  {
+   "id": "es_quiroga_tortuga_2",
+   "lang": "es",
+   "title": "La tortuga gigante (2)",
+   "author": "Adapted from Horacio Quiroga (1918)",
+   "level": "A2",
+   "series": "La tortuga gigante",
+   "episode": "2",
+   "phrases": 38,
+   "minutes": 10,
+   "size_mb": 5,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_quiroga_tortuga_2.zip",
+   "version": "13da5c740a52",
+   "for": [
+    "Nazeli"
+   ],
+   "request": ""
+  },
+  {
    "id": "es_s0_e01",
    "lang": "es",
    "title": "¿Quién es?",
@@ -415,6 +451,24 @@
    "version": "462f4ce5437a"
   },
   {
+   "id": "es_serie_a2_01",
+   "lang": "es",
+   "title": "Las cartas de los martes",
+   "author": "Original story (AI-generated)",
+   "level": "A2",
+   "series": "Radio Niebla",
+   "episode": "1",
+   "phrases": 49,
+   "minutes": 13,
+   "size_mb": 8,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_serie_a2_01.zip",
+   "version": "4b841d42a667",
+   "for": [
+    "Nazeli"
+   ],
+   "request": ""
+  },
+  {
    "id": "es_req_nare_01",
    "lang": "es",
    "title": "La chica de la estrella",
@@ -449,6 +503,24 @@
     "armen"
    ],
    "request": "Film & TV (topic picked in onboarding)"
+  },
+  {
+   "id": "es_cervantes_molinos",
+   "lang": "es",
+   "title": "Don Quijote y los molinos de viento",
+   "author": "Adapted from Miguel de Cervantes (1605)",
+   "level": "A2",
+   "series": "",
+   "episode": "",
+   "phrases": 54,
+   "minutes": 17,
+   "size_mb": 9,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/es_cervantes_molinos.zip",
+   "version": "4135e0175dce",
+   "for": [
+    "Nazeli"
+   ],
+   "request": ""
   },
   {
    "id": "es_req_marine_01",
