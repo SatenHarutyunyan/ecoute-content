@@ -384,7 +384,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.118";
+const VERSION = "web 0.119";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -2143,9 +2143,13 @@ const NATIVE_PLAYER = (() => {  // the iPhone app from build 4, or the Android w
     }
     if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform())) return done("");  // the website
     if (!(Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcoutePlayer"))) return done("App build 3 or older");
-    Capacitor.nativePromise("EcoutePlayer", "info", {})  // build 6+: version, build, where it was installed from
-      .then(i => done(`App ${i.version} (${i.build})${i.from ? " " + i.from : ""}`))
-      .catch(() => done("App build 4 or 5"));
+    // build 6+: version, build, where it was installed from; older builds may never answer an unknown call (test15,
+    // 2026-11-22), so give up after 3 s
+    let answered = false;
+    setTimeout(() => answered || done("App build 4–6 (before the build-number update)"), 3000);
+    Capacitor.nativePromise("EcoutePlayer", "info", {})
+      .then(i => { answered = true; done(`App ${i.version} (${i.build})${i.from ? " " + i.from : ""}`); })
+      .catch(() => { answered = true; done("App build 4–6 (before the build-number update)"); });
   } catch (e) { log("js_error", { err: "app build: " + String(e && e.message || e).slice(0, 150) }); }
 })();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
