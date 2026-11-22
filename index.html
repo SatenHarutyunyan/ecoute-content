@@ -338,6 +338,9 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <details id="lessonBox" style="margin-top:10px"><summary id="lessonHead" style="font-weight:600;cursor:pointer"></summary>
   <input type="text" id="lessonPat" autocapitalize="characters" spellcheck="false" style="margin-top:10px">
   <div class="muted" id="lessonTokens" style="white-space:pre-line"></div>
+  <div style="margin-top:10px"><b>Word by word</b></div>
+  <div class="presets" id="wordsMode" style="margin-top:6px"><button data-wm="one">One tap per word</button><button data-wm="all">All words in one go</button></div>
+  <div class="muted" id="wordsModeHint"></div>
   </details>
   <p><a href="#" class="muted" id="retest" hidden>Retake the level test</a></p>
   <p class="muted">On iPhone, add this page to your Home Screen (Share → Add to Home Screen) so it opens like an app.</p>
@@ -384,7 +387,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.123";
+const VERSION = "web 0.124";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -542,6 +545,20 @@ const gapKey = () => { const k = store.get("gap", store.get("gap_" + lang, "medi
 const voiceSpeaker = () => { try { return !!V.on; } catch { return false; } };  // V comes later in the file
 const gapNow = () => voiceSpeaker() ? "long" : gapKey();
 const regap = () => { if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; } };
+// Word by word in Step by step (J10, Saten 2026-11-22): one tap per word (default) or all the pairs in one go
+const wordsAll = () => store.get("words_all", false);
+function renderWordsMode() {
+  const all = wordsAll();
+  document.querySelectorAll("#wordsMode [data-wm]").forEach(b => {
+    b.className = (b.dataset.wm === "all") === all ? "on" : "";
+    b.onclick = () => {
+      store.set("words_all", b.dataset.wm === "all"); log("words_mode", { mode: b.dataset.wm }); renderWordsMode();
+      if (story && seg >= 0 && lessonMode()) startSeg(seg);  // from the start of this sentence, the new way
+    };
+  });
+  $("wordsModeHint").textContent = all ? "Each word with its meaning, one after another, in one step. Tap a word in the sentence to ☆ save it."
+    : "Each word is its own step: tap Next for the next word; ☆ Save saves it.";
+}
 function renderGaps() {
   $("gaps").innerHTML = Object.entries(GAPS).map(([k, [n]]) => `<button class="chip${k === gapKey() ? " on" : ""}" data-gap="${k}">${n}</button>`).join("");
   $("gaps").querySelectorAll("[data-gap]").forEach(b => b.onclick = () => {
@@ -685,7 +702,7 @@ function startSeg(i, pat) {
     const b = story.segments[i].bank;
     lessonTok = parse(lessonPattern()).filter(t => b[KIND[t]])  // PAUSE drops out (they tap); no word pairs: WORDS drops out
       .filter((t, k, a) => k === 0 || t !== a[k - 1])  // ...and English doesn't play twice in a row
-      .flatMap(t => t === "WORDS" && b.wp ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step
+      .flatMap(t => t === "WORDS" && b.wp && !wordsAll() ? b.wp.map((_, k) => "W" + k) : [t]);  // each word pair is its own step (or all in one, J10)
     if (!lessonTok.length) lessonTok = ["T", "EN", "T"].filter(t => b[KIND[t]]);  // an order with nothing this story has
     steps = lessonTok.map(t => t[0] === "W" && t !== "WORDS" ? wpRange(b.wp[+t.slice(1)]) : b[KIND[t]]);
   } else steps = i < 0 ? [story.bank.intro] : stepsFor(i, pat || pattern(), !pat);
@@ -819,7 +836,7 @@ function show() {
     $("dots").innerHTML = steps.map((_, i) => `<i class="${i === step ? "on" : i < step ? "past" : ""}"></i>`).join("");
     $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
     if (step === 0) $("en").textContent = "";  // first, just listen
-    if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
+    if (t === "WORDS") $("en").innerHTML = s.words.map(([w, m], j) => `${wordHTML(s, j)} = ${esc(m)}`).join("  ·  ");  // tap a word to ☆ save it
     if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${wordHTML(s, j)} = ${esc(m)}</b>` : wordHTML(s, j)).join("  ");
     $("saveRow").hidden = k < 0;
     if (k >= 0) { const w = wkey(s, k); $("saveWord").textContent = isSaved(w) ? "★ Saved" : "☆ Save"; $("saveWord").classList.toggle("on", isSaved(w)); }
@@ -1131,7 +1148,7 @@ function renderAll() {
   renderLangs();
   $("learnHead").textContent = lang ? "I'm learning" : "What are you learning?";
   $("app").hidden = !lang;   // first visit: pick a language before anything else
-  if (lang) { KNOW.loadFreq(); renderStories(); renderPattern(); renderGaps(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); renderUpNext(); }
+  if (lang) { KNOW.loadFreq(); renderStories(); renderPattern(); renderGaps(); renderWordsMode(); renderMarksSetting(); renderThemes(); renderJaScripts(); renderMode(); renderPlacementEntry(); renderVocab(); renderSurvey(); renderForYou(); renderUpNext(); }
 }
 
 // ---------- placement test: hear a word, pick its meaning; adaptive over the story ladder ----------
