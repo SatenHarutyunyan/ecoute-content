@@ -1,0 +1,2829 @@
+{
+ "id": "fr_req_ani_01",
+ "lang": "fr",
+ "title": "Le foulard jaune",
+ "author": "Original story (AI-generated)",
+ "level": "A1",
+ "series": "",
+ "episode": "",
+ "note": "In a small museum by the sea, a woman in a painting wears a yellow scarf, a foulard. The old guard sits in front of her every day, but he never looks at her.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 18100,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Honfleur est une petite ville en France.",
+   "en": "Honfleur is a small town in France.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Honfleur",
+     "Honfleur"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "une petite ville",
+     "a small town"
+    ],
+    [
+     "en France",
+     "in France"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "en": 2870,
+    "wd": 12480
+   },
+   "bank": {
+    "fr": [
+     49300,
+     2850
+    ],
+    "en": [
+     52550,
+     2870
+    ],
+    "wd": [
+     55820,
+     12480
+    ],
+    "wp": [
+     [
+      55820,
+      2550
+     ],
+     [
+      58770,
+      1990
+     ],
+     [
+      61160,
+      3100
+     ],
+     [
+      64660,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À Honfleur, il y a un petit musée.",
+   "en": "In Honfleur, there is a small museum.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "À Honfleur",
+     "in Honfleur"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "un petit musée",
+     "a small museum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "en": 2840,
+    "wd": 10190
+   },
+   "bank": {
+    "fr": [
+     68700,
+     3170
+    ],
+    "en": [
+     72270,
+     2840
+    ],
+    "wd": [
+     75510,
+     10190
+    ],
+    "wp": [
+     [
+      75510,
+      2830
+     ],
+     [
+      78740,
+      2460
+     ],
+     [
+      81600,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard est le vieux gardien du musée.",
+   "en": "Gaspard is the old guard of the museum.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "gardien",
+     "en": "guard"
+    }
+   ],
+   "words": [
+    [
+     "Gaspard",
+     "Gaspard"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "le vieux",
+     "the old"
+    ],
+    [
+     "gardien",
+     "guard"
+    ],
+    [
+     "du musée",
+     "of the museum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2780,
+    "en": 2920,
+    "gl": 3260,
+    "wd": 14570
+   },
+   "bank": {
+    "fr": [
+     86100,
+     2780
+    ],
+    "en": [
+     89280,
+     2920
+    ],
+    "gl": [
+     92600,
+     3260
+    ],
+    "wd": [
+     96260,
+     14570
+    ],
+    "wp": [
+     [
+      96260,
+      2590
+     ],
+     [
+      99250,
+      1990
+     ],
+     [
+      101640,
+      2440
+     ],
+     [
+      104480,
+      2320
+     ],
+     [
+      107200,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chaque jour, Gaspard est assis devant un tableau.",
+   "en": "Every day, Gaspard sits in front of a painting.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "tableau",
+     "en": "painting"
+    }
+   ],
+   "words": [
+    [
+     "Chaque jour",
+     "every day"
+    ],
+    [
+     "est assis",
+     "sits (is sitting)"
+    ],
+    [
+     "devant",
+     "in front of"
+    ],
+    [
+     "un tableau",
+     "a painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3780,
+    "en": 3260,
+    "gl": 3140,
+    "wd": 12680
+   },
+   "bank": {
+    "fr": [
+     111230,
+     3780
+    ],
+    "en": [
+     115410,
+     3260
+    ],
+    "gl": [
+     119070,
+     3140
+    ],
+    "wd": [
+     122610,
+     12680
+    ],
+    "wp": [
+     [
+      122610,
+      2750
+     ],
+     [
+      125760,
+      2920
+     ],
+     [
+      129080,
+      2440
+     ],
+     [
+      131920,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais Gaspard ne regarde jamais le tableau.",
+   "en": "But Gaspard never looks at the painting.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "ne regarde jamais",
+     "never looks at"
+    ],
+    [
+     "le tableau",
+     "the painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3100,
+    "en": 2610,
+    "wd": 9370
+   },
+   "bank": {
+    "fr": [
+     135690,
+     3100
+    ],
+    "en": [
+     139190,
+     2610
+    ],
+    "wd": [
+     142200,
+     9370
+    ],
+    "wp": [
+     [
+      142200,
+      1920
+     ],
+     [
+      144520,
+      3240
+     ],
+     [
+      148160,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le tableau s'appelle « La femme au foulard jaune ».",
+   "en": "The painting is called \"The Woman with the Yellow Scarf\".",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "foulard",
+     "en": "scarf"
+    }
+   ],
+   "words": [
+    [
+     "Le tableau",
+     "the painting"
+    ],
+    [
+     "s'appelle",
+     "is called"
+    ],
+    [
+     "La femme",
+     "the woman"
+    ],
+    [
+     "au foulard",
+     "with the scarf"
+    ],
+    [
+     "jaune",
+     "yellow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3710,
+    "en": 3480,
+    "gl": 3480,
+    "wd": 15310
+   },
+   "bank": {
+    "fr": [
+     151970,
+     3710
+    ],
+    "en": [
+     156080,
+     3480
+    ],
+    "gl": [
+     159960,
+     3480
+    ],
+    "wd": [
+     163840,
+     15310
+    ],
+    "wp": [
+     [
+      163840,
+      2560
+     ],
+     [
+      166800,
+      2650
+     ],
+     [
+      169850,
+      2520
+     ],
+     [
+      172770,
+      2820
+     ],
+     [
+      175990,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur le tableau, une jeune femme rit.",
+   "en": "In the painting, a young woman is laughing.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sur le tableau",
+     "in the painting"
+    ],
+    [
+     "une jeune femme",
+     "a young woman"
+    ],
+    [
+     "rit",
+     "is laughing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3040,
+    "en": 3000,
+    "wd": 9850
+   },
+   "bank": {
+    "fr": [
+     179550,
+     3040
+    ],
+    "en": [
+     182990,
+     3000
+    ],
+    "wd": [
+     186390,
+     9850
+    ],
+    "wp": [
+     [
+      186390,
+      2910
+     ],
+     [
+      189700,
+      2990
+     ],
+     [
+      193090,
+      2300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La signature ? Juste une lettre : G.",
+   "en": "The signature? Just one letter: G.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La signature",
+     "the signature"
+    ],
+    [
+     "Juste",
+     "just"
+    ],
+    [
+     "une lettre",
+     "a letter"
+    ],
+    [
+     "G",
+     "G"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "en": 3060,
+    "wd": 12110
+   },
+   "bank": {
+    "fr": [
+     196640,
+     4510
+    ],
+    "en": [
+     201550,
+     3060
+    ],
+    "wd": [
+     205010,
+     12110
+    ],
+    "wp": [
+     [
+      205010,
+      3050
+     ],
+     [
+      208460,
+      2450
+     ],
+     [
+      211310,
+      2430
+     ],
+     [
+      214140,
+      2130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les touristes demandent : « Le foulard est orange ? »",
+   "en": "The tourists ask: \"Is the scarf orange?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Les touristes",
+     "the tourists"
+    ],
+    [
+     "demandent",
+     "ask"
+    ],
+    [
+     "Le foulard",
+     "the scarf"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "orange",
+     "orange"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "en": 3170,
+    "wd": 15030
+   },
+   "bank": {
+    "fr": [
+     217520,
+     3700
+    ],
+    "en": [
+     221620,
+     3170
+    ],
+    "wd": [
+     225190,
+     15030
+    ],
+    "wp": [
+     [
+      225190,
+      2970
+     ],
+     [
+      228560,
+      2390
+     ],
+     [
+      231350,
+      2770
+     ],
+     [
+      234520,
+      1990
+     ],
+     [
+      236910,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard répond toujours : « Non. Il est jaune. »",
+   "en": "Gaspard always answers: \"No. It's yellow.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "répond",
+     "answers"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "Non",
+     "no"
+    ],
+    [
+     "Il est",
+     "it is"
+    ],
+    [
+     "jaune",
+     "yellow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4710,
+    "en": 3760,
+    "wd": 14120
+   },
+   "bank": {
+    "fr": [
+     240620,
+     4710
+    ],
+    "en": [
+     245730,
+     3760
+    ],
+    "wd": [
+     249890,
+     14120
+    ],
+    "wp": [
+     [
+      249890,
+      2470
+     ],
+     [
+      252760,
+      2520
+     ],
+     [
+      255680,
+      2080
+     ],
+     [
+      258160,
+      2290
+     ],
+     [
+      260850,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un lundi, une jeune femme arrive au musée.",
+   "en": "One Monday, a young woman arrives at the museum.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Un lundi",
+     "one Monday"
+    ],
+    [
+     "une jeune femme",
+     "a young woman"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ],
+    [
+     "au musée",
+     "at the museum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3290,
+    "en": 3560,
+    "wd": 12990
+   },
+   "bank": {
+    "fr": [
+     264410,
+     3290
+    ],
+    "en": [
+     268100,
+     3560
+    ],
+    "wd": [
+     272060,
+     12990
+    ],
+    "wp": [
+     [
+      272060,
+      2700
+     ],
+     [
+      275160,
+      2990
+     ],
+     [
+      278550,
+      2530
+     ],
+     [
+      281480,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La jeune femme s'assoit sur le banc.",
+   "en": "The young woman sits down on the bench.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "banc",
+     "en": "bench"
+    }
+   ],
+   "words": [
+    [
+     "La jeune femme",
+     "the young woman"
+    ],
+    [
+     "s'assoit",
+     "sits down"
+    ],
+    [
+     "sur",
+     "on"
+    ],
+    [
+     "le banc",
+     "the bench"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 2550,
+    "en": 2670,
+    "gl": 2920,
+    "wd": 12370
+   },
+   "bank": {
+    "fr": [
+     285450,
+     2550
+    ],
+    "en": [
+     288400,
+     2670
+    ],
+    "gl": [
+     291470,
+     2920
+    ],
+    "wd": [
+     294790,
+     12370
+    ],
+    "wp": [
+     [
+      294790,
+      3040
+     ],
+     [
+      298230,
+      2610
+     ],
+     [
+      301240,
+      2250
+     ],
+     [
+      303890,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle regarde le tableau pendant une heure.",
+   "en": "She looks at the painting for an hour.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Elle",
+     "she"
+    ],
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "le tableau",
+     "the painting"
+    ],
+    [
+     "pendant",
+     "for"
+    ],
+    [
+     "une heure",
+     "an hour"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "en": 2300,
+    "wd": 14370
+   },
+   "bank": {
+    "fr": [
+     307560,
+     3070
+    ],
+    "en": [
+     311030,
+     2300
+    ],
+    "wd": [
+     313730,
+     14370
+    ],
+    "wp": [
+     [
+      313730,
+      2120
+     ],
+     [
+      316250,
+      2550
+     ],
+     [
+      319200,
+      2560
+     ],
+     [
+      322160,
+      2240
+     ],
+     [
+      324800,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mardi, la jeune femme revient. Mercredi aussi.",
+   "en": "On Tuesday, the young woman comes back. On Wednesday too.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mardi",
+     "on Tuesday"
+    ],
+    [
+     "revient",
+     "comes back"
+    ],
+    [
+     "Mercredi",
+     "on Wednesday"
+    ],
+    [
+     "aussi",
+     "too"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4980,
+    "en": 4270,
+    "wd": 12290
+   },
+   "bank": {
+    "fr": [
+     328500,
+     4980
+    ],
+    "en": [
+     333880,
+     4270
+    ],
+    "wd": [
+     338550,
+     12290
+    ],
+    "wp": [
+     [
+      338550,
+      2660
+     ],
+     [
+      341610,
+      2620
+     ],
+     [
+      344630,
+      2820
+     ],
+     [
+      347850,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La jeune femme photographie la signature.",
+   "en": "The young woman takes a photo of the signature.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "photographie",
+     "takes a photo of"
+    ],
+    [
+     "la signature",
+     "the signature"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3170,
+    "en": 3050,
+    "wd": 7480
+   },
+   "bank": {
+    "fr": [
+     351240,
+     3170
+    ],
+    "en": [
+     354810,
+     3050
+    ],
+    "wd": [
+     358260,
+     7480
+    ],
+    "wp": [
+     [
+      358260,
+      3170
+     ],
+     [
+      361830,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Une voleuse ? » pense Gaspard.",
+   "en": "\"A thief?\" Gaspard thinks.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "voleuse",
+     "en": "thief (a woman)"
+    }
+   ],
+   "words": [
+    [
+     "Une voleuse",
+     "a thief (a woman)"
+    ],
+    [
+     "pense",
+     "thinks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 2830,
+    "en": 2710,
+    "gl": 3910,
+    "wd": 6910
+   },
+   "bank": {
+    "fr": [
+     366140,
+     2830
+    ],
+    "en": [
+     369370,
+     2710
+    ],
+    "gl": [
+     372480,
+     3910
+    ],
+    "wd": [
+     376790,
+     6910
+    ],
+    "wp": [
+     [
+      376790,
+      3370
+     ],
+     [
+      380560,
+      2290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mercredi soir, la jeune femme parle enfin.",
+   "en": "On Wednesday evening, the young woman finally speaks.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mercredi soir",
+     "Wednesday evening"
+    ],
+    [
+     "parle",
+     "speaks"
+    ],
+    [
+     "enfin",
+     "finally"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "en": 3800,
+    "wd": 9740
+   },
+   "bank": {
+    "fr": [
+     384100,
+     3630
+    ],
+    "en": [
+     388130,
+     3800
+    ],
+    "wd": [
+     392330,
+     9740
+    ],
+    "wp": [
+     [
+      392330,
+      3270
+     ],
+     [
+      396000,
+      2460
+     ],
+     [
+      398860,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Monsieur, qui est G. ? »",
+   "en": "\"Sir, who is G.?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Monsieur",
+     "sir"
+    ],
+    [
+     "qui",
+     "who"
+    ],
+    [
+     "est",
+     "is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 2120,
+    "en": 1980,
+    "wd": 7910
+   },
+   "bank": {
+    "fr": [
+     402470,
+     2120
+    ],
+    "en": [
+     404990,
+     1980
+    ],
+    "wd": [
+     407370,
+     7910
+    ],
+    "wp": [
+     [
+      407370,
+      2270
+     ],
+     [
+      410040,
+      2000
+     ],
+     [
+      412440,
+      1990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard regarde ses chaussures.",
+   "en": "Gaspard looks at his shoes.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "chaussures",
+     "en": "shoes"
+    }
+   ],
+   "words": [
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "ses chaussures",
+     "his shoes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "gl": "audio/s019_gl.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "en": 2150,
+    "gl": 3520,
+    "wd": 6800
+   },
+   "bank": {
+    "fr": [
+     415680,
+     2680
+    ],
+    "en": [
+     418760,
+     2150
+    ],
+    "gl": [
+     421310,
+     3520
+    ],
+    "wd": [
+     425230,
+     6800
+    ],
+    "wp": [
+     [
+      425230,
+      2550
+     ],
+     [
+      428180,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Personne ne sait, mademoiselle. »",
+   "en": "\"Nobody knows, miss.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Personne ne sait",
+     "nobody knows"
+    ],
+    [
+     "mademoiselle",
+     "miss"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "en": 2040,
+    "wd": 7090
+   },
+   "bank": {
+    "fr": [
+     432430,
+     2990
+    ],
+    "en": [
+     435820,
+     2040
+    ],
+    "wd": [
+     438260,
+     7090
+    ],
+    "wp": [
+     [
+      438260,
+      3110
+     ],
+     [
+      441770,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Jeudi, la jeune femme ne vient pas.",
+   "en": "On Thursday, the young woman doesn't come.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Jeudi",
+     "on Thursday"
+    ],
+    [
+     "ne vient pas",
+     "doesn't come"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 3080,
+    "en": 3100,
+    "wd": 6770
+   },
+   "bank": {
+    "fr": [
+     445750,
+     3080
+    ],
+    "en": [
+     449230,
+     3100
+    ],
+    "wd": [
+     452730,
+     6770
+    ],
+    "wp": [
+     [
+      452730,
+      2750
+     ],
+     [
+      455880,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard regarde la porte toute la journée.",
+   "en": "Gaspard looks at the door all day long.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "la porte",
+     "the door"
+    ],
+    [
+     "toute la journée",
+     "all day long"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 3280,
+    "en": 2910,
+    "wd": 9820
+   },
+   "bank": {
+    "fr": [
+     459900,
+     3280
+    ],
+    "en": [
+     463580,
+     2910
+    ],
+    "wd": [
+     466890,
+     9820
+    ],
+    "wp": [
+     [
+      466890,
+      2550
+     ],
+     [
+      469840,
+      2610
+     ],
+     [
+      472850,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est bizarre : Gaspard est triste.",
+   "en": "It's strange: Gaspard is sad.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "C'est bizarre",
+     "it's strange"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "triste",
+     "sad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "en": 2760,
+    "wd": 9010
+   },
+   "bank": {
+    "fr": [
+     477110,
+     3150
+    ],
+    "en": [
+     480660,
+     2760
+    ],
+    "wd": [
+     483820,
+     9010
+    ],
+    "wp": [
+     [
+      483820,
+      3060
+     ],
+     [
+      487280,
+      1990
+     ],
+     [
+      489670,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Vendredi, la jeune femme revient.",
+   "en": "On Friday, the young woman comes back.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Vendredi",
+     "on Friday"
+    ],
+    [
+     "la jeune femme",
+     "the young woman"
+    ],
+    [
+     "revient",
+     "comes back"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "en": 2980,
+    "wd": 10150
+   },
+   "bank": {
+    "fr": [
+     493230,
+     3070
+    ],
+    "en": [
+     496700,
+     2980
+    ],
+    "wd": [
+     500080,
+     10150
+    ],
+    "wp": [
+     [
+      500080,
+      2840
+     ],
+     [
+      503320,
+      3040
+     ],
+     [
+      506760,
+      2620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle a une vieille boîte dans les mains.",
+   "en": "She has an old box in her hands.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Elle a",
+     "she has"
+    ],
+    [
+     "une vieille boîte",
+     "an old box"
+    ],
+    [
+     "dans les mains",
+     "in her hands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 2540,
+    "en": 2490,
+    "wd": 10240
+   },
+   "bank": {
+    "fr": [
+     510630,
+     2540
+    ],
+    "en": [
+     513570,
+     2490
+    ],
+    "wd": [
+     516460,
+     10240
+    ],
+    "wp": [
+     [
+      516460,
+      2490
+     ],
+     [
+      519350,
+      3230
+     ],
+     [
+      522980,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je m'appelle Margaux. »",
+   "en": "\"My name is Margaux.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je m'appelle",
+     "my name is"
+    ],
+    [
+     "Margaux",
+     "Margaux"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 1950,
+    "en": 1830,
+    "wd": 6480
+   },
+   "bank": {
+    "fr": [
+     527100,
+     1950
+    ],
+    "en": [
+     529450,
+     1830
+    ],
+    "wd": [
+     531680,
+     6480
+    ],
+    "wp": [
+     [
+      531680,
+      2910
+     ],
+     [
+      534990,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ma grand-mère est morte en avril. »",
+   "en": "\"My grandmother died in April.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "est morte",
+     "en": "died"
+    }
+   ],
+   "words": [
+    [
+     "Ma grand-mère",
+     "my grandmother"
+    ],
+    [
+     "est morte",
+     "died"
+    ],
+    [
+     "en avril",
+     "in April"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "gl": "audio/s027_gl.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "en": 2630,
+    "gl": 3400,
+    "wd": 9830
+   },
+   "bank": {
+    "fr": [
+     538560,
+     2680
+    ],
+    "en": [
+     541640,
+     2630
+    ],
+    "gl": [
+     544670,
+     3400
+    ],
+    "wd": [
+     548470,
+     9830
+    ],
+    "wp": [
+     [
+      548470,
+      3050
+     ],
+     [
+      551920,
+      2430
+     ],
+     [
+      554750,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Margaux ouvre la boîte.",
+   "en": "Margaux opens the box.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ouvre",
+     "opens"
+    ],
+    [
+     "la boîte",
+     "the box"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 2380,
+    "en": 2060,
+    "wd": 6270
+   },
+   "bank": {
+    "fr": [
+     558700,
+     2380
+    ],
+    "en": [
+     561480,
+     2060
+    ],
+    "wd": [
+     563940,
+     6270
+    ],
+    "wp": [
+     [
+      563940,
+      2240
+     ],
+     [
+      566580,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dedans : un foulard jaune et une lettre.",
+   "en": "Inside: a yellow scarf and a letter.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Dedans",
+     "inside"
+    ],
+    [
+     "un foulard",
+     "a scarf"
+    ],
+    [
+     "jaune",
+     "yellow"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "une lettre",
+     "a letter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "en": 3210,
+    "wd": 14120
+   },
+   "bank": {
+    "fr": [
+     570610,
+     3210
+    ],
+    "en": [
+     574220,
+     3210
+    ],
+    "wd": [
+     577830,
+     14120
+    ],
+    "wp": [
+     [
+      577830,
+      2390
+     ],
+     [
+      580620,
+      2720
+     ],
+     [
+      583740,
+      2309
+     ],
+     [
+      586450,
+      1820
+     ],
+     [
+      588670,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Margaux lit la lettre à voix haute.",
+   "en": "Margaux reads the letter out loud.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "à voix haute",
+     "en": "out loud"
+    }
+   ],
+   "words": [
+    [
+     "lit",
+     "reads"
+    ],
+    [
+     "la lettre",
+     "the letter"
+    ],
+    [
+     "à voix haute",
+     "out loud"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 2720,
+    "en": 2380,
+    "gl": 3930,
+    "wd": 9290
+   },
+   "bank": {
+    "fr": [
+     592350,
+     2720
+    ],
+    "en": [
+     595470,
+     2380
+    ],
+    "gl": [
+     598250,
+     3930
+    ],
+    "wd": [
+     602580,
+     9290
+    ],
+    "wp": [
+     [
+      602580,
+      2230
+     ],
+     [
+      605210,
+      2530
+     ],
+     [
+      608140,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Suzanne, je t'attends à Honfleur. G. »",
+   "en": "\"Suzanne, I'm waiting for you in Honfleur. G.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Suzanne",
+     "Suzanne"
+    ],
+    [
+     "je t'attends",
+     "I'm waiting for you"
+    ],
+    [
+     "à Honfleur",
+     "in Honfleur"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4570,
+    "en": 3690,
+    "wd": 10090
+   },
+   "bank": {
+    "fr": [
+     612270,
+     4570
+    ],
+    "en": [
+     617240,
+     3690
+    ],
+    "wd": [
+     621330,
+     10090
+    ],
+    "wp": [
+     [
+      621330,
+      2640
+     ],
+     [
+      624370,
+      2970
+     ],
+     [
+      627740,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Suzanne, c'est ma grand-mère. »",
+   "en": "\"Suzanne is my grandmother.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "c'est",
+     "is (it's)"
+    ],
+    [
+     "ma grand-mère",
+     "my grandmother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2840,
+    "en": 2160,
+    "wd": 6690
+   },
+   "bank": {
+    "fr": [
+     631820,
+     2840
+    ],
+    "en": [
+     635060,
+     2160
+    ],
+    "wd": [
+     637620,
+     6690
+    ],
+    "wp": [
+     [
+      637620,
+      2390
+     ],
+     [
+      640410,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ma grand-mère n'est jamais venue ici. »",
+   "en": "\"My grandmother never came here.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "n'est jamais venue",
+     "never came"
+    ],
+    [
+     "ici",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "en": 2430,
+    "wd": 6510
+   },
+   "bank": {
+    "fr": [
+     644710,
+     2940
+    ],
+    "en": [
+     648050,
+     2430
+    ],
+    "wd": [
+     650880,
+     6510
+    ],
+    "wp": [
+     [
+      650880,
+      3050
+     ],
+     [
+      654330,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais elle a gardé le foulard. Toute sa vie. »",
+   "en": "\"But she kept the scarf. All her life.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "elle a gardé",
+     "she kept"
+    ],
+    [
+     "le foulard",
+     "the scarf"
+    ],
+    [
+     "Toute sa vie",
+     "all her life"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 4230,
+    "en": 3010,
+    "wd": 12260
+   },
+   "bank": {
+    "fr": [
+     657790,
+     4230
+    ],
+    "en": [
+     662420,
+     3010
+    ],
+    "wd": [
+     665830,
+     12260
+    ],
+    "wp": [
+     [
+      665830,
+      1920
+     ],
+     [
+      668150,
+      2720
+     ],
+     [
+      671270,
+      2750
+     ],
+     [
+      674420,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je cherche G. Pour elle. »",
+   "en": "\"I'm looking for G. For her.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je cherche",
+     "I'm looking for"
+    ],
+    [
+     "Pour elle",
+     "for her"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "en": 2460,
+    "wd": 6640
+   },
+   "bank": {
+    "fr": [
+     678490,
+     3450
+    ],
+    "en": [
+     682340,
+     2460
+    ],
+    "wd": [
+     685200,
+     6640
+    ],
+    "wp": [
+     [
+      685200,
+      2940
+     ],
+     [
+      688540,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard ne dit rien.",
+   "en": "Gaspard says nothing.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "ne dit rien",
+     "says nothing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 2040,
+    "en": 1870,
+    "wd": 3610
+   },
+   "bank": {
+    "fr": [
+     692240,
+     2040
+    ],
+    "en": [
+     694680,
+     1870
+    ],
+    "wd": [
+     696950,
+     3610
+    ],
+    "wp": [
+     [
+      696950,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pour la première fois, Gaspard regarde le tableau.",
+   "en": "For the first time, Gaspard looks at the painting.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pour la première fois",
+     "for the first time"
+    ],
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "le tableau",
+     "the painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3830,
+    "en": 3250,
+    "wd": 10090
+   },
+   "bank": {
+    "fr": [
+     700960,
+     3830
+    ],
+    "en": [
+     705190,
+     3250
+    ],
+    "wd": [
+     708840,
+     10090
+    ],
+    "wp": [
+     [
+      708840,
+      3330
+     ],
+     [
+      712570,
+      2550
+     ],
+     [
+      715520,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le foulard est jaune, dit Gaspard. Pas orange. »",
+   "en": "\"The scarf is yellow,\" says Gaspard. \"Not orange.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le foulard",
+     "the scarf"
+    ],
+    [
+     "est",
+     "is"
+    ],
+    [
+     "jaune",
+     "yellow"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "Pas orange",
+     "not orange"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5020,
+    "en": 3930,
+    "wd": 14520
+   },
+   "bank": {
+    "fr": [
+     719330,
+     5020
+    ],
+    "en": [
+     724750,
+     3930
+    ],
+    "wd": [
+     729080,
+     14520
+    ],
+    "wp": [
+     [
+      729080,
+      2770
+     ],
+     [
+      732250,
+      1990
+     ],
+     [
+      734640,
+      2309
+     ],
+     [
+      737350,
+      2160
+     ],
+     [
+      739910,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Margaux regarde Gaspard. « G… comme Gaspard ? »",
+   "en": "Margaux looks at Gaspard. \"G… as in Gaspard?\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "comme",
+     "as in (like)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 3870,
+    "wd": 6300
+   },
+   "bank": {
+    "fr": [
+     744000,
+     5040
+    ],
+    "en": [
+     749440,
+     3870
+    ],
+    "wd": [
+     753710,
+     6300
+    ],
+    "wp": [
+     [
+      753710,
+      2550
+     ],
+     [
+      756660,
+      2500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard sourit. Ses yeux brillent.",
+   "en": "Gaspard smiles. His eyes shine.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "brillent",
+     "en": "shine"
+    }
+   ],
+   "words": [
+    [
+     "sourit",
+     "smiles"
+    ],
+    [
+     "Ses yeux",
+     "his eyes"
+    ],
+    [
+     "brillent",
+     "shine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "gl": "audio/s040_gl.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3770,
+    "en": 3050,
+    "gl": 3170,
+    "wd": 9110
+   },
+   "bank": {
+    "fr": [
+     760410,
+     3770
+    ],
+    "en": [
+     764580,
+     3050
+    ],
+    "gl": [
+     768030,
+     3170
+    ],
+    "wd": [
+     771600,
+     9110
+    ],
+    "wp": [
+     [
+      771600,
+      2530
+     ],
+     [
+      774530,
+      2650
+     ],
+     [
+      777580,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'attends Suzanne ici depuis cinquante ans. »",
+   "en": "\"I've been waiting for Suzanne here for fifty years.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "depuis",
+     "en": "for (since)"
+    }
+   ],
+   "words": [
+    [
+     "J'attends",
+     "I've been waiting for"
+    ],
+    [
+     "ici",
+     "here"
+    ],
+    [
+     "depuis",
+     "for (since)"
+    ],
+    [
+     "cinquante ans",
+     "fifty years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "gl": "audio/s041_gl.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "en": 3220,
+    "gl": 3560,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     781110,
+     3150
+    ],
+    "en": [
+     784660,
+     3220
+    ],
+    "gl": [
+     788280,
+     3560
+    ],
+    "wd": [
+     792240,
+     12770
+    ],
+    "wp": [
+     [
+      792240,
+      2920
+     ],
+     [
+      795560,
+      2210
+     ],
+     [
+      798170,
+      2630
+     ],
+     [
+      801200,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Devant elle. Tous les jours. »",
+   "en": "\"In front of her. Every day.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Devant elle",
+     "in front of her"
+    ],
+    [
+     "Tous les jours",
+     "every day"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 3380,
+    "en": 2450,
+    "wd": 6790
+   },
+   "bank": {
+    "fr": [
+     805410,
+     3380
+    ],
+    "en": [
+     809190,
+     2450
+    ],
+    "wd": [
+     812040,
+     6790
+    ],
+    "wp": [
+     [
+      812040,
+      2790
+     ],
+     [
+      815230,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gaspard rit doucement, comme la femme du tableau.",
+   "en": "Gaspard laughs softly, like the woman in the painting.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "rit",
+     "laughs"
+    ],
+    [
+     "doucement",
+     "softly"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "la femme",
+     "the woman"
+    ],
+    [
+     "du tableau",
+     "in the painting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "en": 3610,
+    "wd": 14550
+   },
+   "bank": {
+    "fr": [
+     819230,
+     3570
+    ],
+    "en": [
+     823200,
+     3610
+    ],
+    "wd": [
+     827210,
+     14550
+    ],
+    "wp": [
+     [
+      827210,
+      2230
+     ],
+     [
+      829840,
+      2440
+     ],
+     [
+      832680,
+      2170
+     ],
+     [
+      835249,
+      2520
+     ],
+     [
+      838170,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Suzanne est venue, finalement. »",
+   "en": "\"Suzanne came, in the end.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Suzanne",
+     "Suzanne"
+    ],
+    [
+     "est venue",
+     "came"
+    ],
+    [
+     "finalement",
+     "in the end"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 2710,
+    "en": 2540,
+    "wd": 9260
+   },
+   "bank": {
+    "fr": [
+     842160,
+     2710
+    ],
+    "en": [
+     845270,
+     2540
+    ],
+    "wd": [
+     848210,
+     9260
+    ],
+    "wp": [
+     [
+      848210,
+      2640
+     ],
+     [
+      851250,
+      2350
+     ],
+     [
+      854000,
+      2620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« En retard. Comme toujours. »",
+   "en": "\"Late. As always.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "En retard",
+     "en": "late"
+    }
+   ],
+   "words": [
+    [
+     "En retard",
+     "late"
+    ],
+    [
+     "Comme toujours",
+     "as always"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "gl": "audio/s045_gl.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 3590,
+    "en": 2230,
+    "gl": 3490,
+    "wd": 6700
+   },
+   "bank": {
+    "fr": [
+     857870,
+     3590
+    ],
+    "en": [
+     861860,
+     2230
+    ],
+    "gl": [
+     864490,
+     3490
+    ],
+    "wd": [
+     868380,
+     6700
+    ],
+    "wp": [
+     [
+      868380,
+      2470
+     ],
+     [
+      871250,
+      2980
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   18100
+  ],
+  "silence": [
+   18900,
+   30000
+  ]
+ }
+}
