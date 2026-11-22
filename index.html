@@ -358,7 +358,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.108";
+const VERSION = "web 0.109";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1229,6 +1229,10 @@ $("adaptive").onchange = e => {
   store.set("adaptive_" + lang, e.target.checked); log("adaptive", { on: e.target.checked }); renderPattern();
   if (story && seg >= 0 && !lessonMode()) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; show(); }
 };
+// Inside the apps (iPhone build 4, Android): no zooming, like any app; an accidental pinch zoomed the whole app and it
+// scrolled sideways (Saten 2026-11-22). In a browser the page stays zoomable.
+if ((window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform()) || window.EcouteAndroid)
+  document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover");
 // iPhone app (build 4+): commands during the story need Apple's echo cancelling, which makes the speaker sound a
 // little less clear (build 4 test): the learner chooses
 setTimeout(() => { if (NATIVE_VOICE && !ANDROID && NATIVE_PLAYER) {  // after the bridges below are defined
