@@ -384,7 +384,10 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.117";
+const VERSION = "web 0.118";
+// which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
+// bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
+let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -504,7 +507,7 @@ function flush(beacon) {
   const box = store.get("outbox", []);
   if (!LOG_URL || !box.length || flushing || ["localhost", "127.0.0.1"].includes(location.hostname) || navigator.webdriver) return;  // Claude's test runs stay out of the Sheet
   const batch = box.slice(0, 300);
-  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION, events: batch });
+  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION + (APP_BUILD ? " · " + APP_BUILD : ""), events: batch });
   const done = () => store.set("outbox", store.get("outbox", []).slice(batch.length));
   if (beacon && navigator.sendBeacon) { if (navigator.sendBeacon(LOG_URL, body)) done(); return; }
   flushing = true;   // text/plain + no-cors: no preflight; the response is opaque, so a resolved fetch counts as sent
@@ -1368,7 +1371,8 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
   store.set("tab_" + lang, b.dataset.tab); log("tab", { tab: b.dataset.tab }); renderStories();
 });
 $("restart").onclick = restartStory;
-$("ver").textContent = VERSION;
+const showVer = () => { $("ver").textContent = (APP_BUILD ? APP_BUILD + " · " : "") + VERSION; };
+showVer();
 // ---------- onboarding (Saten, 2026-11-20): name -> language -> level -> a 4-line joke, 2 lines Step by step and 2 Continuous
 // -> which did you prefer? -> wishes. Complete beginners skip the joke and get Step by step. People who already have a
 // name and a language never see it. The joke is web/onb/<lang>.json + its audio (mvp/stories/onb_<lang>.txt).
@@ -2130,6 +2134,19 @@ const NATIVE_PLAYER = (() => {  // the iPhone app from build 4, or the Android w
     setTimeout(() => { try { nativeEvents(); } catch (e) { log("js_error", { err: "native events: " + String(e).slice(0, 200) }); } });
     return p;
   } catch (e) { log("js_error", { err: "native player: " + String(e && e.message || e).slice(0, 200) }); return null; }
+})();
+(function appBuild() {
+  const done = b => { APP_BUILD = b; store.set("app_build", b); try { showVer(); } catch {} };
+  try {
+    if (ANDROID) {
+      try { return done("Android " + EcouteAndroid.appVersion()); } catch { return done("Android app (0.27 or older)"); }
+    }
+    if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform())) return done("");  // the website
+    if (!(Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcoutePlayer"))) return done("App build 3 or older");
+    Capacitor.nativePromise("EcoutePlayer", "info", {})  // build 6+: version, build, where it was installed from
+      .then(i => done(`App ${i.version} (${i.build})${i.from ? " " + i.from : ""}`))
+      .catch(() => done("App build 4 or 5"));
+  } catch (e) { log("js_error", { err: "app build: " + String(e && e.message || e).slice(0, 150) }); }
 })();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
 
