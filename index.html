@@ -358,7 +358,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.106";
+const VERSION = "web 0.107";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1918,7 +1918,7 @@ $("vocabAllS").onclick = () => {  // each word twice, then its example sentence
 // iPhone only lets a web page use the mic while it is open with the screen on, so we keep the screen awake.
 const VOICE_BASE = new URL("voice/", location.href).href;
 const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "repeat": "again", "again": "again",
-  "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "continue": "play", "resume": "play" };
+  "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "stop": "pause", "continue": "play", "resume": "play" };
 const V = { on: false, ctx: null, stream: null, rec: null, wake: null, sub: null };
 // Inside the iPhone app: the app's own listener (Apple's on-device recognition, works with the screen locked)
 // The app loads this page from the web, without @capacitor/core, so there is no Capacitor.registerPlugin (calling it
@@ -2075,6 +2075,8 @@ async function voiceStartNative() {
       if (Date.now() - lastHeard < 10000 && !e.final) return;
       lastHeard = Date.now(); log("voice_heard", { chars: String(e.text || "").length, final: !!e.final });
     });
+    // iPhone build 5+: a short result that wasn't a command ("paws"), to find words the recognizer gets wrong
+    NATIVE_VOICE.addListener("nearmiss", e => log("voice_nearmiss", { word: String(e.word || "").slice(0, 30) }));
     V.sub3 = await NATIVE_VOICE.addListener("state", e => {
       log("voice_state", e);
       if (e.state === "error" && V.on) { voiceStop(false); $("voiceHint").textContent = "Voice commands stopped: " + (e.error || e.reason || "error"); }
