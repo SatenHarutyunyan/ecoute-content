@@ -645,6 +645,24 @@
    "version": "6699b62a246e"
   },
   {
+   "id": "fr_req_ani_03",
+   "lang": "fr",
+   "title": "Le bébé du musée",
+   "author": "True story (public facts), retold",
+   "level": "A1",
+   "series": "",
+   "episode": "",
+   "phrases": 44,
+   "minutes": 10,
+   "size_mb": 5,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_req_ani_03.zip",
+   "version": "f5250ee49d80",
+   "for": [
+    "@37a88412"
+   ],
+   "request": "I want real stories about Leonardo Dicaprio, France, Portugal, Ronaldo"
+  },
+  {
    "id": "fr_req_ani_01",
    "lang": "fr",
    "title": "Le foulard jaune",
@@ -658,9 +676,45 @@
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_req_ani_01.zip",
    "version": "33ffdd4d67fc",
    "for": [
-    "Անի"
+    "@37a88412"
    ],
    "request": "Art & artists, Travel & places, Romance & drama, Psychology & the mind (topics chosen in onboarding)"
+  },
+  {
+   "id": "fr_req_ani_02",
+   "lang": "fr",
+   "title": "Le garçon de l'aéroport",
+   "author": "True story (public facts), retold",
+   "level": "A1",
+   "series": "",
+   "episode": "",
+   "phrases": 44,
+   "minutes": 9,
+   "size_mb": 5,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_req_ani_02.zip",
+   "version": "4aededb20dae",
+   "for": [
+    "@37a88412"
+   ],
+   "request": "I want real stories about Leonardo Dicaprio, France, Portugal, Ronaldo"
+  },
+  {
+   "id": "fr_req_ani_05",
+   "lang": "fr",
+   "title": "Le secret des moines",
+   "author": "True story, retold",
+   "level": "A1",
+   "series": "",
+   "episode": "",
+   "phrases": 43,
+   "minutes": 9,
+   "size_mb": 5,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_req_ani_05.zip",
+   "version": "ec492b2e3ca3",
+   "for": [
+    "@37a88412"
+   ],
+   "request": "I want real stories about Leonardo Dicaprio, France, Portugal, Ronaldo"
   },
   {
    "id": "ai_mystery",
