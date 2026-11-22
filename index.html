@@ -384,10 +384,12 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.120";
+const VERSION = "web 0.121";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
+// the Sheet keeps only 20 characters of the version: a short form there ("web 0.121 iOS6 TF", "web 0.121 And0.28")
+let APP_SHORT = (() => { try { return JSON.parse(localStorage.getItem("app_short")) || ""; } catch { return ""; } })();
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -507,7 +509,7 @@ function flush(beacon) {
   const box = store.get("outbox", []);
   if (!LOG_URL || !box.length || flushing || ["localhost", "127.0.0.1"].includes(location.hostname) || navigator.webdriver) return;  // Claude's test runs stay out of the Sheet
   const batch = box.slice(0, 300);
-  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION + (APP_BUILD ? " · " + APP_BUILD : ""), events: batch });
+  const body = JSON.stringify({ device, name: store.get("name", ""), version: VERSION + (APP_SHORT ? " " + APP_SHORT : ""), events: batch });
   const done = () => store.set("outbox", store.get("outbox", []).slice(batch.length));
   if (beacon && navigator.sendBeacon) { if (navigator.sendBeacon(LOG_URL, body)) done(); return; }
   flushing = true;   // text/plain + no-cors: no preflight; the response is opaque, so a resolved fetch counts as sent
@@ -2142,20 +2144,20 @@ const NATIVE_PLAYER = (() => {  // the iPhone app from build 4, or the Android w
   } catch (e) { log("js_error", { err: "native player: " + String(e && e.message || e).slice(0, 200) }); return null; }
 })();
 (function appBuild() {
-  const done = b => { APP_BUILD = b; store.set("app_build", b); try { showVer(); } catch {} };
+  const done = (b, sh = "") => { APP_BUILD = b; APP_SHORT = sh; store.set("app_build", b); store.set("app_short", sh); try { showVer(); } catch {} };
   try {
     if (ANDROID) {
-      try { return done("Android " + EcouteAndroid.appVersion()); } catch { return done("Android app (0.27 or older)"); }
+      try { const v = EcouteAndroid.appVersion(); return done("Android " + v, "And" + v.split(" ")[0]); } catch { return done("Android app (0.27 or older)", "And<=0.27"); }
     }
     if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform())) return done("");  // the website
-    if (!(Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcoutePlayer"))) return done("App build 3 or older");
+    if (!(Capacitor.isPluginAvailable && Capacitor.isPluginAvailable("EcoutePlayer"))) return done("App build 3 or older", "iOS<=3");
     // build 6+: version, build, where it was installed from; older builds may never answer an unknown call (test15,
     // 2026-11-22), so give up after 3 s
     let answered = false;
-    setTimeout(() => answered || done("App build 4–6 (before the build-number update)"), 3000);
+    setTimeout(() => answered || done("App build 4–6 (before the build-number update)", "iOS4-6"), 3000);
     Capacitor.nativePromise("EcoutePlayer", "info", {})
-      .then(i => { answered = true; done(`App ${i.version} (${i.build})${i.from ? " " + i.from : ""}`); })
-      .catch(() => { answered = true; done("App build 4–6 (before the build-number update)"); });
+      .then(i => { answered = true; done(`App ${i.version} (${i.build})${i.from ? " " + i.from : ""}`, `iOS${i.build}` + ({ TestFlight: " TF", "from Xcode": " Xcode", "App Store": " AS" }[i.from] || "")); })
+      .catch(() => { answered = true; done("App build 4–6 (before the build-number update)", "iOS4-6"); });
   } catch (e) { log("js_error", { err: "app build: " + String(e && e.message || e).slice(0, 150) }); }
 })();
 const voiceUi = (t) => { $("voiceLabel").textContent = "Voice: " + t; $("voice").classList.toggle("on", t === "on"); };
