@@ -358,7 +358,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.107";
+const VERSION = "web 0.108";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1919,6 +1919,8 @@ $("vocabAllS").onclick = () => {  // each word twice, then its example sentence
 const VOICE_BASE = new URL("voice/", location.href).href;
 const VOICE_CMDS = { "previous": "back", "back": "back", "go back": "back", "repeat": "again", "again": "again",
   "next": "next", "skip": "next", "go forward": "next", "pause": "pause", "stop": "pause", "continue": "play", "resume": "play" };
+// what Apple's recognizer writes instead of a command (iPhone build 4 test: "pause" never came through) → the command
+const VOICE_ALIKE = { "paws": "pause", "pose": "pause", "pours": "pause", "pauses": "pause", "necks": "next", "nexts": "next", "repeats": "repeat" };
 const V = { on: false, ctx: null, stream: null, rec: null, wake: null, sub: null };
 // Inside the iPhone app: the app's own listener (Apple's on-device recognition, works with the screen locked)
 // The app loads this page from the web, without @capacitor/core, so there is no Capacitor.registerPlugin (calling it
@@ -2081,7 +2083,8 @@ async function voiceStartNative() {
       log("voice_state", e);
       if (e.state === "error" && V.on) { voiceStop(false); $("voiceHint").textContent = "Voice commands stopped: " + (e.error || e.reason || "error"); }
     });
-    const r = await NATIVE_VOICE.start({ echo: store.get("voice_echo", true) });  // iPhone: echo cancelling on the speaker
+    // the iPhone app (build 5+) takes its word lists from here, so fixing a word is a web update, not a new build
+    const r = await NATIVE_VOICE.start({ echo: store.get("voice_echo", true), commands: [...Object.keys(VOICE_CMDS), "next phrase", "previous phrase"], soundsLike: VOICE_ALIKE });
     if (!V.on) return NATIVE_VOICE.stop();
     voiceUi("on");
     $("voiceHint").textContent = "Listening, also with the screen locked. Say: previous · repeat · next · pause · continue.";
