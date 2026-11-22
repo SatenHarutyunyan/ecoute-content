@@ -198,6 +198,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 .vrow:first-child { border-top:none; }
 .vw { flex:1; cursor:pointer; }
 .vopen { border:none; background:none; color:var(--muted); font-size:16px; padding:6px; }
+.vopen { font-size:12px; color:var(--accent); white-space:nowrap; }
 .vsent { margin:0 0 10px 44px; padding:10px 12px; border-radius:12px; background:var(--bg); border:1px solid var(--line); }
 .vshy { font-size:18px; font-weight:600; margin-bottom:2px; }
 .vsbtn { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
@@ -358,7 +359,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.109";
+const VERSION = "web 0.110";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1757,10 +1758,21 @@ function vsPlay(s, then) {  // Armenian, English, Armenian again
   const u = vsUrl(s), hy = [s[3], s[4]], en = [s[5], s[6]];
   vaRange(u, hy, () => vaRange(u, en, () => vaRange(u, hy, then)));
 }
+// the sentence the word was saved from: the example for every language (only Armenian has extra example sets;
+// before, other languages waited forever on "Loading example…", Saten 2026-11-22)
+function storySent(v) { const st = storyCache[v.story] && storyCache[v.story].done, sg = st && st.segments[v.seg]; return sg ? { st, sg } : null; }
+function storySentHtml(v, i) {
+  const x = storySent(v);
+  if (!x) return `<div class="vsent muted">${catalog.some(c => c.id === v.story) ? "Loading the sentence…" : "No example sentence for this word yet."}</div>`;
+  const e = catalog.find(c => c.id === v.story);
+  return `<div class="vsent"><div class="vshy">${esc(x.sg.fr)}</div><div class="muted">${esc(x.sg.en)}</div>
+    <div class="vsbtn"><button class="chip" data-ss="${i}">▶ Play</button><span class="muted" style="margin-left:6px">from ${esc(e ? e.title : x.st.title)}</span></div></div>`;
+}
 function vsHtml(v, i) {
+  if (lang !== "hy") return storySentHtml(v, i);
   const s = vsCur(v);
-  if (!VS.idx) return `<div class="vsent muted">Loading example…</div>`;
-  if (!s) return `<div class="vsent muted">No example sentence for this word yet.</div>`;
+  if (!VS.idx) return VS.loading ? `<div class="vsent muted">Loading example…</div>` : storySentHtml(v, i);
+  if (!s) return storySentHtml(v, i);  // no generated example: the story sentence
   return `<div class="vsent"><div class="vshy">${esc(s[0])}</div><div class="muted">${esc(s[1])}</div>
     <div class="vsbtn"><button class="chip" data-sp="${i}">▶ Play</button><button class="chip" data-sn="${i}">↻ Another</button>` +
     `<button class="chip vflag" data-sf="${i}" aria-label="This sentence sounds wrong">⚑</button></div></div>`;
@@ -1778,9 +1790,13 @@ function renderVocab() {
   $("vocab").innerHTML = list.map((v, i) => `<div class="vrow"><button data-p="${i}">▶</button>` +
     `<span class="vw" data-o="${i}"><b>${esc(shown(v).w)}</b> = ${esc(shown(v).m)}` +
       (shown(v).w.toLowerCase() !== v.w.toLowerCase() ? ` <span class="muted">· ${esc(v.w)}</span>` : "") + `</span>` +
-    (lang === "hy" ? `<button class="vopen" data-o="${i}" aria-label="Example sentence">${VS.open.has(vsKey(v)) ? "▴" : "▾"}</button>` : "") +
+    `<button class="vopen" data-o="${i}" aria-label="Example sentence">${VS.open.has(vsKey(v)) ? "example ▴" : "example ▾"}</button>` +
     `<button data-d="${i}" aria-label="Learned">✓</button></div>` + (VS.open.has(vsKey(v)) ? vsHtml(v, i) : "")).join("");
-  for (const v of list) storyJson(v.story).then(j => { if (storyCache[v.story]) storyCache[v.story].done = j; });
+  for (const v of list) storyJson(v.story).then(j => {
+    const was = storyCache[v.story] && storyCache[v.story].done;
+    if (storyCache[v.story]) storyCache[v.story].done = j;
+    if (!was && j && VS.open.has(vsKey(v))) renderVocab();  // its sentence just arrived
+  });
 }
 $("saveWord").onclick = () => toggleSave();  // not the click event as the word number (broke Save in 0.85–0.91)
 function showWordsPage() {
@@ -1878,6 +1894,13 @@ $("vocab").onclick = e => {
     const k = vsKey(list[+b.dataset.o]);
     VS.open.has(k) ? VS.open.delete(k) : (VS.open.add(k), log("vocab_sentence_open", { w: list[+b.dataset.o].w }));
     return renderVocab();
+  }
+  if (b.dataset.ss) {  // the story sentence: target language, English, target language again
+    vaStop(); const v = list[+b.dataset.ss], x = storySent(v), e = catalog.find(c => c.id === v.story);
+    if (!x) return;
+    const u = `${MEDIA}stories/${v.story}/${x.st.bank.file}?v=${e ? e.version : ""}`;
+    log("vocab_sentence_play", { w: v.w, from: "story" });
+    vaRange(u, x.sg.bank.fr, () => vaRange(u, x.sg.bank.en, () => vaRange(u, x.sg.bank.fr)));
   }
   if (b.dataset.sp) { vaStop(); const v = list[+b.dataset.sp], s = vsCur(v); log("vocab_sentence_play", { w: v.w, hy: s[0] }); vsPlay(s); }
   if (b.dataset.sn) {
