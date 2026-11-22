@@ -200,6 +200,7 @@ body.library main > :not(#libPage), body:not(.library) #libPage { display:none !
 .bar i { display:block; height:100%; background:var(--accent); }
 .shelf-lib { display:block; width:100%; margin-top:12px; padding:12px; border-radius:12px; border:1px dashed var(--line); background:none; color:var(--ink); font:inherit; font-weight:600; cursor:pointer; }
 #libSearch { width:100%; box-sizing:border-box; }
+.onbback { border:none; background:none; color:var(--muted); font:inherit; font-size:15px; padding:4px 0; margin-bottom:6px; cursor:pointer; }
 .tagrow { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
 .tagrow button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:5px 12px; font:inherit; font-size:14px; cursor:pointer; }
 .tagrow button.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
@@ -387,7 +388,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.126";
+const VERSION = "web 0.127";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1526,7 +1527,8 @@ function onbShow() {
   if (ONB.step === 5) html = `<h1>What would you love to listen to?</h1><div class="muted">Optional. ${ASK_LOVE}</div>
     <div id="onbLove"></div><div class="muted" style="margin-top:8px">Nothing comes to mind? Just skip. You can add ideas any time in ⚙ Settings.</div>
     <button class="go sticky" id="onbNext">Skip and start listening</button>`;
-  box.innerHTML = dots + html;
+  // Back on every step after the first (Nazeli 2026-11-22: "if I forgot and want to go back")
+  box.innerHTML = (ONB.step > 0 ? `<button class="onbback" id="onbBack">← Back</button>` : "") + dots + html;
   if (ONB.step === 5) {
     ONB.sendLove = requestBox($("onbLove"), "onboarding", { noSend: true });
     // one button, two names (Saten: nobody should feel they have to fill this in)
@@ -1549,6 +1551,12 @@ function onbShow() {
   if (ONB.step === 2) onbJoke();  // load the joke while they pick a level
   box.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { ONB.mode = b.dataset.m; onbShow(); });
   if (ONB.step === 3) { ONB.toured = true; onbTour(); }
+  if ($("onbBack")) $("onbBack").onclick = () => {
+    if (ONB.step === 3) { VA.el.pause(); clearInterval(VA.timer); }
+    log("onb_back", { from: ONB.step });
+    ONB.step = ONB.step === 5 && ONB.level === "A0" ? 2 : ONB.step - 1;  // A0 skipped the joke and the choice
+    onbShow(); window.scrollTo(0, 0);
+  };
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
     if (ONB.step === 3) { VA.el.pause(); clearInterval(VA.timer); }
