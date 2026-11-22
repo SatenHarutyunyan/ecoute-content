@@ -388,7 +388,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.129";
+const VERSION = "web 0.130";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -2322,6 +2322,9 @@ function micExplain() {
 }
 // remembered "on": the browser needs a tap before it may listen, so start on the first tap anywhere
 function voiceArm() {
+  // Android: the page reloads when the phone wakes, and the "off" may not have reached storage yet, so voice kept
+  // turning itself back on (Saten 2026-11-22): there it only starts from the Voice button; make sure it's off
+  if (ANDROID) { if (!V.on) try { EcouteAndroid.voiceStop(); } catch {} return; }
   if (!store.get("voice", false) || V.on) return;
   if (NATIVE_VOICE) return voiceStart();  // the app may listen without a tap
   voiceUi("tap anywhere to start");
