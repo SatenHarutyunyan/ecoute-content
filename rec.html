@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Écoute · barge-in recording</title>
+<style>
+  :root { --bg:#f6f4ef; --fg:#1f1d1a; --muted:#6b665d; --accent:#2b5bd7; --line:#e3ded4; --card:#fff; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.45 system-ui, sans-serif; padding:20px 16px 40px; }
+  main { max-width:520px; margin:0 auto; display:flex; flex-direction:column; gap:14px; }
+  h1 { font-size:22px; margin:0; }
+  p, li { color:var(--muted); margin:0; }
+  ol { margin:0; padding-left:20px; display:flex; flex-direction:column; gap:6px; }
+  button { font:inherit; border-radius:14px; border:1px solid var(--line); background:var(--card); color:var(--fg); padding:14px; }
+  #start { background:var(--accent); color:#fff; border:none; font-weight:600; }
+  #tap { height:220px; font-size:26px; font-weight:700; background:#fff3e6; border:2px solid #f0a050; touch-action:manipulation; }
+  #tap:active { background:#ffd9a8; }
+  #status { font-weight:600; color:var(--fg); }
+  .row { display:flex; gap:10px; } .row button { flex:1; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Barge-in recording (3½ min)</h1>
+  <ol>
+    <li>Use <b>Chrome</b> on the phone. No earbuds. Phone on the table or in your hand, volume as you'd normally listen.</li>
+    <li>Tap <b>Start</b>, allow the microphone. A French story plays from the speaker.</li>
+    <li><b>While it's talking</b>, say commands (next, pause, repeat, previous, continue…) and <b>tap the big button the moment you start saying one</b>. Every 5–10 s is good.</li>
+    <li>The last 40 s: <b>stay quiet</b> (the page tells you). That measures false alarms.</li>
+    <li>At the end a file downloads (<code>bargein_….wav</code>). Send it to Claude.</li>
+  </ol>
+  <p>Nothing is sent anywhere by this page; the recording only goes to your Downloads.</p>
+  <button id="start">Start</button>
+  <button id="tap" disabled>I'm saying a command — tap!</button>
+  <div class="row"><button id="stop" disabled>Stop early &amp; save</button></div>
+  <div id="status">Ready.</div>
+</main>
+<script>
+// Records 3 channels at 16 kHz: 1 = exactly what the speaker played, 2 = the raw microphone (echo cancelling, noise
+// suppression and auto gain OFF), 3 = tap markers. All from one audio callback, so the channels stay aligned.
+const MEDIA = "https://pub-a587f1a2850044c892fcda4700af3cb8.r2.dev/";
+const STORY = "fr_req_ani_01", TOTAL = 210, QUIET = 40, RATE = 16000;
+const $ = id => document.getElementById(id);
+let ctx, proc, refBuf = [], micBuf = [], taps = [], t0 = 0, done = false, timer;
+
+async function loadStory() {
+  const cat = await fetch("catalog.json?t=" + Date.now()).then(r => r.json());
+  const e = cat.stories.find(s => s.id === STORY);
+  const meta = await fetch(`stories/${STORY}/story.json?v=${e.version}`).then(r => r.json());
+  const data = await fetch(`${MEDIA}stories/${STORY}/bank.m4a?v=${e.version}`).then(r => r.arrayBuffer());
+  const off = new OfflineAudioContext(1, RATE, RATE);  // decode at 16 kHz: a long story stays small in memory
+  const buf = await off.decodeAudioData(data);
+  const from = (meta.bank.silence[0] + meta.bank.silence[1]) / 1000;  // after the intro and its 30 s of silence
+  return { buf, from };
+}
+
+$("start").onclick = async () => {
+  $("start").disabled = true; $("status").textContent = "Loading the story…";
+  try {
+    const mic = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false, channelCount: 1 } });
+    const { buf, from } = await loadStory();
+    ctx = new AudioContext();
+    const src = ctx.createBufferSource(); src.buffer = buf;
+    const micSrc = ctx.createMediaStreamSource(mic);
+    const merge = ctx.createChannelMerger(2);
+    src.connect(ctx.destination); src.connect(merge, 0, 0); micSrc.connect(merge, 0, 1);
+    proc = ctx.createScriptProcessor(4096, 2, 1);
+    const sink = ctx.createGain(); sink.gain.value = 0;
+    merge.connect(proc); proc.connect(sink); sink.connect(ctx.destination);
+    proc.onaudioprocess = ev => {
+      if (done) return;
+      refBuf.push(new Float32Array(ev.inputBuffer.getChannelData(0)));
+      micBuf.push(new Float32Array(ev.inputBuffer.getChannelData(1)));
+    };
+    t0 = ctx.currentTime;
+    // the story plays the whole time; in the last 40 s the person stays silent (that's where false alarms would show)
+    src.start(t0, from); src.stop(t0 + TOTAL + 1);
+    $("tap").disabled = false; $("stop").disabled = false;
+    timer = setInterval(() => {
+      const t = ctx.currentTime - t0;
+      if (t >= TOTAL) return finish();
+      $("status").textContent = t < TOTAL - QUIET
+        ? `Recording… ${Math.floor(t)} s · taps: ${taps.length}. Say commands while it talks.`
+        : `Now STAY QUIET, just let it play… ${Math.ceil(TOTAL - t)} s left`;
+    }, 300);
+  } catch (e) { $("status").textContent = "Couldn't start: " + (e.message || e); $("start").disabled = false; }
+};
+$("tap").onpointerdown = () => { if (ctx) { taps.push(ctx.currentTime - t0); $("tap").textContent = `Tap! (${taps.length})`; navigator.vibrate && navigator.vibrate(30); } };
+$("stop").onclick = () => finish();
+
+function finish() {
+  if (done) return; done = true; clearInterval(timer);
+  try { ctx.close(); } catch {}
+  const ref = cat(refBuf), mic = cat(micBuf), sr = ctx.sampleRate;
+  const n = Math.floor(ref.length * RATE / sr), mark = new Float32Array(n);
+  for (const t of taps) { const i = Math.round(t * RATE); for (let k = 0; k < 160 && i + k < n; k++) mark[i + k] = 0.9; }  // 10 ms pulse
+  const wav = encode([down(ref, sr, n), down(mic, sr, n), mark], RATE);
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([wav], { type: "audio/wav" }));
+  a.download = `bargein_${new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-")}_${taps.length}taps.wav`;
+  document.body.append(a); a.click();
+  $("status").textContent = `Saved (${taps.length} taps, ${Math.round(n / RATE)} s). Send the file in Downloads to Claude. Thank you!`;
+  $("tap").disabled = true; $("stop").disabled = true;
+}
+const cat = list => { const out = new Float32Array(list.reduce((s, a) => s + a.length, 0)); let o = 0; for (const a of list) { out.set(a, o); o += a.length; } return out; };
+function down(x, sr, n) {  // average down to 16 kHz (fine for loudness analysis)
+  const out = new Float32Array(n), r = sr / RATE;
+  for (let i = 0; i < n; i++) { const a = Math.floor(i * r), b = Math.max(a + 1, Math.floor((i + 1) * r)); let s = 0; for (let k = a; k < b && k < x.length; k++) s += x[k]; out[i] = s / (b - a); }
+  return out;
+}
+function encode(chs, rate) {
+  const n = chs[0].length, c = chs.length, buf = new ArrayBuffer(44 + n * c * 2), v = new DataView(buf);
+  const w = (o, s) => [...s].forEach((ch, i) => v.setUint8(o + i, ch.charCodeAt(0)));
+  w(0, "RIFF"); v.setUint32(4, 36 + n * c * 2, true); w(8, "WAVE"); w(12, "fmt "); v.setUint32(16, 16, true);
+  v.setUint16(20, 1, true); v.setUint16(22, c, true); v.setUint32(24, rate, true); v.setUint32(28, rate * c * 2, true);
+  v.setUint16(32, c * 2, true); v.setUint16(34, 16, true); w(36, "data"); v.setUint32(40, n * c * 2, true);
+  let o = 44; for (let i = 0; i < n; i++) for (let k = 0; k < c; k++) { v.setInt16(o, Math.max(-1, Math.min(1, chs[k][i])) * 32767, true); o += 2; }
+  return buf;
+}
+</script>
+</body>
+</html>
