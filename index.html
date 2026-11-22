@@ -384,7 +384,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.121";
+const VERSION = "web 0.122";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -407,7 +407,7 @@ const ICON = {
 document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.dataset.i]);
 const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
-const HELP = "T_SLOW EN T";                    // used once after a "didn't catch it" tap
+const HELP = "T EN T";                    // used once after a "didn't catch it" tap
 const DEFAULT_PATTERN = {};  // every language: T EN T, the same as the onboarding demo (Saten, 2026-11-20); saved choices are kept
 const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
@@ -467,7 +467,7 @@ function furigana(s) {  // the kanji line with each word pair's kana above its k
   });
   return out + esc(s.kanji.slice(pos));
 }
-const KIND = { T: "fr", T_SLOW: "frs", EN: "en", WORDS: "wd" };
+const KIND = { T: "fr", EN: "en", WORDS: "wd" };
 // Lesson mode: the learner moves through each phrase step by step, at their own pace
 const LESSON = ["T", "EN", "WORDS", "EN", "T"];  // the default; each learner can set their own order (Settings, "lesson_<lang>")
 
@@ -529,8 +529,8 @@ const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T E
 const lessonPattern = () => store.get("lesson_" + lang, LESSON.join(" "));
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
-  .map(t => t === CODE() || t === "FR" ? "T" : t === CODE() + "_SLOW" || t === "FR_SLOW" ? "T_SLOW" : t)  // FR: old saved patterns
-  .filter(t => ["T", "T_SLOW", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS (removed) drops out of old patterns
+  .map(t => t === CODE() || t === "FR" ? "T" : t)  // FR: old saved patterns
+  .filter(t => ["T", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS and the slow version (removed 2026-11-22) drop out of old patterns
 const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
 
 // Pauses after each clip (Saten, 2026-11-19): the audio holds only speech, the app adds the breathing room, which is also
@@ -817,7 +817,7 @@ function show() {
   if (lesson && s) {
     const t = lessonTok[step], k = /^W\d/.test(t) ? +t.slice(1) : -1;
     $("dots").innerHTML = steps.map((_, i) => `<i class="${i === step ? "on" : i < step ? "past" : ""}"></i>`).join("");
-    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], T_SLOW: LANGS[lang][0] + " (slow)", EN: "English", WORDS: "Word by word" }[t];
+    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
     if (step === 0) $("en").textContent = "";  // first, just listen
     if (t === "WORDS") $("en").textContent = s.words.map(([w, m]) => `${w} = ${m}`).join("  ·  ");
     if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${wordHTML(s, j)} = ${esc(m)}</b>` : wordHTML(s, j)).join("  ");
@@ -1095,7 +1095,7 @@ function renderMode() {
   if (!story) { $("storyCtl").hidden = m === "lesson"; $("lessonCtl").hidden = $("phraseNav").hidden = m !== "lesson"; }  // right buttons before an episode is open
   document.querySelectorAll("#modes button").forEach(b => b.className = b.dataset.mode === m ? "on" : "");
   $("modeHint").textContent = m === "lesson"
-    ? `Step by step: ${parse(lessonPattern()).map(t => ({ T: LANGS[lang][0], T_SLOW: LANGS[lang][0] + " (slow)", EN: "English", WORDS: "word by word" }[t])).filter(Boolean).join(", ")}. You choose when to move on. Change the order in ⚙ Settings.`
+    ? `Step by step: ${parse(lessonPattern()).map(t => ({ T: LANGS[lang][0], EN: "English", WORDS: "word by word" }[t])).filter(Boolean).join(", ")}. You choose when to move on. Change the order in ⚙ Settings.`
     : "Plays on its own, like an audiobook. Change what you hear in ⚙ Settings.";
 }
 
@@ -1817,7 +1817,7 @@ const lemsLoad = () => LEMS[lang] !== undefined ? Promise.resolve(LEMS[lang]) :
 const lem = v => { const L = LEMS[lang]; const i = L && L.map[v.w + "|" + v.m]; return i == null ? null : L.items[i]; };
 const shown = v => { const b = lem(v); return b ? { w: b[7] ? jPick(b[0], b[7], b[8]) : b[0], m: b[1] } : { w: v.r ? jPick(v.w, ...v.r) : v.w, m: v.m }; };
 const baseKey = v => { const b = shown(v); return b.w + "|" + b.m; };
-const lemUrl = b => `${MEDIA}vocab/${lang}_lem_${String(b[2]).padStart(2, "0")}.m4a?v=${LEMS[lang].banks[b[2]]}`;
+const lemUrl = b => `${MEDIA}vocab/${lang}_lem_${String(b[2]).padStart(2, "0")}.m4a?v=${LEMS[lang].banks[b[2]]}L`;  // L: louder audio (2026-11-22), fetch once more
 function vaPlay(v, then) {  // called inside the tap first: iPhone only lets this element play after a tap
   const b = lem(v);
   if (b) return vaRange(lemUrl(b), [b[3], b[4]], () => vaRange(lemUrl(b), [b[5], b[6]], then));  // base form, then English
@@ -1856,7 +1856,7 @@ function vsLoad() {
 const vsKey = v => v.w + "|" + v.m;
 const vsList = v => (VS.idx && VS.idx.items[vsKey(v)]) || [];
 const vsCur = v => { const l = vsList(v); return l.length ? l[store.get("vs_" + vsKey(v), 0) % l.length] : null; };
-const vsUrl = s => `${MEDIA}vocab/hy_${String(s[2]).padStart(2, "0")}.m4a?v=${VS.idx.banks[s[2]]}`;  // per-bank version: new words don't re-download old banks
+const vsUrl = s => `${MEDIA}vocab/hy_${String(s[2]).padStart(2, "0")}.m4a?v=${VS.idx.banks[s[2]]}L`;  // per-bank version: new words don't re-download old banks
 function vsPlay(s, then) {  // Armenian, English, Armenian again
   const u = vsUrl(s), hy = [s[3], s[4]], en = [s[5], s[6]];
   vaRange(u, hy, () => vaRange(u, en, () => vaRange(u, hy, then)));
