@@ -357,7 +357,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.104";
+const VERSION = "web 0.105";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1618,46 +1618,48 @@ const KNOW = {
 // ---------- 1-minute word check (C19, optional): 30 words from very common to rare, tap the ones you know ----------
 // Tapped: likely known (0.9). Not tapped: likely not (at most 0.3). Gives Adaptive a good start without months of data.
 function wordCheck() {
+  // Smart check (Saten 2026-11-22): ask the words the app is least sure about, pre-marked with what it believes,
+  // so you only tap where it's wrong; a few easy and rare "anchor" words keep it honest.
   const z = KNOW.freq[lang];
-  if (!z) { KNOW.loadFreq(); return toast("One moment, loading the word list… then tap again.", 3000); }
+  if (!z || !KNOW.ready()) { KNOW.loadFreq(); return toast("One moment, loading the word list… then tap again.", 3000); }
   const L = LEMS[lang], kana = {};
   if (L && lang === "ja") L.items.forEach(b => { if (b[7]) kana[b[0]] = jPick(b[0], b[7], b[8]); });
-  const pool = Object.entries(z).filter(([b]) => b.length > 1 && (lang === "ja" || b === b.toLowerCase()) && !/\s/.test(b));  // no names, no phrases
-  // higher levels (or an earlier check): harder words, all start as known, tap the few you DON'T know
-  // (Saten 2026-11-22: tapping nearly all 30 was tiring)
-  const zPrev = store.get("z50_" + lang, null), adv = ["B1", "B2"].includes(store.get("level_" + lang, "")) || (zPrev != null && zPrev <= 4.6);
-  const bands = adv ? [[5, 6], [4.5, 5], [4, 4.5], [3.5, 4], [0, 3.5]] : [[6, 99], [5, 6], [4.5, 5], [4, 4.5], [0, 4]], pick = [];
-  for (const [lo, hi] of bands) {
-    const inBand = pool.filter(([, v]) => v >= lo && v < hi).sort(() => Math.random() - .5);
-    pick.push(...inBand.slice(0, 6).map(([b]) => b));
-  }
-  if (pick.length < 10) return toast("Not enough words in this language yet for a check.", 4000);
-  pick.sort(() => Math.random() - .5);
+  const asked = new Set(store.get("wc_asked_" + lang, []));  // not the same words again next time
+  const pool = Object.entries(z).filter(([b]) => b.length > 1 && (lang === "ja" || b === b.toLowerCase()) && !/\s/.test(b) && !asked.has(b));
+  if (pool.length < 30) return toast("Not enough new words in this language for a check yet.", 4000);
+  const shuffled = pool.sort(() => Math.random() - .5).map(([b, f]) => ({ b, f, p: KNOW.p(b) }));
+  const unsure = [...shuffled].sort((x, y) => Math.abs(x.p - .5) - Math.abs(y.p - .5)).slice(0, 22);
+  const taken = new Set(unsure.map(x => x.b));
+  const easy = shuffled.filter(x => x.f >= 6 && !taken.has(x.b)).slice(0, 4);
+  const rare = shuffled.filter(x => x.f < 3.5 && !taken.has(x.b)).slice(0, 4);
+  const pick = [...unsure, ...easy, ...rare].sort(() => Math.random() - .5);
   const d = document.createElement("div");
   d.id = "micAsk";
-  d.innerHTML = `<div class="micbox"><b>🎯 ${adv ? "Which of these words don't you know?" : "Which of these words do you know?"}</b>
-    <p class="muted">${adv ? "They all start as known (blue). Tap the ones you don't know." : "Tap the ones you know (roughly what they mean). Leave the rest."} About a minute.</p>
-    <div class="wcgrid">${pick.map(b => `<button class="chip${adv ? " on" : ""}" data-b="${esc(b)}">${esc(kana[b] || b)}</button>`).join("")}</div>
+  d.innerHTML = `<div class="micbox"><b>🎯 Which of these words do you know?</b>
+    <p class="muted">Blue = the app thinks you know it. Tap any word where it's wrong (roughly knowing the meaning counts). About a minute.</p>
+    <div class="wcgrid">${pick.map(x => `<button class="chip${x.p >= .5 ? " on" : ""}" data-b="${esc(x.b)}">${esc(kana[x.b] || x.b)}</button>`).join("")}</div>
     <div class="done-row"><button class="big" id="wcDone">Done</button><button class="chip" id="wcNo">Cancel</button></div></div>`;
   document.body.append(d);
   d.querySelectorAll("[data-b]").forEach(c => c.onclick = () => c.classList.toggle("on"));
   $("wcNo").onclick = () => d.remove();
   $("wcDone").onclick = () => {
-    const known = [...d.querySelectorAll("[data-b].on")].map(c => c.dataset.b);
-    pick.forEach(b => KNOW.set(b, known.includes(b) ? p => Math.max(p, .9) : p => Math.min(p, .3)));
-    const byBand = bands.map(([lo, hi]) => pick.filter(b => z[b] >= lo && z[b] < hi && known.includes(b)).length);
-    // where they cross 50 % known, from common to rare: that frequency becomes their starting point for every word
-    const asked = bands.map(([lo, hi]) => pick.filter(b => z[b] >= lo && z[b] < hi).length), mid = adv ? [5.5, 4.75, 4.25, 3.75, 3.0] : [6.5, 5.5, 4.75, 4.25, 3.5];
-    const frac = byBand.map((k, i) => asked[i] ? k / asked[i] : null);
-    let z50 = 3.0;
-    if (adv) z50 = 2.5;  // knew even the rarest band
-    for (let i = 0; i < mid.length; i++) if (frac[i] != null && frac[i] < .5) { z50 = i ? (mid[i] + mid[i - 1]) / 2 : mid[0] + .5; break; }
+    const known = new Set([...d.querySelectorAll("[data-b].on")].map(c => c.dataset.b));
+    const fixed = pick.filter(x => (x.p >= .5) !== known.has(x.b)).length;  // how often the app was wrong
+    pick.forEach(x => KNOW.set(x.b, known.has(x.b) ? p => Math.max(p, .9) : p => Math.min(p, .25)));
+    // their frequency curve from all answers: the 50/50 point that explains them best (same curve as KNOW.prior0)
+    let z50 = 4.5, best = -Infinity;
+    for (let z0 = 2; z0 <= 7.01; z0 += .05) {
+      let ll = 0;
+      for (const x of pick) { const q = 1 / (1 + Math.exp(-1.6 * (x.f - z0))); ll += Math.log(known.has(x.b) ? Math.max(q, 1e-6) : Math.max(1 - q, 1e-6)); }
+      if (ll > best) { best = ll; z50 = Math.round(z0 * 100) / 100; }
+    }
     store.set("z50_" + lang, z50);
+    store.set("wc_asked_" + lang, [...asked, ...pick.map(x => x.b)].slice(-300));
     for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
-    log("word_check", { n: pick.length, known: known.length, by_band: byBand, z50 });
+    log("word_check", { n: pick.length, known: known.size, fixed, z50 });
     store.set("word_check_" + lang, Date.now());
     d.remove();
-    toast(`You know ${known.length} of ${pick.length}. Thanks! The app now has a better idea of which words you know.`, 5000);
+    toast(fixed <= 3 ? `The app guessed ${pick.length - fixed} of ${pick.length} right. Thanks!` : `You corrected ${fixed} of ${pick.length}. Thanks, the app knows you better now.`, 5000);
   };
 }
 $("wordCheckBtn").onclick = wordCheck;
