@@ -200,6 +200,11 @@ body.library main > :not(#libPage), body:not(.library) #libPage { display:none !
 .bar i { display:block; height:100%; background:var(--accent); }
 .shelf-lib { display:block; width:100%; margin-top:12px; padding:12px; border-radius:12px; border:1px dashed var(--line); background:none; color:var(--ink); font:inherit; font-weight:600; cursor:pointer; }
 #libSearch { width:100%; box-sizing:border-box; }
+.tagrow { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.tagrow button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:5px 12px; font:inherit; font-size:14px; cursor:pointer; }
+.tagrow button.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
+.stags { display:block; font-size:13px; color:var(--muted); }
+.known { color:var(--accent); white-space:nowrap; }
 body.settings main > :not(#setPage), body:not(.settings) #setPage { display:none !important; }
 #setPage .sec { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:10px; padding:10px 14px; font-size:16px; }
 .sh { font-size:15px; margin:22px 0 8px; }
@@ -341,7 +346,8 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="backbar"><button class="sec" id="libBack">← Back</button></div>
   <h2>Library</h2>
   <input type="search" id="libSearch" placeholder="Search a title, an author, a series…" autocomplete="off">
-  <div class="presets" id="libLevels" style="margin-top:10px"></div>
+  <div class="tagrow" id="libLevels"></div>
+  <div class="tagrow" id="libTags"></div>
   <div class="presets" id="tabs" style="margin:10px 0">
     <button data-tab="stories">Stories</button><button data-tab="lessons">Lessons</button>
   </div>
@@ -378,7 +384,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.115";
+const VERSION = "web 0.116";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -915,6 +921,25 @@ function goListen(e) {  // open a story from the shelf or the Library and show t
   if (location.hash === "#library") history.replaceState(null, "", location.pathname + location.search), showLibrary();
   openStory(e).then(() => { renderStories(); const card = $("where").closest(".card"); card ? card.scrollIntoView({ behavior: "smooth", block: "start" }) : window.scrollTo(0, 0); });
 }
+// "~N% words you know" (C21 step 2): how much of the story's words (each counted as often as it's heard, names left
+// out) the word-knowledge estimate thinks you know. vocab/<lang>_stories.json from build_freq.py; nothing until it loads.
+const SW = {};
+function loadSW() {
+  const L = lang; if (!L || SW[L] !== undefined) return;
+  SW[L] = null; KNOW.loadFreq();
+  fresh(`vocab/${L}_stories.json`).then(r => r.ok ? r.json() : Promise.reject()).then(j => { SW[L] = j; if (L === lang) renderStories(); })
+    .catch(() => { SW[L] = undefined; });
+}
+function knownPct(s) {
+  try {
+    const w = SW[lang] && SW[lang][s.id]; if (!w || !KNOW.ready()) return null;
+    let n = 0, k = 0; for (const b in w) { n += w[b]; k += w[b] * KNOW.p(b); }
+    return n ? Math.round(20 * k / n) * 5 : null;  // to the nearest 5: it's an estimate
+  } catch { return null; }
+}
+const knownTxt = s => { const k = knownPct(s); return k == null ? "" : ` · <span class="known">~${k}% words you know</span>`; };
+const TAG_NAMES = { "first steps": "🌱 First steps", everyday: "☕ Everyday", classic: "📜 Classics", mystery: "🔍 Mystery", scary: "🕯 Scary", funny: "😄 Funny", love: "💌 Love", teen: "🎒 Teen", family: "🏠 Family", history: "⏳ History", drama: "🎭 Drama", "fairy tale": "🧚 Fairy tale", music: "🎵 Music", future: "🚀 Future", adventure: "🧭 Adventure" };
+const tagName = t => TAG_NAMES[t] || t;
 // Home shows only what to listen to now (Saten 2026-11-22, like audiobook apps): Continue, a few picks, the Library
 function renderShelf() {
   const el = $("shelf"); if (!el || !lang) return;
@@ -930,7 +955,7 @@ function renderShelf() {
   const near = p ? rk(p) : 1;
   mine.filter(c => !c.series || +c.episode === 1).sort((a, b) => Math.abs(rk(a) - near) - Math.abs(rk(b) - near)).forEach(c => picks.length < 3 && add(c, "new for you"));
   const row = (c, why, extra) => `<button class="shelf-row" data-open="${c.id}"><span class="t"><b>${esc(c.title)}</b>` +
-    `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min</span>` +
+    `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
   const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
   el.innerHTML = (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
@@ -951,14 +976,21 @@ function renderStories() {
   const present = LV.filter(l => all.some(s => lvOf(s) === l)), pick = store.get("lib_level_" + lang, "all");
   $("libLevels").innerHTML = ["all", ...present].map(l => `<button data-lv="${l}" class="${l === pick ? "on" : ""}">${l === "all" ? "All levels" : l}</button>`).join("");
   $("libLevels").querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { store.set("lib_level_" + lang, b.dataset.lv); log("library_level", { level: b.dataset.lv }); renderStories(); });
+  loadSW();
   const q = ($("libSearch").value || "").trim().toLowerCase();
-  const hit = s => !q || [s.title, s.title_en, s.author, s.series].some(x => x && x.toLowerCase().includes(q));
-  const base = (tab ? all.filter(s => isLesson(s) === (tab === "lessons")) : all).filter(s => (pick === "all" || lvOf(s) === pick) && hit(s));
+  const hit = s => !q || [s.title, s.title_en, s.author, s.series, ...(s.tags || [])].some(x => x && x.toLowerCase().includes(q));
+  const inTab = (tab ? all.filter(s => isLesson(s) === (tab === "lessons")) : all).filter(s => pick === "all" || lvOf(s) === pick);
+  // tags (web/tags.json): only the ones that exist at this level; one at a time
+  const tagsHere = [...new Set(inTab.flatMap(s => s.tags || []))].sort((a, b) => inTab.filter(s => (s.tags || []).includes(b)).length - inTab.filter(s => (s.tags || []).includes(a)).length);
+  let tg = store.get("lib_tag_" + lang, ""); if (tg && !tagsHere.includes(tg)) tg = "";
+  $("libTags").innerHTML = tagsHere.length > 1 ? tagsHere.map(t => `<button data-tag="${esc(t)}" class="${t === tg ? "on" : ""}">${tagName(t)}</button>`).join("") : "";
+  $("libTags").querySelectorAll("[data-tag]").forEach(b => b.onclick = () => { const t = b.dataset.tag === tg ? "" : b.dataset.tag; store.set("lib_tag_" + lang, t); log("library_tag", { tag: t }); renderStories(); });
+  const base = inTab.filter(s => (!tg || (s.tags || []).includes(tg)) && hit(s));
   const fin = base.filter(isFinished), list = base.filter(s => !isFinished(s));
   $("finHead").hidden = !fin.length;
   $("finished").innerHTML = fin.map(s => `<button class="shelf-row" data-open="${s.id}"><span class="t"><b>${esc(s.title)}</b><span class="muted">${s.series ? esc(s.series) + " · " : ""}${s.level} · ✓ finished</span></span><span class="play">↻</span></button>`).join("");
   $("finished").querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("library_relisten", {}, e.id); goListen(e); });
-  $("stories").innerHTML = list.length ? "" : `<div class="muted">${q || pick !== "all" ? "Nothing matches. Try another level or search." : "No stories in this language yet."}</div>`;
+  $("stories").innerHTML = list.length ? "" : `<div class="muted">${q || tg || pick !== "all" ? "Nothing matches. Try another level, tag or search." : "No stories in this language yet."}</div>`;
   // one foldable group per series; open/closed is remembered, and at first only the group being worked on is open
   const groups = new Map();
   // each story once (Saten: some appeared in several places): requested ones in their own group, first
@@ -991,10 +1023,11 @@ function renderStories() {
       const ep = s.series ? `Episode ${s.episode} · ` : `${s.author} · `;
       el.innerHTML = (theme() === "nare" ? `<span class="cover">${esc(COVERS[s.id] || "📖")}</span>` : "") + `<div class="sinfo"><b></b><span class="muted"></span></div>` + (marksOn() ? `<button class="mark" aria-label="Mark: current, done, none"></button>` : "");
       el.querySelector("b").textContent = s.series && s.title.startsWith(s.series + ": ") ? s.title.slice(s.series.length + 2) : s.title;
-      if (forMe(s)) el.querySelector("b").insertAdjacentHTML("beforeend", '<span class="foryou">✨ for you</span>');
       if (s.title_romaji && jScript() === "kana_r") el.querySelector("b").insertAdjacentHTML("beforeend", ` <small class="rom">${esc(s.title_romaji)}</small>`);
       if (s.title_en) el.querySelector("b").insertAdjacentHTML("afterend", `<span class="ten">${esc(s.title_en)}</span>`);  // web/titles_en.json
       el.querySelector(".sinfo .muted").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
+      el.querySelector(".sinfo .muted").insertAdjacentHTML("beforeend", knownTxt(s));
+      if ((s.tags || []).length) el.querySelector(".sinfo").insertAdjacentHTML("beforeend", `<span class="stags">${s.tags.map(tagName).join(" · ")}</span>`);
       const mb = el.querySelector(".mark");
       if (mb) {
       mb.textContent = MARKS[getMark(s.id)]; mb.classList.toggle("empty", !getMark(s.id));
@@ -1659,6 +1692,7 @@ const KNOW = {
     const L = lang;
     this.freq[L] = null;
     const arrived = this.onData = () => {  // the queue was decided without the word data: decide again
+      if (L === lang && SW[L] && this.ready()) setTimeout(renderStories);  // the "% words you know" badges can show now
       if (L !== lang || !this.ready() || !story || !adaptiveOn()) return;
       for (const k in KIND_AT) delete KIND_AT[k];
       NQ.stale = true; if (seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); show(); }
@@ -2259,7 +2293,8 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 
 // English titles (Saten, 2026-11-20): web/titles_en.json {id: title}, kept apart so the catalog doesn't need republishing
 const TITLES_EN = fresh("titles_en.json").then(r => r.json()).catch(() => ({}));
-(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(async c => { catalog = c.stories; const ten = await TITLES_EN; catalog.forEach(s => { s.title_en = ten[s.id]; jaScript(s); }); renderAll(); if (needsOnboarding()) onbShow(); })
+const TAGS = fresh("tags.json").then(r => r.json()).catch(() => ({}));  // web/tags.json {id: [tag]} (C21 step 2)
+(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(async c => { catalog = c.stories; const ten = await TITLES_EN, tags = await TAGS; catalog.forEach(s => { s.title_en = ten[s.id]; s.tags = tags[s.id] || []; jaScript(s); }); renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
     const err = String(e && (e.stack || e.message) || e).slice(0, 300);
     log("boot_error", { err, n: catalog.length }); flush(true);
