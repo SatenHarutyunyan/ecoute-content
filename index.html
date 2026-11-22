@@ -388,7 +388,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.128";
+const VERSION = "web 0.129";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -625,6 +625,7 @@ function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this
 function nativeEvents() {
   const old = d => d.q !== undefined && d.q !== NQ.q;  // an event from a queue we already replaced
   NATIVE_PLAYER.addListener("item", d => {
+    NQ.lastItem = Date.now();  // proof that the story is playing, whatever the play/pause state says
     if (!story || old(d)) return;
     if (d.seg !== seg) {  // the queue moved on to the next phrase (maybe with the screen locked)
       const refill = !lessonMode() && d.step === 0 && (NQ.stale || (d.seg >= NQ.upTo - 3 && NQ.upTo < story.segments.length - 1));
@@ -641,6 +642,7 @@ function nativeEvents() {
     show();
   });
   NATIVE_PLAYER.addListener("ended", d => {
+    log("native_ended", { seg, upTo: NQ.upTo, q: (d || {}).q, cur: NQ.q, lesson: lessonMode() });  // diagnosis: stops after each phrase (Saten 2026-11-22)
     if (!story || old(d || {})) return;
     if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
     if (NQ.upTo < story.segments.length - 1) { seg = NQ.upTo + 1; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // queue was cut short
@@ -648,6 +650,7 @@ function nativeEvents() {
   });
   NATIVE_PLAYER.addListener("state", d => {
     NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now();
+    if (!NQ.playing && story) log("native_paused", { seg, step, upTo: NQ.upTo, sinceItem: Date.now() - (NQ.lastItem || 0) });
     if (NQ.playing && !heardAny) { heardAny = true; lessonButton(); }
   });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
@@ -2338,6 +2341,9 @@ window.addEventListener("pagehide", () => { if (V.on && !NATIVE_VOICE) voiceStop
 // iPhone keeps the page for up to 10 min (GitHub's cache header): look for a newer version on every open
 async function checkUpdate() {
   if (!storyPaused() || PT.running) return;  // never interrupt listening or the level test
+  // the native player's paused state can be stale after the screen was off: a phrase that started in the last
+  // 2 minutes means it's playing (Saten 2026-11-22: the story stopped twice while web updates went out)
+  if (Date.now() - (NQ.lastItem || 0) < 120000) return;
   try {
     const t = await (await fresh("index.html?check=" + Date.now())).text();
     const v = (t.match(/const VERSION = "([^"]+)"/) || [])[1];
