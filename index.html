@@ -315,6 +315,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <h3 class="sh">Controls</h3>
   <label class="opt"><input type="checkbox" id="tapWords"><span>Tap a word in the sentence to see its translation (and save it)</span></label>
   <label class="opt" id="volKeysRow" style="margin-top:10px" hidden><input type="checkbox" id="volKeys"><span>Volume buttons move through phrases: up = next, down = hear it again (Android app). Off: they change the volume.</span></label>
+  <label class="opt" id="echoRow" style="margin-top:10px" hidden><input type="checkbox" id="echoOn"><span>Voice commands while the story talks (on the speaker the sound is a little less clear; off = best sound, commands only in the pauses; earbuds always sound best)</span></label>
   <p id="classicRow" hidden style="margin-top:10px"><a href="#" class="muted" id="classicLink">Classic screens (the old Android app, for a few weeks)</a></p>
   <h3 class="sh">Listening pattern</h3>
   <label class="opt"><input type="checkbox" id="adaptive"><span id="adaptiveText"></span></label>
@@ -357,7 +358,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.105";
+const VERSION = "web 0.106";
 // Patterns are stored with T = the language you learn; the user sees and types its code (FR, HY).
 const PRESETS = { "Standard": "T EN T PAUSE" };  // presets removed from the page 2026-11-16 (field + short help instead)
 const SVG = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
@@ -1228,6 +1229,16 @@ $("adaptive").onchange = e => {
   store.set("adaptive_" + lang, e.target.checked); log("adaptive", { on: e.target.checked }); renderPattern();
   if (story && seg >= 0 && !lessonMode()) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; show(); }
 };
+// iPhone app (build 4+): commands during the story need Apple's echo cancelling, which makes the speaker sound a
+// little less clear (build 4 test): the learner chooses
+setTimeout(() => { if (NATIVE_VOICE && !ANDROID && NATIVE_PLAYER) {  // after the bridges below are defined
+  $("echoRow").hidden = false;
+  $("echoOn").checked = store.get("voice_echo", true);
+  $("echoOn").onchange = e => {
+    store.set("voice_echo", e.target.checked); log("voice_echo", { on: e.target.checked });
+    if (V.on) { voiceStop(false); setTimeout(voiceStart, 300); }  // restart listening with the new setting
+  };
+} });
 // Android app: the old native screens stay reachable for a few weeks (0.27)
 if (window.EcouteAndroid && EcouteAndroid.openClassic) {
   $("classicRow").hidden = false;
@@ -2068,7 +2079,7 @@ async function voiceStartNative() {
       log("voice_state", e);
       if (e.state === "error" && V.on) { voiceStop(false); $("voiceHint").textContent = "Voice commands stopped: " + (e.error || e.reason || "error"); }
     });
-    const r = await NATIVE_VOICE.start();
+    const r = await NATIVE_VOICE.start({ echo: store.get("voice_echo", true) });  // iPhone: echo cancelling on the speaker
     if (!V.on) return NATIVE_VOICE.stop();
     voiceUi("on");
     $("voiceHint").textContent = "Listening, also with the screen locked. Say: previous · repeat · next · pause · continue.";
