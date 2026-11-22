@@ -387,7 +387,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.124";
+const VERSION = "web 0.125";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1619,7 +1619,9 @@ function toast(msg, ms = 7000) {
   clearTimeout(t.timer); t.timer = setTimeout(() => t.classList.remove("on"), ms);
 }
 // stories written from someone's request carry `for` (names) and `request` (what they asked) in the catalog
-const forMe = s => (s.for || []).some(n => n.toLowerCase() === store.get("name", "").trim().toLowerCase());
+// "# for: Nare" matches the name; "# for: @37a88412" matches one phone (two people called Ani, 2026-11-22)
+const forMe = s => (s.for || []).some(n => n[0] === "@" ? String(device).startsWith(n.slice(1))
+  : n.toLowerCase() === store.get("name", "").trim().toLowerCase());
 function renderForYou() {
   const fresh = catalog.filter(s => forMe(s) && !store.get("seen_for_" + s.id, false));
   const el = $("forYou");
