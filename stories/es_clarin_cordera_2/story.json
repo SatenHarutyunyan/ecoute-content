@@ -1,0 +1,4148 @@
+{
+ "id": "es_clarin_cordera_2",
+ "lang": "es",
+ "title": "¡Adiós, Cordera! (2)",
+ "author": "Adapted from Leopoldo Alas \"Clarín\" (1892)",
+ "level": "A2",
+ "series": "¡Adiós, Cordera!",
+ "episode": "2",
+ "note": "Antón could not sell his cow at the market, but he still owes money to the landlord. Next to the twins' meadow runs the train, the tren, and the train always takes something away.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20490,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Antón de Chinta era pobre y debía dinero.",
+   "en": "Antón de Chinta was poor and owed money.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Antón de Chinta",
+     "Antón de Chinta"
+    ],
+    [
+     "era",
+     "was"
+    ],
+    [
+     "pobre",
+     "poor"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "debía",
+     "owed"
+    ],
+    [
+     "dinero",
+     "money"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "en": 3250,
+    "wd": 17730
+   },
+   "bank": {
+    "fr": [
+     51690,
+     3390
+    ],
+    "en": [
+     55480,
+     3250
+    ],
+    "wd": [
+     59130,
+     17730
+    ],
+    "wp": [
+     [
+      59130,
+      3470
+     ],
+     [
+      63000,
+      2150
+     ],
+     [
+      65550,
+      2220
+     ],
+     [
+      68170,
+      2360
+     ],
+     [
+      70930,
+      2370
+     ],
+     [
+      73700,
+      2309
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sus hijos, Rosa y Pinín, tenían miedo por la Cordera.",
+   "en": "His children, Rosa and Pinín, were afraid for la Cordera.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sus hijos",
+     "his children"
+    ],
+    [
+     "Rosa",
+     "Rosa"
+    ],
+    [
+     "Pinín",
+     "Pinín"
+    ],
+    [
+     "tenían miedo",
+     "were afraid"
+    ],
+    [
+     "por",
+     "for"
+    ],
+    [
+     "la Cordera",
+     "la Cordera (the cow's name: \"the little lamb\")"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "en": 5010,
+    "wd": 20700
+   },
+   "bank": {
+    "fr": [
+     77260,
+     4380
+    ],
+    "en": [
+     82040,
+     5010
+    ],
+    "wd": [
+     87450,
+     20700
+    ],
+    "wp": [
+     [
+      87450,
+      2900
+     ],
+     [
+      90750,
+      2470
+     ],
+     [
+      93620,
+      2260
+     ],
+     [
+      96280,
+      2970
+     ],
+     [
+      99650,
+      2140
+     ],
+     [
+      102190,
+      5110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un día llegó el mayordomo del dueño.",
+   "en": "One day the landlord's steward arrived.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "mayordomo",
+     "en": "steward, landlord's manager"
+    }
+   ],
+   "words": [
+    [
+     "Un día",
+     "one day"
+    ],
+    [
+     "llegó",
+     "arrived"
+    ],
+    [
+     "el mayordomo",
+     "the steward"
+    ],
+    [
+     "del dueño",
+     "of the landlord"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "en": 2780,
+    "gl": 5070,
+    "wd": 12840
+   },
+   "bank": {
+    "fr": [
+     108550,
+     3110
+    ],
+    "en": [
+     112060,
+     2780
+    ],
+    "gl": [
+     115240,
+     5070
+    ],
+    "wd": [
+     120710,
+     12840
+    ],
+    "wp": [
+     [
+      120710,
+      2530
+     ],
+     [
+      123640,
+      2430
+     ],
+     [
+      126470,
+      2930
+     ],
+     [
+      129800,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El mayordomo era un hombre duro con los pobres.",
+   "en": "The steward was a man who was hard on the poor.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "era",
+     "was"
+    ],
+    [
+     "un hombre",
+     "a man"
+    ],
+    [
+     "duro",
+     "hard"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "los pobres",
+     "the poor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "en": 2950,
+    "wd": 14270
+   },
+   "bank": {
+    "fr": [
+     133950,
+     3690
+    ],
+    "en": [
+     138040,
+     2950
+    ],
+    "wd": [
+     141390,
+     14270
+    ],
+    "wp": [
+     [
+      141390,
+      2150
+     ],
+     [
+      143940,
+      2560
+     ],
+     [
+      146900,
+      2290
+     ],
+     [
+      149590,
+      2020
+     ],
+     [
+      152010,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Si no pagas, te echamos de la casa», dijo el mayordomo.",
+   "en": "\"If you don't pay, we'll throw you out of the house,\" said the steward.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "te echamos",
+     "en": "we'll throw you out"
+    }
+   ],
+   "words": [
+    [
+     "Si",
+     "if"
+    ],
+    [
+     "no pagas",
+     "you don't pay"
+    ],
+    [
+     "te echamos",
+     "we'll throw you out"
+    ],
+    [
+     "de la casa",
+     "of the house"
+    ],
+    [
+     "dijo",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "gl": "audio/s005_gl.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "en": 4380,
+    "gl": 4150,
+    "wd": 15780
+   },
+   "bank": {
+    "fr": [
+     156060,
+     4260
+    ],
+    "en": [
+     160720,
+     4380
+    ],
+    "gl": [
+     165500,
+     4150
+    ],
+    "wd": [
+     170050,
+     15780
+    ],
+    "wp": [
+     [
+      170050,
+      2050
+     ],
+     [
+      172500,
+      2970
+     ],
+     [
+      175870,
+      3110
+     ],
+     [
+      179380,
+      2920
+     ],
+     [
+      182700,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Antón se puso pálido. Ya no podía esperar más.",
+   "en": "Antón went pale. He couldn't wait any longer.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "se puso pálido",
+     "went pale"
+    ],
+    [
+     "Ya no podía",
+     "he could no longer"
+    ],
+    [
+     "esperar",
+     "wait"
+    ],
+    [
+     "más",
+     "longer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5130,
+    "en": 3580,
+    "wd": 13040
+   },
+   "bank": {
+    "fr": [
+     186230,
+     5130
+    ],
+    "en": [
+     191760,
+     3580
+    ],
+    "wd": [
+     195740,
+     13040
+    ],
+    "wp": [
+     [
+      195740,
+      3030
+     ],
+     [
+      199170,
+      3210
+     ],
+     [
+      202780,
+      2370
+     ],
+     [
+      205550,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El sábado siguiente, Pinín fue al mercado con su padre.",
+   "en": "The next Saturday, Pinín went to the market with his father.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "El sábado siguiente",
+     "the next Saturday"
+    ],
+    [
+     "fue",
+     "went"
+    ],
+    [
+     "al mercado",
+     "to the market"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "su padre",
+     "his father"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3960,
+    "en": 3760,
+    "wd": 15920
+   },
+   "bank": {
+    "fr": [
+     209180,
+     3960
+    ],
+    "en": [
+     213540,
+     3760
+    ],
+    "wd": [
+     217700,
+     15920
+    ],
+    "wp": [
+     [
+      217700,
+      3660
+     ],
+     [
+      221759,
+      2210
+     ],
+     [
+      224370,
+      2850
+     ],
+     [
+      227620,
+      2020
+     ],
+     [
+      230040,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un comprador de Castilla compró la Cordera por su justo precio.",
+   "en": "A buyer from Castile bought la Cordera for a fair price.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "comprador",
+     "en": "buyer"
+    }
+   ],
+   "words": [
+    [
+     "Un comprador",
+     "a buyer"
+    ],
+    [
+     "de Castilla",
+     "from Castile"
+    ],
+    [
+     "compró",
+     "bought"
+    ],
+    [
+     "por",
+     "for"
+    ],
+    [
+     "su justo precio",
+     "a fair price"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "en": 3990,
+    "gl": 3420,
+    "wd": 16190
+   },
+   "bank": {
+    "fr": [
+     234020,
+     4530
+    ],
+    "en": [
+     238950,
+     3990
+    ],
+    "gl": [
+     243340,
+     3420
+    ],
+    "wd": [
+     247160,
+     16190
+    ],
+    "wp": [
+     [
+      247160,
+      2840
+     ],
+     [
+      250400,
+      3070
+     ],
+     [
+      253870,
+      2290
+     ],
+     [
+      256560,
+      2140
+     ],
+     [
+      259100,
+      3400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le hicieron una marca en la piel. Ya no era suya.",
+   "en": "They put a mark on her hide. She was no longer theirs.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le hicieron",
+     "they put on her"
+    ],
+    [
+     "una marca",
+     "a mark"
+    ],
+    [
+     "la piel",
+     "the hide"
+    ],
+    [
+     "Ya no era",
+     "was no longer"
+    ],
+    [
+     "suya",
+     "theirs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4850,
+    "en": 3500,
+    "wd": 16000
+   },
+   "bank": {
+    "fr": [
+     263750,
+     4850
+    ],
+    "en": [
+     269000,
+     3500
+    ],
+    "wd": [
+     272900,
+     16000
+    ],
+    "wp": [
+     [
+      272900,
+      2860
+     ],
+     [
+      276160,
+      2710
+     ],
+     [
+      279270,
+      2530
+     ],
+     [
+      282200,
+      3010
+     ],
+     [
+      285610,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La Cordera volvió a casa, vendida, tocando tristemente la esquila.",
+   "en": "La Cordera came back home, sold, ringing her cowbell sadly.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "esquila",
+     "en": "cowbell"
+    }
+   ],
+   "words": [
+    [
+     "volvió a casa",
+     "came back home"
+    ],
+    [
+     "vendida",
+     "sold"
+    ],
+    [
+     "tocando",
+     "ringing"
+    ],
+    [
+     "tristemente",
+     "sadly"
+    ],
+    [
+     "la esquila",
+     "the cowbell"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 4930,
+    "gl": 3480,
+    "wd": 15980
+   },
+   "bank": {
+    "fr": [
+     289300,
+     5040
+    ],
+    "en": [
+     294740,
+     4930
+    ],
+    "gl": [
+     300070,
+     3480
+    ],
+    "wd": [
+     303950,
+     15980
+    ],
+    "wp": [
+     [
+      303950,
+      3110
+     ],
+     [
+      307460,
+      2490
+     ],
+     [
+      310350,
+      2410
+     ],
+     [
+      313160,
+      2790
+     ],
+     [
+      316350,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa abrazó la cabeza de la Cordera, llorando.",
+   "en": "Rosa hugged la Cordera's head, crying.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "abrazó",
+     "hugged"
+    ],
+    [
+     "la cabeza",
+     "the head"
+    ],
+    [
+     "llorando",
+     "crying"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3860,
+    "en": 3300,
+    "wd": 9200
+   },
+   "bank": {
+    "fr": [
+     320330,
+     3860
+    ],
+    "en": [
+     324590,
+     3300
+    ],
+    "wd": [
+     328290,
+     9200
+    ],
+    "wp": [
+     [
+      328290,
+      2380
+     ],
+     [
+      331070,
+      2660
+     ],
+     [
+      334130,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La vaca bajó la cabeza, tranquila y paciente.",
+   "en": "The cow lowered her head, calm and patient.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La vaca",
+     "the cow"
+    ],
+    [
+     "bajó",
+     "lowered"
+    ],
+    [
+     "tranquila",
+     "calm"
+    ],
+    [
+     "paciente",
+     "patient"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "en": 3140,
+    "wd": 11930
+   },
+   "bank": {
+    "fr": [
+     337890,
+     3570
+    ],
+    "en": [
+     341860,
+     3140
+    ],
+    "wd": [
+     345400,
+     11930
+    ],
+    "wp": [
+     [
+      345400,
+      2510
+     ],
+     [
+      348310,
+      2350
+     ],
+     [
+      351060,
+      2460
+     ],
+     [
+      353920,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Antón pensaba: «Es una vaca, sí. Pero mis hijos no tienen otra madre.»",
+   "en": "Antón thought: \"She's a cow, yes. But my children have no other mother.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "pensaba",
+     "thought"
+    ],
+    [
+     "Es",
+     "she is"
+    ],
+    [
+     "una vaca",
+     "a cow"
+    ],
+    [
+     "sí",
+     "yes"
+    ],
+    [
+     "Pero",
+     "but"
+    ],
+    [
+     "mis hijos",
+     "my children"
+    ],
+    [
+     "no tienen",
+     "have no"
+    ],
+    [
+     "otra madre",
+     "other mother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 6310,
+    "en": 5180,
+    "wd": 23710
+   },
+   "bank": {
+    "fr": [
+     357730,
+     6310
+    ],
+    "en": [
+     364440,
+     5180
+    ],
+    "wd": [
+     370020,
+     23710
+    ],
+    "wp": [
+     [
+      370020,
+      2410
+     ],
+     [
+      372830,
+      2350
+     ],
+     [
+      375580,
+      2570
+     ],
+     [
+      378550,
+      2270
+     ],
+     [
+      381220,
+      2010
+     ],
+     [
+      383630,
+      2940
+     ],
+     [
+      386970,
+      2730
+     ],
+     [
+      390100,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los últimos días en el prado fueron muy tristes.",
+   "en": "The last days in the meadow were very sad.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Los últimos días",
+     "the last days"
+    ],
+    [
+     "el prado",
+     "the meadow"
+    ],
+    [
+     "fueron",
+     "were"
+    ],
+    [
+     "muy tristes",
+     "very sad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3830,
+    "en": 2940,
+    "wd": 13640
+   },
+   "bank": {
+    "fr": [
+     394130,
+     3830
+    ],
+    "en": [
+     398360,
+     2940
+    ],
+    "wd": [
+     401700,
+     13640
+    ],
+    "wp": [
+     [
+      401700,
+      3600
+     ],
+     [
+      405700,
+      2530
+     ],
+     [
+      408630,
+      2290
+     ],
+     [
+      411320,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La Cordera comía y descansaba como siempre. No sabía nada.",
+   "en": "La Cordera ate and rested as always. She knew nothing.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "comía",
+     "ate"
+    ],
+    [
+     "descansaba",
+     "rested"
+    ],
+    [
+     "como siempre",
+     "as always"
+    ],
+    [
+     "No sabía nada",
+     "she knew nothing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "en": 4190,
+    "wd": 13220
+   },
+   "bank": {
+    "fr": [
+     415740,
+     5630
+    ],
+    "en": [
+     421770,
+     4190
+    ],
+    "wd": [
+     426360,
+     13220
+    ],
+    "wp": [
+     [
+      426360,
+      2230
+     ],
+     [
+      428990,
+      2760
+     ],
+     [
+      432150,
+      2890
+     ],
+     [
+      435440,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa y Pinín miraban el tren y los alambres con odio.",
+   "en": "Rosa and Pinín looked at the train and the wires with hatred.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "alambres",
+     "en": "wires"
+    }
+   ],
+   "words": [
+    [
+     "miraban",
+     "looked at"
+    ],
+    [
+     "el tren",
+     "the train"
+    ],
+    [
+     "los alambres",
+     "the wires"
+    ],
+    [
+     "con odio",
+     "with hatred"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4110,
+    "en": 4110,
+    "gl": 3710,
+    "wd": 12910
+   },
+   "bank": {
+    "fr": [
+     439980,
+     4110
+    ],
+    "en": [
+     444490,
+     4110
+    ],
+    "gl": [
+     449000,
+     3710
+    ],
+    "wd": [
+     453110,
+     12910
+    ],
+    "wp": [
+     [
+      453110,
+      2520
+     ],
+     [
+      456030,
+      2540
+     ],
+     [
+      458970,
+      3110
+     ],
+     [
+      462480,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ese mundo desconocido se llevaba a su Cordera.",
+   "en": "That unknown world was taking their Cordera away.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ese mundo",
+     "that world"
+    ],
+    [
+     "desconocido",
+     "unknown"
+    ],
+    [
+     "se llevaba",
+     "was taking away"
+    ],
+    [
+     "su",
+     "their"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3710,
+    "en": 3360,
+    "wd": 12970
+   },
+   "bank": {
+    "fr": [
+     466420,
+     3710
+    ],
+    "en": [
+     470530,
+     3360
+    ],
+    "wd": [
+     474290,
+     12970
+    ],
+    "wp": [
+     [
+      474290,
+      2720
+     ],
+     [
+      477410,
+      2880
+     ],
+     [
+      480690,
+      3110
+     ],
+     [
+      484200,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El viernes por la tarde, llegó el hombre del comprador.",
+   "en": "On Friday evening, the buyer's man arrived.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "El viernes",
+     "on Friday"
+    ],
+    [
+     "por la tarde",
+     "in the evening"
+    ],
+    [
+     "llegó",
+     "arrived"
+    ],
+    [
+     "el hombre",
+     "the man"
+    ],
+    [
+     "del comprador",
+     "of the buyer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3950,
+    "en": 3130,
+    "wd": 16149
+   },
+   "bank": {
+    "fr": [
+     487660,
+     3950
+    ],
+    "en": [
+     492010,
+     3130
+    ],
+    "wd": [
+     495540,
+     16149
+    ],
+    "wp": [
+     [
+      495540,
+      2890
+     ],
+     [
+      498830,
+      2860
+     ],
+     [
+      502090,
+      2430
+     ],
+     [
+      504920,
+      2520
+     ],
+     [
+      507840,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El hombre pagó, y Antón bebió vino con él.",
+   "en": "The man paid, and Antón drank wine with him.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "pagó",
+     "paid"
+    ],
+    [
+     "bebió",
+     "drank"
+    ],
+    [
+     "vino",
+     "wine"
+    ],
+    [
+     "con él",
+     "with him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3420,
+    "en": 3400,
+    "wd": 11260
+   },
+   "bank": {
+    "fr": [
+     512090,
+     3420
+    ],
+    "en": [
+     515909,
+     3400
+    ],
+    "wd": [
+     519710,
+     11260
+    ],
+    "wp": [
+     [
+      519710,
+      2220
+     ],
+     [
+      522330,
+      2380
+     ],
+     [
+      525110,
+      2290
+     ],
+     [
+      527800,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Antón hablaba mucho de la vaca.",
+   "en": "Antón talked a lot about the cow.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "hablaba",
+     "talked"
+    ],
+    [
+     "mucho",
+     "a lot"
+    ],
+    [
+     "de",
+     "about"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "en": 2480,
+    "wd": 8750
+   },
+   "bank": {
+    "fr": [
+     531370,
+     2770
+    ],
+    "en": [
+     534540,
+     2480
+    ],
+    "wd": [
+     537420,
+     8750
+    ],
+    "wp": [
+     [
+      537420,
+      2410
+     ],
+     [
+      540230,
+      2470
+     ],
+     [
+      543100,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«Da mucha leche. Es fuerte y noble», decía Antón.",
+   "en": "\"She gives a lot of milk. She's strong and gentle,\" Antón said.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Da",
+     "she gives"
+    ],
+    [
+     "mucha leche",
+     "a lot of milk"
+    ],
+    [
+     "Es",
+     "she is"
+    ],
+    [
+     "fuerte",
+     "strong"
+    ],
+    [
+     "noble",
+     "gentle"
+    ],
+    [
+     "decía",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5050,
+    "en": 4720,
+    "wd": 17880
+   },
+   "bank": {
+    "fr": [
+     546570,
+     5050
+    ],
+    "en": [
+     552020,
+     4720
+    ],
+    "wd": [
+     557140,
+     17880
+    ],
+    "wp": [
+     [
+      557140,
+      2400
+     ],
+     [
+      559940,
+      2990
+     ],
+     [
+      563330,
+      2350
+     ],
+     [
+      566080,
+      2490
+     ],
+     [
+      568970,
+      2400
+     ],
+     [
+      571770,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El otro hombre sonreía. Pronto la vaca iba a ser carne.",
+   "en": "The other man smiled. Soon the cow would be meat.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "El otro hombre",
+     "the other man"
+    ],
+    [
+     "sonreía",
+     "smiled"
+    ],
+    [
+     "Pronto",
+     "soon"
+    ],
+    [
+     "iba a ser",
+     "would be"
+    ],
+    [
+     "carne",
+     "meat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5400,
+    "en": 3500,
+    "wd": 15390
+   },
+   "bank": {
+    "fr": [
+     575420,
+     5400
+    ],
+    "en": [
+     581220,
+     3500
+    ],
+    "wd": [
+     585120,
+     15390
+    ],
+    "wp": [
+     [
+      585120,
+      2990
+     ],
+     [
+      588510,
+      2760
+     ],
+     [
+      591670,
+      2360
+     ],
+     [
+      594430,
+      2580
+     ],
+     [
+      597410,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Antón no quería pensar en eso.",
+   "en": "Antón didn't want to think about that.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "no quería",
+     "didn't want"
+    ],
+    [
+     "pensar en",
+     "to think about"
+    ],
+    [
+     "eso",
+     "that"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 2950,
+    "en": 2450,
+    "wd": 9370
+   },
+   "bank": {
+    "fr": [
+     600910,
+     2950
+    ],
+    "en": [
+     604260,
+     2450
+    ],
+    "wd": [
+     607110,
+     9370
+    ],
+    "wp": [
+     [
+      607110,
+      2720
+     ],
+     [
+      610230,
+      2810
+     ],
+     [
+      613440,
+      2190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los niños abrazaron y besaron a la Cordera. No podían separarse.",
+   "en": "The children hugged and kissed la Cordera. They couldn't let go.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Los niños",
+     "the children"
+    ],
+    [
+     "abrazaron",
+     "hugged"
+    ],
+    [
+     "besaron",
+     "kissed"
+    ],
+    [
+     "No podían",
+     "they couldn't"
+    ],
+    [
+     "separarse",
+     "let go"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 5990,
+    "en": 4310,
+    "wd": 15890
+   },
+   "bank": {
+    "fr": [
+     616880,
+     5990
+    ],
+    "en": [
+     623270,
+     4310
+    ],
+    "wd": [
+     627980,
+     15890
+    ],
+    "wp": [
+     [
+      627980,
+      2950
+     ],
+     [
+      631330,
+      2540
+     ],
+     [
+      634270,
+      2510
+     ],
+     [
+      637180,
+      2740
+     ],
+     [
+      640320,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Los gemelos siguieron a la vaca por el camino oscuro.",
+   "en": "The twins followed the cow along the dark lane.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Los gemelos",
+     "the twins"
+    ],
+    [
+     "siguieron",
+     "followed"
+    ],
+    [
+     "por",
+     "along"
+    ],
+    [
+     "el camino",
+     "the lane"
+    ],
+    [
+     "oscuro",
+     "dark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3830,
+    "en": 3260,
+    "wd": 15370
+   },
+   "bank": {
+    "fr": [
+     644270,
+     3830
+    ],
+    "en": [
+     648500,
+     3260
+    ],
+    "wd": [
+     652160,
+     15370
+    ],
+    "wp": [
+     [
+      652160,
+      3020
+     ],
+     [
+      655580,
+      2600
+     ],
+     [
+      658580,
+      2240
+     ],
+     [
+      661220,
+      2620
+     ],
+     [
+      664240,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Al final, Rosa y Pinín tuvieron que dejarla ir.",
+   "en": "In the end, Rosa and Pinín had to let her go.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Al final",
+     "in the end"
+    ],
+    [
+     "tuvieron que",
+     "had to"
+    ],
+    [
+     "dejarla ir",
+     "let her go"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "en": 3580,
+    "wd": 9840
+   },
+   "bank": {
+    "fr": [
+     667930,
+     3750
+    ],
+    "en": [
+     672080,
+     3580
+    ],
+    "wd": [
+     676060,
+     9840
+    ],
+    "wp": [
+     [
+      676060,
+      2710
+     ],
+     [
+      679170,
+      2690
+     ],
+     [
+      682260,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La Cordera desapareció en la noche.",
+   "en": "La Cordera disappeared into the night.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "desapareció",
+     "disappeared"
+    ],
+    [
+     "en la noche",
+     "into the night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3030,
+    "en": 2930,
+    "wd": 7120
+   },
+   "bank": {
+    "fr": [
+     686300,
+     3030
+    ],
+    "en": [
+     689730,
+     2930
+    ],
+    "wd": [
+     693060,
+     7120
+    ],
+    "wp": [
+     [
+      693060,
+      3000
+     ],
+     [
+      696460,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Solo quedó el sonido de la esquila, cada vez más lejos.",
+   "en": "Only the sound of the cowbell was left, farther and farther away.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Solo",
+     "only"
+    ],
+    [
+     "quedó",
+     "was left"
+    ],
+    [
+     "el sonido",
+     "the sound"
+    ],
+    [
+     "la esquila",
+     "the cowbell"
+    ],
+    [
+     "cada vez más lejos",
+     "farther and farther away"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "en": 4660,
+    "wd": 16880
+   },
+   "bank": {
+    "fr": [
+     700580,
+     4400
+    ],
+    "en": [
+     705380,
+     4660
+    ],
+    "wd": [
+     710440,
+     16880
+    ],
+    "wp": [
+     [
+      710440,
+      2320
+     ],
+     [
+      713160,
+      2410
+     ],
+     [
+      715970,
+      2710
+     ],
+     [
+      719080,
+      2730
+     ],
+     [
+      722210,
+      4260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Cordera!», gritaba Rosa, llorando. «¡Cordera de mi alma!»",
+   "en": "\"Goodbye, Cordera!\" Rosa cried, in tears. \"Cordera, my darling!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "Cordera",
+     "Cordera"
+    ],
+    [
+     "gritaba",
+     "cried"
+    ],
+    [
+     "llorando",
+     "in tears"
+    ],
+    [
+     "de mi alma",
+     "my darling (lit. of my soul)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 6140,
+    "en": 5300,
+    "wd": 17010
+   },
+   "bank": {
+    "fr": [
+     727720,
+     6140
+    ],
+    "en": [
+     734260,
+     5300
+    ],
+    "wd": [
+     739960,
+     17010
+    ],
+    "wp": [
+     [
+      739960,
+      2460
+     ],
+     [
+      742820,
+      2570
+     ],
+     [
+      745790,
+      2550
+     ],
+     [
+      748740,
+      2790
+     ],
+     [
+      751930,
+      4190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Cordera!», repetía Pinín.",
+   "en": "\"Goodbye, Cordera!\" Pinín repeated.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "Cordera",
+     "Cordera"
+    ],
+    [
+     "repetía",
+     "repeated"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "en": 2830,
+    "wd": 9390
+   },
+   "bank": {
+    "fr": [
+     757370,
+     3200
+    ],
+    "en": [
+     760970,
+     2830
+    ],
+    "wd": [
+     764200,
+     9390
+    ],
+    "wp": [
+     [
+      764200,
+      2460
+     ],
+     [
+      767060,
+      2570
+     ],
+     [
+      770030,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y la esquila, a su manera, contestó: «Adiós.»",
+   "en": "And the cowbell, in its own way, answered: \"Goodbye.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "la esquila",
+     "the cowbell"
+    ],
+    [
+     "a su manera",
+     "in its own way"
+    ],
+    [
+     "contestó",
+     "answered"
+    ],
+    [
+     "Adiós",
+     "goodbye"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3910,
+    "en": 4220,
+    "wd": 12790
+   },
+   "bank": {
+    "fr": [
+     773990,
+     3910
+    ],
+    "en": [
+     778300,
+     4220
+    ],
+    "wd": [
+     782920,
+     12790
+    ],
+    "wp": [
+     [
+      782920,
+      2730
+     ],
+     [
+      786050,
+      3000
+     ],
+     [
+      789450,
+      2550
+     ],
+     [
+      792400,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A la mañana siguiente, los gemelos fueron al prado.",
+   "en": "The next morning, the twins went to the meadow.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "A la mañana siguiente",
+     "the next morning"
+    ],
+    [
+     "los gemelos",
+     "the twins"
+    ],
+    [
+     "fueron",
+     "went"
+    ],
+    [
+     "al prado",
+     "to the meadow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3680,
+    "en": 3180,
+    "wd": 13530
+   },
+   "bank": {
+    "fr": [
+     796110,
+     3680
+    ],
+    "en": [
+     800190,
+     3180
+    ],
+    "wd": [
+     803770,
+     13530
+    ],
+    "wp": [
+     [
+      803770,
+      3460
+     ],
+     [
+      807630,
+      3020
+     ],
+     [
+      811050,
+      2350
+     ],
+     [
+      813800,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sin la Cordera, el prado parecía un desierto.",
+   "en": "Without la Cordera, the meadow looked like a desert.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Sin",
+     "without"
+    ],
+    [
+     "el prado",
+     "the meadow"
+    ],
+    [
+     "parecía",
+     "looked like"
+    ],
+    [
+     "un desierto",
+     "a desert"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "en": 3480,
+    "wd": 12290
+   },
+   "bank": {
+    "fr": [
+     817700,
+     3600
+    ],
+    "en": [
+     821700,
+     3480
+    ],
+    "wd": [
+     825580,
+     12290
+    ],
+    "wp": [
+     [
+      825580,
+      2290
+     ],
+     [
+      828270,
+      2530
+     ],
+     [
+      831200,
+      2560
+     ],
+     [
+      834160,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "De pronto, se oyó el silbido del tren.",
+   "en": "Suddenly, the whistle of the train was heard.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "De pronto",
+     "suddenly"
+    ],
+    [
+     "se oyó",
+     "was heard"
+    ],
+    [
+     "el silbido",
+     "the whistle"
+    ],
+    [
+     "del tren",
+     "of the train"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3180,
+    "en": 3110,
+    "wd": 12760
+   },
+   "bank": {
+    "fr": [
+     838270,
+     3180
+    ],
+    "en": [
+     841850,
+     3110
+    ],
+    "wd": [
+     845360,
+     12760
+    ],
+    "wp": [
+     [
+      845360,
+      2650
+     ],
+     [
+      848410,
+      2620
+     ],
+     [
+      851430,
+      2730
+     ],
+     [
+      854560,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En un vagón, por unas ventanas pequeñas, se veían cabezas de vacas.",
+   "en": "In a wagon, through some small windows, cows' heads could be seen.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "En un vagón",
+     "in a wagon"
+    ],
+    [
+     "por",
+     "through"
+    ],
+    [
+     "unas ventanas pequeñas",
+     "some small windows"
+    ],
+    [
+     "se veían",
+     "could be seen"
+    ],
+    [
+     "cabezas",
+     "heads"
+    ],
+    [
+     "de vacas",
+     "of cows"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 4500,
+    "wd": 20350
+   },
+   "bank": {
+    "fr": [
+     858520,
+     5040
+    ],
+    "en": [
+     863960,
+     4500
+    ],
+    "wd": [
+     868860,
+     20350
+    ],
+    "wp": [
+     [
+      868860,
+      2810
+     ],
+     [
+      872070,
+      2130
+     ],
+     [
+      874600,
+      4230
+     ],
+     [
+      879230,
+      2900
+     ],
+     [
+      882530,
+      2590
+     ],
+     [
+      885520,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Cordera!», gritó Rosa. Su amiga estaba allí.",
+   "en": "\"Goodbye, Cordera!\" Rosa shouted. Her friend was there.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "gritó",
+     "shouted"
+    ],
+    [
+     "Su amiga",
+     "her friend"
+    ],
+    [
+     "estaba",
+     "was"
+    ],
+    [
+     "allí",
+     "there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 5530,
+    "en": 4070,
+    "wd": 14650
+   },
+   "bank": {
+    "fr": [
+     889610,
+     5530
+    ],
+    "en": [
+     895540,
+     4070
+    ],
+    "wd": [
+     900010,
+     14650
+    ],
+    "wp": [
+     [
+      900010,
+      2460
+     ],
+     [
+      902870,
+      2430
+     ],
+     [
+      905700,
+      2710
+     ],
+     [
+      908810,
+      2370
+     ],
+     [
+      911580,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Cordera!», gritó Pinín, y le enseñó los puños al tren.",
+   "en": "\"Goodbye, Cordera!\" Pinín shouted, and he shook his fists at the train.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "puños",
+     "en": "fists"
+    }
+   ],
+   "words": [
+    [
+     "gritó",
+     "shouted"
+    ],
+    [
+     "le enseñó",
+     "showed"
+    ],
+    [
+     "los puños",
+     "the fists"
+    ],
+    [
+     "al tren",
+     "to the train"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "gl": "audio/s037_gl.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 4830,
+    "en": 4870,
+    "gl": 3740,
+    "wd": 12870
+   },
+   "bank": {
+    "fr": [
+     915060,
+     4830
+    ],
+    "en": [
+     920290,
+     4870
+    ],
+    "gl": [
+     925560,
+     3740
+    ],
+    "wd": [
+     929700,
+     12870
+    ],
+    "wp": [
+     [
+      929700,
+      2430
+     ],
+     [
+      932530,
+      2610
+     ],
+     [
+      935540,
+      3060
+     ],
+     [
+      939000,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pinín lloraba y decía: «La llevan al matadero.»",
+   "en": "Pinín was crying and saying: \"They're taking her to the slaughterhouse.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "matadero",
+     "en": "slaughterhouse"
+    }
+   ],
+   "words": [
+    [
+     "lloraba",
+     "was crying"
+    ],
+    [
+     "decía",
+     "was saying"
+    ],
+    [
+     "La llevan",
+     "they're taking her"
+    ],
+    [
+     "al matadero",
+     "to the slaughterhouse"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "gl": "audio/s038_gl.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 3860,
+    "en": 4840,
+    "gl": 3900,
+    "wd": 13500
+   },
+   "bank": {
+    "fr": [
+     942970,
+     3860
+    ],
+    "en": [
+     947230,
+     4840
+    ],
+    "gl": [
+     952470,
+     3900
+    ],
+    "wd": [
+     956770,
+     13500
+    ],
+    "wp": [
+     [
+      956770,
+      2650
+     ],
+     [
+      959820,
+      2620
+     ],
+     [
+      962840,
+      2860
+     ],
+     [
+      966100,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«La Cordera es carne para los ricos, para los señores.»",
+   "en": "\"La Cordera is meat for the rich, for the gentlemen.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "es",
+     "is"
+    ],
+    [
+     "carne",
+     "meat"
+    ],
+    [
+     "para",
+     "for"
+    ],
+    [
+     "los ricos",
+     "the rich"
+    ],
+    [
+     "los señores",
+     "the gentlemen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4140,
+    "en": 3850,
+    "wd": 14900
+   },
+   "bank": {
+    "fr": [
+     970670,
+     4140
+    ],
+    "en": [
+     975210,
+     3850
+    ],
+    "wd": [
+     979460,
+     14900
+    ],
+    "wp": [
+     [
+      979460,
+      2140
+     ],
+     [
+      982000,
+      2250
+     ],
+     [
+      984650,
+      2190
+     ],
+     [
+      987240,
+      2880
+     ],
+     [
+      990520,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pasaron muchos años. Pinín se hizo un hombre.",
+   "en": "Many years went by. Pinín became a man.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pasaron",
+     "went by"
+    ],
+    [
+     "muchos años",
+     "many years"
+    ],
+    [
+     "se hizo",
+     "became"
+    ],
+    [
+     "un hombre",
+     "a man"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 4900,
+    "en": 3240,
+    "wd": 12890
+   },
+   "bank": {
+    "fr": [
+     994760,
+     4900
+    ],
+    "en": [
+     1000060,
+     3240
+    ],
+    "wd": [
+     1003700,
+     12890
+    ],
+    "wp": [
+     [
+      1003700,
+      2530
+     ],
+     [
+      1006630,
+      3200
+     ],
+     [
+      1010230,
+      2550
+     ],
+     [
+      1013180,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hubo una guerra, y el rey se llevó a Pinín como soldado.",
+   "en": "There was a war, and the king took Pinín away as a soldier.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "soldado",
+     "en": "soldier"
+    }
+   ],
+   "words": [
+    [
+     "Hubo",
+     "there was"
+    ],
+    [
+     "una guerra",
+     "a war"
+    ],
+    [
+     "el rey",
+     "the king"
+    ],
+    [
+     "se llevó",
+     "took away"
+    ],
+    [
+     "como",
+     "as"
+    ],
+    [
+     "soldado",
+     "soldier"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "gl": "audio/s041_gl.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 4090,
+    "gl": 3570,
+    "wd": 17900
+   },
+   "bank": {
+    "fr": [
+     1016990,
+     4320
+    ],
+    "en": [
+     1021710,
+     4090
+    ],
+    "gl": [
+     1026200,
+     3570
+    ],
+    "wd": [
+     1030170,
+     17900
+    ],
+    "wp": [
+     [
+      1030170,
+      2370
+     ],
+     [
+      1032940,
+      2690
+     ],
+     [
+      1036030,
+      2540
+     ],
+     [
+      1038970,
+      2640
+     ],
+     [
+      1042010,
+      2230
+     ],
+     [
+      1044640,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Una tarde triste de octubre, Rosa esperaba sola en el prado.",
+   "en": "One sad October afternoon, Rosa was waiting alone in the meadow.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Una tarde",
+     "one afternoon"
+    ],
+    [
+     "triste",
+     "sad"
+    ],
+    [
+     "de octubre",
+     "in October"
+    ],
+    [
+     "esperaba",
+     "was waiting"
+    ],
+    [
+     "sola",
+     "alone"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 4720,
+    "en": 4680,
+    "wd": 15800
+   },
+   "bank": {
+    "fr": [
+     1048470,
+     4720
+    ],
+    "en": [
+     1053590,
+     4680
+    ],
+    "wd": [
+     1058670,
+     15800
+    ],
+    "wp": [
+     [
+      1058670,
+      2930
+     ],
+     [
+      1062000,
+      2370
+     ],
+     [
+      1064770,
+      2880
+     ],
+     [
+      1068050,
+      2740
+     ],
+     [
+      1071190,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa esperaba el tren de su hermano.",
+   "en": "Rosa was waiting for her brother's train.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "esperaba",
+     "was waiting for"
+    ],
+    [
+     "el tren",
+     "the train"
+    ],
+    [
+     "su hermano",
+     "her brother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 2980,
+    "en": 2660,
+    "wd": 9900
+   },
+   "bank": {
+    "fr": [
+     1074870,
+     2980
+    ],
+    "en": [
+     1078250,
+     2660
+    ],
+    "wd": [
+     1081310,
+     9900
+    ],
+    "wp": [
+     [
+      1081310,
+      2980
+     ],
+     [
+      1084690,
+      2540
+     ],
+     [
+      1087630,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El tren pasó muy rápido, lleno de soldados jóvenes.",
+   "en": "The train went by very fast, full of young soldiers.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "pasó",
+     "went by"
+    ],
+    [
+     "muy rápido",
+     "very fast"
+    ],
+    [
+     "lleno de",
+     "full of"
+    ],
+    [
+     "soldados",
+     "soldiers"
+    ],
+    [
+     "jóvenes",
+     "young"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "en": 3800,
+    "wd": 15830
+   },
+   "bank": {
+    "fr": [
+     1091610,
+     4330
+    ],
+    "en": [
+     1096340,
+     3800
+    ],
+    "wd": [
+     1100540,
+     15830
+    ],
+    "wp": [
+     [
+      1100540,
+      2430
+     ],
+     [
+      1103370,
+      3110
+     ],
+     [
+      1106880,
+      2450
+     ],
+     [
+      1109730,
+      2850
+     ],
+     [
+      1112980,
+      2540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pinín sacó medio cuerpo por la ventana.",
+   "en": "Pinín leaned half his body out of the window.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "sacó",
+     "put out"
+    ],
+    [
+     "medio cuerpo",
+     "half his body"
+    ],
+    [
+     "por",
+     "through"
+    ],
+    [
+     "la ventana",
+     "the window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 3190,
+    "en": 3100,
+    "wd": 12400
+   },
+   "bank": {
+    "fr": [
+     1116770,
+     3190
+    ],
+    "en": [
+     1120360,
+     3100
+    ],
+    "wd": [
+     1123860,
+     12400
+    ],
+    "wp": [
+     [
+      1123860,
+      2329
+     ],
+     [
+      1126590,
+      3130
+     ],
+     [
+      1130120,
+      2130
+     ],
+     [
+      1132650,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pinín tendió los brazos a su hermana. Casi se tocaron.",
+   "en": "Pinín held out his arms to his sister. They almost touched.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "tendió",
+     "held out"
+    ],
+    [
+     "los brazos",
+     "the arms"
+    ],
+    [
+     "su hermana",
+     "his sister"
+    ],
+    [
+     "Casi",
+     "almost"
+    ],
+    [
+     "se tocaron",
+     "they touched"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5260,
+    "en": 4040,
+    "wd": 15810
+   },
+   "bank": {
+    "fr": [
+     1136660,
+     5260
+    ],
+    "en": [
+     1142320,
+     4040
+    ],
+    "wd": [
+     1146760,
+     15810
+    ],
+    "wp": [
+     [
+      1146760,
+      2360
+     ],
+     [
+      1149520,
+      2990
+     ],
+     [
+      1152910,
+      2810
+     ],
+     [
+      1156120,
+      2340
+     ],
+     [
+      1158860,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa oyó la voz de Pinín, que lloraba:",
+   "en": "Rosa heard the voice of Pinín, who was sobbing:",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "oyó",
+     "heard"
+    ],
+    [
+     "la voz",
+     "the voice"
+    ],
+    [
+     "que",
+     "who"
+    ],
+    [
+     "lloraba",
+     "was sobbing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 3320,
+    "en": 3460,
+    "wd": 11540
+   },
+   "bank": {
+    "fr": [
+     1162970,
+     3320
+    ],
+    "en": [
+     1166690,
+     3460
+    ],
+    "wd": [
+     1170550,
+     11540
+    ],
+    "wp": [
+     [
+      1170550,
+      2250
+     ],
+     [
+      1173200,
+      2540
+     ],
+     [
+      1176140,
+      2010
+     ],
+     [
+      1178550,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Rosa! ¡Adiós, Cordera!»",
+   "en": "\"Goodbye, Rosa! Goodbye, Cordera!\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "Rosa",
+     "Rosa"
+    ],
+    [
+     "Cordera",
+     "Cordera"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "en": 2850,
+    "wd": 9150
+   },
+   "bank": {
+    "fr": [
+     1182490,
+     4410
+    ],
+    "en": [
+     1187300,
+     2850
+    ],
+    "wd": [
+     1190550,
+     9150
+    ],
+    "wp": [
+     [
+      1190550,
+      2460
+     ],
+     [
+      1193410,
+      2470
+     ],
+     [
+      1196280,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Pinín! ¡Pinín de mi alma!»",
+   "en": "\"Goodbye, Pinín! Pinín, my darling!\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "Pinín",
+     "Pinín"
+    ],
+    [
+     "de mi alma",
+     "my darling (lit. of my soul)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 4150,
+    "en": 2830,
+    "wd": 10560
+   },
+   "bank": {
+    "fr": [
+     1200100,
+     4150
+    ],
+    "en": [
+     1204650,
+     2830
+    ],
+    "wd": [
+     1207880,
+     10560
+    ],
+    "wp": [
+     [
+      1207880,
+      2460
+     ],
+     [
+      1210740,
+      2260
+     ],
+     [
+      1213400,
+      4190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa pensó: «El mundo se lo lleva, como a la Cordera.»",
+   "en": "Rosa thought: \"The world is taking him away, like la Cordera.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "pensó",
+     "thought"
+    ],
+    [
+     "El mundo",
+     "the world"
+    ],
+    [
+     "se lo lleva",
+     "is taking him away"
+    ],
+    [
+     "como",
+     "like"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "en": 4810,
+    "wd": 12320
+   },
+   "bank": {
+    "fr": [
+     1218840,
+     4400
+    ],
+    "en": [
+     1223640,
+     4810
+    ],
+    "wd": [
+     1228850,
+     12320
+    ],
+    "wp": [
+     [
+      1228850,
+      2340
+     ],
+     [
+      1231590,
+      2600
+     ],
+     [
+      1234590,
+      3170
+     ],
+     [
+      1238160,
+      2160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«La vaca era carne para los ricos. Pinín es carne de cañón.»",
+   "en": "\"The cow was meat for the rich. Pinín is cannon fodder.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "carne de cañón",
+     "en": "cannon fodder"
+    }
+   ],
+   "words": [
+    [
+     "La vaca",
+     "the cow"
+    ],
+    [
+     "era",
+     "was"
+    ],
+    [
+     "carne",
+     "meat"
+    ],
+    [
+     "para los ricos",
+     "for the rich"
+    ],
+    [
+     "es",
+     "is"
+    ],
+    [
+     "carne de cañón",
+     "cannon fodder"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "gl": "audio/s051_gl.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 5740,
+    "en": 4050,
+    "gl": 4280,
+    "wd": 18220
+   },
+   "bank": {
+    "fr": [
+     1241570,
+     5740
+    ],
+    "en": [
+     1247710,
+     4050
+    ],
+    "gl": [
+     1252160,
+     4280
+    ],
+    "wd": [
+     1256840,
+     18220
+    ],
+    "wp": [
+     [
+      1256840,
+      2510
+     ],
+     [
+      1259750,
+      2150
+     ],
+     [
+      1262300,
+      2250
+     ],
+     [
+      1264949,
+      3180
+     ],
+     [
+      1268530,
+      2140
+     ],
+     [
+      1271070,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "¡Qué sola estaba Rosa! Ahora el prado sí era un desierto.",
+   "en": "How alone Rosa was! Now the meadow really was a desert.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Qué sola",
+     "how alone"
+    ],
+    [
+     "estaba",
+     "was"
+    ],
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "sí era",
+     "really was"
+    ],
+    [
+     "un desierto",
+     "a desert"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 5600,
+    "en": 3990,
+    "wd": 15310
+   },
+   "bank": {
+    "fr": [
+     1275460,
+     5600
+    ],
+    "en": [
+     1281460,
+     3990
+    ],
+    "wd": [
+     1285850,
+     15310
+    ],
+    "wp": [
+     [
+      1285850,
+      2680
+     ],
+     [
+      1288930,
+      2370
+     ],
+     [
+      1291700,
+      2260
+     ],
+     [
+      1294360,
+      2690
+     ],
+     [
+      1297450,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Rosa apoyó la cabeza en el poste del telégrafo.",
+   "en": "Rosa leaned her head against the telegraph pole.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "poste del telégrafo",
+     "en": "telegraph pole"
+    }
+   ],
+   "words": [
+    [
+     "apoyó",
+     "leaned"
+    ],
+    [
+     "la cabeza",
+     "the head"
+    ],
+    [
+     "en",
+     "against"
+    ],
+    [
+     "el poste del telégrafo",
+     "the telegraph pole"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "gl": "audio/s053_gl.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 3760,
+    "en": 3330,
+    "gl": 4840,
+    "wd": 13260
+   },
+   "bank": {
+    "fr": [
+     1301560,
+     3760
+    ],
+    "en": [
+     1305720,
+     3330
+    ],
+    "gl": [
+     1309450,
+     4840
+    ],
+    "wd": [
+     1314690,
+     13260
+    ],
+    "wp": [
+     [
+      1314690,
+      2360
+     ],
+     [
+      1317450,
+      2660
+     ],
+     [
+      1320510,
+      2280
+     ],
+     [
+      1323190,
+      3910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "El viento cantaba en los alambres, como antes.",
+   "en": "The wind was singing in the wires, as before.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "El viento",
+     "the wind"
+    ],
+    [
+     "cantaba",
+     "was singing"
+    ],
+    [
+     "los alambres",
+     "the wires"
+    ],
+    [
+     "como antes",
+     "as before"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 3620,
+    "en": 3350,
+    "wd": 13340
+   },
+   "bank": {
+    "fr": [
+     1328350,
+     3620
+    ],
+    "en": [
+     1332370,
+     3350
+    ],
+    "wd": [
+     1336120,
+     13340
+    ],
+    "wp": [
+     [
+      1336120,
+      2560
+     ],
+     [
+      1339080,
+      2640
+     ],
+     [
+      1342120,
+      3110
+     ],
+     [
+      1345630,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ahora Rosa entendía esa canción.",
+   "en": "Now Rosa understood that song.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ahora",
+     "now"
+    ],
+    [
+     "entendía",
+     "understood"
+    ],
+    [
+     "esa canción",
+     "that song"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 3070,
+    "en": 2430,
+    "wd": 9730
+   },
+   "bank": {
+    "fr": [
+     1349860,
+     3070
+    ],
+    "en": [
+     1353330,
+     2430
+    ],
+    "wd": [
+     1356160,
+     9730
+    ],
+    "wp": [
+     [
+      1356160,
+      2260
+     ],
+     [
+      1358820,
+      2840
+     ],
+     [
+      1362060,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Era una canción de lágrimas, de soledad y de muerte.",
+   "en": "It was a song of tears, of loneliness and of death.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Era",
+     "it was"
+    ],
+    [
+     "una canción",
+     "a song"
+    ],
+    [
+     "de lágrimas",
+     "of tears"
+    ],
+    [
+     "soledad",
+     "loneliness"
+    ],
+    [
+     "muerte",
+     "death"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 4000,
+    "en": 3950,
+    "wd": 15550
+   },
+   "bank": {
+    "fr": [
+     1366290,
+     4000
+    ],
+    "en": [
+     1370690,
+     3950
+    ],
+    "wd": [
+     1375040,
+     15550
+    ],
+    "wp": [
+     [
+      1375040,
+      2260
+     ],
+     [
+      1377700,
+      2840
+     ],
+     [
+      1380940,
+      3030
+     ],
+     [
+      1384370,
+      2670
+     ],
+     [
+      1387440,
+      2300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Y en el ruido de los alambres, Rosa oía una voz lejana:",
+   "en": "And in the hum of the wires, Rosa heard a distant voice:",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "el ruido",
+     "the hum"
+    ],
+    [
+     "oía",
+     "heard"
+    ],
+    [
+     "una voz",
+     "a voice"
+    ],
+    [
+     "lejana",
+     "distant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 4460,
+    "en": 4300,
+    "wd": 12130
+   },
+   "bank": {
+    "fr": [
+     1390990,
+     4460
+    ],
+    "en": [
+     1395850,
+     4300
+    ],
+    "wd": [
+     1400550,
+     12130
+    ],
+    "wp": [
+     [
+      1400550,
+      2600
+     ],
+     [
+      1403550,
+      2320
+     ],
+     [
+      1406270,
+      2630
+     ],
+     [
+      1409300,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "«¡Adiós, Rosa! ¡Adiós, Cordera!»",
+   "en": "\"Goodbye, Rosa! Goodbye, Cordera!\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Adiós",
+     "goodbye"
+    ],
+    [
+     "Rosa",
+     "Rosa"
+    ],
+    [
+     "Cordera",
+     "Cordera"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4410,
+    "en": 2850,
+    "wd": 9150
+   },
+   "bank": {
+    "fr": [
+     1413080,
+     4410
+    ],
+    "en": [
+     1417890,
+     2850
+    ],
+    "wd": [
+     1421140,
+     9150
+    ],
+    "wp": [
+     [
+      1421140,
+      2460
+     ],
+     [
+      1424000,
+      2470
+     ],
+     [
+      1426870,
+      2570
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20490
+  ],
+  "silence": [
+   21290,
+   30000
+  ]
+ }
+}
