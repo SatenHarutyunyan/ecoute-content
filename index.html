@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.144";
+const VERSION = "web 0.146";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1037,12 +1037,14 @@ const dailyDue = () => store.get("daily_" + lang, "") !== today() && store.get("
 async function dailyCheck() {
   const heard = catalog.filter(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 0 || store.get("fin_" + c.id, false)));
   const recent = [store.get("last_" + lang), ...heard.map(c => c.id)].filter((v, i, a) => v && a.indexOf(v) === i).slice(0, 3);
-  const pool = [];
+  const pool = [], sents = [];
   for (const id of recent) {
     const e = catalog.find(c => c.id === id); if (!e) continue;
     try {
       const st = await (await fetch(`stories/${id}/story.json?v=${e.version || ""}`)).json();
       jaScript(st); storyCache[id] = Promise.resolve(st);  // My words can play the example sentence later
+      const url = MEDIA + `stories/${id}/` + st.bank.file + `?v=${e.version || ""}`;
+      st.segments.forEach(sg => { if (sg.fr && sg.en && sg.bank && sg.bank.fr && sg.fr.split(" ").length >= 4 && sg.fr.split(" ").length <= 14) sents.push({ sg, url }); });
       st.segments.forEach((sg, si) => (sg.words || []).forEach(([w, m], k) => { if (!isName(w, m) && w.length > 2 && w.split(" ").length <= 3)
         pool.push({ w, m, b: KNOW.base(sg, k), save: { w: wkey(sg, k), m, story: id, seg: si, k, ...(sg.wr ? { r: sg.wr[k] } : {}) } }); }));
     } catch {}
@@ -1055,39 +1057,61 @@ async function dailyCheck() {
   // new words: the most useful first — common (frequency) and probably not known yet; a little randomness
   const fz = KNOW.freq[lang] || {}, useful = x => (fz[x.b] ?? 3) / 7 * (1 - KNOW.p(x.b)) + Math.random() * .15;
   const fresh = uniq.filter(x => !asked.has(x.b) && !due.includes(x)).sort((a, b) => useful(b) - useful(a));
-  const items = [...due, ...fresh].slice(0, 10).sort(() => Math.random() - .5);
-  if (items.length < 6) return toast("Listen to a bit more first — the check uses words from your stories.", 4000);
+  const words = [...due, ...fresh].slice(0, 6);
+  if (words.length < 4) return toast("Listen to a bit more first — the check uses words from your stories.", 4000);
+  // + 2 "fill the gap" and 2 "listen and understand" from their story sentences (Saten 2026-11-23: not only words)
+  const shuf = a => a.sort(() => Math.random() - .5), ss = shuf([...sents]);
+  const gaps = ss.filter(x => (x.sg.words || []).some(([w, m]) => !isName(w, m) && w.length > 2 && x.sg.fr.includes(w))).slice(0, 2).map(x => {
+    const cand = x.sg.words.filter(([w, m]) => !isName(w, m) && w.length > 2 && x.sg.fr.includes(w)), [w] = cand[Math.floor(Math.random() * cand.length)];
+    return { kind: "gap", w, q: x.sg.fr.replace(w, "_____"), sub: x.sg.en, opts: [w, ...shuf(pool.map(p => p.w).filter(o => o !== w && o.length > 2)).slice(0, 2)] };
+  });
+  const listens = ss.filter(x => !gaps.some(g => g.sub === x.sg.en)).slice(0, 2).map(x => ({ kind: "listen", url: x.url, r: x.sg.bank.fr, w: x.sg.fr, m: x.sg.en,
+    opts: [x.sg.en, ...shuf(sents.map(o => o.sg.en).filter(o => o !== x.sg.en)).slice(0, 2)] }));
+  const items = shuf([...words.map(x => ({ ...x, kind: "word" })), ...gaps, ...listens]);
   const meanings = [...new Set(pool.map(x => x.m))];
-  let i = 0, right = 0; const res = [];
+  let i = 0, right = 0; const res = [], learned = [];
   const d = document.createElement("div"); d.id = "micAsk"; document.body.append(d);
   const show = () => {
     if (i >= items.length) return end();
-    const it = items[i], opts = [it.m, ...meanings.filter(m => m !== it.m).sort(() => Math.random() - .5).slice(0, 2)].sort(() => Math.random() - .5);
-    d.innerHTML = `<div class="micbox"><div class="muted">Today's check · ${i + 1} of ${items.length}</div><div class="dcq"></div><div class="muted">What does it mean?</div>
+    const it = items[i], answer = it.kind === "gap" ? it.w : it.m;
+    const opts = shuf(it.opts ? [...it.opts] : [it.m, ...meanings.filter(m => m !== it.m).sort(() => Math.random() - .5).slice(0, 2)]);
+    const ask = { word: "What does it mean?", gap: "Which word is missing?", listen: "Listen. What does it mean?" }[it.kind];
+    d.innerHTML = `<div class="micbox"><div class="muted">Today's check · ${i + 1} of ${items.length}</div>
+      ${it.kind === "listen" ? `<button class="big" id="dcPlay" style="margin:14px 0 4px">▶ Play again</button>` : `<div class="dcq"></div>`}
+      ${it.kind === "gap" ? `<div class="muted" id="dcSub"></div>` : ""}<div class="muted">${ask}</div>
       <div class="dcopts">${opts.map(o => `<button></button>`).join("")}</div><div class="done-row"><button class="chip" id="dcStop">Stop</button></div></div>`;
-    d.querySelector(".dcq").textContent = it.w;
+    if (it.kind === "word") d.querySelector(".dcq").textContent = it.w;
+    if (it.kind === "gap") { d.querySelector(".dcq").textContent = it.q; d.querySelector(".dcq").style.fontSize = "19px"; $("dcSub").textContent = it.sub; }
+    if (it.kind === "listen") { const play = () => vaRange(it.url, it.r); $("dcPlay").onclick = play; play(); }
     d.querySelectorAll(".dcopts button").forEach((b, k) => { b.textContent = opts[k]; b.onclick = () => {
-      const ok = opts[k] === it.m; right += ok; res.push([it.w, ok ? 1 : 0]);
+      const ok = opts[k] === answer; right += ok; res.push([it.kind === "word" ? it.w : it.kind + ":" + it.w.slice(0, 40), ok ? 1 : 0]);
+      if (it.kind !== "word") { b.classList.add(ok ? "ok" : "no"); if (!ok) d.querySelectorAll(".dcopts button").forEach(x => { if (x.textContent === answer) x.classList.add("ok"); });
+        d.querySelectorAll(".dcopts button").forEach(x => x.onclick = null); return setTimeout(() => { vaStop(); i++; show(); }, ok ? 600 : 1800); }
+      if (ok && srs[it.b]) learned.push(it);  // a word they missed before: now they know it
       const STEPS = [1, 3, 7, 21], cur = srs[it.b];
       if (!ok) srs[it.b] = [0, day + 1];
       else if (cur) { const n = cur[0] + 1; if (n >= STEPS.length) delete srs[it.b]; else srs[it.b] = [n, day + STEPS[n]]; }
       store.set("dc_srs_" + lang, srs);
       KNOW.set(it.b, ok ? p => Math.max(p, .85) : p => Math.min(p, .2));
-      b.classList.add(ok ? "ok" : "no"); if (!ok) d.querySelectorAll(".dcopts button").forEach(x => { if (x.textContent === it.m) x.classList.add("ok"); });
+      b.classList.add(ok ? "ok" : "no"); if (!ok) d.querySelectorAll(".dcopts button").forEach(x => { if (x.textContent === answer) x.classList.add("ok"); });
       d.querySelectorAll(".dcopts button").forEach(x => x.onclick = null);
       setTimeout(() => { i++; show(); }, ok ? 500 : 1300);
     }; });
     $("dcStop").onclick = end;
   };
   const end = () => {
-    store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).map(x => x.b)].slice(-400));
+    store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).filter(x => x.b).map(x => x.b)].slice(-400));
     log("daily_check", { n: res.length, right, words: res.slice(0, 10) });
-    const missed = items.slice(0, res.length).filter((_, k) => !res[k][1]);
+    vaStop();
+    const missed = items.slice(0, res.length).filter((x, k) => !res[k][1] && x.kind === "word");
     // the ones they didn't know go to My words (Saten 2026-11-23)
     const list = vocab(), added = missed.filter(x => !list.some(v => v.w === x.save.w));
     if (added.length) { store.set("vocab_" + lang, [...added.map(x => ({ ...x.save, t: Date.now(), from: "daily" })), ...list]); log("vocab_save_daily", { n: added.length }); renderVocab(); }
     d.innerHTML = `<div class="micbox"><b>${res.length ? `${right} of ${res.length}` : "Stopped"}</b>
-      ${missed.length ? `<p class="muted">Added to My words: ${missed.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : res.length ? `<p class="muted">All right.</p>` : ""}
+      ${learned.map(x => `<p>🌱 You learned a new word: <b>${esc(x.w)}</b> = ${esc(x.m)}</p>`).join("")}
+      ${added.length ? `<p class="muted">Added to My words: ${added.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : ""}
+      ${missed.length > added.length ? `<p class="muted">Already in My words: ${missed.filter(x => !added.includes(x)).map(x => esc(x.w)).join(" · ")}</p>` : ""}
+      ${res.length && !missed.length && !learned.length ? `<p class="muted">All right.</p>` : ""}
       <div class="done-row"><button class="big" id="dcOk">OK</button></div></div>`;
     $("dcOk").onclick = () => { d.remove(); renderShelf(); };
     for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
@@ -1113,7 +1137,7 @@ function renderShelf() {
     `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
   const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
-  const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">10 words from your stories · 2 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
+  const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">Words and sentences from your stories · 2 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
   el.innerHTML = daily + (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
     (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
     `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
