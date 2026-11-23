@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.142";
+const VERSION = "web 0.143";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1042,7 +1042,9 @@ async function dailyCheck() {
     const e = catalog.find(c => c.id === id); if (!e) continue;
     try {
       const st = await (await fetch(`stories/${id}/story.json?v=${e.version || ""}`)).json();
-      st.segments.forEach(sg => (sg.words || []).forEach(([w, m], k) => { if (!isName(w, m) && w.length > 2 && w.split(" ").length <= 3) pool.push({ w, m, b: KNOW.base(sg, k) }); }));
+      jaScript(st); storyCache[id] = Promise.resolve(st);  // My words can play the example sentence later
+      st.segments.forEach((sg, si) => (sg.words || []).forEach(([w, m], k) => { if (!isName(w, m) && w.length > 2 && w.split(" ").length <= 3)
+        pool.push({ w, m, b: KNOW.base(sg, k), save: { w: wkey(sg, k), m, story: id, seg: si, k, ...(sg.wr ? { r: sg.wr[k] } : {}) } }); }));
     } catch {}
   }
   const asked = new Set(store.get("dc_asked_" + lang, []));
@@ -1072,8 +1074,11 @@ async function dailyCheck() {
     store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).map(x => x.b)].slice(-400));
     log("daily_check", { n: res.length, right, words: res.slice(0, 10) });
     const missed = items.slice(0, res.length).filter((_, k) => !res[k][1]);
+    // the ones they didn't know go to My words (Saten 2026-11-23)
+    const list = vocab(), added = missed.filter(x => !list.some(v => v.w === x.save.w));
+    if (added.length) { store.set("vocab_" + lang, [...added.map(x => ({ ...x.save, t: Date.now(), from: "daily" })), ...list]); log("vocab_save_daily", { n: added.length }); renderVocab(); }
     d.innerHTML = `<div class="micbox"><b>${res.length ? `${right} of ${res.length}` : "Stopped"}</b>
-      ${missed.length ? `<p class="muted">To look at again: ${missed.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : res.length ? `<p class="muted">All right.</p>` : ""}
+      ${missed.length ? `<p class="muted">Added to My words: ${missed.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : res.length ? `<p class="muted">All right.</p>` : ""}
       <div class="done-row"><button class="big" id="dcOk">OK</button></div></div>`;
     $("dcOk").onclick = () => { d.remove(); renderShelf(); };
     for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
