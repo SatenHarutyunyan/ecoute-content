@@ -1,0 +1,8291 @@
+{
+ "id": "en_london_build_a_fire_1",
+ "lang": "en",
+ "title": "To Build a Fire (1)",
+ "author": "Adapted from Jack London (1908)",
+ "level": "B2",
+ "series": "To Build a Fire",
+ "episode": "1",
+ "note": "The Yukon, Canada, around 1900, during the gold rush. A newcomer walks alone through the frozen forest, at seventy-five degrees below zero, with only a husky dog beside him.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20230,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Day had broken cold and gray, exceedingly cold and gray,",
+   "en": "Լուսացել էր ցուրտ ու գորշ, չափազանց ցուրտ ու գորշ,",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Day had broken",
+     "լուսացել էր"
+    ],
+    [
+     "exceedingly",
+     "չափազանց"
+    ],
+    [
+     "gray",
+     "գորշ, մոխրագույն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5380,
+    "en": 4370,
+    "wd": 10659
+   },
+   "bank": {
+    "fr": [
+     51430,
+     5380
+    ],
+    "en": [
+     57210,
+     4370
+    ],
+    "wd": [
+     61980,
+     10659
+    ],
+    "wp": [
+     [
+      61980,
+      2839
+     ],
+     [
+      65219,
+      2920
+     ],
+     [
+      68539,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "when the man turned aside from the main Yukon trail",
+   "en": "երբ մարդը թեքվեց Յուկոնի գլխավոր արահետից",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "trail",
+     "en": "արահետ"
+    }
+   ],
+   "words": [
+    [
+     "turned aside",
+     "թեքվեց, շեղվեց"
+    ],
+    [
+     "main",
+     "գլխավոր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "en": 4130,
+    "gl": 3208,
+    "wd": 7495
+   },
+   "bank": {
+    "fr": [
+     73039,
+     3580
+    ],
+    "en": [
+     77019,
+     4130
+    ],
+    "gl": [
+     81549,
+     3208
+    ],
+    "wd": [
+     85157,
+     7495
+    ],
+    "wp": [
+     [
+      85157,
+      3760
+     ],
+     [
+      89317,
+      2485
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and climbed the high earth-bank.",
+   "en": "ու բարձրացավ հողե բարձր ափն ի վեր։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "climbed",
+     "բարձրացավ, մագլցեց"
+    ],
+    [
+     "earth-bank",
+     "հողե ափ, թումբ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2460,
+    "en": 2850,
+    "wd": 7961
+   },
+   "bank": {
+    "fr": [
+     93053,
+     2460
+    ],
+    "en": [
+     95913,
+     2850
+    ],
+    "wd": [
+     99163,
+     7961
+    ],
+    "wp": [
+     [
+      99163,
+      3370
+     ],
+     [
+      102933,
+      3341
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "From there a dim, little-travelled trail led east through the spruce forest.",
+   "en": "Այնտեղից մի աղոտ, քիչ երթևեկվող արահետ էր ձգվում դեպի արևելք՝ եղևնուտի միջով։",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "spruce",
+     "en": "եղևնի"
+    }
+   ],
+   "words": [
+    [
+     "dim",
+     "աղոտ, հազիվ նշմարվող"
+    ],
+    [
+     "little-travelled",
+     "քիչ երթևեկվող"
+    ],
+    [
+     "led east",
+     "ձգվում էր դեպի արևելք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5680,
+    "en": 6450,
+    "gl": 3280,
+    "wd": 12367
+   },
+   "bank": {
+    "fr": [
+     107524,
+     5680
+    ],
+    "en": [
+     113604,
+     6450
+    ],
+    "gl": [
+     120454,
+     3280
+    ],
+    "wd": [
+     124134,
+     12367
+    ],
+    "wp": [
+     [
+      124134,
+      3607
+     ],
+     [
+      128141,
+      3340
+     ],
+     [
+      131881,
+      3770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The bank was steep, and he paused for breath at the top,",
+   "en": "Ափը զառիթափ էր, և վերևում նա կանգ առավ շունչ քաշելու՝",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "steep",
+     "զառիթափ"
+    ],
+    [
+     "paused for breath",
+     "կանգ առավ շունչ քաշելու"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3660,
+    "en": 4770,
+    "wd": 7650
+   },
+   "bank": {
+    "fr": [
+     136902,
+     3660
+    ],
+    "en": [
+     140962,
+     4770
+    ],
+    "wd": [
+     146132,
+     7650
+    ],
+    "wp": [
+     [
+      146132,
+      2360
+     ],
+     [
+      148892,
+      4040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "excusing the act to himself by looking at his watch.",
+   "en": "ինքն իրեն արդարացնելով նրանով, որ ժամացույցին է նայում։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "excusing",
+     "արդարացնելով"
+    ],
+    [
+     "the act",
+     "այդ արարքը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "en": 5090,
+    "wd": 7050
+   },
+   "bank": {
+    "fr": [
+     154182,
+     3600
+    ],
+    "en": [
+     158182,
+     5090
+    ],
+    "wd": [
+     163672,
+     7050
+    ],
+    "wp": [
+     [
+      163672,
+      3070
+     ],
+     [
+      167142,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It was nine o'clock. There was no sun nor hint of sun,",
+   "en": "Ժամը ինն էր։ Ո՛չ արև կար, ո՛չ էլ արևի նշույլ,",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "hint",
+     "նշույլ, ակնարկ"
+    ],
+    [
+     "nor",
+     "ո՛չ էլ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "en": 4770,
+    "wd": 6730
+   },
+   "bank": {
+    "fr": [
+     171122,
+     3990
+    ],
+    "en": [
+     175512,
+     4770
+    ],
+    "wd": [
+     180682,
+     6730
+    ],
+    "wp": [
+     [
+      180682,
+      3180
+     ],
+     [
+      184262,
+      2300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "though there was not a cloud in the sky.",
+   "en": "թեև երկնքում ոչ մի ամպ չկար։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "though",
+     "թեև"
+    ],
+    [
+     "cloud",
+     "ամպ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "en": 2850,
+    "wd": 5409
+   },
+   "bank": {
+    "fr": [
+     187812,
+     2660
+    ],
+    "en": [
+     190872,
+     2850
+    ],
+    "wd": [
+     194122,
+     5409
+    ],
+    "wp": [
+     [
+      194122,
+      2229
+     ],
+     [
+      196751,
+      1930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It was a clear day, and yet a subtle gloom",
+   "en": "Պարզ օր էր, և այնուամենայնիվ մի աննկատ մռայլություն",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "and yet",
+     "և այնուամենայնիվ"
+    ],
+    [
+     "subtle",
+     "նուրբ, աննկատ"
+    ],
+    [
+     "gloom",
+     "մռայլություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3090,
+    "en": 5000,
+    "wd": 10820
+   },
+   "bank": {
+    "fr": [
+     199931,
+     3090
+    ],
+    "en": [
+     203421,
+     5000
+    ],
+    "wd": [
+     208822,
+     10820
+    ],
+    "wp": [
+     [
+      208822,
+      3260
+     ],
+     [
+      212482,
+      3280
+     ],
+     [
+      216162,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "lay over the face of things and made the day dark.",
+   "en": "պատել էր ամեն ինչ ու օրը մութ էր դարձնում։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "the face of things",
+     "իրերի տեսքը, ամեն ինչ"
+    ],
+    [
+     "lay over",
+     "պատել էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3590,
+    "en": 3810,
+    "wd": 7810
+   },
+   "bank": {
+    "fr": [
+     220042,
+     3590
+    ],
+    "en": [
+     224032,
+     3810
+    ],
+    "wd": [
+     228242,
+     7810
+    ],
+    "wp": [
+     [
+      228242,
+      4030
+     ],
+     [
+      232672,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "This did not worry him; he was used to it.",
+   "en": "Դա նրան չէր անհանգստացնում. նա սովոր էր դրան։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "worry",
+     "անհանգստացնել"
+    ],
+    [
+     "was used to",
+     "սովոր էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3260,
+    "en": 3970,
+    "wd": 7060
+   },
+   "bank": {
+    "fr": [
+     236452,
+     3260
+    ],
+    "en": [
+     240112,
+     3970
+    ],
+    "wd": [
+     244482,
+     7060
+    ],
+    "wp": [
+     [
+      244482,
+      2910
+     ],
+     [
+      247792,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It had been days since he had seen the sun.",
+   "en": "Օրեր էին անցել, ինչ նա արև չէր տեսել։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "It had been days since",
+     "օրեր էին անցել, ինչ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3130,
+    "en": 3553,
+    "wd": 5360
+   },
+   "bank": {
+    "fr": [
+     251942,
+     3130
+    ],
+    "en": [
+     255472,
+     3553
+    ],
+    "wd": [
+     259425,
+     5360
+    ],
+    "wp": [
+     [
+      259425,
+      4510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A few more days must pass before that cheerful sun",
+   "en": "Եվս մի քանի օր պետք է անցներ, մինչև որ այդ զվարթ արևը",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "must pass",
+     "պետք է անցներ"
+    ],
+    [
+     "cheerful",
+     "զվարթ, ուրախ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3890,
+    "en": 5010,
+    "wd": 7350
+   },
+   "bank": {
+    "fr": [
+     265185,
+     3890
+    ],
+    "en": [
+     269475,
+     5010
+    ],
+    "wd": [
+     274885,
+     7350
+    ],
+    "wp": [
+     [
+      274885,
+      2890
+     ],
+     [
+      278175,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "would just peep above the sky-line and dip immediately from view.",
+   "en": "հազիվ մի պահ երևար հորիզոնի վրա ու իսկույն անհետանար։",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "peep",
+     "մի պահ երևալ"
+    ],
+    [
+     "sky-line",
+     "հորիզոն"
+    ],
+    [
+     "dip immediately from view",
+     "իսկույն աչքից անհետանալ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 4610,
+    "wd": 11276
+   },
+   "bank": {
+    "fr": [
+     282635,
+     4650
+    ],
+    "en": [
+     287685,
+     4610
+    ],
+    "wd": [
+     292695,
+     11276
+    ],
+    "wp": [
+     [
+      292695,
+      2540
+     ],
+     [
+      295635,
+      2596
+     ],
+     [
+      298631,
+      4490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The man flung a look back along the way he had come.",
+   "en": "Մարդը մի հայացք նետեց իր անցած ճանապարհին։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "flung a look",
+     "հայացք նետեց"
+    ],
+    [
+     "the way he had come",
+     "իր անցած ճանապարհը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3660,
+    "en": 3650,
+    "wd": 8119
+   },
+   "bank": {
+    "fr": [
+     304371,
+     3660
+    ],
+    "en": [
+     308431,
+     3650
+    ],
+    "wd": [
+     312481,
+     8119
+    ],
+    "wp": [
+     [
+      312481,
+      3060
+     ],
+     [
+      315941,
+      3810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The Yukon lay a mile wide, hidden under three feet of ice.",
+   "en": "Յուկոնը փռված էր մեկ մղոն լայնությամբ՝ թաքնված երեք ֆուտ սառույցի տակ։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "a mile wide",
+     "մեկ մղոն լայնությամբ"
+    ],
+    [
+     "three feet",
+     "երեք ֆուտ (մոտ մեկ մետր)"
+    ],
+    [
+     "hidden",
+     "թաքնված"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "en": 6210,
+    "wd": 11490
+   },
+   "bank": {
+    "fr": [
+     321001,
+     4310
+    ],
+    "en": [
+     325711,
+     6210
+    ],
+    "wd": [
+     332321,
+     11490
+    ],
+    "wp": [
+     [
+      332321,
+      3590
+     ],
+     [
+      336311,
+      3690
+     ],
+     [
+      340401,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "On top of this ice were as many feet of snow.",
+   "en": "Այդ սառույցի վրա նույնքան ֆուտ ձյուն կար։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "On top of",
+     "վրա"
+    ],
+    [
+     "as many",
+     "նույնքան"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "en": 3890,
+    "wd": 5850
+   },
+   "bank": {
+    "fr": [
+     344212,
+     3530
+    ],
+    "en": [
+     348142,
+     3890
+    ],
+    "wd": [
+     352432,
+     5850
+    ],
+    "wp": [
+     [
+      352432,
+      2270
+     ],
+     [
+      355102,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "As far as his eye could see, it was unbroken white,",
+   "en": "Ինչքան աչքը կտրում էր, ամեն ինչ անընդհատ սպիտակ էր,",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "As far as his eye could see",
+     "ինչքան աչքը կտրում էր"
+    ],
+    [
+     "unbroken",
+     "անընդհատ, ամբողջական"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "en": 4610,
+    "wd": 9580
+   },
+   "bank": {
+    "fr": [
+     358682,
+     4310
+    ],
+    "en": [
+     363392,
+     4610
+    ],
+    "wd": [
+     368402,
+     9580
+    ],
+    "wp": [
+     [
+      368402,
+      4140
+     ],
+     [
+      372942,
+      4190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "except for a dark hair-line that curved and twisted away.",
+   "en": "բացի մի մուգ, մազի պես բարակ գծից, որ ոլորվում ու պտտվում էր հեռուն։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "hair-line",
+     "մազի պես բարակ գիծ"
+    ],
+    [
+     "curved and twisted",
+     "ոլորվում ու պտտվում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "en": 5570,
+    "wd": 8790
+   },
+   "bank": {
+    "fr": [
+     378382,
+     4170
+    ],
+    "en": [
+     382952,
+     5570
+    ],
+    "wd": [
+     388922,
+     8790
+    ],
+    "wp": [
+     [
+      388922,
+      3370
+     ],
+     [
+      392692,
+      4170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "This dark hair-line was the trail, the main trail.",
+   "en": "Այդ մուգ բարակ գիծը արահետն էր, գլխավոր արահետը։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "trail",
+     "արահետ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4150,
+    "en": 4370,
+    "wd": 3458
+   },
+   "bank": {
+    "fr": [
+     398112,
+     4150
+    ],
+    "en": [
+     402662,
+     4370
+    ],
+    "wd": [
+     407432,
+     3458
+    ],
+    "wp": [
+     [
+      407432,
+      2608
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It led south to the sea, and north to Dawson and beyond.",
+   "en": "Այն ձգվում էր հարավ՝ մինչև ծով, և հյուսիս՝ մինչև Դոուսոն ու ավելի հեռու։",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "led south",
+     "ձգվում էր դեպի հարավ"
+    ],
+    [
+     "and beyond",
+     "ու ավելի հեռու"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "en": 6530,
+    "wd": 7900
+   },
+   "bank": {
+    "fr": [
+     411291,
+     4330
+    ],
+    "en": [
+     416021,
+     6530
+    ],
+    "wd": [
+     422951,
+     7900
+    ],
+    "wp": [
+     [
+      422951,
+      3550
+     ],
+     [
+      426901,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But all this made no impression on the man:",
+   "en": "Բայց այս ամենը ոչ մի տպավորություն չթողեց մարդու վրա՝",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "made no impression",
+     "տպավորություն չթողեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 3030,
+    "en": 4370,
+    "wd": 4820
+   },
+   "bank": {
+    "fr": [
+     431251,
+     3030
+    ],
+    "en": [
+     434681,
+     4370
+    ],
+    "wd": [
+     439451,
+     4820
+    ],
+    "wp": [
+     [
+      439451,
+      3970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "the mysterious trail, the absence of sun, the tremendous cold.",
+   "en": "ո՛չ խորհրդավոր արահետը, ո՛չ արևի բացակայությունը, ո՛չ ահռելի ցուրտը։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "mysterious",
+     "խորհրդավոր"
+    ],
+    [
+     "absence",
+     "բացակայություն"
+    ],
+    [
+     "tremendous",
+     "ահռելի"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5420,
+    "en": 6290,
+    "wd": 10128
+   },
+   "bank": {
+    "fr": [
+     444671,
+     5420
+    ],
+    "en": [
+     450491,
+     6290
+    ],
+    "wd": [
+     457181,
+     10128
+    ],
+    "wp": [
+     [
+      457181,
+      2940
+     ],
+     [
+      460521,
+      2968
+     ],
+     [
+      463889,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was a newcomer, and this was his first winter.",
+   "en": "Նա նորեկ էր, և սա նրա առաջին ձմեռն էր։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "newcomer",
+     "նորեկ"
+    ],
+    [
+     "winter",
+     "ձմեռ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "en": 3730,
+    "wd": 5600
+   },
+   "bank": {
+    "fr": [
+     467709,
+     3730
+    ],
+    "en": [
+     471839,
+     3730
+    ],
+    "wd": [
+     475969,
+     5600
+    ],
+    "wp": [
+     [
+      475969,
+      2420
+     ],
+     [
+      478789,
+      1930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The trouble with him was that he was without imagination.",
+   "en": "Նրա խնդիրն այն էր, որ երևակայություն չուներ։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "The trouble with him",
+     "նրա խնդիրն այն էր"
+    ],
+    [
+     "imagination",
+     "երևակայություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3670,
+    "en": 3570,
+    "wd": 7990
+   },
+   "bank": {
+    "fr": [
+     481969,
+     3670
+    ],
+    "en": [
+     486039,
+     3570
+    ],
+    "wd": [
+     490009,
+     7990
+    ],
+    "wp": [
+     [
+      490009,
+      3510
+     ],
+     [
+      493919,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Fifty degrees below zero meant eighty-odd degrees of frost.",
+   "en": "Զրոյից հիսուն աստիճան ցածրը նշանակում էր ութսունից ավելի աստիճան սառնամանիք։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "below zero",
+     "զրոյից ցածր"
+    ],
+    [
+     "eighty-odd",
+     "ութսունից ավելի"
+    ],
+    [
+     "frost",
+     "սառնամանիք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 6370,
+    "wd": 11080
+   },
+   "bank": {
+    "fr": [
+     498399,
+     4470
+    ],
+    "en": [
+     503269,
+     6370
+    ],
+    "wd": [
+     510039,
+     11080
+    ],
+    "wp": [
+     [
+      510039,
+      3300
+     ],
+     [
+      513739,
+      3230
+     ],
+     [
+      517369,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "To him, that meant cold and discomfort, and that was all.",
+   "en": "Նրա համար դա նշանակում էր ցուրտ ու անհարմարություն, ուրիշ ոչինչ։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "discomfort",
+     "անհարմարություն"
+    ],
+    [
+     "that was all",
+     "ուրիշ ոչինչ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 5010,
+    "wd": 7460
+   },
+   "bank": {
+    "fr": [
+     521520,
+     4470
+    ],
+    "en": [
+     526390,
+     5010
+    ],
+    "wd": [
+     531800,
+     7460
+    ],
+    "wp": [
+     [
+      531800,
+      3070
+     ],
+     [
+      535270,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It did not lead him to meditate upon his frailty,",
+   "en": "Դա նրան չէր մղում խորհելու իր փխրունության մասին,",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "lead him to",
+     "մղել"
+    ],
+    [
+     "meditate upon",
+     "խորհել"
+    ],
+    [
+     "frailty",
+     "փխրունություն, թուլություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3540,
+    "en": 3970,
+    "wd": 11240
+   },
+   "bank": {
+    "fr": [
+     539660,
+     3540
+    ],
+    "en": [
+     543600,
+     3970
+    ],
+    "wd": [
+     547970,
+     11240
+    ],
+    "wp": [
+     [
+      547970,
+      2740
+     ],
+     [
+      551110,
+      2933
+     ],
+     [
+      554443,
+      3917
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "or upon man's place in the universe.",
+   "en": "կամ մարդու՝ տիեզերքում ունեցած տեղի մասին։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "universe",
+     "տիեզերք"
+    ],
+    [
+     "man's place",
+     "մարդու տեղը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "en": 3810,
+    "wd": 6900
+   },
+   "bank": {
+    "fr": [
+     559611,
+     2850
+    ],
+    "en": [
+     562861,
+     3810
+    ],
+    "wd": [
+     567071,
+     6900
+    ],
+    "wp": [
+     [
+      567071,
+      2920
+     ],
+     [
+      570391,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Fifty degrees below zero stood for a bite of frost that hurt.",
+   "en": "Զրոյից հիսուն աստիճան ցածրը նշանակում էր ցավեցնող սառնամանիքի խայթոց։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "stood for",
+     "նշանակում էր"
+    ],
+    [
+     "bite",
+     "խայթոց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 4690,
+    "en": 5730,
+    "wd": 6439
+   },
+   "bank": {
+    "fr": [
+     574371,
+     4690
+    ],
+    "en": [
+     579461,
+     5730
+    ],
+    "wd": [
+     585591,
+     6439
+    ],
+    "wp": [
+     [
+      585591,
+      2920
+     ],
+     [
+      588911,
+      2269
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "You guarded against it with mittens, ear-flaps, and thick socks.",
+   "en": "Դրանից պաշտպանվում էին թաթմաններով, ականջակալներով ու հաստ գուլպաներով։",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "mittens",
+     "en": "թաթմաններ"
+    }
+   ],
+   "words": [
+    [
+     "guarded against",
+     "պաշտպանվել -ից"
+    ],
+    [
+     "mittens",
+     "թաթմաններ"
+    ],
+    [
+     "ear-flaps",
+     "գլխարկի ականջակալներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "gl": "audio/s031_gl.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "en": 5810,
+    "gl": 3010,
+    "wd": 10980
+   },
+   "bank": {
+    "fr": [
+     592430,
+     4820
+    ],
+    "en": [
+     597650,
+     5810
+    ],
+    "gl": [
+     603860,
+     3010
+    ],
+    "wd": [
+     607270,
+     10980
+    ],
+    "wp": [
+     [
+      607270,
+      2890
+     ],
+     [
+      610560,
+      2410
+     ],
+     [
+      613370,
+      4030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "That there should be anything more to it",
+   "en": "Որ դրանում կարող էր ավելին լինել՝",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "anything more to it",
+     "դրանից ավելին"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "en": 2930,
+    "wd": 4370
+   },
+   "bank": {
+    "fr": [
+     618650,
+     2530
+    ],
+    "en": [
+     621580,
+     2930
+    ],
+    "wd": [
+     624910,
+     4370
+    ],
+    "wp": [
+     [
+      624910,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "was a thought that never entered his head.",
+   "en": "այդ միտքը երբեք նրա գլխով չէր անցնում։",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "never entered his head",
+     "երբեք գլխով չէր անցնում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 2990,
+    "en": 3330,
+    "wd": 5320
+   },
+   "bank": {
+    "fr": [
+     629681,
+     2990
+    ],
+    "en": [
+     633071,
+     3330
+    ],
+    "wd": [
+     636801,
+     5320
+    ],
+    "wp": [
+     [
+      636801,
+      4470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "As he turned to go on, he spat on the snow.",
+   "en": "Երբ շրջվեց, որ շարունակի ճանապարհը, նա թքեց ձյան վրա։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "turned to go on",
+     "շրջվեց, որ շարունակի"
+    ],
+    [
+     "spat",
+     "թքեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "en": 4930,
+    "wd": 7460
+   },
+   "bank": {
+    "fr": [
+     642521,
+     3580
+    ],
+    "en": [
+     646501,
+     4930
+    ],
+    "wd": [
+     651831,
+     7460
+    ],
+    "wp": [
+     [
+      651831,
+      3850
+     ],
+     [
+      656081,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "There was a sharp, explosive crackle that startled him.",
+   "en": "Լսվեց սուր, պայթյունանման ճարճատյուն, որ ցնցեց նրան։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "crackle",
+     "ճարճատյուն"
+    ],
+    [
+     "explosive",
+     "պայթյունանման"
+    ],
+    [
+     "startled",
+     "ցնցեց, վախեցրեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "en": 4930,
+    "wd": 10647
+   },
+   "bank": {
+    "fr": [
+     659691,
+     3530
+    ],
+    "en": [
+     663621,
+     4930
+    ],
+    "wd": [
+     668951,
+     10647
+    ],
+    "wp": [
+     [
+      668951,
+      2627
+     ],
+     [
+      671978,
+      3000
+     ],
+     [
+      675378,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He spat again. And again, in the air,",
+   "en": "Նա նորից թքեց։ Եվ նորից՝ դեռ օդում,",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "spat again",
+     "նորից թքեց"
+    ],
+    [
+     "in the air",
+     "օդում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4000,
+    "en": 3650,
+    "wd": 6660
+   },
+   "bank": {
+    "fr": [
+     679998,
+     4000
+    ],
+    "en": [
+     684398,
+     3650
+    ],
+    "wd": [
+     688448,
+     6660
+    ],
+    "wp": [
+     [
+      688448,
+      3000
+     ],
+     [
+      691848,
+      2410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "before it could fall to the snow, the spittle crackled.",
+   "en": "մինչև ձյանն ընկնելը, թուքը ճարճատեց։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "spittle",
+     "թուք"
+    ],
+    [
+     "before it could fall",
+     "մինչև ընկնելը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3920,
+    "en": 3730,
+    "wd": 6782
+   },
+   "bank": {
+    "fr": [
+     695508,
+     3920
+    ],
+    "en": [
+     699828,
+     3730
+    ],
+    "wd": [
+     703958,
+     6782
+    ],
+    "wp": [
+     [
+      703958,
+      2112
+     ],
+     [
+      706470,
+      3420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He knew that at fifty below, spittle crackled on the snow.",
+   "en": "Նա գիտեր, որ զրոյից հիսուն ցածրի դեպքում թուքը ճարճատում է ձյան վրա։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "at fifty below",
+     "զրոյից հիսուն աստիճան ցածրի դեպքում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 4150,
+    "en": 5490,
+    "wd": 5840
+   },
+   "bank": {
+    "fr": [
+     711140,
+     4150
+    ],
+    "en": [
+     715690,
+     5490
+    ],
+    "wd": [
+     721580,
+     5840
+    ],
+    "wp": [
+     [
+      721580,
+      4990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But this spittle had crackled in the air.",
+   "en": "Բայց այս թուքը ճարճատել էր օդում։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "had crackled",
+     "ճարճատել էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 2780,
+    "en": 2770,
+    "wd": 3870
+   },
+   "bank": {
+    "fr": [
+     727820,
+     2780
+    ],
+    "en": [
+     731000,
+     2770
+    ],
+    "wd": [
+     734170,
+     3870
+    ],
+    "wp": [
+     [
+      734170,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Undoubtedly it was colder than fifty below.",
+   "en": "Անկասկած, ավելի ցուրտ էր, քան զրոյից հիսուն ցածր։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Undoubtedly",
+     "անկասկած"
+    ],
+    [
+     "colder than",
+     "ավելի ցուրտ, քան"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3190,
+    "en": 4408,
+    "wd": 7037
+   },
+   "bank": {
+    "fr": [
+     738440,
+     3190
+    ],
+    "en": [
+     742030,
+     4408
+    ],
+    "wd": [
+     746838,
+     7037
+    ],
+    "wp": [
+     [
+      746838,
+      2897
+     ],
+     [
+      750135,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But the temperature did not matter.",
+   "en": "Բայց ջերմաստիճանը նշանակություն չուներ։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "did not matter",
+     "նշանակություն չուներ"
+    ],
+    [
+     "temperature",
+     "ջերմաստիճան"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 2210,
+    "en": 3410,
+    "wd": 7871
+   },
+   "bank": {
+    "fr": [
+     754275,
+     2210
+    ],
+    "en": [
+     756885,
+     3410
+    ],
+    "wd": [
+     760695,
+     7871
+    ],
+    "wp": [
+     [
+      760695,
+      3640
+     ],
+     [
+      764735,
+      2981
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was bound for the old claim on Henderson Creek,",
+   "en": "Նա ուղևորվում էր դեպի Հենդերսոն գետակի վրայի հին տեղամասը,",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "creek",
+     "en": "գետակ"
+    }
+   ],
+   "words": [
+    [
+     "was bound for",
+     "ուղևորվում էր դեպի"
+    ],
+    [
+     "claim",
+     "(ոսկու) տեղամաս"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 3590,
+    "en": 4690,
+    "gl": 2906,
+    "wd": 7960
+   },
+   "bank": {
+    "fr": [
+     768966,
+     3590
+    ],
+    "en": [
+     772956,
+     4690
+    ],
+    "gl": [
+     778046,
+     2906
+    ],
+    "wd": [
+     781353,
+     7960
+    ],
+    "wp": [
+     [
+      781353,
+      3490
+     ],
+     [
+      785243,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "where the boys were already.",
+   "en": "որտեղ տղաներն արդեն գտնվում էին։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "the boys",
+     "տղաները"
+    ],
+    [
+     "already",
+     "արդեն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 2050,
+    "en": 2850,
+    "wd": 6140
+   },
+   "bank": {
+    "fr": [
+     789713,
+     2050
+    ],
+    "en": [
+     792163,
+     2850
+    ],
+    "wd": [
+     795413,
+     6140
+    ],
+    "wp": [
+     [
+      795413,
+      2620
+     ],
+     [
+      798433,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He would be in camp by six o'clock, a bit after dark.",
+   "en": "Ժամը վեցին նա ճամբարում կլիներ, մթնելուց քիչ անց։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "camp",
+     "ճամբար"
+    ],
+    [
+     "a bit after dark",
+     "մթնելուց քիչ անց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "en": 4530,
+    "wd": 6900
+   },
+   "bank": {
+    "fr": [
+     801953,
+     4220
+    ],
+    "en": [
+     806573,
+     4530
+    ],
+    "wd": [
+     811503,
+     6900
+    ],
+    "wp": [
+     [
+      811503,
+      2090
+     ],
+     [
+      813993,
+      3560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But the boys would be there, a fire would be going,",
+   "en": "Բայց տղաներն այնտեղ կլինեին, կրակ կվառվեր,",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "a fire would be going",
+     "կրակ կվառվեր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 3860,
+    "en": 4210,
+    "wd": 4140
+   },
+   "bank": {
+    "fr": [
+     818803,
+     3860
+    ],
+    "en": [
+     823063,
+     4210
+    ],
+    "wd": [
+     827673,
+     4140
+    ],
+    "wp": [
+     [
+      827673,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and a hot supper would be ready.",
+   "en": "և տաք ընթրիք պատրաստ կլիներ։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "supper",
+     "ընթրիք"
+    ],
+    [
+     "ready",
+     "պատրաստ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 2430,
+    "en": 2850,
+    "wd": 5740
+   },
+   "bank": {
+    "fr": [
+     832213,
+     2430
+    ],
+    "en": [
+     835043,
+     2850
+    ],
+    "wd": [
+     838293,
+     5740
+    ],
+    "wp": [
+     [
+      838293,
+      2090
+     ],
+     [
+      840783,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "As for lunch, he pressed his hand on the bundle",
+   "en": "Ինչ վերաբերում է ճաշին, նա ձեռքը սեղմեց կապոցին,",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "As for",
+     "ինչ վերաբերում է"
+    ],
+    [
+     "bundle",
+     "կապոց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 3520,
+    "en": 4086,
+    "wd": 6560
+   },
+   "bank": {
+    "fr": [
+     844433,
+     3520
+    ],
+    "en": [
+     848353,
+     4086
+    ],
+    "wd": [
+     852840,
+     6560
+    ],
+    "wp": [
+     [
+      852840,
+      2880
+     ],
+     [
+      856120,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "under his jacket and shirt, against the naked skin.",
+   "en": "որ բաճկոնի ու վերնաշապիկի տակ էր՝ մերկ մաշկին կպած։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "jacket",
+     "բաճկոն"
+    ],
+    [
+     "naked skin",
+     "մերկ մաշկ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "en": 4368,
+    "wd": 6530
+   },
+   "bank": {
+    "fr": [
+     859800,
+     3840
+    ],
+    "en": [
+     864040,
+     4368
+    ],
+    "wd": [
+     868809,
+     6530
+    ],
+    "wp": [
+     [
+      868809,
+      2470
+     ],
+     [
+      871679,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It was the only way to keep the biscuits from freezing.",
+   "en": "Միայն այդպես կարելի էր բլիթները սառչելուց պահել։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "biscuits",
+     "բլիթներ"
+    ],
+    [
+     "keep the biscuits from freezing",
+     "բլիթները սառչելուց պահել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 3350,
+    "en": 3810,
+    "wd": 8570
+   },
+   "bank": {
+    "fr": [
+     875739,
+     3350
+    ],
+    "en": [
+     879489,
+     3810
+    ],
+    "wd": [
+     883699,
+     8570
+    ],
+    "wp": [
+     [
+      883699,
+      2410
+     ],
+     [
+      886509,
+      4910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He smiled to himself as he thought of those biscuits,",
+   "en": "Նա ինքն իրեն ժպտաց՝ մտածելով այդ բլիթների մասին,",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "smiled to himself",
+     "ինքն իրեն ժպտաց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "en": 4690,
+    "wd": 4620
+   },
+   "bank": {
+    "fr": [
+     892669,
+     3990
+    ],
+    "en": [
+     897059,
+     4690
+    ],
+    "wd": [
+     902149,
+     4620
+    ],
+    "wp": [
+     [
+      902149,
+      3770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "each one soaked in bacon grease and holding a slice of bacon.",
+   "en": "որոնցից ամեն մեկը բեկոնի ճարպի մեջ էր թաթախած ու մեջը բեկոնի կտոր ուներ։",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "soaked",
+     "թաթախած"
+    ],
+    [
+     "bacon grease",
+     "բեկոնի ճարպ"
+    ],
+    [
+     "slice",
+     "կտոր, շերտ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "en": 5796,
+    "wd": 10120
+   },
+   "bank": {
+    "fr": [
+     907169,
+     4680
+    ],
+    "en": [
+     912249,
+     5796
+    ],
+    "wd": [
+     918445,
+     10120
+    ],
+    "wp": [
+     [
+      918445,
+      2495
+     ],
+     [
+      921340,
+      3164
+     ],
+     [
+      924905,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He plunged in among the big spruce trees. The trail was faint.",
+   "en": "Նա խորացավ մեծ եղևնիների մեջ։ Արահետը հազիվ էր նշմարվում։",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "plunged in",
+     "խորացավ, սուզվեց"
+    ],
+    [
+     "spruce",
+     "եղևնի"
+    ],
+    [
+     "faint",
+     "հազիվ նշմարվող"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 4780,
+    "en": 5970,
+    "wd": 10690
+   },
+   "bank": {
+    "fr": [
+     928966,
+     4780
+    ],
+    "en": [
+     934146,
+     5970
+    ],
+    "wd": [
+     940516,
+     10690
+    ],
+    "wp": [
+     [
+      940516,
+      3630
+     ],
+     [
+      944546,
+      2680
+     ],
+     [
+      947626,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A foot of snow had fallen since the last sled had passed,",
+   "en": "Վերջին սահնակի անցնելուց հետո մեկ ֆուտ ձյուն էր եկել,",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "A foot of snow",
+     "մեկ ֆուտ ձյուն"
+    ],
+    [
+     "sled",
+     "սահնակ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 4610,
+    "wd": 7150
+   },
+   "bank": {
+    "fr": [
+     951606,
+     4320
+    ],
+    "en": [
+     956326,
+     4610
+    ],
+    "wd": [
+     961336,
+     7150
+    ],
+    "wp": [
+     [
+      961336,
+      3300
+     ],
+     [
+      965036,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and he was glad he was travelling light, without a sled.",
+   "en": "և նա ուրախ էր, որ թեթև է ճամփորդում՝ առանց սահնակի։",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "travelling light",
+     "թեթև ճամփորդել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 4930,
+    "wd": 4260
+   },
+   "bank": {
+    "fr": [
+     968886,
+     4470
+    ],
+    "en": [
+     973756,
+     4930
+    ],
+    "wd": [
+     979086,
+     4260
+    ],
+    "wp": [
+     [
+      979086,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was surprised, however, at the cold.",
+   "en": "Սակայն ցուրտը զարմացրեց նրան։",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "however",
+     "սակայն"
+    ],
+    [
+     "surprised",
+     "զարմացած"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "en": 2850,
+    "wd": 6480
+   },
+   "bank": {
+    "fr": [
+     983746,
+     3690
+    ],
+    "en": [
+     987836,
+     2850
+    ],
+    "wd": [
+     991086,
+     6480
+    ],
+    "wp": [
+     [
+      991086,
+      2500
+     ],
+     [
+      993986,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It certainly was cold, he concluded,",
+   "en": "Իսկապես ցուրտ էր, եզրակացրեց նա՝",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "certainly",
+     "իսկապես"
+    ],
+    [
+     "concluded",
+     "եզրակացրեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 3220,
+    "en": 3330,
+    "wd": 6749
+   },
+   "bank": {
+    "fr": [
+     997966,
+     3220
+    ],
+    "en": [
+     1001586,
+     3330
+    ],
+    "wd": [
+     1005316,
+     6749
+    ],
+    "wp": [
+     [
+      1005316,
+      2629
+     ],
+     [
+      1008345,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "as he rubbed his numb nose and cheek-bones with his mittened hand.",
+   "en": "թաթմանով ձեռքով շփելով թմրած քիթն ու այտոսկրերը։",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "numb",
+     "en": "թմրած"
+    }
+   ],
+   "words": [
+    [
+     "rubbed",
+     "շփեց"
+    ],
+    [
+     "numb",
+     "թմրած"
+    ],
+    [
+     "cheek-bones",
+     "այտոսկրեր"
+    ],
+    [
+     "mittened hand",
+     "թաթմանով ձեռք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "gl": "audio/s057_gl.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 4800,
+    "en": 4130,
+    "gl": 3250,
+    "wd": 13120
+   },
+   "bank": {
+    "fr": [
+     1012465,
+     4800
+    ],
+    "en": [
+     1017665,
+     4130
+    ],
+    "gl": [
+     1022195,
+     3250
+    ],
+    "wd": [
+     1025845,
+     13120
+    ],
+    "wp": [
+     [
+      1025845,
+      2270
+     ],
+     [
+      1028515,
+      2650
+     ],
+     [
+      1031565,
+      2830
+     ],
+     [
+      1034795,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He had a thick beard, but it did not protect his cheek-bones",
+   "en": "Նա խիտ մորուք ուներ, բայց այն չէր պաշտպանում այտոսկրերը",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "beard",
+     "մորուք"
+    ],
+    [
+     "protect",
+     "պաշտպանել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4190,
+    "en": 4530,
+    "wd": 6440
+   },
+   "bank": {
+    "fr": [
+     1039365,
+     4190
+    ],
+    "en": [
+     1043955,
+     4530
+    ],
+    "wd": [
+     1048885,
+     6440
+    ],
+    "wp": [
+     [
+      1048885,
+      2700
+     ],
+     [
+      1051985,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and the eager nose that thrust itself into the frosty air.",
+   "en": "և անհամբեր քիթը, որ ցցվել էր սառնամանիքային օդի մեջ։",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "eager",
+     "անհամբեր, եռանդուն"
+    ],
+    [
+     "thrust itself",
+     "ցցվել էր"
+    ],
+    [
+     "frosty",
+     "սառնամանիքային"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 4288,
+    "wd": 11120
+   },
+   "bank": {
+    "fr": [
+     1055725,
+     4019
+    ],
+    "en": [
+     1060145,
+     4288
+    ],
+    "wd": [
+     1064834,
+     11120
+    ],
+    "wp": [
+     [
+      1064834,
+      3350
+     ],
+     [
+      1068584,
+      2900
+     ],
+     [
+      1071884,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "At the man's heels trotted a dog, a big native husky,",
+   "en": "Մարդու կրունկներին կպած՝ մանր վազքով գալիս էր մի շուն, տեղական խոշոր հասկի,",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "husky",
+     "en": "հասկի (հյուսիսային լծկան շուն)"
+    }
+   ],
+   "words": [
+    [
+     "At the man's heels",
+     "մարդու կրունկներին կպած"
+    ],
+    [
+     "trotted",
+     "մանր վազքով գնում էր"
+    ],
+    [
+     "husky",
+     "հասկի (հյուսիսային լծկան շուն)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "gl": "audio/s060_gl.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "en": 6930,
+    "gl": 4550,
+    "wd": 12880
+   },
+   "bank": {
+    "fr": [
+     1076354,
+     4300
+    ],
+    "en": [
+     1081054,
+     6930
+    ],
+    "gl": [
+     1088384,
+     4550
+    ],
+    "wd": [
+     1093334,
+     12880
+    ],
+    "wp": [
+     [
+      1093334,
+      3930
+     ],
+     [
+      1097664,
+      3350
+     ],
+     [
+      1101414,
+      3950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "a true wolf-dog, gray-coated, just like its brother, the wild wolf.",
+   "en": "իսկական գայլաշուն՝ մոխրագույն մորթով, ճիշտ իր եղբոր՝ վայրի գայլի պես։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "wolf-dog",
+     "գայլաշուն"
+    ],
+    [
+     "gray-coated",
+     "մոխրագույն մորթով"
+    ],
+    [
+     "wild",
+     "վայրի"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 6810,
+    "en": 6130,
+    "wd": 10090
+   },
+   "bank": {
+    "fr": [
+     1106614,
+     6810
+    ],
+    "en": [
+     1113824,
+     6130
+    ],
+    "wd": [
+     1120354,
+     10090
+    ],
+    "wp": [
+     [
+      1120354,
+      2830
+     ],
+     [
+      1123584,
+      3240
+     ],
+     [
+      1127224,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The animal was depressed by the tremendous cold.",
+   "en": "Կենդանին ճնշված էր ահռելի ցրտից։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "depressed",
+     "ճնշված, ընկճված"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 3300,
+    "en": 3636,
+    "wd": 4560
+   },
+   "bank": {
+    "fr": [
+     1130844,
+     3300
+    ],
+    "en": [
+     1134544,
+     3636
+    ],
+    "wd": [
+     1138581,
+     4560
+    ],
+    "wp": [
+     [
+      1138581,
+      3710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It knew that it was no time for travelling.",
+   "en": "Այն գիտեր, որ ճամփորդելու ժամանակ չէ։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "no time for",
+     "-ու ժամանակ չէ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 3050,
+    "en": 3250,
+    "wd": 4190
+   },
+   "bank": {
+    "fr": [
+     1143541,
+     3050
+    ],
+    "en": [
+     1146991,
+     3250
+    ],
+    "wd": [
+     1150641,
+     4190
+    ],
+    "wp": [
+     [
+      1150641,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Its instinct told it a truer tale",
+   "en": "Նրա բնազդը նրան ավելի ճշմարիտ բան էր ասում,",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "instinct",
+     "բնազդ"
+    ],
+    [
+     "a truer tale",
+     "ավելի ճշմարիտ պատմություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 2630,
+    "en": 3810,
+    "wd": 7746
+   },
+   "bank": {
+    "fr": [
+     1155231,
+     2630
+    ],
+    "en": [
+     1158261,
+     3810
+    ],
+    "wd": [
+     1162471,
+     7746
+    ],
+    "wp": [
+     [
+      1162471,
+      2466
+     ],
+     [
+      1165337,
+      4030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "than the man's judgment told the man.",
+   "en": "քան մարդու դատողությունը՝ մարդուն։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "judgment",
+     "դատողություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "en": 3213,
+    "wd": 3613
+   },
+   "bank": {
+    "fr": [
+     1170617,
+     2810
+    ],
+    "en": [
+     1173827,
+     3213
+    ],
+    "wd": [
+     1177440,
+     3613
+    ],
+    "wp": [
+     [
+      1177440,
+      2763
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "In reality, it was not merely colder than fifty below.",
+   "en": "Իրականում ոչ միայն զրոյից հիսունից ավելի ցուրտ էր։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "In reality",
+     "իրականում"
+    ],
+    [
+     "merely",
+     "պարզապես, միայն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 4730,
+    "en": 4050,
+    "wd": 7450
+   },
+   "bank": {
+    "fr": [
+     1181454,
+     4730
+    ],
+    "en": [
+     1186584,
+     4050
+    ],
+    "wd": [
+     1191034,
+     7450
+    ],
+    "wp": [
+     [
+      1191034,
+      2990
+     ],
+     [
+      1194424,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It was colder than sixty below, than seventy below.",
+   "en": "Ավելի ցուրտ էր, քան զրոյից վաթսուն, քան յոթանասուն ցածր։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "sixty below",
+     "զրոյից վաթսուն ցածր"
+    ],
+    [
+     "seventy below",
+     "զրոյից յոթանասուն ցածր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "en": 4827,
+    "wd": 8950
+   },
+   "bank": {
+    "fr": [
+     1198884,
+     4010
+    ],
+    "en": [
+     1203294,
+     4827
+    ],
+    "wd": [
+     1208521,
+     8950
+    ],
+    "wp": [
+     [
+      1208521,
+      3690
+     ],
+     [
+      1212611,
+      4010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It was seventy-five below zero.",
+   "en": "Զրոյից յոթանասունհինգ աստիճան ցածր էր։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "seventy-five",
+     "յոթանասունհինգ"
+    ],
+    [
+     "below zero",
+     "զրոյից ցածր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 2880,
+    "en": 3650,
+    "wd": 7950
+   },
+   "bank": {
+    "fr": [
+     1217871,
+     2880
+    ],
+    "en": [
+     1221151,
+     3650
+    ],
+    "wd": [
+     1225201,
+     7950
+    ],
+    "wp": [
+     [
+      1225201,
+      3400
+     ],
+     [
+      1229001,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The dog felt a vague but menacing fear,",
+   "en": "Շունը մի աղոտ, բայց սպառնալից վախ էր զգում,",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "vague",
+     "աղոտ"
+    ],
+    [
+     "menacing",
+     "սպառնալից"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 3290,
+    "en": 3810,
+    "wd": 6372
+   },
+   "bank": {
+    "fr": [
+     1233551,
+     3290
+    ],
+    "en": [
+     1237241,
+     3810
+    ],
+    "wd": [
+     1241451,
+     6372
+    ],
+    "wp": [
+     [
+      1241451,
+      2552
+     ],
+     [
+      1244403,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and it made it slink along at the man's heels.",
+   "en": "և դա ստիպում էր նրան կծկված քայլել մարդու կրունկներին կպած։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "slink along",
+     "կծկված, գաղտագողի քայլել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 3620,
+    "en": 5250,
+    "wd": 4940
+   },
+   "bank": {
+    "fr": [
+     1248224,
+     3620
+    ],
+    "en": [
+     1252244,
+     5250
+    ],
+    "wd": [
+     1257894,
+     4940
+    ],
+    "wp": [
+     [
+      1257894,
+      4090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It eagerly watched every unusual movement of the man,",
+   "en": "Այն անհամբեր հետևում էր մարդու ամեն անսովոր շարժմանը,",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "eagerly",
+     "անհամբեր"
+    ],
+    [
+     "unusual",
+     "անսովոր"
+    ],
+    [
+     "movement",
+     "շարժում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "en": 4450,
+    "wd": 9694
+   },
+   "bank": {
+    "fr": [
+     1263234,
+     4059
+    ],
+    "en": [
+     1267694,
+     4450
+    ],
+    "wd": [
+     1272544,
+     9694
+    ],
+    "wp": [
+     [
+      1272544,
+      2734
+     ],
+     [
+      1275678,
+      2810
+     ],
+     [
+      1278888,
+      2500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "as if expecting him to stop and build a fire.",
+   "en": "կարծես սպասելով, որ նա կանգ կառնի ու կրակ կվառի։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "expecting",
+     "սպասելով"
+    ],
+    [
+     "build a fire",
+     "կրակ վառել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "en": 3890,
+    "wd": 6767
+   },
+   "bank": {
+    "fr": [
+     1282638,
+     3330
+    ],
+    "en": [
+     1286368,
+     3890
+    ],
+    "wd": [
+     1290658,
+     6767
+    ],
+    "wp": [
+     [
+      1290658,
+      2650
+     ],
+     [
+      1293708,
+      2867
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The dog had learned fire, and it wanted fire,",
+   "en": "Շունը կրակը ճանաչում էր ու կրակ էր ուզում,",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "had learned fire",
+     "կրակը ճանաչում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "en": 3730,
+    "wd": 4320
+   },
+   "bank": {
+    "fr": [
+     1297826,
+     3690
+    ],
+    "en": [
+     1301916,
+     3730
+    ],
+    "wd": [
+     1306046,
+     4320
+    ],
+    "wp": [
+     [
+      1306046,
+      3470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "or else to burrow under the snow and keep its warmth.",
+   "en": "կամ էլ՝ փորել-մտնել ձյան տակ ու պահել իր ջերմությունը։",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "or else",
+     "կամ էլ"
+    ],
+    [
+     "burrow",
+     "փորել-մտնել"
+    ],
+    [
+     "warmth",
+     "ջերմություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "en": 4130,
+    "wd": 9619
+   },
+   "bank": {
+    "fr": [
+     1310766,
+     3580
+    ],
+    "en": [
+     1314746,
+     4130
+    ],
+    "wd": [
+     1319276,
+     9619
+    ],
+    "wp": [
+     [
+      1319276,
+      2426
+     ],
+     [
+      1322102,
+      2843
+     ],
+     [
+      1325345,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Its frozen breath lay on its fur in a fine white powder.",
+   "en": "Նրա սառած շունչը նուրբ սպիտակ փոշու պես նստել էր մորթու վրա։",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "lay",
+     "նստել էր, պատել էր"
+    ],
+    [
+     "fur",
+     "մորթի"
+    ],
+    [
+     "powder",
+     "փոշի"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "wd": "audio/s075_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "en": 5170,
+    "wd": 9061
+   },
+   "bank": {
+    "fr": [
+     1329296,
+     4490
+    ],
+    "en": [
+     1334186,
+     5170
+    ],
+    "wd": [
+     1339756,
+     9061
+    ],
+    "wp": [
+     [
+      1339756,
+      3140
+     ],
+     [
+      1343296,
+      2270
+     ],
+     [
+      1345966,
+      2001
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The man's red beard and mustache were also frosted,",
+   "en": "Մարդու կարմիր մորուքն ու բեղերը նույնպես սառցակալել էին,",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "mustache",
+     "բեղեր"
+    ],
+    [
+     "frosted",
+     "սառցակալած, եղյամապատ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "en": "audio/s076_en.mp3",
+    "wd": "audio/s076_wd.mp3"
+   },
+   "ms": {
+    "fr": 3910,
+    "en": 4530,
+    "wd": 8080
+   },
+   "bank": {
+    "fr": [
+     1349217,
+     3910
+    ],
+    "en": [
+     1353527,
+     4530
+    ],
+    "wd": [
+     1358457,
+     8080
+    ],
+    "wp": [
+     [
+      1358457,
+      2590
+     ],
+     [
+      1361447,
+      4240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "but more solidly, with ice that grew with every warm breath.",
+   "en": "բայց ավելի ամուր՝ սառույցով, որ աճում էր ամեն տաք շնչի հետ։",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "solidly",
+     "ամուր"
+    ],
+    [
+     "breath",
+     "շունչ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "en": "audio/s077_en.mp3",
+    "wd": "audio/s077_wd.mp3"
+   },
+   "ms": {
+    "fr": 4130,
+    "en": 5010,
+    "wd": 6120
+   },
+   "bank": {
+    "fr": [
+     1366937,
+     4130
+    ],
+    "en": [
+     1371467,
+     5010
+    ],
+    "wd": [
+     1376877,
+     6120
+    ],
+    "wp": [
+     [
+      1376877,
+      2440
+     ],
+     [
+      1379717,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Also, the man was chewing tobacco,",
+   "en": "Բացի այդ, մարդը ծխախոտ էր ծամում,",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "chewing tobacco",
+     "ծխախոտ էր ծամում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "en": "audio/s078_en.mp3",
+    "wd": "audio/s078_wd.mp3"
+   },
+   "ms": {
+    "fr": 2880,
+    "en": 4130,
+    "wd": 4443
+   },
+   "bank": {
+    "fr": [
+     1383397,
+     2880
+    ],
+    "en": [
+     1386677,
+     4130
+    ],
+    "wd": [
+     1391207,
+     4443
+    ],
+    "wp": [
+     [
+      1391207,
+      3593
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and the muzzle of ice held his lips so rigidly",
+   "en": "և սառցե դնչկալն այնքան կոշտ էր բռնել շուրթերը,",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "muzzle of ice",
+     "սառցե դնչկալ"
+    ],
+    [
+     "rigidly",
+     "կոշտ, անշարժ"
+    ],
+    [
+     "lips",
+     "շուրթեր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "en": "audio/s079_en.mp3",
+    "wd": "audio/s079_wd.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "en": 3810,
+    "wd": 11280
+   },
+   "bank": {
+    "fr": [
+     1396050,
+     4059
+    ],
+    "en": [
+     1400510,
+     3810
+    ],
+    "wd": [
+     1404720,
+     11280
+    ],
+    "wp": [
+     [
+      1404720,
+      3720
+     ],
+     [
+      1408840,
+      3310
+     ],
+     [
+      1412550,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "that he could not clear his chin when he spat the juice.",
+   "en": "որ նա չէր կարողանում կզակը մաքրել, երբ հյութը թքում էր։",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "chin",
+     "կզակ"
+    ],
+    [
+     "juice",
+     "հյութ"
+    ],
+    [
+     "clear",
+     "մաքրել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "en": "audio/s080_en.mp3",
+    "wd": "audio/s080_wd.mp3"
+   },
+   "ms": {
+    "fr": 3630,
+    "en": 4770,
+    "wd": 8925
+   },
+   "bank": {
+    "fr": [
+     1416400,
+     3630
+    ],
+    "en": [
+     1420430,
+     4770
+    ],
+    "wd": [
+     1425600,
+     8925
+    ],
+    "wp": [
+     [
+      1425600,
+      2305
+     ],
+     [
+      1428305,
+      2400
+     ],
+     [
+      1431105,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "So a crystal beard, the color of amber, grew on his chin.",
+   "en": "Այդպես սաթի գույնի բյուրեղե մորուք էր աճում նրա կզակին։",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "crystal",
+     "բյուրեղե"
+    ],
+    [
+     "amber",
+     "սաթ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "en": 4370,
+    "wd": 5600
+   },
+   "bank": {
+    "fr": [
+     1434926,
+     4380
+    ],
+    "en": [
+     1439706,
+     4370
+    ],
+    "wd": [
+     1444476,
+     5600
+    ],
+    "wp": [
+     [
+      1444476,
+      2170
+     ],
+     [
+      1447046,
+      2180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "If he fell down, it would shatter like glass into brittle pieces.",
+   "en": "Եթե ընկներ, այն ապակու պես կփշրվեր փխրուն կտորների։",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "shatter",
+     "փշրվել"
+    ],
+    [
+     "brittle",
+     "փխրուն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "en": "audio/s082_en.mp3",
+    "wd": "audio/s082_wd.mp3"
+   },
+   "ms": {
+    "fr": 4250,
+    "en": 4690,
+    "wd": 6216
+   },
+   "bank": {
+    "fr": [
+     1450476,
+     4250
+    ],
+    "en": [
+     1455126,
+     4690
+    ],
+    "wd": [
+     1460216,
+     6216
+    ],
+    "wp": [
+     [
+      1460216,
+      2685
+     ],
+     [
+      1463301,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He held on through the level woods for several miles,",
+   "en": "Նա մի քանի մղոն շարունակեց քայլել հարթ անտառով,",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "held on",
+     "շարունակեց գնալ"
+    ],
+    [
+     "level",
+     "հարթ"
+    ],
+    [
+     "woods",
+     "անտառ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "en": "audio/s083_en.mp3",
+    "wd": "audio/s083_wd.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "en": 4130,
+    "wd": 9380
+   },
+   "bank": {
+    "fr": [
+     1466832,
+     3530
+    ],
+    "en": [
+     1470762,
+     4130
+    ],
+    "wd": [
+     1475292,
+     9380
+    ],
+    "wp": [
+     [
+      1475292,
+      3130
+     ],
+     [
+      1478822,
+      2250
+     ],
+     [
+      1481472,
+      2350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and dropped down a bank to a small frozen stream.",
+   "en": "և ափից իջավ դեպի մի փոքր սառած առու։",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "dropped down",
+     "իջավ"
+    ],
+    [
+     "stream",
+     "առու, գետակ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "en": "audio/s084_en.mp3",
+    "wd": "audio/s084_wd.mp3"
+   },
+   "ms": {
+    "fr": 4100,
+    "en": 3250,
+    "wd": 7160
+   },
+   "bank": {
+    "fr": [
+     1485072,
+     4100
+    ],
+    "en": [
+     1489572,
+     3250
+    ],
+    "wd": [
+     1493222,
+     7160
+    ],
+    "wp": [
+     [
+      1493222,
+      2650
+     ],
+     [
+      1496272,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "This was Henderson Creek, and he was ten miles from the forks.",
+   "en": "Դա Հենդերսոն գետակն էր, և նա ճյուղավորումից տասը մղոն հեռու էր։",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "the forks",
+     "en": "գետի ճյուղավորումը"
+    }
+   ],
+   "words": [
+    [
+     "creek",
+     "գետակ"
+    ],
+    [
+     "the forks",
+     "գետի ճյուղավորումը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "en": "audio/s085_en.mp3",
+    "gl": "audio/s085_gl.mp3",
+    "wd": "audio/s085_wd.mp3"
+   },
+   "ms": {
+    "fr": 4160,
+    "en": 4927,
+    "gl": 3820,
+    "wd": 6776
+   },
+   "bank": {
+    "fr": [
+     1500782,
+     4160
+    ],
+    "en": [
+     1505342,
+     4927
+    ],
+    "gl": [
+     1510669,
+     3820
+    ],
+    "wd": [
+     1514889,
+     6776
+    ],
+    "wp": [
+     [
+      1514889,
+      2306
+     ],
+     [
+      1517595,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He looked at his watch. It was ten o'clock.",
+   "en": "Նա նայեց ժամացույցին։ Ժամը տասն էր։",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "watch",
+     "ձեռքի ժամացույց"
+    ],
+    [
+     "ten o'clock",
+     "ժամը տասը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "en": "audio/s086_en.mp3",
+    "wd": "audio/s086_wd.mp3"
+   },
+   "ms": {
+    "fr": 3110,
+    "en": 4290,
+    "wd": 6970
+   },
+   "bank": {
+    "fr": [
+     1522066,
+     3110
+    ],
+    "en": [
+     1525576,
+     4290
+    ],
+    "wd": [
+     1530266,
+     6970
+    ],
+    "wp": [
+     [
+      1530266,
+      2940
+     ],
+     [
+      1533606,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was making four miles an hour,",
+   "en": "Նա ժամում չորս մղոն էր անցնում,",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "four miles an hour",
+     "ժամում չորս մղոն"
+    ],
+    [
+     "was making",
+     "անցնում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "en": "audio/s087_en.mp3",
+    "wd": "audio/s087_wd.mp3"
+   },
+   "ms": {
+    "fr": 2570,
+    "en": 2770,
+    "wd": 7510
+   },
+   "bank": {
+    "fr": [
+     1537636,
+     2570
+    ],
+    "en": [
+     1540606,
+     2770
+    ],
+    "wd": [
+     1543776,
+     7510
+    ],
+    "wp": [
+     [
+      1543776,
+      3610
+     ],
+     [
+      1547786,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and he calculated that he would reach the forks at half-past twelve.",
+   "en": "և հաշվեց, որ ճյուղավորմանը կհասնի տասներկուսն անց կեսին։",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "calculated",
+     "հաշվեց"
+    ],
+    [
+     "half-past twelve",
+     "տասներկուսն անց կես"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "en": "audio/s088_en.mp3",
+    "wd": "audio/s088_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "en": 4370,
+    "wd": 7830
+   },
+   "bank": {
+    "fr": [
+     1551686,
+     4610
+    ],
+    "en": [
+     1556696,
+     4370
+    ],
+    "wd": [
+     1561466,
+     7830
+    ],
+    "wp": [
+     [
+      1561466,
+      2770
+     ],
+     [
+      1564636,
+      3810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He decided to celebrate by eating his lunch there.",
+   "en": "Նա որոշեց դա նշել՝ այնտեղ ճաշելով։",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "celebrate",
+     "նշել, տոնել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "en": "audio/s089_en.mp3",
+    "wd": "audio/s089_wd.mp3"
+   },
+   "ms": {
+    "fr": 3500,
+    "en": 3330,
+    "wd": 3980
+   },
+   "bank": {
+    "fr": [
+     1569696,
+     3500
+    ],
+    "en": [
+     1573596,
+     3330
+    ],
+    "wd": [
+     1577326,
+     3980
+    ],
+    "wp": [
+     [
+      1577326,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The dog dropped in again at his heels, its tail drooping.",
+   "en": "Շունը նորից ընկավ նրա կրունկների հետևից՝ պոչը կախ գցած։",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "dropped in",
+     "հետևից ընկավ"
+    ],
+    [
+     "drooping",
+     "կախ ընկած"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s090_fr.mp3",
+    "en": "audio/s090_en.mp3",
+    "wd": "audio/s090_wd.mp3"
+   },
+   "ms": {
+    "fr": 4240,
+    "en": 5170,
+    "wd": 6855
+   },
+   "bank": {
+    "fr": [
+     1581706,
+     4240
+    ],
+    "en": [
+     1586346,
+     5170
+    ],
+    "wd": [
+     1591916,
+     6855
+    ],
+    "wp": [
+     [
+      1591916,
+      2810
+     ],
+     [
+      1595126,
+      2795
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "No man had travelled that silent creek in a month.",
+   "en": "Մեկ ամիս էր, ինչ ոչ ոք չէր անցել այդ լուռ գետակով։",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "silent",
+     "լուռ"
+    ],
+    [
+     "in a month",
+     "մեկ ամսվա ընթացքում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s091_fr.mp3",
+    "en": "audio/s091_en.mp3",
+    "wd": "audio/s091_wd.mp3"
+   },
+   "ms": {
+    "fr": 3680,
+    "en": 4450,
+    "wd": 6960
+   },
+   "bank": {
+    "fr": [
+     1599171,
+     3680
+    ],
+    "en": [
+     1603251,
+     4450
+    ],
+    "wd": [
+     1608101,
+     6960
+    ],
+    "wp": [
+     [
+      1608101,
+      2250
+     ],
+     [
+      1610751,
+      3460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The man held steadily on. He was not much given to thinking.",
+   "en": "Մարդը հաստատուն առաջ էր գնում։ Նա մտածելու շատ սովոր չէր։",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "held steadily on",
+     "հաստատուն առաջ էր գնում"
+    ],
+    [
+     "given to",
+     "հակված, սովոր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s092_fr.mp3",
+    "en": "audio/s092_en.mp3",
+    "wd": "audio/s092_wd.mp3"
+   },
+   "ms": {
+    "fr": 4620,
+    "en": 4850,
+    "wd": 8240
+   },
+   "bank": {
+    "fr": [
+     1615461,
+     4620
+    ],
+    "en": [
+     1620481,
+     4850
+    ],
+    "wd": [
+     1625731,
+     8240
+    ],
+    "wp": [
+     [
+      1625731,
+      3860
+     ],
+     [
+      1629991,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "So he went on chewing tobacco and growing his amber beard.",
+   "en": "Այդպես նա շարունակում էր ծխախոտ ծամել ու աճեցնել իր սաթե մորուքը։",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "went on",
+     "շարունակում էր"
+    ],
+    [
+     "amber",
+     "սաթե"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s093_fr.mp3",
+    "en": "audio/s093_en.mp3",
+    "wd": "audio/s093_wd.mp3"
+   },
+   "ms": {
+    "fr": 4360,
+    "en": 5490,
+    "wd": 6550
+   },
+   "bank": {
+    "fr": [
+     1634371,
+     4360
+    ],
+    "en": [
+     1639131,
+     5490
+    ],
+    "wd": [
+     1645021,
+     6550
+    ],
+    "wp": [
+     [
+      1645021,
+      2960
+     ],
+     [
+      1648381,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Once in a while he thought again that it was very cold,",
+   "en": "Ժամանակ առ ժամանակ նա նորից մտածում էր, որ շատ ցուրտ է,",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Once in a while",
+     "ժամանակ առ ժամանակ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s094_fr.mp3",
+    "en": "audio/s094_en.mp3",
+    "wd": "audio/s094_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "en": 4290,
+    "wd": 4860
+   },
+   "bank": {
+    "fr": [
+     1651971,
+     3570
+    ],
+    "en": [
+     1655941,
+     4290
+    ],
+    "wd": [
+     1660631,
+     4860
+    ],
+    "wp": [
+     [
+      1660631,
+      4010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and that he had never experienced such cold.",
+   "en": "և որ երբեք այդպիսի ցուրտ չէր զգացել։",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "experienced",
+     "զգացել, ապրել"
+    ],
+    [
+     "such",
+     "այդպիսի"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s095_fr.mp3",
+    "en": "audio/s095_en.mp3",
+    "wd": "audio/s095_wd.mp3"
+   },
+   "ms": {
+    "fr": 3420,
+    "en": 3490,
+    "wd": 7815
+   },
+   "bank": {
+    "fr": [
+     1665891,
+     3420
+    ],
+    "en": [
+     1669711,
+     3490
+    ],
+    "wd": [
+     1673601,
+     7815
+    ],
+    "wp": [
+     [
+      1673601,
+      3870
+     ],
+     [
+      1677871,
+      2695
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "As he walked, he rubbed his cheek-bones and nose.",
+   "en": "Քայլելիս նա շփում էր այտոսկրերն ու քիթը։",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "rubbed",
+     "շփում էր"
+    ],
+    [
+     "cheek-bones",
+     "այտոսկրեր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s096_fr.mp3",
+    "en": "audio/s096_en.mp3",
+    "wd": "audio/s096_wd.mp3"
+   },
+   "ms": {
+    "fr": 3510,
+    "en": 3410,
+    "wd": 6510
+   },
+   "bank": {
+    "fr": [
+     1681817,
+     3510
+    ],
+    "en": [
+     1685727,
+     3410
+    ],
+    "wd": [
+     1689537,
+     6510
+    ],
+    "wp": [
+     [
+      1689537,
+      2430
+     ],
+     [
+      1692367,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But the instant he stopped, his cheek-bones went numb,",
+   "en": "Բայց հենց որ դադարում էր, այտոսկրերը թմրում էին,",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "the instant",
+     "հենց որ"
+    ],
+    [
+     "went numb",
+     "թմրեցին"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s097_fr.mp3",
+    "en": "audio/s097_en.mp3",
+    "wd": "audio/s097_wd.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "en": 4290,
+    "wd": 6396
+   },
+   "bank": {
+    "fr": [
+     1696447,
+     3870
+    ],
+    "en": [
+     1700717,
+     4290
+    ],
+    "wd": [
+     1705407,
+     6396
+    ],
+    "wp": [
+     [
+      1705407,
+      2428
+     ],
+     [
+      1708235,
+      2717
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and the next instant the end of his nose went numb.",
+   "en": "իսկ հաջորդ ակնթարթին թմրում էր քթի ծայրը։",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "the next instant",
+     "հաջորդ ակնթարթին"
+    ],
+    [
+     "the end of his nose",
+     "քթի ծայրը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s098_fr.mp3",
+    "en": "audio/s098_en.mp3",
+    "wd": "audio/s098_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "en": 3650,
+    "wd": 8481
+   },
+   "bank": {
+    "fr": [
+     1712203,
+     3730
+    ],
+    "en": [
+     1716333,
+     3650
+    ],
+    "wd": [
+     1720383,
+     8481
+    ],
+    "wp": [
+     [
+      1720383,
+      3510
+     ],
+     [
+      1724293,
+      3721
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was sure to frost his cheeks; he knew that.",
+   "en": "Այտերն անպայման ցրտահարվելու էին, նա դա գիտեր։",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "was sure to",
+     "անպայման կ-"
+    ],
+    [
+     "frost his cheeks",
+     "այտերը ցրտահարել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s099_fr.mp3",
+    "en": "audio/s099_en.mp3",
+    "wd": "audio/s099_wd.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "en": 4231,
+    "wd": 8260
+   },
+   "bank": {
+    "fr": [
+     1729264,
+     3650
+    ],
+    "en": [
+     1733314,
+     4231
+    ],
+    "wd": [
+     1737946,
+     8260
+    ],
+    "wp": [
+     [
+      1737946,
+      3230
+     ],
+     [
+      1741576,
+      3780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But what were frosted cheeks? A bit painful, that was all.",
+   "en": "Բայց ի՞նչ են որ ցրտահարված այտերը։ Մի քիչ ցավոտ, ուրիշ ոչինչ։",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "frosted",
+     "ցրտահարված"
+    ],
+    [
+     "painful",
+     "ցավոտ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s100_fr.mp3",
+    "en": "audio/s100_en.mp3",
+    "wd": "audio/s100_wd.mp3"
+   },
+   "ms": {
+    "fr": 5150,
+    "en": 6290,
+    "wd": 6670
+   },
+   "bank": {
+    "fr": [
+     1746606,
+     5150
+    ],
+    "en": [
+     1752156,
+     6290
+    ],
+    "wd": [
+     1758846,
+     6670
+    ],
+    "wp": [
+     [
+      1758846,
+      3040
+     ],
+     [
+      1762286,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Empty as the man's mind was of thoughts, he was keenly observant.",
+   "en": "Որքան էլ մարդու միտքը դատարկ էր մտքերից, նա շատ դիտողունակ էր։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "Empty as",
+     "որքան էլ դատարկ"
+    ],
+    [
+     "keenly observant",
+     "շատ դիտողունակ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s101_fr.mp3",
+    "en": "audio/s101_en.mp3",
+    "wd": "audio/s101_wd.mp3"
+   },
+   "ms": {
+    "fr": 4590,
+    "en": 5090,
+    "wd": 7829
+   },
+   "bank": {
+    "fr": [
+     1765916,
+     4590
+    ],
+    "en": [
+     1770906,
+     5090
+    ],
+    "wd": [
+     1776396,
+     7829
+    ],
+    "wp": [
+     [
+      1776396,
+      3289
+     ],
+     [
+      1780085,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Always he sharply noted where he placed his feet.",
+   "en": "Միշտ ուշադիր նայում էր, թե ուր է դնում ոտքերը։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "sharply noted",
+     "ուշադիր նկատում էր"
+    ],
+    [
+     "placed",
+     "դնում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s102_fr.mp3",
+    "en": "audio/s102_en.mp3",
+    "wd": "audio/s102_wd.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "en": 3970,
+    "wd": 6970
+   },
+   "bank": {
+    "fr": [
+     1784626,
+     3700
+    ],
+    "en": [
+     1788726,
+     3970
+    ],
+    "wd": [
+     1793096,
+     6970
+    ],
+    "wp": [
+     [
+      1793096,
+      3630
+     ],
+     [
+      1797126,
+      2090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Once, coming around a bend, he shied suddenly, like a startled horse,",
+   "en": "Մի անգամ, ոլորանը շրջանցելիս, նա հանկարծ ետ ցատկեց, ինչպես վախեցած ձի,",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "bend",
+     "ոլորան"
+    ],
+    [
+     "shied",
+     "(վախից) ետ ցատկեց"
+    ],
+    [
+     "startled",
+     "վախեցած"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s103_fr.mp3",
+    "en": "audio/s103_en.mp3",
+    "wd": "audio/s103_wd.mp3"
+   },
+   "ms": {
+    "fr": 5350,
+    "en": 6930,
+    "wd": 10180
+   },
+   "bank": {
+    "fr": [
+     1800466,
+     5350
+    ],
+    "en": [
+     1806216,
+     6930
+    ],
+    "wd": [
+     1813546,
+     10180
+    ],
+    "wp": [
+     [
+      1813546,
+      2510
+     ],
+     [
+      1816456,
+      3530
+     ],
+     [
+      1820386,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and went several steps back along the trail.",
+   "en": "ու մի քանի քայլ ետ գնաց արահետով։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "several steps",
+     "մի քանի քայլ"
+    ],
+    [
+     "back along",
+     "ետ՝ երկայնքով"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s104_fr.mp3",
+    "en": "audio/s104_en.mp3",
+    "wd": "audio/s104_wd.mp3"
+   },
+   "ms": {
+    "fr": 3050,
+    "en": 2930,
+    "wd": 7512
+   },
+   "bank": {
+    "fr": [
+     1824126,
+     3050
+    ],
+    "en": [
+     1827576,
+     2930
+    ],
+    "wd": [
+     1830906,
+     7512
+    ],
+    "wp": [
+     [
+      1830906,
+      3170
+     ],
+     [
+      1834476,
+      3092
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The creek, he knew, was frozen clear to the bottom.",
+   "en": "Գետակը, նա գիտեր, սառել էր մինչև հատակը։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "clear to the bottom",
+     "մինչև հատակը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s105_fr.mp3",
+    "en": "audio/s105_en.mp3",
+    "wd": "audio/s105_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "en": 4683,
+    "wd": 4310
+   },
+   "bank": {
+    "fr": [
+     1838818,
+     3750
+    ],
+    "en": [
+     1842968,
+     4683
+    ],
+    "wd": [
+     1848052,
+     4310
+    ],
+    "wp": [
+     [
+      1848052,
+      3460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But he knew also that there were springs",
+   "en": "Բայց գիտեր նաև, որ կային աղբյուրներ,",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "springs",
+     "աղբյուրներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s106_fr.mp3",
+    "en": "audio/s106_en.mp3",
+    "wd": "audio/s106_wd.mp3"
+   },
+   "ms": {
+    "fr": 2850,
+    "en": 3170,
+    "wd": 3340
+   },
+   "bank": {
+    "fr": [
+     1852762,
+     2850
+    ],
+    "en": [
+     1856012,
+     3170
+    ],
+    "wd": [
+     1859582,
+     3340
+    ],
+    "wp": [
+     [
+      1859582,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "that bubbled out from the hillsides and ran under the snow.",
+   "en": "որ բխում էին լանջերից ու հոսում ձյան տակով։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "bubbled out",
+     "բխում էին"
+    ],
+    [
+     "hillsides",
+     "լանջեր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s107_fr.mp3",
+    "en": "audio/s107_en.mp3",
+    "wd": "audio/s107_wd.mp3"
+   },
+   "ms": {
+    "fr": 3560,
+    "en": 3890,
+    "wd": 6470
+   },
+   "bank": {
+    "fr": [
+     1863322,
+     3560
+    ],
+    "en": [
+     1867282,
+     3890
+    ],
+    "wd": [
+     1871572,
+     6470
+    ],
+    "wp": [
+     [
+      1871572,
+      2490
+     ],
+     [
+      1874462,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Even the coldest snaps never froze these springs. They were traps.",
+   "en": "Նույնիսկ ամենասաստիկ ցրտերը չէին սառեցնում այդ աղբյուրները։ Դրանք թակարդներ էին։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "coldest snaps",
+     "ամենասաստիկ ցրտեր"
+    ],
+    [
+     "traps",
+     "թակարդներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s108_fr.mp3",
+    "en": "audio/s108_en.mp3",
+    "wd": "audio/s108_wd.mp3"
+   },
+   "ms": {
+    "fr": 4970,
+    "en": 6770,
+    "wd": 7900
+   },
+   "bank": {
+    "fr": [
+     1878442,
+     4970
+    ],
+    "en": [
+     1883812,
+     6770
+    ],
+    "wd": [
+     1890982,
+     7900
+    ],
+    "wp": [
+     [
+      1890982,
+      3870
+     ],
+     [
+      1895252,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "They hid pools of water under the snow,",
+   "en": "Դրանք ձյան տակ ջրի լճակներ էին թաքցնում՝",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "pools",
+     "լճակներ"
+    ],
+    [
+     "hid",
+     "թաքցնում էին"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s109_fr.mp3",
+    "en": "audio/s109_en.mp3",
+    "wd": "audio/s109_wd.mp3"
+   },
+   "ms": {
+    "fr": 2820,
+    "en": 3490,
+    "wd": 6620
+   },
+   "bank": {
+    "fr": [
+     1899282,
+     2820
+    ],
+    "en": [
+     1902502,
+     3490
+    ],
+    "wd": [
+     1906392,
+     6620
+    ],
+    "wp": [
+     [
+      1906392,
+      2630
+     ],
+     [
+      1909422,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "three inches deep, or three feet.",
+   "en": "երեք դյույմ խորությամբ կամ երեք ֆուտ։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "three inches deep",
+     "երեք դյույմ խորությամբ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s110_fr.mp3",
+    "en": "audio/s110_en.mp3",
+    "wd": "audio/s110_wd.mp3"
+   },
+   "ms": {
+    "fr": 2790,
+    "en": 3730,
+    "wd": 4700
+   },
+   "bank": {
+    "fr": [
+     1913412,
+     2790
+    ],
+    "en": [
+     1916602,
+     3730
+    ],
+    "wd": [
+     1920732,
+     4700
+    ],
+    "wp": [
+     [
+      1920732,
+      3850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A thin skin of ice covered them, and snow covered the ice.",
+   "en": "Դրանք ծածկված էին սառույցի բարակ շերտով, իսկ սառույցը՝ ձյունով։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "skin of ice",
+     "սառույցի բարակ շերտ"
+    ],
+    [
+     "covered",
+     "ծածկում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s111_fr.mp3",
+    "en": "audio/s111_en.mp3",
+    "wd": "audio/s111_wd.mp3"
+   },
+   "ms": {
+    "fr": 5060,
+    "en": 5330,
+    "wd": 7250
+   },
+   "bank": {
+    "fr": [
+     1925832,
+     5060
+    ],
+    "en": [
+     1931292,
+     5330
+    ],
+    "wd": [
+     1937023,
+     7250
+    ],
+    "wp": [
+     [
+      1937023,
+      3830
+     ],
+     [
+      1941253,
+      2170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "A man who broke through could get wet to the waist.",
+   "en": "Ով ճեղքեր ու ընկներ, կարող էր թրջվել մինչև գոտկատեղը։",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "broke through",
+     "ճեղքեց ու ընկավ"
+    ],
+    [
+     "to the waist",
+     "մինչև գոտկատեղը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s112_fr.mp3",
+    "en": "audio/s112_en.mp3",
+    "wd": "audio/s112_wd.mp3"
+   },
+   "ms": {
+    "fr": 3420,
+    "en": 4690,
+    "wd": 7270
+   },
+   "bank": {
+    "fr": [
+     1944673,
+     3420
+    ],
+    "en": [
+     1948493,
+     4690
+    ],
+    "wd": [
+     1953583,
+     7270
+    ],
+    "wp": [
+     [
+      1953583,
+      3130
+     ],
+     [
+      1957113,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "That was why he had shied in such panic.",
+   "en": "Ահա թե ինչու էր նա այդպես խուճապով ետ ցատկել։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "That was why",
+     "ահա թե ինչու"
+    ],
+    [
+     "panic",
+     "խուճապ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s113_fr.mp3",
+    "en": "audio/s113_en.mp3",
+    "wd": "audio/s113_wd.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "en": 3730,
+    "wd": 6454
+   },
+   "bank": {
+    "fr": [
+     1961253,
+     3250
+    ],
+    "en": [
+     1964903,
+     3730
+    ],
+    "wd": [
+     1969033,
+     6454
+    ],
+    "wp": [
+     [
+      1969033,
+      3060
+     ],
+     [
+      1972493,
+      2144
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He had felt the give under his feet,",
+   "en": "Նա զգացել էր, թե ինչպես է ոտքերի տակ ինչ-որ բան տեղի տալիս,",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "the give",
+     "տեղի տալը, ճկվելը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s114_fr.mp3",
+    "en": "audio/s114_en.mp3",
+    "wd": "audio/s114_wd.mp3"
+   },
+   "ms": {
+    "fr": 2570,
+    "en": 5010,
+    "wd": 4200
+   },
+   "bank": {
+    "fr": [
+     1975887,
+     2570
+    ],
+    "en": [
+     1978857,
+     5010
+    ],
+    "wd": [
+     1984267,
+     4200
+    ],
+    "wp": [
+     [
+      1984267,
+      3350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and heard the crackle of a hidden skin of ice.",
+   "en": "և լսել էր թաքնված սառցաշերտի ճարճատյունը։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "hidden",
+     "թաքնված"
+    ],
+    [
+     "crackle",
+     "ճարճատյուն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s115_fr.mp3",
+    "en": "audio/s115_en.mp3",
+    "wd": "audio/s115_wd.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "en": 3730,
+    "wd": 6438
+   },
+   "bank": {
+    "fr": [
+     1988867,
+     3370
+    ],
+    "en": [
+     1992637,
+     3730
+    ],
+    "wd": [
+     1996767,
+     6438
+    ],
+    "wp": [
+     [
+      1996767,
+      2560
+     ],
+     [
+      1999727,
+      2627
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "To get his feet wet in such a temperature meant danger.",
+   "en": "Այդպիսի ջերմաստիճանում ոտքերը թրջելը վտանգ էր նշանակում։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "get his feet wet",
+     "ոտքերը թրջել"
+    ],
+    [
+     "danger",
+     "վտանգ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s116_fr.mp3",
+    "en": "audio/s116_en.mp3",
+    "wd": "audio/s116_wd.mp3"
+   },
+   "ms": {
+    "fr": 3590,
+    "en": 4930,
+    "wd": 6840
+   },
+   "bank": {
+    "fr": [
+     2003605,
+     3590
+    ],
+    "en": [
+     2007595,
+     4930
+    ],
+    "wd": [
+     2012925,
+     6840
+    ],
+    "wp": [
+     [
+      2012925,
+      3420
+     ],
+     [
+      2016745,
+      2170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "At the very least, it meant delay.",
+   "en": "Առնվազն՝ ուշացում։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "At the very least",
+     "առնվազն"
+    ],
+    [
+     "delay",
+     "ուշացում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s117_fr.mp3",
+    "en": "audio/s117_en.mp3",
+    "wd": "audio/s117_wd.mp3"
+   },
+   "ms": {
+    "fr": 2700,
+    "en": 2450,
+    "wd": 6860
+   },
+   "bank": {
+    "fr": [
+     2020165,
+     2700
+    ],
+    "en": [
+     2023265,
+     2450
+    ],
+    "wd": [
+     2026115,
+     6860
+    ],
+    "wp": [
+     [
+      2026115,
+      3160
+     ],
+     [
+      2029675,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He would have to stop and build a fire,",
+   "en": "Նա ստիպված կլիներ կանգ առնել ու կրակ վառել",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "would have to",
+     "ստիպված կլիներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s118_fr.mp3",
+    "en": "audio/s118_en.mp3",
+    "wd": "audio/s118_wd.mp3"
+   },
+   "ms": {
+    "fr": 2580,
+    "en": 3810,
+    "wd": 3950
+   },
+   "bank": {
+    "fr": [
+     2033375,
+     2580
+    ],
+    "en": [
+     2036355,
+     3810
+    ],
+    "wd": [
+     2040565,
+     3950
+    ],
+    "wp": [
+     [
+      2040565,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and bare his feet while he dried his socks and moccasins.",
+   "en": "և ոտքերը մերկացնել, մինչ գուլպաներն ու մոկասիններն էր չորացնում։",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "moccasins",
+     "en": "մոկասիններ (կաշվե փափուկ կոշիկներ)"
+    }
+   ],
+   "words": [
+    [
+     "bare his feet",
+     "ոտքերը մերկացնել"
+    ],
+    [
+     "dried",
+     "չորացնում էր"
+    ],
+    [
+     "moccasins",
+     "մոկասիններ (կաշվե փափուկ կոշիկներ)"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s119_fr.mp3",
+    "en": "audio/s119_en.mp3",
+    "gl": "audio/s119_gl.mp3",
+    "wd": "audio/s119_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "en": 6280,
+    "gl": 5010,
+    "wd": 11850
+   },
+   "bank": {
+    "fr": [
+     2044915,
+     3990
+    ],
+    "en": [
+     2049305,
+     6280
+    ],
+    "gl": [
+     2055985,
+     5010
+    ],
+    "wd": [
+     2061395,
+     11850
+    ],
+    "wp": [
+     [
+      2061395,
+      3130
+     ],
+     [
+      2064925,
+      2660
+     ],
+     [
+      2067985,
+      4410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He studied the creek-bed, then went around to the left,",
+   "en": "Նա զննեց գետակի հունը, հետո շրջանցեց ձախից՝",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "studied",
+     "զննեց"
+    ],
+    [
+     "creek-bed",
+     "գետակի հուն"
+    ],
+    [
+     "went around",
+     "շրջանցեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s120_fr.mp3",
+    "en": "audio/s120_en.mp3",
+    "wd": "audio/s120_wd.mp3"
+   },
+   "ms": {
+    "fr": 3890,
+    "en": 4290,
+    "wd": 9645
+   },
+   "bank": {
+    "fr": [
+     2073645,
+     3890
+    ],
+    "en": [
+     2077935,
+     4290
+    ],
+    "wd": [
+     2082625,
+     9645
+    ],
+    "wp": [
+     [
+      2082625,
+      2329
+     ],
+     [
+      2085355,
+      2775
+     ],
+     [
+      2088530,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "stepping carefully and testing the footing for each step.",
+   "en": "զգուշորեն քայլելով ու ստուգելով ամեն քայլի հենարանը։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "testing",
+     "ստուգելով"
+    ],
+    [
+     "footing",
+     "հենարան, ոտքի տակի գետինը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s121_fr.mp3",
+    "en": "audio/s121_en.mp3",
+    "wd": "audio/s121_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 4690,
+    "wd": 7560
+   },
+   "bank": {
+    "fr": [
+     2092670,
+     4019
+    ],
+    "en": [
+     2097090,
+     4690
+    ],
+    "wd": [
+     2102180,
+     7560
+    ],
+    "wp": [
+     [
+      2102180,
+      2530
+     ],
+     [
+      2105110,
+      3780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Once clear of the danger, he took a fresh chew of tobacco",
+   "en": "Վտանգից ազատվելով՝ նա ծխախոտի նոր պատառ դրեց բերանը",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Once clear of",
+     "-ից ազատվելով"
+    ],
+    [
+     "a fresh chew",
+     "ծամելու նոր պատառ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s122_fr.mp3",
+    "en": "audio/s122_en.mp3",
+    "wd": "audio/s122_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "en": 4770,
+    "wd": 7789
+   },
+   "bank": {
+    "fr": [
+     2110140,
+     4610
+    ],
+    "en": [
+     2115150,
+     4770
+    ],
+    "wd": [
+     2120320,
+     7789
+    ],
+    "wp": [
+     [
+      2120320,
+      3409
+     ],
+     [
+      2124129,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and swung along at his four-mile pace.",
+   "en": "ու թափով առաջ գնաց իր ժամում չորս մղոն արագությամբ։",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "swung along",
+     "թափով առաջ գնաց"
+    ],
+    [
+     "pace",
+     "արագություն, քայլք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s123_fr.mp3",
+    "en": "audio/s123_en.mp3",
+    "wd": "audio/s123_wd.mp3"
+   },
+   "ms": {
+    "fr": 3000,
+    "en": 4130,
+    "wd": 8391
+   },
+   "bank": {
+    "fr": [
+     2128510,
+     3000
+    ],
+    "en": [
+     2131910,
+     4130
+    ],
+    "wd": [
+     2136440,
+     8391
+    ],
+    "wp": [
+     [
+      2136440,
+      3600
+     ],
+     [
+      2140440,
+      3541
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "In the next two hours he came upon several similar traps.",
+   "en": "Հաջորդ երկու ժամում նա մի քանի նմանատիպ թակարդի հանդիպեց։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "came upon",
+     "հանդիպեց"
+    ],
+    [
+     "similar",
+     "նմանատիպ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s124_fr.mp3",
+    "en": "audio/s124_en.mp3",
+    "wd": "audio/s124_wd.mp3"
+   },
+   "ms": {
+    "fr": 3900,
+    "en": 5073,
+    "wd": 6588
+   },
+   "bank": {
+    "fr": [
+     2145231,
+     3900
+    ],
+    "en": [
+     2149531,
+     5073
+    ],
+    "wd": [
+     2155004,
+     6588
+    ],
+    "wp": [
+     [
+      2155004,
+      2748
+     ],
+     [
+      2158152,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Once, suspecting danger, he made the dog go on in front.",
+   "en": "Մի անգամ, վտանգ կասկածելով, նա շանը ստիպեց առջևից գնալ։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "suspecting",
+     "կասկածելով"
+    ],
+    [
+     "in front",
+     "առջևից"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s125_fr.mp3",
+    "en": "audio/s125_en.mp3",
+    "wd": "audio/s125_wd.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "en": 5010,
+    "wd": 6900
+   },
+   "bank": {
+    "fr": [
+     2161993,
+     5010
+    ],
+    "en": [
+     2167403,
+     5010
+    ],
+    "wd": [
+     2172813,
+     6900
+    ],
+    "wp": [
+     [
+      2172813,
+      2970
+     ],
+     [
+      2176183,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The dog did not want to go. It hung back",
+   "en": "Շունը չէր ուզում գնալ։ Այն ետ էր քաշվում,",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "hung back",
+     "ետ էր քաշվում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s126_fr.mp3",
+    "en": "audio/s126_en.mp3",
+    "wd": "audio/s126_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "en": 3970,
+    "wd": 3820
+   },
+   "bank": {
+    "fr": [
+     2180113,
+     3330
+    ],
+    "en": [
+     2183843,
+     3970
+    ],
+    "wd": [
+     2188213,
+     3820
+    ],
+    "wp": [
+     [
+      2188213,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "until the man pushed it forward,",
+   "en": "մինչև որ մարդը հրեց այն առաջ,",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "pushed",
+     "հրեց"
+    ],
+    [
+     "forward",
+     "առաջ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s127_fr.mp3",
+    "en": "audio/s127_en.mp3",
+    "wd": "audio/s127_wd.mp3"
+   },
+   "ms": {
+    "fr": 2510,
+    "en": 2930,
+    "wd": 5900
+   },
+   "bank": {
+    "fr": [
+     2192433,
+     2510
+    ],
+    "en": [
+     2195343,
+     2930
+    ],
+    "wd": [
+     2198673,
+     5900
+    ],
+    "wp": [
+     [
+      2198673,
+      2230
+     ],
+     [
+      2201303,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and then it went quickly across the white, unbroken surface.",
+   "en": "և հետո այն արագ անցավ սպիտակ, անխախտ մակերեսով։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "surface",
+     "մակերես"
+    ],
+    [
+     "unbroken",
+     "անխախտ, անվնաս"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s128_fr.mp3",
+    "en": "audio/s128_en.mp3",
+    "wd": "audio/s128_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "en": 4610,
+    "wd": 8296
+   },
+   "bank": {
+    "fr": [
+     2204973,
+     4300
+    ],
+    "en": [
+     2209673,
+     4610
+    ],
+    "wd": [
+     2214683,
+     8296
+    ],
+    "wp": [
+     [
+      2214683,
+      2616
+     ],
+     [
+      2217699,
+      4430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Suddenly it broke through, floundered to one side,",
+   "en": "Հանկարծ այն ճեղքեց ու ընկավ, թպրտաց դեպի մի կողմ",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "floundered",
+     "թպրտաց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s129_fr.mp3",
+    "en": "audio/s129_en.mp3",
+    "wd": "audio/s129_wd.mp3"
+   },
+   "ms": {
+    "fr": 4150,
+    "en": 4290,
+    "wd": 3315
+   },
+   "bank": {
+    "fr": [
+     2223379,
+     4150
+    ],
+    "en": [
+     2227929,
+     4290
+    ],
+    "wd": [
+     2232619,
+     3315
+    ],
+    "wp": [
+     [
+      2232619,
+      2465
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and got away to firmer footing.",
+   "en": "ու դուրս պրծավ ավելի ամուր տեղ։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "got away",
+     "դուրս պրծավ"
+    ],
+    [
+     "firmer",
+     "ավելի ամուր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s130_fr.mp3",
+    "en": "audio/s130_en.mp3",
+    "wd": "audio/s130_wd.mp3"
+   },
+   "ms": {
+    "fr": 2470,
+    "en": 2770,
+    "wd": 6950
+   },
+   "bank": {
+    "fr": [
+     2236335,
+     2470
+    ],
+    "en": [
+     2239205,
+     2770
+    ],
+    "wd": [
+     2242375,
+     6950
+    ],
+    "wp": [
+     [
+      2242375,
+      2940
+     ],
+     [
+      2245715,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It had wet its forefeet and legs,",
+   "en": "Այն թրջել էր առջևի թաթերն ու ոտքերը,",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "forefeet",
+     "առջևի թաթեր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s131_fr.mp3",
+    "en": "audio/s131_en.mp3",
+    "wd": "audio/s131_wd.mp3"
+   },
+   "ms": {
+    "fr": 2680,
+    "en": 3330,
+    "wd": 3830
+   },
+   "bank": {
+    "fr": [
+     2249725,
+     2680
+    ],
+    "en": [
+     2252805,
+     3330
+    ],
+    "wd": [
+     2256535,
+     3830
+    ],
+    "wp": [
+     [
+      2256535,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and almost at once the water on them turned to ice.",
+   "en": "և գրեթե անմիջապես դրանց վրայի ջուրը սառույց դարձավ։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "at once",
+     "անմիջապես"
+    ],
+    [
+     "turned to ice",
+     "սառույց դարձավ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s132_fr.mp3",
+    "en": "audio/s132_en.mp3",
+    "wd": "audio/s132_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "en": 4290,
+    "wd": 7470
+   },
+   "bank": {
+    "fr": [
+     2260765,
+     3730
+    ],
+    "en": [
+     2264895,
+     4290
+    ],
+    "wd": [
+     2269585,
+     7470
+    ],
+    "wp": [
+     [
+      2269585,
+      3030
+     ],
+     [
+      2273015,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It dropped down in the snow and began to bite out",
+   "en": "Այն պառկեց ձյան վրա ու սկսեց ատամներով պոկել",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "dropped down",
+     "պառկեց, ընկավ"
+    ],
+    [
+     "bite out",
+     "ատամներով պոկել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s133_fr.mp3",
+    "en": "audio/s133_en.mp3",
+    "wd": "audio/s133_wd.mp3"
+   },
+   "ms": {
+    "fr": 3690,
+    "en": 4290,
+    "wd": 7880
+   },
+   "bank": {
+    "fr": [
+     2277455,
+     3690
+    ],
+    "en": [
+     2281545,
+     4290
+    ],
+    "wd": [
+     2286235,
+     7880
+    ],
+    "wp": [
+     [
+      2286235,
+      3450
+     ],
+     [
+      2290085,
+      3180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "the ice that had formed between the toes.",
+   "en": "մատների արանքում գոյացած սառույցը։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "formed",
+     "գոյացել էր"
+    ],
+    [
+     "toes",
+     "(թաթի) մատներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s134_fr.mp3",
+    "en": "audio/s134_en.mp3",
+    "wd": "audio/s134_wd.mp3"
+   },
+   "ms": {
+    "fr": 3030,
+    "en": 3170,
+    "wd": 6622
+   },
+   "bank": {
+    "fr": [
+     2294515,
+     3030
+    ],
+    "en": [
+     2297945,
+     3170
+    ],
+    "wd": [
+     2301515,
+     6622
+    ],
+    "wp": [
+     [
+      2301515,
+      2730
+     ],
+     [
+      2304645,
+      2642
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "This was a matter of instinct.",
+   "en": "Դա բնազդի հարց էր։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "a matter of",
+     "-ի հարց"
+    ],
+    [
+     "instinct",
+     "բնազդ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s135_fr.mp3",
+    "en": "audio/s135_en.mp3",
+    "wd": "audio/s135_wd.mp3"
+   },
+   "ms": {
+    "fr": 2370,
+    "en": 2210,
+    "wd": 6296
+   },
+   "bank": {
+    "fr": [
+     2308538,
+     2370
+    ],
+    "en": [
+     2311308,
+     2210
+    ],
+    "wd": [
+     2313918,
+     6296
+    ],
+    "wp": [
+     [
+      2313918,
+      2580
+     ],
+     [
+      2316898,
+      2466
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "But the man knew. He took the mitten off his right hand",
+   "en": "Բայց մարդը գիտեր։ Նա հանեց աջ ձեռքի թաթմանը",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "took the mitten off",
+     "թաթմանը հանեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s136_fr.mp3",
+    "en": "audio/s136_en.mp3",
+    "wd": "audio/s136_wd.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "en": 4930,
+    "wd": 4373
+   },
+   "bank": {
+    "fr": [
+     2320614,
+     4059
+    ],
+    "en": [
+     2325074,
+     4930
+    ],
+    "wd": [
+     2330404,
+     4373
+    ],
+    "wp": [
+     [
+      2330404,
+      3523
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and helped tear out the bits of ice.",
+   "en": "ու օգնեց պոկել սառույցի կտորները։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "tear out",
+     "պոկել"
+    ],
+    [
+     "bits",
+     "կտորներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s137_fr.mp3",
+    "en": "audio/s137_en.mp3",
+    "wd": "audio/s137_wd.mp3"
+   },
+   "ms": {
+    "fr": 2690,
+    "en": 2850,
+    "wd": 5750
+   },
+   "bank": {
+    "fr": [
+     2335178,
+     2690
+    ],
+    "en": [
+     2338268,
+     2850
+    ],
+    "wd": [
+     2341518,
+     5750
+    ],
+    "wp": [
+     [
+      2341518,
+      2250
+     ],
+     [
+      2344168,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He did not expose his fingers more than a minute,",
+   "en": "Նա մատները մեկ րոպեից ավել բաց չպահեց,",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "expose",
+     "բաց պահել, մերկացնել"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s138_fr.mp3",
+    "en": "audio/s138_en.mp3",
+    "wd": "audio/s138_wd.mp3"
+   },
+   "ms": {
+    "fr": 3410,
+    "en": 3890,
+    "wd": 4730
+   },
+   "bank": {
+    "fr": [
+     2347668,
+     3410
+    ],
+    "en": [
+     2351478,
+     3890
+    ],
+    "wd": [
+     2355768,
+     4730
+    ],
+    "wp": [
+     [
+      2355768,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and was astonished at the swift numbness that struck them.",
+   "en": "և ապշեց դրանց պատած արագ թմրությունից։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "astonished",
+     "ապշեց"
+    ],
+    [
+     "swift",
+     "արագ"
+    ],
+    [
+     "numbness",
+     "թմրություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s139_fr.mp3",
+    "en": "audio/s139_en.mp3",
+    "wd": "audio/s139_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "en": 3410,
+    "wd": 9062
+   },
+   "bank": {
+    "fr": [
+     2360898,
+     3750
+    ],
+    "en": [
+     2365048,
+     3410
+    ],
+    "wd": [
+     2368858,
+     9062
+    ],
+    "wp": [
+     [
+      2368858,
+      2660
+     ],
+     [
+      2371918,
+      2162
+     ],
+     [
+      2374480,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It certainly was cold. He pulled on the mitten hastily,",
+   "en": "Իսկապես ցուրտ էր։ Նա շտապով հագավ թաթմանը",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "pulled on",
+     "հագավ"
+    ],
+    [
+     "hastily",
+     "շտապով"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s140_fr.mp3",
+    "en": "audio/s140_en.mp3",
+    "wd": "audio/s140_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "en": 4130,
+    "wd": 5910
+   },
+   "bank": {
+    "fr": [
+     2378320,
+     4070
+    ],
+    "en": [
+     2382790,
+     4130
+    ],
+    "wd": [
+     2387320,
+     5910
+    ],
+    "wp": [
+     [
+      2387320,
+      2329
+     ],
+     [
+      2390050,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and beat the hand savagely across his chest.",
+   "en": "ու ձեռքը կատաղի խփեց կրծքին։",
+   "para": 13,
+   "glosses": [],
+   "words": [
+    [
+     "savagely",
+     "կատաղի"
+    ],
+    [
+     "chest",
+     "կուրծք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s141_fr.mp3",
+    "en": "audio/s141_en.mp3",
+    "wd": "audio/s141_wd.mp3"
+   },
+   "ms": {
+    "fr": 3440,
+    "en": 3010,
+    "wd": 6257
+   },
+   "bank": {
+    "fr": [
+     2393630,
+     3440
+    ],
+    "en": [
+     2397470,
+     3010
+    ],
+    "wd": [
+     2400880,
+     6257
+    ],
+    "wp": [
+     [
+      2400880,
+      2538
+     ],
+     [
+      2403818,
+      2468
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "At twelve o'clock the day was at its brightest.",
+   "en": "Ժամը տասներկուսին օրն իր ամենապայծառ պահին էր։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "at its brightest",
+     "ամենապայծառ պահին"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s142_fr.mp3",
+    "en": "audio/s142_en.mp3",
+    "wd": "audio/s142_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "en": 4130,
+    "wd": 4440
+   },
+   "bank": {
+    "fr": [
+     2407537,
+     3450
+    ],
+    "en": [
+     2411387,
+     4130
+    ],
+    "wd": [
+     2415917,
+     4440
+    ],
+    "wp": [
+     [
+      2415917,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Yet the sun was too far south to clear the horizon.",
+   "en": "Եվ սակայն արևն այնքան հարավում էր, որ չէր կարողանում հորիզոնից վեր բարձրանալ։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "Yet",
+     "սակայն"
+    ],
+    [
+     "clear the horizon",
+     "հորիզոնից վեր բարձրանալ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s143_fr.mp3",
+    "en": "audio/s143_en.mp3",
+    "wd": "audio/s143_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "en": 5730,
+    "wd": 7893
+   },
+   "bank": {
+    "fr": [
+     2420757,
+     3580
+    ],
+    "en": [
+     2424737,
+     5730
+    ],
+    "wd": [
+     2430867,
+     7893
+    ],
+    "wp": [
+     [
+      2430867,
+      2420
+     ],
+     [
+      2433687,
+      4223
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "At noon he walked under a clear sky, and cast no shadow.",
+   "en": "Կեսօրին նա քայլում էր պարզ երկնքի տակ ու ստվեր չէր գցում։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "at noon",
+     "կեսօրին"
+    ],
+    [
+     "cast no shadow",
+     "ստվեր չէր գցում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s144_fr.mp3",
+    "en": "audio/s144_en.mp3",
+    "wd": "audio/s144_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "en": 4530,
+    "wd": 7473
+   },
+   "bank": {
+    "fr": [
+     2439161,
+     4400
+    ],
+    "en": [
+     2443961,
+     4530
+    ],
+    "wd": [
+     2448891,
+     7473
+    ],
+    "wp": [
+     [
+      2448891,
+      2520
+     ],
+     [
+      2451811,
+      3703
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "At half-past twelve, to the minute, he arrived at the forks.",
+   "en": "Տասներկուսն անց կեսին՝ րոպե առ րոպե, նա հասավ ճյուղավորմանը։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "to the minute",
+     "րոպե առ րոպե, ճշգրիտ"
+    ],
+    [
+     "arrived",
+     "հասավ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s145_fr.mp3",
+    "en": "audio/s145_en.mp3",
+    "wd": "audio/s145_wd.mp3"
+   },
+   "ms": {
+    "fr": 4480,
+    "en": 5570,
+    "wd": 7670
+   },
+   "bank": {
+    "fr": [
+     2456764,
+     4480
+    ],
+    "en": [
+     2461644,
+     5570
+    ],
+    "wd": [
+     2467614,
+     7670
+    ],
+    "wp": [
+     [
+      2467614,
+      3990
+     ],
+     [
+      2472004,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He was pleased at the speed he had made.",
+   "en": "Նա գոհ էր իր արագությունից։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "pleased",
+     "գոհ"
+    ],
+    [
+     "speed",
+     "արագություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s146_fr.mp3",
+    "en": "audio/s146_en.mp3",
+    "wd": "audio/s146_wd.mp3"
+   },
+   "ms": {
+    "fr": 2770,
+    "en": 2610,
+    "wd": 5844
+   },
+   "bank": {
+    "fr": [
+     2475684,
+     2770
+    ],
+    "en": [
+     2478854,
+     2610
+    ],
+    "wd": [
+     2481864,
+     5844
+    ],
+    "wp": [
+     [
+      2481864,
+      2270
+     ],
+     [
+      2484534,
+      2324
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He unbuttoned his jacket and shirt and took out his lunch.",
+   "en": "Նա արձակեց բաճկոնի ու վերնաշապիկի կոճակները և հանեց ճաշը։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "unbuttoned",
+     "կոճակներն արձակեց"
+    ],
+    [
+     "took out",
+     "հանեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s147_fr.mp3",
+    "en": "audio/s147_en.mp3",
+    "wd": "audio/s147_wd.mp3"
+   },
+   "ms": {
+    "fr": 3980,
+    "en": 5490,
+    "wd": 7176
+   },
+   "bank": {
+    "fr": [
+     2488108,
+     3980
+    ],
+    "en": [
+     2492488,
+     5490
+    ],
+    "wd": [
+     2498378,
+     7176
+    ],
+    "wp": [
+     [
+      2498378,
+      3486
+     ],
+     [
+      2502264,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "It took no more than a quarter of a minute,",
+   "en": "Դա տևեց ոչ ավելի, քան քառորդ րոպե,",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "a quarter of a minute",
+     "քառորդ րոպե"
+    ],
+    [
+     "no more than",
+     "ոչ ավելի, քան"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s148_fr.mp3",
+    "en": "audio/s148_en.mp3",
+    "wd": "audio/s148_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "en": 3650,
+    "wd": 7360
+   },
+   "bank": {
+    "fr": [
+     2505955,
+     2810
+    ],
+    "en": [
+     2509165,
+     3650
+    ],
+    "wd": [
+     2513215,
+     7360
+    ],
+    "wp": [
+     [
+      2513215,
+      3140
+     ],
+     [
+      2516755,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "yet in that brief moment the numbness seized his bare fingers.",
+   "en": "բայց այդ կարճ պահին թմրությունը պատեց նրա մերկ մատները։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "brief",
+     "կարճ"
+    ],
+    [
+     "seized",
+     "բռնեց, պատեց"
+    ],
+    [
+     "bare",
+     "մերկ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s149_fr.mp3",
+    "en": "audio/s149_en.mp3",
+    "wd": "audio/s149_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "en": 4130,
+    "wd": 9180
+   },
+   "bank": {
+    "fr": [
+     2520975,
+     4510
+    ],
+    "en": [
+     2525885,
+     4130
+    ],
+    "wd": [
+     2530415,
+     9180
+    ],
+    "wp": [
+     [
+      2530415,
+      2010
+     ],
+     [
+      2532825,
+      3170
+     ],
+     [
+      2536395,
+      2350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He did not put the mitten on. Instead,",
+   "en": "Նա թաթմանը չհագավ։ Փոխարենը",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "put the mitten on",
+     "թաթմանը հագնել"
+    ],
+    [
+     "Instead",
+     "փոխարենը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s150_fr.mp3",
+    "en": "audio/s150_en.mp3",
+    "wd": "audio/s150_wd.mp3"
+   },
+   "ms": {
+    "fr": 3330,
+    "en": 3634,
+    "wd": 7160
+   },
+   "bank": {
+    "fr": [
+     2539995,
+     3330
+    ],
+    "en": [
+     2543725,
+     3634
+    ],
+    "wd": [
+     2547760,
+     7160
+    ],
+    "wp": [
+     [
+      2547760,
+      3310
+     ],
+     [
+      2551470,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "he struck his fingers a dozen sharp blows against his leg.",
+   "en": "մատներով մի տասնյակ ուժեղ հարված հասցրեց ոտքին։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "a dozen",
+     "մի տասնյակ"
+    ],
+    [
+     "blows",
+     "հարվածներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s151_fr.mp3",
+    "en": "audio/s151_en.mp3",
+    "wd": "audio/s151_wd.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "en": 3890,
+    "wd": 6630
+   },
+   "bank": {
+    "fr": [
+     2555320,
+     3740
+    ],
+    "en": [
+     2559460,
+     3890
+    ],
+    "wd": [
+     2563750,
+     6630
+    ],
+    "wp": [
+     [
+      2563750,
+      2650
+     ],
+     [
+      2566800,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Then he sat down on a snow-covered log to eat.",
+   "en": "Հետո նստեց ձյունածածկ մի գերանի վրա՝ ուտելու։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "snow-covered",
+     "ձյունածածկ"
+    ],
+    [
+     "log",
+     "գերան"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s152_fr.mp3",
+    "en": "audio/s152_en.mp3",
+    "wd": "audio/s152_wd.mp3"
+   },
+   "ms": {
+    "fr": 3740,
+    "en": 4210,
+    "wd": 6862
+   },
+   "bank": {
+    "fr": [
+     2570780,
+     3740
+    ],
+    "en": [
+     2574920,
+     4210
+    ],
+    "wd": [
+     2579530,
+     6862
+    ],
+    "wp": [
+     [
+      2579530,
+      3000
+     ],
+     [
+      2582930,
+      2612
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "The sting in his fingers stopped so quickly that he was startled.",
+   "en": "Մատների ծակծկոցն այնքան արագ անցավ, որ նա վախեցավ։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "sting",
+     "ծակծկոց, խայթ"
+    ],
+    [
+     "startled",
+     "վախեցավ, ցնցվեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s153_fr.mp3",
+    "en": "audio/s153_en.mp3",
+    "wd": "audio/s153_wd.mp3"
+   },
+   "ms": {
+    "fr": 3920,
+    "en": 4850,
+    "wd": 7670
+   },
+   "bank": {
+    "fr": [
+     2586792,
+     3920
+    ],
+    "en": [
+     2591112,
+     4850
+    ],
+    "wd": [
+     2596362,
+     7670
+    ],
+    "wp": [
+     [
+      2596362,
+      3130
+     ],
+     [
+      2599892,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He beat the fingers again and put them back in the mitten.",
+   "en": "Նա նորից խփեց մատներին ու դրանք ետ դրեց թաթմանի մեջ։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "beat",
+     "խփեց"
+    ],
+    [
+     "put them back",
+     "ետ դրեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s154_fr.mp3",
+    "en": "audio/s154_en.mp3",
+    "wd": "audio/s154_wd.mp3"
+   },
+   "ms": {
+    "fr": 4090,
+    "en": 4370,
+    "wd": 6250
+   },
+   "bank": {
+    "fr": [
+     2604432,
+     4090
+    ],
+    "en": [
+     2608922,
+     4370
+    ],
+    "wd": [
+     2613692,
+     6250
+    ],
+    "wp": [
+     [
+      2613692,
+      2350
+     ],
+     [
+      2616442,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Then he bared the other hand for eating.",
+   "en": "Հետո մերկացրեց մյուս ձեռքը՝ ուտելու համար։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "bared",
+     "մերկացրեց"
+    ],
+    [
+     "the other hand",
+     "մյուս ձեռքը"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s155_fr.mp3",
+    "en": "audio/s155_en.mp3",
+    "wd": "audio/s155_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "en": 3810,
+    "wd": 6640
+   },
+   "bank": {
+    "fr": [
+     2620342,
+     2530
+    ],
+    "en": [
+     2623272,
+     3810
+    ],
+    "wd": [
+     2627482,
+     6640
+    ],
+    "wp": [
+     [
+      2627482,
+      2410
+     ],
+     [
+      2630292,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He tried to take a mouthful, but the ice-muzzle prevented it.",
+   "en": "Փորձեց մի պատառ կծել, բայց սառցե դնչկալը խանգարեց։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "mouthful",
+     "բերանով պատառ"
+    ],
+    [
+     "prevented",
+     "խանգարեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s156_fr.mp3",
+    "en": "audio/s156_en.mp3",
+    "wd": "audio/s156_wd.mp3"
+   },
+   "ms": {
+    "fr": 4420,
+    "en": 4770,
+    "wd": 6990
+   },
+   "bank": {
+    "fr": [
+     2634522,
+     4420
+    ],
+    "en": [
+     2639342,
+     4770
+    ],
+    "wd": [
+     2644512,
+     6990
+    ],
+    "wp": [
+     [
+      2644512,
+      2990
+     ],
+     [
+      2647902,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He had forgotten to build a fire and thaw out.",
+   "en": "Նա մոռացել էր կրակ վառել ու հալեցնել սառույցը։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "had forgotten",
+     "մոռացել էր"
+    ],
+    [
+     "thaw out",
+     "հալեցնել, տաքանալ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s157_fr.mp3",
+    "en": "audio/s157_en.mp3",
+    "wd": "audio/s157_wd.mp3"
+   },
+   "ms": {
+    "fr": 3240,
+    "en": 3730,
+    "wd": 7680
+   },
+   "bank": {
+    "fr": [
+     2651902,
+     3240
+    ],
+    "en": [
+     2655542,
+     3730
+    ],
+    "wd": [
+     2659672,
+     7680
+    ],
+    "wp": [
+     [
+      2659672,
+      2810
+     ],
+     [
+      2662882,
+      3620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He chuckled at his foolishness,",
+   "en": "Նա ինքն իրեն ծիծաղեց իր հիմարության վրա,",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "chuckled",
+     "ինքն իրեն ծիծաղեց"
+    ],
+    [
+     "foolishness",
+     "հիմարություն"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s158_fr.mp3",
+    "en": "audio/s158_en.mp3",
+    "wd": "audio/s158_wd.mp3"
+   },
+   "ms": {
+    "fr": 2560,
+    "en": 3410,
+    "wd": 7330
+   },
+   "bank": {
+    "fr": [
+     2667752,
+     2560
+    ],
+    "en": [
+     2670712,
+     3410
+    ],
+    "wd": [
+     2674522,
+     7330
+    ],
+    "wp": [
+     [
+      2674522,
+      3150
+     ],
+     [
+      2678072,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and as he chuckled, he noticed the numbness creeping into his fingers.",
+   "en": "և ծիծաղելիս նկատեց, թե ինչպես է թմրությունը սողոսկում մատների մեջ։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "creeping",
+     "սողոսկելով"
+    ],
+    [
+     "noticed",
+     "նկատեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s159_fr.mp3",
+    "en": "audio/s159_en.mp3",
+    "wd": "audio/s159_wd.mp3"
+   },
+   "ms": {
+    "fr": 4800,
+    "en": 6050,
+    "wd": 6598
+   },
+   "bank": {
+    "fr": [
+     2682252,
+     4800
+    ],
+    "en": [
+     2687452,
+     6050
+    ],
+    "wd": [
+     2693902,
+     6598
+    ],
+    "wp": [
+     [
+      2693902,
+      2700
+     ],
+     [
+      2697002,
+      2648
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He also noticed that the stinging in his toes",
+   "en": "Նկատեց նաև, որ ոտքի մատների ծակծկոցը,",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "stinging",
+     "ծակծկոց"
+    ],
+    [
+     "toes",
+     "ոտքի մատներ"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s160_fr.mp3",
+    "en": "audio/s160_en.mp3",
+    "wd": "audio/s160_wd.mp3"
+   },
+   "ms": {
+    "fr": 3190,
+    "en": 3970,
+    "wd": 6770
+   },
+   "bank": {
+    "fr": [
+     2700901,
+     3190
+    ],
+    "en": [
+     2704491,
+     3970
+    ],
+    "wd": [
+     2708861,
+     6770
+    ],
+    "wp": [
+     [
+      2708861,
+      2690
+     ],
+     [
+      2711951,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "which had come when he sat down, was already passing away.",
+   "en": "որ սկսվել էր նստելիս, արդեն անցնում էր։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "passing away",
+     "անցնում էր, մարում էր"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s161_fr.mp3",
+    "en": "audio/s161_en.mp3",
+    "wd": "audio/s161_wd.mp3"
+   },
+   "ms": {
+    "fr": 4590,
+    "en": 3570,
+    "wd": 4650
+   },
+   "bank": {
+    "fr": [
+     2716031,
+     4590
+    ],
+    "en": [
+     2721021,
+     3570
+    ],
+    "wd": [
+     2724991,
+     4650
+    ],
+    "wp": [
+     [
+      2724991,
+      3800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He wondered whether the toes were warm or numb.",
+   "en": "Նա մտածեց՝ արդյոք մատները տաք են, թե թմրած։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "wondered",
+     "մտածեց, ինքն իրեն հարց տվեց"
+    ],
+    [
+     "whether",
+     "արդյոք"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s162_fr.mp3",
+    "en": "audio/s162_en.mp3",
+    "wd": "audio/s162_wd.mp3"
+   },
+   "ms": {
+    "fr": 3210,
+    "en": 4770,
+    "wd": 7610
+   },
+   "bank": {
+    "fr": [
+     2730041,
+     3210
+    ],
+    "en": [
+     2733651,
+     4770
+    ],
+    "wd": [
+     2738821,
+     7610
+    ],
+    "wp": [
+     [
+      2738821,
+      4090
+     ],
+     [
+      2743311,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "He moved them inside the moccasins,",
+   "en": "Նա շարժեց դրանք մոկասինների ներսում",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "moved",
+     "շարժեց"
+    ],
+    [
+     "inside",
+     "ներսում"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s163_fr.mp3",
+    "en": "audio/s163_en.mp3",
+    "wd": "audio/s163_wd.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "en": 3490,
+    "wd": 6150
+   },
+   "bank": {
+    "fr": [
+     2746831,
+     2860
+    ],
+    "en": [
+     2750091,
+     3490
+    ],
+    "wd": [
+     2753981,
+     6150
+    ],
+    "wp": [
+     [
+      2753981,
+      2570
+     ],
+     [
+      2756951,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "and decided that they were numb.",
+   "en": "և որոշեց, որ թմրած են։",
+   "para": 14,
+   "glosses": [],
+   "words": [
+    [
+     "decided",
+     "որոշեց"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s164_fr.mp3",
+    "en": "audio/s164_en.mp3",
+    "wd": "audio/s164_wd.mp3"
+   },
+   "ms": {
+    "fr": 2220,
+    "en": 2681,
+    "wd": 3340
+   },
+   "bank": {
+    "fr": [
+     2760531,
+     2220
+    ],
+    "en": [
+     2763151,
+     2681
+    ],
+    "wd": [
+     2766233,
+     3340
+    ],
+    "wp": [
+     [
+      2766233,
+      2490
+     ]
+    ]
+   }
+  }
+ ],
+ "support": "hy",
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20230
+  ],
+  "silence": [
+   21030,
+   30000
+  ]
+ }
+}
