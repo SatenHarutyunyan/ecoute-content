@@ -135,6 +135,11 @@ div.story { display:flex; align-items:center; gap:10px; box-sizing:border-box; }
 #micAsk p { margin:10px 0 0; line-height:1.4; }
 .wcgrid { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; max-height:50vh; overflow-y:auto; }
 .wcgrid .chip { font-size:17px; padding:8px 14px; }
+.dcq { font-size:26px; font-weight:700; margin:14px 0 4px; }
+.dcopts { display:flex; flex-direction:column; gap:8px; margin-top:12px; }
+.dcopts button { font:inherit; font-size:16px; text-align:left; padding:12px 14px; border-radius:12px; border:1px solid var(--line); background:var(--bg); color:var(--ink); cursor:pointer; }
+.dcopts button.ok { border-color:#2e9b57; background:rgba(46,155,87,.12); } .dcopts button.no { border-color:#c0392b; background:rgba(192,57,43,.10); }
+.shelf-x { border:none; background:none; color:var(--muted); font:inherit; font-size:13px; padding:4px 2px; cursor:pointer; }
 .wcgrid .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
 #toast { position:fixed; left:16px; right:16px; bottom:max(16px, env(safe-area-inset-bottom)); z-index:60; background:var(--ink); color:var(--bg);
   padding:14px 16px; border-radius:14px; font-size:15px; box-shadow:0 8px 24px rgba(0,0,0,.25); opacity:0; transform:translateY(20px);
@@ -394,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.140";
+const VERSION = "web 0.141";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -978,7 +983,9 @@ function longPress(el, fn) {
 function levelSheet() {
   document.getElementById("sheet")?.remove();
   const d = document.createElement("div"); d.id = "sheet";
-  d.innerHTML = `<b>How much ${LANGS[lang][0]} do you know?</b>` + ONB_LEVELS.map(([v, t, x]) => `<button data-v="${v}"><b>${t}</b> · <span class="muted">${x}</span></button>`).join("");
+  d.innerHTML = `<b>How much ${LANGS[lang][0]} do you know?</b>` + ONB_LEVELS.map(([v, t, x]) => `<button data-v="${v}"><b>${t}</b> · <span class="muted">${x}</span></button>`).join("") +
+    `<button id="lvCheck">🎯 Not sure? Take the 1-minute check</button>`;
+  d.querySelector("#lvCheck").onclick = () => { d.remove(); store.set("level_from_check_" + lang, true); wordCheck(); };
   d.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { store.set("level_" + lang, b.dataset.v); log("level", { level: b.dataset.v, via: "lang_switch" }); d.remove(); renderAll(); });
   document.body.append(d);
 }
@@ -1021,6 +1028,58 @@ const knownTxt = s => { const k = knownPct(s); return k == null ? "" : ` · <spa
 const TAG_NAMES = { "first steps": "🌱 First steps", everyday: "☕ Everyday", classic: "📜 Classics", mystery: "🔍 Mystery", scary: "🕯 Scary", funny: "😄 Funny", love: "💌 Love", teen: "🎒 Teen", family: "🏠 Family", history: "⏳ History", drama: "🎭 Drama", "fairy tale": "🧚 Fairy tale", music: "🎵 Music", future: "🚀 Future", adventure: "🧭 Adventure" };
 const tagName = t => TAG_NAMES[t] || t;
 // Home shows only what to listen to now (Saten 2026-11-22, like audiobook apps): Continue, a few picks, the Library
+// ---------- Daily check (Saten 2026-11-23): 6 words from the stories you heard, pick the meaning from 3 ----------
+// Calm on purpose (no animations, always skippable). Every answer feeds the word-knowledge estimate and the Sheet,
+// so stories can be written for what each learner knows.
+const today = () => new Date().toDateString();
+const dailyDue = () => store.get("daily_" + lang, "") !== today() && store.get("daily_skip_" + lang, "") !== today()
+  && catalog.some(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 0 || store.get("fin_" + c.id, false)));
+async function dailyCheck() {
+  const heard = catalog.filter(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 0 || store.get("fin_" + c.id, false)));
+  const recent = [store.get("last_" + lang), ...heard.map(c => c.id)].filter((v, i, a) => v && a.indexOf(v) === i).slice(0, 3);
+  const pool = [];
+  for (const id of recent) {
+    const e = catalog.find(c => c.id === id); if (!e) continue;
+    try {
+      const st = await (await fetch(`stories/${id}/story.json?v=${e.version || ""}`)).json();
+      st.segments.forEach(sg => (sg.words || []).forEach(([w, m], k) => { if (!isName(w, m) && w.length > 2 && w.split(" ").length <= 3) pool.push({ w, m, b: KNOW.base(sg, k) }); }));
+    } catch {}
+  }
+  const asked = new Set(store.get("dc_asked_" + lang, []));
+  const uniq = [...new Map(pool.map(x => [x.b, x])).values()].filter(x => !asked.has(x.b));
+  if (uniq.length < 8) return toast("Listen to a bit more first — the check uses words from your stories.", 4000);
+  // the words the app is least sure about first, some randomness so it isn't always the same kind
+  const items = uniq.map(x => ({ ...x, p: KNOW.p(x.b) + Math.random() * .25 })).sort((a, b) => Math.abs(a.p - .6) - Math.abs(b.p - .6)).slice(0, 6);
+  const meanings = [...new Set(pool.map(x => x.m))];
+  let i = 0, right = 0; const res = [];
+  const d = document.createElement("div"); d.id = "micAsk"; document.body.append(d);
+  const show = () => {
+    if (i >= items.length) return end();
+    const it = items[i], opts = [it.m, ...meanings.filter(m => m !== it.m).sort(() => Math.random() - .5).slice(0, 2)].sort(() => Math.random() - .5);
+    d.innerHTML = `<div class="micbox"><div class="muted">Today's check · ${i + 1} of ${items.length}</div><div class="dcq"></div><div class="muted">What does it mean?</div>
+      <div class="dcopts">${opts.map(o => `<button></button>`).join("")}</div><div class="done-row"><button class="chip" id="dcStop">Stop</button></div></div>`;
+    d.querySelector(".dcq").textContent = it.w;
+    d.querySelectorAll(".dcopts button").forEach((b, k) => { b.textContent = opts[k]; b.onclick = () => {
+      const ok = opts[k] === it.m; right += ok; res.push([it.w, ok ? 1 : 0]);
+      KNOW.set(it.b, ok ? p => Math.max(p, .85) : p => Math.min(p, .2));
+      b.classList.add(ok ? "ok" : "no"); if (!ok) d.querySelectorAll(".dcopts button").forEach(x => { if (x.textContent === it.m) x.classList.add("ok"); });
+      d.querySelectorAll(".dcopts button").forEach(x => x.onclick = null);
+      setTimeout(() => { i++; show(); }, ok ? 500 : 1300);
+    }; });
+    $("dcStop").onclick = end;
+  };
+  const end = () => {
+    store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).map(x => x.b)].slice(-400));
+    log("daily_check", { n: res.length, right, words: res.slice(0, 6) });
+    const missed = items.slice(0, res.length).filter((_, k) => !res[k][1]);
+    d.innerHTML = `<div class="micbox"><b>${res.length ? `${right} of ${res.length}` : "Stopped"}</b>
+      ${missed.length ? `<p class="muted">To look at again: ${missed.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : res.length ? `<p class="muted">All right.</p>` : ""}
+      <div class="done-row"><button class="big" id="dcOk">OK</button></div></div>`;
+    $("dcOk").onclick = () => { d.remove(); renderShelf(); };
+    for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
+  };
+  show();
+}
 function renderShelf() {
   const el = $("shelf"); if (!el || !lang) return;
   const mine = catalog.filter(c => c.lang === lang);
@@ -1040,7 +1099,8 @@ function renderShelf() {
     `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
   const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
-  el.innerHTML = (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
+  const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">6 words from your stories · 1 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
+  el.innerHTML = daily + (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
     (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
     `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
   el.querySelectorAll("[data-open]").forEach(b => {
@@ -1048,6 +1108,7 @@ function renderShelf() {
     longPress(b, () => sendBackSheet(catalog.find(c => c.id === b.dataset.open)));
   });
   $("libOpen").onclick = openLibrary;
+  if ($("dailyBtn")) { $("dailyBtn").onclick = () => { log("daily_open"); dailyCheck(); }; $("dailySkip").onclick = () => { store.set("daily_skip_" + lang, today()); log("daily_skip"); renderShelf(); }; }
 }
 function renderStories() {
   const all = catalog.filter(s => (s.lang || "fr") === lang);
@@ -1857,6 +1918,10 @@ function wordCheck() {
       if (ll > best) { best = ll; z50 = Math.round(z0 * 100) / 100; }
     }
     store.set("z50_" + lang, z50);
+    if (store.get("level_from_check_" + lang, false) || !store.get("level_" + lang, null)) {  // placement by words (any language)
+      const lv = z50 >= 5.4 ? "A0" : z50 >= 4.4 ? "A1" : z50 >= 3.7 ? "B1" : "B2";
+      store.set("level_" + lang, lv); store.set("level_from_check_" + lang, false); log("level", { level: lv, via: "word_check", z50 }); setTimeout(renderAll, 50);
+    }
     store.set("wc_asked_" + lang, [...asked, ...pick.map(x => x.b)].slice(-300));
     for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
     log("word_check", { n: pick.length, known: known.size, fixed, z50 });
