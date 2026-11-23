@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.148";
+const VERSION = "web 0.149";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -938,7 +938,7 @@ function renderLangs() {
 const isLesson = s => s.series === "Daily scenarios";
 // themes: Default and Nare's (pink and white with an emoji cover per episode, web/covers.json)
 const THEMES = { default: "Default", nare: "Nare's 🌸" };
-const theme = () => { const t = store.get("theme", /^nare$/i.test(store.get("name", "")) ? "nare" : "default"); return THEMES[t] ? t : "default"; };
+const theme = () => { const t = store.get("theme", /^nare\b/i.test(store.get("name", "").trim()) ? "nare" : "default"); return THEMES[t] ? t : "default"; };
 let COVERS = {};
 function applyTheme() {
   document.documentElement.dataset.theme = theme();
@@ -988,6 +988,19 @@ function levelSheet() {
   d.querySelector("#lvCheck").onclick = () => { d.remove(); store.set("level_from_check_" + lang, true); wordCheck(); };
   d.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { store.set("level_" + lang, b.dataset.v); log("level", { level: b.dataset.v, via: "lang_switch" }); d.remove(); renderAll(); });
   document.body.append(d);
+}
+// people who joined with only a first name: ask once for the full name (Saten 2026-11-23: the Sheet must be readable)
+function askFullName() {
+  const n = store.get("name", "").trim();
+  if (!n || /\s/.test(n) || store.get("fullname_asked", false) || needsOnboarding()) return;
+  store.set("fullname_asked", true);
+  const d = document.createElement("div"); d.id = "sheet";
+  d.innerHTML = `<b>What's your full name?</b><div class="muted">So the small team making Écoute knows who's who.</div>
+    <input type="text" id="fnIn" autocomplete="name" placeholder="First and last name"><button id="fnSave">Save</button><button class="x" id="fnSkip">Not now</button>`;
+  document.body.append(d);
+  $("fnIn").value = n + " ";
+  $("fnSave").onclick = () => { const v = $("fnIn").value.trim(); if (v.split(/\s+/).length >= 2) { store.set("name", v); log("name", { full: true }); renderName(false); } d.remove(); };
+  $("fnSkip").onclick = () => d.remove();
 }
 function sendBackSheet(c) {
   document.getElementById("sheet")?.remove();
@@ -1658,7 +1671,8 @@ function onbShow() {
   const dots = `<div class="dotsrow">${Array.from({ length: steps }, (_, i) => `<i class="${i <= at ? "on" : ""}"></i>`).join("")}</div>`;
   let html = "";
   if (ONB.step === 0) html = `<h1>Welcome to Écoute</h1><div class="muted">Stories you listen to, phrase by phrase.</div>
-    <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
+    <h2>What's your full name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="First and last name" value="${esc(ONB.name)}">
+    <div class="muted" style="margin-top:6px">So the small team making Écoute knows who's who.</div>
     <button class="go" id="onbNext">Next</button>`;
   if (ONB.step === 1) html = `<h1>What are you learning?</h1>` +
     Object.entries(LANGS).filter(([c]) => c !== "en" || catalog.some(x => x.lang === "en")).map(([c, [en, nat]]) => `<button class="opt${ONB.lang === c ? " on" : ""}" data-l="${c}"><b>${en}</b> · ${nat}</button>`).join("") +
@@ -1697,9 +1711,9 @@ function onbShow() {
   const next = $("onbNext");
   if (ONB.step === 0) {
     const inp = $("onbName");
-    const ok = () => { next.disabled = !inp.value.trim(); };
+    const ok = () => { next.disabled = inp.value.trim().split(/\s+/).length < 2; };  // first and last name (Saten 2026-11-23)
     inp.oninput = ok; ok();
-    inp.onkeydown = e => { if (e.key === "Enter" && inp.value.trim()) next.click(); };
+    inp.onkeydown = e => { if (e.key === "Enter" && !next.disabled) next.click(); };
   }
   box.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { ONB.lang = b.dataset.l; ONB.joke = null; onbShow(); });
   box.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { ONB.level = b.dataset.v; onbShow(); });
@@ -1785,7 +1799,7 @@ function toast(msg, ms = 7000) {
 // stories written from someone's request carry `for` (names) and `request` (what they asked) in the catalog
 // "# for: Nare" matches the name; "# for: @37a88412" matches one phone (two people called Ani, 2026-11-22)
 const forMe = s => (s.for || []).some(n => n[0] === "@" ? String(device).startsWith(n.slice(1))
-  : n.toLowerCase() === store.get("name", "").trim().toLowerCase());
+  : [store.get("name", "").trim().toLowerCase(), store.get("name", "").trim().split(/\s+/)[0].toLowerCase()].includes(n.toLowerCase()));  // full or first name
 function renderForYou() {
   const fresh = catalog.filter(s => forMe(s) && !store.get("seen_for_" + s.id, false));
   const el = $("forYou");
@@ -2514,6 +2528,7 @@ async function checkUpdate() {
   } catch {}
 }
 checkUpdate();
+setTimeout(() => { try { askFullName(); } catch {} }, 2500);
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
 // English titles (Saten, 2026-11-20): web/titles_en.json {id: title}, kept apart so the catalog doesn't need republishing
