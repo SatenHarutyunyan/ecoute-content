@@ -394,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.136";
+const VERSION = "web 0.137";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -802,8 +802,9 @@ function pickStart() {
   const open = mine.filter(c => !finished(c) && !isLater(c) && rank(c.level) >= 0);
   const first = list => list.find(c => !c.series || +c.episode === 1) || list[0];  // start a series at its beginning
   const want = rank(store.get("level_" + lang, "A0"));  // no answer: the easiest
-  // their level; if there's none, the closest easier one; then the closest harder one
-  const order = [...LV.keys()].sort((x, y) => (x > want) - (y > want) || Math.abs(x - want) - Math.abs(y - want));
+  // their level, then one easier, one harder, two harder; much easier stories only when nothing else is left
+  // (Saten 2026-11-23: B1 exhausted, so "next" kept offering A1 — all rated "too easy")
+  const order = [want, want - 1, want + 1, want + 2, want - 2, want + 3, want - 3, want + 4, want - 4].filter(r => r >= 0 && r < LV.length);
   for (const r of order) { const e = first(open.filter(c => rank(c.level) === r)); if (e) return e; }
   return mine[0];
 }
@@ -1018,8 +1019,10 @@ function renderShelf() {
   const p = pickStart(); add(p, "good for your level");
   mine.filter(forMe).filter(c => !isFinished(c)).slice(0, 2).forEach(c => add(c, "✨ written for you"));  // at most 2, so a level pick fits
   const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], rk = c => LV.indexOf((c.level || "").slice(0, 2));
-  const near = p ? rk(p) : 1;
-  mine.filter(c => !c.series || +c.episode === 1).sort((a, b) => Math.abs(rk(a) - near) - Math.abs(rk(b) - near)).forEach(c => picks.length < 3 && add(c, "new for you"));
+  const near = LV.indexOf(store.get("level_" + lang, "")) >= 0 ? LV.indexOf(store.get("level_" + lang, "")) : p ? rk(p) : 1;  // the learner's level
+  // nearest level first; one level above beats two below (same order as pickStart)
+  const dist = c => { const d = rk(c) - near; return d >= 0 ? 2 * d : -3 * d - 1; };
+  mine.filter(c => !c.series || +c.episode === 1).sort((a, b) => dist(a) - dist(b)).forEach(c => picks.length < 3 && add(c, "new for you"));
   const row = (c, why, extra) => `<button class="shelf-row" data-open="${c.id}"><span class="t"><b>${esc(c.title)}</b>` +
     `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
