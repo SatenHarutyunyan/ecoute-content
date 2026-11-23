@@ -388,7 +388,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.131";
+const VERSION = "web 0.132";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -642,7 +642,7 @@ function nativeEvents() {
     show();
   });
   NATIVE_PLAYER.addListener("ended", d => {
-    log("native_ended", { seg, upTo: NQ.upTo, q: (d || {}).q, cur: NQ.q, lesson: lessonMode() });  // diagnosis: stops after each phrase (Saten 2026-11-22)
+    if (!lessonMode()) log("native_ended", { seg, upTo: NQ.upTo, q: (d || {}).q, cur: NQ.q });  // Step by step ends every step on purpose  // diagnosis: stops after each phrase (Saten 2026-11-22)
     if (!story || old(d || {})) return;
     if (lessonMode()) { waiting = true; return; }  // the learner decides: back, repeat or next
     if (NQ.upTo < story.segments.length - 1) { seg = NQ.upTo + 1; steps = stepsFor(seg, pattern()); step = 0; show(); return nativePlay(false); }  // queue was cut short
@@ -650,7 +650,7 @@ function nativeEvents() {
   });
   NATIVE_PLAYER.addListener("state", d => {
     NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now();
-    if (!NQ.playing && story) log("native_paused", { seg, step, upTo: NQ.upTo, sinceItem: Date.now() - (NQ.lastItem || 0) });
+    if (!NQ.playing && story && !lessonMode()) log("native_paused", { seg, step, upTo: NQ.upTo, sinceItem: Date.now() - (NQ.lastItem || 0) });
     if (NQ.playing && !heardAny) { heardAny = true; lessonButton(); }
   });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
