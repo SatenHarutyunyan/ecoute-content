@@ -394,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.137";
+const VERSION = "web 0.139";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -419,7 +419,7 @@ const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T EN T";                    // used once after a "didn't catch it" tap
 const DEFAULT_PATTERN = {};  // every language: T EN T, the same as the onboarding demo (Saten, 2026-11-20); saved choices are kept
-const LANGS = { hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
+const LANGS = { en: ["English", "Անգլերեն"], hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
 const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
 // Japanese (C14, Robin): stored and spoken in kanji; shown as Kana (default), Romaji, Kanji, or Kanji with small kana
@@ -539,9 +539,14 @@ const pattern = () => store.get("pattern_" + lang, DEFAULT_PATTERN[lang] || "T E
 const lessonPattern = () => store.get("lesson_" + lang, LESSON.join(" "));
 const CODE = () => lang.toUpperCase();
 const parse = p => p.toUpperCase().split(/[\s,]+/)
-  .map(t => t === CODE() || t === "FR" ? "T" : t)  // FR: old saved patterns
+  .map(t => (t === CODE() && lang !== "en") || t === "FR" ? "T" : t)  // FR: old saved patterns (for English, EN is the inside name of the translation step)
   .filter(t => ["T", "EN", "WORDS", "PAUSE"].includes(t));  // GLOSS and the slow version (removed 2026-11-22) drop out of old patterns
-const display = p => parse(p).map(t => t.replace("T", CODE())).join(" ");
+// Learning English (Shaqe, 2026-11-23): the translations are Armenian. Inside, "EN" stays the name of the translation
+// step; on screen it is HY, and EN is the English story itself.
+const SUP = () => lang === "en" ? "Armenian" : "English";
+const SUPC = () => lang === "en" ? "HY" : "EN";
+const display = p => parse(p).map(t => t === "T" ? CODE() : t === "EN" ? SUPC() : t).join(" ");
+const parseTyped = p => parse(p.toUpperCase().split(/[\s,]+/).map(t => t === CODE() ? "T" : t === SUPC() ? "EN" : t).join(" "));  // what the learner types
 
 // Pauses after each clip (Saten, 2026-11-19): the audio holds only speech, the app adds the breathing room, which is also
 // when voice commands get through. Long = the old French tracks. Extra ms on top of the ~0.8 s that is always there.
@@ -834,7 +839,7 @@ function show() {
   $("where").textContent = seg < 0 ? story.title : `${story.title} · ${seg + 1}/${n}`;
   if (s && adaptiveOn()) {  // say why it sounds the way it does
     const k = kindOf(seg), L = CODE();
-    $("where").textContent += " · " + { super: `easy · ${L} EN`, normal: `${L} EN ${L}`, hard: `new word · ${L} EN ${L} EN ${L}` }[k];
+    $("where").textContent += " · " + { super: `easy · ${L} ${SUPC()}`, normal: `${L} ${SUPC()} ${L}`, hard: `new word · ${L} ${SUPC()} ${L} ${SUPC()} ${L}` }[k];
   }
   $("fr").innerHTML = s ? segHTML(s) : esc(story.title);
   $("en").textContent = s ? s.en : story.note;
@@ -847,7 +852,7 @@ function show() {
   if (lesson && s) {
     const t = lessonTok[step], k = /^W\d/.test(t) ? +t.slice(1) : -1;
     $("dots").innerHTML = steps.map((_, i) => `<i class="${i === step ? "on" : i < step ? "past" : ""}"></i>`).join("");
-    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: "English", WORDS: "Word by word" }[t];
+    $("stepLabel").textContent = k >= 0 ? `Word ${k + 1} of ${s.words.length}` : { T: LANGS[lang][0], EN: SUP(), WORDS: "Word by word" }[t];
     if (step === 0) $("en").textContent = "";  // first, just listen
     if (t === "WORDS") $("en").innerHTML = s.words.map(([w, m], j) => `${wordHTML(s, j)} = ${esc(m)}`).join("  ·  ");  // tap a word to ☆ save it
     if (k >= 0) $("en").innerHTML = s.words.map(([w, m], j) => j === k ? `<b style="color:var(--accent);font-size:20px">${wordHTML(s, j)} = ${esc(m)}</b>` : wordHTML(s, j)).join("  ");
@@ -918,7 +923,7 @@ function showFeedback() {  // two quick taps after an episode: level and fun; hi
 function renderLangs() {
   const sel = document.createElement("select");
   sel.innerHTML = (lang ? "" : `<option value="">Choose a language…</option>`) +
-    Object.entries(LANGS).map(([code, [en, native]]) => `<option value="${code}"${code === lang ? " selected" : ""}>${en} · ${native}</option>`).join("");
+    Object.entries(LANGS).filter(([code]) => code !== "en" || code === lang || catalog.some(c => c.lang === "en")).map(([code, [en, native]]) => `<option value="${code}"${code === lang ? " selected" : ""}>${en} · ${native}</option>`).join("");
   sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); closeStory(); renderAll(); };
   $("langs").replaceChildren(sel);
 }
@@ -1118,29 +1123,29 @@ function renderStories() {
 
 function renderPattern() {
   const L = CODE();
-  $("adaptiveText").innerHTML = `<b>Adaptive</b> (Continuous): your words decide. Easy sentences ${L} EN, normal ones ${L} EN ${L},
-    sentences with a word you probably don't know ${L} EN ${L} EN ${L}. It learns from the words you tap, save and replay.` +
+  $("adaptiveText").innerHTML = `<b>Adaptive</b> (Continuous): your words decide. Easy sentences ${L} ${SUPC()}, normal ones ${L} ${SUPC()} ${L},
+    sentences with a word you probably don't know ${L} ${SUPC()} ${L} ${SUPC()} ${L}. It learns from the words you tap, save and replay.` +
     (adaptiveOn() || store.get("adaptive_" + lang, false) ? " <span class='muted'>(The pattern below is not used while this is on.)</span>" : "");
   $("adaptive").checked = store.get("adaptive_" + lang, false);
   const cur = parse(pattern()).join(" ");
   $("pattern").value = display(cur);
   $("patternHead").textContent = `What you hear in a story: ${display(cur)}`;
-  $("tokens").textContent = `Write what plays for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · EN = English · WORDS = word by word · PAUSE = time to repeat\nExample: ${CODE()} EN ${CODE()} PAUSE · Just the story: ${CODE()}\nUsed in Continuous only.`;
+  $("tokens").textContent = `Write what plays for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · ${SUPC()} = ${SUP()} · WORDS = word by word · PAUSE = time to repeat\nExample: ${CODE()} ${SUPC()} ${CODE()} PAUSE · Just the story: ${CODE()}\nUsed in Continuous only.`;
   const les = parse(lessonPattern()).filter(t => t !== "PAUSE").join(" ");
   $("lessonPat").value = display(les);
   $("lessonHead").textContent = `Step by step order: ${display(les)}`;
-  $("lessonTokens").textContent = `The parts you tap through for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · EN = English · WORDS = each word, one tap per word\nExample: ${CODE()} EN WORDS ${CODE()} EN ${CODE()} · Default: ${display(LESSON.join(" "))}\nUsed in Step by step only. Takes effect from the next sentence.`;
+  $("lessonTokens").textContent = `The parts you tap through for each sentence, in order:\n${CODE()} = ${LANGS[lang][0]} · ${SUPC()} = ${SUP()} · WORDS = each word, one tap per word\nExample: ${CODE()} ${SUPC()} WORDS ${CODE()} ${SUPC()} ${CODE()} · Default: ${display(LESSON.join(" "))}\nUsed in Step by step only. Takes effect from the next sentence.`;
 }
 
 function setLessonPattern(p) {
-  const clean = parse(p).filter(t => t !== "PAUSE").join(" ") || LESSON.join(" ");
+  const clean = parseTyped(p).filter(t => t !== "PAUSE").join(" ") || LESSON.join(" ");
   store.set("lesson_" + lang, clean);
   log("lesson_pattern", { pattern: clean });
   renderPattern(); renderMode();
 }
 
 function setPattern(p) {
-  const clean = parse(p).join(" ") || "T";
+  const clean = parseTyped(p).join(" ") || "T";
   store.set("pattern_" + lang, clean);
   log("pattern", { pattern: clean });
   renderPattern();
@@ -1156,7 +1161,7 @@ function renderMode() {
   if (!story) { $("storyCtl").hidden = m === "lesson"; $("lessonCtl").hidden = $("phraseNav").hidden = m !== "lesson"; }  // right buttons before an episode is open
   document.querySelectorAll("#modes button").forEach(b => b.className = b.dataset.mode === m ? "on" : "");
   $("modeHint").textContent = m === "lesson"
-    ? `Step by step: ${parse(lessonPattern()).map(t => ({ T: LANGS[lang][0], EN: "English", WORDS: "word by word" }[t])).filter(Boolean).join(", ")}. You choose when to move on. Change the order in ⚙ Settings.`
+    ? `Step by step: ${parse(lessonPattern()).map(t => ({ T: LANGS[lang][0], EN: SUP(), WORDS: "word by word" }[t])).filter(Boolean).join(", ")}. You choose when to move on. Change the order in ⚙ Settings.`
     : "Plays on its own, like an audiobook. Change what you hear in ⚙ Settings.";
 }
 
@@ -1532,7 +1537,7 @@ function onbFinish() {
   store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
   store.set("level_" + lang, ONB.level);
   store.set("mode_" + lang, ONB.mode);
-  if (ONB.mode === "story") store.set("pattern_" + lang, DEMO.join(" "));
+  if (ONB.mode === "story") store.set("pattern_" + lang, lang === "en" ? "T" : DEMO.join(" "));  // English learners: the story only, Armenian on tap
   store.set("onboarded", true);
   if (ONB.sendLove && ONB.sendLove()) setTimeout(() => toast(REQ_THANKS, 9000), 800);
   log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured, heard_both: !!ONB.tourDone }, "");
@@ -1549,7 +1554,7 @@ function onbShow() {
     <h2>What's your name?</h2><input type="text" id="onbName" autocomplete="name" placeholder="Your name" value="${esc(ONB.name)}">
     <button class="go" id="onbNext">Next</button>`;
   if (ONB.step === 1) html = `<h1>What are you learning?</h1>` +
-    Object.entries(LANGS).map(([c, [en, nat]]) => `<button class="opt${ONB.lang === c ? " on" : ""}" data-l="${c}"><b>${en}</b> · ${nat}</button>`).join("") +
+    Object.entries(LANGS).filter(([c]) => c !== "en" || catalog.some(x => x.lang === "en")).map(([c, [en, nat]]) => `<button class="opt${ONB.lang === c ? " on" : ""}" data-l="${c}"><b>${en}</b> · ${nat}</button>`).join("") +
     `<button class="go" id="onbNext" ${ONB.lang ? "" : "disabled"}>Next</button>`;
   if (ONB.step === 2) html = `<h1>How much ${LANGS[ONB.lang][0]} do you know?</h1>` +
     ONB_LEVELS.map(([v, t, d]) => `<button class="opt radio${ONB.level === v ? " on" : ""}" data-v="${v}"><b>${t}</b><div class="muted">${d}</div></button>`).join("") +
@@ -1597,13 +1602,14 @@ function onbShow() {
   if ($("onbBack")) $("onbBack").onclick = () => {
     if (ONB.step === 3) { VA.el.pause(); clearInterval(VA.timer); }
     log("onb_back", { from: ONB.step });
-    ONB.step = ONB.step === 5 && ONB.level === "A0" ? 2 : ONB.step - 1;  // A0 skipped the joke and the choice
+    ONB.step = ONB.step === 5 && (ONB.level === "A0" || ONB.lang === "en") ? 2 : ONB.step - 1;  // they skipped the joke and the choice
     onbShow(); window.scrollTo(0, 0);
   };
   next.onclick = () => {
     if (ONB.step === 0) ONB.name = $("onbName").value.trim();
     if (ONB.step === 3) { VA.el.pause(); clearInterval(VA.timer); }
     if (ONB.step === 2 && ONB.level === "A0") { ONB.mode = "lesson"; ONB.step = 5; }  // complete beginners: Step by step, no joke
+    else if (ONB.step === 2 && ONB.lang === "en") { ONB.mode = ["A1"].includes(ONB.level) ? "lesson" : "story"; ONB.step = 5; }  // no English joke demo (yet)
     else if (ONB.step < 5) ONB.step++;
     else return onbFinish();
     onbShow(); window.scrollTo(0, 0);
