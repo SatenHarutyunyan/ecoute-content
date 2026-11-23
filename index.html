@@ -394,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.133";
+const VERSION = "web 0.134";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -656,7 +656,8 @@ function nativeEvents() {
   });
   NATIVE_PLAYER.addListener("state", d => {
     NQ.playing = !!d.playing; setPlayIcon(NQ.playing); if (!NQ.playing) pausedAt = Date.now();
-    if (!NQ.playing && story && !lessonMode()) log("native_paused", { seg, step, upTo: NQ.upTo, sinceItem: Date.now() - (NQ.lastItem || 0) });
+    // Android reports "not playing" for a moment at every phrase change: log only a pause that lasts (diagnosis, C26)
+    if (!NQ.playing && story && !lessonMode()) { const at = { seg, step, upTo: NQ.upTo }; setTimeout(() => { if (!NQ.playing && story) log("native_paused", at); }, 2000); }
     if (NQ.playing && !heardAny) { heardAny = true; lessonButton(); }
   });
   NATIVE_PLAYER.addListener("remote", d => {  // lock screen, earbuds, car
