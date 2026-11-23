@@ -191,7 +191,13 @@ input[type=text] { width:100%; padding:10px; border-radius:10px; border:1px soli
 body.words main > :not(#wordsPage), body:not(.words) #wordsPage { display:none !important; }
 /* the Library is its own page (#library): home keeps only what to listen to now (Saten 2026-11-22) */
 body.library main > :not(#libPage), body:not(.library) #libPage { display:none !important; }
-.shelf-row { display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:14px; padding:12px 14px; margin-top:8px; cursor:pointer; font:inherit; }
+.shelf-row { -webkit-touch-callout:none; -webkit-user-select:none; user-select:none; }
+#sheet { position:fixed; left:0; right:0; bottom:0; z-index:50; background:var(--card); border-top:1px solid var(--line); border-radius:18px 18px 0 0;
+  padding:16px max(16px, env(safe-area-inset-left, 0px)) calc(16px + env(safe-area-inset-bottom, 0px)); box-shadow:0 -8px 30px rgba(0,0,0,.15); display:flex; flex-direction:column; gap:8px; }
+#sheet b { font-size:16px; } #sheet button { font:inherit; padding:13px; border-radius:12px; border:1px solid var(--line); background:var(--bg); color:var(--ink); text-align:left; cursor:pointer; }
+#sheet button.x { text-align:center; border:none; background:none; color:var(--muted); }
+.later { color:var(--muted); white-space:nowrap; }
+.shelf-row { align-items:center; gap:12px; width:100%; text-align:left; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:14px; padding:12px 14px; margin-top:8px; cursor:pointer; font:inherit; }
 .shelf-row .t { flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
 .shelf-row b { font-size:16px; }
 .shelf-row .why { font-size:13px; color:var(--accent); }
@@ -388,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.132";
+const VERSION = "web 0.133";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -783,15 +789,16 @@ function pickStart() {
   const mine = catalog.filter(c => c.lang === lang), byId = id => mine.find(c => c.id === id);
   const last = byId(store.get("last_" + lang)), place = byId((store.get("place_" + lang, {}) || {}).start);
   const finished = c => getMark(c.id) === "done" || (store.get("fin_" + c.id, false) && store.get("pos_" + c.id, -1) < 0);
-  if (last && !finished(last)) return last;
-  if (place && !finished(place)) return place;
+  if (last && !finished(last) && !isLater(last)) return last;
+  if (place && !finished(place) && !isLater(place)) return place;
   const done = mine.filter(finished);
   if (done.length) {  // catalog order is series, then episode: the first not-done episode after the last done one
-    const i = mine.indexOf(done[done.length - 1]), after = mine.slice(i + 1).find(c => getMark(c.id) !== "done");
+    // ...in the same series only: after a B2 classic the next catalog entry can be an A0 lesson (2026-11-23)
+    const d = done[done.length - 1], i = mine.indexOf(d), after = d.series && mine.slice(i + 1).find(c => c.series === d.series && getMark(c.id) !== "done" && !isLater(c));
     if (after) return after;
   }
   const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], rank = l => LV.indexOf((l || "").slice(0, 2));
-  const open = mine.filter(c => !finished(c) && rank(c.level) >= 0);
+  const open = mine.filter(c => !finished(c) && !isLater(c) && rank(c.level) >= 0);
   const first = list => list.find(c => !c.series || +c.episode === 1) || list[0];  // start a series at its beginning
   const want = rank(store.get("level_" + lang, "A0"));  // no answer: the easiest
   // their level; if there's none, the closest easier one; then the closest harder one
@@ -948,8 +955,34 @@ function renderMarksSetting() {
 const MARKS = { "": "○", cur: "~", done: "✓" };  // empty box showed nothing: Saten couldn't tell it was a button
 const getMark = id => store.get("mark_" + id, "");  // set by hand only (Arshile), never by the app
 // finished: reached the end (automatic) or ✓ marked
+// "Too hard, back to the Library for later" (Saten 2026-11-23): long-press a story on the home screen. It leaves Continue
+// and Up next, stays in the Library marked "saved for later"; opening it again from there clears the mark.
+const isLater = c => !!(c && store.get("later_" + c.id, false));
+function longPress(el, fn) {
+  let t = null, x = 0, y = 0;
+  const cancel = () => { clearTimeout(t); t = null; };
+  el.addEventListener("pointerdown", e => { x = e.clientX; y = e.clientY; cancel(); t = setTimeout(() => { t = null; el.dataset.lp = "1"; navigator.vibrate && navigator.vibrate(20); fn(); }, 550); });
+  el.addEventListener("pointermove", e => { if (t && Math.hypot(e.clientX - x, e.clientY - y) > 10) cancel(); });
+  ["pointerup", "pointercancel", "pointerleave"].forEach(ev => el.addEventListener(ev, cancel));
+  el.addEventListener("contextmenu", e => { e.preventDefault(); if (t) { cancel(); el.dataset.lp = "1"; fn(); } });  // Android's own long-press
+  el.addEventListener("click", e => { if (el.dataset.lp) { delete el.dataset.lp; e.stopImmediatePropagation(); e.preventDefault(); } }, true);
+}
+function sendBackSheet(c) {
+  document.getElementById("sheet")?.remove();
+  const d = document.createElement("div"); d.id = "sheet";
+  d.innerHTML = `<b></b><button data-why="hard">😮‍💨 Too hard — back to the Library for later</button><button data-why="not_for_me">🙅 Not for me — back to the Library</button><button class="x">Cancel</button>`;
+  d.querySelector("b").textContent = c.title;
+  d.querySelectorAll("[data-why]").forEach(b => b.onclick = () => {
+    store.set("later_" + c.id, true); log("send_back", { why: b.dataset.why, pos: store.get("pos_" + c.id, -1) }, c.id);
+    d.remove(); renderStories(); try { if (!story || story.id === c.id) renderUpNext(); } catch {}
+    toast(`“${c.title}” is in the Library, saved for later.`, 3000);
+  });
+  d.querySelector(".x").onclick = () => d.remove();
+  document.body.append(d);
+}
 const isFinished = c => getMark(c.id) === "done" || (store.get("fin_" + c.id, false) && store.get("pos_" + c.id, -1) < 0);
 function goListen(e) {  // open a story from the shelf or the Library and show the player
+  if (isLater(e)) store.set("later_" + e.id, false);  // they want it after all
   if (location.hash === "#library") history.replaceState(null, "", location.pathname + location.search), showLibrary();
   openStory(e).then(() => { renderStories(); const card = $("where").closest(".card"); card ? card.scrollIntoView({ behavior: "smooth", block: "start" }) : window.scrollTo(0, 0); });
 }
@@ -978,8 +1011,8 @@ function renderShelf() {
   const mine = catalog.filter(c => c.lang === lang);
   if (!mine.length) { el.innerHTML = '<div class="muted">No stories in this language yet.</div>'; return; }
   const last = mine.find(c => c.id === store.get("last_" + lang));
-  const cont = last && store.get("pos_" + last.id, -1) >= 0 && !isFinished(last) ? last : null;
-  const picks = [], add = (c, why) => { if (c && c !== cont && !isFinished(c) && !picks.some(p => p.c === c)) picks.push({ c, why }); };
+  const cont = last && store.get("pos_" + last.id, -1) >= 0 && !isFinished(last) && !isLater(last) ? last : null;
+  const picks = [], add = (c, why) => { if (c && c !== cont && !isFinished(c) && !isLater(c) && !picks.some(p => p.c === c)) picks.push({ c, why }); };
   if (last && last.series) add(mine.find(c => c.series === last.series && +c.episode === +last.episode + 1), "next in your series");
   const p = pickStart(); add(p, "good for your level");
   mine.filter(forMe).filter(c => !isFinished(c)).slice(0, 2).forEach(c => add(c, "✨ written for you"));  // at most 2, so a level pick fits
@@ -993,7 +1026,10 @@ function renderShelf() {
   el.innerHTML = (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
     (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
     `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
-  el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("shelf_open", {}, e.id); goListen(e); });
+  el.querySelectorAll("[data-open]").forEach(b => {
+    b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("shelf_open", {}, e.id); goListen(e); };
+    longPress(b, () => sendBackSheet(catalog.find(c => c.id === b.dataset.open)));
+  });
   $("libOpen").onclick = openLibrary;
 }
 function renderStories() {
@@ -1058,7 +1094,7 @@ function renderStories() {
       if (s.title_romaji && jScript() === "kana_r") el.querySelector("b").insertAdjacentHTML("beforeend", ` <small class="rom">${esc(s.title_romaji)}</small>`);
       if (s.title_en) el.querySelector("b").insertAdjacentHTML("afterend", `<span class="ten">${esc(s.title_en)}</span>`);  // web/titles_en.json
       el.querySelector(".sinfo .muted").textContent = `${ep}${s.level} · ~${s.minutes} min` + (pos >= 0 ? ` · at ${pos + 1}/${s.phrases}` : "");
-      el.querySelector(".sinfo .muted").insertAdjacentHTML("beforeend", knownTxt(s));
+      el.querySelector(".sinfo .muted").insertAdjacentHTML("beforeend", knownTxt(s) + (isLater(s) ? ' · <span class="later">⏳ saved for later</span>' : ""));
       if ((s.tags || []).length) el.querySelector(".sinfo").insertAdjacentHTML("beforeend", `<span class="stags">${s.tags.map(tagName).join(" · ")}</span>`);
       const mb = el.querySelector(".mark");
       if (mb) {
