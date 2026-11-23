@@ -1,0 +1,4329 @@
+{
+ "id": "fr_bake_gilet",
+ "lang": "fr",
+ "title": "La clé dans le gilet",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "",
+ "episode": "",
+ "note": "A nurse visits an old woman who is losing her memory, and her tired son. The house has une clé, a padlock and a silence. Listen closely: some people forget less than they show.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 19420,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Chaque matin, à huit heures dix, je sonne chez Madame Roussel.",
+   "en": "Every morning, at ten past eight, I ring at Madame Roussel's door.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Chaque matin",
+     "every morning"
+    ],
+    [
+     "à huit heures dix",
+     "at ten past eight"
+    ],
+    [
+     "je sonne",
+     "I ring"
+    ],
+    [
+     "chez",
+     "at the home of"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4950,
+    "en": 4710,
+    "wd": 13300
+   },
+   "bank": {
+    "fr": [
+     50620,
+     4950
+    ],
+    "en": [
+     55970,
+     4710
+    ],
+    "wd": [
+     61080,
+     13300
+    ],
+    "wp": [
+     [
+      61080,
+      2850
+     ],
+     [
+      64330,
+      3400
+     ],
+     [
+      68130,
+      2530
+     ],
+     [
+      71060,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et chaque matin, personne n'ouvre tout de suite.",
+   "en": "And every morning, no one opens right away.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "personne n'ouvre",
+     "no one opens"
+    ],
+    [
+     "tout de suite",
+     "right away"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "en": 3170,
+    "wd": 7180
+   },
+   "bank": {
+    "fr": [
+     74780,
+     3700
+    ],
+    "en": [
+     78880,
+     3170
+    ],
+    "wd": [
+     82450,
+     7180
+    ],
+    "wp": [
+     [
+      82450,
+      3170
+     ],
+     [
+      86020,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'entends la voix de son fils, derrière la porte.",
+   "en": "I hear her son's voice, behind the door.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "J'entends",
+     "I hear"
+    ],
+    [
+     "la voix",
+     "the voice"
+    ],
+    [
+     "son fils",
+     "her son"
+    ],
+    [
+     "derrière",
+     "behind"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3780,
+    "en": 2950,
+    "wd": 12450
+   },
+   "bank": {
+    "fr": [
+     90030,
+     3780
+    ],
+    "en": [
+     94210,
+     2950
+    ],
+    "wd": [
+     97560,
+     12450
+    ],
+    "wp": [
+     [
+      97560,
+      2460
+     ],
+     [
+      100420,
+      2640
+     ],
+     [
+      103460,
+      2770
+     ],
+     [
+      106630,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Maman, la clé. Où est la clé ? »",
+   "en": "\"Mum, the key. Where is the key?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "la clé",
+     "the key"
+    ],
+    [
+     "Où est",
+     "where is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4030,
+    "en": 2790,
+    "wd": 6060
+   },
+   "bank": {
+    "fr": [
+     110410,
+     4030
+    ],
+    "en": [
+     114840,
+     2790
+    ],
+    "wd": [
+     118030,
+     6060
+    ],
+    "wp": [
+     [
+      118030,
+      2480
+     ],
+     [
+      120910,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quelle clé ? Je ne sais pas, moi. »",
+   "en": "\"What key? I don't know.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Quelle clé",
+     "what key"
+    ],
+    [
+     "Je ne sais pas",
+     "I don't know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 2200,
+    "wd": 6580
+   },
+   "bank": {
+    "fr": [
+     124490,
+     4019
+    ],
+    "en": [
+     128910,
+     2200
+    ],
+    "wd": [
+     131510,
+     6580
+    ],
+    "wp": [
+     [
+      131510,
+      2540
+     ],
+     [
+      134450,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un silence. Puis j'entends la serrure.",
+   "en": "A silence. Then I hear the lock.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "la serrure",
+     "en": "the lock"
+    }
+   ],
+   "words": [
+    [
+     "Un silence",
+     "a silence"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "la serrure",
+     "the lock"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "gl": "audio/s006_gl.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "en": 2760,
+    "gl": 3740,
+    "wd": 9320
+   },
+   "bank": {
+    "fr": [
+     138490,
+     3940
+    ],
+    "en": [
+     142830,
+     2760
+    ],
+    "gl": [
+     145990,
+     3740
+    ],
+    "wd": [
+     150130,
+     9320
+    ],
+    "wp": [
+     [
+      150130,
+      2850
+     ],
+     [
+      153380,
+      2110
+     ],
+     [
+      155890,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gilles Roussel m'ouvre. Il est fatigué, les cheveux mal peignés.",
+   "en": "Gilles Roussel opens for me. He is tired, his hair badly combed.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "m'ouvre",
+     "opens for me"
+    ],
+    [
+     "fatigué",
+     "tired"
+    ],
+    [
+     "les cheveux",
+     "the hair"
+    ],
+    [
+     "mal peignés",
+     "badly combed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 5650,
+    "en": 4780,
+    "wd": 12480
+   },
+   "bank": {
+    "fr": [
+     159850,
+     5650
+    ],
+    "en": [
+     165900,
+     4780
+    ],
+    "wd": [
+     171080,
+     12480
+    ],
+    "wp": [
+     [
+      171080,
+      2550
+     ],
+     [
+      174030,
+      2440
+     ],
+     [
+      176870,
+      2520
+     ],
+     [
+      179790,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je suis infirmière. Je viens faire l'insuline de sa mère.",
+   "en": "I am a nurse. I come to give his mother her insulin.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "infirmière",
+     "en": "nurse"
+    }
+   ],
+   "words": [
+    [
+     "infirmière",
+     "nurse"
+    ],
+    [
+     "Je viens",
+     "I come"
+    ],
+    [
+     "faire l'insuline",
+     "to give the insulin"
+    ],
+    [
+     "sa mère",
+     "his mother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 5230,
+    "en": 3470,
+    "gl": 3690,
+    "wd": 13150
+   },
+   "bank": {
+    "fr": [
+     183960,
+     5230
+    ],
+    "en": [
+     189590,
+     3470
+    ],
+    "gl": [
+     193460,
+     3690
+    ],
+    "wd": [
+     197550,
+     13150
+    ],
+    "wp": [
+     [
+      197550,
+      2650
+     ],
+     [
+      200600,
+      2490
+     ],
+     [
+      203490,
+      3260
+     ],
+     [
+      207150,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle a soixante-dix-neuf ans, et sa mémoire s'en va.",
+   "en": "She is seventy-nine, and her memory is going.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "soixante-dix-neuf ans",
+     "seventy-nine years old"
+    ],
+    [
+     "sa mémoire",
+     "her memory"
+    ],
+    [
+     "s'en va",
+     "is going away"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 3730,
+    "en": 3310,
+    "wd": 11090
+   },
+   "bank": {
+    "fr": [
+     211100,
+     3730
+    ],
+    "en": [
+     215230,
+     3310
+    ],
+    "wd": [
+     218940,
+     11090
+    ],
+    "wp": [
+     [
+      218940,
+      3780
+     ],
+     [
+      223120,
+      2880
+     ],
+     [
+      226400,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lui, il a quarante-six ans. Il vit chez elle depuis deux ans.",
+   "en": "He is forty-six. He has lived at her house for two years.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "quarante-six ans",
+     "forty-six years old"
+    ],
+    [
+     "Il vit",
+     "he lives"
+    ],
+    [
+     "depuis deux ans",
+     "for two years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5200,
+    "en": 4110,
+    "wd": 10540
+   },
+   "bank": {
+    "fr": [
+     230430,
+     5200
+    ],
+    "en": [
+     236030,
+     4110
+    ],
+    "wd": [
+     240540,
+     10540
+    ],
+    "wp": [
+     [
+      240540,
+      3390
+     ],
+     [
+      244330,
+      2510
+     ],
+     [
+      247240,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce matin-là, Madame Roussel est assise dans la cuisine.",
+   "en": "That morning, Madame Roussel is sitting in the kitchen.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ce matin-là",
+     "that morning"
+    ],
+    [
+     "est assise",
+     "is sitting"
+    ],
+    [
+     "dans la cuisine",
+     "in the kitchen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4390,
+    "en": 3710,
+    "wd": 10110
+   },
+   "bank": {
+    "fr": [
+     251480,
+     4390
+    ],
+    "en": [
+     256269,
+     3710
+    ],
+    "wd": [
+     260380,
+     10110
+    ],
+    "wp": [
+     [
+      260380,
+      2720
+     ],
+     [
+      263500,
+      2650
+     ],
+     [
+      266550,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle regarde son fils comme on regarde un inconnu.",
+   "en": "She looks at her son the way you look at a stranger.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "un inconnu",
+     "en": "a stranger"
+    }
+   ],
+   "words": [
+    [
+     "Elle regarde",
+     "she looks at"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "un inconnu",
+     "a stranger"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 3700,
+    "en": 2910,
+    "gl": 3850,
+    "wd": 9430
+   },
+   "bank": {
+    "fr": [
+     270890,
+     3700
+    ],
+    "en": [
+     274990,
+     2910
+    ],
+    "gl": [
+     278300,
+     3850
+    ],
+    "wd": [
+     282550,
+     9430
+    ],
+    "wp": [
+     [
+      282550,
+      2800
+     ],
+     [
+      285750,
+      2170
+     ],
+     [
+      288320,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il est encore là, ce monsieur ? » dit-elle.",
+   "en": "\"Is that gentleman still here?\" she says.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "encore là",
+     "still here"
+    ],
+    [
+     "ce monsieur",
+     "that gentleman"
+    ],
+    [
+     "dit-elle",
+     "she says"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "en": 2920,
+    "wd": 9630
+   },
+   "bank": {
+    "fr": [
+     292380,
+     3490
+    ],
+    "en": [
+     296270,
+     2920
+    ],
+    "wd": [
+     299590,
+     9630
+    ],
+    "wp": [
+     [
+      299590,
+      2590
+     ],
+     [
+      302580,
+      2780
+     ],
+     [
+      305760,
+      2610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est moi, maman. C'est Gilles. »",
+   "en": "\"It's me, Mum. It's Gilles.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "C'est moi",
+     "it's me"
+    ],
+    [
+     "maman",
+     "Mum"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "en": 2430,
+    "wd": 5930
+   },
+   "bank": {
+    "fr": [
+     309620,
+     3930
+    ],
+    "en": [
+     313950,
+     2430
+    ],
+    "wd": [
+     316780,
+     5930
+    ],
+    "wp": [
+     [
+      316780,
+      2430
+     ],
+     [
+      319610,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je ne connais pas de Gilles. »",
+   "en": "\"I don't know any Gilles.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne connais pas",
+     "I don't know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "en": 1920,
+    "wd": 3790
+   },
+   "bank": {
+    "fr": [
+     323110,
+     2290
+    ],
+    "en": [
+     325800,
+     1920
+    ],
+    "wd": [
+     328120,
+     3790
+    ],
+    "wp": [
+     [
+      328120,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur sa main, il y a une marque rouge, comme une griffure.",
+   "en": "On his hand, there is a red mark, like a scratch.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Sur sa main",
+     "on his hand"
+    ],
+    [
+     "une marque rouge",
+     "a red mark"
+    ],
+    [
+     "une griffure",
+     "a scratch"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "en": 3790,
+    "wd": 10410
+   },
+   "bank": {
+    "fr": [
+     332310,
+     4490
+    ],
+    "en": [
+     337200,
+     3790
+    ],
+    "wd": [
+     341390,
+     10410
+    ],
+    "wp": [
+     [
+      341390,
+      2830
+     ],
+     [
+      344620,
+      3130
+     ],
+     [
+      348150,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le tiroir des couteaux est fermé avec un cadenas.",
+   "en": "The knife drawer is closed with a padlock.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "un cadenas",
+     "en": "a padlock"
+    }
+   ],
+   "words": [
+    [
+     "Le tiroir",
+     "the drawer"
+    ],
+    [
+     "des couteaux",
+     "of the knives"
+    ],
+    [
+     "fermé",
+     "closed"
+    ],
+    [
+     "un cadenas",
+     "a padlock"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3500,
+    "en": 2900,
+    "gl": 3660,
+    "wd": 12860
+   },
+   "bank": {
+    "fr": [
+     352200,
+     3500
+    ],
+    "en": [
+     356100,
+     2900
+    ],
+    "gl": [
+     359400,
+     3660
+    ],
+    "wd": [
+     363460,
+     12860
+    ],
+    "wp": [
+     [
+      363460,
+      2880
+     ],
+     [
+      366740,
+      2830
+     ],
+     [
+      369970,
+      2410
+     ],
+     [
+      372780,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le téléphone est débranché. La porte d'entrée est fermée à clé, même le jour.",
+   "en": "The phone is unplugged. The front door is locked, even in the daytime.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "débranché",
+     "en": "unplugged"
+    }
+   ],
+   "words": [
+    [
+     "Le téléphone",
+     "the phone"
+    ],
+    [
+     "débranché",
+     "unplugged"
+    ],
+    [
+     "La porte d'entrée",
+     "the front door"
+    ],
+    [
+     "fermée à clé",
+     "locked"
+    ],
+    [
+     "même le jour",
+     "even in the daytime"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "gl": "audio/s018_gl.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 6470,
+    "en": 4810,
+    "gl": 3750,
+    "wd": 17120
+   },
+   "bank": {
+    "fr": [
+     376720,
+     6470
+    ],
+    "en": [
+     383590,
+     4810
+    ],
+    "gl": [
+     388800,
+     3750
+    ],
+    "wd": [
+     392950,
+     17120
+    ],
+    "wp": [
+     [
+      392950,
+      2840
+     ],
+     [
+      396190,
+      2720
+     ],
+     [
+      399310,
+      3180
+     ],
+     [
+      402890,
+      2670
+     ],
+     [
+      405960,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le courrier ? Elle déchire tout, » dit Gilles.",
+   "en": "\"The mail? She tears everything up,\" says Gilles.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le courrier",
+     "the mail"
+    ],
+    [
+     "Elle déchire",
+     "she tears up"
+    ],
+    [
+     "tout",
+     "everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4610,
+    "en": 3820,
+    "wd": 9370
+   },
+   "bank": {
+    "fr": [
+     410470,
+     4610
+    ],
+    "en": [
+     415480,
+     3820
+    ],
+    "wd": [
+     419700,
+     9370
+    ],
+    "wp": [
+     [
+      419700,
+      2630
+     ],
+     [
+      422730,
+      2880
+     ],
+     [
+      426010,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La clé, elle la cache. Elle a peur des voleurs. »",
+   "en": "\"The key, she hides it. She is afraid of thieves.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "elle la cache",
+     "she hides it"
+    ],
+    [
+     "Elle a peur",
+     "she is afraid"
+    ],
+    [
+     "des voleurs",
+     "of thieves"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4910,
+    "en": 3820,
+    "wd": 10300
+   },
+   "bank": {
+    "fr": [
+     429470,
+     4910
+    ],
+    "en": [
+     434780,
+     3820
+    ],
+    "wd": [
+     439000,
+     10300
+    ],
+    "wp": [
+     [
+      439000,
+      2790
+     ],
+     [
+      442190,
+      3020
+     ],
+     [
+      445610,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, Gilles redemande la clé à sa mère, doucement.",
+   "en": "The next day, Gilles asks his mother for the key again, gently.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "redemande",
+     "asks again"
+    ],
+    [
+     "la clé",
+     "the key"
+    ],
+    [
+     "doucement",
+     "gently"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4750,
+    "en": 4450,
+    "wd": 12510
+   },
+   "bank": {
+    "fr": [
+     449700,
+     4750
+    ],
+    "en": [
+     454850,
+     4450
+    ],
+    "wd": [
+     459700,
+     12510
+    ],
+    "wp": [
+     [
+      459700,
+      2790
+     ],
+     [
+      462890,
+      2830
+     ],
+     [
+      466120,
+      2480
+     ],
+     [
+      469000,
+      2360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quelle clé ? » Mais sa main va tout droit dans la poche de son gilet.",
+   "en": "\"What key?\" But her hand goes straight into the pocket of her cardigan.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "gilet",
+     "en": "cardigan"
+    }
+   ],
+   "words": [
+    [
+     "Quelle clé",
+     "what key"
+    ],
+    [
+     "sa main va",
+     "her hand goes"
+    ],
+    [
+     "tout droit",
+     "straight"
+    ],
+    [
+     "la poche",
+     "the pocket"
+    ],
+    [
+     "son gilet",
+     "her cardigan"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 4420,
+    "gl": 3310,
+    "wd": 15740
+   },
+   "bank": {
+    "fr": [
+     472610,
+     5040
+    ],
+    "en": [
+     478050,
+     4420
+    ],
+    "gl": [
+     482870,
+     3310
+    ],
+    "wd": [
+     486580,
+     15740
+    ],
+    "wp": [
+     [
+      486580,
+      2540
+     ],
+     [
+      489520,
+      2950
+     ],
+     [
+      492870,
+      2420
+     ],
+     [
+      495690,
+      2590
+     ],
+     [
+      498680,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle sort la clé sans chercher, puis elle la regarde, étonnée.",
+   "en": "She takes out the key without searching, then she looks at it, surprised.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Elle sort",
+     "she takes out"
+    ],
+    [
+     "sans chercher",
+     "without searching"
+    ],
+    [
+     "elle la regarde",
+     "she looks at it"
+    ],
+    [
+     "étonnée",
+     "surprised"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4420,
+    "en": 4570,
+    "wd": 13350
+   },
+   "bank": {
+    "fr": [
+     502720,
+     4420
+    ],
+    "en": [
+     507540,
+     4570
+    ],
+    "wd": [
+     512510,
+     13350
+    ],
+    "wp": [
+     [
+      512510,
+      2740
+     ],
+     [
+      515650,
+      3020
+     ],
+     [
+      519070,
+      3020
+     ],
+     [
+      522490,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je me dis : la mémoire du corps. Ça existe.",
+   "en": "I tell myself: the body's memory. That exists.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je me dis",
+     "I tell myself"
+    ],
+    [
+     "la mémoire du corps",
+     "body memory"
+    ],
+    [
+     "Ça existe",
+     "that exists"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 3870,
+    "wd": 11120
+   },
+   "bank": {
+    "fr": [
+     526260,
+     5040
+    ],
+    "en": [
+     531700,
+     3870
+    ],
+    "wd": [
+     535970,
+     11120
+    ],
+    "wp": [
+     [
+      535970,
+      3010
+     ],
+     [
+      539380,
+      3370
+     ],
+     [
+      543150,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis elle se tourne vers moi, et elle sourit.",
+   "en": "Then she turns toward me, and she smiles.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "elle se tourne",
+     "she turns"
+    ],
+    [
+     "vers moi",
+     "toward me"
+    ],
+    [
+     "elle sourit",
+     "she smiles"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3240,
+    "en": 3170,
+    "wd": 9940
+   },
+   "bank": {
+    "fr": [
+     547490,
+     3240
+    ],
+    "en": [
+     551130,
+     3170
+    ],
+    "wd": [
+     554700,
+     9940
+    ],
+    "wp": [
+     [
+      554700,
+      2980
+     ],
+     [
+      558080,
+      2470
+     ],
+     [
+      560950,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Alors, votre Sarah ? Ce bac, il s'est bien passé ? »",
+   "en": "\"So, your Sarah? Did that exam go well?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "votre Sarah",
+     "your Sarah"
+    ],
+    [
+     "Ce bac",
+     "that exam (baccalauréat)"
+    ],
+    [
+     "il s'est bien passé",
+     "did it go well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "en": 3060,
+    "wd": 11270
+   },
+   "bank": {
+    "fr": [
+     565040,
+     5250
+    ],
+    "en": [
+     570690,
+     3060
+    ],
+    "wd": [
+     574150,
+     11270
+    ],
+    "wp": [
+     [
+      574150,
+      2810
+     ],
+     [
+      577360,
+      3590
+     ],
+     [
+      581350,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je lui avais parlé de ma fille une seule fois, en juin.",
+   "en": "I had talked to her about my daughter only once, in June.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je lui avais parlé",
+     "I had talked to her"
+    ],
+    [
+     "ma fille",
+     "my daughter"
+    ],
+    [
+     "une seule fois",
+     "only once"
+    ],
+    [
+     "en juin",
+     "in June"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "en": 3960,
+    "wd": 13560
+   },
+   "bank": {
+    "fr": [
+     585820,
+     3990
+    ],
+    "en": [
+     590210,
+     3960
+    ],
+    "wd": [
+     594570,
+     13560
+    ],
+    "wp": [
+     [
+      594570,
+      3440
+     ],
+     [
+      598410,
+      2630
+     ],
+     [
+      601440,
+      2940
+     ],
+     [
+      604780,
+      2500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle oublie son fils, mais elle retient ma fille.",
+   "en": "She forgets her son, but she remembers my daughter.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Elle oublie",
+     "she forgets"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "elle retient",
+     "she remembers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3720,
+    "en": 3560,
+    "wd": 9100
+   },
+   "bank": {
+    "fr": [
+     608530,
+     3720
+    ],
+    "en": [
+     612650,
+     3560
+    ],
+    "wd": [
+     616610,
+     9100
+    ],
+    "wp": [
+     [
+      616610,
+      2680
+     ],
+     [
+      619690,
+      1920
+     ],
+     [
+      622010,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La maladie est bizarre, me dis-je. Elle choisit ses souvenirs.",
+   "en": "The illness is strange, I tell myself. It chooses its memories.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La maladie",
+     "the illness"
+    ],
+    [
+     "bizarre",
+     "strange"
+    ],
+    [
+     "Elle choisit",
+     "it chooses"
+    ],
+    [
+     "ses souvenirs",
+     "its memories"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 5760,
+    "en": 4570,
+    "wd": 13490
+   },
+   "bank": {
+    "fr": [
+     626110,
+     5760
+    ],
+    "en": [
+     632270,
+     4570
+    ],
+    "wd": [
+     637240,
+     13490
+    ],
+    "wp": [
+     [
+      637240,
+      2900
+     ],
+     [
+      640540,
+      2650
+     ],
+     [
+      643590,
+      2850
+     ],
+     [
+      646840,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Vendredi, je pose la question à la voisine, Madame Pires.",
+   "en": "On Friday, I ask the neighbour, Madame Pires.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Vendredi",
+     "Friday"
+    ],
+    [
+     "je pose la question",
+     "I ask the question"
+    ],
+    [
+     "la voisine",
+     "the neighbour"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 3680,
+    "wd": 10670
+   },
+   "bank": {
+    "fr": [
+     651130,
+     5040
+    ],
+    "en": [
+     656570,
+     3680
+    ],
+    "wd": [
+     660650,
+     10670
+    ],
+    "wp": [
+     [
+      660650,
+      2660
+     ],
+     [
+      663710,
+      3570
+     ],
+     [
+      667680,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Gilles avait une belle place à Lyon, » dit-elle.",
+   "en": "\"Gilles had a good job in Lyon,\" she says.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "une belle place",
+     "a good job"
+    ],
+    [
+     "à Lyon",
+     "in Lyon"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3520,
+    "en": 3030,
+    "wd": 6750
+   },
+   "bank": {
+    "fr": [
+     671720,
+     3520
+    ],
+    "en": [
+     675640,
+     3030
+    ],
+    "wd": [
+     679070,
+     6750
+    ],
+    "wp": [
+     [
+      679070,
+      2980
+     ],
+     [
+      682450,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il devait repartir après l'enterrement de son père. »",
+   "en": "\"He was supposed to go back after his father's funeral.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Il devait repartir",
+     "he was supposed to go back"
+    ],
+    [
+     "l'enterrement",
+     "the funeral"
+    ],
+    [
+     "de son père",
+     "of his father"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3530,
+    "en": 3380,
+    "wd": 11190
+   },
+   "bank": {
+    "fr": [
+     686220,
+     3530
+    ],
+    "en": [
+     690150,
+     3380
+    ],
+    "wd": [
+     693930,
+     11190
+    ],
+    "wp": [
+     [
+      693930,
+      3810
+     ],
+     [
+      698140,
+      2790
+     ],
+     [
+      701330,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et sa mère a perdu la tête, juste ce mois-là. »",
+   "en": "\"And his mother lost her mind, just that month.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "a perdu la tête",
+     "en": "lost her mind"
+    }
+   ],
+   "words": [
+    [
+     "a perdu la tête",
+     "lost her mind"
+    ],
+    [
+     "juste ce mois-là",
+     "just that month"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "gl": "audio/s033_gl.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "en": 3080,
+    "gl": 4460,
+    "wd": 7680
+   },
+   "bank": {
+    "fr": [
+     705520,
+     3570
+    ],
+    "en": [
+     709490,
+     3080
+    ],
+    "gl": [
+     712970,
+     4460
+    ],
+    "wd": [
+     717830,
+     7680
+    ],
+    "wp": [
+     [
+      717830,
+      3260
+     ],
+     [
+      721490,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un fils qui garde sa mère enfermée, avec une maladie pratique.",
+   "en": "A son who keeps his mother locked in, with a convenient illness.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Un fils",
+     "a son"
+    ],
+    [
+     "garde",
+     "keeps"
+    ],
+    [
+     "enfermée",
+     "locked in"
+    ],
+    [
+     "une maladie pratique",
+     "a convenient illness"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 4710,
+    "en": 4370,
+    "wd": 13350
+   },
+   "bank": {
+    "fr": [
+     725910,
+     4710
+    ],
+    "en": [
+     731020,
+     4370
+    ],
+    "wd": [
+     735790,
+     13350
+    ],
+    "wp": [
+     [
+      735790,
+      2540
+     ],
+     [
+      738730,
+      2410
+     ],
+     [
+      741540,
+      2580
+     ],
+     [
+      744520,
+      3770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans mon téléphone, je note le numéro pour les personnes âgées en danger.",
+   "en": "In my phone, I save the number for elderly people in danger.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "je note",
+     "I save (write down)"
+    ],
+    [
+     "le numéro",
+     "the number"
+    ],
+    [
+     "les personnes âgées",
+     "elderly people"
+    ],
+    [
+     "en danger",
+     "in danger"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5220,
+    "en": 4130,
+    "wd": 13970
+   },
+   "bank": {
+    "fr": [
+     749540,
+     5220
+    ],
+    "en": [
+     755160,
+     4130
+    ],
+    "wd": [
+     759690,
+     13970
+    ],
+    "wp": [
+     [
+      759690,
+      3430
+     ],
+     [
+      763520,
+      2560
+     ],
+     [
+      766480,
+      3280
+     ],
+     [
+      770160,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je n'appelle pas encore. Ma fille part à Bordeaux en septembre.",
+   "en": "I don't call yet. My daughter leaves for Bordeaux in September.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Je n'appelle pas",
+     "I don't call"
+    ],
+    [
+     "encore",
+     "yet"
+    ],
+    [
+     "part",
+     "leaves"
+    ],
+    [
+     "en septembre",
+     "in September"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "en": 4230,
+    "wd": 12540
+   },
+   "bank": {
+    "fr": [
+     774060,
+     5330
+    ],
+    "en": [
+     779790,
+     4230
+    ],
+    "wd": [
+     784420,
+     12540
+    ],
+    "wp": [
+     [
+      784420,
+      2910
+     ],
+     [
+      787730,
+      2329
+     ],
+     [
+      790460,
+      2320
+     ],
+     [
+      793180,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je dis à tout le monde que je suis contente.",
+   "en": "I tell everyone that I am happy.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Je dis",
+     "I tell"
+    ],
+    [
+     "tout le monde",
+     "everyone"
+    ],
+    [
+     "contente",
+     "happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "en": 2250,
+    "wd": 9250
+   },
+   "bank": {
+    "fr": [
+     797360,
+     3230
+    ],
+    "en": [
+     800990,
+     2250
+    ],
+    "wd": [
+     803640,
+     9250
+    ],
+    "wp": [
+     [
+      803640,
+      2520
+     ],
+     [
+      806560,
+      2640
+     ],
+     [
+      809600,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Jeudi, mon premier patient est à l'hôpital. J'arrive à sept heures quarante.",
+   "en": "On Thursday, my first patient is in hospital. I arrive at seven forty.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "mon premier patient",
+     "my first patient"
+    ],
+    [
+     "à l'hôpital",
+     "in hospital"
+    ],
+    [
+     "J'arrive",
+     "I arrive"
+    ],
+    [
+     "sept heures quarante",
+     "seven forty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 6520,
+    "en": 5130,
+    "wd": 14430
+   },
+   "bank": {
+    "fr": [
+     813290,
+     6520
+    ],
+    "en": [
+     820210,
+     5130
+    ],
+    "wd": [
+     825740,
+     14430
+    ],
+    "wp": [
+     [
+      825740,
+      3440
+     ],
+     [
+      829580,
+      2940
+     ],
+     [
+      832920,
+      2760
+     ],
+     [
+      836080,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je sonne. La porte s'ouvre tout de suite.",
+   "en": "I ring. The door opens right away.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Je sonne",
+     "I ring"
+    ],
+    [
+     "La porte s'ouvre",
+     "the door opens"
+    ],
+    [
+     "tout de suite",
+     "right away"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4390,
+    "en": 2840,
+    "wd": 10250
+   },
+   "bank": {
+    "fr": [
+     840570,
+     4390
+    ],
+    "en": [
+     845360,
+     2840
+    ],
+    "wd": [
+     848600,
+     10250
+    ],
+    "wp": [
+     [
+      848600,
+      2530
+     ],
+     [
+      851530,
+      3310
+     ],
+     [
+      855240,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gilles n'est pas là. Chaque matin, il part chercher le pain.",
+   "en": "Gilles is not there. Every morning, he goes to get the bread.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Gilles n'est pas là",
+     "Gilles is not there"
+    ],
+    [
+     "Chaque matin",
+     "every morning"
+    ],
+    [
+     "il part",
+     "he leaves"
+    ],
+    [
+     "chercher le pain",
+     "to get the bread"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5060,
+    "en": 4070,
+    "wd": 13810
+   },
+   "bank": {
+    "fr": [
+     859250,
+     5060
+    ],
+    "en": [
+     864710,
+     4070
+    ],
+    "wd": [
+     869180,
+     13810
+    ],
+    "wp": [
+     [
+      869180,
+      3300
+     ],
+     [
+      872880,
+      2850
+     ],
+     [
+      876130,
+      2640
+     ],
+     [
+      879170,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Roussel est là, debout, son manteau sur le dos.",
+   "en": "Madame Roussel is there, standing, her coat on her back.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "debout",
+     "standing"
+    ],
+    [
+     "son manteau",
+     "her coat"
+    ],
+    [
+     "sur le dos",
+     "on her back"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 4220,
+    "en": 4140,
+    "wd": 9360
+   },
+   "bank": {
+    "fr": [
+     883390,
+     4220
+    ],
+    "en": [
+     888010,
+     4140
+    ],
+    "wd": [
+     892550,
+     9360
+    ],
+    "wp": [
+     [
+      892550,
+      2340
+     ],
+     [
+      895290,
+      2680
+     ],
+     [
+      898370,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle est coiffée. Elle a mis du rouge à lèvres. La clé est dans sa main.",
+   "en": "She has done her hair. She has put on lipstick. The key is in her hand.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle est coiffée",
+     "her hair is done"
+    ],
+    [
+     "du rouge à lèvres",
+     "lipstick"
+    ],
+    [
+     "La clé",
+     "the key"
+    ],
+    [
+     "dans sa main",
+     "in her hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 6530,
+    "en": 4750,
+    "wd": 13330
+   },
+   "bank": {
+    "fr": [
+     902310,
+     6530
+    ],
+    "en": [
+     909240,
+     4750
+    ],
+    "wd": [
+     914390,
+     13330
+    ],
+    "wp": [
+     [
+      914390,
+      3040
+     ],
+     [
+      917830,
+      2950
+     ],
+     [
+      921180,
+      2480
+     ],
+     [
+      924060,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ah, Nadia ! Déjà ? Le facteur passe à huit heures, je dois… »",
+   "en": "\"Ah, Nadia! Already? The mailman comes at eight, I have to…\"",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "facteur",
+     "en": "mailman"
+    }
+   ],
+   "words": [
+    [
+     "Déjà",
+     "already"
+    ],
+    [
+     "Le facteur",
+     "the mailman"
+    ],
+    [
+     "passe",
+     "comes by"
+    ],
+    [
+     "je dois",
+     "I have to"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "gl": "audio/s043_gl.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 6830,
+    "en": 4780,
+    "gl": 3510,
+    "wd": 12240
+   },
+   "bank": {
+    "fr": [
+     928120,
+     6830
+    ],
+    "en": [
+     935350,
+     4780
+    ],
+    "gl": [
+     940530,
+     3510
+    ],
+    "wd": [
+     944440,
+     12240
+    ],
+    "wp": [
+     [
+      944440,
+      2320
+     ],
+     [
+      947160,
+      2780
+     ],
+     [
+      950340,
+      2440
+     ],
+     [
+      953180,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle s'arrête. Elle me regarde. Je vois son visage changer.",
+   "en": "She stops. She looks at me. I see her face change.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle s'arrête",
+     "she stops"
+    ],
+    [
+     "Je vois",
+     "I see"
+    ],
+    [
+     "son visage",
+     "her face"
+    ],
+    [
+     "changer",
+     "change"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 6510,
+    "en": 4110,
+    "wd": 13090
+   },
+   "bank": {
+    "fr": [
+     957080,
+     6510
+    ],
+    "en": [
+     963990,
+     4110
+    ],
+    "wd": [
+     968500,
+     13090
+    ],
+    "wp": [
+     [
+      968500,
+      2970
+     ],
+     [
+      971870,
+      2560
+     ],
+     [
+      974830,
+      3020
+     ],
+     [
+      978250,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pas d'un coup. Lentement, comme on met un manteau.",
+   "en": "Not all at once. Slowly, like putting on a coat.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Pas d'un coup",
+     "not all at once"
+    ],
+    [
+     "Lentement",
+     "slowly"
+    ],
+    [
+     "comme on met",
+     "like one puts on"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 4580,
+    "en": 3610,
+    "wd": 10060
+   },
+   "bank": {
+    "fr": [
+     981990,
+     4580
+    ],
+    "en": [
+     986970,
+     3610
+    ],
+    "wd": [
+     990980,
+     10060
+    ],
+    "wp": [
+     [
+      990980,
+      2930
+     ],
+     [
+      994310,
+      2550
+     ],
+     [
+      997260,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Monsieur ? » dit-elle. « Vous venez pour le gaz ? »",
+   "en": "\"Sir?\" she says. \"Are you here for the gas?\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "dit-elle",
+     "she says"
+    ],
+    [
+     "Vous venez",
+     "are you coming"
+    ],
+    [
+     "pour le gaz",
+     "for the gas"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 3440,
+    "wd": 9720
+   },
+   "bank": {
+    "fr": [
+     1001440,
+     4650
+    ],
+    "en": [
+     1006490,
+     3440
+    ],
+    "wd": [
+     1010330,
+     9720
+    ],
+    "wp": [
+     [
+      1010330,
+      2610
+     ],
+     [
+      1013340,
+      2570
+     ],
+     [
+      1016310,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je ne dis rien. Je la suis dans la cuisine.",
+   "en": "I say nothing. I follow her into the kitchen.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne dis rien",
+     "I say nothing"
+    ],
+    [
+     "Je la suis",
+     "I follow her"
+    ],
+    [
+     "dans la cuisine",
+     "into the kitchen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 4380,
+    "en": 3080,
+    "wd": 10810
+   },
+   "bank": {
+    "fr": [
+     1020450,
+     4380
+    ],
+    "en": [
+     1025230,
+     3080
+    ],
+    "wd": [
+     1028710,
+     10810
+    ],
+    "wp": [
+     [
+      1028710,
+      3000
+     ],
+     [
+      1032110,
+      2910
+     ],
+     [
+      1035420,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur le buffet, il y a une boîte à biscuits ouverte.",
+   "en": "On the sideboard, there is an open biscuit tin.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Sur le buffet",
+     "on the sideboard"
+    ],
+    [
+     "une boîte à biscuits",
+     "a biscuit tin"
+    ],
+    [
+     "ouverte",
+     "open"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 3990,
+    "en": 3420,
+    "wd": 10490
+   },
+   "bank": {
+    "fr": [
+     1039920,
+     3990
+    ],
+    "en": [
+     1044310,
+     3420
+    ],
+    "wd": [
+     1048130,
+     10490
+    ],
+    "wp": [
+     [
+      1048130,
+      2980
+     ],
+     [
+      1051510,
+      3480
+     ],
+     [
+      1055390,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle est pleine d'enveloppes. Toutes au nom de Gilles Roussel.",
+   "en": "It is full of envelopes. All in the name of Gilles Roussel.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "pleine d'enveloppes",
+     "full of envelopes"
+    ],
+    [
+     "Toutes",
+     "all of them"
+    ],
+    [
+     "au nom de",
+     "in the name of"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 4040,
+    "wd": 9960
+   },
+   "bank": {
+    "fr": [
+     1059020,
+     4650
+    ],
+    "en": [
+     1064070,
+     4040
+    ],
+    "wd": [
+     1068510,
+     9960
+    ],
+    "wp": [
+     [
+      1068510,
+      3260
+     ],
+     [
+      1072170,
+      2320
+     ],
+     [
+      1074890,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sept lettres, de Lyon. Une est ouverte.",
+   "en": "Seven letters, from Lyon. One is open.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Sept lettres",
+     "seven letters"
+    ],
+    [
+     "de Lyon",
+     "from Lyon"
+    ],
+    [
+     "Une est ouverte",
+     "one is open"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 3300,
+    "wd": 10260
+   },
+   "bank": {
+    "fr": [
+     1078870,
+     4320
+    ],
+    "en": [
+     1083590,
+     3300
+    ],
+    "wd": [
+     1087290,
+     10260
+    ],
+    "wp": [
+     [
+      1087290,
+      2990
+     ],
+     [
+      1090680,
+      2590
+     ],
+     [
+      1093670,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Nous attendons toujours votre réponse. Dernière relance. »",
+   "en": "\"We are still waiting for your answer. Final reminder.\"",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "relance",
+     "en": "reminder (letter)"
+    }
+   ],
+   "words": [
+    [
+     "Nous attendons",
+     "we are waiting"
+    ],
+    [
+     "toujours",
+     "still"
+    ],
+    [
+     "votre réponse",
+     "your answer"
+    ],
+    [
+     "Dernière relance",
+     "final reminder"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "gl": "audio/s051_gl.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 5110,
+    "en": 3530,
+    "gl": 4030,
+    "wd": 13830
+   },
+   "bank": {
+    "fr": [
+     1097950,
+     5110
+    ],
+    "en": [
+     1103460,
+     3530
+    ],
+    "gl": [
+     1107390,
+     4030
+    ],
+    "wd": [
+     1111820,
+     13830
+    ],
+    "wp": [
+     [
+      1111820,
+      2890
+     ],
+     [
+      1115110,
+      2450
+     ],
+     [
+      1117960,
+      3070
+     ],
+     [
+      1121430,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je prends cette lettre sans réfléchir. Un vol, en somme.",
+   "en": "I take that letter without thinking. A theft, really.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Je prends",
+     "I take"
+    ],
+    [
+     "cette lettre",
+     "that letter"
+    ],
+    [
+     "sans réfléchir",
+     "without thinking"
+    ],
+    [
+     "Un vol",
+     "a theft"
+    ],
+    [
+     "en somme",
+     "really"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 5530,
+    "en": 3440,
+    "wd": 15950
+   },
+   "bank": {
+    "fr": [
+     1126050,
+     5530
+    ],
+    "en": [
+     1131980,
+     3440
+    ],
+    "wd": [
+     1135820,
+     15950
+    ],
+    "wp": [
+     [
+      1135820,
+      2520
+     ],
+     [
+      1138740,
+      2760
+     ],
+     [
+      1141900,
+      3240
+     ],
+     [
+      1145540,
+      2600
+     ],
+     [
+      1148540,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je fais l'insuline. Ma main ne tremble pas.",
+   "en": "I give the insulin. My hand does not shake.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Je fais l'insuline",
+     "I give the insulin"
+    ],
+    [
+     "Ma main",
+     "my hand"
+    ],
+    [
+     "ne tremble pas",
+     "does not shake"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "en": 3120,
+    "wd": 10500
+   },
+   "bank": {
+    "fr": [
+     1152170,
+     4310
+    ],
+    "en": [
+     1156880,
+     3120
+    ],
+    "wd": [
+     1160400,
+     10500
+    ],
+    "wp": [
+     [
+      1160400,
+      3390
+     ],
+     [
+      1164190,
+      2480
+     ],
+     [
+      1167070,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Roussel regarde mes yeux. Puis elle regarde la boîte.",
+   "en": "Madame Roussel looks at my eyes. Then she looks at the tin.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "regarde",
+     "looks at"
+    ],
+    [
+     "mes yeux",
+     "my eyes"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "la boîte",
+     "the tin"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 5340,
+    "en": 3850,
+    "wd": 11920
+   },
+   "bank": {
+    "fr": [
+     1171300,
+     5340
+    ],
+    "en": [
+     1177040,
+     3850
+    ],
+    "wd": [
+     1181290,
+     11920
+    ],
+    "wp": [
+     [
+      1181290,
+      2550
+     ],
+     [
+      1184240,
+      2530
+     ],
+     [
+      1187170,
+      2110
+     ],
+     [
+      1189680,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle parle très bas, d'une voix claire, sans aucun trou.",
+   "en": "She speaks very low, in a clear voice, without any gap.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle parle",
+     "she speaks"
+    ],
+    [
+     "très bas",
+     "very low"
+    ],
+    [
+     "d'une voix claire",
+     "in a clear voice"
+    ],
+    [
+     "sans aucun trou",
+     "without any gap"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "en": 4570,
+    "wd": 14020
+   },
+   "bank": {
+    "fr": [
+     1193610,
+     4290
+    ],
+    "en": [
+     1198300,
+     4570
+    ],
+    "wd": [
+     1203270,
+     14020
+    ],
+    "wp": [
+     [
+      1203270,
+      2870
+     ],
+     [
+      1206540,
+      2460
+     ],
+     [
+      1209400,
+      3350
+     ],
+     [
+      1213150,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est mon fils. Il est tout ce que j'ai. »",
+   "en": "\"He is my son. He is all I have.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "C'est mon fils",
+     "he is my son"
+    ],
+    [
+     "tout ce que j'ai",
+     "all I have"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 3850,
+    "en": 2760,
+    "wd": 7260
+   },
+   "bank": {
+    "fr": [
+     1217690,
+     3850
+    ],
+    "en": [
+     1221940,
+     2760
+    ],
+    "wd": [
+     1225100,
+     7260
+    ],
+    "wp": [
+     [
+      1225100,
+      3190
+     ],
+     [
+      1228690,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un instant, nous nous regardons, deux femmes, et personne d'autre.",
+   "en": "For a moment, we look at each other, two women, and no one else.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Un instant",
+     "a moment"
+    ],
+    [
+     "nous nous regardons",
+     "we look at each other"
+    ],
+    [
+     "deux femmes",
+     "two women"
+    ],
+    [
+     "personne d'autre",
+     "no one else"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4760,
+    "wd": 13520
+   },
+   "bank": {
+    "fr": [
+     1232760,
+     5030
+    ],
+    "en": [
+     1238190,
+     4760
+    ],
+    "wd": [
+     1243350,
+     13520
+    ],
+    "wp": [
+     [
+      1243350,
+      2550
+     ],
+     [
+      1246300,
+      3210
+     ],
+     [
+      1249910,
+      2650
+     ],
+     [
+      1252960,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis ses yeux se vident. « Qui êtes-vous, vous ? »",
+   "en": "Then her eyes go empty. \"Who are you?\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "ses yeux",
+     "her eyes"
+    ],
+    [
+     "se vident",
+     "go empty"
+    ],
+    [
+     "Qui êtes-vous",
+     "who are you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "en": 2730,
+    "wd": 9510
+   },
+   "bank": {
+    "fr": [
+     1257270,
+     4400
+    ],
+    "en": [
+     1262070,
+     2730
+    ],
+    "wd": [
+     1265200,
+     9510
+    ],
+    "wp": [
+     [
+      1265200,
+      2550
+     ],
+     [
+      1268150,
+      2640
+     ],
+     [
+      1271190,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En sortant, je croise Gilles devant le portail, avec une baguette.",
+   "en": "Going out, I meet Gilles in front of the gate, with a baguette.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "En sortant",
+     "going out"
+    ],
+    [
+     "je croise",
+     "I meet"
+    ],
+    [
+     "devant le portail",
+     "in front of the gate"
+    ],
+    [
+     "avec une baguette",
+     "with a baguette"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 5190,
+    "en": 4260,
+    "wd": 14080
+   },
+   "bank": {
+    "fr": [
+     1275110,
+     5190
+    ],
+    "en": [
+     1280700,
+     4260
+    ],
+    "wd": [
+     1285360,
+     14080
+    ],
+    "wp": [
+     [
+      1285360,
+      2620
+     ],
+     [
+      1288380,
+      2750
+     ],
+     [
+      1291530,
+      3450
+     ],
+     [
+      1295380,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Votre courrier, Monsieur Roussel. Il était dans la cuisine. »",
+   "en": "\"Your mail, Monsieur Roussel. It was in the kitchen.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Votre courrier",
+     "your mail"
+    ],
+    [
+     "Il était",
+     "it was"
+    ],
+    [
+     "dans la cuisine",
+     "in the kitchen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 5550,
+    "en": 3370,
+    "wd": 10000
+   },
+   "bank": {
+    "fr": [
+     1299840,
+     5550
+    ],
+    "en": [
+     1305790,
+     3370
+    ],
+    "wd": [
+     1309560,
+     10000
+    ],
+    "wp": [
+     [
+      1309560,
+      2870
+     ],
+     [
+      1312830,
+      2390
+     ],
+     [
+      1315620,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il lit. Il lit longtemps, plus longtemps que la lettre n'est longue.",
+   "en": "He reads. He reads for a long time, longer than the letter is long.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il lit",
+     "he reads"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ],
+    [
+     "plus longtemps que",
+     "longer than"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 5470,
+    "en": 4830,
+    "wd": 9850
+   },
+   "bank": {
+    "fr": [
+     1319960,
+     5470
+    ],
+    "en": [
+     1325830,
+     4830
+    ],
+    "wd": [
+     1331060,
+     9850
+    ],
+    "wp": [
+     [
+      1331060,
+      2590
+     ],
+     [
+      1334050,
+      2750
+     ],
+     [
+      1337200,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il y en a d'autres ? » demande-t-il.",
+   "en": "\"Are there others?\" he asks.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il y en a d'autres",
+     "are there others"
+    ],
+    [
+     "demande-t-il",
+     "he asks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 2710,
+    "en": 2390,
+    "wd": 7190
+   },
+   "bank": {
+    "fr": [
+     1341310,
+     2710
+    ],
+    "en": [
+     1344420,
+     2390
+    ],
+    "wd": [
+     1347210,
+     7190
+    ],
+    "wp": [
+     [
+      1347210,
+      3040
+     ],
+     [
+      1350650,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je ne sais pas, » dis-je. « Je suis infirmière, pas juge. »",
+   "en": "\"I don't know,\" I say. \"I am a nurse, not a judge.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne sais pas",
+     "I don't know"
+    ],
+    [
+     "dis-je",
+     "I say"
+    ],
+    [
+     "pas juge",
+     "not a judge"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 5660,
+    "en": 4250,
+    "wd": 9610
+   },
+   "bank": {
+    "fr": [
+     1354800,
+     5660
+    ],
+    "en": [
+     1360860,
+     4250
+    ],
+    "wd": [
+     1365510,
+     9610
+    ],
+    "wp": [
+     [
+      1365510,
+      2790
+     ],
+     [
+      1368700,
+      2370
+     ],
+     [
+      1371470,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il ne demande pas si elle sait. Moi non plus.",
+   "en": "He does not ask whether she knows. Neither do I.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il ne demande pas",
+     "he does not ask"
+    ],
+    [
+     "si elle sait",
+     "whether she knows"
+    ],
+    [
+     "Moi non plus",
+     "neither do I"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 4240,
+    "en": 3420,
+    "wd": 10880
+   },
+   "bank": {
+    "fr": [
+     1375520,
+     4240
+    ],
+    "en": [
+     1380160,
+     3420
+    ],
+    "wd": [
+     1383980,
+     10880
+    ],
+    "wp": [
+     [
+      1383980,
+      3260
+     ],
+     [
+      1387640,
+      2990
+     ],
+     [
+      1391030,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors, par la fenêtre ouverte, une voix appelle :",
+   "en": "Then, through the open window, a voice calls:",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "then"
+    ],
+    [
+     "par la fenêtre ouverte",
+     "through the open window"
+    ],
+    [
+     "une voix appelle",
+     "a voice calls"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 4180,
+    "en": 3550,
+    "wd": 11010
+   },
+   "bank": {
+    "fr": [
+     1395260,
+     4180
+    ],
+    "en": [
+     1399840,
+     3550
+    ],
+    "wd": [
+     1403790,
+     11010
+    ],
+    "wp": [
+     [
+      1403790,
+      2280
+     ],
+     [
+      1406470,
+      3880
+     ],
+     [
+      1410750,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Gilles ? Gilles, c'est toi ? Tu es là ? »",
+   "en": "\"Gilles? Gilles, is that you? Are you there?\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "c'est toi",
+     "is that you"
+    ],
+    [
+     "Tu es là",
+     "are you there"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 5350,
+    "en": 3440,
+    "wd": 6410
+   },
+   "bank": {
+    "fr": [
+     1415200,
+     5350
+    ],
+    "en": [
+     1420950,
+     3440
+    ],
+    "wd": [
+     1424790,
+     6410
+    ],
+    "wp": [
+     [
+      1424790,
+      2580
+     ],
+     [
+      1427770,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Depuis un an, elle ne l'avait pas appelé par son prénom.",
+   "en": "For a year, she had not called him by his first name.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Depuis un an",
+     "for a year"
+    ],
+    [
+     "par son prénom",
+     "by his first name"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 3830,
+    "en": 3350,
+    "wd": 7130
+   },
+   "bank": {
+    "fr": [
+     1431600,
+     3830
+    ],
+    "en": [
+     1435830,
+     3350
+    ],
+    "wd": [
+     1439580,
+     7130
+    ],
+    "wp": [
+     [
+      1439580,
+      2760
+     ],
+     [
+      1442740,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Gilles ferme les yeux. Il plie la lettre en quatre.",
+   "en": "Gilles closes his eyes. He folds the letter in four.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "ferme les yeux",
+     "closes his eyes"
+    ],
+    [
+     "Il plie",
+     "he folds"
+    ],
+    [
+     "en quatre",
+     "in four"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "en": 3870,
+    "wd": 10150
+   },
+   "bank": {
+    "fr": [
+     1447110,
+     4490
+    ],
+    "en": [
+     1452000,
+     3870
+    ],
+    "wd": [
+     1456270,
+     10150
+    ],
+    "wp": [
+     [
+      1456270,
+      3190
+     ],
+     [
+      1459860,
+      2680
+     ],
+     [
+      1462940,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il la glisse dans sa poche, avec le pain, et il entre.",
+   "en": "He slides it into his pocket, with the bread, and he goes in.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il la glisse",
+     "he slides it"
+    ],
+    [
+     "dans sa poche",
+     "into his pocket"
+    ],
+    [
+     "avec le pain",
+     "with the bread"
+    ],
+    [
+     "il entre",
+     "he goes in"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 4200,
+    "wd": 13610
+   },
+   "bank": {
+    "fr": [
+     1466820,
+     4320
+    ],
+    "en": [
+     1471540,
+     4200
+    ],
+    "wd": [
+     1476140,
+     13610
+    ],
+    "wp": [
+     [
+      1476140,
+      2870
+     ],
+     [
+      1479410,
+      3150
+     ],
+     [
+      1482960,
+      2810
+     ],
+     [
+      1486170,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je n'ai pas su si c'était pour elle, ou pour lui.",
+   "en": "I could not tell whether it was for her, or for him.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Je n'ai pas su",
+     "I could not tell"
+    ],
+    [
+     "si c'était",
+     "whether it was"
+    ],
+    [
+     "pour elle",
+     "for her"
+    ],
+    [
+     "pour lui",
+     "for him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 3540,
+    "en": 3380,
+    "wd": 12820
+   },
+   "bank": {
+    "fr": [
+     1490150,
+     3540
+    ],
+    "en": [
+     1494090,
+     3380
+    ],
+    "wd": [
+     1497870,
+     12820
+    ],
+    "wp": [
+     [
+      1497870,
+      3060
+     ],
+     [
+      1501330,
+      2800
+     ],
+     [
+      1504530,
+      2450
+     ],
+     [
+      1507380,
+      2460
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   19420
+  ],
+  "silence": [
+   20220,
+   30000
+  ]
+ }
+}
