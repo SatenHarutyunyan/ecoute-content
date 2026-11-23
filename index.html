@@ -394,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.139";
+const VERSION = "web 0.140";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -924,7 +924,8 @@ function renderLangs() {
   const sel = document.createElement("select");
   sel.innerHTML = (lang ? "" : `<option value="">Choose a language…</option>`) +
     Object.entries(LANGS).filter(([code]) => code !== "en" || code === lang || catalog.some(c => c.lang === "en")).map(([code, [en, native]]) => `<option value="${code}"${code === lang ? " selected" : ""}>${en} · ${native}</option>`).join("");
-  sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); closeStory(); renderAll(); };
+  sel.onchange = () => { if (!sel.value) return; lang = sel.value; store.set("lang", lang); log("lang", { lang }); closeStory(); renderAll();
+    if (!store.get("level_" + lang, null)) levelSheet(); };  // a language they haven't set up: ask the level once (Shaqe, 2026-11-23)
   $("langs").replaceChildren(sel);
 }
 
@@ -973,6 +974,13 @@ function longPress(el, fn) {
   ["pointerup", "pointercancel", "pointerleave"].forEach(ev => el.addEventListener(ev, cancel));
   el.addEventListener("contextmenu", e => { e.preventDefault(); if (t) { cancel(); el.dataset.lp = "1"; fn(); } });  // Android's own long-press
   el.addEventListener("click", e => { if (el.dataset.lp) { delete el.dataset.lp; e.stopImmediatePropagation(); e.preventDefault(); } }, true);
+}
+function levelSheet() {
+  document.getElementById("sheet")?.remove();
+  const d = document.createElement("div"); d.id = "sheet";
+  d.innerHTML = `<b>How much ${LANGS[lang][0]} do you know?</b>` + ONB_LEVELS.map(([v, t, x]) => `<button data-v="${v}"><b>${t}</b> · <span class="muted">${x}</span></button>`).join("");
+  d.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { store.set("level_" + lang, b.dataset.v); log("level", { level: b.dataset.v, via: "lang_switch" }); d.remove(); renderAll(); });
+  document.body.append(d);
 }
 function sendBackSheet(c) {
   document.getElementById("sheet")?.remove();
