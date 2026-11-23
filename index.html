@@ -394,7 +394,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.134";
+const VERSION = "web 0.135";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -2399,7 +2399,9 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 // English titles (Saten, 2026-11-20): web/titles_en.json {id: title}, kept apart so the catalog doesn't need republishing
 const TITLES_EN = fresh("titles_en.json").then(r => r.json()).catch(() => ({}));
 const TAGS = fresh("tags.json").then(r => r.json()).catch(() => ({}));  // web/tags.json {id: [tag]} (C21 step 2)
-(function tryCatalog(k) { return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) }); if (k < 2) return tryCatalog(k + 1); throw e; }); })(0).then(async c => { catalog = c.stories; const ten = await TITLES_EN, tags = await TAGS; catalog.forEach(s => { s.title_en = ten[s.id]; s.tags = tags[s.id] || []; jaScript(s); }); renderAll(); if (needsOnboarding()) onbShow(); })
+(function tryCatalog(k) {  // wait a bit between tries: right after the phone wakes the network may not be up (Armen 2026-11-23: 3 instant failures)
+  return fresh("catalog.json").then(r => r.json()).catch(e => { log("catalog_retry", { k, err: String(e).slice(0, 120) });
+    if (k < 4) return new Promise(ok => setTimeout(ok, 800 * (k + 1))).then(() => tryCatalog(k + 1)); throw e; }); })(0).then(async c => { catalog = c.stories; const ten = await TITLES_EN, tags = await TAGS; catalog.forEach(s => { s.title_en = ten[s.id]; s.tags = tags[s.id] || []; jaScript(s); }); renderAll(); if (needsOnboarding()) onbShow(); })
   .catch(e => {  // also catches an error inside renderAll/onbShow: report it (the iPhone app showed an empty page, 2026-11-19)
     const err = String(e && (e.stack || e.message) || e).slice(0, 300);
     log("boot_error", { err, n: catalog.length }); flush(true);
