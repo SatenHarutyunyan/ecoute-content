@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.149";
+const VERSION = "web 0.150";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1046,7 +1046,7 @@ const tagName = t => TAG_NAMES[t] || t;
 // so stories can be written for what each learner knows.
 const today = () => new Date().toDateString();
 const dailyDue = () => store.get("daily_" + lang, "") !== today() && store.get("daily_skip_" + lang, "") !== today()
-  && catalog.some(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 0 || store.get("fin_" + c.id, false)));
+  && catalog.some(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 15 || store.get("fin_" + c.id, false)));  // enough heard to ask about (ArmenH got it after 4 phrases)
 async function dailyCheck() {
   const heard = catalog.filter(c => c.lang === lang && (store.get("pos_" + c.id, -1) >= 0 || store.get("fin_" + c.id, false)));
   const recent = [store.get("last_" + lang), ...heard.map(c => c.id)].filter((v, i, a) => v && a.indexOf(v) === i).slice(0, 3);
