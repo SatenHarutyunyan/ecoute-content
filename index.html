@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.141";
+const VERSION = "web 0.142";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1028,7 +1028,7 @@ const knownTxt = s => { const k = knownPct(s); return k == null ? "" : ` · <spa
 const TAG_NAMES = { "first steps": "🌱 First steps", everyday: "☕ Everyday", classic: "📜 Classics", mystery: "🔍 Mystery", scary: "🕯 Scary", funny: "😄 Funny", love: "💌 Love", teen: "🎒 Teen", family: "🏠 Family", history: "⏳ History", drama: "🎭 Drama", "fairy tale": "🧚 Fairy tale", music: "🎵 Music", future: "🚀 Future", adventure: "🧭 Adventure" };
 const tagName = t => TAG_NAMES[t] || t;
 // Home shows only what to listen to now (Saten 2026-11-22, like audiobook apps): Continue, a few picks, the Library
-// ---------- Daily check (Saten 2026-11-23): 6 words from the stories you heard, pick the meaning from 3 ----------
+// ---------- Daily check (Saten 2026-11-23): 10 words (2 min, Saten) from the stories you heard, pick the meaning from 3 ----------
 // Calm on purpose (no animations, always skippable). Every answer feeds the word-knowledge estimate and the Sheet,
 // so stories can be written for what each learner knows.
 const today = () => new Date().toDateString();
@@ -1047,9 +1047,9 @@ async function dailyCheck() {
   }
   const asked = new Set(store.get("dc_asked_" + lang, []));
   const uniq = [...new Map(pool.map(x => [x.b, x])).values()].filter(x => !asked.has(x.b));
-  if (uniq.length < 8) return toast("Listen to a bit more first — the check uses words from your stories.", 4000);
+  if (uniq.length < 12) return toast("Listen to a bit more first — the check uses words from your stories.", 4000);
   // the words the app is least sure about first, some randomness so it isn't always the same kind
-  const items = uniq.map(x => ({ ...x, p: KNOW.p(x.b) + Math.random() * .25 })).sort((a, b) => Math.abs(a.p - .6) - Math.abs(b.p - .6)).slice(0, 6);
+  const items = uniq.map(x => ({ ...x, p: KNOW.p(x.b) + Math.random() * .25 })).sort((a, b) => Math.abs(a.p - .6) - Math.abs(b.p - .6)).slice(0, 10);
   const meanings = [...new Set(pool.map(x => x.m))];
   let i = 0, right = 0; const res = [];
   const d = document.createElement("div"); d.id = "micAsk"; document.body.append(d);
@@ -1070,7 +1070,7 @@ async function dailyCheck() {
   };
   const end = () => {
     store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).map(x => x.b)].slice(-400));
-    log("daily_check", { n: res.length, right, words: res.slice(0, 6) });
+    log("daily_check", { n: res.length, right, words: res.slice(0, 10) });
     const missed = items.slice(0, res.length).filter((_, k) => !res[k][1]);
     d.innerHTML = `<div class="micbox"><b>${res.length ? `${right} of ${res.length}` : "Stopped"}</b>
       ${missed.length ? `<p class="muted">To look at again: ${missed.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : res.length ? `<p class="muted">All right.</p>` : ""}
@@ -1099,7 +1099,7 @@ function renderShelf() {
     `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
   const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
-  const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">6 words from your stories · 1 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
+  const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">10 words from your stories · 2 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
   el.innerHTML = daily + (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
     (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
     `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
