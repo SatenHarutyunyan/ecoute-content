@@ -1,6 +1,120 @@
 {
  "stories": [
   {
+   "id": "en_everyday_01",
+   "lang": "en",
+   "title": "Hello and nice to meet you",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "1",
+   "phrases": 34,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_01.zip",
+   "version": "41b085ee2d4c",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
+   "id": "en_everyday_02",
+   "lang": "en",
+   "title": "At the café",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "2",
+   "phrases": 32,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_02.zip",
+   "version": "a10e5a8f8c62",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
+   "id": "en_everyday_03",
+   "lang": "en",
+   "title": "At the shop",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "3",
+   "phrases": 33,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_03.zip",
+   "version": "b2c8a2764d37",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
+   "id": "en_everyday_04",
+   "lang": "en",
+   "title": "Asking the way",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "4",
+   "phrases": 33,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_04.zip",
+   "version": "e9d63e1d7f1b",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
+   "id": "en_everyday_05",
+   "lang": "en",
+   "title": "In a taxi",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "5",
+   "phrases": 33,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_05.zip",
+   "version": "4ab83fb2b950",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
+   "id": "en_everyday_06",
+   "lang": "en",
+   "title": "At the doctor",
+   "author": "Original story (AI-generated)",
+   "level": "A1",
+   "series": "Everyday English",
+   "episode": "6",
+   "phrases": 33,
+   "minutes": 3,
+   "size_mb": 3,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_06.zip",
+   "version": "ae69a9f8d844",
+   "support": "hy",
+   "for": [
+    "@6cef8d45"
+   ],
+   "request": "Everyday conversations (topic chosen in onboarding)"
+  },
+  {
    "id": "en_ohenry_last_leaf_1",
    "lang": "en",
    "title": "The Last Leaf (1)",
