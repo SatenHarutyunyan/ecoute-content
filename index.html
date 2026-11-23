@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.146";
+const VERSION = "web 0.147";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -423,7 +423,7 @@ document.querySelectorAll("[data-i]").forEach(el => el.innerHTML = ICON[el.datas
 const setPlayIcon = playing => { $("play").querySelector(".c").innerHTML = ICON[playing ? "pause" : "play"]; $("play").lastChild.textContent = playing ? "Pause" : "Play"; };
 const TAP_HELP = false;                       // "tap = I didn't catch it" paused 2026-11-16 (Saten: no reaching for earbuds); see agent-ideas.md
 const HELP = "T EN T";                    // used once after a "didn't catch it" tap
-const DEFAULT_PATTERN = {};  // every language: T EN T, the same as the onboarding demo (Saten, 2026-11-20); saved choices are kept
+const DEFAULT_PATTERN = { en: "T EN" };  // English learners: English, then Armenian once (Saten 2026-11-23: wanted to hear the Armenian)  // every language: T EN T, the same as the onboarding demo (Saten, 2026-11-20); saved choices are kept
 const LANGS = { en: ["English", "Անգլերեն"], hy: ["Armenian", "Հայերեն"], fr: ["French", "Français"], it: ["Italian", "Italiano"], es: ["Spanish", "Español"], ja: ["Japanese", "日本語"] };
 const LESSON_FIRST = ["es"];
 const WORDY = ["hy", "es", "fr", "it", "ja"];  // languages whose episodes have word-by-word pairs  // languages taught from zero (Nare, Armen): Step by step until the learner switches
@@ -1644,7 +1644,7 @@ function onbFinish() {
   store.set("name", ONB.name); lang = ONB.lang; store.set("lang", lang);
   store.set("level_" + lang, ONB.level);
   store.set("mode_" + lang, ONB.mode);
-  if (ONB.mode === "story") store.set("pattern_" + lang, lang === "en" ? "T" : DEMO.join(" "));  // English learners: the story only, Armenian on tap
+  if (ONB.mode === "story") store.set("pattern_" + lang, lang === "en" ? "T EN" : DEMO.join(" "));  // English learners: English, then Armenian once
   store.set("onboarded", true);
   if (ONB.sendLove && ONB.sendLove()) setTimeout(() => toast(REQ_THANKS, 9000), 800);
   log("onboarding", { lang, level: ONB.level, mode: ONB.mode, toured: !!ONB.toured, heard_both: !!ONB.tourDone }, "");
