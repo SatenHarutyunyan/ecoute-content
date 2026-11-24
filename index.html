@@ -305,7 +305,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div id="vocabBox" hidden>
   <h2>My words</h2>
   <button class="card story" id="vocabOpen"><b>📖 My words ›</b><span class="muted" id="vocabCount"></span></button>
-  <button class="card story" id="wordCheckBtn"><b>🎯 1-minute word check ›</b><span class="muted">Tap the words you know, so the app knows where you are (optional).</span></button>
+
   </div>
 
   <h2>Your stories</h2>
@@ -353,7 +353,9 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
   <div class="presets" id="wordsMode" style="margin-top:6px"><button data-wm="one">One tap per word</button><button data-wm="all">All words in one go</button></div>
   <div class="muted" id="wordsModeHint"></div>
   </details>
-  <p><a href="#" class="muted" id="retest" hidden>Retake the level test</a></p>
+  <h3 class="sh">Your level</h3>
+  <button class="sec" id="wordCheckBtn">🎯 1-minute word check</button>
+  <p><a href="#" class="muted" id="retest" hidden>🎧 Find your starting story (3–5 min listening test)</a></p>
   <p class="muted">On iPhone, add this page to your Home Screen (Share → Add to Home Screen) so it opens like an app.</p>
 </section>
 <section id="libPage">
@@ -398,7 +400,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.157";
+const VERSION = "web 0.158";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -1169,8 +1171,11 @@ async function dailyCheck() {
       ${added.length ? `<p class="muted">Added to My words: ${added.map(x => `${esc(x.w)} = ${esc(x.m)}`).join(" · ")}</p>` : ""}
       ${missed.length > added.length ? `<p class="muted">Already in My words: ${missed.filter(x => !added.includes(x)).map(x => esc(x.w)).join(" · ")}</p>` : ""}
       ${res.length && !missed.length && !learned.length ? `<p class="muted">All right.</p>` : ""}
-      <div class="done-row"><button class="big" id="dcOk">OK</button></div></div>`;
+      ${Date.now() - store.get("word_check_" + lang, 0) > 30 * 864e5 ? `<p class="muted">Want to add the 1-minute word check? It helps choose stories at your level.</p>
+        <div class="done-row"><button class="chip" id="dcWc">🎯 Word check</button><button class="big" id="dcOk">Skip</button></div>`
+        : `<div class="done-row"><button class="big" id="dcOk">OK</button></div>`}</div>`;
     $("dcOk").onclick = () => { d.remove(); renderShelf(); };
+    if ($("dcWc")) $("dcWc").onclick = () => { d.remove(); renderShelf(); log("word_check_from_daily"); wordCheck(); };
     for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
   };
   show();
@@ -1380,8 +1385,9 @@ function ptPlay([start, dur]) {
 
 async function renderPlacementEntry() {
   const has = ["hy"].includes(lang);
-  $("retest").hidden = !has || !store.get("place_" + lang, null);
-  if (!has || store.get("place_" + lang, null) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
+  $("retest").hidden = !has;
+  // not on the home screen any more unless asked for in Settings (Saten + Arshile 2026-11-24: too many tests there)
+  if (!has || (!PT.requested && !PT.running) || PT.running) { if (!PT.running) ptEl().hidden = true; return; }
   ptEl().hidden = false;
   // already answered in onboarding (level_<lang>): don't ask again. Complete beginners start at the first story.
   const lvl = store.get("level_" + lang, null), stage = { A1: 0, B1: 2, B2: 3 }[lvl];
@@ -1560,7 +1566,7 @@ function ptFinish({ none, taste }) {
   $("retest").hidden = false;
 }
 
-$("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null); PT.running = false; $("setBack").click(); renderAll(); window.scrollTo(0, 0); };
+$("retest").onclick = e => { e.preventDefault(); store.set("place_" + lang, null); PT.running = false; PT.requested = true; $("setBack").click(); renderAll(); window.scrollTo(0, 0); };
 
 $("pattern").addEventListener("change", e => setPattern(e.target.value));
 $("lessonPat").addEventListener("change", e => setLessonPattern(e.target.value));
@@ -1845,6 +1851,7 @@ function toast(msg, ms = 7000) {
 const forMe = s => (s.for || []).some(n => n[0] === "@" ? String(device).startsWith(n.slice(1))
   : [store.get("name", "").trim().toLowerCase(), store.get("name", "").trim().split(/\s+/)[0].toLowerCase()].includes(n.toLowerCase()));  // full or first name
 function renderForYou() {
+  $("forYou").hidden = true; return;  // removed (Saten + Arshile 2026-11-24: the shelf already says "written for you")
   const fresh = catalog.filter(s => forMe(s) && !store.get("seen_for_" + s.id, false));
   const el = $("forYou");
   el.hidden = !fresh.length;
