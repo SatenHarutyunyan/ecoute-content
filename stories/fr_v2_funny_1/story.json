@@ -1,0 +1,6220 @@
+{
+ "id": "fr_v2_funny_1",
+ "lang": "fr",
+ "title": "La maîtresse du quai (1)",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "La maîtresse du quai",
+ "episode": "1",
+ "note": "In Sète, by the canal, Toni writes his menu on a chalkboard every morning. One day someone corrects it with red craie, chalk, and gives him a grade.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 21840,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Sur le quai de la Marine, à Sète, les restaurants sortent leurs ardoises à sept heures du matin.",
+   "en": "On the Quai de la Marine, in Sète, the restaurants put out their chalkboards at seven in the morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sur le quai de la Marine",
+     "on the Quai de la Marine"
+    ],
+    [
+     "à Sète",
+     "in Sète"
+    ],
+    [
+     "les restaurants",
+     "the restaurants"
+    ],
+    [
+     "sortent",
+     "put out"
+    ],
+    [
+     "leurs ardoises",
+     "their chalkboards"
+    ],
+    [
+     "à sept heures du matin",
+     "at seven in the morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 7370,
+    "en": 6160,
+    "wd": 22470
+   },
+   "bank": {
+    "fr": [
+     53040,
+     7370
+    ],
+    "en": [
+     60810,
+     6160
+    ],
+    "wd": [
+     67370,
+     22470
+    ],
+    "wp": [
+     [
+      67370,
+      4870
+     ],
+     [
+      72640,
+      2320
+     ],
+     [
+      75360,
+      3100
+     ],
+     [
+      78860,
+      2320
+     ],
+     [
+      81580,
+      3460
+     ],
+     [
+      85440,
+      3550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À sept heures, il y a aussi le soleil sur le canal, et les cris des goélands.",
+   "en": "At seven, there is also the sun on the canal, and the cries of the seagulls.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "goélands",
+     "en": "big seagulls"
+    }
+   ],
+   "words": [
+    [
+     "À sept heures",
+     "at seven"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "aussi",
+     "also"
+    ],
+    [
+     "le soleil",
+     "the sun"
+    ],
+    [
+     "sur le canal",
+     "on the canal"
+    ],
+    [
+     "les cris",
+     "the cries"
+    ],
+    [
+     "des goélands",
+     "of the seagulls"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "gl": "audio/s002_gl.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 5980,
+    "en": 6100,
+    "gl": 3960,
+    "wd": 22840
+   },
+   "bank": {
+    "fr": [
+     90240,
+     5980
+    ],
+    "en": [
+     96620,
+     6100
+    ],
+    "gl": [
+     103120,
+     3960
+    ],
+    "wd": [
+     107480,
+     22840
+    ],
+    "wp": [
+     [
+      107480,
+      2760
+     ],
+     [
+      110640,
+      2650
+     ],
+     [
+      113690,
+      2610
+     ],
+     [
+      116700,
+      2630
+     ],
+     [
+      119730,
+      2870
+     ],
+     [
+      123000,
+      2700
+     ],
+     [
+      126100,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chez Toni, c'est Toni Scotto qui écrit l'ardoise lui-même, avec une craie blanche.",
+   "en": "At Chez Toni, it's Toni Scotto who writes the chalkboard himself, with a white chalk.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "ardoise",
+     "en": "chalkboard (a menu board)"
+    }
+   ],
+   "words": [
+    [
+     "Chez Toni",
+     "at Chez Toni"
+    ],
+    [
+     "c'est",
+     "it's"
+    ],
+    [
+     "qui écrit",
+     "who writes"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "lui-même",
+     "himself"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "une craie blanche",
+     "a white chalk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 7140,
+    "en": 6720,
+    "gl": 4280,
+    "wd": 22370
+   },
+   "bank": {
+    "fr": [
+     130720,
+     7140
+    ],
+    "en": [
+     138260,
+     6720
+    ],
+    "gl": [
+     145380,
+     4280
+    ],
+    "wd": [
+     150060,
+     22370
+    ],
+    "wp": [
+     [
+      150060,
+      3350
+     ],
+     [
+      153810,
+      2180
+     ],
+     [
+      156390,
+      2620
+     ],
+     [
+      159410,
+      2850
+     ],
+     [
+      162660,
+      2329
+     ],
+     [
+      165390,
+      2470
+     ],
+     [
+      168260,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni écrit debout contre le comptoir, la langue entre les dents, comme son père avant lui.",
+   "en": "Toni writes standing against the counter, his tongue between his teeth, like his father before him.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "écrit",
+     "writes"
+    ],
+    [
+     "debout",
+     "standing"
+    ],
+    [
+     "contre le comptoir",
+     "against the counter"
+    ],
+    [
+     "la langue",
+     "the tongue"
+    ],
+    [
+     "entre les dents",
+     "between the teeth"
+    ],
+    [
+     "comme son père",
+     "like his father"
+    ],
+    [
+     "avant lui",
+     "before him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 6790,
+    "en": 7450,
+    "wd": 22370
+   },
+   "bank": {
+    "fr": [
+     172830,
+     6790
+    ],
+    "en": [
+     180020,
+     7450
+    ],
+    "wd": [
+     187870,
+     22370
+    ],
+    "wp": [
+     [
+      187870,
+      2490
+     ],
+     [
+      190760,
+      2270
+     ],
+     [
+      193430,
+      3070
+     ],
+     [
+      196900,
+      2560
+     ],
+     [
+      199860,
+      3220
+     ],
+     [
+      203480,
+      3040
+     ],
+     [
+      206920,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est la seule chose que Toni écrit de toute la semaine.",
+   "en": "It's the only thing that Toni writes in the whole week.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "C'est",
+     "it's"
+    ],
+    [
+     "la seule chose",
+     "the only thing"
+    ],
+    [
+     "que Toni écrit",
+     "that Toni writes"
+    ],
+    [
+     "de toute la semaine",
+     "in the whole week"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 3260,
+    "wd": 14510
+   },
+   "bank": {
+    "fr": [
+     210640,
+     4470
+    ],
+    "en": [
+     215510,
+     3260
+    ],
+    "wd": [
+     219170,
+     14510
+    ],
+    "wp": [
+     [
+      219170,
+      2309
+     ],
+     [
+      221880,
+      3050
+     ],
+     [
+      225330,
+      3870
+     ],
+     [
+      229600,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et pour Toni, c'est plus difficile que de nettoyer cent kilos de moules.",
+   "en": "And for Toni, it's harder than cleaning a hundred kilos of mussels.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "pour Toni",
+     "for Toni"
+    ],
+    [
+     "plus difficile",
+     "harder"
+    ],
+    [
+     "que de nettoyer",
+     "than cleaning"
+    ],
+    [
+     "cent kilos",
+     "a hundred kilos"
+    ],
+    [
+     "de moules",
+     "of mussels"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5360,
+    "en": 4450,
+    "wd": 19890
+   },
+   "bank": {
+    "fr": [
+     234080,
+     5360
+    ],
+    "en": [
+     239840,
+     4450
+    ],
+    "wd": [
+     244690,
+     19890
+    ],
+    "wp": [
+     [
+      244690,
+      2180
+     ],
+     [
+      247270,
+      2830
+     ],
+     [
+      250500,
+      2670
+     ],
+     [
+      253570,
+      3200
+     ],
+     [
+      257170,
+      3370
+     ],
+     [
+      260940,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un matin d'avril, l'ardoise annonce les moules farcies, la dorade grillée et la tielle.",
+   "en": "One morning in April, the chalkboard announces the stuffed mussels, the grilled sea bream and the tielle.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "tielle",
+     "en": "tielle, Sète's octopus and tomato pie"
+    }
+   ],
+   "words": [
+    [
+     "Un matin d'avril",
+     "one morning in April"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "annonce",
+     "announces"
+    ],
+    [
+     "les moules farcies",
+     "the stuffed mussels"
+    ],
+    [
+     "la dorade grillée",
+     "the grilled sea bream"
+    ],
+    [
+     "et la tielle",
+     "and the tielle"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 7500,
+    "en": 7350,
+    "gl": 5860,
+    "wd": 23040
+   },
+   "bank": {
+    "fr": [
+     264980,
+     7500
+    ],
+    "en": [
+     272880,
+     7350
+    ],
+    "gl": [
+     280630,
+     5860
+    ],
+    "wd": [
+     286890,
+     23040
+    ],
+    "wp": [
+     [
+      286890,
+      4380
+     ],
+     [
+      291670,
+      2850
+     ],
+     [
+      294919,
+      2600
+     ],
+     [
+      297920,
+      3530
+     ],
+     [
+      301850,
+      4080
+     ],
+     [
+      306330,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il y a aussi une ligne que Toni écrit chaque jour, parce qu'elle fait rire les clients.",
+   "en": "There is also a line that Toni writes every day, because it makes the customers laugh.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il y a aussi",
+     "there is also"
+    ],
+    [
+     "une ligne",
+     "a line"
+    ],
+    [
+     "que Toni écrit",
+     "that Toni writes"
+    ],
+    [
+     "chaque jour",
+     "every day"
+    ],
+    [
+     "parce qu'elle",
+     "because it"
+    ],
+    [
+     "fait rire",
+     "makes laugh"
+    ],
+    [
+     "les clients",
+     "the customers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 7060,
+    "en": 6410,
+    "wd": 23850
+   },
+   "bank": {
+    "fr": [
+     310330,
+     7060
+    ],
+    "en": [
+     317790,
+     6410
+    ],
+    "wd": [
+     324600,
+     23850
+    ],
+    "wp": [
+     [
+      324600,
+      2800
+     ],
+     [
+      327800,
+      2920
+     ],
+     [
+      331120,
+      3870
+     ],
+     [
+      335390,
+      2930
+     ],
+     [
+      338720,
+      2520
+     ],
+     [
+      341640,
+      2640
+     ],
+     [
+      344680,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Poulpe pêché par mon cousin Jeannot. Attention : Jeannot ment sur le poids. »",
+   "en": "\"Octopus caught by my cousin Jeannot. Careful: Jeannot lies about the weight.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "poulpe",
+     "en": "octopus"
+    }
+   ],
+   "words": [
+    [
+     "Poulpe",
+     "octopus"
+    ],
+    [
+     "pêché",
+     "caught"
+    ],
+    [
+     "par mon cousin",
+     "by my cousin"
+    ],
+    [
+     "Attention",
+     "careful"
+    ],
+    [
+     "ment",
+     "lies"
+    ],
+    [
+     "sur le poids",
+     "about the weight"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 6900,
+    "en": 5900,
+    "gl": 3060,
+    "wd": 18880
+   },
+   "bank": {
+    "fr": [
+     348850,
+     6900
+    ],
+    "en": [
+     356150,
+     5900
+    ],
+    "gl": [
+     362450,
+     3060
+    ],
+    "wd": [
+     365910,
+     18880
+    ],
+    "wp": [
+     [
+      365910,
+      2810
+     ],
+     [
+      369120,
+      2340
+     ],
+     [
+      371860,
+      3140
+     ],
+     [
+      375400,
+      2620
+     ],
+     [
+      378420,
+      2329
+     ],
+     [
+      381150,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À huit heures, Toni sort les chaises sur la terrasse, et il s'arrête devant son ardoise.",
+   "en": "At eight o'clock, Toni puts the chairs out on the terrace, and he stops in front of his chalkboard.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "À huit heures",
+     "at eight o'clock"
+    ],
+    [
+     "sort",
+     "puts out"
+    ],
+    [
+     "les chaises",
+     "the chairs"
+    ],
+    [
+     "sur la terrasse",
+     "on the terrace"
+    ],
+    [
+     "il s'arrête",
+     "he stops"
+    ],
+    [
+     "devant",
+     "in front of"
+    ],
+    [
+     "son ardoise",
+     "his chalkboard"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 6850,
+    "en": 6070,
+    "wd": 24320
+   },
+   "bank": {
+    "fr": [
+     385190,
+     6850
+    ],
+    "en": [
+     392440,
+     6070
+    ],
+    "wd": [
+     398910,
+     24320
+    ],
+    "wp": [
+     [
+      398910,
+      3190
+     ],
+     [
+      402500,
+      2510
+     ],
+     [
+      405410,
+      2790
+     ],
+     [
+      408600,
+      3340
+     ],
+     [
+      412340,
+      2860
+     ],
+     [
+      415600,
+      2700
+     ],
+     [
+      418700,
+      3680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelqu'un a écrit sur l'ardoise de Toni. En rouge.",
+   "en": "Someone has written on Toni's chalkboard. In red.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "a écrit",
+     "has written"
+    ],
+    [
+     "sur l'ardoise",
+     "on the chalkboard"
+    ],
+    [
+     "de Toni",
+     "of Toni"
+    ],
+    [
+     "En rouge",
+     "in red"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4540,
+    "en": 4400,
+    "wd": 15770
+   },
+   "bank": {
+    "fr": [
+     423630,
+     4540
+    ],
+    "en": [
+     428570,
+     4400
+    ],
+    "wd": [
+     433370,
+     15770
+    ],
+    "wp": [
+     [
+      433370,
+      2690
+     ],
+     [
+      436460,
+      2190
+     ],
+     [
+      439050,
+      3300
+     ],
+     [
+      442750,
+      2670
+     ],
+     [
+      445820,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni avait écrit « moules farcis » sans e à la fin. Quelqu'un a ajouté le e, très proprement.",
+   "en": "Toni had written \"moules farcis\" without an e at the end. Someone added the e, very neatly.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "avait écrit",
+     "had written"
+    ],
+    [
+     "sans e",
+     "without an e"
+    ],
+    [
+     "à la fin",
+     "at the end"
+    ],
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "a ajouté",
+     "added"
+    ],
+    [
+     "le e",
+     "the e"
+    ],
+    [
+     "très proprement",
+     "very neatly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 8420,
+    "en": 7500,
+    "wd": 24320
+   },
+   "bank": {
+    "fr": [
+     449540,
+     8420
+    ],
+    "en": [
+     458360,
+     7500
+    ],
+    "wd": [
+     466260,
+     24320
+    ],
+    "wp": [
+     [
+      466260,
+      2910
+     ],
+     [
+      469570,
+      4590
+     ],
+     [
+      474560,
+      2640
+     ],
+     [
+      477600,
+      2690
+     ],
+     [
+      480690,
+      2780
+     ],
+     [
+      483870,
+      2460
+     ],
+     [
+      486730,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et en bas, dans un coin, il y a une note : « Onze sur vingt. Des efforts. »",
+   "en": "And at the bottom, in a corner, there is a grade: \"Eleven out of twenty. Some effort.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "en bas",
+     "at the bottom"
+    ],
+    [
+     "dans un coin",
+     "in a corner"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "une note",
+     "a grade"
+    ],
+    [
+     "Onze sur vingt",
+     "eleven out of twenty"
+    ],
+    [
+     "Des efforts",
+     "some effort"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 8160,
+    "en": 6880,
+    "wd": 20940
+   },
+   "bank": {
+    "fr": [
+     490980,
+     8160
+    ],
+    "en": [
+     499540,
+     6880
+    ],
+    "wd": [
+     506820,
+     20940
+    ],
+    "wp": [
+     [
+      506820,
+      2610
+     ],
+     [
+      509830,
+      2730
+     ],
+     [
+      512960,
+      2650
+     ],
+     [
+      516010,
+      2670
+     ],
+     [
+      519080,
+      4510
+     ],
+     [
+      523990,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Des efforts », répète Toni à voix haute. Toni a cinquante-huit ans.",
+   "en": "\"Some effort,\" Toni repeats out loud. Toni is fifty-eight years old.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "répète",
+     "repeats"
+    ],
+    [
+     "à voix haute",
+     "out loud"
+    ],
+    [
+     "a",
+     "is (has)"
+    ],
+    [
+     "cinquante-huit ans",
+     "fifty-eight years old"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 6410,
+    "en": 6390,
+    "wd": 13290
+   },
+   "bank": {
+    "fr": [
+     528160,
+     6410
+    ],
+    "en": [
+     534970,
+     6390
+    ],
+    "wd": [
+     541760,
+     13290
+    ],
+    "wp": [
+     [
+      541760,
+      2470
+     ],
+     [
+      544630,
+      2810
+     ],
+     [
+      547840,
+      2530
+     ],
+     [
+      550770,
+      3430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans le restaurant, sa femme Sandrine fait les comptes, avec ses lunettes au bout du nez.",
+   "en": "In the restaurant, his wife Sandrine is doing the accounts, with her glasses at the end of her nose.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Dans le restaurant",
+     "in the restaurant"
+    ],
+    [
+     "sa femme",
+     "his wife"
+    ],
+    [
+     "fait les comptes",
+     "is doing the accounts"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "ses lunettes",
+     "her glasses"
+    ],
+    [
+     "au bout du nez",
+     "at the end of her nose"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 6590,
+    "en": 6430,
+    "wd": 20830
+   },
+   "bank": {
+    "fr": [
+     555450,
+     6590
+    ],
+    "en": [
+     562440,
+     6430
+    ],
+    "wd": [
+     569270,
+     20830
+    ],
+    "wp": [
+     [
+      569270,
+      3290
+     ],
+     [
+      572960,
+      2300
+     ],
+     [
+      575660,
+      3420
+     ],
+     [
+      579480,
+      2470
+     ],
+     [
+      582350,
+      2910
+     ],
+     [
+      585660,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quelqu'un a corrigé mon ardoise », dit Toni. « Et on m'a mis onze ! »",
+   "en": "\"Someone corrected my chalkboard,\" says Toni. \"And they gave me eleven!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "a corrigé",
+     "corrected"
+    ],
+    [
+     "mon ardoise",
+     "my chalkboard"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "on m'a mis",
+     "they gave me"
+    ],
+    [
+     "onze",
+     "eleven"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 5710,
+    "en": 5660,
+    "wd": 19150
+   },
+   "bank": {
+    "fr": [
+     590500,
+     5710
+    ],
+    "en": [
+     596610,
+     5660
+    ],
+    "wd": [
+     602670,
+     19150
+    ],
+    "wp": [
+     [
+      602670,
+      2690
+     ],
+     [
+      605760,
+      2860
+     ],
+     [
+      609020,
+      3290
+     ],
+     [
+      612710,
+      2140
+     ],
+     [
+      615250,
+      2760
+     ],
+     [
+      618410,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sandrine vient voir. Elle regarde l'ardoise longtemps, puis elle dit : « Onze, c'est généreux. »",
+   "en": "Sandrine comes to look. She looks at the chalkboard for a long time, then she says: \"Eleven is generous.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "vient voir",
+     "comes to look"
+    ],
+    [
+     "Elle regarde",
+     "she looks at"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "elle dit",
+     "she says"
+    ],
+    [
+     "Onze",
+     "eleven"
+    ],
+    [
+     "c'est généreux",
+     "is generous"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 6530,
+    "en": 7330,
+    "wd": 25990
+   },
+   "bank": {
+    "fr": [
+     622220,
+     6530
+    ],
+    "en": [
+     629150,
+     7330
+    ],
+    "wd": [
+     636880,
+     25990
+    ],
+    "wp": [
+     [
+      636880,
+      2900
+     ],
+     [
+      640180,
+      2930
+     ],
+     [
+      643510,
+      2850
+     ],
+     [
+      646760,
+      2910
+     ],
+     [
+      650070,
+      2329
+     ],
+     [
+      652800,
+      2570
+     ],
+     [
+      655770,
+      2710
+     ],
+     [
+      658880,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni efface tout avec son torchon, et il écrit l'ardoise une deuxième fois.",
+   "en": "Toni wipes everything off with his tea towel, and he writes the chalkboard a second time.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "efface",
+     "wipes off"
+    ],
+    [
+     "tout",
+     "everything"
+    ],
+    [
+     "avec son torchon",
+     "with his tea towel"
+    ],
+    [
+     "il écrit",
+     "he writes"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "une deuxième fois",
+     "a second time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 6430,
+    "en": 5910,
+    "wd": 19920
+   },
+   "bank": {
+    "fr": [
+     663270,
+     6430
+    ],
+    "en": [
+     670100,
+     5910
+    ],
+    "wd": [
+     676410,
+     19920
+    ],
+    "wp": [
+     [
+      676410,
+      2600
+     ],
+     [
+      679410,
+      2220
+     ],
+     [
+      682030,
+      3160
+     ],
+     [
+      685590,
+      3010
+     ],
+     [
+      689000,
+      2850
+     ],
+     [
+      692250,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, la craie rouge est revenue : « Dix sur vingt. Vous recopiez vos fautes. »",
+   "en": "The next day, the red chalk is back: \"Ten out of twenty. You are copying your mistakes.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "la craie rouge",
+     "the red chalk"
+    ],
+    [
+     "est revenue",
+     "is back"
+    ],
+    [
+     "Dix sur vingt",
+     "ten out of twenty"
+    ],
+    [
+     "Vous recopiez",
+     "you are copying"
+    ],
+    [
+     "vos fautes",
+     "your mistakes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 6630,
+    "en": 6190,
+    "wd": 22040
+   },
+   "bank": {
+    "fr": [
+     696730,
+     6630
+    ],
+    "en": [
+     703760,
+     6190
+    ],
+    "wd": [
+     710350,
+     22040
+    ],
+    "wp": [
+     [
+      710350,
+      3210
+     ],
+     [
+      713960,
+      3060
+     ],
+     [
+      717420,
+      2930
+     ],
+     [
+      720750,
+      3560
+     ],
+     [
+      724710,
+      3270
+     ],
+     [
+      728380,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le troisième matin, Toni se cache derrière la camionnette du poissonnier, à sept heures dix.",
+   "en": "On the third morning, Toni hides behind the fishmonger's van, at ten past seven.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le troisième matin",
+     "on the third morning"
+    ],
+    [
+     "se cache",
+     "hides"
+    ],
+    [
+     "derrière",
+     "behind"
+    ],
+    [
+     "la camionnette",
+     "the van"
+    ],
+    [
+     "du poissonnier",
+     "of the fishmonger"
+    ],
+    [
+     "à sept heures dix",
+     "at ten past seven"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 7410,
+    "en": 6220,
+    "wd": 21950
+   },
+   "bank": {
+    "fr": [
+     732790,
+     7410
+    ],
+    "en": [
+     740600,
+     6220
+    ],
+    "wd": [
+     747220,
+     21950
+    ],
+    "wp": [
+     [
+      747220,
+      3800
+     ],
+     [
+      751420,
+      2630
+     ],
+     [
+      754450,
+      2600
+     ],
+     [
+      757450,
+      3010
+     ],
+     [
+      760860,
+      3260
+     ],
+     [
+      764520,
+      3800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À sept heures vingt, une vieille dame descend du Quartier Haut, en imperméable beige, avec un panier.",
+   "en": "At twenty past seven, an old lady comes down from the Quartier Haut, in a beige raincoat, with a basket.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "À sept heures vingt",
+     "at twenty past seven"
+    ],
+    [
+     "une vieille dame",
+     "an old lady"
+    ],
+    [
+     "descend",
+     "comes down"
+    ],
+    [
+     "du Quartier Haut",
+     "from the Quartier Haut"
+    ],
+    [
+     "en imperméable beige",
+     "in a beige raincoat"
+    ],
+    [
+     "avec un panier",
+     "with a basket"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 7940,
+    "en": 7910,
+    "wd": 24340
+   },
+   "bank": {
+    "fr": [
+     769570,
+     7940
+    ],
+    "en": [
+     777910,
+     7910
+    ],
+    "wd": [
+     786220,
+     24340
+    ],
+    "wp": [
+     [
+      786220,
+      3750
+     ],
+     [
+      790370,
+      3180
+     ],
+     [
+      793950,
+      2810
+     ],
+     [
+      797160,
+      4310
+     ],
+     [
+      801870,
+      4170
+     ],
+     [
+      806440,
+      3270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La vieille dame s'arrête devant l'ardoise. Elle sort une petite boîte de pastilles Vichy.",
+   "en": "The old lady stops in front of the chalkboard. She takes out a small tin of Vichy mints.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La vieille dame",
+     "the old lady"
+    ],
+    [
+     "s'arrête",
+     "stops"
+    ],
+    [
+     "devant l'ardoise",
+     "in front of the chalkboard"
+    ],
+    [
+     "Elle sort",
+     "she takes out"
+    ],
+    [
+     "une petite boîte",
+     "a small tin"
+    ],
+    [
+     "de pastilles Vichy",
+     "of Vichy mints"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 6460,
+    "en": 6620,
+    "wd": 24940
+   },
+   "bank": {
+    "fr": [
+     810960,
+     6460
+    ],
+    "en": [
+     817820,
+     6620
+    ],
+    "wd": [
+     824840,
+     24940
+    ],
+    "wp": [
+     [
+      824840,
+      4540
+     ],
+     [
+      829780,
+      2450
+     ],
+     [
+      832630,
+      4130
+     ],
+     [
+      837160,
+      3310
+     ],
+     [
+      840870,
+      3250
+     ],
+     [
+      844520,
+      4410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais dans la boîte, il n'y a pas de pastilles. Il y a des craies rouges.",
+   "en": "But in the tin, there are no mints. There are red chalks.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "dans la boîte",
+     "in the tin"
+    ],
+    [
+     "il n'y a pas",
+     "there are no"
+    ],
+    [
+     "de pastilles",
+     "mints"
+    ],
+    [
+     "Il y a",
+     "there are"
+    ],
+    [
+     "des craies rouges",
+     "red chalks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5760,
+    "en": 4310,
+    "wd": 19600
+   },
+   "bank": {
+    "fr": [
+     850180,
+     5760
+    ],
+    "en": [
+     856340,
+     4310
+    ],
+    "wd": [
+     861050,
+     19600
+    ],
+    "wp": [
+     [
+      861050,
+      2200
+     ],
+     [
+      863650,
+      2830
+     ],
+     [
+      866880,
+      3000
+     ],
+     [
+      870280,
+      2730
+     ],
+     [
+      873410,
+      2740
+     ],
+     [
+      876550,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La dame corrige trois mots, elle met une note, et elle repart vers les Halles, tout près.",
+   "en": "The lady corrects three words, she gives a grade, and she sets off toward the market hall, very near.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La dame",
+     "the lady"
+    ],
+    [
+     "corrige",
+     "corrects"
+    ],
+    [
+     "trois mots",
+     "three words"
+    ],
+    [
+     "elle met une note",
+     "she gives a grade"
+    ],
+    [
+     "elle repart",
+     "she sets off"
+    ],
+    [
+     "vers les Halles",
+     "toward the market hall"
+    ],
+    [
+     "tout près",
+     "very near"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 6550,
+    "en": 7880,
+    "wd": 24720
+   },
+   "bank": {
+    "fr": [
+     881050,
+     6550
+    ],
+    "en": [
+     888000,
+     7880
+    ],
+    "wd": [
+     896280,
+     24720
+    ],
+    "wp": [
+     [
+      896280,
+      2800
+     ],
+     [
+      899480,
+      3030
+     ],
+     [
+      902910,
+      2960
+     ],
+     [
+      906270,
+      3260
+     ],
+     [
+      909930,
+      3160
+     ],
+     [
+      913490,
+      3520
+     ],
+     [
+      917410,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni ne bouge pas. Il ne sait pas pourquoi, mais il n'ose pas sortir de sa cachette.",
+   "en": "Toni doesn't move. He doesn't know why, but he doesn't dare come out of his hiding place.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "ne bouge pas",
+     "doesn't move"
+    ],
+    [
+     "Il ne sait pas",
+     "he doesn't know"
+    ],
+    [
+     "pourquoi",
+     "why"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il n'ose pas",
+     "he doesn't dare"
+    ],
+    [
+     "sortir",
+     "come out"
+    ],
+    [
+     "de sa cachette",
+     "of his hiding place"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 7090,
+    "en": 6900,
+    "wd": 22460
+   },
+   "bank": {
+    "fr": [
+     921400,
+     7090
+    ],
+    "en": [
+     928890,
+     6900
+    ],
+    "wd": [
+     936190,
+     22460
+    ],
+    "wp": [
+     [
+      936190,
+      2810
+     ],
+     [
+      939400,
+      3000
+     ],
+     [
+      942800,
+      2210
+     ],
+     [
+      945410,
+      2060
+     ],
+     [
+      947870,
+      3250
+     ],
+     [
+      951520,
+      2280
+     ],
+     [
+      954200,
+      3600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au bar, le vieux Marcel connaît la dame. Tout le quai connaît la dame.",
+   "en": "At the bar, old Marcel knows the lady. The whole quay knows the lady.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Au bar",
+     "at the bar"
+    ],
+    [
+     "le vieux Marcel",
+     "old Marcel"
+    ],
+    [
+     "connaît",
+     "knows"
+    ],
+    [
+     "la dame",
+     "the lady"
+    ],
+    [
+     "Tout le quai",
+     "the whole quay"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 7180,
+    "en": 5910,
+    "wd": 16020
+   },
+   "bank": {
+    "fr": [
+     959050,
+     7180
+    ],
+    "en": [
+     966630,
+     5910
+    ],
+    "wd": [
+     972940,
+     16020
+    ],
+    "wp": [
+     [
+      972940,
+      2740
+     ],
+     [
+      976080,
+      3170
+     ],
+     [
+      979650,
+      2400
+     ],
+     [
+      982450,
+      2350
+     ],
+     [
+      985200,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est Madame Peyre. Elle était maîtresse d'école dans le Quartier Haut, pendant quarante ans. »",
+   "en": "\"That's Madame Peyre. She was a primary-school teacher in the Quartier Haut, for forty years.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "maîtresse d'école",
+     "en": "primary-school teacher"
+    }
+   ],
+   "words": [
+    [
+     "C'est",
+     "that's"
+    ],
+    [
+     "Elle était",
+     "she was"
+    ],
+    [
+     "maîtresse d'école",
+     "primary-school teacher"
+    ],
+    [
+     "dans le Quartier Haut",
+     "in the Quartier Haut"
+    ],
+    [
+     "pendant quarante ans",
+     "for forty years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "gl": "audio/s027_gl.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 6340,
+    "en": 7330,
+    "gl": 4530,
+    "wd": 18940
+   },
+   "bank": {
+    "fr": [
+     989360,
+     6340
+    ],
+    "en": [
+     996100,
+     7330
+    ],
+    "gl": [
+     1003830,
+     4530
+    ],
+    "wd": [
+     1008760,
+     18940
+    ],
+    "wp": [
+     [
+      1008760,
+      2270
+     ],
+     [
+      1011430,
+      2900
+     ],
+     [
+      1014730,
+      3930
+     ],
+     [
+      1019060,
+      4190
+     ],
+     [
+      1023650,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Madame Peyre m'a eu en CM2, en 1966 », dit Marcel. « Je fais encore des cauchemars. »",
+   "en": "\"Madame Peyre had me in her class in CM2, in 1966,\" says Marcel. \"I still have nightmares.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "CM2",
+     "en": "the last year of primary school (age ten)"
+    }
+   ],
+   "words": [
+    [
+     "m'a eu",
+     "had me (in her class)"
+    ],
+    [
+     "en CM2",
+     "in CM2"
+    ],
+    [
+     "en 1966",
+     "in 1966"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "Je fais",
+     "I have"
+    ],
+    [
+     "encore",
+     "still"
+    ],
+    [
+     "des cauchemars",
+     "nightmares"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "gl": "audio/s028_gl.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 7040,
+    "en": 8250,
+    "gl": 6010,
+    "wd": 24740
+   },
+   "bank": {
+    "fr": [
+     1028099,
+     7040
+    ],
+    "en": [
+     1035540,
+     8250
+    ],
+    "gl": [
+     1044190,
+     6010
+    ],
+    "wd": [
+     1050600,
+     24740
+    ],
+    "wp": [
+     [
+      1050600,
+      3570
+     ],
+     [
+      1054570,
+      3410
+     ],
+     [
+      1058380,
+      4690
+     ],
+     [
+      1063470,
+      2140
+     ],
+     [
+      1066010,
+      2400
+     ],
+     [
+      1068810,
+      2350
+     ],
+     [
+      1071560,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni a grandi à la Pointe Courte, chez les pêcheurs. Il a quitté l'école à quatorze ans.",
+   "en": "Toni grew up at the Pointe Courte, among the fishermen. He left school at fourteen.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "a grandi",
+     "grew up"
+    ],
+    [
+     "à la Pointe Courte",
+     "at the Pointe Courte"
+    ],
+    [
+     "chez les pêcheurs",
+     "among the fishermen"
+    ],
+    [
+     "Il a quitté",
+     "he left"
+    ],
+    [
+     "l'école",
+     "school"
+    ],
+    [
+     "à quatorze ans",
+     "at fourteen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 7320,
+    "en": 5400,
+    "wd": 20390
+   },
+   "bank": {
+    "fr": [
+     1075740,
+     7320
+    ],
+    "en": [
+     1083460,
+     5400
+    ],
+    "wd": [
+     1089260,
+     20390
+    ],
+    "wp": [
+     [
+      1089260,
+      2530
+     ],
+     [
+      1092190,
+      3500
+     ],
+     [
+      1096090,
+      3270
+     ],
+     [
+      1099760,
+      2970
+     ],
+     [
+      1103130,
+      2510
+     ],
+     [
+      1106040,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le quatrième matin, Toni attend Madame Peyre devant l'ardoise, les bras croisés.",
+   "en": "On the fourth morning, Toni waits for Madame Peyre in front of the chalkboard, his arms crossed.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le quatrième matin",
+     "on the fourth morning"
+    ],
+    [
+     "attend",
+     "waits for"
+    ],
+    [
+     "devant l'ardoise",
+     "in front of the chalkboard"
+    ],
+    [
+     "les bras croisés",
+     "his arms crossed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 7420,
+    "en": 7120,
+    "wd": 15810
+   },
+   "bank": {
+    "fr": [
+     1110050,
+     7420
+    ],
+    "en": [
+     1117870,
+     7120
+    ],
+    "wd": [
+     1125390,
+     15810
+    ],
+    "wp": [
+     [
+      1125390,
+      3870
+     ],
+     [
+      1129660,
+      2450
+     ],
+     [
+      1132510,
+      4130
+     ],
+     [
+      1137040,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Madame, c'est mon ardoise ! » dit Toni.",
+   "en": "\"Madame, it's my chalkboard!\" says Toni.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Madame",
+     "Madame"
+    ],
+    [
+     "c'est",
+     "it's"
+    ],
+    [
+     "mon ardoise",
+     "my chalkboard"
+    ],
+    [
+     "dit",
+     "says"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 3860,
+    "en": 4070,
+    "wd": 11880
+   },
+   "bank": {
+    "fr": [
+     1141600,
+     3860
+    ],
+    "en": [
+     1145860,
+     4070
+    ],
+    "wd": [
+     1150330,
+     11880
+    ],
+    "wp": [
+     [
+      1150330,
+      2220
+     ],
+     [
+      1152950,
+      2180
+     ],
+     [
+      1155530,
+      3290
+     ],
+     [
+      1159220,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Peyre le regarde, puis elle regarde l'ardoise. « Et c'est ma langue », dit-elle.",
+   "en": "Madame Peyre looks at him, then she looks at the chalkboard. \"And it's my language,\" she says.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "le regarde",
+     "looks at him"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "elle regarde",
+     "she looks at"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "c'est ma langue",
+     "it's my language"
+    ],
+    [
+     "dit-elle",
+     "she says"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 8360,
+    "en": 6810,
+    "wd": 21650
+   },
+   "bank": {
+    "fr": [
+     1162610,
+     8360
+    ],
+    "en": [
+     1171370,
+     6810
+    ],
+    "wd": [
+     1178580,
+     21650
+    ],
+    "wp": [
+     [
+      1178580,
+      2640
+     ],
+     [
+      1181620,
+      2329
+     ],
+     [
+      1184350,
+      2620
+     ],
+     [
+      1187370,
+      2850
+     ],
+     [
+      1190620,
+      2180
+     ],
+     [
+      1193200,
+      3320
+     ],
+     [
+      1196920,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle ajoute un accent à « encornets a la plancha », sur le a. Puis elle s'en va.",
+   "en": "She adds an accent to \"encornets a la plancha\", on the a. Then she leaves.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle ajoute",
+     "she adds"
+    ],
+    [
+     "un accent",
+     "an accent"
+    ],
+    [
+     "encornets",
+     "squid"
+    ],
+    [
+     "sur le a",
+     "on the a"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "elle s'en va",
+     "she leaves"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 8060,
+    "en": 6150,
+    "wd": 19000
+   },
+   "bank": {
+    "fr": [
+     1200630,
+     8060
+    ],
+    "en": [
+     1209090,
+     6150
+    ],
+    "wd": [
+     1215640,
+     19000
+    ],
+    "wp": [
+     [
+      1215640,
+      2880
+     ],
+     [
+      1218920,
+      2840
+     ],
+     [
+      1222160,
+      2590
+     ],
+     [
+      1225150,
+      2930
+     ],
+     [
+      1228480,
+      2220
+     ],
+     [
+      1231100,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, Toni écrit en grosses lettres, en haut de l'ardoise : « Interdit de corriger. »",
+   "en": "The next day, Toni writes in big letters, at the top of the chalkboard: \"Correcting forbidden.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "écrit",
+     "writes"
+    ],
+    [
+     "en grosses lettres",
+     "in big letters"
+    ],
+    [
+     "en haut de l'ardoise",
+     "at the top of the chalkboard"
+    ],
+    [
+     "Interdit de corriger",
+     "correcting forbidden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 8070,
+    "en": 7580,
+    "wd": 20660
+   },
+   "bank": {
+    "fr": [
+     1235040,
+     8070
+    ],
+    "en": [
+     1243510,
+     7580
+    ],
+    "wd": [
+     1251490,
+     20660
+    ],
+    "wp": [
+     [
+      1251490,
+      3210
+     ],
+     [
+      1255100,
+      2490
+     ],
+     [
+      1257990,
+      4040
+     ],
+     [
+      1262430,
+      4390
+     ],
+     [
+      1267220,
+      4080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À sept heures vingt, Madame Peyre lit la phrase avec beaucoup d'attention.",
+   "en": "At twenty past seven, Madame Peyre reads the sentence with great attention.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "À sept heures vingt",
+     "at twenty past seven"
+    ],
+    [
+     "lit",
+     "reads"
+    ],
+    [
+     "la phrase",
+     "the sentence"
+    ],
+    [
+     "avec beaucoup d'attention",
+     "with great attention"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5150,
+    "en": 5370,
+    "wd": 14810
+   },
+   "bank": {
+    "fr": [
+     1272550,
+     5150
+    ],
+    "en": [
+     1278100,
+     5370
+    ],
+    "wd": [
+     1283870,
+     14810
+    ],
+    "wp": [
+     [
+      1283870,
+      3750
+     ],
+     [
+      1288020,
+      2280
+     ],
+     [
+      1290700,
+      2660
+     ],
+     [
+      1293760,
+      4070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis elle écrit dessous, en rouge : « Vingt sur vingt. Enfin une phrase sans faute. »",
+   "en": "Then she writes underneath, in red: \"Twenty out of twenty. At last a sentence without a mistake.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "elle écrit",
+     "she writes"
+    ],
+    [
+     "dessous",
+     "underneath"
+    ],
+    [
+     "en rouge",
+     "in red"
+    ],
+    [
+     "Vingt sur vingt",
+     "twenty out of twenty"
+    ],
+    [
+     "Enfin",
+     "at last"
+    ],
+    [
+     "une phrase",
+     "a sentence"
+    ],
+    [
+     "sans faute",
+     "without a mistake"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 7590,
+    "en": 8590,
+    "wd": 25260
+   },
+   "bank": {
+    "fr": [
+     1299080,
+     7590
+    ],
+    "en": [
+     1307070,
+     8590
+    ],
+    "wd": [
+     1316060,
+     25260
+    ],
+    "wp": [
+     [
+      1316060,
+      2220
+     ],
+     [
+      1318680,
+      2440
+     ],
+     [
+      1321520,
+      2520
+     ],
+     [
+      1324440,
+      2490
+     ],
+     [
+      1327330,
+      3790
+     ],
+     [
+      1331520,
+      2470
+     ],
+     [
+      1334390,
+      2850
+     ],
+     [
+      1337640,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sandrine rit tellement qu'elle doit s'asseoir sur une caisse de moules.",
+   "en": "Sandrine laughs so much that she has to sit down on a crate of mussels.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "rit",
+     "laughs"
+    ],
+    [
+     "tellement",
+     "so much"
+    ],
+    [
+     "qu'elle doit",
+     "that she has to"
+    ],
+    [
+     "s'asseoir",
+     "sit down"
+    ],
+    [
+     "sur une caisse",
+     "on a crate"
+    ],
+    [
+     "de moules",
+     "of mussels"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 5520,
+    "en": 4530,
+    "wd": 18990
+   },
+   "bank": {
+    "fr": [
+     1341720,
+     5520
+    ],
+    "en": [
+     1347640,
+     4530
+    ],
+    "wd": [
+     1352570,
+     18990
+    ],
+    "wp": [
+     [
+      1352570,
+      2500
+     ],
+     [
+      1355470,
+      2430
+     ],
+     [
+      1358300,
+      2920
+     ],
+     [
+      1361620,
+      2430
+     ],
+     [
+      1364450,
+      3070
+     ],
+     [
+      1367920,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce soir-là, Toni monte au grenier, et il cherche le vieux Bescherelle de sa fille.",
+   "en": "That evening, Toni goes up to the attic, and he looks for his daughter's old Bescherelle.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "Bescherelle",
+     "en": "a famous French grammar book"
+    }
+   ],
+   "words": [
+    [
+     "Ce soir-là",
+     "that evening"
+    ],
+    [
+     "monte",
+     "goes up"
+    ],
+    [
+     "au grenier",
+     "to the attic"
+    ],
+    [
+     "il cherche",
+     "he looks for"
+    ],
+    [
+     "le vieux Bescherelle",
+     "the old Bescherelle"
+    ],
+    [
+     "de sa fille",
+     "of his daughter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "gl": "audio/s038_gl.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 7820,
+    "en": 5550,
+    "gl": 4450,
+    "wd": 20360
+   },
+   "bank": {
+    "fr": [
+     1371960,
+     7820
+    ],
+    "en": [
+     1380180,
+     5550
+    ],
+    "gl": [
+     1386130,
+     4450
+    ],
+    "wd": [
+     1390980,
+     20360
+    ],
+    "wp": [
+     [
+      1390980,
+      3110
+     ],
+     [
+      1394490,
+      2370
+     ],
+     [
+      1397260,
+      2740
+     ],
+     [
+      1400400,
+      2980
+     ],
+     [
+      1403780,
+      3460
+     ],
+     [
+      1407640,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant trois semaines, Toni étudie le soir, sous la lampe de la cuisine, quand le restaurant est fermé.",
+   "en": "For three weeks, Toni studies in the evening, under the kitchen lamp, when the restaurant is closed.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant trois semaines",
+     "for three weeks"
+    ],
+    [
+     "étudie",
+     "studies"
+    ],
+    [
+     "le soir",
+     "in the evening"
+    ],
+    [
+     "sous la lampe",
+     "under the lamp"
+    ],
+    [
+     "de la cuisine",
+     "of the kitchen"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "est fermé",
+     "is closed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 8050,
+    "en": 6790,
+    "wd": 23240
+   },
+   "bank": {
+    "fr": [
+     1411740,
+     8050
+    ],
+    "en": [
+     1420190,
+     6790
+    ],
+    "wd": [
+     1427380,
+     23240
+    ],
+    "wp": [
+     [
+      1427380,
+      3510
+     ],
+     [
+      1431290,
+      2570
+     ],
+     [
+      1434260,
+      2780
+     ],
+     [
+      1437440,
+      2900
+     ],
+     [
+      1440740,
+      2870
+     ],
+     [
+      1444010,
+      2390
+     ],
+     [
+      1446800,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il apprend que « dorade » est un mot féminin, et que les moules aussi sont féminines.",
+   "en": "He learns that \"dorade\" is a feminine word, and that mussels are feminine too.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Il apprend",
+     "he learns"
+    ],
+    [
+     "est un mot féminin",
+     "is a feminine word"
+    ],
+    [
+     "les moules",
+     "the mussels"
+    ],
+    [
+     "aussi",
+     "too"
+    ],
+    [
+     "sont féminines",
+     "are feminine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 7000,
+    "en": 5210,
+    "wd": 17970
+   },
+   "bank": {
+    "fr": [
+     1451020,
+     7000
+    ],
+    "en": [
+     1458420,
+     5210
+    ],
+    "wd": [
+     1464030,
+     17970
+    ],
+    "wp": [
+     [
+      1464030,
+      3010
+     ],
+     [
+      1467440,
+      3970
+     ],
+     [
+      1471810,
+      2650
+     ],
+     [
+      1474860,
+      2580
+     ],
+     [
+      1477840,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Toutes les bonnes choses sont féminines », dit Sandrine, sans lever les yeux de ses comptes.",
+   "en": "\"All good things are feminine,\" says Sandrine, without looking up from her accounts.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Toutes les bonnes choses",
+     "all good things"
+    ],
+    [
+     "sont féminines",
+     "are feminine"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "sans lever les yeux",
+     "without looking up"
+    ],
+    [
+     "de ses comptes",
+     "from her accounts"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 6470,
+    "en": 5830,
+    "wd": 18170
+   },
+   "bank": {
+    "fr": [
+     1482400,
+     6470
+    ],
+    "en": [
+     1489270,
+     5830
+    ],
+    "wd": [
+     1495500,
+     18170
+    ],
+    "wp": [
+     [
+      1495500,
+      3840
+     ],
+     [
+      1499740,
+      3310
+     ],
+     [
+      1503450,
+      2140
+     ],
+     [
+      1505990,
+      3400
+     ],
+     [
+      1509790,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les notes montent doucement : douze, treize. Un matin, Toni est sûr d'avoir quinze.",
+   "en": "The grades slowly go up: twelve, thirteen. One morning, Toni is sure he has fifteen.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Les notes",
+     "the grades"
+    ],
+    [
+     "montent",
+     "go up"
+    ],
+    [
+     "doucement",
+     "slowly"
+    ],
+    [
+     "douze",
+     "twelve"
+    ],
+    [
+     "treize",
+     "thirteen"
+    ],
+    [
+     "Un matin",
+     "one morning"
+    ],
+    [
+     "est sûr",
+     "is sure"
+    ],
+    [
+     "d'avoir quinze",
+     "of having fifteen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 8700,
+    "en": 8189,
+    "wd": 24250
+   },
+   "bank": {
+    "fr": [
+     1514070,
+     8700
+    ],
+    "en": [
+     1523170,
+     8189
+    ],
+    "wd": [
+     1531760,
+     24250
+    ],
+    "wp": [
+     [
+      1531760,
+      2610
+     ],
+     [
+      1534770,
+      2440
+     ],
+     [
+      1537610,
+      2370
+     ],
+     [
+      1540380,
+      2260
+     ],
+     [
+      1543040,
+      2270
+     ],
+     [
+      1545710,
+      2590
+     ],
+     [
+      1548700,
+      2700
+     ],
+     [
+      1551800,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais non : « Treize. \"Encornets\", c'est un seul mot. Pas \"en cornet\", comme une glace. »",
+   "en": "But no: \"Thirteen. 'Encornets' is one word. Not 'en cornet', like an ice cream.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Mais non",
+     "but no"
+    ],
+    [
+     "Treize",
+     "thirteen"
+    ],
+    [
+     "c'est un seul mot",
+     "it's one word"
+    ],
+    [
+     "Pas",
+     "not"
+    ],
+    [
+     "comme une glace",
+     "like an ice cream"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 7280,
+    "en": 6870,
+    "wd": 16010
+   },
+   "bank": {
+    "fr": [
+     1556410,
+     7280
+    ],
+    "en": [
+     1564090,
+     6870
+    ],
+    "wd": [
+     1571360,
+     16010
+    ],
+    "wp": [
+     [
+      1571360,
+      2300
+     ],
+     [
+      1574060,
+      2660
+     ],
+     [
+      1577120,
+      3340
+     ],
+     [
+      1580860,
+      2260
+     ],
+     [
+      1583520,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Enfin, un matin de mai, il y a seize, et un mot : « Bien. »",
+   "en": "At last, one morning in May, there is sixteen, and a word: \"Good.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Enfin",
+     "at last"
+    ],
+    [
+     "un matin de mai",
+     "one morning in May"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "seize",
+     "sixteen"
+    ],
+    [
+     "un mot",
+     "a word"
+    ],
+    [
+     "Bien",
+     "good"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "en": 6090,
+    "wd": 18620
+   },
+   "bank": {
+    "fr": [
+     1587770,
+     4530
+    ],
+    "en": [
+     1592700,
+     6090
+    ],
+    "wd": [
+     1599190,
+     18620
+    ],
+    "wp": [
+     [
+      1599190,
+      2470
+     ],
+     [
+      1602060,
+      3410
+     ],
+     [
+      1605870,
+      2650
+     ],
+     [
+      1608920,
+      2650
+     ],
+     [
+      1611970,
+      2200
+     ],
+     [
+      1614570,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni montre le « Bien » à tous ses clients, même à un groupe de touristes allemands.",
+   "en": "Toni shows the \"Good\" to all his customers, even to a group of German tourists.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "montre",
+     "shows"
+    ],
+    [
+     "à tous ses clients",
+     "to all his customers"
+    ],
+    [
+     "même",
+     "even"
+    ],
+    [
+     "à un groupe",
+     "to a group"
+    ],
+    [
+     "de touristes allemands",
+     "of German tourists"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 5540,
+    "en": 5800,
+    "wd": 17660
+   },
+   "bank": {
+    "fr": [
+     1618210,
+     5540
+    ],
+    "en": [
+     1624150,
+     5800
+    ],
+    "wd": [
+     1630350,
+     17660
+    ],
+    "wp": [
+     [
+      1630350,
+      2760
+     ],
+     [
+      1633510,
+      3760
+     ],
+     [
+      1637670,
+      2140
+     ],
+     [
+      1640210,
+      2570
+     ],
+     [
+      1643180,
+      3980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un matin, Toni pose un café crème sur le rebord de la fenêtre, à côté de l'ardoise.",
+   "en": "One morning, Toni puts a white coffee on the window ledge, next to the chalkboard.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Un matin",
+     "one morning"
+    ],
+    [
+     "pose",
+     "puts"
+    ],
+    [
+     "un café crème",
+     "a white coffee"
+    ],
+    [
+     "sur le rebord",
+     "on the ledge"
+    ],
+    [
+     "de la fenêtre",
+     "of the window"
+    ],
+    [
+     "à côté de l'ardoise",
+     "next to the chalkboard"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 6570,
+    "en": 5520,
+    "wd": 21520
+   },
+   "bank": {
+    "fr": [
+     1648410,
+     6570
+    ],
+    "en": [
+     1655380,
+     5520
+    ],
+    "wd": [
+     1661300,
+     21520
+    ],
+    "wp": [
+     [
+      1661300,
+      2590
+     ],
+     [
+      1664290,
+      2400
+     ],
+     [
+      1667090,
+      3190
+     ],
+     [
+      1670680,
+      3370
+     ],
+     [
+      1674450,
+      3050
+     ],
+     [
+      1677900,
+      4070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À huit heures, la tasse est vide, posée à côté de la note. Personne ne dit rien.",
+   "en": "At eight o'clock, the cup is empty, placed next to the grade. Nobody says anything.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "À huit heures",
+     "at eight o'clock"
+    ],
+    [
+     "la tasse",
+     "the cup"
+    ],
+    [
+     "est vide",
+     "is empty"
+    ],
+    [
+     "posée",
+     "placed"
+    ],
+    [
+     "à côté de la note",
+     "next to the grade"
+    ],
+    [
+     "Personne ne dit rien",
+     "nobody says anything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 6990,
+    "en": 6260,
+    "wd": 20300
+   },
+   "bank": {
+    "fr": [
+     1683220,
+     6990
+    ],
+    "en": [
+     1690610,
+     6260
+    ],
+    "wd": [
+     1697270,
+     20300
+    ],
+    "wp": [
+     [
+      1697270,
+      3190
+     ],
+     [
+      1700860,
+      2270
+     ],
+     [
+      1703530,
+      2370
+     ],
+     [
+      1706300,
+      2030
+     ],
+     [
+      1708730,
+      3490
+     ],
+     [
+      1712620,
+      4100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Bientôt, les vieux pêcheurs du bar parient sur la note du matin.",
+   "en": "Soon, the old fishermen at the bar are betting on the morning's grade.",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "parient",
+     "en": "bet, place bets"
+    }
+   ],
+   "words": [
+    [
+     "Bientôt",
+     "soon"
+    ],
+    [
+     "les vieux pêcheurs",
+     "the old fishermen"
+    ],
+    [
+     "du bar",
+     "of the bar"
+    ],
+    [
+     "parient",
+     "are betting"
+    ],
+    [
+     "sur la note",
+     "on the grade"
+    ],
+    [
+     "du matin",
+     "of the morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "gl": "audio/s048_gl.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 5210,
+    "en": 4730,
+    "gl": 4080,
+    "wd": 19400
+   },
+   "bank": {
+    "fr": [
+     1717970,
+     5210
+    ],
+    "en": [
+     1723580,
+     4730
+    ],
+    "gl": [
+     1728710,
+     4080
+    ],
+    "wd": [
+     1733190,
+     19400
+    ],
+    "wp": [
+     [
+      1733190,
+      2640
+     ],
+     [
+      1736230,
+      3230
+     ],
+     [
+      1739860,
+      2720
+     ],
+     [
+      1742980,
+      2210
+     ],
+     [
+      1745590,
+      2940
+     ],
+     [
+      1748930,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quinze ! » dit Marcel. Un autre pêcheur dit : « Treize. Toni a écrit \"calamar\" avec deux r. »",
+   "en": "\"Fifteen!\" says Marcel. Another fisherman says: \"Thirteen. Toni wrote 'calamar' with two r's.\"",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Quinze",
+     "fifteen"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "Un autre pêcheur",
+     "another fisherman"
+    ],
+    [
+     "Treize",
+     "thirteen"
+    ],
+    [
+     "a écrit",
+     "wrote"
+    ],
+    [
+     "avec deux r",
+     "with two r's"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 10250,
+    "en": 9060,
+    "wd": 20820
+   },
+   "bank": {
+    "fr": [
+     1752990,
+     10250
+    ],
+    "en": [
+     1763640,
+     9060
+    ],
+    "wd": [
+     1773100,
+     20820
+    ],
+    "wp": [
+     [
+      1773100,
+      2620
+     ],
+     [
+      1776120,
+      2140
+     ],
+     [
+      1778660,
+      4270
+     ],
+     [
+      1783330,
+      2660
+     ],
+     [
+      1786390,
+      2400
+     ],
+     [
+      1789190,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À sept heures vingt, tout le monde se tait quand l'imperméable beige arrive.",
+   "en": "At twenty past seven, everybody goes quiet when the beige raincoat arrives.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "À sept heures vingt",
+     "at twenty past seven"
+    ],
+    [
+     "tout le monde",
+     "everybody"
+    ],
+    [
+     "se tait",
+     "goes quiet"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "l'imperméable beige",
+     "the beige raincoat"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 5890,
+    "en": 5980,
+    "wd": 21350
+   },
+   "bank": {
+    "fr": [
+     1794320,
+     5890
+    ],
+    "en": [
+     1800610,
+     5980
+    ],
+    "wd": [
+     1806990,
+     21350
+    ],
+    "wp": [
+     [
+      1806990,
+      3750
+     ],
+     [
+      1811140,
+      2560
+     ],
+     [
+      1814100,
+      3080
+     ],
+     [
+      1817580,
+      2390
+     ],
+     [
+      1820370,
+      4070
+     ],
+     [
+      1824840,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais Sandrine remarque une chose. « Où est Jeannot ? Tu n'écris plus la phrase de Jeannot ? »",
+   "en": "But Sandrine notices something. \"Where is Jeannot? You don't write the Jeannot sentence anymore?\"",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "remarque",
+     "notices"
+    ],
+    [
+     "une chose",
+     "something"
+    ],
+    [
+     "Où est",
+     "where is"
+    ],
+    [
+     "Tu n'écris plus",
+     "you don't write anymore"
+    ],
+    [
+     "la phrase",
+     "the sentence"
+    ],
+    [
+     "de Jeannot",
+     "of Jeannot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "en": 6930,
+    "wd": 22510
+   },
+   "bank": {
+    "fr": [
+     1828740,
+     6930
+    ],
+    "en": [
+     1836070,
+     6930
+    ],
+    "wd": [
+     1843400,
+     22510
+    ],
+    "wp": [
+     [
+      1843400,
+      2200
+     ],
+     [
+      1846000,
+      2620
+     ],
+     [
+      1849020,
+      2400
+     ],
+     [
+      1851820,
+      2610
+     ],
+     [
+      1854830,
+      3970
+     ],
+     [
+      1859200,
+      2660
+     ],
+     [
+      1862260,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Jeannot fait trop de fautes », répond Toni. Maintenant, son ardoise est courte et parfaite.",
+   "en": "\"Jeannot makes too many mistakes,\" Toni answers. Now his chalkboard is short and perfect.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "fait",
+     "makes"
+    ],
+    [
+     "trop de fautes",
+     "too many mistakes"
+    ],
+    [
+     "répond",
+     "answers"
+    ],
+    [
+     "Maintenant",
+     "now"
+    ],
+    [
+     "son ardoise",
+     "his chalkboard"
+    ],
+    [
+     "est courte",
+     "is short"
+    ],
+    [
+     "et parfaite",
+     "and perfect"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 7030,
+    "en": 6810,
+    "wd": 22460
+   },
+   "bank": {
+    "fr": [
+     1866310,
+     7030
+    ],
+    "en": [
+     1873740,
+     6810
+    ],
+    "wd": [
+     1880950,
+     22460
+    ],
+    "wp": [
+     [
+      1880950,
+      2410
+     ],
+     [
+      1883760,
+      3140
+     ],
+     [
+      1887300,
+      2430
+     ],
+     [
+      1890130,
+      2270
+     ],
+     [
+      1892800,
+      3680
+     ],
+     [
+      1896880,
+      2510
+     ],
+     [
+      1899790,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À côté, Fredo, du restaurant Le Goéland, est jaloux. Personne ne corrige son ardoise.",
+   "en": "Next door, Fredo, from the restaurant Le Goéland, is jealous. Nobody corrects his chalkboard.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "À côté",
+     "next door"
+    ],
+    [
+     "du restaurant",
+     "from the restaurant"
+    ],
+    [
+     "est jaloux",
+     "is jealous"
+    ],
+    [
+     "Personne ne corrige",
+     "nobody corrects"
+    ],
+    [
+     "son ardoise",
+     "his chalkboard"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 7450,
+    "en": 7670,
+    "wd": 18580
+   },
+   "bank": {
+    "fr": [
+     1903810,
+     7450
+    ],
+    "en": [
+     1911660,
+     7670
+    ],
+    "wd": [
+     1919730,
+     18580
+    ],
+    "wp": [
+     [
+      1919730,
+      2800
+     ],
+     [
+      1922930,
+      2870
+     ],
+     [
+      1926200,
+      2840
+     ],
+     [
+      1929440,
+      3940
+     ],
+     [
+      1933780,
+      3680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un matin, Fredo fait exprès une faute énorme. Il écrit « désert maison », avec un seul s.",
+   "en": "One morning, Fredo makes a huge mistake on purpose. He writes \"désert maison\", with only one s.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "exprès",
+     "en": "on purpose"
+    }
+   ],
+   "words": [
+    [
+     "Un matin",
+     "one morning"
+    ],
+    [
+     "fait",
+     "makes"
+    ],
+    [
+     "exprès",
+     "on purpose"
+    ],
+    [
+     "une faute énorme",
+     "a huge mistake"
+    ],
+    [
+     "Il écrit",
+     "he writes"
+    ],
+    [
+     "avec un seul s",
+     "with only one s"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "gl": "audio/s054_gl.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 8090,
+    "en": 7760,
+    "gl": 3180,
+    "wd": 20050
+   },
+   "bank": {
+    "fr": [
+     1938710,
+     8090
+    ],
+    "en": [
+     1947200,
+     7760
+    ],
+    "gl": [
+     1955360,
+     3180
+    ],
+    "wd": [
+     1958940,
+     20050
+    ],
+    "wp": [
+     [
+      1958940,
+      2590
+     ],
+     [
+      1961930,
+      2410
+     ],
+     [
+      1964740,
+      2580
+     ],
+     [
+      1967720,
+      3450
+     ],
+     [
+      1971570,
+      2890
+     ],
+     [
+      1974860,
+      3280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Désert », avec un seul s, c'est le Sahara. Chez Fredo, on mange du sable au dessert.",
+   "en": "\"Désert\" with one s is the Sahara. At Fredo's, you eat sand for dessert.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "avec un seul s",
+     "with only one s"
+    ],
+    [
+     "c'est le Sahara",
+     "it's the Sahara"
+    ],
+    [
+     "Chez Fredo",
+     "at Fredo's"
+    ],
+    [
+     "on mange",
+     "you eat"
+    ],
+    [
+     "du sable",
+     "sand"
+    ],
+    [
+     "au dessert",
+     "for dessert"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 7530,
+    "en": 6320,
+    "wd": 19830
+   },
+   "bank": {
+    "fr": [
+     1979390,
+     7530
+    ],
+    "en": [
+     1987320,
+     6320
+    ],
+    "wd": [
+     1994040,
+     19830
+    ],
+    "wp": [
+     [
+      1994040,
+      3280
+     ],
+     [
+      1997720,
+      3250
+     ],
+     [
+      2001370,
+      3150
+     ],
+     [
+      2004920,
+      2350
+     ],
+     [
+      2007670,
+      2430
+     ],
+     [
+      2010500,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Peyre passe devant Le Goéland sans même tourner la tête.",
+   "en": "Madame Peyre walks past Le Goéland without even turning her head.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "passe devant",
+     "walks past"
+    ],
+    [
+     "sans même",
+     "without even"
+    ],
+    [
+     "tourner la tête",
+     "turning her head"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 5510,
+    "en": 5240,
+    "wd": 11030
+   },
+   "bank": {
+    "fr": [
+     2014270,
+     5510
+    ],
+    "en": [
+     2020180,
+     5240
+    ],
+    "wd": [
+     2025820,
+     11030
+    ],
+    "wp": [
+     [
+      2025820,
+      3190
+     ],
+     [
+      2029410,
+      2940
+     ],
+     [
+      2032750,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, Fredo essaie encore. Cette fois, elle s'arrête une seconde, et elle écrit : « Zéro. Fautes volontaires. »",
+   "en": "The next day, Fredo tries again. This time, she stops for a second, and she writes: \"Zero. Deliberate mistakes.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "essaie",
+     "tries"
+    ],
+    [
+     "encore",
+     "again"
+    ],
+    [
+     "Cette fois",
+     "this time"
+    ],
+    [
+     "elle s'arrête",
+     "she stops"
+    ],
+    [
+     "une seconde",
+     "for a second"
+    ],
+    [
+     "elle écrit",
+     "she writes"
+    ],
+    [
+     "Zéro",
+     "zero"
+    ],
+    [
+     "Fautes volontaires",
+     "deliberate mistakes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 8480,
+    "en": 10440,
+    "wd": 29310
+   },
+   "bank": {
+    "fr": [
+     2037250,
+     8480
+    ],
+    "en": [
+     2046130,
+     10440
+    ],
+    "wd": [
+     2056969,
+     29310
+    ],
+    "wp": [
+     [
+      2056969,
+      3210
+     ],
+     [
+      2060579,
+      2620
+     ],
+     [
+      2063599,
+      2250
+     ],
+     [
+      2066249,
+      2700
+     ],
+     [
+      2069349,
+      2840
+     ],
+     [
+      2072589,
+      2760
+     ],
+     [
+      2075749,
+      2440
+     ],
+     [
+      2078589,
+      2370
+     ],
+     [
+      2081359,
+      4070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Fredo garde cette ardoise pendant trois jours. Il la montre à tout le monde.",
+   "en": "Fredo keeps that chalkboard for three days. He shows it to everybody.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "garde",
+     "keeps"
+    ],
+    [
+     "cette ardoise",
+     "that chalkboard"
+    ],
+    [
+     "pendant trois jours",
+     "for three days"
+    ],
+    [
+     "Il la montre",
+     "he shows it"
+    ],
+    [
+     "à tout le monde",
+     "to everybody"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 5560,
+    "en": 4400,
+    "wd": 17760
+   },
+   "bank": {
+    "fr": [
+     2086679,
+     5560
+    ],
+    "en": [
+     2092639,
+     4400
+    ],
+    "wd": [
+     2097440,
+     17760
+    ],
+    "wp": [
+     [
+      2097440,
+      2110
+     ],
+     [
+      2099950,
+      3590
+     ],
+     [
+      2103940,
+      3450
+     ],
+     [
+      2107790,
+      3220
+     ],
+     [
+      2111410,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En mai, une touriste photographie l'ardoise et la note rouge. Elle montre la photo à Sandrine.",
+   "en": "In May, a tourist photographs the chalkboard and the red grade. She shows the photo to Sandrine.",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "En mai",
+     "in May"
+    ],
+    [
+     "une touriste",
+     "a tourist"
+    ],
+    [
+     "photographie",
+     "photographs"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "et la note rouge",
+     "and the red grade"
+    ],
+    [
+     "Elle montre",
+     "she shows"
+    ],
+    [
+     "la photo",
+     "the photo"
+    ],
+    [
+     "à Sandrine",
+     "to Sandrine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 7520,
+    "en": 7200,
+    "wd": 26930
+   },
+   "bank": {
+    "fr": [
+     2115600,
+     7520
+    ],
+    "en": [
+     2123520,
+     7200
+    ],
+    "wd": [
+     2131120,
+     26930
+    ],
+    "wp": [
+     [
+      2131120,
+      2510
+     ],
+     [
+      2134030,
+      2790
+     ],
+     [
+      2137220,
+      2990
+     ],
+     [
+      2140610,
+      2850
+     ],
+     [
+      2143860,
+      3780
+     ],
+     [
+      2148040,
+      2870
+     ],
+     [
+      2151310,
+      2610
+     ],
+     [
+      2154320,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Trois jours plus tard, un journaliste du Midi Libre arrive sur le quai, et il pose des questions.",
+   "en": "Three days later, a journalist from the Midi Libre arrives on the quay, and he asks questions.",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "Trois jours plus tard",
+     "three days later"
+    ],
+    [
+     "un journaliste",
+     "a journalist"
+    ],
+    [
+     "du Midi Libre",
+     "from the Midi Libre"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ],
+    [
+     "sur le quai",
+     "on the quay"
+    ],
+    [
+     "il pose des questions",
+     "he asks questions"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 8119,
+    "en": 6420,
+    "wd": 23390
+   },
+   "bank": {
+    "fr": [
+     2158450,
+     8119
+    ],
+    "en": [
+     2166970,
+     6420
+    ],
+    "wd": [
+     2173790,
+     23390
+    ],
+    "wp": [
+     [
+      2173790,
+      4700
+     ],
+     [
+      2178890,
+      3000
+     ],
+     [
+      2182290,
+      3890
+     ],
+     [
+      2186580,
+      2650
+     ],
+     [
+      2189630,
+      2650
+     ],
+     [
+      2192680,
+      3650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le samedi, l'article est dans le journal : « La maîtresse du quai de la Marine ».",
+   "en": "On Saturday, the article is in the newspaper: \"The schoolteacher of the Quai de la Marine\".",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "Le samedi",
+     "on Saturday"
+    ],
+    [
+     "l'article",
+     "the article"
+    ],
+    [
+     "est dans le journal",
+     "is in the newspaper"
+    ],
+    [
+     "La maîtresse",
+     "the schoolteacher"
+    ],
+    [
+     "du quai de la Marine",
+     "of the Quai de la Marine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 6330,
+    "en": 6390,
+    "wd": 19370
+   },
+   "bank": {
+    "fr": [
+     2197580,
+     6330
+    ],
+    "en": [
+     2204310,
+     6390
+    ],
+    "wd": [
+     2211100,
+     19370
+    ],
+    "wp": [
+     [
+      2211100,
+      3320
+     ],
+     [
+      2214820,
+      2630
+     ],
+     [
+      2217850,
+      3820
+     ],
+     [
+      2222070,
+      3070
+     ],
+     [
+      2225540,
+      4080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Peyre a refusé une photo de face. Elle a dit : « Je ne suis pas à vendre. »",
+   "en": "Madame Peyre refused a photo from the front. She said: \"I'm not for sale.\"",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "a refusé",
+     "refused"
+    ],
+    [
+     "une photo de face",
+     "a photo from the front"
+    ],
+    [
+     "Elle a dit",
+     "she said"
+    ],
+    [
+     "Je ne suis pas à vendre",
+     "I'm not for sale"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 6640,
+    "en": 6570,
+    "wd": 15600
+   },
+   "bank": {
+    "fr": [
+     2230870,
+     6640
+    ],
+    "en": [
+     2237910,
+     6570
+    ],
+    "wd": [
+     2244880,
+     15600
+    ],
+    "wp": [
+     [
+      2244880,
+      2780
+     ],
+     [
+      2248060,
+      3960
+     ],
+     [
+      2252420,
+      2720
+     ],
+     [
+      2255540,
+      4090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors, dans le journal, on voit Madame Peyre de dos, sa craie rouge à la main.",
+   "en": "So, in the newspaper, you see Madame Peyre from behind, her red chalk in her hand.",
+   "para": 11,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "dans le journal",
+     "in the newspaper"
+    ],
+    [
+     "on voit",
+     "you see"
+    ],
+    [
+     "de dos",
+     "from behind"
+    ],
+    [
+     "sa craie rouge",
+     "her red chalk"
+    ],
+    [
+     "à la main",
+     "in her hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 6660,
+    "en": 6780,
+    "wd": 18970
+   },
+   "bank": {
+    "fr": [
+     2260880,
+     6660
+    ],
+    "en": [
+     2267940,
+     6780
+    ],
+    "wd": [
+     2275120,
+     18970
+    ],
+    "wp": [
+     [
+      2275120,
+      2060
+     ],
+     [
+      2277580,
+      2940
+     ],
+     [
+      2280920,
+      2530
+     ],
+     [
+      2283850,
+      2710
+     ],
+     [
+      2286960,
+      3110
+     ],
+     [
+      2290470,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce samedi-là, Chez Toni fait quarante couverts à midi. C'est un record.",
+   "en": "That Saturday, Chez Toni serves forty covers at lunchtime. It's a record.",
+   "para": 11,
+   "glosses": [
+    {
+     "fr": "couverts",
+     "en": "covers (meals served)"
+    }
+   ],
+   "words": [
+    [
+     "Ce samedi-là",
+     "that Saturday"
+    ],
+    [
+     "fait",
+     "serves (does)"
+    ],
+    [
+     "quarante couverts",
+     "forty covers"
+    ],
+    [
+     "à midi",
+     "at lunchtime"
+    ],
+    [
+     "C'est un record",
+     "it's a record"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "gl": "audio/s064_gl.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 5880,
+    "en": 6550,
+    "gl": 3750,
+    "wd": 18780
+   },
+   "bank": {
+    "fr": [
+     2294490,
+     5880
+    ],
+    "en": [
+     2300770,
+     6550
+    ],
+    "gl": [
+     2307720,
+     3750
+    ],
+    "wd": [
+     2311870,
+     18780
+    ],
+    "wp": [
+     [
+      2311870,
+      4040
+     ],
+     [
+      2316310,
+      2540
+     ],
+     [
+      2319250,
+      3660
+     ],
+     [
+      2323310,
+      2750
+     ],
+     [
+      2326460,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lundi, à sept heures vingt, six touristes attendent devant l'ardoise, leurs téléphones à la main.",
+   "en": "On Monday, at twenty past seven, six tourists are waiting in front of the chalkboard, their phones in their hands.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Le lundi",
+     "on Monday"
+    ],
+    [
+     "à sept heures vingt",
+     "at twenty past seven"
+    ],
+    [
+     "six touristes",
+     "six tourists"
+    ],
+    [
+     "attendent",
+     "are waiting"
+    ],
+    [
+     "devant l'ardoise",
+     "in front of the chalkboard"
+    ],
+    [
+     "leurs téléphones",
+     "their phones"
+    ],
+    [
+     "à la main",
+     "in their hands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 7830,
+    "en": 8430,
+    "wd": 26280
+   },
+   "bank": {
+    "fr": [
+     2331050,
+     7830
+    ],
+    "en": [
+     2339280,
+     8430
+    ],
+    "wd": [
+     2348110,
+     26280
+    ],
+    "wp": [
+     [
+      2348110,
+      2770
+     ],
+     [
+      2351280,
+      3640
+     ],
+     [
+      2355320,
+      3610
+     ],
+     [
+      2359330,
+      2540
+     ],
+     [
+      2362270,
+      4130
+     ],
+     [
+      2366800,
+      3490
+     ],
+     [
+      2370690,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ils attendent la maîtresse du journal. L'ardoise est parfaite. Seize, au moins.",
+   "en": "They are waiting for the schoolteacher from the newspaper. The chalkboard is perfect. Sixteen, at least.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Ils attendent",
+     "they are waiting for"
+    ],
+    [
+     "la maîtresse",
+     "the schoolteacher"
+    ],
+    [
+     "du journal",
+     "from the newspaper"
+    ],
+    [
+     "L'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "est parfaite",
+     "is perfect"
+    ],
+    [
+     "Seize",
+     "sixteen"
+    ],
+    [
+     "au moins",
+     "at least"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 6900,
+    "en": 8390,
+    "wd": 23710
+   },
+   "bank": {
+    "fr": [
+     2374790,
+     6900
+    ],
+    "en": [
+     2382090,
+     8390
+    ],
+    "wd": [
+     2390880,
+     23710
+    ],
+    "wp": [
+     [
+      2390880,
+      3480
+     ],
+     [
+      2394760,
+      3090
+     ],
+     [
+      2398250,
+      2920
+     ],
+     [
+      2401570,
+      2950
+     ],
+     [
+      2404920,
+      2910
+     ],
+     [
+      2408230,
+      2590
+     ],
+     [
+      2411220,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais ce lundi-là, Madame Peyre ne vient pas.",
+   "en": "But that Monday, Madame Peyre doesn't come.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "ce lundi-là",
+     "that Monday"
+    ],
+    [
+     "ne vient pas",
+     "doesn't come"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 4190,
+    "en": 3260,
+    "wd": 10520
+   },
+   "bank": {
+    "fr": [
+     2414990,
+     4190
+    ],
+    "en": [
+     2419580,
+     3260
+    ],
+    "wd": [
+     2423240,
+     10520
+    ],
+    "wp": [
+     [
+      2423240,
+      2200
+     ],
+     [
+      2425840,
+      3800
+     ],
+     [
+      2430040,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le mardi, Madame Peyre ne vient pas non plus. Le mercredi non plus.",
+   "en": "On Tuesday, Madame Peyre doesn't come either. Nor on Wednesday.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Le mardi",
+     "on Tuesday"
+    ],
+    [
+     "ne vient pas",
+     "doesn't come"
+    ],
+    [
+     "non plus",
+     "either"
+    ],
+    [
+     "Le mercredi non plus",
+     "nor on Wednesday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 6120,
+    "en": 5340,
+    "wd": 14080
+   },
+   "bank": {
+    "fr": [
+     2434160,
+     6120
+    ],
+    "en": [
+     2440680,
+     5340
+    ],
+    "wd": [
+     2446420,
+     14080
+    ],
+    "wp": [
+     [
+      2446420,
+      3380
+     ],
+     [
+      2450200,
+      2870
+     ],
+     [
+      2453470,
+      2309
+     ],
+     [
+      2456180,
+      3470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les touristes repartent déçus. Les pêcheurs ne parient plus. Marcel dit que c'est peut-être la grippe.",
+   "en": "The tourists leave disappointed. The fishermen don't bet anymore. Marcel says it's maybe the flu.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Les touristes",
+     "the tourists"
+    ],
+    [
+     "repartent",
+     "leave"
+    ],
+    [
+     "déçus",
+     "disappointed"
+    ],
+    [
+     "Les pêcheurs",
+     "the fishermen"
+    ],
+    [
+     "ne parient plus",
+     "don't bet anymore"
+    ],
+    [
+     "dit que",
+     "says that"
+    ],
+    [
+     "peut-être",
+     "maybe"
+    ],
+    [
+     "la grippe",
+     "the flu"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 7940,
+    "en": 7120,
+    "wd": 26130
+   },
+   "bank": {
+    "fr": [
+     2460900,
+     7940
+    ],
+    "en": [
+     2469240,
+     7120
+    ],
+    "wd": [
+     2476760,
+     26130
+    ],
+    "wp": [
+     [
+      2476760,
+      3200
+     ],
+     [
+      2480360,
+      2500
+     ],
+     [
+      2483260,
+      2700
+     ],
+     [
+      2486360,
+      3050
+     ],
+     [
+      2489810,
+      3490
+     ],
+     [
+      2493700,
+      2850
+     ],
+     [
+      2496950,
+      2300
+     ],
+     [
+      2499650,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le jeudi matin, Toni ne regarde plus le haut de la rue. Il regarde le canal.",
+   "en": "On Thursday morning, Toni no longer looks at the top of the street. He looks at the canal.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "Le jeudi matin",
+     "on Thursday morning"
+    ],
+    [
+     "ne regarde plus",
+     "no longer looks at"
+    ],
+    [
+     "le haut de la rue",
+     "the top of the street"
+    ],
+    [
+     "Il regarde",
+     "he looks at"
+    ],
+    [
+     "le canal",
+     "the canal"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 6240,
+    "en": 6180,
+    "wd": 19160
+   },
+   "bank": {
+    "fr": [
+     2503290,
+     6240
+    ],
+    "en": [
+     2509930,
+     6180
+    ],
+    "wd": [
+     2516510,
+     19160
+    ],
+    "wp": [
+     [
+      2516510,
+      3950
+     ],
+     [
+      2520860,
+      3720
+     ],
+     [
+      2524980,
+      3490
+     ],
+     [
+      2528870,
+      2960
+     ],
+     [
+      2532230,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "De l'autre côté de l'eau, sur le quai d'en face, il voit un imperméable beige.",
+   "en": "On the other side of the water, on the opposite quay, he sees a beige raincoat.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "De l'autre côté",
+     "on the other side"
+    ],
+    [
+     "de l'eau",
+     "of the water"
+    ],
+    [
+     "sur le quai d'en face",
+     "on the opposite quay"
+    ],
+    [
+     "il voit",
+     "he sees"
+    ],
+    [
+     "un imperméable beige",
+     "a beige raincoat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 6980,
+    "en": 5570,
+    "wd": 19160
+   },
+   "bank": {
+    "fr": [
+     2536070,
+     6980
+    ],
+    "en": [
+     2543450,
+     5570
+    ],
+    "wd": [
+     2549420,
+     19160
+    ],
+    "wp": [
+     [
+      2549420,
+      3520
+     ],
+     [
+      2553340,
+      2560
+     ],
+     [
+      2556300,
+      3900
+     ],
+     [
+      2560600,
+      2860
+     ],
+     [
+      2563860,
+      3870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni emprunte les jumelles de Marcel. Il regarde longtemps.",
+   "en": "Toni borrows Marcel's binoculars. He looks for a long time.",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "jumelles",
+     "en": "binoculars"
+    }
+   ],
+   "words": [
+    [
+     "emprunte",
+     "borrows"
+    ],
+    [
+     "les jumelles",
+     "the binoculars"
+    ],
+    [
+     "de Marcel",
+     "of Marcel"
+    ],
+    [
+     "Il regarde",
+     "he looks"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "gl": "audio/s072_gl.mp3",
+    "wd": "audio/s072_wd.mp3"
+   },
+   "ms": {
+    "fr": 4810,
+    "en": 5120,
+    "gl": 3430,
+    "wd": 17160
+   },
+   "bank": {
+    "fr": [
+     2568980,
+     4810
+    ],
+    "en": [
+     2574190,
+     5120
+    ],
+    "gl": [
+     2579710,
+     3430
+    ],
+    "wd": [
+     2583540,
+     17160
+    ],
+    "wp": [
+     [
+      2583540,
+      2580
+     ],
+     [
+      2586520,
+      3030
+     ],
+     [
+      2589950,
+      3340
+     ],
+     [
+      2593690,
+      2850
+     ],
+     [
+      2596940,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Peyre est devant un nouveau restaurant de sushis, une craie rouge à la main.",
+   "en": "Madame Peyre is in front of a new sushi restaurant, a red chalk in her hand.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "est devant",
+     "is in front of"
+    ],
+    [
+     "un nouveau restaurant",
+     "a new restaurant"
+    ],
+    [
+     "de sushis",
+     "of sushi"
+    ],
+    [
+     "une craie rouge",
+     "a red chalk"
+    ],
+    [
+     "à la main",
+     "in her hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 5810,
+    "en": 5470,
+    "wd": 18090
+   },
+   "bank": {
+    "fr": [
+     2601100,
+     5810
+    ],
+    "en": [
+     2607310,
+     5470
+    ],
+    "wd": [
+     2613180,
+     18090
+    ],
+    "wp": [
+     [
+      2613180,
+      3050
+     ],
+     [
+      2616630,
+      3670
+     ],
+     [
+      2620700,
+      2630
+     ],
+     [
+      2623730,
+      3520
+     ],
+     [
+      2627650,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Madame Peyre corrige l'ardoise d'un autre.",
+   "en": "Madame Peyre is correcting someone else's chalkboard.",
+   "para": 12,
+   "glosses": [],
+   "words": [
+    [
+     "corrige",
+     "is correcting"
+    ],
+    [
+     "l'ardoise",
+     "the chalkboard"
+    ],
+    [
+     "d'un autre",
+     "of someone else"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 3760,
+    "wd": 10670
+   },
+   "bank": {
+    "fr": [
+     2631670,
+     4019
+    ],
+    "en": [
+     2636090,
+     3760
+    ],
+    "wd": [
+     2640250,
+     10670
+    ],
+    "wp": [
+     [
+      2640250,
+      3150
+     ],
+     [
+      2643800,
+      2850
+     ],
+     [
+      2647050,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toni rend les jumelles à Marcel, très lentement. « Elle me trompe », dit-il.",
+   "en": "Toni gives the binoculars back to Marcel, very slowly. \"She's cheating on me,\" he says.",
+   "para": 12,
+   "glosses": [
+    {
+     "fr": "Elle me trompe",
+     "en": "she's cheating on me"
+    }
+   ],
+   "words": [
+    [
+     "rend",
+     "gives back"
+    ],
+    [
+     "les jumelles",
+     "the binoculars"
+    ],
+    [
+     "à Marcel",
+     "to Marcel"
+    ],
+    [
+     "très lentement",
+     "very slowly"
+    ],
+    [
+     "Elle me trompe",
+     "she's cheating on me"
+    ],
+    [
+     "dit-il",
+     "he says"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "gl": "audio/s075_gl.mp3",
+    "wd": "audio/s075_wd.mp3"
+   },
+   "ms": {
+    "fr": 6130,
+    "en": 7440,
+    "gl": 3980,
+    "wd": 20470
+   },
+   "bank": {
+    "fr": [
+     2651320,
+     6130
+    ],
+    "en": [
+     2657850,
+     7440
+    ],
+    "gl": [
+     2665690,
+     3980
+    ],
+    "wd": [
+     2670070,
+     20470
+    ],
+    "wp": [
+     [
+      2670070,
+      2480
+     ],
+     [
+      2672950,
+      3030
+     ],
+     [
+      2676380,
+      3270
+     ],
+     [
+      2680050,
+      3090
+     ],
+     [
+      2683540,
+      3380
+     ],
+     [
+      2687320,
+      2370
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   21840
+  ],
+  "silence": [
+   22640,
+   30000
+  ]
+ }
+}
