@@ -399,7 +399,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.155";
+const VERSION = "web 0.156";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -655,6 +655,7 @@ function nativeEvents() {
       if (seg > 0 && seg % 10 === 0) log("progress", { seg, of: story.segments.length });
     }
     step = d.step; waiting = false; NQ.at = Date.now();
+    try { listened((steps[d.step] || [0, 0])[1]); } catch {}
     show();
   });
   NATIVE_PLAYER.addListener("ended", d => {
@@ -690,7 +691,7 @@ const PRE = 150;
 
 let rangeStart = 0;
 function playRange([start, dur]) {
-  rangeStart = start;
+  rangeStart = start; try { listened(dur); } catch {}
   audio.currentTime = Math.max(0, start - PRE) / 1000;
   stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
   clearTimeout(timer);
@@ -989,6 +990,50 @@ function levelSheet() {
   d.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { store.set("level_" + lang, b.dataset.v); log("level", { level: b.dataset.v, via: "lang_switch" }); d.remove(); renderAll(); });
   document.body.append(d);
 }
+// ---------- How much people really listen (Saten 2026-11-24) ----------
+// Minutes per day and language, from the clips that played (works with the screen locked: the native player's events
+// arrive later but each carries its clip). Sent once a day for the days before today, and today's total when leaving.
+function listened(ms) {
+  if (!story || !(ms > 0) || ms > 120000) return;
+  const day = new Date().toISOString().slice(0, 10), k = `lm_${day}_${lang}`;
+  store.set(k, (store.get(k, 0) || 0) + ms);
+  store.set("seen_" + story.id, Date.now());  // for "why did you stop?"
+}
+function sendListening(includeToday) {
+  const today = new Date().toISOString().slice(0, 10);
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i), m = k && k.match(/^lm_(\d{4}-\d\d-\d\d)_(\w+)$/);
+    if (!m || (m[1] === today && !includeToday)) continue;
+    const min = Math.round(store.get(k, 0) / 6000) / 10;
+    if (m[1] !== today) { log("listen_day", { day: m[1], lang: m[2], min }, ""); localStorage.removeItem(k); i--; }
+    else log("listen_today", { day: m[1], lang: m[2], min }, "");
+  }
+}
+setTimeout(() => { try { sendListening(false); } catch {} }, 4000);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") try { sendListening(true); flush(true); } catch {} });
+
+// "Why did you stop?" — once per unfinished story, at most once a day, only when they come back after a while
+function askWhyStopped() {
+  if (needsOnboarding() || store.get("why_day", "") === new Date().toDateString()) return;
+  const last = catalog.find(c => c.id === store.get("last_" + lang));
+  if (!last || isFinished(last) || store.get("why_" + last.id, false)) return;
+  const pos = store.get("pos_" + last.id, -1), seen = store.get("seen_" + last.id, 0);
+  if (pos < 2 || pos > (last.phrases || 99) * .85 || Date.now() - seen < 3 * 3600e3) return;  // heard a bit, not nearly done, gone 3 h+
+  store.set("why_" + last.id, true); store.set("why_day", new Date().toDateString());
+  const d = document.createElement("div"); d.id = "sheet";
+  d.innerHTML = `<b></b><div class="muted">Why did you stop? One tap helps us choose better stories.</div>
+    <button data-w="hard">Too hard</button><button data-w="slow">Too slow / boring</button><button data-w="taste">Not my kind of story</button>
+    <button data-w="busy">Just busy, I'll go on</button><button class="x">Skip</button>`;
+  d.querySelector("b").textContent = `Last time: “${last.title}”`;
+  d.querySelectorAll("[data-w]").forEach(b => b.onclick = () => {
+    log("stop_reason", { why: b.dataset.w, pos, of: last.phrases }, last.id);
+    if (b.dataset.w === "hard" || b.dataset.w === "taste") { store.set("later_" + last.id, true); renderStories(); toast(`“${last.title}” is in the Library, saved for later.`, 3000); }
+    d.remove();
+  });
+  d.querySelector(".x").onclick = () => { log("stop_reason", { why: "skip" }, last.id); d.remove(); };
+  document.body.append(d);
+}
+
 // people who joined with only a first name: ask once for the full name (Saten 2026-11-23: the Sheet must be readable)
 function askFullName() {
   const n = store.get("name", "").trim();
@@ -2529,6 +2574,7 @@ async function checkUpdate() {
 }
 checkUpdate();
 setTimeout(() => { try { askFullName(); } catch {} }, 2500);
+setTimeout(() => { try { if (catalog.length && !document.getElementById("sheet")) askWhyStopped(); } catch {} }, 6000);
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 
 // English titles (Saten, 2026-11-20): web/titles_en.json {id: title}, kept apart so the catalog doesn't need republishing
