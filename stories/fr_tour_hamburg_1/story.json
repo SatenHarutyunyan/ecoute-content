@@ -1,0 +1,5829 @@
+{
+ "id": "fr_tour_hamburg_1",
+ "lang": "fr",
+ "title": "Visite guidée : Hambourg (1)",
+ "author": "Guided tour (AI-written, facts checked)",
+ "level": "B1",
+ "series": "Visite guidée : Hambourg",
+ "episode": "1",
+ "note": "Hanne drove a harbour ferry in Hamburg for thirty years. Now she walks you from the floating piers, down into a tunnel under the Elbe, to the best free view of the city. Her first lesson: here everyone says Moin, and once is enough.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 23560,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Moin ! Bienvenue à Hambourg. Je m'appelle Hanne.",
+   "en": "Moin! Welcome to Hamburg. My name is Hanne.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "Moin",
+     "en": "hello (the Hamburg greeting, at any hour)"
+    }
+   ],
+   "words": [
+    [
+     "Moin",
+     "hello (Hamburg greeting)"
+    ],
+    [
+     "Bienvenue",
+     "welcome"
+    ],
+    [
+     "à Hambourg",
+     "to Hamburg"
+    ],
+    [
+     "Je m'appelle",
+     "my name is"
+    ],
+    [
+     "Hanne",
+     "Hanne"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5570,
+    "en": 4010,
+    "gl": 4910,
+    "wd": 16350
+   },
+   "bank": {
+    "fr": [
+     54760,
+     5570
+    ],
+    "en": [
+     60730,
+     4010
+    ],
+    "gl": [
+     65140,
+     4910
+    ],
+    "wd": [
+     70450,
+     16350
+    ],
+    "wp": [
+     [
+      70450,
+      3220
+     ],
+     [
+      74070,
+      2640
+     ],
+     [
+      77110,
+      2860
+     ],
+     [
+      80370,
+      2910
+     ],
+     [
+      83680,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant trente ans, j'ai conduit un bateau du port, le ferry soixante-deux.",
+   "en": "For thirty years, I drove a harbour boat, ferry sixty-two.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant trente ans",
+     "for thirty years"
+    ],
+    [
+     "j'ai conduit",
+     "I drove"
+    ],
+    [
+     "un bateau",
+     "a boat"
+    ],
+    [
+     "du port",
+     "of the harbour"
+    ],
+    [
+     "le ferry",
+     "the ferry"
+    ],
+    [
+     "soixante-deux",
+     "sixty-two"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 5200,
+    "en": 4440,
+    "wd": 20090
+   },
+   "bank": {
+    "fr": [
+     87200,
+     5200
+    ],
+    "en": [
+     92800,
+     4440
+    ],
+    "wd": [
+     97640,
+     20090
+    ],
+    "wp": [
+     [
+      97640,
+      3250
+     ],
+     [
+      101290,
+      2930
+     ],
+     [
+      104620,
+      2560
+     ],
+     [
+      107580,
+      2860
+     ],
+     [
+      110840,
+      2760
+     ],
+     [
+      114000,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Aujourd'hui, je suis à la retraite, et je promène des gens comme vous.",
+   "en": "Today I'm retired, and I walk people like you around.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Aujourd'hui",
+     "today"
+    ],
+    [
+     "je suis à la retraite",
+     "I'm retired"
+    ],
+    [
+     "je promène",
+     "I walk (someone) around"
+    ],
+    [
+     "des gens",
+     "people"
+    ],
+    [
+     "comme vous",
+     "like you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 4830,
+    "en": 3530,
+    "wd": 17280
+   },
+   "bank": {
+    "fr": [
+     118130,
+     4830
+    ],
+    "en": [
+     123360,
+     3530
+    ],
+    "wd": [
+     127290,
+     17280
+    ],
+    "wp": [
+     [
+      127290,
+      2510
+     ],
+     [
+      130200,
+      3570
+     ],
+     [
+      134170,
+      3900
+     ],
+     [
+      138470,
+      2329
+     ],
+     [
+      141200,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Première leçon, avant de marcher : ici, on dit « Moin ».",
+   "en": "First lesson, before we walk: here, we say \"Moin\".",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Première leçon",
+     "first lesson"
+    ],
+    [
+     "avant de marcher",
+     "before walking"
+    ],
+    [
+     "ici",
+     "here"
+    ],
+    [
+     "on dit",
+     "we say"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "en": 4280,
+    "wd": 12940
+   },
+   "bank": {
+    "fr": [
+     144970,
+     4890
+    ],
+    "en": [
+     150260,
+     4280
+    ],
+    "wd": [
+     154940,
+     12940
+    ],
+    "wp": [
+     [
+      154940,
+      3120
+     ],
+     [
+      158460,
+      3220
+     ],
+     [
+      162080,
+      2210
+     ],
+     [
+      164690,
+      2340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le matin, à midi, à minuit : toujours « Moin ».",
+   "en": "In the morning, at noon, at midnight: always \"Moin\".",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le matin",
+     "in the morning"
+    ],
+    [
+     "à midi",
+     "at noon"
+    ],
+    [
+     "à minuit",
+     "at midnight"
+    ],
+    [
+     "toujours",
+     "always"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4690,
+    "en": 3990,
+    "wd": 12610
+   },
+   "bank": {
+    "fr": [
+     168280,
+     4690
+    ],
+    "en": [
+     173370,
+     3990
+    ],
+    "wd": [
+     177760,
+     12610
+    ],
+    "wp": [
+     [
+      177760,
+      2620
+     ],
+     [
+      180780,
+      2630
+     ],
+     [
+      183810,
+      2790
+     ],
+     [
+      187000,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ça ne veut pas dire « bonjour du matin ». Ça veut dire : salut, bonne journée.",
+   "en": "It doesn't mean \"good morning\". It means: hi, have a good day.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ça ne veut pas dire",
+     "it doesn't mean"
+    ],
+    [
+     "bonjour du matin",
+     "good morning"
+    ],
+    [
+     "Ça veut dire",
+     "it means"
+    ],
+    [
+     "salut",
+     "hi"
+    ],
+    [
+     "bonne journée",
+     "have a good day"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 6850,
+    "en": 4640,
+    "wd": 16960
+   },
+   "bank": {
+    "fr": [
+     190770,
+     6850
+    ],
+    "en": [
+     198020,
+     4640
+    ],
+    "wd": [
+     203060,
+     16960
+    ],
+    "wp": [
+     [
+      203060,
+      3390
+     ],
+     [
+      206850,
+      3020
+     ],
+     [
+      210270,
+      2890
+     ],
+     [
+      213560,
+      2230
+     ],
+     [
+      216190,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Certains disent « Moin moin ». Pour un vrai Hambourgeois, c'est déjà du bavardage.",
+   "en": "Some say \"Moin moin\". For a real Hamburger, that's already chatter.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Certains disent",
+     "some say"
+    ],
+    [
+     "Pour un vrai Hambourgeois",
+     "for a real Hamburger"
+    ],
+    [
+     "c'est déjà",
+     "that's already"
+    ],
+    [
+     "du bavardage",
+     "chatter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 6640,
+    "en": 4890,
+    "wd": 14820
+   },
+   "bank": {
+    "fr": [
+     220420,
+     6640
+    ],
+    "en": [
+     227460,
+     4890
+    ],
+    "wd": [
+     232750,
+     14820
+    ],
+    "wp": [
+     [
+      232750,
+      3120
+     ],
+     [
+      236270,
+      3920
+     ],
+     [
+      240590,
+      2890
+     ],
+     [
+      243880,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un seul « Moin » suffit. Et moi, pendant la visite, je vais compter les ponts.",
+   "en": "One \"Moin\" is enough. And I'm going to count the bridges during the tour.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Un seul",
+     "just one"
+    ],
+    [
+     "suffit",
+     "is enough"
+    ],
+    [
+     "pendant la visite",
+     "during the tour"
+    ],
+    [
+     "je vais compter",
+     "I'm going to count"
+    ],
+    [
+     "les ponts",
+     "the bridges"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 6880,
+    "en": 4660,
+    "wd": 16960
+   },
+   "bank": {
+    "fr": [
+     247970,
+     6880
+    ],
+    "en": [
+     255250,
+     4660
+    ],
+    "wd": [
+     260310,
+     16960
+    ],
+    "wp": [
+     [
+      260310,
+      2650
+     ],
+     [
+      263360,
+      2550
+     ],
+     [
+      266310,
+      3420
+     ],
+     [
+      270130,
+      3260
+     ],
+     [
+      273790,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous sommes aux Landungsbrücken, les quais d'embarquement de Sankt Pauli.",
+   "en": "We are at the Landungsbrücken, the boarding piers of St. Pauli.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Nous sommes",
+     "we are"
+    ],
+    [
+     "aux Landungsbrücken",
+     "at the Landungsbrücken"
+    ],
+    [
+     "les quais d'embarquement",
+     "the boarding piers"
+    ],
+    [
+     "de Sankt Pauli",
+     "of St. Pauli"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 5020,
+    "en": 4019,
+    "wd": 15570
+   },
+   "bank": {
+    "fr": [
+     277670,
+     5020
+    ],
+    "en": [
+     283090,
+     4019
+    ],
+    "wd": [
+     287510,
+     15570
+    ],
+    "wp": [
+     [
+      287510,
+      2540
+     ],
+     [
+      290450,
+      3840
+     ],
+     [
+      294690,
+      3650
+     ],
+     [
+      298740,
+      3490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Levez les yeux : ce long bâtiment de pierre a plus de cent ans.",
+   "en": "Look up: this long stone building is more than a hundred years old.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Levez les yeux",
+     "look up"
+    ],
+    [
+     "ce long bâtiment",
+     "this long building"
+    ],
+    [
+     "de pierre",
+     "of stone"
+    ],
+    [
+     "a plus de cent ans",
+     "is more than a hundred years old"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "en": 4250,
+    "wd": 14700
+   },
+   "bank": {
+    "fr": [
+     303480,
+     4330
+    ],
+    "en": [
+     308210,
+     4250
+    ],
+    "wd": [
+     312860,
+     14700
+    ],
+    "wp": [
+     [
+      312860,
+      2670
+     ],
+     [
+      315930,
+      3410
+     ],
+     [
+      319740,
+      2820
+     ],
+     [
+      322960,
+      3750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maintenant, regardez vos pieds. Vous sentez ? Le sol bouge un peu.",
+   "en": "Now look at your feet. Do you feel it? The ground moves a little.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Maintenant",
+     "now"
+    ],
+    [
+     "regardez vos pieds",
+     "look at your feet"
+    ],
+    [
+     "Vous sentez",
+     "do you feel it"
+    ],
+    [
+     "Le sol",
+     "the ground"
+    ],
+    [
+     "bouge",
+     "moves"
+    ],
+    [
+     "un peu",
+     "a little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 6920,
+    "en": 4420,
+    "wd": 18890
+   },
+   "bank": {
+    "fr": [
+     327960,
+     6920
+    ],
+    "en": [
+     335280,
+     4420
+    ],
+    "wd": [
+     340100,
+     18890
+    ],
+    "wp": [
+     [
+      340100,
+      2320
+     ],
+     [
+      342820,
+      3420
+     ],
+     [
+      346640,
+      2790
+     ],
+     [
+      349830,
+      2700
+     ],
+     [
+      352930,
+      2530
+     ],
+     [
+      355860,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est normal : ces quais flottent. Ce sont des pontons.",
+   "en": "It's normal: these piers float. They are pontoons.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "pontons",
+     "en": "floating landing stages"
+    }
+   ],
+   "words": [
+    [
+     "C'est normal",
+     "it's normal"
+    ],
+    [
+     "ces quais",
+     "these piers"
+    ],
+    [
+     "flottent",
+     "float"
+    ],
+    [
+     "Ce sont",
+     "they are"
+    ],
+    [
+     "des pontons",
+     "floating landing stages"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 5070,
+    "en": 3990,
+    "gl": 4120,
+    "wd": 16280
+   },
+   "bank": {
+    "fr": [
+     359390,
+     5070
+    ],
+    "en": [
+     364860,
+     3990
+    ],
+    "gl": [
+     369250,
+     4120
+    ],
+    "wd": [
+     373770,
+     16280
+    ],
+    "wp": [
+     [
+      373770,
+      2830
+     ],
+     [
+      377000,
+      2790
+     ],
+     [
+      380190,
+      2309
+     ],
+     [
+      382900,
+      2460
+     ],
+     [
+      385760,
+      3440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ils montent et descendent avec la marée, deux fois par jour.",
+   "en": "They go up and down with the tide, twice a day.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "marée",
+     "en": "tide"
+    }
+   ],
+   "words": [
+    [
+     "Ils montent",
+     "they go up"
+    ],
+    [
+     "et descendent",
+     "and go down"
+    ],
+    [
+     "avec la marée",
+     "with the tide"
+    ],
+    [
+     "deux fois par jour",
+     "twice a day"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 3330,
+    "gl": 3330,
+    "wd": 14170
+   },
+   "bank": {
+    "fr": [
+     390450,
+     4019
+    ],
+    "en": [
+     394870,
+     3330
+    ],
+    "gl": [
+     398600,
+     3330
+    ],
+    "wd": [
+     402330,
+     14170
+    ],
+    "wp": [
+     [
+      402330,
+      2790
+     ],
+     [
+      405520,
+      2950
+     ],
+     [
+      408870,
+      3080
+     ],
+     [
+      412350,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Oui, la marée, ici, à plus de cent kilomètres de la mer.",
+   "en": "Yes, the tide, here, more than a hundred kilometres from the sea.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Oui",
+     "yes"
+    ],
+    [
+     "la marée",
+     "the tide"
+    ],
+    [
+     "à plus de cent kilomètres",
+     "more than a hundred kilometres"
+    ],
+    [
+     "de la mer",
+     "from the sea"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 5050,
+    "en": 4510,
+    "wd": 14210
+   },
+   "bank": {
+    "fr": [
+     416900,
+     5050
+    ],
+    "en": [
+     422350,
+     4510
+    ],
+    "wd": [
+     427260,
+     14210
+    ],
+    "wp": [
+     [
+      427260,
+      2190
+     ],
+     [
+      429850,
+      2750
+     ],
+     [
+      433000,
+      4270
+     ],
+     [
+      437670,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La mer du Nord remonte l'Elbe jusqu'à nous.",
+   "en": "The North Sea comes up the Elbe all the way to us.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "La mer du Nord",
+     "the North Sea"
+    ],
+    [
+     "remonte",
+     "comes up"
+    ],
+    [
+     "l'Elbe",
+     "the Elbe"
+    ],
+    [
+     "jusqu'à nous",
+     "all the way to us"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "en": 3230,
+    "wd": 13860
+   },
+   "bank": {
+    "fr": [
+     441870,
+     3200
+    ],
+    "en": [
+     445470,
+     3230
+    ],
+    "wd": [
+     449100,
+     13860
+    ],
+    "wp": [
+     [
+      449100,
+      3360
+     ],
+     [
+      452860,
+      2720
+     ],
+     [
+      455980,
+      2630
+     ],
+     [
+      459010,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Regardez à droite, vers l'est. Vous voyez la tour avec une horloge ?",
+   "en": "Look to the right, to the east. Do you see the tower with a clock?",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Regardez à droite",
+     "look to the right"
+    ],
+    [
+     "vers l'est",
+     "to the east"
+    ],
+    [
+     "Vous voyez",
+     "do you see"
+    ],
+    [
+     "la tour",
+     "the tower"
+    ],
+    [
+     "avec une horloge",
+     "with a clock"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 6160,
+    "en": 4090,
+    "wd": 17530
+   },
+   "bank": {
+    "fr": [
+     463360,
+     6160
+    ],
+    "en": [
+     469920,
+     4090
+    ],
+    "wd": [
+     474410,
+     17530
+    ],
+    "wp": [
+     [
+      474410,
+      3510
+     ],
+     [
+      478320,
+      2910
+     ],
+     [
+      481630,
+      2670
+     ],
+     [
+      484700,
+      2800
+     ],
+     [
+      487900,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En haut, elle donne l'heure. Au milieu, elle montre le niveau de l'eau.",
+   "en": "At the top, it gives the time. In the middle, it shows the water level.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "En haut",
+     "at the top"
+    ],
+    [
+     "elle donne l'heure",
+     "it gives the time"
+    ],
+    [
+     "Au milieu",
+     "in the middle"
+    ],
+    [
+     "elle montre",
+     "it shows"
+    ],
+    [
+     "le niveau de l'eau",
+     "the water level"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 5720,
+    "en": 4840,
+    "wd": 16500
+   },
+   "bank": {
+    "fr": [
+     492340,
+     5720
+    ],
+    "en": [
+     498460,
+     4840
+    ],
+    "wd": [
+     503700,
+     16500
+    ],
+    "wp": [
+     [
+      503700,
+      2380
+     ],
+     [
+      506480,
+      3210
+     ],
+     [
+      510090,
+      2520
+     ],
+     [
+      513010,
+      2830
+     ],
+     [
+      516240,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon père était marin. Pour lui, la marée était plus importante que l'heure.",
+   "en": "My father was a sailor. For him, the tide was more important than the time.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Mon père",
+     "my father"
+    ],
+    [
+     "était marin",
+     "was a sailor"
+    ],
+    [
+     "Pour lui",
+     "for him"
+    ],
+    [
+     "plus importante",
+     "more important"
+    ],
+    [
+     "que l'heure",
+     "than the time"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 6080,
+    "en": 5060,
+    "wd": 16690
+   },
+   "bank": {
+    "fr": [
+     520600,
+     6080
+    ],
+    "en": [
+     527080,
+     5060
+    ],
+    "wd": [
+     532540,
+     16690
+    ],
+    "wp": [
+     [
+      532540,
+      2860
+     ],
+     [
+      535800,
+      2920
+     ],
+     [
+      539120,
+      2460
+     ],
+     [
+      541980,
+      3260
+     ],
+     [
+      545640,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Premier conseil pratique. Et c'est mon ancien bateau qui parle.",
+   "en": "First practical tip. And it's my old boat talking.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Premier conseil pratique",
+     "first practical tip"
+    ],
+    [
+     "c'est",
+     "it's"
+    ],
+    [
+     "mon ancien bateau",
+     "my old boat"
+    ],
+    [
+     "qui parle",
+     "talking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 5280,
+    "en": 3750,
+    "wd": 14080
+   },
+   "bank": {
+    "fr": [
+     549630,
+     5280
+    ],
+    "en": [
+     555310,
+     3750
+    ],
+    "wd": [
+     559460,
+     14080
+    ],
+    "wp": [
+     [
+      559460,
+      4190
+     ],
+     [
+      564050,
+      2110
+     ],
+     [
+      566560,
+      3210
+     ],
+     [
+      570170,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les tours du port en bateau coûtent cher. Prenez plutôt le ferry soixante-deux.",
+   "en": "Harbour boat tours are expensive. Take ferry sixty-two instead.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les tours du port",
+     "harbour tours"
+    ],
+    [
+     "en bateau",
+     "by boat"
+    ],
+    [
+     "coûtent cher",
+     "are expensive"
+    ],
+    [
+     "Prenez plutôt",
+     "take instead"
+    ],
+    [
+     "le ferry soixante-deux",
+     "ferry sixty-two"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 5890,
+    "en": 4490,
+    "wd": 18250
+   },
+   "bank": {
+    "fr": [
+     573940,
+     5890
+    ],
+    "en": [
+     580230,
+     4490
+    ],
+    "wd": [
+     585120,
+     18250
+    ],
+    "wp": [
+     [
+      585120,
+      3400
+     ],
+     [
+      588920,
+      2570
+     ],
+     [
+      591890,
+      2950
+     ],
+     [
+      595240,
+      3070
+     ],
+     [
+      598710,
+      3810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il part du ponton numéro trois, avec un ticket normal de bus ou de métro.",
+   "en": "It leaves from pontoon number three, with a normal bus or metro ticket.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Il part",
+     "it leaves"
+    ],
+    [
+     "du ponton numéro trois",
+     "from pontoon number three"
+    ],
+    [
+     "avec un ticket normal",
+     "with a normal ticket"
+    ],
+    [
+     "de bus",
+     "bus"
+    ],
+    [
+     "ou de métro",
+     "or metro"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "en": 4680,
+    "wd": 18610
+   },
+   "bank": {
+    "fr": [
+     603770,
+     5330
+    ],
+    "en": [
+     609500,
+     4680
+    ],
+    "wd": [
+     614580,
+     18610
+    ],
+    "wp": [
+     [
+      614580,
+      2820
+     ],
+     [
+      617800,
+      4210
+     ],
+     [
+      622410,
+      3820
+     ],
+     [
+      626630,
+      2460
+     ],
+     [
+      629490,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Vous voyez le port, les grues, les navires, pour le prix d'un trajet.",
+   "en": "You see the harbour, the cranes, the ships, for the price of one ride.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Vous voyez",
+     "you see"
+    ],
+    [
+     "le port",
+     "the harbour"
+    ],
+    [
+     "les grues",
+     "the cranes"
+    ],
+    [
+     "les navires",
+     "the ships"
+    ],
+    [
+     "pour le prix",
+     "for the price"
+    ],
+    [
+     "d'un trajet",
+     "of one ride"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5290,
+    "en": 4610,
+    "wd": 19860
+   },
+   "bank": {
+    "fr": [
+     633590,
+     5290
+    ],
+    "en": [
+     639280,
+     4610
+    ],
+    "wd": [
+     644290,
+     19860
+    ],
+    "wp": [
+     [
+      644290,
+      2590
+     ],
+     [
+      647280,
+      2790
+     ],
+     [
+      650470,
+      2820
+     ],
+     [
+      653690,
+      2920
+     ],
+     [
+      657010,
+      2960
+     ],
+     [
+      660369,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur le 62, il y a un matelot qui ne dit que « Moin ». Hauke. Je l'ai formé.",
+   "en": "On the 62, there's a sailor who only says \"Moin\". Hauke. I trained him.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Sur le 62",
+     "on the 62"
+    ],
+    [
+     "un matelot",
+     "a sailor"
+    ],
+    [
+     "qui ne dit que",
+     "who only says"
+    ],
+    [
+     "Je l'ai formé",
+     "I trained him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 7770,
+    "en": 5710,
+    "wd": 14420
+   },
+   "bank": {
+    "fr": [
+     664550,
+     7770
+    ],
+    "en": [
+     672720,
+     5710
+    ],
+    "wd": [
+     678830,
+     14420
+    ],
+    "wp": [
+     [
+      678830,
+      3540
+     ],
+     [
+      682770,
+      2550
+     ],
+     [
+      685720,
+      3210
+     ],
+     [
+      689330,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Asseyez-vous dehors. Même s'il pleut. Surtout s'il pleut.",
+   "en": "Sit outside. Even if it rains. Especially if it rains.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Asseyez-vous",
+     "sit down"
+    ],
+    [
+     "dehors",
+     "outside"
+    ],
+    [
+     "Même s'il pleut",
+     "even if it rains"
+    ],
+    [
+     "Surtout s'il pleut",
+     "especially if it rains"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 6170,
+    "en": 4730,
+    "wd": 14640
+   },
+   "bank": {
+    "fr": [
+     693650,
+     6170
+    ],
+    "en": [
+     700220,
+     4730
+    ],
+    "wd": [
+     705350,
+     14640
+    ],
+    "wp": [
+     [
+      705350,
+      2790
+     ],
+     [
+      708540,
+      2510
+     ],
+     [
+      711450,
+      3380
+     ],
+     [
+      715230,
+      3910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ah, la pluie. Tout le monde croit qu'il pleut toujours à Hambourg.",
+   "en": "Ah, the rain. Everyone thinks it always rains in Hamburg.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "la pluie",
+     "the rain"
+    ],
+    [
+     "Tout le monde croit",
+     "everyone thinks"
+    ],
+    [
+     "qu'il pleut toujours",
+     "that it always rains"
+    ],
+    [
+     "à Hambourg",
+     "in Hamburg"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 5380,
+    "en": 4430,
+    "wd": 14710
+   },
+   "bank": {
+    "fr": [
+     720390,
+     5380
+    ],
+    "en": [
+     726170,
+     4430
+    ],
+    "wd": [
+     731000,
+     14710
+    ],
+    "wp": [
+     [
+      731000,
+      2560
+     ],
+     [
+      733960,
+      3360
+     ],
+     [
+      737720,
+      3800
+     ],
+     [
+      741920,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors notez bien : à Munich, il tombe plus de pluie par an qu'ici.",
+   "en": "So take good note: in Munich, more rain falls per year than here.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "notez bien",
+     "take good note"
+    ],
+    [
+     "à Munich",
+     "in Munich"
+    ],
+    [
+     "il tombe",
+     "falls"
+    ],
+    [
+     "plus de pluie",
+     "more rain"
+    ],
+    [
+     "par an",
+     "per year"
+    ],
+    [
+     "qu'ici",
+     "than here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 5270,
+    "en": 4530,
+    "wd": 21820
+   },
+   "bank": {
+    "fr": [
+     746110,
+     5270
+    ],
+    "en": [
+     751780,
+     4530
+    ],
+    "wd": [
+     756710,
+     21820
+    ],
+    "wp": [
+     [
+      756710,
+      2270
+     ],
+     [
+      759380,
+      3040
+     ],
+     [
+      762820,
+      2720
+     ],
+     [
+      765940,
+      2680
+     ],
+     [
+      769020,
+      2840
+     ],
+     [
+      772260,
+      2450
+     ],
+     [
+      775110,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je le répète à chaque visite. Personne ne me croit. Mais c'est vrai.",
+   "en": "I repeat it on every tour. Nobody believes me. But it's true.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je le répète",
+     "I repeat it"
+    ],
+    [
+     "à chaque visite",
+     "on every tour"
+    ],
+    [
+     "Personne ne me croit",
+     "nobody believes me"
+    ],
+    [
+     "Mais c'est vrai",
+     "but it's true"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 6740,
+    "en": 4740,
+    "wd": 15190
+   },
+   "bank": {
+    "fr": [
+     778930,
+     6740
+    ],
+    "en": [
+     786070,
+     4740
+    ],
+    "wd": [
+     791210,
+     15190
+    ],
+    "wp": [
+     [
+      791210,
+      3160
+     ],
+     [
+      794770,
+      3320
+     ],
+     [
+      798490,
+      3730
+     ],
+     [
+      802620,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chaque année, en mai, le port fête son anniversaire, ici, sur ces quais.",
+   "en": "Every year, in May, the harbour celebrates its birthday, here, on these piers.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Chaque année",
+     "every year"
+    ],
+    [
+     "en mai",
+     "in May"
+    ],
+    [
+     "le port",
+     "the harbour"
+    ],
+    [
+     "fête",
+     "celebrates"
+    ],
+    [
+     "son anniversaire",
+     "its birthday"
+    ],
+    [
+     "sur ces quais",
+     "on these piers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 5780,
+    "en": 5390,
+    "wd": 19810
+   },
+   "bank": {
+    "fr": [
+     806800,
+     5780
+    ],
+    "en": [
+     812980,
+     5390
+    ],
+    "wd": [
+     818770,
+     19810
+    ],
+    "wp": [
+     [
+      818770,
+      2670
+     ],
+     [
+      821840,
+      2370
+     ],
+     [
+      824610,
+      2790
+     ],
+     [
+      827800,
+      2730
+     ],
+     [
+      830930,
+      3330
+     ],
+     [
+      834660,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Des centaines de bateaux viennent faire la fête sur l'Elbe.",
+   "en": "Hundreds of boats come to party on the Elbe.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Des centaines",
+     "hundreds"
+    ],
+    [
+     "de bateaux",
+     "of boats"
+    ],
+    [
+     "viennent",
+     "come"
+    ],
+    [
+     "faire la fête",
+     "to party"
+    ],
+    [
+     "sur l'Elbe",
+     "on the Elbe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 3610,
+    "en": 2800,
+    "wd": 16250
+   },
+   "bank": {
+    "fr": [
+     838980,
+     3610
+    ],
+    "en": [
+     842990,
+     2800
+    ],
+    "wd": [
+     846190,
+     16250
+    ],
+    "wp": [
+     [
+      846190,
+      2870
+     ],
+     [
+      849460,
+      2670
+     ],
+     [
+      852530,
+      2290
+     ],
+     [
+      855220,
+      3020
+     ],
+     [
+      858640,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La date vient d'une charte de l'empereur Barberousse, du sept mai onze cent quatre-vingt-neuf.",
+   "en": "The date comes from a charter of Emperor Barbarossa, of the seventh of May 1189.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "charte",
+     "en": "charter, an official letter giving rights"
+    }
+   ],
+   "words": [
+    [
+     "La date",
+     "the date"
+    ],
+    [
+     "vient d'",
+     "comes from"
+    ],
+    [
+     "une charte",
+     "a charter"
+    ],
+    [
+     "de l'empereur",
+     "of the emperor"
+    ],
+    [
+     "Barberousse",
+     "Barbarossa"
+    ],
+    [
+     "du sept mai",
+     "of the seventh of May"
+    ],
+    [
+     "onze cent quatre-vingt-neuf",
+     "eleven eighty-nine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5980,
+    "en": 5560,
+    "gl": 5210,
+    "wd": 24470
+   },
+   "bank": {
+    "fr": [
+     862840,
+     5980
+    ],
+    "en": [
+     869220,
+     5560
+    ],
+    "gl": [
+     875180,
+     5210
+    ],
+    "wd": [
+     880790,
+     24470
+    ],
+    "wp": [
+     [
+      880790,
+      2610
+     ],
+     [
+      883800,
+      2570
+     ],
+     [
+      886770,
+      2840
+     ],
+     [
+      890010,
+      3130
+     ],
+     [
+      893540,
+      3090
+     ],
+     [
+      897029,
+      3220
+     ],
+     [
+      900650,
+      3760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Cette charte donnait à Hambourg des droits sur l'Elbe, jusqu'à la mer.",
+   "en": "This charter gave Hamburg rights on the Elbe, as far as the sea.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Cette charte",
+     "this charter"
+    ],
+    [
+     "donnait",
+     "gave"
+    ],
+    [
+     "des droits",
+     "rights"
+    ],
+    [
+     "sur l'Elbe",
+     "on the Elbe"
+    ],
+    [
+     "jusqu'à la mer",
+     "as far as the sea"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4790,
+    "en": 4280,
+    "wd": 16740
+   },
+   "bank": {
+    "fr": [
+     905660,
+     4790
+    ],
+    "en": [
+     910850,
+     4280
+    ],
+    "wd": [
+     915530,
+     16740
+    ],
+    "wp": [
+     [
+      915530,
+      3010
+     ],
+     [
+      918940,
+      2190
+     ],
+     [
+      921530,
+      2570
+     ],
+     [
+      924500,
+      2950
+     ],
+     [
+      927850,
+      3570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Petit problème : c'est un faux.",
+   "en": "Small problem: it's a forgery.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "un faux",
+     "en": "a forgery, a fake document"
+    }
+   ],
+   "words": [
+    [
+     "Petit problème",
+     "small problem"
+    ],
+    [
+     "c'est un faux",
+     "it's a forgery"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "gl": "audio/s032_gl.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 2810,
+    "en": 2630,
+    "gl": 4630,
+    "wd": 7590
+   },
+   "bank": {
+    "fr": [
+     932670,
+     2810
+    ],
+    "en": [
+     935880,
+     2630
+    ],
+    "gl": [
+     938910,
+     4630
+    ],
+    "wd": [
+     943940,
+     7590
+    ],
+    "wp": [
+     [
+      943940,
+      3260
+     ],
+     [
+      947600,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les historiens pensent qu'il a été fabriqué plus tard, après la mort de l'empereur.",
+   "en": "Historians think it was made later, after the emperor's death.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Les historiens",
+     "historians"
+    ],
+    [
+     "pensent",
+     "think"
+    ],
+    [
+     "qu'il a été fabriqué",
+     "that it was made"
+    ],
+    [
+     "plus tard",
+     "later"
+    ],
+    [
+     "après la mort",
+     "after the death"
+    ],
+    [
+     "de l'empereur",
+     "of the emperor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 5690,
+    "en": 4050,
+    "wd": 20480
+   },
+   "bank": {
+    "fr": [
+     951930,
+     5690
+    ],
+    "en": [
+     958020,
+     4050
+    ],
+    "wd": [
+     962470,
+     20480
+    ],
+    "wp": [
+     [
+      962470,
+      3200
+     ],
+     [
+      966070,
+      2200
+     ],
+     [
+      968670,
+      3520
+     ],
+     [
+      972590,
+      2450
+     ],
+     [
+      975440,
+      3130
+     ],
+     [
+      978970,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le sceau n'est même pas le bon. C'est celui d'un autre empereur.",
+   "en": "The seal isn't even the right one. It's that of another emperor.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le sceau",
+     "the seal"
+    ],
+    [
+     "n'est même pas",
+     "isn't even"
+    ],
+    [
+     "le bon",
+     "the right one"
+    ],
+    [
+     "C'est celui",
+     "it's that"
+    ],
+    [
+     "d'un autre empereur",
+     "of another emperor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 4840,
+    "en": 3960,
+    "wd": 16590
+   },
+   "bank": {
+    "fr": [
+     983350,
+     4840
+    ],
+    "en": [
+     988590,
+     3960
+    ],
+    "wd": [
+     992950,
+     16590
+    ],
+    "wp": [
+     [
+      992950,
+      2510
+     ],
+     [
+      995860,
+      2840
+     ],
+     [
+      999100,
+      2640
+     ],
+     [
+      1002140,
+      2660
+     ],
+     [
+      1005200,
+      3490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et Hambourg ? Hambourg fait la fête quand même.",
+   "en": "And Hamburg? Hamburg celebrates anyway.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Et Hambourg",
+     "and Hamburg"
+    ],
+    [
+     "fait la fête",
+     "celebrates"
+    ],
+    [
+     "quand même",
+     "anyway"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 4170,
+    "en": 3320,
+    "wd": 10100
+   },
+   "bank": {
+    "fr": [
+     1009940,
+     4170
+    ],
+    "en": [
+     1014510,
+     3320
+    ],
+    "wd": [
+     1018230,
+     10100
+    ],
+    "wp": [
+     [
+      1018230,
+      2810
+     ],
+     [
+      1021440,
+      3120
+     ],
+     [
+      1024960,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est très hambourgeois : le papier est faux, mais il a bien servi.",
+   "en": "It's very Hamburg: the paper is fake, but it served well.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "très hambourgeois",
+     "very Hamburg"
+    ],
+    [
+     "le papier",
+     "the paper"
+    ],
+    [
+     "est faux",
+     "is fake"
+    ],
+    [
+     "il a bien servi",
+     "it served well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4980,
+    "en": 4440,
+    "wd": 13870
+   },
+   "bank": {
+    "fr": [
+     1028730,
+     4980
+    ],
+    "en": [
+     1034109,
+     4440
+    ],
+    "wd": [
+     1038950,
+     13870
+    ],
+    "wp": [
+     [
+      1038950,
+      3290
+     ],
+     [
+      1042640,
+      2730
+     ],
+     [
+      1045770,
+      2470
+     ],
+     [
+      1048640,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Encore une chose, avant le tunnel. Pensez aux gens qui sont partis d'ici.",
+   "en": "One more thing, before the tunnel. Think of the people who left from here.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Encore une chose",
+     "one more thing"
+    ],
+    [
+     "avant le tunnel",
+     "before the tunnel"
+    ],
+    [
+     "Pensez aux gens",
+     "think of the people"
+    ],
+    [
+     "qui sont partis",
+     "who left"
+    ],
+    [
+     "d'ici",
+     "from here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 6400,
+    "en": 4760,
+    "wd": 17580
+   },
+   "bank": {
+    "fr": [
+     1053220,
+     6400
+    ],
+    "en": [
+     1060020,
+     4760
+    ],
+    "wd": [
+     1065180,
+     17580
+    ],
+    "wp": [
+     [
+      1065180,
+      3260
+     ],
+     [
+      1068840,
+      3290
+     ],
+     [
+      1072530,
+      3260
+     ],
+     [
+      1076190,
+      2890
+     ],
+     [
+      1079480,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En presque cent ans, environ cinq millions d'émigrants ont pris le bateau à Hambourg.",
+   "en": "In almost a hundred years, about five million emigrants took the boat in Hamburg.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "En presque cent ans",
+     "in almost a hundred years"
+    ],
+    [
+     "environ",
+     "about"
+    ],
+    [
+     "cinq millions",
+     "five million"
+    ],
+    [
+     "d'émigrants",
+     "of emigrants"
+    ],
+    [
+     "ont pris le bateau",
+     "took the boat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5470,
+    "en": 5030,
+    "wd": 17690
+   },
+   "bank": {
+    "fr": [
+     1083160,
+     5470
+    ],
+    "en": [
+     1089030,
+     5030
+    ],
+    "wd": [
+     1094460,
+     17690
+    ],
+    "wp": [
+     [
+      1094460,
+      3840
+     ],
+     [
+      1098700,
+      2460
+     ],
+     [
+      1101560,
+      3010
+     ],
+     [
+      1104970,
+      2920
+     ],
+     [
+      1108290,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Beaucoup venaient de l'Europe de l'Est, et partaient pour l'Amérique.",
+   "en": "Many came from Eastern Europe, and were leaving for America.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Beaucoup",
+     "many"
+    ],
+    [
+     "venaient de",
+     "came from"
+    ],
+    [
+     "l'Europe de l'Est",
+     "Eastern Europe"
+    ],
+    [
+     "partaient pour",
+     "were leaving for"
+    ],
+    [
+     "l'Amérique",
+     "America"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "en": 3960,
+    "wd": 16590
+   },
+   "bank": {
+    "fr": [
+     1112550,
+     4260
+    ],
+    "en": [
+     1117210,
+     3960
+    ],
+    "wd": [
+     1121570,
+     16590
+    ],
+    "wp": [
+     [
+      1121570,
+      2250
+     ],
+     [
+      1124220,
+      2600
+     ],
+     [
+      1127220,
+      3340
+     ],
+     [
+      1130960,
+      3240
+     ],
+     [
+      1134600,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Votre arrière-grand-père est parti en Amérique ? Il est peut-être passé par ici.",
+   "en": "Your great-grandfather left for America? He maybe passed through here.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Votre arrière-grand-père",
+     "your great-grandfather"
+    ],
+    [
+     "est parti",
+     "left"
+    ],
+    [
+     "en Amérique",
+     "for America"
+    ],
+    [
+     "peut-être",
+     "maybe"
+    ],
+    [
+     "passé par ici",
+     "passed through here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 6070,
+    "en": 4300,
+    "wd": 17710
+   },
+   "bank": {
+    "fr": [
+     1138560,
+     6070
+    ],
+    "en": [
+     1145030,
+     4300
+    ],
+    "wd": [
+     1149730,
+     17710
+    ],
+    "wp": [
+     [
+      1149730,
+      3870
+     ],
+     [
+      1154000,
+      2510
+     ],
+     [
+      1156910,
+      3110
+     ],
+     [
+      1160420,
+      2470
+     ],
+     [
+      1163290,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Bon. Tournez-vous vers l'ouest. Vous voyez ce bâtiment avec une coupole verte ?",
+   "en": "Right. Turn to the west. Do you see that building with a green dome?",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Bon",
+     "right"
+    ],
+    [
+     "Tournez-vous",
+     "turn"
+    ],
+    [
+     "vers l'ouest",
+     "to the west"
+    ],
+    [
+     "ce bâtiment",
+     "that building"
+    ],
+    [
+     "avec une coupole verte",
+     "with a green dome"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 7280,
+    "en": 4590,
+    "wd": 16600
+   },
+   "bank": {
+    "fr": [
+     1167840,
+     7280
+    ],
+    "en": [
+     1175520,
+     4590
+    ],
+    "wd": [
+     1180510,
+     16600
+    ],
+    "wp": [
+     [
+      1180510,
+      1970
+     ],
+     [
+      1182880,
+      2420
+     ],
+     [
+      1185700,
+      3100
+     ],
+     [
+      1189200,
+      2880
+     ],
+     [
+      1192480,
+      3780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est l'entrée du vieux tunnel sous l'Elbe. Il a ouvert en mille neuf cent onze.",
+   "en": "It's the entrance of the old tunnel under the Elbe. It opened in 1911.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "l'entrée",
+     "the entrance"
+    ],
+    [
+     "du vieux tunnel",
+     "of the old tunnel"
+    ],
+    [
+     "sous l'Elbe",
+     "under the Elbe"
+    ],
+    [
+     "Il a ouvert",
+     "it opened"
+    ],
+    [
+     "mille neuf cent onze",
+     "nineteen eleven"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 5640,
+    "en": 4860,
+    "wd": 17870
+   },
+   "bank": {
+    "fr": [
+     1197510,
+     5640
+    ],
+    "en": [
+     1203550,
+     4860
+    ],
+    "wd": [
+     1208810,
+     17870
+    ],
+    "wp": [
+     [
+      1208810,
+      2820
+     ],
+     [
+      1212030,
+      3370
+     ],
+     [
+      1215800,
+      3010
+     ],
+     [
+      1219210,
+      2960
+     ],
+     [
+      1222570,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pourquoi un tunnel ? À cause des ouvriers du port.",
+   "en": "Why a tunnel? Because of the harbour workers.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Pourquoi",
+     "why"
+    ],
+    [
+     "un tunnel",
+     "a tunnel"
+    ],
+    [
+     "À cause des",
+     "because of the"
+    ],
+    [
+     "ouvriers du port",
+     "harbour workers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 4730,
+    "en": 3320,
+    "wd": 13370
+   },
+   "bank": {
+    "fr": [
+     1227080,
+     4730
+    ],
+    "en": [
+     1232210,
+     3320
+    ],
+    "wd": [
+     1235930,
+     13370
+    ],
+    "wp": [
+     [
+      1235930,
+      2380
+     ],
+     [
+      1238710,
+      2720
+     ],
+     [
+      1241830,
+      2730
+     ],
+     [
+      1244960,
+      3490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Beaucoup habitaient ici, à Sankt Pauli, et travaillaient en face, dans les chantiers navals.",
+   "en": "Many lived here, in St. Pauli, and worked opposite, in the shipyards.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "chantiers navals",
+     "en": "shipyards"
+    }
+   ],
+   "words": [
+    [
+     "habitaient",
+     "lived"
+    ],
+    [
+     "travaillaient",
+     "worked"
+    ],
+    [
+     "en face",
+     "opposite"
+    ],
+    [
+     "dans les chantiers navals",
+     "in the shipyards"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "gl": "audio/s044_gl.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 6510,
+    "en": 5130,
+    "gl": 4510,
+    "wd": 13100
+   },
+   "bank": {
+    "fr": [
+     1249700,
+     6510
+    ],
+    "en": [
+     1256610,
+     5130
+    ],
+    "gl": [
+     1262140,
+     4510
+    ],
+    "wd": [
+     1267050,
+     13100
+    ],
+    "wp": [
+     [
+      1267050,
+      2329
+     ],
+     [
+      1269780,
+      2420
+     ],
+     [
+      1272600,
+      2560
+     ],
+     [
+      1275560,
+      3740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chaque jour, ils prenaient des ferries, souvent pleins à craquer.",
+   "en": "Every day, they took ferries, often packed full.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Chaque jour",
+     "every day"
+    ],
+    [
+     "ils prenaient",
+     "they took"
+    ],
+    [
+     "des ferries",
+     "ferries"
+    ],
+    [
+     "souvent",
+     "often"
+    ],
+    [
+     "pleins à craquer",
+     "packed full"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "en": 3830,
+    "wd": 15810
+   },
+   "bank": {
+    "fr": [
+     1280550,
+     4530
+    ],
+    "en": [
+     1285480,
+     3830
+    ],
+    "wd": [
+     1289710,
+     15810
+    ],
+    "wp": [
+     [
+      1289710,
+      2750
+     ],
+     [
+      1292860,
+      2560
+     ],
+     [
+      1295820,
+      2690
+     ],
+     [
+      1298910,
+      2320
+     ],
+     [
+      1301630,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et avec le brouillard, la tempête ou la glace, les ferries s'arrêtaient.",
+   "en": "And with fog, storms or ice, the ferries stopped.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "le brouillard",
+     "the fog"
+    ],
+    [
+     "la tempête",
+     "the storm"
+    ],
+    [
+     "la glace",
+     "the ice"
+    ],
+    [
+     "s'arrêtaient",
+     "stopped"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "en": 4019,
+    "wd": 13270
+   },
+   "bank": {
+    "fr": [
+     1305920,
+     5010
+    ],
+    "en": [
+     1311330,
+     4019
+    ],
+    "wd": [
+     1315750,
+     13270
+    ],
+    "wp": [
+     [
+      1315750,
+      2850
+     ],
+     [
+      1319000,
+      2940
+     ],
+     [
+      1322340,
+      2900
+     ],
+     [
+      1325640,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un pont ? Impossible. Il aurait bloqué les grands bateaux.",
+   "en": "A bridge? Impossible. It would have blocked the big ships.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Un pont",
+     "a bridge"
+    ],
+    [
+     "Impossible",
+     "impossible"
+    ],
+    [
+     "Il aurait bloqué",
+     "it would have blocked"
+    ],
+    [
+     "les grands bateaux",
+     "the big ships"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 5850,
+    "en": 4430,
+    "wd": 13890
+   },
+   "bank": {
+    "fr": [
+     1329420,
+     5850
+    ],
+    "en": [
+     1335670,
+     4430
+    ],
+    "wd": [
+     1340500,
+     13890
+    ],
+    "wp": [
+     [
+      1340500,
+      2600
+     ],
+     [
+      1343500,
+      2830
+     ],
+     [
+      1346730,
+      3180
+     ],
+     [
+      1350310,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors on a creusé. Sous le fleuve.",
+   "en": "So they dug. Under the river.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "on a creusé",
+     "they dug"
+    ],
+    [
+     "Sous le fleuve",
+     "under the river"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 2670,
+    "wd": 9830
+   },
+   "bank": {
+    "fr": [
+     1354790,
+     4019
+    ],
+    "en": [
+     1359210,
+     2670
+    ],
+    "wd": [
+     1362280,
+     9830
+    ],
+    "wp": [
+     [
+      1362280,
+      2270
+     ],
+     [
+      1364950,
+      2790
+     ],
+     [
+      1368140,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Entrons. Vous pouvez prendre l'escalier, ou cet énorme ascenseur.",
+   "en": "Let's go in. You can take the stairs, or this huge lift.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Entrons",
+     "let's go in"
+    ],
+    [
+     "Vous pouvez prendre",
+     "you can take"
+    ],
+    [
+     "l'escalier",
+     "the stairs"
+    ],
+    [
+     "cet énorme ascenseur",
+     "this huge lift"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 5860,
+    "en": 4190,
+    "wd": 14530
+   },
+   "bank": {
+    "fr": [
+     1372510,
+     5860
+    ],
+    "en": [
+     1378770,
+     4190
+    ],
+    "wd": [
+     1383360,
+     14530
+    ],
+    "wp": [
+     [
+      1383360,
+      2660
+     ],
+     [
+      1386420,
+      3190
+     ],
+     [
+      1390010,
+      2760
+     ],
+     [
+      1393170,
+      3870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Autrefois, ces ascenseurs descendaient des charrettes avec leurs chevaux. Plus tard, des voitures.",
+   "en": "In the past, these lifts took down carts with their horses. Later, cars.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Autrefois",
+     "in the past"
+    ],
+    [
+     "ces ascenseurs",
+     "these lifts"
+    ],
+    [
+     "descendaient",
+     "took down"
+    ],
+    [
+     "des charrettes",
+     "carts"
+    ],
+    [
+     "avec leurs chevaux",
+     "with their horses"
+    ],
+    [
+     "Plus tard",
+     "later"
+    ],
+    [
+     "des voitures",
+     "cars"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 7500,
+    "en": 5380,
+    "wd": 22990
+   },
+   "bank": {
+    "fr": [
+     1398290,
+     7500
+    ],
+    "en": [
+     1406190,
+     5380
+    ],
+    "wd": [
+     1411970,
+     22990
+    ],
+    "wp": [
+     [
+      1411970,
+      2780
+     ],
+     [
+      1415150,
+      3240
+     ],
+     [
+      1418790,
+      2620
+     ],
+     [
+      1421810,
+      2690
+     ],
+     [
+      1424900,
+      3260
+     ],
+     [
+      1428560,
+      2450
+     ],
+     [
+      1431410,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Aujourd'hui, ils descendent surtout des piétons et des vélos.",
+   "en": "Today, they mostly take down pedestrians and bikes.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Aujourd'hui",
+     "today"
+    ],
+    [
+     "ils descendent",
+     "they take down"
+    ],
+    [
+     "surtout",
+     "mostly"
+    ],
+    [
+     "des piétons",
+     "pedestrians"
+    ],
+    [
+     "des vélos",
+     "bikes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 4120,
+    "en": 3610,
+    "wd": 16219
+   },
+   "bank": {
+    "fr": [
+     1435360,
+     4120
+    ],
+    "en": [
+     1439880,
+     3610
+    ],
+    "wd": [
+     1443890,
+     16219
+    ],
+    "wp": [
+     [
+      1443890,
+      2510
+     ],
+     [
+      1446800,
+      3050
+     ],
+     [
+      1450250,
+      2720
+     ],
+     [
+      1453370,
+      3050
+     ],
+     [
+      1456820,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "On descend à vingt-quatre mètres sous la surface. Vous sentez la fraîcheur ?",
+   "en": "We go down twenty-four metres below the surface. Do you feel the cool air?",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "On descend",
+     "we go down"
+    ],
+    [
+     "à vingt-quatre mètres",
+     "twenty-four metres"
+    ],
+    [
+     "sous la surface",
+     "below the surface"
+    ],
+    [
+     "Vous sentez",
+     "do you feel"
+    ],
+    [
+     "la fraîcheur",
+     "the coolness"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 5950,
+    "en": 4750,
+    "wd": 18340
+   },
+   "bank": {
+    "fr": [
+     1460510,
+     5950
+    ],
+    "en": [
+     1466860,
+     4750
+    ],
+    "wd": [
+     1472010,
+     18340
+    ],
+    "wp": [
+     [
+      1472010,
+      2760
+     ],
+     [
+      1475170,
+      3640
+     ],
+     [
+      1479210,
+      3560
+     ],
+     [
+      1483170,
+      2860
+     ],
+     [
+      1486430,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Voilà le tunnel : quatre cent vingt-six mètres de long, tout en carreaux de céramique.",
+   "en": "Here is the tunnel: four hundred and twenty-six metres long, all in ceramic tiles.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "carreaux",
+     "en": "tiles"
+    }
+   ],
+   "words": [
+    [
+     "Voilà",
+     "here is"
+    ],
+    [
+     "le tunnel",
+     "the tunnel"
+    ],
+    [
+     "quatre cent vingt-six mètres",
+     "four hundred and twenty-six metres"
+    ],
+    [
+     "de long",
+     "long"
+    ],
+    [
+     "en carreaux de céramique",
+     "in ceramic tiles"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "gl": "audio/s053_gl.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 5800,
+    "en": 5190,
+    "gl": 3150,
+    "wd": 18320
+   },
+   "bank": {
+    "fr": [
+     1490750,
+     5800
+    ],
+    "en": [
+     1496950,
+     5190
+    ],
+    "gl": [
+     1502540,
+     3150
+    ],
+    "wd": [
+     1506090,
+     18320
+    ],
+    "wp": [
+     [
+      1506090,
+      2370
+     ],
+     [
+      1508860,
+      2780
+     ],
+     [
+      1512040,
+      4580
+     ],
+     [
+      1517020,
+      2260
+     ],
+     [
+      1519680,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pour le construire, les ouvriers travaillaient dans de l'air sous pression.",
+   "en": "To build it, the workers worked in pressurised air.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "sous pression",
+     "en": "under (air) pressure"
+    }
+   ],
+   "words": [
+    [
+     "Pour le construire",
+     "to build it"
+    ],
+    [
+     "les ouvriers",
+     "the workers"
+    ],
+    [
+     "travaillaient",
+     "worked"
+    ],
+    [
+     "dans de l'air",
+     "in air"
+    ],
+    [
+     "sous pression",
+     "under pressure"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "gl": "audio/s054_gl.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 4580,
+    "en": 3610,
+    "gl": 4800,
+    "wd": 16700
+   },
+   "bank": {
+    "fr": [
+     1524810,
+     4580
+    ],
+    "en": [
+     1529790,
+     3610
+    ],
+    "gl": [
+     1533800,
+     4800
+    ],
+    "wd": [
+     1539000,
+     16700
+    ],
+    "wp": [
+     [
+      1539000,
+      3070
+     ],
+     [
+      1542470,
+      2960
+     ],
+     [
+      1545830,
+      2420
+     ],
+     [
+      1548650,
+      2790
+     ],
+     [
+      1551840,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Des centaines sont tombés malades, à cause de cette pression. Trois sont morts.",
+   "en": "Hundreds fell ill because of this pressure. Three died.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Des centaines",
+     "hundreds"
+    ],
+    [
+     "sont tombés malades",
+     "fell ill"
+    ],
+    [
+     "à cause de",
+     "because of"
+    ],
+    [
+     "cette pression",
+     "this pressure"
+    ],
+    [
+     "Trois sont morts",
+     "three died"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 6200,
+    "en": 3680,
+    "wd": 17250
+   },
+   "bank": {
+    "fr": [
+     1556100,
+     6200
+    ],
+    "en": [
+     1562700,
+     3680
+    ],
+    "wd": [
+     1566780,
+     17250
+    ],
+    "wp": [
+     [
+      1566780,
+      2870
+     ],
+     [
+      1570050,
+      3120
+     ],
+     [
+      1573570,
+      2630
+     ],
+     [
+      1576600,
+      3080
+     ],
+     [
+      1580080,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pensez à eux quand vous marchez ici.",
+   "en": "Think of them when you walk here.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Pensez à eux",
+     "think of them"
+    ],
+    [
+     "quand vous marchez",
+     "when you walk"
+    ],
+    [
+     "ici",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 2860,
+    "en": 2000,
+    "wd": 9780
+   },
+   "bank": {
+    "fr": [
+     1584430,
+     2860
+    ],
+    "en": [
+     1587690,
+     2000
+    ],
+    "wd": [
+     1590090,
+     9780
+    ],
+    "wp": [
+     [
+      1590090,
+      2950
+     ],
+     [
+      1593440,
+      2970
+     ],
+     [
+      1596810,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maintenant, regardez les murs. Il y a des petites sculptures en céramique.",
+   "en": "Now look at the walls. There are small ceramic sculptures.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "regardez les murs",
+     "look at the walls"
+    ],
+    [
+     "Il y a",
+     "there are"
+    ],
+    [
+     "des petites sculptures",
+     "small sculptures"
+    ],
+    [
+     "en céramique",
+     "in ceramic"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 6230,
+    "en": 4110,
+    "wd": 14890
+   },
+   "bank": {
+    "fr": [
+     1600270,
+     6230
+    ],
+    "en": [
+     1606900,
+     4110
+    ],
+    "wd": [
+     1611410,
+     14890
+    ],
+    "wp": [
+     [
+      1611410,
+      3400
+     ],
+     [
+      1615210,
+      2470
+     ],
+     [
+      1618080,
+      3860
+     ],
+     [
+      1622340,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Des poissons, des crabes, des moules : la vie de l'Elbe.",
+   "en": "Fish, crabs, mussels: the life of the Elbe.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Des poissons",
+     "fish"
+    ],
+    [
+     "des crabes",
+     "crabs"
+    ],
+    [
+     "des moules",
+     "mussels"
+    ],
+    [
+     "la vie",
+     "the life"
+    ],
+    [
+     "de l'Elbe",
+     "of the Elbe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "en": 3880,
+    "wd": 16059
+   },
+   "bank": {
+    "fr": [
+     1626700,
+     4510
+    ],
+    "en": [
+     1631610,
+     3880
+    ],
+    "wd": [
+     1635890,
+     16059
+    ],
+    "wp": [
+     [
+      1635890,
+      2550
+     ],
+     [
+      1638840,
+      2800
+     ],
+     [
+      1642040,
+      2780
+     ],
+     [
+      1645220,
+      2590
+     ],
+     [
+      1648210,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais cherchez bien. Il y a aussi des rats. Et une vieille botte.",
+   "en": "But look carefully. There are also rats. And an old boot.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "botte",
+     "en": "boot"
+    }
+   ],
+   "words": [
+    [
+     "cherchez bien",
+     "look carefully"
+    ],
+    [
+     "aussi",
+     "also"
+    ],
+    [
+     "des rats",
+     "rats"
+    ],
+    [
+     "une vieille botte",
+     "an old boot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "gl": "audio/s059_gl.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 6140,
+    "en": 4270,
+    "gl": 3130,
+    "wd": 12840
+   },
+   "bank": {
+    "fr": [
+     1652350,
+     6140
+    ],
+    "en": [
+     1658890,
+     4270
+    ],
+    "gl": [
+     1663560,
+     3130
+    ],
+    "wd": [
+     1667090,
+     12840
+    ],
+    "wp": [
+     [
+      1667090,
+      2990
+     ],
+     [
+      1670480,
+      2270
+     ],
+     [
+      1673150,
+      2390
+     ],
+     [
+      1675940,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Même les déchets du fleuve sont dans le mur.",
+   "en": "Even the river's rubbish is in the wall.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Même",
+     "even"
+    ],
+    [
+     "les déchets",
+     "the rubbish"
+    ],
+    [
+     "du fleuve",
+     "of the river"
+    ],
+    [
+     "dans le mur",
+     "in the wall"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 3060,
+    "en": 2770,
+    "wd": 12760
+   },
+   "bank": {
+    "fr": [
+     1680330,
+     3060
+    ],
+    "en": [
+     1683790,
+     2770
+    ],
+    "wd": [
+     1686960,
+     12760
+    ],
+    "wp": [
+     [
+      1686960,
+      2170
+     ],
+     [
+      1689530,
+      2840
+     ],
+     [
+      1692770,
+      2870
+     ],
+     [
+      1696040,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'adore cette botte. C'est la chose la plus honnête de Hambourg.",
+   "en": "I love this boot. It's the most honest thing in Hamburg.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "J'adore",
+     "I love"
+    ],
+    [
+     "cette botte",
+     "this boot"
+    ],
+    [
+     "la chose",
+     "the thing"
+    ],
+    [
+     "la plus honnête",
+     "the most honest"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 5400,
+    "en": 3890,
+    "wd": 13760
+   },
+   "bank": {
+    "fr": [
+     1700120,
+     5400
+    ],
+    "en": [
+     1705920,
+     3890
+    ],
+    "wd": [
+     1710210,
+     13760
+    ],
+    "wp": [
+     [
+      1710210,
+      2700
+     ],
+     [
+      1713310,
+      2870
+     ],
+     [
+      1716580,
+      2730
+     ],
+     [
+      1719710,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et maintenant, chantez quelque chose. N'ayez pas peur. Écoutez l'écho !",
+   "en": "And now, sing something. Don't be afraid. Listen to the echo!",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "chantez",
+     "sing"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "N'ayez pas peur",
+     "don't be afraid"
+    ],
+    [
+     "Écoutez",
+     "listen to"
+    ],
+    [
+     "l'écho",
+     "the echo"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 7050,
+    "en": 4780,
+    "wd": 16100
+   },
+   "bank": {
+    "fr": [
+     1724370,
+     7050
+    ],
+    "en": [
+     1731820,
+     4780
+    ],
+    "wd": [
+     1737000,
+     16100
+    ],
+    "wp": [
+     [
+      1737000,
+      2350
+     ],
+     [
+      1739750,
+      2700
+     ],
+     [
+      1742850,
+      3290
+     ],
+     [
+      1746540,
+      2670
+     ],
+     [
+      1749610,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Petit conseil : pour les piétons, le tunnel est ouvert jour et nuit. Et c'est gratuit.",
+   "en": "Little tip: for pedestrians, the tunnel is open day and night. And it's free.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Petit conseil",
+     "little tip"
+    ],
+    [
+     "pour les piétons",
+     "for pedestrians"
+    ],
+    [
+     "est ouvert",
+     "is open"
+    ],
+    [
+     "jour et nuit",
+     "day and night"
+    ],
+    [
+     "c'est gratuit",
+     "it's free"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 7020,
+    "en": 5980,
+    "wd": 17720
+   },
+   "bank": {
+    "fr": [
+     1753500,
+     7020
+    ],
+    "en": [
+     1760920,
+     5980
+    ],
+    "wd": [
+     1767300,
+     17720
+    ],
+    "wp": [
+     [
+      1767300,
+      3190
+     ],
+     [
+      1770890,
+      3330
+     ],
+     [
+      1774620,
+      2770
+     ],
+     [
+      1777790,
+      3040
+     ],
+     [
+      1781230,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au-dessus de nous, en ce moment, un grand navire passe peut-être.",
+   "en": "Above us, right now, a big ship is maybe passing.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Au-dessus de nous",
+     "above us"
+    ],
+    [
+     "en ce moment",
+     "right now"
+    ],
+    [
+     "un grand navire",
+     "a big ship"
+    ],
+    [
+     "passe",
+     "is passing"
+    ],
+    [
+     "peut-être",
+     "maybe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 4720,
+    "en": 4380,
+    "wd": 16420
+   },
+   "bank": {
+    "fr": [
+     1785420,
+     4720
+    ],
+    "en": [
+     1790540,
+     4380
+    ],
+    "wd": [
+     1795320,
+     16420
+    ],
+    "wp": [
+     [
+      1795320,
+      3080
+     ],
+     [
+      1798800,
+      2630
+     ],
+     [
+      1801830,
+      3110
+     ],
+     [
+      1805340,
+      2680
+     ],
+     [
+      1808420,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Voilà, on remonte. Nous sommes de l'autre côté, à Steinwerder.",
+   "en": "There we are, we go back up. We are on the other side, in Steinwerder.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "on remonte",
+     "we go back up"
+    ],
+    [
+     "Nous sommes",
+     "we are"
+    ],
+    [
+     "de l'autre côté",
+     "on the other side"
+    ],
+    [
+     "à Steinwerder",
+     "in Steinwerder"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 6410,
+    "en": 4890,
+    "wd": 14330
+   },
+   "bank": {
+    "fr": [
+     1812140,
+     6410
+    ],
+    "en": [
+     1818950,
+     4890
+    ],
+    "wd": [
+     1824240,
+     14330
+    ],
+    "wp": [
+     [
+      1824240,
+      3070
+     ],
+     [
+      1827710,
+      2540
+     ],
+     [
+      1830650,
+      3200
+     ],
+     [
+      1834250,
+      3470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sortez, et retournez-vous.",
+   "en": "Go out, and turn around.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Sortez",
+     "go out"
+    ],
+    [
+     "retournez-vous",
+     "turn around"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 2660,
+    "en": 2320,
+    "wd": 6760
+   },
+   "bank": {
+    "fr": [
+     1838970,
+     2660
+    ],
+    "en": [
+     1842030,
+     2320
+    ],
+    "wd": [
+     1844750,
+     6760
+    ],
+    "wp": [
+     [
+      1844750,
+      2480
+     ],
+     [
+      1847630,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Voilà une des plus belles vues de Hambourg. Et elle est gratuite.",
+   "en": "Here is one of the most beautiful views of Hamburg. And it's free.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "une des plus belles vues",
+     "one of the most beautiful views"
+    ],
+    [
+     "elle est gratuite",
+     "it's free"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 4950,
+    "en": 4310,
+    "wd": 8460
+   },
+   "bank": {
+    "fr": [
+     1851910,
+     4950
+    ],
+    "en": [
+     1857260,
+     4310
+    ],
+    "wd": [
+     1861970,
+     8460
+    ],
+    "wp": [
+     [
+      1861970,
+      4190
+     ],
+     [
+      1866560,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En face, les quais flottants et la tour à l'horloge.",
+   "en": "Opposite, the floating piers and the clock tower.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "En face",
+     "opposite"
+    ],
+    [
+     "les quais flottants",
+     "the floating piers"
+    ],
+    [
+     "la tour à l'horloge",
+     "the clock tower"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 3950,
+    "en": 3580,
+    "wd": 11120
+   },
+   "bank": {
+    "fr": [
+     1870830,
+     3950
+    ],
+    "en": [
+     1875180,
+     3580
+    ],
+    "wd": [
+     1879160,
+     11120
+    ],
+    "wp": [
+     [
+      1879160,
+      2560
+     ],
+     [
+      1882120,
+      3360
+     ],
+     [
+      1885880,
+      3550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Derrière, le clocher vert de l'église Saint-Michel, le « Michel ».",
+   "en": "Behind, the green tower of St. Michael's church, the \"Michel\".",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Derrière",
+     "behind"
+    ],
+    [
+     "le clocher vert",
+     "the green church tower"
+    ],
+    [
+     "de l'église Saint-Michel",
+     "of St. Michael's church"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 5210,
+    "en": 4340,
+    "wd": 12150
+   },
+   "bank": {
+    "fr": [
+     1890680,
+     5210
+    ],
+    "en": [
+     1896290,
+     4340
+    ],
+    "wd": [
+     1901030,
+     12150
+    ],
+    "wp": [
+     [
+      1901030,
+      2530
+     ],
+     [
+      1903960,
+      3730
+     ],
+     [
+      1908090,
+      4240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Son horloge est la plus grande d'Allemagne.",
+   "en": "Its clock is the biggest in Germany.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Son horloge",
+     "its clock"
+    ],
+    [
+     "la plus grande",
+     "the biggest"
+    ],
+    [
+     "d'Allemagne",
+     "in Germany"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 2940,
+    "en": 2660,
+    "wd": 10460
+   },
+   "bank": {
+    "fr": [
+     1913580,
+     2940
+    ],
+    "en": [
+     1916920,
+     2660
+    ],
+    "wd": [
+     1919980,
+     10460
+    ],
+    "wp": [
+     [
+      1919980,
+      3080
+     ],
+     [
+      1923460,
+      2910
+     ],
+     [
+      1926770,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et à droite, cette vague de verre posée sur des briques : l'Elbphilharmonie.",
+   "en": "And on the right, that wave of glass sitting on bricks: the Elbphilharmonie.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "à droite",
+     "on the right"
+    ],
+    [
+     "cette vague",
+     "that wave"
+    ],
+    [
+     "de verre",
+     "of glass"
+    ],
+    [
+     "posée sur",
+     "sitting on"
+    ],
+    [
+     "des briques",
+     "bricks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 5420,
+    "en": 4820,
+    "wd": 16290
+   },
+   "bank": {
+    "fr": [
+     1930840,
+     5420
+    ],
+    "en": [
+     1936660,
+     4820
+    ],
+    "wd": [
+     1941880,
+     16290
+    ],
+    "wp": [
+     [
+      1941880,
+      2670
+     ],
+     [
+      1944950,
+      2960
+     ],
+     [
+      1948310,
+      2770
+     ],
+     [
+      1951480,
+      2930
+     ],
+     [
+      1954810,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "On y va tout à l'heure. J'ai beaucoup à dire sur elle. Pas que des gentillesses.",
+   "en": "We'll go there later. I have a lot to say about it. Not only nice things.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "On y va",
+     "we'll go there"
+    ],
+    [
+     "tout à l'heure",
+     "later"
+    ],
+    [
+     "J'ai beaucoup à dire",
+     "I have a lot to say"
+    ],
+    [
+     "sur elle",
+     "about it"
+    ],
+    [
+     "Pas que des gentillesses",
+     "not only nice things"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
+   },
+   "ms": {
+    "fr": 7100,
+    "en": 4990,
+    "wd": 18030
+   },
+   "bank": {
+    "fr": [
+     1958570,
+     7100
+    ],
+    "en": [
+     1966070,
+     4990
+    ],
+    "wd": [
+     1971460,
+     18030
+    ],
+    "wp": [
+     [
+      1971460,
+      2710
+     ],
+     [
+      1974570,
+      2540
+     ],
+     [
+      1977510,
+      3800
+     ],
+     [
+      1981710,
+      2600
+     ],
+     [
+      1984710,
+      3930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hambourg a plus de deux mille cinq cents ponts.",
+   "en": "Hamburg has more than two thousand five hundred bridges.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Hambourg a",
+     "Hamburg has"
+    ],
+    [
+     "plus de",
+     "more than"
+    ],
+    [
+     "deux mille cinq cents",
+     "two thousand five hundred"
+    ],
+    [
+     "ponts",
+     "bridges"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 2830,
+    "en": 3670,
+    "wd": 13300
+   },
+   "bank": {
+    "fr": [
+     1989890,
+     2830
+    ],
+    "en": [
+     1993120,
+     3670
+    ],
+    "wd": [
+     1997190,
+     13300
+    ],
+    "wp": [
+     [
+      1997190,
+      2970
+     ],
+     [
+      2000560,
+      2450
+     ],
+     [
+      2003410,
+      3660
+     ],
+     [
+      2007470,
+      2170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Plus qu'Amsterdam, plus que Venise. Mais les touristes vont à Venise. Bon.",
+   "en": "More than Amsterdam, more than Venice. But the tourists go to Venice. Oh well.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Plus qu'Amsterdam",
+     "more than Amsterdam"
+    ],
+    [
+     "plus que Venise",
+     "more than Venice"
+    ],
+    [
+     "les touristes",
+     "the tourists"
+    ],
+    [
+     "vont à Venise",
+     "go to Venice"
+    ],
+    [
+     "Bon",
+     "oh well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
+   },
+   "ms": {
+    "fr": 7430,
+    "en": 5570,
+    "wd": 17770
+   },
+   "bank": {
+    "fr": [
+     2010890,
+     7430
+    ],
+    "en": [
+     2018720,
+     5570
+    ],
+    "wd": [
+     2024690,
+     17770
+    ],
+    "wp": [
+     [
+      2024690,
+      3630
+     ],
+     [
+      2028720,
+      3330
+     ],
+     [
+      2032450,
+      2980
+     ],
+     [
+      2035830,
+      3260
+     ],
+     [
+      2039490,
+      2120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Vous avez faim ? J'espère que vous avez acheté un Fischbrötchen, avant le tunnel.",
+   "en": "Are you hungry? I hope you bought a Fischbrötchen, before the tunnel.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "Fischbrötchen",
+     "en": "bread roll with fish (Hamburg street food)"
+    }
+   ],
+   "words": [
+    [
+     "Vous avez faim",
+     "are you hungry"
+    ],
+    [
+     "J'espère",
+     "I hope"
+    ],
+    [
+     "vous avez acheté",
+     "you bought"
+    ],
+    [
+     "un Fischbrötchen",
+     "a fish roll"
+    ],
+    [
+     "avant le tunnel",
+     "before the tunnel"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "gl": "audio/s075_gl.mp3",
+    "wd": "audio/s075_wd.mp3"
+   },
+   "ms": {
+    "fr": 6660,
+    "en": 4310,
+    "gl": 6090,
+    "wd": 17820
+   },
+   "bank": {
+    "fr": [
+     2042860,
+     6660
+    ],
+    "en": [
+     2049920,
+     4310
+    ],
+    "gl": [
+     2054630,
+     6090
+    ],
+    "wd": [
+     2061120,
+     17820
+    ],
+    "wp": [
+     [
+      2061120,
+      2920
+     ],
+     [
+      2064440,
+      2700
+     ],
+     [
+      2067540,
+      3070
+     ],
+     [
+      2071010,
+      3390
+     ],
+     [
+      2074800,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un petit pain, du hareng, des oignons. C'est tout. C'est parfait.",
+   "en": "A bread roll, herring, onions. That's all. It's perfect.",
+   "para": 10,
+   "glosses": [
+    {
+     "fr": "hareng",
+     "en": "herring"
+    }
+   ],
+   "words": [
+    [
+     "Un petit pain",
+     "a bread roll"
+    ],
+    [
+     "du hareng",
+     "herring"
+    ],
+    [
+     "des oignons",
+     "onions"
+    ],
+    [
+     "C'est tout",
+     "that's all"
+    ],
+    [
+     "C'est parfait",
+     "it's perfect"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "en": "audio/s076_en.mp3",
+    "gl": "audio/s076_gl.mp3",
+    "wd": "audio/s076_wd.mp3"
+   },
+   "ms": {
+    "fr": 6780,
+    "en": 5010,
+    "gl": 3110,
+    "wd": 16140
+   },
+   "bank": {
+    "fr": [
+     2079340,
+     6780
+    ],
+    "en": [
+     2086520,
+     5010
+    ],
+    "gl": [
+     2091929,
+     3110
+    ],
+    "wd": [
+     2095440,
+     16140
+    ],
+    "wp": [
+     [
+      2095440,
+      3020
+     ],
+     [
+      2098860,
+      2540
+     ],
+     [
+      2101800,
+      2660
+     ],
+     [
+      2104860,
+      2470
+     ],
+     [
+      2107730,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Attention aux mouettes : elles aussi adorent le Fischbrötchen. Et elles ne demandent pas.",
+   "en": "Watch out for the gulls: they love Fischbrötchen too. And they don't ask.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Attention aux mouettes",
+     "watch out for the gulls"
+    ],
+    [
+     "elles aussi",
+     "they too"
+    ],
+    [
+     "adorent",
+     "love"
+    ],
+    [
+     "elles ne demandent pas",
+     "they don't ask"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "en": "audio/s077_en.mp3",
+    "wd": "audio/s077_wd.mp3"
+   },
+   "ms": {
+    "fr": 6410,
+    "en": 4810,
+    "wd": 14250
+   },
+   "bank": {
+    "fr": [
+     2111980,
+     6410
+    ],
+    "en": [
+     2118790,
+     4810
+    ],
+    "wd": [
+     2124000,
+     14250
+    ],
+    "wp": [
+     [
+      2124000,
+      3770
+     ],
+     [
+      2128170,
+      2810
+     ],
+     [
+      2131380,
+      2300
+     ],
+     [
+      2134080,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "On fait une pause ici, sur ce banc, face à la ville.",
+   "en": "Let's take a break here, on this bench, facing the city.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "On fait une pause",
+     "let's take a break"
+    ],
+    [
+     "sur ce banc",
+     "on this bench"
+    ],
+    [
+     "face à la ville",
+     "facing the city"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "en": "audio/s078_en.mp3",
+    "wd": "audio/s078_wd.mp3"
+   },
+   "ms": {
+    "fr": 4050,
+    "en": 3830,
+    "wd": 11300
+   },
+   "bank": {
+    "fr": [
+     2138650,
+     4050
+    ],
+    "en": [
+     2143100,
+     3830
+    ],
+    "wd": [
+     2147330,
+     11300
+    ],
+    "wp": [
+     [
+      2147330,
+      3310
+     ],
+     [
+      2151040,
+      2990
+     ],
+     [
+      2154430,
+      3350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mangez tranquillement. Regardez passer les bateaux.",
+   "en": "Eat calmly. Watch the boats go by.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Mangez",
+     "eat"
+    ],
+    [
+     "tranquillement",
+     "calmly"
+    ],
+    [
+     "Regardez passer",
+     "watch go by"
+    ],
+    [
+     "les bateaux",
+     "the boats"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "en": "audio/s079_en.mp3",
+    "wd": "audio/s079_wd.mp3"
+   },
+   "ms": {
+    "fr": 4520,
+    "en": 3080,
+    "wd": 12640
+   },
+   "bank": {
+    "fr": [
+     2159030,
+     4520
+    ],
+    "en": [
+     2163950,
+     3080
+    ],
+    "wd": [
+     2167430,
+     12640
+    ],
+    "wp": [
+     [
+      2167430,
+      2230
+     ],
+     [
+      2170060,
+      2500
+     ],
+     [
+      2172960,
+      3220
+     ],
+     [
+      2176580,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Après, on retraverse le tunnel, et je vous emmène dans la ville des entrepôts.",
+   "en": "Afterwards, we cross the tunnel again, and I take you to the city of warehouses.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Après",
+     "afterwards"
+    ],
+    [
+     "on retraverse",
+     "we cross again"
+    ],
+    [
+     "je vous emmène",
+     "I take you"
+    ],
+    [
+     "la ville des entrepôts",
+     "the city of warehouses"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "en": "audio/s080_en.mp3",
+    "wd": "audio/s080_wd.mp3"
+   },
+   "ms": {
+    "fr": 5610,
+    "en": 5100,
+    "wd": 14830
+   },
+   "bank": {
+    "fr": [
+     2180470,
+     5610
+    ],
+    "en": [
+     2186480,
+     5100
+    ],
+    "wd": [
+     2191980,
+     14830
+    ],
+    "wp": [
+     [
+      2191980,
+      2510
+     ],
+     [
+      2194890,
+      3300
+     ],
+     [
+      2198590,
+      3070
+     ],
+     [
+      2202060,
+      3900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et je compte toujours les ponts : pour l'instant, trois. Il en reste beaucoup.",
+   "en": "And I'm still counting the bridges: so far, three. There are a lot left.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "je compte toujours",
+     "I'm still counting"
+    ],
+    [
+     "les ponts",
+     "the bridges"
+    ],
+    [
+     "pour l'instant",
+     "so far"
+    ],
+    [
+     "trois",
+     "three"
+    ],
+    [
+     "Il en reste",
+     "there are left"
+    ],
+    [
+     "beaucoup",
+     "a lot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
+   },
+   "ms": {
+    "fr": 6180,
+    "en": 5240,
+    "wd": 19390
+   },
+   "bank": {
+    "fr": [
+     2207210,
+     6180
+    ],
+    "en": [
+     2213790,
+     5240
+    ],
+    "wd": [
+     2219430,
+     19390
+    ],
+    "wp": [
+     [
+      2219430,
+      3600
+     ],
+     [
+      2223430,
+      2630
+     ],
+     [
+      2226460,
+      2880
+     ],
+     [
+      2229740,
+      2160
+     ],
+     [
+      2232300,
+      2870
+     ],
+     [
+      2235570,
+      2400
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   23560
+  ],
+  "silence": [
+   24360,
+   30000
+  ]
+ }
+}
