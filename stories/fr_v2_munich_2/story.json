@@ -1,37 +1,57 @@
 {
  "id": "fr_v2_munich_2",
  "lang": "fr",
- "title": "Fermé pour cause de Föhn (2)",
+ "title": "Fermé jusqu'à lundi (2)",
  "author": "Original story (AI-generated)",
  "level": "B1",
- "series": "Fermé pour cause de Föhn",
+ "series": "Fermé jusqu'à lundi",
  "episode": "2",
- "note": "The afternoon, the night and the morning of the Föhn day. Lenz has three things to show Odile before her train: a drawer in his workshop, a small painting, and a third thing he keeps for last. In the Munich metro, a voice says Zurückbleiben, bitte, stand back please, every time the doors close.",
+ "note": "The evening, the night and the morning before Odile's train. In his workshop, Lenz shows her an old plane billet he never used.",
  "intro": "audio/intro.mp3",
- "intro_ms": 26880,
+ "intro_ms": 16500,
  "silence": "audio/silence.mp3",
  "segments": [
   {
-   "fr": "Ils ont traversé l'Isar par le pont du Deutsches Museum.",
-   "en": "They crossed the Isar by the bridge at the Deutsches Museum.",
+   "fr": "Le soir, Odile et Lenz ont marché le long de l'Isar, la rivière de Munich.",
+   "en": "In the evening, Odile and Lenz walked along the Isar, Munich's river.",
    "para": 1,
    "glosses": [],
    "words": [
     [
-     "Ils ont traversé",
-     "they crossed"
+     "Le soir",
+     "in the evening"
+    ],
+    [
+     "Odile",
+     "Odile"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "Lenz",
+     "Lenz"
+    ],
+    [
+     "ont marché",
+     "walked"
+    ],
+    [
+     "le long de",
+     "along"
     ],
     [
      "l'Isar",
-     "the Isar (Munich's river)"
+     "the Isar"
     ],
     [
-     "par le pont",
-     "by the bridge"
+     "la rivière",
+     "the river"
     ],
     [
-     "du Deutsches Museum",
-     "of the Deutsches Museum"
+     "de Munich",
+     "of Munich"
     ]
    ],
    "audio": {
@@ -40,139 +60,66 @@
     "wd": "audio/s001_wd.mp3"
    },
    "ms": {
-    "fr": 4190,
-    "en": 3700,
-    "wd": 15620
+    "fr": 5650,
+    "en": 4530,
+    "wd": 27140
    },
    "bank": {
     "fr": [
-     58080,
-     4190
+     47700,
+     5650
     ],
     "en": [
-     62670,
-     3700
+     53750,
+     4530
     ],
     "wd": [
-     66770,
-     15620
+     58680,
+     27140
     ],
     "wp": [
      [
-      66770,
-      3260
+      58680,
+      2750
      ],
      [
-      70430,
-      3480
+      61830,
+      2510
      ],
      [
-      74310,
-      2830
+      64740,
+      1820
      ],
      [
-      77540,
-      4000
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Sur les bancs de gravier, des gens étaient assis en bras de chemise, les pieds dans l'eau.",
-   "en": "On the gravel banks, people were sitting in shirt sleeves, their feet in the water.",
-   "para": 1,
-   "glosses": [
-    {
-     "fr": "gravier",
-     "en": "gravel (the Isar's stony banks)"
-    }
-   ],
-   "words": [
-    [
-     "Sur les bancs de gravier",
-     "on the gravel banks"
-    ],
-    [
-     "des gens",
-     "people"
-    ],
-    [
-     "étaient assis",
-     "were sitting"
-    ],
-    [
-     "en bras de chemise",
-     "in shirt sleeves"
-    ],
-    [
-     "les pieds",
-     "the feet"
-    ],
-    [
-     "dans l'eau",
-     "in the water"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s002_fr.mp3",
-    "en": "audio/s002_en.mp3",
-    "gl": "audio/s002_gl.mp3",
-    "wd": "audio/s002_wd.mp3"
-   },
-   "ms": {
-    "fr": 5590,
-    "en": 4880,
-    "gl": 5110,
-    "wd": 20460
-   },
-   "bank": {
-    "fr": [
-     82790,
-     5590
-    ],
-    "en": [
-     88780,
-     4880
-    ],
-    "gl": [
-     94060,
-     5110
-    ],
-    "wd": [
-     99570,
-     20460
-    ],
-    "wp": [
-     [
-      99570,
-      3750
-     ],
-     [
-      103720,
-      2329
-     ],
-     [
-      106450,
-      2820
-     ],
-     [
-      109670,
-      3530
-     ],
-     [
-      113600,
-      2630
-     ],
-     [
-      116630,
+      66960,
       2550
+     ],
+     [
+      69910,
+      2430
+     ],
+     [
+      72740,
+      2530
+     ],
+     [
+      75670,
+      2810
+     ],
+     [
+      78880,
+      2900
+     ],
+     [
+      82180,
+      2790
      ]
     ]
    }
   },
   {
-   "fr": "L'eau de l'Isar est verte et vient des montagnes. Par Föhn, on dirait qu'elle en arrive directement.",
-   "en": "The water of the Isar is green and comes from the mountains. In Föhn weather, it looks like it comes straight from there.",
+   "fr": "L'eau de l'Isar est verte, parce qu'elle vient des montagnes.",
+   "en": "The water of the Isar is green, because it comes from the mountains.",
    "para": 1,
    "glosses": [],
    "words": [
@@ -189,28 +136,94 @@
      "is green"
     ],
     [
-     "vient",
-     "comes"
+     "parce qu'elle vient",
+     "because it comes"
     ],
     [
      "des montagnes",
      "from the mountains"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 4280,
+    "wd": 16880
+   },
+   "bank": {
+    "fr": [
+     86220,
+     4019
+    ],
+    "en": [
+     90640,
+     4280
+    ],
+    "wd": [
+     95320,
+     16880
+    ],
+    "wp": [
+     [
+      95320,
+      2270
+     ],
+     [
+      97990,
+      3090
+     ],
+     [
+      101480,
+      2710
+     ],
+     [
+      104590,
+      3220
+     ],
+     [
+      108210,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Avec le vent chaud, des gens étaient assis sur les pierres, les pieds dans l'eau.",
+   "en": "With the warm wind, people were sitting on the stones, their feet in the water.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Avec",
+     "with"
     ],
     [
-     "Par Föhn",
-     "in Föhn weather"
+     "le vent chaud",
+     "the warm wind"
     ],
     [
-     "on dirait",
-     "it looks like"
+     "des gens",
+     "people"
     ],
     [
-     "qu'elle en arrive",
-     "that it comes from there"
+     "étaient assis",
+     "were sitting"
     ],
     [
-     "directement",
-     "straight"
+     "sur les pierres",
+     "on the stones"
+    ],
+    [
+     "les pieds",
+     "the feet"
+    ],
+    [
+     "dans l'eau",
+     "in the water"
     ]
    ],
    "audio": {
@@ -219,80 +232,187 @@
     "wd": "audio/s003_wd.mp3"
    },
    "ms": {
-    "fr": 6990,
-    "en": 6910,
-    "wd": 29200
+    "fr": 5090,
+    "en": 4410,
+    "wd": 21890
    },
    "bank": {
     "fr": [
-     120430,
-     6990
+     112600,
+     5090
     ],
     "en": [
-     127820,
-     6910
+     118090,
+     4410
     ],
     "wd": [
-     135130,
-     29200
+     122900,
+     21890
     ],
     "wp": [
      [
-      135130,
-      2270
+      122900,
+      2170
      ],
      [
-      137800,
-      3090
+      125470,
+      2980
      ],
      [
-      141290,
-      2710
+      128850,
+      2329
      ],
      [
-      144400,
-      2270
+      131580,
+      2820
      ],
      [
-      147070,
-      3140
+      134800,
+      3160
      ],
      [
-      150610,
-      2950
+      138360,
+      2630
      ],
      [
-      153960,
-      2720
-     ],
-     [
-      157080,
-      3420
-     ],
-     [
-      160900,
-      2580
+      141390,
+      2550
      ]
     ]
    }
   },
   {
-   "fr": "À Haidhausen, l'atelier de Lenz était dans une cour, derrière une porte cochère.",
-   "en": "In Haidhausen, Lenz's workshop was in a courtyard, behind a carriage entrance.",
-   "para": 2,
-   "glosses": [
-    {
-     "fr": "porte cochère",
-     "en": "carriage entrance, big street door to a courtyard"
-    }
-   ],
+   "fr": "Fin octobre, en chemise, comme en été.",
+   "en": "At the end of October, in shirtsleeves, as in summer.",
+   "para": 1,
+   "glosses": [],
    "words": [
     [
-     "À Haidhausen",
-     "in Haidhausen"
+     "Fin octobre",
+     "end of October"
     ],
     [
-     "l'atelier",
+     "en chemise",
+     "in shirtsleeves"
+    ],
+    [
+     "comme",
+     "as"
+    ],
+    [
+     "en été",
+     "in summer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "en": 3640,
+    "wd": 13220
+   },
+   "bank": {
+    "fr": [
+     145190,
+     3750
+    ],
+    "en": [
+     149340,
+     3640
+    ],
+    "wd": [
+     153380,
+     13220
+    ],
+    "wp": [
+     [
+      153380,
+      3230
+     ],
+     [
+      157010,
+      3170
+     ],
+     [
+      160580,
+      2240
+     ],
+     [
+      163220,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile et Lenz ne parlaient pas beaucoup. Odile attendait.",
+   "en": "Odile and Lenz didn't talk much. Odile was waiting.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "ne parlaient pas",
+     "didn't talk"
+    ],
+    [
+     "beaucoup",
+     "much"
+    ],
+    [
+     "attendait",
+     "was waiting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "en": 3920,
+    "wd": 9540
+   },
+   "bank": {
+    "fr": [
+     167000,
+     4680
+    ],
+    "en": [
+     172080,
+     3920
+    ],
+    "wd": [
+     176400,
+     9540
+    ],
+    "wp": [
+     [
+      176400,
+      2990
+     ],
+     [
+      179790,
+      2360
+     ],
+     [
+      182550,
+      2540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'atelier de Lenz était de l'autre côté de la rivière, au fond d'une cour.",
+   "en": "Lenz's workshop was on the other side of the river, at the back of a courtyard.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "L'atelier",
      "the workshop"
     ],
     [
@@ -304,166 +424,188 @@
      "was"
     ],
     [
-     "dans une cour",
-     "in a courtyard"
+     "de l'autre côté",
+     "on the other side"
     ],
     [
-     "derrière",
-     "behind"
+     "de la rivière",
+     "of the river"
     ],
     [
-     "une porte cochère",
-     "a carriage entrance"
+     "au fond",
+     "at the back"
+    ],
+    [
+     "d'une cour",
+     "of a courtyard"
     ]
    ],
    "audio": {
-    "fr": "audio/s004_fr.mp3",
-    "en": "audio/s004_en.mp3",
-    "gl": "audio/s004_gl.mp3",
-    "wd": "audio/s004_wd.mp3"
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
    },
    "ms": {
-    "fr": 5830,
-    "en": 5180,
-    "gl": 6350,
-    "wd": 23510
+    "fr": 4990,
+    "en": 4750,
+    "wd": 22860
    },
    "bank": {
     "fr": [
-     164730,
-     5830
+     186340,
+     4990
     ],
     "en": [
-     170960,
-     5180
-    ],
-    "gl": [
-     176540,
-     6350
+     191730,
+     4750
     ],
     "wd": [
-     183290,
-     23510
+     196880,
+     22860
     ],
     "wp": [
      [
-      183290,
-      2850
-     ],
-     [
-      186540,
+      196880,
       2900
      ],
      [
-      189840,
+      200180,
       2850
      ],
      [
-      193090,
+      203430,
       2150
      ],
      [
-      195640,
-      3210
+      205980,
+      3200
      ],
      [
-      199250,
-      2530
+      209580,
+      3060
      ],
      [
-      202180,
-      3770
+      213040,
+      2480
+     ],
+     [
+      215920,
+      2970
      ]
     ]
    }
   },
   {
-   "fr": "Sur la porte de l'atelier, la feuille au feutre. Lenz l'a laissée.",
-   "en": "On the workshop door, the sheet in felt-tip pen. Lenz left it there.",
+   "fr": "Sur la porte, une feuille écrite au feutre disait : fermé à cause du vent.",
+   "en": "On the door, a sheet written in felt-tip pen said: closed because of the wind.",
    "para": 2,
-   "glosses": [],
+   "glosses": [
+    {
+     "fr": "feutre",
+     "en": "felt-tip pen"
+    }
+   ],
    "words": [
     [
      "Sur la porte",
      "on the door"
     ],
     [
-     "de l'atelier",
-     "of the workshop"
+     "une feuille",
+     "a sheet"
     ],
     [
-     "la feuille",
-     "the sheet"
+     "écrite",
+     "written"
     ],
     [
      "au feutre",
      "in felt-tip pen"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "disait",
+     "said"
     ],
     [
-     "l'a laissée",
-     "left it"
+     "fermé",
+     "closed"
+    ],
+    [
+     "à cause du vent",
+     "because of the wind"
     ]
    ],
    "audio": {
-    "fr": "audio/s005_fr.mp3",
-    "en": "audio/s005_en.mp3",
-    "wd": "audio/s005_wd.mp3"
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
    },
    "ms": {
-    "fr": 5730,
-    "en": 4660,
-    "wd": 19590
+    "fr": 5230,
+    "en": 5220,
+    "gl": 3670,
+    "wd": 22040
    },
    "bank": {
     "fr": [
-     207200,
-     5730
+     220140,
+     5230
     ],
     "en": [
-     213330,
-     4660
+     225770,
+     5220
+    ],
+    "gl": [
+     231390,
+     3670
     ],
     "wd": [
-     218390,
-     19590
+     235460,
+     22040
     ],
     "wp": [
      [
-      218390,
+      235460,
       2940
      ],
      [
-      221730,
-      3010
-     ],
-     [
-      225140,
+      238800,
       2780
      ],
      [
-      228320,
+      241980,
+      2290
+     ],
+     [
+      244670,
       3050
      ],
      [
-      231770,
-      2550
+      248120,
+      2210
      ],
      [
-      234719,
+      250730,
       2410
+     ],
+     [
+      253540,
+      3110
      ]
     ]
    }
   },
   {
-   "fr": "Dedans, ça sentait le bois et la colle chaude.",
-   "en": "Inside, it smelled of wood and hot glue.",
+   "fr": "Dedans, ça sentait le bois et la colle.",
+   "en": "Inside, it smelled of wood and glue.",
    "para": 2,
-   "glosses": [],
+   "glosses": [
+    {
+     "fr": "colle",
+     "en": "glue"
+    }
+   ],
    "words": [
     [
      "Dedans",
@@ -475,233 +617,92 @@
     ],
     [
      "le bois",
-     "the wood"
+     "wood"
     ],
     [
-     "la colle chaude",
-     "the hot glue"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s006_fr.mp3",
-    "en": "audio/s006_en.mp3",
-    "wd": "audio/s006_wd.mp3"
-   },
-   "ms": {
-    "fr": 3480,
-    "en": 3110,
-    "wd": 12980
-   },
-   "bank": {
-    "fr": [
-     238380,
-     3480
-    ],
-    "en": [
-     242260,
-     3110
-    ],
-    "wd": [
-     245770,
-     12980
-    ],
-    "wp": [
-     [
-      245770,
-      2390
-     ],
-     [
-      248560,
-      2920
-     ],
-     [
-      251880,
-      2540
-     ],
-     [
-      254820,
-      3080
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "L'établi de son grand-père, l'établi de son père, et le sien.",
-   "en": "His grandfather's workbench, his father's workbench, and his own.",
-   "para": 2,
-   "glosses": [
-    {
-     "fr": "établi",
-     "en": "workbench"
-    }
-   ],
-   "words": [
-    [
-     "L'établi",
-     "the workbench"
-    ],
-    [
-     "de son grand-père",
-     "of his grandfather"
-    ],
-    [
-     "de son père",
-     "of his father"
-    ],
-    [
-     "le sien",
-     "his own"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s007_fr.mp3",
-    "en": "audio/s007_en.mp3",
-    "gl": "audio/s007_gl.mp3",
-    "wd": "audio/s007_wd.mp3"
-   },
-   "ms": {
-    "fr": 4880,
-    "en": 4560,
-    "gl": 3520,
-    "wd": 13980
-   },
-   "bank": {
-    "fr": [
-     259149,
-     4880
-    ],
-    "en": [
-     264430,
-     4560
-    ],
-    "gl": [
-     269390,
-     3520
-    ],
-    "wd": [
-     273310,
-     13980
-    ],
-    "wp": [
-     [
-      273310,
-      3050
-     ],
-     [
-      276760,
-      3500
-     ],
-     [
-      280660,
-      2940
-     ],
-     [
-      284000,
-      2440
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Première chose », a dit Lenz.",
-   "en": "\"First thing,\" said Lenz.",
-   "para": 2,
-   "glosses": [],
-   "words": [
-    [
-     "Première chose",
-     "first thing"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
+     "la colle",
+     "glue"
     ]
    ],
    "audio": {
     "fr": "audio/s008_fr.mp3",
     "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
     "wd": "audio/s008_wd.mp3"
    },
    "ms": {
-    "fr": 2860,
-    "en": 2530,
-    "wd": 9440
+    "fr": 3250,
+    "en": 2880,
+    "gl": 3130,
+    "wd": 12190
    },
    "bank": {
     "fr": [
-     287690,
-     2860
+     257899,
+     3250
     ],
     "en": [
-     290950,
-     2530
+     261550,
+     2880
+    ],
+    "gl": [
+     264830,
+     3130
     ],
     "wd": [
-     293880,
-     9440
+     268360,
+     12190
     ],
     "wp": [
      [
-      293880,
-      3020
+      268360,
+      2390
      ],
      [
-      297300,
-      2220
+      271150,
+      2920
      ],
      [
-      299920,
+      274470,
+      2280
+     ],
+     [
+      277150,
       2550
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a ouvert un tiroir de la cuisine, au fond de l'atelier. Sous les piles, une enveloppe.",
-   "en": "Lenz opened a kitchen drawer, at the back of the workshop. Under the batteries, an envelope.",
+   "fr": "Il y avait trois établis : celui du grand-père, celui du père, et celui de Lenz.",
+   "en": "There were three workbenches: the grandfather's, the father's, and Lenz's.",
    "para": 2,
    "glosses": [
     {
-     "fr": "piles",
-     "en": "batteries"
+     "fr": "établis",
+     "en": "workbenches"
     }
    ],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Il y avait",
+     "there were"
     ],
     [
-     "a ouvert",
-     "opened"
+     "trois établis",
+     "three workbenches"
     ],
     [
-     "un tiroir",
-     "a drawer"
+     "celui du grand-père",
+     "the grandfather's"
     ],
     [
-     "de la cuisine",
-     "of the kitchen"
+     "celui du père",
+     "the father's"
     ],
     [
-     "au fond",
-     "at the back"
-    ],
-    [
-     "de l'atelier",
-     "of the workshop"
-    ],
-    [
-     "Sous les piles",
-     "under the batteries"
-    ],
-    [
-     "une enveloppe",
-     "an envelope"
+     "celui de Lenz",
+     "Lenz's"
     ]
    ],
    "audio": {
@@ -711,67 +712,132 @@
     "wd": "audio/s009_wd.mp3"
    },
    "ms": {
-    "fr": 7470,
-    "en": 5810,
-    "gl": 3300,
-    "wd": 26260
+    "fr": 6320,
+    "en": 5030,
+    "gl": 3840,
+    "wd": 18310
    },
    "bank": {
     "fr": [
-     303720,
-     7470
+     280950,
+     6320
     ],
     "en": [
-     311590,
-     5810
+     287670,
+     5030
     ],
     "gl": [
-     317800,
-     3300
+     293100,
+     3840
     ],
     "wd": [
-     321500,
-     26260
+     297340,
+     18310
     ],
     "wp": [
      [
-      321500,
-      2550
+      297340,
+      2470
      ],
      [
-      324450,
-      2490
+      300210,
+      3440
      ],
      [
-      327340,
-      2920
+      304050,
+      3560
      ],
      [
-      330660,
-      2990
+      308010,
+      3240
      ],
      [
-      334050,
-      2480
-     ],
-     [
-      336930,
-      3010
-     ],
-     [
-      340340,
-      3370
-     ],
-     [
-      344110,
-      2800
+      311650,
+      3150
      ]
     ]
    }
   },
   {
-   "fr": "Dans l'enveloppe, un billet d'avion en papier : Munich–Lisbonne, quinze avril mille neuf cent quatre-vingt-neuf.",
-   "en": "In the envelope, a paper plane ticket: Munich–Lisbon, fifteenth of April nineteen eighty-nine.",
+   "fr": "Lenz a ouvert un tiroir, et il a sorti une vieille enveloppe.",
+   "en": "Lenz opened a drawer, and he took out an old envelope.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "tiroir",
+     "en": "drawer"
+    }
+   ],
+   "words": [
+    [
+     "a ouvert",
+     "opened"
+    ],
+    [
+     "un tiroir",
+     "a drawer"
+    ],
+    [
+     "il a sorti",
+     "he took out"
+    ],
+    [
+     "une vieille enveloppe",
+     "an old envelope"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4440,
+    "en": 3570,
+    "gl": 3470,
+    "wd": 13750
+   },
+   "bank": {
+    "fr": [
+     316050,
+     4440
+    ],
+    "en": [
+     320890,
+     3570
+    ],
+    "gl": [
+     324860,
+     3470
+    ],
+    "wd": [
+     328730,
+     13750
+    ],
+    "wp": [
+     [
+      328730,
+      2490
+     ],
+     [
+      331620,
+      2920
+     ],
+     [
+      334940,
+      2920
+     ],
+     [
+      338260,
+      3370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans l'enveloppe, il y avait un billet d'avion pour Lisbonne.",
+   "en": "In the envelope, there was a plane ticket to Lisbon.",
    "para": 2,
    "glosses": [],
    "words": [
@@ -780,114 +846,16 @@
      "in the envelope"
     ],
     [
+     "il y avait",
+     "there was"
+    ],
+    [
      "un billet d'avion",
      "a plane ticket"
     ],
     [
-     "en papier",
-     "paper"
-    ],
-    [
-     "Munich–Lisbonne",
-     "Munich–Lisbon"
-    ],
-    [
-     "quinze avril",
-     "fifteenth of April"
-    ],
-    [
-     "mille neuf cent quatre-vingt-neuf",
-     "nineteen eighty-nine"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s010_fr.mp3",
-    "en": "audio/s010_en.mp3",
-    "wd": "audio/s010_wd.mp3"
-   },
-   "ms": {
-    "fr": 6970,
-    "en": 6750,
-    "wd": 22640
-   },
-   "bank": {
-    "fr": [
-     348160,
-     6970
-    ],
-    "en": [
-     355530,
-     6750
-    ],
-    "wd": [
-     362680,
-     22640
-    ],
-    "wp": [
-     [
-      362680,
-      3100
-     ],
-     [
-      366180,
-      3230
-     ],
-     [
-      369810,
-      2430
-     ],
-     [
-      372640,
-      3750
-     ],
-     [
-      376790,
-      3380
-     ],
-     [
-      380570,
-      3900
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Lisbonne ? » a dit Odile. « Ana. Elle avait travaillé un été chez madame Wimmer, aux pommes. »",
-   "en": "\"Lisbon?\" said Odile. \"Ana. She had worked one summer at Madame Wimmer's, at the apples.\"",
-   "para": 2,
-   "glosses": [],
-   "words": [
-    [
-     "Lisbonne",
-     "Lisbon"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Ana",
-     "Ana"
-    ],
-    [
-     "Elle avait travaillé",
-     "she had worked"
-    ],
-    [
-     "un été",
-     "one summer"
-    ],
-    [
-     "chez madame Wimmer",
-     "at Madame Wimmer's"
-    ],
-    [
-     "aux pommes",
-     "at the apples"
+     "pour Lisbonne",
+     "to Lisbon"
     ]
    ],
    "audio": {
@@ -896,92 +864,68 @@
     "wd": "audio/s011_wd.mp3"
    },
    "ms": {
-    "fr": 8320,
-    "en": 6590,
-    "wd": 25670
+    "fr": 4040,
+    "en": 3440,
+    "wd": 13780
    },
    "bank": {
     "fr": [
-     385720,
-     8320
+     342880,
+     4040
     ],
     "en": [
-     394440,
-     6590
+     347320,
+     3440
     ],
     "wd": [
-     401430,
-     25670
+     351160,
+     13780
     ],
     "wp": [
      [
-      401430,
-      2460
+      351160,
+      3100
      ],
      [
-      404290,
-      2220
-     ],
-     [
-      406910,
+      354660,
       2510
      ],
      [
-      409820,
-      2290
+      357570,
+      3230
      ],
      [
-      412510,
-      3260
-     ],
-     [
-      416170,
-      2750
-     ],
-     [
-      419320,
-      3660
-     ],
-     [
-      423380,
-      2870
+      361200,
+      2890
      ]
     ]
    }
   },
   {
-   "fr": "« Ana est rentrée à Lisbonne en mars, et elle a écrit : viens. — Et ? »",
-   "en": "\"Ana went home to Lisbon in March, and she wrote: come.\" \"And?\"",
+   "fr": "Un billet d'avril mille neuf cent quatre-vingt-neuf. Personne ne l'avait utilisé.",
+   "en": "A ticket from April nineteen eighty-nine. Nobody had used it.",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Ana",
-     "Ana"
+     "Un billet",
+     "a ticket"
     ],
     [
-     "est rentrée",
-     "went home"
+     "d'avril",
+     "from April"
     ],
     [
-     "à Lisbonne",
-     "to Lisbon"
+     "mille neuf cent quatre-vingt-neuf",
+     "nineteen eighty-nine"
     ],
     [
-     "en mars",
-     "in March"
+     "Personne",
+     "nobody"
     ],
     [
-     "elle a écrit",
-     "she wrote"
-    ],
-    [
-     "viens",
-     "come"
-    ],
-    [
-     "Et",
-     "and"
+     "ne l'avait utilisé",
+     "had used it"
     ]
    ],
    "audio": {
@@ -990,96 +934,60 @@
     "wd": "audio/s012_wd.mp3"
    },
    "ms": {
-    "fr": 5820,
-    "en": 4780,
-    "wd": 20530
+    "fr": 5830,
+    "en": 4330,
+    "wd": 17560
    },
    "bank": {
     "fr": [
-     427500,
-     5820
+     365340,
+     5830
     ],
     "en": [
-     433720,
-     4780
+     371570,
+     4330
     ],
     "wd": [
-     438900,
-     20530
+     376300,
+     17560
     ],
     "wp": [
      [
-      438900,
-      2290
+      376300,
+      2560
      ],
      [
-      441590,
-      2640
-     ],
-     [
-      444630,
+      379260,
       2810
      ],
      [
-      447840,
-      2790
+      382470,
+      3900
      ],
      [
-      451030,
-      2780
+      386770,
+      2510
      ],
      [
-      454210,
-      2150
-     ],
-     [
-      456760,
-      1820
+      389680,
+      3330
      ]
     ]
    }
   },
   {
-   "fr": "« Et mon père a dit : un Huber dort là où est son bois. Il avait raison, d'ailleurs. »",
-   "en": "\"And my father said: a Huber sleeps where his wood is. He was right, by the way.\"",
+   "fr": "« Lisbonne ? » a demandé Odile.",
+   "en": "\"Lisbon?\" asked Odile.",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Et",
-     "and"
+     "Lisbonne",
+     "Lisbon"
     ],
     [
-     "mon père",
-     "my father"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "un Huber",
-     "a Huber"
-    ],
-    [
-     "dort",
-     "sleeps"
-    ],
-    [
-     "là où",
-     "where"
-    ],
-    [
-     "est son bois",
-     "his wood is"
-    ],
-    [
-     "Il avait raison",
-     "he was right"
-    ],
-    [
-     "d'ailleurs",
-     "by the way"
+     "a demandé",
+     "asked"
     ]
    ],
    "audio": {
@@ -1088,92 +996,68 @@
     "wd": "audio/s013_wd.mp3"
    },
    "ms": {
-    "fr": 6490,
-    "en": 5310,
-    "wd": 26910
+    "fr": 2900,
+    "en": 2450,
+    "wd": 6150
    },
    "bank": {
     "fr": [
-     459830,
-     6490
+     394260,
+     2900
     ],
     "en": [
-     466720,
-     5310
+     397560,
+     2450
     ],
     "wd": [
-     472430,
-     26910
+     400410,
+     6150
     ],
     "wp": [
      [
-      472430,
-      1820
+      400410,
+      2460
      ],
      [
-      474650,
-      2860
-     ],
-     [
-      477910,
-      2220
-     ],
-     [
-      480530,
-      2850
-     ],
-     [
-      483780,
-      2410
-     ],
-     [
-      486590,
-      2309
-     ],
-     [
-      489300,
-      2850
-     ],
-     [
-      492550,
-      2980
-     ],
-     [
-      495930,
-      2560
+      403270,
+      2440
      ]
     ]
    }
   },
   {
-   "fr": "« Il a eu raison pendant trente-sept ans. Ana a dû arrêter de m'attendre. »",
-   "en": "\"He was right for thirty-seven years. Ana must have stopped waiting for me.\"",
+   "fr": "« Ana », a dit Lenz. « Une Portugaise. Elle a travaillé un été à Munich, au marché. »",
+   "en": "\"Ana,\" said Lenz. \"A Portuguese woman. She worked one summer in Munich, at the market.\"",
    "para": 2,
    "glosses": [],
    "words": [
-    [
-     "Il a eu raison",
-     "he was right"
-    ],
-    [
-     "pendant trente-sept ans",
-     "for thirty-seven years"
-    ],
     [
      "Ana",
      "Ana"
     ],
     [
-     "a dû",
-     "must have"
+     "a dit",
+     "said"
     ],
     [
-     "arrêter",
-     "stopped"
+     "Une Portugaise",
+     "a Portuguese woman"
     ],
     [
-     "de m'attendre",
-     "waiting for me"
+     "Elle a travaillé",
+     "she worked"
+    ],
+    [
+     "un été",
+     "one summer"
+    ],
+    [
+     "à Munich",
+     "in Munich"
+    ],
+    [
+     "au marché",
+     "at the market"
     ]
    ],
    "audio": {
@@ -1182,61 +1066,571 @@
     "wd": "audio/s014_wd.mp3"
    },
    "ms": {
-    "fr": 5830,
-    "en": 4580,
-    "wd": 20100
+    "fr": 8160,
+    "en": 6250,
+    "wd": 22340
    },
    "bank": {
     "fr": [
-     499740,
-     5830
+     406960,
+     8160
     ],
     "en": [
-     505970,
-     4580
+     415520,
+     6250
     ],
     "wd": [
-     510950,
-     20100
+     422170,
+     22340
     ],
     "wp": [
      [
-      510950,
-      3060
-     ],
-     [
-      514410,
-      3930
-     ],
-     [
-      518740,
+      422170,
       2290
      ],
      [
-      521430,
-      2450
+      424860,
+      2220
      ],
      [
-      524280,
-      2420
+      427480,
+      3440
      ],
      [
-      527099,
-      3100
+      431320,
+      3040
+     ],
+     [
+      434760,
+      2750
+     ],
+     [
+      437910,
+      2720
+     ],
+     [
+      441030,
+      2630
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a remis le billet sous les piles.",
-   "en": "Lenz put the ticket back under the batteries.",
+   "fr": "« À la fin de l'été, Ana est rentrée à Lisbonne. Elle m'a écrit : viens. »",
+   "en": "\"At the end of the summer, Ana went back to Lisbon. She wrote to me: come.\"",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "À la fin de l'été",
+     "at the end of the summer"
     ],
+    [
+     "est rentrée",
+     "went back"
+    ],
+    [
+     "à Lisbonne",
+     "to Lisbon"
+    ],
+    [
+     "Elle m'a écrit",
+     "she wrote to me"
+    ],
+    [
+     "viens",
+     "come"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 6390,
+    "en": 5080,
+    "wd": 16610
+   },
+   "bank": {
+    "fr": [
+     444910,
+     6390
+    ],
+    "en": [
+     451700,
+     5080
+    ],
+    "wd": [
+     457180,
+     16610
+    ],
+    "wp": [
+     [
+      457180,
+      3430
+     ],
+     [
+      461010,
+      2660
+     ],
+     [
+      464070,
+      2810
+     ],
+     [
+      467280,
+      3110
+     ],
+     [
+      470790,
+      2150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai acheté le billet. Mon père a dit : un menuisier reste près de son bois. »",
+   "en": "\"I bought the ticket. My father said: a cabinetmaker stays near his wood.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai acheté",
+     "I bought"
+    ],
+    [
+     "le billet",
+     "the ticket"
+    ],
+    [
+     "Mon père",
+     "my father"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "un menuisier",
+     "a cabinetmaker"
+    ],
+    [
+     "reste",
+     "stays"
+    ],
+    [
+     "près de son bois",
+     "near his wood"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 6250,
+    "en": 5150,
+    "wd": 22420
+   },
+   "bank": {
+    "fr": [
+     474190,
+     6250
+    ],
+    "en": [
+     480840,
+     5150
+    ],
+    "wd": [
+     486390,
+     22420
+    ],
+    "wp": [
+     [
+      486390,
+      2800
+     ],
+     [
+      489590,
+      2570
+     ],
+     [
+      492560,
+      2860
+     ],
+     [
+      495820,
+      2220
+     ],
+     [
+      498440,
+      3260
+     ],
+     [
+      502100,
+      2430
+     ],
+     [
+      504930,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et tu es resté », a dit Odile.",
+   "en": "\"And you stayed,\" said Odile.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "tu es resté",
+     "you stayed"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 2970,
+    "en": 2550,
+    "wd": 8630
+   },
+   "bank": {
+    "fr": [
+     509210,
+     2970
+    ],
+    "en": [
+     512580,
+     2550
+    ],
+    "wd": [
+     515530,
+     8630
+    ],
+    "wp": [
+     [
+      515530,
+      1820
+     ],
+     [
+      517750,
+      2940
+     ],
+     [
+      521090,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je suis resté. Le jour de l'avion, je suis allé surfer. »",
+   "en": "\"I stayed. On the day of the plane, I went surfing.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Je suis resté",
+     "I stayed"
+    ],
+    [
+     "Le jour",
+     "the day"
+    ],
+    [
+     "de l'avion",
+     "of the plane"
+    ],
+    [
+     "je suis allé",
+     "I went"
+    ],
+    [
+     "surfer",
+     "surfing"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 5450,
+    "en": 3900,
+    "wd": 15910
+   },
+   "bank": {
+    "fr": [
+     524560,
+     5450
+    ],
+    "en": [
+     530410,
+     3900
+    ],
+    "wd": [
+     534710,
+     15910
+    ],
+    "wp": [
+     [
+      534710,
+      2890
+     ],
+     [
+      538000,
+      2470
+     ],
+     [
+      540870,
+      2760
+     ],
+     [
+      544030,
+      2700
+     ],
+     [
+      547130,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ana a attendu un peu. Puis elle a arrêté d'attendre. C'est normal. »",
+   "en": "\"Ana waited a little. Then she stopped waiting. That's normal.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "a attendu",
+     "waited"
+    ],
+    [
+     "un peu",
+     "a little"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "elle a arrêté",
+     "she stopped"
+    ],
+    [
+     "d'attendre",
+     "waiting"
+    ],
+    [
+     "C'est normal",
+     "that's normal"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 6760,
+    "en": 4310,
+    "wd": 18210
+   },
+   "bank": {
+    "fr": [
+     551020,
+     6760
+    ],
+    "en": [
+     558180,
+     4310
+    ],
+    "wd": [
+     562890,
+     18210
+    ],
+    "wp": [
+     [
+      562890,
+      2590
+     ],
+     [
+      565880,
+      2280
+     ],
+     [
+      568560,
+      2110
+     ],
+     [
+      571070,
+      2910
+     ],
+     [
+      574380,
+      2510
+     ],
+     [
+      577290,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pourquoi tu gardes ce billet ? » a demandé Odile.",
+   "en": "\"Why do you keep this ticket?\" asked Odile.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Pourquoi",
+     "why"
+    ],
+    [
+     "tu gardes",
+     "you keep"
+    ],
+    [
+     "ce billet",
+     "this ticket"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 3820,
+    "en": 3150,
+    "wd": 12370
+   },
+   "bank": {
+    "fr": [
+     581500,
+     3820
+    ],
+    "en": [
+     585720,
+     3150
+    ],
+    "wd": [
+     589270,
+     12370
+    ],
+    "wp": [
+     [
+      589270,
+      2380
+     ],
+     [
+      592050,
+      2750
+     ],
+     [
+      595200,
+      2750
+     ],
+     [
+      598350,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pour ne pas me raconter d'histoires », a dit Lenz.",
+   "en": "\"So as not to tell myself stories,\" said Lenz.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Pour ne pas",
+     "so as not to"
+    ],
+    [
+     "me raconter",
+     "tell myself"
+    ],
+    [
+     "d'histoires",
+     "stories"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 3750,
+    "en": 3440,
+    "wd": 13120
+   },
+   "bank": {
+    "fr": [
+     602040,
+     3750
+    ],
+    "en": [
+     606190,
+     3440
+    ],
+    "wd": [
+     610030,
+     13120
+    ],
+    "wp": [
+     [
+      610030,
+      3060
+     ],
+     [
+      613490,
+      3140
+     ],
+     [
+      617030,
+      2650
+     ],
+     [
+      620080,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a remis le billet dans le tiroir, et il a fermé le tiroir.",
+   "en": "Lenz put the ticket back in the drawer, and he closed the drawer.",
+   "para": 2,
+   "glosses": [],
+   "words": [
     [
      "a remis",
      "put back"
@@ -1246,294 +1640,216 @@
      "the ticket"
     ],
     [
-     "sous les piles",
-     "under the batteries"
+     "dans le tiroir",
+     "in the drawer"
+    ],
+    [
+     "il a fermé",
+     "he closed"
+    ],
+    [
+     "le tiroir",
+     "the drawer"
     ]
    ],
    "audio": {
-    "fr": "audio/s015_fr.mp3",
-    "en": "audio/s015_en.mp3",
-    "wd": "audio/s015_wd.mp3"
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
    },
    "ms": {
-    "fr": 2940,
-    "en": 2890,
-    "wd": 13110
+    "fr": 4900,
+    "en": 3920,
+    "wd": 16420
    },
    "bank": {
     "fr": [
-     531450,
-     2940
+     623550,
+     4900
     ],
     "en": [
-     534790,
-     2890
+     628850,
+     3920
     ],
     "wd": [
-     538080,
-     13110
+     633170,
+     16420
     ],
     "wp": [
      [
-      538080,
-      2550
-     ],
-     [
-      541030,
+      633170,
       2570
      ],
      [
-      544000,
+      636140,
       2570
      ],
      [
-      546970,
-      3370
+      639110,
+      3130
+     ],
+     [
+      642640,
+      2820
+     ],
+     [
+      645860,
+      2880
      ]
     ]
    }
   },
   {
-   "fr": "« Tu n'as jamais dormi ailleurs qu'en Bavière ? » a demandé Odile.",
-   "en": "\"You've never slept anywhere but in Bavaria?\" asked Odile.",
+   "fr": "Puis il a donné à Odile un petit paquet, dans du papier journal.",
+   "en": "Then he gave Odile a small parcel, in newspaper.",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Tu n'as jamais dormi",
-     "you've never slept"
+     "Puis",
+     "then"
     ],
     [
-     "ailleurs",
-     "elsewhere"
+     "il a donné",
+     "he gave"
     ],
     [
-     "qu'en Bavière",
-     "than in Bavaria"
+     "à Odile",
+     "to Odile"
     ],
     [
-     "a demandé",
-     "asked"
+     "un petit paquet",
+     "a small parcel"
     ],
     [
-     "Odile",
-     "Odile"
+     "dans du papier journal",
+     "in newspaper"
     ]
    ],
    "audio": {
-    "fr": "audio/s016_fr.mp3",
-    "en": "audio/s016_en.mp3",
-    "wd": "audio/s016_wd.mp3"
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
    },
    "ms": {
-    "fr": 4350,
-    "en": 3940,
-    "wd": 16690
+    "fr": 4610,
+    "en": 3530,
+    "wd": 17210
    },
    "bank": {
     "fr": [
-     551590,
-     4350
+     649990,
+     4610
     ],
     "en": [
-     556340,
-     3940
+     655000,
+     3530
     ],
     "wd": [
-     560680,
-     16690
+     658930,
+     17210
     ],
     "wp": [
      [
-      560680,
-      3560
+      658930,
+      2110
      ],
      [
-      564640,
-      2420
+      661440,
+      2720
      ],
      [
-      567460,
-      3310
+      664560,
+      2830
      ],
      [
-      571170,
-      2440
+      667790,
+      3410
      ],
      [
-      574010,
-      2510
+      671600,
+      3690
      ]
     ]
    }
   },
   {
-   "fr": "« Une fois, à Salzbourg. Ça ne compte pas, c'est à côté. »",
-   "en": "\"Once, in Salzburg. That doesn't count, it's next door.\"",
+   "fr": "Dans le paquet, il y avait la tasse blanche. « Elle est à toi, de toute façon. »",
+   "en": "In the parcel, there was the white cup. \"It's yours anyway.\"",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Une fois",
-     "once"
+     "Dans le paquet",
+     "in the parcel"
     ],
     [
-     "à Salzbourg",
-     "in Salzburg"
+     "il y avait",
+     "there was"
     ],
     [
-     "Ça ne compte pas",
-     "that doesn't count"
+     "la tasse blanche",
+     "the white cup"
     ],
     [
-     "c'est à côté",
-     "it's next door"
+     "Elle est à toi",
+     "it's yours"
+    ],
+    [
+     "de toute façon",
+     "anyway"
     ]
    ],
    "audio": {
-    "fr": "audio/s017_fr.mp3",
-    "en": "audio/s017_en.mp3",
-    "wd": "audio/s017_wd.mp3"
-   },
-   "ms": {
-    "fr": 5700,
-    "en": 4410,
-    "wd": 14110
-   },
-   "bank": {
-    "fr": [
-     577770,
-     5700
-    ],
-    "en": [
-     583870,
-     4410
-    ],
-    "wd": [
-     588680,
-     14110
-    ],
-    "wp": [
-     [
-      588680,
-      2440
-     ],
-     [
-      591520,
-      3180
-     ],
-     [
-      595100,
-      3290
-     ],
-     [
-      598790,
-      3150
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Dans la cour, Lenz a posé une planche qu'il avait faite lui-même, avec un bord pour le couteau.",
-   "en": "In the courtyard, Lenz set down a board he had made himself, with a rim for the knife.",
-   "para": 3,
-   "glosses": [],
-   "words": [
-    [
-     "Dans la cour",
-     "in the courtyard"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a posé",
-     "set down"
-    ],
-    [
-     "une planche",
-     "a board"
-    ],
-    [
-     "qu'il avait faite",
-     "that he had made"
-    ],
-    [
-     "lui-même",
-     "himself"
-    ],
-    [
-     "avec un bord",
-     "with a rim"
-    ],
-    [
-     "pour le couteau",
-     "for the knife"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s018_fr.mp3",
-    "en": "audio/s018_en.mp3",
-    "wd": "audio/s018_wd.mp3"
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
    },
    "ms": {
     "fr": 6460,
-    "en": 5490,
-    "wd": 26480
+    "en": 4110,
+    "wd": 16780
    },
    "bank": {
     "fr": [
-     603190,
+     676540,
      6460
     ],
     "en": [
-     610050,
-     5490
+     683400,
+     4110
     ],
     "wd": [
-     615940,
-     26480
+     687910,
+     16780
     ],
     "wp": [
      [
-      615940,
-      3060
+      687910,
+      3030
      ],
      [
-      619400,
-      2550
+      691340,
+      2510
      ],
      [
-      622350,
-      2730
+      694250,
+      3100
      ],
      [
-      625480,
-      2760
+      697750,
+      2900
      ],
      [
-      628640,
-      3310
-     ],
-     [
-      632350,
-      2550
-     ],
-     [
-      635300,
-      3000
-     ],
-     [
-      638700,
-      2870
+      701050,
+      2790
      ]
     ]
    }
   },
   {
-   "fr": "Sur la planche : du radis noir, du fromage à la bière, du pain.",
-   "en": "On the board: black radish, beer cheese, bread.",
+   "fr": "Dans la cour, Lenz a apporté du pain, du fromage et un radis noir.",
+   "en": "In the courtyard, Lenz brought bread, cheese and a black radish.",
    "para": 3,
    "glosses": [
     {
@@ -1543,173 +1859,278 @@
    ],
    "words": [
     [
-     "Sur la planche",
-     "on the board"
+     "Dans la cour",
+     "in the courtyard"
     ],
     [
-     "du radis noir",
-     "black radish"
-    ],
-    [
-     "du fromage à la bière",
-     "beer cheese"
+     "a apporté",
+     "brought"
     ],
     [
      "du pain",
      "bread"
+    ],
+    [
+     "du fromage",
+     "cheese"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "un radis noir",
+     "a black radish"
     ]
    ],
    "audio": {
-    "fr": "audio/s019_fr.mp3",
-    "en": "audio/s019_en.mp3",
-    "gl": "audio/s019_gl.mp3",
-    "wd": "audio/s019_wd.mp3"
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "gl": "audio/s025_gl.mp3",
+    "wd": "audio/s025_wd.mp3"
    },
    "ms": {
-    "fr": 5410,
-    "en": 4180,
+    "fr": 5400,
+    "en": 4720,
     "gl": 4410,
-    "wd": 14310
+    "wd": 18820
    },
    "bank": {
     "fr": [
-     642820,
-     5410
+     705090,
+     5400
     ],
     "en": [
-     648630,
-     4180
+     710890,
+     4720
     ],
     "gl": [
-     653210,
+     716010,
      4410
     ],
     "wd": [
-     658020,
-     14310
+     720820,
+     18820
     ],
     "wp": [
      [
-      658020,
-      3040
+      720820,
+      3060
      ],
      [
-      661460,
-      3410
+      724280,
+      2600
      ],
      [
-      665270,
-      3560
-     ],
-     [
-      669230,
+      727280,
       2250
+     ],
+     [
+      729930,
+      2710
+     ],
+     [
+      733040,
+      1820
+     ],
+     [
+      735260,
+      3530
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a salé le radis, et il a attendu que le radis pleure, comme on dit ici.",
-   "en": "Lenz salted the radish, and waited for the radish to weep, as they say here.",
+   "fr": "Il a coupé le radis, il l'a salé, et il a attendu.",
+   "en": "He cut the radish, he salted it, and he waited.",
    "para": 3,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a salé",
-     "salted"
+     "Il a coupé",
+     "he cut"
     ],
     [
      "le radis",
      "the radish"
     ],
     [
+     "il l'a salé",
+     "he salted it"
+    ],
+    [
      "il a attendu",
      "he waited"
-    ],
-    [
-     "que le radis pleure",
-     "for the radish to weep"
-    ],
-    [
-     "comme on dit ici",
-     "as they say here"
     ]
    ],
    "audio": {
-    "fr": "audio/s020_fr.mp3",
-    "en": "audio/s020_en.mp3",
-    "wd": "audio/s020_wd.mp3"
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
    },
    "ms": {
-    "fr": 5800,
-    "en": 4930,
-    "wd": 20770
+    "fr": 4430,
+    "en": 3480,
+    "wd": 13490
    },
    "bank": {
     "fr": [
-     672730,
-     5800
+     740040,
+     4430
     ],
     "en": [
-     678930,
-     4930
+     744870,
+     3480
     ],
     "wd": [
-     684260,
-     20770
+     748750,
+     13490
     ],
     "wp": [
      [
-      684260,
-      2550
+      748750,
+      2720
      ],
      [
-      687210,
-      2560
-     ],
-     [
-      690170,
+      751870,
       2940
      ],
      [
-      693510,
+      755210,
+      2880
+     ],
+     [
+      758490,
       2900
-     ],
-     [
-      696810,
-      3650
-     ],
-     [
-      700860,
-      3320
      ]
     ]
    }
   },
   {
-   "fr": "« Moi, a dit Odile, sur un tableau, je touche un centimètre carré par jour. Pas plus. »",
-   "en": "\"Me,\" said Odile, \"on a painting, I touch one square centimetre a day. No more.\"",
+   "fr": "« Avec le sel, l'eau sort du radis. Ici, on dit que le radis pleure. »",
+   "en": "\"With the salt, the water comes out of the radish. Here, we say the radish weeps.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "pleure",
+     "en": "weeps (salt draws the water out)"
+    }
+   ],
+   "words": [
+    [
+     "Avec le sel",
+     "with the salt"
+    ],
+    [
+     "l'eau",
+     "the water"
+    ],
+    [
+     "sort",
+     "comes out"
+    ],
+    [
+     "du radis",
+     "of the radish"
+    ],
+    [
+     "Ici",
+     "here"
+    ],
+    [
+     "on dit",
+     "we say"
+    ],
+    [
+     "le radis",
+     "the radish"
+    ],
+    [
+     "pleure",
+     "weeps"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "gl": "audio/s027_gl.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 6380,
+    "en": 5550,
+    "gl": 4540,
+    "wd": 24400
+   },
+   "bank": {
+    "fr": [
+     762640,
+     6380
+    ],
+    "en": [
+     769420,
+     5550
+    ],
+    "gl": [
+     775370,
+     4540
+    ],
+    "wd": [
+     780310,
+     24400
+    ],
+    "wp": [
+     [
+      780310,
+      3080
+     ],
+     [
+      783790,
+      2270
+     ],
+     [
+      786460,
+      2450
+     ],
+     [
+      789310,
+      3030
+     ],
+     [
+      792740,
+      2210
+     ],
+     [
+      795350,
+      2340
+     ],
+     [
+      798090,
+      2940
+     ],
+     [
+      801430,
+      2430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile a parlé de son métier. « Sur un tableau, je touche un centimètre par jour. »",
+   "en": "Odile talked about her job. \"On a painting, I touch one centimetre a day.\"",
    "para": 3,
    "glosses": [],
    "words": [
     [
-     "Moi",
-     "me"
+     "a parlé",
+     "talked"
     ],
     [
-     "a dit",
-     "said"
+     "de son métier",
+     "about her job"
     ],
     [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "sur un tableau",
+     "Sur un tableau",
      "on a painting"
     ],
     [
@@ -1717,138 +2138,134 @@
      "I touch"
     ],
     [
-     "un centimètre carré",
-     "one square centimetre"
+     "un centimètre",
+     "one centimetre"
     ],
     [
      "par jour",
      "a day"
-    ],
-    [
-     "Pas plus",
-     "no more"
     ]
    ],
    "audio": {
-    "fr": "audio/s021_fr.mp3",
-    "en": "audio/s021_en.mp3",
-    "wd": "audio/s021_wd.mp3"
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
    },
    "ms": {
-    "fr": 7580,
-    "en": 5570,
-    "wd": 25270
+    "fr": 6700,
+    "en": 4970,
+    "wd": 20060
    },
    "bank": {
     "fr": [
-     705430,
-     7580
+     805110,
+     6700
     ],
     "en": [
-     713410,
-     5570
+     812210,
+     4970
     ],
     "wd": [
-     719380,
-     25270
+     817580,
+     20060
     ],
     "wp": [
      [
-      719380,
-      2140
+      817580,
+      2370
      ],
      [
-      721920,
-      2220
+      820350,
+      3190
      ],
      [
-      724540,
-      2510
-     ],
-     [
-      727450,
+      823940,
       2960
      ],
      [
-      730810,
+      827300,
       2850
      ],
      [
-      734060,
-      3920
+      830550,
+      3310
      ],
      [
-      738380,
+      834260,
       2530
-     ],
-     [
-      741310,
-      2490
      ]
     ]
    }
   },
   {
-   "fr": "« On mesure avant de toucher. Toujours. »",
-   "en": "\"You measure before you touch. Always.\"",
+   "fr": "« Avant de toucher, je regarde longtemps. Je mesure. »",
+   "en": "\"Before touching, I look for a long time. I measure.\"",
    "para": 3,
    "glosses": [],
    "words": [
     [
-     "On mesure",
-     "you measure"
-    ],
-    [
-     "avant de toucher",
+     "Avant de toucher",
      "before touching"
     ],
     [
-     "Toujours",
-     "always"
+     "je regarde",
+     "I look"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ],
+    [
+     "Je mesure",
+     "I measure"
     ]
    ],
    "audio": {
-    "fr": "audio/s022_fr.mp3",
-    "en": "audio/s022_en.mp3",
-    "wd": "audio/s022_wd.mp3"
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
    },
    "ms": {
-    "fr": 3940,
-    "en": 3180,
-    "wd": 10000
+    "fr": 5150,
+    "en": 4019,
+    "wd": 13520
    },
    "bank": {
     "fr": [
-     745050,
-     3940
+     838040,
+     5150
     ],
     "en": [
-     749390,
-     3180
+     843590,
+     4019
     ],
     "wd": [
-     752970,
-     10000
+     848010,
+     13520
     ],
     "wp": [
      [
-      752970,
-      2760
-     ],
-     [
-      756130,
+      848010,
       3070
      ],
      [
-      759600,
-      2520
+      851480,
+      2720
+     ],
+     [
+      854600,
+      2750
+     ],
+     [
+      857750,
+      2930
      ]
     ]
    }
   },
   {
-   "fr": "« Et dans la vie ? » a demandé Lenz. « Dans la vie, je mesure encore. »",
-   "en": "\"And in life?\" asked Lenz. \"In life, I'm still measuring.\"",
+   "fr": "« Et dans la vie ? » a demandé Lenz. « Dans la vie aussi, je mesure. »",
+   "en": "\"And in life?\" asked Lenz. \"In life too, I measure.\"",
    "para": 3,
    "glosses": [],
    "words": [
@@ -1865,577 +2282,12 @@
      "asked"
     ],
     [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "Dans la vie",
-     "in life"
+     "aussi",
+     "too"
     ],
     [
      "je mesure",
      "I measure"
-    ],
-    [
-     "encore",
-     "still"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s023_fr.mp3",
-    "en": "audio/s023_en.mp3",
-    "wd": "audio/s023_wd.mp3"
-   },
-   "ms": {
-    "fr": 6080,
-    "en": 4400,
-    "wd": 21000
-   },
-   "bank": {
-    "fr": [
-     763370,
-     6080
-    ],
-    "en": [
-     769850,
-     4400
-    ],
-    "wd": [
-     774650,
-     21000
-    ],
-    "wp": [
-     [
-      774650,
-      1820
-     ],
-     [
-      776870,
-      2780
-     ],
-     [
-      780050,
-      2440
-     ],
-     [
-      782890,
-      2550
-     ],
-     [
-      785840,
-      2780
-     ],
-     [
-      789020,
-      2940
-     ],
-     [
-      792360,
-      2440
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le radis avait pleuré. Le sel brillait dessus.",
-   "en": "The radish had wept. The salt was shining on it.",
-   "para": 3,
-   "glosses": [],
-   "words": [
-    [
-     "Le radis",
-     "the radish"
-    ],
-    [
-     "avait pleuré",
-     "had wept"
-    ],
-    [
-     "Le sel",
-     "the salt"
-    ],
-    [
-     "brillait",
-     "was shining"
-    ],
-    [
-     "dessus",
-     "on it"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s024_fr.mp3",
-    "en": "audio/s024_en.mp3",
-    "wd": "audio/s024_wd.mp3"
-   },
-   "ms": {
-    "fr": 4560,
-    "en": 3490,
-    "wd": 15600
-   },
-   "bank": {
-    "fr": [
-     796050,
-     4560
-    ],
-    "en": [
-     801010,
-     3490
-    ],
-    "wd": [
-     804900,
-     15600
-    ],
-    "wp": [
-     [
-      804900,
-      2940
-     ],
-     [
-      808240,
-      2710
-     ],
-     [
-      811350,
-      2700
-     ],
-     [
-      814450,
-      2580
-     ],
-     [
-      817430,
-      2220
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Deuxième chose », a dit Lenz.",
-   "en": "\"Second thing,\" said Lenz.",
-   "para": 3,
-   "glosses": [],
-   "words": [
-    [
-     "Deuxième chose",
-     "second thing"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s025_fr.mp3",
-    "en": "audio/s025_en.mp3",
-    "wd": "audio/s025_wd.mp3"
-   },
-   "ms": {
-    "fr": 2890,
-    "en": 2370,
-    "wd": 9540
-   },
-   "bank": {
-    "fr": [
-     820900,
-     2890
-    ],
-    "en": [
-     824190,
-     2370
-    ],
-    "wd": [
-     826960,
-     9540
-    ],
-    "wp": [
-     [
-      826960,
-      3120
-     ],
-     [
-      830480,
-      2220
-     ],
-     [
-      833100,
-      2550
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "La deuxième chose, c'était Odile qui la montrait.",
-   "en": "The second thing, it was Odile who was showing it.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "La deuxième chose",
-     "the second thing"
-    ],
-    [
-     "c'était",
-     "it was"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "qui la montrait",
-     "who was showing it"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s026_fr.mp3",
-    "en": "audio/s026_en.mp3",
-    "wd": "audio/s026_wd.mp3"
-   },
-   "ms": {
-    "fr": 3850,
-    "en": 3220,
-    "wd": 13470
-   },
-   "bank": {
-    "fr": [
-     836900,
-     3850
-    ],
-    "en": [
-     841150,
-     3220
-    ],
-    "wd": [
-     844770,
-     13470
-    ],
-    "wp": [
-     [
-      844770,
-      3470
-     ],
-     [
-      848640,
-      2410
-     ],
-     [
-      851450,
-      2510
-     ],
-     [
-      854360,
-      3030
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "À l'Alte Pinakothek, Odile est entrée par la porte du personnel, avec Lenz derrière elle.",
-   "en": "At the Alte Pinakothek, Odile went in through the staff door, with Lenz behind her.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "À l'Alte Pinakothek",
-     "at the Alte Pinakothek (Munich's museum of old masters)"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "est entrée",
-     "went in"
-    ],
-    [
-     "par la porte",
-     "through the door"
-    ],
-    [
-     "du personnel",
-     "of the staff"
-    ],
-    [
-     "avec",
-     "with"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "derrière elle",
-     "behind her"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s027_fr.mp3",
-    "en": "audio/s027_en.mp3",
-    "wd": "audio/s027_wd.mp3"
-   },
-   "ms": {
-    "fr": 6540,
-    "en": 5490,
-    "wd": 28520
-   },
-   "bank": {
-    "fr": [
-     858640,
-     6540
-    ],
-    "en": [
-     865580,
-     5490
-    ],
-    "wd": [
-     871470,
-     28520
-    ],
-    "wp": [
-     [
-      871470,
-      6210
-     ],
-     [
-      878080,
-      2510
-     ],
-     [
-      880990,
-      2510
-     ],
-     [
-      883900,
-      2980
-     ],
-     [
-      887280,
-      3120
-     ],
-     [
-      890800,
-      2170
-     ],
-     [
-      893370,
-      2550
-     ],
-     [
-      896320,
-      2820
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "En soixante et un ans à Munich, Lenz n'avait jamais passé cette porte.",
-   "en": "In sixty-one years in Munich, Lenz had never gone through that door.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "En soixante et un ans",
-     "in sixty-one years"
-    ],
-    [
-     "à Munich",
-     "in Munich"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "n'avait jamais passé",
-     "had never gone through"
-    ],
-    [
-     "cette porte",
-     "that door"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s028_fr.mp3",
-    "en": "audio/s028_en.mp3",
-    "wd": "audio/s028_wd.mp3"
-   },
-   "ms": {
-    "fr": 4970,
-    "en": 4330,
-    "wd": 18210
-   },
-   "bank": {
-    "fr": [
-     900390,
-     4970
-    ],
-    "en": [
-     905760,
-     4330
-    ],
-    "wd": [
-     910490,
-     18210
-    ],
-    "wp": [
-     [
-      910490,
-      3840
-     ],
-     [
-      914730,
-      2720
-     ],
-     [
-      917850,
-      2550
-     ],
-     [
-      920800,
-      3710
-     ],
-     [
-      924910,
-      2940
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Je suis menuisier », a dit Lenz. « Je regarde les cadres de dehors. »",
-   "en": "\"I'm a cabinetmaker,\" said Lenz. \"I look at the frames from outside.\"",
-   "para": 4,
-   "glosses": [
-    {
-     "fr": "menuisier",
-     "en": "cabinetmaker, joiner"
-    }
-   ],
-   "words": [
-    [
-     "Je suis",
-     "I am"
-    ],
-    [
-     "menuisier",
-     "cabinetmaker"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "Je regarde",
-     "I look at"
-    ],
-    [
-     "les cadres",
-     "the frames"
-    ],
-    [
-     "de dehors",
-     "from outside"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s029_fr.mp3",
-    "en": "audio/s029_en.mp3",
-    "gl": "audio/s029_gl.mp3",
-    "wd": "audio/s029_wd.mp3"
-   },
-   "ms": {
-    "fr": 6010,
-    "en": 4550,
-    "gl": 4690,
-    "wd": 22220
-   },
-   "bank": {
-    "fr": [
-     929100,
-     6010
-    ],
-    "en": [
-     935510,
-     4550
-    ],
-    "gl": [
-     940460,
-     4690
-    ],
-    "wd": [
-     945550,
-     22220
-    ],
-    "wp": [
-     [
-      945550,
-      2540
-     ],
-     [
-      948490,
-      2980
-     ],
-     [
-      951870,
-      2220
-     ],
-     [
-      954490,
-      2550
-     ],
-     [
-      957440,
-      2820
-     ],
-     [
-      960660,
-      2910
-     ],
-     [
-      963970,
-      2950
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le tableau était accroché depuis mardi. Un petit tableau, quarante-six centimètres sur trente-sept.",
-   "en": "The painting had been hanging since Tuesday. A small painting, forty-six centimetres by thirty-seven.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Le tableau",
-     "the painting"
-    ],
-    [
-     "était accroché",
-     "was hanging"
-    ],
-    [
-     "depuis mardi",
-     "since Tuesday"
-    ],
-    [
-     "Un petit tableau",
-     "a small painting"
-    ],
-    [
-     "quarante-six centimètres",
-     "forty-six centimetres"
-    ],
-    [
-     "sur trente-sept",
-     "by thirty-seven"
     ]
    ],
    "audio": {
@@ -2444,189 +2296,142 @@
     "wd": "audio/s030_wd.mp3"
    },
    "ms": {
-    "fr": 7610,
-    "en": 6030,
-    "wd": 22360
+    "fr": 6000,
+    "en": 4420,
+    "wd": 14570
    },
    "bank": {
     "fr": [
-     968170,
-     7610
+     861930,
+     6000
     ],
     "en": [
-     976180,
-     6030
+     868330,
+     4420
     ],
     "wd": [
-     982610,
-     22360
+     873150,
+     14570
     ],
     "wp": [
      [
-      982610,
-      2560
+      873150,
+      1820
      ],
      [
-      985570,
-      2880
+      875370,
+      2780
      ],
      [
-      988850,
-      3280
+      878550,
+      2440
      ],
      [
-      992530,
-      3280
+      881390,
+      2140
      ],
      [
-      996210,
-      4110
-     ],
-     [
-      1000720,
-      3400
+      883930,
+      2940
      ]
     ]
    }
   },
   {
-   "fr": "Une servante assise, un couteau dans une main, un navet à moitié pelé dans l'autre.",
-   "en": "A kitchen maid sitting, a knife in one hand, a half-peeled turnip in the other.",
-   "para": 4,
-   "glosses": [
-    {
-     "fr": "servante",
-     "en": "kitchen maid, servant"
-    },
-    {
-     "fr": "navet",
-     "en": "turnip"
-    }
-   ],
+   "fr": "« J'ai mesuré pendant six mois », a dit Odile. « Maintenant, je demande. »",
+   "en": "\"I've measured for six months,\" said Odile. \"Now, I'm asking.\"",
+   "para": 3,
+   "glosses": [],
    "words": [
     [
-     "Une servante",
-     "a kitchen maid"
+     "J'ai mesuré",
+     "I measured"
     ],
     [
-     "assise",
-     "sitting"
+     "pendant six mois",
+     "for six months"
     ],
     [
-     "un couteau",
-     "a knife"
+     "a dit",
+     "said"
     ],
     [
-     "dans une main",
-     "in one hand"
+     "Maintenant",
+     "now"
     ],
     [
-     "un navet",
-     "a turnip"
-    ],
-    [
-     "à moitié pelé",
-     "half-peeled"
-    ],
-    [
-     "dans l'autre",
-     "in the other"
+     "je demande",
+     "I'm asking"
     ]
    ],
    "audio": {
     "fr": "audio/s031_fr.mp3",
     "en": "audio/s031_en.mp3",
-    "gl": "audio/s031_gl.mp3",
     "wd": "audio/s031_wd.mp3"
    },
    "ms": {
-    "fr": 5750,
-    "en": 5210,
-    "gl": 7530,
-    "wd": 22980
+    "fr": 6210,
+    "en": 4520,
+    "wd": 16440
    },
    "bank": {
     "fr": [
-     1005370,
-     5750
+     888120,
+     6210
     ],
     "en": [
-     1011520,
-     5210
-    ],
-    "gl": [
-     1017130,
-     7530
+     894730,
+     4520
     ],
     "wd": [
-     1025060,
-     22980
+     899650,
+     16440
     ],
     "wp": [
      [
-      1025060,
-      3250
-     ],
-     [
-      1028710,
-      2370
-     ],
-     [
-      1031480,
-      2610
-     ],
-     [
-      1034490,
+      899650,
       3000
      ],
      [
-      1037890,
-      2660
+      903050,
+      3420
      ],
      [
-      1040950,
-      3000
+      906870,
+      2220
      ],
      [
-      1044350,
-      2840
+      909490,
+      2320
+     ],
+     [
+      912210,
+      3030
      ]
     ]
    }
   },
   {
-   "fr": "La servante ne regarde ni le couteau ni le navet. Elle regarde ailleurs. Elle s'est arrêtée.",
-   "en": "The maid is looking neither at the knife nor at the turnip. She is looking elsewhere. She has stopped.",
-   "para": 4,
+   "fr": "« Demain matin, tu viens avec moi, oui ou non ? »",
+   "en": "\"Tomorrow morning, are you coming with me, yes or no?\"",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "La servante",
-     "the maid"
+     "Demain matin",
+     "tomorrow morning"
     ],
     [
-     "ne regarde",
-     "is looking"
+     "tu viens",
+     "you come"
     ],
     [
-     "ni le couteau",
-     "neither at the knife"
+     "avec moi",
+     "with me"
     ],
     [
-     "ni le navet",
-     "nor at the turnip"
-    ],
-    [
-     "Elle regarde",
-     "she is looking"
-    ],
-    [
-     "ailleurs",
-     "elsewhere"
-    ],
-    [
-     "Elle s'est arrêtée",
-     "she has stopped"
+     "oui ou non",
+     "yes or no"
     ]
    ],
    "audio": {
@@ -2635,76 +2440,64 @@
     "wd": "audio/s032_wd.mp3"
    },
    "ms": {
-    "fr": 8039,
-    "en": 6210,
-    "wd": 23650
+    "fr": 3720,
+    "en": 3750,
+    "wd": 13120
    },
    "bank": {
     "fr": [
-     1048440,
-     8039
+     916490,
+     3720
     ],
     "en": [
-     1056880,
-     6210
+     920610,
+     3750
     ],
     "wd": [
-     1063490,
-     23650
+     924760,
+     13120
     ],
     "wp": [
      [
-      1063490,
-      2770
-     ],
-     [
-      1066660,
-      2770
-     ],
-     [
-      1069830,
-      3230
-     ],
-     [
-      1073460,
+      924760,
       2990
      ],
      [
-      1076850,
-      3010
+      928150,
+      2610
      ],
      [
-      1080260,
-      2420
+      931160,
+      2530
      ],
      [
-      1083080,
-      3210
+      934090,
+      2940
      ]
     ]
    }
   },
   {
-   "fr": "« Chardin, a dit Odile. Mille sept cent trente-huit. »",
-   "en": "\"Chardin,\" said Odile. \"Seventeen thirty-eight.\"",
-   "para": 4,
+   "fr": "Lenz a regardé le radis, qui pleurait toujours.",
+   "en": "Lenz looked at the radish, which was still weeping.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "Chardin",
-     "Chardin (a French painter)"
+     "a regardé",
+     "looked at"
     ],
     [
-     "a dit",
-     "said"
+     "le radis",
+     "the radish"
     ],
     [
-     "Odile",
-     "Odile"
+     "qui pleurait",
+     "which was weeping"
     ],
     [
-     "Mille sept cent trente-huit",
-     "seventeen thirty-eight"
+     "toujours",
+     "still"
     ]
    ],
    "audio": {
@@ -2713,1588 +2506,39 @@
     "wd": "audio/s033_wd.mp3"
    },
    "ms": {
-    "fr": 5150,
-    "en": 3760,
-    "wd": 14600
+    "fr": 3920,
+    "en": 3150,
+    "wd": 12870
    },
    "bank": {
     "fr": [
-     1087540,
-     5150
+     938280,
+     3920
     ],
     "en": [
-     1093090,
-     3760
+     942600,
+     3150
     ],
     "wd": [
-     1097250,
-     14600
+     946150,
+     12870
     ],
     "wp": [
      [
-      1097250,
-      3630
-     ],
-     [
-      1101280,
-      2220
-     ],
-     [
-      1103900,
-      2510
-     ],
-     [
-      1106810,
-      4190
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Elle s'est arrêtée il y a presque trois cents ans, et elle n'a toujours pas repris le travail. »",
-   "en": "\"She stopped almost three hundred years ago, and she still hasn't gone back to work.\"",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Elle s'est arrêtée",
-     "she stopped"
-    ],
-    [
-     "il y a",
-     "ago"
-    ],
-    [
-     "presque trois cents ans",
-     "almost three hundred years"
-    ],
-    [
-     "elle n'a toujours pas repris",
-     "she still hasn't gone back to"
-    ],
-    [
-     "le travail",
-     "the work"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s034_fr.mp3",
-    "en": "audio/s034_en.mp3",
-    "wd": "audio/s034_wd.mp3"
-   },
-   "ms": {
-    "fr": 5570,
-    "en": 4870,
-    "wd": 19080
-   },
-   "bank": {
-    "fr": [
-     1112250,
-     5570
-    ],
-    "en": [
-     1118220,
-     4870
-    ],
-    "wd": [
-     1123490,
-     19080
-    ],
-    "wp": [
-     [
-      1123490,
-      2980
-     ],
-     [
-      1126870,
-      2400
-     ],
-     [
-      1129670,
-      4100
-     ],
-     [
-      1134170,
-      4270
-     ],
-     [
-      1138840,
-      2880
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Elle pense à quoi ? » a demandé Lenz. « À autre chose. C'est tout le tableau. »",
-   "en": "\"What is she thinking about?\" asked Lenz. \"About something else. That's the whole painting.\"",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Elle pense à quoi",
-     "what is she thinking about"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "À autre chose",
-     "about something else"
-    ],
-    [
-     "C'est tout le tableau",
-     "that's the whole painting"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s035_fr.mp3",
-    "en": "audio/s035_en.mp3",
-    "wd": "audio/s035_wd.mp3"
-   },
-   "ms": {
-    "fr": 7290,
-    "en": 5760,
-    "wd": 18030
-   },
-   "bank": {
-    "fr": [
-     1142970,
-     7290
-    ],
-    "en": [
-     1150660,
-     5760
-    ],
-    "wd": [
-     1156820,
-     18030
-    ],
-    "wp": [
-     [
-      1156820,
-      3690
-     ],
-     [
-      1160910,
-      2440
-     ],
-     [
-      1163750,
+      946150,
       2550
      ],
      [
-      1166700,
-      3460
-     ],
-     [
-      1170560,
-      3440
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Pendant cinq mois, Odile avait enlevé un vernis jaune, millimètre par millimètre, sous une loupe.",
-   "en": "For five months, Odile had removed a yellow varnish, millimetre by millimetre, under a magnifying glass.",
-   "para": 4,
-   "glosses": [
-    {
-     "fr": "vernis",
-     "en": "varnish"
-    },
-    {
-     "fr": "loupe",
-     "en": "magnifying glass"
-    }
-   ],
-   "words": [
-    [
-     "Pendant cinq mois",
-     "for five months"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "avait enlevé",
-     "had removed"
-    ],
-    [
-     "un vernis jaune",
-     "a yellow varnish"
-    ],
-    [
-     "millimètre par millimètre",
-     "millimetre by millimetre"
-    ],
-    [
-     "sous une loupe",
-     "under a magnifying glass"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s036_fr.mp3",
-    "en": "audio/s036_en.mp3",
-    "gl": "audio/s036_gl.mp3",
-    "wd": "audio/s036_wd.mp3"
-   },
-   "ms": {
-    "fr": 6870,
-    "en": 7230,
-    "gl": 6680,
-    "wd": 23560
-   },
-   "bank": {
-    "fr": [
-     1175250,
-     6870
-    ],
-    "en": [
-     1182520,
-     7230
-    ],
-    "gl": [
-     1190150,
-     6680
-    ],
-    "wd": [
-     1197230,
-     23560
-    ],
-    "wp": [
-     [
-      1197230,
-      3510
-     ],
-     [
-      1201140,
-      2510
-     ],
-     [
-      1204050,
-      2900
-     ],
-     [
-      1207350,
-      3410
-     ],
-     [
-      1211160,
-      4500
-     ],
-     [
-      1216060,
-      3880
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le bleu du tablier était revenu, le rouge d'un cuivre dans le fond, la lumière sur le navet.",
-   "en": "The blue of the apron had come back, the red of a copper pot in the background, the light on the turnip.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Le bleu",
-     "the blue"
-    ],
-    [
-     "du tablier",
-     "of the apron"
-    ],
-    [
-     "était revenu",
-     "had come back"
-    ],
-    [
-     "le rouge",
-     "the red"
-    ],
-    [
-     "d'un cuivre",
-     "of a copper pot"
-    ],
-    [
-     "dans le fond",
-     "in the background"
-    ],
-    [
-     "la lumière",
-     "the light"
-    ],
-    [
-     "sur le navet",
-     "on the turnip"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s037_fr.mp3",
-    "en": "audio/s037_en.mp3",
-    "wd": "audio/s037_wd.mp3"
-   },
-   "ms": {
-    "fr": 6360,
-    "en": 5950,
-    "wd": 26540
-   },
-   "bank": {
-    "fr": [
-     1221190,
-     6360
-    ],
-    "en": [
-     1227950,
-     5950
-    ],
-    "wd": [
-     1234300,
-     26540
-    ],
-    "wp": [
-     [
-      1234300,
-      2530
-     ],
-     [
-      1237230,
-      2930
-     ],
-     [
-      1240560,
-      2920
-     ],
-     [
-      1243880,
-      2720
-     ],
-     [
-      1247000,
-      3100
-     ],
-     [
-      1250500,
-      3070
-     ],
-     [
-      1253970,
-      2670
-     ],
-     [
-      1257040,
-      2950
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz n'a pas regardé le navet. Il a regardé le cadre. Longtemps.",
-   "en": "Lenz did not look at the turnip. He looked at the frame. For a long time.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "n'a pas regardé",
-     "did not look at"
-    ],
-    [
-     "le navet",
-     "the turnip"
-    ],
-    [
-     "Il a regardé",
-     "he looked at"
-    ],
-    [
-     "le cadre",
-     "the frame"
-    ],
-    [
-     "Longtemps",
-     "for a long time"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s038_fr.mp3",
-    "en": "audio/s038_en.mp3",
-    "wd": "audio/s038_wd.mp3"
-   },
-   "ms": {
-    "fr": 6650,
-    "en": 5090,
-    "wd": 19760
-   },
-   "bank": {
-    "fr": [
-     1261240,
-     6650
-    ],
-    "en": [
-     1268290,
-     5090
-    ],
-    "wd": [
-     1273780,
-     19760
-    ],
-    "wp": [
-     [
-      1273780,
-      2550
-     ],
-     [
-      1276730,
-      3220
-     ],
-     [
-      1280350,
-      2610
-     ],
-     [
-      1283360,
-      2990
-     ],
-     [
-      1286750,
-      2790
-     ],
-     [
-      1289940,
-      2750
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Il s'est penché, la tête de côté, et il a regardé le coin en bas à gauche.",
-   "en": "He leaned forward, head tilted, and he looked at the bottom left corner.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Il s'est penché",
-     "he leaned forward"
-    ],
-    [
-     "la tête de côté",
-     "head tilted"
-    ],
-    [
-     "il a regardé",
-     "he looked at"
-    ],
-    [
-     "le coin",
-     "the corner"
-    ],
-    [
-     "en bas à gauche",
-     "bottom left"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s039_fr.mp3",
-    "en": "audio/s039_en.mp3",
-    "wd": "audio/s039_wd.mp3"
-   },
-   "ms": {
-    "fr": 5700,
-    "en": 4530,
-    "wd": 17830
-   },
-   "bank": {
-    "fr": [
-     1293940,
-     5700
-    ],
-    "en": [
-     1300040,
-     4530
-    ],
-    "wd": [
-     1304970,
-     17830
-    ],
-    "wp": [
-     [
-      1304970,
-      3210
-     ],
-     [
-      1308580,
-      3340
-     ],
-     [
-      1312320,
-      2990
-     ],
-     [
-      1315710,
-      2650
-     ],
-     [
-      1318760,
-      3190
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Il est bien, le cadre », a dit Lenz. « Deux jours », a dit Odile. « Ça se voit. »",
-   "en": "\"It's good, the frame,\" said Lenz. \"Two days,\" said Odile. \"You can tell.\"",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Il est bien",
-     "it's good"
-    ],
-    [
-     "le cadre",
-     "the frame"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "Deux jours",
-     "two days"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Ça se voit",
-     "you can tell"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s040_fr.mp3",
-    "en": "audio/s040_en.mp3",
-    "wd": "audio/s040_wd.mp3"
-   },
-   "ms": {
-    "fr": 8000,
-    "en": 5820,
-    "wd": 21690
-   },
-   "bank": {
-    "fr": [
-     1323200,
-     8000
-    ],
-    "en": [
-     1331600,
-     5820
-    ],
-    "wd": [
-     1337820,
-     21690
-    ],
-    "wp": [
-     [
-      1337820,
-      2640
-     ],
-     [
-      1340860,
-      2790
-     ],
-     [
-      1344050,
-      2220
-     ],
-     [
-      1346670,
-      2550
-     ],
-     [
-      1349620,
-      2860
-     ],
-     [
-      1352880,
-      2510
-     ],
-     [
-      1355790,
-      2870
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz a reculé. Il est resté devant la servante, les mains dans le dos, immobile.",
-   "en": "Lenz stepped back. He stayed in front of the maid, hands behind his back, motionless.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a reculé",
-     "stepped back"
-    ],
-    [
-     "Il est resté",
-     "he stayed"
-    ],
-    [
-     "devant",
-     "in front of"
-    ],
-    [
-     "la servante",
-     "the maid"
-    ],
-    [
-     "les mains dans le dos",
-     "hands behind his back"
-    ],
-    [
-     "immobile",
-     "motionless"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s041_fr.mp3",
-    "en": "audio/s041_en.mp3",
-    "wd": "audio/s041_wd.mp3"
-   },
-   "ms": {
-    "fr": 6880,
-    "en": 5960,
-    "wd": 23020
-   },
-   "bank": {
-    "fr": [
-     1359910,
-     6880
-    ],
-    "en": [
-     1367190,
-     5960
-    ],
-    "wd": [
-     1373550,
-     23020
-    ],
-    "wp": [
-     [
-      1373550,
-      2550
-     ],
-     [
-      1376500,
-      2800
-     ],
-     [
-      1379700,
-      2850
-     ],
-     [
-      1382950,
-      2440
-     ],
-     [
-      1385790,
-      2770
-     ],
-     [
-      1388960,
-      3600
-     ],
-     [
-      1392960,
-      2760
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Exactement comme un homme sur un pont qui regarde une vague.",
-   "en": "Exactly like a man on a bridge watching a wave.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Exactement",
-     "exactly"
-    ],
-    [
-     "comme",
-     "like"
-    ],
-    [
-     "un homme",
-     "a man"
-    ],
-    [
-     "sur un pont",
-     "on a bridge"
-    ],
-    [
-     "qui regarde",
-     "who is watching"
-    ],
-    [
-     "une vague",
-     "a wave"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s042_fr.mp3",
-    "en": "audio/s042_en.mp3",
-    "wd": "audio/s042_wd.mp3"
-   },
-   "ms": {
-    "fr": 3960,
-    "en": 3370,
-    "wd": 18950
-   },
-   "bank": {
-    "fr": [
-     1396970,
-     3960
-    ],
-    "en": [
-     1401330,
-     3370
-    ],
-    "wd": [
-     1405100,
-     18950
-    ],
-    "wp": [
-     [
-      1405100,
-      2750
-     ],
-     [
-      1408250,
-      2170
-     ],
-     [
-      1410820,
-      2520
-     ],
-     [
-      1413740,
-      2930
-     ],
-     [
-      1417070,
-      3030
-     ],
-     [
-      1420500,
-      2700
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile l'a vu. Elle n'a rien dit.",
-   "en": "Odile saw it. She said nothing.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "l'a vu",
-     "saw it"
-    ],
-    [
-     "Elle n'a rien dit",
-     "she said nothing"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s043_fr.mp3",
-    "en": "audio/s043_en.mp3",
-    "wd": "audio/s043_wd.mp3"
-   },
-   "ms": {
-    "fr": 3730,
-    "en": 3020,
-    "wd": 10000
-   },
-   "bank": {
-    "fr": [
-     1424450,
-     3730
-    ],
-    "en": [
-     1428580,
-     3020
-    ],
-    "wd": [
-     1432000,
-     10000
-    ],
-    "wp": [
-     [
-      1432000,
-      2510
-     ],
-     [
-      1434910,
-      2480
-     ],
-     [
-      1437790,
-      3360
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Et la troisième chose ? » a demandé Odile. « Pas ici. »",
-   "en": "\"And the third thing?\" asked Odile. \"Not here.\"",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "Et",
-     "and"
-    ],
-    [
-     "la troisième chose",
-     "the third thing"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Pas ici",
-     "not here"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s044_fr.mp3",
-    "en": "audio/s044_en.mp3",
-    "wd": "audio/s044_wd.mp3"
-   },
-   "ms": {
-    "fr": 5190,
-    "en": 3670,
-    "wd": 15520
-   },
-   "bank": {
-    "fr": [
-     1442400,
-     5190
-    ],
-    "en": [
-     1447990,
-     3670
-    ],
-    "wd": [
-     1452060,
-     15520
-    ],
-    "wp": [
-     [
-      1452060,
-      1820
-     ],
-     [
-      1454280,
-      3600
-     ],
-     [
-      1458280,
-      2440
-     ],
-     [
-      1461120,
-      2510
-     ],
-     [
-      1464030,
-      2700
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Ils sont remontés à pied par la Leopoldstraße, à Schwabing.",
-   "en": "They walked back up along the Leopoldstraße, in Schwabing.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Ils sont remontés",
-     "they went back up"
-    ],
-    [
-     "à pied",
-     "on foot"
-    ],
-    [
-     "par la Leopoldstraße",
-     "along the Leopoldstraße (Schwabing's main avenue)"
-    ],
-    [
-     "à Schwabing",
-     "in Schwabing"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s045_fr.mp3",
-    "en": "audio/s045_en.mp3",
-    "wd": "audio/s045_wd.mp3"
-   },
-   "ms": {
-    "fr": 4530,
-    "en": 3670,
-    "wd": 16200
-   },
-   "bank": {
-    "fr": [
-     1467980,
-     4530
-    ],
-    "en": [
-     1472910,
-     3670
-    ],
-    "wd": [
-     1476980,
-     16200
-    ],
-    "wp": [
-     [
-      1476980,
-      3300
-     ],
-     [
-      1480680,
-      2430
-     ],
-     [
-      1483510,
-      5570
-     ],
-     [
-      1489480,
-      2850
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "À sept heures du soir, les terrasses étaient pleines, les gens en bras de chemise.",
-   "en": "At seven in the evening, the terraces were full, people in shirt sleeves.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "À sept heures du soir",
-     "at seven in the evening"
-    ],
-    [
-     "les terrasses",
-     "the terraces"
-    ],
-    [
-     "étaient pleines",
-     "were full"
-    ],
-    [
-     "les gens",
-     "the people"
-    ],
-    [
-     "en bras de chemise",
-     "in shirt sleeves"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s046_fr.mp3",
-    "en": "audio/s046_en.mp3",
-    "wd": "audio/s046_wd.mp3"
-   },
-   "ms": {
-    "fr": 5480,
-    "en": 4890,
-    "wd": 18220
-   },
-   "bank": {
-    "fr": [
-     1493580,
-     5480
-    ],
-    "en": [
-     1499460,
-     4890
-    ],
-    "wd": [
-     1504750,
-     18220
-    ],
-    "wp": [
-     [
-      1504750,
-      3800
-     ],
-     [
-      1508950,
-      3140
-     ],
-     [
-      1512490,
-      2880
-     ],
-     [
-      1515770,
-      2420
-     ],
-     [
-      1518590,
-      3530
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le Föhn tenait toujours. On ne voyait plus les montagnes d'en bas, mais on savait qu'elles étaient là.",
-   "en": "The Föhn was still holding. You could no longer see the mountains from down here, but you knew they were there.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Le Föhn",
-     "the Föhn"
-    ],
-    [
-     "tenait toujours",
-     "was still holding"
-    ],
-    [
-     "On ne voyait plus",
-     "you could no longer see"
-    ],
-    [
-     "les montagnes",
-     "the mountains"
-    ],
-    [
-     "d'en bas",
-     "from below"
-    ],
-    [
-     "mais",
-     "but"
-    ],
-    [
-     "on savait",
-     "you knew"
-    ],
-    [
-     "qu'elles étaient là",
-     "that they were there"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s047_fr.mp3",
-    "en": "audio/s047_en.mp3",
-    "wd": "audio/s047_wd.mp3"
-   },
-   "ms": {
-    "fr": 7030,
-    "en": 6070,
-    "wd": 26530
-   },
-   "bank": {
-    "fr": [
-     1523370,
-     7030
-    ],
-    "en": [
-     1530800,
-     6070
-    ],
-    "wd": [
-     1537270,
-     26530
-    ],
-    "wp": [
-     [
-      1537270,
-      2700
-     ],
-     [
-      1540370,
-      3280
-     ],
-     [
-      1544050,
-      3680
-     ],
-     [
-      1548130,
-      3010
-     ],
-     [
-      1551540,
-      2650
-     ],
-     [
-      1554590,
-      1920
-     ],
-     [
-      1556910,
-      2540
-     ],
-     [
-      1559850,
-      3100
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Sur le quai du métro, à Münchner Freiheit, Lenz a sorti de sa poche un petit paquet.",
-   "en": "On the metro platform, at Münchner Freiheit, Lenz took a small parcel out of his pocket.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Sur le quai",
-     "on the platform"
-    ],
-    [
-     "du métro",
-     "of the metro"
-    ],
-    [
-     "à Münchner Freiheit",
-     "at Münchner Freiheit (a metro station in Schwabing)"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a sorti",
-     "took out"
-    ],
-    [
-     "de sa poche",
-     "from his pocket"
-    ],
-    [
-     "un petit paquet",
-     "a small parcel"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s048_fr.mp3",
-    "en": "audio/s048_en.mp3",
-    "wd": "audio/s048_wd.mp3"
-   },
-   "ms": {
-    "fr": 5900,
-    "en": 5800,
-    "wd": 26050
-   },
-   "bank": {
-    "fr": [
-     1564200,
-     5900
-    ],
-    "en": [
-     1570500,
-     5800
-    ],
-    "wd": [
-     1576700,
-     26050
-    ],
-    "wp": [
-     [
-      1576700,
-      3000
-     ],
-     [
-      1580100,
-      2890
-     ],
-     [
-      1583390,
-      5340
-     ],
-     [
-      1589130,
-      2550
-     ],
-     [
-      1592080,
-      2480
-     ],
-     [
-      1594960,
-      3130
-     ],
-     [
-      1598490,
-      3410
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Dans du papier journal, le gobelet blanc de la Dult.",
-   "en": "In newspaper, the white cup from the Dult.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Dans du papier journal",
-     "in newspaper"
-    ],
-    [
-     "le gobelet blanc",
-     "the white cup"
-    ],
-    [
-     "de la Dult",
-     "from the Dult"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s049_fr.mp3",
-    "en": "audio/s049_en.mp3",
-    "wd": "audio/s049_wd.mp3"
-   },
-   "ms": {
-    "fr": 4040,
-    "en": 3120,
-    "wd": 11310
-   },
-   "bank": {
-    "fr": [
-     1603150,
-     4040
-    ],
-    "en": [
-     1607590,
-     3120
-    ],
-    "wd": [
-     1611110,
-     11310
-    ],
-    "wp": [
-     [
-      1611110,
-      3690
-     ],
-     [
-      1615200,
-      2950
-     ],
-     [
-      1618550,
-      3020
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« C'est la troisième chose ? » a demandé Odile. « Non. Ça, c'est à toi de toute façon. »",
-   "en": "\"Is this the third thing?\" asked Odile. \"No. This is yours anyway.\"",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "C'est",
-     "is this"
-    ],
-    [
-     "la troisième chose",
-     "the third thing"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Non",
-     "no"
-    ],
-    [
-     "Ça",
-     "this"
-    ],
-    [
-     "c'est à toi",
-     "it's yours"
-    ],
-    [
-     "de toute façon",
-     "anyway"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s050_fr.mp3",
-    "en": "audio/s050_en.mp3",
-    "wd": "audio/s050_wd.mp3"
-   },
-   "ms": {
-    "fr": 8100,
-    "en": 5240,
-    "wd": 24670
-   },
-   "bank": {
-    "fr": [
-     1622820,
-     8100
-    ],
-    "en": [
-     1631320,
-     5240
-    ],
-    "wd": [
-     1636960,
-     24670
-    ],
-    "wp": [
-     [
-      1636960,
-      2450
-     ],
-     [
-      1639810,
-      3600
-     ],
-     [
-      1643810,
-      2440
-     ],
-     [
-      1646650,
-      2510
-     ],
-     [
-      1649560,
-      2080
-     ],
-     [
-      1652040,
-      2210
-     ],
-     [
-      1654650,
+      949100,
       2940
      ],
      [
-      1657990,
-      2790
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le métro arrivait. Odile a dit, en regardant le tunnel, du ton dont on donne une information :",
-   "en": "The metro was arriving. Odile said, looking at the tunnel, in the tone in which you give a piece of information:",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Le métro",
-     "the metro"
-    ],
-    [
-     "arrivait",
-     "was arriving"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "en regardant",
-     "looking at"
-    ],
-    [
-     "le tunnel",
-     "the tunnel"
-    ],
-    [
-     "du ton dont on donne",
-     "in the tone in which you give"
-    ],
-    [
-     "une information",
-     "a piece of information"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s051_fr.mp3",
-    "en": "audio/s051_en.mp3",
-    "wd": "audio/s051_wd.mp3"
-   },
-   "ms": {
-    "fr": 7620,
-    "en": 6730,
-    "wd": 26650
-   },
-   "bank": {
-    "fr": [
-     1662030,
-     7620
-    ],
-    "en": [
-     1670050,
-     6730
-    ],
-    "wd": [
-     1677180,
-     26650
-    ],
-    "wp": [
-     [
-      1677180,
-      2650
+      952440,
+      2880
      ],
      [
-      1680230,
-      2610
-     ],
-     [
-      1683240,
-      2510
-     ],
-     [
-      1686150,
-      2220
-     ],
-     [
-      1688770,
-      2650
-     ],
-     [
-      1691820,
-      2780
-     ],
-     [
-      1695000,
-      3910
-     ],
-     [
-      1699310,
-      3670
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Lyon est à deux heures de Paris. Le train est direct. »",
-   "en": "\"Lyon is two hours from Paris. The train is direct.\"",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Lyon",
-     "Lyon"
-    ],
-    [
-     "est à deux heures",
-     "is two hours"
-    ],
-    [
-     "de Paris",
-     "from Paris"
-    ],
-    [
-     "Le train",
-     "the train"
-    ],
-    [
-     "est direct",
-     "is direct"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s052_fr.mp3",
-    "en": "audio/s052_en.mp3",
-    "wd": "audio/s052_wd.mp3"
-   },
-   "ms": {
-    "fr": 4860,
-    "en": 4260,
-    "wd": 16250
-   },
-   "bank": {
-    "fr": [
-     1704230,
-     4860
-    ],
-    "en": [
-     1709490,
-     4260
-    ],
-    "wd": [
-     1714150,
-     16250
-    ],
-    "wp": [
-     [
-      1714150,
-      2200
-     ],
-     [
-      1716750,
-      3310
-     ],
-     [
-      1720460,
-      2870
-     ],
-     [
-      1723730,
-      2490
-     ],
-     [
-      1726620,
-      2930
+      955720,
+      2450
      ]
     ]
    }
@@ -4302,7 +2546,7 @@
   {
    "fr": "« Je sais où est Lyon », a dit Lenz.",
    "en": "\"I know where Lyon is,\" said Lenz.",
-   "para": 5,
+   "para": 3,
    "glosses": [],
    "words": [
     [
@@ -4316,68 +2560,65 @@
     [
      "a dit",
      "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
     ]
    ],
    "audio": {
-    "fr": "audio/s053_fr.mp3",
-    "en": "audio/s053_en.mp3",
-    "wd": "audio/s053_wd.mp3"
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
    },
    "ms": {
     "fr": 3020,
     "en": 2640,
-    "wd": 12250
+    "wd": 9300
    },
    "bank": {
     "fr": [
-     1730800,
+     959420,
      3020
     ],
     "en": [
-     1734220,
+     962840,
      2640
     ],
     "wd": [
-     1737260,
-     12250
+     965880,
+     9300
     ],
     "wp": [
      [
-      1737260,
+      965880,
       2450
      ],
      [
-      1740110,
+      968730,
       2980
      ],
      [
-      1743490,
+      972110,
       2220
-     ],
-     [
-      1746110,
-      2550
      ]
     ]
    }
   },
   {
-   "fr": "Lenz l'a dit comme on ferme une porte, sans la claquer.",
-   "en": "Lenz said it the way you close a door, without slamming it.",
-   "para": 5,
-   "glosses": [],
+   "fr": "Il l'a dit doucement, comme on ferme une porte sans la claquer.",
+   "en": "He said it gently, the way you close a door without slamming it.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "claquer",
+     "en": "to slam"
+    }
+   ],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Il l'a dit",
+     "he said it"
     ],
     [
-     "l'a dit",
-     "said it"
+     "doucement",
+     "gently"
     ],
     [
      "comme",
@@ -4397,465 +2638,436 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s054_fr.mp3",
-    "en": "audio/s054_en.mp3",
-    "wd": "audio/s054_wd.mp3"
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "gl": "audio/s035_gl.mp3",
+    "wd": "audio/s035_wd.mp3"
    },
    "ms": {
-    "fr": 4030,
-    "en": 3780,
-    "wd": 19090
+    "fr": 4300,
+    "en": 3840,
+    "gl": 3450,
+    "wd": 19160
    },
    "bank": {
     "fr": [
-     1749910,
-     4030
+     975580,
+     4300
     ],
     "en": [
-     1754340,
-     3780
+     980280,
+     3840
+    ],
+    "gl": [
+     984520,
+     3450
     ],
     "wd": [
-     1758520,
-     19090
+     988370,
+     19160
     ],
     "wp": [
      [
-      1758520,
-      2550
+      988370,
+      2760
      ],
      [
-      1761470,
-      2500
+      991530,
+      2360
      ],
      [
-      1764370,
+      994290,
       2300
      ],
      [
-      1767070,
+      996990,
       2830
      ],
      [
-      1770300,
+      1000220,
       2700
      ],
      [
-      1773400,
+      1003320,
       3360
      ]
     ]
    }
   },
   {
-   "fr": "Les portes se sont ouvertes. Lenz est monté.",
-   "en": "The doors opened. Lenz got on.",
-   "para": 5,
+   "fr": "Odile s'est levée. « Merci pour le radis », a dit Odile.",
+   "en": "Odile stood up. \"Thanks for the radish,\" said Odile.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "Les portes",
-     "the doors"
+     "s'est levée",
+     "stood up"
     ],
     [
-     "se sont ouvertes",
-     "opened"
+     "Merci",
+     "thanks"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "pour le radis",
+     "for the radish"
     ],
     [
-     "est monté",
-     "got on"
+     "a dit",
+     "said"
     ]
    ],
    "audio": {
-    "fr": "audio/s055_fr.mp3",
-    "en": "audio/s055_en.mp3",
-    "wd": "audio/s055_wd.mp3"
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
    },
    "ms": {
-    "fr": 4500,
-    "en": 2910,
-    "wd": 12760
+    "fr": 5230,
+    "en": 3940,
+    "wd": 12260
    },
    "bank": {
     "fr": [
-     1778010,
-     4500
+     1007930,
+     5230
     ],
     "en": [
-     1782910,
-     2910
+     1013560,
+     3940
     ],
     "wd": [
-     1786220,
-     12760
+     1017900,
+     12260
     ],
     "wp": [
      [
-      1786220,
-      2810
+      1017900,
+      2410
      ],
      [
-      1789430,
-      2900
+      1020710,
+      2400
      ],
      [
-      1792730,
-      2550
+      1023510,
+      3180
      ],
      [
-      1795680,
-      2450
+      1027090,
+      2220
      ]
     ]
    }
   },
   {
-   "fr": "Une voix a dit : « Zurückbleiben, bitte. » Restez en arrière, s'il vous plaît.",
-   "en": "A voice said: \"Zurückbleiben, bitte.\" Stand back, please.",
-   "para": 5,
-   "glosses": [
-    {
-     "fr": "Zurückbleiben, bitte",
-     "en": "\"stand back, please\", the Munich metro call before the doors close"
-    }
-   ],
+   "fr": "« Odile… » a dit Lenz. Mais Odile était déjà dans la rue.",
+   "en": "\"Odile...\" said Lenz. But Odile was already in the street.",
+   "para": 3,
+   "glosses": [],
    "words": [
-    [
-     "Une voix",
-     "a voice"
-    ],
     [
      "a dit",
      "said"
     ],
     [
-     "Zurückbleiben, bitte",
-     "stand back, please (German)"
+     "Mais",
+     "but"
     ],
     [
-     "Restez en arrière",
-     "stand back"
+     "était",
+     "was"
     ],
     [
-     "s'il vous plaît",
-     "please"
+     "déjà",
+     "already"
+    ],
+    [
+     "dans la rue",
+     "in the street"
     ]
    ],
    "audio": {
-    "fr": "audio/s056_fr.mp3",
-    "en": "audio/s056_en.mp3",
-    "gl": "audio/s056_gl.mp3",
-    "wd": "audio/s056_wd.mp3"
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
    },
    "ms": {
-    "fr": 6900,
-    "en": 5060,
-    "gl": 8650,
-    "wd": 18540
+    "fr": 6030,
+    "en": 5010,
+    "wd": 13790
    },
    "bank": {
     "fr": [
-     1799380,
-     6900
+     1030560,
+     6030
     ],
     "en": [
-     1806680,
-     5060
-    ],
-    "gl": [
-     1812140,
-     8650
+     1036990,
+     5010
     ],
     "wd": [
-     1821190,
-     18540
+     1042400,
+     13790
     ],
     "wp": [
      [
-      1821190,
-      2560
-     ],
-     [
-      1824150,
+      1042400,
       2220
      ],
      [
-      1826770,
-      5280
+      1045020,
+      1920
      ],
      [
-      1832450,
-      3380
+      1047340,
+      2150
      ],
      [
-      1836230,
-      2650
+      1049890,
+      2320
+     ],
+     [
+      1052610,
+      2730
      ]
     ]
    }
   },
   {
-   "fr": "Odile est restée en arrière. Derrière la vitre, Lenz regardait ses chaussures. Le métro est parti.",
-   "en": "Odile stood back. Behind the glass, Lenz was looking at his shoes. The metro left.",
-   "para": 5,
+   "fr": "Odile est rentrée à pied, vite, avec la tasse et le sac de pommes.",
+   "en": "Odile walked home, fast, with the cup and the bag of apples.",
+   "para": 4,
    "glosses": [],
    "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "est restée en arrière",
-     "stood back"
-    ],
-    [
-     "Derrière la vitre",
-     "behind the glass"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "regardait",
-     "was looking at"
-    ],
-    [
-     "ses chaussures",
-     "his shoes"
-    ],
-    [
-     "Le métro",
-     "the metro"
-    ],
-    [
-     "est parti",
-     "left"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s057_fr.mp3",
-    "en": "audio/s057_en.mp3",
-    "wd": "audio/s057_wd.mp3"
-   },
-   "ms": {
-    "fr": 8550,
-    "en": 6080,
-    "wd": 26320
-   },
-   "bank": {
-    "fr": [
-     1840130,
-     8550
-    ],
-    "en": [
-     1849080,
-     6080
-    ],
-    "wd": [
-     1855560,
-     26320
-    ],
-    "wp": [
-     [
-      1855560,
-      2510
-     ],
-     [
-      1858470,
-      3440
-     ],
-     [
-      1862310,
-      3320
-     ],
-     [
-      1866030,
-      2550
-     ],
-     [
-      1868980,
-      2690
-     ],
-     [
-      1872070,
-      3000
-     ],
-     [
-      1875470,
-      2650
-     ],
-     [
-      1878520,
-      2510
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile est rentrée vite, le sac de pommes contre la hanche.",
-   "en": "Odile walked home fast, the bag of apples against her hip.",
-   "para": 5,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
     [
      "est rentrée",
      "went home"
+    ],
+    [
+     "à pied",
+     "on foot"
     ],
     [
      "vite",
      "fast"
     ],
     [
-     "le sac de pommes",
-     "the bag of apples"
+     "avec la tasse",
+     "with the cup"
     ],
     [
-     "contre la hanche",
-     "against her hip"
+     "le sac de pommes",
+     "the bag of apples"
     ]
    ],
    "audio": {
-    "fr": "audio/s058_fr.mp3",
-    "en": "audio/s058_en.mp3",
-    "wd": "audio/s058_wd.mp3"
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
    },
    "ms": {
-    "fr": 4150,
-    "en": 3980,
-    "wd": 16870
+    "fr": 4920,
+    "en": 4560,
+    "wd": 16580
    },
    "bank": {
     "fr": [
-     1882280,
-     4150
+     1056590,
+     4920
     ],
     "en": [
-     1886830,
-     3980
+     1061910,
+     4560
     ],
     "wd": [
-     1891210,
-     16870
+     1066870,
+     16580
     ],
     "wp": [
      [
-      1891210,
-      2510
-     ],
-     [
-      1894120,
+      1066870,
       2640
      ],
      [
-      1897160,
+      1069910,
+      2430
+     ],
+     [
+      1072740,
       2320
      ],
      [
-      1899880,
-      3650
+      1075460,
+      3090
      ],
      [
-      1903930,
-      3300
+      1078950,
+      3650
      ]
     ]
    }
   },
   {
-   "fr": "Un homme qui sait où est Lyon. Voilà. C'est tout ce qu'il sait, et il le dit.",
-   "en": "A man who knows where Lyon is. There. That's all he knows, and he says it.",
-   "para": 5,
+   "fr": "Dans sa tête, elle répétait la phrase de Lenz : « Je sais où est Lyon. »",
+   "en": "In her head, she repeated Lenz's sentence: \"I know where Lyon is.\"",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Un homme",
-     "a man"
+     "Dans sa tête",
+     "in her head"
     ],
     [
-     "qui sait",
-     "who knows"
+     "elle répétait",
+     "she repeated"
+    ],
+    [
+     "la phrase",
+     "the sentence"
+    ],
+    [
+     "de Lenz",
+     "of Lenz"
+    ],
+    [
+     "Je sais",
+     "I know"
     ],
     [
      "où est Lyon",
      "where Lyon is"
-    ],
-    [
-     "Voilà",
-     "there"
-    ],
-    [
-     "C'est tout ce qu'il sait",
-     "that's all he knows"
-    ],
-    [
-     "il le dit",
-     "he says it"
     ]
    ],
    "audio": {
-    "fr": "audio/s059_fr.mp3",
-    "en": "audio/s059_en.mp3",
-    "wd": "audio/s059_wd.mp3"
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
    },
    "ms": {
-    "fr": 7070,
-    "en": 5380,
-    "wd": 19470
+    "fr": 4870,
+    "en": 4530,
+    "wd": 20120
    },
    "bank": {
     "fr": [
-     1908480,
-     7070
+     1083850,
+     4870
     ],
     "en": [
-     1915950,
-     5380
+     1089120,
+     4530
     ],
     "wd": [
-     1921730,
-     19470
+     1094050,
+     20120
     ],
     "wp": [
      [
-      1921730,
-      2520
+      1094050,
+      3070
      ],
      [
-      1924650,
-      2590
-     ],
-     [
-      1927640,
+      1097520,
       2980
      ],
      [
-      1931020,
-      2250
+      1100900,
+      2940
      ],
      [
-      1933670,
-      3540
+      1104240,
+      2850
      ],
      [
-      1937610,
-      2740
+      1107490,
+      2450
+     ],
+     [
+      1110340,
+      2980
      ]
     ]
    }
   },
   {
-   "fr": "Dans l'appartement, Odile a mis le gobelet entre deux pulls. Elle a fermé la valise.",
-   "en": "In the flat, Odile put the cup between two sweaters. She closed the suitcase.",
-   "para": 6,
+   "fr": "Très bien, pensait Odile. Tout le monde sait où est Lyon.",
+   "en": "Very well, thought Odile. Everybody knows where Lyon is.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Très bien",
+     "very well"
+    ],
+    [
+     "pensait",
+     "thought"
+    ],
+    [
+     "Tout le monde",
+     "everybody"
+    ],
+    [
+     "sait",
+     "knows"
+    ],
+    [
+     "où est Lyon",
+     "where Lyon is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5230,
+    "en": 4410,
+    "wd": 15270
+   },
+   "bank": {
+    "fr": [
+     1114570,
+     5230
+    ],
+    "en": [
+     1120200,
+     4410
+    ],
+    "wd": [
+     1125010,
+     15270
+    ],
+    "wp": [
+     [
+      1125010,
+      2570
+     ],
+     [
+      1127980,
+      2280
+     ],
+     [
+      1130660,
+      2720
+     ],
+     [
+      1133780,
+      2270
+     ],
+     [
+      1136450,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans l'appartement, elle a fini sa valise.",
+   "en": "In the flat, she finished her suitcase.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
@@ -4863,361 +3075,201 @@
      "in the flat"
     ],
     [
-     "Odile",
-     "Odile"
+     "elle a fini",
+     "she finished"
     ],
     [
-     "a mis",
-     "put"
-    ],
-    [
-     "le gobelet",
-     "the cup"
-    ],
-    [
-     "entre deux pulls",
-     "between two sweaters"
-    ],
-    [
-     "Elle a fermé",
-     "she closed"
-    ],
-    [
-     "la valise",
-     "the suitcase"
+     "sa valise",
+     "her suitcase"
     ]
    ],
    "audio": {
-    "fr": "audio/s060_fr.mp3",
-    "en": "audio/s060_en.mp3",
-    "wd": "audio/s060_wd.mp3"
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
    },
    "ms": {
-    "fr": 6520,
-    "en": 5740,
-    "wd": 23190
+    "fr": 3530,
+    "en": 3030,
+    "wd": 10770
    },
    "bank": {
     "fr": [
-     1941600,
-     6520
+     1140680,
+     3530
     ],
     "en": [
-     1948520,
-     5740
+     1144610,
+     3030
     ],
     "wd": [
-     1954660,
-     23190
+     1148040,
+     10770
     ],
     "wp": [
      [
-      1954660,
+      1148040,
       3110
      ],
      [
-      1958170,
-      2510
+      1151550,
+      2920
      ],
      [
-      1961080,
-      2080
-     ],
-     [
-      1963560,
-      2520
-     ],
-     [
-      1966480,
-      3610
-     ],
-     [
-      1970490,
-      2950
-     ],
-     [
-      1973840,
-      3160
+      1154870,
+      3090
      ]
     ]
    }
   },
   {
-   "fr": "Sa fille Juliette a appelé de Nantes, comme tous les jeudis.",
-   "en": "Her daughter Juliette called from Nantes, as she did every Thursday.",
-   "para": 6,
+   "fr": "Elle a mis la tasse blanche entre deux pulls.",
+   "en": "She put the white cup between two jumpers.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Sa fille",
-     "her daughter"
+     "Elle a mis",
+     "she put"
     ],
     [
-     "Juliette",
-     "Juliette"
+     "la tasse blanche",
+     "the white cup"
     ],
     [
-     "a appelé",
-     "called"
+     "entre",
+     "between"
     ],
     [
-     "de Nantes",
-     "from Nantes"
-    ],
-    [
-     "comme tous les jeudis",
-     "as every Thursday"
+     "deux pulls",
+     "two jumpers"
     ]
    ],
    "audio": {
-    "fr": "audio/s061_fr.mp3",
-    "en": "audio/s061_en.mp3",
-    "wd": "audio/s061_wd.mp3"
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
    },
    "ms": {
-    "fr": 4210,
-    "en": 4100,
-    "wd": 16970
+    "fr": 3000,
+    "en": 3020,
+    "wd": 12950
    },
    "bank": {
     "fr": [
-     1978250,
-     4210
+     1159210,
+     3000
     ],
     "en": [
-     1982860,
-     4100
+     1162610,
+     3020
     ],
     "wd": [
-     1987360,
-     16970
+     1166030,
+     12950
     ],
     "wp": [
      [
-      1987360,
-      2830
+      1166030,
+      2460
      ],
      [
-      1990590,
-      2880
+      1168890,
+      3100
      ],
      [
-      1993870,
-      2410
+      1172390,
+      2360
      ],
      [
-      1996680,
-      2870
-     ],
-     [
-      1999950,
-      3530
+      1175150,
+      2980
      ]
     ]
    }
   },
   {
-   "fr": "« Tu as une drôle de voix, maman. »",
-   "en": "\"You have a funny voice, Mum.\"",
-   "para": 6,
+   "fr": "La nuit, Odile n'a pas dormi. Le vent chaud soufflait toujours.",
+   "en": "That night, Odile didn't sleep. The warm wind was still blowing.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Tu as",
-     "you have"
-    ],
-    [
-     "une drôle de voix",
-     "a funny voice"
-    ],
-    [
-     "maman",
-     "Mum"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s062_fr.mp3",
-    "en": "audio/s062_en.mp3",
-    "wd": "audio/s062_wd.mp3"
-   },
-   "ms": {
-    "fr": 2790,
-    "en": 2240,
-    "wd": 9540
-   },
-   "bank": {
-    "fr": [
-     2004730,
-     2790
-    ],
-    "en": [
-     2007920,
-     2240
-    ],
-    "wd": [
-     2010560,
-     9540
-    ],
-    "wp": [
-     [
-      2010560,
-      2380
-     ],
-     [
-      2013340,
-      3260
-     ],
-     [
-      2017000,
-      2250
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« C'est le Föhn. — C'est quoi, le Föhn ? »",
-   "en": "\"It's the Föhn.\" \"What's the Föhn?\"",
-   "para": 6,
-   "glosses": [],
-   "words": [
-    [
-     "C'est",
-     "it's"
-    ],
-    [
-     "le Föhn",
-     "the Föhn"
-    ],
-    [
-     "C'est quoi",
-     "what is"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s063_fr.mp3",
-    "en": "audio/s063_en.mp3",
-    "wd": "audio/s063_wd.mp3"
-   },
-   "ms": {
-    "fr": 4230,
-    "en": 2650,
-    "wd": 8970
-   },
-   "bank": {
-    "fr": [
-     2020500,
-     4230
-    ],
-    "en": [
-     2025130,
-     2650
-    ],
-    "wd": [
-     2028180,
-     8970
-    ],
-    "wp": [
-     [
-      2028180,
-      2110
-     ],
-     [
-      2030690,
-      2700
-     ],
-     [
-      2033790,
-      2510
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Une excuse. Ici, tout le monde en a une. »",
-   "en": "\"An excuse. Here, everybody has one.\"",
-   "para": 6,
-   "glosses": [],
-   "words": [
-    [
-     "Une excuse",
-     "an excuse"
-    ],
-    [
-     "Ici",
-     "here"
-    ],
-    [
-     "tout le monde",
-     "everybody"
-    ],
-    [
-     "en a une",
-     "has one"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s064_fr.mp3",
-    "en": "audio/s064_en.mp3",
-    "wd": "audio/s064_wd.mp3"
-   },
-   "ms": {
-    "fr": 4650,
-    "en": 3500,
-    "wd": 12770
-   },
-   "bank": {
-    "fr": [
-     2037550,
-     4650
-    ],
-    "en": [
-     2042600,
-     3500
-    ],
-    "wd": [
-     2046500,
-     12770
-    ],
-    "wp": [
-     [
-      2046500,
-      3080
-     ],
-     [
-      2049980,
-      2210
-     ],
-     [
-      2052590,
-      2720
-     ],
-     [
-      2055710,
-      2710
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile n'a pas dormi. À une heure, elle a ouvert la fenêtre. Le vent était encore chaud.",
-   "en": "Odile did not sleep. At one o'clock, she opened the window. The wind was still warm.",
-   "para": 6,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
+     "La nuit",
+     "at night"
     ],
     [
      "n'a pas dormi",
-     "did not sleep"
+     "didn't sleep"
     ],
     [
-     "À une heure",
-     "at one o'clock"
+     "Le vent chaud",
+     "the warm wind"
     ],
     [
-     "elle a ouvert",
+     "soufflait",
+     "was blowing"
+    ],
+    [
+     "toujours",
+     "still"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 5480,
+    "en": 4600,
+    "wd": 15910
+   },
+   "bank": {
+    "fr": [
+     1179380,
+     5480
+    ],
+    "en": [
+     1185260,
+     4600
+    ],
+    "wd": [
+     1190260,
+     15910
+    ],
+    "wp": [
+     [
+      1190260,
+      2520
+     ],
+     [
+      1193180,
+      2960
+     ],
+     [
+      1196540,
+      2980
+     ],
+     [
+      1199920,
+      2550
+     ],
+     [
+      1202870,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle a ouvert la fenêtre. Dans la cour, l'arbre faisait un bruit d'été.",
+   "en": "She opened the window. In the courtyard, the tree made a summer sound.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Elle a ouvert",
      "she opened"
     ],
     [
@@ -5225,327 +3277,233 @@
      "the window"
     ],
     [
-     "Le vent",
-     "the wind"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "encore chaud",
-     "still warm"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s065_fr.mp3",
-    "en": "audio/s065_en.mp3",
-    "wd": "audio/s065_wd.mp3"
-   },
-   "ms": {
-    "fr": 7760,
-    "en": 6000,
-    "wd": 25490
-   },
-   "bank": {
-    "fr": [
-     2059670,
-     7760
-    ],
-    "en": [
-     2067830,
-     6000
-    ],
-    "wd": [
-     2074230,
-     25490
-    ],
-    "wp": [
-     [
-      2074230,
-      2510
-     ],
-     [
-      2077140,
-      3210
-     ],
-     [
-      2080750,
-      3000
-     ],
-     [
-      2084150,
-      3080
-     ],
-     [
-      2087630,
-      2740
-     ],
-     [
-      2090770,
-      2309
-     ],
-     [
-      2093480,
-      2150
-     ],
-     [
-      2096030,
-      2840
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Dans la cour, le tilleul faisait un bruit d'été.",
-   "en": "In the courtyard, the lime tree made a summer sound.",
-   "para": 6,
-   "glosses": [],
-   "words": [
-    [
      "Dans la cour",
      "in the courtyard"
     ],
     [
-     "le tilleul",
-     "the lime tree"
+     "l'arbre",
+     "the tree"
     ],
     [
      "faisait",
      "made"
     ],
     [
-     "un bruit d'été",
-     "a summer sound"
+     "un bruit",
+     "a sound"
+    ],
+    [
+     "d'été",
+     "of summer"
     ]
    ],
    "audio": {
-    "fr": "audio/s066_fr.mp3",
-    "en": "audio/s066_en.mp3",
-    "wd": "audio/s066_wd.mp3"
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
    },
    "ms": {
-    "fr": 3760,
-    "en": 3530,
-    "wd": 13540
+    "fr": 6070,
+    "en": 4720,
+    "wd": 21820
    },
    "bank": {
     "fr": [
-     2100120,
-     3760
+     1206570,
+     6070
     ],
     "en": [
-     2104280,
-     3530
+     1213040,
+     4720
     ],
     "wd": [
-     2108210,
-     13540
+     1218160,
+     21820
     ],
     "wp": [
      [
-      2108210,
+      1218160,
+      3070
+     ],
+     [
+      1221630,
+      2740
+     ],
+     [
+      1224770,
       3060
      ],
      [
-      2111670,
-      2970
+      1228230,
+      2410
      ],
      [
-      2115040,
+      1231040,
       2220
      ],
      [
-      2117660,
-      3240
+      1233660,
+      2470
+     ],
+     [
+      1236530,
+      2600
      ]
     ]
    }
   },
   {
-   "fr": "Odile a sorti le gobelet d'entre les pulls. Elle l'a posé sur la table. Elle l'a regardé.",
-   "en": "Odile took the cup out from between the sweaters. She put it on the table. She looked at it.",
-   "para": 6,
+   "fr": "Elle a sorti la tasse de la valise. Elle l'a regardée. Puis elle l'a remise.",
+   "en": "She took the cup out of the suitcase. She looked at it. Then she put it back.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Odile",
-     "Odile"
+     "Elle a sorti",
+     "she took out"
     ],
     [
-     "a sorti",
-     "took out"
-    ],
-    [
-     "le gobelet",
+     "la tasse",
      "the cup"
     ],
     [
-     "d'entre les pulls",
-     "from between the sweaters"
+     "de la valise",
+     "from the suitcase"
     ],
     [
-     "Elle l'a posé",
-     "she put it"
-    ],
-    [
-     "sur la table",
-     "on the table"
-    ],
-    [
-     "Elle l'a regardé",
+     "Elle l'a regardée",
      "she looked at it"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s067_fr.mp3",
-    "en": "audio/s067_en.mp3",
-    "wd": "audio/s067_wd.mp3"
-   },
-   "ms": {
-    "fr": 7720,
-    "en": 5550,
-    "wd": 23280
-   },
-   "bank": {
-    "fr": [
-     2122150,
-     7720
     ],
-    "en": [
-     2130270,
-     5550
-    ],
-    "wd": [
-     2136220,
-     23280
-    ],
-    "wp": [
-     [
-      2136220,
-      2510
-     ],
-     [
-      2139130,
-      2480
-     ],
-     [
-      2142010,
-      2520
-     ],
-     [
-      2144930,
-      3680
-     ],
-     [
-      2149010,
-      2820
-     ],
-     [
-      2152230,
-      2910
-     ],
-     [
-      2155540,
-      3110
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Puis elle a remis le gobelet dans la valise. À trois heures, le téléphone : rien.",
-   "en": "Then she put the cup back in the suitcase. At three o'clock, the phone: nothing.",
-   "para": 6,
-   "glosses": [],
-   "words": [
     [
      "Puis",
      "then"
     ],
     [
-     "elle a remis",
-     "she put back"
-    ],
-    [
-     "le gobelet",
-     "the cup"
-    ],
-    [
-     "dans la valise",
-     "in the suitcase"
-    ],
-    [
-     "À trois heures",
-     "at three o'clock"
-    ],
-    [
-     "le téléphone",
-     "the phone"
-    ],
-    [
-     "rien",
-     "nothing"
+     "elle l'a remise",
+     "she put it back"
     ]
    ],
    "audio": {
-    "fr": "audio/s068_fr.mp3",
-    "en": "audio/s068_en.mp3",
-    "wd": "audio/s068_wd.mp3"
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
    },
    "ms": {
-    "fr": 6870,
-    "en": 5590,
-    "wd": 22500
+    "fr": 7040,
+    "en": 4950,
+    "wd": 20150
    },
    "bank": {
     "fr": [
-     2159900,
-     6870
+     1240380,
+     7040
     ],
     "en": [
-     2167170,
-     5590
+     1247820,
+     4950
     ],
     "wd": [
-     2173160,
-     22500
+     1253170,
+     20150
     ],
     "wp": [
      [
-      2173160,
+      1253170,
+      2950
+     ],
+     [
+      1256520,
+      2570
+     ],
+     [
+      1259490,
+      3340
+     ],
+     [
+      1263230,
+      3110
+     ],
+     [
+      1266740,
       2110
      ],
      [
-      2175670,
-      3030
-     ],
-     [
-      2179100,
-      2520
-     ],
-     [
-      2182020,
-      3360
-     ],
-     [
-      2185780,
-      3200
-     ],
-     [
-      2189379,
-      2840
-     ],
-     [
-      2192620,
-      2190
+      1269249,
+      3220
      ]
     ]
    }
   },
   {
-   "fr": "À cinq heures, elle s'est habillée.",
-   "en": "At five o'clock, she got dressed.",
-   "para": 6,
+   "fr": "Elle a regardé son téléphone plusieurs fois. Pas de message.",
+   "en": "She looked at her phone several times. No message.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Elle a regardé",
+     "she looked at"
+    ],
+    [
+     "son téléphone",
+     "her phone"
+    ],
+    [
+     "plusieurs fois",
+     "several times"
+    ],
+    [
+     "Pas de message",
+     "no message"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5240,
+    "en": 3800,
+    "wd": 14520
+   },
+   "bank": {
+    "fr": [
+     1273720,
+     5240
+    ],
+    "en": [
+     1279360,
+     3800
+    ],
+    "wd": [
+     1283560,
+     14520
+    ],
+    "wp": [
+     [
+      1283560,
+      3030
+     ],
+     [
+      1286990,
+      3060
+     ],
+     [
+      1290450,
+      3220
+     ],
+     [
+      1294070,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À cinq heures, elle s'est habillée, et elle a fermé la valise.",
+   "en": "At five o'clock, she got dressed, and she closed the suitcase.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
@@ -5555,290 +3513,443 @@
     [
      "elle s'est habillée",
      "she got dressed"
+    ],
+    [
+     "elle a fermé",
+     "she closed"
+    ],
+    [
+     "la valise",
+     "the suitcase"
     ]
    ],
    "audio": {
-    "fr": "audio/s069_fr.mp3",
-    "en": "audio/s069_en.mp3",
-    "wd": "audio/s069_wd.mp3"
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
    },
    "ms": {
-    "fr": 2960,
-    "en": 2740,
-    "wd": 7870
+    "fr": 4730,
+    "en": 4420,
+    "wd": 14780
    },
    "bank": {
     "fr": [
-     2196060,
-     2960
+     1298480,
+     4730
     ],
     "en": [
-     2199420,
-     2740
+     1303610,
+     4420
     ],
     "wd": [
-     2202560,
-     7870
+     1308430,
+     14780
     ],
     "wp": [
      [
-      2202560,
+      1308430,
       3210
      ],
      [
-      2206170,
+      1312040,
       3410
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "À six heures cinq, le quai de Münchner Freiheit était presque vide.",
-   "en": "At five past six, the platform at Münchner Freiheit was almost empty.",
-   "para": 7,
-   "glosses": [],
-   "words": [
-    [
-     "À six heures cinq",
-     "at five past six"
-    ],
-    [
-     "le quai",
-     "the platform"
-    ],
-    [
-     "de Münchner Freiheit",
-     "of Münchner Freiheit"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "presque vide",
-     "almost empty"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s070_fr.mp3",
-    "en": "audio/s070_en.mp3",
-    "wd": "audio/s070_wd.mp3"
-   },
-   "ms": {
-    "fr": 4550,
-    "en": 4910,
-    "wd": 18140
-   },
-   "bank": {
-    "fr": [
-     2210830,
-     4550
-    ],
-    "en": [
-     2215780,
-     4910
-    ],
-    "wd": [
-     2221090,
-     18140
-    ],
-    "wp": [
-     [
-      2221090,
-      3930
      ],
      [
-      2225420,
-      2690
+      1315850,
+      2950
      ],
      [
-      2228510,
-      3670
-     ],
-     [
-      2232580,
-      2150
-     ],
-     [
-      2235130,
-      3250
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Il faisait encore chaud, une chaleur de nuit, bizarre, avec le même vent.",
-   "en": "It was still warm, a night-time warmth, strange, with the same wind.",
-   "para": 7,
-   "glosses": [],
-   "words": [
-    [
-     "Il faisait",
-     "it was"
-    ],
-    [
-     "encore chaud",
-     "still warm"
-    ],
-    [
-     "une chaleur de nuit",
-     "a night-time warmth"
-    ],
-    [
-     "bizarre",
-     "strange"
-    ],
-    [
-     "avec",
-     "with"
-    ],
-    [
-     "le même vent",
-     "the same wind"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s071_fr.mp3",
-    "en": "audio/s071_en.mp3",
-    "wd": "audio/s071_wd.mp3"
-   },
-   "ms": {
-    "fr": 5530,
-    "en": 4750,
-    "wd": 19700
-   },
-   "bank": {
-    "fr": [
-     2239630,
-     5530
-    ],
-    "en": [
-     2245560,
-     4750
-    ],
-    "wd": [
-     2250710,
-     19700
-    ],
-    "wp": [
-     [
-      2250710,
-      2490
-     ],
-     [
-      2253600,
-      2840
-     ],
-     [
-      2256840,
-      3680
-     ],
-     [
-      2260920,
-      2650
-     ],
-     [
-      2263970,
-      2170
-     ],
-     [
-      2266540,
-      3020
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz était là, sur le banc du bout, un petit sac de sport entre les pieds.",
-   "en": "Lenz was there, on the bench at the end, a small sports bag between his feet.",
-   "para": 7,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "était là",
-     "was there"
-    ],
-    [
-     "sur le banc",
-     "on the bench"
-    ],
-    [
-     "du bout",
-     "at the end"
-    ],
-    [
-     "un petit sac de sport",
-     "a small sports bag"
-    ],
-    [
-     "entre les pieds",
-     "between his feet"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s072_fr.mp3",
-    "en": "audio/s072_en.mp3",
-    "wd": "audio/s072_wd.mp3"
-   },
-   "ms": {
-    "fr": 5340,
-    "en": 4940,
-    "wd": 20410
-   },
-   "bank": {
-    "fr": [
-     2270810,
-     5340
-    ],
-    "en": [
-     2276550,
-     4940
-    ],
-    "wd": [
-     2281890,
-     20410
-    ],
-    "wp": [
-     [
-      2281890,
-      2550
-     ],
-     [
-      2284840,
-      2410
-     ],
-     [
-      2287650,
-      2780
-     ],
-     [
-      2290830,
-      2520
-     ],
-     [
-      2293750,
-      4140
-     ],
-     [
-      2298290,
+      1319200,
       3160
      ]
     ]
    }
   },
   {
-   "fr": "Il avait un bretzel dans un papier, et les cheveux secs.",
-   "en": "He had a pretzel in a paper bag, and dry hair.",
-   "para": 7,
+   "fr": "À la gare centrale, il faisait encore chaud, une chaleur bizarre de nuit d'été.",
+   "en": "At the central station, it was still warm, a strange warmth of a summer night.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Il avait",
-     "he had"
+     "À la gare centrale",
+     "at the central station"
+    ],
+    [
+     "il faisait encore chaud",
+     "it was still warm"
+    ],
+    [
+     "une chaleur",
+     "a warmth"
+    ],
+    [
+     "bizarre",
+     "strange"
+    ],
+    [
+     "de nuit d'été",
+     "of a summer night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 5720,
+    "en": 4960,
+    "wd": 18370
+   },
+   "bank": {
+    "fr": [
+     1323610,
+     5720
+    ],
+    "en": [
+     1329730,
+     4960
+    ],
+    "wd": [
+     1335090,
+     18370
+    ],
+    "wp": [
+     [
+      1335090,
+      3740
+     ],
+     [
+      1339230,
+      3480
+     ],
+     [
+      1343110,
+      2900
+     ],
+     [
+      1346410,
+      2650
+     ],
+     [
+      1349460,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le train pour Paris était déjà là, long et blanc.",
+   "en": "The train to Paris was already there, long and white.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le train",
+     "the train"
+    ],
+    [
+     "pour Paris",
+     "to Paris"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "déjà",
+     "already"
+    ],
+    [
+     "là",
+     "there"
+    ],
+    [
+     "long et blanc",
+     "long and white"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "en": 3930,
+    "wd": 17910
+   },
+   "bank": {
+    "fr": [
+     1353860,
+     3650
+    ],
+    "en": [
+     1357910,
+     3930
+    ],
+    "wd": [
+     1362240,
+     17910
+    ],
+    "wp": [
+     [
+      1362240,
+      2490
+     ],
+     [
+      1365130,
+      2870
+     ],
+     [
+      1368400,
+      2150
+     ],
+     [
+      1370950,
+      2320
+     ],
+     [
+      1373670,
+      2060
+     ],
+     [
+      1376130,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile a cherché sa place. Elle ne regardait pas le quai.",
+   "en": "Odile looked for her seat. She didn't look at the platform.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "a cherché",
+     "looked for"
+    ],
+    [
+     "sa place",
+     "her seat"
+    ],
+    [
+     "Elle ne regardait pas",
+     "she didn't look at"
+    ],
+    [
+     "le quai",
+     "the platform"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 4880,
+    "en": 3870,
+    "wd": 13660
+   },
+   "bank": {
+    "fr": [
+     1380550,
+     4880
+    ],
+    "en": [
+     1385830,
+     3870
+    ],
+    "wd": [
+     1390100,
+     13660
+    ],
+    "wp": [
+     [
+      1390100,
+      2600
+     ],
+     [
+      1393100,
+      2910
+     ],
+     [
+      1396410,
+      3410
+     ],
+     [
+      1400220,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Elle ne voulait pas regarder le quai.",
+   "en": "She didn't want to look at the platform.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Elle ne voulait pas",
+     "she didn't want"
+    ],
+    [
+     "regarder",
+     "to look at"
+    ],
+    [
+     "le quai",
+     "the platform"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 2530,
+    "en": 2390,
+    "wd": 10070
+   },
+   "bank": {
+    "fr": [
+     1404160,
+     2530
+    ],
+    "en": [
+     1407090,
+     2390
+    ],
+    "wd": [
+     1409880,
+     10070
+    ],
+    "wp": [
+     [
+      1409880,
+      3160
+     ],
+     [
+      1413440,
+      2570
+     ],
+     [
+      1416410,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tu as une place près de la fenêtre ? » a demandé une voix derrière elle.",
+   "en": "\"Do you have a seat by the window?\" asked a voice behind her.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Tu as",
+     "you have"
+    ],
+    [
+     "une place",
+     "a seat"
+    ],
+    [
+     "près de la fenêtre",
+     "by the window"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ],
+    [
+     "une voix",
+     "a voice"
+    ],
+    [
+     "derrière elle",
+     "behind her"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 4440,
+    "en": 3740,
+    "wd": 19120
+   },
+   "bank": {
+    "fr": [
+     1420350,
+     4440
+    ],
+    "en": [
+     1425190,
+     3740
+    ],
+    "wd": [
+     1429330,
+     19120
+    ],
+    "wp": [
+     [
+      1429330,
+      2380
+     ],
+     [
+      1432110,
+      2810
+     ],
+     [
+      1435320,
+      3260
+     ],
+     [
+      1438980,
+      2440
+     ],
+     [
+      1441820,
+      2560
+     ],
+     [
+      1444780,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'était Lenz, avec un petit sac de sport et un bretzel dans un papier.",
+   "en": "It was Lenz, with a small sports bag and a pretzel in a paper.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "bretzel",
+     "en": "pretzel"
+    }
+   ],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "un petit sac de sport",
+     "a small sports bag"
     ],
     [
      "un bretzel",
@@ -5846,118 +3957,140 @@
     ],
     [
      "dans un papier",
-     "in a paper bag"
-    ],
-    [
-     "les cheveux secs",
-     "dry hair"
+     "in a paper"
     ]
    ],
    "audio": {
-    "fr": "audio/s073_fr.mp3",
-    "en": "audio/s073_en.mp3",
-    "wd": "audio/s073_wd.mp3"
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "gl": "audio/s053_gl.mp3",
+    "wd": "audio/s053_wd.mp3"
    },
    "ms": {
-    "fr": 4220,
-    "en": 3290,
-    "wd": 13890
+    "fr": 5120,
+    "en": 4430,
+    "gl": 3690,
+    "wd": 17150
    },
    "bank": {
     "fr": [
-     2302700,
-     4220
+     1448850,
+     5120
     ],
     "en": [
-     2307320,
-     3290
+     1454370,
+     4430
+    ],
+    "gl": [
+     1459200,
+     3690
     ],
     "wd": [
-     2311010,
-     13890
+     1463290,
+     17150
     ],
     "wp": [
      [
-      2311010,
-      2430
+      1463290,
+      2410
      ],
      [
-      2313840,
+      1466100,
+      2170
+     ],
+     [
+      1468670,
+      4140
+     ],
+     [
+      1473210,
       2930
      ],
      [
-      2317170,
-      3280
-     ],
-     [
-      2320850,
-      3200
+      1476540,
+      3050
      ]
     ]
    }
   },
   {
-   "fr": "« Tu n'as pas surfé », a dit Odile.",
-   "en": "\"You didn't surf,\" said Odile.",
-   "para": 7,
+   "fr": "Ses cheveux étaient secs. « Tu n'as pas surfé ce matin », a dit Odile.",
+   "en": "His hair was dry. \"You didn't surf this morning,\" said Odile.",
+   "para": 5,
    "glosses": [],
    "words": [
+    [
+     "Ses cheveux",
+     "his hair"
+    ],
+    [
+     "étaient secs",
+     "were dry"
+    ],
     [
      "Tu n'as pas surfé",
      "you didn't surf"
     ],
     [
-     "a dit",
-     "said"
+     "ce matin",
+     "this morning"
     ],
     [
-     "Odile",
-     "Odile"
+     "a dit",
+     "said"
     ]
    ],
    "audio": {
-    "fr": "audio/s074_fr.mp3",
-    "en": "audio/s074_en.mp3",
-    "wd": "audio/s074_wd.mp3"
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
    },
    "ms": {
-    "fr": 3030,
-    "en": 2500,
-    "wd": 9740
+    "fr": 5800,
+    "en": 4059,
+    "wd": 16350
    },
    "bank": {
     "fr": [
-     2325300,
-     3030
+     1480840,
+     5800
     ],
     "en": [
-     2328730,
-     2500
+     1487040,
+     4059
     ],
     "wd": [
-     2331630,
-     9740
+     1491500,
+     16350
     ],
     "wp": [
      [
-      2331630,
+      1491500,
+      2730
+     ],
+     [
+      1494630,
+      2890
+     ],
+     [
+      1497920,
       3360
      ],
      [
-      2335390,
-      2220
+      1501680,
+      2700
      ],
      [
-      2338010,
-      2510
+      1504780,
+      2220
      ]
     ]
    }
   },
   {
-   "fr": "« La vague ne bouge pas. Elle attendra », a dit Lenz. « J'ai dit une bêtise, hier. »",
-   "en": "\"The wave doesn't move. It will wait,\" said Lenz. \"I said something stupid, yesterday.\"",
-   "para": 7,
+   "fr": "« La vague ne bouge pas », a dit Lenz. « Elle attendra lundi. »",
+   "en": "\"The wave doesn't move,\" said Lenz. \"It will wait until Monday.\"",
+   "para": 5,
    "glosses": [],
    "words": [
     [
@@ -5969,17 +4102,76 @@
      "doesn't move"
     ],
     [
-     "Elle attendra",
-     "it will wait"
-    ],
-    [
      "a dit",
      "said"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "Elle attendra",
+     "it will wait"
     ],
+    [
+     "lundi",
+     "Monday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 5560,
+    "en": 4220,
+    "wd": 15700
+   },
+   "bank": {
+    "fr": [
+     1508250,
+     5560
+    ],
+    "en": [
+     1514210,
+     4220
+    ],
+    "wd": [
+     1518830,
+     15700
+    ],
+    "wp": [
+     [
+      1518830,
+      2790
+     ],
+     [
+      1522020,
+      2970
+     ],
+     [
+      1525390,
+      2220
+     ],
+     [
+      1528010,
+      2890
+     ],
+     [
+      1531300,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai dit une bêtise, hier soir. » « Oui », a dit Odile.",
+   "en": "\"I said something stupid last night.\" \"Yes,\" said Odile.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "bêtise",
+     "en": "something stupid"
+    }
+   ],
+   "words": [
     [
      "J'ai dit",
      "I said"
@@ -5989,75 +4181,9 @@
      "something stupid"
     ],
     [
-     "hier",
-     "yesterday"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s075_fr.mp3",
-    "en": "audio/s075_en.mp3",
-    "wd": "audio/s075_wd.mp3"
-   },
-   "ms": {
-    "fr": 8029,
-    "en": 6220,
-    "wd": 25170
-   },
-   "bank": {
-    "fr": [
-     2341770,
-     8029
+     "hier soir",
+     "last night"
     ],
-    "en": [
-     2350200,
-     6220
-    ],
-    "wd": [
-     2356820,
-     25170
-    ],
-    "wp": [
-     [
-      2356820,
-      2790
-     ],
-     [
-      2360010,
-      2970
-     ],
-     [
-      2363380,
-      2890
-     ],
-     [
-      2366670,
-      2220
-     ],
-     [
-      2369290,
-      2550
-     ],
-     [
-      2372240,
-      2500
-     ],
-     [
-      2375140,
-      3080
-     ],
-     [
-      2378620,
-      2520
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Oui », a dit Odile.",
-   "en": "\"Yes,\" said Odile.",
-   "para": 7,
-   "glosses": [],
-   "words": [
     [
      "Oui",
      "yes"
@@ -6065,80 +4191,144 @@
     [
      "a dit",
      "said"
-    ],
-    [
-     "Odile",
-     "Odile"
     ]
    ],
    "audio": {
-    "fr": "audio/s076_fr.mp3",
-    "en": "audio/s076_en.mp3",
-    "wd": "audio/s076_wd.mp3"
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "gl": "audio/s056_gl.mp3",
+    "wd": "audio/s056_wd.mp3"
    },
    "ms": {
-    "fr": 2310,
-    "en": 2050,
-    "wd": 8570
+    "fr": 5560,
+    "en": 4059,
+    "gl": 3940,
+    "wd": 15370
    },
    "bank": {
     "fr": [
-     2382390,
-     2310
+     1534930,
+     5560
     ],
     "en": [
-     2385100,
-     2050
+     1540890,
+     4059
+    ],
+    "gl": [
+     1545350,
+     3940
     ],
     "wd": [
-     2387550,
-     8570
+     1549690,
+     15370
     ],
     "wp": [
      [
-      2387550,
+      1549690,
+      2500
+     ],
+     [
+      1552590,
+      3080
+     ],
+     [
+      1556070,
+      2930
+     ],
+     [
+      1559400,
       2190
      ],
      [
-      2390140,
+      1561990,
       2220
-     ],
-     [
-      2392760,
-      2510
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a sorti de sa poche l'enveloppe du tiroir. Dedans, le billet pour Lisbonne.",
-   "en": "Lenz took the envelope from the drawer out of his pocket. Inside, the ticket to Lisbon.",
-   "para": 7,
+   "fr": "Lenz a sorti de sa poche la vieille enveloppe du tiroir.",
+   "en": "Lenz took out of his pocket the old envelope from the drawer.",
+   "para": 5,
    "glosses": [],
    "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
     [
      "a sorti",
      "took out"
     ],
     [
      "de sa poche",
-     "from his pocket"
+     "of his pocket"
     ],
     [
-     "l'enveloppe",
-     "the envelope"
+     "la vieille enveloppe",
+     "the old envelope"
     ],
     [
      "du tiroir",
      "from the drawer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 4110,
+    "en": 3620,
+    "wd": 14240
+   },
+   "bank": {
+    "fr": [
+     1565460,
+     4110
     ],
+    "en": [
+     1569970,
+     3620
+    ],
+    "wd": [
+     1573990,
+     14240
+    ],
+    "wp": [
+     [
+      1573990,
+      2480
+     ],
+     [
+      1576870,
+      3070
+     ],
+     [
+      1580340,
+      3560
+     ],
+     [
+      1584300,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dedans, il y avait toujours le billet pour Lisbonne.",
+   "en": "Inside, there was still the ticket to Lisbon.",
+   "para": 5,
+   "glosses": [],
+   "words": [
     [
      "Dedans",
      "inside"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "toujours",
+     "still"
     ],
     [
      "le billet",
@@ -6150,172 +4340,140 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s077_fr.mp3",
-    "en": "audio/s077_en.mp3",
-    "wd": "audio/s077_wd.mp3"
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
    },
    "ms": {
-    "fr": 6760,
-    "en": 5470,
-    "wd": 25510
+    "fr": 3690,
+    "en": 3050,
+    "wd": 15260
    },
    "bank": {
     "fr": [
-     2396520,
-     6760
+     1588630,
+     3690
     ],
     "en": [
-     2403680,
-     5470
+     1592720,
+     3050
     ],
     "wd": [
-     2409550,
-     25510
+     1596170,
+     15260
     ],
     "wp": [
      [
-      2409550,
-      2550
-     ],
-     [
-      2412500,
-      2480
-     ],
-     [
-      2415380,
-      3130
-     ],
-     [
-      2418910,
-      2770
-     ],
-     [
-      2422080,
-      3080
-     ],
-     [
-      2425560,
+      1596170,
       2390
      ],
      [
-      2428350,
+      1598960,
+      2510
+     ],
+     [
+      1601870,
+      2450
+     ],
+     [
+      1604720,
       2570
      ],
      [
-      2431320,
+      1607690,
       2890
      ]
     ]
    }
   },
   {
-   "fr": "Plié dans le billet pour Lisbonne, un autre billet : Munich–Paris, six heures cinquante et un, retour dimanche.",
-   "en": "Folded inside the ticket to Lisbon, another ticket: Munich–Paris, six fifty-one, back on Sunday.",
-   "para": 7,
+   "fr": "Mais dans le vieux billet, il y avait un billet neuf : Munich-Lyon, aujourd'hui.",
+   "en": "But inside the old ticket, there was a new ticket: Munich-Lyon, today.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Plié",
-     "folded"
+     "Mais",
+     "but"
     ],
     [
-     "dans le billet",
-     "inside the ticket"
+     "dans le vieux billet",
+     "inside the old ticket"
     ],
     [
-     "pour Lisbonne",
-     "to Lisbon"
+     "il y avait",
+     "there was"
     ],
     [
-     "un autre billet",
-     "another ticket"
+     "un billet neuf",
+     "a new ticket"
     ],
     [
-     "Munich–Paris",
-     "Munich–Paris"
+     "Munich-Lyon",
+     "Munich-Lyon"
     ],
     [
-     "six heures cinquante et un",
-     "six fifty-one"
-    ],
-    [
-     "retour dimanche",
-     "back on Sunday"
+     "aujourd'hui",
+     "today"
     ]
    ],
    "audio": {
-    "fr": "audio/s078_fr.mp3",
-    "en": "audio/s078_en.mp3",
-    "wd": "audio/s078_wd.mp3"
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
    },
    "ms": {
-    "fr": 7760,
-    "en": 7230,
-    "wd": 25250
+    "fr": 5610,
+    "en": 4490,
+    "wd": 19220
    },
    "bank": {
     "fr": [
-     2435460,
-     7760
+     1611830,
+     5610
     ],
     "en": [
-     2443620,
-     7230
+     1617840,
+     4490
     ],
     "wd": [
-     2451250,
-     25250
+     1622730,
+     19220
     ],
     "wp": [
      [
-      2451250,
-      2270
+      1622730,
+      1920
      ],
      [
-      2453920,
-      3170
+      1625050,
+      3570
      ],
      [
-      2457490,
-      2890
+      1629020,
+      2510
      ],
      [
-      2460780,
-      3080
+      1631930,
+      3050
      ],
      [
-      2464260,
-      3520
+      1635380,
+      2820
      ],
      [
-      2468180,
-      3680
-     ],
-     [
-      2472260,
-      3390
+      1638600,
+      2500
      ]
     ]
    }
   },
   {
-   "fr": "« Troisième chose », a dit Lenz. « Je l'ai acheté à minuit. »",
-   "en": "\"Third thing,\" said Lenz. \"I bought it at midnight.\"",
-   "para": 7,
+   "fr": "« Je l'ai acheté à minuit », a dit Lenz. « Retour dimanche. »",
+   "en": "\"I bought it at midnight,\" said Lenz. \"Return on Sunday.\"",
+   "para": 5,
    "glosses": [],
    "words": [
-    [
-     "Troisième chose",
-     "third thing"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
     [
      "Je l'ai acheté",
      "I bought it"
@@ -6323,256 +4481,286 @@
     [
      "à minuit",
      "at midnight"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s079_fr.mp3",
-    "en": "audio/s079_en.mp3",
-    "wd": "audio/s079_wd.mp3"
-   },
-   "ms": {
-    "fr": 5350,
-    "en": 3930,
-    "wd": 15870
-   },
-   "bank": {
-    "fr": [
-     2476900,
-     5350
-    ],
-    "en": [
-     2482650,
-     3930
-    ],
-    "wd": [
-     2486980,
-     15870
-    ],
-    "wp": [
-     [
-      2486980,
-      3120
-     ],
-     [
-      2490500,
-      2220
-     ],
-     [
-      2493120,
-      2550
-     ],
-     [
-      2496070,
-      2740
-     ],
-     [
-      2499210,
-      2790
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Deux nuits », a dit Odile. « Il paraît qu'il y a des lits, à Paris », a dit Lenz.",
-   "en": "\"Two nights,\" said Odile. \"They say there are beds, in Paris,\" said Lenz.",
-   "para": 7,
-   "glosses": [],
-   "words": [
-    [
-     "Deux nuits",
-     "two nights"
     ],
     [
      "a dit",
      "said"
     ],
     [
-     "Odile",
-     "Odile"
+     "Retour",
+     "return"
     ],
     [
-     "Il paraît qu'il y a",
-     "they say there are"
-    ],
-    [
-     "des lits",
-     "beds"
-    ],
-    [
-     "à Paris",
-     "in Paris"
-    ],
-    [
-     "Lenz",
-     "Lenz"
+     "dimanche",
+     "Sunday"
     ]
    ],
    "audio": {
-    "fr": "audio/s080_fr.mp3",
-    "en": "audio/s080_en.mp3",
-    "wd": "audio/s080_wd.mp3"
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
    },
    "ms": {
-    "fr": 6820,
-    "en": 4880,
-    "wd": 21500
+    "fr": 5440,
+    "en": 3910,
+    "wd": 15180
    },
    "bank": {
     "fr": [
-     2503250,
-     6820
+     1642350,
+     5440
     ],
     "en": [
-     2510470,
-     4880
+     1648190,
+     3910
     ],
     "wd": [
-     2515750,
-     21500
+     1652500,
+     15180
     ],
     "wp": [
      [
-      2515750,
-      2660
+      1652500,
+      2740
      ],
      [
-      2518810,
+      1655640,
+      2790
+     ],
+     [
+      1658830,
       2220
      ],
      [
-      2521430,
+      1661450,
       2510
      ],
      [
-      2524340,
-      3330
-     ],
-     [
-      2528070,
-      2380
-     ],
-     [
-      2530850,
-      2600
-     ],
-     [
-      2533850,
-      2550
+      1664360,
+      2470
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a montré son téléphone : la porte de l'atelier, la même feuille, le même feutre.",
-   "en": "Lenz showed his phone: the workshop door, the same sheet of paper, the same felt-tip pen.",
-   "para": 7,
+   "fr": "« Pourquoi tu as mis le nouveau billet dans l'ancien ? » a demandé Odile.",
+   "en": "\"Why did you put the new ticket inside the old one?\" asked Odile.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Pourquoi",
+     "why"
     ],
+    [
+     "tu as mis",
+     "you put"
+    ],
+    [
+     "le nouveau billet",
+     "the new ticket"
+    ],
+    [
+     "dans l'ancien",
+     "inside the old one"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 4530,
+    "en": 4190,
+    "wd": 16320
+   },
+   "bank": {
+    "fr": [
+     1668080,
+     4530
+    ],
+    "en": [
+     1673010,
+     4190
+    ],
+    "wd": [
+     1677600,
+     16320
+    ],
+    "wp": [
+     [
+      1677600,
+      2380
+     ],
+     [
+      1680380,
+      2640
+     ],
+     [
+      1683420,
+      3070
+     ],
+     [
+      1686890,
+      3340
+     ],
+     [
+      1690630,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pour qu'ils se connaissent », a dit Lenz.",
+   "en": "\"So that they get to know each other,\" said Lenz.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pour qu'ils se connaissent",
+     "so that they get to know each other"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "en": 2890,
+    "wd": 7490
+   },
+   "bank": {
+    "fr": [
+     1694320,
+     3120
+    ],
+    "en": [
+     1697840,
+     2890
+    ],
+    "wd": [
+     1701130,
+     7490
+    ],
+    "wp": [
+     [
+      1701130,
+      4020
+     ],
+     [
+      1705550,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a montré une photo sur son téléphone : la porte de son atelier.",
+   "en": "Lenz showed a photo on his phone: the door of his workshop.",
+   "para": 5,
+   "glosses": [],
+   "words": [
     [
      "a montré",
      "showed"
     ],
     [
-     "son téléphone",
-     "his phone"
+     "une photo",
+     "a photo"
+    ],
+    [
+     "sur son téléphone",
+     "on his phone"
     ],
     [
      "la porte",
      "the door"
     ],
     [
-     "de l'atelier",
-     "of the workshop"
-    ],
-    [
-     "la même feuille",
-     "the same sheet"
-    ],
-    [
-     "le même feutre",
-     "the same felt-tip pen"
+     "de son atelier",
+     "of his workshop"
     ]
    ],
    "audio": {
-    "fr": "audio/s081_fr.mp3",
-    "en": "audio/s081_en.mp3",
-    "wd": "audio/s081_wd.mp3"
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
    },
    "ms": {
-    "fr": 6880,
-    "en": 5930,
-    "wd": 23920
+    "fr": 5270,
+    "en": 3740,
+    "wd": 16750
    },
    "bank": {
     "fr": [
-     2537650,
-     6880
+     1709020,
+     5270
     ],
     "en": [
-     2544930,
-     5930
+     1714690,
+     3740
     ],
     "wd": [
-     2551260,
-     23920
+     1718830,
+     16750
     ],
     "wp": [
      [
-      2551260,
-      2550
-     ],
-     [
-      2554210,
+      1718830,
       2530
      ],
      [
-      2557140,
-      3000
+      1721760,
+      2590
      ],
      [
-      2560540,
+      1724750,
+      3330
+     ],
+     [
+      1728480,
       2610
      ],
      [
-      2563550,
-      3010
-     ],
-     [
-      2566960,
-      3320
-     ],
-     [
-      2570680,
-      3650
+      1731490,
+      3240
      ]
     ]
    }
   },
   {
-   "fr": "« Wegen Föhn geschlossen, bis Montag. » Fermé pour cause de Föhn, jusqu'à lundi.",
-   "en": "\"Wegen Föhn geschlossen, bis Montag.\" Closed because of Föhn, until Monday.",
-   "para": 7,
+   "fr": "Sur la feuille, il avait ajouté deux mots au feutre : jusqu'à lundi.",
+   "en": "On the sheet, he had added two words in felt-tip pen: until Monday.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Wegen Föhn geschlossen",
-     "closed because of Föhn (German)"
+     "Sur la feuille",
+     "on the sheet"
     ],
     [
-     "bis Montag",
-     "until Monday (German)"
+     "il avait ajouté",
+     "he had added"
     ],
     [
-     "Fermé",
-     "closed"
+     "deux mots",
+     "two words"
     ],
     [
-     "pour cause de",
-     "because of"
+     "au feutre",
+     "in felt-tip pen"
     ],
     [
      "jusqu'à lundi",
@@ -6580,302 +4768,212 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s082_fr.mp3",
-    "en": "audio/s082_en.mp3",
-    "wd": "audio/s082_wd.mp3"
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
    },
    "ms": {
-    "fr": 7380,
-    "en": 5680,
-    "wd": 18960
+    "fr": 5210,
+    "en": 4890,
+    "wd": 17630
    },
    "bank": {
     "fr": [
-     2575580,
-     7380
+     1735980,
+     5210
     ],
     "en": [
-     2583360,
-     5680
+     1741590,
+     4890
     ],
     "wd": [
-     2589440,
-     18960
+     1746880,
+     17630
     ],
     "wp": [
      [
-      2589440,
-      4510
+      1746880,
+      3010
      ],
      [
-      2594350,
-      3560
+      1750290,
+      3110
      ],
      [
-      2598310,
-      2410
+      1753800,
+      2700
      ],
      [
-      2601120,
-      2720
+      1756900,
+      3050
      ],
      [
-      2604240,
+      1760350,
       3310
      ]
     ]
    }
   },
   {
-   "fr": "« Lyon est à deux heures de Paris, a dit Odile. Le train est direct. »",
-   "en": "\"Lyon is two hours from Paris,\" said Odile. \"The train is direct.\"",
-   "para": 7,
+   "fr": "« Mais à Lyon, il n'y a pas de vent chaud », a dit Odile.",
+   "en": "\"But in Lyon, there is no warm wind,\" said Odile.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Lyon",
-     "Lyon"
+     "Mais",
+     "but"
     ],
     [
-     "est à deux heures",
-     "is two hours"
+     "à Lyon",
+     "in Lyon"
     ],
     [
-     "de Paris",
-     "from Paris"
+     "il n'y a pas",
+     "there is no"
+    ],
+    [
+     "de vent chaud",
+     "warm wind"
     ],
     [
      "a dit",
      "said"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Le train",
-     "the train"
-    ],
-    [
-     "est direct",
-     "is direct"
     ]
    ],
    "audio": {
-    "fr": "audio/s083_fr.mp3",
-    "en": "audio/s083_en.mp3",
-    "wd": "audio/s083_wd.mp3"
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
    },
    "ms": {
-    "fr": 5960,
-    "en": 4760,
-    "wd": 21780
+    "fr": 4120,
+    "en": 3750,
+    "wd": 14610
    },
    "bank": {
     "fr": [
-     2608800,
-     5960
+     1764910,
+     4120
     ],
     "en": [
-     2615160,
-     4760
+     1769430,
+     3750
     ],
     "wd": [
-     2620320,
-     21780
+     1773580,
+     14610
     ],
     "wp": [
      [
-      2620320,
-      2200
+      1773580,
+      1920
      ],
      [
-      2622920,
-      3310
-     ],
-     [
-      2626630,
-      2870
-     ],
-     [
-      2629900,
-      2220
-     ],
-     [
-      2632520,
-      2510
-     ],
-     [
-      2635430,
-      2490
-     ],
-     [
-      2638320,
-      2930
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Tu l'as dit hier », a dit Lenz. « Oui », a dit Odile.",
-   "en": "\"You said that yesterday,\" said Lenz. \"Yes,\" said Odile.",
-   "para": 7,
-   "glosses": [],
-   "words": [
-    [
-     "Tu l'as dit",
-     "you said it"
-    ],
-    [
-     "hier",
-     "yesterday"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "Oui",
-     "yes"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s084_fr.mp3",
-    "en": "audio/s084_en.mp3",
-    "wd": "audio/s084_wd.mp3"
-   },
-   "ms": {
-    "fr": 5380,
-    "en": 4150,
-    "wd": 17590
-   },
-   "bank": {
-    "fr": [
-     2642500,
-     5380
-    ],
-    "en": [
-     2648280,
-     4150
-    ],
-    "wd": [
-     2652830,
-     17590
-    ],
-    "wp": [
-     [
-      2652830,
-      2750
-     ],
-     [
-      2655980,
+      1775900,
       2520
      ],
      [
-      2658900,
+      1778820,
+      2670
+     ],
+     [
+      1781890,
+      2830
+     ],
+     [
+      1785120,
       2220
-     ],
-     [
-      2661520,
-      2550
-     ],
-     [
-      2664470,
-      2190
-     ],
-     [
-      2667060,
-      2510
      ]
     ]
    }
   },
   {
-   "fr": "Le métro est entré dans la station. Les portes se sont ouvertes.",
-   "en": "The metro came into the station. The doors opened.",
-   "para": 7,
+   "fr": "« Tant pis. Je dirai que c'est le Föhn. Ça marche toujours. »",
+   "en": "\"Too bad. I'll say it's the Föhn. It always works.\"",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Le métro",
-     "the metro"
+     "Tant pis",
+     "too bad"
     ],
     [
-     "est entré",
-     "came in"
+     "Je dirai",
+     "I will say"
     ],
     [
-     "dans la station",
-     "into the station"
+     "que c'est",
+     "that it's"
     ],
     [
-     "Les portes",
-     "the doors"
+     "le Föhn",
+     "the Föhn"
     ],
     [
-     "se sont ouvertes",
-     "opened"
+     "Ça marche",
+     "it works"
+    ],
+    [
+     "toujours",
+     "always"
     ]
    ],
    "audio": {
-    "fr": "audio/s085_fr.mp3",
-    "en": "audio/s085_en.mp3",
-    "wd": "audio/s085_wd.mp3"
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
    },
    "ms": {
-    "fr": 5570,
-    "en": 3680,
-    "wd": 16630
+    "fr": 6280,
+    "en": 4260,
+    "wd": 18710
    },
    "bank": {
     "fr": [
-     2670820,
-     5570
+     1788590,
+     6280
     ],
     "en": [
-     2676790,
-     3680
+     1795270,
+     4260
     ],
     "wd": [
-     2680870,
-     16630
+     1799930,
+     18710
     ],
     "wp": [
      [
-      2680870,
-      2650
+      1799930,
+      2510
      ],
      [
-      2683920,
-      2540
-     ],
-     [
-      2686860,
-      3280
-     ],
-     [
-      2690540,
-      2810
-     ],
-     [
-      2693750,
+      1802840,
       2900
+     ],
+     [
+      1806140,
+      2470
+     ],
+     [
+      1809010,
+      2700
+     ],
+     [
+      1812110,
+      2760
+     ],
+     [
+      1815270,
+      2520
      ]
     ]
    }
   },
   {
-   "fr": "Ils sont montés, Odile avec la valise, Lenz avec le sac et le bretzel.",
-   "en": "They got on, Odile with the suitcase, Lenz with the bag and the pretzel.",
-   "para": 7,
+   "fr": "Ils sont montés dans le train, Odile avec sa valise, Lenz avec son sac.",
+   "en": "They got on the train, Odile with her suitcase, Lenz with his bag.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
@@ -6883,177 +4981,409 @@
      "they got on"
     ],
     [
-     "Odile",
-     "Odile"
+     "dans le train",
+     "the train"
     ],
     [
-     "avec la valise",
-     "with the suitcase"
+     "avec sa valise",
+     "with her suitcase"
     ],
     [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "avec le sac",
-     "with the bag"
-    ],
-    [
-     "et le bretzel",
-     "and the pretzel"
+     "avec son sac",
+     "with his bag"
     ]
    ],
    "audio": {
-    "fr": "audio/s086_fr.mp3",
-    "en": "audio/s086_en.mp3",
-    "wd": "audio/s086_wd.mp3"
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
    },
    "ms": {
-    "fr": 5750,
-    "en": 4890,
-    "wd": 20640
+    "fr": 5370,
+    "en": 4410,
+    "wd": 14520
    },
    "bank": {
     "fr": [
-     2697900,
-     5750
+     1819040,
+     5370
     ],
     "en": [
-     2704050,
-     4890
+     1824810,
+     4410
     ],
     "wd": [
-     2709340,
-     20640
+     1829620,
+     14520
     ],
     "wp": [
      [
-      2709340,
+      1829620,
       3040
      ],
      [
-      2712780,
-      2510
+      1833060,
+      2690
      ],
      [
-      2715690,
-      3460
+      1836150,
+      3550
      ],
      [
-      2719550,
-      2550
-     ],
-     [
-      2722500,
-      3130
-     ],
-     [
-      2726030,
-      3100
+      1840100,
+      3190
      ]
     ]
    }
   },
   {
-   "fr": "« Zurückbleiben, bitte », a dit la voix.",
-   "en": "\"Zurückbleiben, bitte,\" said the voice.",
-   "para": 7,
+   "fr": "Le train est parti. Lenz regardait par la fenêtre, comme un enfant, sans parler.",
+   "en": "The train left. Lenz looked out of the window, like a child, without speaking.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
-     "Zurückbleiben, bitte",
-     "stand back, please (German)"
+     "Le train",
+     "the train"
     ],
     [
-     "a dit",
-     "said"
+     "est parti",
+     "left"
     ],
     [
-     "la voix",
-     "the voice"
+     "regardait",
+     "looked"
+    ],
+    [
+     "par la fenêtre",
+     "out of the window"
+    ],
+    [
+     "comme un enfant",
+     "like a child"
+    ],
+    [
+     "sans parler",
+     "without speaking"
     ]
    ],
    "audio": {
-    "fr": "audio/s087_fr.mp3",
-    "en": "audio/s087_en.mp3",
-    "wd": "audio/s087_wd.mp3"
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
    },
    "ms": {
-    "fr": 3480,
-    "en": 3190,
-    "wd": 11790
+    "fr": 6890,
+    "en": 5310,
+    "wd": 19310
    },
    "bank": {
     "fr": [
-     2730380,
-     3480
+     1844540,
+     6890
     ],
     "en": [
-     2734260,
-     3190
+     1851830,
+     5310
     ],
     "wd": [
-     2737850,
-     11790
+     1857540,
+     19310
     ],
     "wp": [
      [
-      2737850,
-      5280
+      1857540,
+      2490
      ],
      [
-      2743530,
-      2220
+      1860430,
+      2510
      ],
      [
-      2746150,
-      2640
+      1863340,
+      2380
+     ],
+     [
+      1866120,
+      3100
+     ],
+     [
+      1869620,
+      2870
+     ],
+     [
+      1872890,
+      3110
      ]
     ]
    }
   },
   {
-   "fr": "Après Augsbourg, le train a traversé un fleuve, puis une ville avec une flèche très haute : Ulm.",
-   "en": "After Augsburg, the train crossed a river, then a city with a very tall spire: Ulm.",
-   "para": 8,
-   "glosses": [
-    {
-     "fr": "flèche",
-     "en": "spire (the pointed top of a church tower)"
-    }
-   ],
+   "fr": "Après Augsbourg, il a mangé son bretzel. Puis il a dormi un peu.",
+   "en": "After Augsburg, he ate his pretzel. Then he slept a little.",
+   "para": 6,
+   "glosses": [],
    "words": [
     [
      "Après Augsbourg",
      "after Augsburg"
     ],
     [
+     "il a mangé",
+     "he ate"
+    ],
+    [
+     "son bretzel",
+     "his pretzel"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a dormi",
+     "he slept"
+    ],
+    [
+     "un peu",
+     "a little"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 5940,
+    "en": 4180,
+    "wd": 19260
+   },
+   "bank": {
+    "fr": [
+     1877250,
+     5940
+    ],
+    "en": [
+     1883590,
+     4180
+    ],
+    "wd": [
+     1888170,
+     19260
+    ],
+    "wp": [
+     [
+      1888170,
+      3430
+     ],
+     [
+      1892000,
+      2700
+     ],
+     [
+      1895100,
+      3100
+     ],
+     [
+      1898600,
+      2110
+     ],
+     [
+      1901110,
+      2790
+     ],
+     [
+      1904299,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile l'a réveillé quand le train est arrivé sur un grand pont.",
+   "en": "Odile woke him up when the train came onto a big bridge.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "l'a réveillé",
+     "woke him up"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
      "le train",
      "the train"
     ],
     [
-     "a traversé",
-     "crossed"
+     "est arrivé",
+     "came"
+    ],
+    [
+     "sur un grand pont",
+     "onto a big bridge"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "en": 3660,
+    "wd": 15900
+   },
+   "bank": {
+    "fr": [
+     1907830,
+     3840
+    ],
+    "en": [
+     1912070,
+     3660
+    ],
+    "wd": [
+     1916130,
+     15900
+    ],
+    "wp": [
+     [
+      1916130,
+      2940
+     ],
+     [
+      1919470,
+      2020
+     ],
+     [
+      1921890,
+      2490
+     ],
+     [
+      1924780,
+      2440
+     ],
+     [
+      1927620,
+      3560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sous le pont, il y avait un fleuve large et gris.",
+   "en": "Under the bridge, there was a wide grey river.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "fleuve",
+     "en": "big river (that flows into the sea)"
+    }
+   ],
+   "words": [
+    [
+     "Sous le pont",
+     "under the bridge"
+    ],
+    [
+     "il y avait",
+     "there was"
     ],
     [
      "un fleuve",
      "a river"
     ],
     [
-     "puis",
-     "then"
+     "large",
+     "wide"
+    ],
+    [
+     "gris",
+     "grey"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "gl": "audio/s071_gl.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 3540,
+    "en": 3330,
+    "gl": 4930,
+    "wd": 15280
+   },
+   "bank": {
+    "fr": [
+     1932430,
+     3540
+    ],
+    "en": [
+     1936370,
+     3330
+    ],
+    "gl": [
+     1940100,
+     4930
+    ],
+    "wd": [
+     1945430,
+     15280
+    ],
+    "wp": [
+     [
+      1945430,
+      2990
+     ],
+     [
+      1948820,
+      2510
+     ],
+     [
+      1951730,
+      2800
+     ],
+     [
+      1954930,
+      2390
+     ],
+     [
+      1957720,
+      2140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Devant, il y avait une ville, avec une église très haute : Ulm.",
+   "en": "Ahead, there was a town, with a very tall church: Ulm.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Devant",
+     "ahead"
+    ],
+    [
+     "il y avait",
+     "there was"
     ],
     [
      "une ville",
-     "a city"
+     "a town"
     ],
     [
      "avec",
      "with"
     ],
     [
-     "une flèche",
-     "a spire"
+     "une église",
+     "a church"
     ],
     [
      "très haute",
@@ -7065,87 +5395,69 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s088_fr.mp3",
-    "en": "audio/s088_en.mp3",
-    "gl": "audio/s088_gl.mp3",
-    "wd": "audio/s088_wd.mp3"
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
    },
    "ms": {
-    "fr": 6650,
-    "en": 5900,
-    "gl": 5340,
-    "wd": 30770
+    "fr": 5020,
+    "en": 4490,
+    "wd": 20840
    },
    "bank": {
     "fr": [
-     2750040,
-     6650
+     1961110,
+     5020
     ],
     "en": [
-     2757090,
-     5900
-    ],
-    "gl": [
-     2763390,
-     5340
+     1966530,
+     4490
     ],
     "wd": [
-     2769130,
-     30770
+     1971420,
+     20840
     ],
     "wp": [
      [
-      2769130,
-      3430
+      1971420,
+      2300
      ],
      [
-      2772960,
-      2490
+      1974120,
+      2510
      ],
      [
-      2775850,
-      2720
+      1977030,
+      2680
      ],
      [
-      2778970,
-      2800
-     ],
-     [
-      2782170,
-      2110
-     ],
-     [
-      2784680,
-      2690
-     ],
-     [
-      2787770,
+      1980110,
       2170
      ],
      [
-      2790340,
-      2890
+      1982680,
+      2910
      ],
      [
-      2793630,
+      1985990,
       2770
      ],
      [
-      2796800,
+      1989160,
       2250
      ]
     ]
    }
   },
   {
-   "fr": "Là, la Bavière s'arrête. Lenz a regardé l'eau passer sous le pont, jusqu'au bout du pont.",
-   "en": "There, Bavaria ends. Lenz watched the water pass under the bridge, until the end of the bridge.",
-   "para": 8,
+   "fr": "« Ici, la Bavière s'arrête », a dit Odile.",
+   "en": "\"Here, Bavaria ends,\" said Odile.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
-     "Là",
-     "there"
+     "Ici",
+     "here"
     ],
     [
      "la Bavière",
@@ -7156,9 +5468,59 @@
      "ends"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 3660,
+    "en": 3140,
+    "wd": 11950
+   },
+   "bank": {
+    "fr": [
+     1992660,
+     3660
     ],
+    "en": [
+     1996720,
+     3140
+    ],
+    "wd": [
+     2000260,
+     11950
+    ],
+    "wp": [
+     [
+      2000260,
+      2210
+     ],
+     [
+      2002870,
+      3000
+     ],
+     [
+      2006270,
+      2470
+     ],
+     [
+      2009140,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a regardé l'eau passer sous le pont, jusqu'au bout du pont.",
+   "en": "Lenz watched the water pass under the bridge, until the end of the bridge.",
+   "para": 6,
+   "glosses": [],
+   "words": [
     [
      "a regardé",
      "watched"
@@ -7185,76 +5547,60 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s089_fr.mp3",
-    "en": "audio/s089_en.mp3",
-    "wd": "audio/s089_wd.mp3"
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
    },
    "ms": {
-    "fr": 7270,
-    "en": 6370,
-    "wd": 30520
+    "fr": 4420,
+    "en": 4460,
+    "wd": 18840
    },
    "bank": {
     "fr": [
-     2800300,
-     7270
+     2012610,
+     4420
     ],
     "en": [
-     2807970,
-     6370
+     2017430,
+     4460
     ],
     "wd": [
-     2814740,
-     30520
+     2022290,
+     18840
     ],
     "wp": [
      [
-      2814740,
-      2060
-     ],
-     [
-      2817200,
-      3000
-     ],
-     [
-      2820600,
-      2470
-     ],
-     [
-      2823470,
-      2550
-     ],
-     [
-      2826420,
+      2022290,
       2610
      ],
      [
-      2829430,
+      2025300,
       2270
      ],
      [
-      2832100,
+      2027970,
       2390
      ],
      [
-      2834890,
+      2030760,
       2990
      ],
      [
-      2838280,
+      2034150,
       3050
      ],
      [
-      2841730,
+      2037600,
       2680
      ]
     ]
    }
   },
   {
-   "fr": "« C'était quoi, cette rivière ? » a demandé Lenz.",
+   "fr": "« C'était quoi, ce fleuve ? » a demandé Lenz.",
    "en": "\"What was that river?\" asked Lenz.",
-   "para": 8,
+   "para": 6,
    "glosses": [],
    "words": [
     [
@@ -7262,57 +5608,49 @@
      "what was"
     ],
     [
-     "cette rivière",
+     "ce fleuve",
      "that river"
     ],
     [
      "a demandé",
      "asked"
-    ],
-    [
-     "Lenz",
-     "Lenz"
     ]
    ],
    "audio": {
-    "fr": "audio/s090_fr.mp3",
-    "en": "audio/s090_en.mp3",
-    "wd": "audio/s090_wd.mp3"
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "wd": "audio/s075_wd.mp3"
    },
    "ms": {
-    "fr": 4120,
+    "fr": 3880,
     "en": 2750,
-    "wd": 12650
+    "wd": 9540
    },
    "bank": {
     "fr": [
-     2845660,
-     4120
+     2041530,
+     3880
     ],
     "en": [
-     2850180,
+     2045810,
      2750
     ],
     "wd": [
-     2853330,
-     12650
+     2048960,
+     9540
     ],
     "wp": [
      [
-      2853330,
+      2048960,
       2650
      ],
      [
-      2856380,
-      2960
+      2052010,
+      2800
      ],
      [
-      2859740,
+      2055210,
       2440
-     ],
-     [
-      2862580,
-      2550
      ]
     ]
    }
@@ -7320,7 +5658,7 @@
   {
    "fr": "« Le Danube », a dit Odile. « Ah », a dit Lenz.",
    "en": "\"The Danube,\" said Odile. \"Ah,\" said Lenz.",
-   "para": 8,
+   "para": 6,
    "glosses": [],
    "words": [
     [
@@ -7332,151 +5670,317 @@
      "said"
     ],
     [
-     "Odile",
-     "Odile"
-    ],
-    [
      "Ah",
      "ah"
-    ],
-    [
-     "Lenz",
-     "Lenz"
     ]
    ],
    "audio": {
-    "fr": "audio/s091_fr.mp3",
-    "en": "audio/s091_en.mp3",
-    "wd": "audio/s091_wd.mp3"
+    "fr": "audio/s076_fr.mp3",
+    "en": "audio/s076_en.mp3",
+    "wd": "audio/s076_wd.mp3"
    },
    "ms": {
     "fr": 5120,
     "en": 3820,
-    "wd": 14580
+    "wd": 8720
    },
    "bank": {
     "fr": [
-     2866380,
+     2058900,
      5120
     ],
     "en": [
-     2871900,
+     2064420,
      3820
     ],
     "wd": [
-     2876120,
-     14580
+     2068639,
+     8720
     ],
     "wp": [
      [
-      2876120,
+      2068639,
       2890
      ],
      [
-      2879410,
+      2071929,
       2220
      ],
      [
-      2882030,
-      2510
-     ],
-     [
-      2884940,
+      2074549,
       1960
-     ],
-     [
-      2887300,
-      2550
      ]
     ]
    }
   },
   {
-   "fr": "Odile a sorti du sac la septième pomme, celle de madame Wimmer.",
-   "en": "Odile took the seventh apple out of the bag, the one from Madame Wimmer.",
-   "para": 8,
+   "fr": "« Tu es sorti de Bavière. Comment tu te sens ? » a demandé Odile.",
+   "en": "\"You've left Bavaria. How do you feel?\" asked Odile.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
-     "Odile",
-     "Odile"
+     "Tu es sorti",
+     "you have left"
     ],
+    [
+     "de Bavière",
+     "Bavaria"
+    ],
+    [
+     "Comment",
+     "how"
+    ],
+    [
+     "tu te sens",
+     "you feel"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "en": "audio/s077_en.mp3",
+    "wd": "audio/s077_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "en": 4090,
+    "wd": 15920
+   },
+   "bank": {
+    "fr": [
+     2077760,
+     5630
+    ],
+    "en": [
+     2083790,
+     4090
+    ],
+    "wd": [
+     2088280,
+     15920
+    ],
+    "wp": [
+     [
+      2088280,
+      3080
+     ],
+     [
+      2091760,
+      2990
+     ],
+     [
+      2095150,
+      2180
+     ],
+     [
+      2097730,
+      2780
+     ],
+     [
+      2100910,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a réfléchi. « J'ai un peu mal à la tête. »",
+   "en": "Lenz thought about it. \"I have a bit of a headache.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a réfléchi",
+     "thought"
+    ],
+    [
+     "J'ai un peu mal à la tête",
+     "I have a bit of a headache"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "en": "audio/s078_en.mp3",
+    "wd": "audio/s078_wd.mp3"
+   },
+   "ms": {
+    "fr": 4700,
+    "en": 3270,
+    "wd": 8050
+   },
+   "bank": {
+    "fr": [
+     2104600,
+     4700
+    ],
+    "en": [
+     2109700,
+     3270
+    ],
+    "wd": [
+     2113370,
+     8050
+    ],
+    "wp": [
+     [
+      2113370,
+      2570
+     ],
+     [
+      2116340,
+      4230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ça doit être le Föhn », a dit Odile. Et Lenz a ri.",
+   "en": "\"It must be the Föhn,\" said Odile. And Lenz laughed.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Ça doit être",
+     "it must be"
+    ],
+    [
+     "le Föhn",
+     "the Föhn"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "a ri",
+     "laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "en": "audio/s079_en.mp3",
+    "wd": "audio/s079_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "en": 3890,
+    "wd": 14520
+   },
+   "bank": {
+    "fr": [
+     2121820,
+     5330
+    ],
+    "en": [
+     2127550,
+     3890
+    ],
+    "wd": [
+     2131840,
+     14520
+    ],
+    "wp": [
+     [
+      2131840,
+      3000
+     ],
+     [
+      2135240,
+      2700
+     ],
+     [
+      2138340,
+      2220
+     ],
+     [
+      2140960,
+      1820
+     ],
+     [
+      2143180,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile a sorti du sac la septième pomme, celle du marché.",
+   "en": "Odile took out of the bag the seventh apple, the one from the market.",
+   "para": 6,
+   "glosses": [],
+   "words": [
     [
      "a sorti",
      "took out"
     ],
     [
      "du sac",
-     "from the bag"
+     "of the bag"
     ],
     [
      "la septième pomme",
      "the seventh apple"
     ],
     [
-     "celle de",
-     "the one from"
-    ],
-    [
-     "madame Wimmer",
-     "Madame Wimmer"
+     "celle du marché",
+     "the one from the market"
     ]
    ],
    "audio": {
-    "fr": "audio/s092_fr.mp3",
-    "en": "audio/s092_en.mp3",
-    "wd": "audio/s092_wd.mp3"
+    "fr": "audio/s080_fr.mp3",
+    "en": "audio/s080_en.mp3",
+    "wd": "audio/s080_wd.mp3"
    },
    "ms": {
-    "fr": 4880,
-    "en": 4360,
-    "wd": 20250
+    "fr": 4360,
+    "en": 4040,
+    "wd": 14290
    },
    "bank": {
     "fr": [
-     2891100,
-     4880
-    ],
-    "en": [
-     2896380,
+     2146760,
      4360
     ],
+    "en": [
+     2151520,
+     4040
+    ],
     "wd": [
-     2901140,
-     20250
+     2155960,
+     14290
     ],
     "wp": [
      [
-      2901140,
-      2510
-     ],
-     [
-      2904050,
+      2155960,
       2480
      ],
      [
-      2906930,
-      2860
+      2158840,
+      2800
      ],
      [
-      2910190,
+      2162040,
       3480
      ],
      [
-      2914070,
-      2760
-     ],
-     [
-      2917230,
-      3310
+      2165920,
+      3480
      ]
     ]
    }
   },
   {
-   "fr": "Elle a coupé la pomme en deux avec le couteau de Lenz.",
-   "en": "She cut the apple in two with Lenz's knife.",
-   "para": 8,
+   "fr": "Elle a coupé la pomme en deux, avec le couteau de Lenz.",
+   "en": "She cut the apple in two, with Lenz's knife.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
@@ -7505,51 +6009,51 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s093_fr.mp3",
-    "en": "audio/s093_en.mp3",
-    "wd": "audio/s093_wd.mp3"
+    "fr": "audio/s081_fr.mp3",
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
    },
    "ms": {
-    "fr": 3630,
-    "en": 2930,
+    "fr": 4030,
+    "en": 3070,
     "wd": 18120
    },
    "bank": {
     "fr": [
-     2921790,
-     3630
+     2170650,
+     4030
     ],
     "en": [
-     2925820,
-     2930
+     2175080,
+     3070
     ],
     "wd": [
-     2929150,
+     2178550,
      18120
     ],
     "wp": [
      [
-      2929150,
+      2178550,
       2760
      ],
      [
-      2932310,
+      2181710,
       2570
      ],
      [
-      2935280,
+      2184680,
       2309
      ],
      [
-      2937990,
+      2187390,
       2170
      ],
      [
-      2940560,
+      2189960,
       2610
      ],
      [
-      2943570,
+      2192970,
       2850
      ]
     ]
@@ -7558,13 +6062,9 @@
   {
    "fr": "Lenz a pris sa moitié.",
    "en": "Lenz took his half.",
-   "para": 8,
+   "para": 6,
    "glosses": [],
    "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
     [
      "a pris",
      "took"
@@ -7575,39 +6075,35 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s094_fr.mp3",
-    "en": "audio/s094_en.mp3",
-    "wd": "audio/s094_wd.mp3"
+    "fr": "audio/s082_fr.mp3",
+    "en": "audio/s082_en.mp3",
+    "wd": "audio/s082_wd.mp3"
    },
    "ms": {
     "fr": 2340,
     "en": 1790,
-    "wd": 9280
+    "wd": 6330
    },
    "bank": {
     "fr": [
-     2947670,
+     2197070,
      2340
     ],
     "en": [
-     2950410,
+     2199810,
      1790
     ],
     "wd": [
-     2952600,
-     9280
+     2202000,
+     6330
     ],
     "wp": [
      [
-      2952600,
-      2550
-     ],
-     [
-      2955550,
+      2202000,
       2220
      ],
      [
-      2958170,
+      2204620,
       2860
      ]
     ]
@@ -7618,10 +6114,10 @@
   "file": "bank.m4a",
   "intro": [
    400,
-   26880
+   16500
   ],
   "silence": [
-   27680,
+   17300,
    30000
   ]
  }

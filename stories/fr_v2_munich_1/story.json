@@ -1,19 +1,19 @@
 {
  "id": "fr_v2_munich_1",
  "lang": "fr",
- "title": "Fermé pour cause de Föhn (1)",
+ "title": "Fermé jusqu'à lundi (1)",
  "author": "Original story (AI-generated)",
  "level": "B1",
- "series": "Fermé pour cause de Föhn",
+ "series": "Fermé jusqu'à lundi",
  "episode": "1",
- "note": "Munich, one warm day at the end of October. Odile, a French painting restorer, leaves tomorrow. Lenz, a Bavarian cabinetmaker who surfs the river wave, has closed his workshop because of the Föhn, the warm wind from the Alps.",
+ "note": "Munich, a warm day at the end of October. Odile, a French painting restorer, takes the train home tomorrow. Lenz, a cabinetmaker who surfs the river wave, has closed his workshop because of the vent chaud, the warm wind from the Alps.",
  "intro": "audio/intro.mp3",
- "intro_ms": 22730,
+ "intro_ms": 22570,
  "silence": "audio/silence.mp3",
  "segments": [
   {
-   "fr": "Odile s'est réveillée à six heures et demie avec un mal de tête bizarre.",
-   "en": "Odile woke up at half past six with a strange headache.",
+   "fr": "Odile s'est réveillée tôt, avec un mal de tête bizarre.",
+   "en": "Odile woke up early, with a strange headache.",
    "para": 1,
    "glosses": [],
    "words": [
@@ -26,8 +26,8 @@
      "woke up"
     ],
     [
-     "à six heures et demie",
-     "at half past six"
+     "tôt",
+     "early"
     ],
     [
      "avec",
@@ -48,128 +48,54 @@
     "wd": "audio/s001_wd.mp3"
    },
    "ms": {
-    "fr": 4560,
-    "en": 3670,
-    "wd": 19720
+    "fr": 4150,
+    "en": 3310,
+    "wd": 18040
    },
    "bank": {
     "fr": [
-     53930,
-     4560
+     53770,
+     4150
     ],
     "en": [
-     58890,
-     3670
+     58320,
+     3310
     ],
     "wd": [
-     62960,
-     19720
+     62030,
+     18040
     ],
     "wp": [
      [
-      62960,
+      62030,
       2510
      ],
      [
-      65870,
+      64940,
       2630
      ],
      [
-      68900,
-      3740
+      67970,
+      2060
      ],
      [
-      73040,
+      70430,
       2170
      ],
      [
-      75610,
+      73000,
       3170
      ],
      [
-      79179,
+      76570,
       2650
      ]
     ]
    }
   },
   {
-   "fr": "Pas un mal de tête de vin, pas de fatigue. Un mal de tête de ciel.",
-   "en": "Not a wine headache, not from tiredness. A sky headache.",
-   "para": 1,
-   "glosses": [],
-   "words": [
-    [
-     "Pas",
-     "not"
-    ],
-    [
-     "un mal de tête",
-     "a headache"
-    ],
-    [
-     "de vin",
-     "of wine"
-    ],
-    [
-     "pas de fatigue",
-     "not from tiredness"
-    ],
-    [
-     "de ciel",
-     "of sky"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s002_fr.mp3",
-    "en": "audio/s002_en.mp3",
-    "wd": "audio/s002_wd.mp3"
-   },
-   "ms": {
-    "fr": 6070,
-    "en": 4350,
-    "wd": 16360
-   },
-   "bank": {
-    "fr": [
-     83080,
-     6070
-    ],
-    "en": [
-     89550,
-     4350
-    ],
-    "wd": [
-     94300,
-     16360
-    ],
-    "wp": [
-     [
-      94300,
-      2030
-     ],
-     [
-      96730,
-      3170
-     ],
-     [
-      100300,
-      2500
-     ],
-     [
-      103200,
-      3430
-     ],
-     [
-      107030,
-      2780
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Par la fenêtre ouverte entrait un air chaud et sec, un jeudi de fin octobre.",
-   "en": "Through the open window came warm, dry air, on a Thursday at the end of October.",
+   "fr": "Par la fenêtre ouverte entrait un air chaud et sec.",
+   "en": "Through the open window came warm, dry air.",
    "para": 1,
    "glosses": [],
    "words": [
@@ -200,14 +126,88 @@
     [
      "sec",
      "dry"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 3650,
+    "en": 3210,
+    "wd": 19760
+   },
+   "bank": {
+    "fr": [
+     80470,
+     3650
+    ],
+    "en": [
+     84520,
+     3210
+    ],
+    "wd": [
+     88130,
+     19760
+    ],
+    "wp": [
+     [
+      88130,
+      3050
+     ],
+     [
+      91580,
+      2380
+     ],
+     [
+      94360,
+      2340
+     ],
+     [
+      97100,
+      2570
+     ],
+     [
+      100070,
+      2100
+     ],
+     [
+      102570,
+      1820
+     ],
+     [
+      104790,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pourtant, c'était la fin du mois d'octobre, à Munich.",
+   "en": "And yet it was the end of October, in Munich.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Pourtant",
+     "and yet"
     ],
     [
-     "un jeudi",
-     "a Thursday"
+     "c'était",
+     "it was"
     ],
     [
-     "de fin octobre",
-     "of the end of October"
+     "la fin",
+     "the end"
+    ],
+    [
+     "du mois d'octobre",
+     "of the month of October"
+    ],
+    [
+     "à Munich",
+     "in Munich"
     ]
    ],
    "audio": {
@@ -216,141 +216,284 @@
     "wd": "audio/s003_wd.mp3"
    },
    "ms": {
-    "fr": 5320,
-    "en": 5230,
-    "wd": 27130
+    "fr": 4280,
+    "en": 2990,
+    "wd": 16079
    },
    "bank": {
     "fr": [
-     111060,
-     5320
+     108290,
+     4280
     ],
     "en": [
-     116780,
-     5230
+     112970,
+     2990
     ],
     "wd": [
-     122410,
-     27130
+     116360,
+     16079
     ],
     "wp": [
      [
-      122410,
-      3050
+      116360,
+      2420
      ],
      [
-      125860,
-      2380
+      119180,
+      2410
      ],
      [
-      128640,
-      2340
+      121990,
+      2400
      ],
      [
-      131380,
-      2570
+      124790,
+      3680
      ],
      [
-      134350,
-      2100
-     ],
-     [
-      136850,
-      1820
-     ],
-     [
-      139070,
-      2250
-     ],
-     [
-      141720,
-      2950
-     ],
-     [
-      145070,
-      3620
+      128870,
+      2720
      ]
     ]
    }
   },
   {
-   "fr": "Dans la cour, les feuilles du tilleul montaient au lieu de tomber.",
-   "en": "In the courtyard, the leaves of the lime tree were rising instead of falling.",
+   "fr": "Ce vent chaud a un nom ici : le Föhn.",
+   "en": "This warm wind has a name here: the Föhn.",
    "para": 1,
-   "glosses": [],
+   "glosses": [
+    {
+     "fr": "Föhn",
+     "en": "the Föhn, a warm dry wind from the Alps"
+    }
+   ],
    "words": [
     [
-     "Dans la cour",
-     "in the courtyard"
+     "Ce vent",
+     "this wind"
     ],
     [
-     "les feuilles",
-     "the leaves"
+     "chaud",
+     "warm"
     ],
     [
-     "du tilleul",
-     "of the lime tree"
+     "a un nom",
+     "has a name"
     ],
     [
-     "montaient",
-     "were rising"
+     "ici",
+     "here"
     ],
     [
-     "au lieu de",
-     "instead of"
-    ],
-    [
-     "tomber",
-     "falling"
+     "le Föhn",
+     "the Föhn"
     ]
    ],
    "audio": {
     "fr": "audio/s004_fr.mp3",
     "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
     "wd": "audio/s004_wd.mp3"
    },
    "ms": {
-    "fr": 4400,
-    "en": 4520,
-    "wd": 19470
+    "fr": 3560,
+    "en": 3200,
+    "gl": 5240,
+    "wd": 14740
    },
    "bank": {
     "fr": [
-     149940,
-     4400
+     132840,
+     3560
     ],
     "en": [
-     154740,
-     4520
+     136800,
+     3200
+    ],
+    "gl": [
+     140400,
+     5240
     ],
     "wd": [
-     159660,
-     19470
+     146040,
+     14740
     ],
     "wp": [
      [
-      159660,
-      3060
-     ],
-     [
-      163120,
-      2860
-     ],
-     [
-      166380,
-      3080
-     ],
-     [
-      169860,
-      2650
-     ],
-     [
-      172910,
+      146040,
       2560
      ],
      [
-      175870,
-      2410
+      149000,
+      2100
+     ],
+     [
+      151500,
+      2720
+     ],
+     [
+      154620,
+      2210
+     ],
+     [
+      157230,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le Föhn, c'est le vent chaud des Alpes.",
+   "en": "The Föhn is the warm wind from the Alps.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le Föhn",
+     "the Föhn"
+    ],
+    [
+     "c'est",
+     "is"
+    ],
+    [
+     "le vent chaud",
+     "the warm wind"
+    ],
+    [
+     "des Alpes",
+     "from the Alps"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "en": 2780,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     161180,
+     3200
+    ],
+    "en": [
+     164780,
+     2780
+    ],
+    "wd": [
+     167960,
+     12770
+    ],
+    "wp": [
+     [
+      167960,
+      2700
+     ],
+     [
+      171060,
+      2120
+     ],
+     [
+      173580,
+      2980
+     ],
+     [
+      176960,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quand il souffle, le ciel devient très clair, et les gens ont mal à la tête.",
+   "en": "When it blows, the sky becomes very clear, and people get headaches.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Quand",
+     "when"
+    ],
+    [
+     "il souffle",
+     "it blows"
+    ],
+    [
+     "le ciel",
+     "the sky"
+    ],
+    [
+     "devient",
+     "becomes"
+    ],
+    [
+     "très clair",
+     "very clear"
+    ],
+    [
+     "les gens",
+     "people"
+    ],
+    [
+     "ont mal à la tête",
+     "have a headache"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5360,
+    "en": 4690,
+    "wd": 21670
+   },
+   "bank": {
+    "fr": [
+     181130,
+     5360
+    ],
+    "en": [
+     186890,
+     4690
+    ],
+    "wd": [
+     191980,
+     21670
+    ],
+    "wp": [
+     [
+      191980,
+      2020
+     ],
+     [
+      194400,
+      2800
+     ],
+     [
+      197600,
+      2570
+     ],
+     [
+      200570,
+      2510
+     ],
+     [
+      203480,
+      2990
+     ],
+     [
+      206870,
+      2300
+     ],
+     [
+      209570,
+      3230
      ]
     ]
    }
@@ -387,9 +530,9 @@
     ]
    ],
    "audio": {
-    "fr": "audio/s005_fr.mp3",
-    "en": "audio/s005_en.mp3",
-    "wd": "audio/s005_wd.mp3"
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
    },
    "ms": {
     "fr": 4420,
@@ -398,234 +541,74 @@
    },
    "bank": {
     "fr": [
-     179530,
+     214050,
      4420
     ],
     "en": [
-     184350,
+     218870,
      3610
     ],
     "wd": [
-     188360,
+     222880,
      19290
     ],
     "wp": [
      [
-      188360,
+      222880,
       3110
      ],
      [
-      191870,
+      226390,
       3160
      ],
      [
-      195430,
+      229950,
       2730
      ],
      [
-      198560,
+      233080,
       2150
      ],
      [
-      201110,
+      235630,
       2460
      ],
      [
-      203970,
+      238490,
       2830
      ]
     ]
    }
   },
   {
-   "fr": "Demain, à six heures cinquante et un, le train direct pour Paris.",
-   "en": "Tomorrow, at six fifty-one, the direct train to Paris.",
+   "fr": "Demain matin, Odile prenait le train pour Paris, puis pour Lyon.",
+   "en": "Tomorrow morning, Odile was taking the train to Paris, then to Lyon.",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "Demain",
-     "tomorrow"
+     "Demain matin",
+     "tomorrow morning"
     ],
     [
-     "à six heures cinquante et un",
-     "at six fifty-one"
+     "prenait",
+     "was taking"
     ],
     [
      "le train",
      "the train"
     ],
     [
-     "direct",
-     "direct"
-    ],
-    [
      "pour Paris",
      "to Paris"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s006_fr.mp3",
-    "en": "audio/s006_en.mp3",
-    "wd": "audio/s006_wd.mp3"
-   },
-   "ms": {
-    "fr": 4850,
-    "en": 4150,
-    "wd": 16810
-   },
-   "bank": {
-    "fr": [
-     208050,
-     4850
-    ],
-    "en": [
-     213300,
-     4150
-    ],
-    "wd": [
-     217850,
-     16810
-    ],
-    "wp": [
-     [
-      217850,
-      2360
-     ],
-     [
-      220610,
-      3940
-     ],
-     [
-      224950,
-      2490
-     ],
-     [
-      227840,
-      2700
-     ],
-     [
-      230940,
-      2870
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Cinq mois à Munich, plus un. Les cinq premiers mois, pour un tableau.",
-   "en": "Five months in Munich, plus one. The first five months, for a painting.",
-   "para": 2,
-   "glosses": [],
-   "words": [
-    [
-     "Cinq mois",
-     "five months"
     ],
     [
-     "à Munich",
-     "in Munich"
+     "puis",
+     "then"
     ],
     [
-     "plus un",
-     "plus one"
-    ],
-    [
-     "Les cinq premiers mois",
-     "the first five months"
-    ],
-    [
-     "pour",
-     "for"
-    ],
-    [
-     "un tableau",
-     "a painting"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s007_fr.mp3",
-    "en": "audio/s007_en.mp3",
-    "wd": "audio/s007_wd.mp3"
-   },
-   "ms": {
-    "fr": 6220,
-    "en": 4850,
-    "wd": 19900
-   },
-   "bank": {
-    "fr": [
-     235060,
-     6220
-    ],
-    "en": [
-     241680,
-     4850
-    ],
-    "wd": [
-     246930,
-     19900
-    ],
-    "wp": [
-     [
-      246930,
-      3000
-     ],
-     [
-      250330,
-      2720
-     ],
-     [
-      253450,
-      2660
-     ],
-     [
-      256510,
-      3940
-     ],
-     [
-      260850,
-      2210
-     ],
-     [
-      263460,
-      2520
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Le sixième mois, pour le cadre du tableau. C'est ce qu'Odile avait écrit au musée de Lyon.",
-   "en": "The sixth month, for the painting's frame. That is what Odile had written to the museum in Lyon.",
-   "para": 2,
-   "glosses": [],
-   "words": [
-    [
-     "Le sixième mois",
-     "the sixth month"
-    ],
-    [
-     "pour",
-     "for"
-    ],
-    [
-     "le cadre",
-     "the frame"
-    ],
-    [
-     "du tableau",
-     "of the painting"
-    ],
-    [
-     "C'est ce qu'Odile avait écrit",
-     "that is what Odile had written"
-    ],
-    [
-     "au musée",
-     "to the museum"
-    ],
-    [
-     "de Lyon",
-     "of Lyon"
+     "pour Lyon",
+     "to Lyon"
     ]
    ],
    "audio": {
@@ -634,84 +617,76 @@
     "wd": "audio/s008_wd.mp3"
    },
    "ms": {
-    "fr": 6830,
-    "en": 5630,
-    "wd": 23940
+    "fr": 4510,
+    "en": 4600,
+    "wd": 18300
    },
    "bank": {
     "fr": [
-     267230,
-     6830
+     242570,
+     4510
     ],
     "en": [
-     274460,
-     5630
+     247480,
+     4600
     ],
     "wd": [
-     280490,
-     23940
+     252480,
+     18300
     ],
     "wp": [
      [
-      280490,
-      3270
+      252480,
+      2990
      ],
      [
-      284160,
-      2210
+      255870,
+      2430
      ],
      [
-      286770,
-      2790
+      258700,
+      2490
      ],
      [
-      289960,
-      2730
+      261590,
+      2870
      ],
      [
-      293090,
-      4340
+      264860,
+      2110
      ],
      [
-      297830,
-      2740
-     ],
-     [
-      300970,
-      2610
+      267370,
+      2560
      ]
     ]
    }
   },
   {
-   "fr": "À Lyon, un appartement repeint en avril, pour personne en particulier.",
-   "en": "In Lyon, a flat repainted in April, for nobody in particular.",
+   "fr": "Odile avait cinquante-sept ans. Elle restaurait des tableaux anciens.",
+   "en": "Odile was fifty-seven. She restored old paintings.",
    "para": 2,
    "glosses": [],
    "words": [
     [
-     "À Lyon",
-     "in Lyon"
+     "avait",
+     "had"
     ],
     [
-     "un appartement",
-     "a flat"
+     "cinquante-sept ans",
+     "fifty-seven years"
     ],
     [
-     "repeint",
-     "repainted"
+     "Elle restaurait",
+     "she restored"
     ],
     [
-     "en avril",
-     "in April"
+     "des tableaux",
+     "paintings"
     ],
     [
-     "pour personne",
-     "for nobody"
-    ],
-    [
-     "en particulier",
-     "in particular"
+     "anciens",
+     "old"
     ]
    ],
    "audio": {
@@ -720,197 +695,162 @@
     "wd": "audio/s009_wd.mp3"
    },
    "ms": {
-    "fr": 5390,
-    "en": 4480,
-    "wd": 19720
+    "fr": 5130,
+    "en": 4130,
+    "wd": 16010
    },
    "bank": {
     "fr": [
-     304830,
-     5390
+     271180,
+     5130
     ],
     "en": [
-     310620,
-     4480
+     276710,
+     4130
     ],
     "wd": [
-     315500,
-     19720
+     281240,
+     16010
     ],
     "wp": [
      [
-      315500,
-      2520
+      281240,
+      2100
      ],
      [
-      318420,
-      2920
+      283740,
+      3590
      ],
      [
-      321740,
-      2560
+      287730,
+      3020
      ],
      [
-      324700,
-      2700
+      291150,
+      2590
      ],
      [
-      327800,
-      2990
-     ],
-     [
-      331190,
-      3180
+      294140,
+      2260
      ]
     ]
    }
   },
   {
-   "fr": "Le téléphone a vibré. Un message de Lenz, deux mots : « Föhn. Heute. » Föhn. Aujourd'hui.",
-   "en": "The phone buzzed. A message from Lenz, two words: \"Föhn. Heute.\" Föhn. Today.",
-   "para": 3,
-   "glosses": [
-    {
-     "fr": "Föhn",
-     "en": "the Föhn, a warm dry wind from the Alps that makes the mountains look close"
-    }
-   ],
+   "fr": "Un musée de Munich l'avait fait venir de Lyon pour un petit tableau français.",
+   "en": "A Munich museum had brought her from Lyon for a small French painting.",
+   "para": 2,
+   "glosses": [],
    "words": [
     [
-     "Le téléphone",
-     "the phone"
+     "Un musée",
+     "a museum"
     ],
     [
-     "a vibré",
-     "buzzed"
+     "de Munich",
+     "of Munich"
     ],
     [
-     "Un message",
-     "a message"
+     "l'avait fait venir",
+     "had brought her"
     ],
     [
-     "de Lenz",
-     "from Lenz"
+     "de Lyon",
+     "from Lyon"
     ],
     [
-     "deux mots",
-     "two words"
+     "pour",
+     "for"
     ],
     [
-     "Föhn",
-     "Föhn"
+     "un petit tableau",
+     "a small painting"
     ],
     [
-     "Heute",
-     "today (German)"
-    ],
-    [
-     "Aujourd'hui",
-     "today"
+     "français",
+     "French"
     ]
    ],
    "audio": {
     "fr": "audio/s010_fr.mp3",
     "en": "audio/s010_en.mp3",
-    "gl": "audio/s010_gl.mp3",
     "wd": "audio/s010_wd.mp3"
    },
    "ms": {
-    "fr": 10610,
-    "en": 7020,
-    "gl": 6790,
-    "wd": 25000
+    "fr": 4800,
+    "en": 4280,
+    "wd": 22530
    },
    "bank": {
     "fr": [
-     335620,
-     10610
+     297650,
+     4800
     ],
     "en": [
-     346630,
-     7020
-    ],
-    "gl": [
-     354050,
-     6790
+     302850,
+     4280
     ],
     "wd": [
-     361240,
-     25000
+     307530,
+     22530
     ],
     "wp": [
      [
-      361240,
-      2840
+      307530,
+      2720
      ],
      [
-      364480,
-      2470
+      310650,
+      2790
      ],
      [
-      367350,
-      2940
+      313840,
+      3230
      ],
      [
-      370690,
-      2880
+      317470,
+      2590
      ],
      [
-      373970,
-      2700
+      320460,
+      2210
      ],
      [
-      377070,
-      2360
+      323070,
+      3280
      ],
      [
-      379830,
-      2650
-     ],
-     [
-      382880,
-      2510
+      326750,
+      2460
      ]
     ]
    }
   },
   {
-   "fr": "Puis une photo : la porte de son atelier, à Haidhausen, avec une feuille de papier dessus.",
-   "en": "Then a photo: the door of his workshop, in Haidhausen, with a sheet of paper on it.",
-   "para": 3,
+   "fr": "Le travail devait durer cinq mois. Odile était restée six mois.",
+   "en": "The work was supposed to last five months. Odile had stayed six months.",
+   "para": 2,
    "glosses": [],
    "words": [
     [
-     "Puis",
-     "then"
+     "Le travail",
+     "the work"
     ],
     [
-     "une photo",
-     "a photo"
+     "devait durer",
+     "was supposed to last"
     ],
     [
-     "la porte",
-     "the door"
+     "cinq mois",
+     "five months"
     ],
     [
-     "de son atelier",
-     "of his workshop"
+     "était restée",
+     "had stayed"
     ],
     [
-     "à Haidhausen",
-     "in Haidhausen"
-    ],
-    [
-     "avec",
-     "with"
-    ],
-    [
-     "une feuille de papier",
-     "a sheet of paper"
-    ],
-    [
-     "dessus",
-     "on it"
+     "six mois",
+     "six months"
     ]
    ],
    "audio": {
@@ -919,88 +859,68 @@
     "wd": "audio/s011_wd.mp3"
    },
    "ms": {
-    "fr": 6600,
-    "en": 5230,
-    "wd": 25090
+    "fr": 5320,
+    "en": 5370,
+    "wd": 17400
    },
    "bank": {
     "fr": [
-     386640,
-     6600
+     330460,
+     5320
     ],
     "en": [
-     393640,
-     5230
+     336180,
+     5370
     ],
     "wd": [
-     399270,
-     25090
+     341950,
+     17400
     ],
     "wp": [
      [
-      399270,
-      2110
+      341950,
+      2880
      ],
      [
-      401780,
-      2590
+      345230,
+      3410
      ],
      [
-      404770,
-      2610
+      349040,
+      3000
      ],
      [
-      407780,
-      3240
+      352440,
+      2760
      ],
      [
-      411420,
-      2850
-     ],
-     [
-      414670,
-      2170
-     ],
-     [
-      417240,
-      3650
-     ],
-     [
-      421290,
-      2220
+      355600,
+      2900
      ]
     ]
    }
   },
   {
-   "fr": "Sur la feuille, au feutre : « Wegen Föhn geschlossen. » Fermé pour cause de Föhn.",
-   "en": "On the sheet, in felt-tip pen: \"Wegen Föhn geschlossen.\" Closed because of Föhn.",
-   "para": 3,
+   "fr": "Pourquoi six ? À cause d'un cadre, et à cause d'un homme.",
+   "en": "Why six? Because of a frame, and because of a man.",
+   "para": 2,
    "glosses": [],
    "words": [
     [
-     "Sur la feuille",
-     "on the sheet"
+     "Pourquoi",
+     "why"
     ],
     [
-     "au feutre",
-     "in felt-tip pen"
+     "six",
+     "six"
     ],
     [
-     "Wegen Föhn geschlossen",
-     "closed because of Föhn (German)"
+     "À cause d'un cadre",
+     "because of a frame"
     ],
     [
-     "Fermé",
-     "closed"
-    ],
-    [
-     "pour cause de",
-     "because of"
-    ],
-    [
-     "Föhn",
-     "Föhn"
+     "à cause d'un homme",
+     "because of a man"
     ]
    ],
    "audio": {
@@ -1009,247 +929,64 @@
     "wd": "audio/s012_wd.mp3"
    },
    "ms": {
-    "fr": 7100,
-    "en": 5820,
-    "wd": 20910
+    "fr": 5210,
+    "en": 4200,
+    "wd": 13550
    },
    "bank": {
     "fr": [
-     424760,
-     7100
+     359750,
+     5210
     ],
     "en": [
-     432260,
-     5820
+     365360,
+     4200
     ],
     "wd": [
-     438480,
-     20910
+     369960,
+     13550
     ],
     "wp": [
      [
-      438480,
-      3010
-     ],
-     [
-      441890,
-      3050
-     ],
-     [
-      445340,
-      4510
-     ],
-     [
-      450250,
-      2410
-     ],
-     [
-      453060,
-      2720
-     ],
-     [
-      456180,
-      2360
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile a pris deux cachets, a mis ses chaussures de marche, et a laissé la valise ouverte.",
-   "en": "Odile took two tablets, put on her walking shoes, and left the suitcase open.",
-   "para": 3,
-   "glosses": [
-    {
-     "fr": "cachets",
-     "en": "tablets, pills"
-    }
-   ],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a pris",
-     "took"
-    ],
-    [
-     "deux cachets",
-     "two tablets"
-    ],
-    [
-     "a mis",
-     "put on"
-    ],
-    [
-     "ses chaussures de marche",
-     "her walking shoes"
-    ],
-    [
-     "a laissé",
-     "left"
-    ],
-    [
-     "la valise",
-     "the suitcase"
-    ],
-    [
-     "ouverte",
-     "open"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s013_fr.mp3",
-    "en": "audio/s013_en.mp3",
-    "gl": "audio/s013_gl.mp3",
-    "wd": "audio/s013_wd.mp3"
-   },
-   "ms": {
-    "fr": 6050,
-    "en": 5080,
-    "gl": 4030,
-    "wd": 25490
-   },
-   "bank": {
-    "fr": [
-     459790,
-     6050
-    ],
-    "en": [
-     466240,
-     5080
-    ],
-    "gl": [
-     471720,
-     4030
-    ],
-    "wd": [
-     476150,
-     25490
-    ],
-    "wp": [
-     [
-      476150,
-      2510
-     ],
-     [
-      479060,
-      2220
-     ],
-     [
-      481680,
-      3030
-     ],
-     [
-      485110,
-      2250
-     ],
-     [
-      487760,
-      3880
-     ],
-     [
-      492040,
-      2410
-     ],
-     [
-      494850,
-      3160
-     ],
-     [
-      498410,
+      369960,
       2380
+     ],
+     [
+      372740,
+      2340
+     ],
+     [
+      375480,
+      3470
+     ],
+     [
+      379350,
+      3310
      ]
     ]
    }
   },
   {
-   "fr": "Depuis juin, Odile faisait le grand tour pour aller au travail.",
-   "en": "Since June, Odile had been taking the long way to work.",
-   "para": 4,
+   "fr": "En juin, Odile allait au musée à pied, par le Jardin anglais.",
+   "en": "In June, Odile walked to the museum, through the English Garden.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "Depuis juin",
-     "since June"
+     "En juin",
+     "in June"
     ],
     [
-     "Odile",
-     "Odile"
+     "allait",
+     "went"
     ],
     [
-     "faisait le grand tour",
-     "took the long way round"
+     "au musée",
+     "to the museum"
     ],
     [
-     "pour aller",
-     "to go"
-    ],
-    [
-     "au travail",
-     "to work"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s014_fr.mp3",
-    "en": "audio/s014_en.mp3",
-    "wd": "audio/s014_wd.mp3"
-   },
-   "ms": {
-    "fr": 4370,
-    "en": 3890,
-    "wd": 16650
-   },
-   "bank": {
-    "fr": [
-     502040,
-     4370
-    ],
-    "en": [
-     506810,
-     3890
-    ],
-    "wd": [
-     511100,
-     16650
-    ],
-    "wp": [
-     [
-      511100,
-      2860
-     ],
-     [
-      514360,
-      2510
-     ],
-     [
-      517270,
-      3780
-     ],
-     [
-      521450,
-      2420
-     ],
-     [
-      524270,
-      2630
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "De Schwabing, elle descendait par le Jardin anglais jusqu'au pont de la Prinzregentenstraße.",
-   "en": "From Schwabing, she went down through the English Garden to the Prinzregentenstraße bridge.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "De Schwabing",
-     "from Schwabing"
-    ],
-    [
-     "elle descendait",
-     "she went down"
+     "à pied",
+     "on foot"
     ],
     [
      "par",
@@ -1258,14 +995,158 @@
     [
      "le Jardin anglais",
      "the English Garden"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4510,
+    "en": 4200,
+    "wd": 18290
+   },
+   "bank": {
+    "fr": [
+     383910,
+     4510
+    ],
+    "en": [
+     388820,
+     4200
+    ],
+    "wd": [
+     393420,
+     18290
+    ],
+    "wp": [
+     [
+      393420,
+      2500
+     ],
+     [
+      396320,
+      2120
+     ],
+     [
+      398840,
+      2740
+     ],
+     [
+      401980,
+      2430
+     ],
+     [
+      404810,
+      2230
+     ],
+     [
+      407440,
+      3420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au bout du parc, sous un pont, il y a une petite rivière : l'Eisbach.",
+   "en": "At the end of the park, under a bridge, there is a small river: the Eisbach.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Au bout du parc",
+     "at the end of the park"
     ],
     [
-     "jusqu'au pont",
-     "to the bridge"
+     "sous un pont",
+     "under a bridge"
     ],
     [
-     "de la Prinzregentenstraße",
-     "of the Prinzregentenstraße"
+     "il y a",
+     "there is"
+    ],
+    [
+     "une petite rivière",
+     "a small river"
+    ],
+    [
+     "l'Eisbach",
+     "the Eisbach"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 5300,
+    "en": 5240,
+    "wd": 17840
+   },
+   "bank": {
+    "fr": [
+     412110,
+     5300
+    ],
+    "en": [
+     417810,
+     5240
+    ],
+    "wd": [
+     423450,
+     17840
+    ],
+    "wp": [
+     [
+      423450,
+      3410
+     ],
+     [
+      427260,
+      3040
+     ],
+     [
+      430700,
+      2460
+     ],
+     [
+      433560,
+      3490
+     ],
+     [
+      437450,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Eisbach, en allemand, ça veut dire « le ruisseau glacé ».",
+   "en": "Eisbach, in German, means \"the icy stream\".",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Eisbach",
+     "Eisbach"
+    ],
+    [
+     "en allemand",
+     "in German"
+    ],
+    [
+     "ça veut dire",
+     "it means"
+    ],
+    [
+     "le ruisseau",
+     "the stream"
+    ],
+    [
+     "glacé",
+     "icy"
     ]
    ],
    "audio": {
@@ -1274,80 +1155,76 @@
     "wd": "audio/s015_wd.mp3"
    },
    "ms": {
-    "fr": 5900,
-    "en": 4730,
-    "wd": 21920
+    "fr": 4610,
+    "en": 3530,
+    "wd": 15930
    },
    "bank": {
     "fr": [
-     528150,
-     5900
+     441690,
+     4610
     ],
     "en": [
-     534450,
-     4730
+     446700,
+     3530
     ],
     "wd": [
-     539580,
-     21920
+     450630,
+     15930
     ],
     "wp": [
      [
-      539580,
-      2940
+      450630,
+      2710
      ],
      [
-      542920,
-      2930
+      453740,
+      2690
      ],
      [
-      546250,
-      2230
+      456830,
+      2890
      ],
      [
-      548880,
-      3420
+      460120,
+      2770
      ],
      [
-      552700,
-      2970
-     ],
-     [
-      556070,
-      4580
+      463290,
+      2420
      ]
     ]
    }
   },
   {
-   "fr": "Là, sous le pont, près de la Haus der Kunst, il y a une vague.",
-   "en": "There, under the bridge, near the Haus der Kunst, there is a wave.",
-   "para": 4,
+   "fr": "Dans cette rivière, l'eau fait une vague, toujours à la même place.",
+   "en": "In this river, the water makes a wave, always in the same place.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "Là",
-     "there"
+     "Dans cette rivière",
+     "in this river"
     ],
     [
-     "sous le pont",
-     "under the bridge"
+     "l'eau",
+     "the water"
     ],
     [
-     "près de",
-     "near"
-    ],
-    [
-     "la Haus der Kunst",
-     "the Haus der Kunst (an art museum)"
-    ],
-    [
-     "il y a",
-     "there is"
+     "fait",
+     "makes"
     ],
     [
      "une vague",
      "a wave"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "à la même place",
+     "in the same place"
     ]
    ],
    "audio": {
@@ -1356,280 +1233,144 @@
     "wd": "audio/s016_wd.mp3"
    },
    "ms": {
-    "fr": 4880,
-    "en": 4840,
-    "wd": 20210
+    "fr": 4980,
+    "en": 4580,
+    "wd": 19470
    },
    "bank": {
     "fr": [
-     561900,
-     4880
+     466960,
+     4980
     ],
     "en": [
-     567180,
-     4840
+     472340,
+     4580
     ],
     "wd": [
-     572420,
-     20210
+     477320,
+     19470
     ],
     "wp": [
      [
-      572420,
-      2060
+      477320,
+      3440
      ],
      [
-      574880,
-      2990
+      481160,
+      2270
      ],
      [
-      578270,
-      2309
+      483830,
+      2150
      ],
      [
-      580980,
-      4840
-     ],
-     [
-      586220,
-      2460
-     ],
-     [
-      589080,
+      486380,
       2700
+     ],
+     [
+      489480,
+      2520
+     ],
+     [
+      492400,
+      3540
      ]
     ]
    }
   },
   {
-   "fr": "Une vraie vague, dans une petite rivière large comme une rue : l'Eisbach.",
-   "en": "A real wave, in a small river as wide as a street: the Eisbach.",
-   "para": 4,
-   "glosses": [],
+   "fr": "Des surfeurs en combinaison noire font la queue au bord de l'eau.",
+   "en": "Surfers in black wetsuits stand in line at the edge of the water.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "combinaison",
+     "en": "wetsuit"
+    },
+    {
+     "fr": "font la queue",
+     "en": "stand in line, queue"
+    }
+   ],
    "words": [
     [
-     "Une vraie vague",
-     "a real wave"
+     "Des surfeurs",
+     "surfers"
     ],
     [
-     "dans",
-     "in"
+     "en combinaison",
+     "in wetsuits"
     ],
     [
-     "une petite rivière",
-     "a small river"
+     "noire",
+     "black"
     ],
     [
-     "large comme",
-     "as wide as"
+     "font la queue",
+     "stand in line"
     ],
     [
-     "une rue",
-     "a street"
-    ],
-    [
-     "l'Eisbach",
-     "the Eisbach"
+     "au bord de l'eau",
+     "at the edge of the water"
     ]
    ],
    "audio": {
     "fr": "audio/s017_fr.mp3",
     "en": "audio/s017_en.mp3",
+    "gl": "audio/s017_gl.mp3",
     "wd": "audio/s017_wd.mp3"
    },
    "ms": {
-    "fr": 5120,
-    "en": 4800,
-    "wd": 20230
+    "fr": 4030,
+    "en": 4160,
+    "gl": 7780,
+    "wd": 17350
    },
    "bank": {
     "fr": [
-     593030,
-     5120
+     497190,
+     4030
     ],
     "en": [
-     598550,
-     4800
-    ],
-    "wd": [
-     603750,
-     20230
-    ],
-    "wp": [
-     [
-      603750,
-      3250
-     ],
-     [
-      607400,
-      2040
-     ],
-     [
-      609840,
-      3490
-     ],
-     [
-      613730,
-      3070
-     ],
-     [
-      617200,
-      2540
-     ],
-     [
-      620140,
-      2990
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "L'eau passe. La vague reste.",
-   "en": "The water passes. The wave stays.",
-   "para": 4,
-   "glosses": [],
-   "words": [
-    [
-     "L'eau",
-     "the water"
-    ],
-    [
-     "passe",
-     "passes"
-    ],
-    [
-     "La vague",
-     "the wave"
-    ],
-    [
-     "reste",
-     "stays"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s018_fr.mp3",
-    "en": "audio/s018_en.mp3",
-    "wd": "audio/s018_wd.mp3"
-   },
-   "ms": {
-    "fr": 3680,
-    "en": 3230,
-    "wd": 11940
-   },
-   "bank": {
-    "fr": [
-     624380,
-     3680
-    ],
-    "en": [
-     628460,
-     3230
-    ],
-    "wd": [
-     632090,
-     11940
-    ],
-    "wp": [
-     [
-      632090,
-      2270
-     ],
-     [
-      634760,
-      2400
-     ],
-     [
-      637560,
-      2790
-     ],
-     [
-      640750,
-      2430
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Des gens en combinaison noire font la queue sur les deux rives.",
-   "en": "People in black wetsuits queue on both banks.",
-   "para": 4,
-   "glosses": [
-    {
-     "fr": "combinaison",
-     "en": "wetsuit"
-    }
-   ],
-   "words": [
-    [
-     "Des gens",
-     "people"
-    ],
-    [
-     "en combinaison noire",
-     "in black wetsuits"
-    ],
-    [
-     "font la queue",
-     "queue up"
-    ],
-    [
-     "sur les deux rives",
-     "on both banks"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s019_fr.mp3",
-    "en": "audio/s019_en.mp3",
-    "gl": "audio/s019_gl.mp3",
-    "wd": "audio/s019_wd.mp3"
-   },
-   "ms": {
-    "fr": 3940,
-    "en": 3220,
-    "gl": 3840,
-    "wd": 14510
-   },
-   "bank": {
-    "fr": [
-     644430,
-     3940
-    ],
-    "en": [
-     648770,
-     3220
+     501620,
+     4160
     ],
     "gl": [
-     652390,
-     3840
+     506180,
+     7780
     ],
     "wd": [
-     656630,
-     14510
+     514360,
+     17350
     ],
     "wp": [
      [
-      656630,
-      2329
+      514360,
+      3090
      ],
      [
-      659360,
-      3960
+      517850,
+      3260
      ],
      [
-      663720,
-      2670
+      521510,
+      2420
      ],
      [
-      666790,
-      3500
+      524330,
+      2950
+     ],
+     [
+      527680,
+      3180
      ]
     ]
    }
   },
   {
-   "fr": "Chacun monte sur la vague à son tour, une planche sous les pieds, pour vingt ou trente secondes.",
-   "en": "Each one gets on the wave in turn, a board under the feet, for twenty or thirty seconds.",
-   "para": 4,
+   "fr": "Chacun monte sur la vague, tient quelques secondes, puis tombe.",
+   "en": "Each one gets on the wave, holds on a few seconds, then falls.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
@@ -1645,105 +1386,85 @@
      "on the wave"
     ],
     [
-     "à son tour",
-     "in turn"
+     "tient",
+     "holds on"
     ],
     [
-     "une planche",
-     "a board"
+     "quelques secondes",
+     "a few seconds"
     ],
     [
-     "sous les pieds",
-     "under the feet"
+     "puis",
+     "then"
     ],
     [
-     "pour",
-     "for"
-    ],
-    [
-     "vingt ou trente secondes",
-     "twenty or thirty seconds"
+     "tombe",
+     "falls"
     ]
    ],
    "audio": {
-    "fr": "audio/s020_fr.mp3",
-    "en": "audio/s020_en.mp3",
-    "wd": "audio/s020_wd.mp3"
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
    },
    "ms": {
-    "fr": 6220,
-    "en": 5890,
-    "wd": 27020
+    "fr": 4770,
+    "en": 4340,
+    "wd": 21800
    },
    "bank": {
     "fr": [
-     671540,
-     6220
+     532110,
+     4770
     ],
     "en": [
-     678160,
-     5890
+     537280,
+     4340
     ],
     "wd": [
-     684450,
-     27020
+     542020,
+     21800
     ],
     "wp": [
      [
-      684450,
+      542020,
       2550
      ],
      [
-      687400,
+      544970,
       2480
      ],
      [
-      690280,
+      547850,
       3040
      ],
      [
-      693720,
-      2810
+      551290,
+      2540
      ],
      [
-      696930,
-      2760
+      554230,
+      3390
      ],
      [
-      700090,
-      3020
+      558020,
+      2110
      ],
      [
-      703510,
-      2210
-     ],
-     [
-      706120,
-      4500
+      560530,
+      2440
      ]
     ]
    }
   },
   {
-   "fr": "Puis le surfeur tombe, le courant l'emporte, il nage jusqu'au bord, et il refait la queue.",
-   "en": "Then the surfer falls, the current carries him away, he swims to the bank, and he queues again.",
-   "para": 4,
+   "fr": "Le courant l'emporte, il nage jusqu'au bord, et il refait la queue.",
+   "en": "The current carries him away, he swims to the edge, and he gets in line again.",
+   "para": 3,
    "glosses": [],
    "words": [
     [
-     "Puis",
-     "then"
-    ],
-    [
-     "le surfeur",
-     "the surfer"
-    ],
-    [
-     "tombe",
-     "falls"
-    ],
-    [
-     "le courant",
+     "Le courant",
      "the current"
     ],
     [
@@ -1756,11 +1477,155 @@
     ],
     [
      "jusqu'au bord",
-     "to the bank"
+     "to the edge"
     ],
     [
      "il refait la queue",
-     "he queues again"
+     "he gets in line again"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "en": 4820,
+    "wd": 17780
+   },
+   "bank": {
+    "fr": [
+     564220,
+     4890
+    ],
+    "en": [
+     569510,
+     4820
+    ],
+    "wd": [
+     574730,
+     17780
+    ],
+    "wp": [
+     [
+      574730,
+      2710
+     ],
+     [
+      577840,
+      3110
+     ],
+     [
+      581350,
+      2910
+     ],
+     [
+      584660,
+      3080
+     ],
+     [
+      588140,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chaque matin, Odile s'arrêtait sur le pont pour regarder.",
+   "en": "Every morning, Odile stopped on the bridge to watch.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Chaque matin",
+     "every morning"
+    ],
+    [
+     "s'arrêtait",
+     "stopped"
+    ],
+    [
+     "sur le pont",
+     "on the bridge"
+    ],
+    [
+     "pour regarder",
+     "to watch"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4120,
+    "en": 3540,
+    "wd": 13190
+   },
+   "bank": {
+    "fr": [
+     592910,
+     4120
+    ],
+    "en": [
+     597430,
+     3540
+    ],
+    "wd": [
+     601370,
+     13190
+    ],
+    "wp": [
+     [
+      601370,
+      2850
+     ],
+     [
+      604620,
+      2540
+     ],
+     [
+      607560,
+      2910
+     ],
+     [
+      610870,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un surfeur l'intéressait plus que les autres : le plus vieux de la queue.",
+   "en": "One surfer interested her more than the others: the oldest in the line.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Un surfeur",
+     "a surfer"
+    ],
+    [
+     "l'intéressait",
+     "interested her"
+    ],
+    [
+     "plus que",
+     "more than"
+    ],
+    [
+     "les autres",
+     "the others"
+    ],
+    [
+     "le plus vieux",
+     "the oldest"
+    ],
+    [
+     "de la queue",
+     "in the line"
     ]
    ],
    "audio": {
@@ -1769,92 +1634,76 @@
     "wd": "audio/s021_wd.mp3"
    },
    "ms": {
-    "fr": 6320,
-    "en": 5780,
-    "wd": 26190
+    "fr": 4560,
+    "en": 4240,
+    "wd": 19770
    },
    "bank": {
     "fr": [
-     711870,
-     6320
+     614960,
+     4560
     ],
     "en": [
-     718590,
-     5780
+     619920,
+     4240
     ],
     "wd": [
-     724770,
-     26190
+     624560,
+     19770
     ],
     "wp": [
      [
-      724770,
-      2110
+      624560,
+      2950
      ],
      [
-      727280,
-      2990
+      627910,
+      3140
      ],
      [
-      730670,
-      2440
+      631450,
+      2500
      ],
      [
-      733510,
-      2710
+      634350,
+      2630
      ],
      [
-      736620,
-      3110
+      637380,
+      2980
      ],
      [
-      740130,
-      2910
-     ],
-     [
-      743440,
-      3020
-     ],
-     [
-      746860,
-      3250
+      640760,
+      2720
      ]
     ]
    }
   },
   {
-   "fr": "L'année d'avant, en octobre, après un nettoyage de la rivière, la vague avait disparu.",
-   "en": "The year before, in October, after a cleaning of the river, the wave had disappeared.",
-   "para": 5,
+   "fr": "Des cheveux gris, une combinaison réparée au genou, et beaucoup de patience.",
+   "en": "Grey hair, a wetsuit repaired at the knee, and a lot of patience.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "L'année d'avant",
-     "the year before"
+     "Des cheveux gris",
+     "grey hair"
     ],
     [
-     "en octobre",
-     "in October"
+     "une combinaison",
+     "a wetsuit"
     ],
     [
-     "après",
-     "after"
+     "réparée",
+     "repaired"
     ],
     [
-     "un nettoyage",
-     "a cleaning"
+     "au genou",
+     "at the knee"
     ],
     [
-     "de la rivière",
-     "of the river"
-    ],
-    [
-     "la vague",
-     "the wave"
-    ],
-    [
-     "avait disparu",
-     "had disappeared"
+     "beaucoup de patience",
+     "a lot of patience"
     ]
    ],
    "audio": {
@@ -1863,68 +1712,72 @@
     "wd": "audio/s022_wd.mp3"
    },
    "ms": {
-    "fr": 6590,
-    "en": 5700,
-    "wd": 23480
+    "fr": 5580,
+    "en": 4430,
+    "wd": 17640
    },
    "bank": {
     "fr": [
-     751360,
-     6590
+     644730,
+     5580
     ],
     "en": [
-     758350,
-     5700
+     650710,
+     4430
     ],
     "wd": [
-     764450,
-     23480
+     655540,
+     17640
     ],
     "wp": [
      [
-      764450,
-      2980
+      655540,
+      2970
      ],
      [
-      767830,
-      2960
+      658910,
+      3110
      ],
      [
-      771190,
-      2250
+      662420,
+      2730
      ],
      [
-      773840,
-      3000
+      665550,
+      2600
      ],
      [
-      777240,
-      3060
-     ],
-     [
-      780700,
-      2800
-     ],
-     [
-      783900,
-      3180
+      668550,
+      3780
      ]
     ]
    }
   },
   {
-   "fr": "Plus rien. De l'eau plate.",
-   "en": "Nothing left. Flat water.",
-   "para": 5,
+   "fr": "Il laissait toujours passer les jeunes devant lui.",
+   "en": "He always let the young ones go ahead of him.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Plus rien",
-     "nothing left"
+     "Il laissait",
+     "he let"
     ],
     [
-     "De l'eau plate",
-     "flat water"
+     "toujours",
+     "always"
+    ],
+    [
+     "passer",
+     "go"
+    ],
+    [
+     "les jeunes",
+     "the young ones"
+    ],
+    [
+     "devant lui",
+     "ahead of him"
     ]
    ],
    "audio": {
@@ -1933,68 +1786,76 @@
     "wd": "audio/s023_wd.mp3"
    },
    "ms": {
-    "fr": 3370,
-    "en": 2640,
-    "wd": 7010
+    "fr": 3210,
+    "en": 2800,
+    "wd": 15460
    },
    "bank": {
     "fr": [
-     788330,
-     3370
+     673580,
+     3210
     ],
     "en": [
-     792100,
-     2640
+     677190,
+     2800
     ],
     "wd": [
-     795140,
-     7010
+     680390,
+     15460
     ],
     "wp": [
      [
-      795140,
-      2770
+      680390,
+      2570
      ],
      [
-      798310,
-      2990
+      683360,
+      2520
+     ],
+     [
+      686280,
+      2210
+     ],
+     [
+      688890,
+      2930
+     ],
+     [
+      692220,
+      2780
      ]
     ]
    }
   },
   {
-   "fr": "La vague était revenue toute seule, et en mai, la ville avait de nouveau permis le surf.",
-   "en": "The wave had come back by itself, and in May, the city had allowed surfing again.",
-   "para": 5,
+   "fr": "Un matin de pluie, cet homme est venu sur le pont avec un thermos.",
+   "en": "One rainy morning, this man came onto the bridge with a thermos.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "La vague",
-     "the wave"
+     "Un matin de pluie",
+     "a rainy morning"
     ],
     [
-     "était revenue",
-     "had come back"
+     "cet homme",
+     "this man"
     ],
     [
-     "toute seule",
-     "by itself"
+     "est venu",
+     "came"
     ],
     [
-     "en mai",
-     "in May"
+     "sur le pont",
+     "onto the bridge"
     ],
     [
-     "la ville",
-     "the city"
+     "avec",
+     "with"
     ],
     [
-     "avait de nouveau permis",
-     "had allowed again"
-    ],
-    [
-     "le surf",
-     "surfing"
+     "un thermos",
+     "a thermos"
     ]
    ],
    "audio": {
@@ -2003,80 +1864,72 @@
     "wd": "audio/s024_wd.mp3"
    },
    "ms": {
-    "fr": 5860,
-    "en": 5360,
-    "wd": 22970
+    "fr": 4550,
+    "en": 4120,
+    "wd": 19470
    },
    "bank": {
     "fr": [
-     802550,
-     5860
+     696250,
+     4550
     ],
     "en": [
-     808810,
-     5360
+     701200,
+     4120
     ],
     "wd": [
-     814570,
-     22970
+     705720,
+     19470
     ],
     "wp": [
      [
-      814570,
-      2790
+      705720,
+      3390
      ],
      [
-      817760,
-      2950
+      709510,
+      2670
      ],
      [
-      821110,
-      2790
+      712580,
+      2350
      ],
      [
-      824300,
-      2370
+      715330,
+      3020
      ],
      [
-      827070,
-      2600
+      718750,
+      2170
      ],
      [
-      830070,
-      3560
-     ],
-     [
-      834030,
-      2660
+      721320,
+      3020
      ]
     ]
    }
   },
   {
-   "fr": "C'était la semaine où Odile était arrivée à Munich.",
-   "en": "That was the week Odile arrived in Munich.",
-   "para": 5,
+   "fr": "« Vous regardez depuis deux semaines. Vous voulez un café ? »",
+   "en": "\"You've been watching for two weeks. Do you want a coffee?\"",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "C'était",
-     "that was"
+     "Vous regardez",
+     "you watch"
     ],
     [
-     "la semaine où",
-     "the week when"
+     "depuis deux semaines",
+     "for two weeks"
     ],
     [
-     "Odile",
-     "Odile"
+     "Vous voulez",
+     "you want"
     ],
     [
-     "était arrivée",
-     "arrived"
-    ],
-    [
-     "à Munich",
-     "in Munich"
+     "un café",
+     "a coffee"
     ]
    ],
    "audio": {
@@ -2085,88 +1938,72 @@
     "wd": "audio/s025_wd.mp3"
    },
    "ms": {
-    "fr": 3600,
-    "en": 2920,
-    "wd": 15880
+    "fr": 4750,
+    "en": 3670,
+    "wd": 13670
    },
    "bank": {
     "fr": [
-     837940,
-     3600
+     725590,
+     4750
     ],
     "en": [
-     841940,
-     2920
+     730740,
+     3670
     ],
     "wd": [
-     845260,
-     15880
+     734810,
+     13670
     ],
     "wp": [
      [
-      845260,
-      2440
+      734810,
+      2930
      ],
      [
-      848100,
-      3030
+      738140,
+      3390
      ],
      [
-      851530,
-      2510
+      741930,
+      2530
      ],
      [
-      854440,
-      2730
-     ],
-     [
-      857570,
-      2720
+      744860,
+      2770
      ]
     ]
    }
   },
   {
-   "fr": "Pendant ces mois sans vague, Lenz était venu chaque matin quand même, pour regarder l'eau.",
-   "en": "During those months without a wave, Lenz had come every morning anyway, to look at the water.",
-   "para": 5,
+   "fr": "Il parlait un français lent, appris à l'école, il y a longtemps.",
+   "en": "He spoke a slow French, learned at school, a long time ago.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Pendant",
-     "during"
+     "Il parlait",
+     "he spoke"
     ],
     [
-     "ces mois",
-     "those months"
+     "un français",
+     "a French"
     ],
     [
-     "sans vague",
-     "without a wave"
+     "lent",
+     "slow"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "appris",
+     "learned"
     ],
     [
-     "était venu",
-     "had come"
+     "à l'école",
+     "at school"
     ],
     [
-     "chaque matin",
-     "every morning"
-    ],
-    [
-     "quand même",
-     "anyway"
-    ],
-    [
-     "pour regarder",
-     "to look at"
-    ],
-    [
-     "l'eau",
-     "the water"
+     "il y a longtemps",
+     "a long time ago"
     ]
    ],
    "audio": {
@@ -2175,202 +2012,173 @@
     "wd": "audio/s026_wd.mp3"
    },
    "ms": {
-    "fr": 5920,
-    "en": 5470,
-    "wd": 27770
+    "fr": 4560,
+    "en": 4350,
+    "wd": 18780
    },
    "bank": {
     "fr": [
-     861540,
-     5920
+     748880,
+     4560
     ],
     "en": [
-     867860,
-     5470
+     753840,
+     4350
     ],
     "wd": [
-     873730,
-     27770
+     758590,
+     18780
     ],
     "wp": [
      [
-      873730,
-      2190
+      758590,
+      2740
      ],
      [
-      876320,
-      2870
+      761730,
+      2880
      ],
      [
-      879590,
-      3050
+      765010,
+      2140
      ],
      [
-      883040,
-      2550
+      767550,
+      2210
      ],
      [
-      885990,
-      2670
+      770160,
+      2810
      ],
      [
-      889060,
-      2850
-     ],
-     [
-      892310,
-      2520
-     ],
-     [
-      895230,
-      2750
-     ],
-     [
-      898380,
-      2270
+      773370,
+      3150
      ]
     ]
    }
   },
   {
-   "fr": "Lenz l'avait dit une fois, en juillet, comme on dit qu'on a pris le tram.",
-   "en": "Lenz had said it once, in July, the way you say you took the tram.",
-   "para": 5,
-   "glosses": [],
+   "fr": "Il s'appelait Lenz. Il avait soixante et un ans, et il était menuisier.",
+   "en": "His name was Lenz. He was sixty-one, and he was a cabinetmaker.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "menuisier",
+     "en": "cabinetmaker, joiner"
+    }
+   ],
    "words": [
+    [
+     "Il s'appelait",
+     "his name was"
+    ],
     [
      "Lenz",
      "Lenz"
     ],
     [
-     "l'avait dit",
-     "had said it"
+     "Il avait",
+     "he had"
     ],
     [
-     "une fois",
-     "once"
+     "soixante et un ans",
+     "sixty-one years"
     ],
     [
-     "en juillet",
-     "in July"
+     "il était",
+     "he was"
     ],
     [
-     "comme",
-     "the way"
-    ],
-    [
-     "on dit",
-     "you say"
-    ],
-    [
-     "on a pris",
-     "you took"
-    ],
-    [
-     "le tram",
-     "the tram"
+     "menuisier",
+     "cabinetmaker"
     ]
    ],
    "audio": {
     "fr": "audio/s027_fr.mp3",
     "en": "audio/s027_en.mp3",
+    "gl": "audio/s027_gl.mp3",
     "wd": "audio/s027_wd.mp3"
    },
    "ms": {
-    "fr": 5170,
-    "en": 4120,
-    "wd": 24190
+    "fr": 5900,
+    "en": 4810,
+    "gl": 4690,
+    "wd": 19620
    },
    "bank": {
     "fr": [
-     901900,
-     5170
+     777770,
+     5900
     ],
     "en": [
-     907470,
-     4120
+     784070,
+     4810
+    ],
+    "gl": [
+     789280,
+     4690
     ],
     "wd": [
-     911990,
-     24190
+     794370,
+     19620
     ],
     "wp": [
      [
-      911990,
+      794370,
+      2820
+     ],
+     [
+      797590,
       2550
      ],
      [
-      914940,
-      2790
+      800540,
+      2430
      ],
      [
-      918130,
-      2440
+      803370,
+      3580
      ],
      [
-      920970,
-      2590
+      807350,
+      2410
      ],
      [
-      923960,
-      2300
-     ],
-     [
-      926660,
-      2360
-     ],
-     [
-      929420,
-      2720
-     ],
-     [
-      932540,
-      2790
+      810160,
+      2980
      ]
     ]
    }
   },
   {
-   "fr": "Ce matin-là, le Föhn avait lavé le ciel. Sur le pont, trois touristes prenaient déjà des photos.",
-   "en": "That morning, the Föhn had washed the sky. On the bridge, three tourists were already taking photos.",
-   "para": 6,
+   "fr": "Lenz surfait sur cette vague depuis trente-sept ans, presque chaque matin.",
+   "en": "Lenz had surfed this wave for thirty-seven years, almost every morning.",
+   "para": 4,
    "glosses": [],
    "words": [
     [
-     "Ce matin-là",
-     "that morning"
+     "surfait",
+     "surfed"
     ],
     [
-     "le Föhn",
-     "the Föhn"
+     "sur cette vague",
+     "on this wave"
     ],
     [
-     "avait lavé",
-     "had washed"
+     "depuis",
+     "for"
     ],
     [
-     "le ciel",
-     "the sky"
+     "trente-sept ans",
+     "thirty-seven years"
     ],
     [
-     "Sur le pont",
-     "on the bridge"
+     "presque",
+     "almost"
     ],
     [
-     "trois touristes",
-     "three tourists"
-    ],
-    [
-     "prenaient",
-     "were taking"
-    ],
-    [
-     "déjà",
-     "already"
-    ],
-    [
-     "des photos",
-     "photos"
+     "chaque matin",
+     "every morning"
     ]
    ],
    "audio": {
@@ -2379,209 +2187,150 @@
     "wd": "audio/s028_wd.mp3"
    },
    "ms": {
-    "fr": 7660,
-    "en": 6350,
-    "wd": 28310
+    "fr": 5030,
+    "en": 4540,
+    "wd": 19560
    },
    "bank": {
     "fr": [
-     936580,
-     7660
+     814390,
+     5030
     ],
     "en": [
-     944640,
-     6350
+     819820,
+     4540
     ],
     "wd": [
-     951390,
-     28310
+     824760,
+     19560
     ],
     "wp": [
      [
-      951390,
-      2720
-     ],
-     [
-      954510,
-      2700
-     ],
-     [
-      957610,
-      2720
-     ],
-     [
-      960730,
+      824760,
       2570
      ],
      [
-      963700,
-      2910
+      827730,
+      3260
      ],
      [
-      967010,
-      3210
+      831390,
+      2340
      ],
      [
-      970620,
-      2520
+      834130,
+      3290
      ],
      [
-      973540,
-      2320
+      837820,
+      2400
      ],
      [
-      976260,
-      2590
+      840620,
+      2850
      ]
     ]
    }
   },
   {
-   "fr": "Lenz attendait dans la queue, dans sa combinaison rapiécée au genou avec un morceau de chambre à air.",
-   "en": "Lenz was waiting in the queue, in his wetsuit patched at the knee with a piece of inner tube.",
-   "para": 6,
-   "glosses": [
-    {
-     "fr": "rapiécée",
-     "en": "patched"
-    },
-    {
-     "fr": "chambre à air",
-     "en": "inner tube (of a bicycle tyre)"
-    }
-   ],
+   "fr": "Après ce jour-là, il y a eu un café chaque matin, sur le même banc.",
+   "en": "After that day, there was a coffee every morning, on the same bench.",
+   "para": 5,
+   "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Après ce jour-là",
+     "after that day"
     ],
     [
-     "attendait",
-     "was waiting"
+     "il y a eu",
+     "there was"
     ],
     [
-     "dans la queue",
-     "in the queue"
+     "un café",
+     "a coffee"
     ],
     [
-     "dans sa combinaison",
-     "in his wetsuit"
+     "chaque matin",
+     "every morning"
     ],
     [
-     "rapiécée",
-     "patched"
-    ],
-    [
-     "au genou",
-     "at the knee"
-    ],
-    [
-     "avec",
-     "with"
-    ],
-    [
-     "un morceau",
-     "a piece"
-    ],
-    [
-     "de chambre à air",
-     "of inner tube"
+     "sur le même banc",
+     "on the same bench"
     ]
    ],
    "audio": {
     "fr": "audio/s029_fr.mp3",
     "en": "audio/s029_en.mp3",
-    "gl": "audio/s029_gl.mp3",
     "wd": "audio/s029_wd.mp3"
    },
    "ms": {
-    "fr": 6550,
-    "en": 4770,
-    "gl": 8660,
-    "wd": 28780
+    "fr": 4950,
+    "en": 4430,
+    "wd": 17230
    },
    "bank": {
     "fr": [
-     980100,
-     6550
+     844720,
+     4950
     ],
     "en": [
-     987050,
-     4770
-    ],
-    "gl": [
-     992220,
-     8660
+     850070,
+     4430
     ],
     "wd": [
-     1001280,
-     28780
+     854900,
+     17230
     ],
     "wp": [
      [
-      1001280,
-      2550
+      854900,
+      3180
      ],
      [
-      1004230,
-      2540
+      858480,
+      2620
      ],
      [
-      1007170,
-      2710
+      861500,
+      2770
      ],
      [
-      1010280,
-      3480
+      864670,
+      2850
      ],
      [
-      1014160,
-      2700
-     ],
-     [
-      1017260,
-      2600
-     ],
-     [
-      1020260,
-      2170
-     ],
-     [
-      1022830,
-      2700
-     ],
-     [
-      1025930,
-      3280
+      867920,
+      3360
      ]
     ]
    }
   },
   {
-   "fr": "Soixante et un ans, les cheveux gris sous le bonnet, le plus vieux de la file.",
-   "en": "Sixty-one years old, grey hair under the cap, the oldest in the line.",
-   "para": 6,
+   "fr": "En juillet, Lenz a apporté une deuxième tasse, une tasse blanche, pour Odile.",
+   "en": "In July, Lenz brought a second cup, a white cup, for Odile.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Soixante et un ans",
-     "sixty-one years old"
+     "En juillet",
+     "in July"
     ],
     [
-     "les cheveux gris",
-     "the grey hair"
+     "a apporté",
+     "brought"
     ],
     [
-     "sous le bonnet",
-     "under the cap"
+     "une deuxième tasse",
+     "a second cup"
     ],
     [
-     "le plus vieux",
-     "the oldest"
+     "une tasse blanche",
+     "a white cup"
     ],
     [
-     "de la file",
-     "in the line"
+     "pour Odile",
+     "for Odile"
     ]
    ],
    "audio": {
@@ -2590,72 +2339,64 @@
     "wd": "audio/s030_wd.mp3"
    },
    "ms": {
-    "fr": 5350,
-    "en": 4720,
-    "wd": 18180
+    "fr": 6110,
+    "en": 4560,
+    "wd": 17160
    },
    "bank": {
     "fr": [
-     1030460,
-     5350
+     872530,
+     6110
     ],
     "en": [
-     1036210,
-     4720
+     879040,
+     4560
     ],
     "wd": [
-     1041329,
-     18180
+     884000,
+     17160
     ],
     "wp": [
      [
-      1041329,
-      3700
+      884000,
+      2590
      ],
      [
-      1045429,
+      886990,
+      2600
+     ],
+     [
+      889990,
+      3410
+     ],
+     [
+      893800,
       3210
      ],
      [
-      1049039,
-      2950
-     ],
-     [
-      1052389,
-      2980
-     ],
-     [
-      1055769,
-      2890
+      897410,
+      2900
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a laissé passer un garçon devant lui, comme toujours.",
-   "en": "Lenz let a boy go ahead of him, as always.",
-   "para": 6,
+   "fr": "Lenz n'a rien dit de cette tasse. Odile non plus.",
+   "en": "Lenz said nothing about this cup. Neither did Odile.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "n'a rien dit",
+     "said nothing"
     ],
     [
-     "a laissé passer",
-     "let go ahead"
+     "de cette tasse",
+     "about this cup"
     ],
     [
-     "un garçon",
-     "a boy"
-    ],
-    [
-     "devant lui",
-     "in front of him"
-    ],
-    [
-     "comme toujours",
-     "as always"
+     "Odile non plus",
+     "neither did Odile"
     ]
    ],
    "audio": {
@@ -2664,72 +2405,72 @@
     "wd": "audio/s031_wd.mp3"
    },
    "ms": {
-    "fr": 4330,
-    "en": 3190,
-    "wd": 16440
+    "fr": 4700,
+    "en": 3840,
+    "wd": 11010
    },
    "bank": {
     "fr": [
-     1059910,
-     4330
+     901560,
+     4700
     ],
     "en": [
-     1064640,
-     3190
+     906660,
+     3840
     ],
     "wd": [
-     1068230,
-     16440
+     910900,
+     11010
     ],
     "wp": [
      [
-      1068230,
-      2550
+      910900,
+      2880
      ],
      [
-      1071180,
-      3150
+      914180,
+      3160
      ],
      [
-      1074730,
-      2550
-     ],
-     [
-      1077680,
-      2760
-     ],
-     [
-      1080840,
-      2980
+      917740,
+      3320
      ]
     ]
    }
   },
   {
-   "fr": "Lenz est monté, il a tenu trente secondes, il est tombé.",
-   "en": "Lenz got on, he held for thirty seconds, he fell.",
-   "para": 6,
+   "fr": "En septembre, le tableau d'Odile était fini, mais son vieux cadre était cassé.",
+   "en": "In September, Odile's painting was finished, but its old frame was broken.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "En septembre",
+     "in September"
     ],
     [
-     "est monté",
-     "got on"
+     "le tableau",
+     "the painting"
     ],
     [
-     "il a tenu",
-     "he held"
+     "d'Odile",
+     "of Odile"
     ],
     [
-     "trente secondes",
-     "thirty seconds"
+     "était fini",
+     "was finished"
     ],
     [
-     "il est tombé",
-     "he fell"
+     "mais",
+     "but"
+    ],
+    [
+     "son vieux cadre",
+     "its old frame"
+    ],
+    [
+     "était cassé",
+     "was broken"
     ]
    ],
    "audio": {
@@ -2738,72 +2479,84 @@
     "wd": "audio/s032_wd.mp3"
    },
    "ms": {
-    "fr": 4620,
-    "en": 3770,
-    "wd": 16110
+    "fr": 5560,
+    "en": 5030,
+    "wd": 22360
    },
    "bank": {
     "fr": [
-     1085070,
-     4620
+     922310,
+     5560
     ],
     "en": [
-     1090090,
-     3770
+     928270,
+     5030
     ],
     "wd": [
-     1094260,
-     16110
+     933700,
+     22360
     ],
     "wp": [
      [
-      1094260,
-      2550
+      933700,
+      2950
      ],
      [
-      1097210,
-      2450
+      937050,
+      2560
      ],
      [
-      1100060,
-      2680
+      940010,
+      2730
      ],
      [
-      1103140,
-      3330
+      943140,
+      2820
      ],
      [
-      1106870,
-      2650
+      946360,
+      1920
+     ],
+     [
+      948680,
+      3350
+     ],
+     [
+      952430,
+      2780
      ]
     ]
    }
   },
   {
-   "fr": "Le courant l'a emporté sous les téléphones des touristes.",
-   "en": "The current carried him away under the tourists' phones.",
-   "para": 6,
+   "fr": "Odile a demandé à Lenz de réparer le cadre. Lenz l'a réparé en deux jours.",
+   "en": "Odile asked Lenz to repair the frame. Lenz repaired it in two days.",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Le courant",
-     "the current"
+     "a demandé",
+     "asked"
     ],
     [
-     "l'a emporté",
-     "carried him away"
+     "à Lenz",
+     "Lenz"
     ],
     [
-     "sous",
-     "under"
+     "de réparer",
+     "to repair"
     ],
     [
-     "les téléphones",
-     "the phones"
+     "le cadre",
+     "the frame"
     ],
     [
-     "des touristes",
-     "of the tourists"
+     "l'a réparé",
+     "repaired it"
+    ],
+    [
+     "en deux jours",
+     "in two days"
     ]
    ],
    "audio": {
@@ -2812,84 +2565,80 @@
     "wd": "audio/s033_wd.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "en": 3340,
-    "wd": 16830
+    "fr": 6350,
+    "en": 4690,
+    "wd": 19590
    },
    "bank": {
     "fr": [
-     1110770,
-     3810
+     956460,
+     6350
     ],
     "en": [
-     1114980,
-     3340
+     963210,
+     4690
     ],
     "wd": [
-     1118720,
-     16830
+     968300,
+     19590
     ],
     "wp": [
      [
-      1118720,
-      2710
+      968300,
+      2440
      ],
      [
-      1121830,
-      3200
+      971140,
+      2630
      ],
      [
-      1125430,
-      2210
+      974170,
+      2910
      ],
      [
-      1128040,
-      3120
+      977480,
+      2790
      ],
      [
-      1131560,
-      3140
+      980670,
+      2820
+     ],
+     [
+      983890,
+      3150
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a nagé, il est sorti de l'eau, et l'eau coulait de lui comme d'un toit.",
-   "en": "Lenz swam, he got out of the water, and the water ran off him like off a roof.",
-   "para": 6,
+   "fr": "Mais à Lyon, Odile a écrit : « Le cadre va prendre un mois. »",
+   "en": "But to Lyon, Odile wrote: \"The frame is going to take a month.\"",
+   "para": 5,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Mais",
+     "but"
     ],
     [
-     "a nagé",
-     "swam"
+     "à Lyon",
+     "to Lyon"
     ],
     [
-     "il est sorti",
-     "he got out"
+     "a écrit",
+     "wrote"
     ],
     [
-     "de l'eau",
-     "of the water"
+     "Le cadre",
+     "the frame"
     ],
     [
-     "coulait",
-     "ran"
+     "va prendre",
+     "is going to take"
     ],
     [
-     "de lui",
-     "off him"
-    ],
-    [
-     "comme",
-     "like"
-    ],
-    [
-     "d'un toit",
-     "off a roof"
+     "un mois",
+     "a month"
     ]
    ],
    "audio": {
@@ -2898,375 +2647,298 @@
     "wd": "audio/s034_wd.mp3"
    },
    "ms": {
-    "fr": 5280,
-    "en": 5000,
-    "wd": 23910
+    "fr": 4520,
+    "en": 4320,
+    "wd": 17850
    },
    "bank": {
     "fr": [
-     1135950,
-     5280
+     988290,
+     4520
     ],
     "en": [
-     1141630,
-     5000
+     993210,
+     4320
     ],
     "wd": [
-     1147030,
-     23910
+     997930,
+     17850
     ],
     "wp": [
      [
-      1147030,
-      2550
+      997930,
+      1920
      ],
      [
-      1149980,
+      1000250,
       2520
      ],
      [
-      1152900,
-      2960
+      1003170,
+      2340
      ],
      [
-      1156260,
-      2580
+      1005910,
+      2790
      ],
      [
-      1159240,
-      2210
+      1009100,
+      3070
      ],
      [
-      1161850,
-      2490
-     ],
-     [
-      1164740,
-      2170
-     ],
-     [
-      1167310,
-      2780
+      1012570,
+      2360
      ]
     ]
    }
   },
   {
-   "fr": "Sur le banc, il y avait le thermos de Lenz et deux gobelets.",
-   "en": "On the bench, there was Lenz's thermos and two cups.",
-   "para": 7,
-   "glosses": [
-    {
-     "fr": "gobelets",
-     "en": "cups, mugs (without handles)"
-    }
-   ],
+   "fr": "C'était le premier mensonge de toute sa carrière.",
+   "en": "It was the first lie of her whole career.",
+   "para": 5,
+   "glosses": [],
    "words": [
     [
-     "Sur le banc",
-     "on the bench"
+     "C'était",
+     "it was"
     ],
     [
-     "il y avait",
-     "there was"
+     "le premier mensonge",
+     "the first lie"
     ],
     [
-     "le thermos",
-     "the thermos"
-    ],
-    [
-     "de Lenz",
-     "of Lenz"
-    ],
-    [
-     "et",
-     "and"
-    ],
-    [
-     "deux gobelets",
-     "two cups"
+     "de toute sa carrière",
+     "of her whole career"
     ]
    ],
    "audio": {
     "fr": "audio/s035_fr.mp3",
     "en": "audio/s035_en.mp3",
-    "gl": "audio/s035_gl.mp3",
     "wd": "audio/s035_wd.mp3"
    },
    "ms": {
-    "fr": 4110,
-    "en": 3880,
-    "gl": 4860,
-    "wd": 18740
+    "fr": 3480,
+    "en": 2860,
+    "wd": 11440
    },
    "bank": {
     "fr": [
-     1171340,
-     4110
+     1016180,
+     3480
     ],
     "en": [
-     1175850,
-     3880
-    ],
-    "gl": [
-     1180130,
-     4860
+     1020060,
+     2860
     ],
     "wd": [
-     1185390,
-     18740
+     1023320,
+     11440
     ],
     "wp": [
      [
-      1185390,
-      2780
+      1023320,
+      2410
      ],
      [
-      1188570,
-      2510
+      1026130,
+      3690
      ],
      [
-      1191480,
-      3070
-     ],
-     [
-      1194950,
-      2850
-     ],
-     [
-      1198200,
-      1820
-     ],
-     [
-      1200420,
-      2860
+      1030220,
+      3690
      ]
     ]
    }
   },
   {
-   "fr": "Le gobelet de Lenz était en fer, cabossé.",
-   "en": "Lenz's cup was made of iron, dented.",
-   "para": 7,
-   "glosses": [
-    {
-     "fr": "cabossé",
-     "en": "dented"
-    }
-   ],
+   "fr": "Ce matin, le téléphone a vibré. C'était un message de Lenz.",
+   "en": "This morning, the phone buzzed. It was a message from Lenz.",
+   "para": 6,
+   "glosses": [],
    "words": [
     [
-     "Le gobelet",
-     "the cup"
+     "Ce matin",
+     "this morning"
+    ],
+    [
+     "le téléphone",
+     "the phone"
+    ],
+    [
+     "a vibré",
+     "buzzed"
+    ],
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "un message",
+     "a message"
     ],
     [
      "de Lenz",
-     "of Lenz"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "en fer",
-     "made of iron"
-    ],
-    [
-     "cabossé",
-     "dented"
+     "from Lenz"
     ]
    ],
    "audio": {
     "fr": "audio/s036_fr.mp3",
     "en": "audio/s036_en.mp3",
-    "gl": "audio/s036_gl.mp3",
     "wd": "audio/s036_wd.mp3"
    },
    "ms": {
-    "fr": 3810,
-    "en": 2960,
-    "gl": 3480,
-    "wd": 15240
+    "fr": 5890,
+    "en": 4250,
+    "wd": 19100
    },
    "bank": {
     "fr": [
-     1204530,
-     3810
+     1035160,
+     5890
     ],
     "en": [
-     1208740,
-     2960
-    ],
-    "gl": [
-     1212100,
-     3480
+     1041450,
+     4250
     ],
     "wd": [
-     1215980,
-     15240
+     1046099,
+     19100
     ],
     "wp": [
      [
-      1215980,
-      2520
+      1046099,
+      2700
      ],
      [
-      1218900,
-      2850
+      1049199,
+      2840
      ],
      [
-      1222150,
-      2150
+      1052439,
+      2470
      ],
      [
-      1224700,
-      2770
+      1055309,
+      2410
      ],
      [
-      1227870,
-      2500
+      1058119,
+      2950
+     ],
+     [
+      1061469,
+      2880
      ]
     ]
    }
   },
   {
-   "fr": "L'autre gobelet était en faïence blanche, acheté au marché de la Dult, en juillet.",
-   "en": "The other cup was white earthenware, bought at the Dult market, in July.",
-   "para": 7,
-   "glosses": [
-    {
-     "fr": "faïence",
-     "en": "earthenware, glazed pottery"
-    }
-   ],
+   "fr": "« Vent chaud. J'ai fermé l'atelier. Aujourd'hui, tu verras les montagnes. »",
+   "en": "\"Warm wind. I've closed the workshop. Today, you'll see the mountains.\"",
+   "para": 6,
+   "glosses": [],
    "words": [
     [
-     "L'autre gobelet",
-     "the other cup"
+     "Vent chaud",
+     "warm wind"
     ],
     [
-     "était",
-     "was"
+     "J'ai fermé",
+     "I closed"
     ],
     [
-     "en faïence blanche",
-     "in white earthenware"
+     "l'atelier",
+     "the workshop"
     ],
     [
-     "acheté",
-     "bought"
+     "Aujourd'hui",
+     "today"
     ],
     [
-     "au marché",
-     "at the market"
+     "tu verras",
+     "you will see"
     ],
     [
-     "de la Dult",
-     "of the Dult (a Munich fair with crockery stalls)"
-    ],
-    [
-     "en juillet",
-     "in July"
+     "les montagnes",
+     "the mountains"
     ]
    ],
    "audio": {
     "fr": "audio/s037_fr.mp3",
     "en": "audio/s037_en.mp3",
-    "gl": "audio/s037_gl.mp3",
     "wd": "audio/s037_wd.mp3"
    },
    "ms": {
-    "fr": 5890,
-    "en": 4550,
-    "gl": 4910,
-    "wd": 24680
+    "fr": 7030,
+    "en": 4990,
+    "wd": 19530
    },
    "bank": {
     "fr": [
-     1231620,
-     5890
+     1065600,
+     7030
     ],
     "en": [
-     1237910,
-     4550
-    ],
-    "gl": [
-     1242860,
-     4910
+     1073030,
+     4990
     ],
     "wd": [
-     1248170,
-     24680
+     1078420,
+     19530
     ],
     "wp": [
      [
-      1248170,
-      3140
+      1078420,
+      2690
      ],
      [
-      1251710,
-      2150
+      1081510,
+      2780
      ],
      [
-      1254260,
-      3740
+      1084690,
+      2900
      ],
      [
-      1258400,
-      2280
+      1087990,
+      2510
      ],
      [
-      1261080,
-      2630
+      1090900,
+      2790
      ],
      [
-      1264110,
-      4900
-     ],
-     [
-      1269410,
-      2590
+      1094090,
+      3010
      ]
     ]
    }
   },
   {
-   "fr": "Lenz l'avait acheté le lendemain du jour où Odile avait dit : « J'aimerais bien un café. »",
-   "en": "Lenz had bought it the day after Odile said: \"I'd like a coffee.\"",
-   "para": 7,
+   "fr": "Lenz fermait toujours son atelier les jours de vent chaud.",
+   "en": "Lenz always closed his workshop on warm-wind days.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "fermait",
+     "closed"
     ],
     [
-     "l'avait acheté",
-     "had bought it"
+     "toujours",
+     "always"
     ],
     [
-     "le lendemain",
-     "the day after"
+     "son atelier",
+     "his workshop"
     ],
     [
-     "du jour où",
-     "of the day when"
+     "les jours",
+     "the days"
     ],
     [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "avait dit",
-     "had said"
-    ],
-    [
-     "J'aimerais bien",
-     "I'd like"
-    ],
-    [
-     "un café",
-     "a coffee"
+     "de vent chaud",
+     "of warm wind"
     ]
    ],
    "audio": {
@@ -3275,84 +2947,76 @@
     "wd": "audio/s038_wd.mp3"
    },
    "ms": {
-    "fr": 5750,
-    "en": 4160,
-    "wd": 25660
+    "fr": 3760,
+    "en": 3470,
+    "wd": 16170
    },
    "bank": {
     "fr": [
-     1273250,
-     5750
+     1098350,
+     3760
     ],
     "en": [
-     1279400,
-     4160
+     1102510,
+     3470
     ],
     "wd": [
-     1283960,
-     25660
+     1106380,
+     16170
     ],
     "wp": [
      [
-      1283960,
-      2550
+      1106380,
+      2400
      ],
      [
-      1286910,
-      2840
+      1109180,
+      2520
      ],
      [
-      1290150,
-      2970
+      1112100,
+      3100
      ],
      [
-      1293520,
-      3010
-     ],
-     [
-      1296930,
-      2510
-     ],
-     [
-      1299840,
-      2580
-     ],
-     [
-      1302820,
-      2780
-     ],
-     [
-      1306000,
+      1115600,
       2770
+     ],
+     [
+      1118770,
+      2930
      ]
     ]
    }
   },
   {
-   "fr": "Lenz n'avait jamais parlé de ce deuxième gobelet. Odile non plus.",
-   "en": "Lenz had never spoken about this second cup. Neither had Odile.",
-   "para": 7,
+   "fr": "« Avec ce vent, le bois bouge, et moi, je me trompe », disait-il.",
+   "en": "\"With this wind, the wood moves, and I make mistakes,\" he used to say.",
+   "para": 6,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Avec ce vent",
+     "with this wind"
     ],
     [
-     "n'avait jamais parlé",
-     "had never spoken"
+     "le bois",
+     "the wood"
     ],
     [
-     "de ce deuxième gobelet",
-     "about this second cup"
+     "bouge",
+     "moves"
     ],
     [
-     "Odile",
-     "Odile"
+     "et moi",
+     "and I"
     ],
     [
-     "non plus",
-     "neither"
+     "je me trompe",
+     "I make mistakes"
+    ],
+    [
+     "disait-il",
+     "he used to say"
     ]
    ],
    "audio": {
@@ -3361,51 +3025,468 @@
     "wd": "audio/s039_wd.mp3"
    },
    "ms": {
-    "fr": 5350,
-    "en": 4360,
-    "wd": 17260
+    "fr": 5490,
+    "en": 4780,
+    "wd": 19510
    },
    "bank": {
     "fr": [
-     1310020,
-     5350
+     1122950,
+     5490
     ],
     "en": [
-     1315770,
-     4360
+     1128840,
+     4780
     ],
     "wd": [
-     1320530,
-     17260
+     1134020,
+     19510
     ],
     "wp": [
      [
-      1320530,
-      2550
+      1134020,
+      2830
      ],
      [
-      1323480,
-      3530
+      1137250,
+      2540
      ],
      [
-      1327410,
-      3770
+      1140190,
+      2530
      ],
      [
-      1331580,
-      2510
+      1143120,
+      2410
      ],
      [
-      1334490,
-      2450
+      1145930,
+      3370
+     ],
+     [
+      1149700,
+      2980
      ]
     ]
    }
   },
   {
-   "fr": "« Tu as mal à la tête », a dit Lenz.",
-   "en": "\"You have a headache,\" said Lenz.",
-   "para": 8,
+   "fr": "Odile a pris un cachet, elle a mis ses chaussures, et elle a laissé la valise ouverte.",
+   "en": "Odile took a pill, she put on her shoes, and she left the suitcase open.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "cachet",
+     "en": "tablet, pill"
+    }
+   ],
+   "words": [
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "un cachet",
+     "a pill"
+    ],
+    [
+     "elle a mis",
+     "she put on"
+    ],
+    [
+     "ses chaussures",
+     "her shoes"
+    ],
+    [
+     "elle a laissé",
+     "she left"
+    ],
+    [
+     "la valise",
+     "the suitcase"
+    ],
+    [
+     "ouverte",
+     "open"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "gl": "audio/s040_gl.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5650,
+    "en": 4700,
+    "gl": 3780,
+    "wd": 22170
+   },
+   "bank": {
+    "fr": [
+     1153930,
+     5650
+    ],
+    "en": [
+     1159980,
+     4700
+    ],
+    "gl": [
+     1165080,
+     3780
+    ],
+    "wd": [
+     1169260,
+     22170
+    ],
+    "wp": [
+     [
+      1169260,
+      2220
+     ],
+     [
+      1171880,
+      2630
+     ],
+     [
+      1174910,
+      2760
+     ],
+     [
+      1178070,
+      3120
+     ],
+     [
+      1181590,
+      2650
+     ],
+     [
+      1184640,
+      3160
+     ],
+     [
+      1188200,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur le pont, il y avait déjà des touristes avec leurs téléphones.",
+   "en": "On the bridge, there were already tourists with their phones.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Sur le pont",
+     "on the bridge"
+    ],
+    [
+     "il y avait",
+     "there were"
+    ],
+    [
+     "déjà",
+     "already"
+    ],
+    [
+     "des touristes",
+     "tourists"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "leurs téléphones",
+     "their phones"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 4480,
+    "en": 3630,
+    "wd": 18720
+   },
+   "bank": {
+    "fr": [
+     1191830,
+     4480
+    ],
+    "en": [
+     1196710,
+     3630
+    ],
+    "wd": [
+     1200740,
+     18720
+    ],
+    "wp": [
+     [
+      1200740,
+      2910
+     ],
+     [
+      1204050,
+      2470
+     ],
+     [
+      1206920,
+      2320
+     ],
+     [
+      1209640,
+      2810
+     ],
+     [
+      1212850,
+      2170
+     ],
+     [
+      1215420,
+      3190
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz est monté sur la vague. Il a tenu longtemps, puis il est tombé.",
+   "en": "Lenz got on the wave. He held on a long time, then he fell.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "est monté",
+     "got on"
+    ],
+    [
+     "sur la vague",
+     "on the wave"
+    ],
+    [
+     "Il a tenu",
+     "he held on"
+    ],
+    [
+     "longtemps",
+     "a long time"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "il est tombé",
+     "he fell"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 5800,
+    "en": 4380,
+    "wd": 18730
+   },
+   "bank": {
+    "fr": [
+     1219860,
+     5800
+    ],
+    "en": [
+     1226060,
+     4380
+    ],
+    "wd": [
+     1230840,
+     18730
+    ],
+    "wp": [
+     [
+      1230840,
+      2450
+     ],
+     [
+      1233690,
+      3040
+     ],
+     [
+      1237130,
+      2990
+     ],
+     [
+      1240520,
+      2640
+     ],
+     [
+      1243560,
+      2110
+     ],
+     [
+      1246070,
+      2650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz est sorti de l'eau et il est venu au banc, tout mouillé.",
+   "en": "Lenz came out of the water and he came to the bench, all wet.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "est sorti",
+     "came out"
+    ],
+    [
+     "de l'eau",
+     "of the water"
+    ],
+    [
+     "il est venu",
+     "he came"
+    ],
+    [
+     "au banc",
+     "to the bench"
+    ],
+    [
+     "tout mouillé",
+     "all wet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "en": 4040,
+    "wd": 15330
+   },
+   "bank": {
+    "fr": [
+     1249970,
+     4070
+    ],
+    "en": [
+     1254440,
+     4040
+    ],
+    "wd": [
+     1258880,
+     15330
+    ],
+    "wp": [
+     [
+      1258880,
+      2530
+     ],
+     [
+      1261810,
+      2580
+     ],
+     [
+      1264790,
+      2660
+     ],
+     [
+      1267850,
+      2540
+     ],
+     [
+      1270790,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il a versé le café dans sa tasse en fer et dans la tasse blanche.",
+   "en": "He poured the coffee into his iron cup and into the white cup.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il a versé",
+     "he poured"
+    ],
+    [
+     "le café",
+     "the coffee"
+    ],
+    [
+     "dans sa tasse",
+     "into his cup"
+    ],
+    [
+     "en fer",
+     "iron"
+    ],
+    [
+     "dans la tasse blanche",
+     "into the white cup"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "en": 3900,
+    "wd": 17050
+   },
+   "bank": {
+    "fr": [
+     1274610,
+     4260
+    ],
+    "en": [
+     1279270,
+     3900
+    ],
+    "wd": [
+     1283570,
+     17050
+    ],
+    "wp": [
+     [
+      1283570,
+      2830
+     ],
+     [
+      1286800,
+      2630
+     ],
+     [
+      1289830,
+      3100
+     ],
+     [
+      1293330,
+      2420
+     ],
+     [
+      1296150,
+      3620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tu as mal à la tête », a dit Lenz. « Comment tu le sais ? »",
+   "en": "\"You have a headache,\" said Lenz. \"How do you know?\"",
+   "para": 7,
    "glosses": [],
    "words": [
     [
@@ -3417,119 +3498,61 @@
      "said"
     ],
     [
-     "Lenz",
-     "Lenz"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s040_fr.mp3",
-    "en": "audio/s040_en.mp3",
-    "wd": "audio/s040_wd.mp3"
-   },
-   "ms": {
-    "fr": 3050,
-    "en": 2440,
-    "wd": 10020
-   },
-   "bank": {
-    "fr": [
-     1338190,
-     3050
-    ],
-    "en": [
-     1341640,
-     2440
-    ],
-    "wd": [
-     1344480,
-     10020
-    ],
-    "wp": [
-     [
-      1344480,
-      3600
-     ],
-     [
-      1348480,
-      2220
-     ],
-     [
-      1351100,
-      2550
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Comment tu le sais ? » a demandé Odile.",
-   "en": "\"How do you know?\" asked Odile.",
-   "para": 8,
-   "glosses": [],
-   "words": [
-    [
      "Comment",
      "how"
     ],
     [
      "tu le sais",
      "you know it"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Odile",
-     "Odile"
     ]
    ],
    "audio": {
-    "fr": "audio/s041_fr.mp3",
-    "en": "audio/s041_en.mp3",
-    "wd": "audio/s041_wd.mp3"
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
    },
    "ms": {
-    "fr": 3140,
-    "en": 2690,
-    "wd": 11840
+    "fr": 4940,
+    "en": 3440,
+    "wd": 12710
    },
    "bank": {
     "fr": [
-     1354900,
-     3140
+     1301020,
+     4940
     ],
     "en": [
-     1358440,
-     2690
+     1306360,
+     3440
     ],
     "wd": [
-     1361530,
-     11840
+     1310200,
+     12710
     ],
     "wp": [
      [
-      1361530,
+      1310200,
+      3600
+     ],
+     [
+      1314200,
+      2220
+     ],
+     [
+      1316820,
       2180
      ],
      [
-      1364110,
+      1319400,
       2660
-     ],
-     [
-      1367170,
-      2440
-     ],
-     [
-      1370010,
-      2510
      ]
     ]
    }
   },
   {
-   "fr": "« Tout le monde a mal à la tête. C'est le Föhn. »",
-   "en": "\"Everybody has a headache. It's the Föhn.\"",
-   "para": 8,
+   "fr": "« Tout le monde a mal à la tête aujourd'hui. C'est le vent. »",
+   "en": "\"Everybody has a headache today. It's the wind.\"",
+   "para": 7,
    "glosses": [],
    "words": [
     [
@@ -3541,61 +3564,61 @@
      "has a headache"
     ],
     [
-     "C'est",
-     "it's"
+     "aujourd'hui",
+     "today"
     ],
     [
-     "le Föhn",
-     "the Föhn"
+     "C'est le vent",
+     "it's the wind"
     ]
    ],
    "audio": {
-    "fr": "audio/s042_fr.mp3",
-    "en": "audio/s042_en.mp3",
-    "wd": "audio/s042_wd.mp3"
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
    },
    "ms": {
-    "fr": 4410,
-    "en": 3120,
-    "wd": 12880
+    "fr": 4650,
+    "en": 3270,
+    "wd": 13360
    },
    "bank": {
     "fr": [
-     1373770,
-     4410
+     1323310,
+     4650
     ],
     "en": [
-     1378580,
-     3120
+     1328360,
+     3270
     ],
     "wd": [
-     1382100,
-     12880
+     1332030,
+     13360
     ],
     "wp": [
      [
-      1382100,
+      1332030,
       2720
      ],
      [
-      1385220,
+      1335150,
       3300
      ],
      [
-      1388920,
-      2110
+      1338850,
+      2500
      ],
      [
-      1391430,
-      2700
+      1341750,
+      2790
      ]
     ]
    }
   },
   {
-   "fr": "« À Munich, le Föhn est responsable de tout. Les accidents, les divorces, les mauvaises notes. »",
-   "en": "\"In Munich, the Föhn is responsible for everything. Accidents, divorces, bad marks at school.\"",
-   "para": 8,
+   "fr": "« À Munich, ce vent est responsable de tout : les accidents, les disputes, les divorces. »",
+   "en": "\"In Munich, this wind is responsible for everything: accidents, arguments, divorces.\"",
+   "para": 7,
    "glosses": [],
    "words": [
     [
@@ -3603,8 +3626,8 @@
      "in Munich"
     ],
     [
-     "le Föhn",
-     "the Föhn"
+     "ce vent",
+     "this wind"
     ],
     [
      "est responsable",
@@ -3615,77 +3638,77 @@
      "for everything"
     ],
     [
-     "Les accidents",
+     "les accidents",
      "accidents"
+    ],
+    [
+     "les disputes",
+     "arguments"
     ],
     [
      "les divorces",
      "divorces"
-    ],
-    [
-     "les mauvaises notes",
-     "bad marks"
     ]
    ],
    "audio": {
-    "fr": "audio/s043_fr.mp3",
-    "en": "audio/s043_en.mp3",
-    "wd": "audio/s043_wd.mp3"
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
    },
    "ms": {
-    "fr": 7880,
-    "en": 6390,
-    "wd": 24130
+    "fr": 6870,
+    "en": 6300,
+    "wd": 23520
    },
    "bank": {
     "fr": [
-     1395380,
-     7880
+     1345790,
+     6870
     ],
     "en": [
-     1403660,
-     6390
+     1353060,
+     6300
     ],
     "wd": [
-     1410450,
-     24130
+     1359760,
+     23520
     ],
     "wp": [
      [
-      1410450,
+      1359760,
       2720
      ],
      [
-      1413570,
-      2700
+      1362880,
+      2560
      ],
      [
-      1416670,
+      1365840,
       3410
      ],
      [
-      1420480,
+      1369650,
       2610
      ],
      [
-      1423490,
+      1372660,
       3010
      ],
      [
-      1426900,
-      3040
+      1376069,
+      2920
      ],
      [
-      1430340,
-      3390
+      1379390,
+      3040
      ]
     ]
    }
   },
   {
-   "fr": "« Et toi, tu as mal ? » a demandé Odile. « Moi, j'ai fermé », a dit Lenz.",
-   "en": "\"And you, does your head hurt?\" asked Odile. \"Me, I've closed,\" said Lenz.",
-   "para": 8,
+   "fr": "« Et toi, tu n'as pas mal ? » « Moi, j'ai fermé l'atelier. »",
+   "en": "\"And you, no headache?\" \"Me, I've closed the workshop.\"",
+   "para": 7,
    "glosses": [],
    "words": [
     [
@@ -3693,16 +3716,8 @@
      "and you"
     ],
     [
-     "tu as mal",
-     "you are in pain"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Odile",
-     "Odile"
+     "tu n'as pas mal",
+     "you don't hurt"
     ],
     [
      "Moi",
@@ -3710,170 +3725,1960 @@
     ],
     [
      "j'ai fermé",
-     "I've closed"
+     "I closed"
+    ],
+    [
+     "l'atelier",
+     "the workshop"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 5240,
+    "en": 4270,
+    "wd": 15800
+   },
+   "bank": {
+    "fr": [
+     1383680,
+     5240
+    ],
+    "en": [
+     1389320,
+     4270
+    ],
+    "wd": [
+     1393990,
+     15800
+    ],
+    "wp": [
+     [
+      1393990,
+      2309
+     ],
+     [
+      1396700,
+      3220
+     ],
+     [
+      1400320,
+      2140
+     ],
+     [
+      1402860,
+      2780
+     ],
+     [
+      1406040,
+      2900
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile a regardé la vague. La vague était à la même place qu'en juin.",
+   "en": "Odile looked at the wave. The wave was in the same place as in June.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "la vague",
+     "the wave"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "à la même place",
+     "in the same place"
+    ],
+    [
+     "qu'en juin",
+     "as in June"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 5610,
+    "en": 4430,
+    "wd": 16210
+   },
+   "bank": {
+    "fr": [
+     1410190,
+     5610
+    ],
+    "en": [
+     1416200,
+     4430
+    ],
+    "wd": [
+     1421030,
+     16210
+    ],
+    "wp": [
+     [
+      1421030,
+      2550
+     ],
+     [
+      1423980,
+      2800
+     ],
+     [
+      1427180,
+      2150
+     ],
+     [
+      1429730,
+      3540
+     ],
+     [
+      1433670,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tu sais qu'en octobre dernier, la vague a disparu ? » a dit Lenz.",
+   "en": "\"Do you know that last October, the wave disappeared?\" said Lenz.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Tu sais",
+     "you know"
+    ],
+    [
+     "qu'en octobre dernier",
+     "that last October"
+    ],
+    [
+     "la vague",
+     "the wave"
+    ],
+    [
+     "a disparu",
+     "disappeared"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 4900,
+    "en": 4710,
+    "wd": 16360
+   },
+   "bank": {
+    "fr": [
+     1437640,
+     4900
+    ],
+    "en": [
+     1442940,
+     4710
+    ],
+    "wd": [
+     1448050,
+     16360
+    ],
+    "wp": [
+     [
+      1448050,
+      2390
+     ],
+     [
+      1450840,
+      3750
+     ],
+     [
+      1454990,
+      2800
+     ],
+     [
+      1458190,
+      2750
+     ],
+     [
+      1461340,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La ville a nettoyé la rivière, et après, plus de vague. De l'eau plate. »",
+   "en": "\"The city cleaned the river, and afterwards, no more wave. Flat water.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "La ville",
+     "the city"
+    ],
+    [
+     "a nettoyé",
+     "cleaned"
+    ],
+    [
+     "la rivière",
+     "the river"
+    ],
+    [
+     "après",
+     "afterwards"
+    ],
+    [
+     "plus de vague",
+     "no more wave"
+    ],
+    [
+     "De l'eau plate",
+     "flat water"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 6580,
+    "en": 5100,
+    "wd": 19810
+   },
+   "bank": {
+    "fr": [
+     1464810,
+     6580
+    ],
+    "en": [
+     1471790,
+     5100
+    ],
+    "wd": [
+     1477290,
+     19810
+    ],
+    "wp": [
+     [
+      1477290,
+      2600
+     ],
+     [
+      1480290,
+      2760
+     ],
+     [
+      1483450,
+      2900
+     ],
+     [
+      1486750,
+      2510
+     ],
+     [
+      1489660,
+      3200
+     ],
+     [
+      1493260,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pendant des mois, je suis venu quand même, chaque matin, pour regarder l'eau. »",
+   "en": "\"For months, I came anyway, every morning, to look at the water.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant des mois",
+     "for months"
+    ],
+    [
+     "je suis venu",
+     "I came"
+    ],
+    [
+     "quand même",
+     "anyway"
+    ],
+    [
+     "chaque matin",
+     "every morning"
+    ],
+    [
+     "pour regarder",
+     "to look at"
+    ],
+    [
+     "l'eau",
+     "the water"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 5460,
+    "en": 4370,
+    "wd": 19260
+   },
+   "bank": {
+    "fr": [
+     1497500,
+     5460
+    ],
+    "en": [
+     1503360,
+     4370
+    ],
+    "wd": [
+     1508130,
+     19260
+    ],
+    "wp": [
+     [
+      1508130,
+      3060
+     ],
+     [
+      1511590,
+      2960
+     ],
+     [
+      1514950,
+      2520
+     ],
+     [
+      1517870,
+      2850
+     ],
+     [
+      1521120,
+      2750
+     ],
+     [
+      1524270,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et puis un jour, la vague est revenue, toute seule. »",
+   "en": "\"And then one day, the wave came back, all by itself.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Et puis",
+     "and then"
+    ],
+    [
+     "un jour",
+     "one day"
+    ],
+    [
+     "la vague",
+     "the wave"
+    ],
+    [
+     "est revenue",
+     "came back"
+    ],
+    [
+     "toute seule",
+     "all by itself"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 4000,
+    "en": 3910,
+    "wd": 15660
+   },
+   "bank": {
+    "fr": [
+     1527790,
+     4000
+    ],
+    "en": [
+     1532190,
+     3910
+    ],
+    "wd": [
+     1536500,
+     15660
+    ],
+    "wp": [
+     [
+      1536500,
+      2380
+     ],
+     [
+      1539280,
+      2490
+     ],
+     [
+      1542170,
+      2800
+     ],
+     [
+      1545370,
+      2600
+     ],
+     [
+      1548370,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tu es un homme patient », a dit Odile. « Non. Je suis un homme qui ne bouge pas. »",
+   "en": "\"You are a patient man,\" said Odile. \"No. I am a man who doesn't move.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Tu es",
+     "you are"
+    ],
+    [
+     "un homme",
+     "a man"
+    ],
+    [
+     "patient",
+     "patient"
     ],
     [
      "a dit",
      "said"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "Non",
+     "no"
+    ],
+    [
+     "Je suis",
+     "I am"
+    ],
+    [
+     "qui ne bouge pas",
+     "who doesn't move"
     ]
    ],
    "audio": {
-    "fr": "audio/s044_fr.mp3",
-    "en": "audio/s044_en.mp3",
-    "wd": "audio/s044_wd.mp3"
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
    },
    "ms": {
-    "fr": 7250,
-    "en": 5940,
-    "wd": 23780
+    "fr": 7370,
+    "en": 5080,
+    "wd": 20500
    },
    "bank": {
     "fr": [
-     1434980,
-     7250
+     1552560,
+     7370
     ],
     "en": [
-     1442630,
-     5940
+     1560330,
+     5080
     ],
     "wd": [
-     1448970,
-     23780
+     1565810,
+     20500
     ],
     "wp": [
      [
-      1448970,
-      2309
+      1565810,
+      2390
      ],
      [
-      1451680,
-      3000
+      1568600,
+      2520
      ],
      [
-      1455080,
-      2440
+      1571520,
+      2370
      ],
      [
-      1457920,
-      2510
-     ],
-     [
-      1460830,
-      2140
-     ],
-     [
-      1463370,
-      2960
-     ],
-     [
-      1466730,
+      1574290,
       2220
      ],
      [
-      1469350,
-      2550
+      1576910,
+      2080
+     ],
+     [
+      1579390,
+      2540
+     ],
+     [
+      1582330,
+      3130
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a versé le café. « Aujourd'hui, tu verras les montagnes. Je te l'ai promis en juin. »",
-   "en": "Lenz poured the coffee. \"Today, you'll see the mountains. I promised you in June.\"",
+   "fr": "Ensuite, ils sont allés au Viktualienmarkt, le grand marché du centre-ville.",
+   "en": "Then they went to the Viktualienmarkt, the big market in the city centre.",
    "para": 8,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Ensuite",
+     "then"
     ],
     [
-     "a versé",
-     "poured"
+     "ils sont allés",
+     "they went"
     ],
     [
-     "le café",
-     "the coffee"
+     "au Viktualienmarkt",
+     "to the Viktualienmarkt"
     ],
     [
-     "Aujourd'hui",
-     "today"
+     "le grand marché",
+     "the big market"
     ],
     [
-     "tu verras",
-     "you'll see"
+     "du centre-ville",
+     "of the city centre"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 5670,
+    "en": 4270,
+    "wd": 18170
+   },
+   "bank": {
+    "fr": [
+     1586710,
+     5670
+    ],
+    "en": [
+     1592780,
+     4270
+    ],
+    "wd": [
+     1597450,
+     18170
+    ],
+    "wp": [
+     [
+      1597450,
+      2410
+     ],
+     [
+      1600260,
+      2630
+     ],
+     [
+      1603290,
+      4110
+     ],
+     [
+      1607800,
+      3270
+     ],
+     [
+      1611470,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ils ont mangé des saucisses blanches, debout, avec un bretzel et de la moutarde douce.",
+   "en": "They ate white sausages, standing up, with a pretzel and sweet mustard.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "bretzel",
+     "en": "pretzel"
+    }
+   ],
+   "words": [
+    [
+     "Ils ont mangé",
+     "they ate"
+    ],
+    [
+     "des saucisses blanches",
+     "white sausages"
+    ],
+    [
+     "debout",
+     "standing up"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "un bretzel",
+     "a pretzel"
+    ],
+    [
+     "de la moutarde",
+     "mustard"
+    ],
+    [
+     "douce",
+     "sweet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "gl": "audio/s056_gl.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 6050,
+    "en": 5130,
+    "gl": 3690,
+    "wd": 22700
+   },
+   "bank": {
+    "fr": [
+     1616020,
+     6050
+    ],
+    "en": [
+     1622470,
+     5130
+    ],
+    "gl": [
+     1628000,
+     3690
+    ],
+    "wd": [
+     1632090,
+     22700
+    ],
+    "wp": [
+     [
+      1632090,
+      2850
+     ],
+     [
+      1635340,
+      3770
+     ],
+     [
+      1639510,
+      2430
+     ],
+     [
+      1642340,
+      2170
+     ],
+     [
+      1644910,
+      2930
+     ],
+     [
+      1648239,
+      3010
+     ],
+     [
+      1651650,
+      2290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Odile a enlevé la peau de sa saucisse, comme Lenz le lui avait appris.",
+   "en": "Odile took the skin off her sausage, as Lenz had taught her.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "a enlevé",
+     "took off"
+    ],
+    [
+     "la peau",
+     "the skin"
+    ],
+    [
+     "de sa saucisse",
+     "of her sausage"
+    ],
+    [
+     "comme",
+     "as"
+    ],
+    [
+     "le lui avait appris",
+     "had taught her"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 4770,
+    "en": 3810,
+    "wd": 16360
+   },
+   "bank": {
+    "fr": [
+     1655190,
+     4770
+    ],
+    "en": [
+     1660360,
+     3810
+    ],
+    "wd": [
+     1664570,
+     16360
+    ],
+    "wp": [
+     [
+      1664570,
+      2530
+     ],
+     [
+      1667500,
+      2540
+     ],
+     [
+      1670440,
+      3430
+     ],
+     [
+      1674270,
+      2240
+     ],
+     [
+      1676910,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je vais te dire un secret », a dit Odile. « Je n'aime pas ces saucisses. »",
+   "en": "\"I'm going to tell you a secret,\" said Odile. \"I don't like these sausages.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Je vais te dire",
+     "I'm going to tell you"
+    ],
+    [
+     "un secret",
+     "a secret"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Je n'aime pas",
+     "I don't like"
+    ],
+    [
+     "ces saucisses",
+     "these sausages"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 5900,
+    "en": 4620,
+    "wd": 17060
+   },
+   "bank": {
+    "fr": [
+     1681330,
+     5900
+    ],
+    "en": [
+     1687630,
+     4620
+    ],
+    "wd": [
+     1692650,
+     17060
+    ],
+    "wp": [
+     [
+      1692650,
+      3440
+     ],
+     [
+      1696490,
+      2580
+     ],
+     [
+      1699470,
+      2220
+     ],
+     [
+      1702090,
+      2990
+     ],
+     [
+      1705480,
+      3380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Depuis six mois, j'en mange parce que tu as l'air content. »",
+   "en": "\"For six months, I've been eating them because you look happy.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Depuis six mois",
+     "for six months"
+    ],
+    [
+     "j'en mange",
+     "I eat them"
+    ],
+    [
+     "parce que",
+     "because"
+    ],
+    [
+     "tu as l'air content",
+     "you look happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "en": 3750,
+    "wd": 14090
+   },
+   "bank": {
+    "fr": [
+     1710110,
+     3870
+    ],
+    "en": [
+     1714380,
+     3750
+    ],
+    "wd": [
+     1718530,
+     14090
+    ],
+    "wp": [
+     [
+      1718530,
+      3350
+     ],
+     [
+      1722280,
+      2830
+     ],
+     [
+      1725510,
+      2600
+     ],
+     [
+      1728510,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a posé son couteau. « Six mois ? » « Tu n'as jamais demandé. »",
+   "en": "Lenz put down his knife. \"Six months?\" \"You never asked.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "a posé",
+     "put down"
+    ],
+    [
+     "son couteau",
+     "his knife"
+    ],
+    [
+     "Six mois",
+     "six months"
+    ],
+    [
+     "Tu n'as jamais demandé",
+     "you never asked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 6300,
+    "en": 4440,
+    "wd": 13870
+   },
+   "bank": {
+    "fr": [
+     1733020,
+     6300
+    ],
+    "en": [
+     1739720,
+     4440
+    ],
+    "wd": [
+     1744560,
+     13870
+    ],
+    "wp": [
+     [
+      1744560,
+      2560
+     ],
+     [
+      1747520,
+      2840
+     ],
+     [
+      1750760,
+      2900
+     ],
+     [
+      1754060,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis Lenz a ri, et il a mangé les deux saucisses. Odile a mangé le bretzel.",
+   "en": "Then Lenz laughed, and he ate both sausages. Odile ate the pretzel.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "a ri",
+     "laughed"
+    ],
+    [
+     "il a mangé",
+     "he ate"
+    ],
+    [
+     "les deux saucisses",
+     "both sausages"
+    ],
+    [
+     "a mangé",
+     "ate"
+    ],
+    [
+     "le bretzel",
+     "the pretzel"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 6450,
+    "en": 4910,
+    "wd": 18880
+   },
+   "bank": {
+    "fr": [
+     1758830,
+     6450
+    ],
+    "en": [
+     1765680,
+     4910
+    ],
+    "wd": [
+     1770990,
+     18880
+    ],
+    "wp": [
+     [
+      1770990,
+      2110
+     ],
+     [
+      1773500,
+      2329
+     ],
+     [
+      1776230,
+      2700
+     ],
+     [
+      1779330,
+      3610
+     ],
+     [
+      1783340,
+      2329
+     ],
+     [
+      1786070,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au stand des pommes, la marchande a parlé à Lenz, vite, en bavarois.",
+   "en": "At the apple stall, the stallholder spoke to Lenz, fast, in Bavarian.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "marchande",
+     "en": "market seller, stallholder"
+    },
+    {
+     "fr": "bavarois",
+     "en": "Bavarian (the local dialect)"
+    }
+   ],
+   "words": [
+    [
+     "Au stand",
+     "at the stall"
+    ],
+    [
+     "des pommes",
+     "of apples"
+    ],
+    [
+     "la marchande",
+     "the stallholder"
+    ],
+    [
+     "a parlé",
+     "spoke"
+    ],
+    [
+     "à Lenz",
+     "to Lenz"
+    ],
+    [
+     "vite",
+     "fast"
+    ],
+    [
+     "en bavarois",
+     "in Bavarian"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "gl": "audio/s062_gl.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 5580,
+    "en": 5190,
+    "gl": 9360,
+    "wd": 22510
+   },
+   "bank": {
+    "fr": [
+     1790270,
+     5580
+    ],
+    "en": [
+     1796250,
+     5190
+    ],
+    "gl": [
+     1801840,
+     9360
+    ],
+    "wd": [
+     1811600,
+     22510
+    ],
+    "wp": [
+     [
+      1811600,
+      2810
+     ],
+     [
+      1814810,
+      2840
+     ],
+     [
+      1818050,
+      3120
+     ],
+     [
+      1821570,
+      2450
+     ],
+     [
+      1824420,
+      2730
+     ],
+     [
+      1827550,
+      2320
+     ],
+     [
+      1830270,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Elle demande si tu restes à Munich », a traduit Lenz.",
+   "en": "\"She's asking if you're staying in Munich,\" Lenz translated.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Elle demande",
+     "she is asking"
+    ],
+    [
+     "si tu restes",
+     "if you are staying"
+    ],
+    [
+     "à Munich",
+     "in Munich"
+    ],
+    [
+     "a traduit",
+     "translated"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 4120,
+    "en": 3680,
+    "wd": 13720
+   },
+   "bank": {
+    "fr": [
+     1834510,
+     4120
+    ],
+    "en": [
+     1839030,
+     3680
+    ],
+    "wd": [
+     1843110,
+     13720
+    ],
+    "wp": [
+     [
+      1843110,
+      3050
+     ],
+     [
+      1846560,
+      3130
+     ],
+     [
+      1850090,
+      2720
+     ],
+     [
+      1853210,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dis-lui que mon train part demain matin », a dit Odile.",
+   "en": "\"Tell her that my train leaves tomorrow morning,\" said Odile.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Dis-lui",
+     "tell her"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "mon train",
+     "my train"
+    ],
+    [
+     "part",
+     "leaves"
+    ],
+    [
+     "demain matin",
+     "tomorrow morning"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 3770,
+    "en": 3780,
+    "wd": 17510
+   },
+   "bank": {
+    "fr": [
+     1857230,
+     3770
+    ],
+    "en": [
+     1861400,
+     3780
+    ],
+    "wd": [
+     1865580,
+     17510
+    ],
+    "wp": [
+     [
+      1865580,
+      2560
+     ],
+     [
+      1868540,
+      2020
+     ],
+     [
+      1870960,
+      2550
+     ],
+     [
+      1873910,
+      2320
+     ],
+     [
+      1876630,
+      2990
+     ],
+     [
+      1880020,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La marchande a mis six pommes dans un sac, puis elle en a ajouté une septième.",
+   "en": "The stallholder put six apples in a bag, then she added a seventh.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "La marchande",
+     "the stallholder"
+    ],
+    [
+     "a mis",
+     "put"
+    ],
+    [
+     "six pommes",
+     "six apples"
+    ],
+    [
+     "dans un sac",
+     "in a bag"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "elle en a ajouté",
+     "she added"
+    ],
+    [
+     "une septième",
+     "a seventh"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 5140,
+    "en": 4550,
+    "wd": 22740
+   },
+   "bank": {
+    "fr": [
+     1883490,
+     5140
+    ],
+    "en": [
+     1889030,
+     4550
+    ],
+    "wd": [
+     1893980,
+     22740
+    ],
+    "wp": [
+     [
+      1893980,
+      3100
+     ],
+     [
+      1897480,
+      2080
+     ],
+     [
+      1899960,
+      3050
+     ],
+     [
+      1903410,
+      3010
+     ],
+     [
+      1906820,
+      2110
+     ],
+     [
+      1909330,
+      3200
+     ],
+     [
+      1912930,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La septième pomme, c'est pour le voyage », a traduit Lenz.",
+   "en": "\"The seventh apple is for the journey,\" Lenz translated.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "La septième pomme",
+     "the seventh apple"
+    ],
+    [
+     "c'est",
+     "is"
+    ],
+    [
+     "pour le voyage",
+     "for the journey"
+    ],
+    [
+     "a traduit",
+     "translated"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 3600,
+    "wd": 13580
+   },
+   "bank": {
+    "fr": [
+     1917120,
+     4650
+    ],
+    "en": [
+     1922170,
+     3600
+    ],
+    "wd": [
+     1926170,
+     13580
+    ],
+    "wp": [
+     [
+      1926170,
+      3480
+     ],
+     [
+      1930050,
+      2120
+     ],
+     [
+      1932570,
+      3160
+     ],
+     [
+      1936130,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À côté du marché, il y a la vieille église Saint-Pierre, avec sa haute tour.",
+   "en": "Next to the market, there is the old church of Saint Peter, with its high tower.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "À côté du marché",
+     "next to the market"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "la vieille église",
+     "the old church"
+    ],
+    [
+     "Saint-Pierre",
+     "Saint Peter"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "sa haute tour",
+     "its high tower"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 5640,
+    "en": 4840,
+    "wd": 20740
+   },
+   "bank": {
+    "fr": [
+     1940150,
+     5640
+    ],
+    "en": [
+     1946190,
+     4840
+    ],
+    "wd": [
+     1951430,
+     20740
+    ],
+    "wp": [
+     [
+      1951430,
+      3490
+     ],
+     [
+      1955320,
+      2460
+     ],
+     [
+      1958180,
+      3580
+     ],
+     [
+      1962160,
+      2810
+     ],
+     [
+      1965370,
+      2170
+     ],
+     [
+      1967940,
+      3380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ils sont montés en haut de la tour. Trois cents marches, pas d'ascenseur.",
+   "en": "They climbed to the top of the tower. Three hundred steps, no lift.",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "marches",
+     "en": "steps (of a staircase)"
+    }
+   ],
+   "words": [
+    [
+     "Ils sont montés",
+     "they climbed"
+    ],
+    [
+     "en haut de",
+     "to the top of"
+    ],
+    [
+     "la tour",
+     "the tower"
+    ],
+    [
+     "Trois cents marches",
+     "three hundred steps"
+    ],
+    [
+     "pas d'ascenseur",
+     "no lift"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "gl": "audio/s068_gl.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 5830,
+    "en": 4560,
+    "gl": 4430,
+    "wd": 17580
+   },
+   "bank": {
+    "fr": [
+     1972570,
+     5830
+    ],
+    "en": [
+     1978800,
+     4560
+    ],
+    "gl": [
+     1983760,
+     4430
+    ],
+    "wd": [
+     1988590,
+     17580
+    ],
+    "wp": [
+     [
+      1988590,
+      2980
+     ],
+     [
+      1991970,
+      2770
+     ],
+     [
+      1995140,
+      2800
+     ],
+     [
+      1998340,
+      3490
+     ],
+     [
+      2002230,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En haut, le vent chaud soufflait si fort qu'Odile tenait ses cheveux.",
+   "en": "At the top, the warm wind blew so hard that Odile held her hair.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "En haut",
+     "at the top"
+    ],
+    [
+     "le vent chaud",
+     "the warm wind"
+    ],
+    [
+     "soufflait",
+     "blew"
+    ],
+    [
+     "si fort",
+     "so hard"
+    ],
+    [
+     "tenait",
+     "held"
+    ],
+    [
+     "ses cheveux",
+     "her hair"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 4270,
+    "en": 4460,
+    "wd": 18250
+   },
+   "bank": {
+    "fr": [
+     2006570,
+     4270
+    ],
+    "en": [
+     2011240,
+     4460
+    ],
+    "wd": [
+     2016100,
+     18250
+    ],
+    "wp": [
+     [
+      2016100,
+      2380
+     ],
+     [
+      2018880,
+      2980
+     ],
+     [
+      2022260,
+      2370
+     ],
+     [
+      2025030,
+      2840
+     ],
+     [
+      2028270,
+      2110
+     ],
+     [
+      2030780,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et au sud, derrière les toits rouges de la ville, il y avait les Alpes.",
+   "en": "And to the south, behind the red roofs of the city, there were the Alps.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "au sud",
+     "to the south"
+    ],
+    [
+     "derrière",
+     "behind"
+    ],
+    [
+     "les toits rouges",
+     "the red roofs"
+    ],
+    [
+     "de la ville",
+     "of the city"
+    ],
+    [
+     "il y avait",
+     "there were"
+    ],
+    [
+     "les Alpes",
+     "the Alps"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 4920,
+    "en": 4570,
+    "wd": 19700
+   },
+   "bank": {
+    "fr": [
+     2034750,
+     4920
+    ],
+    "en": [
+     2040070,
+     4570
+    ],
+    "wd": [
+     2045040,
+     19700
+    ],
+    "wp": [
+     [
+      2045040,
+      2870
+     ],
+     [
+      2048310,
+      2530
+     ],
+     [
+      2051240,
+      3290
+     ],
+     [
+      2054930,
+      2900
+     ],
+     [
+      2058230,
+      2470
+     ],
+     [
+      2061099,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toutes blanches, très nettes, comme si les montagnes étaient au bout de la rue.",
+   "en": "All white, very sharp, as if the mountains were at the end of the street.",
+   "para": 9,
+   "glosses": [
+    {
+     "fr": "nettes",
+     "en": "sharp, clear"
+    }
+   ],
+   "words": [
+    [
+     "Toutes blanches",
+     "all white"
+    ],
+    [
+     "très nettes",
+     "very sharp"
+    ],
+    [
+     "comme si",
+     "as if"
     ],
     [
      "les montagnes",
      "the mountains"
     ],
     [
-     "Je te l'ai promis",
-     "I promised you"
+     "étaient",
+     "were"
+    ],
+    [
+     "au bout de la rue",
+     "at the end of the street"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "gl": "audio/s071_gl.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4550,
+    "gl": 3740,
+    "wd": 19580
+   },
+   "bank": {
+    "fr": [
+     2065139,
+     5030
+    ],
+    "en": [
+     2070570,
+     4550
+    ],
+    "gl": [
+     2075520,
+     3740
+    ],
+    "wd": [
+     2079659,
+     19580
+    ],
+    "wp": [
+     [
+      2079659,
+      2870
+     ],
+     [
+      2082929,
+      2940
+     ],
+     [
+      2086269,
+      2520
+     ],
+     [
+      2089189,
+      3010
+     ],
+     [
+      2092599,
+      2090
+     ],
+     [
+      2095089,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je te l'avais promis en juin », a dit Lenz.",
+   "en": "\"I had promised you in June,\" said Lenz.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Je te l'avais promis",
+     "I had promised you"
     ],
     [
      "en juin",
      "in June"
+    ],
+    [
+     "a dit",
+     "said"
     ]
    ],
    "audio": {
-    "fr": "audio/s045_fr.mp3",
-    "en": "audio/s045_en.mp3",
-    "wd": "audio/s045_wd.mp3"
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
    },
    "ms": {
-    "fr": 8060,
-    "en": 5380,
-    "wd": 25240
+    "fr": 3480,
+    "en": 2810,
+    "wd": 9900
    },
    "bank": {
     "fr": [
-     1473150,
-     8060
+     2099640,
+     3480
     ],
     "en": [
-     1481610,
-     5380
+     2103520,
+     2810
     ],
     "wd": [
-     1487390,
-     25240
+     2106730,
+     9900
     ],
     "wp": [
      [
-      1487390,
-      2550
+      2106730,
+      3530
      ],
      [
-      1490340,
-      2390
-     ],
-     [
-      1493130,
-      2630
-     ],
-     [
-      1496160,
-      2510
-     ],
-     [
-      1499070,
-      2710
-     ],
-     [
-      1502180,
-      3010
-     ],
-     [
-      1505590,
-      3290
-     ],
-     [
-      1509280,
+      2110660,
       2500
+     ],
+     [
+      2113560,
+      2220
      ]
     ]
    }
@@ -3881,7 +5686,7 @@
   {
    "fr": "« Tu me l'as promis en juin, en juillet, en août et en septembre. »",
    "en": "\"You promised me in June, in July, in August and in September.\"",
-   "para": 8,
+   "para": 9,
    "glosses": [],
    "words": [
     [
@@ -3901,74 +5706,66 @@
      "in August"
     ],
     [
-     "et",
-     "and"
-    ],
-    [
      "en septembre",
      "in September"
     ]
    ],
    "audio": {
-    "fr": "audio/s046_fr.mp3",
-    "en": "audio/s046_en.mp3",
-    "wd": "audio/s046_wd.mp3"
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
    },
    "ms": {
     "fr": 4790,
     "en": 4580,
-    "wd": 18470
+    "wd": 16250
    },
    "bank": {
     "fr": [
-     1513030,
+     2117030,
      4790
     ],
     "en": [
-     1518220,
+     2122220,
      4580
     ],
     "wd": [
-     1523200,
-     18470
+     2127200,
+     16250
     ],
     "wp": [
      [
-      1523200,
+      2127200,
       3190
      ],
      [
-      1526790,
+      2130790,
       2500
      ],
      [
-      1529690,
+      2133690,
       2590
      ],
      [
-      1532680,
+      2136680,
       2590
      ],
      [
-      1535670,
-      1820
-     ],
-     [
-      1537890,
+      2139670,
       2930
      ]
     ]
    }
   },
   {
-   "fr": "« Le Föhn vient quand il veut », a dit Lenz. « En général, le dernier jour. »",
-   "en": "\"The Föhn comes when it wants,\" said Lenz. \"Usually, on the last day.\"",
-   "para": 8,
+   "fr": "« Ce vent vient quand il veut », a dit Lenz. « Souvent, le dernier jour. »",
+   "en": "\"This wind comes when it wants,\" said Lenz. \"Often, on the last day.\"",
+   "para": 9,
    "glosses": [],
    "words": [
     [
-     "Le Föhn",
-     "the Föhn"
+     "Ce vent",
+     "this wind"
     ],
     [
      "vient",
@@ -3979,2410 +5776,12 @@
      "when it wants"
     ],
     [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "En général",
-     "usually"
+     "Souvent",
+     "often"
     ],
     [
      "le dernier jour",
      "the last day"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s047_fr.mp3",
-    "en": "audio/s047_en.mp3",
-    "wd": "audio/s047_wd.mp3"
-   },
-   "ms": {
-    "fr": 6610,
-    "en": 4670,
-    "wd": 21970
-   },
-   "bank": {
-    "fr": [
-     1542070,
-     6610
-    ],
-    "en": [
-     1549080,
-     4670
-    ],
-    "wd": [
-     1554150,
-     21970
-    ],
-    "wp": [
-     [
-      1554150,
-      2700
-     ],
-     [
-      1557250,
-      2270
-     ],
-     [
-      1559920,
-      2890
-     ],
-     [
-      1563210,
-      2220
-     ],
-     [
-      1565830,
-      2550
-     ],
-     [
-      1568780,
-      2830
-     ],
-     [
-      1572010,
-      3260
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile a regardé l'eau. La vague était exactement à la même place qu'en juin.",
-   "en": "Odile looked at the water. The wave was exactly in the same place as in June.",
-   "para": 8,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a regardé",
-     "looked at"
-    ],
-    [
-     "l'eau",
-     "the water"
-    ],
-    [
-     "La vague",
-     "the wave"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "exactement",
-     "exactly"
-    ],
-    [
-     "à la même place",
-     "in the same place"
-    ],
-    [
-     "qu'en juin",
-     "as in June"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s048_fr.mp3",
-    "en": "audio/s048_en.mp3",
-    "wd": "audio/s048_wd.mp3"
-   },
-   "ms": {
-    "fr": 6000,
-    "en": 4980,
-    "wd": 24920
-   },
-   "bank": {
-    "fr": [
-     1576520,
-     6000
-    ],
-    "en": [
-     1582920,
-     4980
-    ],
-    "wd": [
-     1588300,
-     24920
-    ],
-    "wp": [
-     [
-      1588300,
-      2510
-     ],
-     [
-      1591210,
-      2550
-     ],
-     [
-      1594160,
-      2270
-     ],
-     [
-      1596830,
-      2790
-     ],
-     [
-      1600020,
-      2150
-     ],
-     [
-      1602570,
-      2740
-     ],
-     [
-      1605710,
-      3540
-     ],
-     [
-      1609650,
-      2720
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Au Viktualienmarkt, à neuf heures et demie, ils ont pris des Weißwürste debout, à un comptoir.",
-   "en": "At the Viktualienmarkt, at half past nine, they had Weißwürste standing, at a counter.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Au Viktualienmarkt",
-     "at the Viktualienmarkt (Munich's food market)"
-    ],
-    [
-     "à neuf heures et demie",
-     "at half past nine"
-    ],
-    [
-     "ils ont pris",
-     "they had"
-    ],
-    [
-     "des Weißwürste",
-     "white sausages"
-    ],
-    [
-     "debout",
-     "standing"
-    ],
-    [
-     "à un comptoir",
-     "at a counter"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s049_fr.mp3",
-    "en": "audio/s049_en.mp3",
-    "wd": "audio/s049_wd.mp3"
-   },
-   "ms": {
-    "fr": 6760,
-    "en": 5690,
-    "wd": 23270
-   },
-   "bank": {
-    "fr": [
-     1613620,
-     6760
-    ],
-    "en": [
-     1620780,
-     5690
-    ],
-    "wd": [
-     1626870,
-     23270
-    ],
-    "wp": [
-     [
-      1626870,
-      5230
-     ],
-     [
-      1632500,
-      3480
-     ],
-     [
-      1636380,
-      2710
-     ],
-     [
-      1639490,
-      3510
-     ],
-     [
-      1643400,
-      2340
-     ],
-     [
-      1646140,
-      3150
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Les Weißwürste, on les commande par paires. « Pourquoi par paires ? — Personne ne sait. »",
-   "en": "Weißwürste, you order them in pairs. \"Why in pairs?\" \"Nobody knows.\"",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Les Weißwürste",
-     "the white sausages"
-    ],
-    [
-     "on les commande",
-     "you order them"
-    ],
-    [
-     "par paires",
-     "in pairs"
-    ],
-    [
-     "Pourquoi",
-     "why"
-    ],
-    [
-     "Personne ne sait",
-     "nobody knows"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s050_fr.mp3",
-    "en": "audio/s050_en.mp3",
-    "wd": "audio/s050_wd.mp3"
-   },
-   "ms": {
-    "fr": 7570,
-    "en": 5280,
-    "wd": 17630
-   },
-   "bank": {
-    "fr": [
-     1650540,
-     7570
-    ],
-    "en": [
-     1658510,
-     5280
-    ],
-    "wd": [
-     1664190,
-     17630
-    ],
-    "wp": [
-     [
-      1664190,
-      3810
-     ],
-     [
-      1668400,
-      2980
-     ],
-     [
-      1671780,
-      2900
-     ],
-     [
-      1675080,
-      2380
-     ],
-     [
-      1677860,
-      3110
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "De la moutarde douce, un bretzel, et une bière pour Lenz, à neuf heures et demie du matin.",
-   "en": "Sweet mustard, a pretzel, and a beer for Lenz, at half past nine in the morning.",
-   "para": 9,
-   "glosses": [
-    {
-     "fr": "bretzel",
-     "en": "pretzel"
-    }
-   ],
-   "words": [
-    [
-     "De la moutarde douce",
-     "sweet mustard"
-    ],
-    [
-     "un bretzel",
-     "a pretzel"
-    ],
-    [
-     "et",
-     "and"
-    ],
-    [
-     "une bière",
-     "a beer"
-    ],
-    [
-     "pour Lenz",
-     "for Lenz"
-    ],
-    [
-     "à neuf heures et demie",
-     "at half past nine"
-    ],
-    [
-     "du matin",
-     "in the morning"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s051_fr.mp3",
-    "en": "audio/s051_en.mp3",
-    "gl": "audio/s051_gl.mp3",
-    "wd": "audio/s051_wd.mp3"
-   },
-   "ms": {
-    "fr": 6570,
-    "en": 5540,
-    "gl": 3690,
-    "wd": 23430
-   },
-   "bank": {
-    "fr": [
-     1682220,
-     6570
-    ],
-    "en": [
-     1689190,
-     5540
-    ],
-    "gl": [
-     1695130,
-     3690
-    ],
-    "wd": [
-     1699220,
-     23430
-    ],
-    "wp": [
-     [
-      1699220,
-      3770
-     ],
-     [
-      1703390,
-      2930
-     ],
-     [
-      1706720,
-      1820
-     ],
-     [
-      1708940,
-      2680
-     ],
-     [
-      1712020,
-      2870
-     ],
-     [
-      1715290,
-      3480
-     ],
-     [
-      1719170,
-      2630
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Parce que c'était jeudi, et que le jeudi, apparemment, ne compte pas.",
-   "en": "Because it was Thursday, and Thursday, apparently, doesn't count.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Parce que",
-     "because"
-    ],
-    [
-     "c'était jeudi",
-     "it was Thursday"
-    ],
-    [
-     "le jeudi",
-     "Thursday"
-    ],
-    [
-     "apparemment",
-     "apparently"
-    ],
-    [
-     "ne compte pas",
-     "doesn't count"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s052_fr.mp3",
-    "en": "audio/s052_en.mp3",
-    "wd": "audio/s052_wd.mp3"
-   },
-   "ms": {
-    "fr": 5150,
-    "en": 4420,
-    "wd": 16660
-   },
-   "bank": {
-    "fr": [
-     1723050,
-     5150
-    ],
-    "en": [
-     1728600,
-     4420
-    ],
-    "wd": [
-     1733420,
-     16660
-    ],
-    "wp": [
-     [
-      1733420,
-      2600
-     ],
-     [
-      1736420,
-      3250
-     ],
-     [
-      1740070,
-      2680
-     ],
-     [
-      1743150,
-      2720
-     ],
-     [
-      1746270,
-      2960
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile a coupé la saucisse et a enlevé la peau, comme Lenz le lui avait appris en juin.",
-   "en": "Odile cut the sausage and removed the skin, as Lenz had taught her in June.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a coupé",
-     "cut"
-    ],
-    [
-     "la saucisse",
-     "the sausage"
-    ],
-    [
-     "a enlevé",
-     "removed"
-    ],
-    [
-     "la peau",
-     "the skin"
-    ],
-    [
-     "comme",
-     "as"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "le lui avait appris",
-     "had taught her (it)"
-    ],
-    [
-     "en juin",
-     "in June"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s053_fr.mp3",
-    "en": "audio/s053_en.mp3",
-    "wd": "audio/s053_wd.mp3"
-   },
-   "ms": {
-    "fr": 5480,
-    "en": 4760,
-    "wd": 27760
-   },
-   "bank": {
-    "fr": [
-     1750480,
-     5480
-    ],
-    "en": [
-     1756360,
-     4760
-    ],
-    "wd": [
-     1761520,
-     27760
-    ],
-    "wp": [
-     [
-      1761520,
-      2510
-     ],
-     [
-      1764430,
-      2240
-     ],
-     [
-      1767070,
-      3120
-     ],
-     [
-      1770590,
-      2590
-     ],
-     [
-      1773580,
-      2540
-     ],
-     [
-      1776520,
-      2240
-     ],
-     [
-      1779160,
-      2550
-     ],
-     [
-      1782110,
-      3420
-     ],
-     [
-      1785930,
-      2500
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Je n'aime pas ça », a dit Odile. « Quoi ? » a dit Lenz.",
-   "en": "\"I don't like this,\" said Odile. \"What?\" said Lenz.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Je n'aime pas ça",
-     "I don't like this"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Quoi",
-     "what"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s054_fr.mp3",
-    "en": "audio/s054_en.mp3",
-    "wd": "audio/s054_wd.mp3"
-   },
-   "ms": {
-    "fr": 5440,
-    "en": 4290,
-    "wd": 15180
-   },
-   "bank": {
-    "fr": [
-     1789680,
-     5440
-    ],
-    "en": [
-     1795520,
-     4290
-    ],
-    "wd": [
-     1800210,
-     15180
-    ],
-    "wp": [
-     [
-      1800210,
-      3370
-     ],
-     [
-      1803980,
-      2220
-     ],
-     [
-      1806600,
-      2510
-     ],
-     [
-      1809510,
-      2080
-     ],
-     [
-      1811990,
-      2550
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« La Weißwurst. Je n'ai jamais aimé ça. Depuis cinq mois, j'en mange parce que tu as l'air content. »",
-   "en": "\"Weißwurst. I've never liked it. For five months, I've been eating it because you look pleased.\"",
-   "para": 9,
-   "glosses": [
-    {
-     "fr": "Weißwurst",
-     "en": "Bavarian white veal sausage, eaten in the morning"
-    }
-   ],
-   "words": [
-    [
-     "La Weißwurst",
-     "the white sausage"
-    ],
-    [
-     "Je n'ai jamais aimé ça",
-     "I've never liked it"
-    ],
-    [
-     "Depuis cinq mois",
-     "for five months"
-    ],
-    [
-     "j'en mange",
-     "I eat it"
-    ],
-    [
-     "parce que",
-     "because"
-    ],
-    [
-     "tu as l'air",
-     "you look"
-    ],
-    [
-     "content",
-     "pleased"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s055_fr.mp3",
-    "en": "audio/s055_en.mp3",
-    "gl": "audio/s055_gl.mp3",
-    "wd": "audio/s055_wd.mp3"
-   },
-   "ms": {
-    "fr": 8660,
-    "en": 6180,
-    "gl": 6020,
-    "wd": 24690
-   },
-   "bank": {
-    "fr": [
-     1815790,
-     8660
-    ],
-    "en": [
-     1824850,
-     6180
-    ],
-    "gl": [
-     1831430,
-     6020
-    ],
-    "wd": [
-     1837850,
-     24690
-    ],
-    "wp": [
-     [
-      1837850,
-      3710
-     ],
-     [
-      1841960,
-      3650
-     ],
-     [
-      1846010,
-      3460
-     ],
-     [
-      1849870,
-      2770
-     ],
-     [
-      1853040,
-      2600
-     ],
-     [
-      1856040,
-      2860
-     ],
-     [
-      1859300,
-      2390
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz a posé son couteau. Il a regardé sa saucisse, puis Odile, comme s'il cherchait un témoin.",
-   "en": "Lenz put down his knife. He looked at his sausage, then at Odile, as if looking for a witness.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a posé",
-     "put down"
-    ],
-    [
-     "son couteau",
-     "his knife"
-    ],
-    [
-     "Il a regardé",
-     "he looked at"
-    ],
-    [
-     "sa saucisse",
-     "his sausage"
-    ],
-    [
-     "puis",
-     "then"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "comme s'il cherchait",
-     "as if he was looking for"
-    ],
-    [
-     "un témoin",
-     "a witness"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s056_fr.mp3",
-    "en": "audio/s056_en.mp3",
-    "wd": "audio/s056_wd.mp3"
-   },
-   "ms": {
-    "fr": 7810,
-    "en": 6000,
-    "wd": 29200
-   },
-   "bank": {
-    "fr": [
-     1862940,
-     7810
-    ],
-    "en": [
-     1871150,
-     6000
-    ],
-    "wd": [
-     1877550,
-     29200
-    ],
-    "wp": [
-     [
-      1877550,
-      2550
-     ],
-     [
-      1880500,
-      2560
-     ],
-     [
-      1883460,
-      2840
-     ],
-     [
-      1886700,
-      2990
-     ],
-     [
-      1890090,
-      3150
-     ],
-     [
-      1893640,
-      2110
-     ],
-     [
-      1896150,
-      2510
-     ],
-     [
-      1899060,
-      3680
-     ],
-     [
-      1903140,
-      2760
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Cinq mois », a dit Lenz. « Tu n'as jamais demandé », a dit Odile.",
-   "en": "\"Five months,\" said Lenz. \"You never asked,\" said Odile.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Cinq mois",
-     "five months"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "Tu n'as jamais demandé",
-     "you never asked"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s057_fr.mp3",
-    "en": "audio/s057_en.mp3",
-    "wd": "audio/s057_wd.mp3"
-   },
-   "ms": {
-    "fr": 6130,
-    "en": 4200,
-    "wd": 16250
-   },
-   "bank": {
-    "fr": [
-     1907150,
-     6130
-    ],
-    "en": [
-     1913680,
-     4200
-    ],
-    "wd": [
-     1918280,
-     16250
-    ],
-    "wp": [
-     [
-      1918280,
-      3000
-     ],
-     [
-      1921680,
-      2220
-     ],
-     [
-      1924300,
-      2550
-     ],
-     [
-      1927250,
-      3520
-     ],
-     [
-      1931170,
-      2510
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« On ne demande pas si les gens aiment la Weißwurst. C'est comme demander s'ils aiment l'air. »",
-   "en": "\"You don't ask if people like Weißwurst. It's like asking if they like air.\"",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "On ne demande pas",
-     "you don't ask"
-    ],
-    [
-     "si",
-     "if"
-    ],
-    [
-     "les gens",
-     "people"
-    ],
-    [
-     "aiment",
-     "like"
-    ],
-    [
-     "la Weißwurst",
-     "the white sausage"
-    ],
-    [
-     "C'est comme",
-     "it's like"
-    ],
-    [
-     "demander",
-     "asking"
-    ],
-    [
-     "s'ils aiment",
-     "if they like"
-    ],
-    [
-     "l'air",
-     "the air"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s058_fr.mp3",
-    "en": "audio/s058_en.mp3",
-    "wd": "audio/s058_wd.mp3"
-   },
-   "ms": {
-    "fr": 6330,
-    "en": 4680,
-    "wd": 27870
-   },
-   "bank": {
-    "fr": [
-     1934930,
-     6330
-    ],
-    "en": [
-     1941660,
-     4680
-    ],
-    "wd": [
-     1946740,
-     27870
-    ],
-    "wp": [
-     [
-      1946740,
-      3240
-     ],
-     [
-      1950380,
-      2040
-     ],
-     [
-      1952820,
-      2300
-     ],
-     [
-      1955520,
-      2090
-     ],
-     [
-      1958010,
-      3710
-     ],
-     [
-      1962120,
-      2580
-     ],
-     [
-      1965100,
-      2540
-     ],
-     [
-      1968040,
-      2930
-     ],
-     [
-      1971370,
-      2390
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Puis Lenz a ri, d'un seul coup, et a mangé les deux saucisses. Odile a mangé le bretzel.",
-   "en": "Then Lenz laughed, all at once, and ate both sausages. Odile ate the pretzel.",
-   "para": 9,
-   "glosses": [],
-   "words": [
-    [
-     "Puis",
-     "then"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a ri",
-     "laughed"
-    ],
-    [
-     "d'un seul coup",
-     "all at once"
-    ],
-    [
-     "a mangé",
-     "ate"
-    ],
-    [
-     "les deux saucisses",
-     "both sausages"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "le bretzel",
-     "the pretzel"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s059_fr.mp3",
-    "en": "audio/s059_en.mp3",
-    "wd": "audio/s059_wd.mp3"
-   },
-   "ms": {
-    "fr": 7360,
-    "en": 5760,
-    "wd": 24970
-   },
-   "bank": {
-    "fr": [
-     1975010,
-     7360
-    ],
-    "en": [
-     1982770,
-     5760
-    ],
-    "wd": [
-     1988930,
-     24970
-    ],
-    "wp": [
-     [
-      1988930,
-      2110
-     ],
-     [
-      1991440,
-      2550
-     ],
-     [
-      1994390,
-      2329
-     ],
-     [
-      1997119,
-      2930
-     ],
-     [
-      2000450,
-      2329
-     ],
-     [
-      2003180,
-      3610
-     ],
-     [
-      2007190,
-      2510
-     ],
-     [
-      2010100,
-      2950
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Au stand des pommes, une femme aux mains rouges a mis six pommes dans un sac, sans demander.",
-   "en": "At the apple stall, a woman with red hands put six apples in a bag, without asking.",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Au stand",
-     "at the stall"
-    ],
-    [
-     "des pommes",
-     "of apples"
-    ],
-    [
-     "une femme",
-     "a woman"
-    ],
-    [
-     "aux mains rouges",
-     "with red hands"
-    ],
-    [
-     "a mis",
-     "put"
-    ],
-    [
-     "six pommes",
-     "six apples"
-    ],
-    [
-     "dans un sac",
-     "in a bag"
-    ],
-    [
-     "sans demander",
-     "without asking"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s060_fr.mp3",
-    "en": "audio/s060_en.mp3",
-    "wd": "audio/s060_wd.mp3"
-   },
-   "ms": {
-    "fr": 5840,
-    "en": 5610,
-    "wd": 26340
-   },
-   "bank": {
-    "fr": [
-     2014300,
-     5840
-    ],
-    "en": [
-     2020540,
-     5610
-    ],
-    "wd": [
-     2026550,
-     26340
-    ],
-    "wp": [
-     [
-      2026550,
-      2810
-     ],
-     [
-      2029760,
-      2840
-     ],
-     [
-      2033000,
-      2480
-     ],
-     [
-      2035880,
-      3250
-     ],
-     [
-      2039530,
-      2080
-     ],
-     [
-      2042010,
-      3050
-     ],
-     [
-      2045460,
-      3010
-     ],
-     [
-      2048870,
-      3170
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Madame Wimmer, quarante ans au même stand. Elle a parlé à Lenz en bavarois, trois mots, vite.",
-   "en": "Madame Wimmer, forty years at the same stall. She spoke to Lenz in Bavarian, three words, fast.",
-   "para": 10,
-   "glosses": [
-    {
-     "fr": "bavarois",
-     "en": "Bavarian (the dialect)"
-    }
-   ],
-   "words": [
-    [
-     "Madame Wimmer",
-     "Madame Wimmer"
-    ],
-    [
-     "quarante ans",
-     "forty years"
-    ],
-    [
-     "au même stand",
-     "at the same stall"
-    ],
-    [
-     "Elle a parlé",
-     "she spoke"
-    ],
-    [
-     "à Lenz",
-     "to Lenz"
-    ],
-    [
-     "en bavarois",
-     "in Bavarian"
-    ],
-    [
-     "trois mots",
-     "three words"
-    ],
-    [
-     "vite",
-     "fast"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s061_fr.mp3",
-    "en": "audio/s061_en.mp3",
-    "gl": "audio/s061_gl.mp3",
-    "wd": "audio/s061_wd.mp3"
-   },
-   "ms": {
-    "fr": 8150,
-    "en": 6890,
-    "gl": 4630,
-    "wd": 26700
-   },
-   "bank": {
-    "fr": [
-     2053290,
-     8150
-    ],
-    "en": [
-     2061840,
-     6890
-    ],
-    "gl": [
-     2069130,
-     4630
-    ],
-    "wd": [
-     2074159,
-     26700
-    ],
-    "wp": [
-     [
-      2074159,
-      3310
-     ],
-     [
-      2077869,
-      2740
-     ],
-     [
-      2081009,
-      3280
-     ],
-     [
-      2084689,
-      2890
-     ],
-     [
-      2087979,
-      2730
-     ],
-     [
-      2091109,
-      2990
-     ],
-     [
-      2094499,
-      2790
-     ],
-     [
-      2097689,
-      2320
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz a répondu une phrase. Madame Wimmer a regardé Odile et a répété ses trois mots, pour Odile.",
-   "en": "Lenz answered with one sentence. Madame Wimmer looked at Odile and repeated her three words, for Odile.",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a répondu",
-     "answered"
-    ],
-    [
-     "une phrase",
-     "one sentence"
-    ],
-    [
-     "Madame Wimmer",
-     "Madame Wimmer"
-    ],
-    [
-     "a regardé",
-     "looked at"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a répété",
-     "repeated"
-    ],
-    [
-     "ses trois mots",
-     "her three words"
-    ],
-    [
-     "pour",
-     "for"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s062_fr.mp3",
-    "en": "audio/s062_en.mp3",
-    "wd": "audio/s062_wd.mp3"
-   },
-   "ms": {
-    "fr": 7810,
-    "en": 6450,
-    "wd": 28670
-   },
-   "bank": {
-    "fr": [
-     2101260,
-     7810
-    ],
-    "en": [
-     2109470,
-     6450
-    ],
-    "wd": [
-     2116320,
-     28670
-    ],
-    "wp": [
-     [
-      2116320,
-      2550
-     ],
-     [
-      2119270,
-      2650
-     ],
-     [
-      2122320,
-      2950
-     ],
-     [
-      2125670,
-      3310
-     ],
-     [
-      2129380,
-      2550
-     ],
-     [
-      2132330,
-      2510
-     ],
-     [
-      2135240,
-      2610
-     ],
-     [
-      2138250,
-      3280
-     ],
-     [
-      2141930,
-      2210
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Qu'est-ce qu'elle dit ? » a demandé Odile. « Elle demande si tu restes. »",
-   "en": "\"What is she saying?\" asked Odile. \"She's asking if you're staying.\"",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Qu'est-ce qu'elle dit",
-     "what is she saying"
-    ],
-    [
-     "a demandé",
-     "asked"
-    ],
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "Elle demande",
-     "she's asking"
-    ],
-    [
-     "si",
-     "if"
-    ],
-    [
-     "tu restes",
-     "you're staying"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s063_fr.mp3",
-    "en": "audio/s063_en.mp3",
-    "wd": "audio/s063_wd.mp3"
-   },
-   "ms": {
-    "fr": 5630,
-    "en": 4450,
-    "wd": 18740
-   },
-   "bank": {
-    "fr": [
-     2145390,
-     5630
-    ],
-    "en": [
-     2151420,
-     4450
-    ],
-    "wd": [
-     2156270,
-     18740
-    ],
-    "wp": [
-     [
-      2156270,
-      3160
-     ],
-     [
-      2159830,
-      2440
-     ],
-     [
-      2162670,
-      2510
-     ],
-     [
-      2165580,
-      2990
-     ],
-     [
-      2168970,
-      2040
-     ],
-     [
-      2171410,
-      2750
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Madame Wimmer attendait, sa main rouge sur le sac.",
-   "en": "Madame Wimmer was waiting, her red hand on the bag.",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Madame Wimmer",
-     "Madame Wimmer"
-    ],
-    [
-     "attendait",
-     "was waiting"
-    ],
-    [
-     "sa main rouge",
-     "her red hand"
-    ],
-    [
-     "sur le sac",
-     "on the bag"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s064_fr.mp3",
-    "en": "audio/s064_en.mp3",
-    "wd": "audio/s064_wd.mp3"
-   },
-   "ms": {
-    "fr": 4180,
-    "en": 3630,
-    "wd": 14140
-   },
-   "bank": {
-    "fr": [
-     2175410,
-     4180
-    ],
-    "en": [
-     2179990,
-     3630
-    ],
-    "wd": [
-     2184020,
-     14140
-    ],
-    "wp": [
-     [
-      2184020,
-      3310
-     ],
-     [
-      2187730,
-      2540
-     ],
-     [
-      2190670,
-      3220
-     ],
-     [
-      2194290,
-      3020
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Dis-lui que le train est demain, à six heures cinquante et un. »",
-   "en": "\"Tell her the train is tomorrow, at six fifty-one.\"",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Dis-lui",
-     "tell her"
-    ],
-    [
-     "que",
-     "that"
-    ],
-    [
-     "le train",
-     "the train"
-    ],
-    [
-     "est demain",
-     "is tomorrow"
-    ],
-    [
-     "à six heures cinquante et un",
-     "at six fifty-one"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s065_fr.mp3",
-    "en": "audio/s065_en.mp3",
-    "wd": "audio/s065_wd.mp3"
-   },
-   "ms": {
-    "fr": 3900,
-    "en": 3390,
-    "wd": 16190
-   },
-   "bank": {
-    "fr": [
-     2198560,
-     3900
-    ],
-    "en": [
-     2202860,
-     3390
-    ],
-    "wd": [
-     2206650,
-     16190
-    ],
-    "wp": [
-     [
-      2206650,
-      2560
-     ],
-     [
-      2209610,
-      2020
-     ],
-     [
-      2212030,
-      2490
-     ],
-     [
-      2214920,
-      2730
-     ],
-     [
-      2218050,
-      3940
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Lenz a traduit. Madame Wimmer a ajouté une septième pomme. « Für die Fahrt. » Pour le voyage.",
-   "en": "Lenz translated. Madame Wimmer added a seventh apple. \"Für die Fahrt.\" For the journey.",
-   "para": 10,
-   "glosses": [],
-   "words": [
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "a traduit",
-     "translated"
-    ],
-    [
-     "Madame Wimmer",
-     "Madame Wimmer"
-    ],
-    [
-     "a ajouté",
-     "added"
-    ],
-    [
-     "une septième pomme",
-     "a seventh apple"
-    ],
-    [
-     "Für die Fahrt",
-     "for the journey (German)"
-    ],
-    [
-     "Pour le voyage",
-     "for the journey"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s066_fr.mp3",
-    "en": "audio/s066_en.mp3",
-    "wd": "audio/s066_wd.mp3"
-   },
-   "ms": {
-    "fr": 9720,
-    "en": 6270,
-    "wd": 24720
-   },
-   "bank": {
-    "fr": [
-     2223240,
-     9720
-    ],
-    "en": [
-     2233360,
-     6270
-    ],
-    "wd": [
-     2240030,
-     24720
-    ],
-    "wp": [
-     [
-      2240030,
-      2550
-     ],
-     [
-      2242980,
-      2770
-     ],
-     [
-      2246150,
-      3310
-     ],
-     [
-      2249860,
-      2530
-     ],
-     [
-      2252790,
-      3490
-     ],
-     [
-      2256680,
-      3660
-     ],
-     [
-      2260740,
-      3160
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "L'Alter Peter est la tour d'église à côté du marché. Trois cent six marches, pas d'ascenseur.",
-   "en": "The Alter Peter is the church tower next to the market. Three hundred and six steps, no lift.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "L'Alter Peter",
-     "the Alter Peter (St Peter's church tower)"
-    ],
-    [
-     "est",
-     "is"
-    ],
-    [
-     "la tour d'église",
-     "the church tower"
-    ],
-    [
-     "à côté du marché",
-     "next to the market"
-    ],
-    [
-     "Trois cent six marches",
-     "three hundred and six steps"
-    ],
-    [
-     "pas d'ascenseur",
-     "no lift"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s067_fr.mp3",
-    "en": "audio/s067_en.mp3",
-    "wd": "audio/s067_wd.mp3"
-   },
-   "ms": {
-    "fr": 7310,
-    "en": 6080,
-    "wd": 24110
-   },
-   "bank": {
-    "fr": [
-     2265150,
-     7310
-    ],
-    "en": [
-     2272860,
-     6080
-    ],
-    "wd": [
-     2279340,
-     24110
-    ],
-    "wp": [
-     [
-      2279340,
-      5130
-     ],
-     [
-      2284870,
-      1990
-     ],
-     [
-      2287260,
-      3460
-     ],
-     [
-      2291120,
-      3490
-     ],
-     [
-      2295010,
-      4100
-     ],
-     [
-      2299510,
-      3090
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "En haut, le vent chaud poussait si fort qu'il fallait tenir ses cheveux.",
-   "en": "At the top, the warm wind was pushing so hard that you had to hold your hair.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "En haut",
-     "at the top"
-    ],
-    [
-     "le vent chaud",
-     "the warm wind"
-    ],
-    [
-     "poussait",
-     "was pushing"
-    ],
-    [
-     "si fort",
-     "so hard"
-    ],
-    [
-     "qu'il fallait",
-     "that you had to"
-    ],
-    [
-     "tenir",
-     "hold"
-    ],
-    [
-     "ses cheveux",
-     "one's hair"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s068_fr.mp3",
-    "en": "audio/s068_en.mp3",
-    "wd": "audio/s068_wd.mp3"
-   },
-   "ms": {
-    "fr": 4490,
-    "en": 4770,
-    "wd": 21930
-   },
-   "bank": {
-    "fr": [
-     2303850,
-     4490
-    ],
-    "en": [
-     2308740,
-     4770
-    ],
-    "wd": [
-     2313910,
-     21930
-    ],
-    "wp": [
-     [
-      2313910,
-      2380
-     ],
-     [
-      2316690,
-      2980
-     ],
-     [
-      2320070,
-      2530
-     ],
-     [
-      2323000,
-      2840
-     ],
-     [
-      2326240,
-      2810
-     ],
-     [
-      2329450,
-      2329
-     ],
-     [
-      2332180,
-      2810
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "La ville était en bas : les toits rouges, les deux tours à bulbe de la Frauenkirche.",
-   "en": "The city was below: the red roofs, the two onion-shaped towers of the Frauenkirche.",
-   "para": 11,
-   "glosses": [
-    {
-     "fr": "tours à bulbe",
-     "en": "onion-shaped towers (the Frauenkirche's two towers)"
-    }
-   ],
-   "words": [
-    [
-     "La ville",
-     "the city"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "en bas",
-     "below"
-    ],
-    [
-     "les toits rouges",
-     "the red roofs"
-    ],
-    [
-     "les deux tours à bulbe",
-     "the two onion-shaped towers"
-    ],
-    [
-     "de la Frauenkirche",
-     "of the Frauenkirche (Munich's cathedral)"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s069_fr.mp3",
-    "en": "audio/s069_en.mp3",
-    "gl": "audio/s069_gl.mp3",
-    "wd": "audio/s069_wd.mp3"
-   },
-   "ms": {
-    "fr": 5770,
-    "en": 5390,
-    "gl": 6150,
-    "wd": 21940
-   },
-   "bank": {
-    "fr": [
-     2336240,
-     5770
-    ],
-    "en": [
-     2342410,
-     5390
-    ],
-    "gl": [
-     2348200,
-     6150
-    ],
-    "wd": [
-     2354750,
-     21940
-    ],
-    "wp": [
-     [
-      2354750,
-      2600
-     ],
-     [
-      2357750,
-      2150
-     ],
-     [
-      2360300,
-      2250
-     ],
-     [
-      2362950,
-      3290
-     ],
-     [
-      2366640,
-      4230
-     ],
-     [
-      2371270,
-      4570
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Et au sud, au-dessus des toits, les Alpes.",
-   "en": "And to the south, above the roofs, the Alps.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "Et",
-     "and"
-    ],
-    [
-     "au sud",
-     "to the south"
-    ],
-    [
-     "au-dessus des toits",
-     "above the roofs"
-    ],
-    [
-     "les Alpes",
-     "the Alps"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s070_fr.mp3",
-    "en": "audio/s070_en.mp3",
-    "wd": "audio/s070_wd.mp3"
-   },
-   "ms": {
-    "fr": 3700,
-    "en": 3290,
-    "wd": 12870
-   },
-   "bank": {
-    "fr": [
-     2377090,
-     3700
-    ],
-    "en": [
-     2381190,
-     3290
-    ],
-    "wd": [
-     2384880,
-     12870
-    ],
-    "wp": [
-     [
-      2384880,
-      1820
-     ],
-     [
-      2387100,
-      2870
-     ],
-     [
-      2390370,
-      3340
-     ],
-     [
-      2394110,
-      2790
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Une ligne entière de montagnes, avec de la neige, nettes comme découpées dans du papier blanc.",
-   "en": "A whole line of mountains, with snow, sharp as if cut out of white paper.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "Une ligne entière",
-     "a whole line"
-    ],
-    [
-     "de montagnes",
-     "of mountains"
-    ],
-    [
-     "avec de la neige",
-     "with snow"
-    ],
-    [
-     "nettes",
-     "sharp"
-    ],
-    [
-     "comme",
-     "as if"
-    ],
-    [
-     "découpées",
-     "cut out"
-    ],
-    [
-     "dans du papier blanc",
-     "of white paper"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s071_fr.mp3",
-    "en": "audio/s071_en.mp3",
-    "wd": "audio/s071_wd.mp3"
-   },
-   "ms": {
-    "fr": 6210,
-    "en": 4740,
-    "wd": 23370
-   },
-   "bank": {
-    "fr": [
-     2398150,
-     6210
-    ],
-    "en": [
-     2404760,
-     4740
-    ],
-    "wd": [
-     2409900,
-     23370
-    ],
-    "wp": [
-     [
-      2409900,
-      3250
-     ],
-     [
-      2413550,
-      3020
-     ],
-     [
-      2416970,
-      3190
-     ],
-     [
-      2420560,
-      2290
-     ],
-     [
-      2423250,
-      2309
-     ],
-     [
-      2425959,
-      2590
-     ],
-     [
-      2428950,
-      3470
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Les Alpes étaient à quatre-vingts kilomètres, et elles semblaient au bout de la rue.",
-   "en": "The Alps were eighty kilometres away, and they seemed to be at the end of the street.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "Les Alpes",
-     "the Alps"
-    ],
-    [
-     "étaient",
-     "were"
-    ],
-    [
-     "à quatre-vingts kilomètres",
-     "eighty kilometres away"
-    ],
-    [
-     "elles semblaient",
-     "they seemed"
-    ],
-    [
-     "au bout de la rue",
-     "at the end of the street"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s072_fr.mp3",
-    "en": "audio/s072_en.mp3",
-    "wd": "audio/s072_wd.mp3"
-   },
-   "ms": {
-    "fr": 4830,
-    "en": 4650,
-    "wd": 17400
-   },
-   "bank": {
-    "fr": [
-     2433670,
-     4830
-    ],
-    "en": [
-     2438900,
-     4650
-    ],
-    "wd": [
-     2443950,
-     17400
-    ],
-    "wp": [
-     [
-      2443950,
-      2790
-     ],
-     [
-      2447140,
-      2090
-     ],
-     [
-      2449630,
-      4010
-     ],
-     [
-      2454040,
-      2760
-     ],
-     [
-      2457200,
-      3300
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Celle-là, c'est la Zugspitze », a dit Lenz. C'est tout ce qu'il a dit.",
-   "en": "\"That one is the Zugspitze,\" said Lenz. That is all he said.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "Celle-là",
-     "that one"
-    ],
-    [
-     "c'est",
-     "is"
-    ],
-    [
-     "la Zugspitze",
-     "the Zugspitze (Germany's highest mountain)"
-    ],
-    [
-     "a dit",
-     "said"
-    ],
-    [
-     "Lenz",
-     "Lenz"
-    ],
-    [
-     "C'est tout ce qu'il a dit",
-     "that is all he said"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s073_fr.mp3",
-    "en": "audio/s073_en.mp3",
-    "wd": "audio/s073_wd.mp3"
-   },
-   "ms": {
-    "fr": 6100,
-    "en": 4180,
-    "wd": 20690
-   },
-   "bank": {
-    "fr": [
-     2461750,
-     6100
-    ],
-    "en": [
-     2468250,
-     4180
-    ],
-    "wd": [
-     2472830,
-     20690
-    ],
-    "wp": [
-     [
-      2472830,
-      2580
-     ],
-     [
-      2475810,
-      2120
-     ],
-     [
-      2478330,
-      4640
-     ],
-     [
-      2483370,
-      2220
-     ],
-     [
-      2485990,
-      2550
-     ],
-     [
-      2488940,
-      3730
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "Odile a posé sa main à plat sur la pierre. La pierre était tiède.",
-   "en": "Odile laid her hand flat on the stone. The stone was warm.",
-   "para": 11,
-   "glosses": [],
-   "words": [
-    [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "a posé",
-     "laid"
-    ],
-    [
-     "sa main",
-     "her hand"
-    ],
-    [
-     "à plat",
-     "flat"
-    ],
-    [
-     "sur la pierre",
-     "on the stone"
-    ],
-    [
-     "La pierre",
-     "the stone"
-    ],
-    [
-     "était",
-     "was"
-    ],
-    [
-     "tiède",
-     "warm (lukewarm)"
     ]
    ],
    "audio": {
@@ -6391,63 +5790,141 @@
     "wd": "audio/s074_wd.mp3"
    },
    "ms": {
-    "fr": 5580,
-    "en": 4040,
-    "wd": 24110
+    "fr": 6200,
+    "en": 4670,
+    "wd": 15750
    },
    "bank": {
     "fr": [
-     2493920,
-     5580
+     2143850,
+     6200
     ],
     "en": [
-     2499900,
-     4040
+     2150450,
+     4670
     ],
     "wd": [
-     2504340,
-     24110
+     2155520,
+     15750
     ],
     "wp": [
      [
-      2504340,
-      2510
+      2155520,
+      2560
      ],
      [
-      2507250,
-      2329
+      2158480,
+      2270
      ],
      [
-      2509980,
-      2510
+      2161150,
+      2890
      ],
      [
-      2512890,
-      2260
+      2164440,
+      2320
      ],
      [
-      2515550,
-      3010
-     ],
-     [
-      2518960,
-      2840
-     ],
-     [
-      2522200,
-      2150
-     ],
-     [
-      2524750,
-      2850
+      2167160,
+      3260
      ]
     ]
    }
   },
   {
-   "fr": "« Le cadre a pris deux jours, a dit Odile. Pas un mois. »",
-   "en": "\"The frame took two days,\" said Odile. \"Not a month.\"",
-   "para": 12,
+   "fr": "Odile a posé sa main sur la pierre chaude. Puis elle a parlé du cadre.",
+   "en": "Odile put her hand on the warm stone. Then she talked about the frame.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "a posé",
+     "put"
+    ],
+    [
+     "sa main",
+     "her hand"
+    ],
+    [
+     "sur la pierre",
+     "on the stone"
+    ],
+    [
+     "chaude",
+     "warm"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "elle a parlé",
+     "she talked"
+    ],
+    [
+     "du cadre",
+     "about the frame"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "wd": "audio/s075_wd.mp3"
+   },
+   "ms": {
+    "fr": 5670,
+    "en": 4530,
+    "wd": 21140
+   },
+   "bank": {
+    "fr": [
+     2171670,
+     5670
+    ],
+    "en": [
+     2177740,
+     4530
+    ],
+    "wd": [
+     2182670,
+     21140
+    ],
+    "wp": [
+     [
+      2182670,
+      2240
+     ],
+     [
+      2185310,
+      2510
+     ],
+     [
+      2188220,
+      3010
+     ],
+     [
+      2191630,
+      2250
+     ],
+     [
+      2194280,
+      2110
+     ],
+     [
+      2196790,
+      2710
+     ],
+     [
+      2199900,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le cadre a pris deux jours. Mais à Lyon, j'ai écrit un mois. »",
+   "en": "\"The frame took two days. But to Lyon, I wrote a month.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
@@ -6463,98 +5940,16 @@
      "two days"
     ],
     [
-     "a dit",
-     "said"
+     "Mais",
+     "but"
     ],
     [
-     "Odile",
-     "Odile"
+     "à Lyon",
+     "to Lyon"
     ],
     [
-     "Pas un mois",
-     "not a month"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s075_fr.mp3",
-    "en": "audio/s075_en.mp3",
-    "wd": "audio/s075_wd.mp3"
-   },
-   "ms": {
-    "fr": 5220,
-    "en": 3840,
-    "wd": 18240
-   },
-   "bank": {
-    "fr": [
-     2528850,
-     5220
-    ],
-    "en": [
-     2534470,
-     3840
-    ],
-    "wd": [
-     2538710,
-     18240
-    ],
-    "wp": [
-     [
-      2538710,
-      2790
-     ],
-     [
-      2541900,
-      2220
-     ],
-     [
-      2544520,
-      2860
-     ],
-     [
-      2547780,
-      2220
-     ],
-     [
-      2550400,
-      2510
-     ],
-     [
-      2553310,
-      2790
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« J'ai écrit au musée de Lyon que le cadre prenait un mois. »",
-   "en": "\"I wrote to the museum in Lyon that the frame was taking a month.\"",
-   "para": 12,
-   "glosses": [],
-   "words": [
-    [
-     "J'ai écrit",
+     "j'ai écrit",
      "I wrote"
-    ],
-    [
-     "au musée",
-     "to the museum"
-    ],
-    [
-     "de Lyon",
-     "of Lyon"
-    ],
-    [
-     "que",
-     "that"
-    ],
-    [
-     "le cadre",
-     "the frame"
-    ],
-    [
-     "prenait",
-     "was taking"
     ],
     [
      "un mois",
@@ -6567,59 +5962,59 @@
     "wd": "audio/s076_wd.mp3"
    },
    "ms": {
-    "fr": 3790,
-    "en": 3830,
-    "wd": 21020
+    "fr": 5420,
+    "en": 4140,
+    "wd": 20750
    },
    "bank": {
     "fr": [
-     2557350,
-     3790
+     2204210,
+     5420
     ],
     "en": [
-     2561540,
-     3830
+     2210030,
+     4140
     ],
     "wd": [
-     2565770,
-     21020
+     2214570,
+     20750
     ],
     "wp": [
      [
-      2565770,
-      2820
-     ],
-     [
-      2568990,
-      2740
-     ],
-     [
-      2572130,
-      2610
-     ],
-     [
-      2575140,
-      2020
-     ],
-     [
-      2577560,
+      2214570,
       2790
      ],
      [
-      2580750,
-      2430
+      2217760,
+      2220
      ],
      [
-      2583580,
+      2220380,
+      2860
+     ],
+     [
+      2223640,
+      1920
+     ],
+     [
+      2225960,
+      2520
+     ],
+     [
+      2228880,
+      2830
+     ],
+     [
+      2232110,
       2360
      ]
     ]
    }
   },
   {
-   "fr": "« Je sais », a dit Lenz. « Comment ça, tu sais ? »",
-   "en": "\"I know,\" said Lenz. \"What do you mean, you know?\"",
-   "para": 12,
+   "fr": "« Je sais », a dit Lenz. « Un cadre, c'est mon métier. »",
+   "en": "\"I know,\" said Lenz. \"A frame is my job.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
@@ -6631,16 +6026,16 @@
      "said"
     ],
     [
-     "Lenz",
-     "Lenz"
+     "Un cadre",
+     "a frame"
     ],
     [
-     "Comment ça",
-     "what do you mean"
+     "c'est",
+     "is"
     ],
     [
-     "tu sais",
-     "you know"
+     "mon métier",
+     "my job"
     ]
    ],
    "audio": {
@@ -6649,76 +6044,72 @@
     "wd": "audio/s077_wd.mp3"
    },
    "ms": {
-    "fr": 4940,
-    "en": 3720,
-    "wd": 14850
+    "fr": 5330,
+    "en": 3630,
+    "wd": 14860
    },
    "bank": {
     "fr": [
-     2587190,
-     4940
+     2235720,
+     5330
     ],
     "en": [
-     2592530,
-     3720
+     2241450,
+     3630
     ],
     "wd": [
-     2596650,
-     14850
+     2245480,
+     14860
     ],
     "wp": [
      [
-      2596650,
+      2245480,
       2450
      ],
      [
-      2599500,
+      2248330,
       2220
      ],
      [
-      2602120,
-      2550
+      2250950,
+      2760
      ],
      [
-      2605070,
-      2790
+      2254110,
+      2120
      ],
      [
-      2608260,
-      2390
+      2256630,
+      2860
      ]
     ]
    }
   },
   {
-   "fr": "« Un cadre, c'est mon métier. Un cadre ne prend pas un mois. Même à Lyon. »",
-   "en": "\"Frames are my trade. A frame doesn't take a month. Even in Lyon.\"",
-   "para": 12,
+   "fr": "« Alors tu sais pourquoi je suis restée un mois de plus. »",
+   "en": "\"Then you know why I stayed one more month.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
-     "Un cadre",
-     "a frame"
+     "Alors",
+     "then"
     ],
     [
-     "c'est mon métier",
-     "it's my trade"
+     "tu sais",
+     "you know"
     ],
     [
-     "ne prend pas",
-     "doesn't take"
+     "pourquoi",
+     "why"
     ],
     [
-     "un mois",
-     "a month"
+     "je suis restée",
+     "I stayed"
     ],
     [
-     "Même",
-     "even"
-    ],
-    [
-     "à Lyon",
-     "in Lyon"
+     "un mois de plus",
+     "one more month"
     ]
    ],
    "audio": {
@@ -6727,76 +6118,64 @@
     "wd": "audio/s078_wd.mp3"
    },
    "ms": {
-    "fr": 6920,
-    "en": 4740,
-    "wd": 18790
+    "fr": 3680,
+    "en": 2670,
+    "wd": 15630
    },
    "bank": {
     "fr": [
-     2611900,
-     6920
+     2260740,
+     3680
     ],
     "en": [
-     2619220,
-     4740
+     2264820,
+     2670
     ],
     "wd": [
-     2624360,
-     18790
+     2267890,
+     15630
     ],
     "wp": [
      [
-      2624360,
-      2760
+      2267890,
+      2280
      ],
      [
-      2627520,
-      3270
+      2270570,
+      2390
      ],
      [
-      2631190,
-      2860
+      2273360,
+      2380
      ],
      [
-      2634450,
-      2360
+      2276140,
+      2890
      ],
      [
-      2637210,
-      2170
-     ],
-     [
-      2639780,
-      2520
+      2279430,
+      3240
      ]
     ]
    }
   },
   {
-   "fr": "Odile a ri. Puis elle a regardé sa montre.",
-   "en": "Odile laughed. Then she looked at her watch.",
-   "para": 12,
+   "fr": "Lenz n'a pas répondu. Il regardait les montagnes.",
+   "en": "Lenz didn't answer. He was looking at the mountains.",
+   "para": 10,
    "glosses": [],
    "words": [
     [
-     "Odile",
-     "Odile"
+     "n'a pas répondu",
+     "didn't answer"
     ],
     [
-     "a ri",
-     "laughed"
+     "Il regardait",
+     "he was looking at"
     ],
     [
-     "Puis",
-     "then"
-    ],
-    [
-     "elle a regardé",
-     "she looked at"
-    ],
-    [
-     "sa montre",
-     "her watch"
+     "les montagnes",
+     "the mountains"
     ]
    ],
    "audio": {
@@ -6805,60 +6184,68 @@
     "wd": "audio/s079_wd.mp3"
    },
    "ms": {
-    "fr": 4270,
-    "en": 3250,
-    "wd": 15300
+    "fr": 4730,
+    "en": 3550,
+    "wd": 10670
    },
    "bank": {
     "fr": [
-     2643550,
-     4270
+     2283920,
+     4730
     ],
     "en": [
-     2648220,
-     3250
+     2289050,
+     3550
     ],
     "wd": [
-     2651870,
-     15300
+     2293000,
+     10670
     ],
     "wp": [
      [
-      2651870,
-      2510
+      2293000,
+      3130
      ],
      [
-      2654780,
-      2329
+      2296530,
+      2880
      ],
      [
-      2657510,
-      2110
-     ],
-     [
-      2660020,
-      3030
-     ],
-     [
-      2663450,
-      2870
+      2299810,
+      3010
      ]
     ]
    }
   },
   {
-   "fr": "« Il reste dix-neuf heures. »",
-   "en": "\"There are nineteen hours left.\"",
-   "para": 12,
+   "fr": "« Mon train part demain matin », a dit Odile. « Viens avec moi. »",
+   "en": "\"My train leaves tomorrow morning,\" said Odile. \"Come with me.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
-     "Il reste",
-     "there remain"
+     "Mon train",
+     "my train"
     ],
     [
-     "dix-neuf heures",
-     "nineteen hours"
+     "part",
+     "leaves"
+    ],
+    [
+     "demain matin",
+     "tomorrow morning"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Viens",
+     "come"
+    ],
+    [
+     "avec moi",
+     "with me"
     ]
    ],
    "audio": {
@@ -6867,45 +6254,131 @@
     "wd": "audio/s080_wd.mp3"
    },
    "ms": {
-    "fr": 2350,
-    "en": 2280,
-    "wd": 7360
+    "fr": 5530,
+    "en": 4160,
+    "wd": 17610
    },
    "bank": {
     "fr": [
-     2667570,
-     2350
+     2304070,
+     5530
     ],
     "en": [
-     2670320,
-     2280
+     2310000,
+     4160
     ],
     "wd": [
-     2673000,
-     7360
+     2314560,
+     17610
     ],
     "wp": [
      [
-      2673000,
-      2840
+      2314560,
+      2550
      ],
      [
-      2676240,
-      3270
+      2317510,
+      2320
+     ],
+     [
+      2320230,
+      2990
+     ],
+     [
+      2323620,
+      2220
+     ],
+     [
+      2326240,
+      2150
+     ],
+     [
+      2328790,
+      2530
      ]
     ]
    }
   },
   {
-   "fr": "Lenz a regardé les montagnes encore un moment, comme on regarde une vague avant de monter dessus.",
-   "en": "Lenz looked at the mountains a moment longer, the way you look at a wave before getting on it.",
-   "para": 12,
+   "fr": "« Pas pour toujours. Deux jours, trois jours. Pour voir Lyon. »",
+   "en": "\"Not forever. Two days, three days. To see Lyon.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
-     "Lenz",
-     "Lenz"
+     "Pas pour toujours",
+     "not forever"
     ],
+    [
+     "Deux jours",
+     "two days"
+    ],
+    [
+     "trois jours",
+     "three days"
+    ],
+    [
+     "Pour voir",
+     "to see"
+    ],
+    [
+     "Lyon",
+     "Lyon"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
+   },
+   "ms": {
+    "fr": 6540,
+    "en": 4650,
+    "wd": 16340
+   },
+   "bank": {
+    "fr": [
+     2332570,
+     6540
+    ],
+    "en": [
+     2339510,
+     4650
+    ],
+    "wd": [
+     2344560,
+     16340
+    ],
+    "wp": [
+     [
+      2344560,
+      3260
+     ],
+     [
+      2348220,
+      2860
+     ],
+     [
+      2351480,
+      2940
+     ],
+     [
+      2354820,
+      2630
+     ],
+     [
+      2357850,
+      2200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Lenz a regardé les montagnes longtemps, comme il regardait la vague avant de monter.",
+   "en": "Lenz looked at the mountains for a long time, as he looked at the wave before getting on.",
+   "para": 10,
+   "glosses": [],
+   "words": [
     [
      "a regardé",
      "looked at"
@@ -6915,122 +6388,24 @@
      "the mountains"
     ],
     [
-     "encore un moment",
-     "a moment longer"
+     "longtemps",
+     "for a long time"
     ],
     [
      "comme",
-     "the way"
+     "as"
     ],
     [
-     "on regarde",
-     "you look at"
+     "il regardait",
+     "he looked at"
     ],
     [
-     "une vague",
-     "a wave"
+     "la vague",
+     "the wave"
     ],
     [
-     "avant de",
-     "before"
-    ],
-    [
-     "monter dessus",
-     "getting on it"
-    ]
-   ],
-   "audio": {
-    "fr": "audio/s081_fr.mp3",
-    "en": "audio/s081_en.mp3",
-    "wd": "audio/s081_wd.mp3"
-   },
-   "ms": {
-    "fr": 6140,
-    "en": 5120,
-    "wd": 28660
-   },
-   "bank": {
-    "fr": [
-     2680760,
-     6140
-    ],
-    "en": [
-     2687300,
-     5120
-    ],
-    "wd": [
-     2692820,
-     28660
-    ],
-    "wp": [
-     [
-      2692820,
-      2550
-     ],
-     [
-      2695770,
-      2550
-     ],
-     [
-      2698720,
-      3010
-     ],
-     [
-      2702130,
-      3340
-     ],
-     [
-      2705870,
-      2300
-     ],
-     [
-      2708570,
-      2760
-     ],
-     [
-      2711730,
-      2700
-     ],
-     [
-      2714830,
-      2440
-     ],
-     [
-      2717670,
-      2960
-     ]
-    ]
-   }
-  },
-  {
-   "fr": "« Alors on descend. J'ai trois choses à te montrer avant le train. »",
-   "en": "\"Then let's go down. I have three things to show you before the train.\"",
-   "para": 12,
-   "glosses": [],
-   "words": [
-    [
-     "Alors",
-     "then"
-    ],
-    [
-     "on descend",
-     "let's go down"
-    ],
-    [
-     "J'ai",
-     "I have"
-    ],
-    [
-     "trois choses",
-     "three things"
-    ],
-    [
-     "à te montrer",
-     "to show you"
-    ],
-    [
-     "avant le train",
-     "before the train"
+     "avant de monter",
+     "before getting on"
     ]
    ],
    "audio": {
@@ -7039,76 +6414,76 @@
     "wd": "audio/s082_wd.mp3"
    },
    "ms": {
-    "fr": 5100,
-    "en": 4370,
-    "wd": 19250
+    "fr": 5510,
+    "en": 5150,
+    "wd": 22720
    },
    "bank": {
     "fr": [
-     2721880,
-     5100
+     2361300,
+     5510
     ],
     "en": [
-     2727380,
-     4370
+     2367210,
+     5150
     ],
     "wd": [
-     2732150,
-     19250
+     2372760,
+     22720
     ],
     "wp": [
      [
-      2732150,
-      2280
+      2372760,
+      2550
      ],
      [
-      2734830,
-      2760
+      2375710,
+      3010
      ],
      [
-      2737990,
-      2260
+      2379120,
+      2750
      ],
      [
-      2740650,
-      3030
+      2382270,
+      2240
      ],
      [
-      2744080,
-      2980
+      2384910,
+      2840
      ],
      [
-      2747460,
-      3090
+      2388150,
+      2800
+     ],
+     [
+      2391350,
+      3280
      ]
     ]
    }
   },
   {
-   "fr": "« Trois ? » a dit Odile. « Trois. La troisième en dernier. »",
-   "en": "\"Three?\" said Odile. \"Three. The third one last.\"",
-   "para": 12,
+   "fr": "« Je ne suis jamais parti de Bavière », a dit Lenz. « Pas une seule nuit. »",
+   "en": "\"I have never left Bavaria,\" said Lenz. \"Not a single night.\"",
+   "para": 10,
    "glosses": [],
    "words": [
     [
-     "Trois",
-     "three"
+     "Je ne suis jamais parti",
+     "I have never left"
+    ],
+    [
+     "de Bavière",
+     "Bavaria"
     ],
     [
      "a dit",
      "said"
     ],
     [
-     "Odile",
-     "Odile"
-    ],
-    [
-     "La troisième",
-     "the third one"
-    ],
-    [
-     "en dernier",
-     "last"
+     "Pas une seule nuit",
+     "not a single night"
     ]
    ],
    "audio": {
@@ -7117,43 +6492,195 @@
     "wd": "audio/s083_wd.mp3"
    },
    "ms": {
-    "fr": 6130,
-    "en": 4710,
-    "wd": 15070
+    "fr": 5900,
+    "en": 4330,
+    "wd": 14540
    },
    "bank": {
     "fr": [
-     2751800,
-     6130
+     2395880,
+     5900
     ],
     "en": [
-     2758330,
-     4710
+     2402180,
+     4330
     ],
     "wd": [
-     2763440,
-     15070
+     2406910,
+     14540
     ],
     "wp": [
      [
-      2763440,
-      2160
+      2406910,
+      3860
      ],
      [
-      2766000,
+      2411170,
+      2990
+     ],
+     [
+      2414560,
       2220
      ],
      [
-      2768620,
+      2417180,
+      3420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce soir, viens à mon atelier. Je veux te montrer quelque chose. »",
+   "en": "\"This evening, come to my workshop. I want to show you something.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Ce soir",
+     "this evening"
+    ],
+    [
+     "viens",
+     "come"
+    ],
+    [
+     "à mon atelier",
+     "to my workshop"
+    ],
+    [
+     "Je veux",
+     "I want"
+    ],
+    [
+     "te montrer",
+     "to show you"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "en": "audio/s084_en.mp3",
+    "wd": "audio/s084_wd.mp3"
+   },
+   "ms": {
+    "fr": 6060,
+    "en": 4010,
+    "wd": 19080
+   },
+   "bank": {
+    "fr": [
+     2421850,
+     6060
+    ],
+    "en": [
+     2428310,
+     4010
+    ],
+    "wd": [
+     2432720,
+     19080
+    ],
+    "wp": [
+     [
+      2432720,
+      2860
+     ],
+     [
+      2435980,
+      2150
+     ],
+     [
+      2438530,
+      3190
+     ],
+     [
+      2442120,
+      2490
+     ],
+     [
+      2445010,
+      2840
+     ],
+     [
+      2448250,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Après, tu me poseras encore la question, si tu veux. »",
+   "en": "\"Afterwards, you'll ask me the question again, if you want.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Après",
+     "afterwards"
+    ],
+    [
+     "tu me poseras",
+     "you will ask me"
+    ],
+    [
+     "encore",
+     "again"
+    ],
+    [
+     "la question",
+     "the question"
+    ],
+    [
+     "si tu veux",
+     "if you want"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "en": "audio/s085_en.mp3",
+    "wd": "audio/s085_wd.mp3"
+   },
+   "ms": {
+    "fr": 4280,
+    "en": 3870,
+    "wd": 16120
+   },
+   "bank": {
+    "fr": [
+     2452200,
+     4280
+    ],
+    "en": [
+     2456880,
+     3870
+    ],
+    "wd": [
+     2461150,
+     16120
+    ],
+    "wp": [
+     [
+      2461150,
       2510
      ],
      [
-      2771530,
-      3170
+      2464060,
+      3140
      ],
      [
-      2775100,
-      2560
+      2467600,
+      2480
+     ],
+     [
+      2470480,
+      2760
+     ],
+     [
+      2473640,
+      2780
      ]
     ]
    }
@@ -7163,10 +6690,10 @@
   "file": "bank.m4a",
   "intro": [
    400,
-   22730
+   22570
   ],
   "silence": [
-   23530,
+   23370,
    30000
   ]
  }
