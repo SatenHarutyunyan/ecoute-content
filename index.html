@@ -299,8 +299,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
       <button class="chip" id="restart"><span data-i="start"></span>From the start</button>
       <button class="chip" id="voice"><span data-i="mic"></span><span id="voiceLabel">Voice: off</span></button>
     </div>
-    <div class="muted" id="voiceHint" style="text-align:center;margin-top:8px">Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.</div>
-    <div class="muted" style="text-align:center;margin-top:6px">Phone in your pocket? AirPods and most earbuds work too: press (or tap) twice = next phrase, three times = hear it again.</div>
+    <div class="muted" id="voiceHint" style="text-align:center;margin-top:8px"></div>
   </div>
 
   <div id="vocabBox" hidden>
@@ -399,7 +398,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.156";
+const VERSION = "web 0.157";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -2459,7 +2458,7 @@ async function voiceStart() {  // must run inside a tap (mic permission + audio 
     src.connect(node); node.connect(mute); mute.connect(V.ctx.destination);
     V.model = model;
     voiceUi("on"); keepAwake();
-    $("voiceHint").textContent = "Listening. Say: previous · repeat · next · pause · continue. Keep the screen on.";
+    $("voiceHint").textContent = "";
     log("voice_setting", { on: true });
   } catch (e) {
     voiceStop(false);
@@ -2494,8 +2493,7 @@ async function voiceStartNative() {
     const r = await NATIVE_VOICE.start({ echo: store.get("voice_echo2", false), commands: [...Object.keys(VOICE_CMDS), "next phrase", "previous phrase"], soundsLike: VOICE_ALIKE });
     if (!V.on) return NATIVE_VOICE.stop();
     voiceUi("on");
-    $("voiceHint").textContent = "Listening, also with the screen locked. Say: previous · repeat · next · pause · continue." +
-      " Best in the pause after a phrase (the pauses are longer while Voice is on).";
+    $("voiceHint").textContent = "";
     regap(); try { renderGaps(); } catch {}
     log("voice_setting", { on: true, via: "ios", on_device: r && r.onDevice });
   } catch (e) {
@@ -2514,7 +2512,7 @@ function voiceStop(save = true) {
   Object.assign(V, { ctx: null, stream: null, rec: null, model: null, wake: null, sub: null, sub2: null, sub3: null });
   regap(); try { renderGaps(); } catch {}
   voiceUi("off");
-  $("voiceHint").textContent = "Say: previous · repeat · next · pause · continue. Keep the screen on. Headphones help.";
+  $("voiceHint").textContent = "";
 }
 $("voice").onclick = () => V.on ? voiceStop() : store.get("mic_ok", false) ? voiceStart() : micExplain();
 // Before the phone's own microphone question (which names the website, "satenharutyunyan.github.io wants to use the
