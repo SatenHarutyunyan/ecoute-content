@@ -12,7 +12,7 @@
    "minutes": 3,
    "size_mb": 3,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_01.zip",
-   "version": "41b085ee2d4c",
+   "version": "27dac89ed89a",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -31,7 +31,7 @@
    "minutes": 3,
    "size_mb": 3,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_02.zip",
-   "version": "a10e5a8f8c62",
+   "version": "0eecf480a56d",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -50,7 +50,7 @@
    "minutes": 3,
    "size_mb": 3,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_03.zip",
-   "version": "b2c8a2764d37",
+   "version": "766fe70a5e8d",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -67,9 +67,9 @@
    "episode": "4",
    "phrases": 33,
    "minutes": 3,
-   "size_mb": 3,
+   "size_mb": 4,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_04.zip",
-   "version": "e9d63e1d7f1b",
+   "version": "57c801e90fa5",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -88,7 +88,7 @@
    "minutes": 3,
    "size_mb": 3,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_05.zip",
-   "version": "4ab83fb2b950",
+   "version": "5925aed82a4a",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -107,7 +107,7 @@
    "minutes": 3,
    "size_mb": 3,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_everyday_06.zip",
-   "version": "ae69a9f8d844",
+   "version": "f0b772bcc1b2",
    "support": "hy",
    "for": [
     "@6cef8d45"
@@ -161,10 +161,10 @@
    "series": "The Monkey's Paw",
    "episode": "1",
    "phrases": 144,
-   "minutes": 20,
-   "size_mb": 14,
+   "minutes": 21,
+   "size_mb": 15,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_jacobs_monkeys_paw_1.zip",
-   "version": "5ac68653daf2",
+   "version": "e12d2284682c",
    "support": "hy",
    "for": [
     "@09c57504"
@@ -183,7 +183,7 @@
    "minutes": 18,
    "size_mb": 13,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_jacobs_monkeys_paw_2.zip",
-   "version": "edeaf07a51bf",
+   "version": "b647a832082e",
    "support": "hy",
    "for": [
     "@09c57504"
@@ -199,10 +199,10 @@
    "series": "The Monkey's Paw",
    "episode": "3",
    "phrases": 141,
-   "minutes": 18,
-   "size_mb": 13,
+   "minutes": 19,
+   "size_mb": 14,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/en_jacobs_monkeys_paw_3.zip",
-   "version": "e4fd68e8dc1f",
+   "version": "d3457ea88d62",
    "support": "hy",
    "for": [
     "@09c57504"
@@ -1346,6 +1346,42 @@
    "size_mb": 39,
    "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/maupassant_qui_sait_2.zip",
    "version": "6699b62a246e"
+  },
+  {
+   "id": "fr_tour_cologne_1",
+   "lang": "fr",
+   "title": "Visite guidée : Cologne (1)",
+   "author": "Guided tour (AI-written, facts checked)",
+   "level": "B1",
+   "series": "Visite guidée : Cologne",
+   "episode": "1",
+   "phrases": 89,
+   "minutes": 32,
+   "size_mb": 15,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_tour_cologne_1.zip",
+   "version": "b8b3b756b11d",
+   "for": [
+    "Saten"
+   ],
+   "request": "Guided tour of Cologne"
+  },
+  {
+   "id": "fr_tour_cologne_2",
+   "lang": "fr",
+   "title": "Visite guidée : Cologne (2)",
+   "author": "Guided tour (AI-written, facts checked)",
+   "level": "B1",
+   "series": "Visite guidée : Cologne",
+   "episode": "2",
+   "phrases": 90,
+   "minutes": 33,
+   "size_mb": 15,
+   "url": "https://github.com/SatenHarutyunyan/ecoute-content/releases/download/stories/fr_tour_cologne_2.zip",
+   "version": "f2c7e6c5fd85",
+   "for": [
+    "Saten"
+   ],
+   "request": "Guided tour of Cologne"
   },
   {
    "id": "fr_tour_hamburg_1",
