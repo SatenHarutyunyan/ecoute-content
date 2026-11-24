@@ -1,0 +1,5706 @@
+{
+ "id": "fr_v2_hamburg_1",
+ "lang": "fr",
+ "title": "Moin (1)",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "Moin",
+ "episode": "1",
+ "note": "Magali, an interpreter from Marseille, crosses the Elbe in Hamburg on ferry 62 every morning. The sailor on the boat says only one word to her, so she starts to compter, to count, his words.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20510,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Entre les Landungsbrücken et Finkenwerder, le ferry 62 met vingt-cinq minutes.",
+   "en": "Between the Landungsbrücken and Finkenwerder, ferry 62 takes twenty-five minutes.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Entre",
+     "between"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "le ferry",
+     "the ferry"
+    ],
+    [
+     "met",
+     "takes"
+    ],
+    [
+     "vingt-cinq minutes",
+     "twenty-five minutes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 6000,
+    "en": 5800,
+    "wd": 15090
+   },
+   "bank": {
+    "fr": [
+     51710,
+     6000
+    ],
+    "en": [
+     58110,
+     5800
+    ],
+    "wd": [
+     64310,
+     15090
+    ],
+    "wp": [
+     [
+      64310,
+      2360
+     ],
+     [
+      67070,
+      1820
+     ],
+     [
+      69290,
+      2760
+     ],
+     [
+      72450,
+      2130
+     ],
+     [
+      74980,
+      3570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je le sais parce que je compte. Je compte tout.",
+   "en": "I know it because I count. I count everything.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je le sais",
+     "I know it"
+    ],
+    [
+     "parce que",
+     "because"
+    ],
+    [
+     "je compte",
+     "I count"
+    ],
+    [
+     "tout",
+     "everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4520,
+    "en": 3250,
+    "wd": 12180
+   },
+   "bank": {
+    "fr": [
+     79800,
+     4520
+    ],
+    "en": [
+     84720,
+     3250
+    ],
+    "wd": [
+     88370,
+     12180
+    ],
+    "wp": [
+     [
+      88370,
+      2510
+     ],
+     [
+      91280,
+      2600
+     ],
+     [
+      94280,
+      2810
+     ],
+     [
+      97490,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est un défaut de métier : je suis interprète.",
+   "en": "It's an occupational habit: I am an interpreter.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "interprète",
+     "en": "interpreter"
+    }
+   ],
+   "words": [
+    [
+     "C'est",
+     "it's"
+    ],
+    [
+     "un défaut de métier",
+     "an occupational habit"
+    ],
+    [
+     "je suis",
+     "I am"
+    ],
+    [
+     "interprète",
+     "interpreter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 3800,
+    "en": 3490,
+    "gl": 4059,
+    "wd": 13590
+   },
+   "bank": {
+    "fr": [
+     100950,
+     3800
+    ],
+    "en": [
+     105150,
+     3490
+    ],
+    "gl": [
+     109040,
+     4059
+    ],
+    "wd": [
+     113500,
+     13590
+    ],
+    "wp": [
+     [
+      113500,
+      2110
+     ],
+     [
+      116010,
+      3880
+     ],
+     [
+      120290,
+      2540
+     ],
+     [
+      123230,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je travaille chez Airbus, à Finkenwerder, de l'autre côté de l'Elbe.",
+   "en": "I work at Airbus, in Finkenwerder, on the other side of the Elbe.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je travaille",
+     "I work"
+    ],
+    [
+     "chez Airbus",
+     "at Airbus"
+    ],
+    [
+     "à Finkenwerder",
+     "in Finkenwerder"
+    ],
+    [
+     "de l'autre côté",
+     "on the other side"
+    ],
+    [
+     "de l'Elbe",
+     "of the Elbe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5370,
+    "en": 4460,
+    "wd": 18000
+   },
+   "bank": {
+    "fr": [
+     127490,
+     5370
+    ],
+    "en": [
+     133260,
+     4460
+    ],
+    "wd": [
+     138120,
+     18000
+    ],
+    "wp": [
+     [
+      138120,
+      2810
+     ],
+     [
+      141330,
+      3090
+     ],
+     [
+      144820,
+      3560
+     ],
+     [
+      148780,
+      3200
+     ],
+     [
+      152380,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toute la journée, je dis en allemand ce que les ingénieurs de Toulouse disent en français.",
+   "en": "All day long, I say in German what the engineers from Toulouse say in French.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Toute la journée",
+     "all day long"
+    ],
+    [
+     "je dis",
+     "I say"
+    ],
+    [
+     "en allemand",
+     "in German"
+    ],
+    [
+     "ce que",
+     "what"
+    ],
+    [
+     "les ingénieurs",
+     "the engineers"
+    ],
+    [
+     "de Toulouse",
+     "from Toulouse"
+    ],
+    [
+     "disent",
+     "say"
+    ],
+    [
+     "en français",
+     "in French"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 5440,
+    "en": 4900,
+    "wd": 25620
+   },
+   "bank": {
+    "fr": [
+     156520,
+     5440
+    ],
+    "en": [
+     162360,
+     4900
+    ],
+    "wd": [
+     167660,
+     25620
+    ],
+    "wp": [
+     [
+      167660,
+      3010
+     ],
+     [
+      171070,
+      2570
+     ],
+     [
+      174040,
+      2690
+     ],
+     [
+      177130,
+      2240
+     ],
+     [
+      179770,
+      3290
+     ],
+     [
+      183460,
+      3100
+     ],
+     [
+      186960,
+      2220
+     ],
+     [
+      189580,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et je dis en français ce que les Hambourgeois ne disent pas.",
+   "en": "And I say in French what the people of Hamburg don't say.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "je dis",
+     "I say"
+    ],
+    [
+     "en français",
+     "in French"
+    ],
+    [
+     "ce que",
+     "what"
+    ],
+    [
+     "les Hambourgeois",
+     "the people of Hamburg"
+    ],
+    [
+     "ne disent pas",
+     "don't say"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "en": 3670,
+    "wd": 18720
+   },
+   "bank": {
+    "fr": [
+     193680,
+     3450
+    ],
+    "en": [
+     197530,
+     3670
+    ],
+    "wd": [
+     201600,
+     18720
+    ],
+    "wp": [
+     [
+      201600,
+      1820
+     ],
+     [
+      203820,
+      2570
+     ],
+     [
+      206790,
+      2850
+     ],
+     [
+      210040,
+      2240
+     ],
+     [
+      212680,
+      3550
+     ],
+     [
+      216630,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je dis les phrases des autres. Mes phrases à moi, je les dis le soir, à ma mère.",
+   "en": "I say other people's sentences. My own sentences, I say them in the evening, to my mother.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je dis",
+     "I say"
+    ],
+    [
+     "les phrases",
+     "the sentences"
+    ],
+    [
+     "des autres",
+     "of others"
+    ],
+    [
+     "Mes phrases à moi",
+     "my own sentences"
+    ],
+    [
+     "je les dis",
+     "I say them"
+    ],
+    [
+     "le soir",
+     "in the evening"
+    ],
+    [
+     "à ma mère",
+     "to my mother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 6690,
+    "en": 5910,
+    "wd": 23470
+   },
+   "bank": {
+    "fr": [
+     220720,
+     6690
+    ],
+    "en": [
+     227810,
+     5910
+    ],
+    "wd": [
+     234120,
+     23470
+    ],
+    "wp": [
+     [
+      234120,
+      2570
+     ],
+     [
+      237090,
+      3020
+     ],
+     [
+      240510,
+      2690
+     ],
+     [
+      243600,
+      3440
+     ],
+     [
+      247440,
+      2860
+     ],
+     [
+      250700,
+      2750
+     ],
+     [
+      253850,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ma mère est à Marseille, et au téléphone, elle demande toujours : « Et il pleut encore ? »",
+   "en": "My mother is in Marseille, and on the phone, she always asks: \"And is it still raining?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Ma mère",
+     "my mother"
+    ],
+    [
+     "à Marseille",
+     "in Marseille"
+    ],
+    [
+     "au téléphone",
+     "on the phone"
+    ],
+    [
+     "elle demande",
+     "she asks"
+    ],
+    [
+     "toujours",
+     "always"
+    ],
+    [
+     "il pleut",
+     "it is raining"
+    ],
+    [
+     "encore",
+     "still"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 6170,
+    "en": 5600,
+    "wd": 22270
+   },
+   "bank": {
+    "fr": [
+     257990,
+     6170
+    ],
+    "en": [
+     264560,
+     5600
+    ],
+    "wd": [
+     270560,
+     22270
+    ],
+    "wp": [
+     [
+      270560,
+      2580
+     ],
+     [
+      273540,
+      2990
+     ],
+     [
+      276930,
+      2950
+     ],
+     [
+      280280,
+      2800
+     ],
+     [
+      283480,
+      2520
+     ],
+     [
+      286400,
+      2740
+     ],
+     [
+      289540,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Oui, il pleut encore. À Hambourg, il pleut comme on respire, sans y penser.",
+   "en": "Yes, it's still raining. In Hamburg, it rains the way you breathe, without thinking about it.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "il pleut",
+     "it rains"
+    ],
+    [
+     "encore",
+     "still"
+    ],
+    [
+     "À Hambourg",
+     "in Hamburg"
+    ],
+    [
+     "comme on respire",
+     "the way you breathe"
+    ],
+    [
+     "sans y penser",
+     "without thinking about it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "en": 6030,
+    "wd": 17210
+   },
+   "bank": {
+    "fr": [
+     293230,
+     6930
+    ],
+    "en": [
+     300560,
+     6030
+    ],
+    "wd": [
+     306990,
+     17210
+    ],
+    "wp": [
+     [
+      306990,
+      2590
+     ],
+     [
+      309980,
+      2440
+     ],
+     [
+      312820,
+      2940
+     ],
+     [
+      316160,
+      3330
+     ],
+     [
+      319890,
+      3460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les Hambourgeois appellent ça Schietwetter, et ils le disent presque avec tendresse.",
+   "en": "The people of Hamburg call that Schietwetter, and they say it almost with tenderness.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "Schietwetter",
+     "en": "lousy weather (Hamburg German)"
+    }
+   ],
+   "words": [
+    [
+     "Les Hambourgeois",
+     "the people of Hamburg"
+    ],
+    [
+     "appellent ça",
+     "call that"
+    ],
+    [
+     "ils le disent",
+     "they say it"
+    ],
+    [
+     "presque",
+     "almost"
+    ],
+    [
+     "avec tendresse",
+     "with tenderness"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5420,
+    "en": 4930,
+    "gl": 5260,
+    "wd": 17150
+   },
+   "bank": {
+    "fr": [
+     324600,
+     5420
+    ],
+    "en": [
+     330420,
+     4930
+    ],
+    "gl": [
+     335750,
+     5260
+    ],
+    "wd": [
+     341410,
+     17150
+    ],
+    "wp": [
+     [
+      341410,
+      3550
+     ],
+     [
+      345360,
+      2690
+     ],
+     [
+      348450,
+      2820
+     ],
+     [
+      351670,
+      2400
+     ],
+     [
+      354470,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur le 62, il y a un matelot.",
+   "en": "On the 62, there is a sailor.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "matelot",
+     "en": "sailor, deckhand"
+    }
+   ],
+   "words": [
+    [
+     "Sur le 62",
+     "on the 62"
+    ],
+    [
+     "il y a",
+     "there is"
+    ],
+    [
+     "un matelot",
+     "a sailor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "gl": "audio/s011_gl.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 3150,
+    "en": 2880,
+    "gl": 4280,
+    "wd": 10200
+   },
+   "bank": {
+    "fr": [
+     358960,
+     3150
+    ],
+    "en": [
+     362510,
+     2880
+    ],
+    "gl": [
+     365790,
+     4280
+    ],
+    "wd": [
+     370470,
+     10200
+    ],
+    "wp": [
+     [
+      370470,
+      3540
+     ],
+     [
+      374410,
+      2460
+     ],
+     [
+      377270,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le matelot est grand, avec un bonnet bleu et des mains énormes.",
+   "en": "The sailor is tall, with a blue woollen hat and huge hands.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le matelot",
+     "the sailor"
+    ],
+    [
+     "est grand",
+     "is tall"
+    ],
+    [
+     "un bonnet bleu",
+     "a blue woollen hat"
+    ],
+    [
+     "des mains énormes",
+     "huge hands"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4400,
+    "en": 4280,
+    "wd": 13920
+   },
+   "bank": {
+    "fr": [
+     381070,
+     4400
+    ],
+    "en": [
+     385870,
+     4280
+    ],
+    "wd": [
+     390550,
+     13920
+    ],
+    "wp": [
+     [
+      390550,
+      2760
+     ],
+     [
+      393710,
+      2520
+     ],
+     [
+      396630,
+      3270
+     ],
+     [
+      400300,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À chaque arrêt, le matelot attache le bateau au ponton avec une corde grosse comme mon bras.",
+   "en": "At every stop, the sailor ties the boat to the floating pier with a rope as thick as my arm.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "ponton",
+     "en": "floating pier"
+    }
+   ],
+   "words": [
+    [
+     "À chaque arrêt",
+     "at every stop"
+    ],
+    [
+     "le matelot",
+     "the sailor"
+    ],
+    [
+     "attache",
+     "ties"
+    ],
+    [
+     "le bateau",
+     "the boat"
+    ],
+    [
+     "au ponton",
+     "to the floating pier"
+    ],
+    [
+     "une corde",
+     "a rope"
+    ],
+    [
+     "grosse comme",
+     "as thick as"
+    ],
+    [
+     "mon bras",
+     "my arm"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "gl": "audio/s013_gl.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 6010,
+    "en": 5390,
+    "gl": 3610,
+    "wd": 25780
+   },
+   "bank": {
+    "fr": [
+     404870,
+     6010
+    ],
+    "en": [
+     411280,
+     5390
+    ],
+    "gl": [
+     417070,
+     3610
+    ],
+    "wd": [
+     421080,
+     25780
+    ],
+    "wp": [
+     [
+      421080,
+      3030
+     ],
+     [
+      424510,
+      2760
+     ],
+     [
+      427670,
+      2610
+     ],
+     [
+      430680,
+      2580
+     ],
+     [
+      433660,
+      3030
+     ],
+     [
+      437090,
+      2570
+     ],
+     [
+      440060,
+      2950
+     ],
+     [
+      443410,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le matelot s'appelle Hauke. C'est écrit sur son badge.",
+   "en": "The sailor is called Hauke. It's written on his badge.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "s'appelle",
+     "is called"
+    ],
+    [
+     "C'est écrit",
+     "it's written"
+    ],
+    [
+     "sur son badge",
+     "on his badge"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "en": 3950,
+    "wd": 10370
+   },
+   "bank": {
+    "fr": [
+     447260,
+     4820
+    ],
+    "en": [
+     452480,
+     3950
+    ],
+    "wd": [
+     456830,
+     10370
+    ],
+    "wp": [
+     [
+      456830,
+      2650
+     ],
+     [
+      459880,
+      2780
+     ],
+     [
+      463060,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chaque matin, à sept heures vingt, quand je monte, Hauke me dit : « Moin. »",
+   "en": "Every morning, at seven twenty, when I get on, Hauke says to me: \"Moin.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "Moin",
+     "en": "hello (Hamburg greeting, for any time of day)"
+    }
+   ],
+   "words": [
+    [
+     "Chaque matin",
+     "every morning"
+    ],
+    [
+     "à sept heures vingt",
+     "at seven twenty"
+    ],
+    [
+     "quand je monte",
+     "when I get on"
+    ],
+    [
+     "me dit",
+     "says to me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "gl": "audio/s015_gl.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 5470,
+    "en": 5370,
+    "gl": 5090,
+    "wd": 13910
+   },
+   "bank": {
+    "fr": [
+     467600,
+     5470
+    ],
+    "en": [
+     473470,
+     5370
+    ],
+    "gl": [
+     479240,
+     5090
+    ],
+    "wd": [
+     484730,
+     13910
+    ],
+    "wp": [
+     [
+      484730,
+      2850
+     ],
+     [
+      487980,
+      3250
+     ],
+     [
+      491630,
+      3100
+     ],
+     [
+      495130,
+      2660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke parle allemand, bien sûr. Je vous le dis en français : c'est mon métier.",
+   "en": "Hauke speaks German, of course. I'm telling you in French: it's my job.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "parle allemand",
+     "speaks German"
+    ],
+    [
+     "bien sûr",
+     "of course"
+    ],
+    [
+     "Je vous le dis",
+     "I'm telling you"
+    ],
+    [
+     "en français",
+     "in French"
+    ],
+    [
+     "c'est mon métier",
+     "it's my job"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 6390,
+    "en": 5180,
+    "wd": 17320
+   },
+   "bank": {
+    "fr": [
+     499040,
+     6390
+    ],
+    "en": [
+     505830,
+     5180
+    ],
+    "wd": [
+     511410,
+     17320
+    ],
+    "wp": [
+     [
+      511410,
+      2980
+     ],
+     [
+      514790,
+      2720
+     ],
+     [
+      517910,
+      3110
+     ],
+     [
+      521420,
+      2850
+     ],
+     [
+      524670,
+      3210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est tout. En quatorze mois, j'ai compté deux cent quatre-vingt-sept « Moin ».",
+   "en": "That's all. In fourteen months, I have counted two hundred and eighty-seven \"Moin\".",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "C'est tout",
+     "that's all"
+    ],
+    [
+     "En quatorze mois",
+     "in fourteen months"
+    ],
+    [
+     "j'ai compté",
+     "I have counted"
+    ],
+    [
+     "deux cent quatre-vingt-sept",
+     "two hundred and eighty-seven"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 6030,
+    "en": 5240,
+    "wd": 15080
+   },
+   "bank": {
+    "fr": [
+     529130,
+     6030
+    ],
+    "en": [
+     535560,
+     5240
+    ],
+    "wd": [
+     541200,
+     15080
+    ],
+    "wp": [
+     [
+      541200,
+      2470
+     ],
+     [
+      544070,
+      3600
+     ],
+     [
+      548070,
+      2910
+     ],
+     [
+      551380,
+      4050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et une fois, il a dit « Porte », parce que j'étais devant la porte.",
+   "en": "And once, he said \"Door\", because I was in front of the door.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "une fois",
+     "once"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ],
+    [
+     "Porte",
+     "door"
+    ],
+    [
+     "parce que",
+     "because"
+    ],
+    [
+     "j'étais",
+     "I was"
+    ],
+    [
+     "devant la porte",
+     "in front of the door"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4960,
+    "en": 4210,
+    "wd": 18610
+   },
+   "bank": {
+    "fr": [
+     556680,
+     4960
+    ],
+    "en": [
+     562040,
+     4210
+    ],
+    "wd": [
+     566650,
+     18610
+    ],
+    "wp": [
+     [
+      566650,
+      2440
+     ],
+     [
+      569490,
+      2590
+     ],
+     [
+      572480,
+      2270
+     ],
+     [
+      575150,
+      2600
+     ],
+     [
+      578150,
+      2500
+     ],
+     [
+      581050,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ma collègue Birte est née à Altona, et elle n'a jamais eu de parapluie.",
+   "en": "My colleague Birte was born in Altona, and she has never had an umbrella.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Ma collègue",
+     "my colleague"
+    ],
+    [
+     "est née",
+     "was born"
+    ],
+    [
+     "à Altona",
+     "in Altona"
+    ],
+    [
+     "elle n'a jamais eu",
+     "she has never had"
+    ],
+    [
+     "de parapluie",
+     "an umbrella"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 4870,
+    "en": 4740,
+    "wd": 17190
+   },
+   "bank": {
+    "fr": [
+     585660,
+     4870
+    ],
+    "en": [
+     590930,
+     4740
+    ],
+    "wd": [
+     596070,
+     17190
+    ],
+    "wp": [
+     [
+      596070,
+      3000
+     ],
+     [
+      599470,
+      2370
+     ],
+     [
+      602240,
+      2840
+     ],
+     [
+      605480,
+      3450
+     ],
+     [
+      609330,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Birte m'a expliqué : « Moin, ça veut dire bonjour, bonsoir, ça va, tout. »",
+   "en": "Birte explained to me: \"Moin means hello, good evening, how are you, everything.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "m'a expliqué",
+     "explained to me"
+    ],
+    [
+     "ça veut dire",
+     "it means"
+    ],
+    [
+     "bonjour",
+     "hello"
+    ],
+    [
+     "bonsoir",
+     "good evening"
+    ],
+    [
+     "ça va",
+     "how are you"
+    ],
+    [
+     "tout",
+     "everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 6640,
+    "en": 5560,
+    "wd": 18760
+   },
+   "bank": {
+    "fr": [
+     613660,
+     6640
+    ],
+    "en": [
+     620700,
+     5560
+    ],
+    "wd": [
+     626660,
+     18760
+    ],
+    "wp": [
+     [
+      626660,
+      3060
+     ],
+     [
+      630120,
+      2890
+     ],
+     [
+      633410,
+      2490
+     ],
+     [
+      636300,
+      2710
+     ],
+     [
+      639410,
+      2550
+     ],
+     [
+      642360,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Si un Hambourgeois dit \"Moin moin\", c'est déjà du bavardage. »",
+   "en": "\"If a Hamburg man says 'Moin moin', that's already chatter.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "bavardage",
+     "en": "chatter, gossip"
+    }
+   ],
+   "words": [
+    [
+     "Si",
+     "if"
+    ],
+    [
+     "un Hambourgeois",
+     "a Hamburg man"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "c'est déjà",
+     "that's already"
+    ],
+    [
+     "du bavardage",
+     "chatter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "gl": "audio/s021_gl.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4330,
+    "en": 3930,
+    "gl": 4650,
+    "wd": 15590
+   },
+   "bank": {
+    "fr": [
+     645820,
+     4330
+    ],
+    "en": [
+     650550,
+     3930
+    ],
+    "gl": [
+     654880,
+     4650
+    ],
+    "wd": [
+     659930,
+     15590
+    ],
+    "wp": [
+     [
+      659930,
+      2040
+     ],
+     [
+      662370,
+      3210
+     ],
+     [
+      665980,
+      2160
+     ],
+     [
+      668540,
+      2890
+     ],
+     [
+      671830,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Moi, je suis marseillaise. Chez nous, pour acheter une baguette, on raconte sa vie.",
+   "en": "Me, I'm from Marseille. Where I come from, to buy a baguette, you tell your life story.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "je suis marseillaise",
+     "I'm from Marseille"
+    ],
+    [
+     "Chez nous",
+     "where I come from"
+    ],
+    [
+     "pour acheter",
+     "to buy"
+    ],
+    [
+     "une baguette",
+     "a baguette"
+    ],
+    [
+     "on raconte",
+     "you tell"
+    ],
+    [
+     "sa vie",
+     "your life"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 7030,
+    "en": 5630,
+    "wd": 20310
+   },
+   "bank": {
+    "fr": [
+     675920,
+     7030
+    ],
+    "en": [
+     683350,
+     5630
+    ],
+    "wd": [
+     689380,
+     20310
+    ],
+    "wp": [
+     [
+      689380,
+      3680
+     ],
+     [
+      693460,
+      2840
+     ],
+     [
+      696700,
+      2530
+     ],
+     [
+      699630,
+      2960
+     ],
+     [
+      702990,
+      2810
+     ],
+     [
+      706200,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Birte a ajouté : « Et si un Hambourgeois te dit \"pas mal\", c'est qu'il est fou de toi. »",
+   "en": "Birte added: \"And if a Hamburg man tells you 'not bad', it means he's crazy about you.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "a ajouté",
+     "added"
+    ],
+    [
+     "Et si",
+     "and if"
+    ],
+    [
+     "te dit",
+     "tells you"
+    ],
+    [
+     "pas mal",
+     "not bad"
+    ],
+    [
+     "c'est qu'il est",
+     "it means he is"
+    ],
+    [
+     "fou de toi",
+     "crazy about you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5680,
+    "en": 5790,
+    "wd": 19170
+   },
+   "bank": {
+    "fr": [
+     710090,
+     5680
+    ],
+    "en": [
+     716170,
+     5790
+    ],
+    "wd": [
+     722360,
+     19170
+    ],
+    "wp": [
+     [
+      722360,
+      2530
+     ],
+     [
+      725290,
+      2350
+     ],
+     [
+      728040,
+      2520
+     ],
+     [
+      730960,
+      2700
+     ],
+     [
+      734060,
+      3090
+     ],
+     [
+      737550,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En mars, il y a eu le jour du parapluie.",
+   "en": "In March, there was the day of the umbrella.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "En mars",
+     "in March"
+    ],
+    [
+     "il y a eu",
+     "there was"
+    ],
+    [
+     "le jour",
+     "the day"
+    ],
+    [
+     "du parapluie",
+     "of the umbrella"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 3450,
+    "en": 3080,
+    "wd": 13090
+   },
+   "bank": {
+    "fr": [
+     741930,
+     3450
+    ],
+    "en": [
+     745780,
+     3080
+    ],
+    "wd": [
+     749260,
+     13090
+    ],
+    "wp": [
+     [
+      749260,
+      2790
+     ],
+     [
+      752450,
+      2620
+     ],
+     [
+      755470,
+      2470
+     ],
+     [
+      758340,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'était un parapluie rouge, acheté à Marseille. Là-bas, il n'avait jamais servi.",
+   "en": "It was a red umbrella, bought in Marseille. Down there, it had never been used.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "un parapluie rouge",
+     "a red umbrella"
+    ],
+    [
+     "acheté",
+     "bought"
+    ],
+    [
+     "à Marseille",
+     "in Marseille"
+    ],
+    [
+     "Là-bas",
+     "down there"
+    ],
+    [
+     "il n'avait jamais servi",
+     "it had never been used"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 6950,
+    "en": 5270,
+    "wd": 20590
+   },
+   "bank": {
+    "fr": [
+     762750,
+     6950
+    ],
+    "en": [
+     770100,
+     5270
+    ],
+    "wd": [
+     775770,
+     20590
+    ],
+    "wp": [
+     [
+      775770,
+      2410
+     ],
+     [
+      778580,
+      3660
+     ],
+     [
+      782640,
+      2280
+     ],
+     [
+      785320,
+      2990
+     ],
+     [
+      788710,
+      2520
+     ],
+     [
+      791630,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'étais sur le pont du 62, entre Dockland et Neumühlen, et le vent a retourné mon parapluie.",
+   "en": "I was on the deck of the 62, between Dockland and Neumühlen, and the wind turned my umbrella inside out.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'étais",
+     "I was"
+    ],
+    [
+     "sur le pont",
+     "on the deck"
+    ],
+    [
+     "entre",
+     "between"
+    ],
+    [
+     "le vent",
+     "the wind"
+    ],
+    [
+     "a retourné",
+     "turned inside out"
+    ],
+    [
+     "mon parapluie",
+     "my umbrella"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "en": 6800,
+    "wd": 19220
+   },
+   "bank": {
+    "fr": [
+     796760,
+     6930
+    ],
+    "en": [
+     804090,
+     6800
+    ],
+    "wd": [
+     811290,
+     19220
+    ],
+    "wp": [
+     [
+      811290,
+      2500
+     ],
+     [
+      814190,
+      2820
+     ],
+     [
+      817410,
+      2360
+     ],
+     [
+      820170,
+      2309
+     ],
+     [
+      822880,
+      3230
+     ],
+     [
+      826510,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis le vent a arraché le parapluie de ma main.",
+   "en": "Then the wind tore the umbrella from my hand.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "le vent",
+     "the wind"
+    ],
+    [
+     "a arraché",
+     "tore"
+    ],
+    [
+     "le parapluie",
+     "the umbrella"
+    ],
+    [
+     "de ma main",
+     "from my hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 3160,
+    "en": 3020,
+    "wd": 15060
+   },
+   "bank": {
+    "fr": [
+     830910,
+     3160
+    ],
+    "en": [
+     834470,
+     3020
+    ],
+    "wd": [
+     837890,
+     15060
+    ],
+    "wp": [
+     [
+      837890,
+      2110
+     ],
+     [
+      840400,
+      2309
+     ],
+     [
+      843110,
+      2490
+     ],
+     [
+      845999,
+      2890
+     ],
+     [
+      849290,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon parapluie est parti sur l'Elbe, comme une grosse méduse rouge, vers la mer du Nord.",
+   "en": "My umbrella went off on the Elbe, like a big red jellyfish, toward the North Sea.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "méduse",
+     "en": "jellyfish"
+    }
+   ],
+   "words": [
+    [
+     "Mon parapluie",
+     "my umbrella"
+    ],
+    [
+     "est parti",
+     "went off"
+    ],
+    [
+     "sur l'Elbe",
+     "on the Elbe"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "une grosse méduse rouge",
+     "a big red jellyfish"
+    ],
+    [
+     "vers",
+     "toward"
+    ],
+    [
+     "la mer du Nord",
+     "the North Sea"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "gl": "audio/s028_gl.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 6100,
+    "en": 5080,
+    "gl": 3760,
+    "wd": 23920
+   },
+   "bank": {
+    "fr": [
+     853350,
+     6100
+    ],
+    "en": [
+     859850,
+     5080
+    ],
+    "gl": [
+     865330,
+     3760
+    ],
+    "wd": [
+     869490,
+     23920
+    ],
+    "wp": [
+     [
+      869490,
+      3150
+     ],
+     [
+      873040,
+      2560
+     ],
+     [
+      876000,
+      2950
+     ],
+     [
+      879350,
+      2170
+     ],
+     [
+      881920,
+      4270
+     ],
+     [
+      886590,
+      2210
+     ],
+     [
+      889200,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a regardé partir mon parapluie. Puis Hauke m'a regardée.",
+   "en": "Hauke watched my umbrella go. Then Hauke looked at me.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "watched"
+    ],
+    [
+     "partir",
+     "go"
+    ],
+    [
+     "mon parapluie",
+     "my umbrella"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "m'a regardée",
+     "looked at me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 5260,
+    "en": 3680,
+    "wd": 15420
+   },
+   "bank": {
+    "fr": [
+     893810,
+     5260
+    ],
+    "en": [
+     899470,
+     3680
+    ],
+    "wd": [
+     903550,
+     15420
+    ],
+    "wp": [
+     [
+      903550,
+      2610
+     ],
+     [
+      906560,
+      2340
+     ],
+     [
+      909300,
+      3150
+     ],
+     [
+      912850,
+      2110
+     ],
+     [
+      915360,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et il a dit un mot nouveau : « Touristin. »",
+   "en": "And he said a new word: \"Touristin.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "Touristin",
+     "en": "tourist (a woman, in German)"
+    }
+   ],
+   "words": [
+    [
+     "il a dit",
+     "he said"
+    ],
+    [
+     "un mot nouveau",
+     "a new word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "gl": "audio/s030_gl.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "en": 2710,
+    "gl": 4960,
+    "wd": 6750
+   },
+   "bank": {
+    "fr": [
+     919370,
+     3120
+    ],
+    "en": [
+     922890,
+     2710
+    ],
+    "gl": [
+     926000,
+     4960
+    ],
+    "wd": [
+     931360,
+     6750
+    ],
+    "wp": [
+     [
+      931360,
+      2590
+     ],
+     [
+      934350,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Touriste ! Moi ! Je paie mes impôts dans cette ville depuis quatorze mois !",
+   "en": "Tourist! Me! I've been paying my taxes in this city for fourteen months!",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Touriste",
+     "tourist"
+    ],
+    [
+     "Moi",
+     "me"
+    ],
+    [
+     "Je paie",
+     "I pay"
+    ],
+    [
+     "mes impôts",
+     "my taxes"
+    ],
+    [
+     "dans cette ville",
+     "in this city"
+    ],
+    [
+     "depuis quatorze mois",
+     "for fourteen months"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 6660,
+    "en": 5220,
+    "wd": 19960
+   },
+   "bank": {
+    "fr": [
+     938510,
+     6660
+    ],
+    "en": [
+     945570,
+     5220
+    ],
+    "wd": [
+     951190,
+     19960
+    ],
+    "wp": [
+     [
+      951190,
+      2560
+     ],
+     [
+      954150,
+      2140
+     ],
+     [
+      956690,
+      2620
+     ],
+     [
+      959710,
+      2860
+     ],
+     [
+      962970,
+      3170
+     ],
+     [
+      966540,
+      3760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce jour-là, j'ai pris une décision : ce matelot allait parler.",
+   "en": "That day, I made a decision: this sailor was going to talk.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ce jour-là",
+     "that day"
+    ],
+    [
+     "j'ai pris",
+     "I made"
+    ],
+    [
+     "une décision",
+     "a decision"
+    ],
+    [
+     "ce matelot",
+     "this sailor"
+    ],
+    [
+     "allait parler",
+     "was going to talk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "en": 4110,
+    "wd": 16490
+   },
+   "bank": {
+    "fr": [
+     971550,
+     4680
+    ],
+    "en": [
+     976630,
+     4110
+    ],
+    "wd": [
+     981140,
+     16490
+    ],
+    "wp": [
+     [
+      981140,
+      2610
+     ],
+     [
+      984150,
+      2670
+     ],
+     [
+      987220,
+      2980
+     ],
+     [
+      990600,
+      2840
+     ],
+     [
+      993840,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lundi, j'ai essayé la météo : « Il va pleuvoir toute la journée, vous croyez ? »",
+   "en": "On Monday, I tried the weather: \"It's going to rain all day, do you think?\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le lundi",
+     "on Monday"
+    ],
+    [
+     "j'ai essayé",
+     "I tried"
+    ],
+    [
+     "la météo",
+     "the weather"
+    ],
+    [
+     "Il va pleuvoir",
+     "it's going to rain"
+    ],
+    [
+     "toute la journée",
+     "all day"
+    ],
+    [
+     "vous croyez",
+     "do you think"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 5920,
+    "en": 4810,
+    "wd": 20180
+   },
+   "bank": {
+    "fr": [
+     998030,
+     5920
+    ],
+    "en": [
+     1004350,
+     4810
+    ],
+    "wd": [
+     1009560,
+     20180
+    ],
+    "wp": [
+     [
+      1009560,
+      2630
+     ],
+     [
+      1012590,
+      3010
+     ],
+     [
+      1016000,
+      2740
+     ],
+     [
+      1019140,
+      3400
+     ],
+     [
+      1022940,
+      2760
+     ],
+     [
+      1026100,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a regardé le ciel pendant longtemps. Puis il a dit : « Hm. »",
+   "en": "Hauke looked at the sky for a long time. Then he said: \"Hm.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "le ciel",
+     "the sky"
+    ],
+    [
+     "pendant longtemps",
+     "for a long time"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 5600,
+    "en": 4380,
+    "wd": 15370
+   },
+   "bank": {
+    "fr": [
+     1030140,
+     5600
+    ],
+    "en": [
+     1036140,
+     4380
+    ],
+    "wd": [
+     1040920,
+     15370
+    ],
+    "wp": [
+     [
+      1040920,
+      2550
+     ],
+     [
+      1043870,
+      2570
+     ],
+     [
+      1046840,
+      3100
+     ],
+     [
+      1050340,
+      2110
+     ],
+     [
+      1052850,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans mon carnet, j'ai écrit une règle : « Hm » ne compte pas.",
+   "en": "In my notebook, I wrote a rule: \"Hm\" doesn't count.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dans mon carnet",
+     "in my notebook"
+    ],
+    [
+     "j'ai écrit",
+     "I wrote"
+    ],
+    [
+     "une règle",
+     "a rule"
+    ],
+    [
+     "ne compte pas",
+     "doesn't count"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4050,
+    "wd": 13590
+   },
+   "bank": {
+    "fr": [
+     1056690,
+     5030
+    ],
+    "en": [
+     1062120,
+     4050
+    ],
+    "wd": [
+     1066570,
+     13590
+    ],
+    "wp": [
+     [
+      1066570,
+      3060
+     ],
+     [
+      1070030,
+      2830
+     ],
+     [
+      1073260,
+      2690
+     ],
+     [
+      1076350,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le mardi, j'ai apporté des navettes, les biscuits que ma mère m'envoie par la poste.",
+   "en": "On Tuesday, I brought some navettes, the biscuits my mother sends me by post.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le mardi",
+     "on Tuesday"
+    ],
+    [
+     "j'ai apporté",
+     "I brought"
+    ],
+    [
+     "des navettes",
+     "some navettes"
+    ],
+    [
+     "les biscuits",
+     "the biscuits"
+    ],
+    [
+     "que ma mère",
+     "that my mother"
+    ],
+    [
+     "m'envoie",
+     "sends me"
+    ],
+    [
+     "par la poste",
+     "by post"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 5840,
+    "en": 5040,
+    "wd": 23890
+   },
+   "bank": {
+    "fr": [
+     1080560,
+     5840
+    ],
+    "en": [
+     1086800,
+     5040
+    ],
+    "wd": [
+     1092240,
+     23890
+    ],
+    "wp": [
+     [
+      1092240,
+      2810
+     ],
+     [
+      1095450,
+      3160
+     ],
+     [
+      1099010,
+      3050
+     ],
+     [
+      1102460,
+      3020
+     ],
+     [
+      1105880,
+      2950
+     ],
+     [
+      1109230,
+      2650
+     ],
+     [
+      1112280,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les navettes ont la forme d'un petit bateau. J'ai pensé qu'un matelot apprécierait.",
+   "en": "Navettes are shaped like a little boat. I thought a sailor would appreciate that.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Les navettes",
+     "navettes"
+    ],
+    [
+     "ont la forme",
+     "are shaped"
+    ],
+    [
+     "d'un petit bateau",
+     "like a little boat"
+    ],
+    [
+     "J'ai pensé",
+     "I thought"
+    ],
+    [
+     "qu'un matelot",
+     "that a sailor"
+    ],
+    [
+     "apprécierait",
+     "would appreciate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 6060,
+    "en": 4790,
+    "wd": 20530
+   },
+   "bank": {
+    "fr": [
+     1116530,
+     6060
+    ],
+    "en": [
+     1122990,
+     4790
+    ],
+    "wd": [
+     1128180,
+     20530
+    ],
+    "wp": [
+     [
+      1128180,
+      2930
+     ],
+     [
+      1131510,
+      2880
+     ],
+     [
+      1134790,
+      3320
+     ],
+     [
+      1138510,
+      2700
+     ],
+     [
+      1141610,
+      2890
+     ],
+     [
+      1144900,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a mangé trois navettes, lentement, en regardant l'eau. Puis il a dit : « Hm. »",
+   "en": "Hauke ate three navettes, slowly, looking at the water. Then he said: \"Hm.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a mangé",
+     "ate"
+    ],
+    [
+     "trois navettes",
+     "three navettes"
+    ],
+    [
+     "lentement",
+     "slowly"
+    ],
+    [
+     "en regardant",
+     "looking at"
+    ],
+    [
+     "l'eau",
+     "the water"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 7080,
+    "en": 5650,
+    "wd": 20870
+   },
+   "bank": {
+    "fr": [
+     1149110,
+     7080
+    ],
+    "en": [
+     1156590,
+     5650
+    ],
+    "wd": [
+     1162640,
+     20870
+    ],
+    "wp": [
+     [
+      1162640,
+      2329
+     ],
+     [
+      1165370,
+      3120
+     ],
+     [
+      1168890,
+      2550
+     ],
+     [
+      1171840,
+      2650
+     ],
+     [
+      1174890,
+      2270
+     ],
+     [
+      1177560,
+      2110
+     ],
+     [
+      1180070,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le mercredi, je lui ai fait des compliments sur ses nœuds. Je n'y connais rien.",
+   "en": "On Wednesday, I complimented him on his knots. I know nothing about them.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le mercredi",
+     "on Wednesday"
+    ],
+    [
+     "je lui ai fait des compliments",
+     "I complimented him"
+    ],
+    [
+     "sur ses nœuds",
+     "on his knots"
+    ],
+    [
+     "Je n'y connais rien",
+     "I know nothing about them"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 6120,
+    "en": 4680,
+    "wd": 15370
+   },
+   "bank": {
+    "fr": [
+     1183910,
+     6120
+    ],
+    "en": [
+     1190430,
+     4680
+    ],
+    "wd": [
+     1195510,
+     15370
+    ],
+    "wp": [
+     [
+      1195510,
+      2940
+     ],
+     [
+      1198850,
+      3790
+     ],
+     [
+      1203040,
+      2950
+     ],
+     [
+      1206390,
+      3640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke n'a rien répondu. Il a fait un nœud. Un très beau nœud, je dois le dire.",
+   "en": "Hauke didn't answer anything. He tied a knot. A very beautiful knot, I must say.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "n'a rien répondu",
+     "didn't answer anything"
+    ],
+    [
+     "Il a fait",
+     "he tied"
+    ],
+    [
+     "un nœud",
+     "a knot"
+    ],
+    [
+     "très beau",
+     "very beautiful"
+    ],
+    [
+     "je dois le dire",
+     "I must say"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 7420,
+    "en": 6110,
+    "wd": 17330
+   },
+   "bank": {
+    "fr": [
+     1211280,
+     7420
+    ],
+    "en": [
+     1219100,
+     6110
+    ],
+    "wd": [
+     1225610,
+     17330
+    ],
+    "wp": [
+     [
+      1225610,
+      3740
+     ],
+     [
+      1229750,
+      2650
+     ],
+     [
+      1232800,
+      2470
+     ],
+     [
+      1235670,
+      2740
+     ],
+     [
+      1238810,
+      3280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le jeudi, il y avait de la glace sur le ponton, et j'ai glissé.",
+   "en": "On Thursday, there was ice on the floating pier, and I slipped.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le jeudi",
+     "on Thursday"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "de la glace",
+     "ice"
+    ],
+    [
+     "sur le ponton",
+     "on the floating pier"
+    ],
+    [
+     "j'ai glissé",
+     "I slipped"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4280,
+    "wd": 16760
+   },
+   "bank": {
+    "fr": [
+     1243340,
+     5030
+    ],
+    "en": [
+     1248770,
+     4280
+    ],
+    "wd": [
+     1253450,
+     16760
+    ],
+    "wp": [
+     [
+      1253450,
+      2880
+     ],
+     [
+      1256730,
+      2510
+     ],
+     [
+      1259640,
+      2660
+     ],
+     [
+      1262700,
+      3350
+     ],
+     [
+      1266450,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke m'a attrapée par la manche, et il a dit : « Achtung. »",
+   "en": "Hauke caught me by the sleeve, and he said: \"Achtung.\"",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "Achtung",
+     "en": "careful! (German)"
+    }
+   ],
+   "words": [
+    [
+     "m'a attrapée",
+     "caught me"
+    ],
+    [
+     "par la manche",
+     "by the sleeve"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "gl": "audio/s042_gl.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 4350,
+    "en": 4080,
+    "gl": 4380,
+    "wd": 10160
+   },
+   "bank": {
+    "fr": [
+     1270610,
+     4350
+    ],
+    "en": [
+     1275360,
+     4080
+    ],
+    "gl": [
+     1279840,
+     4380
+    ],
+    "wd": [
+     1284620,
+     10160
+    ],
+    "wp": [
+     [
+      1284620,
+      2830
+     ],
+     [
+      1287850,
+      3090
+     ],
+     [
+      1291340,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans mon carnet, j'ai écrit « Achtung » et je l'ai souligné deux fois.",
+   "en": "In my notebook, I wrote \"Achtung\" and I underlined it twice.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dans mon carnet",
+     "in my notebook"
+    ],
+    [
+     "j'ai écrit",
+     "I wrote"
+    ],
+    [
+     "je l'ai souligné",
+     "I underlined it"
+    ],
+    [
+     "deux fois",
+     "twice"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 5320,
+    "en": 4200,
+    "wd": 13760
+   },
+   "bank": {
+    "fr": [
+     1295180,
+     5320
+    ],
+    "en": [
+     1300900,
+     4200
+    ],
+    "wd": [
+     1305500,
+     13760
+    ],
+    "wp": [
+     [
+      1305500,
+      3060
+     ],
+     [
+      1308960,
+      2830
+     ],
+     [
+      1312190,
+      3290
+     ],
+     [
+      1315880,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En mai, Birte a eu quarante ans. Nous avons fêté ça toute la nuit à Sankt Pauli.",
+   "en": "In May, Birte turned forty. We celebrated all night in Sankt Pauli.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "En mai",
+     "in May"
+    ],
+    [
+     "a eu quarante ans",
+     "turned forty"
+    ],
+    [
+     "Nous avons fêté ça",
+     "we celebrated"
+    ],
+    [
+     "toute la nuit",
+     "all night"
+    ],
+    [
+     "à Sankt Pauli",
+     "in Sankt Pauli"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 6530,
+    "en": 5000,
+    "wd": 17570
+   },
+   "bank": {
+    "fr": [
+     1319660,
+     6530
+    ],
+    "en": [
+     1326590,
+     5000
+    ],
+    "wd": [
+     1331990,
+     17570
+    ],
+    "wp": [
+     [
+      1331990,
+      2370
+     ],
+     [
+      1334760,
+      3090
+     ],
+     [
+      1338250,
+      3570
+     ],
+     [
+      1342220,
+      2660
+     ],
+     [
+      1345280,
+      3430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À cinq heures du matin, nous sommes descendues au Fischmarkt, le marché du dimanche.",
+   "en": "At five in the morning, we went down to the Fischmarkt, the Sunday market.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "À cinq heures du matin",
+     "at five in the morning"
+    ],
+    [
+     "nous sommes descendues",
+     "we went down"
+    ],
+    [
+     "le marché",
+     "the market"
+    ],
+    [
+     "du dimanche",
+     "of Sunday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 5950,
+    "en": 4400,
+    "wd": 14620
+   },
+   "bank": {
+    "fr": [
+     1349960,
+     5950
+    ],
+    "en": [
+     1356310,
+     4400
+    ],
+    "wd": [
+     1361110,
+     14620
+    ],
+    "wp": [
+     [
+      1361110,
+      3660
+     ],
+     [
+      1365169,
+      3370
+     ],
+     [
+      1368940,
+      2620
+     ],
+     [
+      1371960,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« À Hambourg, tous les gens qui ne dorment pas finissent la nuit au Fischmarkt », a dit Birte.",
+   "en": "\"In Hamburg, all the people who don't sleep end the night at the Fischmarkt,\" said Birte.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "À Hambourg",
+     "in Hamburg"
+    ],
+    [
+     "tous les gens",
+     "all the people"
+    ],
+    [
+     "qui ne dorment pas",
+     "who don't sleep"
+    ],
+    [
+     "finissent",
+     "end"
+    ],
+    [
+     "la nuit",
+     "the night"
+    ],
+    [
+     "a dit",
+     "said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5990,
+    "en": 5020,
+    "wd": 18830
+   },
+   "bank": {
+    "fr": [
+     1376130,
+     5990
+    ],
+    "en": [
+     1382520,
+     5020
+    ],
+    "wd": [
+     1387940,
+     18830
+    ],
+    "wp": [
+     [
+      1387940,
+      2940
+     ],
+     [
+      1391280,
+      2660
+     ],
+     [
+      1394340,
+      3250
+     ],
+     [
+      1397990,
+      2329
+     ],
+     [
+      1400720,
+      2580
+     ],
+     [
+      1403700,
+      2220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au-dessus de l'Elbe, le ciel était rose et gris. Les mouettes criaient déjà.",
+   "en": "Above the Elbe, the sky was pink and grey. The seagulls were already screaming.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Au-dessus de l'Elbe",
+     "above the Elbe"
+    ],
+    [
+     "le ciel",
+     "the sky"
+    ],
+    [
+     "était",
+     "was"
+    ],
+    [
+     "rose et gris",
+     "pink and grey"
+    ],
+    [
+     "Les mouettes",
+     "the seagulls"
+    ],
+    [
+     "criaient",
+     "were screaming"
+    ],
+    [
+     "déjà",
+     "already"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 5900,
+    "en": 5470,
+    "wd": 22400
+   },
+   "bank": {
+    "fr": [
+     1407170,
+     5900
+    ],
+    "en": [
+     1413470,
+     5470
+    ],
+    "wd": [
+     1419340,
+     22400
+    ],
+    "wp": [
+     [
+      1419340,
+      3410
+     ],
+     [
+      1423150,
+      2570
+     ],
+     [
+      1426120,
+      2150
+     ],
+     [
+      1428670,
+      3080
+     ],
+     [
+      1432150,
+      3040
+     ],
+     [
+      1435590,
+      2580
+     ],
+     [
+      1438570,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il y avait des gens en robe de soirée, et des gens en bottes de pêcheur.",
+   "en": "There were people in evening dresses, and people in fishermen's boots.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Il y avait",
+     "there were"
+    ],
+    [
+     "des gens",
+     "people"
+    ],
+    [
+     "en robe de soirée",
+     "in evening dresses"
+    ],
+    [
+     "en bottes de pêcheur",
+     "in fishermen's boots"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "en": 4230,
+    "wd": 14330
+   },
+   "bank": {
+    "fr": [
+     1442140,
+     4820
+    ],
+    "en": [
+     1447360,
+     4230
+    ],
+    "wd": [
+     1451990,
+     14330
+    ],
+    "wp": [
+     [
+      1451990,
+      2470
+     ],
+     [
+      1454860,
+      2329
+     ],
+     [
+      1457590,
+      3560
+     ],
+     [
+      1461550,
+      3920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans la vieille halle aux poissons, un groupe jouait du rock.",
+   "en": "In the old fish hall, a band was playing rock.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Dans la vieille halle aux poissons",
+     "in the old fish hall"
+    ],
+    [
+     "un groupe",
+     "a band"
+    ],
+    [
+     "jouait du rock",
+     "was playing rock"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "en": 3240,
+    "wd": 11620
+   },
+   "bank": {
+    "fr": [
+     1466720,
+     4070
+    ],
+    "en": [
+     1471190,
+     3240
+    ],
+    "wd": [
+     1474830,
+     11620
+    ],
+    "wp": [
+     [
+      1474830,
+      3940
+     ],
+     [
+      1479170,
+      2640
+     ],
+     [
+      1482210,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans la halle, ça sentait la friture, le café et la bière.",
+   "en": "In the hall, it smelled of frying, coffee and beer.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Dans la halle",
+     "in the hall"
+    ],
+    [
+     "ça sentait",
+     "it smelled of"
+    ],
+    [
+     "la friture",
+     "frying"
+    ],
+    [
+     "le café",
+     "coffee"
+    ],
+    [
+     "la bière",
+     "beer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 5050,
+    "en": 3830,
+    "wd": 16090
+   },
+   "bank": {
+    "fr": [
+     1486850,
+     5050
+    ],
+    "en": [
+     1492300,
+     3830
+    ],
+    "wd": [
+     1496530,
+     16090
+    ],
+    "wp": [
+     [
+      1496530,
+      2990
+     ],
+     [
+      1499920,
+      2920
+     ],
+     [
+      1503240,
+      2760
+     ],
+     [
+      1506400,
+      2470
+     ],
+     [
+      1509270,
+      2500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et partout, il y avait les crieurs.",
+   "en": "And everywhere, there were the market criers.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "crieurs",
+     "en": "market criers"
+    }
+   ],
+   "words": [
+    [
+     "partout",
+     "everywhere"
+    ],
+    [
+     "il y avait",
+     "there were"
+    ],
+    [
+     "les crieurs",
+     "the market criers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "gl": "audio/s051_gl.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 2910,
+    "en": 3090,
+    "gl": 3990,
+    "wd": 9920
+   },
+   "bank": {
+    "fr": [
+     1513020,
+     2910
+    ],
+    "en": [
+     1516330,
+     3090
+    ],
+    "gl": [
+     1519820,
+     3990
+    ],
+    "wd": [
+     1524210,
+     9920
+    ],
+    "wp": [
+     [
+      1524210,
+      2450
+     ],
+     [
+      1527060,
+      2470
+     ],
+     [
+      1529930,
+      3350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur leurs camions ouverts, les crieurs vendent des bananes, des anguilles, des plantes, en hurlant.",
+   "en": "On their open trucks, the criers sell bananas, eels, plants, while yelling.",
+   "para": 7,
+   "glosses": [
+    {
+     "fr": "anguilles",
+     "en": "eels"
+    }
+   ],
+   "words": [
+    [
+     "Sur leurs camions ouverts",
+     "on their open trucks"
+    ],
+    [
+     "les crieurs",
+     "the criers"
+    ],
+    [
+     "vendent",
+     "sell"
+    ],
+    [
+     "des bananes",
+     "bananas"
+    ],
+    [
+     "des anguilles",
+     "eels"
+    ],
+    [
+     "des plantes",
+     "plants"
+    ],
+    [
+     "en hurlant",
+     "while yelling"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "gl": "audio/s052_gl.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 6880,
+    "en": 5530,
+    "gl": 3520,
+    "wd": 23420
+   },
+   "bank": {
+    "fr": [
+     1534530,
+     6880
+    ],
+    "en": [
+     1541810,
+     5530
+    ],
+    "gl": [
+     1547740,
+     3520
+    ],
+    "wd": [
+     1551660,
+     23420
+    ],
+    "wp": [
+     [
+      1551660,
+      3910
+     ],
+     [
+      1555970,
+      3060
+     ],
+     [
+      1559430,
+      2250
+     ],
+     [
+      1562080,
+      2710
+     ],
+     [
+      1565190,
+      2770
+     ],
+     [
+      1568360,
+      2680
+     ],
+     [
+      1571440,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Les crieurs hurlent, ils font des blagues, et la foule rit.",
+   "en": "The criers yell, they make jokes, and the crowd laughs.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Les crieurs",
+     "the criers"
+    ],
+    [
+     "hurlent",
+     "yell"
+    ],
+    [
+     "ils font des blagues",
+     "they make jokes"
+    ],
+    [
+     "la foule",
+     "the crowd"
+    ],
+    [
+     "rit",
+     "laughs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 4250,
+    "en": 3870,
+    "wd": 16170
+   },
+   "bank": {
+    "fr": [
+     1575480,
+     4250
+    ],
+    "en": [
+     1580130,
+     3870
+    ],
+    "wd": [
+     1584400,
+     16170
+    ],
+    "wp": [
+     [
+      1584400,
+      3060
+     ],
+     [
+      1587860,
+      2300
+     ],
+     [
+      1590560,
+      3360
+     ],
+     [
+      1594320,
+      2770
+     ],
+     [
+      1597490,
+      2230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au milieu du marché, il y avait un camion de fruits, avec un panneau : « Obst Brodersen, depuis 1971 ».",
+   "en": "In the middle of the market, there was a fruit truck, with a sign: \"Obst Brodersen, since 1971\".",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Au milieu du marché",
+     "in the middle of the market"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "un camion de fruits",
+     "a fruit truck"
+    ],
+    [
+     "avec un panneau",
+     "with a sign"
+    ],
+    [
+     "Obst",
+     "fruit"
+    ],
+    [
+     "depuis",
+     "since"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 8600,
+    "en": 6920,
+    "wd": 20020
+   },
+   "bank": {
+    "fr": [
+     1600970,
+     8600
+    ],
+    "en": [
+     1609970,
+     6920
+    ],
+    "wd": [
+     1617290,
+     20020
+    ],
+    "wp": [
+     [
+      1617290,
+      3680
+     ],
+     [
+      1621370,
+      2510
+     ],
+     [
+      1624280,
+      3380
+     ],
+     [
+      1628060,
+      2930
+     ],
+     [
+      1631390,
+      2270
+     ],
+     [
+      1634060,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur un cageot, un homme en tablier criait plus fort que les mouettes.",
+   "en": "On a crate, a man in an apron was shouting louder than the seagulls.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "cageot",
+     "en": "wooden crate"
+    }
+   ],
+   "words": [
+    [
+     "Sur un cageot",
+     "on a crate"
+    ],
+    [
+     "un homme",
+     "a man"
+    ],
+    [
+     "en tablier",
+     "in an apron"
+    ],
+    [
+     "criait",
+     "was shouting"
+    ],
+    [
+     "plus fort que",
+     "louder than"
+    ],
+    [
+     "les mouettes",
+     "the seagulls"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "gl": "audio/s055_gl.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 4690,
+    "en": 4420,
+    "gl": 3480,
+    "wd": 19670
+   },
+   "bank": {
+    "fr": [
+     1637710,
+     4690
+    ],
+    "en": [
+     1642800,
+     4420
+    ],
+    "gl": [
+     1647620,
+     3480
+    ],
+    "wd": [
+     1651500,
+     19670
+    ],
+    "wp": [
+     [
+      1651500,
+      3030
+     ],
+     [
+      1654930,
+      2520
+     ],
+     [
+      1657850,
+      2850
+     ],
+     [
+      1661100,
+      2430
+     ],
+     [
+      1663930,
+      2950
+     ],
+     [
+      1667280,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pas un ananas ! Pas deux ! Trois ananas ! Et des bananes ! Et des pommes pour belle-maman ! »",
+   "en": "\"Not one pineapple! Not two! Three pineapples! And bananas! And apples for your mother-in-law!\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Pas un ananas",
+     "not one pineapple"
+    ],
+    [
+     "Pas deux",
+     "not two"
+    ],
+    [
+     "Trois ananas",
+     "three pineapples"
+    ],
+    [
+     "des bananes",
+     "bananas"
+    ],
+    [
+     "des pommes",
+     "apples"
+    ],
+    [
+     "pour belle-maman",
+     "for your mother-in-law"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 9350,
+    "en": 7140,
+    "wd": 20580
+   },
+   "bank": {
+    "fr": [
+     1671570,
+     9350
+    ],
+    "en": [
+     1681320,
+     7140
+    ],
+    "wd": [
+     1688860,
+     20580
+    ],
+    "wp": [
+     [
+      1688860,
+      3350
+     ],
+     [
+      1692610,
+      2580
+     ],
+     [
+      1695590,
+      3370
+     ],
+     [
+      1699360,
+      2710
+     ],
+     [
+      1702470,
+      2570
+     ],
+     [
+      1705440,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tout ça, mesdames, pas pour vingt euros, pas pour quinze, pour dix euros ! »",
+   "en": "\"All that, ladies, not for twenty euros, not for fifteen, for ten euros!\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Tout ça",
+     "all that"
+    ],
+    [
+     "mesdames",
+     "ladies"
+    ],
+    [
+     "pas pour vingt euros",
+     "not for twenty euros"
+    ],
+    [
+     "pas pour quinze",
+     "not for fifteen"
+    ],
+    [
+     "pour dix euros",
+     "for ten euros"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 5580,
+    "en": 5650,
+    "wd": 17290
+   },
+   "bank": {
+    "fr": [
+     1709840,
+     5580
+    ],
+    "en": [
+     1715820,
+     5650
+    ],
+    "wd": [
+     1721870,
+     17290
+    ],
+    "wp": [
+     [
+      1721870,
+      2370
+     ],
+     [
+      1724640,
+      2510
+     ],
+     [
+      1727550,
+      3570
+     ],
+     [
+      1731520,
+      3230
+     ],
+     [
+      1735150,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'homme levait un panier énorme au-dessus de sa tête, et il racontait des blagues.",
+   "en": "The man was lifting a huge basket above his head, and he was telling jokes.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "L'homme",
+     "the man"
+    ],
+    [
+     "levait",
+     "was lifting"
+    ],
+    [
+     "un panier énorme",
+     "a huge basket"
+    ],
+    [
+     "au-dessus de sa tête",
+     "above his head"
+    ],
+    [
+     "il racontait",
+     "he was telling"
+    ],
+    [
+     "des blagues",
+     "jokes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 5300,
+    "en": 4990,
+    "wd": 20370
+   },
+   "bank": {
+    "fr": [
+     1739560,
+     5300
+    ],
+    "en": [
+     1745260,
+     4990
+    ],
+    "wd": [
+     1750650,
+     20370
+    ],
+    "wp": [
+     [
+      1750650,
+      2340
+     ],
+     [
+      1753390,
+      2540
+     ],
+     [
+      1756330,
+      3600
+     ],
+     [
+      1760330,
+      3510
+     ],
+     [
+      1764240,
+      2950
+     ],
+     [
+      1767590,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ces blagues, je ne vais pas les traduire ici.",
+   "en": "Those jokes, I'm not going to translate them here.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Ces blagues",
+     "those jokes"
+    ],
+    [
+     "je ne vais pas",
+     "I'm not going to"
+    ],
+    [
+     "les traduire",
+     "translate them"
+    ],
+    [
+     "ici",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 3490,
+    "en": 3370,
+    "wd": 13570
+   },
+   "bank": {
+    "fr": [
+     1771420,
+     3490
+    ],
+    "en": [
+     1775310,
+     3370
+    ],
+    "wd": [
+     1779080,
+     13570
+    ],
+    "wp": [
+     [
+      1779080,
+      3040
+     ],
+     [
+      1782520,
+      3150
+     ],
+     [
+      1786070,
+      3120
+     ],
+     [
+      1789590,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'homme sur le cageot, c'était Hauke. Hauke le matelot. Hauke « Moin ».",
+   "en": "The man on the crate was Hauke. Hauke the sailor. Hauke \"Moin\".",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "L'homme",
+     "the man"
+    ],
+    [
+     "sur le cageot",
+     "on the crate"
+    ],
+    [
+     "c'était",
+     "was"
+    ],
+    [
+     "le matelot",
+     "the sailor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 6980,
+    "en": 4680,
+    "wd": 12340
+   },
+   "bank": {
+    "fr": [
+     1793050,
+     6980
+    ],
+    "en": [
+     1800430,
+     4680
+    ],
+    "wd": [
+     1805510,
+     12340
+    ],
+    "wp": [
+     [
+      1805510,
+      2340
+     ],
+     [
+      1808250,
+      2890
+     ],
+     [
+      1811540,
+      2300
+     ],
+     [
+      1814240,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai essayé de compter ses mots. Après trois minutes, j'en étais à quatre cents, et j'ai arrêté.",
+   "en": "I tried to count his words. After three minutes, I was at four hundred, and I stopped.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai essayé",
+     "I tried"
+    ],
+    [
+     "de compter",
+     "to count"
+    ],
+    [
+     "ses mots",
+     "his words"
+    ],
+    [
+     "Après trois minutes",
+     "after three minutes"
+    ],
+    [
+     "j'en étais à",
+     "I was at"
+    ],
+    [
+     "quatre cents",
+     "four hundred"
+    ],
+    [
+     "j'ai arrêté",
+     "I stopped"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 7420,
+    "en": 5750,
+    "wd": 23780
+   },
+   "bank": {
+    "fr": [
+     1818250,
+     7420
+    ],
+    "en": [
+     1826070,
+     5750
+    ],
+    "wd": [
+     1832220,
+     23780
+    ],
+    "wp": [
+     [
+      1832220,
+      3000
+     ],
+     [
+      1835620,
+      2550
+     ],
+     [
+      1838570,
+      2690
+     ],
+     [
+      1841660,
+      3730
+     ],
+     [
+      1845790,
+      2920
+     ],
+     [
+      1849110,
+      2680
+     ],
+     [
+      1852190,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Soudain, Hauke m'a vue. Pendant une seconde, il s'est tu.",
+   "en": "Suddenly, Hauke saw me. For one second, he went quiet.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Soudain",
+     "suddenly"
+    ],
+    [
+     "m'a vue",
+     "saw me"
+    ],
+    [
+     "Pendant une seconde",
+     "for one second"
+    ],
+    [
+     "il s'est tu",
+     "he went quiet"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "en": 4420,
+    "wd": 13670
+   },
+   "bank": {
+    "fr": [
+     1856400,
+     5630
+    ],
+    "en": [
+     1862430,
+     4420
+    ],
+    "wd": [
+     1867250,
+     13670
+    ],
+    "wp": [
+     [
+      1867250,
+      2440
+     ],
+     [
+      1870090,
+      2640
+     ],
+     [
+      1873130,
+      3570
+     ],
+     [
+      1877100,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Toute la foule s'est tournée vers moi, pour voir ce qu'il regardait.",
+   "en": "The whole crowd turned toward me, to see what he was looking at.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Toute la foule",
+     "the whole crowd"
+    ],
+    [
+     "s'est tournée",
+     "turned"
+    ],
+    [
+     "vers moi",
+     "toward me"
+    ],
+    [
+     "pour voir",
+     "to see"
+    ],
+    [
+     "ce qu'il regardait",
+     "what he was looking at"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 4350,
+    "en": 3900,
+    "wd": 16720
+   },
+   "bank": {
+    "fr": [
+     1881320,
+     4350
+    ],
+    "en": [
+     1886070,
+     3900
+    ],
+    "wd": [
+     1890370,
+     16720
+    ],
+    "wp": [
+     [
+      1890370,
+      3200
+     ],
+     [
+      1893970,
+      2510
+     ],
+     [
+      1896880,
+      2470
+     ],
+     [
+      1899750,
+      2630
+     ],
+     [
+      1902780,
+      3460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis Hauke a pris un ananas, et il l'a lancé vers moi, par-dessus les têtes.",
+   "en": "Then Hauke took a pineapple, and he threw it toward me, over the heads.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "un ananas",
+     "a pineapple"
+    ],
+    [
+     "il l'a lancé",
+     "he threw it"
+    ],
+    [
+     "vers moi",
+     "toward me"
+    ],
+    [
+     "par-dessus les têtes",
+     "over the heads"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "en": 4640,
+    "wd": 18780
+   },
+   "bank": {
+    "fr": [
+     1907490,
+     5250
+    ],
+    "en": [
+     1913140,
+     4640
+    ],
+    "wd": [
+     1918180,
+     18780
+    ],
+    "wp": [
+     [
+      1918180,
+      2110
+     ],
+     [
+      1920690,
+      2220
+     ],
+     [
+      1923310,
+      2950
+     ],
+     [
+      1926660,
+      2760
+     ],
+     [
+      1929820,
+      2470
+     ],
+     [
+      1932690,
+      3420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pour la touriste ! » a crié Hauke. Et la foule a applaudi.",
+   "en": "\"For the tourist!\" shouted Hauke. And the crowd applauded.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Pour la touriste",
+     "for the tourist"
+    ],
+    [
+     "a crié",
+     "shouted"
+    ],
+    [
+     "la foule",
+     "the crowd"
+    ],
+    [
+     "a applaudi",
+     "applauded"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 5240,
+    "en": 3920,
+    "wd": 13420
+   },
+   "bank": {
+    "fr": [
+     1937360,
+     5240
+    ],
+    "en": [
+     1943000,
+     3920
+    ],
+    "wd": [
+     1947320,
+     13420
+    ],
+    "wp": [
+     [
+      1947320,
+      3260
+     ],
+     [
+      1950980,
+      2450
+     ],
+     [
+      1953830,
+      2770
+     ],
+     [
+      1957000,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai attrapé l'ananas. C'est le seul sport que je fais.",
+   "en": "I caught the pineapple. It's the only sport I do.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai attrapé",
+     "I caught"
+    ],
+    [
+     "l'ananas",
+     "the pineapple"
+    ],
+    [
+     "C'est",
+     "it's"
+    ],
+    [
+     "le seul sport",
+     "the only sport"
+    ],
+    [
+     "que je fais",
+     "that I do"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 4830,
+    "en": 3650,
+    "wd": 16510
+   },
+   "bank": {
+    "fr": [
+     1961140,
+     4830
+    ],
+    "en": [
+     1966370,
+     3650
+    ],
+    "wd": [
+     1970420,
+     16510
+    ],
+    "wp": [
+     [
+      1970420,
+      3030
+     ],
+     [
+      1973850,
+      2840
+     ],
+     [
+      1977090,
+      2110
+     ],
+     [
+      1979600,
+      3350
+     ],
+     [
+      1983350,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et Hauke a continué à crier, comme si rien ne s'était passé.",
+   "en": "And Hauke went on shouting, as if nothing had happened.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "a continué",
+     "went on"
+    ],
+    [
+     "à crier",
+     "shouting"
+    ],
+    [
+     "comme si",
+     "as if"
+    ],
+    [
+     "rien ne s'était passé",
+     "nothing had happened"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 3380,
+    "wd": 13350
+   },
+   "bank": {
+    "fr": [
+     1987330,
+     4320
+    ],
+    "en": [
+     1992050,
+     3380
+    ],
+    "wd": [
+     1995830,
+     13350
+    ],
+    "wp": [
+     [
+      1995830,
+      2640
+     ],
+     [
+      1998870,
+      2440
+     ],
+     [
+      2001710,
+      2520
+     ],
+     [
+      2004630,
+      3700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lundi, à sept heures vingt, je suis montée sur le 62 avec mon carnet.",
+   "en": "On Monday, at seven twenty, I got on the 62 with my notebook.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Le lundi",
+     "on Monday"
+    ],
+    [
+     "à sept heures vingt",
+     "at seven twenty"
+    ],
+    [
+     "je suis montée",
+     "I got on"
+    ],
+    [
+     "sur le 62",
+     "on the 62"
+    ],
+    [
+     "avec mon carnet",
+     "with my notebook"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 5650,
+    "en": 4590,
+    "wd": 18300
+   },
+   "bank": {
+    "fr": [
+     2009580,
+     5650
+    ],
+    "en": [
+     2015630,
+     4590
+    ],
+    "wd": [
+     2020620,
+     18300
+    ],
+    "wp": [
+     [
+      2020620,
+      2630
+     ],
+     [
+      2023650,
+      3250
+     ],
+     [
+      2027300,
+      3110
+     ],
+     [
+      2030810,
+      3540
+     ],
+     [
+      2034750,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a attaché la corde. Il m'a regardée. Il a dit : « Moin. »",
+   "en": "Hauke tied the rope. He looked at me. He said: \"Moin.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "a attaché",
+     "tied"
+    ],
+    [
+     "la corde",
+     "the rope"
+    ],
+    [
+     "Il m'a regardée",
+     "he looked at me"
+    ],
+    [
+     "Il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 6590,
+    "en": 4460,
+    "wd": 12940
+   },
+   "bank": {
+    "fr": [
+     2039320,
+     6590
+    ],
+    "en": [
+     2046310,
+     4460
+    ],
+    "wd": [
+     2051170,
+     12940
+    ],
+    "wp": [
+     [
+      2051170,
+      2490
+     ],
+     [
+      2054060,
+      2730
+     ],
+     [
+      2057190,
+      3080
+     ],
+     [
+      2060670,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est tout. Pas un mot sur l'ananas. Pas un mot sur le dimanche.",
+   "en": "That's all. Not a word about the pineapple. Not a word about Sunday.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "C'est tout",
+     "that's all"
+    ],
+    [
+     "Pas un mot",
+     "not a word"
+    ],
+    [
+     "sur l'ananas",
+     "about the pineapple"
+    ],
+    [
+     "sur le dimanche",
+     "about Sunday"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 6110,
+    "en": 4840,
+    "wd": 13760
+   },
+   "bank": {
+    "fr": [
+     2064510,
+     6110
+    ],
+    "en": [
+     2071020,
+     4840
+    ],
+    "wd": [
+     2076260,
+     13760
+    ],
+    "wp": [
+     [
+      2076260,
+      2470
+     ],
+     [
+      2079130,
+      2680
+     ],
+     [
+      2082210,
+      3320
+     ],
+     [
+      2085930,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans mon carnet, j'ai écrit : « Dimanche, mille mots pour trois cents inconnus. »",
+   "en": "In my notebook, I wrote: \"Sunday, a thousand words for three hundred strangers.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Dans mon carnet",
+     "in my notebook"
+    ],
+    [
+     "j'ai écrit",
+     "I wrote"
+    ],
+    [
+     "Dimanche",
+     "Sunday"
+    ],
+    [
+     "mille mots",
+     "a thousand words"
+    ],
+    [
+     "pour",
+     "for"
+    ],
+    [
+     "trois cents inconnus",
+     "three hundred strangers"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "en": 5380,
+    "wd": 20270
+   },
+   "bank": {
+    "fr": [
+     2090420,
+     5730
+    ],
+    "en": [
+     2096550,
+     5380
+    ],
+    "wd": [
+     2102330,
+     20270
+    ],
+    "wp": [
+     [
+      2102330,
+      3060
+     ],
+     [
+      2105790,
+      2830
+     ],
+     [
+      2109020,
+      2470
+     ],
+     [
+      2111890,
+      3010
+     ],
+     [
+      2115300,
+      2210
+     ],
+     [
+      2117910,
+      3840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et en dessous : « Lundi, un mot pour moi. »",
+   "en": "And underneath: \"Monday, one word for me.\"",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Et en dessous",
+     "and underneath"
+    ],
+    [
+     "Lundi",
+     "Monday"
+    ],
+    [
+     "un mot",
+     "one word"
+    ],
+    [
+     "pour moi",
+     "for me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
+   },
+   "ms": {
+    "fr": 3510,
+    "en": 3490,
+    "wd": 12210
+   },
+   "bank": {
+    "fr": [
+     2123000,
+     3510
+    ],
+    "en": [
+     2126910,
+     3490
+    ],
+    "wd": [
+     2130800,
+     12210
+    ],
+    "wp": [
+     [
+      2130800,
+      2930
+     ],
+     [
+      2134130,
+      2380
+     ],
+     [
+      2136910,
+      2460
+     ],
+     [
+      2139770,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je suis interprète. Je traduis tout, toute la journée.",
+   "en": "I am an interpreter. I translate everything, all day long.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Je suis",
+     "I am"
+    ],
+    [
+     "interprète",
+     "interpreter"
+    ],
+    [
+     "Je traduis",
+     "I translate"
+    ],
+    [
+     "tout",
+     "everything"
+    ],
+    [
+     "toute la journée",
+     "all day long"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 5240,
+    "en": 4470,
+    "wd": 16320
+   },
+   "bank": {
+    "fr": [
+     2143410,
+     5240
+    ],
+    "en": [
+     2149050,
+     4470
+    ],
+    "wd": [
+     2153920,
+     16320
+    ],
+    "wp": [
+     [
+      2153920,
+      2540
+     ],
+     [
+      2156860,
+      3010
+     ],
+     [
+      2160270,
+      3100
+     ],
+     [
+      2163770,
+      2210
+     ],
+     [
+      2166380,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais ce matin-là, sur l'Elbe, il y avait quelque chose que je ne savais pas traduire.",
+   "en": "But that morning, on the Elbe, there was something I didn't know how to translate.",
+   "para": 10,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "ce matin-là",
+     "that morning"
+    ],
+    [
+     "sur l'Elbe",
+     "on the Elbe"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "que je ne savais pas",
+     "that I didn't know how"
+    ],
+    [
+     "traduire",
+     "to translate"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
+   },
+   "ms": {
+    "fr": 5690,
+    "en": 4520,
+    "wd": 22340
+   },
+   "bank": {
+    "fr": [
+     2170640,
+     5690
+    ],
+    "en": [
+     2176730,
+     4520
+    ],
+    "wd": [
+     2181650,
+     22340
+    ],
+    "wp": [
+     [
+      2181650,
+      1920
+     ],
+     [
+      2183970,
+      2720
+     ],
+     [
+      2187090,
+      2950
+     ],
+     [
+      2190440,
+      2510
+     ],
+     [
+      2193350,
+      2700
+     ],
+     [
+      2196450,
+      3420
+     ],
+     [
+      2200270,
+      2870
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20510
+  ],
+  "silence": [
+   21310,
+   30000
+  ]
+ }
+}
