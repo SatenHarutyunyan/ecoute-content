@@ -1,0 +1,4422 @@
+{
+ "id": "fr_poe_dupin_07",
+ "lang": "fr",
+ "title": "Les enquêtes de Dupin : Le coup de feu",
+ "author": "Adapted from Edgar Allan Poe (1844)",
+ "level": "B1",
+ "series": "Les enquêtes de Dupin",
+ "episode": "7",
+ "note": "A gunshot in the street, a minister at the window, and ten seconds for Dupin to act. Then the last question: what did Dupin write inside the copy? Listen for the word vengeance, revenge. The end of the series.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 23460,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Un coup de feu sous les fenêtres du ministre D…",
+   "en": "A gunshot under minister D…'s windows.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "coup de feu",
+     "en": "gunshot"
+    }
+   ],
+   "words": [
+    [
+     "Un coup de feu",
+     "a gunshot"
+    ],
+    [
+     "sous les fenêtres",
+     "under the windows"
+    ],
+    [
+     "du ministre D…",
+     "of minister D…"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "gl": "audio/s001_gl.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 3230,
+    "en": 3400,
+    "gl": 3440,
+    "wd": 11370
+   },
+   "bank": {
+    "fr": [
+     54660,
+     3230
+    ],
+    "en": [
+     58290,
+     3400
+    ],
+    "gl": [
+     62090,
+     3440
+    ],
+    "wd": [
+     65930,
+     11370
+    ],
+    "wp": [
+     [
+      65930,
+      2980
+     ],
+     [
+      69310,
+      3400
+     ],
+     [
+      73110,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin était là, dans le salon, sa tabatière à la main.",
+   "en": "Dupin was there, in the drawing room, his snuffbox in his hand.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "était là",
+     "was there"
+    ],
+    [
+     "dans le salon",
+     "in the drawing room"
+    ],
+    [
+     "sa tabatière",
+     "his snuffbox"
+    ],
+    [
+     "à la main",
+     "in his hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 4370,
+    "en": 4440,
+    "wd": 16780
+   },
+   "bank": {
+    "fr": [
+     77700,
+     4370
+    ],
+    "en": [
+     82470,
+     4440
+    ],
+    "wd": [
+     87310,
+     16780
+    ],
+    "wp": [
+     [
+      87310,
+      2550
+     ],
+     [
+      90260,
+      2410
+     ],
+     [
+      93070,
+      3120
+     ],
+     [
+      96590,
+      3530
+     ],
+     [
+      100520,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et la lettre de la reine pendait au ruban bleu, au-dessus de la cheminée.",
+   "en": "And the queen's letter hung from the blue ribbon, above the fireplace.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "la lettre de la reine",
+     "the queen's letter"
+    ],
+    [
+     "pendait",
+     "hung"
+    ],
+    [
+     "au ruban bleu",
+     "from the blue ribbon"
+    ],
+    [
+     "au-dessus de la cheminée",
+     "above the fireplace"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 4660,
+    "en": 4180,
+    "wd": 16970
+   },
+   "bank": {
+    "fr": [
+     104490,
+     4660
+    ],
+    "en": [
+     109550,
+     4180
+    ],
+    "wd": [
+     114130,
+     16970
+    ],
+    "wp": [
+     [
+      114130,
+      1820
+     ],
+     [
+      116350,
+      3560
+     ],
+     [
+      120310,
+      2210
+     ],
+     [
+      122920,
+      3080
+     ],
+     [
+      126400,
+      3850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Racontez », ai-je dit.",
+   "en": "\"Tell me,\" I said.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Racontez",
+     "tell me"
+    ],
+    [
+     "ai-je dit",
+     "I said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 2550,
+    "en": 1920,
+    "wd": 6210
+   },
+   "bank": {
+    "fr": [
+     131500,
+     2550
+    ],
+    "en": [
+     134450,
+     1920
+    ],
+    "wd": [
+     136770,
+     6210
+    ],
+    "wp": [
+     [
+      136770,
+      2500
+     ],
+     [
+      139670,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le coup de feu a fait un bruit terrible, a dit Dupin. Puis des cris. »",
+   "en": "\"The gunshot made a terrible noise,\" said Dupin. \"Then screams.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le coup de feu",
+     "the gunshot"
+    ],
+    [
+     "a fait",
+     "made"
+    ],
+    [
+     "un bruit terrible",
+     "a terrible noise"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "des cris",
+     "screams"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 5820,
+    "en": 4520,
+    "wd": 19360
+   },
+   "bank": {
+    "fr": [
+     143380,
+     5820
+    ],
+    "en": [
+     149600,
+     4520
+    ],
+    "wd": [
+     154520,
+     19360
+    ],
+    "wp": [
+     [
+      154520,
+      3000
+     ],
+     [
+      157920,
+      2170
+     ],
+     [
+      160490,
+      3590
+     ],
+     [
+      164480,
+      2960
+     ],
+     [
+      167840,
+      2110
+     ],
+     [
+      170350,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Des femmes criaient. Des enfants pleuraient. Toute la rue hurlait. »",
+   "en": "\"Women were screaming. Children were crying. The whole street was shouting.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Des femmes",
+     "women"
+    ],
+    [
+     "criaient",
+     "were screaming"
+    ],
+    [
+     "Des enfants",
+     "children"
+    ],
+    [
+     "pleuraient",
+     "were crying"
+    ],
+    [
+     "Toute la rue",
+     "the whole street"
+    ],
+    [
+     "hurlait",
+     "was shouting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5940,
+    "en": 4800,
+    "wd": 18300
+   },
+   "bank": {
+    "fr": [
+     174280,
+     5940
+    ],
+    "en": [
+     180620,
+     4800
+    ],
+    "wd": [
+     185820,
+     18300
+    ],
+    "wp": [
+     [
+      185820,
+      2450
+     ],
+     [
+      188670,
+      2580
+     ],
+     [
+      191650,
+      2530
+     ],
+     [
+      194580,
+      2520
+     ],
+     [
+      197500,
+      2950
+     ],
+     [
+      200850,
+      2420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le ministre s'est levé d'un bond. Il a couru à la fenêtre. Il l'a ouverte. »",
+   "en": "\"The minister leapt up. He ran to the window. He opened it.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "s'est levé d'un bond",
+     "leapt up"
+    ],
+    [
+     "Il a couru",
+     "he ran"
+    ],
+    [
+     "à la fenêtre",
+     "to the window"
+    ],
+    [
+     "Il l'a ouverte",
+     "he opened it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 7070,
+    "en": 4290,
+    "wd": 17190
+   },
+   "bank": {
+    "fr": [
+     204520,
+     7070
+    ],
+    "en": [
+     211990,
+     4290
+    ],
+    "wd": [
+     216680,
+     17190
+    ],
+    "wp": [
+     [
+      216680,
+      2990
+     ],
+     [
+      220070,
+      2980
+     ],
+     [
+      223450,
+      2760
+     ],
+     [
+      226610,
+      2880
+     ],
+     [
+      229890,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« En bas, un homme avec un fusil se débattait au milieu de la foule. »",
+   "en": "\"Below, a man with a musket was struggling in the middle of the crowd.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "fusil",
+     "en": "musket, gun"
+    },
+    {
+     "fr": "se débattait",
+     "en": "was struggling"
+    }
+   ],
+   "words": [
+    [
+     "En bas",
+     "below"
+    ],
+    [
+     "un homme",
+     "a man"
+    ],
+    [
+     "avec un fusil",
+     "with a musket"
+    ],
+    [
+     "se débattait",
+     "was struggling"
+    ],
+    [
+     "au milieu de",
+     "in the middle of"
+    ],
+    [
+     "la foule",
+     "the crowd"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4590,
+    "en": 4130,
+    "gl": 7690,
+    "wd": 19430
+   },
+   "bank": {
+    "fr": [
+     234270,
+     4590
+    ],
+    "en": [
+     239260,
+     4130
+    ],
+    "gl": [
+     243790,
+     7690
+    ],
+    "wd": [
+     251880,
+     19430
+    ],
+    "wp": [
+     [
+      251880,
+      2250
+     ],
+     [
+      254530,
+      2520
+     ],
+     [
+      257450,
+      3120
+     ],
+     [
+      260970,
+      3080
+     ],
+     [
+      264450,
+      2840
+     ],
+     [
+      267690,
+      2770
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'homme criait qu'il n'y avait pas de balle. Seulement de la poudre. »",
+   "en": "\"The man was shouting that there was no bullet. Only powder.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "poudre",
+     "en": "gunpowder"
+    }
+   ],
+   "words": [
+    [
+     "L'homme",
+     "the man"
+    ],
+    [
+     "criait",
+     "was shouting"
+    ],
+    [
+     "qu'il n'y avait pas",
+     "that there was no"
+    ],
+    [
+     "de balle",
+     "bullet"
+    ],
+    [
+     "Seulement",
+     "only"
+    ],
+    [
+     "de la poudre",
+     "powder"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 5140,
+    "en": 4160,
+    "gl": 3270,
+    "wd": 18260
+   },
+   "bank": {
+    "fr": [
+     271710,
+     5140
+    ],
+    "en": [
+     277250,
+     4160
+    ],
+    "gl": [
+     281810,
+     3270
+    ],
+    "wd": [
+     285480,
+     18260
+    ],
+    "wp": [
+     [
+      285480,
+      2340
+     ],
+     [
+      288220,
+      2430
+     ],
+     [
+      291050,
+      3150
+     ],
+     [
+      294600,
+      2400
+     ],
+     [
+      297400,
+      2350
+     ],
+     [
+      300150,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un fou, ou un ivrogne, pensaient les gens. On l'a laissé partir. »",
+   "en": "\"A madman, or a drunkard, people thought. They let him go.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "ivrogne",
+     "en": "drunkard"
+    }
+   ],
+   "words": [
+    [
+     "Un fou",
+     "a madman"
+    ],
+    [
+     "ou",
+     "or"
+    ],
+    [
+     "un ivrogne",
+     "a drunkard"
+    ],
+    [
+     "pensaient les gens",
+     "people thought"
+    ],
+    [
+     "On l'a laissé partir",
+     "they let him go"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "gl": "audio/s010_gl.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5860,
+    "en": 4730,
+    "gl": 3650,
+    "wd": 16530
+   },
+   "bank": {
+    "fr": [
+     304140,
+     5860
+    ],
+    "en": [
+     310400,
+     4730
+    ],
+    "gl": [
+     315530,
+     3650
+    ],
+    "wd": [
+     319580,
+     16530
+    ],
+    "wp": [
+     [
+      319580,
+      2720
+     ],
+     [
+      322700,
+      1910
+     ],
+     [
+      325010,
+      2960
+     ],
+     [
+      328370,
+      3040
+     ],
+     [
+      331810,
+      3450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le ministre regardait tout cela, penché à la fenêtre, le dos tourné. »",
+   "en": "\"The minister was watching all this, leaning out of the window, his back turned.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "regardait",
+     "was watching"
+    ],
+    [
+     "tout cela",
+     "all this"
+    ],
+    [
+     "penché",
+     "leaning"
+    ],
+    [
+     "à la fenêtre",
+     "out of the window"
+    ],
+    [
+     "le dos tourné",
+     "his back turned"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 5150,
+    "en": 4790,
+    "wd": 19450
+   },
+   "bank": {
+    "fr": [
+     336510,
+     5150
+    ],
+    "en": [
+     342060,
+     4790
+    ],
+    "wd": [
+     347250,
+     19450
+    ],
+    "wp": [
+     [
+      347250,
+      2990
+     ],
+     [
+      350640,
+      2680
+     ],
+     [
+      353720,
+      2490
+     ],
+     [
+      356610,
+      2260
+     ],
+     [
+      359270,
+      3000
+     ],
+     [
+      362670,
+      3180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Moi, je me suis levé. Je suis allé à la cheminée. »",
+   "en": "\"I got up. I went to the fireplace.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Moi",
+     "I"
+    ],
+    [
+     "je me suis levé",
+     "I got up"
+    ],
+    [
+     "Je suis allé",
+     "I went"
+    ],
+    [
+     "à la cheminée",
+     "to the fireplace"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 5000,
+    "en": 3100,
+    "wd": 13260
+   },
+   "bank": {
+    "fr": [
+     367100,
+     5000
+    ],
+    "en": [
+     372500,
+     3100
+    ],
+    "wd": [
+     376000,
+     13260
+    ],
+    "wp": [
+     [
+      376000,
+      2120
+     ],
+     [
+      378520,
+      3050
+     ],
+     [
+      381970,
+      2700
+     ],
+     [
+      385070,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai pris la lettre dans le porte-cartes, et je l'ai mise dans ma poche. »",
+   "en": "\"I took the letter from the card rack, and I put it in my pocket.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai pris",
+     "I took"
+    ],
+    [
+     "la lettre",
+     "the letter"
+    ],
+    [
+     "dans le porte-cartes",
+     "from the card rack"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "je l'ai mise",
+     "I put it"
+    ],
+    [
+     "dans ma poche",
+     "in my pocket"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4690,
+    "en": 3820,
+    "wd": 19340
+   },
+   "bank": {
+    "fr": [
+     389660,
+     4690
+    ],
+    "en": [
+     394750,
+     3820
+    ],
+    "wd": [
+     398970,
+     19340
+    ],
+    "wp": [
+     [
+      398970,
+      2480
+     ],
+     [
+      401850,
+      2530
+     ],
+     [
+      404780,
+      3710
+     ],
+     [
+      408890,
+      1820
+     ],
+     [
+      411110,
+      2840
+     ],
+     [
+      414350,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« À sa place, j'ai mis une autre lettre. Une copie. »",
+   "en": "\"In its place, I put another letter. A copy.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "À sa place",
+     "in its place"
+    ],
+    [
+     "j'ai mis",
+     "I put"
+    ],
+    [
+     "une autre lettre",
+     "another letter"
+    ],
+    [
+     "Une copie",
+     "a copy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4930,
+    "en": 3800,
+    "wd": 13390
+   },
+   "bank": {
+    "fr": [
+     418710,
+     4930
+    ],
+    "en": [
+     424040,
+     3800
+    ],
+    "wd": [
+     428240,
+     13390
+    ],
+    "wp": [
+     [
+      428240,
+      3090
+     ],
+     [
+      431730,
+      2390
+     ],
+     [
+      434520,
+      3010
+     ],
+     [
+      437930,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je l'avais fabriquée chez nous, la nuit : même papier sale, même pli, même déchirure. »",
+   "en": "\"I had made it at home, in the night: same dirty paper, same fold, same tear.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Je l'avais fabriquée",
+     "I had made it"
+    ],
+    [
+     "chez nous",
+     "at home"
+    ],
+    [
+     "la nuit",
+     "in the night"
+    ],
+    [
+     "même papier sale",
+     "same dirty paper"
+    ],
+    [
+     "même pli",
+     "same fold"
+    ],
+    [
+     "même déchirure",
+     "same tear"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 6840,
+    "en": 6090,
+    "wd": 21120
+   },
+   "bank": {
+    "fr": [
+     442030,
+     6840
+    ],
+    "en": [
+     449270,
+     6090
+    ],
+    "wd": [
+     455760,
+     21120
+    ],
+    "wp": [
+     [
+      455760,
+      3420
+     ],
+     [
+      459580,
+      2410
+     ],
+     [
+      462390,
+      2670
+     ],
+     [
+      465460,
+      3690
+     ],
+     [
+      469550,
+      2900
+     ],
+     [
+      472850,
+      3180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le cachet noir, je l'avais imité avec de la mie de pain. »",
+   "en": "\"The black seal, I had imitated with the soft inside of bread.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "mie de pain",
+     "en": "the soft inside of bread"
+    }
+   ],
+   "words": [
+    [
+     "Le cachet noir",
+     "the black seal"
+    ],
+    [
+     "je l'avais imité",
+     "I had imitated it"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "de la mie de pain",
+     "soft bread"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 4200,
+    "en": 4170,
+    "gl": 4420,
+    "wd": 14020
+   },
+   "bank": {
+    "fr": [
+     477280,
+     4200
+    ],
+    "en": [
+     481880,
+     4170
+    ],
+    "gl": [
+     486450,
+     4420
+    ],
+    "wd": [
+     491270,
+     14020
+    ],
+    "wp": [
+     [
+      491270,
+      3320
+     ],
+     [
+      494990,
+      3430
+     ],
+     [
+      498820,
+      2170
+     ],
+     [
+      501390,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dans la rue, l'homme au fusil criait encore. »",
+   "en": "\"In the street, the man with the musket was still shouting.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Dans la rue",
+     "in the street"
+    ],
+    [
+     "l'homme au fusil",
+     "the man with the musket"
+    ],
+    [
+     "criait encore",
+     "was still shouting"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3570,
+    "en": 3520,
+    "wd": 11200
+   },
+   "bank": {
+    "fr": [
+     505690,
+     3570
+    ],
+    "en": [
+     509660,
+     3520
+    ],
+    "wd": [
+     513580,
+     11200
+    ],
+    "wp": [
+     [
+      513580,
+      2730
+     ],
+     [
+      516710,
+      3360
+     ],
+     [
+      520470,
+      3460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai entendu le ministre rire, à la fenêtre. »",
+   "en": "\"I heard the minister laugh, at the window.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai entendu",
+     "I heard"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "rire",
+     "laugh"
+    ],
+    [
+     "à la fenêtre",
+     "at the window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 3840,
+    "en": 2920,
+    "wd": 13140
+   },
+   "bank": {
+    "fr": [
+     525180,
+     3840
+    ],
+    "en": [
+     529420,
+     2920
+    ],
+    "wd": [
+     532740,
+     13140
+    ],
+    "wp": [
+     [
+      532740,
+      2850
+     ],
+     [
+      535990,
+      2990
+     ],
+     [
+      539380,
+      2230
+     ],
+     [
+      542010,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le ministre pouvait se retourner à chaque seconde. Mes mains ne tremblaient pas. »",
+   "en": "\"The minister could turn around at any second. My hands were not trembling.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "pouvait se retourner",
+     "could turn around"
+    ],
+    [
+     "à chaque seconde",
+     "at any second"
+    ],
+    [
+     "Mes mains",
+     "my hands"
+    ],
+    [
+     "ne tremblaient pas",
+     "were not trembling"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 5960,
+    "en": 5000,
+    "wd": 18020
+   },
+   "bank": {
+    "fr": [
+     546280,
+     5960
+    ],
+    "en": [
+     552640,
+     5000
+    ],
+    "wd": [
+     558040,
+     18020
+    ],
+    "wp": [
+     [
+      558040,
+      2990
+     ],
+     [
+      561430,
+      3450
+     ],
+     [
+      565280,
+      3300
+     ],
+     [
+      568980,
+      2690
+     ],
+     [
+      572070,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Puis je me suis rassis. Le ministre a refermé la fenêtre. »",
+   "en": "\"Then I sat back down. The minister closed the window.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "je me suis rassis",
+     "I sat back down"
+    ],
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "a refermé",
+     "closed"
+    ],
+    [
+     "la fenêtre",
+     "the window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 5180,
+    "en": 3910,
+    "wd": 16610
+   },
+   "bank": {
+    "fr": [
+     576460,
+     5180
+    ],
+    "en": [
+     582040,
+     3910
+    ],
+    "wd": [
+     586350,
+     16610
+    ],
+    "wp": [
+     [
+      586350,
+      2110
+     ],
+     [
+      588860,
+      3730
+     ],
+     [
+      592990,
+      2990
+     ],
+     [
+      596380,
+      2590
+     ],
+     [
+      599370,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Nous avons encore parlé un moment de ce fou dans la rue. Puis je suis parti. »",
+   "en": "\"We talked a while longer about that madman in the street. Then I left.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Nous avons encore parlé",
+     "we talked some more"
+    ],
+    [
+     "un moment",
+     "a while"
+    ],
+    [
+     "de ce fou",
+     "about that madman"
+    ],
+    [
+     "dans la rue",
+     "in the street"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "je suis parti",
+     "I left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 5810,
+    "en": 4400,
+    "wd": 20090
+   },
+   "bank": {
+    "fr": [
+     603360,
+     5810
+    ],
+    "en": [
+     609570,
+     4400
+    ],
+    "wd": [
+     614370,
+     20090
+    ],
+    "wp": [
+     [
+      614370,
+      3730
+     ],
+     [
+      618500,
+      2440
+     ],
+     [
+      621340,
+      3270
+     ],
+     [
+      625010,
+      2730
+     ],
+     [
+      628140,
+      2110
+     ],
+     [
+      630650,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et l'homme au fusil ? »",
+   "en": "\"And the man with the musket?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "l'homme au fusil",
+     "the man with the musket"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 1740,
+    "en": 1880,
+    "wd": 6430
+   },
+   "bank": {
+    "fr": [
+     634860,
+     1740
+    ],
+    "en": [
+     637000,
+     1880
+    ],
+    "wd": [
+     639280,
+     6430
+    ],
+    "wp": [
+     [
+      639280,
+      1820
+     ],
+     [
+      641500,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je l'avais payé, a dit Dupin. Il a très bien joué. »",
+   "en": "\"I had paid him,\" said Dupin. \"He acted very well.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Je l'avais payé",
+     "I had paid him"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ],
+    [
+     "Il a très bien joué",
+     "he acted very well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5100,
+    "en": 3950,
+    "wd": 11430
+   },
+   "bank": {
+    "fr": [
+     646110,
+     5100
+    ],
+    "en": [
+     651610,
+     3950
+    ],
+    "wd": [
+     655960,
+     11430
+    ],
+    "wp": [
+     [
+      655960,
+      3180
+     ],
+     [
+      659540,
+      2960
+     ],
+     [
+      662900,
+      3640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais pourquoi une copie ? ai-je demandé. Pourquoi ne pas prendre la lettre et partir ? »",
+   "en": "\"But why a copy?\" I asked. \"Why not take the letter and leave?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mais pourquoi",
+     "but why"
+    ],
+    [
+     "une copie",
+     "a copy"
+    ],
+    [
+     "ai-je demandé",
+     "I asked"
+    ],
+    [
+     "Pourquoi ne pas",
+     "why not"
+    ],
+    [
+     "prendre la lettre",
+     "take the letter"
+    ],
+    [
+     "et partir",
+     "and leave"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 7290,
+    "en": 4680,
+    "wd": 20230
+   },
+   "bank": {
+    "fr": [
+     667790,
+     7290
+    ],
+    "en": [
+     675480,
+     4680
+    ],
+    "wd": [
+     680560,
+     20230
+    ],
+    "wp": [
+     [
+      680560,
+      2870
+     ],
+     [
+      683830,
+      2850
+     ],
+     [
+      687080,
+      2820
+     ],
+     [
+      690300,
+      2870
+     ],
+     [
+      693570,
+      3130
+     ],
+     [
+      697100,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Parce que le ministre est dangereux, a dit Dupin. »",
+   "en": "\"Because the minister is dangerous,\" said Dupin.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Parce que",
+     "because"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "est dangereux",
+     "is dangerous"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3600,
+    "en": 3200,
+    "wd": 13720
+   },
+   "bank": {
+    "fr": [
+     701190,
+     3600
+    ],
+    "en": [
+     705190,
+     3200
+    ],
+    "wd": [
+     708790,
+     13720
+    ],
+    "wp": [
+     [
+      708790,
+      2600
+     ],
+     [
+      711790,
+      2990
+     ],
+     [
+      715180,
+      3120
+     ],
+     [
+      718700,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Si le ministre avait compris, dans son salon, je n'en serais pas sorti vivant. »",
+   "en": "\"If the minister had understood, in his drawing room, I would not have come out alive.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Si",
+     "if"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "avait compris",
+     "had understood"
+    ],
+    [
+     "dans son salon",
+     "in his drawing room"
+    ],
+    [
+     "je n'en serais pas sorti",
+     "I would not have come out"
+    ],
+    [
+     "vivant",
+     "alive"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 5460,
+    "en": 5200,
+    "wd": 20620
+   },
+   "bank": {
+    "fr": [
+     722910,
+     5460
+    ],
+    "en": [
+     728770,
+     5200
+    ],
+    "wd": [
+     734370,
+     20620
+    ],
+    "wp": [
+     [
+      734370,
+      2040
+     ],
+     [
+      736810,
+      2990
+     ],
+     [
+      740200,
+      3010
+     ],
+     [
+      743610,
+      3330
+     ],
+     [
+      747340,
+      4000
+     ],
+     [
+      751740,
+      2400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et puis, il y a mieux. Le ministre croit qu'il tient encore la reine. »",
+   "en": "\"And besides, there is something better. The minister thinks he still holds the queen.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Et puis",
+     "and besides"
+    ],
+    [
+     "il y a mieux",
+     "there is something better"
+    ],
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "croit",
+     "thinks"
+    ],
+    [
+     "qu'il tient encore",
+     "that he still holds"
+    ],
+    [
+     "la reine",
+     "the queen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 5700,
+    "en": 5240,
+    "wd": 20480
+   },
+   "bank": {
+    "fr": [
+     755390,
+     5700
+    ],
+    "en": [
+     761490,
+     5240
+    ],
+    "wd": [
+     767130,
+     20480
+    ],
+    "wp": [
+     [
+      767130,
+      2880
+     ],
+     [
+      770410,
+      3080
+     ],
+     [
+      773890,
+      2990
+     ],
+     [
+      777280,
+      2280
+     ],
+     [
+      779960,
+      3690
+     ],
+     [
+      784050,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Depuis des mois, le ministre menace la reine, et il monte, toujours plus haut. »",
+   "en": "\"For months, the minister has been threatening the queen, and rising, ever higher.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Depuis des mois",
+     "for months"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "menace",
+     "threatens"
+    ],
+    [
+     "la reine",
+     "the queen"
+    ],
+    [
+     "et",
+     "and"
+    ],
+    [
+     "il monte",
+     "he rises"
+    ],
+    [
+     "toujours plus haut",
+     "ever higher"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "en": 5510,
+    "wd": 22390
+   },
+   "bank": {
+    "fr": [
+     788010,
+     5730
+    ],
+    "en": [
+     794140,
+     5510
+    ],
+    "wd": [
+     800050,
+     22390
+    ],
+    "wp": [
+     [
+      800050,
+      3020
+     ],
+     [
+      803470,
+      2990
+     ],
+     [
+      806860,
+      2680
+     ],
+     [
+      809940,
+      2710
+     ],
+     [
+      813050,
+      1820
+     ],
+     [
+      815270,
+      2980
+     ],
+     [
+      818650,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un jour, le ministre voudra utiliser la lettre. Il va l'ouvrir. »",
+   "en": "\"One day, the minister will want to use the letter. He will open it.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Un jour",
+     "one day"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "voudra utiliser",
+     "will want to use"
+    ],
+    [
+     "la lettre",
+     "the letter"
+    ],
+    [
+     "Il va l'ouvrir",
+     "he will open it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 6140,
+    "en": 4190,
+    "wd": 17090
+   },
+   "bank": {
+    "fr": [
+     822840,
+     6140
+    ],
+    "en": [
+     829380,
+     4190
+    ],
+    "wd": [
+     833970,
+     17090
+    ],
+    "wp": [
+     [
+      833970,
+      2490
+     ],
+     [
+      836860,
+      2990
+     ],
+     [
+      840250,
+      3370
+     ],
+     [
+      844020,
+      2530
+     ],
+     [
+      846950,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais la reine a déjà sa vraie lettre. Le ministre ne le sait pas. »",
+   "en": "\"But the queen already has her real letter. The minister does not know it.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "la reine",
+     "the queen"
+    ],
+    [
+     "a déjà",
+     "already has"
+    ],
+    [
+     "sa vraie lettre",
+     "her real letter"
+    ],
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "ne le sait pas",
+     "does not know it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5260,
+    "en": 4440,
+    "wd": 19460
+   },
+   "bank": {
+    "fr": [
+     851460,
+     5260
+    ],
+    "en": [
+     857120,
+     4440
+    ],
+    "wd": [
+     861960,
+     19460
+    ],
+    "wp": [
+     [
+      861960,
+      1920
+     ],
+     [
+      864280,
+      2710
+     ],
+     [
+      867390,
+      2800
+     ],
+     [
+      870590,
+      3180
+     ],
+     [
+      874170,
+      2990
+     ],
+     [
+      877560,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce jour-là, la reine rira de lui. Et le ministre tombera. »",
+   "en": "\"That day, the queen will laugh at him. And the minister will fall.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce jour-là",
+     "that day"
+    ],
+    [
+     "la reine",
+     "the queen"
+    ],
+    [
+     "rira de lui",
+     "will laugh at him"
+    ],
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "le ministre",
+     "the minister"
+    ],
+    [
+     "tombera",
+     "will fall"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 5780,
+    "en": 4300,
+    "wd": 18780
+   },
+   "bank": {
+    "fr": [
+     881820,
+     5780
+    ],
+    "en": [
+     888000,
+     4300
+    ],
+    "wd": [
+     892700,
+     18780
+    ],
+    "wp": [
+     [
+      892700,
+      2610
+     ],
+     [
+      895710,
+      2710
+     ],
+     [
+      898820,
+      3080
+     ],
+     [
+      902300,
+      1820
+     ],
+     [
+      904520,
+      2990
+     ],
+     [
+      907910,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quand on monte si haut, la chute est terrible. »",
+   "en": "\"When one climbs so high, the fall is terrible.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Quand on monte",
+     "when one climbs"
+    ],
+    [
+     "si haut",
+     "so high"
+    ],
+    [
+     "la chute",
+     "the fall"
+    ],
+    [
+     "est terrible",
+     "is terrible"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 3360,
+    "en": 3460,
+    "wd": 13580
+   },
+   "bank": {
+    "fr": [
+     911880,
+     3360
+    ],
+    "en": [
+     915640,
+     3460
+    ],
+    "wd": [
+     919500,
+     13580
+    ],
+    "wp": [
+     [
+      919500,
+      3290
+     ],
+     [
+      923190,
+      2600
+     ],
+     [
+      926190,
+      2730
+     ],
+     [
+      929320,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vous le plaignez ? »",
+   "en": "\"Do you pity him?\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "plaignez",
+     "en": "pity (from plaindre, to pity)"
+    }
+   ],
+   "words": [
+    [
+     "Vous le plaignez",
+     "do you pity him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "gl": "audio/s033_gl.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 1650,
+    "en": 1540,
+    "gl": 4600,
+    "wd": 3880
+   },
+   "bank": {
+    "fr": [
+     933480,
+     1650
+    ],
+    "en": [
+     935530,
+     1540
+    ],
+    "gl": [
+     937470,
+     4600
+    ],
+    "wd": [
+     942470,
+     3880
+    ],
+    "wp": [
+     [
+      942470,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Non. C'est un homme de génie sans aucun principe. Un monstre. »",
+   "en": "\"No. He is a man of genius without any principles. A monster.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Non",
+     "no"
+    ],
+    [
+     "C'est",
+     "he is"
+    ],
+    [
+     "un homme de génie",
+     "a man of genius"
+    ],
+    [
+     "sans aucun principe",
+     "without any principle"
+    ],
+    [
+     "Un monstre",
+     "a monster"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 6360,
+    "en": 5090,
+    "wd": 17050
+   },
+   "bank": {
+    "fr": [
+     946750,
+     6360
+    ],
+    "en": [
+     953510,
+     5090
+    ],
+    "wd": [
+     959000,
+     17050
+    ],
+    "wp": [
+     [
+      959000,
+      2080
+     ],
+     [
+      961480,
+      2250
+     ],
+     [
+      964130,
+      3630
+     ],
+     [
+      968160,
+      3790
+     ],
+     [
+      972350,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et dans la copie, qu'est-ce que vous avez écrit ? »",
+   "en": "\"And in the copy, what did you write?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "dans la copie",
+     "in the copy"
+    ],
+    [
+     "qu'est-ce que vous avez écrit",
+     "what did you write"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "en": 2620,
+    "wd": 10060
+   },
+   "bank": {
+    "fr": [
+     976450,
+     3310
+    ],
+    "en": [
+     980160,
+     2620
+    ],
+    "wd": [
+     983180,
+     10060
+    ],
+    "wp": [
+     [
+      983180,
+      1820
+     ],
+     [
+      985400,
+      3070
+     ],
+     [
+      988870,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Une page blanche aurait été une insulte, a dit Dupin. »",
+   "en": "\"A blank page would have been an insult,\" said Dupin.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Une page blanche",
+     "a blank page"
+    ],
+    [
+     "aurait été",
+     "would have been"
+    ],
+    [
+     "une insulte",
+     "an insult"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 4000,
+    "en": 3460,
+    "wd": 14050
+   },
+   "bank": {
+    "fr": [
+     993640,
+     4000
+    ],
+    "en": [
+     998040,
+     3460
+    ],
+    "wd": [
+     1001900,
+     14050
+    ],
+    "wp": [
+     [
+      1001900,
+      3390
+     ],
+     [
+      1005690,
+      2730
+     ],
+     [
+      1008820,
+      2920
+     ],
+     [
+      1012140,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le ministre connaît mon écriture. Je voulais qu'il sache qui l'avait battu. »",
+   "en": "\"The minister knows my handwriting. I wanted him to know who had beaten him.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "connaît",
+     "knows"
+    ],
+    [
+     "mon écriture",
+     "my handwriting"
+    ],
+    [
+     "Je voulais",
+     "I wanted"
+    ],
+    [
+     "qu'il sache",
+     "him to know"
+    ],
+    [
+     "qui l'avait battu",
+     "who had beaten him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 6060,
+    "en": 4320,
+    "wd": 19770
+   },
+   "bank": {
+    "fr": [
+     1016350,
+     6060
+    ],
+    "en": [
+     1022810,
+     4320
+    ],
+    "wd": [
+     1027530,
+     19770
+    ],
+    "wp": [
+     [
+      1027530,
+      2990
+     ],
+     [
+      1030920,
+      2309
+     ],
+     [
+      1033630,
+      3110
+     ],
+     [
+      1037140,
+      2530
+     ],
+     [
+      1040070,
+      2740
+     ],
+     [
+      1043210,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Alors j'ai écrit deux vers, au milieu de la page. »",
+   "en": "\"So I wrote two lines of verse, in the middle of the page.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "j'ai écrit",
+     "I wrote"
+    ],
+    [
+     "deux vers",
+     "two lines of verse"
+    ],
+    [
+     "au milieu de",
+     "in the middle of"
+    ],
+    [
+     "la page",
+     "the page"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 3760,
+    "en": 3680,
+    "wd": 16510
+   },
+   "bank": {
+    "fr": [
+     1047700,
+     3760
+    ],
+    "en": [
+     1051860,
+     3680
+    ],
+    "wd": [
+     1055940,
+     16510
+    ],
+    "wp": [
+     [
+      1055940,
+      2270
+     ],
+     [
+      1058610,
+      2830
+     ],
+     [
+      1061840,
+      3240
+     ],
+     [
+      1065480,
+      2840
+     ],
+     [
+      1068720,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Et Dupin a récité, dans le noir, de sa voix froide :",
+   "en": "And Dupin recited, in the dark, in his cold voice:",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "a récité",
+     "recited"
+    ],
+    [
+     "dans le noir",
+     "in the dark"
+    ],
+    [
+     "de sa voix froide",
+     "in his cold voice"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4420,
+    "en": 3730,
+    "wd": 15970
+   },
+   "bank": {
+    "fr": [
+     1072850,
+     4420
+    ],
+    "en": [
+     1077670,
+     3730
+    ],
+    "wd": [
+     1081800,
+     15970
+    ],
+    "wp": [
+     [
+      1081800,
+      1820
+     ],
+     [
+      1084020,
+      2550
+     ],
+     [
+      1086970,
+      2620
+     ],
+     [
+      1089989,
+      2940
+     ],
+     [
+      1093330,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un dessein si funeste, s'il n'est digne d'Atrée, est digne de Thyeste. »",
+   "en": "\"A scheme so deadly, if it is not worthy of Atreus, is worthy of Thyestes.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "dessein",
+     "en": "plan, scheme"
+    },
+    {
+     "fr": "funeste",
+     "en": "deadly"
+    }
+   ],
+   "words": [
+    [
+     "Un dessein",
+     "a scheme"
+    ],
+    [
+     "si funeste",
+     "so deadly"
+    ],
+    [
+     "s'il n'est digne",
+     "if it is not worthy"
+    ],
+    [
+     "d'Atrée",
+     "of Atreus"
+    ],
+    [
+     "est digne",
+     "is worthy"
+    ],
+    [
+     "de Thyeste",
+     "of Thyestes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "gl": "audio/s040_gl.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5080,
+    "en": 5130,
+    "gl": 7230,
+    "wd": 20540
+   },
+   "bank": {
+    "fr": [
+     1098170,
+     5080
+    ],
+    "en": [
+     1103650,
+     5130
+    ],
+    "gl": [
+     1109180,
+     7230
+    ],
+    "wd": [
+     1116810,
+     20540
+    ],
+    "wp": [
+     [
+      1116810,
+      2720
+     ],
+     [
+      1119930,
+      3030
+     ],
+     [
+      1123360,
+      3380
+     ],
+     [
+      1127140,
+      2850
+     ],
+     [
+      1130390,
+      2680
+     ],
+     [
+      1133470,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est de Crébillon, a-t-il ajouté. Atrée et Thyeste sont deux frères qui se vengent l'un de l'autre. »",
+   "en": "\"It is by Crébillon,\" he added. \"Atreus and Thyestes are two brothers who take revenge on each other.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "se vengent",
+     "en": "take revenge"
+    }
+   ],
+   "words": [
+    [
+     "C'est de Crébillon",
+     "it is by Crébillon"
+    ],
+    [
+     "a-t-il ajouté",
+     "he added"
+    ],
+    [
+     "Atrée et Thyeste",
+     "Atreus and Thyestes"
+    ],
+    [
+     "sont deux frères",
+     "are two brothers"
+    ],
+    [
+     "qui se vengent",
+     "who take revenge"
+    ],
+    [
+     "l'un de l'autre",
+     "on each other"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "gl": "audio/s041_gl.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 7420,
+    "en": 6050,
+    "gl": 4080,
+    "wd": 22680
+   },
+   "bank": {
+    "fr": [
+     1137750,
+     7420
+    ],
+    "en": [
+     1145570,
+     6050
+    ],
+    "gl": [
+     1152020,
+     4080
+    ],
+    "wd": [
+     1156500,
+     22680
+    ],
+    "wp": [
+     [
+      1156500,
+      3370
+     ],
+     [
+      1160270,
+      2800
+     ],
+     [
+      1163470,
+      4070
+     ],
+     [
+      1167940,
+      3440
+     ],
+     [
+      1171780,
+      3270
+     ],
+     [
+      1175450,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Se vengent ? Dupin, qu'est-ce que cet homme vous a fait ? »",
+   "en": "\"Take revenge? Dupin, what did that man do to you?\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Se vengent",
+     "take revenge"
+    ],
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "qu'est-ce que",
+     "what"
+    ],
+    [
+     "cet homme",
+     "that man"
+    ],
+    [
+     "vous a fait",
+     "did to you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 4740,
+    "en": 3910,
+    "wd": 15720
+   },
+   "bank": {
+    "fr": [
+     1179580,
+     4740
+    ],
+    "en": [
+     1184720,
+     3910
+    ],
+    "wd": [
+     1189030,
+     15720
+    ],
+    "wp": [
+     [
+      1189030,
+      3060
+     ],
+     [
+      1192490,
+      2550
+     ],
+     [
+      1195440,
+      2300
+     ],
+     [
+      1198140,
+      2680
+     ],
+     [
+      1201220,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« À Vienne, autrefois, le ministre D… m'a joué un mauvais tour. »",
+   "en": "\"In Vienna, long ago, the minister D… played a nasty trick on me.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "mauvais tour",
+     "en": "nasty trick"
+    }
+   ],
+   "words": [
+    [
+     "À Vienne",
+     "in Vienna"
+    ],
+    [
+     "autrefois",
+     "long ago"
+    ],
+    [
+     "le ministre D…",
+     "the minister D…"
+    ],
+    [
+     "m'a joué",
+     "played on me"
+    ],
+    [
+     "un mauvais tour",
+     "a nasty trick"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "gl": "audio/s043_gl.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 5270,
+    "en": 4920,
+    "gl": 4210,
+    "wd": 17380
+   },
+   "bank": {
+    "fr": [
+     1205150,
+     5270
+    ],
+    "en": [
+     1210820,
+     4920
+    ],
+    "gl": [
+     1216140,
+     4210
+    ],
+    "wd": [
+     1220750,
+     17380
+    ],
+    "wp": [
+     [
+      1220750,
+      2690
+     ],
+     [
+      1223840,
+      2770
+     ],
+     [
+      1227010,
+      3360
+     ],
+     [
+      1230770,
+      2770
+     ],
+     [
+      1233940,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je lui ai dit, en riant, que je m'en souviendrais. Il a ri aussi. »",
+   "en": "\"I told him, laughing, that I would remember it. He laughed too.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je lui ai dit",
+     "I told him"
+    ],
+    [
+     "en riant",
+     "laughing"
+    ],
+    [
+     "que je m'en souviendrais",
+     "that I would remember it"
+    ],
+    [
+     "Il a ri aussi",
+     "he laughed too"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 5900,
+    "en": 4400,
+    "wd": 14340
+   },
+   "bank": {
+    "fr": [
+     1238530,
+     5900
+    ],
+    "en": [
+     1244830,
+     4400
+    ],
+    "wd": [
+     1249630,
+     14340
+    ],
+    "wp": [
+     [
+      1249630,
+      3090
+     ],
+     [
+      1253120,
+      2410
+     ],
+     [
+      1255930,
+      3560
+     ],
+     [
+      1259890,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il ne rira plus. »",
+   "en": "\"He will not laugh any more.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Il ne rira plus",
+     "he will not laugh any more"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 1850,
+    "en": 2160,
+    "wd": 4600
+   },
+   "bank": {
+    "fr": [
+     1264370,
+     1850
+    ],
+    "en": [
+     1266620,
+     2160
+    ],
+    "wd": [
+     1269180,
+     4600
+    ],
+    "wp": [
+     [
+      1269180,
+      3750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai regardé mon ami, dans la bibliothèque sans lumière.",
+   "en": "I looked at my friend, in the library without light.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai regardé",
+     "I looked at"
+    ],
+    [
+     "mon ami",
+     "my friend"
+    ],
+    [
+     "dans la bibliothèque",
+     "in the library"
+    ],
+    [
+     "sans lumière",
+     "without light"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 4360,
+    "en": 3400,
+    "wd": 14190
+   },
+   "bank": {
+    "fr": [
+     1274180,
+     4360
+    ],
+    "en": [
+     1278940,
+     3400
+    ],
+    "wd": [
+     1282740,
+     14190
+    ],
+    "wp": [
+     [
+      1282740,
+      2840
+     ],
+     [
+      1285980,
+      2630
+     ],
+     [
+      1289010,
+      3600
+     ],
+     [
+      1293010,
+      3070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je ne voyais que le petit feu rouge de sa pipe.",
+   "en": "I could see only the small red glow of his pipe.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne voyais que",
+     "I could see only"
+    ],
+    [
+     "le petit feu rouge",
+     "the small red glow"
+    ],
+    [
+     "de sa pipe",
+     "of his pipe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 3370,
+    "en": 3220,
+    "wd": 11810
+   },
+   "bank": {
+    "fr": [
+     1297330,
+     3370
+    ],
+    "en": [
+     1301100,
+     3220
+    ],
+    "wd": [
+     1304720,
+     11810
+    ],
+    "wp": [
+     [
+      1304720,
+      3430
+     ],
+     [
+      1308550,
+      3800
+     ],
+     [
+      1312749,
+      2930
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant tout ce temps, j'avais cru que Dupin aidait la reine.",
+   "en": "All this time, I had believed Dupin was helping the queen.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant tout ce temps",
+     "all this time"
+    ],
+    [
+     "j'avais cru",
+     "I had believed"
+    ],
+    [
+     "que Dupin aidait",
+     "that Dupin was helping"
+    ],
+    [
+     "la reine",
+     "the queen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "en": 3750,
+    "wd": 14530
+   },
+   "bank": {
+    "fr": [
+     1316930,
+     4040
+    ],
+    "en": [
+     1321370,
+     3750
+    ],
+    "wd": [
+     1325520,
+     14530
+    ],
+    "wp": [
+     [
+      1325520,
+      3220
+     ],
+     [
+      1329140,
+      3050
+     ],
+     [
+      1332590,
+      3500
+     ],
+     [
+      1336490,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Peut-être. Mais Dupin pensait surtout à Vienne.",
+   "en": "Perhaps. But Dupin was thinking above all of Vienna.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Peut-être",
+     "perhaps"
+    ],
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "pensait surtout",
+     "was thinking above all"
+    ],
+    [
+     "à Vienne",
+     "of Vienna"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 4540,
+    "en": 3920,
+    "wd": 15690
+   },
+   "bank": {
+    "fr": [
+     1340450,
+     4540
+    ],
+    "en": [
+     1345390,
+     3920
+    ],
+    "wd": [
+     1349710,
+     15690
+    ],
+    "wp": [
+     [
+      1349710,
+      2650
+     ],
+     [
+      1352760,
+      1920
+     ],
+     [
+      1355080,
+      2550
+     ],
+     [
+      1358030,
+      3410
+     ],
+     [
+      1361840,
+      2710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Combien d'années avait-il attendu cette vengeance ? Je n'ai pas osé demander.",
+   "en": "How many years had he waited for this revenge? I did not dare ask.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "vengeance",
+     "en": "revenge"
+    }
+   ],
+   "words": [
+    [
+     "Combien d'années",
+     "how many years"
+    ],
+    [
+     "avait-il attendu",
+     "had he waited"
+    ],
+    [
+     "cette vengeance",
+     "this revenge"
+    ],
+    [
+     "Je n'ai pas osé",
+     "I did not dare"
+    ],
+    [
+     "demander",
+     "to ask"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "gl": "audio/s050_gl.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 5710,
+    "en": 4540,
+    "gl": 3870,
+    "wd": 18080
+   },
+   "bank": {
+    "fr": [
+     1365800,
+     5710
+    ],
+    "en": [
+     1371910,
+     4540
+    ],
+    "gl": [
+     1376850,
+     3870
+    ],
+    "wd": [
+     1381120,
+     18080
+    ],
+    "wp": [
+     [
+      1381120,
+      3040
+     ],
+     [
+      1384560,
+      3240
+     ],
+     [
+      1388200,
+      3390
+     ],
+     [
+      1391990,
+      3400
+     ],
+     [
+      1395790,
+      2560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et les cinquante mille francs ? » ai-je demandé.",
+   "en": "\"And the fifty thousand francs?\" I asked.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "les cinquante mille francs",
+     "the fifty thousand francs"
+    ],
+    [
+     "ai-je demandé",
+     "I asked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 3240,
+    "en": 3220,
+    "wd": 10410
+   },
+   "bank": {
+    "fr": [
+     1399600,
+     3240
+    ],
+    "en": [
+     1403240,
+     3220
+    ],
+    "wd": [
+     1406860,
+     10410
+    ],
+    "wp": [
+     [
+      1406860,
+      1820
+     ],
+     [
+      1409080,
+      4120
+     ],
+     [
+      1413600,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Nous sommes pauvres, a dit Dupin. La reine est riche. Tout le monde est content. »",
+   "en": "\"We are poor,\" said Dupin. \"The queen is rich. Everyone is happy.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Nous sommes pauvres",
+     "we are poor"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ],
+    [
+     "La reine",
+     "the queen"
+    ],
+    [
+     "est riche",
+     "is rich"
+    ],
+    [
+     "Tout le monde",
+     "everyone"
+    ],
+    [
+     "est content",
+     "is happy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 7140,
+    "en": 5130,
+    "wd": 19870
+   },
+   "bank": {
+    "fr": [
+     1417670,
+     7140
+    ],
+    "en": [
+     1425210,
+     5130
+    ],
+    "wd": [
+     1430740,
+     19870
+    ],
+    "wp": [
+     [
+      1430740,
+      3260
+     ],
+     [
+      1434400,
+      2960
+     ],
+     [
+      1437760,
+      2710
+     ],
+     [
+      1440870,
+      2750
+     ],
+     [
+      1444020,
+      2640
+     ],
+     [
+      1447060,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a souri. Je l'ai entendu sourire, dans le noir.",
+   "en": "Dupin smiled. I heard him smile, in the dark.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "a souri",
+     "smiled"
+    ],
+    [
+     "Je l'ai entendu",
+     "I heard him"
+    ],
+    [
+     "sourire",
+     "smile"
+    ],
+    [
+     "dans le noir",
+     "in the dark"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 5430,
+    "en": 3710,
+    "wd": 16010
+   },
+   "bank": {
+    "fr": [
+     1451010,
+     5430
+    ],
+    "en": [
+     1456840,
+     3710
+    ],
+    "wd": [
+     1460950,
+     16010
+    ],
+    "wp": [
+     [
+      1460950,
+      2550
+     ],
+     [
+      1463900,
+      2470
+     ],
+     [
+      1466770,
+      3090
+     ],
+     [
+      1470260,
+      2510
+     ],
+     [
+      1473170,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant que nous parlions, le préfet portait déjà la lettre à la reine.",
+   "en": "While we were talking, the prefect was already taking the letter to the queen.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant que",
+     "while"
+    ],
+    [
+     "nous parlions",
+     "we were talking"
+    ],
+    [
+     "le préfet",
+     "the prefect"
+    ],
+    [
+     "portait déjà",
+     "was already taking"
+    ],
+    [
+     "la lettre",
+     "the letter"
+    ],
+    [
+     "à la reine",
+     "to the queen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 4370,
+    "wd": 19800
+   },
+   "bank": {
+    "fr": [
+     1477360,
+     4650
+    ],
+    "en": [
+     1482410,
+     4370
+    ],
+    "wd": [
+     1487180,
+     19800
+    ],
+    "wp": [
+     [
+      1487180,
+      2530
+     ],
+     [
+      1490110,
+      2950
+     ],
+     [
+      1493460,
+      2850
+     ],
+     [
+      1496710,
+      3270
+     ],
+     [
+      1500380,
+      2530
+     ],
+     [
+      1503309,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dehors, dans la rue Dunôt, il était plus de minuit.",
+   "en": "Outside, on rue Dunôt, it was past midnight.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Dehors",
+     "outside"
+    ],
+    [
+     "dans la rue Dunôt",
+     "on rue Dunôt"
+    ],
+    [
+     "il était",
+     "it was"
+    ],
+    [
+     "plus de minuit",
+     "past midnight"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 4100,
+    "en": 3760,
+    "wd": 13200
+   },
+   "bank": {
+    "fr": [
+     1507380,
+     4100
+    ],
+    "en": [
+     1511880,
+     3760
+    ],
+    "wd": [
+     1516040,
+     13200
+    ],
+    "wp": [
+     [
+      1516040,
+      2510
+     ],
+     [
+      1518950,
+      3100
+     ],
+     [
+      1522450,
+      2390
+     ],
+     [
+      1525240,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelque part dans Paris, un ministre dormait tranquille.",
+   "en": "Somewhere in Paris, a minister was sleeping peacefully.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Quelque part",
+     "somewhere"
+    ],
+    [
+     "dans Paris",
+     "in Paris"
+    ],
+    [
+     "un ministre",
+     "a minister"
+    ],
+    [
+     "dormait",
+     "was sleeping"
+    ],
+    [
+     "tranquille",
+     "peacefully"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 4019,
+    "wd": 15990
+   },
+   "bank": {
+    "fr": [
+     1529640,
+     4019
+    ],
+    "en": [
+     1534060,
+     4019
+    ],
+    "wd": [
+     1538480,
+     15990
+    ],
+    "wp": [
+     [
+      1538480,
+      2740
+     ],
+     [
+      1541620,
+      2750
+     ],
+     [
+      1544770,
+      2970
+     ],
+     [
+      1548140,
+      2490
+     ],
+     [
+      1551030,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au-dessus de sa cheminée pendait une lettre sale, avec deux vers de Crébillon dedans.",
+   "en": "Above his fireplace hung a dirty letter, with two lines of Crébillon inside.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Au-dessus de",
+     "above"
+    ],
+    [
+     "sa cheminée",
+     "his fireplace"
+    ],
+    [
+     "pendait",
+     "hung"
+    ],
+    [
+     "une lettre sale",
+     "a dirty letter"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "deux vers",
+     "two lines of verse"
+    ],
+    [
+     "de Crébillon",
+     "by Crébillon"
+    ],
+    [
+     "dedans",
+     "inside"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 5440,
+    "en": 4900,
+    "wd": 25660
+   },
+   "bank": {
+    "fr": [
+     1554870,
+     5440
+    ],
+    "en": [
+     1560710,
+     4900
+    ],
+    "wd": [
+     1566010,
+     25660
+    ],
+    "wp": [
+     [
+      1566010,
+      2550
+     ],
+     [
+      1568960,
+      3270
+     ],
+     [
+      1572630,
+      2210
+     ],
+     [
+      1575240,
+      3250
+     ],
+     [
+      1578890,
+      2170
+     ],
+     [
+      1581460,
+      3240
+     ],
+     [
+      1585100,
+      2930
+     ],
+     [
+      1588430,
+      2390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le ministre ne savait pas encore. Mais un jour, il allait ouvrir cette lettre.",
+   "en": "The minister did not know yet. But one day, he was going to open that letter.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le ministre",
+     "the minister"
+    ],
+    [
+     "ne savait pas encore",
+     "did not know yet"
+    ],
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "un jour",
+     "one day"
+    ],
+    [
+     "il allait ouvrir",
+     "he was going to open"
+    ],
+    [
+     "cette lettre",
+     "that letter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 6570,
+    "en": 4880,
+    "wd": 20140
+   },
+   "bank": {
+    "fr": [
+     1592070,
+     6570
+    ],
+    "en": [
+     1599040,
+     4880
+    ],
+    "wd": [
+     1604320,
+     20140
+    ],
+    "wp": [
+     [
+      1604320,
+      2990
+     ],
+     [
+      1607710,
+      3620
+     ],
+     [
+      1611730,
+      1920
+     ],
+     [
+      1614050,
+      2490
+     ],
+     [
+      1616940,
+      3510
+     ],
+     [
+      1620850,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce jour-là, j'aurais voulu voir son visage. Dupin, lui, le voyait déjà.",
+   "en": "That day, I would have liked to see his face. Dupin was already seeing it.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ce jour-là",
+     "that day"
+    ],
+    [
+     "j'aurais voulu",
+     "I would have liked"
+    ],
+    [
+     "voir",
+     "to see"
+    ],
+    [
+     "son visage",
+     "his face"
+    ],
+    [
+     "Dupin",
+     "Dupin"
+    ],
+    [
+     "lui",
+     "as for him"
+    ],
+    [
+     "le voyait déjà",
+     "was already seeing it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 7070,
+    "en": 4950,
+    "wd": 23090
+   },
+   "bank": {
+    "fr": [
+     1624860,
+     7070
+    ],
+    "en": [
+     1632330,
+     4950
+    ],
+    "wd": [
+     1637680,
+     23090
+    ],
+    "wp": [
+     [
+      1637680,
+      2610
+     ],
+     [
+      1640690,
+      3240
+     ],
+     [
+      1644330,
+      2460
+     ],
+     [
+      1647190,
+      3110
+     ],
+     [
+      1650700,
+      2550
+     ],
+     [
+      1653650,
+      2360
+     ],
+     [
+      1656410,
+      3510
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   23460
+  ],
+  "silence": [
+   24260,
+   30000
+  ]
+ }
+}

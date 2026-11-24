@@ -1,0 +1,4775 @@
+{
+ "id": "fr_poe_dupin_04",
+ "lang": "fr",
+ "title": "Les enquêtes de Dupin : la confession du marin",
+ "author": "Adapted from Edgar Allan Poe (1841)",
+ "level": "B1",
+ "series": "Les enquêtes de Dupin",
+ "episode": "4",
+ "note": "A sailor knocks at the door to collect his orangutan, and Dupin locks the door behind him. The sailor's confession, his confession, tells what really happened that night in the rue Morgue.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 21360,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "La porte s'est ouverte, et un homme est entré. C'était un marin.",
+   "en": "The door opened, and a man came in. He was a sailor.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La porte s'est ouverte",
+     "the door opened"
+    ],
+    [
+     "un homme est entré",
+     "a man came in"
+    ],
+    [
+     "C'était un marin",
+     "he was a sailor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5650,
+    "en": 4090,
+    "wd": 12080
+   },
+   "bank": {
+    "fr": [
+     52560,
+     5650
+    ],
+    "en": [
+     58610,
+     4090
+    ],
+    "wd": [
+     63100,
+     12080
+    ],
+    "wp": [
+     [
+      63100,
+      3800
+     ],
+     [
+      67300,
+      3340
+     ],
+     [
+      71040,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin était grand, large d'épaules, et son visage était brûlé par le soleil.",
+   "en": "The sailor was tall, broad-shouldered, and his face was burnt by the sun.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le marin",
+     "the sailor"
+    ],
+    [
+     "était grand",
+     "was tall"
+    ],
+    [
+     "large d'épaules",
+     "broad-shouldered"
+    ],
+    [
+     "son visage",
+     "his face"
+    ],
+    [
+     "était brûlé par le soleil",
+     "was burnt by the sun"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 5800,
+    "en": 4810,
+    "wd": 18170
+   },
+   "bank": {
+    "fr": [
+     75580,
+     5800
+    ],
+    "en": [
+     81780,
+     4810
+    ],
+    "wd": [
+     86990,
+     18170
+    ],
+    "wp": [
+     [
+      86990,
+      2730
+     ],
+     [
+      90120,
+      2610
+     ],
+     [
+      93130,
+      3200
+     ],
+     [
+      96730,
+      3110
+     ],
+     [
+      100240,
+      4070
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin tenait un gros bâton à la main.",
+   "en": "The sailor was holding a big stick in his hand.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "bâton",
+     "en": "stick, club"
+    }
+   ],
+   "words": [
+    [
+     "tenait",
+     "was holding"
+    ],
+    [
+     "un gros bâton",
+     "a big stick"
+    ],
+    [
+     "à la main",
+     "in his hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 2910,
+    "en": 3240,
+    "gl": 3860,
+    "wd": 9910
+   },
+   "bank": {
+    "fr": [
+     105560,
+     2910
+    ],
+    "en": [
+     108870,
+     3240
+    ],
+    "gl": [
+     112510,
+     3860
+    ],
+    "wd": [
+     116770,
+     9910
+    ],
+    "wp": [
+     [
+      116770,
+      2430
+     ],
+     [
+      119600,
+      3110
+     ],
+     [
+      123110,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Bonjour, messieurs », a dit le marin, avec un accent de Paris.",
+   "en": "\"Good day, gentlemen,\" said the sailor, with a Paris accent.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Bonjour",
+     "good day"
+    ],
+    [
+     "messieurs",
+     "gentlemen"
+    ],
+    [
+     "a dit le marin",
+     "said the sailor"
+    ],
+    [
+     "avec un accent de Paris",
+     "with a Paris accent"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5210,
+    "en": 4080,
+    "wd": 14140
+   },
+   "bank": {
+    "fr": [
+     127080,
+     5210
+    ],
+    "en": [
+     132690,
+     4080
+    ],
+    "wd": [
+     137170,
+     14140
+    ],
+    "wp": [
+     [
+      137170,
+      2630
+     ],
+     [
+      140200,
+      2380
+     ],
+     [
+      142980,
+      3140
+     ],
+     [
+      146520,
+      3940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Asseyez-vous, mon ami, a dit Dupin. Vous venez pour l'orang-outan, n'est-ce pas ? »",
+   "en": "\"Sit down, my friend,\" said Dupin. \"You've come for the orangutan, haven't you?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Asseyez-vous",
+     "sit down"
+    ],
+    [
+     "mon ami",
+     "my friend"
+    ],
+    [
+     "Vous venez pour",
+     "you've come for"
+    ],
+    [
+     "l'orang-outan",
+     "the orangutan"
+    ],
+    [
+     "n'est-ce pas",
+     "haven't you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 6870,
+    "en": 5250,
+    "wd": 16930
+   },
+   "bank": {
+    "fr": [
+     151710,
+     6870
+    ],
+    "en": [
+     158980,
+     5250
+    ],
+    "wd": [
+     164630,
+     16930
+    ],
+    "wp": [
+     [
+      164630,
+      2790
+     ],
+     [
+      167820,
+      2630
+     ],
+     [
+      170850,
+      3270
+     ],
+     [
+      174520,
+      3200
+     ],
+     [
+      178120,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'est un très bel animal. Il doit valoir cher. Quel âge a-t-il ? »",
+   "en": "\"It's a very fine animal. It must be worth a lot. How old is it?\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "C'est un très bel animal",
+     "it's a very fine animal"
+    ],
+    [
+     "Il doit valoir cher",
+     "it must be worth a lot"
+    ],
+    [
+     "Quel âge a-t-il",
+     "how old is it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 6670,
+    "en": 4820,
+    "wd": 13070
+   },
+   "bank": {
+    "fr": [
+     181960,
+     6670
+    ],
+    "en": [
+     189030,
+     4820
+    ],
+    "wd": [
+     194250,
+     13070
+    ],
+    "wp": [
+     [
+      194250,
+      4240
+     ],
+     [
+      198890,
+      4020
+     ],
+     [
+      203310,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin a respiré, comme un homme soulagé. « Quatre ou cinq ans, monsieur. »",
+   "en": "The sailor breathed out, like a relieved man. \"Four or five years, sir.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "a respiré",
+     "breathed out"
+    ],
+    [
+     "comme un homme soulagé",
+     "like a relieved man"
+    ],
+    [
+     "Quatre ou cinq ans",
+     "four or five years"
+    ],
+    [
+     "monsieur",
+     "sir"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 6700,
+    "en": 5430,
+    "wd": 14500
+   },
+   "bank": {
+    "fr": [
+     207720,
+     6700
+    ],
+    "en": [
+     214820,
+     5430
+    ],
+    "wd": [
+     220650,
+     14500
+    ],
+    "wp": [
+     [
+      220650,
+      2700
+     ],
+     [
+      223750,
+      3790
+     ],
+     [
+      227940,
+      3690
+     ],
+     [
+      232030,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je vais vous payer une récompense, bien sûr, a dit le marin. Une récompense raisonnable. »",
+   "en": "\"I'll pay you a reward, of course,\" said the sailor. \"A reasonable reward.\"",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "récompense",
+     "en": "reward"
+    }
+   ],
+   "words": [
+    [
+     "Je vais vous payer",
+     "I'll pay you"
+    ],
+    [
+     "une récompense",
+     "a reward"
+    ],
+    [
+     "bien sûr",
+     "of course"
+    ],
+    [
+     "a dit le marin",
+     "said the sailor"
+    ],
+    [
+     "raisonnable",
+     "reasonable"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 7480,
+    "en": 4970,
+    "gl": 3850,
+    "wd": 17390
+   },
+   "bank": {
+    "fr": [
+     235550,
+     7480
+    ],
+    "en": [
+     243430,
+     4970
+    ],
+    "gl": [
+     248800,
+     3850
+    ],
+    "wd": [
+     253050,
+     17390
+    ],
+    "wp": [
+     [
+      253050,
+      3100
+     ],
+     [
+      256550,
+      3180
+     ],
+     [
+      260130,
+      2720
+     ],
+     [
+      263250,
+      3140
+     ],
+     [
+      266790,
+      2800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je ne veux pas d'argent, a dit Dupin. Je veux une autre récompense. »",
+   "en": "\"I don't want money,\" said Dupin. \"I want a different reward.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne veux pas d'argent",
+     "I don't want money"
+    ],
+    [
+     "a dit Dupin",
+     "said Dupin"
+    ],
+    [
+     "Je veux",
+     "I want"
+    ],
+    [
+     "une autre récompense",
+     "a different reward"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 5870,
+    "en": 3940,
+    "wd": 14690
+   },
+   "bank": {
+    "fr": [
+     270840,
+     5870
+    ],
+    "en": [
+     277110,
+     3940
+    ],
+    "wd": [
+     281450,
+     14690
+    ],
+    "wp": [
+     [
+      281450,
+      3500
+     ],
+     [
+      285350,
+      2960
+     ],
+     [
+      288710,
+      2490
+     ],
+     [
+      291600,
+      3690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Racontez-moi tout sur les crimes de la rue Morgue. »",
+   "en": "\"Tell me everything about the crimes in the rue Morgue.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Racontez-moi tout",
+     "tell me everything"
+    ],
+    [
+     "sur les crimes",
+     "about the crimes"
+    ],
+    [
+     "de la rue Morgue",
+     "in the rue Morgue"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "en": 3000,
+    "wd": 11570
+   },
+   "bank": {
+    "fr": [
+     296540,
+     3390
+    ],
+    "en": [
+     300330,
+     3000
+    ],
+    "wd": [
+     303730,
+     11570
+    ],
+    "wp": [
+     [
+      303730,
+      3400
+     ],
+     [
+      307530,
+      3280
+     ],
+     [
+      311210,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a fermé la porte à clé, et il a mis la clé dans sa poche.",
+   "en": "Dupin locked the door, and he put the key in his pocket.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "a fermé la porte à clé",
+     "locked the door"
+    ],
+    [
+     "il a mis la clé",
+     "he put the key"
+    ],
+    [
+     "dans sa poche",
+     "in his pocket"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4720,
+    "en": 3620,
+    "wd": 11610
+   },
+   "bank": {
+    "fr": [
+     315700,
+     4720
+    ],
+    "en": [
+     320820,
+     3620
+    ],
+    "wd": [
+     324840,
+     11610
+    ],
+    "wp": [
+     [
+      324840,
+      3630
+     ],
+     [
+      328870,
+      3190
+     ],
+     [
+      332460,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis Dupin a posé son pistolet sur la table, très calmement.",
+   "en": "Then Dupin put his pistol on the table, very calmly.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "a posé",
+     "put"
+    ],
+    [
+     "son pistolet",
+     "his pistol"
+    ],
+    [
+     "sur la table",
+     "on the table"
+    ],
+    [
+     "très calmement",
+     "very calmly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4430,
+    "en": 3860,
+    "wd": 13260
+   },
+   "bank": {
+    "fr": [
+     336850,
+     4430
+    ],
+    "en": [
+     341680,
+     3860
+    ],
+    "wd": [
+     345940,
+     13260
+    ],
+    "wp": [
+     [
+      345940,
+      2240
+     ],
+     [
+      348580,
+      2960
+     ],
+     [
+      351940,
+      2910
+     ],
+     [
+      355250,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin est devenu tout rouge. Il s'est levé et il a serré son bâton.",
+   "en": "The sailor turned bright red. He stood up and gripped his stick.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le marin",
+     "the sailor"
+    ],
+    [
+     "est devenu tout rouge",
+     "turned bright red"
+    ],
+    [
+     "Il s'est levé",
+     "he stood up"
+    ],
+    [
+     "il a serré",
+     "he gripped"
+    ],
+    [
+     "son bâton",
+     "his stick"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 5920,
+    "en": 4430,
+    "wd": 17240
+   },
+   "bank": {
+    "fr": [
+     359600,
+     5920
+    ],
+    "en": [
+     365920,
+     4430
+    ],
+    "wd": [
+     370750,
+     17240
+    ],
+    "wp": [
+     [
+      370750,
+      2730
+     ],
+     [
+      373880,
+      3540
+     ],
+     [
+      377820,
+      2890
+     ],
+     [
+      381110,
+      2840
+     ],
+     [
+      384350,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis le marin s'est assis de nouveau. Il était pâle et il tremblait.",
+   "en": "Then the sailor sat down again. He was pale and he was shaking.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "s'est assis",
+     "sat down"
+    ],
+    [
+     "de nouveau",
+     "again"
+    ],
+    [
+     "Il était pâle",
+     "he was pale"
+    ],
+    [
+     "il tremblait",
+     "he was shaking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 5080,
+    "en": 4260,
+    "wd": 13270
+   },
+   "bank": {
+    "fr": [
+     388390,
+     5080
+    ],
+    "en": [
+     393870,
+     4260
+    ],
+    "wd": [
+     398530,
+     13270
+    ],
+    "wp": [
+     [
+      398530,
+      2800
+     ],
+     [
+      401730,
+      2460
+     ],
+     [
+      404590,
+      3020
+     ],
+     [
+      408010,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« N'ayez pas peur, a dit Dupin doucement. Je sais que vous êtes innocent. »",
+   "en": "\"Don't be afraid,\" said Dupin softly. \"I know you are innocent.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "N'ayez pas peur",
+     "don't be afraid"
+    ],
+    [
+     "doucement",
+     "softly"
+    ],
+    [
+     "Je sais",
+     "I know"
+    ],
+    [
+     "que vous êtes innocent",
+     "that you are innocent"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 5830,
+    "en": 4420,
+    "wd": 13620
+   },
+   "bank": {
+    "fr": [
+     412200,
+     5830
+    ],
+    "en": [
+     418430,
+     4420
+    ],
+    "wd": [
+     423250,
+     13620
+    ],
+    "wp": [
+     [
+      423250,
+      3290
+     ],
+     [
+      426940,
+      2440
+     ],
+     [
+      429780,
+      2450
+     ],
+     [
+      432630,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais un autre homme innocent, Adolphe Le Bon, est en prison à cause de cette nuit. »",
+   "en": "\"But another innocent man, Adolphe Le Bon, is in prison because of that night.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "un autre homme innocent",
+     "another innocent man"
+    ],
+    [
+     "est en prison",
+     "is in prison"
+    ],
+    [
+     "à cause de cette nuit",
+     "because of that night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "en": 4940,
+    "wd": 12030
+   },
+   "bank": {
+    "fr": [
+     437270,
+     5630
+    ],
+    "en": [
+     443300,
+     4940
+    ],
+    "wd": [
+     448640,
+     12030
+    ],
+    "wp": [
+     [
+      448640,
+      3770
+     ],
+     [
+      452810,
+      2920
+     ],
+     [
+      456130,
+      3690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vous êtes un homme d'honneur. Vous devez parler. »",
+   "en": "\"You are a man of honour. You must speak.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Vous êtes",
+     "you are"
+    ],
+    [
+     "un homme d'honneur",
+     "a man of honour"
+    ],
+    [
+     "Vous devez parler",
+     "you must speak"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 4280,
+    "en": 3160,
+    "wd": 10820
+   },
+   "bank": {
+    "fr": [
+     461070,
+     4280
+    ],
+    "en": [
+     465750,
+     3160
+    ],
+    "wd": [
+     469310,
+     10820
+    ],
+    "wp": [
+     [
+      469310,
+      2560
+     ],
+     [
+      472270,
+      3280
+     ],
+     [
+      475950,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin a baissé la tête. Il est resté longtemps silencieux. Puis il a parlé.",
+   "en": "The sailor lowered his head. He stayed silent for a long time. Then he spoke.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "a baissé la tête",
+     "lowered his head"
+    ],
+    [
+     "Il est resté longtemps silencieux",
+     "he stayed silent for a long time"
+    ],
+    [
+     "Puis il a parlé",
+     "then he spoke"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 7240,
+    "en": 5410,
+    "wd": 12960
+   },
+   "bank": {
+    "fr": [
+     480530,
+     7240
+    ],
+    "en": [
+     488170,
+     5410
+    ],
+    "wd": [
+     493980,
+     12960
+    ],
+    "wp": [
+     [
+      493980,
+      3340
+     ],
+     [
+      497720,
+      4830
+     ],
+     [
+      502950,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'année dernière, mon navire est allé dans les îles de l'Orient, a dit le marin. »",
+   "en": "\"Last year, my ship went to the islands of the East,\" said the sailor.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "L'année dernière",
+     "last year"
+    ],
+    [
+     "mon navire",
+     "my ship"
+    ],
+    [
+     "est allé",
+     "went"
+    ],
+    [
+     "dans les îles de l'Orient",
+     "to the islands of the East"
+    ],
+    [
+     "a dit le marin",
+     "said the sailor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 5500,
+    "en": 4340,
+    "wd": 17540
+   },
+   "bank": {
+    "fr": [
+     507340,
+     5500
+    ],
+    "en": [
+     513240,
+     4340
+    ],
+    "wd": [
+     517980,
+     17540
+    ],
+    "wp": [
+     [
+      517980,
+      2910
+     ],
+     [
+      521290,
+      2880
+     ],
+     [
+      524570,
+      2260
+     ],
+     [
+      527230,
+      3900
+     ],
+     [
+      531530,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« À Bornéo, un autre matelot et moi, nous avons attrapé un orang-outan dans la forêt. »",
+   "en": "\"In Borneo, another seaman and I caught an orangutan in the forest.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "matelot",
+     "en": "sailor, seaman"
+    }
+   ],
+   "words": [
+    [
+     "À Bornéo",
+     "in Borneo"
+    ],
+    [
+     "un autre matelot",
+     "another seaman"
+    ],
+    [
+     "et moi",
+     "and I"
+    ],
+    [
+     "nous avons attrapé",
+     "we caught"
+    ],
+    [
+     "un orang-outan",
+     "an orangutan"
+    ],
+    [
+     "dans la forêt",
+     "in the forest"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "gl": "audio/s020_gl.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 6030,
+    "en": 4580,
+    "gl": 4160,
+    "wd": 20870
+   },
+   "bank": {
+    "fr": [
+     535920,
+     6030
+    ],
+    "en": [
+     542350,
+     4580
+    ],
+    "gl": [
+     547330,
+     4160
+    ],
+    "wd": [
+     551890,
+     20870
+    ],
+    "wp": [
+     [
+      551890,
+      2810
+     ],
+     [
+      555100,
+      3330
+     ],
+     [
+      558830,
+      2410
+     ],
+     [
+      561640,
+      3150
+     ],
+     [
+      565190,
+      3260
+     ],
+     [
+      568850,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'autre matelot est mort pendant le voyage. J'ai ramené l'orang-outan seul, à Paris. »",
+   "en": "\"The other seaman died during the voyage. I brought the orangutan back alone, to Paris.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "L'autre matelot",
+     "the other seaman"
+    ],
+    [
+     "est mort",
+     "died"
+    ],
+    [
+     "pendant le voyage",
+     "during the voyage"
+    ],
+    [
+     "J'ai ramené",
+     "I brought back"
+    ],
+    [
+     "seul",
+     "alone"
+    ],
+    [
+     "à Paris",
+     "to Paris"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 6830,
+    "en": 5670,
+    "wd": 20220
+   },
+   "bank": {
+    "fr": [
+     573160,
+     6830
+    ],
+    "en": [
+     580390,
+     5670
+    ],
+    "wd": [
+     586460,
+     20220
+    ],
+    "wp": [
+     [
+      586460,
+      3230
+     ],
+     [
+      590090,
+      2360
+     ],
+     [
+      592850,
+      3520
+     ],
+     [
+      596770,
+      3100
+     ],
+     [
+      600270,
+      2410
+     ],
+     [
+      603080,
+      2750
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je cachais l'orang-outan chez moi, dans un placard. Je voulais le vendre très cher. »",
+   "en": "\"I kept the orangutan hidden at my place, in a cupboard. I wanted to sell it for a high price.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "placard",
+     "en": "cupboard"
+    }
+   ],
+   "words": [
+    [
+     "Je cachais",
+     "I kept hidden"
+    ],
+    [
+     "chez moi",
+     "at my place"
+    ],
+    [
+     "dans un placard",
+     "in a cupboard"
+    ],
+    [
+     "Je voulais le vendre",
+     "I wanted to sell it"
+    ],
+    [
+     "très cher",
+     "for a high price"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "gl": "audio/s022_gl.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 6710,
+    "en": 5840,
+    "gl": 3400,
+    "wd": 17900
+   },
+   "bank": {
+    "fr": [
+     607080,
+     6710
+    ],
+    "en": [
+     614190,
+     5840
+    ],
+    "gl": [
+     620430,
+     3400
+    ],
+    "wd": [
+     624230,
+     17900
+    ],
+    "wp": [
+     [
+      624230,
+      2940
+     ],
+     [
+      627570,
+      2680
+     ],
+     [
+      630650,
+      3190
+     ],
+     [
+      634240,
+      3440
+     ],
+     [
+      638080,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Cette nuit-là, je suis rentré très tard, après une fête avec d'autres marins. »",
+   "en": "\"That night, I came home very late, after a party with other sailors.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Cette nuit-là",
+     "that night"
+    ],
+    [
+     "je suis rentré",
+     "I came home"
+    ],
+    [
+     "très tard",
+     "very late"
+    ],
+    [
+     "après une fête",
+     "after a party"
+    ],
+    [
+     "avec d'autres marins",
+     "with other sailors"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "en": 4940,
+    "wd": 18030
+   },
+   "bank": {
+    "fr": [
+     642530,
+     5490
+    ],
+    "en": [
+     648420,
+     4940
+    ],
+    "wd": [
+     653760,
+     18030
+    ],
+    "wp": [
+     [
+      653760,
+      2770
+     ],
+     [
+      656930,
+      3210
+     ],
+     [
+      660540,
+      2720
+     ],
+     [
+      663660,
+      3280
+     ],
+     [
+      667340,
+      3600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'orang-outan était sorti du placard. Il était dans ma chambre, devant le miroir. »",
+   "en": "\"The orangutan had got out of the cupboard. It was in my bedroom, in front of the mirror.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "était sorti du placard",
+     "had got out of the cupboard"
+    ],
+    [
+     "Il était dans ma chambre",
+     "it was in my bedroom"
+    ],
+    [
+     "devant le miroir",
+     "in front of the mirror"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 6730,
+    "en": 5430,
+    "wd": 13010
+   },
+   "bank": {
+    "fr": [
+     672190,
+     6730
+    ],
+    "en": [
+     679320,
+     5430
+    ],
+    "wd": [
+     685150,
+     13010
+    ],
+    "wp": [
+     [
+      685150,
+      4030
+     ],
+     [
+      689580,
+      3700
+     ],
+     [
+      693680,
+      3630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il avait de la mousse sur le visage, et mon rasoir à la main. »",
+   "en": "\"It had lather on its face, and my razor in its hand.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "mousse",
+     "en": "lather, shaving foam"
+    }
+   ],
+   "words": [
+    [
+     "Il avait",
+     "it had"
+    ],
+    [
+     "de la mousse",
+     "lather"
+    ],
+    [
+     "sur le visage",
+     "on its face"
+    ],
+    [
+     "mon rasoir",
+     "my razor"
+    ],
+    [
+     "à la main",
+     "in its hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "gl": "audio/s025_gl.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4390,
+    "en": 3720,
+    "gl": 4320,
+    "wd": 16720
+   },
+   "bank": {
+    "fr": [
+     698560,
+     4390
+    ],
+    "en": [
+     703350,
+     3720
+    ],
+    "gl": [
+     707470,
+     4320
+    ],
+    "wd": [
+     712190,
+     16720
+    ],
+    "wp": [
+     [
+      712190,
+      2460
+     ],
+     [
+      715050,
+      2760
+     ],
+     [
+      718210,
+      3230
+     ],
+     [
+      721840,
+      3150
+     ],
+     [
+      725390,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il essayait de se raser, comme moi. Il m'avait regardé par le trou de la serrure. »",
+   "en": "\"It was trying to shave, like me. It had watched me through the keyhole.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "se raser",
+     "en": "to shave"
+    },
+    {
+     "fr": "trou de la serrure",
+     "en": "keyhole"
+    }
+   ],
+   "words": [
+    [
+     "Il essayait de se raser",
+     "it was trying to shave"
+    ],
+    [
+     "comme moi",
+     "like me"
+    ],
+    [
+     "Il m'avait regardé",
+     "it had watched me"
+    ],
+    [
+     "par le trou de la serrure",
+     "through the keyhole"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 6480,
+    "en": 4380,
+    "gl": 7370,
+    "wd": 15330
+   },
+   "bank": {
+    "fr": [
+     729310,
+     6480
+    ],
+    "en": [
+     736190,
+     4380
+    ],
+    "gl": [
+     740970,
+     7370
+    ],
+    "wd": [
+     748740,
+     15330
+    ],
+    "wp": [
+     [
+      748740,
+      3890
+     ],
+     [
+      753030,
+      2460
+     ],
+     [
+      755890,
+      3340
+     ],
+     [
+      759630,
+      3590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai eu très peur. Un rasoir, dans les mains d'une bête si forte ! »",
+   "en": "\"I was very scared. A razor, in the hands of such a strong beast!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai eu très peur",
+     "I was very scared"
+    ],
+    [
+     "Un rasoir",
+     "a razor"
+    ],
+    [
+     "dans les mains",
+     "in the hands"
+    ],
+    [
+     "d'une bête si forte",
+     "of such a strong beast"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 5720,
+    "en": 4910,
+    "wd": 15730
+   },
+   "bank": {
+    "fr": [
+     764470,
+     5720
+    ],
+    "en": [
+     770590,
+     4910
+    ],
+    "wd": [
+     775900,
+     15730
+    ],
+    "wp": [
+     [
+      775900,
+      3680
+     ],
+     [
+      779980,
+      3040
+     ],
+     [
+      783420,
+      2930
+     ],
+     [
+      786750,
+      4030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai pris mon fouet. D'habitude, le fouet suffisait pour le calmer. »",
+   "en": "\"I took my whip. Usually, the whip was enough to calm it down.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "fouet",
+     "en": "whip"
+    }
+   ],
+   "words": [
+    [
+     "J'ai pris",
+     "I took"
+    ],
+    [
+     "mon fouet",
+     "my whip"
+    ],
+    [
+     "D'habitude",
+     "usually"
+    ],
+    [
+     "le fouet suffisait",
+     "the whip was enough"
+    ],
+    [
+     "pour le calmer",
+     "to calm it down"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "gl": "audio/s028_gl.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 5750,
+    "en": 4190,
+    "gl": 2940,
+    "wd": 16780
+   },
+   "bank": {
+    "fr": [
+     792030,
+     5750
+    ],
+    "en": [
+     798180,
+     4190
+    ],
+    "gl": [
+     802770,
+     2940
+    ],
+    "wd": [
+     806110,
+     16780
+    ],
+    "wp": [
+     [
+      806110,
+      2480
+     ],
+     [
+      808990,
+      2610
+     ],
+     [
+      812000,
+      2710
+     ],
+     [
+      815110,
+      3440
+     ],
+     [
+      818950,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais cette fois, l'orang-outan s'est enfui par la porte, avec le rasoir. »",
+   "en": "\"But this time, the orangutan ran away through the door, with the razor.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "cette fois",
+     "this time"
+    ],
+    [
+     "s'est enfui",
+     "ran away"
+    ],
+    [
+     "par la porte",
+     "through the door"
+    ],
+    [
+     "avec le rasoir",
+     "with the razor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 5400,
+    "en": 4620,
+    "wd": 13870
+   },
+   "bank": {
+    "fr": [
+     823290,
+     5400
+    ],
+    "en": [
+     829090,
+     4620
+    ],
+    "wd": [
+     834110,
+     13870
+    ],
+    "wp": [
+     [
+      834110,
+      2680
+     ],
+     [
+      837190,
+      2770
+     ],
+     [
+      840360,
+      2980
+     ],
+     [
+      843740,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il a descendu l'escalier, et il a sauté dans la rue par une fenêtre ouverte. »",
+   "en": "\"It went down the stairs, and it jumped into the street through an open window.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il a descendu",
+     "it went down"
+    ],
+    [
+     "l'escalier",
+     "the stairs"
+    ],
+    [
+     "il a sauté",
+     "it jumped"
+    ],
+    [
+     "dans la rue",
+     "into the street"
+    ],
+    [
+     "par une fenêtre ouverte",
+     "through an open window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 5320,
+    "en": 4280,
+    "wd": 17790
+   },
+   "bank": {
+    "fr": [
+     848380,
+     5320
+    ],
+    "en": [
+     854100,
+     4280
+    ],
+    "wd": [
+     858780,
+     17790
+    ],
+    "wp": [
+     [
+      858780,
+      3100
+     ],
+     [
+      862280,
+      2760
+     ],
+     [
+      865440,
+      2800
+     ],
+     [
+      868640,
+      2860
+     ],
+     [
+      871900,
+      3820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai couru derrière lui. Il était presque trois heures du matin. Les rues étaient vides. »",
+   "en": "\"I ran after it. It was almost three in the morning. The streets were empty.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai couru",
+     "I ran"
+    ],
+    [
+     "derrière lui",
+     "after it"
+    ],
+    [
+     "Il était presque",
+     "it was almost"
+    ],
+    [
+     "trois heures du matin",
+     "three in the morning"
+    ],
+    [
+     "Les rues étaient vides",
+     "the streets were empty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 7470,
+    "en": 5090,
+    "wd": 18260
+   },
+   "bank": {
+    "fr": [
+     876970,
+     7470
+    ],
+    "en": [
+     884840,
+     5090
+    ],
+    "wd": [
+     890330,
+     18260
+    ],
+    "wp": [
+     [
+      890330,
+      2640
+     ],
+     [
+      893370,
+      2800
+     ],
+     [
+      896570,
+      3310
+     ],
+     [
+      900280,
+      3330
+     ],
+     [
+      904010,
+      3730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Derrière la rue Morgue, l'orang-outan a vu une lumière, à une fenêtre du quatrième étage. »",
+   "en": "\"Behind the rue Morgue, the orangutan saw a light, at a fourth-floor window.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Derrière la rue Morgue",
+     "behind the rue Morgue"
+    ],
+    [
+     "a vu une lumière",
+     "saw a light"
+    ],
+    [
+     "à une fenêtre",
+     "at a window"
+    ],
+    [
+     "du quatrième étage",
+     "on the fourth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 6320,
+    "en": 5050,
+    "wd": 15560
+   },
+   "bank": {
+    "fr": [
+     908990,
+     6320
+    ],
+    "en": [
+     915710,
+     5050
+    ],
+    "wd": [
+     921160,
+     15560
+    ],
+    "wp": [
+     [
+      921160,
+      3710
+     ],
+     [
+      925270,
+      3180
+     ],
+     [
+      928850,
+      3010
+     ],
+     [
+      932260,
+      3610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il a grimpé au paratonnerre, très vite. Puis il a sauté sur le volet ouvert. »",
+   "en": "\"It climbed the lightning rod, very fast. Then it jumped onto the open shutter.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il a grimpé",
+     "it climbed"
+    ],
+    [
+     "au paratonnerre",
+     "the lightning rod"
+    ],
+    [
+     "très vite",
+     "very fast"
+    ],
+    [
+     "il a sauté",
+     "it jumped"
+    ],
+    [
+     "sur le volet ouvert",
+     "onto the open shutter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 6520,
+    "en": 5230,
+    "wd": 18250
+   },
+   "bank": {
+    "fr": [
+     937120,
+     6520
+    ],
+    "en": [
+     944040,
+     5230
+    ],
+    "wd": [
+     949670,
+     18250
+    ],
+    "wp": [
+     [
+      949670,
+      2940
+     ],
+     [
+      953010,
+      3330
+     ],
+     [
+      956740,
+      2900
+     ],
+     [
+      960040,
+      2800
+     ],
+     [
+      963240,
+      3830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et du volet, l'orang-outan est entré dans la chambre. »",
+   "en": "\"And from the shutter, the orangutan went into the room.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "du volet",
+     "from the shutter"
+    ],
+    [
+     "est entré",
+     "went into"
+    ],
+    [
+     "dans la chambre",
+     "the room"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3950,
+    "en": 3410,
+    "wd": 9750
+   },
+   "bank": {
+    "fr": [
+     968320,
+     3950
+    ],
+    "en": [
+     972670,
+     3410
+    ],
+    "wd": [
+     976480,
+     9750
+    ],
+    "wp": [
+     [
+      976480,
+      2730
+     ],
+     [
+      979610,
+      2630
+     ],
+     [
+      982640,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Moi aussi, j'ai grimpé au paratonnerre. Mais je ne pouvais pas sauter jusqu'au volet. »",
+   "en": "\"I climbed the lightning rod too. But I couldn't jump to the shutter.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Moi aussi",
+     "me too"
+    ],
+    [
+     "j'ai grimpé",
+     "I climbed"
+    ],
+    [
+     "je ne pouvais pas",
+     "I couldn't"
+    ],
+    [
+     "sauter",
+     "jump"
+    ],
+    [
+     "jusqu'au volet",
+     "to the shutter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 6750,
+    "en": 4160,
+    "wd": 16340
+   },
+   "bank": {
+    "fr": [
+     986630,
+     6750
+    ],
+    "en": [
+     993780,
+     4160
+    ],
+    "wd": [
+     998340,
+     16340
+    ],
+    "wp": [
+     [
+      998340,
+      2710
+     ],
+     [
+      1001450,
+      2920
+     ],
+     [
+      1004770,
+      2870
+     ],
+     [
+      1008040,
+      2329
+     ],
+     [
+      1010770,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je suis resté accroché au paratonnerre. De là, je voyais toute la chambre. »",
+   "en": "\"I stayed hanging on the lightning rod. From there, I could see the whole room.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Je suis resté accroché",
+     "I stayed hanging"
+    ],
+    [
+     "De là",
+     "from there"
+    ],
+    [
+     "je voyais",
+     "I could see"
+    ],
+    [
+     "toute la chambre",
+     "the whole room"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 6430,
+    "en": 5040,
+    "wd": 14260
+   },
+   "bank": {
+    "fr": [
+     1015080,
+     6430
+    ],
+    "en": [
+     1021910,
+     5040
+    ],
+    "wd": [
+     1027349,
+     14260
+    ],
+    "wp": [
+     [
+      1027349,
+      3810
+     ],
+     [
+      1031559,
+      2460
+     ],
+     [
+      1034419,
+      2880
+     ],
+     [
+      1037699,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les deux femmes étaient en chemise de nuit. Elles rangeaient des papiers du coffre en fer. »",
+   "en": "\"The two women were in their nightgowns. They were sorting papers from the iron strongbox.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les deux femmes",
+     "the two women"
+    ],
+    [
+     "en chemise de nuit",
+     "in their nightgowns"
+    ],
+    [
+     "Elles rangeaient",
+     "they were sorting"
+    ],
+    [
+     "des papiers",
+     "papers"
+    ],
+    [
+     "du coffre en fer",
+     "from the iron strongbox"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 6140,
+    "en": 5420,
+    "wd": 18380
+   },
+   "bank": {
+    "fr": [
+     1042010,
+     6140
+    ],
+    "en": [
+     1048550,
+     5420
+    ],
+    "wd": [
+     1054370,
+     18380
+    ],
+    "wp": [
+     [
+      1054370,
+      3040
+     ],
+     [
+      1057810,
+      3510
+     ],
+     [
+      1061720,
+      2840
+     ],
+     [
+      1064960,
+      2580
+     ],
+     [
+      1067940,
+      3960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'orang-outan a pris Madame L'Espanaye par les cheveux. Il agitait le rasoir, comme un barbier. »",
+   "en": "\"The orangutan grabbed Madame L'Espanaye by the hair. It was waving the razor, like a barber.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "a pris",
+     "grabbed"
+    ],
+    [
+     "par les cheveux",
+     "by the hair"
+    ],
+    [
+     "Il agitait",
+     "it was waving"
+    ],
+    [
+     "le rasoir",
+     "the razor"
+    ],
+    [
+     "comme un barbier",
+     "like a barber"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 7330,
+    "en": 5900,
+    "wd": 16690
+   },
+   "bank": {
+    "fr": [
+     1073150,
+     7330
+    ],
+    "en": [
+     1080880,
+     5900
+    ],
+    "wd": [
+     1087180,
+     16690
+    ],
+    "wp": [
+     [
+      1087180,
+      2340
+     ],
+     [
+      1089920,
+      2810
+     ],
+     [
+      1093130,
+      2880
+     ],
+     [
+      1096410,
+      3160
+     ],
+     [
+      1099970,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Camille L'Espanaye s'est évanouie. Sa mère criait, criait. »",
+   "en": "\"Camille L'Espanaye fainted. Her mother was screaming and screaming.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "s'est évanouie",
+     "en": "fainted"
+    }
+   ],
+   "words": [
+    [
+     "s'est évanouie",
+     "fainted"
+    ],
+    [
+     "Sa mère",
+     "her mother"
+    ],
+    [
+     "criait",
+     "was screaming"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "gl": "audio/s039_gl.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 5320,
+    "en": 4019,
+    "gl": 3880,
+    "wd": 9610
+   },
+   "bank": {
+    "fr": [
+     1104270,
+     5320
+    ],
+    "en": [
+     1109990,
+     4019
+    ],
+    "gl": [
+     1114410,
+     3880
+    ],
+    "wd": [
+     1118690,
+     9610
+    ],
+    "wp": [
+     [
+      1118690,
+      2750
+     ],
+     [
+      1121840,
+      2640
+     ],
+     [
+      1124880,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les cris ont rendu la bête folle de colère. »",
+   "en": "\"The screams drove the beast mad with anger.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les cris",
+     "the screams"
+    ],
+    [
+     "ont rendu",
+     "drove"
+    ],
+    [
+     "la bête",
+     "the beast"
+    ],
+    [
+     "folle de colère",
+     "mad with anger"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "en": 3040,
+    "wd": 13610
+   },
+   "bank": {
+    "fr": [
+     1128700,
+     3250
+    ],
+    "en": [
+     1132350,
+     3040
+    ],
+    "wd": [
+     1135790,
+     13610
+    ],
+    "wp": [
+     [
+      1135790,
+      2820
+     ],
+     [
+      1139010,
+      2670
+     ],
+     [
+      1142080,
+      2770
+     ],
+     [
+      1145250,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« L'orang-outan a arraché les cheveux de Madame L'Espanaye. Puis il lui a coupé la gorge. »",
+   "en": "\"The orangutan tore out Madame L'Espanaye's hair. Then it cut her throat.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "a arraché",
+     "tore out"
+    ],
+    [
+     "les cheveux",
+     "the hair"
+    ],
+    [
+     "il lui a coupé la gorge",
+     "it cut her throat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 6390,
+    "en": 4880,
+    "wd": 10700
+   },
+   "bank": {
+    "fr": [
+     1149800,
+     6390
+    ],
+    "en": [
+     1156590,
+     4880
+    ],
+    "wd": [
+     1161870,
+     10700
+    ],
+    "wp": [
+     [
+      1161870,
+      2670
+     ],
+     [
+      1164940,
+      2520
+     ],
+     [
+      1167860,
+      3860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ensuite, l'orang-outan a sauté sur Camille, et il a serré le cou de Camille, jusqu'à la mort. »",
+   "en": "\"Next, the orangutan leapt on Camille, and it squeezed Camille's neck, until she was dead.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ensuite",
+     "next"
+    ],
+    [
+     "a sauté sur Camille",
+     "leapt on Camille"
+    ],
+    [
+     "il a serré",
+     "it squeezed"
+    ],
+    [
+     "le cou de Camille",
+     "Camille's neck"
+    ],
+    [
+     "jusqu'à la mort",
+     "until she was dead"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 6950,
+    "en": 6020,
+    "wd": 18360
+   },
+   "bank": {
+    "fr": [
+     1172970,
+     6950
+    ],
+    "en": [
+     1180320,
+     6020
+    ],
+    "wd": [
+     1186740,
+     18360
+    ],
+    "wp": [
+     [
+      1186740,
+      2500
+     ],
+     [
+      1189640,
+      3490
+     ],
+     [
+      1193530,
+      2980
+     ],
+     [
+      1196910,
+      3340
+     ],
+     [
+      1200650,
+      3600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et puis, l'orang-outan a vu mon visage à la fenêtre. »",
+   "en": "\"And then, the orangutan saw my face at the window.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Et puis",
+     "and then"
+    ],
+    [
+     "a vu",
+     "saw"
+    ],
+    [
+     "mon visage",
+     "my face"
+    ],
+    [
+     "à la fenêtre",
+     "at the window"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 4059,
+    "en": 3680,
+    "wd": 12770
+   },
+   "bank": {
+    "fr": [
+     1205500,
+     4059
+    ],
+    "en": [
+     1209960,
+     3680
+    ],
+    "wd": [
+     1214040,
+     12770
+    ],
+    "wp": [
+     [
+      1214040,
+      2380
+     ],
+     [
+      1216820,
+      2270
+     ],
+     [
+      1219490,
+      3050
+     ],
+     [
+      1222940,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La bête a eu peur de moi, et de mon fouet. Elle a voulu cacher ce qu'elle avait fait. »",
+   "en": "\"The beast was afraid of me, and of my whip. It wanted to hide what it had done.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La bête",
+     "the beast"
+    ],
+    [
+     "a eu peur de moi",
+     "was afraid of me"
+    ],
+    [
+     "de mon fouet",
+     "of my whip"
+    ],
+    [
+     "Elle a voulu cacher",
+     "it wanted to hide"
+    ],
+    [
+     "ce qu'elle avait fait",
+     "what it had done"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 6320,
+    "en": 4750,
+    "wd": 17150
+   },
+   "bank": {
+    "fr": [
+     1227210,
+     6320
+    ],
+    "en": [
+     1233930,
+     4750
+    ],
+    "wd": [
+     1239080,
+     17150
+    ],
+    "wp": [
+     [
+      1239080,
+      2770
+     ],
+     [
+      1242250,
+      2570
+     ],
+     [
+      1245220,
+      2780
+     ],
+     [
+      1248400,
+      3350
+     ],
+     [
+      1252150,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Elle a poussé Camille dans la cheminée. Puis elle a jeté la mère par la fenêtre, dans la cour. »",
+   "en": "\"It pushed Camille into the chimney. Then it threw the mother out of the window, into the courtyard.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Elle a poussé",
+     "it pushed"
+    ],
+    [
+     "dans la cheminée",
+     "into the chimney"
+    ],
+    [
+     "elle a jeté",
+     "it threw"
+    ],
+    [
+     "la mère",
+     "the mother"
+    ],
+    [
+     "par la fenêtre",
+     "out of the window"
+    ],
+    [
+     "dans la cour",
+     "into the courtyard"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 6950,
+    "en": 5300,
+    "wd": 20730
+   },
+   "bank": {
+    "fr": [
+     1256630,
+     6950
+    ],
+    "en": [
+     1263980,
+     5300
+    ],
+    "wd": [
+     1269680,
+     20730
+    ],
+    "wp": [
+     [
+      1269680,
+      2890
+     ],
+     [
+      1272970,
+      3250
+     ],
+     [
+      1276620,
+      2820
+     ],
+     [
+      1279840,
+      2580
+     ],
+     [
+      1282820,
+      3100
+     ],
+     [
+      1286320,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai crié : mon Dieu ! Et j'ai juré, je ne sais plus comment. »",
+   "en": "\"I shouted: my God! And I swore, I don't remember how.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai crié",
+     "I shouted"
+    ],
+    [
+     "mon Dieu",
+     "my God"
+    ],
+    [
+     "j'ai juré",
+     "I swore"
+    ],
+    [
+     "je ne sais plus comment",
+     "I don't remember how"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5550,
+    "en": 4790,
+    "wd": 13780
+   },
+   "bank": {
+    "fr": [
+     1290810,
+     5550
+    ],
+    "en": [
+     1296760,
+     4790
+    ],
+    "wd": [
+     1301950,
+     13780
+    ],
+    "wp": [
+     [
+      1301950,
+      2790
+     ],
+     [
+      1305140,
+      2460
+     ],
+     [
+      1308000,
+      2860
+     ],
+     [
+      1311260,
+      3620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Puis je suis descendu du paratonnerre, et je me suis enfui chez moi. »",
+   "en": "\"Then I climbed down the lightning rod, and I ran away home.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "je suis descendu",
+     "I climbed down"
+    ],
+    [
+     "du paratonnerre",
+     "the lightning rod"
+    ],
+    [
+     "je me suis enfui",
+     "I ran away"
+    ],
+    [
+     "chez moi",
+     "home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 4690,
+    "en": 3660,
+    "wd": 14520
+   },
+   "bank": {
+    "fr": [
+     1316130,
+     4690
+    ],
+    "en": [
+     1321220,
+     3660
+    ],
+    "wd": [
+     1325280,
+     14520
+    ],
+    "wp": [
+     [
+      1325280,
+      3440
+     ],
+     [
+      1329120,
+      3390
+     ],
+     [
+      1332910,
+      3320
+     ],
+     [
+      1336630,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin a cessé de parler. Il avait les mains sur le visage.",
+   "en": "The sailor stopped speaking. He had his hands over his face.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le marin",
+     "the sailor"
+    ],
+    [
+     "a cessé de parler",
+     "stopped speaking"
+    ],
+    [
+     "Il avait les mains",
+     "he had his hands"
+    ],
+    [
+     "sur le visage",
+     "over his face"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 5370,
+    "en": 4140,
+    "wd": 14830
+   },
+   "bank": {
+    "fr": [
+     1340200,
+     5370
+    ],
+    "en": [
+     1345970,
+     4140
+    ],
+    "wd": [
+     1350510,
+     14830
+    ],
+    "wp": [
+     [
+      1350510,
+      2730
+     ],
+     [
+      1353640,
+      3420
+     ],
+     [
+      1357460,
+      3240
+     ],
+     [
+      1361100,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans le silence, j'ai tout compris.",
+   "en": "In the silence, I understood everything.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Dans le silence",
+     "in the silence"
+    ],
+    [
+     "j'ai tout compris",
+     "I understood everything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "en": 2930,
+    "wd": 8240
+   },
+   "bank": {
+    "fr": [
+     1365740,
+     3120
+    ],
+    "en": [
+     1369260,
+     2930
+    ],
+    "wd": [
+     1372590,
+     8240
+    ],
+    "wp": [
+     [
+      1372590,
+      3350
+     ],
+     [
+      1376340,
+      3640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La voix grave, c'était le marin, sur le paratonnerre. La voix aiguë, c'était l'orang-outan.",
+   "en": "The deep voice was the sailor, on the lightning rod. The shrill voice was the orangutan.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La voix grave",
+     "the deep voice"
+    ],
+    [
+     "c'était le marin",
+     "was the sailor"
+    ],
+    [
+     "sur le paratonnerre",
+     "on the lightning rod"
+    ],
+    [
+     "La voix aiguë",
+     "the shrill voice"
+    ],
+    [
+     "c'était l'orang-outan",
+     "was the orangutan"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 7780,
+    "en": 5640,
+    "wd": 19550
+   },
+   "bank": {
+    "fr": [
+     1381230,
+     7780
+    ],
+    "en": [
+     1389410,
+     5640
+    ],
+    "wd": [
+     1395450,
+     19550
+    ],
+    "wp": [
+     [
+      1395450,
+      3350
+     ],
+     [
+      1399200,
+      3190
+     ],
+     [
+      1402790,
+      3740
+     ],
+     [
+      1406930,
+      3290
+     ],
+     [
+      1410620,
+      3530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Voilà pourquoi personne n'avait compris un seul mot. Ce n'était pas une langue.",
+   "en": "That's why nobody had understood a single word. It wasn't a language.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Voilà pourquoi",
+     "that's why"
+    ],
+    [
+     "personne n'avait compris",
+     "nobody had understood"
+    ],
+    [
+     "un seul mot",
+     "a single word"
+    ],
+    [
+     "Ce n'était pas une langue",
+     "it wasn't a language"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 5950,
+    "en": 4450,
+    "wd": 15930
+   },
+   "bank": {
+    "fr": [
+     1415400,
+     5950
+    ],
+    "en": [
+     1421750,
+     4450
+    ],
+    "wd": [
+     1426600,
+     15930
+    ],
+    "wp": [
+     [
+      1426600,
+      2970
+     ],
+     [
+      1429970,
+      4020
+     ],
+     [
+      1434390,
+      3010
+     ],
+     [
+      1437800,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant que les voisins montaient l'escalier, la bête est repartie par le paratonnerre.",
+   "en": "While the neighbours were climbing the stairs, the beast left again by the lightning rod.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant que",
+     "while"
+    ],
+    [
+     "les voisins",
+     "the neighbours"
+    ],
+    [
+     "montaient l'escalier",
+     "were climbing the stairs"
+    ],
+    [
+     "la bête",
+     "the beast"
+    ],
+    [
+     "est repartie",
+     "left again"
+    ],
+    [
+     "par le paratonnerre",
+     "by the lightning rod"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 5450,
+    "en": 4880,
+    "wd": 21200
+   },
+   "bank": {
+    "fr": [
+     1442930,
+     5450
+    ],
+    "en": [
+     1448780,
+     4880
+    ],
+    "wd": [
+     1454060,
+     21200
+    ],
+    "wp": [
+     [
+      1454060,
+      2530
+     ],
+     [
+      1456990,
+      2740
+     ],
+     [
+      1460130,
+      3680
+     ],
+     [
+      1464210,
+      2770
+     ],
+     [
+      1467380,
+      2940
+     ],
+     [
+      1470720,
+      3690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Derrière la bête, la fenêtre s'est refermée toute seule, avec son ressort et son clou cassé.",
+   "en": "Behind the beast, the window shut by itself, with its spring and its broken nail.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Derrière la bête",
+     "behind the beast"
+    ],
+    [
+     "la fenêtre s'est refermée",
+     "the window shut"
+    ],
+    [
+     "toute seule",
+     "by itself"
+    ],
+    [
+     "avec son ressort",
+     "with its spring"
+    ],
+    [
+     "son clou cassé",
+     "its broken nail"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 6390,
+    "en": 5360,
+    "wd": 19330
+   },
+   "bank": {
+    "fr": [
+     1475660,
+     6390
+    ],
+    "en": [
+     1482450,
+     5360
+    ],
+    "wd": [
+     1488210,
+     19330
+    ],
+    "wp": [
+     [
+      1488210,
+      3450
+     ],
+     [
+      1492060,
+      3850
+     ],
+     [
+      1496310,
+      2790
+     ],
+     [
+      1499500,
+      3390
+     ],
+     [
+      1503290,
+      3400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelques jours plus tard, le marin a retrouvé son orang-outan, et il l'a attrapé.",
+   "en": "A few days later, the sailor found his orangutan again, and he caught it.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Quelques jours plus tard",
+     "a few days later"
+    ],
+    [
+     "a retrouvé",
+     "found again"
+    ],
+    [
+     "son orang-outan",
+     "his orangutan"
+    ],
+    [
+     "il l'a attrapé",
+     "he caught it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 5720,
+    "en": 4900,
+    "wd": 14720
+   },
+   "bank": {
+    "fr": [
+     1507940,
+     5720
+    ],
+    "en": [
+     1514060,
+     4900
+    ],
+    "wd": [
+     1519360,
+     14720
+    ],
+    "wp": [
+     [
+      1519360,
+      3680
+     ],
+     [
+      1523440,
+      2750
+     ],
+     [
+      1526590,
+      3350
+     ],
+     [
+      1530340,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marin l'a vendu au Jardin des Plantes, pour beaucoup d'argent.",
+   "en": "The sailor sold it to the Jardin des Plantes, for a lot of money.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "Jardin des Plantes",
+     "en": "the Paris zoo and botanical garden"
+    }
+   ],
+   "words": [
+    [
+     "l'a vendu",
+     "sold it"
+    ],
+    [
+     "au Jardin des Plantes",
+     "to the Jardin des Plantes"
+    ],
+    [
+     "pour beaucoup d'argent",
+     "for a lot of money"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "gl": "audio/s055_gl.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 4500,
+    "en": 4200,
+    "gl": 5920,
+    "wd": 11870
+   },
+   "bank": {
+    "fr": [
+     1534480,
+     4500
+    ],
+    "en": [
+     1539380,
+     4200
+    ],
+    "gl": [
+     1543980,
+     5920
+    ],
+    "wd": [
+     1550300,
+     11870
+    ],
+    "wp": [
+     [
+      1550300,
+      2750
+     ],
+     [
+      1553450,
+      4080
+     ],
+     [
+      1557930,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le soir même, Dupin et moi, nous sommes allés chez le préfet de police.",
+   "en": "That same evening, Dupin and I went to the prefect of police.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le soir même",
+     "that same evening"
+    ],
+    [
+     "Dupin et moi",
+     "Dupin and I"
+    ],
+    [
+     "nous sommes allés",
+     "we went"
+    ],
+    [
+     "chez le préfet de police",
+     "to the prefect of police"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 5340,
+    "en": 4290,
+    "wd": 15590
+   },
+   "bank": {
+    "fr": [
+     1562570,
+     5340
+    ],
+    "en": [
+     1568310,
+     4290
+    ],
+    "wd": [
+     1573000,
+     15590
+    ],
+    "wp": [
+     [
+      1573000,
+      3180
+     ],
+     [
+      1576580,
+      3220
+     ],
+     [
+      1580200,
+      2880
+     ],
+     [
+      1583480,
+      4260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a tout raconté au préfet : le clou, le paratonnerre, les poils, le marin.",
+   "en": "Dupin told the prefect everything: the nail, the lightning rod, the hair, the sailor.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "a tout raconté",
+     "told everything"
+    ],
+    [
+     "au préfet",
+     "the prefect"
+    ],
+    [
+     "le clou",
+     "the nail"
+    ],
+    [
+     "le paratonnerre",
+     "the lightning rod"
+    ],
+    [
+     "les poils",
+     "the hair"
+    ],
+    [
+     "le marin",
+     "the sailor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 6620,
+    "en": 5950,
+    "wd": 20110
+   },
+   "bank": {
+    "fr": [
+     1588990,
+     6620
+    ],
+    "en": [
+     1596010,
+     5950
+    ],
+    "wd": [
+     1602360,
+     20110
+    ],
+    "wp": [
+     [
+      1602360,
+      3160
+     ],
+     [
+      1605920,
+      2820
+     ],
+     [
+      1609140,
+      2580
+     ],
+     [
+      1612120,
+      3420
+     ],
+     [
+      1615940,
+      2550
+     ],
+     [
+      1618890,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, Adolphe Le Bon est sorti de prison.",
+   "en": "The next day, Adolphe Le Bon came out of prison.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "est sorti de prison",
+     "came out of prison"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 3930,
+    "en": 3340,
+    "wd": 7430
+   },
+   "bank": {
+    "fr": [
+     1622870,
+     3930
+    ],
+    "en": [
+     1627200,
+     3340
+    ],
+    "wd": [
+     1630940,
+     7430
+    ],
+    "wp": [
+     [
+      1630940,
+      2790
+     ],
+     [
+      1634130,
+      3390
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le préfet était content pour Adolphe Le Bon. Mais il était aussi très vexé.",
+   "en": "The prefect was happy for Adolphe Le Bon. But he was also very offended.",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "vexé",
+     "en": "offended, annoyed"
+    }
+   ],
+   "words": [
+    [
+     "Le préfet",
+     "the prefect"
+    ],
+    [
+     "était content",
+     "was happy"
+    ],
+    [
+     "pour Adolphe Le Bon",
+     "for Adolphe Le Bon"
+    ],
+    [
+     "il était aussi",
+     "he was also"
+    ],
+    [
+     "très vexé",
+     "very offended"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "gl": "audio/s059_gl.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 6030,
+    "en": 4860,
+    "gl": 4360,
+    "wd": 17970
+   },
+   "bank": {
+    "fr": [
+     1638770,
+     6030
+    ],
+    "en": [
+     1645200,
+     4860
+    ],
+    "gl": [
+     1650460,
+     4360
+    ],
+    "wd": [
+     1655220,
+     17970
+    ],
+    "wp": [
+     [
+      1655220,
+      2850
+     ],
+     [
+      1658470,
+      2850
+     ],
+     [
+      1661720,
+      3610
+     ],
+     [
+      1665730,
+      3220
+     ],
+     [
+      1669350,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Chacun devrait s'occuper de ses affaires », a dit le préfet, d'une voix aigre.",
+   "en": "\"Everyone should mind his own business,\" said the prefect, in a sour voice.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Chacun devrait",
+     "everyone should"
+    ],
+    [
+     "s'occuper de ses affaires",
+     "mind his own business"
+    ],
+    [
+     "a dit le préfet",
+     "said the prefect"
+    ],
+    [
+     "d'une voix aigre",
+     "in a sour voice"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 5390,
+    "en": 4820,
+    "wd": 16120
+   },
+   "bank": {
+    "fr": [
+     1673590,
+     5390
+    ],
+    "en": [
+     1679380,
+     4820
+    ],
+    "wd": [
+     1684600,
+     16120
+    ],
+    "wp": [
+     [
+      1684600,
+      3140
+     ],
+     [
+      1688140,
+      4180
+     ],
+     [
+      1692719,
+      3310
+     ],
+     [
+      1696430,
+      3440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin n'a pas répondu au préfet. Il a seulement souri.",
+   "en": "Dupin did not answer the prefect. He only smiled.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "n'a pas répondu",
+     "did not answer"
+    ],
+    [
+     "au préfet",
+     "the prefect"
+    ],
+    [
+     "Il a seulement souri",
+     "he only smiled"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 4900,
+    "en": 4000,
+    "wd": 11410
+   },
+   "bank": {
+    "fr": [
+     1701120,
+     4900
+    ],
+    "en": [
+     1706420,
+     4000
+    ],
+    "wd": [
+     1710820,
+     11410
+    ],
+    "wp": [
+     [
+      1710820,
+      3440
+     ],
+     [
+      1714660,
+      2820
+     ],
+     [
+      1717880,
+      3500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans la rue, Dupin a allumé sa pipe. « Laissez-le parler, mon ami. »",
+   "en": "In the street, Dupin lit his pipe. \"Let him talk, my friend.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Dans la rue",
+     "in the street"
+    ],
+    [
+     "a allumé",
+     "lit"
+    ],
+    [
+     "sa pipe",
+     "his pipe"
+    ],
+    [
+     "Laissez-le parler",
+     "let him talk"
+    ],
+    [
+     "mon ami",
+     "my friend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 6320,
+    "en": 4620,
+    "wd": 15970
+   },
+   "bank": {
+    "fr": [
+     1722630,
+     6320
+    ],
+    "en": [
+     1729350,
+     4620
+    ],
+    "wd": [
+     1734370,
+     15970
+    ],
+    "wp": [
+     [
+      1734370,
+      2730
+     ],
+     [
+      1737500,
+      2380
+     ],
+     [
+      1740280,
+      2730
+     ],
+     [
+      1743410,
+      3050
+     ],
+     [
+      1746860,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Notre préfet est trop habile pour être profond. »",
+   "en": "\"Our prefect is too clever to be deep.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Notre préfet",
+     "our prefect"
+    ],
+    [
+     "est trop habile",
+     "is too clever"
+    ],
+    [
+     "pour être profond",
+     "to be deep"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 3510,
+    "en": 2980,
+    "wd": 11280
+   },
+   "bank": {
+    "fr": [
+     1750740,
+     3510
+    ],
+    "en": [
+     1754650,
+     2980
+    ],
+    "wd": [
+     1758030,
+     11280
+    ],
+    "wp": [
+     [
+      1758030,
+      3170
+     ],
+     [
+      1761600,
+      3260
+     ],
+     [
+      1765260,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il nie ce qui existe, et il explique ce qui n'existe pas. »",
+   "en": "\"He denies what exists, and he explains what doesn't exist.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "nie",
+     "en": "denies"
+    }
+   ],
+   "words": [
+    [
+     "Il nie",
+     "he denies"
+    ],
+    [
+     "ce qui existe",
+     "what exists"
+    ],
+    [
+     "il explique",
+     "he explains"
+    ],
+    [
+     "ce qui n'existe pas",
+     "what doesn't exist"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "gl": "audio/s064_gl.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 4180,
+    "en": 4070,
+    "gl": 3280,
+    "wd": 14980
+   },
+   "bank": {
+    "fr": [
+     1769710,
+     4180
+    ],
+    "en": [
+     1774290,
+     4070
+    ],
+    "gl": [
+     1778760,
+     3280
+    ],
+    "wd": [
+     1782440,
+     14980
+    ],
+    "wp": [
+     [
+      1782440,
+      2730
+     ],
+     [
+      1785570,
+      3370
+     ],
+     [
+      1789340,
+      3160
+     ],
+     [
+      1792900,
+      3670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous sommes rentrés rue Dunôt à l'aube, et nous avons fermé les volets.",
+   "en": "We went home to the rue Dunôt at dawn, and we closed the shutters.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Nous sommes rentrés",
+     "we went home"
+    ],
+    [
+     "rue Dunôt",
+     "to the rue Dunôt"
+    ],
+    [
+     "à l'aube",
+     "at dawn"
+    ],
+    [
+     "nous avons fermé",
+     "we closed"
+    ],
+    [
+     "les volets",
+     "the shutters"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 4700,
+    "en": 4240,
+    "wd": 17300
+   },
+   "bank": {
+    "fr": [
+     1797820,
+     4700
+    ],
+    "en": [
+     1802920,
+     4240
+    ],
+    "wd": [
+     1807560,
+     17300
+    ],
+    "wp": [
+     [
+      1807560,
+      3250
+     ],
+     [
+      1811210,
+      2890
+     ],
+     [
+      1814500,
+      2640
+     ],
+     [
+      1817540,
+      3280
+     ],
+     [
+      1821220,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a allumé deux bougies. Moi, je pensais encore à la fenêtre et au clou cassé.",
+   "en": "Dupin lit two candles. Me, I was still thinking about the window and the broken nail.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "a allumé",
+     "lit"
+    ],
+    [
+     "deux bougies",
+     "two candles"
+    ],
+    [
+     "Moi",
+     "me"
+    ],
+    [
+     "je pensais encore",
+     "I was still thinking"
+    ],
+    [
+     "à la fenêtre",
+     "about the window"
+    ],
+    [
+     "au clou cassé",
+     "the broken nail"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 6930,
+    "en": 6030,
+    "wd": 20500
+   },
+   "bank": {
+    "fr": [
+     1825260,
+     6930
+    ],
+    "en": [
+     1832590,
+     6030
+    ],
+    "wd": [
+     1839020,
+     20500
+    ],
+    "wp": [
+     [
+      1839020,
+      2380
+     ],
+     [
+      1841800,
+      3020
+     ],
+     [
+      1845220,
+      2140
+     ],
+     [
+      1847760,
+      3770
+     ],
+     [
+      1851930,
+      3170
+     ],
+     [
+      1855500,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sans lever les yeux de son livre, Dupin a dit : « Oui, mon ami. Un tout petit clou. »",
+   "en": "Without looking up from his book, Dupin said: \"Yes, my friend. A tiny little nail.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Sans lever les yeux",
+     "without looking up"
+    ],
+    [
+     "de son livre",
+     "from his book"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Oui",
+     "yes"
+    ],
+    [
+     "mon ami",
+     "my friend"
+    ],
+    [
+     "Un tout petit clou",
+     "a tiny little nail"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 7020,
+    "en": 6080,
+    "wd": 19760
+   },
+   "bank": {
+    "fr": [
+     1859920,
+     7020
+    ],
+    "en": [
+     1867340,
+     6080
+    ],
+    "wd": [
+     1873820,
+     19760
+    ],
+    "wp": [
+     [
+      1873820,
+      3340
+     ],
+     [
+      1877560,
+      2960
+     ],
+     [
+      1880920,
+      2220
+     ],
+     [
+      1883540,
+      2190
+     ],
+     [
+      1886130,
+      2630
+     ],
+     [
+      1889160,
+      3570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai souri. Je n'avais rien dit à voix haute. Encore une fois.",
+   "en": "I smiled. I hadn't said anything out loud. Once again.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai souri",
+     "I smiled"
+    ],
+    [
+     "Je n'avais rien dit",
+     "I hadn't said anything"
+    ],
+    [
+     "à voix haute",
+     "out loud"
+    ],
+    [
+     "Encore une fois",
+     "once again"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 6320,
+    "en": 4510,
+    "wd": 14470
+   },
+   "bank": {
+    "fr": [
+     1893980,
+     6320
+    ],
+    "en": [
+     1900700,
+     4510
+    ],
+    "wd": [
+     1905610,
+     14470
+    ],
+    "wp": [
+     [
+      1905610,
+      2860
+     ],
+     [
+      1908870,
+      3700
+     ],
+     [
+      1912970,
+      2880
+     ],
+     [
+      1916250,
+      2980
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   21360
+  ],
+  "silence": [
+   22160,
+   30000
+  ]
+ }
+}

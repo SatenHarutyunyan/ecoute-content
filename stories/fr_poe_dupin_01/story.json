@@ -1,0 +1,5028 @@
+{
+ "id": "fr_poe_dupin_01",
+ "lang": "fr",
+ "title": "Les enquêtes de Dupin : les cris de la rue Morgue",
+ "author": "Adapted from Edgar Allan Poe (1841)",
+ "level": "B1",
+ "series": "Les enquêtes de Dupin",
+ "episode": "1",
+ "note": "Paris, long ago. A strange friend named Dupin reads the narrator's thoughts on a night walk. Then a newspaper reports terrible cris, screams, at three in the morning in the rue Morgue.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 21870,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "C'était à Paris, au printemps, il y a presque deux cents ans.",
+   "en": "It was in Paris, in the spring, almost two hundred years ago.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "à Paris",
+     "in Paris"
+    ],
+    [
+     "au printemps",
+     "in the spring"
+    ],
+    [
+     "il y a",
+     "ago"
+    ],
+    [
+     "presque",
+     "almost"
+    ],
+    [
+     "deux cents ans",
+     "two hundred years"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "en": 4280,
+    "wd": 18470
+   },
+   "bank": {
+    "fr": [
+     53070,
+     4310
+    ],
+    "en": [
+     57780,
+     4280
+    ],
+    "wd": [
+     62460,
+     18470
+    ],
+    "wp": [
+     [
+      62460,
+      2410
+     ],
+     [
+      65270,
+      2600
+     ],
+     [
+      68270,
+      2780
+     ],
+     [
+      71450,
+      2400
+     ],
+     [
+      74250,
+      2400
+     ],
+     [
+      77050,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai rencontré Auguste Dupin dans une petite bibliothèque de la rue Montmartre.",
+   "en": "I met Auguste Dupin in a small library on the rue Montmartre.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai rencontré",
+     "I met"
+    ],
+    [
+     "Auguste Dupin",
+     "Auguste Dupin"
+    ],
+    [
+     "dans une petite bibliothèque",
+     "in a small library"
+    ],
+    [
+     "de la rue Montmartre",
+     "on the rue Montmartre"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "en": 4140,
+    "wd": 16490
+   },
+   "bank": {
+    "fr": [
+     81330,
+     5250
+    ],
+    "en": [
+     86980,
+     4140
+    ],
+    "wd": [
+     91520,
+     16490
+    ],
+    "wp": [
+     [
+      91520,
+      3010
+     ],
+     [
+      94930,
+      3280
+     ],
+     [
+      98610,
+      4350
+     ],
+     [
+      103360,
+      3800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous cherchions tous les deux le même livre, un livre très rare.",
+   "en": "We were both looking for the same book, a very rare book.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Nous cherchions",
+     "we were looking for"
+    ],
+    [
+     "tous les deux",
+     "both"
+    ],
+    [
+     "le même livre",
+     "the same book"
+    ],
+    [
+     "très rare",
+     "very rare"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 4260,
+    "en": 3850,
+    "wd": 13750
+   },
+   "bank": {
+    "fr": [
+     108410,
+     4260
+    ],
+    "en": [
+     113070,
+     3850
+    ],
+    "wd": [
+     117320,
+     13750
+    ],
+    "wp": [
+     [
+      117320,
+      3200
+     ],
+     [
+      120920,
+      2400
+     ],
+     [
+      123720,
+      3130
+     ],
+     [
+      127250,
+      2970
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin venait d'une famille noble, mais il était devenu pauvre.",
+   "en": "Dupin came from a noble family, but he had become poor.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "venait",
+     "came"
+    ],
+    [
+     "d'une famille noble",
+     "from a noble family"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "il était devenu",
+     "he had become"
+    ],
+    [
+     "pauvre",
+     "poor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 4290,
+    "en": 4010,
+    "wd": 15660
+   },
+   "bank": {
+    "fr": [
+     131470,
+     4290
+    ],
+    "en": [
+     136160,
+     4010
+    ],
+    "wd": [
+     140570,
+     15660
+    ],
+    "wp": [
+     [
+      140570,
+      2170
+     ],
+     [
+      143140,
+      3660
+     ],
+     [
+      147200,
+      1920
+     ],
+     [
+      149520,
+      3210
+     ],
+     [
+      153130,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous avons loué ensemble une vieille maison, rue Dunôt, dans le faubourg Saint-Germain.",
+   "en": "Together we rented an old house, on the rue Dunôt, in the faubourg Saint-Germain.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Nous avons loué",
+     "we rented"
+    ],
+    [
+     "ensemble",
+     "together"
+    ],
+    [
+     "une vieille maison",
+     "an old house"
+    ],
+    [
+     "rue Dunôt",
+     "rue Dunôt"
+    ],
+    [
+     "dans le faubourg Saint-Germain",
+     "in the faubourg Saint-Germain"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 5630,
+    "en": 4680,
+    "wd": 18300
+   },
+   "bank": {
+    "fr": [
+     156630,
+     5630
+    ],
+    "en": [
+     162660,
+     4680
+    ],
+    "wd": [
+     167740,
+     18300
+    ],
+    "wp": [
+     [
+      167740,
+      2990
+     ],
+     [
+      171130,
+      2560
+     ],
+     [
+      174090,
+      3240
+     ],
+     [
+      177730,
+      2680
+     ],
+     [
+      180810,
+      4380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La maison était à moitié en ruine, et les voisins disaient qu'elle était hantée.",
+   "en": "The house was half in ruins, and the neighbours said it was haunted.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "La maison",
+     "the house"
+    ],
+    [
+     "était à moitié en ruine",
+     "was half in ruins"
+    ],
+    [
+     "les voisins",
+     "the neighbours"
+    ],
+    [
+     "disaient",
+     "said"
+    ],
+    [
+     "qu'elle était hantée",
+     "that it was haunted"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 3820,
+    "wd": 17150
+   },
+   "bank": {
+    "fr": [
+     186440,
+     5030
+    ],
+    "en": [
+     191870,
+     3820
+    ],
+    "wd": [
+     196090,
+     17150
+    ],
+    "wp": [
+     [
+      196090,
+      2680
+     ],
+     [
+      199170,
+      3950
+     ],
+     [
+      203520,
+      2740
+     ],
+     [
+      206660,
+      2210
+     ],
+     [
+      209270,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le jour, nous fermions tous les volets.",
+   "en": "By day, we closed all the shutters.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "volets",
+     "en": "shutters"
+    }
+   ],
+   "words": [
+    [
+     "Le jour",
+     "by day"
+    ],
+    [
+     "nous fermions",
+     "we closed"
+    ],
+    [
+     "tous les volets",
+     "all the shutters"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 3200,
+    "en": 2690,
+    "gl": 3230,
+    "wd": 10090
+   },
+   "bank": {
+    "fr": [
+     213640,
+     3200
+    ],
+    "en": [
+     217240,
+     2690
+    ],
+    "gl": [
+     220330,
+     3230
+    ],
+    "wd": [
+     223960,
+     10090
+    ],
+    "wp": [
+     [
+      223960,
+      2500
+     ],
+     [
+      226860,
+      2950
+     ],
+     [
+      230210,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous allumions deux bougies, et nous lisions dans cette fausse nuit.",
+   "en": "We lit two candles, and we read in that false night.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Nous allumions",
+     "we lit"
+    ],
+    [
+     "deux bougies",
+     "two candles"
+    ],
+    [
+     "nous lisions",
+     "we read"
+    ],
+    [
+     "dans cette fausse nuit",
+     "in that false night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 4390,
+    "en": 3670,
+    "wd": 14240
+   },
+   "bank": {
+    "fr": [
+     234450,
+     4390
+    ],
+    "en": [
+     239240,
+     3670
+    ],
+    "wd": [
+     243310,
+     14240
+    ],
+    "wp": [
+     [
+      243310,
+      2770
+     ],
+     [
+      246480,
+      3020
+     ],
+     [
+      249900,
+      2780
+     ],
+     [
+      253080,
+      3620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin fumait sa longue pipe en écume de mer, et il ne parlait pas.",
+   "en": "Dupin smoked his long meerschaum pipe, and he did not talk.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "écume de mer",
+     "en": "meerschaum (a white stone for pipes)"
+    }
+   ],
+   "words": [
+    [
+     "fumait",
+     "smoked"
+    ],
+    [
+     "sa longue pipe",
+     "his long pipe"
+    ],
+    [
+     "en écume de mer",
+     "made of meerschaum"
+    ],
+    [
+     "il ne parlait pas",
+     "he did not talk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "gl": "audio/s009_gl.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4760,
+    "en": 4010,
+    "gl": 5520,
+    "wd": 14420
+   },
+   "bank": {
+    "fr": [
+     257950,
+     4760
+    ],
+    "en": [
+     263110,
+     4010
+    ],
+    "gl": [
+     267520,
+     5520
+    ],
+    "wd": [
+     273440,
+     14420
+    ],
+    "wp": [
+     [
+      273440,
+      2329
+     ],
+     [
+      276170,
+      3430
+     ],
+     [
+      280000,
+      3290
+     ],
+     [
+      283690,
+      3320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le soir, quand la vraie nuit arrivait, nous sortions dans les rues.",
+   "en": "In the evening, when the real night came, we went out into the streets.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le soir",
+     "in the evening"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "la vraie nuit",
+     "the real night"
+    ],
+    [
+     "arrivait",
+     "came"
+    ],
+    [
+     "nous sortions",
+     "we went out"
+    ],
+    [
+     "dans les rues",
+     "into the streets"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 4710,
+    "en": 4310,
+    "wd": 18850
+   },
+   "bank": {
+    "fr": [
+     288260,
+     4710
+    ],
+    "en": [
+     293370,
+     4310
+    ],
+    "wd": [
+     298080,
+     18850
+    ],
+    "wp": [
+     [
+      298080,
+      2750
+     ],
+     [
+      301230,
+      2020
+     ],
+     [
+      303650,
+      3090
+     ],
+     [
+      307140,
+      2230
+     ],
+     [
+      309770,
+      2880
+     ],
+     [
+      313050,
+      3030
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Nous marchions bras dessus, bras dessous, jusqu'au matin.",
+   "en": "We walked arm in arm until the morning.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Nous marchions",
+     "we walked"
+    ],
+    [
+     "bras dessus, bras dessous",
+     "arm in arm"
+    ],
+    [
+     "jusqu'au matin",
+     "until the morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "en": 2650,
+    "wd": 11540
+   },
+   "bank": {
+    "fr": [
+     317330,
+     4300
+    ],
+    "en": [
+     322030,
+     2650
+    ],
+    "wd": [
+     325080,
+     11540
+    ],
+    "wp": [
+     [
+      325080,
+      2870
+     ],
+     [
+      328350,
+      3820
+     ],
+     [
+      332570,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Pendant ces promenades, Dupin montrait un don très étrange.",
+   "en": "On these walks, Dupin showed a very strange gift.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Pendant ces promenades",
+     "on these walks"
+    ],
+    [
+     "montrait",
+     "showed"
+    ],
+    [
+     "un don",
+     "a gift"
+    ],
+    [
+     "très étrange",
+     "very strange"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 4430,
+    "en": 3720,
+    "wd": 13710
+   },
+   "bank": {
+    "fr": [
+     337020,
+     4430
+    ],
+    "en": [
+     341850,
+     3720
+    ],
+    "wd": [
+     345970,
+     13710
+    ],
+    "wp": [
+     [
+      345970,
+      3650
+     ],
+     [
+      350020,
+      2320
+     ],
+     [
+      352740,
+      2460
+     ],
+     [
+      355600,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin lisait dans les gens comme dans un livre ouvert.",
+   "en": "Dupin read people like an open book.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "lisait dans les gens",
+     "read people"
+    ],
+    [
+     "comme",
+     "like"
+    ],
+    [
+     "dans un livre ouvert",
+     "in an open book"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 3580,
+    "en": 2710,
+    "wd": 10660
+   },
+   "bank": {
+    "fr": [
+     360080,
+     3580
+    ],
+    "en": [
+     364060,
+     2710
+    ],
+    "wd": [
+     367170,
+     10660
+    ],
+    "wp": [
+     [
+      367170,
+      3150
+     ],
+     [
+      370720,
+      2170
+     ],
+     [
+      373290,
+      3690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors sa voix devenait aiguë, et ses yeux devenaient vides.",
+   "en": "Then his voice became high, and his eyes became empty.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "then"
+    ],
+    [
+     "sa voix",
+     "his voice"
+    ],
+    [
+     "devenait aiguë",
+     "became high"
+    ],
+    [
+     "ses yeux",
+     "his eyes"
+    ],
+    [
+     "devenaient vides",
+     "became empty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 4019,
+    "en": 3920,
+    "wd": 16560
+   },
+   "bank": {
+    "fr": [
+     378230,
+     4019
+    ],
+    "en": [
+     382650,
+     3920
+    ],
+    "wd": [
+     386970,
+     16560
+    ],
+    "wp": [
+     [
+      386970,
+      2280
+     ],
+     [
+      389650,
+      2810
+     ],
+     [
+      392860,
+      3150
+     ],
+     [
+      396410,
+      2650
+     ],
+     [
+      399460,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'admirais Dupin. Mais parfois, j'avais un peu peur de lui.",
+   "en": "I admired Dupin. But sometimes I was a little afraid of him.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "J'admirais",
+     "I admired"
+    ],
+    [
+     "parfois",
+     "sometimes"
+    ],
+    [
+     "j'avais un peu peur",
+     "I was a little afraid"
+    ],
+    [
+     "de lui",
+     "of him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 5540,
+    "en": 4120,
+    "wd": 13650
+   },
+   "bank": {
+    "fr": [
+     403930,
+     5540
+    ],
+    "en": [
+     409870,
+     4120
+    ],
+    "wd": [
+     414390,
+     13650
+    ],
+    "wp": [
+     [
+      414390,
+      2890
+     ],
+     [
+      417680,
+      2560
+     ],
+     [
+      420640,
+      3710
+     ],
+     [
+      424750,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un soir, nous marchions dans une longue rue sale, près du Palais-Royal.",
+   "en": "One evening, we were walking along a long dirty street, near the Palais-Royal.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Un soir",
+     "one evening"
+    ],
+    [
+     "nous marchions",
+     "we were walking"
+    ],
+    [
+     "une longue rue sale",
+     "a long dirty street"
+    ],
+    [
+     "près du Palais-Royal",
+     "near the Palais-Royal"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 5400,
+    "en": 5130,
+    "wd": 15340
+   },
+   "bank": {
+    "fr": [
+     428440,
+     5400
+    ],
+    "en": [
+     434240,
+     5130
+    ],
+    "wd": [
+     439770,
+     15340
+    ],
+    "wp": [
+     [
+      439770,
+      2640
+     ],
+     [
+      442810,
+      3040
+     ],
+     [
+      446250,
+      3800
+     ],
+     [
+      450450,
+      3810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Depuis un quart d'heure, aucun de nous deux n'avait dit un mot.",
+   "en": "For a quarter of an hour, neither of us had said a word.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Depuis",
+     "for"
+    ],
+    [
+     "un quart d'heure",
+     "a quarter of an hour"
+    ],
+    [
+     "aucun de nous deux",
+     "neither of us"
+    ],
+    [
+     "n'avait dit un mot",
+     "had said a word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 3710,
+    "en": 3630,
+    "wd": 14040
+   },
+   "bank": {
+    "fr": [
+     455510,
+     3710
+    ],
+    "en": [
+     459620,
+     3630
+    ],
+    "wd": [
+     463650,
+     14040
+    ],
+    "wp": [
+     [
+      463650,
+      2340
+     ],
+     [
+      466390,
+      3350
+     ],
+     [
+      470140,
+      3150
+     ],
+     [
+      473690,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tout à coup, Dupin a dit : « Il est très petit, c'est vrai. »",
+   "en": "Suddenly Dupin said: \"He is very small, it's true.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Tout à coup",
+     "suddenly"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Il est très petit",
+     "he is very small"
+    ],
+    [
+     "c'est vrai",
+     "it's true"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4490,
+    "en": 4080,
+    "wd": 12910
+   },
+   "bank": {
+    "fr": [
+     478090,
+     4490
+    ],
+    "en": [
+     482980,
+     4080
+    ],
+    "wd": [
+     487460,
+     12910
+    ],
+    "wp": [
+     [
+      487460,
+      2600
+     ],
+     [
+      490460,
+      2220
+     ],
+     [
+      493080,
+      3440
+     ],
+     [
+      496920,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il serait mieux dans un théâtre de comédie. »",
+   "en": "\"He would be better in a comedy theatre.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il serait mieux",
+     "he would be better"
+    ],
+    [
+     "dans un théâtre",
+     "in a theatre"
+    ],
+    [
+     "de comédie",
+     "comedy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "en": 2740,
+    "wd": 10700
+   },
+   "bank": {
+    "fr": [
+     500770,
+     3120
+    ],
+    "en": [
+     504290,
+     2740
+    ],
+    "wd": [
+     507430,
+     10700
+    ],
+    "wp": [
+     [
+      507430,
+      3120
+     ],
+     [
+      510950,
+      3200
+     ],
+     [
+      514550,
+      2730
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Oui, sans doute », ai-je répondu sans réfléchir.",
+   "en": "\"Yes, no doubt,\" I answered without thinking.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Oui",
+     "yes"
+    ],
+    [
+     "sans doute",
+     "no doubt"
+    ],
+    [
+     "ai-je répondu",
+     "I answered"
+    ],
+    [
+     "sans réfléchir",
+     "without thinking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 3960,
+    "en": 3580,
+    "wd": 13110
+   },
+   "bank": {
+    "fr": [
+     518530,
+     3960
+    ],
+    "en": [
+     522890,
+     3580
+    ],
+    "wd": [
+     526870,
+     13110
+    ],
+    "wp": [
+     [
+      526870,
+      2190
+     ],
+     [
+      529460,
+      2660
+     ],
+     [
+      532520,
+      2970
+     ],
+     [
+      535890,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis je me suis arrêté net, et j'ai senti un froid dans le dos.",
+   "en": "Then I stopped dead, and I felt a chill down my back.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "je me suis arrêté net",
+     "I stopped dead"
+    ],
+    [
+     "j'ai senti",
+     "I felt"
+    ],
+    [
+     "un froid dans le dos",
+     "a chill down my back"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4190,
+    "en": 3600,
+    "wd": 14480
+   },
+   "bank": {
+    "fr": [
+     540380,
+     4190
+    ],
+    "en": [
+     544970,
+     3600
+    ],
+    "wd": [
+     548970,
+     14480
+    ],
+    "wp": [
+     [
+      548970,
+      2110
+     ],
+     [
+      551480,
+      3830
+     ],
+     [
+      555710,
+      2860
+     ],
+     [
+      558970,
+      3630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin avait répondu à ma pensée. Je n'avais rien dit à voix haute.",
+   "en": "Dupin had answered my thought. I had said nothing out loud.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "avait répondu",
+     "had answered"
+    ],
+    [
+     "à ma pensée",
+     "my thought"
+    ],
+    [
+     "Je n'avais rien dit",
+     "I had said nothing"
+    ],
+    [
+     "à voix haute",
+     "out loud"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5700,
+    "en": 4100,
+    "wd": 14270
+   },
+   "bank": {
+    "fr": [
+     563850,
+     5700
+    ],
+    "en": [
+     569950,
+     4100
+    ],
+    "wd": [
+     574450,
+     14270
+    ],
+    "wp": [
+     [
+      574450,
+      2890
+     ],
+     [
+      577740,
+      2870
+     ],
+     [
+      581010,
+      3580
+     ],
+     [
+      584990,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je pensais à Chantilly, un petit cordonnier de la rue Saint-Denis.",
+   "en": "I was thinking about Chantilly, a little shoemaker from the rue Saint-Denis.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "cordonnier",
+     "en": "shoemaker"
+    }
+   ],
+   "words": [
+    [
+     "Je pensais à",
+     "I was thinking about"
+    ],
+    [
+     "Chantilly",
+     "Chantilly"
+    ],
+    [
+     "un petit cordonnier",
+     "a little shoemaker"
+    ],
+    [
+     "de la rue Saint-Denis",
+     "from the rue Saint-Denis"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "gl": "audio/s023_gl.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 4660,
+    "en": 4790,
+    "gl": 3860,
+    "wd": 16000
+   },
+   "bank": {
+    "fr": [
+     589120,
+     4660
+    ],
+    "en": [
+     594180,
+     4790
+    ],
+    "gl": [
+     599370,
+     3860
+    ],
+    "wd": [
+     603630,
+     16000
+    ],
+    "wp": [
+     [
+      603630,
+      3400
+     ],
+     [
+      607430,
+      2930
+     ],
+     [
+      610760,
+      3740
+     ],
+     [
+      614900,
+      3880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Chantilly était devenu acteur. Il avait joué un grand roi dans une tragédie, et tout Paris avait ri.",
+   "en": "Chantilly had become an actor. He had played a great king in a tragedy, and all Paris had laughed.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "était devenu acteur",
+     "had become an actor"
+    ],
+    [
+     "Il avait joué",
+     "he had played"
+    ],
+    [
+     "un grand roi",
+     "a great king"
+    ],
+    [
+     "dans une tragédie",
+     "in a tragedy"
+    ],
+    [
+     "tout Paris",
+     "all Paris"
+    ],
+    [
+     "avait ri",
+     "had laughed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 7550,
+    "en": 6230,
+    "wd": 21450
+   },
+   "bank": {
+    "fr": [
+     620030,
+     7550
+    ],
+    "en": [
+     627980,
+     6230
+    ],
+    "wd": [
+     634610,
+     21450
+    ],
+    "wp": [
+     [
+      634610,
+      3650
+     ],
+     [
+      638660,
+      3020
+     ],
+     [
+      642080,
+      3070
+     ],
+     [
+      645550,
+      3490
+     ],
+     [
+      649440,
+      2880
+     ],
+     [
+      652720,
+      2490
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dupin, ai-je dit, comment avez-vous su que je pensais à Chantilly ? »",
+   "en": "\"Dupin,\" I said, \"how did you know I was thinking about Chantilly?\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "ai-je dit",
+     "I said"
+    ],
+    [
+     "comment",
+     "how"
+    ],
+    [
+     "avez-vous su",
+     "did you know"
+    ],
+    [
+     "que je pensais à Chantilly",
+     "that I was thinking about Chantilly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 4520,
+    "en": 4620,
+    "wd": 14220
+   },
+   "bank": {
+    "fr": [
+     656460,
+     4520
+    ],
+    "en": [
+     661380,
+     4620
+    ],
+    "wd": [
+     666400,
+     14220
+    ],
+    "wp": [
+     [
+      666400,
+      2460
+     ],
+     [
+      669260,
+      2180
+     ],
+     [
+      671840,
+      2840
+     ],
+     [
+      675080,
+      4690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a souri. « Revenons en arrière, pas à pas. »",
+   "en": "Dupin smiled. \"Let's go back, step by step.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "a souri",
+     "smiled"
+    ],
+    [
+     "Revenons en arrière",
+     "let's go back"
+    ],
+    [
+     "pas à pas",
+     "step by step"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 4950,
+    "en": 4050,
+    "wd": 10530
+   },
+   "bank": {
+    "fr": [
+     681020,
+     4950
+    ],
+    "en": [
+     686370,
+     4050
+    ],
+    "wd": [
+     690820,
+     10530
+    ],
+    "wp": [
+     [
+      690820,
+      2470
+     ],
+     [
+      693690,
+      3520
+     ],
+     [
+      697610,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il y a quinze minutes, un marchand de fruits vous a poussé. »",
+   "en": "\"Fifteen minutes ago, a fruit seller pushed you.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Il y a quinze minutes",
+     "fifteen minutes ago"
+    ],
+    [
+     "un marchand de fruits",
+     "a fruit seller"
+    ],
+    [
+     "vous a poussé",
+     "pushed you"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 4070,
+    "en": 3290,
+    "wd": 11740
+   },
+   "bank": {
+    "fr": [
+     701750,
+     4070
+    ],
+    "en": [
+     706220,
+     3290
+    ],
+    "wd": [
+     709910,
+     11740
+    ],
+    "wp": [
+     [
+      709910,
+      3730
+     ],
+     [
+      714040,
+      3490
+     ],
+     [
+      717930,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce marchand portait un grand panier de pommes sur la tête. »",
+   "en": "\"That seller was carrying a big basket of apples on his head.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ce marchand",
+     "that seller"
+    ],
+    [
+     "portait",
+     "was carrying"
+    ],
+    [
+     "un grand panier",
+     "a big basket"
+    ],
+    [
+     "de pommes",
+     "of apples"
+    ],
+    [
+     "sur la tête",
+     "on his head"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "en": 3900,
+    "wd": 17100
+   },
+   "bank": {
+    "fr": [
+     722050,
+     3810
+    ],
+    "en": [
+     726260,
+     3900
+    ],
+    "wd": [
+     730560,
+     17100
+    ],
+    "wp": [
+     [
+      730560,
+      2870
+     ],
+     [
+      733830,
+      2710
+     ],
+     [
+      736940,
+      3300
+     ],
+     [
+      740640,
+      2810
+     ],
+     [
+      743850,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vous êtes tombé sur un tas de pavés, et vous vous êtes tordu la cheville. »",
+   "en": "\"You fell onto a pile of paving stones, and you twisted your ankle.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "pavés",
+     "en": "paving stones"
+    }
+   ],
+   "words": [
+    [
+     "Vous êtes tombé",
+     "you fell"
+    ],
+    [
+     "sur un tas",
+     "onto a pile"
+    ],
+    [
+     "de pavés",
+     "of paving stones"
+    ],
+    [
+     "vous vous êtes tordu",
+     "you twisted"
+    ],
+    [
+     "la cheville",
+     "your ankle"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 4650,
+    "en": 4380,
+    "gl": 3500,
+    "wd": 17720
+   },
+   "bank": {
+    "fr": [
+     748060,
+     4650
+    ],
+    "en": [
+     753110,
+     4380
+    ],
+    "gl": [
+     757890,
+     3500
+    ],
+    "wd": [
+     761790,
+     17720
+    ],
+    "wp": [
+     [
+      761790,
+      2910
+     ],
+     [
+      765100,
+      3080
+     ],
+     [
+      768580,
+      3140
+     ],
+     [
+      772120,
+      3300
+     ],
+     [
+      775820,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ensuite, vous avez marché en regardant les pavés, l'air fâché. »",
+   "en": "\"Then you walked on looking at the paving stones, with an angry face.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ensuite",
+     "then"
+    ],
+    [
+     "vous avez marché",
+     "you walked"
+    ],
+    [
+     "en regardant",
+     "looking at"
+    ],
+    [
+     "les pavés",
+     "the paving stones"
+    ],
+    [
+     "l'air fâché",
+     "with an angry face"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 4810,
+    "en": 4040,
+    "wd": 16990
+   },
+   "bank": {
+    "fr": [
+     779910,
+     4810
+    ],
+    "en": [
+     785120,
+     4040
+    ],
+    "wd": [
+     789560,
+     16990
+    ],
+    "wp": [
+     [
+      789560,
+      2410
+     ],
+     [
+      792370,
+      3070
+     ],
+     [
+      795840,
+      2650
+     ],
+     [
+      798890,
+      3130
+     ],
+     [
+      802420,
+      3280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Puis nous sommes arrivés dans une petite rue avec des pavés modernes. »",
+   "en": "\"Then we came into a small street with modern paving stones.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "nous sommes arrivés",
+     "we came"
+    ],
+    [
+     "dans une petite rue",
+     "into a small street"
+    ],
+    [
+     "avec des pavés modernes",
+     "with modern paving stones"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4310,
+    "en": 4030,
+    "wd": 15430
+   },
+   "bank": {
+    "fr": [
+     806950,
+     4310
+    ],
+    "en": [
+     811660,
+     4030
+    ],
+    "wd": [
+     816090,
+     15430
+    ],
+    "wp": [
+     [
+      816090,
+      2110
+     ],
+     [
+      818600,
+      3180
+     ],
+     [
+      822180,
+      3670
+     ],
+     [
+      826250,
+      4420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ces pavés sont taillés pour aller ensemble. Cet art s'appelle la stéréotomie. »",
+   "en": "\"These stones are cut to fit together. This art is called stereotomy.\"",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "stéréotomie",
+     "en": "the art of cutting stones to fit together"
+    }
+   ],
+   "words": [
+    [
+     "Ces pavés",
+     "these stones"
+    ],
+    [
+     "sont taillés",
+     "are cut"
+    ],
+    [
+     "pour aller ensemble",
+     "to fit together"
+    ],
+    [
+     "Cet art",
+     "this art"
+    ],
+    [
+     "s'appelle",
+     "is called"
+    ],
+    [
+     "la stéréotomie",
+     "stereotomy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "gl": "audio/s032_gl.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 6180,
+    "en": 4700,
+    "gl": 5510,
+    "wd": 20850
+   },
+   "bank": {
+    "fr": [
+     831920,
+     6180
+    ],
+    "en": [
+     838500,
+     4700
+    ],
+    "gl": [
+     843600,
+     5510
+    ],
+    "wd": [
+     849510,
+     20850
+    ],
+    "wp": [
+     [
+      849510,
+      2930
+     ],
+     [
+      852840,
+      2700
+     ],
+     [
+      855940,
+      3460
+     ],
+     [
+      859800,
+      2810
+     ],
+     [
+      863010,
+      2650
+     ],
+     [
+      866060,
+      3450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vos lèvres ont bougé. J'ai vu que vous disiez ce mot : stéréotomie. »",
+   "en": "\"Your lips moved. I saw that you were saying that word: stereotomy.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Vos lèvres",
+     "your lips"
+    ],
+    [
+     "ont bougé",
+     "moved"
+    ],
+    [
+     "J'ai vu",
+     "I saw"
+    ],
+    [
+     "vous disiez",
+     "you were saying"
+    ],
+    [
+     "ce mot",
+     "that word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 5920,
+    "en": 4520,
+    "wd": 15610
+   },
+   "bank": {
+    "fr": [
+     870760,
+     5920
+    ],
+    "en": [
+     877080,
+     4520
+    ],
+    "wd": [
+     882000,
+     15610
+    ],
+    "wp": [
+     [
+      882000,
+      2920
+     ],
+     [
+      885320,
+      2450
+     ],
+     [
+      888170,
+      2480
+     ],
+     [
+      891050,
+      2850
+     ],
+     [
+      894300,
+      2460
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et ce mot savant vous fait toujours penser aux atomes. »",
+   "en": "\"And that learned word always makes you think of atoms.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Et",
+     "and"
+    ],
+    [
+     "ce mot savant",
+     "that learned word"
+    ],
+    [
+     "vous fait toujours penser",
+     "always makes you think"
+    ],
+    [
+     "aux atomes",
+     "of atoms"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3440,
+    "en": 3420,
+    "wd": 13710
+   },
+   "bank": {
+    "fr": [
+     898010,
+     3440
+    ],
+    "en": [
+     901850,
+     3420
+    ],
+    "wd": [
+     905670,
+     13710
+    ],
+    "wp": [
+     [
+      905670,
+      1820
+     ],
+     [
+      907890,
+      3060
+     ],
+     [
+      911350,
+      3900
+     ],
+     [
+      915650,
+      2880
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et l'autre jour, nous avons parlé ensemble des atomes et des étoiles. »",
+   "en": "\"And the other day, we talked together about atoms and stars.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "l'autre jour",
+     "the other day"
+    ],
+    [
+     "nous avons parlé",
+     "we talked"
+    ],
+    [
+     "ensemble",
+     "together"
+    ],
+    [
+     "des atomes",
+     "about atoms"
+    ],
+    [
+     "des étoiles",
+     "stars"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5040,
+    "en": 3730,
+    "wd": 17150
+   },
+   "bank": {
+    "fr": [
+     919780,
+     5040
+    ],
+    "en": [
+     925220,
+     3730
+    ],
+    "wd": [
+     929350,
+     17150
+    ],
+    "wp": [
+     [
+      929350,
+      3110
+     ],
+     [
+      932860,
+      3110
+     ],
+     [
+      936370,
+      2560
+     ],
+     [
+      939330,
+      3130
+     ],
+     [
+      942860,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Alors j'ai pensé : il va lever les yeux vers le ciel. Et vous les avez levés. »",
+   "en": "\"So I thought: he is going to look up at the sky. And you looked up.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "j'ai pensé",
+     "I thought"
+    ],
+    [
+     "il va lever les yeux",
+     "he is going to look up"
+    ],
+    [
+     "vers le ciel",
+     "at the sky"
+    ],
+    [
+     "vous les avez levés",
+     "you looked up"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 6270,
+    "en": 4270,
+    "wd": 17190
+   },
+   "bank": {
+    "fr": [
+     946900,
+     6270
+    ],
+    "en": [
+     953570,
+     4270
+    ],
+    "wd": [
+     958240,
+     17190
+    ],
+    "wp": [
+     [
+      958240,
+      2270
+     ],
+     [
+      960910,
+      2710
+     ],
+     [
+      964020,
+      3570
+     ],
+     [
+      967990,
+      3020
+     ],
+     [
+      971410,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vous avez regardé les étoiles d'Orion, qui brillaient au-dessus de nous. »",
+   "en": "\"You looked at the stars of Orion, which were shining above us.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Vous avez regardé",
+     "you looked at"
+    ],
+    [
+     "les étoiles d'Orion",
+     "the stars of Orion"
+    ],
+    [
+     "qui brillaient",
+     "which were shining"
+    ],
+    [
+     "au-dessus de nous",
+     "above us"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 4560,
+    "en": 3840,
+    "wd": 14890
+   },
+   "bank": {
+    "fr": [
+     975830,
+     4560
+    ],
+    "en": [
+     980790,
+     3840
+    ],
+    "wd": [
+     985030,
+     14890
+    ],
+    "wp": [
+     [
+      985030,
+      3170
+     ],
+     [
+      988600,
+      3740
+     ],
+     [
+      992740,
+      2850
+     ],
+     [
+      995990,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Hier, un journal s'est moqué de Chantilly, et l'article parlait justement d'Orion. »",
+   "en": "\"Yesterday, a newspaper made fun of Chantilly, and the article happened to speak of Orion.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Hier",
+     "yesterday"
+    ],
+    [
+     "un journal",
+     "a newspaper"
+    ],
+    [
+     "s'est moqué de",
+     "made fun of"
+    ],
+    [
+     "l'article",
+     "the article"
+    ],
+    [
+     "parlait justement d'Orion",
+     "happened to speak of Orion"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5930,
+    "en": 5820,
+    "wd": 18090
+   },
+   "bank": {
+    "fr": [
+     1000320,
+     5930
+    ],
+    "en": [
+     1006650,
+     5820
+    ],
+    "wd": [
+     1012870,
+     18090
+    ],
+    "wp": [
+     [
+      1012870,
+      2520
+     ],
+     [
+      1015790,
+      3080
+     ],
+     [
+      1019270,
+      3060
+     ],
+     [
+      1022730,
+      2810
+     ],
+     [
+      1025940,
+      4170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Nous avions ri de cet article. Donc Orion vous a fait penser à Chantilly. »",
+   "en": "\"We had laughed at that article. So Orion made you think of Chantilly.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Nous avions ri",
+     "we had laughed"
+    ],
+    [
+     "de cet article",
+     "at that article"
+    ],
+    [
+     "Donc",
+     "so"
+    ],
+    [
+     "vous a fait penser",
+     "made you think"
+    ],
+    [
+     "à Chantilly",
+     "of Chantilly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 6070,
+    "en": 4590,
+    "wd": 17370
+   },
+   "bank": {
+    "fr": [
+     1031359,
+     6070
+    ],
+    "en": [
+     1037829,
+     4590
+    ],
+    "wd": [
+     1042819,
+     17370
+    ],
+    "wp": [
+     [
+      1042819,
+      3100
+     ],
+     [
+      1046319,
+      3250
+     ],
+     [
+      1049969,
+      2230
+     ],
+     [
+      1052599,
+      3240
+     ],
+     [
+      1056239,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Vous avez souri. Puis vous vous êtes redressé, très droit, comme pour être plus grand. »",
+   "en": "\"You smiled. Then you straightened up, very straight, as if to be taller.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Vous avez souri",
+     "you smiled"
+    ],
+    [
+     "vous vous êtes redressé",
+     "you straightened up"
+    ],
+    [
+     "très droit",
+     "very straight"
+    ],
+    [
+     "comme pour être plus grand",
+     "as if to be taller"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 6660,
+    "en": 4980,
+    "wd": 15360
+   },
+   "bank": {
+    "fr": [
+     1060590,
+     6660
+    ],
+    "en": [
+     1067650,
+     4980
+    ],
+    "wd": [
+     1073030,
+     15360
+    ],
+    "wp": [
+     [
+      1073030,
+      3140
+     ],
+     [
+      1076570,
+      3630
+     ],
+     [
+      1080600,
+      2860
+     ],
+     [
+      1083860,
+      3680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Alors j'ai su que vous pensiez à la petite taille de Chantilly. C'est là que j'ai parlé. »",
+   "en": "\"So I knew you were thinking of Chantilly's small height. That's when I spoke.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "j'ai su",
+     "I knew"
+    ],
+    [
+     "vous pensiez",
+     "you were thinking"
+    ],
+    [
+     "à la petite taille",
+     "of the small height"
+    ],
+    [
+     "C'est là que",
+     "that's when"
+    ],
+    [
+     "j'ai parlé",
+     "I spoke"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 6190,
+    "en": 4480,
+    "wd": 16940
+   },
+   "bank": {
+    "fr": [
+     1088790,
+     6190
+    ],
+    "en": [
+     1095380,
+     4480
+    ],
+    "wd": [
+     1100260,
+     16940
+    ],
+    "wp": [
+     [
+      1100260,
+      2540
+     ],
+     [
+      1103200,
+      2880
+     ],
+     [
+      1106480,
+      3480
+     ],
+     [
+      1110360,
+      2730
+     ],
+     [
+      1113490,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le marchand, les pavés, la stéréotomie, les atomes, Orion, Chantilly. Tout était juste.",
+   "en": "The seller, the stones, stereotomy, the atoms, Orion, Chantilly. All of it was right.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le marchand",
+     "the seller"
+    ],
+    [
+     "les pavés",
+     "the stones"
+    ],
+    [
+     "les atomes",
+     "the atoms"
+    ],
+    [
+     "Tout était juste",
+     "all of it was right"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 8650,
+    "en": 7180,
+    "wd": 13910
+   },
+   "bank": {
+    "fr": [
+     1117600,
+     8650
+    ],
+    "en": [
+     1126650,
+     7180
+    ],
+    "wd": [
+     1134230,
+     13910
+    ],
+    "wp": [
+     [
+      1134230,
+      2600
+     ],
+     [
+      1137230,
+      2830
+     ],
+     [
+      1140460,
+      2950
+     ],
+     [
+      1143810,
+      3480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai regardé Dupin dans la nuit. Je ne savais pas si je devais l'admirer ou le craindre.",
+   "en": "I looked at Dupin in the night. I didn't know if I should admire him or fear him.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai regardé",
+     "I looked at"
+    ],
+    [
+     "dans la nuit",
+     "in the night"
+    ],
+    [
+     "Je ne savais pas",
+     "I didn't know"
+    ],
+    [
+     "si je devais",
+     "if I should"
+    ],
+    [
+     "l'admirer",
+     "admire him"
+    ],
+    [
+     "ou le craindre",
+     "or fear him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 6560,
+    "en": 4870,
+    "wd": 20380
+   },
+   "bank": {
+    "fr": [
+     1148540,
+     6560
+    ],
+    "en": [
+     1155500,
+     4870
+    ],
+    "wd": [
+     1160770,
+     20380
+    ],
+    "wp": [
+     [
+      1160770,
+      2840
+     ],
+     [
+      1164010,
+      2860
+     ],
+     [
+      1167270,
+      3170
+     ],
+     [
+      1170840,
+      2950
+     ],
+     [
+      1174190,
+      2860
+     ],
+     [
+      1177450,
+      2850
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Quelques jours plus tard, nous lisions le journal du soir, la Gazette des tribunaux.",
+   "en": "A few days later, we were reading the evening paper, the Gazette des tribunaux.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "Gazette des tribunaux",
+     "en": "a Paris newspaper about crimes and trials"
+    }
+   ],
+   "words": [
+    [
+     "Quelques jours plus tard",
+     "a few days later"
+    ],
+    [
+     "nous lisions",
+     "we were reading"
+    ],
+    [
+     "le journal du soir",
+     "the evening paper"
+    ],
+    [
+     "la Gazette des tribunaux",
+     "the Gazette des tribunaux"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "gl": "audio/s044_gl.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 5930,
+    "en": 5040,
+    "gl": 6580,
+    "wd": 16730
+   },
+   "bank": {
+    "fr": [
+     1181550,
+     5930
+    ],
+    "en": [
+     1187880,
+     5040
+    ],
+    "gl": [
+     1193320,
+     6580
+    ],
+    "wd": [
+     1200300,
+     16730
+    ],
+    "wp": [
+     [
+      1200300,
+      3680
+     ],
+     [
+      1204380,
+      2860
+     ],
+     [
+      1207640,
+      3790
+     ],
+     [
+      1211830,
+      4350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un titre nous a arrêtés : « Crimes extraordinaires ». J'ai lu l'article à voix haute.",
+   "en": "A headline stopped us: \"Extraordinary crimes.\" I read the article aloud.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Un titre",
+     "a headline"
+    ],
+    [
+     "nous a arrêtés",
+     "stopped us"
+    ],
+    [
+     "Crimes extraordinaires",
+     "extraordinary crimes"
+    ],
+    [
+     "J'ai lu",
+     "I read"
+    ],
+    [
+     "l'article",
+     "the article"
+    ],
+    [
+     "à voix haute",
+     "aloud"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 6840,
+    "en": 5210,
+    "wd": 21090
+   },
+   "bank": {
+    "fr": [
+     1217430,
+     6840
+    ],
+    "en": [
+     1224670,
+     5210
+    ],
+    "wd": [
+     1230280,
+     21090
+    ],
+    "wp": [
+     [
+      1230280,
+      2760
+     ],
+     [
+      1233440,
+      3240
+     ],
+     [
+      1237080,
+      4130
+     ],
+     [
+      1241610,
+      2510
+     ],
+     [
+      1244520,
+      2810
+     ],
+     [
+      1247730,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce matin, vers trois heures, des cris terribles ont réveillé le quartier Saint-Roch. »",
+   "en": "\"This morning, around three o'clock, terrible screams woke up the Saint-Roch district.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce matin",
+     "this morning"
+    ],
+    [
+     "vers trois heures",
+     "around three o'clock"
+    ],
+    [
+     "des cris terribles",
+     "terrible screams"
+    ],
+    [
+     "ont réveillé",
+     "woke up"
+    ],
+    [
+     "le quartier Saint-Roch",
+     "the Saint-Roch district"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "en": 5320,
+    "wd": 18700
+   },
+   "bank": {
+    "fr": [
+     1251770,
+     5730
+    ],
+    "en": [
+     1257900,
+     5320
+    ],
+    "wd": [
+     1263620,
+     18700
+    ],
+    "wp": [
+     [
+      1263620,
+      2700
+     ],
+     [
+      1266720,
+      3520
+     ],
+     [
+      1270640,
+      3490
+     ],
+     [
+      1274530,
+      2450
+     ],
+     [
+      1277380,
+      4090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les cris venaient d'une maison de la rue Morgue. »",
+   "en": "\"The screams came from a house in the rue Morgue.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les cris",
+     "the screams"
+    ],
+    [
+     "venaient",
+     "came"
+    ],
+    [
+     "d'une maison",
+     "from a house"
+    ],
+    [
+     "de la rue Morgue",
+     "in the rue Morgue"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 3120,
+    "en": 2920,
+    "wd": 13180
+   },
+   "bank": {
+    "fr": [
+     1282720,
+     3120
+    ],
+    "en": [
+     1286240,
+     2920
+    ],
+    "wd": [
+     1289560,
+     13180
+    ],
+    "wp": [
+     [
+      1289560,
+      2820
+     ],
+     [
+      1292780,
+      2170
+     ],
+     [
+      1295350,
+      2900
+     ],
+     [
+      1298650,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Au quatrième étage vivaient deux femmes seules : Madame L'Espanaye et sa fille, Camille. »",
+   "en": "\"On the fourth floor lived two women alone: Madame L'Espanaye and her daughter, Camille.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Au quatrième étage",
+     "on the fourth floor"
+    ],
+    [
+     "vivaient",
+     "lived"
+    ],
+    [
+     "deux femmes seules",
+     "two women alone"
+    ],
+    [
+     "Madame L'Espanaye",
+     "Madame L'Espanaye"
+    ],
+    [
+     "et sa fille",
+     "and her daughter"
+    ],
+    [
+     "Camille",
+     "Camille"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 6090,
+    "en": 5370,
+    "wd": 20860
+   },
+   "bank": {
+    "fr": [
+     1303140,
+     6090
+    ],
+    "en": [
+     1309630,
+     5370
+    ],
+    "wd": [
+     1315400,
+     20860
+    ],
+    "wp": [
+     [
+      1315400,
+      3570
+     ],
+     [
+      1319370,
+      2260
+     ],
+     [
+      1322030,
+      3340
+     ],
+     [
+      1325770,
+      3410
+     ],
+     [
+      1329580,
+      2920
+     ],
+     [
+      1332900,
+      2510
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Huit ou dix voisins sont arrivés devant la maison, avec deux gendarmes. »",
+   "en": "\"Eight or ten neighbours arrived in front of the house, with two policemen.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Huit ou dix voisins",
+     "eight or ten neighbours"
+    ],
+    [
+     "sont arrivés",
+     "arrived"
+    ],
+    [
+     "devant la maison",
+     "in front of the house"
+    ],
+    [
+     "avec deux gendarmes",
+     "with two policemen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 4680,
+    "en": 4520,
+    "wd": 15830
+   },
+   "bank": {
+    "fr": [
+     1336660,
+     4680
+    ],
+    "en": [
+     1341740,
+     4520
+    ],
+    "wd": [
+     1346660,
+     15830
+    ],
+    "wp": [
+     [
+      1346660,
+      3910
+     ],
+     [
+      1350970,
+      2820
+     ],
+     [
+      1354190,
+      3400
+     ],
+     [
+      1357990,
+      3650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La porte était fermée. Les voisins l'ont ouverte avec une barre de fer. »",
+   "en": "\"The door was shut. The neighbours opened it with an iron bar.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La porte",
+     "the door"
+    ],
+    [
+     "était fermée",
+     "was shut"
+    ],
+    [
+     "Les voisins",
+     "the neighbours"
+    ],
+    [
+     "l'ont ouverte",
+     "opened it"
+    ],
+    [
+     "avec une barre de fer",
+     "with an iron bar"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "en": 4040,
+    "wd": 17070
+   },
+   "bank": {
+    "fr": [
+     1362890,
+     5730
+    ],
+    "en": [
+     1369020,
+     4040
+    ],
+    "wd": [
+     1373460,
+     17070
+    ],
+    "wp": [
+     [
+      1373460,
+      2610
+     ],
+     [
+      1376470,
+      2780
+     ],
+     [
+      1379650,
+      2740
+     ],
+     [
+      1382790,
+      2790
+     ],
+     [
+      1385980,
+      3700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Au moment où la porte s'est ouverte, les cris ont cessé. »",
+   "en": "\"At the moment the door opened, the screams stopped.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Au moment où",
+     "at the moment"
+    ],
+    [
+     "la porte s'est ouverte",
+     "the door opened"
+    ],
+    [
+     "les cris",
+     "the screams"
+    ],
+    [
+     "ont cessé",
+     "stopped"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "en": 3330,
+    "wd": 14000
+   },
+   "bank": {
+    "fr": [
+     1390930,
+     4040
+    ],
+    "en": [
+     1395370,
+     3330
+    ],
+    "wd": [
+     1399100,
+     14000
+    ],
+    "wp": [
+     [
+      1399100,
+      2790
+     ],
+     [
+      1402290,
+      3810
+     ],
+     [
+      1406500,
+      2820
+     ],
+     [
+      1409720,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les voisins sont montés en courant. Au premier étage, ils ont entendu deux voix en colère, plus haut dans la maison. »",
+   "en": "\"The neighbours ran upstairs. On the first floor, they heard two angry voices, higher up in the house.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les voisins",
+     "the neighbours"
+    ],
+    [
+     "sont montés",
+     "went up"
+    ],
+    [
+     "en courant",
+     "running"
+    ],
+    [
+     "Au premier étage",
+     "on the first floor"
+    ],
+    [
+     "ils ont entendu",
+     "they heard"
+    ],
+    [
+     "deux voix",
+     "two voices"
+    ],
+    [
+     "en colère",
+     "angry"
+    ],
+    [
+     "plus haut dans la maison",
+     "higher up in the house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 8380,
+    "en": 6640,
+    "wd": 27020
+   },
+   "bank": {
+    "fr": [
+     1413500,
+     8380
+    ],
+    "en": [
+     1422280,
+     6640
+    ],
+    "wd": [
+     1429320,
+     27020
+    ],
+    "wp": [
+     [
+      1429320,
+      2740
+     ],
+     [
+      1432460,
+      2590
+     ],
+     [
+      1435450,
+      2350
+     ],
+     [
+      1438200,
+      3590
+     ],
+     [
+      1442190,
+      3030
+     ],
+     [
+      1445620,
+      2880
+     ],
+     [
+      1448900,
+      2540
+     ],
+     [
+      1451840,
+      3650
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Au deuxième étage, les deux voix se sont tues. Il y avait un silence complet. »",
+   "en": "\"On the second floor, the two voices went quiet. There was complete silence.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Au deuxième étage",
+     "on the second floor"
+    ],
+    [
+     "se sont tues",
+     "went quiet"
+    ],
+    [
+     "Il y avait",
+     "there was"
+    ],
+    [
+     "un silence complet",
+     "complete silence"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 6070,
+    "en": 5370,
+    "wd": 14500
+   },
+   "bank": {
+    "fr": [
+     1456740,
+     6070
+    ],
+    "en": [
+     1463210,
+     5370
+    ],
+    "wd": [
+     1468980,
+     14500
+    ],
+    "wp": [
+     [
+      1468980,
+      3520
+     ],
+     [
+      1472900,
+      2860
+     ],
+     [
+      1476160,
+      2510
+     ],
+     [
+      1479070,
+      3560
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Au quatrième étage, une grande chambre était fermée à clé, de l'intérieur. »",
+   "en": "\"On the fourth floor, a large bedroom was locked, from the inside.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Au quatrième étage",
+     "on the fourth floor"
+    ],
+    [
+     "une grande chambre",
+     "a large bedroom"
+    ],
+    [
+     "était fermée à clé",
+     "was locked"
+    ],
+    [
+     "de l'intérieur",
+     "from the inside"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 5450,
+    "en": 4490,
+    "wd": 15330
+   },
+   "bank": {
+    "fr": [
+     1483880,
+     5450
+    ],
+    "en": [
+     1489730,
+     4490
+    ],
+    "wd": [
+     1494620,
+     15330
+    ],
+    "wp": [
+     [
+      1494620,
+      3570
+     ],
+     [
+      1498590,
+      3340
+     ],
+     [
+      1502330,
+      3130
+     ],
+     [
+      1505860,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les voisins ont forcé la porte de la chambre, et ils ont reculé d'horreur. »",
+   "en": "\"The neighbours forced the bedroom door, and they stepped back in horror.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "ont forcé",
+     "forced"
+    ],
+    [
+     "la porte de la chambre",
+     "the bedroom door"
+    ],
+    [
+     "ils ont reculé",
+     "they stepped back"
+    ],
+    [
+     "d'horreur",
+     "in horror"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 5150,
+    "en": 4130,
+    "wd": 14440
+   },
+   "bank": {
+    "fr": [
+     1510350,
+     5150
+    ],
+    "en": [
+     1515900,
+     4130
+    ],
+    "wd": [
+     1520430,
+     14440
+    ],
+    "wp": [
+     [
+      1520430,
+      2610
+     ],
+     [
+      1523440,
+      3720
+     ],
+     [
+      1527560,
+      3300
+     ],
+     [
+      1531260,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Sur une chaise, il y avait un rasoir couvert de sang. »",
+   "en": "\"On a chair, there was a razor covered in blood.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "rasoir",
+     "en": "razor"
+    }
+   ],
+   "words": [
+    [
+     "Sur une chaise",
+     "on a chair"
+    ],
+    [
+     "il y avait",
+     "there was"
+    ],
+    [
+     "un rasoir",
+     "a razor"
+    ],
+    [
+     "couvert de sang",
+     "covered in blood"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "gl": "audio/s056_gl.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 4040,
+    "en": 3280,
+    "gl": 3790,
+    "wd": 13850
+   },
+   "bank": {
+    "fr": [
+     1535270,
+     4040
+    ],
+    "en": [
+     1539710,
+     3280
+    ],
+    "gl": [
+     1543390,
+     3790
+    ],
+    "wd": [
+     1547580,
+     13850
+    ],
+    "wp": [
+     [
+      1547580,
+      3100
+     ],
+     [
+      1551080,
+      2510
+     ],
+     [
+      1553990,
+      3040
+     ],
+     [
+      1557430,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Devant la cheminée, il y avait de longues mèches de cheveux gris. Elles étaient arrachées avec leurs racines. »",
+   "en": "\"In front of the fireplace, there were long locks of grey hair. They were torn out by the roots.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "arrachées",
+     "en": "torn out"
+    }
+   ],
+   "words": [
+    [
+     "Devant la cheminée",
+     "in front of the fireplace"
+    ],
+    [
+     "de longues mèches",
+     "long locks"
+    ],
+    [
+     "de cheveux gris",
+     "of grey hair"
+    ],
+    [
+     "Elles étaient arrachées",
+     "they were torn out"
+    ],
+    [
+     "avec leurs racines",
+     "by the roots"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "gl": "audio/s057_gl.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 7500,
+    "en": 5930,
+    "gl": 3500,
+    "wd": 19650
+   },
+   "bank": {
+    "fr": [
+     1561830,
+     7500
+    ],
+    "en": [
+     1569730,
+     5930
+    ],
+    "gl": [
+     1576060,
+     3500
+    ],
+    "wd": [
+     1579960,
+     19650
+    ],
+    "wp": [
+     [
+      1579960,
+      3910
+     ],
+     [
+      1584270,
+      3350
+     ],
+     [
+      1588020,
+      3170
+     ],
+     [
+      1591590,
+      3410
+     ],
+     [
+      1595400,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Par terre, il y avait deux sacs, avec presque quatre mille francs en or. »",
+   "en": "\"On the floor, there were two bags, with almost four thousand francs in gold.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Par terre",
+     "on the floor"
+    ],
+    [
+     "deux sacs",
+     "two bags"
+    ],
+    [
+     "presque",
+     "almost"
+    ],
+    [
+     "quatre mille francs",
+     "four thousand francs"
+    ],
+    [
+     "en or",
+     "in gold"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 5230,
+    "en": 5010,
+    "wd": 16760
+   },
+   "bank": {
+    "fr": [
+     1600010,
+     5230
+    ],
+    "en": [
+     1605640,
+     5010
+    ],
+    "wd": [
+     1611050,
+     16760
+    ],
+    "wp": [
+     [
+      1611050,
+      2790
+     ],
+     [
+      1614240,
+      2950
+     ],
+     [
+      1617590,
+      2400
+     ],
+     [
+      1620390,
+      3490
+     ],
+     [
+      1624280,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Sous le lit, il y avait un petit coffre en fer, ouvert. Dedans, seulement de vieilles lettres. »",
+   "en": "\"Under the bed, there was a small iron strongbox, open. Inside, only old letters.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "coffre",
+     "en": "strongbox, small safe"
+    }
+   ],
+   "words": [
+    [
+     "Sous le lit",
+     "under the bed"
+    ],
+    [
+     "un petit coffre en fer",
+     "a small iron strongbox"
+    ],
+    [
+     "ouvert",
+     "open"
+    ],
+    [
+     "Dedans",
+     "inside"
+    ],
+    [
+     "seulement",
+     "only"
+    ],
+    [
+     "de vieilles lettres",
+     "old letters"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "gl": "audio/s059_gl.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 7360,
+    "en": 6340,
+    "gl": 4520,
+    "wd": 20400
+   },
+   "bank": {
+    "fr": [
+     1628210,
+     7360
+    ],
+    "en": [
+     1635970,
+     6340
+    ],
+    "gl": [
+     1642710,
+     4520
+    ],
+    "wd": [
+     1647630,
+     20400
+    ],
+    "wp": [
+     [
+      1647630,
+      2940
+     ],
+     [
+      1650970,
+      4370
+     ],
+     [
+      1655739,
+      2280
+     ],
+     [
+      1658420,
+      2390
+     ],
+     [
+      1661210,
+      2350
+     ],
+     [
+      1663959,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais dans la chambre, il n'y avait personne. Ni la mère, ni la fille. »",
+   "en": "\"But in the bedroom, there was nobody. Neither the mother, nor the daughter.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "dans la chambre",
+     "in the bedroom"
+    ],
+    [
+     "il n'y avait personne",
+     "there was nobody"
+    ],
+    [
+     "Ni la mère",
+     "neither the mother"
+    ],
+    [
+     "ni la fille",
+     "nor the daughter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 6120,
+    "en": 4920,
+    "wd": 14720
+   },
+   "bank": {
+    "fr": [
+     1668430,
+     6120
+    ],
+    "en": [
+     1674950,
+     4920
+    ],
+    "wd": [
+     1680270,
+     14720
+    ],
+    "wp": [
+     [
+      1680270,
+      3000
+     ],
+     [
+      1683670,
+      3530
+     ],
+     [
+      1687600,
+      3160
+     ],
+     [
+      1691160,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a posé sa pipe. « Continuez », a-t-il dit doucement.",
+   "en": "Dupin put down his pipe. \"Go on,\" he said softly.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "a posé",
+     "put down"
+    ],
+    [
+     "sa pipe",
+     "his pipe"
+    ],
+    [
+     "Continuez",
+     "go on"
+    ],
+    [
+     "a-t-il dit",
+     "he said"
+    ],
+    [
+     "doucement",
+     "softly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "en": 3990,
+    "wd": 15370
+   },
+   "bank": {
+    "fr": [
+     1695390,
+     5490
+    ],
+    "en": [
+     1701280,
+     3990
+    ],
+    "wd": [
+     1705670,
+     15370
+    ],
+    "wp": [
+     [
+      1705670,
+      2560
+     ],
+     [
+      1708630,
+      2730
+     ],
+     [
+      1711760,
+      2580
+     ],
+     [
+      1714740,
+      2610
+     ],
+     [
+      1717750,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dans la cheminée, il y avait beaucoup de suie par terre. Trop de suie. »",
+   "en": "\"In the fireplace, there was a lot of soot on the floor. Too much soot.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "suie",
+     "en": "soot"
+    }
+   ],
+   "words": [
+    [
+     "Dans la cheminée",
+     "in the fireplace"
+    ],
+    [
+     "beaucoup de suie",
+     "a lot of soot"
+    ],
+    [
+     "par terre",
+     "on the floor"
+    ],
+    [
+     "Trop de suie",
+     "too much soot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "gl": "audio/s062_gl.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 5770,
+    "en": 4890,
+    "gl": 3250,
+    "wd": 14550
+   },
+   "bank": {
+    "fr": [
+     1721440,
+     5770
+    ],
+    "en": [
+     1727610,
+     4890
+    ],
+    "gl": [
+     1732900,
+     3250
+    ],
+    "wd": [
+     1736550,
+     14550
+    ],
+    "wp": [
+     [
+      1736550,
+      3500
+     ],
+     [
+      1740450,
+      3200
+     ],
+     [
+      1744050,
+      2790
+     ],
+     [
+      1747240,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les hommes ont regardé dans la cheminée. Ils ont tiré quelque chose, la tête en bas. »",
+   "en": "\"The men looked into the chimney. They pulled something out, head down.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les hommes",
+     "the men"
+    ],
+    [
+     "ont regardé",
+     "looked"
+    ],
+    [
+     "dans la cheminée",
+     "into the chimney"
+    ],
+    [
+     "Ils ont tiré",
+     "they pulled out"
+    ],
+    [
+     "quelque chose",
+     "something"
+    ],
+    [
+     "la tête en bas",
+     "head down"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 6570,
+    "en": 4260,
+    "wd": 19720
+   },
+   "bank": {
+    "fr": [
+     1751500,
+     6570
+    ],
+    "en": [
+     1758470,
+     4260
+    ],
+    "wd": [
+     1763130,
+     19720
+    ],
+    "wp": [
+     [
+      1763130,
+      2580
+     ],
+     [
+      1766110,
+      2470
+     ],
+     [
+      1768980,
+      3250
+     ],
+     [
+      1772630,
+      3010
+     ],
+     [
+      1776040,
+      2700
+     ],
+     [
+      1779140,
+      2860
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« C'était le corps de Camille L'Espanaye, la fille. »",
+   "en": "\"It was the body of Camille L'Espanaye, the daughter.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "le corps",
+     "the body"
+    ],
+    [
+     "de Camille L'Espanaye",
+     "of Camille L'Espanaye"
+    ],
+    [
+     "la fille",
+     "the daughter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 3680,
+    "en": 3230,
+    "wd": 13440
+   },
+   "bank": {
+    "fr": [
+     1783250,
+     3680
+    ],
+    "en": [
+     1787330,
+     3230
+    ],
+    "wd": [
+     1790960,
+     13440
+    ],
+    "wp": [
+     [
+      1790960,
+      2410
+     ],
+     [
+      1793770,
+      2780
+     ],
+     [
+      1796950,
+      3600
+     ],
+     [
+      1800950,
+      2600
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Quelqu'un avait poussé Camille très haut dans la cheminée, qui était très étroite. »",
+   "en": "\"Someone had pushed Camille very high up the chimney, which was very narrow.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Quelqu'un",
+     "someone"
+    ],
+    [
+     "avait poussé",
+     "had pushed"
+    ],
+    [
+     "très haut",
+     "very high up"
+    ],
+    [
+     "dans la cheminée",
+     "the chimney"
+    ],
+    [
+     "qui était très étroite",
+     "which was very narrow"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 5100,
+    "en": 4550,
+    "wd": 17480
+   },
+   "bank": {
+    "fr": [
+     1804800,
+     5100
+    ],
+    "en": [
+     1810300,
+     4550
+    ],
+    "wd": [
+     1815250,
+     17480
+    ],
+    "wp": [
+     [
+      1815250,
+      2370
+     ],
+     [
+      1818020,
+      2870
+     ],
+     [
+      1821290,
+      2730
+     ],
+     [
+      1824420,
+      3080
+     ],
+     [
+      1827900,
+      3980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le corps de Camille était encore chaud. Sur son cou, il y avait des marques de doigts. »",
+   "en": "\"Camille's body was still warm. On her neck, there were finger marks.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le corps de Camille",
+     "Camille's body"
+    ],
+    [
+     "était encore chaud",
+     "was still warm"
+    ],
+    [
+     "Sur son cou",
+     "on her neck"
+    ],
+    [
+     "des marques de doigts",
+     "finger marks"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 6420,
+    "en": 4730,
+    "wd": 14970
+   },
+   "bank": {
+    "fr": [
+     1833130,
+     6420
+    ],
+    "en": [
+     1839950,
+     4730
+    ],
+    "wd": [
+     1845080,
+     14970
+    ],
+    "wp": [
+     [
+      1845080,
+      3470
+     ],
+     [
+      1848950,
+      3160
+     ],
+     [
+      1852510,
+      2950
+     ],
+     [
+      1855860,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai baissé le journal. Mes mains tremblaient.",
+   "en": "I lowered the newspaper. My hands were shaking.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai baissé",
+     "I lowered"
+    ],
+    [
+     "le journal",
+     "the newspaper"
+    ],
+    [
+     "Mes mains",
+     "my hands"
+    ],
+    [
+     "tremblaient",
+     "were shaking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "en": 3530,
+    "wd": 13200
+   },
+   "bank": {
+    "fr": [
+     1860450,
+     4300
+    ],
+    "en": [
+     1865150,
+     3530
+    ],
+    "wd": [
+     1869080,
+     13200
+    ],
+    "wp": [
+     [
+      1869080,
+      2880
+     ],
+     [
+      1872360,
+      3010
+     ],
+     [
+      1875770,
+      2690
+     ],
+     [
+      1878860,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et la mère ? a demandé Dupin. Où est Madame L'Espanaye ? »",
+   "en": "\"And the mother?\" asked Dupin. \"Where is Madame L'Espanaye?\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Et la mère",
+     "and the mother"
+    ],
+    [
+     "a demandé",
+     "asked"
+    ],
+    [
+     "Où est",
+     "where is"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 5960,
+    "en": 4040,
+    "wd": 9200
+   },
+   "bank": {
+    "fr": [
+     1882680,
+     5960
+    ],
+    "en": [
+     1889040,
+     4040
+    ],
+    "wd": [
+     1893480,
+     9200
+    ],
+    "wp": [
+     [
+      1893480,
+      2780
+     ],
+     [
+      1896660,
+      2440
+     ],
+     [
+      1899500,
+      2329
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai cherché dans l'article. Il restait une seule ligne.",
+   "en": "I searched the article. There was only one line left.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai cherché",
+     "I searched"
+    ],
+    [
+     "dans l'article",
+     "the article"
+    ],
+    [
+     "Il restait",
+     "there was left"
+    ],
+    [
+     "une seule ligne",
+     "only one line"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 4820,
+    "en": 3810,
+    "wd": 14110
+   },
+   "bank": {
+    "fr": [
+     1903080,
+     4820
+    ],
+    "en": [
+     1908300,
+     3810
+    ],
+    "wd": [
+     1912510,
+     14110
+    ],
+    "wp": [
+     [
+      1912510,
+      2900
+     ],
+     [
+      1915810,
+      3020
+     ],
+     [
+      1919230,
+      2840
+     ],
+     [
+      1922470,
+      3300
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les gendarmes cherchent maintenant Madame L'Espanaye dans toute la maison. »",
+   "en": "\"The police are now searching the whole house for Madame L'Espanaye.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Les gendarmes",
+     "the police"
+    ],
+    [
+     "cherchent",
+     "are searching"
+    ],
+    [
+     "maintenant",
+     "now"
+    ],
+    [
+     "dans toute la maison",
+     "the whole house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 4460,
+    "en": 3940,
+    "wd": 13490
+   },
+   "bank": {
+    "fr": [
+     1927020,
+     4460
+    ],
+    "en": [
+     1931880,
+     3940
+    ],
+    "wd": [
+     1936220,
+     13490
+    ],
+    "wp": [
+     [
+      1936220,
+      2970
+     ],
+     [
+      1939590,
+      2770
+     ],
+     [
+      1942760,
+      2320
+     ],
+     [
+      1945480,
+      3380
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   21870
+  ],
+  "silence": [
+   22670,
+   30000
+  ]
+ }
+}

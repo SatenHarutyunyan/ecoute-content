@@ -1,0 +1,4794 @@
+{
+ "id": "fr_poe_dupin_02",
+ "lang": "fr",
+ "title": "Les enquêtes de Dupin : la voix sans nom",
+ "author": "Adapted from Edgar Allan Poe (1841)",
+ "level": "B1",
+ "series": "Les enquêtes de Dupin",
+ "episode": "2",
+ "note": "The witnesses of the rue Morgue all heard the same strange voice, and each one names a different language. The police arrest a young bank clerk, and Dupin decides to see the chambre, the room, himself.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 22130,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "Le lendemain soir, la Gazette des tribunaux a donné la suite de l'histoire.",
+   "en": "The next evening, the Gazette des tribunaux gave the rest of the story.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain soir",
+     "the next evening"
+    ],
+    [
+     "a donné",
+     "gave"
+    ],
+    [
+     "la suite",
+     "the rest"
+    ],
+    [
+     "de l'histoire",
+     "of the story"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 5540,
+    "en": 4200,
+    "wd": 13340
+   },
+   "bank": {
+    "fr": [
+     53330,
+     5540
+    ],
+    "en": [
+     59270,
+     4200
+    ],
+    "wd": [
+     63870,
+     13340
+    ],
+    "wp": [
+     [
+      63870,
+      3300
+     ],
+     [
+      67570,
+      2250
+     ],
+     [
+      70220,
+      2690
+     ],
+     [
+      73310,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai lu de nouveau à voix haute. Dupin écoutait, les yeux fermés.",
+   "en": "I read aloud again. Dupin was listening, his eyes closed.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai lu",
+     "I read"
+    ],
+    [
+     "de nouveau",
+     "again"
+    ],
+    [
+     "à voix haute",
+     "aloud"
+    ],
+    [
+     "écoutait",
+     "was listening"
+    ],
+    [
+     "les yeux fermés",
+     "his eyes closed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 6000,
+    "en": 4280,
+    "wd": 16079
+   },
+   "bank": {
+    "fr": [
+     77610,
+     6000
+    ],
+    "en": [
+     84010,
+     4280
+    ],
+    "wd": [
+     88690,
+     16079
+    ],
+    "wp": [
+     [
+      88690,
+      2510
+     ],
+     [
+      91600,
+      2460
+     ],
+     [
+      94460,
+      2790
+     ],
+     [
+      97650,
+      2520
+     ],
+     [
+      100570,
+      3350
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Cette même nuit, les gendarmes ont trouvé Madame L'Espanaye derrière la maison, dans une petite cour. »",
+   "en": "\"That same night, the police found Madame L'Espanaye behind the house, in a small courtyard.\"",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "cour",
+     "en": "courtyard"
+    }
+   ],
+   "words": [
+    [
+     "Cette même nuit",
+     "that same night"
+    ],
+    [
+     "les gendarmes",
+     "the police"
+    ],
+    [
+     "ont trouvé",
+     "found"
+    ],
+    [
+     "derrière la maison",
+     "behind the house"
+    ],
+    [
+     "dans une petite cour",
+     "in a small courtyard"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 6800,
+    "en": 5360,
+    "gl": 3160,
+    "wd": 18300
+   },
+   "bank": {
+    "fr": [
+     105170,
+     6800
+    ],
+    "en": [
+     112370,
+     5360
+    ],
+    "gl": [
+     118130,
+     3160
+    ],
+    "wd": [
+     121690,
+     18300
+    ],
+    "wp": [
+     [
+      121690,
+      3260
+     ],
+     [
+      125350,
+      2970
+     ],
+     [
+      128720,
+      2410
+     ],
+     [
+      131530,
+      3420
+     ],
+     [
+      135350,
+      3790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Madame L'Espanaye était morte. Beaucoup de ses os étaient cassés. »",
+   "en": "\"Madame L'Espanaye was dead. Many of her bones were broken.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "était morte",
+     "was dead"
+    ],
+    [
+     "Beaucoup de",
+     "many of"
+    ],
+    [
+     "ses os",
+     "her bones"
+    ],
+    [
+     "étaient cassés",
+     "were broken"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "en": 4080,
+    "wd": 13370
+   },
+   "bank": {
+    "fr": [
+     140390,
+     5330
+    ],
+    "en": [
+     146120,
+     4080
+    ],
+    "wd": [
+     150600,
+     13370
+    ],
+    "wp": [
+     [
+      150600,
+      2880
+     ],
+     [
+      153880,
+      2650
+     ],
+     [
+      156930,
+      2920
+     ],
+     [
+      160250,
+      2870
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Sa gorge était coupée très profondément. Quand on a soulevé le corps, la tête est tombée. »",
+   "en": "\"Her throat was cut very deep. When they lifted the body, the head fell off.\"",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Sa gorge",
+     "her throat"
+    ],
+    [
+     "était coupée",
+     "was cut"
+    ],
+    [
+     "très profondément",
+     "very deep"
+    ],
+    [
+     "Quand on a soulevé",
+     "when they lifted"
+    ],
+    [
+     "le corps",
+     "the body"
+    ],
+    [
+     "la tête est tombée",
+     "the head fell off"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 6730,
+    "en": 5080,
+    "wd": 20870
+   },
+   "bank": {
+    "fr": [
+     164370,
+     6730
+    ],
+    "en": [
+     171500,
+     5080
+    ],
+    "wd": [
+     176980,
+     20870
+    ],
+    "wp": [
+     [
+      176980,
+      2860
+     ],
+     [
+      180240,
+      2770
+     ],
+     [
+      183410,
+      3030
+     ],
+     [
+      186840,
+      3170
+     ],
+     [
+      190410,
+      2780
+     ],
+     [
+      193590,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai arrêté de lire une seconde. Dupin n'a pas bougé.",
+   "en": "I stopped reading for a second. Dupin did not move.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai arrêté de lire",
+     "I stopped reading"
+    ],
+    [
+     "une seconde",
+     "for a second"
+    ],
+    [
+     "n'a pas bougé",
+     "did not move"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 5000,
+    "en": 3880,
+    "wd": 11510
+   },
+   "bank": {
+    "fr": [
+     198250,
+     5000
+    ],
+    "en": [
+     203650,
+     3880
+    ],
+    "wd": [
+     207930,
+     11510
+    ],
+    "wp": [
+     [
+      207930,
+      3820
+     ],
+     [
+      212150,
+      2860
+     ],
+     [
+      215410,
+      3180
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La police n'a aucune piste. Mais elle a interrogé beaucoup de témoins. »",
+   "en": "\"The police have no lead. But they have questioned many witnesses.\"",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "témoins",
+     "en": "witnesses"
+    }
+   ],
+   "words": [
+    [
+     "La police",
+     "the police"
+    ],
+    [
+     "n'a aucune piste",
+     "has no lead"
+    ],
+    [
+     "a interrogé",
+     "has questioned"
+    ],
+    [
+     "beaucoup de témoins",
+     "many witnesses"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "gl": "audio/s007_gl.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 5840,
+    "en": 4360,
+    "gl": 3360,
+    "wd": 14840
+   },
+   "bank": {
+    "fr": [
+     219840,
+     5840
+    ],
+    "en": [
+     226080,
+     4360
+    ],
+    "gl": [
+     230840,
+     3360
+    ],
+    "wd": [
+     234600,
+     14840
+    ],
+    "wp": [
+     [
+      234600,
+      2850
+     ],
+     [
+      237850,
+      3470
+     ],
+     [
+      241720,
+      3060
+     ],
+     [
+      245180,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "D'abord, la police a interrogé la blanchisseuse, Pauline Dubourg, qui lavait le linge des deux femmes.",
+   "en": "First, the police questioned the washerwoman, Pauline Dubourg, who washed the two women's linen.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "blanchisseuse",
+     "en": "washerwoman"
+    }
+   ],
+   "words": [
+    [
+     "D'abord",
+     "first"
+    ],
+    [
+     "la police a interrogé",
+     "the police questioned"
+    ],
+    [
+     "la blanchisseuse",
+     "the washerwoman"
+    ],
+    [
+     "Pauline Dubourg",
+     "Pauline Dubourg"
+    ],
+    [
+     "qui lavait",
+     "who washed"
+    ],
+    [
+     "le linge",
+     "the linen"
+    ],
+    [
+     "des deux femmes",
+     "of the two women"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "gl": "audio/s008_gl.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 7340,
+    "en": 5830,
+    "gl": 4230,
+    "wd": 24900
+   },
+   "bank": {
+    "fr": [
+     249840,
+     7340
+    ],
+    "en": [
+     257579,
+     5830
+    ],
+    "gl": [
+     263810,
+     4230
+    ],
+    "wd": [
+     268440,
+     24900
+    ],
+    "wp": [
+     [
+      268440,
+      2540
+     ],
+     [
+      271380,
+      3890
+     ],
+     [
+      275670,
+      3380
+     ],
+     [
+      279450,
+      3370
+     ],
+     [
+      283220,
+      2650
+     ],
+     [
+      286270,
+      2670
+     ],
+     [
+      289340,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La mère et la fille s'aimaient beaucoup, a dit Pauline Dubourg. Elles payaient bien. »",
+   "en": "\"The mother and the daughter loved each other very much,\" said Pauline Dubourg. \"They paid well.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "La mère et la fille",
+     "the mother and the daughter"
+    ],
+    [
+     "s'aimaient beaucoup",
+     "loved each other very much"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Elles payaient bien",
+     "they paid well"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 6150,
+    "en": 5970,
+    "wd": 14970
+   },
+   "bank": {
+    "fr": [
+     293740,
+     6150
+    ],
+    "en": [
+     300290,
+     5970
+    ],
+    "wd": [
+     306660,
+     14970
+    ],
+    "wp": [
+     [
+      306660,
+      3950
+     ],
+     [
+      311010,
+      3630
+     ],
+     [
+      315040,
+      2220
+     ],
+     [
+      317660,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Elles ne recevaient jamais personne. Elles n'avaient même pas de servante. »",
+   "en": "\"They never had visitors. They didn't even have a servant.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Elles ne recevaient jamais personne",
+     "they never had visitors"
+    ],
+    [
+     "même",
+     "even"
+    ],
+    [
+     "pas de servante",
+     "no servant"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 5400,
+    "en": 3940,
+    "wd": 11460
+   },
+   "bank": {
+    "fr": [
+     322030,
+     5400
+    ],
+    "en": [
+     327830,
+     3940
+    ],
+    "wd": [
+     332170,
+     11460
+    ],
+    "wp": [
+     [
+      332170,
+      4500
+     ],
+     [
+      337070,
+      2170
+     ],
+     [
+      339640,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ensuite, Pierre Moreau, le marchand de tabac du quartier.",
+   "en": "Then, Pierre Moreau, the tobacco seller of the neighbourhood.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Ensuite",
+     "then"
+    ],
+    [
+     "Pierre Moreau",
+     "Pierre Moreau"
+    ],
+    [
+     "le marchand de tabac",
+     "the tobacco seller"
+    ],
+    [
+     "du quartier",
+     "of the neighbourhood"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 4590,
+    "en": 4010,
+    "wd": 14160
+   },
+   "bank": {
+    "fr": [
+     344030,
+     4590
+    ],
+    "en": [
+     349020,
+     4010
+    ],
+    "wd": [
+     353430,
+     14160
+    ],
+    "wp": [
+     [
+      353430,
+      2410
+     ],
+     [
+      356240,
+      3020
+     ],
+     [
+      359660,
+      3740
+     ],
+     [
+      363800,
+      2940
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Les deux femmes vivaient là depuis six ans, a dit Pierre Moreau. Les volets étaient toujours fermés. »",
+   "en": "\"The two women had lived there for six years,\" said Pierre Moreau. \"The shutters were always closed.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Les deux femmes",
+     "the two women"
+    ],
+    [
+     "vivaient là",
+     "had lived there"
+    ],
+    [
+     "depuis six ans",
+     "for six years"
+    ],
+    [
+     "Les volets",
+     "the shutters"
+    ],
+    [
+     "étaient toujours fermés",
+     "were always closed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 6900,
+    "en": 6140,
+    "wd": 18070
+   },
+   "bank": {
+    "fr": [
+     367990,
+     6900
+    ],
+    "en": [
+     375290,
+     6140
+    ],
+    "wd": [
+     381830,
+     18070
+    ],
+    "wp": [
+     [
+      381830,
+      3040
+     ],
+     [
+      385270,
+      2900
+     ],
+     [
+      388570,
+      3230
+     ],
+     [
+      392200,
+      2790
+     ],
+     [
+      395390,
+      3660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Dans le quartier, on disait que Madame L'Espanaye avait de l'argent caché. »",
+   "en": "\"In the neighbourhood, people said Madame L'Espanaye had hidden money.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Dans le quartier",
+     "in the neighbourhood"
+    ],
+    [
+     "on disait",
+     "people said"
+    ],
+    [
+     "avait",
+     "had"
+    ],
+    [
+     "de l'argent caché",
+     "hidden money"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 4890,
+    "en": 3920,
+    "wd": 13230
+   },
+   "bank": {
+    "fr": [
+     400300,
+     4890
+    ],
+    "en": [
+     405590,
+     3920
+    ],
+    "wd": [
+     409910,
+     13230
+    ],
+    "wp": [
+     [
+      409910,
+      3150
+     ],
+     [
+      413460,
+      2790
+     ],
+     [
+      416650,
+      2100
+     ],
+     [
+      419150,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis venaient les témoins de la nuit. Et là, l'histoire devenait très étrange.",
+   "en": "Then came the witnesses of the night. And there, the story became very strange.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Puis venaient",
+     "then came"
+    ],
+    [
+     "les témoins de la nuit",
+     "the witnesses of the night"
+    ],
+    [
+     "Et là",
+     "and there"
+    ],
+    [
+     "devenait très étrange",
+     "became very strange"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 6110,
+    "en": 5420,
+    "wd": 15030
+   },
+   "bank": {
+    "fr": [
+     423540,
+     6110
+    ],
+    "en": [
+     430050,
+     5420
+    ],
+    "wd": [
+     435870,
+     15030
+    ],
+    "wp": [
+     [
+      435870,
+      2700
+     ],
+     [
+      438970,
+      3860
+     ],
+     [
+      443230,
+      2340
+     ],
+     [
+      445970,
+      4080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le gendarme Isidore Muset était dans l'escalier avec les voisins.",
+   "en": "The policeman Isidore Muset was on the stairs with the neighbours.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le gendarme",
+     "the policeman"
+    ],
+    [
+     "Isidore Muset",
+     "Isidore Muset"
+    ],
+    [
+     "était dans l'escalier",
+     "was on the stairs"
+    ],
+    [
+     "avec les voisins",
+     "with the neighbours"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 4430,
+    "en": 3870,
+    "wd": 15010
+   },
+   "bank": {
+    "fr": [
+     451300,
+     4430
+    ],
+    "en": [
+     456130,
+     3870
+    ],
+    "wd": [
+     460400,
+     15010
+    ],
+    "wp": [
+     [
+      460400,
+      3060
+     ],
+     [
+      463860,
+      3250
+     ],
+     [
+      467510,
+      3410
+     ],
+     [
+      471320,
+      3240
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« J'ai entendu deux voix, a dit le gendarme Muset. Une voix grave et une voix aiguë. »",
+   "en": "\"I heard two voices,\" said the policeman Muset. \"A deep voice and a shrill voice.\"",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "grave",
+     "en": "deep (for a voice)"
+    },
+    {
+     "fr": "aiguë",
+     "en": "high, shrill"
+    }
+   ],
+   "words": [
+    [
+     "J'ai entendu",
+     "I heard"
+    ],
+    [
+     "deux voix",
+     "two voices"
+    ],
+    [
+     "une voix grave",
+     "a deep voice"
+    ],
+    [
+     "une voix aiguë",
+     "a shrill voice"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "gl": "audio/s016_gl.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 6440,
+    "en": 5570,
+    "gl": 7340,
+    "wd": 14370
+   },
+   "bank": {
+    "fr": [
+     475810,
+     6440
+    ],
+    "en": [
+     482650,
+     5570
+    ],
+    "gl": [
+     488620,
+     7340
+    ],
+    "wd": [
+     496360,
+     14370
+    ],
+    "wp": [
+     [
+      496360,
+      2850
+     ],
+     [
+      499610,
+      2880
+     ],
+     [
+      502890,
+      3330
+     ],
+     [
+      506620,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La voix grave parlait français. Elle a crié : mon Dieu ! Et aussi : diable ! »",
+   "en": "\"The deep voice spoke French. It shouted: my God! And also: devil!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La voix grave",
+     "the deep voice"
+    ],
+    [
+     "parlait français",
+     "spoke French"
+    ],
+    [
+     "Elle a crié",
+     "it shouted"
+    ],
+    [
+     "mon Dieu",
+     "my God"
+    ],
+    [
+     "Et aussi",
+     "and also"
+    ],
+    [
+     "diable",
+     "devil"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 7490,
+    "en": 5720,
+    "wd": 19780
+   },
+   "bank": {
+    "fr": [
+     511130,
+     7490
+    ],
+    "en": [
+     519020,
+     5720
+    ],
+    "wd": [
+     525140,
+     19780
+    ],
+    "wp": [
+     [
+      525140,
+      3350
+     ],
+     [
+      528890,
+      3240
+     ],
+     [
+      532530,
+      2800
+     ],
+     [
+      535730,
+      2460
+     ],
+     [
+      538590,
+      2760
+     ],
+     [
+      541750,
+      2320
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La voix aiguë, c'était la voix d'un étranger. Un Espagnol, je crois. »",
+   "en": "\"The shrill voice was a foreigner's voice. A Spaniard, I think.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "La voix aiguë",
+     "the shrill voice"
+    ],
+    [
+     "la voix d'un étranger",
+     "a foreigner's voice"
+    ],
+    [
+     "Un Espagnol",
+     "a Spaniard"
+    ],
+    [
+     "je crois",
+     "I think"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 6260,
+    "en": 4860,
+    "wd": 14880
+   },
+   "bank": {
+    "fr": [
+     545320,
+     6260
+    ],
+    "en": [
+     551980,
+     4860
+    ],
+    "wd": [
+     557240,
+     14880
+    ],
+    "wp": [
+     [
+      557240,
+      3290
+     ],
+     [
+      560930,
+      3850
+     ],
+     [
+      565180,
+      3140
+     ],
+     [
+      568720,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un homme ou une femme ? Je ne sais pas. Je n'ai compris aucun mot. »",
+   "en": "\"A man or a woman? I don't know. I didn't understand a single word.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Un homme ou une femme",
+     "a man or a woman"
+    ],
+    [
+     "Je ne sais pas",
+     "I don't know"
+    ],
+    [
+     "Je n'ai compris aucun mot",
+     "I didn't understand a single word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 6120,
+    "en": 4940,
+    "wd": 12690
+   },
+   "bank": {
+    "fr": [
+     572520,
+     6120
+    ],
+    "en": [
+     579040,
+     4940
+    ],
+    "wd": [
+     584380,
+     12690
+    ],
+    "wp": [
+     [
+      584380,
+      3710
+     ],
+     [
+      588490,
+      2790
+     ],
+     [
+      591680,
+      4540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Henri Duval, un voisin, était aussi dans l'escalier.",
+   "en": "Henri Duval, a neighbour, was also on the stairs.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Henri Duval",
+     "Henri Duval"
+    ],
+    [
+     "un voisin",
+     "a neighbour"
+    ],
+    [
+     "était aussi",
+     "was also"
+    ],
+    [
+     "dans l'escalier",
+     "on the stairs"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 4320,
+    "en": 3760,
+    "wd": 13790
+   },
+   "bank": {
+    "fr": [
+     597470,
+     4320
+    ],
+    "en": [
+     602190,
+     3760
+    ],
+    "wd": [
+     606350,
+     13790
+    ],
+    "wp": [
+     [
+      606350,
+      3110
+     ],
+     [
+      609860,
+      2530
+     ],
+     [
+      612790,
+      3000
+     ],
+     [
+      616190,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La voix aiguë parlait italien, a dit Henri Duval. Je ne parle pas italien, mais j'en suis sûr. »",
+   "en": "\"The shrill voice was speaking Italian,\" said Henri Duval. \"I don't speak Italian, but I'm sure of it.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "parlait italien",
+     "was speaking Italian"
+    ],
+    [
+     "Je ne parle pas italien",
+     "I don't speak Italian"
+    ],
+    [
+     "mais",
+     "but"
+    ],
+    [
+     "j'en suis sûr",
+     "I'm sure of it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 7820,
+    "en": 6550,
+    "wd": 14650
+   },
+   "bank": {
+    "fr": [
+     620540,
+     7820
+    ],
+    "en": [
+     628760,
+     6550
+    ],
+    "wd": [
+     635710,
+     14650
+    ],
+    "wp": [
+     [
+      635710,
+      3580
+     ],
+     [
+      639690,
+      4010
+     ],
+     [
+      644100,
+      1920
+     ],
+     [
+      646420,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "William Bird, un tailleur anglais, était aussi dans l'escalier cette nuit-là.",
+   "en": "William Bird, an English tailor, was also on the stairs that night.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "William Bird",
+     "William Bird"
+    ],
+    [
+     "un tailleur anglais",
+     "an English tailor"
+    ],
+    [
+     "était aussi",
+     "was also"
+    ],
+    [
+     "dans l'escalier",
+     "on the stairs"
+    ],
+    [
+     "cette nuit-là",
+     "that night"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 5450,
+    "en": 4590,
+    "wd": 17880
+   },
+   "bank": {
+    "fr": [
+     650760,
+     5450
+    ],
+    "en": [
+     656610,
+     4590
+    ],
+    "wd": [
+     661600,
+     17880
+    ],
+    "wp": [
+     [
+      661600,
+      3190
+     ],
+     [
+      665190,
+      3380
+     ],
+     [
+      668970,
+      3000
+     ],
+     [
+      672370,
+      3100
+     ],
+     [
+      675870,
+      2760
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Ce n'était pas un Anglais, a dit William Bird. C'était un Allemand. Mais je ne parle pas allemand. »",
+   "en": "\"It wasn't an Englishman,\" said William Bird. \"It was a German. But I don't speak German.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce n'était pas un Anglais",
+     "it wasn't an Englishman"
+    ],
+    [
+     "C'était un Allemand",
+     "it was a German"
+    ],
+    [
+     "je ne parle pas allemand",
+     "I don't speak German"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 8170,
+    "en": 5790,
+    "wd": 12420
+   },
+   "bank": {
+    "fr": [
+     679880,
+     8170
+    ],
+    "en": [
+     688450,
+     5790
+    ],
+    "wd": [
+     694640,
+     12420
+    ],
+    "wp": [
+     [
+      694640,
+      3780
+     ],
+     [
+      698820,
+      3250
+     ],
+     [
+      702470,
+      3740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alfonzo Garcio, un Espagnol, a dit tout le contraire : « C'était un Anglais. »",
+   "en": "Alfonzo Garcio, a Spaniard, said the exact opposite: \"It was an Englishman.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Alfonzo Garcio",
+     "Alfonzo Garcio"
+    ],
+    [
+     "un Espagnol",
+     "a Spaniard"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "tout le contraire",
+     "the exact opposite"
+    ],
+    [
+     "C'était un Anglais",
+     "it was an Englishman"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 5840,
+    "en": 5820,
+    "wd": 18420
+   },
+   "bank": {
+    "fr": [
+     707460,
+     5840
+    ],
+    "en": [
+     713700,
+     5820
+    ],
+    "wd": [
+     719920,
+     18420
+    ],
+    "wp": [
+     [
+      719920,
+      3710
+     ],
+     [
+      724030,
+      3130
+     ],
+     [
+      727560,
+      2220
+     ],
+     [
+      730180,
+      3600
+     ],
+     [
+      734180,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je ne parle pas anglais, a ajouté Alfonzo Garcio. Mais je reconnais la musique de la langue. »",
+   "en": "\"I don't speak English,\" added Alfonzo Garcio. \"But I recognise the music of the language.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Je ne parle pas anglais",
+     "I don't speak English"
+    ],
+    [
+     "a ajouté",
+     "added"
+    ],
+    [
+     "je reconnais",
+     "I recognise"
+    ],
+    [
+     "la musique",
+     "the music"
+    ],
+    [
+     "de la langue",
+     "of the language"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 7390,
+    "en": 6040,
+    "wd": 17980
+   },
+   "bank": {
+    "fr": [
+     738740,
+     7390
+    ],
+    "en": [
+     746530,
+     6040
+    ],
+    "wd": [
+     752970,
+     17980
+    ],
+    "wp": [
+     [
+      752970,
+      3900
+     ],
+     [
+      757270,
+      2530
+     ],
+     [
+      760200,
+      3230
+     ],
+     [
+      763830,
+      2780
+     ],
+     [
+      767010,
+      3090
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Enfin, Alberto Montani, un Italien, était sûr : « C'était un Russe. »",
+   "en": "Finally, Alberto Montani, an Italian, was sure: \"It was a Russian.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Enfin",
+     "finally"
+    ],
+    [
+     "Alberto Montani",
+     "Alberto Montani"
+    ],
+    [
+     "un Italien",
+     "an Italian"
+    ],
+    [
+     "était sûr",
+     "was sure"
+    ],
+    [
+     "C'était un Russe",
+     "it was a Russian"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 6050,
+    "en": 5210,
+    "wd": 17390
+   },
+   "bank": {
+    "fr": [
+     771350,
+     6050
+    ],
+    "en": [
+     777800,
+     5210
+    ],
+    "wd": [
+     783410,
+     17390
+    ],
+    "wp": [
+     [
+      783410,
+      2360
+     ],
+     [
+      786170,
+      3610
+     ],
+     [
+      790180,
+      2890
+     ],
+     [
+      793470,
+      2770
+     ],
+     [
+      796640,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je n'ai jamais parlé avec un Russe, a dit Alberto Montani. Mais c'était un Russe. »",
+   "en": "\"I have never spoken with a Russian,\" said Alberto Montani. \"But it was a Russian.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Je n'ai jamais parlé",
+     "I have never spoken"
+    ],
+    [
+     "avec un Russe",
+     "with a Russian"
+    ],
+    [
+     "c'était un Russe",
+     "it was a Russian"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 6860,
+    "en": 4930,
+    "wd": 11540
+   },
+   "bank": {
+    "fr": [
+     801200,
+     6860
+    ],
+    "en": [
+     808460,
+     4930
+    ],
+    "wd": [
+     813790,
+     11540
+    ],
+    "wp": [
+     [
+      813790,
+      3590
+     ],
+     [
+      817780,
+      2990
+     ],
+     [
+      821170,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai levé les yeux. « Espagnol, italien, allemand, anglais, russe. Ils sont tous fous ! »",
+   "en": "I looked up. \"Spanish, Italian, German, English, Russian. They're all mad!\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai levé les yeux",
+     "I looked up"
+    ],
+    [
+     "espagnol",
+     "Spanish"
+    ],
+    [
+     "italien",
+     "Italian"
+    ],
+    [
+     "allemand",
+     "German"
+    ],
+    [
+     "anglais",
+     "English"
+    ],
+    [
+     "russe",
+     "Russian"
+    ],
+    [
+     "Ils sont tous fous",
+     "they're all mad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 8640,
+    "en": 6340,
+    "wd": 21640
+   },
+   "bank": {
+    "fr": [
+     825730,
+     8640
+    ],
+    "en": [
+     834770,
+     6340
+    ],
+    "wd": [
+     841510,
+     21640
+    ],
+    "wp": [
+     [
+      841510,
+      3110
+     ],
+     [
+      845020,
+      2730
+     ],
+     [
+      848150,
+      2500
+     ],
+     [
+      851050,
+      2130
+     ],
+     [
+      853580,
+      2350
+     ],
+     [
+      856330,
+      2260
+     ],
+     [
+      858990,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin n'a rien répondu. Il a fait un petit geste de la main : continuez.",
+   "en": "Dupin said nothing. He made a small gesture with his hand: go on.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "n'a rien répondu",
+     "said nothing"
+    ],
+    [
+     "Il a fait",
+     "he made"
+    ],
+    [
+     "un petit geste",
+     "a small gesture"
+    ],
+    [
+     "de la main",
+     "with his hand"
+    ],
+    [
+     "continuez",
+     "go on"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 6080,
+    "en": 4920,
+    "wd": 16920
+   },
+   "bank": {
+    "fr": [
+     863550,
+     6080
+    ],
+    "en": [
+     870030,
+     4920
+    ],
+    "wd": [
+     875350,
+     16920
+    ],
+    "wp": [
+     [
+      875350,
+      3230
+     ],
+     [
+      878980,
+      2430
+     ],
+     [
+      881810,
+      3420
+     ],
+     [
+      885630,
+      2810
+     ],
+     [
+      888840,
+      2580
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Tous les témoins sont d'accord sur la chambre. »",
+   "en": "\"All the witnesses agree about the bedroom.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Tous les témoins",
+     "all the witnesses"
+    ],
+    [
+     "sont d'accord",
+     "agree"
+    ],
+    [
+     "sur la chambre",
+     "about the bedroom"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3040,
+    "en": 2790,
+    "wd": 10940
+   },
+   "bank": {
+    "fr": [
+     892670,
+     3040
+    ],
+    "en": [
+     896110,
+     2790
+    ],
+    "wd": [
+     899300,
+     10940
+    ],
+    "wp": [
+     [
+      899300,
+      3160
+     ],
+     [
+      902860,
+      2880
+     ],
+     [
+      906140,
+      3250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La porte de la chambre était fermée à clé, de l'intérieur. Les fenêtres aussi. »",
+   "en": "\"The bedroom door was locked, from the inside. The windows too.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "La porte de la chambre",
+     "the bedroom door"
+    ],
+    [
+     "était fermée à clé",
+     "was locked"
+    ],
+    [
+     "de l'intérieur",
+     "from the inside"
+    ],
+    [
+     "Les fenêtres aussi",
+     "the windows too"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 6450,
+    "en": 4410,
+    "wd": 15670
+   },
+   "bank": {
+    "fr": [
+     910640,
+     6450
+    ],
+    "en": [
+     917490,
+     4410
+    ],
+    "wd": [
+     922300,
+     15670
+    ],
+    "wp": [
+     [
+      922300,
+      3720
+     ],
+     [
+      926420,
+      3130
+     ],
+     [
+      929950,
+      3240
+     ],
+     [
+      933590,
+      3530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un homme ne peut pas passer par les cheminées. Et dans l'escalier, il y avait les voisins. »",
+   "en": "\"A man cannot get through the chimneys. And on the stairs, there were the neighbours.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Un homme",
+     "a man"
+    ],
+    [
+     "ne peut pas passer",
+     "cannot get through"
+    ],
+    [
+     "par les cheminées",
+     "the chimneys"
+    ],
+    [
+     "dans l'escalier",
+     "on the stairs"
+    ],
+    [
+     "il y avait",
+     "there were"
+    ],
+    [
+     "les voisins",
+     "the neighbours"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 6420,
+    "en": 4950,
+    "wd": 20210
+   },
+   "bank": {
+    "fr": [
+     938370,
+     6420
+    ],
+    "en": [
+     945190,
+     4950
+    ],
+    "wd": [
+     950540,
+     20210
+    ],
+    "wp": [
+     [
+      950540,
+      2520
+     ],
+     [
+      953460,
+      3400
+     ],
+     [
+      957260,
+      3130
+     ],
+     [
+      960790,
+      3100
+     ],
+     [
+      964290,
+      2470
+     ],
+     [
+      967160,
+      2740
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Personne n'a pu sortir de cette chambre. Et pourtant, la chambre était vide. »",
+   "en": "\"Nobody could have left that room. And yet, the room was empty.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Personne n'a pu sortir",
+     "nobody could have left"
+    ],
+    [
+     "de cette chambre",
+     "that room"
+    ],
+    [
+     "Et pourtant",
+     "and yet"
+    ],
+    [
+     "était vide",
+     "was empty"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 6190,
+    "en": 4240,
+    "wd": 14140
+   },
+   "bank": {
+    "fr": [
+     971150,
+     6190
+    ],
+    "en": [
+     977740,
+     4240
+    ],
+    "wd": [
+     982380,
+     14140
+    ],
+    "wp": [
+     [
+      982380,
+      4060
+     ],
+     [
+      986840,
+      2840
+     ],
+     [
+      990080,
+      2470
+     ],
+     [
+      992950,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Le banquier Jules Mignaud a aussi parlé à la police. »",
+   "en": "\"The banker Jules Mignaud also spoke to the police.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le banquier",
+     "the banker"
+    ],
+    [
+     "Jules Mignaud",
+     "Jules Mignaud"
+    ],
+    [
+     "a aussi parlé",
+     "also spoke"
+    ],
+    [
+     "à la police",
+     "to the police"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3790,
+    "en": 3610,
+    "wd": 14170
+   },
+   "bank": {
+    "fr": [
+     996920,
+     3790
+    ],
+    "en": [
+     1001110,
+     3610
+    ],
+    "wd": [
+     1005120,
+     14170
+    ],
+    "wp": [
+     [
+      1005120,
+      2790
+     ],
+     [
+      1008310,
+      3060
+     ],
+     [
+      1011770,
+      3290
+     ],
+     [
+      1015460,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Trois jours avant le crime, Madame L'Espanaye a retiré quatre mille francs en or. »",
+   "en": "\"Three days before the crime, Madame L'Espanaye withdrew four thousand francs in gold.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "retiré",
+     "en": "withdrawn (from a bank)"
+    }
+   ],
+   "words": [
+    [
+     "Trois jours avant le crime",
+     "three days before the crime"
+    ],
+    [
+     "a retiré",
+     "withdrew"
+    ],
+    [
+     "quatre mille francs",
+     "four thousand francs"
+    ],
+    [
+     "en or",
+     "in gold"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "gl": "audio/s035_gl.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "en": 5180,
+    "gl": 4480,
+    "wd": 15210
+   },
+   "bank": {
+    "fr": [
+     1019690,
+     5490
+    ],
+    "en": [
+     1025579,
+     5180
+    ],
+    "gl": [
+     1031160,
+     4480
+    ],
+    "wd": [
+     1036040,
+     15210
+    ],
+    "wp": [
+     [
+      1036040,
+      4270
+     ],
+     [
+      1040710,
+      2720
+     ],
+     [
+      1043830,
+      3490
+     ],
+     [
+      1047720,
+      2680
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Un jeune employé de la banque, Adolphe Le Bon, a porté l'or jusqu'à la maison. »",
+   "en": "\"A young bank clerk, Adolphe Le Bon, carried the gold to the house.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Un jeune employé",
+     "a young clerk"
+    ],
+    [
+     "de la banque",
+     "of the bank"
+    ],
+    [
+     "Adolphe Le Bon",
+     "Adolphe Le Bon"
+    ],
+    [
+     "a porté l'or",
+     "carried the gold"
+    ],
+    [
+     "jusqu'à la maison",
+     "to the house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 5680,
+    "en": 4790,
+    "wd": 18440
+   },
+   "bank": {
+    "fr": [
+     1051650,
+     5680
+    ],
+    "en": [
+     1057730,
+     4790
+    ],
+    "wd": [
+     1062920,
+     18440
+    ],
+    "wp": [
+     [
+      1062920,
+      3340
+     ],
+     [
+      1066660,
+      2990
+     ],
+     [
+      1070050,
+      3240
+     ],
+     [
+      1073690,
+      3250
+     ],
+     [
+      1077340,
+      3170
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Adolphe Le Bon a donné les deux sacs aux deux femmes, à la porte. Puis il est parti. »",
+   "en": "\"Adolphe Le Bon gave the two bags to the two women, at the door. Then he left.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "a donné",
+     "gave"
+    ],
+    [
+     "les deux sacs",
+     "the two bags"
+    ],
+    [
+     "aux deux femmes",
+     "to the two women"
+    ],
+    [
+     "à la porte",
+     "at the door"
+    ],
+    [
+     "Puis il est parti",
+     "then he left"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 6610,
+    "en": 5140,
+    "wd": 17010
+   },
+   "bank": {
+    "fr": [
+     1081760,
+     6610
+    ],
+    "en": [
+     1088770,
+     5140
+    ],
+    "wd": [
+     1094310,
+     17010
+    ],
+    "wp": [
+     [
+      1094310,
+      2250
+     ],
+     [
+      1096960,
+      3240
+     ],
+     [
+      1100600,
+      3030
+     ],
+     [
+      1104030,
+      2900
+     ],
+     [
+      1107330,
+      3140
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Enfin, le médecin, Paul Dumas, a examiné les deux corps. »",
+   "en": "\"Finally, the doctor, Paul Dumas, examined the two bodies.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Enfin",
+     "finally"
+    ],
+    [
+     "le médecin",
+     "the doctor"
+    ],
+    [
+     "Paul Dumas",
+     "Paul Dumas"
+    ],
+    [
+     "a examiné",
+     "examined"
+    ],
+    [
+     "les deux corps",
+     "the two bodies"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "en": 4730,
+    "wd": 16670
+   },
+   "bank": {
+    "fr": [
+     1111720,
+     5250
+    ],
+    "en": [
+     1117370,
+     4730
+    ],
+    "wd": [
+     1122500,
+     16670
+    ],
+    "wp": [
+     [
+      1122500,
+      2360
+     ],
+     [
+      1125260,
+      2720
+     ],
+     [
+      1128380,
+      3020
+     ],
+     [
+      1131800,
+      2780
+     ],
+     [
+      1134980,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Camille L'Espanaye a été étranglée par des mains d'une force terrible. »",
+   "en": "\"Camille L'Espanaye was strangled by hands of terrible strength.\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "étranglée",
+     "en": "strangled"
+    }
+   ],
+   "words": [
+    [
+     "a été étranglée",
+     "was strangled"
+    ],
+    [
+     "par des mains",
+     "by hands"
+    ],
+    [
+     "d'une force terrible",
+     "of terrible strength"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "gl": "audio/s039_gl.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 4300,
+    "en": 3980,
+    "gl": 3560,
+    "wd": 11410
+   },
+   "bank": {
+    "fr": [
+     1139570,
+     4300
+    ],
+    "en": [
+     1144270,
+     3980
+    ],
+    "gl": [
+     1148650,
+     3560
+    ],
+    "wd": [
+     1152610,
+     11410
+    ],
+    "wp": [
+     [
+      1152610,
+      3240
+     ],
+     [
+      1156250,
+      2810
+     ],
+     [
+      1159460,
+      3710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pour casser les os de la mère, il a fallu un homme très, très fort. »",
+   "en": "\"To break the mother's bones, it took a very, very strong man.\"",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Pour casser",
+     "to break"
+    ],
+    [
+     "les os de la mère",
+     "the mother's bones"
+    ],
+    [
+     "il a fallu",
+     "it took"
+    ],
+    [
+     "un homme très, très fort",
+     "a very, very strong man"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4400,
+    "wd": 15840
+   },
+   "bank": {
+    "fr": [
+     1164420,
+     5030
+    ],
+    "en": [
+     1169850,
+     4400
+    ],
+    "wd": [
+     1174650,
+     15840
+    ],
+    "wp": [
+     [
+      1174650,
+      2640
+     ],
+     [
+      1177690,
+      3640
+     ],
+     [
+      1181730,
+      2620
+     ],
+     [
+      1184750,
+      4890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai posé le journal. Dans ma tête, j'ai tout résumé.",
+   "en": "I put down the newspaper. In my head, I summed everything up.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai posé",
+     "I put down"
+    ],
+    [
+     "le journal",
+     "the newspaper"
+    ],
+    [
+     "Dans ma tête",
+     "in my head"
+    ],
+    [
+     "j'ai tout résumé",
+     "I summed everything up"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 5330,
+    "en": 4230,
+    "wd": 14500
+   },
+   "bank": {
+    "fr": [
+     1190890,
+     5330
+    ],
+    "en": [
+     1196620,
+     4230
+    ],
+    "wd": [
+     1201250,
+     14500
+    ],
+    "wp": [
+     [
+      1201250,
+      2950
+     ],
+     [
+      1204600,
+      3010
+     ],
+     [
+      1208010,
+      2990
+     ],
+     [
+      1211400,
+      3500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Deux femmes tuées dans une chambre fermée. De l'or, et personne ne l'a pris.",
+   "en": "Two women killed in a locked room. Gold, and nobody took it.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Deux femmes tuées",
+     "two women killed"
+    ],
+    [
+     "dans une chambre fermée",
+     "in a locked room"
+    ],
+    [
+     "De l'or",
+     "gold"
+    ],
+    [
+     "personne ne l'a pris",
+     "nobody took it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 6090,
+    "en": 4310,
+    "wd": 14580
+   },
+   "bank": {
+    "fr": [
+     1216150,
+     6090
+    ],
+    "en": [
+     1222640,
+     4310
+    ],
+    "wd": [
+     1227350,
+     14580
+    ],
+    "wp": [
+     [
+      1227350,
+      3280
+     ],
+     [
+      1231030,
+      3500
+     ],
+     [
+      1234930,
+      2420
+     ],
+     [
+      1237750,
+      3330
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Deux voix : une voix française, et une voix que personne ne peut nommer.",
+   "en": "Two voices: a French voice, and a voice nobody can name.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Deux voix",
+     "two voices"
+    ],
+    [
+     "une voix française",
+     "a French voice"
+    ],
+    [
+     "que personne ne peut nommer",
+     "that nobody can name"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 4920,
+    "en": 4330,
+    "wd": 12010
+   },
+   "bank": {
+    "fr": [
+     1242330,
+     4920
+    ],
+    "en": [
+     1247650,
+     4330
+    ],
+    "wd": [
+     1252380,
+     12010
+    ],
+    "wp": [
+     [
+      1252380,
+      2880
+     ],
+     [
+      1255660,
+      3490
+     ],
+     [
+      1259550,
+      3990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une heure plus tard, un garçon a apporté une édition spéciale du journal.",
+   "en": "An hour later, a boy brought a special edition of the newspaper.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Une heure plus tard",
+     "an hour later"
+    ],
+    [
+     "un garçon",
+     "a boy"
+    ],
+    [
+     "a apporté",
+     "brought"
+    ],
+    [
+     "une édition spéciale",
+     "a special edition"
+    ],
+    [
+     "du journal",
+     "of the newspaper"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 5290,
+    "en": 4230,
+    "wd": 17940
+   },
+   "bank": {
+    "fr": [
+     1264790,
+     5290
+    ],
+    "en": [
+     1270480,
+     4230
+    ],
+    "wd": [
+     1275110,
+     17940
+    ],
+    "wp": [
+     [
+      1275110,
+      3300
+     ],
+     [
+      1278810,
+      2550
+     ],
+     [
+      1281760,
+      2600
+     ],
+     [
+      1284760,
+      3840
+     ],
+     [
+      1289000,
+      3200
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La police a arrêté Adolphe Le Bon, l'employé de la banque. »",
+   "en": "\"The police have arrested Adolphe Le Bon, the bank clerk.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "La police",
+     "the police"
+    ],
+    [
+     "a arrêté",
+     "has arrested"
+    ],
+    [
+     "l'employé de la banque",
+     "the bank clerk"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 4860,
+    "en": 3760,
+    "wd": 11220
+   },
+   "bank": {
+    "fr": [
+     1293450,
+     4860
+    ],
+    "en": [
+     1298710,
+     3760
+    ],
+    "wd": [
+     1302870,
+     11220
+    ],
+    "wp": [
+     [
+      1302870,
+      2850
+     ],
+     [
+      1306120,
+      2920
+     ],
+     [
+      1309440,
+      3800
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Il n'y a aucune preuve. Mais Adolphe Le Bon a porté l'or, et il est en prison. »",
+   "en": "\"There is no proof. But Adolphe Le Bon carried the gold, and he is in prison.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Il n'y a aucune preuve",
+     "there is no proof"
+    ],
+    [
+     "a porté l'or",
+     "carried the gold"
+    ],
+    [
+     "il est en prison",
+     "he is in prison"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 6470,
+    "en": 5220,
+    "wd": 11800
+   },
+   "bank": {
+    "fr": [
+     1314490,
+     6470
+    ],
+    "en": [
+     1321360,
+     5220
+    ],
+    "wd": [
+     1326980,
+     11800
+    ],
+    "wp": [
+     [
+      1326980,
+      3770
+     ],
+     [
+      1331150,
+      3250
+     ],
+     [
+      1334800,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin s'est levé d'un coup. Je ne l'avais jamais vu faire cela.",
+   "en": "Dupin stood up all at once. I had never seen him do that.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "s'est levé",
+     "stood up"
+    ],
+    [
+     "d'un coup",
+     "all at once"
+    ],
+    [
+     "Je ne l'avais jamais vu",
+     "I had never seen him"
+    ],
+    [
+     "faire cela",
+     "do that"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 5010,
+    "en": 4090,
+    "wd": 13540
+   },
+   "bank": {
+    "fr": [
+     1339180,
+     5010
+    ],
+    "en": [
+     1344590,
+     4090
+    ],
+    "wd": [
+     1349080,
+     13540
+    ],
+    "wp": [
+     [
+      1349080,
+      2410
+     ],
+     [
+      1351890,
+      2670
+     ],
+     [
+      1354960,
+      3790
+     ],
+     [
+      1359150,
+      2620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Adolphe Le Bon ! Je connais ce garçon. Un jour, il m'a rendu un grand service. »",
+   "en": "\"Adolphe Le Bon! I know that young man. One day, he did me a big favour.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "rendu un grand service",
+     "en": "did a big favour"
+    }
+   ],
+   "words": [
+    [
+     "Je connais",
+     "I know"
+    ],
+    [
+     "ce garçon",
+     "that young man"
+    ],
+    [
+     "Un jour",
+     "one day"
+    ],
+    [
+     "il m'a rendu un grand service",
+     "he did me a big favour"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "gl": "audio/s048_gl.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 7750,
+    "en": 5310,
+    "gl": 5240,
+    "wd": 14470
+   },
+   "bank": {
+    "fr": [
+     1363020,
+     7750
+    ],
+    "en": [
+     1371170,
+     5310
+    ],
+    "gl": [
+     1376880,
+     5240
+    ],
+    "wd": [
+     1382520,
+     14470
+    ],
+    "wp": [
+     [
+      1382520,
+      2530
+     ],
+     [
+      1385450,
+      3000
+     ],
+     [
+      1388850,
+      2490
+     ],
+     [
+      1391740,
+      4400
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais Dupin, ai-je dit, ce mystère est impossible. Même la police n'y comprend rien. »",
+   "en": "\"But Dupin,\" I said, \"this mystery is impossible. Even the police understand nothing of it.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "ai-je dit",
+     "I said"
+    ],
+    [
+     "ce mystère",
+     "this mystery"
+    ],
+    [
+     "est impossible",
+     "is impossible"
+    ],
+    [
+     "Même la police",
+     "even the police"
+    ],
+    [
+     "n'y comprend rien",
+     "understands nothing of it"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 7160,
+    "en": 6320,
+    "wd": 18530
+   },
+   "bank": {
+    "fr": [
+     1397390,
+     7160
+    ],
+    "en": [
+     1404950,
+     6320
+    ],
+    "wd": [
+     1411670,
+     18530
+    ],
+    "wp": [
+     [
+      1411670,
+      2460
+     ],
+     [
+      1414530,
+      3210
+     ],
+     [
+      1418140,
+      3320
+     ],
+     [
+      1421860,
+      3390
+     ],
+     [
+      1425650,
+      3700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« La police est habile, a dit Dupin. Mais elle regarde les choses de trop près. »",
+   "en": "\"The police are clever,\" said Dupin. \"But they look at things too closely.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "habile",
+     "en": "clever, skilful"
+    }
+   ],
+   "words": [
+    [
+     "La police est habile",
+     "the police are clever"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "elle regarde les choses",
+     "they look at things"
+    ],
+    [
+     "de trop près",
+     "too closely"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "gl": "audio/s050_gl.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 6250,
+    "en": 4570,
+    "gl": 4150,
+    "wd": 14880
+   },
+   "bank": {
+    "fr": [
+     1430600,
+     6250
+    ],
+    "en": [
+     1437250,
+     4570
+    ],
+    "gl": [
+     1442220,
+     4150
+    ],
+    "wd": [
+     1446770,
+     14880
+    ],
+    "wp": [
+     [
+      1446770,
+      3840
+     ],
+     [
+      1451010,
+      2220
+     ],
+     [
+      1453630,
+      3770
+     ],
+     [
+      1457800,
+      3000
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Pour bien voir une étoile, il faut la regarder un peu de côté. »",
+   "en": "\"To see a star well, you have to look at it a little from the side.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Pour bien voir",
+     "to see well"
+    ],
+    [
+     "une étoile",
+     "a star"
+    ],
+    [
+     "il faut",
+     "you have to"
+    ],
+    [
+     "la regarder",
+     "look at it"
+    ],
+    [
+     "un peu de côté",
+     "a little from the side"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 3850,
+    "wd": 17340
+   },
+   "bank": {
+    "fr": [
+     1462050,
+     4470
+    ],
+    "en": [
+     1466920,
+     3850
+    ],
+    "wd": [
+     1471170,
+     17340
+    ],
+    "wp": [
+     [
+      1471170,
+      3110
+     ],
+     [
+      1474680,
+      2800
+     ],
+     [
+      1477880,
+      2630
+     ],
+     [
+      1480910,
+      2830
+     ],
+     [
+      1484140,
+      3520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Prenez les voix. Tous les témoins sont d'accord : la voix grave est française. »",
+   "en": "\"Take the voices. All the witnesses agree: the deep voice is French.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Prenez",
+     "take"
+    ],
+    [
+     "les voix",
+     "the voices"
+    ],
+    [
+     "Tous les témoins",
+     "all the witnesses"
+    ],
+    [
+     "sont d'accord",
+     "agree"
+    ],
+    [
+     "la voix grave",
+     "the deep voice"
+    ],
+    [
+     "est française",
+     "is French"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 6080,
+    "en": 4990,
+    "wd": 20340
+   },
+   "bank": {
+    "fr": [
+     1488910,
+     6080
+    ],
+    "en": [
+     1495390,
+     4990
+    ],
+    "wd": [
+     1500780,
+     20340
+    ],
+    "wp": [
+     [
+      1500780,
+      2180
+     ],
+     [
+      1503360,
+      2870
+     ],
+     [
+      1506630,
+      3160
+     ],
+     [
+      1510190,
+      2880
+     ],
+     [
+      1513470,
+      3350
+     ],
+     [
+      1517220,
+      3050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Mais pour la voix aiguë, chaque témoin choisit une langue qu'il ne parle pas. »",
+   "en": "\"But for the shrill voice, each witness chooses a language he doesn't speak.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "pour la voix aiguë",
+     "for the shrill voice"
+    ],
+    [
+     "chaque témoin",
+     "each witness"
+    ],
+    [
+     "choisit",
+     "chooses"
+    ],
+    [
+     "une langue",
+     "a language"
+    ],
+    [
+     "qu'il ne parle pas",
+     "that he doesn't speak"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 4740,
+    "en": 4430,
+    "wd": 17930
+   },
+   "bank": {
+    "fr": [
+     1521520,
+     4740
+    ],
+    "en": [
+     1526660,
+     4430
+    ],
+    "wd": [
+     1531490,
+     17930
+    ],
+    "wp": [
+     [
+      1531490,
+      3500
+     ],
+     [
+      1535390,
+      3070
+     ],
+     [
+      1538860,
+      2700
+     ],
+     [
+      1541960,
+      2800
+     ],
+     [
+      1545160,
+      3410
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Et personne n'a compris un seul mot de cette voix. Pas un seul mot, mon ami. »",
+   "en": "\"And nobody understood a single word of that voice. Not a single word, my friend.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "personne n'a compris",
+     "nobody understood"
+    ],
+    [
+     "un seul mot",
+     "a single word"
+    ],
+    [
+     "de cette voix",
+     "of that voice"
+    ],
+    [
+     "mon ami",
+     "my friend"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 6050,
+    "en": 5610,
+    "wd": 14410
+   },
+   "bank": {
+    "fr": [
+     1549820,
+     6050
+    ],
+    "en": [
+     1556270,
+     5610
+    ],
+    "wd": [
+     1562280,
+     14410
+    ],
+    "wp": [
+     [
+      1562280,
+      3730
+     ],
+     [
+      1566410,
+      3010
+     ],
+     [
+      1569820,
+      2990
+     ],
+     [
+      1573210,
+      2630
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Je connais le préfet de police, Monsieur G. Le préfet va nous laisser entrer dans la maison. »",
+   "en": "\"I know the prefect of police, Monsieur G. The prefect will let us into the house.\"",
+   "para": 5,
+   "glosses": [
+    {
+     "fr": "préfet de police",
+     "en": "the head of the Paris police"
+    }
+   ],
+   "words": [
+    [
+     "Je connais",
+     "I know"
+    ],
+    [
+     "le préfet de police",
+     "the prefect of police"
+    ],
+    [
+     "Monsieur G",
+     "Monsieur G"
+    ],
+    [
+     "Le préfet va nous laisser entrer",
+     "the prefect will let us in"
+    ],
+    [
+     "dans la maison",
+     "into the house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "gl": "audio/s055_gl.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 6910,
+    "en": 5320,
+    "gl": 5180,
+    "wd": 19580
+   },
+   "bank": {
+    "fr": [
+     1577090,
+     6910
+    ],
+    "en": [
+     1584400,
+     5320
+    ],
+    "gl": [
+     1590120,
+     5180
+    ],
+    "wd": [
+     1595700,
+     19580
+    ],
+    "wp": [
+     [
+      1595700,
+      2530
+     ],
+     [
+      1598630,
+      4020
+     ],
+     [
+      1603050,
+      2980
+     ],
+     [
+      1606430,
+      4490
+     ],
+     [
+      1611320,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lendemain, nous sommes sortis en plein jour. C'était très rare pour nous.",
+   "en": "The next day, we went out in broad daylight. That was very rare for us.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le lendemain",
+     "the next day"
+    ],
+    [
+     "nous sommes sortis",
+     "we went out"
+    ],
+    [
+     "en plein jour",
+     "in broad daylight"
+    ],
+    [
+     "C'était très rare",
+     "that was very rare"
+    ],
+    [
+     "pour nous",
+     "for us"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 6020,
+    "en": 4720,
+    "wd": 18050
+   },
+   "bank": {
+    "fr": [
+     1615680,
+     6020
+    ],
+    "en": [
+     1622100,
+     4720
+    ],
+    "wd": [
+     1627220,
+     18050
+    ],
+    "wp": [
+     [
+      1627220,
+      2790
+     ],
+     [
+      1630410,
+      3240
+     ],
+     [
+      1634050,
+      3240
+     ],
+     [
+      1637690,
+      3710
+     ],
+     [
+      1641800,
+      2620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La rue Morgue était une petite rue pauvre, près de l'église Saint-Roch.",
+   "en": "The rue Morgue was a small poor street, near the church of Saint-Roch.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "La rue Morgue",
+     "the rue Morgue"
+    ],
+    [
+     "une petite rue pauvre",
+     "a small poor street"
+    ],
+    [
+     "près de l'église Saint-Roch",
+     "near the church of Saint-Roch"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 4740,
+    "en": 4370,
+    "wd": 12780
+   },
+   "bank": {
+    "fr": [
+     1645670,
+     4740
+    ],
+    "en": [
+     1650810,
+     4370
+    ],
+    "wd": [
+     1655580,
+     12780
+    ],
+    "wp": [
+     [
+      1655580,
+      3060
+     ],
+     [
+      1659040,
+      3710
+     ],
+     [
+      1663150,
+      4359
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Devant la maison, des curieux regardaient les volets fermés.",
+   "en": "In front of the house, curious people were staring at the closed shutters.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Devant la maison",
+     "in front of the house"
+    ],
+    [
+     "des curieux",
+     "curious people"
+    ],
+    [
+     "regardaient",
+     "were staring at"
+    ],
+    [
+     "les volets fermés",
+     "the closed shutters"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4080,
+    "en": 4450,
+    "wd": 14880
+   },
+   "bank": {
+    "fr": [
+     1668760,
+     4080
+    ],
+    "en": [
+     1673240,
+     4450
+    ],
+    "wd": [
+     1678090,
+     14880
+    ],
+    "wp": [
+     [
+      1678090,
+      3400
+     ],
+     [
+      1681890,
+      3020
+     ],
+     [
+      1685310,
+      2870
+     ],
+     [
+      1688580,
+      3540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin n'est pas entré tout de suite. Il est passé derrière la maison, par une ruelle.",
+   "en": "Dupin did not go in right away. He went behind the house, by a narrow lane.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "n'est pas entré",
+     "did not go in"
+    ],
+    [
+     "tout de suite",
+     "right away"
+    ],
+    [
+     "Il est passé",
+     "he went"
+    ],
+    [
+     "derrière la maison",
+     "behind the house"
+    ],
+    [
+     "par une ruelle",
+     "by a narrow lane"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 6460,
+    "en": 5200,
+    "wd": 17720
+   },
+   "bank": {
+    "fr": [
+     1693370,
+     6460
+    ],
+    "en": [
+     1700230,
+     5200
+    ],
+    "wd": [
+     1705830,
+     17720
+    ],
+    "wp": [
+     [
+      1705830,
+      3160
+     ],
+     [
+      1709390,
+      2760
+     ],
+     [
+      1712550,
+      2590
+     ],
+     [
+      1715540,
+      3420
+     ],
+     [
+      1719360,
+      3340
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin regardait tout : les murs, la cour, les fenêtres du quatrième étage.",
+   "en": "Dupin was looking at everything: the walls, the courtyard, the fourth-floor windows.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "regardait tout",
+     "was looking at everything"
+    ],
+    [
+     "les murs",
+     "the walls"
+    ],
+    [
+     "la cour",
+     "the courtyard"
+    ],
+    [
+     "les fenêtres",
+     "the windows"
+    ],
+    [
+     "du quatrième étage",
+     "of the fourth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 5980,
+    "en": 5650,
+    "wd": 18060
+   },
+   "bank": {
+    "fr": [
+     1723950,
+     5980
+    ],
+    "en": [
+     1730330,
+     5650
+    ],
+    "wd": [
+     1736380,
+     18060
+    ],
+    "wp": [
+     [
+      1736380,
+      3400
+     ],
+     [
+      1740180,
+      2730
+     ],
+     [
+      1743310,
+      2780
+     ],
+     [
+      1746490,
+      2990
+     ],
+     [
+      1749880,
+      3710
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il a regardé longtemps une tige de fer sur le mur : le paratonnerre.",
+   "en": "He looked for a long time at an iron rod on the wall: the lightning rod.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "paratonnerre",
+     "en": "lightning rod"
+    }
+   ],
+   "words": [
+    [
+     "Il a regardé",
+     "he looked at"
+    ],
+    [
+     "longtemps",
+     "for a long time"
+    ],
+    [
+     "une tige de fer",
+     "an iron rod"
+    ],
+    [
+     "sur le mur",
+     "on the wall"
+    ],
+    [
+     "le paratonnerre",
+     "the lightning rod"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "gl": "audio/s061_gl.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 5030,
+    "en": 4540,
+    "gl": 4140,
+    "wd": 17740
+   },
+   "bank": {
+    "fr": [
+     1754840,
+     5030
+    ],
+    "en": [
+     1760270,
+     4540
+    ],
+    "gl": [
+     1765210,
+     4140
+    ],
+    "wd": [
+     1769750,
+     17740
+    ],
+    "wp": [
+     [
+      1769750,
+      2990
+     ],
+     [
+      1773140,
+      2750
+     ],
+     [
+      1776290,
+      3360
+     ],
+     [
+      1780050,
+      2770
+     ],
+     [
+      1783220,
+      3420
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Moi, je ne voyais rien d'intéressant. Je voyais seulement une vieille maison triste.",
+   "en": "Me, I saw nothing interesting. I saw only a sad old house.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Moi",
+     "me"
+    ],
+    [
+     "je ne voyais rien",
+     "I saw nothing"
+    ],
+    [
+     "d'intéressant",
+     "interesting"
+    ],
+    [
+     "seulement",
+     "only"
+    ],
+    [
+     "une vieille maison triste",
+     "a sad old house"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 6500,
+    "en": 4740,
+    "wd": 17000
+   },
+   "bank": {
+    "fr": [
+     1787890,
+     6500
+    ],
+    "en": [
+     1794790,
+     4740
+    ],
+    "wd": [
+     1799930,
+     17000
+    ],
+    "wp": [
+     [
+      1799930,
+      2140
+     ],
+     [
+      1802470,
+      3200
+     ],
+     [
+      1806070,
+      2810
+     ],
+     [
+      1809280,
+      2350
+     ],
+     [
+      1812030,
+      4050
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Enfin, nous sommes revenus devant la porte, et Dupin a montré la lettre du préfet.",
+   "en": "At last, we came back to the front door, and Dupin showed the prefect's letter.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Enfin",
+     "at last"
+    ],
+    [
+     "nous sommes revenus",
+     "we came back"
+    ],
+    [
+     "devant la porte",
+     "to the front door"
+    ],
+    [
+     "a montré",
+     "showed"
+    ],
+    [
+     "la lettre du préfet",
+     "the prefect's letter"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 5830,
+    "en": 5190,
+    "wd": 17740
+   },
+   "bank": {
+    "fr": [
+     1817330,
+     5830
+    ],
+    "en": [
+     1823560,
+     5190
+    ],
+    "wd": [
+     1829150,
+     17740
+    ],
+    "wp": [
+     [
+      1829150,
+      2480
+     ],
+     [
+      1832030,
+      3330
+     ],
+     [
+      1835760,
+      3330
+     ],
+     [
+      1839490,
+      2530
+     ],
+     [
+      1842420,
+      3620
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un gendarme nous a fait monter au quatrième étage. Personne ne parlait.",
+   "en": "A policeman took us up to the fourth floor. Nobody was speaking.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Un gendarme",
+     "a policeman"
+    ],
+    [
+     "nous a fait monter",
+     "took us up"
+    ],
+    [
+     "au quatrième étage",
+     "to the fourth floor"
+    ],
+    [
+     "Personne ne parlait",
+     "nobody was speaking"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 5800,
+    "en": 4290,
+    "wd": 15420
+   },
+   "bank": {
+    "fr": [
+     1847290,
+     5800
+    ],
+    "en": [
+     1853490,
+     4290
+    ],
+    "wd": [
+     1858180,
+     15420
+    ],
+    "wp": [
+     [
+      1858180,
+      3080
+     ],
+     [
+      1861660,
+      3050
+     ],
+     [
+      1865110,
+      3630
+     ],
+     [
+      1869140,
+      3610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le gendarme a ouvert la porte de la chambre, et il s'est écarté.",
+   "en": "The policeman opened the bedroom door, and he stepped aside.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a ouvert",
+     "opened"
+    ],
+    [
+     "la porte de la chambre",
+     "the bedroom door"
+    ],
+    [
+     "il s'est écarté",
+     "he stepped aside"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 4740,
+    "en": 3930,
+    "wd": 11290
+   },
+   "bank": {
+    "fr": [
+     1874000,
+     4740
+    ],
+    "en": [
+     1879140,
+     3930
+    ],
+    "wd": [
+     1883470,
+     11290
+    ],
+    "wp": [
+     [
+      1883470,
+      2490
+     ],
+     [
+      1886360,
+      3720
+     ],
+     [
+      1890480,
+      3430
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin est entré le premier. Il n'a pas regardé tout de suite le sang, ni l'or, ni le lit.",
+   "en": "Dupin went in first. He did not look at the blood right away, nor the gold, nor the bed.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "est entré le premier",
+     "went in first"
+    ],
+    [
+     "Il n'a pas regardé",
+     "he did not look at"
+    ],
+    [
+     "tout de suite",
+     "right away"
+    ],
+    [
+     "le sang",
+     "the blood"
+    ],
+    [
+     "ni l'or",
+     "nor the gold"
+    ],
+    [
+     "ni le lit",
+     "nor the bed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 7280,
+    "en": 6260,
+    "wd": 20540
+   },
+   "bank": {
+    "fr": [
+     1895160,
+     7280
+    ],
+    "en": [
+     1902840,
+     6260
+    ],
+    "wd": [
+     1909500,
+     20540
+    ],
+    "wp": [
+     [
+      1909500,
+      3360
+     ],
+     [
+      1913260,
+      3510
+     ],
+     [
+      1917170,
+      2760
+     ],
+     [
+      1920330,
+      2450
+     ],
+     [
+      1923180,
+      2800
+     ],
+     [
+      1926380,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dupin a marché tout droit vers la fenêtre, et il a dit tout bas : « Voilà. C'est par ici. »",
+   "en": "Dupin walked straight to the window, and he said very quietly: \"There. This is the way.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a marché",
+     "walked"
+    ],
+    [
+     "tout droit",
+     "straight"
+    ],
+    [
+     "vers la fenêtre",
+     "to the window"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ],
+    [
+     "tout bas",
+     "very quietly"
+    ],
+    [
+     "Voilà",
+     "there"
+    ],
+    [
+     "C'est par ici",
+     "this is the way"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 7060,
+    "en": 5830,
+    "wd": 21890
+   },
+   "bank": {
+    "fr": [
+     1930440,
+     7060
+    ],
+    "en": [
+     1937900,
+     5830
+    ],
+    "wd": [
+     1944130,
+     21890
+    ],
+    "wp": [
+     [
+      1944130,
+      2440
+     ],
+     [
+      1946970,
+      2420
+     ],
+     [
+      1949790,
+      3070
+     ],
+     [
+      1953260,
+      2590
+     ],
+     [
+      1956250,
+      2670
+     ],
+     [
+      1959320,
+      2250
+     ],
+     [
+      1961970,
+      3200
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   22130
+  ],
+  "silence": [
+   22930,
+   30000
+  ]
+ }
+}
