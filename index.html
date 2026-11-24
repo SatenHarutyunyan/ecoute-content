@@ -272,7 +272,10 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
     <div id="fb" hidden><div id="fbDone"></div>
       <div id="fbQ"><b>How was this episode?</b>
       <div class="muted" style="margin-top:8px">Level</div><div class="presets" id="fbLevel"></div>
-      <div class="muted" style="margin-top:8px">How much did you enjoy it?</div><div class="presets" id="fbFun"></div></div></div>
+      <div class="muted" style="margin-top:8px">How much did you enjoy it?</div><div class="presets" id="fbFun"></div>
+      <div id="fbReview" hidden><div class="muted" style="margin-top:10px">A few words about the story? (optional)</div>
+        <textarea id="fbText" rows="3" style="width:100%;box-sizing:border-box;margin-top:6px;font:inherit;padding:8px;border-radius:10px"></textarea>
+        <div class="done-row" style="margin:6px 0 0"><button class="chip" id="fbSend">Send</button><span class="muted" id="fbThanks" hidden>Thank you — sent.</span></div></div></div></div>
     <div id="lessonStep" hidden>
       <div id="dots"></div>
       <div class="meta"><span class="steplabel" id="stepLabel"></span><span id="saveRow" hidden><button class="chip" id="saveWord">☆ Save</button></span></div>
@@ -400,7 +403,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.159";
+const VERSION = "web 0.160";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -904,7 +907,7 @@ function showFeedback() {  // two quick taps after an episode: level and fun; hi
       b.onclick = () => {
         log("feedback", { [key]: v }, id); got[key] = 1; flush();
         $(box).querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
-        if (got.rating && got.fun) setTimeout(() => { $("fbQ").hidden = true; }, 600);
+        if (got.rating && got.fun && $("fbReview").hidden) setTimeout(() => { $("fbQ").hidden = true; }, 600);
       };
       $(box).append(b);
     });
@@ -912,12 +915,22 @@ function showFeedback() {  // two quick taps after an episode: level and fun; hi
   row("fbLevel", "rating", ["Too easy", "Just right", "Too hard"], ["Too easy", "Just right", "Too hard"]);
   row("fbFun", "fun", [1, 2, 3, 4, 5], ["1", "2", "3", "4", "5"].map(n => n + "★"));
   // well done! then: the recommended next episode, or pick one yourself (Saten, 2026-11-20)
-  const e = pickStart(), next = e && e.id !== id ? e : null, n = store.get("ends", 0);
-  $("fbDone").innerHTML = `<div class="done-big">🎉 Well done!</div>
-    <div>You finished <b>${esc(story.title)}</b>${n > 1 ? ` · that's ${n} episodes` : ""}.</div>
-    <div class="done-row">${next ? `<button class="big" id="fbNext">▶ Next: ${esc(next.title)}</button>` : ""}
+  // mid-series: say clearly that the story goes on (Saten 2026-11-24: "I was going to rant about the silly ending, but it was the half")
+  const me = catalog.find(c => c.id === id) || {}, eps = me.series ? catalog.filter(c => c.lang === me.lang && c.series === me.series) : [];
+  const cont = eps.find(c => +c.episode === +me.episode + 1), last = eps.length ? Math.max(...eps.map(c => +c.episode)) : 0;
+  const e = cont || pickStart(), next = e && e.id !== id ? e : null, n = store.get("ends", 0);
+  $("fbDone").innerHTML = (cont ? `<div class="done-big">To be continued…</div>
+    <div>End of episode ${me.episode} of ${last} — the story goes on in episode ${cont.episode}.</div>`
+    : `<div class="done-big">🎉 Well done!</div>
+    <div>You finished <b>${esc(story.title)}</b>${n > 1 ? ` · that's ${n} episodes` : ""}.</div>`) + `
+    <div class="done-row">${next ? `<button class="big" id="fbNext">▶ ${cont ? "Episode " + cont.episode : "Next: " + esc(next.title)}</button>` : ""}
       <button class="chip" id="fbPick">📚 Choose from the library</button></div>`;
-  if (next) $("fbNext").onclick = () => { log("end_choice", { pick: "next", id: next.id }, id); $("fb").hidden = true; startNext(); };
+  if (next) $("fbNext").onclick = () => { log("end_choice", { pick: cont ? "next_ep" : "next", id: next.id }, id); $("fb").hidden = true;
+    cont ? openStory(cont).then(renderStories) : startNext(); };
+  // after the whole story: an optional few words (Saten 2026-11-24)
+  $("fbReview").hidden = !!cont; $("fbText").value = ""; $("fbSend").hidden = false; $("fbThanks").hidden = true;
+  $("fbSend").onclick = () => { const t = $("fbText").value.trim(); if (!t) return;
+    log("review", { text: t.slice(0, 1000), series: me.series || "" }, id); flush(); $("fbSend").hidden = true; $("fbThanks").hidden = false; };
   $("fbPick").onclick = () => {
     log("end_choice", { pick: "library" }, id);
     openLibrary();
@@ -1159,7 +1172,8 @@ async function dailyCheck() {
     $("dcStop").onclick = end;
   };
   const end = () => {
-    store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).filter(x => x.b).map(x => x.b)].slice(-400));
+    // stopped early: the check stays on the home screen for today (Saten 2026-11-24: closed it once, gone for good)
+    if (res.length >= items.length) store.set("daily_" + lang, today()); store.set("dc_asked_" + lang, [...asked, ...items.slice(0, res.length).filter(x => x.b).map(x => x.b)].slice(-400));
     log("daily_check", { n: res.length, right, words: res.slice(0, 10) });
     vaStop();
     const missed = items.slice(0, res.length).filter((x, k) => !res[k][1] && x.kind === "word");
