@@ -405,7 +405,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.161";
+const VERSION = "web 0.162";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -910,6 +910,7 @@ function showFeedback() {  // two quick taps after an episode: level and fun; hi
       const b = document.createElement("button"); b.textContent = labels[i];
       b.onclick = () => {
         log("feedback", { [key]: v }, id); got[key] = 1; flush();
+        if (key === "rating" && v === "Too hard") easier("end");
         $(box).querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
         if (got.rating && got.fun && $("fbReview").hidden) setTimeout(() => { $("fbQ").hidden = true; }, 600);
       };
@@ -1199,6 +1200,19 @@ async function dailyCheck() {
   };
   show();
 }
+// One tap to easier stories (Arevik, not at home with tech: the library's level filter was too complicated, 2026-11-25):
+// the learner's level goes one step down, "Up next" shows stories at that level.
+function easier(where) {
+  const LV = ["A0", "A1", "A2", "B1", "B2", "C1"], cur = store.get("level_" + lang, ""), i = LV.indexOf(cur.slice(0, 2));
+  const now = i > 0 ? LV[i - 1] : i === 0 ? "A0" : "A1";
+  store.set("level_" + lang, now); log("easier", { from: cur, to: now, where });
+  for (const k in KIND_AT) delete KIND_AT[k]; NQ.stale = true;
+  renderShelf();
+  if (where === "end") {
+    const e = pickStart(), b = $("fbNext");
+    if (e && b && e.id !== (story && story.id)) { b.textContent = "▶ Easier: " + e.title; b.onclick = () => { log("end_choice", { pick: "easier", id: e.id }); $("fb").hidden = true; openStory(e).then(renderStories); }; }
+  } else toast(`OK — easier stories (${now}) are now first in "Up next".`, 3500);
+}
 function renderShelf() {
   const el = $("shelf"); if (!el || !lang) return;
   const mine = catalog.filter(c => c.lang === lang);
@@ -1221,12 +1235,14 @@ function renderShelf() {
   const daily = dailyDue() ? `<button class="shelf-row" id="dailyBtn"><span class="t"><b>Today's check</b><span class="muted">Words and sentences from your stories · 2 min</span></span><span class="play">›</span></button><button class="shelf-x" id="dailySkip">not today</button>` : "";
   el.innerHTML = daily + (cont ? `<div class="muted" style="margin-top:4px">Continue</div>` + row(cont, "", `<span class="bar"><i style="width:${pct}%"></i></span>`) : "") +
     (picks.length ? `<div class="muted" style="margin-top:14px">Up next for you</div>` + picks.slice(0, 3).map(x => row(x.c, x.why)).join("") : "") +
+    `<button class="shelf-x" id="easierBtn" style="margin-top:6px">Too hard? Easier stories</button>` +
     `<button class="shelf-lib" id="libOpen">📚 Library · ${mine.length} stories ›</button>`;
   el.querySelectorAll("[data-open]").forEach(b => {
     b.onclick = () => { const e = catalog.find(c => c.id === b.dataset.open); log("shelf_open", {}, e.id); goListen(e); };
     longPress(b, () => sendBackSheet(catalog.find(c => c.id === b.dataset.open)));
   });
   $("libOpen").onclick = openLibrary;
+  $("easierBtn").onclick = () => easier("shelf");
   if ($("dailyBtn")) { $("dailyBtn").onclick = () => { log("daily_open"); dailyCheck(); }; $("dailySkip").onclick = () => { store.set("daily_skip_" + lang, today()); log("daily_skip"); renderShelf(); }; }
 }
 function renderStories() {
