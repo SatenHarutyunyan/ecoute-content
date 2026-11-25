@@ -1,0 +1,6824 @@
+{
+ "id": "fr_v2_hamburg_3",
+ "lang": "fr",
+ "title": "Moin (3)",
+ "author": "Original story (AI-generated)",
+ "level": "B1",
+ "series": "Moin",
+ "episode": "3",
+ "note": "Autumn in Hamburg. Magali is offered a job in Toulouse, and Hauke, the sailor on ferry 62, answers with one syllable. Then, on a stormy morning, a corde, a rope, changes everything.",
+ "intro": "audio/intro.mp3",
+ "intro_ms": 20870,
+ "silence": "audio/silence.mp3",
+ "segments": [
+  {
+   "fr": "L'été est passé sur l'Elbe. Je ne l'ai pas vu passer.",
+   "en": "Summer went by on the Elbe. I didn't see it go by.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "L'été",
+     "summer"
+    ],
+    [
+     "est passé",
+     "went by"
+    ],
+    [
+     "sur l'Elbe",
+     "on the Elbe"
+    ],
+    [
+     "Je ne l'ai pas vu",
+     "I didn't see it"
+    ],
+    [
+     "passer",
+     "go by"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s001_fr.mp3",
+    "en": "audio/s001_en.mp3",
+    "wd": "audio/s001_wd.mp3"
+   },
+   "ms": {
+    "fr": 4750,
+    "en": 3800,
+    "wd": 15750
+   },
+   "bank": {
+    "fr": [
+     52070,
+     4750
+    ],
+    "en": [
+     57220,
+     3800
+    ],
+    "wd": [
+     61420,
+     15750
+    ],
+    "wp": [
+     [
+      61420,
+      2280
+     ],
+     [
+      64100,
+      2530
+     ],
+     [
+      67030,
+      2950
+     ],
+     [
+      70380,
+      3170
+     ],
+     [
+      73950,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Tous les dimanches, après le marché, Hauke et moi, nous allions à Övelgönne, sur le sable.",
+   "en": "Every Sunday, after the market, Hauke and I went to Övelgönne, on the sand.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Tous les dimanches",
+     "every Sunday"
+    ],
+    [
+     "après le marché",
+     "after the market"
+    ],
+    [
+     "Hauke et moi",
+     "Hauke and I"
+    ],
+    [
+     "nous allions",
+     "we went"
+    ],
+    [
+     "sur le sable",
+     "on the sand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s002_fr.mp3",
+    "en": "audio/s002_en.mp3",
+    "wd": "audio/s002_wd.mp3"
+   },
+   "ms": {
+    "fr": 6540,
+    "en": 5230,
+    "wd": 17290
+   },
+   "bank": {
+    "fr": [
+     77570,
+     6540
+    ],
+    "en": [
+     84510,
+     5230
+    ],
+    "wd": [
+     90140,
+     17290
+    ],
+    "wp": [
+     [
+      90140,
+      3110
+     ],
+     [
+      93650,
+      3200
+     ],
+     [
+      97250,
+      2890
+     ],
+     [
+      100540,
+      2620
+     ],
+     [
+      103560,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke m'a appris un nœud, le nœud de chaise. J'ai mis tout l'été.",
+   "en": "Hauke taught me a knot, the bowline. It took me the whole summer.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "nœud de chaise",
+     "en": "bowline, a sailor's knot"
+    }
+   ],
+   "words": [
+    [
+     "m'a appris",
+     "taught me"
+    ],
+    [
+     "un nœud",
+     "a knot"
+    ],
+    [
+     "le nœud de chaise",
+     "the bowline"
+    ],
+    [
+     "J'ai mis",
+     "it took me"
+    ],
+    [
+     "tout l'été",
+     "the whole summer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s003_fr.mp3",
+    "en": "audio/s003_en.mp3",
+    "gl": "audio/s003_gl.mp3",
+    "wd": "audio/s003_wd.mp3"
+   },
+   "ms": {
+    "fr": 5440,
+    "en": 4240,
+    "gl": 5140,
+    "wd": 15990
+   },
+   "bank": {
+    "fr": [
+     107830,
+     5440
+    ],
+    "en": [
+     113670,
+     4240
+    ],
+    "gl": [
+     118310,
+     5140
+    ],
+    "wd": [
+     123850,
+     15990
+    ],
+    "wp": [
+     [
+      123850,
+      2590
+     ],
+     [
+      126840,
+      2470
+     ],
+     [
+      129710,
+      3040
+     ],
+     [
+      133150,
+      2610
+     ],
+     [
+      136160,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Moi, je lui ai appris un mot de Marseille : « fada ». Ça veut dire fou.",
+   "en": "Me, I taught him a word from Marseille: \"fada\". It means crazy.",
+   "para": 1,
+   "glosses": [
+    {
+     "fr": "fada",
+     "en": "crazy (Marseille slang)"
+    }
+   ],
+   "words": [
+    [
+     "je lui ai appris",
+     "I taught him"
+    ],
+    [
+     "un mot",
+     "a word"
+    ],
+    [
+     "de Marseille",
+     "from Marseille"
+    ],
+    [
+     "Ça veut dire",
+     "it means"
+    ],
+    [
+     "fou",
+     "crazy"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s004_fr.mp3",
+    "en": "audio/s004_en.mp3",
+    "gl": "audio/s004_gl.mp3",
+    "wd": "audio/s004_wd.mp3"
+   },
+   "ms": {
+    "fr": 6340,
+    "en": 4760,
+    "gl": 4260,
+    "wd": 16059
+   },
+   "bank": {
+    "fr": [
+     140240,
+     6340
+    ],
+    "en": [
+     146980,
+     4760
+    ],
+    "gl": [
+     152140,
+     4260
+    ],
+    "wd": [
+     156800,
+     16059
+    ],
+    "wp": [
+     [
+      156800,
+      3120
+     ],
+     [
+      160320,
+      2250
+     ],
+     [
+      162970,
+      3090
+     ],
+     [
+      166460,
+      2890
+     ],
+     [
+      169750,
+      2260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Maintenant, Hauke dit « fada » quand un touriste ouvre un parapluie sur le pont du bateau.",
+   "en": "Now, Hauke says \"fada\" when a tourist opens an umbrella on the deck of the boat.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Maintenant",
+     "now"
+    ],
+    [
+     "dit",
+     "says"
+    ],
+    [
+     "quand",
+     "when"
+    ],
+    [
+     "un touriste",
+     "a tourist"
+    ],
+    [
+     "ouvre",
+     "opens"
+    ],
+    [
+     "un parapluie",
+     "an umbrella"
+    ],
+    [
+     "sur le pont",
+     "on the deck"
+    ],
+    [
+     "du bateau",
+     "of the boat"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s005_fr.mp3",
+    "en": "audio/s005_en.mp3",
+    "wd": "audio/s005_wd.mp3"
+   },
+   "ms": {
+    "fr": 5950,
+    "en": 5420,
+    "wd": 23880
+   },
+   "bank": {
+    "fr": [
+     173260,
+     5950
+    ],
+    "en": [
+     179610,
+     5420
+    ],
+    "wd": [
+     185430,
+     23880
+    ],
+    "wp": [
+     [
+      185430,
+      2320
+     ],
+     [
+      188150,
+      2160
+     ],
+     [
+      190710,
+      2020
+     ],
+     [
+      193130,
+      2970
+     ],
+     [
+      196500,
+      2240
+     ],
+     [
+      199140,
+      3000
+     ],
+     [
+      202540,
+      2820
+     ],
+     [
+      205760,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon carnet est resté dans un tiroir. Je ne comptais plus les mots de Hauke.",
+   "en": "My notebook stayed in a drawer. I wasn't counting Hauke's words any more.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "Mon carnet",
+     "my notebook"
+    ],
+    [
+     "est resté",
+     "stayed"
+    ],
+    [
+     "dans un tiroir",
+     "in a drawer"
+    ],
+    [
+     "Je ne comptais plus",
+     "I wasn't counting any more"
+    ],
+    [
+     "les mots",
+     "the words"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s006_fr.mp3",
+    "en": "audio/s006_en.mp3",
+    "wd": "audio/s006_wd.mp3"
+   },
+   "ms": {
+    "fr": 6030,
+    "en": 4490,
+    "wd": 17240
+   },
+   "bank": {
+    "fr": [
+     209710,
+     6030
+    ],
+    "en": [
+     216140,
+     4490
+    ],
+    "wd": [
+     221030,
+     17240
+    ],
+    "wp": [
+     [
+      221030,
+      2840
+     ],
+     [
+      224270,
+      2480
+     ],
+     [
+      227150,
+      3240
+     ],
+     [
+      230790,
+      3850
+     ],
+     [
+      235040,
+      2380
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Birte disait « ton matelot ». Ma mère disait « ce monsieur ».",
+   "en": "Birte said \"your sailor\". My mother said \"that gentleman\".",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "disait",
+     "said"
+    ],
+    [
+     "ton matelot",
+     "your sailor"
+    ],
+    [
+     "Ma mère",
+     "my mother"
+    ],
+    [
+     "ce monsieur",
+     "that gentleman"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s007_fr.mp3",
+    "en": "audio/s007_en.mp3",
+    "wd": "audio/s007_wd.mp3"
+   },
+   "ms": {
+    "fr": 5590,
+    "en": 4130,
+    "wd": 12450
+   },
+   "bank": {
+    "fr": [
+     238670,
+     5590
+    ],
+    "en": [
+     244660,
+     4130
+    ],
+    "wd": [
+     249190,
+     12450
+    ],
+    "wp": [
+     [
+      249190,
+      2210
+     ],
+     [
+      251800,
+      2830
+     ],
+     [
+      255030,
+      2580
+     ],
+     [
+      258010,
+      2780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke et moi, nous n'avions pas de mot pour ça. Et pourtant, les mots, c'est mon métier.",
+   "en": "Hauke and I had no word for it. And yet, words are my job.",
+   "para": 1,
+   "glosses": [],
+   "words": [
+    [
+     "nous n'avions pas",
+     "we had no"
+    ],
+    [
+     "de mot",
+     "word"
+    ],
+    [
+     "pour ça",
+     "for it"
+    ],
+    [
+     "Et pourtant",
+     "and yet"
+    ],
+    [
+     "les mots",
+     "words"
+    ],
+    [
+     "c'est mon métier",
+     "are my job"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s008_fr.mp3",
+    "en": "audio/s008_en.mp3",
+    "wd": "audio/s008_wd.mp3"
+   },
+   "ms": {
+    "fr": 6840,
+    "en": 4660,
+    "wd": 18310
+   },
+   "bank": {
+    "fr": [
+     262040,
+     6840
+    ],
+    "en": [
+     269280,
+     4660
+    ],
+    "wd": [
+     274340,
+     18310
+    ],
+    "wp": [
+     [
+      274340,
+      3030
+     ],
+     [
+      277770,
+      2150
+     ],
+     [
+      280320,
+      2430
+     ],
+     [
+      283150,
+      2470
+     ],
+     [
+      286020,
+      2280
+     ],
+     [
+      288700,
+      3100
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À la fin de septembre, mon chef m'a appelée dans son bureau.",
+   "en": "At the end of September, my boss called me into his office.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "À la fin de septembre",
+     "at the end of September"
+    ],
+    [
+     "mon chef",
+     "my boss"
+    ],
+    [
+     "m'a appelée",
+     "called me"
+    ],
+    [
+     "dans son bureau",
+     "into his office"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s009_fr.mp3",
+    "en": "audio/s009_en.mp3",
+    "wd": "audio/s009_wd.mp3"
+   },
+   "ms": {
+    "fr": 4240,
+    "en": 3780,
+    "wd": 14900
+   },
+   "bank": {
+    "fr": [
+     293050,
+     4240
+    ],
+    "en": [
+     297690,
+     3780
+    ],
+    "wd": [
+     301870,
+     14900
+    ],
+    "wp": [
+     [
+      301870,
+      3860
+     ],
+     [
+      306130,
+      2920
+     ],
+     [
+      309450,
+      2760
+     ],
+     [
+      312610,
+      3310
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le projet des ingénieurs de Toulouse se terminait en décembre. Ils rentraient chez eux.",
+   "en": "The project of the engineers from Toulouse was ending in December. They were going back home.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le projet",
+     "the project"
+    ],
+    [
+     "des ingénieurs",
+     "of the engineers"
+    ],
+    [
+     "de Toulouse",
+     "from Toulouse"
+    ],
+    [
+     "se terminait",
+     "was ending"
+    ],
+    [
+     "en décembre",
+     "in December"
+    ],
+    [
+     "Ils rentraient",
+     "they were going back"
+    ],
+    [
+     "chez eux",
+     "home"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s010_fr.mp3",
+    "en": "audio/s010_en.mp3",
+    "wd": "audio/s010_wd.mp3"
+   },
+   "ms": {
+    "fr": 6620,
+    "en": 5430,
+    "wd": 23840
+   },
+   "bank": {
+    "fr": [
+     317170,
+     6620
+    ],
+    "en": [
+     324190,
+     5430
+    ],
+    "wd": [
+     330020,
+     23840
+    ],
+    "wp": [
+     [
+      330020,
+      2910
+     ],
+     [
+      333330,
+      3350
+     ],
+     [
+      337080,
+      3100
+     ],
+     [
+      340580,
+      2820
+     ],
+     [
+      343800,
+      3010
+     ],
+     [
+      347210,
+      3110
+     ],
+     [
+      350720,
+      2290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon chef m'a proposé un poste à Toulouse, à partir de janvier. Un bon poste.",
+   "en": "My boss offered me a position in Toulouse, starting in January. A good position.",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "m'a proposé",
+     "offered me"
+    ],
+    [
+     "un poste",
+     "a position"
+    ],
+    [
+     "à Toulouse",
+     "in Toulouse"
+    ],
+    [
+     "à partir de janvier",
+     "starting in January"
+    ],
+    [
+     "Un bon poste",
+     "a good position"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s011_fr.mp3",
+    "en": "audio/s011_en.mp3",
+    "wd": "audio/s011_wd.mp3"
+   },
+   "ms": {
+    "fr": 6820,
+    "en": 5620,
+    "wd": 18080
+   },
+   "bank": {
+    "fr": [
+     354260,
+     6820
+    ],
+    "en": [
+     361480,
+     5620
+    ],
+    "wd": [
+     367500,
+     18080
+    ],
+    "wp": [
+     [
+      367500,
+      2840
+     ],
+     [
+      370740,
+      2840
+     ],
+     [
+      373980,
+      2820
+     ],
+     [
+      377200,
+      3870
+     ],
+     [
+      381470,
+      3260
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Réfléchissez. Vous me répondez lundi en huit », a dit mon chef.",
+   "en": "\"Think about it. Give me your answer the Monday after next,\" said my boss.",
+   "para": 2,
+   "glosses": [
+    {
+     "fr": "lundi en huit",
+     "en": "the Monday after next"
+    }
+   ],
+   "words": [
+    [
+     "Réfléchissez",
+     "think about it"
+    ],
+    [
+     "Vous me répondez",
+     "give me your answer"
+    ],
+    [
+     "lundi en huit",
+     "the Monday after next"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "mon chef",
+     "my boss"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s012_fr.mp3",
+    "en": "audio/s012_en.mp3",
+    "gl": "audio/s012_gl.mp3",
+    "wd": "audio/s012_wd.mp3"
+   },
+   "ms": {
+    "fr": 5740,
+    "en": 4800,
+    "gl": 4890,
+    "wd": 17740
+   },
+   "bank": {
+    "fr": [
+     385980,
+     5740
+    ],
+    "en": [
+     392120,
+     4800
+    ],
+    "gl": [
+     397320,
+     4890
+    ],
+    "wd": [
+     402610,
+     17740
+    ],
+    "wp": [
+     [
+      402610,
+      3040
+     ],
+     [
+      406050,
+      3370
+     ],
+     [
+      409820,
+      3740
+     ],
+     [
+      413960,
+      2220
+     ],
+     [
+      416580,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le soir, ma mère a crié de joie au téléphone : « Toulouse ! C'est à quatre heures de train ! »",
+   "en": "In the evening, my mother shouted with joy on the phone: \"Toulouse! That's four hours by train!\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "Le soir",
+     "in the evening"
+    ],
+    [
+     "ma mère",
+     "my mother"
+    ],
+    [
+     "a crié de joie",
+     "shouted with joy"
+    ],
+    [
+     "au téléphone",
+     "on the phone"
+    ],
+    [
+     "C'est à",
+     "that's"
+    ],
+    [
+     "quatre heures",
+     "four hours"
+    ],
+    [
+     "de train",
+     "by train"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s013_fr.mp3",
+    "en": "audio/s013_en.mp3",
+    "wd": "audio/s013_wd.mp3"
+   },
+   "ms": {
+    "fr": 7450,
+    "en": 5870,
+    "wd": 22720
+   },
+   "bank": {
+    "fr": [
+     420750,
+     7450
+    ],
+    "en": [
+     428600,
+     5870
+    ],
+    "wd": [
+     434870,
+     22720
+    ],
+    "wp": [
+     [
+      434870,
+      2750
+     ],
+     [
+      438020,
+      2580
+     ],
+     [
+      441000,
+      3330
+     ],
+     [
+      444730,
+      2950
+     ],
+     [
+      448080,
+      2430
+     ],
+     [
+      450910,
+      2910
+     ],
+     [
+      454220,
+      2520
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Birte, elle, m'a dit : « Dis-le à Hauke. Un Hambourgeois ne devine pas. »",
+   "en": "Birte told me: \"Tell Hauke. A Hamburg man doesn't guess.\"",
+   "para": 2,
+   "glosses": [],
+   "words": [
+    [
+     "m'a dit",
+     "told me"
+    ],
+    [
+     "Dis-le",
+     "tell it"
+    ],
+    [
+     "à Hauke",
+     "to Hauke"
+    ],
+    [
+     "Un Hambourgeois",
+     "a Hamburg man"
+    ],
+    [
+     "ne devine pas",
+     "doesn't guess"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s014_fr.mp3",
+    "en": "audio/s014_en.mp3",
+    "wd": "audio/s014_wd.mp3"
+   },
+   "ms": {
+    "fr": 6340,
+    "en": 4450,
+    "wd": 15970
+   },
+   "bank": {
+    "fr": [
+     457990,
+     6340
+    ],
+    "en": [
+     464730,
+     4450
+    ],
+    "wd": [
+     469580,
+     15970
+    ],
+    "wp": [
+     [
+      469580,
+      2400
+     ],
+     [
+      472380,
+      2170
+     ],
+     [
+      474950,
+      2680
+     ],
+     [
+      478030,
+      3210
+     ],
+     [
+      481640,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le lundi, sur le 62, j'ai dit à Hauke : « On me propose un poste à Toulouse. En janvier. »",
+   "en": "On Monday, on the 62, I said to Hauke: \"They're offering me a position in Toulouse. In January.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Le lundi",
+     "on Monday"
+    ],
+    [
+     "sur le 62",
+     "on the 62"
+    ],
+    [
+     "j'ai dit",
+     "I said"
+    ],
+    [
+     "On me propose",
+     "they're offering me"
+    ],
+    [
+     "un poste",
+     "a position"
+    ],
+    [
+     "En janvier",
+     "in January"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s015_fr.mp3",
+    "en": "audio/s015_en.mp3",
+    "wd": "audio/s015_wd.mp3"
+   },
+   "ms": {
+    "fr": 7990,
+    "en": 7100,
+    "wd": 20550
+   },
+   "bank": {
+    "fr": [
+     485950,
+     7990
+    ],
+    "en": [
+     494340,
+     7100
+    ],
+    "wd": [
+     501840,
+     20550
+    ],
+    "wp": [
+     [
+      501840,
+      2630
+     ],
+     [
+      504870,
+      3540
+     ],
+     [
+      508810,
+      2500
+     ],
+     [
+      511710,
+      3270
+     ],
+     [
+      515380,
+      2840
+     ],
+     [
+      518620,
+      2920
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a regardé le ciel pendant longtemps. Puis il a dit : « Hmm. »",
+   "en": "Hauke looked at the sky for a long time. Then he said: \"Hmm.\"",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "le ciel",
+     "the sky"
+    ],
+    [
+     "pendant longtemps",
+     "for a long time"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s016_fr.mp3",
+    "en": "audio/s016_en.mp3",
+    "wd": "audio/s016_wd.mp3"
+   },
+   "ms": {
+    "fr": 5390,
+    "en": 4470,
+    "wd": 15370
+   },
+   "bank": {
+    "fr": [
+     522789,
+     5390
+    ],
+    "en": [
+     528580,
+     4470
+    ],
+    "wd": [
+     533450,
+     15370
+    ],
+    "wp": [
+     [
+      533450,
+      2550
+     ],
+     [
+      536400,
+      2570
+     ],
+     [
+      539370,
+      3100
+     ],
+     [
+      542870,
+      2110
+     ],
+     [
+      545380,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À Finkenwerder, Hauke a fait son nœud. Le même nœud que d'habitude. C'est tout.",
+   "en": "At Finkenwerder, Hauke tied his knot. The same knot as usual. That's all.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "À Finkenwerder",
+     "at Finkenwerder"
+    ],
+    [
+     "a fait",
+     "tied"
+    ],
+    [
+     "son nœud",
+     "his knot"
+    ],
+    [
+     "Le même nœud",
+     "the same knot"
+    ],
+    [
+     "que d'habitude",
+     "as usual"
+    ],
+    [
+     "C'est tout",
+     "that's all"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s017_fr.mp3",
+    "en": "audio/s017_en.mp3",
+    "wd": "audio/s017_wd.mp3"
+   },
+   "ms": {
+    "fr": 7290,
+    "en": 5550,
+    "wd": 19660
+   },
+   "bank": {
+    "fr": [
+     549220,
+     7290
+    ],
+    "en": [
+     556910,
+     5550
+    ],
+    "wd": [
+     562860,
+     19660
+    ],
+    "wp": [
+     [
+      562860,
+      3550
+     ],
+     [
+      566810,
+      2200
+     ],
+     [
+      569410,
+      2570
+     ],
+     [
+      572380,
+      3040
+     ],
+     [
+      575820,
+      2980
+     ],
+     [
+      579200,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce soir-là, j'ai ressorti le carnet du tiroir.",
+   "en": "That evening, I took the notebook back out of the drawer.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "Ce soir-là",
+     "that evening"
+    ],
+    [
+     "j'ai ressorti",
+     "I took back out"
+    ],
+    [
+     "le carnet",
+     "the notebook"
+    ],
+    [
+     "du tiroir",
+     "of the drawer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s018_fr.mp3",
+    "en": "audio/s018_en.mp3",
+    "wd": "audio/s018_wd.mp3"
+   },
+   "ms": {
+    "fr": 4010,
+    "en": 3390,
+    "wd": 13810
+   },
+   "bank": {
+    "fr": [
+     582920,
+     4010
+    ],
+    "en": [
+     587330,
+     3390
+    ],
+    "wd": [
+     591120,
+     13810
+    ],
+    "wp": [
+     [
+      591120,
+      2690
+     ],
+     [
+      594210,
+      3290
+     ],
+     [
+      597900,
+      2740
+     ],
+     [
+      601040,
+      3040
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le mardi, « Moin ». Le mercredi, « Moin ». Le jeudi, « Moin », et rien d'autre.",
+   "en": "On Tuesday, \"Moin\". On Wednesday, \"Moin\". On Thursday, \"Moin\", and nothing else.",
+   "para": 3,
+   "glosses": [
+    {
+     "fr": "Moin",
+     "en": "hello (Hamburg greeting, for any time of day)"
+    }
+   ],
+   "words": [
+    [
+     "Le mardi",
+     "on Tuesday"
+    ],
+    [
+     "Le mercredi",
+     "on Wednesday"
+    ],
+    [
+     "Le jeudi",
+     "on Thursday"
+    ],
+    [
+     "et rien d'autre",
+     "and nothing else"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s019_fr.mp3",
+    "en": "audio/s019_en.mp3",
+    "gl": "audio/s019_gl.mp3",
+    "wd": "audio/s019_wd.mp3"
+   },
+   "ms": {
+    "fr": 8410,
+    "en": 5950,
+    "gl": 5090,
+    "wd": 13760
+   },
+   "bank": {
+    "fr": [
+     605330,
+     8410
+    ],
+    "en": [
+     614140,
+     5950
+    ],
+    "gl": [
+     620490,
+     5090
+    ],
+    "wd": [
+     625980,
+     13760
+    ],
+    "wp": [
+     [
+      625980,
+      2810
+     ],
+     [
+      629190,
+      2940
+     ],
+     [
+      632530,
+      2880
+     ],
+     [
+      635810,
+      3080
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai compté : trois jours, trois mots. Ce soir-là, pour moi, ça voulait dire : pars, Magali.",
+   "en": "I counted: three days, three words. That evening, to me, that meant: leave, Magali.",
+   "para": 3,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai compté",
+     "I counted"
+    ],
+    [
+     "trois jours",
+     "three days"
+    ],
+    [
+     "trois mots",
+     "three words"
+    ],
+    [
+     "Ce soir-là",
+     "that evening"
+    ],
+    [
+     "pour moi",
+     "to me"
+    ],
+    [
+     "ça voulait dire",
+     "that meant"
+    ],
+    [
+     "pars",
+     "leave"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s020_fr.mp3",
+    "en": "audio/s020_en.mp3",
+    "wd": "audio/s020_wd.mp3"
+   },
+   "ms": {
+    "fr": 8820,
+    "en": 7400,
+    "wd": 22050
+   },
+   "bank": {
+    "fr": [
+     640140,
+     8820
+    ],
+    "en": [
+     649360,
+     7400
+    ],
+    "wd": [
+     657160,
+     22050
+    ],
+    "wp": [
+     [
+      657160,
+      2790
+     ],
+     [
+      660350,
+      2940
+     ],
+     [
+      663690,
+      2790
+     ],
+     [
+      666880,
+      2690
+     ],
+     [
+      669970,
+      2350
+     ],
+     [
+      672720,
+      2990
+     ],
+     [
+      676110,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le vendredi, il y a eu une tempête, la première de l'automne.",
+   "en": "On Friday, there was a storm, the first of the autumn.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Le vendredi",
+     "on Friday"
+    ],
+    [
+     "il y a eu",
+     "there was"
+    ],
+    [
+     "une tempête",
+     "a storm"
+    ],
+    [
+     "la première",
+     "the first"
+    ],
+    [
+     "de l'automne",
+     "of the autumn"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s021_fr.mp3",
+    "en": "audio/s021_en.mp3",
+    "wd": "audio/s021_wd.mp3"
+   },
+   "ms": {
+    "fr": 4850,
+    "en": 3630,
+    "wd": 16900
+   },
+   "bank": {
+    "fr": [
+     679610,
+     4850
+    ],
+    "en": [
+     684860,
+     3630
+    ],
+    "wd": [
+     688890,
+     16900
+    ],
+    "wp": [
+     [
+      688890,
+      2960
+     ],
+     [
+      692250,
+      2620
+     ],
+     [
+      695270,
+      2910
+     ],
+     [
+      698580,
+      3050
+     ],
+     [
+      702030,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'Elbe était grise, avec des vagues. Le 62 bougeait comme un bouchon.",
+   "en": "The Elbe was grey, with waves. The 62 was bobbing like a cork.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "était grise",
+     "was grey"
+    ],
+    [
+     "avec des vagues",
+     "with waves"
+    ],
+    [
+     "bougeait",
+     "was bobbing"
+    ],
+    [
+     "comme un bouchon",
+     "like a cork"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s022_fr.mp3",
+    "en": "audio/s022_en.mp3",
+    "wd": "audio/s022_wd.mp3"
+   },
+   "ms": {
+    "fr": 6260,
+    "en": 5120,
+    "wd": 13580
+   },
+   "bank": {
+    "fr": [
+     706190,
+     6260
+    ],
+    "en": [
+     712850,
+     5120
+    ],
+    "wd": [
+     718370,
+     13580
+    ],
+    "wp": [
+     [
+      718370,
+      2850
+     ],
+     [
+      721620,
+      3090
+     ],
+     [
+      725110,
+      2630
+     ],
+     [
+      728140,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À Dockland, Hauke a lancé la boucle de la corde sur le poteau, comme chaque matin.",
+   "en": "At Dockland, Hauke threw the loop of the rope over the post, like every morning.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "poteau",
+     "en": "post"
+    }
+   ],
+   "words": [
+    [
+     "À Dockland",
+     "at Dockland"
+    ],
+    [
+     "a lancé",
+     "threw"
+    ],
+    [
+     "la boucle",
+     "the loop"
+    ],
+    [
+     "de la corde",
+     "of the rope"
+    ],
+    [
+     "sur le poteau",
+     "over the post"
+    ],
+    [
+     "comme chaque matin",
+     "like every morning"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s023_fr.mp3",
+    "en": "audio/s023_en.mp3",
+    "gl": "audio/s023_gl.mp3",
+    "wd": "audio/s023_wd.mp3"
+   },
+   "ms": {
+    "fr": 5750,
+    "en": 5000,
+    "gl": 3150,
+    "wd": 20160
+   },
+   "bank": {
+    "fr": [
+     732350,
+     5750
+    ],
+    "en": [
+     738500,
+     5000
+    ],
+    "gl": [
+     743900,
+     3150
+    ],
+    "wd": [
+     747450,
+     20160
+    ],
+    "wp": [
+     [
+      747450,
+      3110
+     ],
+     [
+      750960,
+      2420
+     ],
+     [
+      753780,
+      2590
+     ],
+     [
+      756770,
+      2900
+     ],
+     [
+      760070,
+      3000
+     ],
+     [
+      763470,
+      3290
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mais ce matin-là, Hauke ne regardait pas la corde. Hauke me regardait.",
+   "en": "But that morning, Hauke wasn't looking at the rope. Hauke was looking at me.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "ce matin-là",
+     "that morning"
+    ],
+    [
+     "ne regardait pas",
+     "wasn't looking at"
+    ],
+    [
+     "la corde",
+     "the rope"
+    ],
+    [
+     "me regardait",
+     "was looking at me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s024_fr.mp3",
+    "en": "audio/s024_en.mp3",
+    "wd": "audio/s024_wd.mp3"
+   },
+   "ms": {
+    "fr": 5920,
+    "en": 4790,
+    "wd": 16100
+   },
+   "bank": {
+    "fr": [
+     768010,
+     5920
+    ],
+    "en": [
+     774330,
+     4790
+    ],
+    "wd": [
+     779520,
+     16100
+    ],
+    "wp": [
+     [
+      779520,
+      1920
+     ],
+     [
+      781840,
+      2720
+     ],
+     [
+      784960,
+      3220
+     ],
+     [
+      788580,
+      2730
+     ],
+     [
+      791710,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une vague a poussé le bateau, et la corde a glissé.",
+   "en": "A wave pushed the boat, and the rope slipped.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Une vague",
+     "a wave"
+    ],
+    [
+     "a poussé",
+     "pushed"
+    ],
+    [
+     "le bateau",
+     "the boat"
+    ],
+    [
+     "la corde",
+     "the rope"
+    ],
+    [
+     "a glissé",
+     "slipped"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s025_fr.mp3",
+    "en": "audio/s025_en.mp3",
+    "wd": "audio/s025_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "en": 3110,
+    "wd": 15380
+   },
+   "bank": {
+    "fr": [
+     796020,
+     3940
+    ],
+    "en": [
+     800360,
+     3110
+    ],
+    "wd": [
+     803870,
+     15380
+    ],
+    "wp": [
+     [
+      803870,
+      2700
+     ],
+     [
+      806970,
+      2440
+     ],
+     [
+      809810,
+      2580
+     ],
+     [
+      812790,
+      2730
+     ],
+     [
+      815920,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La main de Hauke s'est coincée entre la corde et le poteau.",
+   "en": "Hauke's hand got caught between the rope and the post.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "coincée",
+     "en": "caught, jammed"
+    }
+   ],
+   "words": [
+    [
+     "La main",
+     "the hand"
+    ],
+    [
+     "de Hauke",
+     "of Hauke"
+    ],
+    [
+     "s'est coincée",
+     "got caught"
+    ],
+    [
+     "entre",
+     "between"
+    ],
+    [
+     "la corde",
+     "the rope"
+    ],
+    [
+     "le poteau",
+     "the post"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s026_fr.mp3",
+    "en": "audio/s026_en.mp3",
+    "gl": "audio/s026_gl.mp3",
+    "wd": "audio/s026_wd.mp3"
+   },
+   "ms": {
+    "fr": 3670,
+    "en": 3510,
+    "gl": 4059,
+    "wd": 18790
+   },
+   "bank": {
+    "fr": [
+     819650,
+     3670
+    ],
+    "en": [
+     823720,
+     3510
+    ],
+    "gl": [
+     827630,
+     4059
+    ],
+    "wd": [
+     832090,
+     18790
+    ],
+    "wp": [
+     [
+      832090,
+      2550
+     ],
+     [
+      835040,
+      2770
+     ],
+     [
+      838210,
+      2870
+     ],
+     [
+      841480,
+      2360
+     ],
+     [
+      844240,
+      2730
+     ],
+     [
+      847370,
+      2660
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke n'a pas crié. Il a dit un seul mot, en allemand, que je ne traduirai pas ici.",
+   "en": "Hauke didn't cry out. He said a single word, in German, which I won't translate here.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "n'a pas crié",
+     "didn't cry out"
+    ],
+    [
+     "Il a dit",
+     "he said"
+    ],
+    [
+     "un seul mot",
+     "a single word"
+    ],
+    [
+     "en allemand",
+     "in German"
+    ],
+    [
+     "que je ne traduirai pas",
+     "which I won't translate"
+    ],
+    [
+     "ici",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s027_fr.mp3",
+    "en": "audio/s027_en.mp3",
+    "wd": "audio/s027_wd.mp3"
+   },
+   "ms": {
+    "fr": 7010,
+    "en": 5970,
+    "wd": 20390
+   },
+   "bank": {
+    "fr": [
+     851280,
+     7010
+    ],
+    "en": [
+     858690,
+     5970
+    ],
+    "wd": [
+     865060,
+     20390
+    ],
+    "wp": [
+     [
+      865060,
+      3120
+     ],
+     [
+      868580,
+      2590
+     ],
+     [
+      871570,
+      3010
+     ],
+     [
+      874980,
+      2690
+     ],
+     [
+      878070,
+      3920
+     ],
+     [
+      882390,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il y avait du sang sur la corde. Le capitaine a coupé le moteur.",
+   "en": "There was blood on the rope. The captain cut the engine.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Il y avait",
+     "there was"
+    ],
+    [
+     "du sang",
+     "blood"
+    ],
+    [
+     "sur la corde",
+     "on the rope"
+    ],
+    [
+     "Le capitaine",
+     "the captain"
+    ],
+    [
+     "a coupé",
+     "cut"
+    ],
+    [
+     "le moteur",
+     "the engine"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s028_fr.mp3",
+    "en": "audio/s028_en.mp3",
+    "wd": "audio/s028_wd.mp3"
+   },
+   "ms": {
+    "fr": 5450,
+    "en": 3580,
+    "wd": 18610
+   },
+   "bank": {
+    "fr": [
+     885850,
+     5450
+    ],
+    "en": [
+     891700,
+     3580
+    ],
+    "wd": [
+     895680,
+     18610
+    ],
+    "wp": [
+     [
+      895680,
+      2510
+     ],
+     [
+      898590,
+      2280
+     ],
+     [
+      901270,
+      3000
+     ],
+     [
+      904670,
+      3040
+     ],
+     [
+      908110,
+      2240
+     ],
+     [
+      910750,
+      2690
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Moi, j'ai appelé les secours. J'ai dit les phrases qu'il fallait, en allemand, calmement.",
+   "en": "Me, I called the emergency services. I said the right sentences, in German, calmly.",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "secours",
+     "en": "emergency services"
+    }
+   ],
+   "words": [
+    [
+     "j'ai appelé",
+     "I called"
+    ],
+    [
+     "les secours",
+     "the emergency services"
+    ],
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "les phrases",
+     "the sentences"
+    ],
+    [
+     "qu'il fallait",
+     "that were needed"
+    ],
+    [
+     "en allemand",
+     "in German"
+    ],
+    [
+     "calmement",
+     "calmly"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s029_fr.mp3",
+    "en": "audio/s029_en.mp3",
+    "gl": "audio/s029_gl.mp3",
+    "wd": "audio/s029_wd.mp3"
+   },
+   "ms": {
+    "fr": 7220,
+    "en": 5940,
+    "gl": 4480,
+    "wd": 23220
+   },
+   "bank": {
+    "fr": [
+     914690,
+     7220
+    ],
+    "en": [
+     922310,
+     5940
+    ],
+    "gl": [
+     928650,
+     4480
+    ],
+    "wd": [
+     933530,
+     23220
+    ],
+    "wp": [
+     [
+      933530,
+      2890
+     ],
+     [
+      936820,
+      3750
+     ],
+     [
+      940970,
+      2500
+     ],
+     [
+      943870,
+      3020
+     ],
+     [
+      947290,
+      2750
+     ],
+     [
+      950440,
+      2690
+     ],
+     [
+      953530,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'est mon métier, dire les phrases qu'il faut.",
+   "en": "It's my job, saying the right sentences.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "C'est mon métier",
+     "it's my job"
+    ],
+    [
+     "dire",
+     "saying"
+    ],
+    [
+     "les phrases",
+     "the sentences"
+    ],
+    [
+     "qu'il faut",
+     "that are needed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s030_fr.mp3",
+    "en": "audio/s030_en.mp3",
+    "wd": "audio/s030_wd.mp3"
+   },
+   "ms": {
+    "fr": 3250,
+    "en": 3080,
+    "wd": 13280
+   },
+   "bank": {
+    "fr": [
+     957150,
+     3250
+    ],
+    "en": [
+     960800,
+     3080
+    ],
+    "wd": [
+     964280,
+     13280
+    ],
+    "wp": [
+     [
+      964280,
+      3210
+     ],
+     [
+      967890,
+      2329
+     ],
+     [
+      970620,
+      3020
+     ],
+     [
+      974040,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis j'ai enroulé mon écharpe autour de la main de Hauke, et j'ai tenu sa main.",
+   "en": "Then I wrapped my scarf around Hauke's hand, and I held his hand.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "j'ai enroulé",
+     "I wrapped"
+    ],
+    [
+     "mon écharpe",
+     "my scarf"
+    ],
+    [
+     "autour de",
+     "around"
+    ],
+    [
+     "la main",
+     "the hand"
+    ],
+    [
+     "j'ai tenu",
+     "I held"
+    ],
+    [
+     "sa main",
+     "his hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s031_fr.mp3",
+    "en": "audio/s031_en.mp3",
+    "wd": "audio/s031_wd.mp3"
+   },
+   "ms": {
+    "fr": 4990,
+    "en": 4140,
+    "wd": 21650
+   },
+   "bank": {
+    "fr": [
+     977960,
+     4990
+    ],
+    "en": [
+     983350,
+     4140
+    ],
+    "wd": [
+     987890,
+     21650
+    ],
+    "wp": [
+     [
+      987890,
+      2110
+     ],
+     [
+      990400,
+      2930
+     ],
+     [
+      993730,
+      2970
+     ],
+     [
+      997100,
+      2600
+     ],
+     [
+      1000100,
+      2550
+     ],
+     [
+      1003050,
+      2710
+     ],
+     [
+      1006160,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke était blanc comme une mouette. Il regardait l'eau, pas sa main.",
+   "en": "Hauke was as white as a seagull. He was looking at the water, not at his hand.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "était blanc",
+     "was white"
+    ],
+    [
+     "comme une mouette",
+     "as a seagull"
+    ],
+    [
+     "Il regardait",
+     "he was looking at"
+    ],
+    [
+     "l'eau",
+     "the water"
+    ],
+    [
+     "pas sa main",
+     "not at his hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s032_fr.mp3",
+    "en": "audio/s032_en.mp3",
+    "wd": "audio/s032_wd.mp3"
+   },
+   "ms": {
+    "fr": 5300,
+    "en": 5040,
+    "wd": 16370
+   },
+   "bank": {
+    "fr": [
+     1009940,
+     5300
+    ],
+    "en": [
+     1015640,
+     5040
+    ],
+    "wd": [
+     1021080,
+     16370
+    ],
+    "wp": [
+     [
+      1021080,
+      2620
+     ],
+     [
+      1024100,
+      3190
+     ],
+     [
+      1027690,
+      2880
+     ],
+     [
+      1030970,
+      2270
+     ],
+     [
+      1033640,
+      2960
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'ambulance est arrivée sur le quai de Dockland, avec sa lumière bleue.",
+   "en": "The ambulance arrived on the Dockland quay, with its blue light.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "L'ambulance",
+     "the ambulance"
+    ],
+    [
+     "est arrivée",
+     "arrived"
+    ],
+    [
+     "sur le quai",
+     "on the quay"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "sa lumière bleue",
+     "its blue light"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s033_fr.mp3",
+    "en": "audio/s033_en.mp3",
+    "wd": "audio/s033_wd.mp3"
+   },
+   "ms": {
+    "fr": 5000,
+    "en": 4430,
+    "wd": 16530
+   },
+   "bank": {
+    "fr": [
+     1037849,
+     5000
+    ],
+    "en": [
+     1043250,
+     4430
+    ],
+    "wd": [
+     1048079,
+     16530
+    ],
+    "wp": [
+     [
+      1048079,
+      3220
+     ],
+     [
+      1051699,
+      2620
+     ],
+     [
+      1054719,
+      2840
+     ],
+     [
+      1057959,
+      2170
+     ],
+     [
+      1060529,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "L'ambulancier m'a demandé : « Vous êtes de la famille ? »",
+   "en": "The paramedic asked me: \"Are you family?\"",
+   "para": 4,
+   "glosses": [
+    {
+     "fr": "ambulancier",
+     "en": "paramedic"
+    }
+   ],
+   "words": [
+    [
+     "L'ambulancier",
+     "the paramedic"
+    ],
+    [
+     "m'a demandé",
+     "asked me"
+    ],
+    [
+     "Vous êtes",
+     "are you"
+    ],
+    [
+     "de la famille",
+     "family"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s034_fr.mp3",
+    "en": "audio/s034_en.mp3",
+    "gl": "audio/s034_gl.mp3",
+    "wd": "audio/s034_wd.mp3"
+   },
+   "ms": {
+    "fr": 3870,
+    "en": 2930,
+    "gl": 3930,
+    "wd": 13090
+   },
+   "bank": {
+    "fr": [
+     1065010,
+     3870
+    ],
+    "en": [
+     1069280,
+     2930
+    ],
+    "gl": [
+     1072610,
+     3930
+    ],
+    "wd": [
+     1076940,
+     13090
+    ],
+    "wp": [
+     [
+      1076940,
+      3160
+     ],
+     [
+      1080500,
+      2700
+     ],
+     [
+      1083600,
+      2480
+     ],
+     [
+      1086480,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je connais tous les mots, en deux langues. Pour ça, je n'en avais pas un seul.",
+   "en": "I know all the words, in two languages. For that, I didn't have a single one.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "Je connais",
+     "I know"
+    ],
+    [
+     "tous les mots",
+     "all the words"
+    ],
+    [
+     "en deux langues",
+     "in two languages"
+    ],
+    [
+     "Pour ça",
+     "for that"
+    ],
+    [
+     "je n'en avais pas",
+     "I didn't have any"
+    ],
+    [
+     "un seul",
+     "a single one"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s035_fr.mp3",
+    "en": "audio/s035_en.mp3",
+    "wd": "audio/s035_wd.mp3"
+   },
+   "ms": {
+    "fr": 6330,
+    "en": 5430,
+    "wd": 20380
+   },
+   "bank": {
+    "fr": [
+     1090430,
+     6330
+    ],
+    "en": [
+     1097160,
+     5430
+    ],
+    "wd": [
+     1102990,
+     20380
+    ],
+    "wp": [
+     [
+      1102990,
+      2530
+     ],
+     [
+      1105920,
+      2870
+     ],
+     [
+      1109190,
+      3400
+     ],
+     [
+      1112990,
+      2450
+     ],
+     [
+      1115840,
+      3390
+     ],
+     [
+      1119630,
+      2890
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit : « Non. » Et l'ambulance est partie sans moi, vers l'hôpital d'Altona.",
+   "en": "I said: \"No.\" And the ambulance left without me, toward the Altona hospital.",
+   "para": 4,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "Non",
+     "no"
+    ],
+    [
+     "est partie",
+     "left"
+    ],
+    [
+     "sans moi",
+     "without me"
+    ],
+    [
+     "vers",
+     "toward"
+    ],
+    [
+     "l'hôpital",
+     "the hospital"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s036_fr.mp3",
+    "en": "audio/s036_en.mp3",
+    "wd": "audio/s036_wd.mp3"
+   },
+   "ms": {
+    "fr": 6610,
+    "en": 6030,
+    "wd": 17750
+   },
+   "bank": {
+    "fr": [
+     1123770,
+     6610
+    ],
+    "en": [
+     1130780,
+     6030
+    ],
+    "wd": [
+     1137210,
+     17750
+    ],
+    "wp": [
+     [
+      1137210,
+      2500
+     ],
+     [
+      1140110,
+      2080
+     ],
+     [
+      1142590,
+      2500
+     ],
+     [
+      1145490,
+      2630
+     ],
+     [
+      1148520,
+      2210
+     ],
+     [
+      1151130,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je suis restée sur le quai de Dockland, avec mon écharpe rouge de sang et mon carnet.",
+   "en": "I stayed on the Dockland quay, with my scarf red with blood and my notebook.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Je suis restée",
+     "I stayed"
+    ],
+    [
+     "sur le quai",
+     "on the quay"
+    ],
+    [
+     "mon écharpe",
+     "my scarf"
+    ],
+    [
+     "rouge de sang",
+     "red with blood"
+    ],
+    [
+     "mon carnet",
+     "my notebook"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s037_fr.mp3",
+    "en": "audio/s037_en.mp3",
+    "wd": "audio/s037_wd.mp3"
+   },
+   "ms": {
+    "fr": 5730,
+    "en": 4800,
+    "wd": 17010
+   },
+   "bank": {
+    "fr": [
+     1155360,
+     5730
+    ],
+    "en": [
+     1161490,
+     4800
+    ],
+    "wd": [
+     1166690,
+     17010
+    ],
+    "wp": [
+     [
+      1166690,
+      2890
+     ],
+     [
+      1169980,
+      2840
+     ],
+     [
+      1173220,
+      2970
+     ],
+     [
+      1176590,
+      3020
+     ],
+     [
+      1180010,
+      2840
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je n'avais pas le numéro de Hauke. Un été entier, et pas de numéro.",
+   "en": "I didn't have Hauke's number. A whole summer, and no number.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Je n'avais pas",
+     "I didn't have"
+    ],
+    [
+     "le numéro",
+     "the number"
+    ],
+    [
+     "Un été entier",
+     "a whole summer"
+    ],
+    [
+     "pas de numéro",
+     "no number"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s038_fr.mp3",
+    "en": "audio/s038_en.mp3",
+    "wd": "audio/s038_wd.mp3"
+   },
+   "ms": {
+    "fr": 5990,
+    "en": 4210,
+    "wd": 13890
+   },
+   "bank": {
+    "fr": [
+     1184100,
+     5990
+    ],
+    "en": [
+     1190490,
+     4210
+    ],
+    "wd": [
+     1195100,
+     13890
+    ],
+    "wp": [
+     [
+      1195100,
+      3140
+     ],
+     [
+      1198640,
+      2560
+     ],
+     [
+      1201600,
+      3190
+     ],
+     [
+      1205190,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ce jour-là, je ne suis pas allée chez Airbus. Je suis rentrée à pied, le long de l'Elbe.",
+   "en": "That day, I didn't go to Airbus. I walked home, along the Elbe.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Ce jour-là",
+     "that day"
+    ],
+    [
+     "je ne suis pas allée",
+     "I didn't go"
+    ],
+    [
+     "chez Airbus",
+     "to Airbus"
+    ],
+    [
+     "Je suis rentrée",
+     "I went home"
+    ],
+    [
+     "à pied",
+     "on foot"
+    ],
+    [
+     "le long de",
+     "along"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s039_fr.mp3",
+    "en": "audio/s039_en.mp3",
+    "wd": "audio/s039_wd.mp3"
+   },
+   "ms": {
+    "fr": 7170,
+    "en": 4840,
+    "wd": 19890
+   },
+   "bank": {
+    "fr": [
+     1209390,
+     7170
+    ],
+    "en": [
+     1216960,
+     4840
+    ],
+    "wd": [
+     1222200,
+     19890
+    ],
+    "wp": [
+     [
+      1222200,
+      2610
+     ],
+     [
+      1225210,
+      3340
+     ],
+     [
+      1228950,
+      3080
+     ],
+     [
+      1232430,
+      3050
+     ],
+     [
+      1235880,
+      2430
+     ],
+     [
+      1238710,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À la maison, j'ai lavé l'écharpe. L'eau est devenue rose, puis claire.",
+   "en": "At home, I washed the scarf. The water turned pink, then clear.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "À la maison",
+     "at home"
+    ],
+    [
+     "j'ai lavé",
+     "I washed"
+    ],
+    [
+     "l'écharpe",
+     "the scarf"
+    ],
+    [
+     "L'eau",
+     "the water"
+    ],
+    [
+     "est devenue",
+     "turned"
+    ],
+    [
+     "rose",
+     "pink"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "claire",
+     "clear"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s040_fr.mp3",
+    "en": "audio/s040_en.mp3",
+    "wd": "audio/s040_wd.mp3"
+   },
+   "ms": {
+    "fr": 6340,
+    "en": 4980,
+    "wd": 22930
+   },
+   "bank": {
+    "fr": [
+     1242490,
+     6340
+    ],
+    "en": [
+     1249230,
+     4980
+    ],
+    "wd": [
+     1254610,
+     22930
+    ],
+    "wp": [
+     [
+      1254610,
+      2590
+     ],
+     [
+      1257600,
+      2740
+     ],
+     [
+      1260740,
+      2640
+     ],
+     [
+      1263780,
+      2270
+     ],
+     [
+      1266450,
+      2410
+     ],
+     [
+      1269260,
+      2270
+     ],
+     [
+      1271930,
+      2110
+     ],
+     [
+      1274440,
+      2250
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À deux heures, j'ai appelé mon chef. Je ne lui ai pas laissé le temps de dire bonjour.",
+   "en": "At two o'clock, I called my boss. I didn't give him time to say hello.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "À deux heures",
+     "at two o'clock"
+    ],
+    [
+     "j'ai appelé",
+     "I called"
+    ],
+    [
+     "mon chef",
+     "my boss"
+    ],
+    [
+     "Je ne lui ai pas laissé",
+     "I didn't give him"
+    ],
+    [
+     "le temps",
+     "the time"
+    ],
+    [
+     "de dire bonjour",
+     "to say hello"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s041_fr.mp3",
+    "en": "audio/s041_en.mp3",
+    "wd": "audio/s041_wd.mp3"
+   },
+   "ms": {
+    "fr": 6800,
+    "en": 5010,
+    "wd": 21060
+   },
+   "bank": {
+    "fr": [
+     1277940,
+     6800
+    ],
+    "en": [
+     1285140,
+     5010
+    ],
+    "wd": [
+     1290550,
+     21060
+    ],
+    "wp": [
+     [
+      1290550,
+      3010
+     ],
+     [
+      1293960,
+      2890
+     ],
+     [
+      1297250,
+      2920
+     ],
+     [
+      1300570,
+      3520
+     ],
+     [
+      1304490,
+      2510
+     ],
+     [
+      1307400,
+      3360
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit non à Toulouse.",
+   "en": "I said no to Toulouse.",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "non",
+     "no"
+    ],
+    [
+     "à Toulouse",
+     "to Toulouse"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s042_fr.mp3",
+    "en": "audio/s042_en.mp3",
+    "wd": "audio/s042_wd.mp3"
+   },
+   "ms": {
+    "fr": 2290,
+    "en": 2090,
+    "wd": 9210
+   },
+   "bank": {
+    "fr": [
+     1312010,
+     2290
+    ],
+    "en": [
+     1314700,
+     2090
+    ],
+    "wd": [
+     1317190,
+     9210
+    ],
+    "wp": [
+     [
+      1317190,
+      2500
+     ],
+     [
+      1320090,
+      2080
+     ],
+     [
+      1322570,
+      2980
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon chef a dit : « Vous êtes sûre ? En janvier, je n'aurai plus rien pour vous ici. »",
+   "en": "My boss said: \"Are you sure? In January, I won't have anything left for you here.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "Mon chef",
+     "my boss"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Vous êtes sûre",
+     "are you sure"
+    ],
+    [
+     "En janvier",
+     "in January"
+    ],
+    [
+     "je n'aurai plus rien",
+     "I won't have anything left"
+    ],
+    [
+     "pour vous",
+     "for you"
+    ],
+    [
+     "ici",
+     "here"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s043_fr.mp3",
+    "en": "audio/s043_en.mp3",
+    "wd": "audio/s043_wd.mp3"
+   },
+   "ms": {
+    "fr": 6840,
+    "en": 5790,
+    "wd": 22690
+   },
+   "bank": {
+    "fr": [
+     1326800,
+     6840
+    ],
+    "en": [
+     1334040,
+     5790
+    ],
+    "wd": [
+     1340230,
+     22690
+    ],
+    "wp": [
+     [
+      1340230,
+      2920
+     ],
+     [
+      1343550,
+      2220
+     ],
+     [
+      1346170,
+      3030
+     ],
+     [
+      1349600,
+      2920
+     ],
+     [
+      1352920,
+      3800
+     ],
+     [
+      1357120,
+      2340
+     ],
+     [
+      1359860,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit : « Je sais. »",
+   "en": "I said: \"I know.\"",
+   "para": 5,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "Je sais",
+     "I know"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s044_fr.mp3",
+    "en": "audio/s044_en.mp3",
+    "wd": "audio/s044_wd.mp3"
+   },
+   "ms": {
+    "fr": 2280,
+    "en": 2180,
+    "wd": 6200
+   },
+   "bank": {
+    "fr": [
+     1363320,
+     2280
+    ],
+    "en": [
+     1366000,
+     2180
+    ],
+    "wd": [
+     1368580,
+     6200
+    ],
+    "wp": [
+     [
+      1368580,
+      2500
+     ],
+     [
+      1371480,
+      2450
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le soir, je suis allée à l'hôpital d'Altona.",
+   "en": "In the evening, I went to the Altona hospital.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Le soir",
+     "in the evening"
+    ],
+    [
+     "je suis allée",
+     "I went"
+    ],
+    [
+     "à l'hôpital",
+     "to the hospital"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s045_fr.mp3",
+    "en": "audio/s045_en.mp3",
+    "wd": "audio/s045_wd.mp3"
+   },
+   "ms": {
+    "fr": 3810,
+    "en": 3030,
+    "wd": 10250
+   },
+   "bank": {
+    "fr": [
+     1375180,
+     3810
+    ],
+    "en": [
+     1379390,
+     3030
+    ],
+    "wd": [
+     1382820,
+     10250
+    ],
+    "wp": [
+     [
+      1382820,
+      2750
+     ],
+     [
+      1385970,
+      2700
+     ],
+     [
+      1389070,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "À l'accueil, j'ai dit : « Je voudrais des nouvelles de Hauke Brodersen. »",
+   "en": "At the reception desk, I said: \"I would like news of Hauke Brodersen.\"",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "accueil",
+     "en": "reception desk"
+    }
+   ],
+   "words": [
+    [
+     "À l'accueil",
+     "at the reception desk"
+    ],
+    [
+     "j'ai dit",
+     "I said"
+    ],
+    [
+     "Je voudrais",
+     "I would like"
+    ],
+    [
+     "des nouvelles",
+     "news"
+    ],
+    [
+     "de Hauke Brodersen",
+     "of Hauke Brodersen"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s046_fr.mp3",
+    "en": "audio/s046_en.mp3",
+    "gl": "audio/s046_gl.mp3",
+    "wd": "audio/s046_wd.mp3"
+   },
+   "ms": {
+    "fr": 5060,
+    "en": 4880,
+    "gl": 4030,
+    "wd": 17610
+   },
+   "bank": {
+    "fr": [
+     1393470,
+     5060
+    ],
+    "en": [
+     1398930,
+     4880
+    ],
+    "gl": [
+     1404210,
+     4030
+    ],
+    "wd": [
+     1408640,
+     17610
+    ],
+    "wp": [
+     [
+      1408640,
+      3430
+     ],
+     [
+      1412470,
+      2500
+     ],
+     [
+      1415370,
+      2780
+     ],
+     [
+      1418550,
+      2670
+     ],
+     [
+      1421620,
+      3780
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La dame de l'accueil m'a demandé : « Vous êtes de la famille ? » J'ai ouvert la bouche. Rien n'est venu.",
+   "en": "The reception lady asked me: \"Are you family?\" I opened my mouth. Nothing came.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "La dame",
+     "the lady"
+    ],
+    [
+     "de l'accueil",
+     "of the reception desk"
+    ],
+    [
+     "m'a demandé",
+     "asked me"
+    ],
+    [
+     "Vous êtes",
+     "are you"
+    ],
+    [
+     "de la famille",
+     "family"
+    ],
+    [
+     "J'ai ouvert",
+     "I opened"
+    ],
+    [
+     "la bouche",
+     "my mouth"
+    ],
+    [
+     "Rien n'est venu",
+     "nothing came"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s047_fr.mp3",
+    "en": "audio/s047_en.mp3",
+    "wd": "audio/s047_wd.mp3"
+   },
+   "ms": {
+    "fr": 8360,
+    "en": 5890,
+    "wd": 26440
+   },
+   "bank": {
+    "fr": [
+     1426650,
+     8360
+    ],
+    "en": [
+     1435410,
+     5890
+    ],
+    "wd": [
+     1441700,
+     26440
+    ],
+    "wp": [
+     [
+      1441700,
+      2530
+     ],
+     [
+      1444630,
+      3470
+     ],
+     [
+      1448500,
+      2700
+     ],
+     [
+      1451600,
+      2480
+     ],
+     [
+      1454480,
+      2700
+     ],
+     [
+      1457580,
+      3000
+     ],
+     [
+      1460980,
+      2790
+     ],
+     [
+      1464170,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Derrière moi, une voix a dit : « Elle est avec nous. »",
+   "en": "Behind me, a voice said: \"She's with us.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Derrière moi",
+     "behind me"
+    ],
+    [
+     "une voix",
+     "a voice"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "Elle est",
+     "she is"
+    ],
+    [
+     "avec nous",
+     "with us"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s048_fr.mp3",
+    "en": "audio/s048_en.mp3",
+    "wd": "audio/s048_wd.mp3"
+   },
+   "ms": {
+    "fr": 3980,
+    "en": 3380,
+    "wd": 15270
+   },
+   "bank": {
+    "fr": [
+     1468540,
+     3980
+    ],
+    "en": [
+     1472920,
+     3380
+    ],
+    "wd": [
+     1476700,
+     15270
+    ],
+    "wp": [
+     [
+      1476700,
+      2890
+     ],
+     [
+      1479990,
+      2560
+     ],
+     [
+      1482950,
+      2220
+     ],
+     [
+      1485570,
+      2430
+     ],
+     [
+      1488400,
+      2720
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "C'était la mère de Hauke, dans son anorak jaune, avec un sac de pommes.",
+   "en": "It was Hauke's mother, in her yellow anorak, with a bag of apples.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "C'était",
+     "it was"
+    ],
+    [
+     "la mère",
+     "the mother"
+    ],
+    [
+     "de Hauke",
+     "of Hauke"
+    ],
+    [
+     "dans son anorak jaune",
+     "in her yellow anorak"
+    ],
+    [
+     "un sac",
+     "a bag"
+    ],
+    [
+     "de pommes",
+     "of apples"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s049_fr.mp3",
+    "en": "audio/s049_en.mp3",
+    "wd": "audio/s049_wd.mp3"
+   },
+   "ms": {
+    "fr": 5420,
+    "en": 4650,
+    "wd": 20210
+   },
+   "bank": {
+    "fr": [
+     1492370,
+     5420
+    ],
+    "en": [
+     1498190,
+     4650
+    ],
+    "wd": [
+     1503240,
+     20210
+    ],
+    "wp": [
+     [
+      1503240,
+      2410
+     ],
+     [
+      1506050,
+      2580
+     ],
+     [
+      1509030,
+      2770
+     ],
+     [
+      1512200,
+      4110
+     ],
+     [
+      1516710,
+      2680
+     ],
+     [
+      1519790,
+      2810
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "La mère de Hauke n'a rien ajouté. Elle m'a montré l'ascenseur. Quatrième étage.",
+   "en": "Hauke's mother added nothing. She showed me the lift. Fourth floor.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "La mère",
+     "the mother"
+    ],
+    [
+     "n'a rien ajouté",
+     "added nothing"
+    ],
+    [
+     "Elle m'a montré",
+     "she showed me"
+    ],
+    [
+     "l'ascenseur",
+     "the lift"
+    ],
+    [
+     "Quatrième étage",
+     "fourth floor"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s050_fr.mp3",
+    "en": "audio/s050_en.mp3",
+    "wd": "audio/s050_wd.mp3"
+   },
+   "ms": {
+    "fr": 7800,
+    "en": 4660,
+    "wd": 17490
+   },
+   "bank": {
+    "fr": [
+     1523850,
+     7800
+    ],
+    "en": [
+     1532050,
+     4660
+    ],
+    "wd": [
+     1537110,
+     17490
+    ],
+    "wp": [
+     [
+      1537110,
+      2580
+     ],
+     [
+      1540090,
+      3330
+     ],
+     [
+      1543820,
+      3160
+     ],
+     [
+      1547380,
+      2820
+     ],
+     [
+      1550600,
+      3150
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans la chambre, Hauke avait la main droite dans un bandage gros comme un ananas.",
+   "en": "In the room, Hauke had his right hand in a bandage as big as a pineapple.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dans la chambre",
+     "in the room"
+    ],
+    [
+     "avait",
+     "had"
+    ],
+    [
+     "la main droite",
+     "the right hand"
+    ],
+    [
+     "dans un bandage",
+     "in a bandage"
+    ],
+    [
+     "gros comme",
+     "as big as"
+    ],
+    [
+     "un ananas",
+     "a pineapple"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s051_fr.mp3",
+    "en": "audio/s051_en.mp3",
+    "wd": "audio/s051_wd.mp3"
+   },
+   "ms": {
+    "fr": 5250,
+    "en": 4840,
+    "wd": 20160
+   },
+   "bank": {
+    "fr": [
+     1555000,
+     5250
+    ],
+    "en": [
+     1560650,
+     4840
+    ],
+    "wd": [
+     1565890,
+     20160
+    ],
+    "wp": [
+     [
+      1565890,
+      2820
+     ],
+     [
+      1569110,
+      2100
+     ],
+     [
+      1571610,
+      3240
+     ],
+     [
+      1575250,
+      3330
+     ],
+     [
+      1578980,
+      2870
+     ],
+     [
+      1582250,
+      2950
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Deux doigts cassés. Deux mois sans bateau. Hauke m'a regardée, et il a dit : « Moin. »",
+   "en": "Two broken fingers. Two months without a boat. Hauke looked at me, and he said: \"Moin.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Deux doigts cassés",
+     "two broken fingers"
+    ],
+    [
+     "Deux mois",
+     "two months"
+    ],
+    [
+     "sans bateau",
+     "without a boat"
+    ],
+    [
+     "m'a regardée",
+     "looked at me"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s052_fr.mp3",
+    "en": "audio/s052_en.mp3",
+    "wd": "audio/s052_wd.mp3"
+   },
+   "ms": {
+    "fr": 7740,
+    "en": 6360,
+    "wd": 16940
+   },
+   "bank": {
+    "fr": [
+     1586450,
+     7740
+    ],
+    "en": [
+     1594590,
+     6360
+    ],
+    "wd": [
+     1601350,
+     16940
+    ],
+    "wp": [
+     [
+      1601350,
+      3580
+     ],
+     [
+      1605330,
+      2600
+     ],
+     [
+      1608330,
+      2960
+     ],
+     [
+      1611690,
+      2760
+     ],
+     [
+      1614850,
+      2590
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sa mère a posé les pommes, puis elle est partie chercher un café. Un café très long.",
+   "en": "His mother put down the apples, then she went to get a coffee. A very long coffee.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Sa mère",
+     "his mother"
+    ],
+    [
+     "a posé",
+     "put down"
+    ],
+    [
+     "les pommes",
+     "the apples"
+    ],
+    [
+     "puis",
+     "then"
+    ],
+    [
+     "elle est partie",
+     "she went"
+    ],
+    [
+     "chercher un café",
+     "to get a coffee"
+    ],
+    [
+     "très long",
+     "very long"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s053_fr.mp3",
+    "en": "audio/s053_en.mp3",
+    "wd": "audio/s053_wd.mp3"
+   },
+   "ms": {
+    "fr": 6420,
+    "en": 5290,
+    "wd": 21990
+   },
+   "bank": {
+    "fr": [
+     1618690,
+     6420
+    ],
+    "en": [
+     1625510,
+     5290
+    ],
+    "wd": [
+     1631200,
+     21990
+    ],
+    "wp": [
+     [
+      1631200,
+      2660
+     ],
+     [
+      1634260,
+      2560
+     ],
+     [
+      1637220,
+      2690
+     ],
+     [
+      1640310,
+      2110
+     ],
+     [
+      1642820,
+      2810
+     ],
+     [
+      1646030,
+      3370
+     ],
+     [
+      1649800,
+      2540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je me suis assise sur la chaise. J'avais apporté des navettes, les biscuits de ma mère.",
+   "en": "I sat down on the chair. I had brought navettes, my mother's biscuits.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Je me suis assise",
+     "I sat down"
+    ],
+    [
+     "sur la chaise",
+     "on the chair"
+    ],
+    [
+     "J'avais apporté",
+     "I had brought"
+    ],
+    [
+     "des navettes",
+     "navettes"
+    ],
+    [
+     "les biscuits",
+     "the biscuits"
+    ],
+    [
+     "de ma mère",
+     "of my mother"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s054_fr.mp3",
+    "en": "audio/s054_en.mp3",
+    "wd": "audio/s054_wd.mp3"
+   },
+   "ms": {
+    "fr": 7080,
+    "en": 4740,
+    "wd": 21530
+   },
+   "bank": {
+    "fr": [
+     1653590,
+     7080
+    ],
+    "en": [
+     1661070,
+     4740
+    ],
+    "wd": [
+     1666210,
+     21530
+    ],
+    "wp": [
+     [
+      1666210,
+      3590
+     ],
+     [
+      1670200,
+      3110
+     ],
+     [
+      1673710,
+      3250
+     ],
+     [
+      1677360,
+      2890
+     ],
+     [
+      1680650,
+      3020
+     ],
+     [
+      1684070,
+      2820
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a mangé une navette, lentement, avec la main gauche.",
+   "en": "Hauke ate one navette, slowly, with his left hand.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a mangé",
+     "ate"
+    ],
+    [
+     "une navette",
+     "one navette"
+    ],
+    [
+     "lentement",
+     "slowly"
+    ],
+    [
+     "avec",
+     "with"
+    ],
+    [
+     "la main gauche",
+     "the left hand"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s055_fr.mp3",
+    "en": "audio/s055_en.mp3",
+    "wd": "audio/s055_wd.mp3"
+   },
+   "ms": {
+    "fr": 4470,
+    "en": 3820,
+    "wd": 15450
+   },
+   "bank": {
+    "fr": [
+     1688140,
+     4470
+    ],
+    "en": [
+     1693010,
+     3820
+    ],
+    "wd": [
+     1697230,
+     15450
+    ],
+    "wp": [
+     [
+      1697230,
+      2329
+     ],
+     [
+      1699960,
+      2840
+     ],
+     [
+      1703200,
+      2550
+     ],
+     [
+      1706150,
+      2170
+     ],
+     [
+      1708720,
+      3110
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit : « Cet après-midi, j'ai répondu à mon chef. » Hauke n'a pas demandé la réponse.",
+   "en": "I said: \"This afternoon, I answered my boss.\" Hauke didn't ask what the answer was.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "Cet après-midi",
+     "this afternoon"
+    ],
+    [
+     "j'ai répondu",
+     "I answered"
+    ],
+    [
+     "à mon chef",
+     "my boss"
+    ],
+    [
+     "n'a pas demandé",
+     "didn't ask"
+    ],
+    [
+     "la réponse",
+     "the answer"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s056_fr.mp3",
+    "en": "audio/s056_en.mp3",
+    "wd": "audio/s056_wd.mp3"
+   },
+   "ms": {
+    "fr": 7370,
+    "en": 6080,
+    "wd": 20770
+   },
+   "bank": {
+    "fr": [
+     1713080,
+     7370
+    ],
+    "en": [
+     1720850,
+     6080
+    ],
+    "wd": [
+     1727330,
+     20770
+    ],
+    "wp": [
+     [
+      1727330,
+      2500
+     ],
+     [
+      1730230,
+      3350
+     ],
+     [
+      1733980,
+      2940
+     ],
+     [
+      1737320,
+      3030
+     ],
+     [
+      1740750,
+      3090
+     ],
+     [
+      1744240,
+      3010
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a regardé par la fenêtre. Il pleuvait sur Altona. Le ciel ne l'a pas aidé.",
+   "en": "Hauke looked out of the window. It was raining on Altona. The sky didn't help him.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "looked"
+    ],
+    [
+     "par la fenêtre",
+     "out of the window"
+    ],
+    [
+     "Il pleuvait",
+     "it was raining"
+    ],
+    [
+     "sur Altona",
+     "on Altona"
+    ],
+    [
+     "Le ciel",
+     "the sky"
+    ],
+    [
+     "ne l'a pas aidé",
+     "didn't help him"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s057_fr.mp3",
+    "en": "audio/s057_en.mp3",
+    "wd": "audio/s057_wd.mp3"
+   },
+   "ms": {
+    "fr": 7170,
+    "en": 5360,
+    "wd": 19690
+   },
+   "bank": {
+    "fr": [
+     1748500,
+     7170
+    ],
+    "en": [
+     1756070,
+     5360
+    ],
+    "wd": [
+     1761830,
+     19690
+    ],
+    "wp": [
+     [
+      1761830,
+      2460
+     ],
+     [
+      1764690,
+      3100
+     ],
+     [
+      1768190,
+      2690
+     ],
+     [
+      1771280,
+      3030
+     ],
+     [
+      1774710,
+      2570
+     ],
+     [
+      1777680,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Alors Hauke a pris le cordon du store avec la main gauche, pour faire un nœud.",
+   "en": "So Hauke took the cord of the blind with his left hand, to tie a knot.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "store",
+     "en": "window blind"
+    }
+   ],
+   "words": [
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "a pris",
+     "took"
+    ],
+    [
+     "le cordon",
+     "the cord"
+    ],
+    [
+     "du store",
+     "of the blind"
+    ],
+    [
+     "avec la main gauche",
+     "with his left hand"
+    ],
+    [
+     "pour faire",
+     "to tie"
+    ],
+    [
+     "un nœud",
+     "a knot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s058_fr.mp3",
+    "en": "audio/s058_en.mp3",
+    "gl": "audio/s058_gl.mp3",
+    "wd": "audio/s058_wd.mp3"
+   },
+   "ms": {
+    "fr": 4950,
+    "en": 4310,
+    "gl": 3770,
+    "wd": 21900
+   },
+   "bank": {
+    "fr": [
+     1781920,
+     4950
+    ],
+    "en": [
+     1787270,
+     4310
+    ],
+    "gl": [
+     1791980,
+     3770
+    ],
+    "wd": [
+     1796150,
+     21900
+    ],
+    "wp": [
+     [
+      1796150,
+      2270
+     ],
+     [
+      1798820,
+      2220
+     ],
+     [
+      1801440,
+      2690
+     ],
+     [
+      1804530,
+      2920
+     ],
+     [
+      1807850,
+      3550
+     ],
+     [
+      1811800,
+      2530
+     ],
+     [
+      1814730,
+      2470
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Avec la main gauche, Hauke n'y arrivait pas. Le cordon est retombé. Alors Hauke a parlé.",
+   "en": "With his left hand, Hauke couldn't manage it. The cord fell back down. So Hauke talked.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Avec la main gauche",
+     "with his left hand"
+    ],
+    [
+     "n'y arrivait pas",
+     "couldn't manage it"
+    ],
+    [
+     "Le cordon",
+     "the cord"
+    ],
+    [
+     "est retombé",
+     "fell back down"
+    ],
+    [
+     "Alors",
+     "so"
+    ],
+    [
+     "a parlé",
+     "talked"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s059_fr.mp3",
+    "en": "audio/s059_en.mp3",
+    "wd": "audio/s059_wd.mp3"
+   },
+   "ms": {
+    "fr": 8010,
+    "en": 6180,
+    "wd": 19850
+   },
+   "bank": {
+    "fr": [
+     1818450,
+     8010
+    ],
+    "en": [
+     1826860,
+     6180
+    ],
+    "wd": [
+     1833440,
+     19850
+    ],
+    "wp": [
+     [
+      1833440,
+      3550
+     ],
+     [
+      1837390,
+      3060
+     ],
+     [
+      1840850,
+      2690
+     ],
+     [
+      1843940,
+      3060
+     ],
+     [
+      1847400,
+      2270
+     ],
+     [
+      1850070,
+      2370
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« En mars, j'ai parlé de toi à ma mère. Trois phrases. »",
+   "en": "\"In March, I talked about you to my mother. Three sentences.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "En mars",
+     "in March"
+    ],
+    [
+     "j'ai parlé",
+     "I talked"
+    ],
+    [
+     "de toi",
+     "about you"
+    ],
+    [
+     "à ma mère",
+     "to my mother"
+    ],
+    [
+     "Trois phrases",
+     "three sentences"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s060_fr.mp3",
+    "en": "audio/s060_en.mp3",
+    "wd": "audio/s060_wd.mp3"
+   },
+   "ms": {
+    "fr": 5360,
+    "en": 4200,
+    "wd": 16790
+   },
+   "bank": {
+    "fr": [
+     1853690,
+     5360
+    ],
+    "en": [
+     1859450,
+     4200
+    ],
+    "wd": [
+     1864050,
+     16790
+    ],
+    "wp": [
+     [
+      1864050,
+      2790
+     ],
+     [
+      1867240,
+      2800
+     ],
+     [
+      1870440,
+      2640
+     ],
+     [
+      1873480,
+      2890
+     ],
+     [
+      1876770,
+      3220
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Une Française a perdu son parapluie dans l'Elbe. »",
+   "en": "\"A Frenchwoman lost her umbrella in the Elbe.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Une Française",
+     "a Frenchwoman"
+    ],
+    [
+     "a perdu",
+     "lost"
+    ],
+    [
+     "son parapluie",
+     "her umbrella"
+    ],
+    [
+     "dans l'Elbe",
+     "in the Elbe"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s061_fr.mp3",
+    "en": "audio/s061_en.mp3",
+    "wd": "audio/s061_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "en": 3150,
+    "wd": 13840
+   },
+   "bank": {
+    "fr": [
+     1881240,
+     3390
+    ],
+    "en": [
+     1885030,
+     3150
+    ],
+    "wd": [
+     1888580,
+     13840
+    ],
+    "wp": [
+     [
+      1888580,
+      3110
+     ],
+     [
+      1892090,
+      2600
+     ],
+     [
+      1895090,
+      3170
+     ],
+     [
+      1898660,
+      2910
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Elle n'a pas pleuré, elle s'est mise en colère. »",
+   "en": "\"She didn't cry, she got angry.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle n'a pas pleuré",
+     "she didn't cry"
+    ],
+    [
+     "elle s'est mise en colère",
+     "she got angry"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s062_fr.mp3",
+    "en": "audio/s062_en.mp3",
+    "wd": "audio/s062_wd.mp3"
+   },
+   "ms": {
+    "fr": 3440,
+    "en": 2680,
+    "wd": 8310
+   },
+   "bank": {
+    "fr": [
+     1902820,
+     3440
+    ],
+    "en": [
+     1906660,
+     2680
+    ],
+    "wd": [
+     1909740,
+     8310
+    ],
+    "wp": [
+     [
+      1909740,
+      3420
+     ],
+     [
+      1913560,
+      3640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Elle est seule, je crois. »",
+   "en": "\"She is alone, I think.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Elle est seule",
+     "she is alone"
+    ],
+    [
+     "je crois",
+     "I think"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s063_fr.mp3",
+    "en": "audio/s063_en.mp3",
+    "wd": "audio/s063_wd.mp3"
+   },
+   "ms": {
+    "fr": 2420,
+    "en": 2380,
+    "wd": 6860
+   },
+   "bank": {
+    "fr": [
+     1918450,
+     2420
+    ],
+    "en": [
+     1921270,
+     2380
+    ],
+    "wd": [
+     1924050,
+     6860
+    ],
+    "wp": [
+     [
+      1924050,
+      3060
+     ],
+     [
+      1927510,
+      2550
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke s'est arrêté. Il a regardé son bandage.",
+   "en": "Hauke stopped. He looked at his bandage.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "s'est arrêté",
+     "stopped"
+    ],
+    [
+     "Il a regardé",
+     "he looked at"
+    ],
+    [
+     "son bandage",
+     "his bandage"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s064_fr.mp3",
+    "en": "audio/s064_en.mp3",
+    "wd": "audio/s064_wd.mp3"
+   },
+   "ms": {
+    "fr": 4580,
+    "en": 3160,
+    "wd": 10520
+   },
+   "bank": {
+    "fr": [
+     1931310,
+     4580
+    ],
+    "en": [
+     1936290,
+     3160
+    ],
+    "wd": [
+     1939850,
+     10520
+    ],
+    "wp": [
+     [
+      1939850,
+      2720
+     ],
+     [
+      1942970,
+      2990
+     ],
+     [
+      1946360,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Puis Hauke a dit une quatrième phrase. Une phrase d'un seul mot.",
+   "en": "Then Hauke said a fourth sentence. A sentence of a single word.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "a dit",
+     "said"
+    ],
+    [
+     "une quatrième phrase",
+     "a fourth sentence"
+    ],
+    [
+     "Une phrase",
+     "a sentence"
+    ],
+    [
+     "d'un seul mot",
+     "of a single word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s065_fr.mp3",
+    "en": "audio/s065_en.mp3",
+    "wd": "audio/s065_wd.mp3"
+   },
+   "ms": {
+    "fr": 5000,
+    "en": 4410,
+    "wd": 16570
+   },
+   "bank": {
+    "fr": [
+     1950770,
+     5000
+    ],
+    "en": [
+     1956170,
+     4410
+    ],
+    "wd": [
+     1960980,
+     16570
+    ],
+    "wp": [
+     [
+      1960980,
+      2110
+     ],
+     [
+      1963490,
+      2220
+     ],
+     [
+      1966110,
+      3770
+     ],
+     [
+      1970280,
+      2860
+     ],
+     [
+      1973540,
+      3160
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "« Reste. »",
+   "en": "\"Stay.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Reste",
+     "stay"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s066_fr.mp3",
+    "en": "audio/s066_en.mp3",
+    "wd": "audio/s066_wd.mp3"
+   },
+   "ms": {
+    "fr": 1400,
+    "en": 1360,
+    "wd": 3130
+   },
+   "bank": {
+    "fr": [
+     1977950,
+     1400
+    ],
+    "en": [
+     1979750,
+     1360
+    ],
+    "wd": [
+     1981510,
+     3130
+    ],
+    "wp": [
+     [
+      1981510,
+      2280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Dans le couloir, un chariot est passé. Je n'ai rien dit.",
+   "en": "In the corridor, a trolley went by. I didn't say anything.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Dans le couloir",
+     "in the corridor"
+    ],
+    [
+     "un chariot",
+     "a trolley"
+    ],
+    [
+     "est passé",
+     "went by"
+    ],
+    [
+     "Je n'ai rien dit",
+     "I didn't say anything"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s067_fr.mp3",
+    "en": "audio/s067_en.mp3",
+    "wd": "audio/s067_wd.mp3"
+   },
+   "ms": {
+    "fr": 5590,
+    "en": 4410,
+    "wd": 14230
+   },
+   "bank": {
+    "fr": [
+     1985040,
+     5590
+    ],
+    "en": [
+     1991030,
+     4410
+    ],
+    "wd": [
+     1995840,
+     14230
+    ],
+    "wp": [
+     [
+      1995840,
+      3370
+     ],
+     [
+      1999610,
+      2780
+     ],
+     [
+      2002790,
+      2530
+     ],
+     [
+      2005720,
+      3500
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai pris la ficelle de la boîte de navettes.",
+   "en": "I took the string from the navettes box.",
+   "para": 6,
+   "glosses": [
+    {
+     "fr": "ficelle",
+     "en": "string"
+    }
+   ],
+   "words": [
+    [
+     "J'ai pris",
+     "I took"
+    ],
+    [
+     "la ficelle",
+     "the string"
+    ],
+    [
+     "de la boîte",
+     "from the box"
+    ],
+    [
+     "de navettes",
+     "of navettes"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s068_fr.mp3",
+    "en": "audio/s068_en.mp3",
+    "gl": "audio/s068_gl.mp3",
+    "wd": "audio/s068_wd.mp3"
+   },
+   "ms": {
+    "fr": 3390,
+    "en": 2630,
+    "gl": 3440,
+    "wd": 13480
+   },
+   "bank": {
+    "fr": [
+     2010470,
+     3390
+    ],
+    "en": [
+     2014260,
+     2630
+    ],
+    "gl": [
+     2017290,
+     3440
+    ],
+    "wd": [
+     2021130,
+     13480
+    ],
+    "wp": [
+     [
+      2021130,
+      2480
+     ],
+     [
+      2024010,
+      2850
+     ],
+     [
+      2027260,
+      3110
+     ],
+     [
+      2030770,
+      2990
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai attaché la boîte à la barre du lit.",
+   "en": "I tied the box to the bed rail.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai attaché",
+     "I tied"
+    ],
+    [
+     "la boîte",
+     "the box"
+    ],
+    [
+     "à la barre",
+     "to the rail"
+    ],
+    [
+     "du lit",
+     "of the bed"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s069_fr.mp3",
+    "en": "audio/s069_en.mp3",
+    "wd": "audio/s069_wd.mp3"
+   },
+   "ms": {
+    "fr": 3080,
+    "en": 2510,
+    "wd": 13330
+   },
+   "bank": {
+    "fr": [
+     2035010,
+     3080
+    ],
+    "en": [
+     2038490,
+     2510
+    ],
+    "wd": [
+     2041400,
+     13330
+    ],
+    "wp": [
+     [
+      2041400,
+      3040
+     ],
+     [
+      2044840,
+      2780
+     ],
+     [
+      2048020,
+      2820
+     ],
+     [
+      2051240,
+      2640
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Un nœud de chaise. Pas très beau. Mais il tenait.",
+   "en": "A bowline. Not very beautiful. But it held.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Un nœud de chaise",
+     "a bowline"
+    ],
+    [
+     "Pas très beau",
+     "not very beautiful"
+    ],
+    [
+     "Mais",
+     "but"
+    ],
+    [
+     "il tenait",
+     "it held"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s070_fr.mp3",
+    "en": "audio/s070_en.mp3",
+    "wd": "audio/s070_wd.mp3"
+   },
+   "ms": {
+    "fr": 5420,
+    "en": 3810,
+    "wd": 12660
+   },
+   "bank": {
+    "fr": [
+     2055130,
+     5420
+    ],
+    "en": [
+     2060949,
+     3810
+    ],
+    "wd": [
+     2065159,
+     12660
+    ],
+    "wp": [
+     [
+      2065159,
+      3060
+     ],
+     [
+      2068619,
+      3150
+     ],
+     [
+      2072169,
+      1920
+     ],
+     [
+      2074489,
+      2480
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke a regardé mon nœud pendant longtemps. Puis il a dit : « Pas mal. »",
+   "en": "Hauke looked at my knot for a long time. Then he said: \"Not bad.\"",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "a regardé",
+     "looked at"
+    ],
+    [
+     "mon nœud",
+     "my knot"
+    ],
+    [
+     "pendant longtemps",
+     "for a long time"
+    ],
+    [
+     "Puis",
+     "then"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ],
+    [
+     "Pas mal",
+     "not bad"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s071_fr.mp3",
+    "en": "audio/s071_en.mp3",
+    "wd": "audio/s071_wd.mp3"
+   },
+   "ms": {
+    "fr": 5490,
+    "en": 4580,
+    "wd": 18420
+   },
+   "bank": {
+    "fr": [
+     2078219,
+     5490
+    ],
+    "en": [
+     2084110,
+     4580
+    ],
+    "wd": [
+     2089090,
+     18420
+    ],
+    "wp": [
+     [
+      2089090,
+      2550
+     ],
+     [
+      2092040,
+      2520
+     ],
+     [
+      2094960,
+      3100
+     ],
+     [
+      2098460,
+      2110
+     ],
+     [
+      2100970,
+      2590
+     ],
+     [
+      2103960,
+      2700
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Une infirmière est entrée : la visite était finie.",
+   "en": "A nurse came in: visiting time was over.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Une infirmière",
+     "a nurse"
+    ],
+    [
+     "est entrée",
+     "came in"
+    ],
+    [
+     "la visite",
+     "the visit"
+    ],
+    [
+     "était finie",
+     "was over"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s072_fr.mp3",
+    "en": "audio/s072_en.mp3",
+    "wd": "audio/s072_wd.mp3"
+   },
+   "ms": {
+    "fr": 3940,
+    "en": 3130,
+    "wd": 13330
+   },
+   "bank": {
+    "fr": [
+     2107910,
+     3940
+    ],
+    "en": [
+     2112250,
+     3130
+    ],
+    "wd": [
+     2115780,
+     13330
+    ],
+    "wp": [
+     [
+      2115780,
+      3170
+     ],
+     [
+      2119350,
+      2540
+     ],
+     [
+      2122290,
+      2900
+     ],
+     [
+      2125590,
+      2670
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Sur la barre du lit, mon nœud tenait toujours.",
+   "en": "On the bed rail, my knot was still holding.",
+   "para": 6,
+   "glosses": [],
+   "words": [
+    [
+     "Sur la barre",
+     "on the rail"
+    ],
+    [
+     "du lit",
+     "of the bed"
+    ],
+    [
+     "mon nœud",
+     "my knot"
+    ],
+    [
+     "tenait toujours",
+     "was still holding"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s073_fr.mp3",
+    "en": "audio/s073_en.mp3",
+    "wd": "audio/s073_wd.mp3"
+   },
+   "ms": {
+    "fr": 3510,
+    "en": 3050,
+    "wd": 13470
+   },
+   "bank": {
+    "fr": [
+     2129510,
+     3510
+    ],
+    "en": [
+     2133420,
+     3050
+    ],
+    "wd": [
+     2136870,
+     13470
+    ],
+    "wp": [
+     [
+      2136870,
+      2980
+     ],
+     [
+      2140250,
+      2640
+     ],
+     [
+      2143290,
+      2520
+     ],
+     [
+      2146210,
+      3280
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le dimanche, ma mère a pleuré au téléphone. « Pour un homme qui dit un mot par jour ! »",
+   "en": "On Sunday, my mother cried on the phone. \"For a man who says one word a day!\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Le dimanche",
+     "on Sunday"
+    ],
+    [
+     "ma mère",
+     "my mother"
+    ],
+    [
+     "a pleuré",
+     "cried"
+    ],
+    [
+     "au téléphone",
+     "on the phone"
+    ],
+    [
+     "Pour un homme",
+     "for a man"
+    ],
+    [
+     "qui dit",
+     "who says"
+    ],
+    [
+     "un mot",
+     "one word"
+    ],
+    [
+     "par jour",
+     "a day"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s074_fr.mp3",
+    "en": "audio/s074_en.mp3",
+    "wd": "audio/s074_wd.mp3"
+   },
+   "ms": {
+    "fr": 6740,
+    "en": 4810,
+    "wd": 24930
+   },
+   "bank": {
+    "fr": [
+     2150740,
+     6740
+    ],
+    "en": [
+     2157880,
+     4810
+    ],
+    "wd": [
+     2163090,
+     24930
+    ],
+    "wp": [
+     [
+      2163090,
+      2820
+     ],
+     [
+      2166310,
+      2580
+     ],
+     [
+      2169290,
+      2480
+     ],
+     [
+      2172170,
+      2950
+     ],
+     [
+      2175520,
+      2830
+     ],
+     [
+      2178750,
+      2630
+     ],
+     [
+      2181780,
+      2460
+     ],
+     [
+      2184640,
+      2530
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit : « À l'hôpital, il en a dit trente-sept. Je les ai comptés. »",
+   "en": "I said: \"At the hospital, he said thirty-seven of them. I counted them.\"",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "À l'hôpital",
+     "at the hospital"
+    ],
+    [
+     "il en a dit",
+     "he said (of them)"
+    ],
+    [
+     "trente-sept",
+     "thirty-seven"
+    ],
+    [
+     "Je les ai comptés",
+     "I counted them"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s075_fr.mp3",
+    "en": "audio/s075_en.mp3",
+    "wd": "audio/s075_wd.mp3"
+   },
+   "ms": {
+    "fr": 6300,
+    "en": 5040,
+    "wd": 17160
+   },
+   "bank": {
+    "fr": [
+     2188420,
+     6300
+    ],
+    "en": [
+     2195120,
+     5040
+    ],
+    "wd": [
+     2200560,
+     17160
+    ],
+    "wp": [
+     [
+      2200560,
+      2500
+     ],
+     [
+      2203460,
+      3200
+     ],
+     [
+      2207060,
+      2960
+     ],
+     [
+      2210420,
+      2820
+     ],
+     [
+      2213640,
+      3230
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ma mère s'est tue. À Marseille, c'est rare.",
+   "en": "My mother went quiet. In Marseille, that's rare.",
+   "para": 7,
+   "glosses": [],
+   "words": [
+    [
+     "Ma mère",
+     "my mother"
+    ],
+    [
+     "s'est tue",
+     "went quiet"
+    ],
+    [
+     "À Marseille",
+     "in Marseille"
+    ],
+    [
+     "c'est rare",
+     "that's rare"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s076_fr.mp3",
+    "en": "audio/s076_en.mp3",
+    "wd": "audio/s076_wd.mp3"
+   },
+   "ms": {
+    "fr": 4640,
+    "en": 3680,
+    "wd": 13170
+   },
+   "bank": {
+    "fr": [
+     2218120,
+     4640
+    ],
+    "en": [
+     2223160,
+     3680
+    ],
+    "wd": [
+     2227240,
+     13170
+    ],
+    "wp": [
+     [
+      2227240,
+      2580
+     ],
+     [
+      2230220,
+      2720
+     ],
+     [
+      2233340,
+      2990
+     ],
+     [
+      2236730,
+      2830
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En novembre, j'ai cherché du travail.",
+   "en": "In November, I looked for work.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "En novembre",
+     "in November"
+    ],
+    [
+     "j'ai cherché",
+     "I looked for"
+    ],
+    [
+     "du travail",
+     "work"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s077_fr.mp3",
+    "en": "audio/s077_en.mp3",
+    "wd": "audio/s077_wd.mp3"
+   },
+   "ms": {
+    "fr": 3310,
+    "en": 2600,
+    "wd": 10200
+   },
+   "bank": {
+    "fr": [
+     2240810,
+     3310
+    ],
+    "en": [
+     2244520,
+     2600
+    ],
+    "wd": [
+     2247520,
+     10200
+    ],
+    "wp": [
+     [
+      2247520,
+      2960
+     ],
+     [
+      2250880,
+      2980
+     ],
+     [
+      2254260,
+      2610
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Au port de Hambourg, on a toujours besoin de quelqu'un qui traduit.",
+   "en": "In the port of Hamburg, they always need someone who translates.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Au port",
+     "in the port"
+    ],
+    [
+     "de Hambourg",
+     "of Hamburg"
+    ],
+    [
+     "on a toujours besoin",
+     "they always need"
+    ],
+    [
+     "de quelqu'un",
+     "someone"
+    ],
+    [
+     "qui traduit",
+     "who translates"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s078_fr.mp3",
+    "en": "audio/s078_en.mp3",
+    "wd": "audio/s078_wd.mp3"
+   },
+   "ms": {
+    "fr": 4580,
+    "en": 4110,
+    "wd": 17400
+   },
+   "bank": {
+    "fr": [
+     2258120,
+     4580
+    ],
+    "en": [
+     2263100,
+     4110
+    ],
+    "wd": [
+     2267610,
+     17400
+    ],
+    "wp": [
+     [
+      2267610,
+      2720
+     ],
+     [
+      2270730,
+      2930
+     ],
+     [
+      2274060,
+      3680
+     ],
+     [
+      2278140,
+      2490
+     ],
+     [
+      2281030,
+      3130
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "En janvier, je commence dans une compagnie maritime, près des Landungsbrücken. Moins bien payée.",
+   "en": "In January, I start at a shipping company, near the Landungsbrücken. Paid less.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "En janvier",
+     "in January"
+    ],
+    [
+     "je commence",
+     "I start"
+    ],
+    [
+     "dans une compagnie maritime",
+     "at a shipping company"
+    ],
+    [
+     "près des",
+     "near the"
+    ],
+    [
+     "Moins bien payée",
+     "paid less"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s079_fr.mp3",
+    "en": "audio/s079_en.mp3",
+    "wd": "audio/s079_wd.mp3"
+   },
+   "ms": {
+    "fr": 7970,
+    "en": 5690,
+    "wd": 18020
+   },
+   "bank": {
+    "fr": [
+     2285410,
+     7970
+    ],
+    "en": [
+     2293780,
+     5690
+    ],
+    "wd": [
+     2299870,
+     18020
+    ],
+    "wp": [
+     [
+      2299870,
+      2920
+     ],
+     [
+      2303190,
+      2950
+     ],
+     [
+      2306540,
+      4200
+     ],
+     [
+      2311140,
+      2380
+     ],
+     [
+      2313920,
+      3120
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Je n'aurai plus besoin du 62. Je le prendrai quand même. Vingt-cinq minutes, pour un mot.",
+   "en": "I won't need the 62 any more. I'll take it anyway. Twenty-five minutes, for one word.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Je n'aurai plus besoin",
+     "I won't need any more"
+    ],
+    [
+     "du 62",
+     "the 62"
+    ],
+    [
+     "Je le prendrai",
+     "I'll take it"
+    ],
+    [
+     "quand même",
+     "anyway"
+    ],
+    [
+     "Vingt-cinq minutes",
+     "twenty-five minutes"
+    ],
+    [
+     "pour un mot",
+     "for one word"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s080_fr.mp3",
+    "en": "audio/s080_en.mp3",
+    "wd": "audio/s080_wd.mp3"
+   },
+   "ms": {
+    "fr": 8380,
+    "en": 5860,
+    "wd": 21670
+   },
+   "bank": {
+    "fr": [
+     2318290,
+     8380
+    ],
+    "en": [
+     2327070,
+     5860
+    ],
+    "wd": [
+     2333330,
+     21670
+    ],
+    "wp": [
+     [
+      2333330,
+      3760
+     ],
+     [
+      2337490,
+      3240
+     ],
+     [
+      2341130,
+      2940
+     ],
+     [
+      2344470,
+      2520
+     ],
+     [
+      2347390,
+      3570
+     ],
+     [
+      2351360,
+      2790
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le premier lundi de décembre, à sept heures vingt, Hauke était de retour sur le 62.",
+   "en": "On the first Monday of December, at seven twenty, Hauke was back on the 62.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Le premier lundi",
+     "the first Monday"
+    ],
+    [
+     "de décembre",
+     "of December"
+    ],
+    [
+     "à sept heures vingt",
+     "at seven twenty"
+    ],
+    [
+     "était de retour",
+     "was back"
+    ],
+    [
+     "sur le 62",
+     "on the 62"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s081_fr.mp3",
+    "en": "audio/s081_en.mp3",
+    "wd": "audio/s081_wd.mp3"
+   },
+   "ms": {
+    "fr": 6120,
+    "en": 5510,
+    "wd": 18840
+   },
+   "bank": {
+    "fr": [
+     2355400,
+     6120
+    ],
+    "en": [
+     2361920,
+     5510
+    ],
+    "wd": [
+     2367830,
+     18840
+    ],
+    "wp": [
+     [
+      2367830,
+      3630
+     ],
+     [
+      2371860,
+      3040
+     ],
+     [
+      2375300,
+      3250
+     ],
+     [
+      2378950,
+      2930
+     ],
+     [
+      2382280,
+      3540
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Il avait encore une cicatrice sur la main droite. À Altona, il a fait son nœud.",
+   "en": "He still had a scar on his right hand. At Altona, he tied his knot.",
+   "para": 8,
+   "glosses": [
+    {
+     "fr": "cicatrice",
+     "en": "scar"
+    }
+   ],
+   "words": [
+    [
+     "Il avait encore",
+     "he still had"
+    ],
+    [
+     "une cicatrice",
+     "a scar"
+    ],
+    [
+     "sur la main droite",
+     "on his right hand"
+    ],
+    [
+     "À Altona",
+     "at Altona"
+    ],
+    [
+     "il a fait",
+     "he tied"
+    ],
+    [
+     "son nœud",
+     "his knot"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s082_fr.mp3",
+    "en": "audio/s082_en.mp3",
+    "gl": "audio/s082_gl.mp3",
+    "wd": "audio/s082_wd.mp3"
+   },
+   "ms": {
+    "fr": 6680,
+    "en": 4770,
+    "gl": 3890,
+    "wd": 20830
+   },
+   "bank": {
+    "fr": [
+     2387070,
+     6680
+    ],
+    "en": [
+     2394150,
+     4770
+    ],
+    "gl": [
+     2399320,
+     3890
+    ],
+    "wd": [
+     2403610,
+     20830
+    ],
+    "wp": [
+     [
+      2403610,
+      3310
+     ],
+     [
+      2407320,
+      3020
+     ],
+     [
+      2410740,
+      3560
+     ],
+     [
+      2414700,
+      2870
+     ],
+     [
+      2417970,
+      2650
+     ],
+     [
+      2421020,
+      2570
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le premier nœud a pris du temps. Le deuxième, à Dockland, non.",
+   "en": "The first knot took time. The second one, at Dockland, didn't.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Le premier nœud",
+     "the first knot"
+    ],
+    [
+     "a pris du temps",
+     "took time"
+    ],
+    [
+     "Le deuxième",
+     "the second one"
+    ],
+    [
+     "à Dockland",
+     "at Dockland"
+    ],
+    [
+     "non",
+     "didn't"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s083_fr.mp3",
+    "en": "audio/s083_en.mp3",
+    "wd": "audio/s083_wd.mp3"
+   },
+   "ms": {
+    "fr": 5880,
+    "en": 4800,
+    "wd": 16910
+   },
+   "bank": {
+    "fr": [
+     2424840,
+     5880
+    ],
+    "en": [
+     2431120,
+     4800
+    ],
+    "wd": [
+     2436320,
+     16910
+    ],
+    "wp": [
+     [
+      2436320,
+      3240
+     ],
+     [
+      2439960,
+      2820
+     ],
+     [
+      2443180,
+      3080
+     ],
+     [
+      2446660,
+      3110
+     ],
+     [
+      2450170,
+      2210
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Hauke m'a regardée, et il a dit : « Moin. » Et moi : « Moin. »",
+   "en": "Hauke looked at me, and he said: \"Moin.\" And me: \"Moin.\"",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "m'a regardée",
+     "looked at me"
+    ],
+    [
+     "il a dit",
+     "he said"
+    ],
+    [
+     "Et moi",
+     "and me"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s084_fr.mp3",
+    "en": "audio/s084_en.mp3",
+    "wd": "audio/s084_wd.mp3"
+   },
+   "ms": {
+    "fr": 5770,
+    "en": 4760,
+    "wd": 9270
+   },
+   "bank": {
+    "fr": [
+     2453630,
+     5770
+    ],
+    "en": [
+     2459800,
+     4760
+    ],
+    "wd": [
+     2464960,
+     9270
+    ],
+    "wp": [
+     [
+      2464960,
+      2760
+     ],
+     [
+      2468120,
+      2590
+     ],
+     [
+      2471110,
+      2270
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Mon carnet est resté dans le tiroir, avec une ficelle qui porte encore un nœud de chaise.",
+   "en": "My notebook stayed in the drawer, with a piece of string that still carries a bowline.",
+   "para": 8,
+   "glosses": [],
+   "words": [
+    [
+     "Mon carnet",
+     "my notebook"
+    ],
+    [
+     "est resté",
+     "stayed"
+    ],
+    [
+     "dans le tiroir",
+     "in the drawer"
+    ],
+    [
+     "une ficelle",
+     "a piece of string"
+    ],
+    [
+     "qui porte encore",
+     "that still carries"
+    ],
+    [
+     "un nœud de chaise",
+     "a bowline"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s085_fr.mp3",
+    "en": "audio/s085_en.mp3",
+    "wd": "audio/s085_wd.mp3"
+   },
+   "ms": {
+    "fr": 6060,
+    "en": 4820,
+    "wd": 21100
+   },
+   "bank": {
+    "fr": [
+     2474630,
+     6060
+    ],
+    "en": [
+     2481090,
+     4820
+    ],
+    "wd": [
+     2486310,
+     21100
+    ],
+    "wp": [
+     [
+      2486310,
+      2840
+     ],
+     [
+      2489550,
+      2480
+     ],
+     [
+      2492430,
+      3130
+     ],
+     [
+      2495960,
+      3260
+     ],
+     [
+      2499620,
+      3480
+     ],
+     [
+      2503500,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Le soir, ma mère a téléphoné. Elle a demandé, comme toujours : « Et il pleut encore ? »",
+   "en": "In the evening, my mother phoned. She asked, as always: \"And is it still raining?\"",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Le soir",
+     "in the evening"
+    ],
+    [
+     "ma mère",
+     "my mother"
+    ],
+    [
+     "a téléphoné",
+     "phoned"
+    ],
+    [
+     "Elle a demandé",
+     "she asked"
+    ],
+    [
+     "comme toujours",
+     "as always"
+    ],
+    [
+     "il pleut",
+     "it is raining"
+    ],
+    [
+     "encore",
+     "still"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s086_fr.mp3",
+    "en": "audio/s086_en.mp3",
+    "wd": "audio/s086_wd.mp3"
+   },
+   "ms": {
+    "fr": 7480,
+    "en": 5500,
+    "wd": 22250
+   },
+   "bank": {
+    "fr": [
+     2507810,
+     7480
+    ],
+    "en": [
+     2515690,
+     5500
+    ],
+    "wd": [
+     2521590,
+     22250
+    ],
+    "wp": [
+     [
+      2521590,
+      2750
+     ],
+     [
+      2524740,
+      2580
+     ],
+     [
+      2527720,
+      2610
+     ],
+     [
+      2530730,
+      2900
+     ],
+     [
+      2534030,
+      2980
+     ],
+     [
+      2537410,
+      2740
+     ],
+     [
+      2540550,
+      2440
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Par la fenêtre, la pluie tombait sur le port.",
+   "en": "Through the window, the rain was falling on the harbour.",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Par la fenêtre",
+     "through the window"
+    ],
+    [
+     "la pluie",
+     "the rain"
+    ],
+    [
+     "tombait",
+     "was falling"
+    ],
+    [
+     "sur le port",
+     "on the harbour"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s087_fr.mp3",
+    "en": "audio/s087_en.mp3",
+    "wd": "audio/s087_wd.mp3"
+   },
+   "ms": {
+    "fr": 3610,
+    "en": 3370,
+    "wd": 13270
+   },
+   "bank": {
+    "fr": [
+     2544240,
+     3610
+    ],
+    "en": [
+     2548250,
+     3370
+    ],
+    "wd": [
+     2552020,
+     13270
+    ],
+    "wp": [
+     [
+      2552020,
+      3050
+     ],
+     [
+      2555470,
+      2560
+     ],
+     [
+      2558430,
+      2550
+     ],
+     [
+      2561380,
+      3060
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "J'ai dit : « Oui. Viens voir. »",
+   "en": "I said: \"Yes. Come and see.\"",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "J'ai dit",
+     "I said"
+    ],
+    [
+     "Oui",
+     "yes"
+    ],
+    [
+     "Viens voir",
+     "come and see"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s088_fr.mp3",
+    "en": "audio/s088_en.mp3",
+    "wd": "audio/s088_wd.mp3"
+   },
+   "ms": {
+    "fr": 3970,
+    "en": 3300,
+    "wd": 9360
+   },
+   "bank": {
+    "fr": [
+     2565690,
+     3970
+    ],
+    "en": [
+     2570060,
+     3300
+    ],
+    "wd": [
+     2573760,
+     9360
+    ],
+    "wp": [
+     [
+      2573760,
+      2500
+     ],
+     [
+      2576660,
+      2190
+     ],
+     [
+      2579250,
+      3020
+     ]
+    ]
+   }
+  },
+  {
+   "fr": "Ma mère arrive le vingt-trois décembre. Elle va parler pour trois. Hauke va dire « Moin ».",
+   "en": "My mother arrives on the twenty-third of December. She's going to talk for three. Hauke is going to say \"Moin\".",
+   "para": 9,
+   "glosses": [],
+   "words": [
+    [
+     "Ma mère",
+     "my mother"
+    ],
+    [
+     "arrive",
+     "arrives"
+    ],
+    [
+     "le vingt-trois décembre",
+     "on the twenty-third of December"
+    ],
+    [
+     "Elle va parler",
+     "she's going to talk"
+    ],
+    [
+     "pour trois",
+     "for three"
+    ],
+    [
+     "va dire",
+     "is going to say"
+    ]
+   ],
+   "audio": {
+    "fr": "audio/s089_fr.mp3",
+    "en": "audio/s089_en.mp3",
+    "wd": "audio/s089_wd.mp3"
+   },
+   "ms": {
+    "fr": 7860,
+    "en": 6710,
+    "wd": 21280
+   },
+   "bank": {
+    "fr": [
+     2583520,
+     7860
+    ],
+    "en": [
+     2591780,
+     6710
+    ],
+    "wd": [
+     2598890,
+     21280
+    ],
+    "wp": [
+     [
+      2598890,
+      2580
+     ],
+     [
+      2601870,
+      2530
+     ],
+     [
+      2604800,
+      4250
+     ],
+     [
+      2609450,
+      3230
+     ],
+     [
+      2613080,
+      2780
+     ],
+     [
+      2616260,
+      3060
+     ]
+    ]
+   }
+  }
+ ],
+ "bank": {
+  "file": "bank.m4a",
+  "intro": [
+   400,
+   20870
+  ],
+  "silence": [
+   21670,
+   30000
+  ]
+ }
+}
