@@ -203,6 +203,7 @@ body.library main > :not(#libPage), body:not(.library) #libPage { display:none !
 #sheet button.x { text-align:center; border:none; background:none; color:var(--muted); }
 .later { color:var(--muted); white-space:nowrap; }
 .shelf-row { align-items:center; gap:12px; width:100%; text-align:left; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:14px; padding:12px 14px; margin-top:8px; cursor:pointer; font:inherit; }
+.shelf-row .cov { width:60px; height:60px; border-radius:10px; object-fit:cover; flex:none; }
 .shelf-row .t { flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
 .shelf-row b { font-size:16px; }
 .shelf-row .why { font-size:13px; color:var(--accent); }
@@ -405,7 +406,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.162";
+const VERSION = "web 0.163";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -961,6 +962,10 @@ const isLesson = s => s.series === "Daily scenarios";
 const THEMES = { default: "Default", nare: "Nare's 🌸" };
 const theme = () => { const t = store.get("theme", /^nare\b/i.test(store.get("name", "").trim()) ? "nare" : "default"); return THEMES[t] ? t : "default"; };
 let COVERS = {};
+// picture covers on the home screen (Arevik asked for pictures, 2026-11-25): covers.json "pics" = {id prefix: image}
+let PICS = {};
+fresh("covers.json").then(r => r.json()).then(j => { PICS = j.pics || {}; if (Object.keys(PICS).length && catalog.length) renderShelf(); }).catch(() => {});
+const picOf = c => { const k = Object.keys(PICS).find(p => c.id.startsWith(p)); return k ? PICS[k] : ""; };
 function applyTheme() {
   document.documentElement.dataset.theme = theme();
   if (theme() === "nare" && !Object.keys(COVERS).length)
@@ -1228,7 +1233,7 @@ function renderShelf() {
   // nearest level first; one level above beats two below (same order as pickStart)
   const dist = c => { const d = rk(c) - near; return d >= 0 ? 2 * d : -3 * d - 1; };
   mine.filter(c => !c.series || +c.episode === 1).sort((a, b) => dist(a) - dist(b)).forEach(c => picks.length < 3 && add(c, "new for you"));
-  const row = (c, why, extra) => `<button class="shelf-row" data-open="${c.id}"><span class="t"><b>${esc(c.title)}</b>` +
+  const row = (c, why, extra) => `<button class="shelf-row" data-open="${c.id}">${picOf(c) ? `<img class="cov" alt="" src="${picOf(c)}">` : ""}<span class="t"><b>${esc(c.title)}</b>` +
     `<span class="muted">${c.title_en ? esc(c.title_en) + " · " : ""}${c.series ? `ep. ${c.episode} · ` : ""}${c.level} · ~${c.minutes} min${knownTxt(c)}</span>` +
     (why ? `<span class="why">${why}</span>` : "") + (extra || "") + `</span><span class="play">▶</span></button>`;
   const pct = cont ? Math.round(100 * (store.get("pos_" + cont.id, 0) + 1) / (cont.phrases || 1)) : 0;
