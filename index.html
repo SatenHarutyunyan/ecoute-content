@@ -302,6 +302,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
     <div class="pfoot">
       <button class="chip" id="restart"><span data-i="start"></span>From the start</button>
       <button class="chip" id="voice"><span data-i="mic"></span><span id="voiceLabel">Voice: off</span></button>
+      <button class="chip" id="speed" aria-label="Speed of the story voice"></button>
     </div>
     <div class="muted" id="voiceHint" style="text-align:center;margin-top:8px"></div>
   </div>
@@ -406,7 +407,7 @@ label.opt { display:flex; gap:10px; align-items:flex-start; margin-top:12px; }
 </main>
 <audio id="audio" preload="auto"></audio>
 <script>
-const VERSION = "web 0.164";
+const VERSION = "web 0.165";
 // which app build this page runs in (testers mixed up TestFlight and Mac-installed builds, 2026-11-22): shown at the
 // bottom of Settings and sent with every Sheet row ("web 0.118 · App 1.0 (6) TestFlight"). Last known value first.
 let APP_BUILD = (() => { try { return JSON.parse(localStorage.getItem("app_build")) || ""; } catch { return ""; } })();
@@ -568,6 +569,15 @@ const gapKey = () => { const k = store.get("gap", store.get("gap_" + lang, "medi
 // used automatically (Saten). The route isn't known once echo cancelling is off, so this holds with earbuds too.
 const voiceSpeaker = () => { try { return !!V.on; } catch { return false; } };  // V comes later in the file
 const gapNow = () => voiceSpeaker() ? "long" : gapKey();
+// Speed (Arshile, 2026-11-27: wants the slow version back): only the story-language voice slows down, pitch kept;
+// the English and the pauses stay as they are. Replaces the old slowed TTS copy (removed 2026-11-22, it sounded odd).
+const SPEEDS = [1, 0.85, 0.7];
+const speed = () => { const v = +store.get("speed", 1); return SPEEDS.includes(v) ? v : 1; };
+const rateAt = (j, start) => {  // the rate for a range starting at `start` (ms) in phrase j: slow only inside its target clip
+  const b = story && story.segments[j] && story.segments[j].bank;
+  return b && b.fr && start >= b.fr[0] - PRE - 50 && start < b.fr[0] + b.fr[1] ? speed() : 1;
+};
+function renderSpeed() { $("speed").textContent = (speed() === 1 ? "Speed 1×" : "🐢 " + speed() + "×"); $("speed").classList.toggle("on", speed() !== 1); }
 const regap = () => { if (story && seg >= 0) { steps = stepsFor(seg, pattern()); step = Math.min(step, steps.length - 1); NQ.stale = true; } };
 // Word by word in Step by step (J10, Saten 2026-11-22): one tap per word (default) or all the pairs in one go
 const wordsAll = () => store.get("words_all", false);
@@ -636,7 +646,7 @@ const storyPause = () => NATIVE_PLAYER ? NATIVE_PLAYER.pause().catch(() => {}) :
 function nativePlay(one) {  // from phrase `seg`, step `step`; `one` = just this step (Step by step)
   const items = [], n = story.segments.length;
   for (const k in KIND_AT) if (+k > seg) delete KIND_AT[k];  // decide the rest again with what we know now
-  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: Math.max(0, r[0] - PRE), d: Math.max(50, r[1] - 350 + PRE), seg: j, step: from + m }));
+  const add = (j, list, from) => list.slice(from).forEach((r, m) => items.push({ s: Math.max(0, r[0] - PRE), d: Math.max(50, r[1] - 350 + PRE), seg: j, step: from + m, r: rateAt(j, r[0]) }));
   add(seg, steps, step);
   if (one) items.length = Math.min(items.length, 1);
   else for (let j = seg + 1; j < Math.min(n, seg + QUEUE_PHRASES); j++) add(j, stepsFor(j, pattern()), 0);
@@ -699,10 +709,12 @@ const PRE = 150;
 let rangeStart = 0;
 function playRange([start, dur]) {
   rangeStart = start; try { listened(dur); } catch {}
+  const rate = rateAt(seg, start);
+  audio.preservesPitch = true; audio.playbackRate = rate;
   audio.currentTime = Math.max(0, start - PRE) / 1000;
   stopAt = start + dur - 350;   // stop inside the clip's trailing silence; timeupdate is coarse in background
   clearTimeout(timer);
-  timer = setTimeout(tick, dur - 300);
+  timer = setTimeout(tick, (dur - 300) / rate);
   if (audio.paused) audio.play().catch(() => {});
 }
 
@@ -1657,6 +1669,17 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
   store.set("tab_" + lang, b.dataset.tab); log("tab", { tab: b.dataset.tab }); renderStories();
 });
 $("restart").onclick = restartStory;
+$("speed").onclick = () => {  // 1× → 0.85× → 0.7× → 1×; from the next phrase (now, if the story voice is talking)
+  const v = SPEEDS[(SPEEDS.indexOf(speed()) + 1) % SPEEDS.length];
+  store.set("speed", v); log("speed", { speed: v }); renderSpeed();
+  if (!story) return;
+  if (NATIVE_PLAYER) NQ.stale = true;
+  else if (!audio.paused) {
+    const rate = rateAt(seg, rangeStart);
+    audio.playbackRate = rate; clearTimeout(timer); timer = setTimeout(tick, Math.max(50, (stopAt - audio.currentTime * 1000) / rate));
+  }
+};
+renderSpeed();
 const showVer = () => { $("ver").textContent = (APP_BUILD ? APP_BUILD + " · " : "") + VERSION; };
 showVer();
 // ---------- onboarding (Saten, 2026-11-20): name -> language -> level -> a 4-line joke, 2 lines Step by step and 2 Continuous
